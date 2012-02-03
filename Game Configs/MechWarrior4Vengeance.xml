@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>MechWarrior 4: Vengeance</title>
+	<root path="%PROGRAMFILES%\Microsoft Games\MechWarrior Vengeance" />
+	<save path="resource\pilots" />
+	<save path="resource\variants" />
+	<save path="" filename="options.ini" />
+</game_data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Counter-Strike: Condition Zero</title>
+	<root path="%STEAMUSER%\condition zero" />
+	<save path="czero\SAVE" />
+</game_data>

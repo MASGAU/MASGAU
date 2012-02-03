@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Tomb Raider III: The Lost Artifact</title>
+	<root path="%PROGRAMFILES%\Core Design\Tomb Raider - The Lost Artifact" />
+	<save path="" filename="savegame.*" />
+</game_data>

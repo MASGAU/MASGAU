@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Thief II: The Metal Age</title>
+	<root path="%DRIVE%\Games\Thief2" />
+	<save path="SAVES" filename="*.sav" />
+	<save path="" filename="*.sav" />
+	<save path="" filename="user.bnd" />
+	<save path="" filename="USER.CFG" />
+</game_data>

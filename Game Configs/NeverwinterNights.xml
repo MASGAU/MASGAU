@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Neverwinter Nights</title>
+	<root path="%DRIVE%\NeverwinterNights" />
+	<save path="NWN\dmvault" />
+	<save path="NWN\localvault" />
+	<save path="NWN\saves" />
+	<save path="NWN\servervault" />
+	<save path="NWN" filename="nwn.ini" />
+	<save path="NWN" filename="nwnplayer.ini" />
+</game_data>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Jade Empire</title>
+	<root path ="%STEAMCOMMON%\jade empire" />
+	<save path="Save" />
+	<save path="" filename="*.ini" />
+</game_data>

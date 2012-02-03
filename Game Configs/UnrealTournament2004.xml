@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Unreal Tournament 2004</title>
+	<root path="%DRIVE%\UT2004" />
+	<save path="Saves" />
+	<save path="System" filename="*.ini" />
+</game_data>

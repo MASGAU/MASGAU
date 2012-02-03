@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Anachronox</title>
+	<root path="%DRIVE%\Anachronox" />
+	<save path="anoxdata\SAVE" />
+</game_data>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Doom 3</title>
+	<root path="%PROGRAMFILES%\DOOM 3" />
+	<save path="base\savegames" />
+	<virtualstore override="yes" />
+</game_data>

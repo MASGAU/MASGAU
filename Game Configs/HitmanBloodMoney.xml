@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Hitman: Blood Money</title>
+	<root path="%USERDOCUMENTS%\Hitman Blood Money" />
+	<save path="Profiles" />
+</game_data>

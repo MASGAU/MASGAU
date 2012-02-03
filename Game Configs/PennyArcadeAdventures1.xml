@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode One</title>
+	<root path="%LOCALAPPDATA%\HotheadGames\RainSlickEp1" />
+	<save path="" filename="*.sav" />
+	<save path="" filename="prefs.cs" />
+</game_data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Omikron: The Nomad Soul</title>
+	<root path="%PROGRAMFILES%\Eidos Interactive\Quantic Dream\Omikron The Nomad Soul" />
+	<save path="IAM" filename="GAMES" />
+</game_data>

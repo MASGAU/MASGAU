@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Sin Episodes: Emergence</title>
+	<root path="%STEAMUSER%\sin episodes emergence" />
+	<save path="SE1\SAVE" />
+</game_data>

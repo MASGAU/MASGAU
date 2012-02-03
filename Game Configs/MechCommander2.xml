@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>MechCommander 2</title>
+	<root path="%PROGRAMFILES%\Microsoft Games\MechCommander2" />
+	<save path="data\savegame" />
+	<save path="" filename="*.cfg" />
+</game_data>

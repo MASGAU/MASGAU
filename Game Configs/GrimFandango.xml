@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Grim Fandango</title>
+	<root path="%PROGRAMFILES%\Lucasarts\Grim" />
+	<save path="" filename="*.gsv" />
+	<virtualstore override="yes" />
+</game_data>

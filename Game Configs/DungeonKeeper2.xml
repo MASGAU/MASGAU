@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Dungeon Keeper II</title>
+	<root path="%PROGRAMFILES%\Bullfrog\Dungeon Keeper II" />
+	<save path="Data\Save" />
+</game_data>

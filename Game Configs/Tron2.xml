@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+
+<game_data>
+	<title>Tron 2.0</title>
+	<root path="%PROGRAMFILES%\Buena Vista Interactive\Tron 2.0" />
+	<save path="Profiles" />
+	<save path="Save" />
+	<save path="" filename="display.cfg" />
+	
+</game_data>

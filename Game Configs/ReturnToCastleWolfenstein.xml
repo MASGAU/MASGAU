@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Return to Castle Wolfenstein</title>
+	<root path="%PROGRAMFILES%\Return to Castle Wolfenstein" />
+	<save path="Main\save" />
+	<save path="Main" filename="wolfconfig.cfg" />
+</game_data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Vampire: The Masquerade - Bloodlines</title>
+	<root path="%STEAMCOMMON%\vampire the masquerade - bloodlines" />
+	<save path="Vampire\SAVE" />
+</game_data>

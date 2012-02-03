@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Descent 3</title>
+	<root path="%DRIVE%\Games\Descent3" />
+	<save path="savegame" />
+	<save path="" filename="*.plt" />
+</game_data>

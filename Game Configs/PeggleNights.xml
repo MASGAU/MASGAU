@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Peggle Nights</title>
+	<root path="%ALLUSERSPROFILE%\Steam\PeggleNights" />
+	<root path="%ALLUSERSPROFILE%\PopCapGames\PeggleNights" />
+	<root path="%STEAMCOMMON%\peggle nights" />
+	<save path="userdata" />
+</game_data>

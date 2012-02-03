@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Peggle Extreme</title>
+	<root path="%ALLUSERSPROFILE%\Steam\PeggleExtreme" />
+	<root path="%STEAMCOMMON%\peggle extreme" />
+	<save path="userdata" />
+</game_data>

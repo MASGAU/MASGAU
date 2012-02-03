@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+
+<game_data>
+	<title>Myst III: Exile</title>
+	<root path="%PROGRAMFILES%\Ubi Soft\Myst III Exile" />
+	<save path="Saved Games" />
+	<save path="bin" filename="M3prefs.m3p" />
+</game_data>

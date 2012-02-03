@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauFrontend", "MasgauFrontend\MasgauFrontend.csproj", "{700D0483-D96A-49B6-96B9-ADC948E1A146}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66} = {DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MasgauInstaller", "MasgauInstaller\MasgauInstaller.vdproj", "{AAE1212D-E4BF-4E66-A07E-EC7D95E729EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{700D0483-D96A-49B6-96B9-ADC948E1A146} = {700D0483-D96A-49B6-96B9-ADC948E1A146}
+		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66} = {DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauBackend", "MasgauBackend\MasgauBackend.csproj", "{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{700D0483-D96A-49B6-96B9-ADC948E1A146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700D0483-D96A-49B6-96B9-ADC948E1A146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700D0483-D96A-49B6-96B9-ADC948E1A146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700D0483-D96A-49B6-96B9-ADC948E1A146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE1212D-E4BF-4E66-A07E-EC7D95E729EF}.Debug|Any CPU.ActiveCfg = Debug
+		{AAE1212D-E4BF-4E66-A07E-EC7D95E729EF}.Release|Any CPU.ActiveCfg = Release
+		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

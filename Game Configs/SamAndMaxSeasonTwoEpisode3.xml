@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+
+<game_data>
+	<title>Sam &amp; Max Season Two Episode 3 - Night of the Raving Dead</title>
+	<root path="%PROGRAMFILES%\Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead" />
+	<save path="" filename="*.save" />
+	<save path="" filename="prefs.prop" />
+</game_data>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Fallout 3</title>
+	<root path="%USERDOCUMENTS%\My Games\Fallout3" />
+	<save path="Saves" />
+	<save path="" filename="*.ini" />
+</game_data>

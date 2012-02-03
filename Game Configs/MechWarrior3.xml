@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>MechWarrior 3</title>
+	<root path="%DRIVE%\MicroProse\MechWarrior3" />
+	<save path="pilots" />
+	<save path="configs" />
+</game_data>

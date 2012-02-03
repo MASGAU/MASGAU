@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Hitman 2: Silent Assassin</title>
+	<root path="%PROGRAMFILES%\Eidos Interactive\Hitman 2 Silent Assassin" />
+	<save path="Save" />
+	<save path="" filename="Hitman2.ini" />
+	<save path="" filename="Keyboard.cfg" />
+</game_data>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Deus Ex</title>
+	<root path="%DRIVE%\DeusEx" />
+	<root path="%STEAMCOMMON%\deus ex" />
+	<save path="Save" />
+	<save path="System" filename="*.ini" />
+</game_data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Tomb Raider: Angel of Darkness</title>
+	<root path="%PROGRAMFILES%\Eidos Interactive\TRAOD" />
+	<save path="SaveGame" />
+</game_data>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Penumbra: Requiem</title>
+	<root path="%USERDOCUMENTS%\Penumbra\Requiem" />
+	<save path="save" />
+	<save path="" filename="settings.cfg" />
+</game_data>

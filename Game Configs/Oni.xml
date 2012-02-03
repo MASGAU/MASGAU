@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Oni</title>
+	<root path="%PROGRAMFILES%\Oni" />
+	<save path="" filename="key_config.txt" />
+	<save path="" filename="persist.dat" />
+</game_data>

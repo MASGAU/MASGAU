@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Half-Life 2: Episode One</title>
+	<root path="%STEAMUSER%\half-life 2 episode one" />
+	<save path="episodic\SAVE" />
+</game_data>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Quake 4</title>
+	<root path="%PROGRAMFILES%\id Software\Quake 4" />
+	<save path="q4base\savegames" />
+	<virtualstore override="yes" />
+</game_data>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>F.E.A.R.: First Encounter Assault Recon</title>
+	<root path="%PUBLIC%\Documents\Monolith Productions\FEAR" />
+	<save path="Save" />
+	<save path="Profiles" />
+	<save path="" filename="settings.cfg" />
+	
+</game_data>

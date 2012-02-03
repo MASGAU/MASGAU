@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Heavy Metal: FAKK 2</title>
+	<root path="%PROGRAMFILES%\Ritual Entertainment\Heavy Metal - FAKK2" />
+	<save path="fakk" filename="config.cfg" />
+	<save path="fakk\save" />
+</game_data>

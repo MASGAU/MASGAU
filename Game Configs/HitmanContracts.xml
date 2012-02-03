@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Hitman: Contracts</title>
+	<root path="%PROGRAMFILES%\Eidos\Hitman Contracts" />
+	<save path="Save" />
+	<save path="" filename="HitmanContracts.ini" />
+	<save path="" filename="HitmanContracts.cfg" />
+</game_data>

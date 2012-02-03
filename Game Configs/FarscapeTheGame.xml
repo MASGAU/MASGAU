@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Farscape The Game</title>
+	<root path="%PROGRAMFILES%\Farscape The Game" />
+	<save path="" filename="options.lua" />
+	<save path="Save Games" />
+</game_data>

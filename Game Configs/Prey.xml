@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Prey</title>
+	<root path="%USERDOCUMENTS%\My Games\PREY" />
+	<save path="base\savegames" />
+</game_data>

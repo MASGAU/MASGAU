@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>X2: The Threat</title>
+	<root path="%STEAMCOMMON%\x2 - the threat" />
+	<save path="" filename="*.sav" />
+</game_data>

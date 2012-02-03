@@ -1,0 +1,29 @@
+# Visual Studio build folders #
+bin/
+obj/
+
+# MonoDevelop files
+*.pidb
+
+# Mac files 
+.DS_Store
+
+# Installer output #
+Installer/Output
+
+# PortableApps-related files
+*.paf.exe
+MASGAU.Portable/App/MASGAU/*
+MASGAU.Portable/Data/*
+MASGAU.Main.WPF/Data/
+
+# MASGAU binaries #
+MASGAU.*.exe
+MASGAU.*.dll
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db

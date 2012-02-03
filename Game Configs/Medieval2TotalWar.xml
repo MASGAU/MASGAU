@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Medieval II Total War</title>
+	<root path="%PROGRAMFILES%\SEGA\Medieval II Total War" />
+	<save path="saves" />
+	<save path="preferences" />
+</game_data>

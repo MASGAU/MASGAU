@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Myst IV: Revelation</title>
+	<root path="%PROGRAMFILES%\Ubisoft\Myst IV - Revelation" />
+	<save path="save" />
+</game_data>

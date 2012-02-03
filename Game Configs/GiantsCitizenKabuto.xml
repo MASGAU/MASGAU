@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Giants: Citizen Kaubto</title>
+	<root path="%PROGRAMFILES%\Giants" />
+	<save path="savegame" />
+</game_data>
