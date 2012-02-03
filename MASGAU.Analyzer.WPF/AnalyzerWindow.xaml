@@ -1,8 +1,8 @@
-﻿<src:AWindow x:Class="MASGAU.Analyzer.AnalyzerWindow"
+﻿<src:AProgramWindow x:Class="MASGAU.Analyzer.AnalyzerWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
             xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
-        Title="MASGAU Save Game Analyzer" Loaded="Window_Loaded" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" MaxWidth="1000" SizeToContent="WidthAndHeight" MinWidth="600">
+        Title="MASGAU Save Game Analyzer" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" MaxWidth="1000" SizeToContent="WidthAndHeight" MinWidth="600">
     <Grid Grid.IsSharedSizeScope="True">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="539*" />
@@ -118,4 +118,4 @@
             </TabItem>
         </TabControl>
     </Grid>
-</src:AWindow>
+</src:AProgramWindow>

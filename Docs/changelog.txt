@@ -1,11 +1,12 @@
-﻿TODO: Add every open source game you can think of - save for updates
-TODO: Assassin's Creed 2 and other stuff like that
-TODO: Confirm new restore code properly handles being denied write access
-TODO: Add logging for all errors and messages?
-TODO: Double check appdata priorities
-0.9.1 - Independent Evolution
+=0.9.2 - Portable Evolution=
+* Fixed a bug when restoring to a game in an Alt. Install Path
+* Changed Steam EV to have priority over program files EV
+* Change to remove old location handler when resetting the handler
+
+=0.9.1 - Independent Evolution=
 * Added client code for the new automatically generating update server
-0.9 - Beta in mind
+
+=0.9 - Beta in mind=
 * Change Analyzer to disable entire interface while e-mailing
 * Changed analyzer to e-mail masgausubmissions@gmail.com instead of my personal address
 * Added startup check to monitor to exit the program if a detected monitor is already running.
@@ -23,7 +24,8 @@ TODO: Double check appdata priorities
 * Little things
 * Big things
 * SUPPORT FOR DAIKATANA! BOOYAH!
-v.0.8 - Beta in spirit
+
+=v.0.8 - Beta in spirit=
 * Added a contribution counter to the about tab. So cool.
 * Added the ability to sort the games list both ascending and descending
 * Fixed detection of Playstation saves on memory sticks formatted as "FAT" (Fix contributed by duncans_pumpkin)
@@ -79,249 +81,11 @@ v.0.8 - Beta in spirit
 * Fixed a crash when trying to restore a game with a name MASGAU doesn't know
 * Added an alert when a new version of MASGAU is available
 * A bunch of other things that I didn't keep track of
-New System Files
-* Raptr Data - Contributed by Arc Angel
-New Windows Games
-* AaaaaAAaaaAAAaaAAAAaAAAAA!!! - Contributed by duncans_pumpkin
-* Age of Empires 3 - Contributed by SamuelTaylor
-* Alien Breed: Impact - Contributed by Arc Angel
-* Alien Breed 2: Assault - Contributed by Arc Angel
-* Aliens vs. Predator 2
-* Aliens vs. Predator 2: Primal Hunt
-* Alien Shooter 2: Reloaded - Contributed by Arc Angel
-* Alone in the Dark: The new Nightmare - GoG only
-* Alpha Protocol - Contributed by Arc Angel
-* Amnesia: The Dark Descent - Contributed by Arc Angel
-* Anno 1401 - contributed by Caleb Love
-* Aquanox
-* Aquanox 2: Revelation
-* Aquaria - Contributed by Dwight Holman
-* Arcanum: Of Steamworks and Migick Obscura - GoG only
-* ArmA: Combat Operations - Contributed by arc Angel
-* The Ball - Contributed by Arc Angel
-* Battlefield: Bad Company 2 - Contributed by arc Angel
-* Beneath a Steel Sky - GoG only
-* Bioshock 2 - Contributed by H?rd Kr??
-* Black Mirror 2 - Contributed by Arc Angel
-* Blacklight: Tango Down - Contributed by Arc Angel
-* Blood II: The Chosen - GoG only
-* Blood Stone 007 - Contributed by Arc Angel
-* BloodRayne - GoG only
-* BloodRayne 2 - GoG only
-* Borderlands - Contributed by Arc Angel
-* Broken Sword: Shadow of the Templars - The Director's Cut
-* Broken Sword II: The Smoking Mirror - GoG only
-* Broken Sword: The Sleeping Dragon - GoG only
-* Bully - Contributed by Arc Angel
-* Burnout: Paradise - Contributed by Arc Angel
-* Call of Cthulhu: Dark Corners of the Earth - Contributed by Arc Angel
-* Call of Duty - Steam only - Contributed by Arc Angel
-* Call of Duty: United Offensive - Steam only - Contributed by Arc Angel
-* Call of Duty 2 - Steam only - Contributed by Arc Angel
-* Call of Duty: Modern Warfare 2 - Steam only - Contributed by Arc Angel
-* Chaser - Steam only - Contributed by Arc Angel
-* Chrome - Contributed by Arc Angel
-* Chrome: SpecForce - Contributed by Arc Angel
-* Crystals of Arborea - GoG only
-* Sid Meier's Civilization V
-* Command & Conquer 4: Tiberian Twilight - Vista & 7 only - Contributed by H?rd Kr??
-* Company of Heroes - Contributed by Arc Angel
-* Cryostasis - Contributed by Arc Angel
-* Crysis Warhead - Contributed by Arc Angel
-* Cyberstorm 
-* Cyberstorm 2
-* Dark Fall: The Journal
-* Dark Fall 2: Lights Out
-* Dark Horizon - Contributed by Arc Angel
-* Dark Sector - Contributed by Arc Angel
-* Darkest of Days - Contributed by Arc Angel
-* Darkness Within 2 - Contributed by Arc Angel
-* Darksiders - Contributed by Arc Angel
-* Darkstar One - GoG only
-* Dead Space - Contributed by Arc Angel
-* Death to Spies: Moment of Truth - Contributed by Arc Angel
-* Deus - GoG only
-* Diablo - Contributed by Mark Barbour
-* Diablo: Hellfire - Contributed by Mark Barbour
-* DiRT - Steam only - Contributed by Arc Angel
-* Dungeon Keeper
-* Earth 2140 - GoG only
-* Earth 2150 - GoG only
-* Earth 2150: Lost Souls - GoG only
-* Earth 2150: The Moon Project - GoG only
-* Eschalon: Book I - Contributed by Arc Angel
-* Eschalon: Book II - Contributed by ARc Angel
-* Evil Genius (Steam Only) - Contributed by duncans_pumpkin
-* Evil Genius - GoG Only
-* Exodus from the Earth - Contributed by Arc Angel
-* Fallout: New Vegas - Contributed by David Barbour
-* FIFA 11 - Contributed by Caleb Love
-* Final Fantasy VII - Contributed by Caleb Love
-* Freedom Force (Steam Only) - Contributed by duncans_pumpkin
-* Freedom Force vs. The 3rd Reich - Contributed by Arc Angel
-* Freelancer
-* Fuel - Contributed by Arc Angel
-* Gabriel Knight: Sins of the Fathers - GoG only
-* Gabriel Knight 3: Blood of the Sacred, Blood of the Damned - GoG only
-* Gobliins 2 - GoG Only
-* Goblins Quest 3 - GoG Only
-* Grand Theft Auto IV - Contributed by Virgile
-* Gratuitous Space Battles - Contributed by Arc Angel
-* Gray Matter - contributed by Caleb Love
-* Guild Wars
-* Homeworld 
-* Homeworld: Cataclysm
-* Homeworld 2
-* Independence War
-* Independence War 2: Edge of Chaos
-* Ishar - Legend of the Fortress - GoG only
-* Ishar 2 - Messengers of Doom - GoG only
-* Ishar 3 - The Seven Gates of Infinity - GoG only
-* Clive Barker's Jericho - Contributed by Arc Angel
-* Judge Dredd: Dredd vs. Death - Steam only - Contributed by Arc Angel
-* Just Cause 2 - Contributed by Arc Angel
-* Kane & Lynch 2: Dog Days - Contributed by Arc Angel
-* King's Bounty: The Legend - Contributed by Arc Angel
-* Lara Croft and the Guardian of Light - Contribute by Arc Angel
-* The Last Remnant - Contributed by Arc Angel
-* Legendary - Contributed by Arc Angel
-* Lost Planet: Colonies - contributed by Caleb Love
-* Lure of the Temptress - GoG only
-* Mafia II - Contributed by Arc Angel
-* Martian Memorandum - GoG only
-* Mass Effect 2 - Contributed by Christian Hamaan
-* Master of Orion - GoG only
-* Mean Streets - GoG only
-* Metro 2033 - Contributed by H?rd Kr??
-* MechWarrior 2: 31st Century Combat: Titanium Edition
-* MechWarrior 2: Ghost Bear's Legacy: Titanium Edition
-* MechWarrior 2: Mercenaries: Titanium Edition
-* Medal of Honor - Contributed by Arc Angel
-* The Misadventures of P.B. Winterbottom - Contributed by Arc Angel
-* Moonbase Alpha - Contributed by Arc Angel
-* Mount&Blade: Warband - Contributed by Arc Angel
-* Nation Red - Contributed by Arc Angel
-* NecrovisioN: Lost Company - Steam only - Contributed by Arc Angel
-* Need For Speed Undercover - Contributed by Arc Angel
-* No Gravity
-* One Unit: Whole Blood - GoG only
-* Operation Flashpoint: Dragon Rising - Contributed by Arc Angel
-* Osmos - Contributed by duncans_pumpkin
-* Outpost 2: Divided Destiny
-* Outcast - GoG only
-* Overlord - Contributed by duncans_pumpkin
-* Overlord II - Contributed by Arc Angel
-* The Pandora Directive - GoG only
-* Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode Two
-* Phantasmagoria - GoG only
-* Phantasmagoria 2: A Puzzle of Flesh - GoG only
-* Pound of Ground - Contributed by Arc Angel
-* Quantz - Steam Cloud only
-* Puzzle Agents - Contributed by Arc Angel
-* Puzzle Quest: Challenge of the Warlords
-* Raptor: Call of the Shadows - GoG only
-* RealMyst - GoG only
-* Red Faction: Guerrilla - Contributed by Arc Angel
-* Rise of the Argonauts - Contributed by Arc Angel
-* Robinson's Requiem - GoG only
-* Rogue Warrior - Contributed by Arc Angel
-* Runaway: A Road Adventure - Contributed by Arc Angel
-* Sam & Max - The Devil's Playhouse Episode 1 - The Penal Zone
-* Sam & Max - The Devil's Playhouse Episode 2 - The Tomb of Sammun-Mak
-* Sam & Max - The Devil's Playhouse Episode 3 - They Stole Max's Brain
-* Sam & Max - The Devil's Playhouse Episode 4 - Beyond the Alley of the Dolls
-* Sam & Max - The Devil's Playhouse Episode 5 - The City That Dares Not Sleep
-* The Saboteur - Contributed by Arc Angel
-* Sanitarium
-* The Scourge Project: Episodes 1 and 2 - Contributed by Arc Angel
-* Septerra Core: Legacy of the Creator
-* Serious Sam HD: The First Encounter
-* Serious Sam HD: The Second Encounter - Contributed by Arc Angel
-* Shogo - Mobile Armor Division
-* The Sims 3 - Contributed by Caleb Love
-* Starcraft II: Wings of Liberty - Contributed by Caleb Love
-* Silent Hill: Homecoming - Widnows Vista/7 Only - Contributed by Arc Angel
-* Singularity - Contributed by Arc Angel
-* Sniper Elite - Steam only - Contributed by Arc Angel
-* Sniper: Ghost Warrior - Contributed by Arc Angel
-* Splinter Cell - Contributed by Arc Angel
-* Splinter Cell: Chaos Theory - Contributed by Arc Angel
-* Splinter Cell: Double Agent - Contributed by Arc Angel
-* Split Second - Contributed by Arc Angel
-* Spore - Contributed by duncans_pumpkin
-* Spore Creature Creator - Contributed by duncans_pumpkin
-* S.T.A.L.K.E.R.: Call of Pripyat - Contributed by H?rd Kr?? & Arc Angel
-* S.T.A.L.K.E.R.: Clear Sky - Steam Only - Contributed by Arc Angel
-* Starlancer
-* Star Wars: The Force Unleashed II - contributed by Arc Angel
-* Star Wolves - GoG only
-* Still Life - GoG only
-* Street Fighter IV - Contributed by Arc Angel
-* Super Meat Boy - Contributed by Arc Angel
-* Supreme Commander - Contributed by duncans_pumpkin
-* Supreme Commander: Forged Alliance - Contributed by duncans_pumpkin
-* Trine - Steam Cloud only
-* Tales of Monkey Island Chapter 5: Rise of the Pirate God
-* Tank Universal - Steam Only - Contributed by Arc Angel
-* Tex Murphy: Overseer - GoG only
-* TorchLight - Contributed by Arc Angel
-* Trine - Steam Cloud only
-* Tron: Evolution - Contributed by Arc Angel
-* Under A Killing Moon - GoG only
-* Twin Sector - Contributed by Arc Angel
-* Tyrian 2000 - GoG only
-* Vampire: The Masquerade - Redemption - GoG only
-* Velvet Assassin - Contributed by Arc Angel
-* The Void - Contributed by Arc Angel
-* Wheelman - Contributed by Arc Angel
-* World of Goo - Contributed by duncans_pumpkin
-* World of Warcraft - Contributed by Caleb Love
-* X3: Terran Conflict - Contributed by Arc Angel
-* Zeno Clash (Steam only) - Contributed by duncans_pumpkin
-* Zombie Shooter 2 - Contributed by Arc Angel
-New Mods
-* Cinematic Mod 10
-* Flesh
-* Research and Development
-Updated Windows Games
-* Beyond Good & Evil - Added Disc-based and GOG path, shortcuts and registry key
-* Descent - Added GoG path, shortcut and registry key
-* Descent II - Added GoG path, shortcut and registry key
-* Descent 3 - Added GoG path, shortcut and registry key, and changed the title to use that cool superscript 3
-* Descent: Freespace - The Great War - Added GoG path, shortcut and registry key
-* FreeSpace 2 - Added GoG path, shortcut and registry key, modified to ignore fs2_open saves
-* fs2_open - Added Freespace 2 as a location source, in case fs2_open was installed into an existing Freespace 2 folder
-* Gabriel Knight 2: The Beast Within - Added GoG path, shortcut and registry key
-* Tachyon: The Fringe - Added Disc-based path, shortcuts and registry key
-* Mafia - Added Steam path - Contributed by Arc Angel
-* Master of Orion 2 - Added GoG path, shortcut and registry key
-* Painkiller - Added GoG info
-* Planescape: Torment - Adde GoG info
-* Postal 2 - Added GoG path, shortcut and registry key
-* Prince of Persia: The Sands of Time - Added disc-based info - contributed by Caleb Love
-* Psychonauts - Added GoG info
-* Septerra Core - Added GoG info
-* Clive Barker's Undying - Added shortcut and updated registry key
-New PS2 Games
-* Killer 7
-* X-Men Legends
-* X-Men Legends II: Rise of Apocalypse
-New PS3 Games
-* Elder Scrolls IV: Oblivion
-* Final Fantasy XIII
-* Red Faction: Guerrilla
-* Ultimate Alliance
-New PSP Games
-* Grand Theft Auto: Chinatown Wars (EUR) - Contributed by duncans_pumpkin
-* Grand Theft Auto: Liberty City Stories (EUR) - Contributed by duncans_pumpkin
-* Grand Theft Auto: Vice City Stories - Contributed by duncans_pumpkin
-* Lumines (EUR) - Contributed by duncans_pumpkin
-* Metal Gear Ac!d (EUR) - Contributed by duncans_pumpkin
-* Metal Gear Ac!d 2 (EUR) - Contributed by duncans_pumpkin
-* Wipeout Pure (EUR) - Contributed by duncans_pumpkin
-v.0.7.1 - Micro-release the second
+
+=v.0.7.1 - Micro-release the second=
 * Fixed a bug that caused loaded registry hives to not unload, causing the associated users to be unable to load their profiles
-v.0.7 - Alpha Seven
+
+=v.0.7 - Alpha Seven=
 * Rebuilt interface so that the main window can be resized
 * Rebuilt custom archive window so it can be resized
 * Fixed a bug that crashed MASGAU when trying to restore an archive to steam when no Steam users had been detected
@@ -348,56 +112,8 @@ v.0.7 - Alpha Seven
 * Changed shortcut scanning to deal with targetless shortcuts
 * Fixed a bug that caused start menu shortcuts to produce incorrect paths
 * Little things here and there that I don't remember
-New Windows Games
-* Bejeweled 2 Deluxe (Steam only) - Contributed by duncans_pumpkin
-* Beyond Good & Evil (Steam only) - Contributed by duncans_pumpkin
-* Bookworm Adventure Deluxe (Steam only) - Contributed by duncans_pumpkin
-* Call of Juarez - Bound in Blood - Contribute by Michael "Testosterone" Lamere
-* Command & Conquer 3: Tiberium Wars - Contributed by Paul Taylor
-* Command & Conquer 3: Kane's Wrath - Contributed by Paul Taylor
-* Command & Conquer: Generals - Zero Hour - Contributed by duncans_pumpkin
-* Command & Conquer: Red Alert 3 - Contributed by cammkelly
-* Dangerous High School Girls In Trouble! (Steam only)
-* Dragon Age: Origins
-* Eets (Steam only) - Contributed by duncans_pumpkin
-* The Elder Scrolls III: Morrowind - Steam info contributed by duncans_pumpkin
-* Grand Theft Auto 3 - Contributed by duncans_pumpkin
-* Grand Theft Auto: San Andreas - Contributed by duncans_pumpkin
-* Grand Theft Auto: Vice City - Contributed by duncans_pumpkin
-* Gumboy: Crazy Adventures (Steam only) - Contributed by duncans_pumpkin
-* Gumboy: Crazy Features (Steam only) - Contributed by duncans_pumpkin
-* Infernal (Steam only) - Contributed by duncans_pumpkin
-* Insaniquarium (Steam only) - Contributed by duncans_pumpkin
-* Max Payne - Contributed by duncans_pumpkin
-* Max Payne 2: The Fall of Max Payne - Contributed by duncans_pumpkin
-* Medievel II Total War: Kingdoms
-* Plants Vs. Zombies (Steam only) - Contributed by duncans_pumpkin
-* Prince of Persia - Contributed by duncans_pumpkin
-* Prince of Persia: The Sands of Time (Steam only) - Contributed by duncans_pumpkin
-* Race Driver: Grid - Contributed by Paul Taylor
-* SAW - Contributed by Michael "Something" Lamere
-* Sins of a Solar Empire
-* Star Wars: Jedi Knight: Dark Forces (Steam only)
-* Star Wars: Jedi Knight: Jedi Academy (Steam only) - Contributed by duncans_pumpkin
-* Star Wars: Jedi Knight: Mysteries of the Sith (Steam only)
-* Star Wars: Jedi Knight II: Jedi Outcast (Steam only) - Contributed by duncans_pumpkin
-* Star Wars: Knights of the Old Republic (Steam only)
-* Tales of Monkey Island Chapter 3: Lair of the Leviathan
-* Tales of Monkey Island Chapter 4: The Trial end Execution of Guybrush Threepwood
-* Warhammer 40,000: Dawn of War: Dark Crusade - Contirbute by Michael "The Man" Lamere
-* The Wonderful End Of The World (Steam only) - Contributed by duncans_pumpkin
-* Zuma Deluxe (Steam only) - Contributed by duncans_pumpkin
-New PS3 Games
-* Br?? Legend
-* Lumines supernova
-New PSP Games
-* Dissidia: Final Fantasy
-* Tomb Raider: Legend
-Modified Games
-* Added Steam paths to both the Sam & Max Seasons - Contributed by duncans_pumpkin
-* Update Medievel II Total War to use a better registry key
 
-v.0.6 - Sixth Alpha
+=v.0.6 - Sixth Alpha=
 * Fixed a bug where XP would be detected as Vista
 * Fixed a related bug that caused LocalAppData and AppData to malfunction under XP
 * Eliminated the guesswork from user folders, all user folders are now extracted from each user's hive file for utmost accuracy
@@ -419,40 +135,11 @@ v.0.6 - Sixth Alpha
 * Fixed code for games that depend on other games so that it actually works\
 * Added a sub-menu to monitor that shows all the detected games. Handy!
 * Fixed a bug that caused analyzer to crash when accessing folders and files with malformed names
-New Windows Games
-* Age of Mythology
-* Age of Mythology - The Titans Expansion 
-* Batman: Arkham Asylum - Paths contributed by Michael "The Awesome" Lamere
-* The Battle For Middle Earth II
-* Ben There, Dan That!
-* Blade Runner
-* Braid
-* Civilization
-* Civilization II
-* Civilization II: Test of Time
-* Colonization for Windows
-* The Matrix: Path of Neo
-* MechWarrior 2
-* MechWarrior 2: Ghost Bear's Legacy
-* MechWarrior 2: Mercenaries
-* Thief Gold
-* Time Gentlemen, Please!
-Updated Windows Games
-* Added Registry Keys and Start Menu shortcuts to Age of Wonders
-New PSP Games
-* Brave Story: New Traveler
-New PS1 Games
-* Fear Effect
-* FEar Effect 2: Retro Helix
-New PS2 Games
-* Rule of Rose
-New PS3 Games
-* Shatter
 
-v.0.5-1 Quick fix
+=v.0.5-1 Quick fix=
 * Fixed a bug where Playstation game data objects would have null root lists
 
-v.0.5 - Fifth Alpha?
+=v.0.5 - Fifth Alpha=
 * Changed 7-zip detection to use a registry key
 * Fixed a bug where ps1 saves would only use the ps3 export root
 * Fixed a bug where PSP and PS1 saves tried to back up the entire save folder. Eek.
@@ -463,14 +150,8 @@ v.0.5 - Fifth Alpha?
 * Switched to using NSIS instead of MSI for the installer
 * Added ability to specify the Windows version a root is for
 * Installer now automatically detects if .NET and 7-zip are installed, and will offer to automatically install them if not found
-New Windows games
-* The Chronicles of Riddick: Assault on Dark Athena (problems on XP)
-* Gears of War
-* Mirror's Edge
-* Tachyon: The Fringe (Steam only)
-* Tales of Monkey Island Chapter 2: The Siege of Spinner Cay
 
-v.0.4 - Fourth Alpha
+=v.0.4 - Fourth Alpha=
 * Changed Playstation detection to only look on removable drives
 * Changed drive reads to only read drives marked as ready
 * Changed path detection to only look on fixed and removable drives
@@ -492,13 +173,8 @@ v.0.4 - Fourth Alpha
 * Added ability to create a custom archive with only selected files
 * Lots of bug fixes and such
 * Added ability to create new backups after a period of time
-New Games
-* Joint Task Force
-* The Lord of the Rings: The Return of the King
-* Painkiller
-* True Crime: Streets of LA
 
-v.0.3 - Third Alpha
+=v.0.3 - Third Alpha=
 * Added new button for multiple backing up
 * Added a second progress bar to backend that only appears when backing up
 * Added new class: SecurityHandler
@@ -528,161 +204,8 @@ v.0.3 - Third Alpha
 * Changed so the system user selector dialog dialog doesn't appear in Single-User mode
 * Changed restore list to use a Dictionary to store all the profile titles, so it is no longer necessary to parse the detected games list
 * Changed so ArchiveManager makes a copy of any existing archives, then works on the originals. If canceled, the original will be deleted and replaced with the copy.
-New Windows Games:
-* The Beast Within
-* Civilization III
-* Civilization III: Conquests
-* Civilization III: Play the World
-* Descent
-* Descent II
-* Doom
-* Doom II
-* Fallout
-* Far Cry
-* Final Doom
-* MechCommander
-* Myst V
-* No One Lives Forever 2
-* Post Mortem
-* Rome: Total War: Alexander
-* Rome: Total War: Barbarian Invasion
-* System Shock 2
-* TrackMania Nations Forever
-* Tomb Raider
-* Tomb Raider Gold
-* Tomb Raider II Gold
-* Wallace & Gromit's Grand Adventures 2-3
-* The Witcher
-New PSP Games:
-* Crisis Core: Final Fantasy VII
-* Daxter
-* Echochrome
-* Final Fantasy
-* Final Fantasy II
-* Final Fantasy Tactics
-* God of War: Chains of Olympus
-* Jeanne D'Arc
-* Metal Gear Ac!d
-* Metal Gear Solid: Portable Ops
-* No Gravity
-* Patapon
-* Ratchet & Clank: Size Matters
-* Silent Hill: 0rigins
-* Star Ocean: First Departure
-* Super Stardust Portable
-New PS3 Games:
-* Assassin's Creed
-* Battlefield: Bad Company
-* Civilization: Revolution
-* The Darkness
-* Dead Space
-* Devil May Cry 4
-* Echochrome
-* Elefunk
-* Eternal Sonata
-* Flow
-* Flower
-* Folklore
-* Heavenly Sword
-* infamous
-* Jeopardy!
-* Lemmings
-* Mirror's Edge
-* Prince of Persia
-* Rag Doll Kung Fu: Fists of Plastic
-* Ratchet & Clank Future: Tools of Destruction
-* Ratchet & Clank Future: Quest for Booty
-* Resident Evil 5
-* Resistance: Fall of Man
-* Resistance 2
-* Savage Moon
-* Silent Hill: Homecoming
-* Super Stardust HD
-* Sould Calibur IV
-* Uncharted: Drake's Fortune
-* Unreal Tournament III
-* Valkyria Chronicles
-* Wheel of Fortune
-* Wolfenstein 3D
-New PS2 Games:
-* Beyond Good & Evil
-* The Bouncer
-* Dark Cloud
-* Dark Cloud 2
-* Deus Ex: The Conspiracy
-* Devil May Cry
-* Devil May Cry 2
-* Devil May Cry 3: Dante's Awakening: Special Edition
-* Dirge of Cerberus: Final fantasy VII
-* Disgaea: Hour of Darkness
-* Disgaea 2: Cursed Memories
-* Dragon Quest VIII: Journey of the Cursed King
-* Escape from Monkey Island
-* Final Fantasy X
-* Final Fantasy X-2
-* Final Fantasy XII
-* Frequency
-* God of War
-* God of War II
-* Half-Life
-* Ico
-* Indigo Prophecy
-* Jak and Daxter: The Precursor Legacy
-* Jak II
-* Jak 3
-* Jak X: Combat Racing
-* Kingdom Hearts
-* Kingdom Hearts II
-* Kingdom Hearts Re: Chain of Memories:
-* Metal Gear Solid 2: Substance
-* Metal Gear Solid 3: Subsistence
-* Okage: Shadow King
-* Prince of Persia: The Sands of Time
-* Prince of Persia: The Two Thrones
-* Prince of Persia: Warrior Within
-* Psychonauts
-* Ratchet & Clank
-* Ratchet & Clank: Going Commando
-* Ratchet & Clank: Up Your Arsenal
-* Ratchet Deadlocked
-* Resident Evil 4
-* Resident Evil: Code Veronica X
-* Rogue Galaxy
-* Shadow of the Colossus
-* Silent Hill 2 Greatest Hits Edition
-* Silent Hill 3
-* Silent Hill 4: The Room
-* Sly Cooper and the Thievus Raccoonus
-* Soul Calibur III
-* Star Ocean: Till the End of Time
-* Summoner
-* Summoner 2
-* Tekken 5
-* Unreal Tournament
-* The X-Files: Resist or Serve
-* XIII
-New PS1 Games:
-* Chrono Cross
-* Chrono Trigger
-* Descent
-* Descent: Maximum
-* Final Fantasy IV 
-* Final Fantasy VIII
-* Final Fantasy IX
-* Final Fantasy Tactics
-* Metal Gear Solid
-* Metal Gear Solid: VR Missions
-* Parasite Eve
-* Parasite Eve 2
-* Silent Hill
-* Soul Blade
-Updated Windows Games:
-* Added Shortcuts and Registry keys to both of the Sam & Max seasons, Tomb Raider II
-* Added Registry keys to Anachronox, MechCommander 2, No One Lives Forever, Rome: Total War
-* Added Shortcuts to Dreamfall
-* Reduced The Longest Journey down to one profile again
 
-v.0.2 - Second Alpha
+=v.0.2 - Second Alpha=
 * Changed detected game list to be a tree for MOD sorting
 * Added support for MODs that depend on detected games
 * Changed the character for seperating game and username to _
@@ -700,19 +223,5 @@ v.0.2 - Second Alpha
 * Fixed a problem were an incomplete archive could crash the program
 * Added an icon! Woo!
 * Fixed a problem when checking the registry key that tells MASGAU if UAC is enabled
-New Games:
-* The Nameless Mod - Our first supported MOD! - Info provided by Trestkon
-* Daggerfall - Info provided by Jetsetlemming
-* Peggle World of Warcraft Edition
-* Quake 2 - Steam only - Info provided by Jetsetlemming
-* The Longest Journey 4-disc - Info provided by Miral
-* Unreal Tournament
-* Call of Duty 4
-* The Secret of Monkey Island: Special Edition
-Update Games
-* Return to Castle Wolfenstein - Added Steam path - Info provided by Jetsetlemming
-* Peggle Deluxe - Corrected Steam path
-* Added Registry keys to many games
-* Added shortcuts to a few games
 
-v.0.1 - Initial Release
+=v.0.1 - Initial Release=

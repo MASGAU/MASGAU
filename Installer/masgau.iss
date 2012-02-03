@@ -4,24 +4,24 @@ EnableISX=true
 [Setup]
 AppMutex=MASGAU
 AppName=MASGAU
-AppVerName=MASGAU 0.9.1
+AppVerName=MASGAU 0.9.2
 MinVersion=4.1,4.0
 DefaultDirName={pf}\MASGAU
 DefaultGroupName=MASGAU
 Compression=lzma/Ultra64
 SolidCompression=true
-OutputBaseFilename=MASGAU-0.9.1-Setup
-AppCopyright=2011
+OutputBaseFilename=MASGAU-0.9.2-Setup
+AppCopyright=2012
 ChangesAssociations=true
-WizardImageFile=installer_logo.bmp
-WizardSmallImageFile=installer_logo_small.bmp
+WizardImageFile=..\Graphics\installer_logo.bmp
+WizardSmallImageFile=..\Graphics\installer_logo_small.bmp
 WizardImageStretch=true
-SetupIconFile=..\MASGAU\masgau.ico
+SetupIconFile=..\Graphics\masgau.ico
 AllowRootDirectory=true
 DirExistsWarning=no
-VersionInfoVersion=0.9
+VersionInfoVersion=0.9.2
 VersionInfoProductName=MASGAU
-VersionInfoProductVersion=0.9.1
+VersionInfoProductVersion=0.9.2
 LicenseFile=..\Docs\gpl-2.0.txt
 InternalCompressLevel=Ultra64
 ArchitecturesInstallIn64BitMode=x64
@@ -36,12 +36,10 @@ Source: ..\Dependencies\7-Zip\7z32.exe; DestDir: {app}; DestName: 7z.exe; Check:
 Source: ..\Dependencies\7-Zip\7z64.exe; DestDir: {app}; DestName: 7z.exe; Check: SixtyFourCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion;
 Source: ..\Dependencies\7-Zip\7z32.dll; DestDir: {app}; DestName: 7z.dll; Check: ThirtyTwoCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion;
 Source: ..\Dependencies\7-Zip\7z64.dll; DestDir: {app}; DestName: 7z.dll; Check: SixtyFourCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion;
-Source: ..\Docs\changelog.txt; DestDir: {app}; Components: MASGAU\Core; 
-Source: ..\Docs\data changelog.txt; DestDir: {app}; Components: MASGAU\Core; 
 Source: ..\MASGAU.Updater\updates.xml; DestDir: {app};  Components: MASGAU\Core;
-Source: ..\Docs\gpl-2.0.txt; DestDir: {app}; Components: MASGAU\Core;
+Source: ..\gpl-2.0.txt; DestDir: {app}; Components: MASGAU\Core;
 Source: ..\Data\Data\games.xsd; DestDir: {app}\Data; Components: MASGAU\Core; 
-Source: ..\MASGAU\masgau.ico; DestDir: {app};  Components: MASGAU\Core;
+Source: ..\Graphics\masgau.ico; DestDir: {app};  Components: MASGAU\Core;
 // Main DLLs
 Source: ..\MASGAU\bin\Release\MASGAU.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\MASGAU\bin\Release\MASGAU.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 

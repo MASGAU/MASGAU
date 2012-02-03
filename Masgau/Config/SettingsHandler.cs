@@ -21,8 +21,15 @@ namespace MASGAU.Config
         public SettingsHandler(): base(null,"config.xml",Core.mutex) {
             // Checks if there is a config folder in the same folder as the program
             // This is for the portable version
-            if (File.Exists(Path.Combine(Core.app_path,file_name))){
-                file_path = Core.app_path;
+            if(Core.config_location!=null) {
+                file_path = Core.config_location;
+            } else if (Core.portable_mode) {
+                DirectoryInfo dir = new DirectoryInfo(Path.Combine("..","..","Data"));
+                if (!dir.Exists) {
+                    dir.Create();
+                    dir.Refresh();
+                }
+                file_path = dir.FullName;
             } else {
                 // Checks what OS is being used, as each one will store the config file somewhere different
                 // Checks what mode MASGAU is running in so the appropriate config file can be loaded
@@ -70,6 +77,37 @@ namespace MASGAU.Config
                 }
             }
 
+            if(Core.portable_mode) {
+                if(backup_path_set&&
+                    this.backup_path!=adjustPortablePath(this.backup_path)) {
+                    this.backup_path = adjustPortablePath(this.backup_path);
+                }
+                if(steam_override!=null&&
+                    this.steam_override!=adjustPortablePath(this.steam_override)) {
+                    this.steam_override = adjustPortablePath(this.steam_override);
+                }
+
+                if(sync_path_set&&
+                    this.sync_path!=adjustPortablePath(this.sync_path)) {
+                    this.sync_path = adjustPortablePath(this.sync_path);
+                }
+
+                bool updated = false;
+                for(int i=0;i<alt_paths.Count;i++) {
+                    AltPathHolder path = alt_paths[i];
+                    if(path.path!=adjustPortablePath(path.path)) {
+                        alt_paths.RemoveAt(i);
+                        alt_paths.Insert(i,new AltPathHolder(adjustPortablePath(path.path)));
+                        updated = true;
+                    }
+                }
+                if(updated)
+                    saveAltPaths();
+
+                if(last_drive!=current_drive)
+                    updateLastDrive();
+            }
+
             if(Core.games!=null)
                 Core.games.refresh();
         }
@@ -100,7 +138,34 @@ namespace MASGAU.Config
             }
         }
 
-
+        #region Portable-related settings/methods
+        public string current_drive {
+            get {
+                DirectoryInfo dir = new DirectoryInfo("./");
+                return dir.Root.Name;
+            }
+        }
+        public string last_drive {
+            get {
+                string value = getNodeAttribute("last_drive","portable_settings");
+                if(value==null) {
+                    updateLastDrive();
+                    return current_drive;
+                }
+                return value;
+            }
+        }
+        public void updateLastDrive() {
+            setNodeAttribute("last_drive",current_drive,"portable_settings");
+        }
+        private string adjustPortablePath(string old_path) {
+            if(last_drive!=current_drive&&old_path.StartsWith(last_drive)) {
+                string value = old_path.Replace(last_drive,current_drive);
+                return value;
+            } 
+            return old_path;
+        }
+        #endregion
 
         #region Methods for getting and setting the saved window size
         public int window_width {

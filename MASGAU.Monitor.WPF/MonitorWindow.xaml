@@ -1,7 +1,7 @@
-﻿<src:AWindow x:Class="MASGAU.Monitor.MonitorWindow"
+﻿<src:AProgramWindow x:Class="MASGAU.Monitor.MonitorWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
             xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
-        Title="MASGAU Monitor Is Setting Up..." ResizeMode="NoResize" Loaded="Window_Loaded" SizeToContent="WidthAndHeight" Closing="Window_Closing" MinWidth="400" Width="400">
+        Title="MASGAU Monitor Is Setting Up..." ResizeMode="NoResize" SizeToContent="WidthAndHeight" Closing="Window_Closing" MinWidth="400" Width="400">
     <ProgressBar Name="progressBar1" Height="10" Margin="-2,0,-4,0" />
-</src:AWindow>
+</src:AProgramWindow>

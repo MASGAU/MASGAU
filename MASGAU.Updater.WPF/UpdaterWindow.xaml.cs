@@ -25,13 +25,16 @@ namespace MASGAU.Updater
         Color up_to_date = Color.FromArgb(255,115,210,22);
         Color out_of_date = Color.FromArgb(255,239,41,41);
         Color updating = Color.FromArgb(255,252,233,79);
-
+        
         private UpdateProgramHandler updater;
 
         public UpdaterWindow(): base(null)
         {
             InitializeComponent();
+            this.Loaded +=new RoutedEventHandler(Window_Loaded);
             //updateLst.ItemsSource = UpdateCollection;
+            if(Core.portable_mode)
+                this.Title = "MASGAU Portable Feels Inferior";
         }
 
         public override void updateProgress(Communication.Progress.ProgressUpdatedEventArgs e)

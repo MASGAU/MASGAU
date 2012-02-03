@@ -9,7 +9,7 @@ namespace MASGAU.Console
 {
     class AConsoleProgramHandler<L>: AProgramHandler<L> where L: Location.ALocationsHandler
     {
-        public AConsoleProgramHandler(RunWorkerCompletedEventHandler when_done): base(when_done, Interface.Console) {}
+        public AConsoleProgramHandler(): base(Interface.Console) {}
 
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {

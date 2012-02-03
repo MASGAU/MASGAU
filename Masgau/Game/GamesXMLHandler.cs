@@ -29,12 +29,18 @@ namespace MASGAU.Game
             if(!Directory.Exists(game_configs))
                 throw new MException("Trashy Talk, Yes?","Could not find game profiles folder",false);
 
-            FileInfo[] read_us;
+            List<FileInfo> read_us;
 	        DirectoryInfo read_me = new DirectoryInfo(game_configs);
 
-            read_us = read_me.GetFiles("*.xml");
+            read_us = new List<FileInfo>(read_me.GetFiles("*.xml"));
 
-            if(read_us.Length==0)
+            if(Core.portable_mode) {
+                FileInfo custom_xml = new FileInfo(Path.Combine("..","..","Data","custom.xml"));
+                if(custom_xml.Exists)
+                    read_us.Add(custom_xml);
+            }
+
+            if(read_us.Count==0)
                 throw new MException("What the heck?","There are no XML files in the Data folder.",false);
 
             int i = 1;

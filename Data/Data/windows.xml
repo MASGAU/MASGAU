@@ -1189,14 +1189,17 @@
   <game name="DeusEx" platform="Windows">
     <title>Deus Ex</title>
     <location_path environment_variable="installlocation" path="DeusEx"/>
+    <location_path environment_variable="installlocation" path="GOG.com\Deus Ex"/>
     <location_path environment_variable="steamcommon" path="deus ex"/>
     <location_registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Deus Ex" value="Folder"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDEUSX" value="PATH"/>
     <location_shortcut shortcut="Programs\Deus Ex\Play Deus Ex.lnk" detract="System"/>
+    <location_shortcut shortcut="Programs\GOG.com\Deus Ex GOTY\Deus Ex GOTY.lnk" detract="System"/>
     <identifier path="Save"/>
     <save path="System" filename="*.ini" type="Settings"/>
     <save path="Save"/>
     <comment>The best game EVER!</comment>
-    <contributer>SanMadJack</contributer>
+    <contributer>SanMadJack</contributer>  
   </game>
   <game name="DeusExInvisibleWar" platform="Windows">
     <title>Deus Ex: Invisible War</title>

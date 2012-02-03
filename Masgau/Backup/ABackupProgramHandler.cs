@@ -37,7 +37,7 @@ namespace MASGAU.Backup
             archive_name_override  = archive_name;
         }
 
-        public ABackupProgramHandler(Interface new_iface): base(null, new_iface) {
+        public ABackupProgramHandler(Interface new_iface): base(new_iface) {
             archives = new ArchivesHandler();
             this.DoWork += new DoWorkEventHandler(BackupProgramHandler_DoWork);
             this.RunWorkerCompleted += new RunWorkerCompletedEventHandler(BackupProgramHandler_RunWorkerCompleted);

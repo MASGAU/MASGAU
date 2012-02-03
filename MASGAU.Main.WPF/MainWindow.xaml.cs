@@ -21,24 +21,17 @@ namespace MASGAU.Main
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : AWindow
+    public partial class MainWindow : AProgramWindow
     {
         private MainProgramHandler  main;
 
-        public MainWindow(): base(null)
+        public MainWindow(): base(new MainProgramHandler())
         {
+            main = (MainProgramHandler)program_handler;
             InitializeComponent();
             //restoreTree.PreviewMouseDoubleClick += (sender, e) => e.Handled = true; 
             default_progress_color = progressBar.Foreground;
             overall_progress = progressBar;
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            main = new MainProgramHandler(setupDone);
-            this.Title = main.program_title;
-            disableInterface();
-            main.RunWorkerAsync();
         }
 
         private void hookupGameContexts()
@@ -71,7 +64,10 @@ namespace MASGAU.Main
             scheduleTab.DataContext = Core.task;
         }
 
-        private void setupDone(object sender, RunWorkerCompletedEventArgs e) {
+        protected override void setup(object sender, RunWorkerCompletedEventArgs e)
+        {
+            base.setup(sender, e);
+
             hookupGameContexts();
             hookupRestoreContexts();
             hookupTaskContexts();

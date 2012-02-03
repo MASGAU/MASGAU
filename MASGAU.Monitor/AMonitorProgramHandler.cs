@@ -40,7 +40,8 @@ namespace MASGAU.Monitor
 
         public FileSystemWatcher                       sync_watcher;
 
-        public AMonitorProgramHandler(RunWorkerCompletedEventHandler when_done, Interface new_iface): base(when_done, new_iface) {
+        public AMonitorProgramHandler(Interface new_iface): base(new_iface) {
+            this._program_title.Append(" Monitor");
         }
 
 

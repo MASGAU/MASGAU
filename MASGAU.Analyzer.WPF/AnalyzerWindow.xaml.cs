@@ -10,27 +10,25 @@ namespace MASGAU.Analyzer
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class AnalyzerWindow : AWindow
+    public partial class AnalyzerWindow : AProgramWindow
     {
-        public AnalyzerWindow(): base(null)
+        private AnalyzerProgramHandler analyzer;
+
+        public AnalyzerWindow(): base(new AnalyzerProgramHandler())
         {
+            analyzer = (AnalyzerProgramHandler)program_handler;
             InitializeComponent();
         }
-        AnalyzerProgramHandler analyzer;
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+
+        protected override void WindowLoaded(object sender, RoutedEventArgs e)
         {
-            this.IsEnabled = false;
             this.Title += " - Loading Settings...";
-            analyzer = new AnalyzerProgramHandler(setup);
-            analyzer.RunWorkerAsync();
+            base.WindowLoaded(sender, e);
         }
-        public void setup(object sender, RunWorkerCompletedEventArgs e) {
-            if(!Core.initialized) {
-                this.Close();
-                return;
-            }
 
-
+        protected override void setup(object sender, RunWorkerCompletedEventArgs e)
+        {
+            base.setup(sender, e);
 
             ProgressHandler.progress_state = ProgressState.None;
 
@@ -53,8 +51,7 @@ namespace MASGAU.Analyzer
                 this.Close();
                 return;
             }
-            this.Title = this.Title.Substring(0,this.Title.Length-22);
-            this.IsEnabled = true;
+            enableInterface();
         }
 
         private void buttonCheck(object sender,  TextChangedEventArgs e) {

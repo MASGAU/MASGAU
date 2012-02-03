@@ -15,7 +15,9 @@ namespace MASGAU.Analyzer
                                     + "look over and edit the report for any information that you do not want to be made public. "
                                     + "By submitting a report you are agreeing that it is free for public dispersal.";
 
-        public AAnalyzerProgramHandler(RunWorkerCompletedEventHandler when_done, Interface iface):base(when_done, iface)  {
+        public AAnalyzerProgramHandler(Interface iface):base(iface)  {
+            _program_title.Append(" Save Game Analyzer");
+
         }
 
         public static string last_save_path = null;

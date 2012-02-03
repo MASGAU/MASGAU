@@ -23,29 +23,64 @@ namespace MASGAU.Restore
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class RestoreWindow : AWindow//, IRestoreWindow
+    public partial class RestoreWindow : AProgramWindow//, IRestoreWindow
     {
+        
         RestoreProgramHandler restore;
         ArchiveHandler archive = null;
 
-        public RestoreWindow(ArchiveHandler archive, AWindow owner): this(owner) {
+        public RestoreWindow(): this(null) {}
+
+        public RestoreWindow(ArchiveHandler archive, AWindow owner): base(new RestoreProgramHandler(archive), owner) {
+            InitializeComponent();
+            default_progress_color = restoreProgress.Foreground;
             this.archive = archive;
         }
 
-        public RestoreWindow(): this(null)
-        {
-        }
-        public RestoreWindow(AWindow owner): base(owner) {
+        public RestoreWindow(AWindow owner): base(new RestoreProgramHandler(null), owner) {
             InitializeComponent();
             default_progress_color = restoreProgress.Foreground;
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        protected override void WindowLoaded(object sender, RoutedEventArgs e)
         {
-            restore = new RestoreProgramHandler(setupDone,archive);
             restoreProgress.IsIndeterminate = true;
-            restore.RunWorkerAsync();
+            restore = (RestoreProgramHandler)program_handler;
+            base.WindowLoaded(sender, e);
         }
+
+        protected override void setup(object sender, RunWorkerCompletedEventArgs e)
+        {
+            base.setup(sender, e);
+
+            
+
+            this.archive = restore.archive;
+            ProgressHandler.progress_state = ProgressState.None;
+
+            tabControl1.SelectedIndex = 1;
+            this.Title = "Confirm Restore Location";
+
+            pathCombo.ItemsSource = restore.path_candidates;
+            userCombo.ItemsSource = restore.user_candidates;
+            pathLabel.DataContext = restore;
+            userLabel.DataContext = restore;
+
+            otherUserButton.Visibility = System.Windows.Visibility.Collapsed;
+            selectFilesButton.Visibility = System.Windows.Visibility.Visible;
+            restoreButton.Visibility = System.Windows.Visibility.Visible;
+            choosePathButton.Visibility = System.Windows.Visibility.Visible;
+
+            if(restore.game_data.restore_comment!=null) {
+                restoreDoneText.Text = restore.game_data.restore_comment + Environment.NewLine + Environment.NewLine + "Other than that, the restore is done!";
+            }
+
+            refreshPaths();
+
+            this.enableInterface();
+
+        }
+
         public override void updateProgress(MASGAU.Communication.Progress.ProgressUpdatedEventArgs e) {
             if(e.message!=null)
                 groupBox1.Header = e.message;
@@ -88,35 +123,7 @@ namespace MASGAU.Restore
             }
         }
 
-        private void setupDone(object sender, RunWorkerCompletedEventArgs e) {
-            this.archive = restore.archive;
-            ProgressHandler.progress_state = ProgressState.None;
 
-            tabControl1.SelectedIndex = 1;
-            this.Title = "Confirm Restore Location";
-
-            if(e.Error!=null) {
-                this.Close();
-                return;
-            }
-            pathCombo.ItemsSource = restore.path_candidates;
-            userCombo.ItemsSource = restore.user_candidates;
-            pathLabel.DataContext = restore;
-            userLabel.DataContext = restore;
-
-            otherUserButton.Visibility = System.Windows.Visibility.Collapsed;
-            selectFilesButton.Visibility = System.Windows.Visibility.Visible;
-            restoreButton.Visibility = System.Windows.Visibility.Visible;
-            choosePathButton.Visibility = System.Windows.Visibility.Visible;
-
-            if(restore.game_data.restore_comment!=null) {
-                restoreDoneText.Text = restore.game_data.restore_comment + Environment.NewLine + Environment.NewLine + "Other than that, the restore is done!";
-            }
-
-            refreshPaths();
-
-
-        }
 
         private void pathCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

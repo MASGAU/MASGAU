@@ -8,7 +8,7 @@ namespace MASGAU.Monitor
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MonitorWindow : AWindow
+    public partial class MonitorWindow : AProgramWindow
     {
         #region Notify icon stuff
             private System.Windows.Forms.NotifyIcon monitorNotifier;
@@ -29,50 +29,36 @@ namespace MASGAU.Monitor
             default_progress_color = progressBar1.Foreground;
         }
 
-        public override void disableInterface()
+        protected override void WindowLoaded(object sender, RoutedEventArgs e)
         {
-            base.disableInterface();
-            monitorNotifier.Visible = false;
-            this.Visibility = System.Windows.Visibility.Visible;
-        }
-        public override void enableInterface()
-        {
-            base.enableInterface();
-            if(monitorNotifier!=null) {
-                monitorNotifier.Visible = true;
-                setNotifyToolTip();
-            }
-            this.Visibility = System.Windows.Visibility.Hidden;
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            this.Title = "MASGAU Monitor Is Setting Up...";
             progressBar1.Value = progressBar1.Minimum;
-            setUp();
+            setUpProgramHandler();
+            base.WindowLoaded(sender, e);
         }
 
-        private void setUp() {
+
+        protected override void setUpProgramHandler() {
             disableInterface();
-            if(monitor!=null) {
+            if(program_handler!=null) {
+                monitor = (MonitorProgramHandler)program_handler;
                 monitor.CancelAsync();
                 monitor.stop();
-                while(monitor.monitor_thread.IsAlive)
-                    System.Threading.Thread.Sleep(100);
+                if(monitor.monitor_thread!=null) {
+                    while(monitor.monitor_thread.IsAlive)
+                        System.Threading.Thread.Sleep(100);
+                }
                 monitor.Dispose();
                 monitor = null;
             }
-            monitor = new MonitorProgramHandler(setupDone);
-            monitorNotifier.Visible = false;
-            monitor.RunWorkerAsync();
+            monitor = new MonitorProgramHandler();
+            program_handler = monitor;
+            base.setUpProgramHandler();
+            this.Title =  monitor.program_title + " Is Setting Up...";
         }
 
-        private void setupDone(object sender, RunWorkerCompletedEventArgs e) {
-            if(e.Error!=null||e.Cancelled) {
-                this.enableInterface();
-                this.Close();
-                return;
-            }
+        protected override void setup(object sender, RunWorkerCompletedEventArgs e)
+        {
+            base.setup(sender, e);
 
             Core.settings.PropertyChanged += new PropertyChangedEventHandler(settings_PropertyChanged);
 
@@ -89,6 +75,23 @@ namespace MASGAU.Monitor
             }
 
         }
+
+        public override void disableInterface()
+        {
+            base.disableInterface();
+            monitorNotifier.Visible = false;
+            this.Visibility = System.Windows.Visibility.Visible;
+        }
+        public override void enableInterface()
+        {
+            base.enableInterface();
+            if(monitorNotifier!=null) {
+                monitorNotifier.Visible = true;
+                setNotifyToolTip();
+            }
+            this.Visibility = System.Windows.Visibility.Hidden;
+        }
+
 
         void settings_PropertyChanged(object sender, PropertyChangedEventArgs e)
         {
@@ -195,7 +198,7 @@ namespace MASGAU.Monitor
             this.Visibility = System.Windows.Visibility.Hidden;
             MonitorSettingsWindow settings_window = new MonitorSettingsWindow();
             settings_window.ShowDialog();
-                setUp();
+                setUpProgramHandler();
 
             if(Core.redetect_games||Core.rebuild_sync||Core.redetect_archives||(!old_backup&&Core.settings.monitor_startup_backup)) {
                 //setUp();
@@ -208,7 +211,7 @@ namespace MASGAU.Monitor
         {
             monitor.sync_watcher.EnableRaisingEvents = false;
             if(changeSyncPath())
-                setUp();
+                setUpProgramHandler();
             else
                 monitor.sync_watcher.EnableRaisingEvents = true;
         }
@@ -229,7 +232,7 @@ namespace MASGAU.Monitor
 
         private void rescanGamesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            setUp();
+            setUpProgramHandler();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

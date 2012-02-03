@@ -28,7 +28,8 @@ namespace MASGAU.Restore
             get; protected set;
         }
 
-        public ARestoreProgramHandler(RunWorkerCompletedEventHandler when_done, Interface new_interface, ArchiveHandler archive): base(when_done, new_interface) {
+        public ARestoreProgramHandler(Interface new_interface, ArchiveHandler archive): base(new_interface) {
+            this._program_title.Append(" Is Restoring");
             this.archive = archive;
         }
 

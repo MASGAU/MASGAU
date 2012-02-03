@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Text;
 using MASGAU.Location;
 using MASGAU.Communication.Progress;
 using MASGAU.Config;
@@ -9,13 +10,24 @@ using MASGAU.Communication.Message;
 
 namespace MASGAU {
     public abstract class AProgramHandler<L> : Core where L : ALocationsHandler {
-        public AProgramHandler(RunWorkerCompletedEventHandler when_done, Interface new_interface)
+
+        // The title of the program's window
+        public String program_title {
+            get {
+                return _program_title.ToString();
+            }
+        }
+
+        protected StringBuilder _program_title = new StringBuilder("MASGAU");
+        
+        public AProgramHandler(Interface new_interface)
             : base(new_interface) {
+            if(Core.portable_mode)
+                _program_title.Append(" Portable");
+
+
             this.DoWork += new DoWorkEventHandler(doWork);
             this.RunWorkerCompleted += new RunWorkerCompletedEventHandler(workCompleted);
-            if (when_done != null) {
-                this.RunWorkerCompleted += when_done;
-            }
         }
 
         protected virtual void workCompleted(object sender, RunWorkerCompletedEventArgs e) { }

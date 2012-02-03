@@ -222,6 +222,9 @@ namespace MASGAU.Update
                 if(!RequestHandler.Request(RequestType.Question,"MASGAU wishes to evolve","There are data updates available." + Environment.NewLine + "Would you like to update?").cancelled) {
                     ProcessStartInfo updater = new ProcessStartInfo();
                     updater.FileName = Core.programs.updater;
+                    if(Core.portable_mode)
+                        updater.Arguments = "-portable";
+
                     if(!SecurityHandler.amAdmin()) {
                         updater.Verb =  "runas";
                     }

@@ -167,10 +167,21 @@
     <Resource Include="Images\flag.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\Dependencies\7-Zip\7z.dll">
+      <Link>7z.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Dependencies\7-Zip\7z.exe">
+      <Link>7z.exe</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Graphics\masgau.ico">
+      <Link>masgau.ico</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="config.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="masgau.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

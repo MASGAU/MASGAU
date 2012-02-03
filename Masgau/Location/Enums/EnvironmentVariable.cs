@@ -13,11 +13,6 @@ namespace MASGAU.Location {
 
         Drive,
 
-        SteamUser,
-        SteamCommon,
-        SteamSourceMods,
-        SteamUserData,
-
         AllUsersProfile,
         Public,
 
@@ -37,6 +32,13 @@ namespace MASGAU.Location {
         // In the anlyzer we prefer the real program files path over the virtualstore one, so we give them higher priority
         ProgramFiles,
         ProgramFilesX86,
+
+        // We also prefer Steam paths over Program Files
+        SteamUser,
+        SteamCommon,
+        SteamSourceMods,
+        SteamUserData,
+
 
         PS3Export,
         PS3Save,

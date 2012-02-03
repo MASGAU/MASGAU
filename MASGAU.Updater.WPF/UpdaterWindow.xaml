@@ -4,7 +4,7 @@
             xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
             xmlns:upd="clr-namespace:MASGAU.Updater"
             DataContext="{Binding RelativeSource={RelativeSource Self}}" 
-        Title="MASGAU Feels Inferior" Loaded="Window_Loaded" ResizeMode="NoResize" SizeToContent="WidthAndHeight" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="149" d:DesignWidth="518">
+        Title="MASGAU Feels Inferior" ResizeMode="NoResize" SizeToContent="WidthAndHeight" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="149" d:DesignWidth="518">
     <Window.Resources>
         <upd:UpdateColorConverter x:Key="colorConverter"/>
     </Window.Resources>

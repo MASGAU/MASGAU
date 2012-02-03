@@ -76,7 +76,8 @@ namespace MASGAU.Console {
             else {
                 System.Console.Clear();
                 drawLogo();
-                program = new AConsoleProgramHandler<L>(program_RunWorkerCompleted);
+                program = new AConsoleProgramHandler<L>();
+                program.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(program_RunWorkerCompleted);
                 program.RunWorkerAsync();
                 while (!exit)
                     System.Threading.Thread.Sleep(100);
