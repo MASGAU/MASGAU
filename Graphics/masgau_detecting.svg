@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:ns="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -14,14 +14,13 @@
    height="25"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.45.1"
+   inkscape:version="0.47 r22583"
    version="1.0"
    sodipodi:docname="masgau_detecting.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="C:\Users\SanMadJack\Documents\My Dropbox\Programs\Masgau\masgau.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90"
-   sodipodi:docbase="C:\Documents and Settings\Student\My Documents\My Dropbox\Programs\Masgau">
+   inkscape:export-filename="C:\Users\mbarbour\Desktop\MASGAU\Graphics\0.png"
+   inkscape:export-xdpi="270"
+   inkscape:export-ydpi="270">
   <defs
      id="defs4">
     <linearGradient
@@ -72,19 +71,21 @@
      showgrid="false"
      inkscape:window-width="972"
      inkscape:window-height="714"
-     inkscape:window-x="561"
-     inkscape:window-y="83"
+     inkscape:window-x="178"
+     inkscape:window-y="48"
      height="25px"
-     width="100px" />
+     width="100px"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
-      <ns:Work
+      <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </ns:Work>
+        <dc:title></dc:title>
+      </cc:Work>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
@@ -107,17 +108,18 @@
          id="tspan2385"
          x="1.1383771"
          y="17.925106"
-         style="font-size:22px;font-weight:bold;fill:url(#linearGradient2393);fill-opacity:1">MASGAU</tspan></text>
+         style="font-size:22px;font-weight:bold;fill:url(#linearGradient2393);fill-opacity:1;-inkscape-font-specification:Arial Bold;font-family:Arial">MASGAU</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="0.50507629"
-       y="22.470791"
-       id="text2385"><tspan
+       style="font-size:37.47626114px;font-style:normal;font-weight:normal;fill:#204a87;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="0.64465743"
+       y="19.898651"
+       id="text2385"
+       transform="scale(0.87787936,1.1391087)"><tspan
          sodipodi:role="line"
          id="tspan2387"
-         x="0.50507629"
-         y="22.470791"
-         style="font-size:4px;fill:#204a87">IS DETECTING YOUR GAME SAVES AND SETTINGS</tspan></text>
+         x="0.64465743"
+         y="19.898651"
+         style="font-size:3.74762607px;font-weight:bold;fill:#204a87;font-family:Arial;-inkscape-font-specification:Arial Bold">LO, IT REVEALED IT SELF: AN ARC ANGEL ON SHORE LEAVE</tspan></text>
   </g>
 </svg>

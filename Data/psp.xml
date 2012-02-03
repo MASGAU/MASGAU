@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:noNamespaceSchemaLocation="games.xsd"
+	majorVersion="1" minorVersion="0" revisionVersion="0">
+	
+  <game name="CrisisCoreFinalFantasy7»PSP">
+    <title>Crisis Core: Final Fantasy VII</title>
+    <psp prefix="ULUS" suffix="10336" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="BraveStoryNewTraveler»PSP">
+    <title>Brave Story: New Traveler</title>
+    <psp prefix="ULUS" suffix="10279" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="Daxter»PSP">
+    <title>Daxter</title>
+    <psp prefix="UCUS" suffix="98618" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="DissidiaFinalFantasy»PSP">
+    <title>Dissidia: Final Fantasy</title>
+    <psp prefix="ULUS" suffix="10437" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="Echochrome»PSP">
+	  <title>Echochrome</title>
+	  <psp prefix="NPUG" suffix="80135" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="FinalFantasy»PSP">
+	  <title>Final Fantasy</title>
+	  <psp prefix="ULUS" suffix="10251" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="FinalFantasy2»PSP">
+	  <title>Final Fantasy II</title>
+	  <psp prefix="ULUS" suffix="10263" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="FinalFantasyTacticsWarOfTheLions»PSP">
+	  <title>Final Fantasy Tactics: War of the Lions</title>
+	  <psp prefix="ULUS" suffix="10297" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="GodOfWarChainsOfOlympus»PSP">
+    <title>God of War: Chains of Olympus</title>
+    <psp prefix="UCUS" suffix="98653" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="GrandTheftAutoChinatownWars»EUR»PSP">
+    <title>Grand Theft Auto: Chinatown Wars (EUR)</title>
+    <psp prefix="ULES" suffix="01347" />
+    <contributer>duncans_pumpkin</contributer>
+  </game>
+
+  <game name="GrandTheftAutoLibertyCityStories»EUR»PSP">
+    <title>Grand Theft Auto: Liberty City Stories (EUR)</title>
+    <psp prefix="ULES" suffix="00151" />
+    <contributer>duncans_pumpkin</contributer>
+  </game>
+
+  <game name="GrandTheftAutoViceCityStories»PSP">
+    <title>Grand Theft Auto: Vice City Stories</title>
+    <psp prefix="ULUS" suffix="10160" />
+    <contributer>duncans_pumpkin</contributer>
+  </game>
+
+  <game name="JeanneDArc»PSP">
+	  <title>Jeanne D'Arc</title>
+	  <psp prefix="UCUS" suffix="98700" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="Lumines»EUR»PSP">
+    <title>Lumines (EUR)</title>
+    <psp prefix="ULES" suffix="00043" />
+    <contributer>duncans_pumpkin</contributer>
+  </game>
+
+  <game name="MetalGearAcid»PSP">
+    <title>Metal Gear Ac!d</title>
+    <psp prefix="ULUS" suffix="10006" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="MetalGearAcid»EUR»PSP">
+    <title>Metal Gear Ac!d (EUR)</title>
+    <psp prefix="ULES" suffix="00008" />
+    <contributer>duncans_pumpkin</contributer>
+  </game>
+
+  <game name="MetalGearAcid2»EUR»PSP">
+    <title>Metal Gear Ac!d 2 (EUR)</title>
+    <psp prefix="ULES" suffix="00284" />
+    <contributer>duncans_pumpkin</contributer>
+  </game>
+
+  <game name="MetalGearSolidPortableOps»PSP">
+	  <title>Metal Gear Solid: Portable Ops</title>
+	  <psp prefix="ULUS" suffix="10202" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="NoGravity»PSP">
+	  <title>No Gravity</title>
+	  <psp prefix="NPUH" suffix="10007" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="Patapon»PSP">
+	  <title>Patapon</title>
+	  <psp prefix="UCUS" suffix="98711" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="RatchetClankSizeMatters»PSP">
+	  <title>Ratchet &amp; Clank: Size Matters</title>
+	  <psp prefix="UCUS" suffix="98633" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="SilentHill0rigins»PSP">
+	  <title>Silent Hill: 0rigins</title>
+	  <psp prefix="ULUS" suffix="10285" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="StarOceanFirstDeparture»PSP.xml">
+	  <title>Star Ocean: First Departure</title>
+	  <psp prefix="ULUS" suffix="10374" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="SuperStardustPortable»PSP">
+    <title>Super Stardust Portable</title>
+    <psp prefix="NPUG" suffix="80221" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="TombRaiderLegend»EUR»PSP">
+    <title>Tomb Raider: Legend (EUR)</title>
+    <psp prefix="ULES" suffix="00283" />
+    <contributer>SanMadJack</contributer>
+  </game>
+  
+  <game name="WipeoutPure»EUR»PSP">
+    <title>Wipeout Pure (EUR)</title>
+    <psp prefix="UCES" suffix="00001" />
+    <contributer>duncans_pumpkin</contributer>
+  </game>
+
+</games>

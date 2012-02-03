@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+	This file stores XML definitions for testing MASGAU
+	It finds data that always exists on the system, 
+	which means if something isn't detected, then something's wrong
+-->
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:noNamespaceSchemaLocation="games.xsd"
+	majorVersion="1" minorVersion="0" revisionVersion="0">
+
+  <game name="!AltSavePathsTest">
+    <title>Alt Save Paths Test</title>
+    <location_path environment_variable="altsavepaths" path="" />
+    <save path="*" filename="*.ini" />
+  </game>
+
+  <game name="01AllUsersProfileTest">
+    <title>01 - All Users Profile Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <save path="Programs/Accessories" />
+  </game>
+
+  <game name="02AppDataTest">
+    <title>02 - Add Data (Roaming) Test</title>
+    <location_path environment_variable="appdata" path="Microsoft\Internet Explorer" />
+    <save />
+  </game>
+
+  <game name="03DriveTest">
+    <title>03 - Drive Test</title>
+    <location_path environment_variable="drive" path="WINDOWS\Logs" />
+    <save />
+  </game>
+
+  <game name="04InstallLocationTest">
+    <title>04 - Install Location Test</title>
+    <location_path environment_variable="installlocation" path="Internet Explorer" />
+    <save path="en-us" />
+  </game>
+
+  <game name="05LocalAppDataTest">
+    <title>05 - Local App Data Test</title>
+    <location_path environment_variable="localappdata" path="Microsoft\Internet Explorer" />
+    <save />
+  </game>
+
+  <game name="06UserProfileTest">
+    <title>06 - User Profile Test</title>
+    <location_path environment_variable="userprofile" path="Favorites" />
+    <save />
+  </game>
+
+  <game name="07UserDocumentsTest">
+    <title>07 - User Documents Test</title>
+    <location_path environment_variable="userdocuments" path="" />
+    <save filename="*.ini" />
+  </game>
+
+  <game name="08PublicTest">
+    <title>08 - Public Test (Vista &amp; 7 Only)</title>
+    <location_path environment_variable="public" path="" />
+    <save />
+  </game>
+
+  <game name="09SavedGamesTest">
+    <title>09 - Saved Games Test (Vista &amp; 7 Only)</title>
+    <location_path environment_variable="savedgames" path="" />
+    <save />
+  </game>
+
+  <game name="10RegistryKeyNoValueTest">
+    <title>10 - Registry Key No Value Test</title>
+    <location_registry root="local_machine" key="SOFTWARE\MASGAU"/>
+    <save filename="uninst.exe"/>
+  </game>
+  
+  <game name="11RegistryKeyWithValueTest">
+    <title>11 - Registry Key With Value Test</title>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\MediaPlayer" value="SkinsDir"/>
+    <save />
+  </game>
+
+  <game name="12DetractTest">
+    <title>12 - Detract Test</title>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\MediaPlayer" value="SkinsDir" detract="Skins"/>
+    <save path="Skins" />
+  </game>
+
+  <game name="13AppendTest">
+    <title>13 - Registry Key Append Test</title>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\MediaPlayer" value="Installation Directory" append="Skins"/>
+    <save />
+  </game>
+  
+  <game name="14DetractAndAppendTest">
+    <title>14 - Detract And Append Test</title>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\MediaPlayer" value="VisualizationsDir" append="Skins" detract="Visualizations"/>
+    <save />
+  </game>
+
+  <game name="15ShortcutTest">
+    <title>15 - Shortcut Test</title>
+    <location_shortcut shortcut="Programs\Accessories\Notepad.lnk" />
+    <save filename="notepad.exe" />
+  </game>
+
+  <game name="16GameTest">
+    <title>16 - Game Test</title>
+    <location_game name="12DetractTest"/>
+    <save path="Skins"/>
+  </game>
+
+  <game name="17IdentifierFilenameOnlyNoWildcardTest">
+    <title>17 - Identifier Filename Only No Wildcard Test</title>
+    <location_path environment_variable="userdocuments" path="" />
+    <identifier filename="desktop.ini"/>
+    <save filename="desktop.ini" />
+  </game>
+
+  <game name="18IdentifierFilenameOnlyWithWildcardTest">
+    <title>18 - Identifier Filename Only With Wildcard Test</title>
+    <location_path environment_variable="userdocuments" path="" />
+    <identifier filename="*.ini"/>
+    <save filename="*.ini" />
+  </game>
+
+  <game name="19IdentifierPathOnlyNoWildcardTest">
+    <title>19 - Identifier Path Only No Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <identifier path="Programs"/>
+    <save path="Programs\Accessories" />
+  </game>
+
+  <game name="20IdentifierPathOnlyWithWildcardTest">
+    <title>20 - Identifier Path Only With Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <identifier path="*\Accessories"/>
+    <save path="*\Accessories" />
+  </game>
+
+  <game name="21IdentifierPathAndFilenameNoWildcardTest">
+    <title>21 - Identifier Path And Filename No Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <identifier path="Programs\Accessories" filename="Wordpad.lnk"/>
+    <save path="Programs\Accessories" filename="Wordpad.lnk" />
+  </game>
+  
+  <game name="22IdentifierPathAndFilenameWithWildcardTest">
+    <title>22 - Identifier Path And Filename With Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <identifier path="Programs\*" filename="N*.lnk"/>
+    <save path="Programs\*" filename="N*.lnk" />
+  </game>
+
+  <game name="23WindowsVersionXPTest">
+    <title>23 - Windows Version XP Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <save path="Programs\Accessories" />
+  </game>
+
+  <game name="23WindowsVersionVistaTest">
+    <title>23 - Windows Version Vista &amp; 7 Test</title>
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <save path="Programs\Accessories" />
+  </game>
+
+  <game name="24SteamCommonTest">
+    <title>24 - Steam Common Test</title>
+    <location_path environment_variable="steamcommon" path=""/>
+    <save path="*" filename="*.ini"/>
+  </game>
+  
+  <game name="25SteamSourceModsTest">
+    <title>25 - Steam Source Mods Test</title>
+    <location_path environment_variable="steamsourcemods" path=""/>
+    <save path="*" filename="*.cfg"/>
+  </game>
+  
+  <game name="26SteamUserTest">
+    <title>26 - Steam User Test</title>
+    <location_path environment_variable="steamuser" path=""/>
+    <save path="*" filename="*.cfg"/>
+  </game>
+
+  <game name="27IgnoreFileNameOnlyNoWildcardTest">
+    <title>27 - Ignore File Name Only No Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu\Programs\Accessories" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu\Programs\Accessories" windows_version="Vista" />
+    <save />
+    <ignore filename="Notepad.lnk" />
+  </game>
+
+  <game name="28IgnoreFileNameOnlyWithWildcardTest">
+    <title>28 - Ignore File Name Only With Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu\Programs\Accessories" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu\Programs\Accessories" windows_version="Vista" />
+    <save />
+    <ignore filename="N*.lnk" />
+  </game>
+
+  <game name="29IgnorePathNameOnlyNoWildcardTest">
+    <title>29 - Ignore Path Name Only No Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <save />
+    <ignore path="Programs\Accessories" />
+  </game>
+
+  <game name="30IgnorePathNameOnlyWithWildcardTest">
+    <title>30 - Ignore Path Name Only With Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <save />
+    <ignore path="*\Accessories" />
+  </game>
+
+  <game name="31IgnorePathAndFileNameNoWildcardTest">
+    <title>31 - Ignore Path And File Name No Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <save />
+    <ignore path="Programs\Accessories" filename="Notepad.lnk" />
+  </game>
+
+  <game name="32IgnorePathAndFileNameWithWildcardTest">
+    <title>32 - Ignore Path And File Name With Wildcard Test</title>
+    <location_path environment_variable="allusersprofile" path="Start Menu" windows_version="XP" />
+    <location_path environment_variable="appdata" path="Microsoft\Windows\Start Menu" windows_version="Vista" />
+    <save />
+    <ignore path="*\Accessories" filename="N*.lnk" />
+  </game>
+
+  <game name="33SteamUserTest">
+    <title>33 - Steam User Test</title>
+    <location_path environment_variable="steamuserdata" path="7"/>
+    <save />
+  </game>
+
+  <game name="34SteamUserTest">
+    <title>33 - Steam User Test</title>
+    <location_path environment_variable="steamuser" path="team fortress 2"/>
+    <save path="config" /> 
+  </game>
+
+</games>

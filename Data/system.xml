@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+	This file stores XML definitions for backing up system-related data.
+	This is mainly for backing up Games for Windows account data,
+	which is required in order to restore games like Arkham Asylum.
+-->
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:noNamespaceSchemaLocation="games.xsd"
+	majorVersion="1" minorVersion="0" revisionVersion="0">
+
+  <game name="MASGAUCustomXML">
+    <!--
+      Idea Provided By: VincentV137
+    -->
+    <title>MASGAU Custom XML</title>
+    <location_registry root="local_machine" key="SOFTWARE\MASGAU" value="InstallPath" />
+    <location_path environment_variable="installlocation" path="MASGAU" />
+    <identifier filename="custom.xml" />
+    <save filename="custom.xml" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="G4WAccountData">
+    <title>Games for Windows Account Data</title>
+    <location_path environment_variable="localappdata" path="Microsoft\XLive\Content" />
+    <save />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="UPlayData">
+    <title>UPlay Data</title>
+    <location_path environment_variable="installlocation" path="Ubisoft\Ubisoft Game Launcher" />
+    <location_registry root="local_machine" key="SOFTWARE\UbiSoft\Launcher" value="InstallDir"/>
+    <save path="storage" />
+    <ignore path="storage\temp"/>
+    <contributer>Arc Angel</contributer>
+  </game>
+
+  <game name="RaptrData">
+    <title>Raptr Data</title>
+    <location_path environment_variable="appdata" path="Raptr" />
+    <save path="data" />
+    <save path="Unknown" />
+    <save filename="raptr*" />
+    <ignore filename="*.exe" />
+    <contributer>Arc Angel</contributer>
+  </game>
+
+  <game name="XfireData">
+    <title>Xfire Data</title>
+    <location_path environment_variable="allusersprofile" path="Xfire" />
+    <save />
+    <contributer>Arc Angel</contributer>
+  </game>
+
+</games>

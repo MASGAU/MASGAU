@@ -1,36 +1,51 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masgau", "Masgau\Masgau.csproj", "{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU", "MASGAU\MASGAU.csproj", "{12C8E695-52B9-4695-9144-CE0BAFF50AFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91A26487-E486-41C4-8168-CC3BC738A1C0} = {91A26487-E486-41C4-8168-CC3BC738A1C0}
+		{4F0E43B0-0E50-4CFA-AB6B-7453685CDED5} = {4F0E43B0-0E50-4CFA-AB6B-7453685CDED5}
+		{5DA7EADE-9263-4ED8-AE1F-9AE74BC4257D} = {5DA7EADE-9263-4ED8-AE1F-9AE74BC4257D}
+		{30BC48F1-5050-4491-BE9E-3982E4540868} = {30BC48F1-5050-4491-BE9E-3982E4540868}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauMonitor", "MasgauMonitor\MasgauMonitor.csproj", "{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{4F0E43B0-0E50-4CFA-AB6B-7453685CDED5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91A26487-E486-41C4-8168-CC3BC738A1C0} = {91A26487-E486-41C4-8168-CC3BC738A1C0}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauTask", "MasgauTask\MasgauTask.csproj", "{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzer", "Analyzer\Analyzer.csproj", "{30BC48F1-5050-4491-BE9E-3982E4540868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauAnalyzer", "MasgauAnalyzer\MasgauAnalyzer.csproj", "{C0F129BC-D668-4612-80E4-A669623A754B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task", "Task\Task.csproj", "{5DA7EADE-9263-4ED8-AE1F-9AE74BC4257D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "Updater\Updater.csproj", "{91A26487-E486-41C4-8168-CC3BC738A1C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0F129BC-D668-4612-80E4-A669623A754B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0F129BC-D668-4612-80E4-A669623A754B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0F129BC-D668-4612-80E4-A669623A754B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0F129BC-D668-4612-80E4-A669623A754B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C8E695-52B9-4695-9144-CE0BAFF50AFD}.Debug|x86.ActiveCfg = Debug|x86
+		{12C8E695-52B9-4695-9144-CE0BAFF50AFD}.Debug|x86.Build.0 = Debug|x86
+		{12C8E695-52B9-4695-9144-CE0BAFF50AFD}.Release|x86.ActiveCfg = Release|x86
+		{12C8E695-52B9-4695-9144-CE0BAFF50AFD}.Release|x86.Build.0 = Release|x86
+		{4F0E43B0-0E50-4CFA-AB6B-7453685CDED5}.Debug|x86.ActiveCfg = Debug|x86
+		{4F0E43B0-0E50-4CFA-AB6B-7453685CDED5}.Debug|x86.Build.0 = Debug|x86
+		{4F0E43B0-0E50-4CFA-AB6B-7453685CDED5}.Release|x86.ActiveCfg = Release|x86
+		{4F0E43B0-0E50-4CFA-AB6B-7453685CDED5}.Release|x86.Build.0 = Release|x86
+		{30BC48F1-5050-4491-BE9E-3982E4540868}.Debug|x86.ActiveCfg = Debug|x86
+		{30BC48F1-5050-4491-BE9E-3982E4540868}.Debug|x86.Build.0 = Debug|x86
+		{30BC48F1-5050-4491-BE9E-3982E4540868}.Release|x86.ActiveCfg = Release|x86
+		{30BC48F1-5050-4491-BE9E-3982E4540868}.Release|x86.Build.0 = Release|x86
+		{5DA7EADE-9263-4ED8-AE1F-9AE74BC4257D}.Debug|x86.ActiveCfg = Debug|x86
+		{5DA7EADE-9263-4ED8-AE1F-9AE74BC4257D}.Debug|x86.Build.0 = Debug|x86
+		{5DA7EADE-9263-4ED8-AE1F-9AE74BC4257D}.Release|x86.ActiveCfg = Release|x86
+		{5DA7EADE-9263-4ED8-AE1F-9AE74BC4257D}.Release|x86.Build.0 = Release|x86
+		{91A26487-E486-41C4-8168-CC3BC738A1C0}.Debug|x86.ActiveCfg = Debug|x86
+		{91A26487-E486-41C4-8168-CC3BC738A1C0}.Debug|x86.Build.0 = Debug|x86
+		{91A26487-E486-41C4-8168-CC3BC738A1C0}.Release|x86.ActiveCfg = Release|x86
+		{91A26487-E486-41C4-8168-CC3BC738A1C0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

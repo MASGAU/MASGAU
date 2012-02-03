@@ -9,7 +9,7 @@ using System.Xml;
 using System.Security.AccessControl;
 using wyDay.Controls;
 
-namespace Masgau
+namespace MASGAU
 {
     public class RestoreHandler
     {
@@ -18,35 +18,53 @@ namespace Masgau
         public string backup_path = null, steam_path = null;
         public PathHandler paths;
         private string temp;
-        private bool all_users_mode = false, ready = false;
+        //private bool all_users_mode = false;
+        private bool ready = false;
         private SecurityHandler red_shirt = new SecurityHandler();
         Process unzipper = new Process();
         invokes invokes = new invokes();
 
-        public RestoreHandler(string from_here, string back_this)
+        public RestoreHandler(string from_here, string back_this, Windows7ProgressBar progress, object progress_label)
         {
             string[] args = Environment.GetCommandLineArgs();
             for(int i = 0;i<args.Length;i++) {
                 if(args[i]=="/allusers") {
-                    all_users_mode = true;
+                    //all_users_mode = true;
                 }
             }
-
-            RegistryManager zip_path = new RegistryManager("SOFTWARE\\7-Zip");
-            string path = zip_path.getValue("Path") + Path.DirectorySeparatorChar + "7z.exe";
-            if (File.Exists(path))
-            {
+            string path = Path.Combine(Application.StartupPath,"7z.exe");
+            if(File.Exists(path)) {
                 unzipper.StartInfo.FileName = path;
                 ready = true;
-            } 
+            } else {
+                ready = false;
+            }
+
+            //if(File.Exists(path)&&File.Exists(Path.Combine(Application.StartupPath,"7z.dll"))) {
+            //    unzipper.StartInfo.FileName = path;
+            //    ready = true;
+            //} else {
+            //    RegistryManager zip_path = new RegistryManager(Microsoft.Win32.RegistryHive.LocalMachine, "SOFTWARE\\7-Zip",false);
+            //    if (zip_path.getValue("Path") != null)
+            //    {
+            //        path = Path.Combine(zip_path.getValue("Path"), "7z.exe");
+            //        if (File.Exists(path))
+            //        {
+            //            unzipper.StartInfo.FileName = path;
+            //            ready = true;
+            //        }
+            //    } else { 
+            //        ready = false;
+            //    }
+            //}
 
             
             temp = Path.Combine(Environment.GetEnvironmentVariable("TEMP"),"MASGAURestoring");
             backup_path = from_here;
-            detectBackups(back_this);
+            detectBackups(back_this,progress,progress_label);
         }
 
-        public void detectBackups(string back_this) {
+        public void detectBackups(string back_this, Windows7ProgressBar progress, object progress_label) {
             if(ready&&backup_path!=null&&Directory.Exists(backup_path)) {
                 if (Directory.Exists(temp))
                     Directory.Delete(temp,true);
@@ -62,7 +80,19 @@ namespace Masgau
                 backups = new Dictionary<string,backup_holder>();
                 FileInfo[] read_us = new DirectoryInfo(backup_path).GetFiles("*.gb7");
                 if(read_us.Length>0) {
+                    int backup_counter = 0;
+                    if(progress!=null) {
+                        invokes.setProgressBarMax(progress,read_us.Length);
+                    }
                     foreach(FileInfo read_me in read_us) {
+                        backup_counter++;
+                        if(progress_label!=null) {
+                            invokes.setControlText(progress_label, "Scanning Backups (" + backup_counter + "/" + read_us.Length + ")");
+                        }
+                        if(progress!=null) {
+                            invokes.setProgressBarValue(progress,backup_counter);
+                        }
+
                         add_me.file_date = read_me.LastWriteTime.ToString();
                         add_me.file_name = read_me.Name;
                         add_me.owner = null;
@@ -190,7 +220,7 @@ namespace Masgau
 				            ProcessStartInfo superMode = new ProcessStartInfo();
 				            superMode.UseShellExecute = true;
 				            superMode.WorkingDirectory = Application.ExecutablePath;
-				            superMode.FileName = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),"MasgauTask.exe");
+				            superMode.FileName = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),"Task.exe");
 				            superMode.Arguments = archive_name;
 				            superMode.Verb = "runas";
 				            try {
@@ -217,7 +247,7 @@ namespace Masgau
 							ProcessStartInfo superMode = new ProcessStartInfo();
 							superMode.UseShellExecute = true;
 							superMode.WorkingDirectory = Application.ExecutablePath;
-						    superMode.FileName = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),"MasgauTask.exe");
+						    superMode.FileName = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),"Task.exe");
 							superMode.Arguments = archive_name;
 							superMode.Verb = "runas";
 							try {
@@ -240,7 +270,7 @@ namespace Masgau
 						ProcessStartInfo superMode = new ProcessStartInfo();
 						superMode.UseShellExecute = true;
 							superMode.WorkingDirectory = Application.ExecutablePath;
-						superMode.FileName = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),"MasgauTask.exe");
+						superMode.FileName = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),"Task.exe");
 						superMode.Arguments = archive_name;
 						superMode.Verb = "runas";
 						try {

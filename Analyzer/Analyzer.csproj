@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30BC48F1-5050-4491-BE9E-3982E4540868}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MASGAU</RootNamespace>
+    <AssemblyName>Analyzer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>masgau.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\Configs\analyzer_config.xml">
+      <Link>analyzer_config.xml</Link>
+    </Content>
+    <Content Include="masgau.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\MASGAU\driveSelector.cs">
+      <Link>driveSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MASGAU\driveSelector.designer.cs">
+      <Link>driveSelector.designer.cs</Link>
+      <DependentUpon>driveSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MASGAU\invokes.cs">
+      <Link>invokes.cs</Link>
+    </Compile>
+    <Compile Include="..\MASGAU\ListViewItemComparer.cs">
+      <Link>ListViewItemComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\MASGAU\PathHandler.cs">
+      <Link>PathHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\MASGAU\RegistryManager.cs">
+      <Link>RegistryManager.cs</Link>
+    </Compile>
+    <Compile Include="..\MASGAU\rootSelector.cs">
+      <Link>rootSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MASGAU\rootSelector.designer.cs">
+      <Link>rootSelector.designer.cs</Link>
+      <DependentUpon>rootSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MASGAU\SecurityHandler.cs">
+      <Link>SecurityHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\MASGAU\SteamHandler.cs">
+      <Link>SteamHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\MASGAU\structs.cs">
+      <Link>structs.cs</Link>
+    </Compile>
+    <Compile Include="..\MASGAU\userSelector.cs">
+      <Link>userSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MASGAU\userSelector.designer.cs">
+      <Link>userSelector.designer.cs</Link>
+      <DependentUpon>userSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzerForm.designer.cs">
+      <DependentUpon>analyzerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emailForm.Designer.cs">
+      <DependentUpon>emailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emailSettings.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportForm.designer.cs">
+      <DependentUpon>reportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchingForm.designer.cs">
+      <DependentUpon>searchingForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\MASGAU\driveSelector.resx">
+      <Link>driveSelector.resx</Link>
+      <DependentUpon>driveSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MASGAU\rootSelector.resx">
+      <Link>rootSelector.resx</Link>
+      <DependentUpon>rootSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MASGAU\userSelector.resx">
+      <Link>userSelector.resx</Link>
+      <DependentUpon>userSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzerForm.resx">
+      <DependentUpon>analyzerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emailForm.resx">
+      <DependentUpon>emailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportForm.resx">
+      <DependentUpon>reportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchingForm.resx">
+      <DependentUpon>searchingForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="Windows7ProgressBar">
+      <HintPath>..\Dependencies\Windows7ProgressBar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

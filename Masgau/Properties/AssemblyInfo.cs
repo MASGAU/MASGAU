@@ -1,16 +1,17 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Resources;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MASGAU")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("MASGAU Automatic Save Game Archive Utility")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Matthew Barbour")]
 [assembly: AssemblyProduct("MASGAU")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2e316cd3-5ee8-4e87-9017-d573a4f0608b")]
+[assembly: Guid("945856aa-4372-4d51-94f3-5a39ece0befb")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -29,5 +30,6 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.6.0.0")]
-[assembly: AssemblyFileVersion("0.6.0.0")]
+[assembly: AssemblyVersion("0.8.0.0")]
+[assembly: AssemblyFileVersion("0.8.0.0")]
+[assembly: NeutralResourcesLanguageAttribute("en-US")]

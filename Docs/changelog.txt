@@ -1,3 +1,295 @@
+ï»¿NOTE: All button rows are 30 pixels tall
+NOTE: All dialog windows are 105 pixels tall
+TODO: Add every open source game you can think of - save for updates
+TODO: Machinarium needs the ability to detect paths that can have a random name (use an asterisk with an identifier?)
+TODO: journeyman 2
+TODO: Assassin's Creed 2 and other stuff like that
+v.0.8 - Beta in spirit
+* Added a contribution counter to the about tab. So cool.
+* Added the ability to sort the games list both ascending and descending
+* Fixed detection of Playstation saves on memory sticks formatted as "FAT" (Fix contributed by duncans_pumpkin)
+* Moved the populating of the main interface elements to the shown event handler to prevent potential synchronization issues, which unfortuantely means it takes longer for the interface to enable
+* Changed game_data XML element to just game
+* Changed target framework to .NET 4.0
+* Added more advanced XML validation for better error feedback
+* Added an XSD for the game data XML format
+* Shifted a while loop so that a duplicate game name does not necessarily prevent further game detection
+* Added the ability to detect saves that are actually just in the root of a relative path
+* Added %ALTSAVEPATHS% for saves that could be anywhere
+* Added %STEAMSOURCEMODS% to point to Steam/steamapps/SourceMods
+* Changed Analyzer to convert paths to lowercase to ensure matches while scanning the registry and the s0tart menu
+* Adjusted relative path detection so that all path names come right from the file system
+* Changed detected roots for a game to be stored in a Dictionary instead of an ArrayList to help prevent identical duplicates
+* Changed naming convention so mods have a ?then the name of the game they are modding
+* Stopped MASGAU Monitor from being bi-polar (flashing Danger Will Robinson / Safety Will Robinson)
+* Added a precaution to MASGAU Monitor in case duplicate save paths are passed to it
+* Changed Path Handler so that both VirtualStore and the real Program Files will always be checked regardless of UAC status, which should help accomodate old games that may or may not be running as Admin
+* Changed the backup detection portion of startup to use the progress bar, as this step can take a while if you have enough backups
+* Fixed appending of root path to file name when making a custom archive
+* Changed custom archives to automatically have a timestamp appended to the name
+* Changed monitor's tooltip to always have the right plural 
+* Added the option to Monitor (which will be on by default) to perform a full backup on startup. This is to prevent some files from going undetected just because they were made while Monitor wasn't running.
+* Addeed a check so Monitor will prompt for a backup path if one is not set
+* Rearranged the tabs in order of most frequently used (IMHO)
+* Moved game data XML files to a subfolder so they won't interfere with other xml files
+* Added the ability to update game definitions via auto-check or by pushing a button on the settings tab
+* Fixed a couple cross-thread calls
+* Fixed a bug when restoring a game to an %INSTALLLOCATION% path. Which pretty much means all of them. Sorry guys, my bad.
+* Fixed a mistake that caused the "Use This" button to actually cancel a restore. I need to have my head examined.
+* Changed 7z.exe finder to first check in the install folder - this is prepping for a portable version
+* Changed config path thinger to first check in the install folder - see above
+* Switched installer to Inno Setup
+* Changed registry manager to be able to see 64-bit context even in 32-bit, thus removing the need for 64-bit builds
+* Fixed being able to see the 64-bit Program Files folder
+* A couple other things that I forgot about because my computer crashed and corrupted the changelog
+* Added errors for when a registry key root isn't recognized, and when a relative root isn't recognized, and when there's a space in a game name
+* Added all settings to Monitor, so you don't have to fire up the main program if you don't want to
+* Added locks to settings manager to prevent two threads from modifying the config file simultaneously
+* Changed XML definition to use location instead of root
+* Added environment_variable attribute to location tags, not more of that %% stuff
+* Changed registry attribute to registry_root and registry_key
+* Some massive internal overhauling to accomodate the above 3 changes and generally make the whole detection process a lot cleaner
+* Finally got everything in the same namespace
+* Created portable version
+* Added support for an ignore tag
+* Added button to e-mail reports straight from the analyzer
+* Changed the detected games list to be tile view
+* Fixed a bug that allowed the same file to be detected twice
+* Added a comment box to the analyzer
+* Added support for games that use Steam's userdata folder
+* Fixed a crash when trying to restore a game with a name MASGAU doesn't know
+* Added an alert when a new version of MASGAU is available
+* A bunch of other things that I didn't keep track of
+New System Files
+* Raptr Data - Contributed by Arc Angel
+New Windows Games
+* AaaaaAAaaaAAAaaAAAAaAAAAA!!! - Contributed by duncans_pumpkin
+* Age of Empires 3 - Contributed by SamuelTaylor
+* Alien Breed: Impact - Contributed by Arc Angel
+* Alien Breed 2: Assault - Contributed by Arc Angel
+* Aliens vs. Predator 2
+* Aliens vs. Predator 2: Primal Hunt
+* Alien Shooter 2: Reloaded - Contributed by Arc Angel
+* Alone in the Dark: The new Nightmare - GoG only
+* Alpha Protocol - Contributed by Arc Angel
+* Amnesia: The Dark Descent - Contributed by Arc Angel
+* Anno 1401 - contributed by Caleb Love
+* Aquanox
+* Aquanox 2: Revelation
+* Aquaria - Contributed by Dwight Holman
+* Arcanum: Of Steamworks and Migick Obscura - GoG only
+* ArmA: Combat Operations - Contributed by arc Angel
+* Battlefield: Bad Company 2 - Contributed by arc Angel
+* Beneath a Steel Sky - GoG only
+* Bioshock 2 - Contributed by H?rd Kr??
+* Black Mirror 2 - Contributed by Arc Angel
+* Blacklight: Tango Down - Contributed by Arc Angel
+* Blood II: The Chosen - GoG only
+* Blood Stone 007 - Contributed by Arc Angel
+* BloodRayne - GoG only
+* BloodRayne 2 - GoG only
+* Borderlands - Contributed by Arc Angel
+* Broken Sword: Shadow of the Templars - The Director's Cut
+* Broken Sword II: The Smoking Mirror - GoG only
+* Broken Sword: The Sleeping Dragon - GoG only
+* Bully - Contributed by Arc Angel
+* Burnout: Paradise - Contributed by Arc Angel
+* Call of Cthulhu: Dark Corners of the Earth - Contributed by Arc Angel
+* Call of Duty - Steam only - Contributed by Arc Angel
+* Call of Duty: United Offensive - Steam only - Contributed by Arc Angel
+* Call of Duty 2 - Steam only - Contributed by Arc Angel
+* Call of Duty: Modern Warfare 2 - Steam only - Contributed by Arc Angel
+* Chaser - Steam only - Contributed by Arc Angel
+* Chrome - Contributed by Arc Angel
+* Chrome: SpecForce - Contributed by Arc Angel
+* Crystals of Arborea - GoG only
+* Sid Meier's Civilization V
+* Command & Conquer 4: Tiberian Twilight - Vista & 7 only - Contributed by H?rd Kr??
+* Company of Heroes - Contributed by Arc Angel
+* Cryostasis - Contributed by Arc Angel
+* Crysis Warhead - Contributed by Arc Angel
+* Cyberstorm 
+* Cyberstorm 2
+* Dark Fall: The Journal
+* Dark Fall 2: Lights Out
+* Dark Horizon - Contributed by Arc Angel
+* Dark Sector - Contributed by Arc Angel
+* Darkest of Days - Contributed by Arc Angel
+* Darkness Within 2 - Contributed by Arc Angel
+* Darksiders - Contributed by Arc Angel
+* Darkstar One - GoG only
+* Dead Space - Contributed by Arc Angel
+* Death to Spies: Moment of Truth - Contributed by Arc Angel
+* Deus - GoG only
+* Diablo - Contributed by Mark Barbour
+* Diablo: Hellfire - Contributed by Mark Barbour
+* DiRT - Steam only - Contributed by Arc Angel
+* Dungeon Keeper
+* Earth 2140 - GoG only
+* Earth 2150 - GoG only
+* Earth 2150: Lost Souls - GoG only
+* Earth 2150: The Moon Project - GoG only
+* Evil Genius (Steam Only) - Contributed by duncans_pumpkin
+* Evil Genius - GoG Only
+* Exodus from the Earth - Contributed by Arc Angel
+* Fallout: New Vegas - Contributed by David Barbour
+* FIFA 11 - Contributed by Caleb Love
+* Final Fantasy VII - Contributed by Caleb Love
+* Freedom Force (Steam Only) - Contributed by duncans_pumpkin
+* Freedom Force vs. The 3rd Reich - Contributed by Arc Angel
+* Freelancer
+* Fuel - Contributed by Arc Angel
+* Gabriel Knight: Sins of the Fathers - GoG only
+* Gabriel Knight 3: Blood of the Sacred, Blood of the Damned - GoG only
+* Gobliins 2 - GoG Only
+* Goblins Quest 3 - GoG Only
+* Grand Theft Auto IV - Contributed by Virgile
+* Gratuitous Space Battles - Contributed by Arc Angel
+* Gray Matter - contributed by Caleb Love
+* Guild Wars
+* Homeworld 
+* Homeworld: Cataclysm
+* Homeworld 2
+* Independence War
+* Independence War 2: Edge of Chaos
+* Ishar - Legend of the Fortress - GoG only
+* Ishar 2 - Messengers of Doom - GoG only
+* Ishar 3 - The Seven Gates of Infinity - GoG only
+* Clive Barker's Jericho - Contributed by Arc Angel
+* Judge Dredd: Dredd vs. Death - Steam only - Contributed by Arc Angel
+* Kane & Lynch 2: Dog Days - Contributed by Arc Angel
+* King's Bounty: The Legend - Contributed by Arc Angel
+* The Last Remnant - Contributed by Arc Angel
+* Legendary - Contributed by Arc Angel
+* Lost Planet: Colonies - contributed by Caleb Love
+* Lure of the Temptress - GoG only
+* Mafia II - Contributed by Arc Angel
+* Martian Memorandum - GoG only
+* Mass Effect 2 - Contributed by Christian Hamaan
+* Master of Orion - GoG only
+* Mean Streets - GoG only
+* Metro 2033 - Contributed by H?rd Kr??
+* MechWarrior 2: 31st Century Combat: Titanium Edition
+* MechWarrior 2: Ghost Bear's Legacy: Titanium Edition
+* MechWarrior 2: Mercenaries: Titanium Edition
+* Medal of Honor - Contributed by Arc Angel
+* The Misadventures of P.B. Winterbottom - Contributed by Arc Angel
+* Moonbase Alpha - Contributed by Arc Angel
+* Mount&Blade: Warband - Contributed by Arc Angel
+* Nation Red - Contributed by Arc Angel
+* NecrovisioN: Lost Company - Steam only - Contributed by Arc Angel
+* Need For Speed Undercover - Contributed by Arc Angel
+* No Gravity
+* One Unit: Whole Blood - GoG only
+* Operation Flashpoint: Dragon Rising - Contributed by Arc Angel
+* Osmos - Contributed by duncans_pumpkin
+* Outpost 2: Divided Destiny
+* Outcast - GoG only
+* Overlord - Contributed by duncans_pumpkin
+* Overlord II - Contributed by Arc Angel
+* The Pandora Directive - GoG only
+* Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode Two
+* Phantasmagoria - GoG only
+* Phantasmagoria 2: A Puzzle of Flesh - GoG only
+* Quantz - Steam Cloud only
+* Puzzle Quest: Challenge of the Warlords
+* Raptor: Call of the Shadows - GoG only
+* RealMyst - GoG only
+* Red Faction: Guerrilla - Contributed by Arc Angel
+* Rise of the Argonauts - Contributed by Arc Angel
+* Robinson's Requiem - GoG only
+* Rogue Warrior - Contributed by Arc Angel
+* Sam & Max - The Devil's Playhouse Episode 1 - The Penal Zone
+* Sam & Max - The Devil's Playhouse Episode 2 - The Tomb of Sammun-Mak
+* Sam & Max - The Devil's Playhouse Episode 3 - They Stole Max's Brain
+* Sam & Max - The Devil's Playhouse Episode 4 - Beyond the Alley of the Dolls
+* Sam & Max - The Devil's Playhouse Episode 5 - The City That Dares Not Sleep
+* The Saboteur - Contributed by Arc Angel
+* Sanitarium
+* The Scourge Project: Episodes 1 and 2 - Contributed by Arc Angel
+* Septerra Core: Legacy of the Creator
+* Serious Sam HD: The First Encounter - Steam only
+* Shogo - Mobile Armor Division
+* The Sims 3 - Contributed by Caleb Love
+* Starcraft II: Wings of Liberty - Contributed by Caleb Love
+* Silent Hill: Homecoming - Widnows Vista/7 Only - Contributed by Arc Angel
+* Singularity - Contributed by Arc Angel
+* Sniper Elite - Steam only - Contributed by Arc Angel
+* Sniper: Ghost Warrior - Contributed by Arc Angel
+* Splinter Cell - Contributed by Arc Angel
+* Splinter Cell: Chaos Theory - Contributed by Arc Angel
+* Splinter Cell: Double Agent - Contributed by Arc Angel
+* Split Second - Contributed by Arc Angel
+* Spore - Contributed by duncans_pumpkin
+* Spore Creature Creator - Contributed by duncans_pumpkin
+* S.T.A.L.K.E.R.: Call of Pripyat - Contributed by H?rd Kr?? & Arc Angel
+* S.T.A.L.K.E.R.: Clear Sky - Steam Only - Contributed by Arc Angel
+* Starlancer
+* Star Wars: The Force Unleashed II - contributed by Arc Angel
+* Star Wolves - GoG only
+* Still Life - GoG only
+* Supreme Commander - Contributed by duncans_pumpkin
+* Supreme Commander: Forged Alliance - Contributed by duncans_pumpkin
+* Trine - Steam Cloud only
+* Tales of Monkey Island Chapter 5: Rise of the Pirate God
+* Tank Universal - Steam Only - Contributed by Arc Angel
+* Tex Murphy: Overseer - GoG only
+* TorchLight - Contributed by Arc Angel
+* Trine - Steam Cloud only
+* Under A Killing Moon - GoG only
+* Twin Sector - Contributed by Arc Angel
+* Tyrian 2000 - GoG only
+* Vampire: The Masquerade - Redemption - GoG only
+* Velvet Assassin - Contributed by Arc Angel
+* The Void - Contributed by Arc Angel
+* Wheelman - Contributed by Arc Angel
+* World of Goo - Contributed by duncans_pumpkin
+* World of Warcraft - Contributed by Caleb Love
+* X3: Terran Conflict - Contributed by Arc Angel
+* Zeno Clash (Steam only) - Contributed by duncans_pumpkin
+* Zombie Shooter 2 - Contributed by Arc Angel
+New Mods
+* Cinematic Mod 10
+* Flesh
+* Research and Development
+Updated Windows Games
+* Beyond Good & Evil - Added Disc-based and GOG path, shortcuts and registry key
+* Descent - Added GoG path, shortcut and registry key
+* Descent II - Added GoG path, shortcut and registry key
+* Descent 3 - Added GoG path, shortcut and registry key, and changed the title to use that cool superscript 3
+* Descent: Freespace - The Great War - Added GoG path, shortcut and registry key
+* FreeSpace 2 - Added GoG path, shortcut and registry key, modified to ignore fs2_open saves
+* fs2_open - Added Freespace 2 as a location source, in case fs2_open was installed into an existing Freespace 2 folder
+* Gabriel Knight 2: The Beast Within - Added GoG path, shortcut and registry key
+* Tachyon: The Fringe - Added Disc-based path, shortcuts and registry key
+* Mafia - Added Steam path - Contributed by Arc Angel
+* Master of Orion 2 - Added GoG path, shortcut and registry key
+* Painkiller - Added GoG info
+* Planescape: Torment - Adde GoG info
+* Postal 2 - Added GoG path, shortcut and registry key
+* Prince of Persia: The Sands of Time - Added disc-based info - contributed by Caleb Love
+* Psychonauts - Added GoG info
+* Septerra Core - Added GoG info
+* Clive Barker's Undying - Added shortcut and updated registry key
+New PS2 Games
+* Killer 7
+* X-Men Legends
+* X-Men Legends II: Rise of Apocalypse
+New PS3 Games
+* Elder Scrolls IV: Oblivion
+* Final Fantasy XIII
+* Red Faction: Guerrilla
+* Ultimate Alliance
+New PSP Games
+* Grand Theft Auto: Chinatown Wars (EUR) - Contributed by duncans_pumpkin
+* Grand Theft Auto: Liberty City Stories (EUR) - Contributed by duncans_pumpkin
+* Grand Theft Auto: Vice City Stories - Contributed by duncans_pumpkin
+* Lumines (EUR) - Contributed by duncans_pumpkin
+* Metal Gear Ac!d (EUR) - Contributed by duncans_pumpkin
+* Metal Gear Ac!d 2 (EUR) - Contributed by duncans_pumpkin
+* Wipeout Pure (EUR) - Contributed by duncans_pumpkin
+v.0.7.1 - Micro-release the second
+* Fixed a bug that caused loaded registry hives to not unload, causing the associated users to be unable to load their profiles
 v.0.7 - Alpha Seven
 * Rebuilt interface so that the main window can be resized
 * Rebuilt custom archive window so it can be resized
@@ -65,7 +357,7 @@ New Windows Games
 * The Wonderful End Of The World (Steam only) - Contributed by duncans_pumpkin
 * Zuma Deluxe (Steam only) - Contributed by duncans_pumpkin
 New PS3 Games
-* Brütal Legend
+* Br?? Legend
 * Lumines supernova
 New PSP Games
 * Dissidia: Final Fantasy
@@ -362,7 +654,7 @@ Updated Windows Games:
 v.0.2 - Second Alpha
 * Changed detected game list to be a tree for MOD sorting
 * Added support for MODs that depend on detected games
-* Changed the character for seperating game and username to «
+* Changed the character for seperating game and username to _
 * Added a progress bar to the detecting games splash
 * Added similar progress bar to backend
 * Added the hastilyest produced logo in history

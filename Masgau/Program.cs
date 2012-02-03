@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace Masgau
+namespace MASGAU
 {
     static class Program
     {

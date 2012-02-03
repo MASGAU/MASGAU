@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 
 
-namespace Masgau
+namespace MASGAU
 {
     public struct gfw_user {
         public string name, system_user, user_hex, machine_hex, account_path;
@@ -16,13 +16,13 @@ namespace Masgau
         //HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Software\Microsoft\XLive\DashDir
         //GFWLive.exe
         public string   install_path;
-        private string  user_path;
+        //private string  user_path;
         public bool     installed = false;
         public Dictionary<string,gfw_user> users = new Dictionary<string,gfw_user>();
 
         public gfwLiveHandler(PathHandler paths) {
-            RegistryManager live = new RegistryManager(@"SOFTWARE\Classes\Software\Microsoft\XLive");
-            if (live.the_key != null){
+            RegistryManager live = new RegistryManager(Microsoft.Win32.RegistryHive.LocalMachine,@"SOFTWARE\Classes\Software\Microsoft\XLive",false);
+            if (live.key_found){
                 install_path = live.getValue("DashDir").TrimEnd('\\');
                 if (Directory.Exists(install_path)){
                     if (File.Exists(Path.Combine(install_path, "GFWLive.exe"))){

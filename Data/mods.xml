@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:noNamespaceSchemaLocation="games.xsd"
+	majorVersion="1" minorVersion="0" revisionVersion="0">
+
+  <!-- Deus Ex Mods -->
+  
+  <game name="NamelessMod»DeusEx">
+	  <title>The Nameless Mod (Deus Ex Mod)</title>
+	  <location_game name="DeusEx" append="TNM" />
+	  <location_shortcut shortcut="Programs\The Nameless Mod\The Nameless Mod.lnk" detract="System" append="TNM" />
+	  <save path="System" filename="*.ini" />
+	  <save path="Save" />
+    <contributer>Trestkon</contributer>
+  </game>
+
+  <!-- Source Mods -->
+  
+  <game name="CinematicMod10HL2»Source">
+    <title>Cinematic Mod 10 (Half-Life 2 Mod)</title>
+    <location_path environment_variable="steamsourcemods" path="FAKEFACTORY_CM10\hl2"/>
+    <save path="SAVE" />
+    <contributer>SanMadJack</contributer>
+  </game>
+  
+  <game name="CinematicMod10HL2Ep1»Source">
+    <title>Cinematic Mod 10 (Half-Life 2: Episode 1 Mod)</title>
+    <location_path environment_variable="steamsourcemods" path="FAKEFACTORY_CM10\episodic"/>
+    <save path="SAVE" />
+    <contributer>SanMadJack</contributer>
+  </game>
+  
+  <game name="CinematicMod10HL2Ep2»Source">
+    <title>Cinematic Mod 10 (Half-Life 2: Episode 2 Mod)</title>
+    <location_path environment_variable="steamsourcemods" path="FAKEFACTORY_CM10\ep2"/>
+    <save path="SAVE" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="Flesh»Source">
+    <title>Flesh (Source Mod)</title>
+    <location_path environment_variable="steamsourcemods" path="Flesh"/>
+    <save path="SAVE" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+  <game name="ResearchAndDevelopment»Source">
+    <title>Research and Development (Source Mod)</title>
+    <location_path environment_variable="steamsourcemods" path="Research and Development"/>
+    <save path="SAVE" />
+    <contributer>SanMadJack</contributer>
+  </game>
+
+</games>

@@ -1,4 +1,4 @@
-namespace Masgau
+namespace MASGAU
 {
     partial class manualBackup
     {
@@ -31,8 +31,8 @@ namespace Masgau
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(manualBackup));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.fileTree = new System.Windows.Forms.TreeView();
             this.selectAllButton = new System.Windows.Forms.Button();
+            this.fileTree = new System.Windows.Forms.TreeView();
             this.deselectButton = new System.Windows.Forms.Button();
             this.nextButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
@@ -74,6 +74,18 @@ namespace Masgau
             this.tableLayoutPanel2.Size = new System.Drawing.Size(406, 227);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
+            // selectAllButton
+            // 
+            this.selectAllButton.Dock = System.Windows.Forms.DockStyle.Left;
+            this.selectAllButton.Enabled = false;
+            this.selectAllButton.Location = new System.Drawing.Point(3, 201);
+            this.selectAllButton.Name = "selectAllButton";
+            this.selectAllButton.Size = new System.Drawing.Size(87, 23);
+            this.selectAllButton.TabIndex = 1;
+            this.selectAllButton.Text = "Select All Files";
+            this.selectAllButton.UseVisualStyleBackColor = true;
+            this.selectAllButton.Click += new System.EventHandler(this.selectAllButton_Click);
+            // 
             // fileTree
             // 
             this.fileTree.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -86,20 +98,8 @@ namespace Masgau
             this.fileTree.ShowRootLines = false;
             this.fileTree.Size = new System.Drawing.Size(400, 192);
             this.fileTree.TabIndex = 0;
-            this.fileTree.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.fileTree_AfterCheck);
             this.fileTree.BeforeCheck += new System.Windows.Forms.TreeViewCancelEventHandler(this.fileTree_BeforeCheck);
-            // 
-            // selectAllButton
-            // 
-            this.selectAllButton.Dock = System.Windows.Forms.DockStyle.Left;
-            this.selectAllButton.Enabled = false;
-            this.selectAllButton.Location = new System.Drawing.Point(3, 201);
-            this.selectAllButton.Name = "selectAllButton";
-            this.selectAllButton.Size = new System.Drawing.Size(87, 23);
-            this.selectAllButton.TabIndex = 1;
-            this.selectAllButton.Text = "Select All Files";
-            this.selectAllButton.UseVisualStyleBackColor = true;
-            this.selectAllButton.Click += new System.EventHandler(this.selectAllButton_Click);
+            this.fileTree.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.fileTree_AfterCheck);
             // 
             // deselectButton
             // 
@@ -144,7 +144,7 @@ namespace Masgau
             this.groupBox2.Size = new System.Drawing.Size(412, 47);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Which User Do You Want To Get Saves From?";
+            this.groupBox2.Text = "Where Do You Want To Get Saves From?";
             // 
             // rootCombo
             // 
@@ -184,11 +184,10 @@ namespace Masgau
             this.CancelButton = this.cancelButton;
             this.ClientSize = new System.Drawing.Size(418, 334);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(424, 358);
+            this.MinimumSize = new System.Drawing.Size(426, 360);
             this.Name = "manualBackup";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

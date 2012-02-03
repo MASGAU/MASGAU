@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using System.Xml;
 using wyDay.Controls;
 
-namespace Masgau {
+namespace MASGAU {
 class ArchiveManager{
     private Process zipper = new Process();
     private string title = "default", output_path, file_name;
@@ -20,14 +20,13 @@ class ArchiveManager{
 
 	public ArchiveManager(string new_path) {
         output_path = new_path;
-
-        RegistryManager zip_path = new RegistryManager("SOFTWARE\\7-Zip");
-        string path = zip_path.getValue("Path") + Path.DirectorySeparatorChar + "7z.exe";
-        if (File.Exists(path)){
+        string path = Path.Combine(Application.StartupPath,"7z.exe");
+        if(File.Exists(path)) {
             zipper.StartInfo.FileName = path;
             ready = true;
-        } 
-
+        } else {
+            ready = false;
+        }
         zipper.StartInfo.UseShellExecute = false;
         zipper.StartInfo.CreateNoWindow = true;
         zipper.StartInfo.RedirectStandardOutput = true;
@@ -187,14 +186,15 @@ class ArchiveManager{
                             this_file.Close();
 
                         }
-                        if (copy_me.absolute_path == "") {
-                            from_here = copy_me.absolute_root;
-                            in_here = copy_me.file_name;
+                        if (copy_me.path == "") {
+                            from_here = copy_me.root;
+                            in_here = copy_me.name;
                         } else {
-                            from_here = Path.Combine(copy_me.absolute_root, copy_me.absolute_path);
-                            in_here = Path.Combine(copy_me.absolute_path, copy_me.file_name);
+                            from_here = Path.Combine(copy_me.root, copy_me.path);
+                            in_here = Path.Combine(copy_me.path, copy_me.name);
                         }
-                        from_here = Path.Combine(from_here,copy_me.file_name);
+
+                        from_here = Path.Combine(from_here,copy_me.name);
                         to_here = Path.Combine(temp, in_here);
 
                         if(ignore_date_check||DateTime.Compare(modified_times[full_path],File.GetLastWriteTime(from_here))<0) {

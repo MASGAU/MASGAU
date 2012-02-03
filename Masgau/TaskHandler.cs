@@ -5,7 +5,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Windows.Forms;
 
-namespace Masgau
+namespace MASGAU
 {
     class TaskHandler
     {
@@ -143,7 +143,7 @@ namespace Masgau
             arguments += "/TN " + task_name + " ";
 
             // Points to the binary
-            arguments += "/TR \"\"\"\"" + Application.StartupPath + "\\MasgauTask.exe\"\"\" /allusers\" ";
+            arguments += "/TR \"\"\"\"" + Application.StartupPath + "\\Task.exe\"\"\" /allusers\" ";
 
             // Sets the run time
             arguments += "/ST " + the_times.Hour.ToString("00") + ":" + the_times.Minute.ToString("00") + ":" + the_times.Second.ToString("00") + " ";

@@ -8,34 +8,37 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Masgau
+namespace MASGAU
 {
     public partial class manualBackup : Form
     {
 		private GameData game;
-		private bool working = false, changing = false;
+		private bool working = false;
+        private invokes invokes = new invokes();
         public manualBackup(GameData new_game)
         {
             InitializeComponent();
 			game = new_game;
-			foreach(file_holder file in game.detected_roots) {
-				if(file.owner!=null)
-					rootCombo.Items.Add(file.owner);
-				else
-					rootCombo.Items.Add("Global");
+			foreach(KeyValuePair<string,location_holder> file in game.detected_locations) {
+                //if(file.Value.owner!=null)
+                //    rootCombo.Items.Add(file.Value.owner);
+                //else
+                //    rootCombo.Items.Add("Global");
+                rootCombo.Items.Add(file.Key);
 			}
 			if(rootCombo.Items.Contains(Environment.UserName))
 				rootCombo.SelectedIndex = rootCombo.Items.IndexOf(Environment.UserName);
 			else 
 				rootCombo.SelectedIndex = 0;
+
+            invokes.setControlTheme(fileTree, "explorer");
+
         }
 
 
 		private void recurseThatShit(TreeNode set_this) {
 			for(int i = 0; i<set_this.Nodes.Count;i++) {
-				changing = true;
 				set_this.Nodes[i].Checked = set_this.Checked;
-				changing = false;
 				recurseThatShit(set_this.Nodes[i]);
 			}
 		}
@@ -47,9 +50,7 @@ namespace Masgau
 					if(!node.Checked)
 						all_checked = false;
 				}
-				changing = true;
 				set_this.Parent.Checked = all_checked;
-				changing = false;
 				decurseThatShit(set_this.Parent);
 			}
 		}
@@ -98,25 +99,37 @@ namespace Masgau
 			fileTree.AfterCheck -= new System.Windows.Forms.TreeViewEventHandler(fileTree_AfterCheck);
 			fileTree.BeforeCheck -= new System.Windows.Forms.TreeViewCancelEventHandler(fileTree_BeforeCheck);
             ArrayList saves = game.getSaves();
-			foreach(file_holder file in saves) {
-				if(file.absolute_root==((file_holder)game.detected_roots[rootCombo.SelectedIndex]).absolute_path) {
-					if(!fileTree.Nodes.ContainsKey(file.absolute_root)) {
-						fileTree.Nodes.Add(file.absolute_root,file.absolute_root);
-						fileTree.Nodes[file.absolute_root].Checked = true;
-						fileTree.Nodes[file.absolute_root].ToolTipText = file.absolute_root;
+            // This gets every detected save file
+			foreach(file_holder save in saves) {
+                // This tests if the save is from the currently selected root folder
+				if(save.root==game.detected_locations[rootCombo.SelectedItem.ToString()].getFullPath()) {
+                    // Since this all happens every file, this checks if the root folder node is already made
+					if(!fileTree.Nodes.ContainsKey(save.root)) {
+                        // Makes it if it isn't
+						fileTree.Nodes.Add(save.root,save.root);
+						fileTree.Nodes[save.root].Checked = true;
+						fileTree.Nodes[save.root].ToolTipText = save.root;
 					}
-					fileTree.SelectedNode = fileTree.Nodes[file.absolute_root];
-					if(file.absolute_path!=null&&file.absolute_path!="") {
-						foreach(string path_segment in file.absolute_path.Split(Path.DirectorySeparatorChar)) {
+                    // Selects the root node fo realz
+                    // This makes the next created node created under the selected node
+					fileTree.SelectedNode = fileTree.Nodes[save.root];
+                    // Checks if there is a path at all
+					if(save.path!=null&&save.path!="") {
+                        // Splits the path into folders
+						foreach(string path_segment in save.path.Split(Path.DirectorySeparatorChar)) {
+                            // Checks if the current folder in the path has a node
 							if(!fileTree.SelectedNode.Nodes.ContainsKey(path_segment)) {
+                                // Creates it if it doesn't
 								fileTree.SelectedNode.Nodes.Add(path_segment,path_segment);
 								fileTree.SelectedNode.Nodes[path_segment].Checked = true;
 							}
+                            // Move the node selection to the next path folder down
 							fileTree.SelectedNode = fileTree.SelectedNode.Nodes[path_segment];
 						}
 					}
-					fileTree.SelectedNode.Nodes.Add(file.file_name,file.file_name);
-					fileTree.SelectedNode.Nodes[file.file_name].Checked = true;
+                    // Adds the node for the actual file. Finally!
+					fileTree.SelectedNode.Nodes.Add(save.name,save.name);
+					fileTree.SelectedNode.Nodes[save.name].Checked = true;
 				}
 			}
 			fileTree.ExpandAll();

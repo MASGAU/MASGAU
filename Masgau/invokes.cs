@@ -5,7 +5,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 using wyDay.Controls;
 
-namespace Masgau
+namespace MASGAU
 {
     class invokes
     {
@@ -105,6 +105,16 @@ namespace Masgau
             }
         }
 
+        private delegate void addTreeNodeDelegate(TreeView tree, TreeNode add_me);
+        public void addTreeNode(TreeView tree, TreeNode add_me) {
+            if(tree.InvokeRequired) {
+                tree.Invoke(new addTreeNodeDelegate(addTreeNode),new Object[] {tree,add_me});
+            } else {
+                lock(tree) {
+                    tree.Nodes.Add(add_me);
+                }
+            }
+        }
 
         private delegate void addTreeItemDelegate(TreeView tree, string add_me, string named_me);
         public void addTreeItem(TreeView tree, string add_me, string named_me) {
@@ -139,6 +149,28 @@ namespace Masgau
             }
         }
 
+        private delegate void addListViewGroupItemDelegate(ListView list, string group_key, ListViewItem add_me);
+        public void addListViewGroupItem(ListView list, string group_key, ListViewItem add_me) {
+            if(list.InvokeRequired) {
+                list.Invoke(new addListViewGroupItemDelegate(addListViewGroupItem),new Object[] {list,group_key,add_me});
+            } else {
+                lock(list) {
+                    list.Groups[group_key].Items.Add(add_me);
+                }
+            }
+        }
+
+        private delegate void addListViewGroupDelegate(ListView list, ListViewGroup add_me);
+        public void addListViewGroup(ListView list, ListViewGroup add_me) {
+            if(list.InvokeRequired) {
+                list.Invoke(new addListViewGroupDelegate(addListViewGroup),new Object[] {list,add_me});
+            } else {
+                lock(list) {
+                    list.Groups.Add(add_me);
+                }
+            }
+        }
+
         private delegate int getTabDelegate(TabControl from_me);
         public int getTab(TabControl from_me) {
             if(from_me.InvokeRequired) {
@@ -160,7 +192,39 @@ namespace Masgau
                 }
             }
         }
+
+        private delegate void clearTreeViewDelegate(TreeView tree);
+        public void clearTreeView(TreeView tree) {
+            if(tree.InvokeRequired) {
+                tree.Invoke(new clearTreeViewDelegate(clearTreeView), new Object[] { tree });
+            } else {
+                lock(tree.Nodes) {
+                    tree.Nodes.Clear();
+                }
+            }
+        }
        
+        private delegate void clearToolStripItemsDelegate(Form in_me, ToolStripMenuItem clear_me);
+        public void clearToolStripItems(Form in_me, ToolStripMenuItem clear_me) {
+            if(in_me.InvokeRequired) {
+                in_me.Invoke(new clearToolStripItemsDelegate(clearToolStripItems),new Object[] {in_me, clear_me});
+            } else {
+                lock(clear_me) {
+                    clear_me.DropDownItems.Clear();
+                }
+            }
+        }
+       
+        private delegate void addToolStripItemDelegate(Form in_me, ToolStripMenuItem to_me, ToolStripMenuItem add_me);
+        public void addToolStripItem(Form in_me, ToolStripMenuItem to_me, ToolStripMenuItem add_me) {
+            if(in_me.InvokeRequired) {
+                in_me.Invoke(new addToolStripItemDelegate(addToolStripItem),new Object[] {in_me, to_me, add_me});
+            } else {
+                lock(to_me) {
+                    to_me.DropDownItems.Add(add_me);
+                }
+            }
+        }
 
         private delegate void setControlEnabledDelegate(Control set_me, bool to_me);
         public void setControlEnabled(Control set_me, bool to_me) {
@@ -195,6 +259,17 @@ namespace Masgau
             }
         }
 
+        private delegate void setFormShowInTaskbarDelegate(Form set_me, bool to_me);
+        public void setFormShowInTaskbar(Form set_me, bool to_me) {
+            if(set_me.InvokeRequired) {
+                set_me.BeginInvoke(new setFormShowInTaskbarDelegate(setFormShowInTaskbar), new Object[] {set_me,to_me});
+            } else {
+                lock(set_me) {
+                    set_me.ShowInTaskbar = to_me;
+                }
+            }
+        }
+
         private delegate void setListViewScrollableDelegate(ListView set_me, bool to_me);
         public void setListViewScrollable(ListView set_me, bool to_me) {
             if((set_me).InvokeRequired) {
@@ -206,13 +281,101 @@ namespace Masgau
             }
         }
 
-        private delegate void sortListViewDelegate(ListView sort_me, int by_me);
-        public void sortListView(ListView sort_me, int by_me) {
-            if(sort_me.InvokeRequired) {
-                sort_me.Invoke(new sortListViewDelegate(sortListView), new Object[] {sort_me,by_me});
+        private delegate void setListViewTileSizeDelegate(ListView set_me, System.Drawing.Size to_me);
+        public void setListViewTileSize(ListView set_me, System.Drawing.Size to_me) {
+            if((set_me).InvokeRequired) {
+                (set_me).BeginInvoke(new setListViewTileSizeDelegate(setListViewTileSize), new Object[] {set_me,to_me});
+            } else {
+                lock(set_me) {
+                    (set_me).TileSize = to_me;
+                }
+            }
+        }
+
+        private delegate void sortListViewDelegate(ListView sort_me, int by_me, SortOrder this_way);
+        public void sortListView(ListView sort_me, int by_me, SortOrder this_way) {
+           if(sort_me.InvokeRequired) {
+                sort_me.Invoke(new sortListViewDelegate(sortListView), new Object[] {sort_me,by_me,this_way});
             } else {
                 lock(sort_me) {
-                    sort_me.ListViewItemSorter = new ListViewItemComparer(by_me);
+                    sort_me.ListViewItemSorter = new ListViewItemComparer(by_me,this_way);
+                }
+            }
+        }
+
+        private delegate void setListViewItemBackColorDelegate(ListView in_me, int set_me, System.Drawing.Color to_me);
+        public void setListViewItemBackColor(ListView in_me, int set_me, System.Drawing.Color to_me) {
+            if(in_me.InvokeRequired) {
+                in_me.BeginInvoke(new setListViewItemBackColorDelegate(setListViewItemBackColor), new Object[] {in_me,set_me,to_me});
+            } else {
+                lock(in_me) {
+                    in_me.Items[set_me].BackColor = to_me;
+                }
+            }
+        }
+
+        private delegate void setListViewItemSubItemTextDelegate(ListView in_me, int and_me, int set_me, string to_me);
+        public void setListViewItemSubItemText(ListView in_me, int and_me, int set_me, string to_me) {
+            if(in_me.InvokeRequired) {
+                in_me.BeginInvoke(new setListViewItemSubItemTextDelegate(setListViewItemSubItemText), new Object[] {in_me,and_me,set_me,to_me});
+            } else {
+                lock(in_me) {
+                    in_me.Items[and_me].SubItems[set_me].Text = to_me;
+                }
+            }
+        }
+
+        private delegate void setNotifyIconVisibleDelegate(Form in_me, NotifyIcon set_me, bool to_me);
+        public void setNotifyIconVisible(Form in_me, NotifyIcon set_me, bool to_me) {
+            if(in_me.InvokeRequired) {
+                in_me.BeginInvoke(new setNotifyIconVisibleDelegate(setNotifyIconVisible), new Object[] {in_me,set_me,to_me});
+            } else {
+                lock(set_me) {
+                    set_me.Visible = to_me;
+                }
+            }
+        }
+
+        private delegate void setNotifyIconTextDelegate(Form in_me, NotifyIcon set_me, string to_me);
+        public void setNotifyIconText(Form in_me, NotifyIcon set_me, string to_me) {
+            if(in_me.InvokeRequired) {
+                in_me.BeginInvoke(new setNotifyIconTextDelegate(setNotifyIconText), new Object[] {in_me,set_me,to_me});
+            } else {
+                lock(set_me) {
+                    set_me.Text = to_me;
+                }
+            }
+        }
+
+        private delegate void setToolStripMenuItemCheckStateDelegate(Form in_me, ToolStripMenuItem set_me, CheckState to_me);
+        public void setToolStripMenuItemCheckState(Form in_me, ToolStripMenuItem set_me, CheckState to_me) {
+            if(in_me.InvokeRequired) {
+                in_me.BeginInvoke(new setToolStripMenuItemCheckStateDelegate(setToolStripMenuItemCheckState), new Object[] {in_me,set_me,to_me});
+            } else {
+                lock(set_me) {
+                    set_me.CheckState = to_me;
+                }
+            }
+        }
+
+        private delegate void setToolStripMenuItemEnabledDelegate(Form in_me, ToolStripMenuItem set_me, bool to_me);
+        public void setToolStripMenuItemEnabled(Form in_me, ToolStripMenuItem set_me, bool to_me) {
+            if(in_me.InvokeRequired) {
+                in_me.BeginInvoke(new setToolStripMenuItemEnabledDelegate(setToolStripMenuItemEnabled), new Object[] {in_me,set_me,to_me});
+            } else {
+                lock(set_me) {
+                    set_me.Enabled = to_me;
+                }
+            }
+        }
+
+        private delegate void setToolStripMenuItemToolTipTextDelegate(Form in_me, ToolStripMenuItem set_me, string to_me);
+        public void setToolStripMenuItemToolTipText(Form in_me, ToolStripMenuItem set_me, string to_me) {
+            if(in_me.InvokeRequired) {
+                in_me.BeginInvoke(new setToolStripMenuItemToolTipTextDelegate(setToolStripMenuItemToolTipText), new Object[] {in_me,set_me,to_me});
+            } else {
+                lock(set_me) {
+                    set_me.ToolTipText = to_me;
                 }
             }
         }
@@ -238,7 +401,7 @@ namespace Masgau
                 }
             } else {
                 lock(use_me) {
-                    return MessageBox.Show(message,title,MessageBoxButtons.OK,MessageBoxIcon.Information,MessageBoxDefaultButton.Button1,MessageBoxOptions.ServiceNotification);
+                    return MessageBox.Show(message,title,buttons,icon,MessageBoxDefaultButton.Button1,MessageBoxOptions.ServiceNotification);
                 }
             }
         }
@@ -258,21 +421,21 @@ namespace Masgau
             }
         }
 
-        private delegate DialogResult showZipDialogDelegate(Form use_me);
-        public DialogResult showZipDialog(Form use_me) {
+        private delegate DialogResult showOKDialogDelegate(Form use_me, String title, String message);
+        public DialogResult showOKDialog(Form use_me, String title, String message) {
             if(Environment.UserInteractive) {
                 if(use_me.InvokeRequired) {
-                    return (DialogResult)use_me.Invoke(new showZipDialogDelegate(showZipDialog), new Object[] { use_me });
+                    return (DialogResult)use_me.Invoke(new showOKDialogDelegate(showOKDialog), new Object[] {use_me,title,message});
                 } else {
-                    zipLinker zipLink = new zipLinker();
-                    return zipLink.ShowDialog(use_me);
+                    return MessageBox.Show(use_me,message,title,MessageBoxButtons.OK,MessageBoxIcon.Information,MessageBoxDefaultButton.Button1);
                 }
             } else {
                 lock(use_me) {
-                    return DialogResult.OK;
+                    return MessageBox.Show(message,title, MessageBoxButtons.OK,MessageBoxIcon.Information,MessageBoxDefaultButton.Button1,MessageBoxOptions.ServiceNotification);
                 }
             }
         }
+
         private delegate DialogResult showUserSelectorDelegate(Form daddy, userSelector baby);
         public DialogResult showUserSelector(Form daddy, userSelector baby) {
             if(daddy.InvokeRequired) {
@@ -312,6 +475,44 @@ namespace Masgau
             }
         }
 
+        private delegate DialogResult showDialogDelegate(Form daddy, Form baby);
+        public DialogResult showDialog(Form daddy, Form baby) {
+            if(daddy.InvokeRequired) {
+                return (DialogResult)daddy.Invoke(new showDialogDelegate(showDialog), new Object[] { daddy, baby });
+            } else {
+                lock(daddy) {
+                    lock(baby) {
+                        return baby.ShowDialog(daddy);
+                    }
+                }
+            }
+        }
+
+        private delegate DialogResult showFolderBrowserDialogDelegate(Form daddy, FolderBrowserDialog baby);
+        public DialogResult showFolderBrowserDialog(Form daddy, FolderBrowserDialog baby) {
+            if(daddy.InvokeRequired) {
+                return (DialogResult)daddy.Invoke(new showFolderBrowserDialogDelegate(showFolderBrowserDialog), new Object[] { daddy, baby });
+            } else {
+                lock(daddy) {
+                    lock(baby) {
+                        return baby.ShowDialog(daddy);
+                    }
+                }
+            }
+        }
+        
+        private delegate void showDelegate(Form daddy, Form baby);
+        public void show(Form daddy, Form baby) {
+            if(daddy.InvokeRequired) {
+                daddy.Invoke(new showDelegate(show), new Object[] { daddy, baby });
+            } else {
+                lock(daddy) {
+                    lock(baby) {
+                        baby.Show(daddy);
+                    }
+                }
+            }
+        }
      
         private delegate void closeFormDelegate(Form close_me);
         public void closeForm(Form close_me) {
@@ -356,6 +557,8 @@ namespace Masgau
                 }
             }
         }
+
+
     
     }
 }

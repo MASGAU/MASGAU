@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Masgau
+namespace MASGAU
 {
     public partial class pathSelector : Form
     {
