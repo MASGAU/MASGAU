@@ -60,9 +60,9 @@ namespace Masgau.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap masgau_wallpaper {
+        internal static System.Drawing.Bitmap _0_7 {
             get {
-                object obj = ResourceManager.GetObject("masgau_wallpaper", resourceCulture);
+                object obj = ResourceManager.GetObject("0.7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

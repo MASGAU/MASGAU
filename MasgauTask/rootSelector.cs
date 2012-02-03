@@ -25,5 +25,9 @@ namespace Masgau
             }
             rootCombo.SelectedIndex = 0;
         }
+        public rootSelector()
+        {
+            InitializeComponent();
+        }
     }
 }

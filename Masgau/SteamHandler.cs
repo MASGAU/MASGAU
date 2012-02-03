@@ -13,10 +13,10 @@ public class SteamHandler {
         path = steam.getValue("InstallPath");
 
         if (Directory.Exists(path)) {
-            if(File.Exists(path + "\\Steam.exe")) {
+            if(File.Exists(Path.Combine(path,"Steam.exe"))) {
                 installed  = true;
-                if(Directory.Exists(path + "\\steamapps\\")) {
-		            DirectoryInfo read_me = new DirectoryInfo(path + "\\steamapps\\");
+                if(Directory.Exists(Path.Combine(path,"steamapps"))) {
+		            DirectoryInfo read_me = new DirectoryInfo(Path.Combine(path,"steamapps"));
 		            DirectoryInfo[] read_us = read_me.GetDirectories();
                     foreach(DirectoryInfo subDir in read_us) {
     			        if(subDir.Name!="common"&&subDir.Name!="SourceMods"&&subDir.Name!="media") {
@@ -68,18 +68,18 @@ public class SteamHandler {
 				foreach(string user in users) {
                     add_me.owner = user;
                     add_me.relative_root = "%STEAMUSER%";
-                    add_me.relative_path = get_me.Replace("%STEAMUSER%", path + "\\steamapps\\%STEAMUSER%");
-                    add_me.absolute_root = path + "\\steamapps\\" + user;
-                    add_me.absolute_path = get_me.Replace("%STEAMUSER%", path + "\\steamapps\\" + user);
+                    add_me.relative_path = Path.Combine(Path.Combine(path, Path.Combine("steamapps", "%STEAMUSER%")), get_me.Substring(12));
+                    add_me.absolute_root = Path.Combine(path, Path.Combine("steamapps", user));
+                    add_me.absolute_path = Path.Combine(Path.Combine(Path.Combine(path, "steamapps"),user), get_me.Substring(12));
                     if (Directory.Exists(add_me.absolute_path)) {
                         return_me.Add(add_me);
                     }
 				}
             }
             else if (get_me.StartsWith("%STEAMCOMMON%")) {
-                add_me.absolute_path = get_me.Replace("%STEAMCOMMON%", path + "\\steamapps\\common");
+                add_me.absolute_path = Path.Combine(Path.Combine(path,Path.Combine("steamapps","common")),get_me.Substring(14));
                 add_me.relative_root = "%STEAMCOMMON%";
-                add_me.absolute_root = path + "\\steamapps\\common";
+                add_me.absolute_root = Path.Combine(path,Path.Combine("steamapps","common"));
                 if (Directory.Exists(add_me.absolute_path))
                 {
                     return_me.Add(add_me);
@@ -88,4 +88,14 @@ public class SteamHandler {
 		}
         return return_me;
     }
+
+	public string parsePath(string parse_me) {
+		string return_me = null;
+		if (parse_me.StartsWith("%STEAMUSER%")){
+            return_me = Path.Combine(Path.Combine(path, Path.Combine("steamapps", "%STEAMUSER%")), parse_me.Substring(12));
+        } else if (parse_me.StartsWith("%STEAMCOMMON%")) {
+            return_me = Path.Combine(Path.Combine(path, Path.Combine("steamapps", "common")), parse_me.Substring(14));
+		}
+		return return_me;
+	}
 }

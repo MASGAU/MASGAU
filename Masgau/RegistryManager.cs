@@ -3,7 +3,7 @@ using Microsoft.Win32;
 
 
 class RegistryManager {
-    private RegistryKey the_key;
+    public RegistryKey the_key;
 
     public RegistryManager(string register_me) {
         the_key = Registry.LocalMachine.OpenSubKey(register_me);

@@ -1,0 +1,73 @@
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.CommonProgramFiles));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Cookies));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Favorites));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.History));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.InternetCache));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.MyComputer));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Personal));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Programs));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Recent));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.SendTo));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Startup));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.System));
+Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Templates));
+
+XP:
+C:\Documents and Settings\Student\Application Data
+C:\Documents and Settings\All Users\Application Data
+C:\Program Files\Common Files
+C:\Documents and Settings\Student\Cookies
+C:\Documents and Settings\Student\Desktop
+C:\Documents and Settings\Student\Desktop
+C:\Documents and Settings\Student\Favorites
+C:\Documents and Settings\Student\Local Settings\History
+C:\Documents and Settings\Student\Local Settings\Temporary Internet Files
+C:\Documents and Settings\Student\Local Settings\Application Data
+
+C:\Documents and Settings\Student\My Documents
+C:\Documents and Settings\Student\My Documents\My Music
+C:\Documents and Settings\Student\My Documents\My Pictures
+C:\Documents and Settings\Student\My Documents
+C:\Program Files
+C:\Documents and Settings\Student\Start Menu\Programs
+C:\Documents and Settings\Student\Recent
+C:\Documents and Settings\Student\SendTo
+C:\Documents and Settings\Student\Start Menu
+C:\Documents and Settings\Student\Start Menu\Programs\Startup
+C:\WINDOWS\system32
+C:\Documents and Settings\Student\Templates
+
+Vista:
+C:\Users\SanMadJack\AppData\Roaming
+C:\ProgramData
+C:\Program Files\Common Files
+C:\Users\SanMadJack\AppData\Roaming\Microsoft\Windows\Cookies
+C:\Users\SanMadJack\Desktop
+C:\Users\SanMadJack\Desktop
+C:\Users\SanMadJack\Favorites
+C:\Users\SanMadJack\AppData\Local\Microsoft\Windows\History
+C:\Users\SanMadJack\AppData\Local\Microsoft\Windows\Temporary Internet Files
+C:\Users\SanMadJack\AppData\Local
+
+C:\Users\SanMadJack\Documents
+C:\Users\SanMadJack\Music
+C:\Users\SanMadJack\Pictures
+C:\Users\SanMadJack\Documents
+C:\Program Files
+C:\Users\SanMadJack\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+C:\Users\SanMadJack\AppData\Roaming\Microsoft\Windows\Recent
+C:\Users\SanMadJack\AppData\Roaming\Microsoft\Windows\SendTo
+C:\Users\SanMadJack\AppData\Roaming\Microsoft\Windows\Start Menu
+C:\Users\SanMadJack\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+C:\Windows\system32
+C:\Users\SanMadJack\AppData\Roaming\Microsoft\Windows\Templates

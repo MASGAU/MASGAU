@@ -15,8 +15,7 @@ namespace Masgau
     public partial class taskForm : Form
     {
         private string[] args = Environment.GetCommandLineArgs();
-        private zipLinker zipLink = new zipLinker();
-        private string config_file = null, selected_game = null, backup_owner = null;
+        private string config_file = null, selected_game = null, backup_owner = null, force_name = null;
         private Thread restoreThread, backupThread;
         private SettingsManager settings = null;
         private RestoreHandler restore;
@@ -27,6 +26,7 @@ namespace Masgau
         bool stop = false;
         bool all_users_mode = false;
 		private string output_override = null;
+        invokes invokes = new invokes();
 
         public taskForm(string do_this, ArrayList to_these, SettingsManager using_this, bool as_this)
         {
@@ -44,11 +44,10 @@ namespace Masgau
             }
             settings = using_this;
             all_users_mode = as_this;
-            Control.CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
         }
 
-        public taskForm(string this_game, SettingsManager using_this, bool as_this, ArrayList only_these, string to_here)
+        public taskForm(string this_game, SettingsManager using_this, bool as_this, ArrayList only_these, string to_here, string called_this)
         {
             if(this_game!=null) {
                 back_these_up = new ArrayList();
@@ -59,9 +58,9 @@ namespace Masgau
 				only_these_files.AddRange(only_these);
 			}
 			output_override = to_here;
+            force_name = called_this;
             settings = using_this;
             all_users_mode = as_this;
-            Control.CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
         }
 
@@ -100,7 +99,7 @@ namespace Masgau
                                 if(restore_these==null)
                                     restore_these = new ArrayList();
 							    restore_these.Add(args[i].Trim('\"'));
-						    } else if(!args[i].Trim('\"').EndsWith(".exe")) {
+						    } else if(!args[i].Trim('\"').EndsWith(".exe")&&!args[i].Trim('\"').EndsWith(".EXE")) {
                                 if (back_these_up == null)
                                     back_these_up = new ArrayList();
                                 back_these_up.Add(args[i].Trim('\"'));
@@ -109,8 +108,6 @@ namespace Masgau
 						break;
                 }
             }
-
-            Control.CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
         }
 
@@ -123,9 +120,6 @@ namespace Masgau
                 restoreThread.Start();
 
             } else {
-                if(back_these_up==null||back_these_up.Count>1) {
-                    currentProgress.Visible = true;
-                }
                 backupThread = new Thread(createBackup);
                 backupThread.Start();
             }
@@ -142,39 +136,28 @@ namespace Masgau
             }
         }
 
-
         private void restoreBackup() {
-            groupBox1.Text = "Detecting game...";
+            invokes.setControlText(groupBox1,"Detecting game for restoration...");
             string restore_me = (string)restore_these[0];
-            string[] hold_me = restore_me.Replace(".gb7", "").Split(Path.DirectorySeparatorChar);
-            hold_me = hold_me[hold_me.Length - 1].Split('@');
-            hold_me = hold_me[0].Split('«');
 
-            selected_game = hold_me[0].Trim();
-            backup_owner = null;
-            if (hold_me.Length > 1)
-                backup_owner = hold_me[1].Trim();
+            FileInfo the_backup = null;
+            if (File.Exists(restore_me)) {
+                the_backup = new FileInfo(restore_me);
+                restore = new RestoreHandler(the_backup.DirectoryName,the_backup.Name);
+            } else {
+                invokes.showMessageBox(this,"Much like your dignity","The specified backup doesn't exist",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                invokes.closeForm(this);
+                return;
+            }
+
+            selected_game = restore.backups[the_backup.Name].game_name;
+            backup_owner = restore.backups[the_backup.Name].owner;
 
             ArrayList restore_this = new ArrayList();
             restore_this.Add(selected_game);
 
             if(settings==null)
-                settings = new SettingsManager(config_file, restore_this, null);
-
-
-            FileInfo the_backup = null;
-            if (settings.backup_path!=null&&File.Exists(Path.Combine(settings.backup_path,restore_me))) {
-                the_backup = new FileInfo(Path.Combine(settings.backup_path,restore_me));
-                restore = new RestoreHandler(the_backup.DirectoryName,the_backup.Name);
-            }
-            else if (File.Exists(restore_me)) {
-                the_backup = new FileInfo(restore_me);
-                restore = new RestoreHandler(the_backup.DirectoryName,the_backup.Name);
-            } else {
-                MessageBox.Show(this,"Specified backup doesn't exist");
-                this.Close();
-                return;
-            }
+                settings = new SettingsManager(config_file, restore_this, null, groupBox1);
 
             restore.steam_path = settings.steam.path;
             restore.paths = settings.paths;
@@ -183,15 +166,8 @@ namespace Masgau
             if (settings.games.ContainsKey(selected_game)) {
                 game_data = settings.games[selected_game];
             } else {
-                MessageBox.Show(this, "The game profile associated with this backup could not be found.", "Do You Bite Your Thumb At Me, Sir?");
+                invokes.showMessageBox(this,"Do You Bite Your Thumb At Me, Sir?","The game profile associated with this backup could not be found.",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 stop = true;
-            }
-
-            if(!stop&&game_data.detected_roots.Count<1) {
-                if(game_data.platform=="Windows") {
-                    MessageBox.Show(this,"The game associated with this backup could not be detected.\nMake sure the game is installed and try making a save with it.","Never Was There A Tale Of More Woah");
-                    stop = true;
-                }
             }
               
             string output_path = null;
@@ -201,28 +177,28 @@ namespace Masgau
                     if(settings.playstation.psp_saves!=null)
                         put_it_here.setDrive(Path.GetPathRoot(settings.playstation.psp_saves));
                     if(put_it_here.driveCombo.Items.Count>0) {
-                        if(put_it_here.ShowDialog(this)!=DialogResult.Cancel) {
+                        if(invokes.showDriveSelector(this,put_it_here)!=DialogResult.Cancel) {
                             output_path = ((string)put_it_here.driveCombo.SelectedItem).Substring(0, 3);
                             Console.WriteLine(output_path);
                         } else {
                             stop = true;
                         }
                     } else {
-                        MessageBox.Show(this, "Could not detect any PSP compatible drives.","Not So Portable Now, Eh?");
+                        invokes.showMessageBox(this,"Not So Portable Now, Eh?","Could not detect any PSP compatible drives.",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         stop = true;
                     }
                 } else if(game_data.ps2_ids.Count!=0) {
                     if(settings.playstation.ps3_export!=null)
                         put_it_here.setDrive(Path.GetPathRoot(settings.playstation.ps3_export));
                     if(put_it_here.driveCombo.Items.Count>0) {
-                        if(put_it_here.ShowDialog(this)!=DialogResult.Cancel) {
+                        if(invokes.showDriveSelector(this,put_it_here)!=DialogResult.Cancel) {
                             output_path = ((string)put_it_here.driveCombo.SelectedItem).Substring(0, 3);
                             Console.WriteLine(output_path);
                         } else {
                             stop = true;
                         }
                     } else {
-                        MessageBox.Show(this, "Could not detect any PS3 compatible drives.","I Have A 60GB And I Love It");
+                        invokes.showMessageBox(this,"I Have A 60GB And I Love It","Could not detect any PS3 compatible drives.",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         stop = true;
                     }
                 } else if(game_data.ps1_ids.Count!=0) {
@@ -231,121 +207,210 @@ namespace Masgau
                     else if(settings.playstation.psp_saves!=null)
                         put_it_here.setDrive(Path.GetPathRoot(settings.playstation.psp_saves));
                     if(put_it_here.driveCombo.Items.Count>0) {
-                        if(put_it_here.ShowDialog(this)!=DialogResult.Cancel) {
+                        if(invokes.showDriveSelector(this,put_it_here)!=DialogResult.Cancel) {
                             output_path = ((string)put_it_here.driveCombo.SelectedItem).Substring(0, 3);
                             Console.WriteLine(output_path);
                         } else {
                             stop = true;
                         }
                     } else {
-                        MessageBox.Show(this, "Could not detect any PS3 or PSP compatible drives.","Backward Compatibility's A Bitch");
+                        invokes.showMessageBox(this,"Backward Compatibility's A Bitch","Could not detect any PS3 or PSP compatible drives.",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         stop = true;
                     }
                 } else if(game_data.ps3_ids.Count!=0) {
                     if(settings.playstation.ps3_saves!=null)
                         put_it_here.setDrive(Path.GetPathRoot(settings.playstation.ps3_saves));
                     if(put_it_here.driveCombo.Items.Count>0) {
-                        if(put_it_here.ShowDialog(this)!=DialogResult.Cancel) {
+                        if(invokes.showDriveSelector(this,put_it_here)!=DialogResult.Cancel) {
                             output_path = ((string)put_it_here.driveCombo.SelectedItem).Substring(0, 3);
                             Console.WriteLine(output_path);
                         } else {
                             stop = true;
                         }
                     } else {
-                        MessageBox.Show(this, "Could not detect any PS3 compatible drives.","$600 Paper Weight");
+                        invokes.showMessageBox(this,"$600 Paper Weight","Could not detect any PS3 compatible drives.",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         stop = true;
                     }
                 }
             }
 
             if(!stop&&game_data.platform=="Windows") {
-                rootSelector select_root = new rootSelector(game_data.detected_roots);
-                if(select_root.rootCombo.Items.Count>1) {
-                    if(select_root.ShowDialog(this)==DialogResult.Cancel)
-                        stop = true;
+				if(game_data.detected_roots.Count<1) {
+					stop = true;
+					ArrayList eligable_roots = new ArrayList();
+					foreach(root_holder check_me in game_data.roots) {
+					    if(!game_data.detection_required&&(check_me.windows_version==null||check_me.windows_version==settings.windows_version)&&check_me.path!=null&&!check_me.path.StartsWith("%INSTALLLOCATION%")) {
+                            if(check_me.path.StartsWith("%STEAM")&&settings.steam.installed) {
+					            eligable_roots.Add(settings.paths.parsePath(check_me.path,null));
+                            } else {
+					            eligable_roots.Add(settings.paths.parsePath(check_me.path,null));
+                            }
+					    }
+					}
+					if(eligable_roots.Count==0)
+                        invokes.showMessageBox(this,"Never Was There A Tale Of More Woah","The game associated with this backup could not be detected.\nMake sure the game is installed and try making a save with it.",MessageBoxButtons.OK,MessageBoxIcon.Error);
+					else {
+                        //if(eligable_roots.Count>1) {
+					        rootSelector select_root = new rootSelector();
+                            select_root.Text = "Game Not Detected, But...";
+                            select_root.groupBox1.Text = "These Locations Can Be Figured Out Automatically";
+					        foreach(string add_me in eligable_roots) {
+					            select_root.rootCombo.Items.Add(add_me);
+					        }
+					        select_root.rootCombo.SelectedIndex = 0;
+                            if(invokes.showRootSelector(this,select_root)!=DialogResult.Cancel) {
+					            output_path = (string)select_root.rootCombo.SelectedItem;
+					            stop = false;
+					        }
+                        //} else {
+                        //    output_path=(string)eligable_roots[0];
+                        //    stop = false;
+                        //}
+					}
+				} else {
+					if(game_data.detected_roots.Count>1) {
+						rootSelector select_root = new rootSelector();
+						foreach(file_holder candidate in game_data.detected_roots) {
+                            if(candidate.relative_path.StartsWith("%DRIVE%")||candidate.relative_path.StartsWith("%PROGRAMFILES%")||candidate.relative_path.StartsWith("%ALLUSERSPROFILE%")||candidate.relative_path.StartsWith("%PUBLIC%")||candidate.relative_path.StartsWith("%STEAMCOMMON%")) {
+                                if (!select_root.rootCombo.Items.Contains(candidate.absolute_path))
+                                    select_root.rootCombo.Items.Add(candidate.absolute_path);
+                            } else {
+    							if(!select_root.rootCombo.Items.Contains(candidate.relative_path))
+	    							select_root.rootCombo.Items.Add(candidate.relative_path);
+                            }
+						}
+						select_root.rootCombo.SelectedIndex = 0;
+						if(select_root.rootCombo.Items.Count>1) {
+                            if(invokes.showRootSelector(this,select_root)!=DialogResult.Cancel)
+								stop = true;
+						}
+						output_path = (string)select_root.rootCombo.SelectedItem;
+						select_root.Dispose();
+					} else {
+                        file_holder candidate = ((file_holder)game_data.detected_roots[0]);
+                        if(candidate.relative_path.StartsWith("%DRIVE%")||candidate.relative_path.StartsWith("%PROGRAMFILES%")||candidate.relative_path.StartsWith("%ALLUSERSPROFILE%")||candidate.relative_path.StartsWith("%PUBLIC%")||candidate.relative_path.StartsWith("%STEAMCOMMON%")) {
+    						output_path = candidate.absolute_path;
+                        } else {
+                            output_path = candidate.relative_path;
+                        }
+					}
                 }
-                output_path = (string)select_root.rootCombo.SelectedItem;
-                select_root.Dispose();
+            }
 
-                if(!stop) {
-                    if(output_path.Contains("%STEAMUSER%")) {
+            if(!stop) {
+                    if(output_path.Contains("%STEAMCOMMON%")) {
+                        if(settings.steam.path!=null) {
+                                output_path = output_path.Replace("%STEAMCOMMON%", settings.steam.path + "\\steamapps\\common");
+						} else {
+                            invokes.showMessageBox(this,"No Steam Ahead!","This restore path requires a detected Steam install. Please check the Settings tab and make sure yours is detected",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                            stop = true;
+                        }
+					} else if(output_path.StartsWith("%STEAMUSER%")) {
+                        if(settings.steam.path!=null) {
+                            if(settings.steam.users.Count>0) {
+                                userSelector steam_user_selector = new userSelector();
+                                foreach(string add_me in settings.steam.users) {
+                                    steam_user_selector.userSelectorCombo.Items.Add(add_me);
+                                }
+                                steam_user_selector.setCombo(backup_owner);
+                                if(invokes.showUserSelector(this,steam_user_selector)==DialogResult.Cancel)
+                                    stop=true;
+                                else
+                                    output_path =  settings.steam.parsePath(output_path).Replace("%STEAMUSER%", steam_user_selector.userSelectorCombo.SelectedItem.ToString());
+                            } else {
+                                invokes.showMessageBox(this,"No Steam Ahead!","This restore path requires a detected Steam user.\nTry running one of Valve's games or Rag Doll Kung Fu through Steam then try again.",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                                stop=true;
+                            }
+                        } else {
+                            invokes.showMessageBox(this,"No Steam Ahead!","This restore path requires a detected Steam install. Please check the Settings tab and make sure yours is detected",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                            stop=true;
+                        }
+					} else if(output_path.Contains("%STEAMUSER%")) {
                         if(settings.steam.path!=null) {
                             userSelector steam_user_selector = new userSelector();
                             foreach(string add_me in settings.steam.users) {
                                 steam_user_selector.userSelectorCombo.Items.Add(add_me);
                             }
                             steam_user_selector.setCombo(backup_owner);
-                            if(steam_user_selector.ShowDialog(this).ToString()=="Cancel")
+                            if(invokes.showUserSelector(this,steam_user_selector)==DialogResult.Cancel)
                                 stop=true;
                             else
                                 output_path = output_path.Replace("%STEAMUSER%", steam_user_selector.userSelectorCombo.SelectedItem.ToString());
-                        } else
+                        } else {
+                            invokes.showMessageBox(this,"No Steam Ahead!","This restore path requires a detected Steam install. Please check the Settings tab and make sure yours is detected",MessageBoxButtons.OK,MessageBoxIcon.Error);
                             stop=true;
-                    } else if(output_path.Contains("%USERNAME%")) {
-                        if(all_users_mode) {
-                            userSelector system_user_selector = new userSelector();
-                            foreach(string add_me in settings.paths.user_list) {
-                                system_user_selector.userSelectorCombo.Items.Add(add_me);
-                            }
-                            system_user_selector.setCombo(backup_owner);
-                            if (system_user_selector.ShowDialog(this).ToString() == "Cancel")
+                        }
+                    } else if(output_path.Contains("%USERDOCUMENTS%")||output_path.Contains("%USERPROFILE%")||output_path.Contains("%APPDATA%")||output_path.Contains("%LOCALAPPDATA%")||output_path.Contains("%SAVEDGAMES%")) {
+                        userSelector system_user_selector = new userSelector();
+                        foreach(KeyValuePair<string,user_data> add_me in settings.paths.users) {
+                            system_user_selector.userSelectorCombo.Items.Add(add_me.Value.name);
+                        }
+                        system_user_selector.userSelectorCombo.SelectedIndex = 0;
+                        system_user_selector.setCombo(backup_owner);
+                        if(system_user_selector.userSelectorCombo.Items.Count>1) {
+                            if(invokes.showUserSelector(this,system_user_selector)==DialogResult.Cancel)
                                 stop=true;
                             else
-                                output_path = output_path.Replace("%USERNAME%", system_user_selector.userSelectorCombo.SelectedItem.ToString());
+                                output_path = settings.paths.parsePath(output_path,system_user_selector.userSelectorCombo.SelectedItem.ToString());
                         } else {
-                            output_path = output_path.Replace("%USERNAME%", (string)settings.paths.user_list[0]);
+                            output_path = settings.paths.parsePath(output_path, system_user_selector.userSelectorCombo.SelectedItem.ToString());
                         }
-                    }
-                }
+                    } else {
+						output_path = settings.paths.parsePath(output_path,null);
+					}
             }
 
-            if (!stop&&MessageBox.Show(this,"Restoring will probably overwrite any existing saves.\nDo you want to continue?", "Are you sure you want to restore?", MessageBoxButtons.YesNo) == DialogResult.No)
+            if (!stop&&invokes.showConfirmDialog(this,"Are you sure you want to restore?","Restoring will probably overwrite any existing saves.\nDo you want to continue?") == DialogResult.No)
                 stop = true;
 
             if(!stop) {
-                groupBox1.Text = "Extracting " + game_data.title + " Archive...";
+                invokes.setControlText(groupBox1,"Extracting " + game_data.title + " Archive...");
                 if(restore.extractBackup(the_backup.FullName,overallProgress)==-1)
                     stop = true;
             }
             if(!stop) {
-                groupBox1.Text = "Copying " + game_data.title + " Data To Destination...";
+                invokes.setControlText(groupBox1,"Copying " + game_data.title + " Data To Destination...");
                 string result = "";
                 
-                restore.restoreBackup(output_path,backup_owner,overallProgress);
+                restore.restoreBackup(output_path,backup_owner,overallProgress,this,the_backup.FullName);
                 
                 switch (result) {
                     case "Steam Not Installed":
-                        overallProgress.Value = 0;
-                        MessageBox.Show(this,"Steam is not detected. Please use the Settings tab to locate Steam or install it from http:////steampowered.com//", "Steam is required to restore this backup");
+                        invokes.setProgressBarValue(overallProgress,1);
+                        invokes.showMessageBox(this,"Steam is required to restore this backup","Steam is not detected. Please use the Settings tab to locate Steam or install it from http:////steampowered.com//",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         break;
                     case "Backup Not Found":
-                        overallProgress.Value = 0;
-                        MessageBox.Show(this,"Couldn't find the backup. WTF?", "The frell happened?");
+                        invokes.setProgressBarValue(overallProgress,1);
+                        invokes.showMessageBox(this,"The frell happened?","Couldn't find the backup. WTF?",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         break;
                     case "Success":
-                        overallProgress.Value = 2;
-                        MessageBox.Show(this,"Restore Complete!", "Super Success!");
+                        invokes.setProgressBarValue(overallProgress,2);
+                        invokes.showMessageBox(this,"Super Success!","Restore Complete!",MessageBoxButtons.OK,MessageBoxIcon.Information);
                         break;
                     case "Cancelled":
                         break;
+                    default:
+                        invokes.setProgressBarValue(overallProgress,2);
+                        invokes.showMessageBox(this,"Super Success!","Restore Complete!",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                        break;
                 }
             }
-            this.Close();
+            invokes.closeForm(this);
         }
 
         private void createBackup() {
             if(settings==null) {
                 if (back_these_up!=null&&back_these_up.Count!=0) {
                     if (back_these_up.Count>1){
-                        groupBox1.Text = "Detecting games...";
-                        settings = new SettingsManager(config_file, back_these_up, overallProgress);
+                        invokes.setControlText(groupBox1,"Detecting selected games for backup...");
+                        settings = new SettingsManager(config_file, back_these_up, overallProgress, groupBox1);
                     } else {
-                        groupBox1.Text = "Detecting game...";
-                        settings = new SettingsManager(config_file, back_these_up, null);
+                        invokes.setControlText(groupBox1,"Detecting selected game for backup...");
+                        settings = new SettingsManager(config_file, back_these_up, null, groupBox1);
                     }
                 } else {
-                    groupBox1.Text = "Detecting games...";
-                    settings = new SettingsManager(config_file, null, overallProgress);
+                    invokes.setControlText(groupBox1,"Detecting games for backup...");
+                    settings = new SettingsManager(config_file, null, overallProgress, groupBox1);
                 }
             }
 
@@ -365,11 +430,12 @@ namespace Masgau
                             game_count = settings.countGames();
 
                         if (game_count > 0) {
-                            overallProgress.Minimum = 0;
+                            invokes.setProgressBarMin(overallProgress,0);
                             if (game_count > 1){
-                                overallProgress.Maximum = game_count;
-                                overallProgress.Value = 1;
-                                currentProgress.Minimum = 0;
+                                invokes.setControlVisible(currentProgress, true);
+                                invokes.setProgressBarMax(overallProgress, game_count);
+                                invokes.setProgressBarValue(overallProgress, 1);
+                                invokes.setProgressBarMin(currentProgress, 0);
                             }
                             int i = 0;
                             foreach(KeyValuePair<string,GameData> parse_me in settings.games) {
@@ -377,7 +443,7 @@ namespace Masgau
                                     break;
                                 }
                                 if(back_these_up==null||back_these_up.Contains(parse_me.Key)) {
-                                    if (parse_me.Value.detected_roots.Count>0&&(back_these_up!=null||!parse_me.Value.disabled)) {
+                                    if (parse_me.Value.detected_roots!=null&&parse_me.Value.detected_roots.Count>0&&(back_these_up!=null||!parse_me.Value.disabled)) {
                                         i++;
                                         back_up.setName(parse_me.Key);
 										if(only_these_files!=null)
@@ -385,40 +451,47 @@ namespace Masgau
 										else 
 											back_up.addSave(parse_me.Value.getSaves());
                                         Console.WriteLine("Backing up " + parse_me.Key);
-                                        groupBox1.Text = "Backing up " + parse_me.Value.title + " (" + i.ToString() + "/" + game_count + ")";
+                                        invokes.setControlText(groupBox1,"Backing up " + parse_me.Value.title + " (" + i.ToString() + "/" + game_count + ")");
                                         notifyIcon1.ShowBalloonTip(30, "MASGAU is backing up", parse_me.Value.title, ToolTipIcon.Info);
                                         try {
                                             if (game_count > 1) {
-                                                back_up.archiveIt(currentProgress,settings.ignore_date_check,false,settings.versioningTimeout(),settings.versioning_max);
+                                                if(force_name!=null) 
+                                                    back_up.archiveIt(currentProgress,settings.ignore_date_check,false,settings.versioningTimeout(),settings.versioning_max,force_name);
+                                                else 
+                                                    back_up.archiveIt(currentProgress,settings.ignore_date_check,false,settings.versioningTimeout(),settings.versioning_max,null);
                                             } else {
-                                                back_up.archiveIt(overallProgress, settings.ignore_date_check, false, settings.versioningTimeout(),settings.versioning_max);
+                                                if(force_name!=null)
+                                                    back_up.archiveIt(overallProgress,settings.ignore_date_check,false, settings.versioningTimeout(),settings.versioning_max,force_name);
+                                                else 
+                                                    back_up.archiveIt(overallProgress,settings.ignore_date_check,false, settings.versioningTimeout(),settings.versioning_max,null);
                                             }
                                         } catch {
-                                            MessageBox.Show("Something went wrong while trying to back up " + parse_me.Key);
+                                            invokes.showMessageBox(this,"Not sure what, but","Something went wrong while trying to back up " + parse_me.Key,MessageBoxButtons.OK,MessageBoxIcon.Error);
                                         }
 
                                         back_up.clearArchive();
-                                        overallProgress.PerformStep();
+                                        back_up.cleanUp(settings.backup_path);
+                                        invokes.performStep(overallProgress);
                                     }
                                 }
                             }
-                            overallProgress.Value = overallProgress.Maximum;
+                            invokes.setProgressBarValue(overallProgress,overallProgress.Maximum);
                             Console.WriteLine("Backup Complete");
                             notifyIcon1.ShowBalloonTip(30, "MASGAU finished it's nasty business", "And we are all the worse for it", ToolTipIcon.Info);
-                            overallProgress.Value = overallProgress.Maximum;
+                            invokes.setProgressBarValue(overallProgress,overallProgress.Maximum);
                         } else {
-                            MessageBox.Show(this,"Nothing to back up");
+                            invokes.showMessageBox(this,"Feels like there's...","Nothing at all to back up",MessageBoxButtons.OK,MessageBoxIcon.Error);
                             Console.WriteLine("Nothing to backup");
                         }
                     } else {
-                        zipLink.ShowDialog(this);
+                        invokes.showZipDialog(this);
                         Console.WriteLine("7-Zip Not Found. Please install from http://www.7-zip.org/");
                     }
                 }
             } else {
-                MessageBox.Show(this,"Backup path not set. Please set it from the main program.","Do Your Job");
+                invokes.showMessageBox(this,"Do Your Job","Backup path not set. Please set it from the main program.",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
-            this.Close();
+            invokes.closeForm(this);
 
         }
 
@@ -427,8 +500,11 @@ namespace Masgau
             notifyIcon1.Visible = false;
             notifyIcon1.Dispose();
             stop = true;
-            if(back_up!=null)
-                back_up.stop = true;
+            if(backupThread!=null&&backupThread.IsAlive) {
+                if(back_up!=null) {
+                    back_up.stop = true;
+                }
+            }
         }
     }
 }

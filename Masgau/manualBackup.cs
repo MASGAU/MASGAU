@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -96,7 +97,8 @@ namespace Masgau
 			fileTree.Nodes.Clear();
 			fileTree.AfterCheck -= new System.Windows.Forms.TreeViewEventHandler(fileTree_AfterCheck);
 			fileTree.BeforeCheck -= new System.Windows.Forms.TreeViewCancelEventHandler(fileTree_BeforeCheck);
-			foreach(file_holder file in game.getSaves()) {
+            ArrayList saves = game.getSaves();
+			foreach(file_holder file in saves) {
 				if(file.absolute_root==((file_holder)game.detected_roots[rootCombo.SelectedIndex]).absolute_path) {
 					if(!fileTree.Nodes.ContainsKey(file.absolute_root)) {
 						fileTree.Nodes.Add(file.absolute_root,file.absolute_root);

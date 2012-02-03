@@ -51,9 +51,9 @@ namespace Masgau
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(268, 13);
+            this.label1.Size = new System.Drawing.Size(276, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "MASGA requires 7-zip to backup or restore your games.";
+            this.label1.Text = "MASGAU requires 7-zip to backup or restore your games.";
             // 
             // button1
             // 

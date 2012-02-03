@@ -16,7 +16,7 @@ public struct user_holder {
 }
 
 public struct root_holder {
-    public string path, registry, shortcut, game, append_path, detract_path;
+    public string path, registry, shortcut, game, append_path, detract_path, windows_version;
 }
 
 public struct playstation_id {

@@ -18,8 +18,9 @@ namespace Masgau
                 if(look_here.IsReady&&look_here.DriveType==DriveType.Removable&&(look_here.DriveFormat=="FAT32"||look_here.DriveFormat=="FAT16")) {
                     driveCombo.Items.Add(look_here.Name + " [" + look_here.VolumeLabel + "]");
                 }
-            }
-            driveCombo.SelectedIndex = 0;
+            } 
+            if(driveCombo.Items.Count>0)
+                driveCombo.SelectedIndex = 0;
 
         }
 

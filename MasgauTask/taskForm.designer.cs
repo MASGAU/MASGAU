@@ -32,9 +32,9 @@ namespace Masgau
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(taskForm));
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.currentProgress = new System.Windows.Forms.ProgressBar();
+            this.currentProgress = new wyDay.Controls.Windows7ProgressBar();
+            this.overallProgress = new wyDay.Controls.Windows7ProgressBar();
             this.cancelButton = new System.Windows.Forms.Button();
-            this.overallProgress = new System.Windows.Forms.ProgressBar();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,8 +47,8 @@ namespace Masgau
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.currentProgress);
-            this.groupBox1.Controls.Add(this.cancelButton);
             this.groupBox1.Controls.Add(this.overallProgress);
+            this.groupBox1.Controls.Add(this.cancelButton);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(387, 50);
@@ -58,12 +58,23 @@ namespace Masgau
             // 
             // currentProgress
             // 
-            this.currentProgress.Location = new System.Drawing.Point(6, 25);
+            this.currentProgress.ContainerControl = this;
+            this.currentProgress.Location = new System.Drawing.Point(5, 25);
             this.currentProgress.Name = "currentProgress";
-            this.currentProgress.Size = new System.Drawing.Size(318, 12);
-            this.currentProgress.Step = 1;
-            this.currentProgress.TabIndex = 1;
+            this.currentProgress.Size = new System.Drawing.Size(318, 13);
+            this.currentProgress.State = wyDay.Controls.ProgressBarState.Pause;
+            this.currentProgress.TabIndex = 2;
             this.currentProgress.Visible = false;
+            // 
+            // overallProgress
+            // 
+            this.overallProgress.ContainerControl = this;
+            this.overallProgress.Location = new System.Drawing.Point(6, 19);
+            this.overallProgress.Name = "overallProgress";
+            this.overallProgress.ShowInTaskbar = true;
+            this.overallProgress.Size = new System.Drawing.Size(316, 25);
+            this.overallProgress.State = wyDay.Controls.ProgressBarState.Error;
+            this.overallProgress.TabIndex = 1;
             // 
             // cancelButton
             // 
@@ -75,19 +86,12 @@ namespace Masgau
             this.cancelButton.UseVisualStyleBackColor = true;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
-            // overallProgress
-            // 
-            this.overallProgress.Location = new System.Drawing.Point(7, 19);
-            this.overallProgress.Name = "overallProgress";
-            this.overallProgress.Size = new System.Drawing.Size(316, 24);
-            this.overallProgress.Step = 1;
-            this.overallProgress.TabIndex = 2;
-            // 
             // taskForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(411, 76);
+            this.ControlBox = false;
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -105,9 +109,9 @@ namespace Masgau
 
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ProgressBar currentProgress;
         private System.Windows.Forms.Button cancelButton;
-        private System.Windows.Forms.ProgressBar overallProgress;
+        private wyDay.Controls.Windows7ProgressBar currentProgress;
+        private wyDay.Controls.Windows7ProgressBar overallProgress;
     }
 }
 

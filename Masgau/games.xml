@@ -2,9 +2,9 @@
 <!--
 	Unless otherwise noted:
 	Contributed By: SanMadJack
-	Info Provided By: SanMadJack
 -->
 <games>
+
 	<game_data name="AdventRising">
 		<title>Advent Rising</title>
 		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Advent\UninstallString" />
@@ -13,9 +13,27 @@
 		<save path="System" filename="My*.ini" />
 		<save path="System\Saves" />
 	</game_data>
+  
+  <game_data name="AgeOfMythology">
+		<title>Age of Mythology</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\Age of Mythology\1.0\AppPath" />
+		<root shortcut="Programs\Microsoft Games\Age of Mythology\Age of Mythology.lnk" />
+		<root path="%INSTALLLOCATION%\Microsoft Games\Age of Mythology" />
+		<save path="savegame" filename="*.sav" />
+		<save path="savegame" filename="*.rec" />
+	</game_data>
+
+	<game_data name="AgeOfMythologyTheTitansExpansion">
+		<title>Age of Mythology - The Titans Expansion</title>
+		<root path="%USERDOCUMENTS%\My Games\Age of Mythology" />
+		<save path="Savegame" filename="*.svx" />
+		<save path="Savegame" filename="*.rcx" />
+	</game_data>
 
 	<game_data name="AgeOfWonders">
 		<title>Age of Wonders</title>
+		<root registry="HKEY_CURRENT_USER\Software\Triumph Studios\Age of Wonders\General\Root Directory" />
+		<root shortcut="Programs\Age of Wonders\Age of Wonders.lnk" />
 		<root path="%INSTALLLOCATION%\Triumph Studios\Age of Wonders" />
 		<save path="Save" />
 	</game_data>
@@ -37,7 +55,6 @@
 	<game_data name="AlphaCentauri">
 		<title>Sid Meier's Alpha Centauri</title>
 		<root path="%INSTALLLOCATION%\Firaxis Games\Sid Meier's Alpha Centauri" />
-		<identifier path="saves" />
 		<save filename="Alpha Centauri.Ini" />
 		<save path="saves" />
 	</game_data>
@@ -47,1314 +64,1897 @@
 		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Eidos Interactive\Anachronox\SourcePath" />
 		<root shortcut="Programs\Eidos Interactive\Anachronox\Anachronox.lnk" />
 		<root path="%INSTALLLOCATION%\Anachronox" />
-		<identifier path="anoxdata\SAVE" />
 		<save path="anoxdata\SAVE" />
 	</game_data>
-	
+
+	<game_data name="BatmanArkhamAsylum">
+		<!-- 
+			Info Contributed By: Michael "The Awesome" Lamere
+		-->
+		<title>Batman: Arkham Asylum</title>
+		<root path="%USERDOCUMENTS%\Eidos\Batman Arkham Asylum" />
+		<save path="SaveData" />
+	</game_data>
+
+	<game_data name="BattleForMiddleEarth2">
+		<title>The Battle For Middle Earth II</title>
+		<root path="%APPDATA%\My Battle for Middle-earth(tm) II Files" />
+		<save path="Save" />
+	</game_data>
+
 	<game_data name="BeastWithin">
 		<title>The Beast Within</title>
 		<root shortcut="Programs\Sierra\The Beast Within.lnk" />
 		<root path="%INSTALLLOCATION%\SIERRA\GK2WIN" />
 		<save filename="GK2SG.*" />
 	</game_data>
-	
+
 	<game_data name="BejeweledDeluxe">
 		<title>Bejeweled Deluxe</title>
-		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Bejeweled Deluxe 1.87\UninstallString" />
-		<root path="%ALLUSERSPROFILE%\Steam\Bejeweled" />
-		<root path="%ALLUSERSPROFILE%\PopCapGames\Bejeweled" />
-		<root path="%STEAMCOMMON%\bejeweled deluxe" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Bejeweled Deluxe 1.87\UninstallString" windows_version="XP" />
+		<root path="%ALLUSERSPROFILE%\Steam\Bejeweled" windows_version="Vista" />
+		<root path="%ALLUSERSPROFILE%\PopCapGames\Bejeweled" windows_version="Vista" />
+		<root path="%STEAMCOMMON%\bejeweled deluxe" windows_version="XP" />
 		<identifier path="userdata" />
 		<save path="userdata" />
 	</game_data>
 
-<game_data name="BioShock">
-	<title>BioShock</title>
-	<root path="%USERDOCUMENTS%\Bioshock" />
-	<save path="SaveGames" />
-</game_data>
-
-<game_data name="BlackAndWhite">
-	<title>Black And White</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Black.exe\Path" />
-	<root path="%INSTALLLOCATION%\Games\Black And White" />
-	<save path="Profiles" />
-</game_data>
-
-<game_data name="CallOfDuty4ModernWarfare">
-	<title>Call of Duty 4: Modern Warfare</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Call of Duty 4\InstallPath" />
-	<root shortcut="Programs\Activision\Call of Duty(R) 4 - Modern Warfare(TM)\Call of Duty(R) 4 - Modern Warfare(TM) Singleplayer.lnk" />
-	<root path="%INSTALLLOCATION%\Activision\Call of Duty 4 - Modern Warfare" />
-	<root path="%STEAMCOMMON%\call of duty 4" />
-	<save path="players\profiles" />
-</game_data>
-
-<game_data name="ChroniclesOfRiddickEscapeFromButcherBay">
-	<title>The Chronicles of Riddick: Escape From Butcher Bay</title>
-	<root path="%APPDATA%\Starbreeze\Riddick" />
-	<save />
-</game_data>
-
-<game_data name="Civilization3">
-	<title>Sid Meier's Civilization III</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Infogrames Interactive\Civilization III\Install_Path" />
-	<root path="%INSTALLLOCATION%\Firaxis Games\Civilization III Complete" />
-	<save filename="Civilization3.Ini" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="Civilization3Conquests">
-	<title>Sid Meier's Civilization III: Conquests</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Infogrames\Conquests\Install_Path" />
-	<root shortcut="Programs\Firaxis Games\Civilization III Complete Edition\Civilization III Complete Edition.lnk" />
-	<root path="%INSTALLLOCATION%\Firaxis Games\Civilization III Complete\Conquests" />
-	<save filename="conquests.ini" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="Civilization3PlayTheWorld">
-	<title>Sid Meier's Civilization III: Play The World</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Infogrames\Civ3PTW\Install_Path" />
-	<root path="%INSTALLLOCATION%\Firaxis Games\Civilization III Complete\civ3PTW" />
-	<identifier path="Saves" />
-	<save filename="ptw.ini" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="Civilization4">
-	<title>Sid Meier's Civilization IV</title>
-	<root path="%USERDOCUMENTS%\My Games\Sid Meier's Civilization 4" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="Civilization4BeyondTheSword">
-	<title>Sid Meier's Civilization IV: Beyond the Sword</title>
-	<root path="%USERDOCUMENTS%\My Games\Beyond the Sword" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="Civilization4Colonization">
-	<title>Sid Meier's Civilization IV: Colonization</title>
-	<root path="%USERDOCUMENTS%\My Games\Sid Meier's Civilization IV Colonization" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="Civilization4Warlords">
-	<title>Sid Meier's Civilization IV: Warlords</title>
-	<root path="%USERDOCUMENTS%\My Games\Warlords" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="CondemnedCriminalOrigins">
-	<title>Condemned: Criminal Origins</title>
-	<root path="%PUBLIC%\Documents\Monolith Productions\Condemned" />
-	<identifier path="Save" />
-	<save filename="settings.cfg" />
-	<save path="Profiles" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="CounterStrikeConditionZero">
-	<title>Counter-Strike: Condition Zero</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Valve\CZero\InstallPath" append="czero" />
-	<root path="%STEAMUSER%\condition zero\czero" />
-	<identifier path="SAVE" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="CounterStrikeConditionZeroDeletedScenes">
-	<title>Counter-Strike: Condition Zero: Deleted Scenes</title>
-	<root path="%STEAMUSER%\condition zero deleted scenes\czeror" />
-	<identifier path="SAVE" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="Crysis">
-	<title>Crysis</title>
-	<root path="%USERDOCUMENTS%\My Games\Crysis" />
-	<save path="Profiles" />
-	<save path="SaveGames" />
-</game_data>
-
-<game_data name="DarkMessiahMightandMagic">
-	<title>Dark Messiah Might and Magic</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Ubisoft\Dark Messiah of Might and Magic\Install Location" />
-	<root path="%STEAMUSER%\dark messiah might and magic single player" />
-	<identifier path="mm\SAVE" />
-	<save path="mm\SAVE" />
-</game_data>
-
-<game_data name="Descent">
-	<title>Descent</title>
-	<root path="%INSTALLLOCATION%\GAMES\DESCENT" />
-	<save filename="*.PLR" />
-	<save filename="*.SG*" />
-</game_data>
-
-<game_data name="Descent2">
-	<title>Descent II</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\PARALLAX\DESCENT II\1.1\INSTALL\WINPATH" />
-	<root shortcut="Programs\Games\Descent II Win95.lnk" />
-	<root path="%INSTALLLOCATION%\GAMES\DESCENT2" />
-	<save filename="*.plr" />
-	<save filename="*.sg*" />
-</game_data>
-
-<game_data name="Descent3">
-	<title>Descent 3</title>
-	<root path="%INSTALLLOCATION%\Games\Descent3" />
-	<save filename="*.plt" />
-	<save path="savegame" />
-</game_data>
-
-<game_data name="Desperados">
-	<title>Desperados</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Spellbound Software\Desperados 1.0\InstallPath" />
-	<root path="%INSTALLLOCATION%\Infogrames\Desperados" />
-	<save path="Game\Data\Savegame" />
-</game_data>
-
-<game_data name="DeusEx">
-	<title>Deus Ex</title>
-	<root path="%INSTALLLOCATION%\DeusEx" />
-	<root path="%STEAMCOMMON%\deus ex" />
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Unreal Technology\Installed Apps\Deus Ex\Folder" />
-	<root shortcut="Programs\Deus Ex\Play Deus Ex.lnk" detract="System" />
-	<identifier path="Save" />
-	<save path="System" filename="*.ini" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="DeusExInvisibleWar">
-	<title>Deus Ex: Invisible War</title>
-	<root path="%USERDOCUMENTS%\Deus Ex - Invisible War" />
-	<save />
-</game_data>
-
-<game_data name="Diablo2">
-	<title>Diablo II</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Blizzard Entertainment\Diablo II\InstallPath" />
-	<root path="%INSTALLLOCATION%\Diablo II" />
-	<save path="save" />
-</game_data>
-
-<game_data name="Doom">
-	<!-- 
-		Info Provided By: Kee715
-	-->
-	<title>Doom</title>
-	<root path="%INSTALLLOCATION%\DOOM Collector's Edition\Ultimate Doom" />
-	<save filename="*.zds" />
-</game_data>
-
-<game_data name="Doom2">
-	<!-- 
-		Info Provided By: Kee715
-	-->
-	<title>Doom II</title>
-	<root path="%INSTALLLOCATION%\DOOM Collector's Edition\Doom2" />
-	<save filename="*.zds" />
-</game_data>
-
-<game_data name="Doom3">
-	<title>Doom 3</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\id\Doom 3\InstallPath" />
-	<root path="%INSTALLLOCATION%\DOOM 3" />
-	<save path="base\savegames" />
-	<virtualstore override="yes" />
-</game_data>
-
-<game_data name="DreamfallTheLongestJourney">
-	<title>Dreamfall: The Longest Journey</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D751B34C-058F-42EF-BE95-14EBB0D2C585}\InstallLocation" />
-	<root shortcut="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk" />
-	<root path="%INSTALLLOCATION%\Micro Application\Dreamfall" />
-	<save filename="prefs.dat" />
-	<save path="saves" />
-</game_data>
-
-<game_data name="DungeonKeeper2">
-	<title>Dungeon Keeper II</title>
-	<root path="%INSTALLLOCATION%\Bullfrog\Dungeon Keeper II" />
-	<save path="Data\Save" />
-</game_data>
-
-<game_data name="Earth2160">
-	<title>Earth 2160</title>
-	<root path="%USERDOCUMENTS%\Earth 2160" />
-	<save path="Players" />
-</game_data>
-
-<game_data name="ElderScrolls2Daggerfall">
-	<!-- 
-		Path Info Contributed By: Jetsetlemming
-	-->
-	<title>Elder Scrolls 2: Daggerfall</title>
-	<root path="%INSTALLLOCATION%\DAGGER" />
-	<save path="SAVE*" />
-</game_data>
-
-<game_data name="ElderScrolls4Oblivion">
-	<title>Elder Scrolls IV: Oblivion</title>
-	<root path="%USERDOCUMENTS%\My Games\Oblivion" />
-	<save filename="*.ini" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="Fallout">
-	<title>Fallout</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\falloutw.exe\Path" />
-	<root path="%INSTALLLOCATION%\Interplay\Fallout" />
-	<save path="DATA\SAVEGAME" />
-</game_data>
-
-<game_data name="Fallout2">
-	<title>Fallout 2</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\fallout2.exe\Path" />
-	<root path="%INSTALLLOCATION%\BlackIsle\Fallout2" />
-	<save path="data\SAVEGAME" />
-</game_data>
-
-<game_data name="Fallout3">
-	<title>Fallout 3</title>
-	<root path="%USERDOCUMENTS%\My Games\Fallout3" />
-	<save filename="*.ini" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="FarCry">
-	<title>Far Cry</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D6DBDC2A-E72C-4284-B6AD-6B3B61B4DABC}\InstallLocation" />
-	<root path="%INSTALLLOCATION%\Ubisoft\Crytek\Far Cry" />
-	<save path="Profiles" />
-</game_data>
-
-<game_data name="FarscapeTheGame">
-	<title>Farscape The Game</title>
-	<root path="%INSTALLLOCATION%\Farscape The Game" />
-	<save filename="options.lua" />
-	<save path="Save Games" />
-</game_data>
-
-<game_data name="FEARFirstEncounterAssaultRecon">
-	<title>F.E.A.R.: First Encounter Assault Recon</title>
-	<root path="%PUBLIC%\Documents\Monolith Productions\FEAR" />
-	<save filename="settings.cfg" />
-	<save path="Profiles" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="FEARExtractionPoint">
-	<title>F.E.A.R.: Extraction Point</title>
-	<root path="%PUBLIC%\Documents\TimeGate Studios\FEARXP" />
-	<save filename="settings.cfg" />
-	<save path="Profiles" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="FEARPerseusMandate">
-	<title>F.E.A.R.: Perseus Mandate</title>
-	<root path="%PUBLIC%\Documents\TimeGate Studios\FEARXP2" />
-	<save filename="settings.cfg" />
-	<save path="Profiles" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="FEAR2ProjectOrigin">
-	<title>F.E.A.R. 2: Project Origin</title>
-	<root path="%USERDOCUMENTS%\WBGames\FEAR2" />
-	<save />
-</game_data>
-
-<game_data name="FinalDoom">
-	<!-- 
-		Info Provided By: Kee715
-	-->
-	<title>Final Doom</title>
-	<root path="%INSTALLLOCATION%\DOOM Collector's Edition\Final Doom" />
-	<save filename="*.zds" />
-</game_data>
-
-<game_data name="DescentFreeSpaceTheGreatWar">
-	<title>Descent: FreeSpace - The Great War</title>
-	<root path="%INSTALLLOCATION%\Games\FreeSpace" />
-	<save path="Players" />
-</game_data>
-
-<game_data name="FreeSpace2">
-	<title>FreeSpace 2</title>
-	<root path="%INSTALLLOCATION%\Games\FreeSpace2" />
-	<save path="data\players" />
-</game_data>
-
-<game_data name="fs2_open">
-	<title>fs2_open</title>
-	<root path="%INSTALLLOCATION%\fs2_open" />
-	<save path="data\players" />
-</game_data>
-
-<game_data name="GarrysMod">
-	<title>Garry's Mod</title>
-	<root path="%STEAMUSER%\garrysmod\garrysmod" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="GiantsCitizenKabuto">
-	<title>Giants: Citizen Kaubto</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\giants.exe\Path" />
-	<root path="%INSTALLLOCATION%\Giants" />
-	<save path="savegame" />
-</game_data>
-
-<game_data name="GrimFandango">
-	<title>Grim Fandango</title>
-	<root path="HKEY_LOCAL_MACHINE\SOFTWARE\LucasArts Entertainment Company LLC\Grim Fandango\v1.0\Install Path" />
-	<root path="%INSTALLLOCATION%\Lucasarts\Grim" />
-	<save filename="*.gsv" />
-	<virtualstore override="yes" />
-</game_data>
-
-<game_data name="HalfLife">
-	<title>Half-Life</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="valve" />
-	<root path="%STEAMUSER%\half-life\valve" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="HalfLifeOpposingForce">
-	<title>Half-Life: Opposing Force</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="gearbox" />
-	<root path="%STEAMUSER%\opposing force\gearbox" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="HalfLifeBlueShift">
-	<title>Half-Life: Blue Shift</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="bshift" />
-	<root path="%STEAMUSER%\half-life blue shift\bshift" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="HalfLifeSource">
-	<title>Half-Life: Source</title>
-	<root path="%STEAMUSER%\half-life source\hl1" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="HalfLife2">
-	<title>Half-Life 2</title>
-	<root path="%STEAMUSER%\half-life 2\hl2" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="HalfLife2EpisodeOne">
-	<title>Half-Life 2: Episode One</title>
-	<root path="%STEAMUSER%\half-life 2 episode one\episodic" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="HalfLife2EpisodeTwo">
-	<title>Half-Life 2: Episode Two</title>
-	<root path="%STEAMUSER%\half-life 2 episode two\ep2" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="HalfLife2LostCoast">
-	<title>Half-Life 2: Lost Coast</title>
-	<root path="%STEAMUSER%\half-life 2 lostcoast\lostcoast" />
-	<save path="SAVE" />
-</game_data>
-
-<game_data name="HeavyMetalFAKK2">
-	<title>Heavy Metal: FAKK 2</title>
-	<root path="%INSTALLLOCATION%\Ritual Entertainment\Heavy Metal - FAKK2" />
-	<save path="fakk" filename="config.cfg" />
-	<save path="fakk\save" />
-</game_data>
-
-<game_data name="HitmanCodename47">
-	<title>Hitman: Codename 47</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\hitman.exe\Path" />
-	<root path="%INSTALLLOCATION%\Eidos Interactive\IO Interactive\Hitman - Codename 47" />
-	<save filename="Hitman.sav" />
-</game_data>
-
-<game_data name="Hitman2SilentAssassin">
-	<title>Hitman 2: Silent Assassin</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Eidos Interactive\Hitman 2\InstallDir" />
-	<root path="%INSTALLLOCATION%\Eidos Interactive\Hitman 2 Silent Assassin" />
-	<save filename="Hitman2.ini" />
-	<save filename="Keyboard.cfg" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="HitmanContracts">
-	<title>Hitman: Contracts</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Eidos\Hitman Contracts\InstallDir" />
-	<root path="%INSTALLLOCATION%\Eidos\Hitman Contracts" />
-	<save filename="HitmanContracts.ini" />
-	<save filename="HitmanContracts.cfg" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="HitmanBloodMoney">
-	<title>Hitman: Blood Money</title>
-	<root path="%USERDOCUMENTS%\Hitman Blood Money" />
-	<save path="Profiles" />
-</game_data>
-
-<game_data name="JadeEmpire">
-	<title>Jade Empire</title>
-	<root path="HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\Jade Empire\Path" />
-	<root path="%STEAMCOMMON%\jade empire" />
-	<save filename="*.ini" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="JointTaskForce">
-	<title>Joint Task Force</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BCB9DF93-537D-433D-AF3B-36025DEF5798}\InstallLocation" />
-	<root shortcut="Programs\HD Publishing\Joint Task Force\Launch Joint Task Force.lnk" />
-	<root path="%INSTALLLOCATION%\HD Publishing\Joint Task Force" />
-	<save path="Profiles" />
-</game_data>
-
-<game_data name="KaneAndLynchDeadMen">
-	<title>Kane &amp; Lynch: Dead Men</title>
-	<root path="%LOCALAPPDATA%\kaneandlynch" />
-	<save />
-</game_data>
-
-<game_data name="LongestJourney">
-	<title>The Longest Journey</title>
-	<root registry="HKEY_CURRENT_USER\Software\Paper Sun\Roots\Root" />
-	<root path="%INSTALLLOCATION%\Funcom\The Longest Journey" />
-	<root path="%APPDATA%\The Longest Journey" />
-	<identifier path="Save" />
-	<save filename="Preferences.ini" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="LordOfTheRingsTheReturnOfTheKing">
-	<title>The Lord of the Rings: The Return of the King</title>
-	<root path="%USERDOCUMENTS%\LOTR The Return of the King (tm) Data" />
-	<save />
-</game_data>
-
-
-<game_data name="Mafia">
-	<title>Mafia</title>
-	<root path="%INSTALLLOCATION%\Mafia" />
-	<save path="savegame" />
-</game_data>
-
-<game_data name="MassEffect">
-	<title>Mass Effect</title>
-	<root path="%USERDOCUMENTS%\BioWare\Mass Effect" />
-	<save path="Config" filename="BIOGame.ini" />
-	<save path="Config" filename="BIOInput.ini" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="MasterOfOrion2">
-	<title>Master of Orion 2: Battle at Antares</title>
-	<root path="%INSTALLLOCATION%\Microprose\Orion2" />
-	<save filename="SAVE*.GAM" />
-</game_data>
-
-<game_data name="MechCommander">
-	<title>MechCommander</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\FASA Interactive\MechCommander\Path" />
-	<root shortcut="Programs\Microprose\MechCommander\Mech Commander.lnk" />
-	<root path="%INSTALLLOCATION%\FasaInteractive\MechCmdr" />
-	<save path="data\savegame" />
-</game_data>
-
-<game_data name="MechCommander2">
-	<title>MechCommander 2</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechCommander2\1.0\EXE Path" />
-	<root shortcut="Programs\Microsoft Games\MechCommander 2\MechCommander 2.lnk" />
-	<root path="%INSTALLLOCATION%\Microsoft Games\MechCommander2" />
-	<save filename="*.cfg" />
-	<save path="data\savegame" />
-</game_data>
-
-<game_data name="MechWarrior3">
-	<title>MechWarrior 3</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\MicroProse\MechWarrior 3\1.0\Program" />
-	<root path="%INSTALLLOCATION%\MicroProse\MechWarrior3" />
-	<save path="configs" />
-	<save path="pilots" />
-</game_data>
-
-<game_data name="MechWarrior3PiratesMoon">
-	<title>MechWarrior 3: Pirate's Moon</title>
-	<root path="%INSTALLLOCATION%\MicroProse\MechWarrior 3 Pirate's Moon" />
-	<save path="configs" />
-	<save path="pilots" />
-</game_data>
-
-<game_data name="MechWarrior4Vengeance">
-	<title>MechWarrior 4: Vengeance</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Vengeance\EXE Path" />
-	<root path="%INSTALLLOCATION%\Microsoft Games\MechWarrior Vengeance" />
-	<save filename="options.ini" />
-	<save path="resource\pilots" />
-	<save path="resource\variants" />
-</game_data>
-
-<game_data name="MechWarrior4BlackKnight">
-	<title>MechWarrior 4: Black Knight</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Black Knight\EXE Path" />
-	<root game="MechWarrior4Vengeance" />
-	<identifier filename="optionsx.ini" />
-	<save filename="optionsx.ini" />
-	<save path="resource\Pilotsx" />
-	<save path="resource\Variantsx" />
-</game_data>
-
-<game_data name="MechWarrior4Mercenaries">
-	<title>MechWarrior 4: Mercenaries</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Mercenaries\EXE Path" />
-	<root path="%INSTALLLOCATION%\Microsoft Games\Mechwarrior Mercenaries" />
-	<save path="RESOURCE\VariantsMercs" />
-	<save path="RESOURCE\Pilots" />
-</game_data>
-
-<game_data name="Medieval2TotalWar">
-	<title>Medieval II Total War</title>
-	<root shortcut="Programs\SEGA\Medieval II Total War\Launch Medieval II Total War.lnk" />
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\medieval2.exe\Path" />
-	<root path="%INSTALLLOCATION%\SEGA\Medieval II Total War" />
-	<root path="%STEAMCOMMON%\medieval ii total war" />
-	<save path="preferences" />
-	<save path="saves" />
-</game_data>
-
-<game_data name="MystMasterpieceEdtition">
-	<title>Myst: Masterpiece Edition</title>
-	<root path="%USERDOCUMENTS%\Myst" />
-	<save filename="*.mys" />
-</game_data>
-
-<game_data name="Myst3">
-	<title>Myst III: Exile</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\M3.exe\Path" />
-	<root path="%INSTALLLOCATION%\Ubi Soft\Myst III Exile" />
-	<save path="Saved Games" />
-	<save path="bin" filename="M3prefs.m3p" />
-</game_data>
-
-<game_data name="Myst4">
-	<title>Myst IV: Revelation</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{96F702F3-7CA4-41B5-A70A-4F348DF99A9A}\InstallLocation" />
-	<root path="%INSTALLLOCATION%\Ubisoft\Myst IV - Revelation" />
-	<save path="save" />
-</game_data>
-
-<game_data name="Myst5">
-	<title>Myst V: End of Ages</title>
-	<root path="%LOCALAPPDATA%\Myst V End of Ages" />
-	<save filename="progress.db" />
-	<save path="sav" />
-</game_data>
-
-<game_data name="MystUruCompleteChronicles">
-	<title>Myst: Uru - Complete Chronicles</title>
-	<root path="%INSTALLLOCATION%\Ubi Soft\Cyan Worlds\Myst Uru Complete Chronicles" />
-	<save path="sav" />
-</game_data>
-
-<game_data name="NeverwinterNights">
-	<title>Neverwinter Nights</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\NWN\Neverwinter\Location" />
-	<root path="%INSTALLLOCATION%\NeverwinterNights" />
-	<save path="NWN" filename="nwn.ini" />
-	<save path="NWN" filename="nwnplayer.ini" />
-	<save path="NWN\dmvault" />
-	<save path="NWN\localvault" />
-	<save path="NWN\saves" />
-	<save path="NWN\servervault" />
-</game_data>
-
-<game_data name="NeverwinterNights2">
-	<title>Neverwinter Nights 2</title>
-	<root path="%USERDOCUMENTS%\Neverwinter Nights 2" />
-	<save path="dmvault" />
-	<save path="localvault" />
-	<save path="servervault" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="NoOneLivesForever">
-	<title>No One Lives Forever</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Monolith Productions\No One Lives Forever\1.0\WorkingDirectory" />
-	<root shortcut="Programs\Fox Interactive\No One Lives Forever\No One Lives Forever - Game of the Year Edition.lnk" />
-	<root shortcut="Programs\Fox Interactive\No One Lives Forever\No One Lives Forever.lnk" />
-	<root path="%INSTALLLOCATION%\Fox\No One Lives Forever" />
-	<save filename="autoexec.cfg" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="NoOneLivesForever2">
-	<title>No One Lives Forever 2: A Spy In H.A.R.M.'s Way</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Monolith Productions\No One Lives Forever 2\1.0\InstallDir" />
-	<root shortcut="Programs\Fox Interactive\No One Lives Forever 2\No One Lives Forever 2.lnk" />
-	<root path="%INSTALLLOCATION%\Fox\No One Lives Forever 2" />
-	<save filename="autoexec.cfg" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="OmikronTheNomadSoul">
-	<title>Omikron: The Nomad Soul</title>
-	<root path="%INSTALLLOCATION%\Eidos Interactive\Quantic Dream\Omikron The Nomad Soul" />
-	<save path="IAM" filename="GAMES" />
-</game_data>
-
-<game_data name="Oni">
-	<title>Oni</title>
-	<root path="%INSTALLLOCATION%\Oni" />
-	<save filename="persist.dat" />
-	<save filename="key_config.txt" />
-</game_data>
-
-<game_data name="Path">
-	<title>The Path</title>
-	<root path="%STEAMCOMMON%\the path" />
-	<save path="userdata" />
-</game_data>
-
-<game_data name="Painkiller">
-	<title>Painkiller</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\PeopleCanFly\Painkiller\AddonPath" />
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\PeopleCanFly\Painkiller\EXEpath" detract="Bin\Painkiller.exe" />
-	<root shortcut="Programs\DreamCatcher\Painkiller Gold Edition\Painkiller.lnk" detract="Bin" />
-	<root path="%STEAMCOMMON%\painkiller gold edition" />
-	<root path="%INSTALLLOCATION%\DreamCatcher\Painkiller Gold Edition" />
-	<save path="SaveGames" />
-</game_data>
-
-<game_data name="PeggleDeluxe">
-	<title>Peggle Deluxe</title>
-	<root path="%ALLUSERSPROFILE%\Steam\Peggle" />
-	<root path="%ALLUSERSPROFILE%\PopCap Games\Peggle" />
-	<root path="%STEAMCOMMON%\peggle deluxe" />
-	<identifier path="userdata" />
-	<save path="userdata" filename="*.dat" />
-	<save path="userdata" filename="*.sav" />
-</game_data>
-
-<game_data name="PeggleExtreme">
-	<title>Peggle Extreme</title>
-	<root path="%ALLUSERSPROFILE%\Steam\PeggleExtreme" />
-	<root path="%STEAMCOMMON%\peggle extreme" />
-	<identifier path="userdata" />
-	<save path="userdata" />
-</game_data>
-
-<game_data name="PeggleNights">
-	<title>Peggle Nights</title>
-	<root registry="HKEY_CURRENT_USER\Software\PopCap\PeggleNights\RunPath" />
-	<root path="%ALLUSERSPROFILE%\Steam\PeggleNights" />
-	<root path="%ALLUSERSPROFILE%\PopCap Games\PeggleNights" />
-	<root path="%STEAMCOMMON%\peggle nights" />
-	<identifier path="userdata" />
-	<save path="userdata" />
-</game_data>
-
-<game_data name="PeggleWOWEdition">
-	<title>Peggle World of Warcraft Edition</title>
-	<root shortcut="Programs\PopCap Games\Peggle World of Warcraft Edition\Play Peggle World of Warcraft Edition.lnk" />
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\PopCap\PeggleWoW\InstallPath" />
-	<root path="%ALLUSERSPROFILE%\PopCap Games\PeggleWoW" />
-	<root path="%INSTALLLOCATION%\PopCap Games\Peggle World of Warcraft Edition" />
-	<identifier path="userdata" />
-	<save path="userdata" />
-</game_data>
-
-<game_data name="PennyArcadeAdventures1">
-	<title>Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode One</title>
-	<root path="%LOCALAPPDATA%\HotheadGames\RainSlickEp1" />
-	<save filename="prefs.cs" />
-	<save filename="*.sav" />
-</game_data>
-
-<game_data name="PenumbraOverture">
-	<title>Penumbra Overture</title>
-	<root path="%USERDOCUMENTS%\Penumbra Overture\Episode1" />
-	<save filename="settings.cfg" />
-	<save path="save" />
-</game_data>
-
-<game_data name="PenumbraBlackPlague">
-	<title>Penumbra: Black Plague</title>
-	<root path="%USERDOCUMENTS%\Penumbra\Black Plague" />
-	<save filename="settings.cfg" />
-	<save path="save" />
-</game_data>
-
-<game_data name="PenumbraRequiem">
-	<title>Penumbra: Requiem</title>
-	<root path="%USERDOCUMENTS%\Penumbra\Requiem" />
-	<save filename="settings.cfg" />
-	<save path="save" />
-</game_data>
-
-<game_data name="Pirates">
-	<title>Sid Meier's Pirates!</title>
-	<root path="%USERDOCUMENTS%\My Games\Sid Meier's Pirates!" />
-	<save />
-</game_data>
-
-<game_data name="PlanescapeTorment">
-	<title>Planescape: Torment</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\torment.exe\Path" />
-	<root path="%INSTALLLOCATION%\Black Isle\Planescape - Torment" />
-	<save path="save" />
-</game_data>
-
-<game_data name="Portal">
-	<title>Portal</title>
-	<root path="%STEAMUSER%\portal" />
-	<save path="portal\SAVE" />
-</game_data>
-
-<game_data name="Postal2">
-	<title>Postal 2</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Running With Scissors\Postal2STP\Full\US\InstallDir" />
-	<root path="%INSTALLLOCATION%\Postal2STP" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="PostMortem">
-	<title>Post Mortem</title>
-	<root path="%USERDOCUMENTS%\Post_Mortem Saves" />
-	<save />
-</game_data>
-
-<game_data name="Prey">
-	<title>Prey</title>
-	<root path="%USERDOCUMENTS%\My Games\PREY" />
-	<save path="base\savegames" />
-</game_data>
-
-<game_data name="ProjectSnowblind">
-	<title>Project Snowblind</title>
-	<root path="%USERDOCUMENTS%\Project Snowblind" />
-	<save />
-</game_data>
-
-<game_data name="Psychonauts">
-	<title>Psychonauts</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A129D1F2-CAC4-4AD7-B26D-3C6411B87DCC}\InstallLocation" />
-	<root path="%STEAMCOMMON%\psychonauts" />
-	<save filename="*.ini" />
-	<save path="Profiles" />
-</game_data>
-
-<game_data name="Quake2">
-	<!-- 
-		Path Info Contributed By: Jetsetlemming
-	-->
-	<title>Quake II</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Quake2_exe\Path" />
-	<root path="%STEAMCOMMON%\quake 2" />
-	<save path="baseq2\save" />
-</game_data>
-
-<game_data name="Quake4">
-	<title>Quake 4</title>
-	<root shortcut="Programs\Quake 4\Quake 4 single player.lnk" />
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\id\Quake 4\InstallPath" />
-	<root path="%INSTALLLOCATION%\id Software\Quake 4" />
-	<save path="q4base\savegames" />
-	<virtualstore override="yes" />
-</game_data>
-
-<game_data name="RagDollKungFu">
-	<title>Rag Doll Kung Fu</title>
-	<root path="%STEAMUSER%\rag doll kung fu" />
-	<save path="data" />
-</game_data>
-
-<game_data name="RedFaction">
-	<title>Red Faction</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\RedFaction.exe\Path" />
-	<root path="%INSTALLLOCATION%\Games\RedFaction" />
-	<save path="savegame" />
-</game_data>
-
-<game_data name="RedFaction2">
-	<title>Red Faction II</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E074FB23-D61B-4C6A-AD15-AB9695ED2EF7}\InstallLocation" />
-	<root path="%INSTALLLOCATION%\THQ\Red Faction II" />
-	<save filename="rf2_config.ini" />
-	<save path="profiles" />
-</game_data>
-
-<game_data name="ReturnToCastleWolfenstein">
-	<!-- 
-		Path Info Contributed By: Jetsetlemming
-	-->
-	<title>Return to Castle Wolfenstein</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein - Platinum Edition\InstallPath" />
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein\InstallPath" />
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein - Game of The Year Edition\InstallPath" />
-	<root path="%INSTALLLOCATION%\Return to Castle Wolfenstein" />
-	<root path="%STEAMCOMMON%\return to castle wolfenstein" />
-	<save path="Main" filename="wolfconfig.cfg" />
-	<save path="Main\save" />
-</game_data>
-
-<game_data name="Riven">
-	<title>Riven</title>
-	<root path="%USERDOCUMENTS%\Riven" />
-	<save filename="*.rvn" />
-</game_data>
-
-<game_data name="RoboBlitz">
-	<title>RoboBlitz</title>
-	<root path="%STEAMCOMMON%\roboblitz" />
-	<save path="RoboGame\Config" filename="Robo*.ini" />
-	<save path="SavedGames" />
-</game_data>
-
-<game_data name="RomeTotalWar">
-	<title>Rome: Total War</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\The Creative Assembly\Rome - Total War\InstallPath" />
-	<root path="%INSTALLLOCATION%\Activision\Rome - Total War" />
-	<save path="preferences" />
-	<save path="saves" />
-</game_data>
-
-<game_data name="RomeTotalWarAlexander">
-	<title>Rome: Total War: Alexander</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\The Creative Assembly\Rome - Total War - Alexander add-on\InstallPath" append="alexander" />
-	<root game="RomeTotalWar" append="alexander" />
-	<save path="preferences" />
-	<save path="saves" />
-</game_data>
-
-<game_data name="RomeTotalWarBarbarianInvasion">
-	<title>Rome: Total War: Barbarian Invasion</title>
-	<root game="RomeTotalWar" append="bi" />
-	<save path="preferences" />
-	<save path="saves" />
-</game_data>
-
-<game_data name="SamAndMaxSeason1Episode1">
-	<title>Sam &amp; Max Season One Episode 1 - Culture Shock</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax101.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 1 - Culture Shock.lnk" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 1 - Culture Shock Data" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 101 - Culture Shock" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason1Episode2">
-	<title>Sam &amp; Max Season One Episode 2 - Situation Comedy</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax102.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy.lnk" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy Data" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 102 - Situation Comedy" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason1Episode3">
-	<title>Sam &amp; Max Season One Episode 3 - The Mole, the Mob, and the Meatball</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax103.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball.lnk" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball Data" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 103 - The Mole, the Mob, and the Meatball" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason1Episode4">
-	<title>Sam &amp; Max Season One Episode 4 - Abe Lincoln Must Die!</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax104.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die!.lnk" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die! Data" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 104 - Abe Lincoln Must Die" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason1Episode5">
-	<title>Sam &amp; Max Season One Episode 5 - Reality 2.0</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax105.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0.lnk" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0 Data" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 105 - Reality 2.0" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason1Episode6">
-	<title>Sam &amp; Max Season One Episode 6 - Bright Side of the Moon</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax106.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon Data" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 106 - Bright Side of the Moon" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason2Episode1">
-	<title>Sam &amp; Max Season Two Episode 1 - Ice Station Santa</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax201.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 201 - Ice Station Santa.lnk" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 201 - Ice Station Santa" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 201 - Ice Station Santa" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason2Episode2">
-	<title>Sam &amp; Max Season Two Episode 2 - Moai Better Blues</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax202.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 202 - Moai Better Blues.lnk" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 202 - Moai Better Blues" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 202 - Moai Better Blues" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason2Episode3">
-	<title>Sam &amp; Max Season Two Episode 3 - Night of the Raving Dead</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax203.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead.lnk" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 203 - Night of the Raving Dead" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason2Episode4">
-	<title>Sam &amp; Max Season Two Episode 4 - Chariots of the Dogs</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax204.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 204 - Chariots of the Dogs.lnk" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 204 - Chariots of the Dogs" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 204 - Chariots of the Dogs" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SamAndMaxSeason2Episode5">
-	<title>Sam &amp; Max Season Two Episode 5 - What's New, Beelzebub</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax205.exe\Install Location" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 205 - What's New, Beelzebub.lnk" />
-	<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 205 - What's New, Beelzebub" />
-	<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 205 - What's New, Beelzebub" />
-	<save filename="prefs.prop" />
-	<save filename="*.save" />
-</game_data>
-
-<game_data name="SecretOfMonkeyIslandSpecialEdition">
-	<title>The Secret of Monkey Island: Special Edition</title>
-	<root path="%APPDATA%\LucasArts\The Secret of Monkey Island Special Edition" />
-	<identifier filename="monkey1.bin" />
-	<save filename="Settings.ini" />
-	<save filename="savegame.*" />
-</game_data>
-
-<game_data name="Shadowgrounds">
-	<title>Shadowgrounds</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Shadowgrounds_is1\InstallLocation" />
-	<root path="%INSTALLLOCATION%\ShadowGrounds" />
-	<root path="%STEAMCOMMON%\shadowgrounds" />
-	<save path="Config" filename="options.txt" />
-	<save path="Profiles" />
-</game_data>
-
-<game_data name="ShadowgroundsSurvivor">
-	<title>Shadowgrounds Survivor</title>
-	<root path="%STEAMCOMMON%\shadowgrounds survivor" />
-	<save path="Config" filename="options.txt" />
-	<save path="Profiles" />
-</game_data>
-
-<game_data name="Sin">
-	<title>Sin</title>
-	<root path="%STEAMUSER%\sin 1" />
-	<save path="base\players" />
-</game_data>
-
-<game_data name="SinEpisodesEmergence">
-	<title>Sin Episodes: Emergence</title>
-	<root path="%STEAMUSER%\sin episodes emergence" />
-	<save path="SE1\SAVE" />
-</game_data>
-
-<game_data name="Starcraft">
-	<title>Starcraft</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Blizzard Entertainment\StarCraft\InstallPath" />
-	<root path="%INSTALLLOCATION%\Starcraft" />
-	<save path="save" />
-</game_data>
-
-<game_data name="Syberia">
-	<title>Syberia</title>
-	<root path="%USERDOCUMENTS%\Syberia Saves" />
-	<save />
-</game_data>
-
-<game_data name="Syberia2">
-	<title>Syberia II</title>
-	<root path="%USERDOCUMENTS%\Syberia 2 Saves" />
-	<save />
-</game_data>
-
-<game_data name="SystemShock2">
-	<title>System Shock 2</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\shock2.exe\Path" />
-	<save path="save_*" />
-</game_data>
-
-<game_data name="TalesOfMonkeyIsland1">
-	<title>Tales of Monkey Island Chapter 1: Launch of the Screaming Narwhal</title>
-	<root path="%USERDOCUMENTS%\Telltale Games\Launch of the Screaming Narwhal" />
-	<save />
-</game_data>
-
-<game_data name="Thief2">
-	<title>Thief II: The Metal Age</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\thief2.exe\Path" />
-	<root path="%INSTALLLOCATION%\Games\Thief2" />
-	<save filename="user.bnd" />
-	<save filename="USER.CFG" />
-	<save path="SAVES" filename="*.sav" />
-	<save filename="*.sav" />
-</game_data>
-
-<game_data name="ThiefDeadlyShadows">
-	<title>Thief: Deadly Shadows</title>
-	<root path="%PUBLIC%\Documents\Thief - Deadly Shadows" />
-	<save path="SaveGames" />
-</game_data>
-
-<game_data name="TombRaider">
-	<title>Tomb Raider</title>
-	<root path="%INSTALLLOCATION%\TOMBRAID" />
-	<identifier filename="SAVEGAME.*" />
-	<save filename="SAVEGAME.*" />
-</game_data>
-
-<game_data name="TombRaiderGold">
-	<title>Tomb Raider Gold</title>
-	<root path="%INSTALLLOCATION%\TOMBRAID" />
-	<identifier filename="SAVEUB.*" />
-	<save filename="SAVEUB.*" />
-</game_data>
-
-<game_data name="TombRaider2">
-	<title>Tomb Raider II</title>
-	<root registry="HKEY_CURRENT_USER\Software\core design\Tomb Raider II\AppPath" />
-	<root shortcut="Programs\Core Design\Tomb Raider 2\ Tomb Raider II.lnk" />
-	<root path="%INSTALLLOCATION%\Core Design\Tomb Raider II" />
-	<save filename="savegame.*" />
-</game_data>
-
-<game_data name="TombRaider2Gold">
-	<title>Tomb Raider II Gold</title>
-	<root registry="HKEY_CURRENT_USER\Software\core design\Tomb Raider II Gold\GoldPath" />
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\t2gold.exe\Path" />
-	<root shortcut="Programs\Core Design\Tomb Raider II Gold\Tomb Raider II Gold.lnk" />
-	<root path="%INSTALLLOCATION%\Core Design\Tomb Raider II Gold" />
-	<save filename="savegame.*" />
-</game_data>
-
-<game_data name="TombRaider3AdventuresOfLaraCroft">
-	<title>Tomb Raider III: Adventures Of Lara Croft</title>
-	<root path="%INSTALLLOCATION%\Core Design\Tomb Raider III" />
-	<save filename="savegame.*" />
-</game_data>
-
-<game_data name="TombRaider3TheLostArtifact">
-	<title>Tomb Raider III: The Lost Artifact</title>
-	<root path="%INSTALLLOCATION%\Core Design\Tomb Raider - The Lost Artifact" />
-	<save filename="savegame.*" />
-</game_data>
-
-<game_data name="TombRaiderAngelOfDarkness">
-	<title>Tomb Raider: Angel of Darkness</title>
-	<root path="%INSTALLLOCATION%\Eidos Interactive\TRAOD" />
-	<save path="SaveGame" />
-</game_data>
-
-<game_data name="TombRaiderChronicles">
-	<title>Tomb Raider: Chronicles</title>
-	<root path="%INSTALLLOCATION%\Core Design\Tomb Raider Chronicles" />
-	<save filename="savegame.*" />
-</game_data>
-
-<game_data name="TombRaiderTheLastRevelation">
-	<title>Tomb Raider: The Last Revelation</title>
-	<root path="%INSTALLLOCATION%\Core Design\Tomb Raider - The Last Revelation" />
-	<save filename="savegame.*" />
-</game_data>
-
-<game_data name="TombRaiderLegend">
-	<title>Tomb Raider: Legend</title>
-	<root path="%USERDOCUMENTS%\Tomb Raider - Legend" />
-	<save />
-</game_data>
-
-<game_data name="TombRaiderAnniversary">
-	<title>Tomb Raider: Anniversary</title>
-	<root path="%USERDOCUMENTS%\Eidos\Tomb Raider - Anniversary" />
-	<save />
-</game_data>
-
-<game_data name="TombRaiderUnderworld">
-	<title>Tomb Raider: Underworld</title>
-	<root path="%USERDOCUMENTS%\Eidos\Tomb Raider - Underworld" />
-	<save />
-</game_data>
-
-<game_data name="TrackManiaNationsForever">
-	<title>TrackMania Nations Forever</title>
-	<root path="%USERDOCUMENTS%\TrackMania" />
-	<save path="Scores" />
-	<save path="Profiles" />
-</game_data>
-
-<game_data name="Tron2">
-	<title>Tron 2.0</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Monolith Productions\Tron 2.0\1.0\InstallDir" />
-	<root path="%INSTALLLOCATION%\Buena Vista Interactive\Tron 2.0" />
-	<save path="Profiles" />
-	<save filename="display.cfg" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="TrueCrimeStreetsOfLA">
-	<title>True Crime: Streets of LA</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\True Crime\InstallPath" />
-	<root shortcut="Programs\True Crime - Streets of LA\True Crime - Streets of LA.lnk" />
-	<root path="%INSTALLLOCATION%\Activision\True Crime" />
-	<save path="Saves" />
-	<save filename="TrueCrime.ini" />
-</game_data>
-
-<game_data name="Ultimate Doom">
-	<!-- 
-		Info Provided By: Kee715
-	-->
-	<title>Ultimate Doom</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\id\Doom 3\InstallPath" />
-	<root path="%INSTALLLOCATION%\DOOM Collector's Edition\Ultimate Doom" />
-	<save filename="*.zds" />
-</game_data>
-
-<game_data name="Undying">
-	<title>Clive Barker's Undying</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\undying.exe\Path" />
-	<root path="%INSTALLLOCATION%\EA Games\Clive Barker's Undying" />
-	<save path="System" filename="*.ini" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="Unreal">
-	<title>Unreal</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Unreal.exe\Path" />
-	<root path="%INSTALLLOCATION%\UnrealGold" />
-	<root path="%INSTALLLOCATION%\Unreal" />
-	<save path="System" filename="*.ini" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="Unreal2">
-	<title>Unreal II: The Awakening</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{626F32D6-007C-41D5-8157-9509AB1428BE}\InstallLocation" />
-	<root path="%INSTALLLOCATION%\Unreal2" />
-	<root path="%STEAMCOMMON%\unreal ii the awakening" />
-	<save path="System" filename="*.ini" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="UnrealTournament">
-	<title>Unreal Tournament</title>
-	<root path="%STEAMCOMMON%\unreal tournament" />>
-	<save path="System" filename="*.ini" />
-	<save path="Save" />
-</game_data>
-
-<game_data name="UnrealTournament2004">
-	<title>Unreal Tournament 2004</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Unreal Technology\Installed Apps\UT2004\Folder" />
-	<root path="%INSTALLLOCATION%\UT2004" />
-	<root path="%STEAMCOMMON%\unreal tournament 2004" />
-	<save path="System" filename="*.ini" />
-	<save path="Saves" />
-</game_data>
-
-<game_data name="UnrealTournament3">
-	<title>Unreal Tournament 3</title>
-	<root path="%USERDOCUMENTS%\My Games\Unreal Tournament 3" />
-	<save path="UTGame\Config" />
-	<save path="UTGame\SaveData" />
-</game_data>
-
-<game_data name="VampireTheMasqueradeBloodlines">
-	<title>Vampire: The Masquerade - Bloodlines</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Vampire - Bloodlines\InstallPath" />
-	<root path="%STEAMCOMMON%\vampire the masquerade - bloodlines" />
-	<save path="Vampire\SAVE" />
-</game_data>
-
-<game_data name="WallaceAndGrommitsGrandAdventures1">
-	<title>Wallace &amp; Gromit's Grand Adventures Episode 1: Fright of the Bumblebees</title>
-	<root path="%USERDOCUMENTS%\Telltale Games\Fright of the Bumblebees" />
-	<save />
-</game_data>
-
-<game_data name="WallaceAndGrommitsGrandAdventures2">
-	<title>Wallace &amp; Gromit's Grand Adventures Episode 2: The Last Resort</title>
-	<root path="%USERDOCUMENTS%\Telltale Games\The Last Resort" />
-	<save />
-</game_data>
-
-<game_data name="WallaceAndGrommitsGrandAdventures3">
-	<title>Wallace &amp; Gromit's Grand Adventures Episode 3: Muzzled!</title>
-	<root path="%USERDOCUMENTS%\Telltale Games\Muzzled" />
-	<save />
-</game_data>
-
-<game_data name="WallaceAndGrommitsGrandAdventures4">
-	<title>Wallace &amp; Gromit's Grand Adventures Episode 4: The Bogey Man</title>
-	<root path="%USERDOCUMENTS%\Telltale Games\The Bogey Man" />
-	<save />
-</game_data>
-
-<game_data name="Witcher">
-	<title>The Witcher</title>
-	<root path="%USERDOCUMENTS%\The Witcher" />
-	<save path="saves" />
-</game_data>
-
-<game_data name="X2TheThreat">
-	<title>X2: The Threat</title>
-	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\X2 Key\Path" />
-	<root path="%STEAMCOMMON%\x2 - the threat" />
-	<save filename="*.sav" />
-</game_data>
-
-<game_data name="X3Reunion">
-	<title>X3: Reunion</title>
-	<root path="%USERDOCUMENTS%\Egosoft\X3" />
-	<save path="save" />
-</game_data>
-
-<game_data name="XFiles">
-	<title>The X-Files</title>
-	<root path="%INSTALLLOCATION%\Fox\The X-Files" />
-	<save filename="*.x" />
-</game_data>
-
-
+  <game_data name="Bejeweled2Deluxe">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Bejeweled 2 Deluxe</title>
+    <root path="%ALLUSERSPROFILE%\Steam\Bejeweled2" windows_version="Vista" />
+    <root path="%STEAMCOMMON%\bejeweled 2 deluxe" windows_version="XP" />
+    <identifier path="users" />
+    <save path="users" />
+  </game_data>
+
+  <game_data name="BenThereDanThat">
+		<title>Ben There, Dan That!</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3CD921DC-FE10-404C-99DB-FA57A6FCB32E}_is1\InstallLocation" />
+		<root shortcut="Programs\Ben There Dan That\Ben There Dan That.lnk" />
+		<root path="%INSTALLLOCATION%\Ben There Dan That" />
+		<root path="%STEAMCOMMON%\ben there, dan that!" />
+		<save filename="agssave.*" />
+	</game_data>
+
+  <game_data name="BeyondGoodAndEvil">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Beyond Good &amp; Evil</title>
+    <root path="%STEAMCOMMON%\beyond good and evil" />
+    <save filename="*.sav" />
+  </game_data>
+
+  <game_data name="BioShock">
+		<title>BioShock</title>
+		<root path="%USERDOCUMENTS%\Bioshock" />
+		<save path="SaveGames" />
+	</game_data>
+
+	<game_data name="BlackAndWhite">
+		<title>Black And White</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Black.exe\Path" />
+		<root path="%INSTALLLOCATION%\Games\Black And White" />
+		<save path="Profiles" />
+	</game_data>
+
+  <game_data name="BladeRunner">
+    <title>Blade Runner</title>
+    <root shortcut="Programs\Westwood\Blade Runner\Blade Runner.lnk" />
+    <root path="%INSTALLLOCATION%\WESTWOOD\BLADE" />
+    <save path="SAVE" />
+  </game_data>
+
+  <game_data name="BookwormAdventureDeluxe">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Bookworm Adventures Deluxe</title>
+    <root path="%ALLUSERSPROFILE%\Steam\WinBAD" windows_version="Vista" />
+    <root path="%STEAMCOMMON%\bookworm adventures deluxe" windows_version="XP" />
+    <identifier path="users" />
+    <save path="users" />
+  </game_data>
+
+  <game_data name="Braid">
+		<title>Braid</title>
+		<root path="%APPDATA%\Braid" />
+		<save />
+	</game_data>
+
+  <game_data name="CallOfJuarezBoundInBlood">
+    <!-- 
+			Info Contributed By: Michael "Testosterone" Lamere
+		-->
+    <title>Call of Juarez: Bound in Blood</title>
+    <root path="%USERDOCUMENTS%\Call of Juarez - Bound in Blood" />
+    <save path="Out\save" />
+    <save path="Out\profiles" />
+  </game_data>
+
+  <game_data name="CallOfDuty4ModernWarfare">
+		<title>Call of Duty 4: Modern Warfare</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Call of Duty 4\InstallPath" />
+		<root shortcut="Programs\Activision\Call of Duty(R) 4 - Modern Warfare(TM)\Call of Duty(R) 4 - Modern Warfare(TM) Singleplayer.lnk" />
+		<root path="%INSTALLLOCATION%\Activision\Call of Duty 4 - Modern Warfare" />
+		<root path="%STEAMCOMMON%\call of duty 4" />
+		<save path="players\profiles" />
+	</game_data>
+
+	<game_data name="ChroniclesOfRiddickAssaultOnDarkAthena">
+		<title>The Chronicles of Riddick: Assault on Dark Athena</title>
+		<root path="%APPDATA%\Atari\The Chronicles of Riddick - Assault on Dark Athena" />
+		<save path="SaveGames" />
+	</game_data>
+
+	<game_data name="ChroniclesOfRiddickEscapeFromButcherBay">
+		<title>The Chronicles of Riddick: Escape From Butcher Bay</title>
+		<root path="%APPDATA%\Starbreeze\Riddick" />
+		<save />
+	</game_data>
+
+	<game_data name="Civilization">
+		<title>Sid Meier's Civilization</title>
+		<root shortcut="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Sid Meier's Civilization.lnk" />
+		<root path="%INSTALLLOCATION%\Sid Meier's Civilization Chronicles\Sid Meier's Civilization" />
+		<save filename="*.sav" />
+	</game_data>
+
+	<game_data name="Civilization2Gold">
+		<title>Sid Meier's Civilization II: Multiplayer Gold</title>
+		<root shortcut="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Sid Meier's Civilization II - Multiplayer Gold.lnk" />
+		<root path="%INSTALLLOCATION%\Sid Meier's Civilization Chronicles\Sid Meier's Civilization II Multiplayer Gold" />
+		<save filename="*.sav" />
+	</game_data>
+
+	<game_data name="Civilization2TestOfTime">
+		<title>Sid Meier's Civilization II: Test of Time</title>
+		<root shortcut="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Civilization II - Test of Time.lnk" />
+		<root path="%INSTALLLOCATION%\Sid Meier's Civilization Chronicles\Civilization II Test of Time" />
+		<save filename="*.sav" />
+	</game_data>
+
+	<game_data name="Civilization3">
+		<title>Sid Meier's Civilization III</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Infogrames Interactive\Civilization III\Install_Path" />
+		<root path="%INSTALLLOCATION%\Firaxis Games\Civilization III Complete" />
+		<save filename="Civilization3.Ini" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="Civilization3Conquests">
+		<title>Sid Meier's Civilization III: Conquests</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Infogrames\Conquests\Install_Path" />
+		<root shortcut="Programs\Firaxis Games\Civilization III Complete Edition\Civilization III Complete Edition.lnk" />
+		<root path="%INSTALLLOCATION%\Firaxis Games\Civilization III Complete\Conquests" />
+		<save filename="conquests.ini" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="Civilization3PlayTheWorld">
+		<title>Sid Meier's Civilization III: Play The World</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Infogrames\Civ3PTW\Install_Path" />
+		<root path="%INSTALLLOCATION%\Firaxis Games\Civilization III Complete\civ3PTW" />
+		<identifier path="Saves" />
+		<save filename="ptw.ini" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="Civilization4">
+		<title>Sid Meier's Civilization IV</title>
+		<root path="%USERDOCUMENTS%\My Games\Sid Meier's Civilization 4" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="Civilization4BeyondTheSword">
+		<title>Sid Meier's Civilization IV: Beyond the Sword</title>
+		<root path="%USERDOCUMENTS%\My Games\Beyond the Sword" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="Civilization4Colonization">
+		<title>Sid Meier's Civilization IV: Colonization</title>
+		<root path="%USERDOCUMENTS%\My Games\Sid Meier's Civilization IV Colonization" />
+		<save path="Saves" />
+	</game_data>
+
+  <game_data name="Civilization4Warlords">
+    <title>Sid Meier's Civilization IV: Warlords</title>
+    <root path="%USERDOCUMENTS%\My Games\Warlords" />
+    <save path="Saves" />
+  </game_data>
+
+  <game_data name="ColonizationForWindows">
+    <title>Sid Meier's Colonization for Windows</title>
+    <root shortcut="Programs\Colonization\Colonization.lnk" />
+    <root path="%INSTALLLOCATION%\COLWIN" />
+    <save filename="*.SAV" />
+  </game_data>
+
+  <game_data name="CommandAndConquer3TiberiumWars">
+    <!-- 
+			Info Contributed By: Paul Taylor
+		-->
+    <title>Command &amp; Conquer 3: Tiberium Wars</title>
+    <root path="%SAVEDGAMES%\Command &amp; Conquer 3 Tiberium Wars" windows_version="Vista" />
+    <save />
+  </game_data>
+
+  <game_data name="CommandAndConquer3KanesWrath">
+    <!-- 
+			Info Contributed By: Paul Taylor
+		-->
+    <title>Command &amp; Conquer 3: Kane's Wrath</title>
+    <root path="%SAVEDGAMES%\Command &amp; Conquer 3 Kane's Wrath" windows_version="Vista" />
+    <save />
+  </game_data>
+
+  <game_data name="CommandAndConquerRedAlert3">
+    <!-- 
+			Info Contributed By: cammkelly
+		-->
+    <title>Command &amp; Conquer: Red Alert 3</title>
+    <root path="%SAVEDGAMES%\Red Alert 3" windows_version="Vista" />
+    <save />
+  </game_data>
+
+  <game_data name="CommandAndConquerGeneralsZeroHour">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Command &amp; Conquer: Generals - Zero Hour</title>
+    <root path="%USERDOCUMENTS%\Command and Conquer Generals Zero Hour Data" />
+    <save path="Save" />
+    <save filename="SkirmishStats.ini" />
+  </game_data>
+
+  <game_data name="CondemnedCriminalOrigins">
+		<title>Condemned: Criminal Origins</title>
+    <root path="%PUBLIC%\Documents\Monolith Productions\Condemned" windows_version="Vista" />
+    <root path="%ALLUSERSPROFILE%\Documents\Monolith Productions\Condemned" windows_version="XP" />
+    <identifier path="Save" />
+		<save filename="settings.cfg" />
+		<save path="Profiles" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="CounterStrikeConditionZero">
+		<title>Counter-Strike: Condition Zero</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Valve\CZero\InstallPath" append="czero" />
+		<root path="%STEAMUSER%\condition zero\czero" />
+		<identifier path="SAVE" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="CounterStrikeConditionZeroDeletedScenes">
+		<title>Counter-Strike: Condition Zero: Deleted Scenes</title>
+		<root path="%STEAMUSER%\condition zero deleted scenes\czeror" />
+		<identifier path="SAVE" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="Crysis">
+		<title>Crysis</title>
+		<root path="%USERDOCUMENTS%\My Games\Crysis" />
+		<save path="Profiles" />
+		<save path="SaveGames" />
+	</game_data>
+
+  <game_data name="DangerousHighSchoolGirlsInTrouble">
+    <title>Dangerous High School Girls In Trouble!</title>
+    <root path="%STEAMCOMMON%\dangerous high school girls in trouble" />
+    <save path="prog\data\Mousechief\RPBG\DHSGiT_v1_0_0" />
+  </game_data>
+
+  <game_data name="DarkMessiahMightandMagic">
+		<title>Dark Messiah Might and Magic</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Ubisoft\Dark Messiah of Might and Magic\Install Location" />
+		<root path="%STEAMUSER%\dark messiah might and magic single player" />
+		<identifier path="mm\SAVE" />
+		<save path="mm\SAVE" />
+	</game_data>
+
+	<game_data name="Descent">
+		<title>Descent</title>
+		<root path="%INSTALLLOCATION%\GAMES\DESCENT" />
+		<save filename="*.PLR" />
+		<save filename="*.SG*" />
+	</game_data>
+
+	<game_data name="Descent2">
+		<title>Descent II</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\PARALLAX\DESCENT II\1.1\INSTALL\WINPATH" />
+		<root shortcut="Programs\Games\Descent II Win95.lnk" />
+		<root path="%INSTALLLOCATION%\GAMES\DESCENT2" />
+		<save filename="*.plr" />
+		<save filename="*.sg*" />
+	</game_data>
+
+	<game_data name="Descent3">
+		<title>Descent 3</title>
+		<root path="%INSTALLLOCATION%\Games\Descent3" />
+		<save filename="*.plt" />
+		<save path="savegame" />
+	</game_data>
+
+	<game_data name="Desperados">
+		<title>Desperados</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Spellbound Software\Desperados 1.0\InstallPath" />
+		<root path="%INSTALLLOCATION%\Infogrames\Desperados" />
+		<save path="Game\Data\Savegame" />
+	</game_data>
+
+	<game_data name="DeusEx">
+		<title>Deus Ex</title>
+		<root path="%INSTALLLOCATION%\DeusEx" />
+		<root path="%STEAMCOMMON%\deus ex" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Unreal Technology\Installed Apps\Deus Ex\Folder" />
+		<root shortcut="Programs\Deus Ex\Play Deus Ex.lnk" detract="System" />
+		<identifier path="Save" />
+		<save path="System" filename="*.ini" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="DeusExInvisibleWar">
+		<title>Deus Ex: Invisible War</title>
+		<root path="%USERDOCUMENTS%\Deus Ex - Invisible War" />
+		<save />
+	</game_data>
+
+	<game_data name="Diablo2">
+		<title>Diablo II</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Blizzard Entertainment\Diablo II\InstallPath" />
+		<root path="%INSTALLLOCATION%\Diablo II" />
+		<save path="save" />
+	</game_data>
+
+	<game_data name="Doom">
+		<!-- 
+			Info Provided By: Kee715
+		-->
+		<title>Doom</title>
+		<root path="%INSTALLLOCATION%\DOOM Collector's Edition\Ultimate Doom" />
+		<save filename="*.zds" />
+	</game_data>
+
+	<game_data name="Doom2">
+		<!-- 
+			Info Provided By: Kee715
+		-->
+		<title>Doom II</title>
+		<root path="%INSTALLLOCATION%\DOOM Collector's Edition\Doom2" />
+		<save filename="*.zds" />
+	</game_data>
+
+	<game_data name="Doom3">
+		<title>Doom 3</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\id\Doom 3\InstallPath" />
+		<root path="%INSTALLLOCATION%\DOOM 3" />
+		<save path="base\savegames" />
+		<virtualstore override="yes" />
+	</game_data>
+
+  <game_data name="DragonAgeOrigins">
+    <title>Dragon Age: Origins</title>
+    <root path="%USERDOCUMENTS%\BioWare\Dragon Age" />
+    <save path="Settings" filename="DragonAge.ini" />
+    <save path="Settings" filename="KeyBindings.ini" />
+    <save path="Characters" />
+  </game_data>
+
+  <game_data name="DreamfallTheLongestJourney">
+		<title>Dreamfall: The Longest Journey</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D751B34C-058F-42EF-BE95-14EBB0D2C585}\InstallLocation" />
+		<root shortcut="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk" />
+		<root path="%INSTALLLOCATION%\Micro Application\Dreamfall" />
+		<save filename="prefs.dat" />
+		<save path="saves" />
+	</game_data>
+
+	<game_data name="DungeonKeeper2">
+		<title>Dungeon Keeper II</title>
+		<root path="%INSTALLLOCATION%\Bullfrog\Dungeon Keeper II" />
+		<save path="Data\Save" />
+	</game_data>
+
+  <game_data name="Earth2160">
+    <title>Earth 2160</title>
+    <root path="%USERDOCUMENTS%\Earth 2160" />
+    <save path="Players" />
+  </game_data>
+
+  <game_data name="Eets">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Eets</title>
+    <root path="%STEAMCOMMON%\eets" />
+    <save path="User\Profiles" />
+  </game_data>
+
+  <game_data name="ElderScrolls2Daggerfall">
+		<!-- 
+			Path Info Contributed By: Jetsetlemming
+		-->
+		<title>Elder Scrolls II: Daggerfall</title>
+		<root path="%INSTALLLOCATION%\DAGGER" />
+		<save path="SAVE*" />
+	</game_data>
+
+  <game_data name="ElderScrolls3Morrowind">
+    <!-- 
+			Steamn info contributed By: duncans_pumpkin
+		-->
+    <title>Elder Scrolls III: Morrowind</title>
+    <root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Bethesda Softworks\Morrowind\Installed Path" />
+    <root shortcut="Programs\Bethesda Softworks\Morrowind\Morrowind.lnk" />
+    <root path="%INSTALLLOCATION%\Bethesda Softworks\Morrowind" />
+    <root path="%STEAMCOMMON%\morrowind" />
+    <save path="Saves" />
+  </game_data>
+
+  <game_data name="ElderScrolls4Oblivion">
+		<title>Elder Scrolls IV: Oblivion</title>
+		<root path="%USERDOCUMENTS%\My Games\Oblivion" />
+		<save filename="*.ini" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="Fallout">
+		<title>Fallout</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\falloutw.exe\Path" />
+		<root path="%INSTALLLOCATION%\Interplay\Fallout" />
+		<save path="DATA\SAVEGAME" />
+	</game_data>
+
+	<game_data name="Fallout2">
+		<title>Fallout 2</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\fallout2.exe\Path" />
+		<root path="%INSTALLLOCATION%\BlackIsle\Fallout2" />
+		<save path="data\SAVEGAME" />
+	</game_data>
+
+	<game_data name="Fallout3">
+		<title>Fallout 3</title>
+		<root path="%USERDOCUMENTS%\My Games\Fallout3" />
+		<save filename="*.ini" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="FarCry">
+		<title>Far Cry</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D6DBDC2A-E72C-4284-B6AD-6B3B61B4DABC}\InstallLocation" />
+		<root path="%INSTALLLOCATION%\Ubisoft\Crytek\Far Cry" />
+		<save path="Profiles" />
+	</game_data>
+
+	<game_data name="FarscapeTheGame">
+		<title>Farscape The Game</title>
+		<root path="%INSTALLLOCATION%\Farscape The Game" />
+		<save filename="options.lua" />
+		<save path="Save Games" />
+	</game_data>
+
+	<game_data name="FEARFirstEncounterAssaultRecon">
+		<title>F.E.A.R.: First Encounter Assault Recon</title>
+		<root path="%PUBLIC%\Documents\Monolith Productions\FEAR" windows_version="Vista" />
+    <root path="%ALLUSERSPROFILE%\Documents\Monolith Productions\FEAR" windows_version="XP" />
+    <save filename="settings.cfg" />
+    <save path="Profiles" />
+    <save path="Save" />
+  </game_data>
+
+  <game_data name="FEARExtractionPoint">
+    <title>F.E.A.R.: Extraction Point</title>
+    <root path="%PUBLIC%\Documents\TimeGate Studios\FEARXP" windows_version="Vista" />
+    <root path="%ALLUSERSPROFILE%\Documents\TimeGate Studios\FEARXP" windows_version="XP" />
+    <save filename="settings.cfg" />
+		<save path="Profiles" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="FEARPerseusMandate">
+		<title>F.E.A.R.: Perseus Mandate</title>
+    <root path="%PUBLIC%\Documents\TimeGate Studios\FEARXP2" windows_version="Vista" />
+    <root path="%ALLUSERSPROFILE%\Documents\TimeGate Studios\FEARXP2" windows_version="XP" />
+    <save filename="settings.cfg" />
+		<save path="Profiles" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="FEAR2ProjectOrigin">
+		<title>F.E.A.R. 2: Project Origin</title>
+		<root path="%USERDOCUMENTS%\WBGames\FEAR2" />
+		<save />
+	</game_data>
+
+	<game_data name="FinalDoom">
+		<!-- 
+			Info Provided By: Kee715
+		-->
+		<title>Final Doom</title>
+		<root path="%INSTALLLOCATION%\DOOM Collector's Edition\Final Doom" />
+		<save filename="*.zds" />
+	</game_data>
+
+	<game_data name="DescentFreeSpaceTheGreatWar">
+		<title>Descent: FreeSpace - The Great War</title>
+		<root path="%INSTALLLOCATION%\Games\FreeSpace" />
+		<save path="Players" />
+	</game_data>
+
+	<game_data name="FreeSpace2">
+		<title>FreeSpace 2</title>
+		<root path="%INSTALLLOCATION%\Games\FreeSpace2" />
+		<save path="data\players" />
+	</game_data>
+
+	<game_data name="fs2_open">
+		<title>fs2_open</title>
+		<root path="%INSTALLLOCATION%\fs2_open" />
+		<save path="data\players" />
+	</game_data>
+
+	<game_data name="GarrysMod">
+		<title>Garry's Mod</title>
+		<root path="%STEAMUSER%\garrysmod\garrysmod" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="GearsOfWar">
+		<title>Gears of War</title>
+		<root path="%USERDOCUMENTS%\My Games\Gears of War for Windows" />
+		<save path="WarGame\SaveData" />
+		<save path="WarGame\Config" />
+	</game_data>
+
+	<game_data name="GiantsCitizenKabuto">
+		<title>Giants: Citizen Kaubto</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\giants.exe\Path" />
+		<root path="%INSTALLLOCATION%\Giants" />
+		<save path="savegame" />
+	</game_data>
+
+  <game_data name="GrandTheftAuto3">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Grand Theft Auto 3</title>
+    <root path="%USERDOCUMENTS%\GTA3 User Files" />
+    <save filename="*.b" />
+    <save filename="*.set" />
+  </game_data>
+
+  <game_data name="GrandTheftAutoSanAndreas">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Grand Theft Auto: San Andreas</title>
+    <root path="%USERDOCUMENTS%\GTA San Andreas User Files" />
+    <save filename="*.b" />
+    <save filename="*.set" />
+  </game_data>
+
+  <game_data name="GrandTheftAutoViceCity">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Grand Theft Auto: Vice City</title>
+    <root path="%USERDOCUMENTS%\GTA Vice City User Files" />
+    <save filename="*.b" />
+    <save filename="*.set" />
+  </game_data>
+
+  <game_data name="GrimFandango">
+    <title>Grim Fandango</title>
+    <root registry="HKEY_LOCAL_MACHINE\SOFTWARE\LucasArts Entertainment Company LLC\Grim Fandango\v1.0\Install Path" />
+    <root path="%INSTALLLOCATION%\Lucasarts\Grim" />
+    <save filename="*.gsv" />
+    <virtualstore override="yes" />
+  </game_data>
+
+  <game_data name="GumboyCrazyAdventures">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Gumboy: Crazy Adventures</title>
+    <root path="%STEAMCOMMON%\gumboy crazy adventures" />
+    <save filename="*.ini" />
+  </game_data>
+
+  <game_data name="GumboyCrazyFeatures">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Gumboy: Crazy Features</title>
+    <root path="%STEAMCOMMON%\gumboy crazy features" />
+    <save filename="*.ini" />
+  </game_data>
+
+  <game_data name="HalfLife">
+		<title>Half-Life</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="valve" />
+		<root path="%STEAMUSER%\half-life\valve" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="HalfLifeOpposingForce">
+		<title>Half-Life: Opposing Force</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="gearbox" />
+		<root path="%STEAMUSER%\opposing force\gearbox" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="HalfLifeBlueShift">
+		<title>Half-Life: Blue Shift</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="bshift" />
+		<root path="%STEAMUSER%\half-life blue shift\bshift" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="HalfLifeSource">
+		<title>Half-Life: Source</title>
+		<root path="%STEAMUSER%\half-life source\hl1" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="HalfLife2">
+		<title>Half-Life 2</title>
+		<root path="%STEAMUSER%\half-life 2\hl2" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="HalfLife2EpisodeOne">
+		<title>Half-Life 2: Episode One</title>
+		<root path="%STEAMUSER%\half-life 2 episode one\episodic" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="HalfLife2EpisodeTwo">
+		<title>Half-Life 2: Episode Two</title>
+		<root path="%STEAMUSER%\half-life 2 episode two\ep2" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="HalfLife2LostCoast">
+		<title>Half-Life 2: Lost Coast</title>
+		<root path="%STEAMUSER%\half-life 2 lostcoast\lostcoast" />
+		<save path="SAVE" />
+	</game_data>
+
+	<game_data name="HeavyMetalFAKK2">
+		<title>Heavy Metal: FAKK 2</title>
+		<root path="%INSTALLLOCATION%\Ritual Entertainment\Heavy Metal - FAKK2" />
+		<save path="fakk" filename="config.cfg" />
+		<save path="fakk\save" />
+	</game_data>
+
+	<game_data name="HitmanCodename47">
+		<title>Hitman: Codename 47</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\hitman.exe\Path" />
+		<root path="%INSTALLLOCATION%\Eidos Interactive\IO Interactive\Hitman - Codename 47" />
+		<save filename="Hitman.sav" />
+	</game_data>
+
+	<game_data name="Hitman2SilentAssassin">
+		<title>Hitman 2: Silent Assassin</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Eidos Interactive\Hitman 2\InstallDir" />
+		<root path="%INSTALLLOCATION%\Eidos Interactive\Hitman 2 Silent Assassin" />
+		<save filename="Hitman2.ini" />
+		<save filename="Keyboard.cfg" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="HitmanContracts">
+		<title>Hitman: Contracts</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Eidos\Hitman Contracts\InstallDir" />
+		<root path="%INSTALLLOCATION%\Eidos\Hitman Contracts" />
+		<save filename="HitmanContracts.ini" />
+		<save filename="HitmanContracts.cfg" />
+		<save path="Save" />
+	</game_data>
+
+  <game_data name="HitmanBloodMoney">
+    <title>Hitman: Blood Money</title>
+    <root path="%USERDOCUMENTS%\Hitman Blood Money" />
+    <save path="Profiles" />
+  </game_data>
+
+  <game_data name="Infernal">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Infernal</title>
+    <root path="%STEAMCOMMON%\infernal" />
+    <save path="game\AutoSave!" />
+  </game_data>
+
+  <game_data name="InsaniquariumDeluxe">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+	  -->
+    <title>Insaniquarium Deluxe</title>
+    <root path="%ALLUSERSPROFILE%\Steam\Insaniquarium" windows_version="Vista" />
+    <root path="%STEAMCOMMON%\insaniquarium deluxe" windows_version="XP" />
+    <identifier path="userdata" />
+    <save path="userdata" />
+  </game_data>
+
+  <game_data name="JadeEmpire">
+    <title>Jade Empire</title>
+    <root registry="HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\Jade Empire\Path" />
+    <root path="%STEAMCOMMON%\jade empire" />
+    <save filename="*.ini" />
+    <save path="Save" />
+  </game_data>
+
+  <game_data name="JointTaskForce">
+		<title>Joint Task Force</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BCB9DF93-537D-433D-AF3B-36025DEF5798}\InstallLocation" />
+		<root shortcut="Programs\HD Publishing\Joint Task Force\Launch Joint Task Force.lnk" />
+		<root path="%INSTALLLOCATION%\HD Publishing\Joint Task Force" />
+		<save path="Profiles" />
+	</game_data>
+
+  <game_data name="JustCause">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Just Cause</title>
+    <root path="%USERDOCUMENTS%\JustCause" />
+    <save />
+  </game_data>
+
+  <game_data name="KaneAndLynchDeadMen">
+		<title>Kane &amp; Lynch: Dead Men</title>
+		<root path="%LOCALAPPDATA%\kaneandlynch" />
+		<save />
+	</game_data>
+
+	<game_data name="LongestJourney">
+		<title>The Longest Journey</title>
+		<require_detection />
+		<root registry="HKEY_CURRENT_USER\Software\Paper Sun\Roots\Root" />
+		<root path="%INSTALLLOCATION%\Funcom\The Longest Journey" />
+		<root path="%APPDATA%\The Longest Journey" />
+		<identifier path="Save" />
+		<save filename="Preferences.ini" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="LordOfTheRingsTheReturnOfTheKing">
+		<title>The Lord of the Rings: The Return of the King</title>
+		<root path="%USERDOCUMENTS%\LOTR The Return of the King (tm) Data" />
+		<save />
+	</game_data>
+
+
+	<game_data name="Mafia">
+		<title>Mafia</title>
+		<root path="%INSTALLLOCATION%\Mafia" />
+		<save path="savegame" />
+	</game_data>
+
+	<game_data name="MassEffect">
+		<title>Mass Effect</title>
+		<root path="%USERDOCUMENTS%\BioWare\Mass Effect" />
+		<save path="Config" filename="BIOGame.ini" />
+		<save path="Config" filename="BIOInput.ini" />
+		<save path="Save" />
+	</game_data>
+
+  <game_data name="MasterOfOrion2">
+    <title>Master of Orion 2: Battle at Antares</title>
+    <root shortcut="Programs\Microprose\Master of Orion II\Master of Orion II.lnk" />
+    <root path="%INSTALLLOCATION%\Microprose\Orion2" />
+    <save filename="SAVE*.GAM" />
+  </game_data>
+
+  <game_data name="MatrixPathOfNeo">
+    <title>The Matrix: Path of Neo</title>
+    <root shortcut="Programs\Atari\The Matrix - Path of Neo\The Matrix - Path of Neo.lnk" />
+    <root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E571E8B1-9771-465D-9DE0-3BA2D1BDAE99}\InstallLocation" />
+    <root path="%INSTALLLOCATION%\Atari\The Matrix - Path of Neo" />
+    <save path="saved" />
+  </game_data>
+
+  <game_data name="MaxPayne">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+	  -->
+    <title>Max Payne</title>
+    <root path="%USERDOCUMENTS%\Max Payne Savegames" />
+    <save />
+  </game_data>
+
+  <game_data name="MaxPayne2">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+	  -->
+    <title>Max Payne 2: The Fall of Max Payne</title>
+    <root path="%USERDOCUMENTS%\Max Payne 2 Savegames" />
+    <save />
+  </game_data>
+
+  <game_data name="MechCommander">
+		<title>MechCommander</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\FASA Interactive\MechCommander\Path" />
+		<root shortcut="Programs\Microprose\MechCommander\Mech Commander.lnk" />
+		<root path="%INSTALLLOCATION%\FasaInteractive\MechCmdr" />
+		<save path="data\savegame" />
+	</game_data>
+
+	<game_data name="MechCommander2">
+		<title>MechCommander 2</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechCommander2\1.0\EXE Path" />
+		<root shortcut="Programs\Microsoft Games\MechCommander 2\MechCommander 2.lnk" />
+		<root path="%INSTALLLOCATION%\Microsoft Games\MechCommander2" />
+		<save filename="*.cfg" />
+		<save path="data\savegame" />
+	</game_data>
+
+	<game_data name="MechWarrior2">
+		<title>MechWarrior 2</title>
+		<root path="%INSTALLLOCATION%\Activision\BattlePack\MW2" />
+		<root shortcut="Programs\BattlePack\MechWarrior 2\NetMech Enhanced.lnk" />
+		<root shortcut="Programs\BattlePack\MechWarrior 2\MechWarrior 2 Uninstall.lnk" />
+		<save path="mek" />
+		<save filename="userstar.bwd" />
+		<save filename="MW2PRM.CFG" />
+		<save filename="MW2REG.CFG" />
+	</game_data>
+
+	<game_data name="MechWarrior2GhostBearsLegacy">
+		<title>MechWarrior 2: Ghost Bear's Legacy</title>
+		<root shortcut="Programs\Ghost Bear's Legacy\Ghost Bear's Legacy.lnk" />
+		<root path="%INSTALLLOCATION%\Activision\Ghost Bear" />
+		<save path="mek" />
+		<save filename="userstar.bwd" />
+		<save filename="MW2PRM.CFG" />
+		<save filename="MW2REG.CFG" />
+	</game_data>
+
+	<game_data name="MechWarrior2Mercenaries">
+		<title>MechWarrior 2: Mercenaries</title>
+		<root shortcut="Programs\Mercenaries\Mercenaries.lnk" />
+		<root path="%INSTALLLOCATION%\Activision\Mercenaries" />
+		<save path="mek" />
+		<save filename="userstar.bwd" />
+		<save filename="MW2PRM.CFG" />
+		<save filename="MW2REG.CFG" />
+	</game_data>
+
+	<game_data name="MechWarrior3">
+		<title>MechWarrior 3</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\MicroProse\MechWarrior 3\1.0\Program" />
+		<root path="%INSTALLLOCATION%\MicroProse\MechWarrior3" />
+		<save path="configs" />
+		<save path="pilots" />
+	</game_data>
+
+	<game_data name="MechWarrior3PiratesMoon">
+		<title>MechWarrior 3: Pirate's Moon</title>
+		<root path="%INSTALLLOCATION%\MicroProse\MechWarrior 3 Pirate's Moon" />
+		<save path="configs" />
+		<save path="pilots" />
+	</game_data>
+
+	<game_data name="MechWarrior4Vengeance">
+		<title>MechWarrior 4: Vengeance</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Vengeance\EXE Path" />
+		<root path="%INSTALLLOCATION%\Microsoft Games\MechWarrior Vengeance" />
+		<save filename="options.ini" />
+		<save path="resource\pilots" />
+		<save path="resource\variants" />
+	</game_data>
+
+	<game_data name="MechWarrior4BlackKnight">
+		<title>MechWarrior 4: Black Knight</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Black Knight\EXE Path" />
+		<root game="MechWarrior4Vengeance" />
+		<identifier filename="optionsx.ini" />
+		<save filename="optionsx.ini" />
+		<save path="resource\Pilotsx" />
+		<save path="resource\Variantsx" />
+	</game_data>
+
+	<game_data name="MechWarrior4Mercenaries">
+		<title>MechWarrior 4: Mercenaries</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Mercenaries\EXE Path" />
+		<root path="%INSTALLLOCATION%\Microsoft Games\Mechwarrior Mercenaries" />
+		<save path="RESOURCE\VariantsMercs" />
+		<save path="RESOURCE\Pilots" />
+	</game_data>
+
+	<game_data name="Medieval2TotalWar">
+		<title>Medieval II Total War</title>
+		<root shortcut="Programs\SEGA\Medieval II Total War\Launch Medieval II Total War.lnk" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\SEGA\Medieval II Total War\AppPath" />
+		<root path="%INSTALLLOCATION%\SEGA\Medieval II Total War" />
+		<root path="%STEAMCOMMON%\medieval ii total war" />
+		<save path="preferences" />
+		<save path="saves" />
+	</game_data>
+
+	<game_data name="Medieval2TotalWarKingdomsAmericas">
+		<title>Medieval II Total War: Kingdoms - Americas</title>
+		<root game="Medieval2TotalWar" append="mods\americas" />
+		<save path="preferences" />
+		<save path="saves" />
+	</game_data>
+
+  <game_data name="Medieval2TotalWarKingdomsBritannia">
+    <title>Medieval II Total War: Kingdoms - Britannia</title>
+    <root game="Medieval2TotalWar" append="mods\british_isles" />
+    <save path="preferences" />
+    <save path="saves" />
+  </game_data>
+
+  <game_data name="Medieval2TotalWarKingdomsCrusades">
+    <title>Medieval II Total War: Kingdoms - Crusades</title>
+    <root game="Medieval2TotalWar" append="mods\crusades" />
+    <save path="preferences" />
+    <save path="saves" />
+  </game_data>
+
+  <game_data name="Medieval2TotalWarKingdomsTeutonic">
+    <title>Medieval II Total War: Kingdoms - Teutonic</title>
+    <root game="Medieval2TotalWar" append="mods\teutonic" />
+    <save path="preferences" />
+    <save path="saves" />
+  </game_data>
+
+  <game_data name="MystMasterpieceEdtition">
+		<title>Myst: Masterpiece Edition</title>
+		<root path="%USERDOCUMENTS%\Myst" />
+		<save filename="*.mys" />
+	</game_data>
+
+	<game_data name="MirrorsEdge">
+		<title>Mirror's Edge</title>
+		<root path="%USERDOCUMENTS%\EA Games\Mirror's Edge" />
+		<save path="TdGame\Savefiles" />
+		<save path="TdGame\Config" />
+	</game_data>
+
+	<game_data name="Myst3">
+		<title>Myst III: Exile</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\M3.exe\Path" />
+		<root path="%INSTALLLOCATION%\Ubi Soft\Myst III Exile" />
+		<save path="Saved Games" />
+		<save path="bin" filename="M3prefs.m3p" />
+	</game_data>
+
+	<game_data name="Myst4">
+		<title>Myst IV: Revelation</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{96F702F3-7CA4-41B5-A70A-4F348DF99A9A}\InstallLocation" />
+		<root path="%INSTALLLOCATION%\Ubisoft\Myst IV - Revelation" />
+		<save path="save" />
+	</game_data>
+
+	<game_data name="Myst5">
+		<title>Myst V: End of Ages</title>
+		<root path="%LOCALAPPDATA%\Myst V End of Ages" />
+		<save filename="progress.db" />
+		<save path="sav" />
+	</game_data>
+
+	<game_data name="MystUruCompleteChronicles">
+		<title>Myst: Uru - Complete Chronicles</title>
+		<root path="%INSTALLLOCATION%\Ubi Soft\Cyan Worlds\Myst Uru Complete Chronicles" />
+		<save path="sav" />
+	</game_data>
+
+	<game_data name="NeverwinterNights">
+		<title>Neverwinter Nights</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\NWN\Neverwinter\Location" />
+		<root path="%INSTALLLOCATION%\NeverwinterNights" />
+		<save path="NWN" filename="nwn.ini" />
+		<save path="NWN" filename="nwnplayer.ini" />
+		<save path="NWN\dmvault" />
+		<save path="NWN\localvault" />
+		<save path="NWN\saves" />
+		<save path="NWN\servervault" />
+	</game_data>
+
+	<game_data name="NeverwinterNights2">
+		<title>Neverwinter Nights 2</title>
+		<root path="%USERDOCUMENTS%\Neverwinter Nights 2" />
+		<save path="dmvault" />
+		<save path="localvault" />
+		<save path="servervault" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="NoOneLivesForever">
+		<title>No One Lives Forever</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Monolith Productions\No One Lives Forever\1.0\WorkingDirectory" />
+		<root shortcut="Programs\Fox Interactive\No One Lives Forever\No One Lives Forever - Game of the Year Edition.lnk" />
+		<root shortcut="Programs\Fox Interactive\No One Lives Forever\No One Lives Forever.lnk" />
+		<root path="%INSTALLLOCATION%\Fox\No One Lives Forever" />
+		<save filename="autoexec.cfg" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="NoOneLivesForever2">
+		<title>No One Lives Forever 2: A Spy In H.A.R.M.'s Way</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Monolith Productions\No One Lives Forever 2\1.0\InstallDir" />
+		<root shortcut="Programs\Fox Interactive\No One Lives Forever 2\No One Lives Forever 2.lnk" />
+		<root path="%INSTALLLOCATION%\Fox\No One Lives Forever 2" />
+		<save filename="autoexec.cfg" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="OmikronTheNomadSoul">
+		<title>Omikron: The Nomad Soul</title>
+		<root shortcut="Programs\Eidos Interactive\Quantic Dream\Omikron The Nomad Soul\Omikron The Nomad Soul.lnk" />
+		<root path="%INSTALLLOCATION%\Eidos Interactive\Quantic Dream\Omikron The Nomad Soul" />
+		<save path="IAM" filename="GAMES" />
+	</game_data>
+
+	<game_data name="Oni">
+		<title>Oni</title>
+		<root path="%INSTALLLOCATION%\Oni" />
+		<save filename="persist.dat" />
+		<save filename="key_config.txt" />
+	</game_data>
+
+	<game_data name="Path">
+		<title>The Path</title>
+		<root path="%STEAMCOMMON%\the path" />
+		<save path="userdata" />
+	</game_data>
+
+	<game_data name="Painkiller">
+		<title>Painkiller</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\PeopleCanFly\Painkiller\AddonPath" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\PeopleCanFly\Painkiller\EXEpath" detract="Bin\Painkiller.exe" />
+		<root shortcut="Programs\DreamCatcher\Painkiller Gold Edition\Painkiller.lnk" detract="Bin" />
+		<root path="%STEAMCOMMON%\painkiller gold edition" />
+		<root path="%INSTALLLOCATION%\DreamCatcher\Painkiller Gold Edition" />
+		<save path="SaveGames" />
+	</game_data>
+
+	<game_data name="PeggleDeluxe">
+		<title>Peggle Deluxe</title>
+		<root path="%ALLUSERSPROFILE%\Steam\Peggle" windows_version="Vista" />
+		<root path="%ALLUSERSPROFILE%\PopCap Games\Peggle" windows_version="Vista" />
+		<root path="%STEAMCOMMON%\peggle deluxe" windows_version="XP" />
+		<identifier path="userdata" />
+		<save path="userdata" filename="*.dat" />
+		<save path="userdata" filename="*.sav" />
+	</game_data>
+
+	<game_data name="PeggleExtreme">
+		<title>Peggle Extreme</title>
+		<root path="%ALLUSERSPROFILE%\Steam\PeggleExtreme" windows_version="Vista" />
+		<root path="%STEAMCOMMON%\peggle extreme" windows_version="XP" />
+		<identifier path="userdata" />
+		<save path="userdata" />
+	</game_data>
+
+	<game_data name="PeggleNights">
+		<title>Peggle Nights</title>
+		<root registry="HKEY_CURRENT_USER\Software\PopCap\PeggleNights\RunPath" windows_version="XP" />
+		<root path="%STEAMCOMMON%\peggle nights" windows_version="XP" />
+		<root path="%ALLUSERSPROFILE%\Steam\PeggleNights" windows_version="Vista" />
+		<root path="%ALLUSERSPROFILE%\PopCap Games\PeggleNights" windows_version="Vista" />
+		<identifier path="userdata" />
+		<save path="userdata" />
+	</game_data>
+
+	<game_data name="PeggleWOWEdition">
+		<title>Peggle World of Warcraft Edition</title>
+		<root shortcut="Programs\PopCap Games\Peggle World of Warcraft Edition\Play Peggle World of Warcraft Edition.lnk" windows_version="XP" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\PopCap\PeggleWoW\InstallPath" windows_version="XP" />
+		<root path="%ALLUSERSPROFILE%\PopCap Games\PeggleWoW" windows_version="Vista" />
+		<root path="%INSTALLLOCATION%\PopCap Games\Peggle World of Warcraft Edition" windows_version="XP" />
+		<identifier path="userdata" />
+		<save path="userdata" />
+	</game_data>
+
+	<game_data name="PennyArcadeAdventures1">
+		<title>Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode One</title>
+		<root path="%LOCALAPPDATA%\HotheadGames\RainSlickEp1" />
+		<save filename="prefs.cs" />
+		<save filename="*.sav" />
+	</game_data>
+
+	<game_data name="PenumbraOverture">
+		<title>Penumbra Overture</title>
+		<root path="%USERDOCUMENTS%\Penumbra Overture\Episode1" />
+		<save filename="settings.cfg" />
+		<save path="save" />
+	</game_data>
+
+	<game_data name="PenumbraBlackPlague">
+		<title>Penumbra: Black Plague</title>
+		<root path="%USERDOCUMENTS%\Penumbra\Black Plague" />
+		<save filename="settings.cfg" />
+		<save path="save" />
+	</game_data>
+
+	<game_data name="PenumbraRequiem">
+		<title>Penumbra: Requiem</title>
+		<root path="%USERDOCUMENTS%\Penumbra\Requiem" />
+		<save filename="settings.cfg" />
+		<save path="save" />
+	</game_data>
+
+	<game_data name="Pirates">
+		<title>Sid Meier's Pirates!</title>
+		<root path="%USERDOCUMENTS%\My Games\Sid Meier's Pirates!" />
+		<save />
+	</game_data>
+
+	<game_data name="PlanescapeTorment">
+		<title>Planescape: Torment</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\torment.exe\Path" />
+		<root path="%INSTALLLOCATION%\Black Isle\Planescape - Torment" />
+		<save path="save" />
+	</game_data>
+  <game_data name="PlantsVsZombies">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Plants Vs. Zombies</title>
+    <root path="%ALLUSERSPROFILE%\Steam\PlantsVsZombies" windows_version="Vista" />
+    <root path="%STEAMCOMMON%\plants vs zombies" windows_version="XP" />
+    <identifier path="userdata" />
+    <save path="userdata" />
+  </game_data>
+
+  <game_data name="Portal">
+		<title>Portal</title>
+		<root path="%STEAMUSER%\portal" />
+		<save path="portal\SAVE" />
+	</game_data>
+
+	<game_data name="Postal2">
+		<title>Postal 2</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Running With Scissors\Postal2STP\Full\US\InstallDir" />
+		<root path="%INSTALLLOCATION%\Postal2STP" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="PostMortem">
+		<title>Post Mortem</title>
+		<root path="%USERDOCUMENTS%\Post_Mortem Saves" />
+		<save />
+	</game_data>
+
+	<game_data name="Prey">
+		<title>Prey</title>
+		<root path="%USERDOCUMENTS%\My Games\PREY" />
+		<save path="base\savegames" />
+	</game_data>
+
+  <game_data name="PrinceOfPersia2008">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Prince of Persia</title>
+    <root path="%USERDOCUMENTS%\Prince of Persia" />
+    <save />
+  </game_data>
+
+  <game_data name="PrinceOfPersiaSandsOfTime">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Prince of Persia: The Sands of Time</title>
+    <root path="%STEAMCOMMON%\prince of persia the sands of time" />
+    <save path="Profiles" />
+  </game_data>
+
+  <game_data name="ProjectSnowblind">
+		<title>Project Snowblind</title>
+		<root path="%USERDOCUMENTS%\Project Snowblind" />
+		<save />
+	</game_data>
+
+	<game_data name="Psychonauts">
+		<title>Psychonauts</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A129D1F2-CAC4-4AD7-B26D-3C6411B87DCC}\InstallLocation" />
+		<root path="%STEAMCOMMON%\psychonauts" />
+		<save filename="*.ini" />
+		<save path="Profiles" />
+	</game_data>
+
+	<game_data name="Quake2">
+		<!-- 
+			Path Info Contributed By: Jetsetlemming
+		-->
+		<title>Quake II</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Quake2_exe\Path" />
+		<root path="%STEAMCOMMON%\quake 2" />
+		<save path="baseq2\save" />
+	</game_data>
+
+	<game_data name="Quake4">
+		<title>Quake 4</title>
+		<root shortcut="Programs\Quake 4\Quake 4 single player.lnk" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\id\Quake 4\InstallPath" />
+		<root path="%INSTALLLOCATION%\id Software\Quake 4" />
+		<save path="q4base\savegames" />
+		<virtualstore override="yes" />
+	</game_data>
+
+  <game_data name="RaceDriverGrid">
+    <!-- 
+			Path Info Contributed By: Paul Taylor
+		-->
+    <title>Race Driver: Grid</title>
+    <root path="%USERDOCUMENTS%\Codemasters\GRID" />
+    <save path="savegame" />
+  </game_data>
+
+  <game_data name="RagDollKungFu">
+		<title>Rag Doll Kung Fu</title>
+		<root path="%STEAMUSER%\rag doll kung fu" />
+		<save path="data" />
+	</game_data>
+
+	<game_data name="RedFaction">
+		<title>Red Faction</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\RedFaction.exe\Path" />
+		<root path="%INSTALLLOCATION%\Games\RedFaction" />
+		<save path="savegame" />
+	</game_data>
+
+	<game_data name="RedFaction2">
+		<title>Red Faction II</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E074FB23-D61B-4C6A-AD15-AB9695ED2EF7}\InstallLocation" />
+		<root path="%INSTALLLOCATION%\THQ\Red Faction II" />
+		<save filename="rf2_config.ini" />
+		<save path="profiles" />
+	</game_data>
+
+	<game_data name="ReturnToCastleWolfenstein">
+		<!-- 
+			Path Info Contributed By: Jetsetlemming
+		-->
+		<title>Return to Castle Wolfenstein</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein - Platinum Edition\InstallPath" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein\InstallPath" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein - Game of The Year Edition\InstallPath" />
+		<root path="%INSTALLLOCATION%\Return to Castle Wolfenstein" />
+		<root path="%STEAMCOMMON%\return to castle wolfenstein" />
+		<save path="Main" filename="wolfconfig.cfg" />
+		<save path="Main\save" />
+	</game_data>
+
+	<game_data name="Riven">
+		<title>Riven</title>
+		<root path="%USERDOCUMENTS%\Riven" />
+		<save filename="*.rvn" />
+	</game_data>
+
+	<game_data name="RoboBlitz">
+		<title>RoboBlitz</title>
+		<root path="%STEAMCOMMON%\roboblitz" />
+		<save path="RoboGame\Config" filename="Robo*.ini" />
+		<save path="SavedGames" />
+	</game_data>
+
+	<game_data name="RomeTotalWar">
+		<title>Rome: Total War</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\The Creative Assembly\Rome - Total War\InstallPath" />
+		<root path="%INSTALLLOCATION%\Activision\Rome - Total War" />
+		<save path="preferences" />
+		<save path="saves" />
+	</game_data>
+
+	<game_data name="RomeTotalWarAlexander">
+		<title>Rome: Total War: Alexander</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\The Creative Assembly\Rome - Total War - Alexander add-on\InstallPath" append="alexander" />
+		<root game="RomeTotalWar" append="alexander" />
+		<save path="preferences" />
+		<save path="saves" />
+	</game_data>
+
+	<game_data name="RomeTotalWarBarbarianInvasion">
+		<title>Rome: Total War: Barbarian Invasion</title>
+		<root game="RomeTotalWar" append="bi" />
+		<save path="preferences" />
+		<save path="saves" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason1Episode1">
+     <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+		<title>Sam &amp; Max Season One Episode 1 - Culture Shock</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax101.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 1 - Culture Shock.lnk" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 1 - Culture Shock Data" />
+    <root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 101 - Culture Shock" />
+    <root path="%STEAMCOMMON%\sam and max episode 1" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason1Episode2">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season One Episode 2 - Situation Comedy</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax102.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy.lnk" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy Data" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 102 - Situation Comedy" />
+    <root path="%STEAMCOMMON%\sam and max episode 2" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason1Episode3">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season One Episode 3 - The Mole, the Mob, and the Meatball</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax103.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball.lnk" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball Data" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 103 - The Mole, the Mob, and the Meatball" />
+    <root path="%STEAMCOMMON%\sam and max episode 3" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason1Episode4">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season One Episode 4 - Abe Lincoln Must Die!</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax104.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die!.lnk" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die! Data" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 104 - Abe Lincoln Must Die" />
+    <root path="%STEAMCOMMON%\sam and max episode 4" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason1Episode5">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season One Episode 5 - Reality 2.0</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax105.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0.lnk" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0 Data" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 105 - Reality 2.0" />
+    <root path="%STEAMCOMMON%\sam and max episode 5" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason1Episode6">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season One Episode 6 - Bright Side of the Moon</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax106.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon Data" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season One\Episode 106 - Bright Side of the Moon" />
+    <root path="%STEAMCOMMON%\sam and max episode 6" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason2Episode1">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season Two Episode 1 - Ice Station Santa</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax201.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 201 - Ice Station Santa.lnk" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 201 - Ice Station Santa" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 201 - Ice Station Santa" />
+    <root path="%STEAMCOMMON%\sam and max season 2 episode 1" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason2Episode2">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season Two Episode 2 - Moai Better Blues</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax202.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 202 - Moai Better Blues.lnk" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 202 - Moai Better Blues" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 202 - Moai Better Blues" />
+    <root path="%STEAMCOMMON%\sam and max season 2 episode 2" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason2Episode3">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season Two Episode 3 - Night of the Raving Dead</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax203.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead.lnk" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 203 - Night of the Raving Dead" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead" />
+    <root path="%STEAMCOMMON%\sam and max season 2 episode 3" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason2Episode4">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season Two Episode 4 - Chariots of the Dogs</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax204.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 204 - Chariots of the Dogs.lnk" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 204 - Chariots of the Dogs" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 204 - Chariots of the Dogs" />
+    <root path="%STEAMCOMMON%\sam and max season 2 episode 4" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+	<game_data name="SamAndMaxSeason2Episode5">
+    <!--
+      Steam Path Provided by: duncans_pumpkin
+     -->
+    <title>Sam &amp; Max Season Two Episode 5 - What's New, Beelzebub</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\SamMax205.exe\Install Location" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 205 - What's New, Beelzebub.lnk" />
+		<root shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" detract="autorun" append="Episode 205 - What's New, Beelzebub" />
+		<root path="%INSTALLLOCATION%\Telltale Games\Sam and Max - Season Two\Episode 205 - What's New, Beelzebub" />
+    <root path="%STEAMCOMMON%\sam and max season 2 episode 5" />
+    <save filename="prefs.prop" />
+		<save filename="*.save" />
+	</game_data>
+
+  <game_data name="Saw">
+    <!--
+      Info provided by: Michael "Something" Lamere
+     -->
+    <title>SAW</title>
+    <root path="%USERDOCUMENTS%\My Games\Saw" />
+    <save path="SawGame\Checkpoints" />
+  </game_data>
+
+  <game_data name="SecretOfMonkeyIslandSpecialEdition">
+		<title>The Secret of Monkey Island: Special Edition</title>
+		<root path="%APPDATA%\LucasArts\The Secret of Monkey Island Special Edition" />
+		<identifier filename="monkey1.bin" />
+		<save filename="Settings.ini" />
+		<save filename="savegame.*" />
+	</game_data>
+
+	<game_data name="Shadowgrounds">
+		<title>Shadowgrounds</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Shadowgrounds_is1\InstallLocation" />
+		<root path="%INSTALLLOCATION%\ShadowGrounds" />
+		<root path="%STEAMCOMMON%\shadowgrounds" />
+		<save path="Config" filename="options.txt" />
+		<save path="Profiles" />
+	</game_data>
+
+	<game_data name="ShadowgroundsSurvivor">
+		<title>Shadowgrounds Survivor</title>
+		<root path="%STEAMCOMMON%\shadowgrounds survivor" />
+		<save path="Config" filename="options.txt" />
+		<save path="Profiles" />
+	</game_data>
+
+	<game_data name="Sin">
+		<title>Sin</title>
+		<root path="%STEAMUSER%\sin 1" />
+		<save path="base\players" />
+	</game_data>
+
+  <game_data name="SinEpisodesEmergence">
+    <title>Sin Episodes: Emergence</title>
+    <root path="%STEAMUSER%\sin episodes emergence" />
+    <save path="SE1\SAVE" />
+  </game_data>
+
+  <game_data name="SinsOfASolarEmpire">
+    <title>Sins of a Solar Empire</title>
+    <root path="%LOCALAPPDATA%\Ironclad Games\Sins of a Solar Empire" />
+    <save path="*Player" />
+    <save path="Setting" />
+  </game_data>
+
+  <game_data name="StalkerShadowOfChernobyl">
+    <title>S.T.A.L.K.E.R.: Shadow of Chernobyl</title>
+    <root path="%PUBLIC%\Documents\stalker-shoc" windows_version="Vista" />
+    <root path="%ALLUSERSPROFILE%\Documents\stalker-shoc" windows_version="XP" />
+    <save path="savedgames" />
+  </game_data>
+  
+  <game_data name="Starcraft">
+		<title>Starcraft</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Blizzard Entertainment\StarCraft\InstallPath" />
+		<root path="%INSTALLLOCATION%\Starcraft" />
+		<save path="save" />
+	</game_data>
+
+  <game_data name="StarWarsDarkForces">
+    <title>Star Wars: Dark Forces</title>
+    <root path="%STEAMCOMMON%\dark forces\Game" />
+    <save filename="DARKPILO.CFG" />
+  </game_data>
+  
+  <game_data name="StarWarsJediKnightDarkForces2">
+    <title>Star Wars: Jedi Knight: Dark Forces II</title>
+    <root path="%STEAMCOMMON%\star wars jedi knight" />
+    <save path="player" />
+  </game_data>
+
+  <game_data name="StarWarsJediKnight2JediOutcast">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+	  -->
+    <title>Star Wars: Jedi Knight II: Jedi Outcast</title>
+    <root path="%STEAMCOMMON%\jedi outcast" />
+    <save path="GameData\base\saves" />
+  </game_data>
+
+  <game_data name="StarWarsJediKnightJediAcademy">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+	  -->
+    <title>Star Wars: Jedi Knight: Jedi Academy</title>
+    <root path="%STEAMCOMMON%\jedi academy" />
+    <save path="GameData\base\saves" />
+  </game_data>
+
+  <game_data name="StarWarsJediKnightMysteriesOfTheSith">
+    <title>Star Wars: Jedi Knight: Mysteries of the Sith</title>
+    <root path="%STEAMCOMMON%\jedi knight mysteries of the sith" />
+    <save path="player" />
+  </game_data>
+
+  <game_data name="StarWarsKnightsOfTheOldRepublic">
+    <title>Star Wars: Knights of the Old Republic</title>
+    <root path="%STEAMCOMMON%\swkotor" />
+    <save path="saves" />
+  </game_data>
+
+  <game_data name="Syberia">
+		<title>Syberia</title>
+		<root path="%USERDOCUMENTS%\Syberia Saves" />
+		<save />
+	</game_data>
+
+	<game_data name="Syberia2">
+		<title>Syberia II</title>
+		<root path="%USERDOCUMENTS%\Syberia 2 Saves" />
+		<save />
+	</game_data>
+
+	<game_data name="SystemShock2">
+		<title>System Shock 2</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\shock2.exe\Path" />
+		<save path="save_*" />
+	</game_data>
+
+	<game_data name="TachyonTheFringe">
+		<title>Tachyon: The Fringe</title>
+		<root path="%STEAMCOMMON%\tachyon the fringe" />
+		<save filename="*.dat" />
+		<save filename="*.sav" />
+		<save filename="Tachyon.cfg" />
+	</game_data>
+
+	<game_data name="TalesOfMonkeyIsland1">
+		<title>Tales of Monkey Island Chapter 1: Launch of the Screaming Narwhal</title>
+		<root path="%USERDOCUMENTS%\Telltale Games\Launch of the Screaming Narwhal" />
+		<save />
+	</game_data>
+
+  <game_data name="TalesOfMonkeyIsland2">
+    <title>Tales of Monkey Island Chapter 2: The Siege of Spinner Cay</title>
+    <root path="%USERDOCUMENTS%\Telltale Games\The Siege of Spinner Cay" />
+    <save />
+  </game_data>
+
+  <game_data name="TalesOfMonkeyIsland3">
+    <title>Tales of Monkey Island Chapter 3: Lair of the Leviathan</title>
+    <root path="%USERDOCUMENTS%\Telltale Games\Lair of the Leviathan" />
+    <save />
+  </game_data>
+
+  <game_data name="TalesOfMonkeyIsland4">
+    <title>Tales of Monkey Island Chapter 4: The Trial and Execution of Guybrush Threepwood</title>
+    <root path="%USERDOCUMENTS%\Telltale Games\The Trial and Execution of Guybrush Threepwood" />
+    <save />
+  </game_data>
+
+  <game_data name="ThiefGold">
+		<title>Thief Gold</title>
+		<root shortcut="Programs\Thief Gold\Thief.lnk" />
+		<root path="%INSTALLLOCATION%\ThiefG" />
+		<save path="SAVES" />
+	</game_data>
+
+	<game_data name="Thief2">
+		<title>Thief II: The Metal Age</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\thief2.exe\Path" />
+		<root path="%INSTALLLOCATION%\Games\Thief2" />
+		<save filename="user.bnd" />
+		<save filename="USER.CFG" />
+		<save path="SAVES" filename="*.sav" />
+		<save filename="*.sav" />
+	</game_data>
+
+	<game_data name="ThiefDeadlyShadows">
+		<title>Thief: Deadly Shadows</title>
+		<root path="%PUBLIC%\Documents\Thief - Deadly Shadows" windows_version="Vista" />
+		<root path="%ALLUSERSPROFILE%\Documents\Thief - Deadly Shadows" windows_version="XP" />
+		<save path="SaveGames" />
+	</game_data>
+
+	<game_data name="TimeGentlemenPlease">
+		<title>Time Gentlemen, Please!</title>
+		<root path="%SAVEDGAMES%\Time Gentlemen, Please" windows_version="Vista" />
+		<root path="%USERDOCUMENTS%\My Saved Games\Time Gentlemen, Please" windows_version="XP" />
+		<save />
+	</game_data>
+
+	<game_data name="TombRaider">
+		<title>Tomb Raider</title>
+		<root path="%INSTALLLOCATION%\TOMBRAID" />
+		<identifier filename="SAVEGAME.*" />
+		<save filename="SAVEGAME.*" />
+	</game_data>
+
+	<game_data name="TombRaiderGold">
+		<title>Tomb Raider Gold (Unfinished Business)</title>
+		<root path="%INSTALLLOCATION%\TOMBRAID" />
+		<identifier filename="SAVEUB.*" />
+		<save filename="SAVEUB.*" />
+	</game_data>
+
+	<game_data name="TombRaider2">
+		<title>Tomb Raider II</title>
+		<root registry="HKEY_CURRENT_USER\Software\core design\Tomb Raider II\AppPath" />
+		<root shortcut="Programs\Core Design\Tomb Raider 2\ Tomb Raider II.lnk" />
+		<root path="%INSTALLLOCATION%\Core Design\Tomb Raider II" />
+		<save filename="savegame.*" />
+	</game_data>
+
+	<game_data name="TombRaider2Gold">
+		<title>Tomb Raider II Gold (The Golden Mask)</title>
+		<root registry="HKEY_CURRENT_USER\Software\core design\Tomb Raider II Gold\GoldPath" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\t2gold.exe\Path" />
+		<root shortcut="Programs\Core Design\Tomb Raider II Gold\Tomb Raider II Gold.lnk" />
+		<root path="%INSTALLLOCATION%\Core Design\Tomb Raider II Gold" />
+		<save filename="savegame.*" />
+	</game_data>
+
+	<game_data name="TombRaider3AdventuresOfLaraCroft">
+		<title>Tomb Raider III: Adventures Of Lara Croft</title>
+		<root path="%INSTALLLOCATION%\Core Design\Tomb Raider III" />
+		<save filename="savegame.*" />
+	</game_data>
+
+	<game_data name="TombRaider3TheLostArtifact">
+		<title>Tomb Raider III: The Lost Artifact</title>
+		<root path="%INSTALLLOCATION%\Core Design\Tomb Raider - The Lost Artifact" />
+		<save filename="savegame.*" />
+	</game_data>
+
+	<game_data name="TombRaiderTheAngelOfDarkness">
+		<title>Tomb Raider: The Angel of Darkness</title>
+		<root path="%INSTALLLOCATION%\Eidos Interactive\TRAOD" />
+		<save path="SaveGame" />
+	</game_data>
+
+	<game_data name="TombRaiderChronicles">
+		<title>Tomb Raider: Chronicles</title>
+		<root path="%INSTALLLOCATION%\Core Design\Tomb Raider Chronicles" />
+		<save filename="savegame.*" />
+	</game_data>
+
+	<game_data name="TombRaiderTheLastRevelation">
+		<title>Tomb Raider: The Last Revelation</title>
+		<root path="%INSTALLLOCATION%\Core Design\Tomb Raider - The Last Revelation" />
+		<save filename="savegame.*" />
+	</game_data>
+
+	<game_data name="TombRaiderLegend">
+		<title>Tomb Raider: Legend</title>
+		<root path="%USERDOCUMENTS%\Tomb Raider - Legend" />
+		<save />
+	</game_data>
+
+	<game_data name="TombRaiderAnniversary">
+		<title>Tomb Raider: Anniversary</title>
+		<root path="%USERDOCUMENTS%\Eidos\Tomb Raider - Anniversary" />
+		<save />
+	</game_data>
+
+	<game_data name="TombRaiderUnderworld">
+		<title>Tomb Raider: Underworld</title>
+		<root path="%USERDOCUMENTS%\Eidos\Tomb Raider - Underworld" />
+		<save />
+	</game_data>
+
+	<game_data name="TrackManiaNationsForever">
+		<title>TrackMania Nations Forever</title>
+		<root path="%USERDOCUMENTS%\TrackMania" />
+		<save path="Scores" />
+		<save path="Profiles" />
+	</game_data>
+
+	<game_data name="Tron2">
+		<title>Tron 2.0</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Monolith Productions\Tron 2.0\1.0\InstallDir" />
+		<root path="%INSTALLLOCATION%\Buena Vista Interactive\Tron 2.0" />
+		<save path="Profiles" />
+		<save filename="display.cfg" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="TrueCrimeStreetsOfLA">
+		<title>True Crime: Streets of LA</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\True Crime\InstallPath" />
+		<root shortcut="Programs\True Crime - Streets of LA\True Crime - Streets of LA.lnk" />
+		<root path="%INSTALLLOCATION%\Activision\True Crime" />
+		<save path="Saves" />
+		<save filename="TrueCrime.ini" />
+	</game_data>
+
+	<game_data name="Ultimate Doom">
+		<!-- 
+			Info Provided By: Kee715
+		-->
+		<title>Ultimate Doom</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\id\Doom 3\InstallPath" />
+		<root path="%INSTALLLOCATION%\DOOM Collector's Edition\Ultimate Doom" />
+		<save filename="*.zds" />
+	</game_data>
+
+	<game_data name="Undying">
+		<title>Clive Barker's Undying</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\undying.exe\Path" />
+		<root path="%INSTALLLOCATION%\EA Games\Clive Barker's Undying" />
+		<save path="System" filename="*.ini" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="Unreal">
+		<title>Unreal</title>
+		<root shortcut="Programs\Unreal Gold\Play Unreal Gold.lnk" detract="System" />
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Unreal.exe\Path" detract="System" />
+		<root path="%INSTALLLOCATION%\UnrealGold" />
+		<root path="%INSTALLLOCATION%\Unreal" />
+		<save path="System" filename="*.ini" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="Unreal2">
+		<title>Unreal II: The Awakening</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{626F32D6-007C-41D5-8157-9509AB1428BE}\InstallLocation" />
+		<root path="%INSTALLLOCATION%\Unreal2" />
+		<root path="%STEAMCOMMON%\unreal ii the awakening" />
+		<save path="System" filename="*.ini" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="UnrealTournament">
+		<title>Unreal Tournament</title>
+		<root path="%STEAMCOMMON%\unreal tournament" />>
+		<save path="System" filename="*.ini" />
+		<save path="Save" />
+	</game_data>
+
+	<game_data name="UnrealTournament2004">
+		<title>Unreal Tournament 2004</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Unreal Technology\Installed Apps\UT2004\Folder" />
+		<root path="%INSTALLLOCATION%\UT2004" />
+		<root path="%STEAMCOMMON%\unreal tournament 2004" />
+		<save path="System" filename="*.ini" />
+		<save path="Saves" />
+	</game_data>
+
+	<game_data name="UnrealTournament3">
+		<title>Unreal Tournament 3</title>
+		<root path="%USERDOCUMENTS%\My Games\Unreal Tournament 3" />
+		<save path="UTGame\Config" />
+		<save path="UTGame\SaveData" />
+	</game_data>
+
+	<game_data name="VampireTheMasqueradeBloodlines">
+		<title>Vampire: The Masquerade - Bloodlines</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Vampire - Bloodlines\InstallPath" />
+		<root path="%STEAMCOMMON%\vampire the masquerade - bloodlines" />
+		<save path="Vampire\SAVE" />
+	</game_data>
+
+	<game_data name="WallaceAndGrommitsGrandAdventures1">
+		<title>Wallace &amp; Gromit's Grand Adventures Episode 1: Fright of the Bumblebees</title>
+		<root path="%USERDOCUMENTS%\Telltale Games\Fright of the Bumblebees" />
+		<save />
+	</game_data>
+
+	<game_data name="WallaceAndGrommitsGrandAdventures2">
+		<title>Wallace &amp; Gromit's Grand Adventures Episode 2: The Last Resort</title>
+		<root path="%USERDOCUMENTS%\Telltale Games\The Last Resort" />
+		<save />
+	</game_data>
+
+	<game_data name="WallaceAndGrommitsGrandAdventures3">
+		<title>Wallace &amp; Gromit's Grand Adventures Episode 3: Muzzled!</title>
+		<root path="%USERDOCUMENTS%\Telltale Games\Muzzled" />
+		<save />
+	</game_data>
+
+	<game_data name="WallaceAndGrommitsGrandAdventures4">
+		<title>Wallace &amp; Gromit's Grand Adventures Episode 4: The Bogey Man</title>
+		<root path="%USERDOCUMENTS%\Telltale Games\The Bogey Man" />
+		<save />
+	</game_data>
+
+  <game_data name="Warhammer40kDawnOfWarDarkCrusade">
+    <!-- 
+			Info Contributed By: Michael "The Man" Lamere
+		-->
+    <title>Warhammer 40,000: Dawn of War: Dark Crusade</title>
+    <root registry="HKEY_LOCAL_MACHINE\SOFTWARE\THQ\Dawn of War - Dark Crusade\InstallLocation" />
+    <root shortcut="Programs\THQ\Dark Crusade\Dawn of War - Dark Crusade.lnk" />
+    <root path="%INSTALLLOCATION%\THQ\DarkCrusade" />
+    <save path="Profiles" />
+  </game_data>
+
+  <game_data name="Witcher">
+    <title>The Witcher</title>
+    <root path="%USERDOCUMENTS%\The Witcher" />
+    <save path="saves" />
+  </game_data>
+
+  <game_data name="WonderfulEndOfTheWorld">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>The Wonderful End of the World</title>
+    <root path="%STEAMCOMMON%\the wonderful end of the world" />
+    <save filename="prefs.dat" />
+  </game_data>
+
+  <game_data name="X2TheThreat">
+		<title>X2: The Threat</title>
+		<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\X2 Key\Path" />
+		<root path="%STEAMCOMMON%\x2 - the threat" />
+		<save filename="*.sav" />
+	</game_data>
+
+	<game_data name="X3Reunion">
+		<title>X3: Reunion</title>
+		<root path="%USERDOCUMENTS%\Egosoft\X3" />
+		<save path="save" />
+	</game_data>
+
+	<game_data name="XFiles">
+		<title>The X-Files</title>
+		<root path="%INSTALLLOCATION%\Fox\The X-Files" />
+		<save filename="*.x" />
+	</game_data>
+
+  <game_data name="ZumaDeluxe">
+    <!-- 
+			Info Contributed By: duncans_pumpkin
+		-->
+    <title>Zuma Deluxe</title>
+    <root path="%ALLUSERSPROFILE%\Steam\Zuma" windows_version="Vista" />
+    <root path="%STEAMCOMMON%\zuma deluxe" windows_version="XP" />
+    <identifier path="userdata" />
+    <save path="userdata" />
+  </game_data>
 
 </games>

@@ -1,0 +1,395 @@
+v.0.7 - Alpha Seven
+* Rebuilt interface so that the main window can be resized
+* Rebuilt custom archive window so it can be resized
+* Fixed a bug that crashed MASGAU when trying to restore an archive to steam when no Steam users had been detected
+* Added a status bar to replace the splash
+* Added file size to reports in analyzer
+* Added a UAC indicator to reports in analyzer
+* Made analyzer's report window resizable
+* Reworked most of the internal cross-thread stuff. More stable, and allows me to do more with the interface.
+* Updated Saved Games folder detection to accomodate custom locations (just for you cammkelly!)
+* Changed all links so they open with the default web browser
+* Changed Task to supress dialogs when running in non-interactive mode
+* Thanks to a suggestion from VincentV137, MASGAU now has a save profile to back up a custom.xml file in MASGAU's install folder
+* Added a new system.xml for holding definitions of system data
+* Added profile for backing up a user's Games for Windows account information (for Arkham)
+* Disabled the purge command for non-windows games
+* Little theming tweaks to the interface
+* Changed the detected games list to make use of check boxes
+* Added support for Windows 7 tasbar progress bars, courtesy of Windows 7 Progress Bars from http://wyday.com/windows-7-progress-bar/
+* Blatantly flaunted Microsoft progress bar color guidelines 
+* Updated monitor so that the detected games list also functions as a checklist to disable end enable games
+* Fixed a bug that caused mods to lose user information
+* Inserted a delay into the backup method to allow 7-zip time to finish working (solves can't write to file error)
+* Changed monitor redetection to clear out all of it's arrayslists properly
+* Changed shortcut scanning to deal with targetless shortcuts
+* Fixed a bug that caused start menu shortcuts to produce incorrect paths
+* Little things here and there that I don't remember
+New Windows Games
+* Bejeweled 2 Deluxe (Steam only) - Contributed by duncans_pumpkin
+* Beyond Good & Evil (Steam only) - Contributed by duncans_pumpkin
+* Bookworm Adventure Deluxe (Steam only) - Contributed by duncans_pumpkin
+* Call of Juarez - Bound in Blood - Contribute by Michael "Testosterone" Lamere
+* Command & Conquer 3: Tiberium Wars - Contributed by Paul Taylor
+* Command & Conquer 3: Kane's Wrath - Contributed by Paul Taylor
+* Command & Conquer: Generals - Zero Hour - Contributed by duncans_pumpkin
+* Command & Conquer: Red Alert 3 - Contributed by cammkelly
+* Dangerous High School Girls In Trouble! (Steam only)
+* Dragon Age: Origins
+* Eets (Steam only) - Contributed by duncans_pumpkin
+* The Elder Scrolls III: Morrowind - Steam info contributed by duncans_pumpkin
+* Grand Theft Auto 3 - Contributed by duncans_pumpkin
+* Grand Theft Auto: San Andreas - Contributed by duncans_pumpkin
+* Grand Theft Auto: Vice City - Contributed by duncans_pumpkin
+* Gumboy: Crazy Adventures (Steam only) - Contributed by duncans_pumpkin
+* Gumboy: Crazy Features (Steam only) - Contributed by duncans_pumpkin
+* Infernal (Steam only) - Contributed by duncans_pumpkin
+* Insaniquarium (Steam only) - Contributed by duncans_pumpkin
+* Max Payne - Contributed by duncans_pumpkin
+* Max Payne 2: The Fall of Max Payne - Contributed by duncans_pumpkin
+* Medievel II Total War: Kingdoms
+* Plants Vs. Zombies (Steam only) - Contributed by duncans_pumpkin
+* Prince of Persia - Contributed by duncans_pumpkin
+* Prince of Persia: The Sands of Time (Steam only) - Contributed by duncans_pumpkin
+* Race Driver: Grid - Contributed by Paul Taylor
+* SAW - Contributed by Michael "Something" Lamere
+* Sins of a Solar Empire
+* Star Wars: Jedi Knight: Dark Forces (Steam only)
+* Star Wars: Jedi Knight: Jedi Academy (Steam only) - Contributed by duncans_pumpkin
+* Star Wars: Jedi Knight: Mysteries of the Sith (Steam only)
+* Star Wars: Jedi Knight II: Jedi Outcast (Steam only) - Contributed by duncans_pumpkin
+* Star Wars: Knights of the Old Republic (Steam only)
+* Tales of Monkey Island Chapter 3: Lair of the Leviathan
+* Tales of Monkey Island Chapter 4: The Trial end Execution of Guybrush Threepwood
+* Warhammer 40,000: Dawn of War: Dark Crusade - Contirbute by Michael "The Man" Lamere
+* The Wonderful End Of The World (Steam only) - Contributed by duncans_pumpkin
+* Zuma Deluxe (Steam only) - Contributed by duncans_pumpkin
+New PS3 Games
+* Brütal Legend
+* Lumines supernova
+New PSP Games
+* Dissidia: Final Fantasy
+* Tomb Raider: Legend
+Modified Games
+* Added Steam paths to both the Sam & Max Seasons - Contributed by duncans_pumpkin
+* Update Medievel II Total War to use a better registry key
+
+v.0.6 - Sixth Alpha
+* Fixed a bug where XP would be detected as Vista
+* Fixed a related bug that caused LocalAppData and AppData to malfunction under XP
+* Eliminated the guesswork from user folders, all user folders are now extracted from each user's hive file for utmost accuracy
+* Changed alt paths so on startup if an alt path isn't actually present it isn't eliminated, just ignored
+* Changed restore process so if a folder is being created in a public location, it will have it's permissions set so everyone can write there
+* Added support for new relative path %SAVEDGAMES%, which points to the user's Saved Games folder under Vista and 7
+* Fixed a bug preventing games installed onto the root of a disc from detecting
+* Fixed 2 bugs that prevented monitor from dealing with files that only appeared momentarily
+* Added a small XML file to all backups so that their associated game and creator can be identified regardless of file name (this means that you can rename the archives to whatever you want as long as it still has the .gb7 extension)
+* Fixed a bug that prevented monitor from saving files that were at the moment still in use
+* Added failsafe to monitor in case 7-zip is not installed
+* Fixed a bug that causes monitor to not shut down all of it's threads
+* Added ability to specify file name during custom backup creation
+* Fixed a bug that prevented restoring most games
+* Changed the path handler to use SubStr instead of Replace
+* Added ability to restore many saves without requiring game detection
+* Changed Settings tab so the Start monitor on Login check box will be disabled if the monitor isn't installed
+* Changed detected game list to sort by Name first rather than Platform
+* Fixed code for games that depend on other games so that it actually works\
+* Added a sub-menu to monitor that shows all the detected games. Handy!
+* Fixed a bug that caused analyzer to crash when accessing folders and files with malformed names
+New Windows Games
+* Age of Mythology
+* Age of Mythology - The Titans Expansion 
+* Batman: Arkham Asylum - Paths contributed by Michael "The Awesome" Lamere
+* The Battle For Middle Earth II
+* Ben There, Dan That!
+* Blade Runner
+* Braid
+* Civilization
+* Civilization II
+* Civilization II: Test of Time
+* Colonization for Windows
+* The Matrix: Path of Neo
+* MechWarrior 2
+* MechWarrior 2: Ghost Bear's Legacy
+* MechWarrior 2: Mercenaries
+* Thief Gold
+* Time Gentlemen, Please!
+Updated Windows Games
+* Added Registry Keys and Start Menu shortcuts to Age of Wonders
+New PSP Games
+* Brave Story: New Traveler
+New PS1 Games
+* Fear Effect
+* FEar Effect 2: Retro Helix
+New PS2 Games
+* Rule of Rose
+New PS3 Games
+* Shatter
+
+v.0.5-1 Quick fix
+* Fixed a bug where Playstation game data objects would have null root lists
+
+v.0.5 - Fifth Alpha?
+* Changed 7-zip detection to use a registry key
+* Fixed a bug where ps1 saves would only use the ps3 export root
+* Fixed a bug where PSP and PS1 saves tried to back up the entire save folder. Eek.
+* Fixed a bug that kept the previous one in check by not letting any playstation saves back up.
+* Fixed a bug that caused playstation saves to appear multiple times in the Custom backup dialog, could potentially have affected Windows saves as well
+* Fixed a bug that caused the restore dialog to launch twice
+* Added a new component for generating save game reports
+* Switched to using NSIS instead of MSI for the installer
+* Added ability to specify the Windows version a root is for
+* Installer now automatically detects if .NET and 7-zip are installed, and will offer to automatically install them if not found
+New Windows games
+* The Chronicles of Riddick: Assault on Dark Athena (problems on XP)
+* Gears of War
+* Mirror's Edge
+* Tachyon: The Fringe (Steam only)
+* Tales of Monkey Island Chapter 2: The Siege of Spinner Cay
+
+v.0.4 - Fourth Alpha
+* Changed Playstation detection to only look on removable drives
+* Changed drive reads to only read drives marked as ready
+* Changed path detection to only look on fixed and removable drives
+* Changed the XML format to use one large XMl file for each platform
+* Added a name="" attribute to the game_data tag
+* Concatenated all the XML files
+* Added platform identifier to restore items
+* Added ability to sort backup list
+* Changed so that Frontend doesn't need to launch the backup to do anything.
+* Added picker for when more than one restore location candidate is found
+* Cleaned up the restore process. Thing was a mess. Probably still is.
+* Fixed a potential bug where a user named "Global" might not be able to restore it's saves
+* Added monitor for automatic backups
+* Interface polishing
+* Added tooltips where I felt they would be helpful
+* Fixed a bug where saves with a filename and path weren't getting parsed properly
+* Fixed a bug where it would parse all the games when restoring instead of just the game in question
+* Added ability to disable games
+* Added ability to create a custom archive with only selected files
+* Lots of bug fixes and such
+* Added ability to create new backups after a period of time
+New Games
+* Joint Task Force
+* The Lord of the Rings: The Return of the King
+* Painkiller
+* True Crime: Streets of LA
+
+v.0.3 - Third Alpha
+* Added new button for multiple backing up
+* Added a second progress bar to backend that only appears when backing up
+* Added new class: SecurityHandler
+* Added detection for if MASGAU has elevated permissions. If it doesn't, then only backs up the current user.
+* Added backup path check to check for read and write  parmissions
+* Added permission check to archiver to check if the archive can be written to
+* Added restore check for archive read persmiisions
+* Added restore check to check destination path for write priveleges
+* Added ability to detect Playstation 1,2,3 and Portable saves by ID
+* Added date check to backup process so that by default only files that have been modified more recently than the archive was created will be archived
+* Added settings tab check box to override backup date check
+* Changed TaskHandler to use a username and password for the task
+* Changed so detracts happen before appends
+* Changed backup buttons so that if no backup folder is specified it will just ask for one
+* Changed detected list back to ListView for multiple selection
+* Changed backend to accept multiple backup commands
+* Changed backend so if only one argument is passed, the end will be checked for .gb7 to establish whether a restore is being done
+* Changed MASGAU's internal path handling to be a little more organized
+* Overhauled how mods are handled. They are now treated like regular games, and can have a root that is based on another game
+* Replaced all (most) path combinations with Path.Combine (Thanks EER!)
+* Prepped GameData's GetSaves to pass the appropriate data to the updated ArchiveManager
+* Changed so that files are archived one at a time, rather than by folder when possible
+* Replaced %PROGRAMFILES% and %DRIVE% with %INSTALLLOCATION%
+* Changed so that you can use wildcards in save paths
+* Changed Backend cancel button so no processes or threads need to be killed
+* Changed folder browser to open to convenient locations
+* Changed so the system user selector dialog dialog doesn't appear in Single-User mode
+* Changed restore list to use a Dictionary to store all the profile titles, so it is no longer necessary to parse the detected games list
+* Changed so ArchiveManager makes a copy of any existing archives, then works on the originals. If canceled, the original will be deleted and replaced with the copy.
+New Windows Games:
+* The Beast Within
+* Civilization III
+* Civilization III: Conquests
+* Civilization III: Play the World
+* Descent
+* Descent II
+* Doom
+* Doom II
+* Fallout
+* Far Cry
+* Final Doom
+* MechCommander
+* Myst V
+* No One Lives Forever 2
+* Post Mortem
+* Rome: Total War: Alexander
+* Rome: Total War: Barbarian Invasion
+* System Shock 2
+* TrackMania Nations Forever
+* Tomb Raider
+* Tomb Raider Gold
+* Tomb Raider II Gold
+* Wallace & Gromit's Grand Adventures 2-3
+* The Witcher
+New PSP Games:
+* Crisis Core: Final Fantasy VII
+* Daxter
+* Echochrome
+* Final Fantasy
+* Final Fantasy II
+* Final Fantasy Tactics
+* God of War: Chains of Olympus
+* Jeanne D'Arc
+* Metal Gear Ac!d
+* Metal Gear Solid: Portable Ops
+* No Gravity
+* Patapon
+* Ratchet & Clank: Size Matters
+* Silent Hill: 0rigins
+* Star Ocean: First Departure
+* Super Stardust Portable
+New PS3 Games:
+* Assassin's Creed
+* Battlefield: Bad Company
+* Civilization: Revolution
+* The Darkness
+* Dead Space
+* Devil May Cry 4
+* Echochrome
+* Elefunk
+* Eternal Sonata
+* Flow
+* Flower
+* Folklore
+* Heavenly Sword
+* infamous
+* Jeopardy!
+* Lemmings
+* Mirror's Edge
+* Prince of Persia
+* Rag Doll Kung Fu: Fists of Plastic
+* Ratchet & Clank Future: Tools of Destruction
+* Ratchet & Clank Future: Quest for Booty
+* Resident Evil 5
+* Resistance: Fall of Man
+* Resistance 2
+* Savage Moon
+* Silent Hill: Homecoming
+* Super Stardust HD
+* Sould Calibur IV
+* Uncharted: Drake's Fortune
+* Unreal Tournament III
+* Valkyria Chronicles
+* Wheel of Fortune
+* Wolfenstein 3D
+New PS2 Games:
+* Beyond Good & Evil
+* The Bouncer
+* Dark Cloud
+* Dark Cloud 2
+* Deus Ex: The Conspiracy
+* Devil May Cry
+* Devil May Cry 2
+* Devil May Cry 3: Dante's Awakening: Special Edition
+* Dirge of Cerberus: Final fantasy VII
+* Disgaea: Hour of Darkness
+* Disgaea 2: Cursed Memories
+* Dragon Quest VIII: Journey of the Cursed King
+* Escape from Monkey Island
+* Final Fantasy X
+* Final Fantasy X-2
+* Final Fantasy XII
+* Frequency
+* God of War
+* God of War II
+* Half-Life
+* Ico
+* Indigo Prophecy
+* Jak and Daxter: The Precursor Legacy
+* Jak II
+* Jak 3
+* Jak X: Combat Racing
+* Kingdom Hearts
+* Kingdom Hearts II
+* Kingdom Hearts Re: Chain of Memories:
+* Metal Gear Solid 2: Substance
+* Metal Gear Solid 3: Subsistence
+* Okage: Shadow King
+* Prince of Persia: The Sands of Time
+* Prince of Persia: The Two Thrones
+* Prince of Persia: Warrior Within
+* Psychonauts
+* Ratchet & Clank
+* Ratchet & Clank: Going Commando
+* Ratchet & Clank: Up Your Arsenal
+* Ratchet Deadlocked
+* Resident Evil 4
+* Resident Evil: Code Veronica X
+* Rogue Galaxy
+* Shadow of the Colossus
+* Silent Hill 2 Greatest Hits Edition
+* Silent Hill 3
+* Silent Hill 4: The Room
+* Sly Cooper and the Thievus Raccoonus
+* Soul Calibur III
+* Star Ocean: Till the End of Time
+* Summoner
+* Summoner 2
+* Tekken 5
+* Unreal Tournament
+* The X-Files: Resist or Serve
+* XIII
+New PS1 Games:
+* Chrono Cross
+* Chrono Trigger
+* Descent
+* Descent: Maximum
+* Final Fantasy IV 
+* Final Fantasy VIII
+* Final Fantasy IX
+* Final Fantasy Tactics
+* Metal Gear Solid
+* Metal Gear Solid: VR Missions
+* Parasite Eve
+* Parasite Eve 2
+* Silent Hill
+* Soul Blade
+Updated Windows Games:
+* Added Shortcuts and Registry keys to both of the Sam & Max seasons, Tomb Raider II
+* Added Registry keys to Anachronox, MechCommander 2, No One Lives Forever, Rome: Total War
+* Added Shortcuts to Dreamfall
+* Reduced The Longest Journey down to one profile again
+
+v.0.2 - Second Alpha
+* Changed detected game list to be a tree for MOD sorting
+* Added support for MODs that depend on detected games
+* Changed the character for seperating game and username to «
+* Added a progress bar to the detecting games splash
+* Added similar progress bar to backend
+* Added the hastilyest produced logo in history
+* Fixed a problem where MASGAU could hang while querying task settings
+* Fixed a problem where two threads tried to make the splash appear
+* Changed SettingsManager so undetected games are not kept in memory (redetection now re-creates SettingsManager object)
+* Changed Documents folder detection to use GetFolderPath (takes care of a localization problem)
+* Added ability to specify a registry key to supply a root path
+* Added new tag for game configs to specify an identifying folder or file
+* Added ability to specify a start menu shortcut that points to the root
+* Added indentifiers to games that might get confused
+* Fixed a problem were an incomplete archive could crash the program
+* Added an icon! Woo!
+* Fixed a problem when checking the registry key that tells MASGAU if UAC is enabled
+New Games:
+* The Nameless Mod - Our first supported MOD! - Info provided by Trestkon
+* Daggerfall - Info provided by Jetsetlemming
+* Peggle World of Warcraft Edition
+* Quake 2 - Steam only - Info provided by Jetsetlemming
+* The Longest Journey 4-disc - Info provided by Miral
+* Unreal Tournament
+* Call of Duty 4
+* The Secret of Monkey Island: Special Edition
+Update Games
+* Return to Castle Wolfenstein - Added Steam path - Info provided by Jetsetlemming
+* Peggle Deluxe - Corrected Steam path
+* Added Registry keys to many games
+* Added shortcuts to a few games
+
+v.0.1 - Initial Release

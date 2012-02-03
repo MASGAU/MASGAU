@@ -1,0 +1,195 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0F129BC-D668-4612-80E4-A669623A754B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Masgau</RootNamespace>
+    <AssemblyName>MasgauAnalyzer</AssemblyName>
+    <ApplicationIcon>masgau.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Windows7ProgressBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Windows7ProgressBar\Control\bin\Release\Windows7ProgressBar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\MasgauTask\driveSelector.cs">
+      <Link>driveSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\driveSelector.designer.cs">
+      <Link>driveSelector.designer.cs</Link>
+      <DependentUpon>driveSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MasgauTask\rootSelector.cs">
+      <Link>rootSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\rootSelector.designer.cs">
+      <Link>rootSelector.designer.cs</Link>
+      <DependentUpon>rootSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MasgauTask\zipLinker.cs">
+      <Link>zipLinker.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\zipLinker.designer.cs">
+      <Link>zipLinker.designer.cs</Link>
+      <DependentUpon>zipLinker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Masgau\invokes.cs">
+      <Link>invokes.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\ListViewItemComparer.cs">
+      <Link>ListViewItemComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\PathHandler.cs">
+      <Link>PathHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\RegistryManager.cs">
+      <Link>RegistryManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\SecurityHandler.cs">
+      <Link>SecurityHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\structs.cs">
+      <Link>structs.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\userSelector.cs">
+      <Link>userSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\Masgau\userSelector.designer.cs">
+      <Link>userSelector.designer.cs</Link>
+      <DependentUpon>userSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Masgau\WebBrowser.cs">
+      <Link>WebBrowser.cs</Link>
+    </Compile>
+    <Compile Include="reportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportForm.Designer.cs">
+      <DependentUpon>reportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchingForm.Designer.cs">
+      <DependentUpon>searchingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzerForm.Designer.cs">
+      <DependentUpon>analyzerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="..\MasgauTask\driveSelector.resx">
+      <Link>driveSelector.resx</Link>
+      <DependentUpon>driveSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MasgauTask\rootSelector.resx">
+      <Link>rootSelector.resx</Link>
+      <DependentUpon>rootSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MasgauTask\zipLinker.resx">
+      <Link>zipLinker.resx</Link>
+      <DependentUpon>zipLinker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Masgau\userSelector.resx">
+      <Link>userSelector.resx</Link>
+      <DependentUpon>userSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>reportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchingForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>searchingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzerForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>analyzerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masgau.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

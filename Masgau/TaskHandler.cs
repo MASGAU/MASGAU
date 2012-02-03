@@ -143,7 +143,7 @@ namespace Masgau
             arguments += "/TN " + task_name + " ";
 
             // Points to the binary
-            arguments += "/TR \"\"\"\"" + Application.StartupPath + "\\MasgauTask.exe\"\"\"\" ";
+            arguments += "/TR \"\"\"\"" + Application.StartupPath + "\\MasgauTask.exe\"\"\" /allusers\" ";
 
             // Sets the run time
             arguments += "/ST " + the_times.Hour.ToString("00") + ":" + the_times.Minute.ToString("00") + ":" + the_times.Second.ToString("00") + " ";

@@ -1,8 +1,8 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.50727</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -10,6 +10,11 @@
     <RootNamespace>Masgau</RootNamespace>
     <AssemblyName>MasgauMonitor</AssemblyName>
     <ApplicationIcon>masgau_logo.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,13 +40,50 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Windows7ProgressBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Windows7ProgressBar\Control\bin\Release\Windows7ProgressBar.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\MasgauTask\driveSelector.cs">
+      <Link>driveSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\driveSelector.designer.cs">
+      <Link>driveSelector.designer.cs</Link>
+      <DependentUpon>driveSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MasgauTask\rootSelector.cs">
+      <Link>rootSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\rootSelector.designer.cs">
+      <Link>rootSelector.designer.cs</Link>
+      <DependentUpon>rootSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MasgauTask\zipLinker.cs">
+      <Link>zipLinker.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\zipLinker.designer.cs">
+      <Link>zipLinker.designer.cs</Link>
+      <DependentUpon>zipLinker.cs</DependentUpon>
+    </Compile>
     <Compile Include="..\Masgau\ArchiveManager.cs">
       <Link>ArchiveManager.cs</Link>
     </Compile>
     <Compile Include="..\Masgau\GameData.cs">
       <Link>GameData.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\gfwLiveHandler.cs">
+      <Link>gfwLiveHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\invokes.cs">
+      <Link>invokes.cs</Link>
+    </Compile>
+    <Compile Include="..\Masgau\ListViewItemComparer.cs">
+      <Link>ListViewItemComparer.cs</Link>
     </Compile>
     <Compile Include="..\Masgau\PathHandler.cs">
       <Link>PathHandler.cs</Link>
@@ -64,6 +106,17 @@
     <Compile Include="..\Masgau\structs.cs">
       <Link>structs.cs</Link>
     </Compile>
+    <Compile Include="..\Masgau\userSelector.cs">
+      <Link>userSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\Masgau\userSelector.designer.cs">
+      <Link>userSelector.designer.cs</Link>
+      <DependentUpon>userSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Masgau\WebBrowser.cs">
+      <Link>WebBrowser.cs</Link>
+    </Compile>
     <Compile Include="monitorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +126,26 @@
     <Compile Include="monitorHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="..\MasgauTask\driveSelector.resx">
+      <Link>driveSelector.resx</Link>
+      <DependentUpon>driveSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MasgauTask\rootSelector.resx">
+      <Link>rootSelector.resx</Link>
+      <DependentUpon>rootSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MasgauTask\zipLinker.resx">
+      <Link>zipLinker.resx</Link>
+      <DependentUpon>zipLinker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Masgau\userSelector.resx">
+      <Link>userSelector.resx</Link>
+      <DependentUpon>userSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="monitorForm.resx">
       <DependentUpon>monitorForm.cs</DependentUpon>
       <SubType>Designer</SubType>

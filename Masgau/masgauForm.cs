@@ -17,14 +17,18 @@ namespace Masgau
 
     public partial class masgauForm : Form
     {
+
         public SettingsManager settings;
-        string program_title = "MASGAU v.0.4";
+        string program_title = "MASGAU v.0.7";
         private TaskHandler taskmaster;
         private RestoreHandler restore;
-        private Splash sp = new Splash();
         private SecurityHandler red_shirt = new SecurityHandler();
         private bool all_users_mode = false;
         private bool redetect_required = false;
+        private int sorted_column = 2;
+        private invokes invokes = new invokes();
+        Thread setup_thread;
+        private string last_archive_create = "";
 
         public masgauForm() {
             string[] args = Environment.GetCommandLineArgs();
@@ -37,12 +41,30 @@ namespace Masgau
                 program_title += " - All Users Mode";
             else
                 program_title += " - Single User Mode";
-            Control.CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
-            detectGames();
+
+            //progressBar1.Width = this.Width-135;
+            setup_thread = new Thread(new ThreadStart(setupProgram));
+            setup_thread.Start();
+
+        }
+
+        private void setupProgram() {
+          
+            buildSettings();
+            invokes.setControlEnabled(tabControl1,false);
+
+            //if(settings.height!=null) {
+            //    this.Height = Int32.Parse(settings.height);
+            //}
+
+            //if(settings.width!=null) {
+            //    this.Width= Int32.Parse(settings.width);
+            //}
+
             if (settings.backup_path != null){
                 populateRestoreList();
-                openBackupPath.Enabled = true;
+                invokes.setControlEnabled(openBackupPath,true);
             } else {
                 backupPathInput.Text = "Backup path not set";
                 restoreTree.Nodes.Add("Nothing", "No Backups detected");
@@ -61,56 +83,107 @@ namespace Masgau
                 duplicateFrequencyCombo.SelectedIndex = 0;
                 duplicateFrequencyNumber.Enabled = false;
             }
+            if (settings.ignore_date_check)
+                dateCheck.Checked = true;
+
             if(all_users_mode) {
                 monitorCheck.Enabled = false;
             } else {
                 RegistryKey startup_keys = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
-                if (startup_keys.GetValue("MASGAUMonitor")!=null) {
-                    monitorCheck.Checked = true;
+                if(File.Exists(Path.Combine(Application.StartupPath,"MasgauMonitor.exe"))) {
+                    if (startup_keys.GetValue("MASGAUMonitor")!=null) {
+                        monitorCheck.Checked = true;
+                    }
+                } else {
+                    monitorCheck.Enabled = false;
+                    if (startup_keys.GetValue("MASGAUMonitor")!=null) {
+                        startup_keys.DeleteValue("MASGAUMonitor");
+                    }
                 }
+
             }
 
-            if (settings.ignore_date_check)
-                dateCheck.Checked = true;
 
 			//if (settings.show_undetected)
 			//    undetectedCheck.Checked = true;
-
-            this.Text = program_title;
-            if(all_users_mode) {
+            invokes.setControlText(this,program_title);
+            if(all_users_mode&&File.Exists(Path.Combine(Application.StartupPath,"MasgauTask.exe"))) {
                 populateTaskScheduler();
             } else {
-                tabControl1.TabPages.Remove(scheduleTab);
+                invokes.removeTab(tabControl1,scheduleTab);
             }
-        }
 
-        private void showSplash()
-        {
-            sp.ShowDialog();
+            invokes.setControlEnabled(tabControl1,true);
         }
 
         private void detectGames() {
-            Thread th = new Thread(new ThreadStart(showSplash));
-            th.Start();
+            setup_thread = new Thread(new ThreadStart(buildSettings));
+            setup_thread.Start();
+        }
 
-            settings = new SettingsManager(null, null, sp.detectingProgress);
-            if (settings.steam.installed)
-                steamPathInput.Text = settings.steam.path;
-            else
-                steamPathInput.Text = "Steam Not Detected";
+        private void buildSettings() {
+            invokes.setControlEnabled(tabControl1,false);
+            invokes.showProgressTaskBar(progressBar1,true);
+            invokes.setProgressBarValue(progressBar1,0);
+            invokes.setProgressBarState(progressBar1,wyDay.Controls.ProgressBarState.Error);
+            invokes.setControlEnabled(progressBar1,true);
+            //invokes.setProgressBarStyle(progressBar1,ProgressBarStyle.Blocks);
+            settings = new SettingsManager(null, null, progressBar1, progress_label);
+            lock(settings) {
+                if (settings.steam.installed) {
+                    steamPathInput.Text = settings.steam.path;
+                    //if(File.Exists(Path.Combine(settings.steam.path,"steam.ico"))) {
+                        // Needs to be rewritten for cross-thread
+                        //Icon steam_icon = new Icon(Path.Combine(settings.steam.path,"steam.ico"));
+                        //invokes.setToolStripImage(statusStrip1,steamIcon,(Image)steam_icon.ToBitmap());
+                    //}
+                    //steamIcon.Visible = true;
+                    //steamIcon.ToolTipText = "Steam Detected";
+                } else{
+                    //steamIcon.ToolTipText = "Steam Not Detected";
+                    steamPathInput.Text = "Steam Not Detected";
+                    //steamIcon.Visible = false;
+                }
 
-            populateGameList();
-            populateAltList();
-            th.Abort();
+                //if (settings.live.installed) {
+                    //if(File.Exists(Path.Combine(settings.live.install_path,"GFWLive.exe"))) {
+                        //Icon live_icon = new Icon(Path.Combine(settings.live.install_path,"GFWLive.exe"));
+                        //gfwIcon.Image = (Image)live_icon.ToBitmap();
+                    //}
+                    //gfwIcon.Visible = true;
+                    //invokes.setToolStripText(statusStrip1,gfwIcon,"GFW Detected");
+                    //gfwIcon.ToolTipText = "Game for Windows LIVE Detected";
+                //} else{
+                    //gfwIcon.ToolTipText = "Game for Windows LIVE Not Detected";
+                    //invokes.setToolStripText(statusStrip1,gfwIcon,"GFW Not Detected");
+                    //gfwIcon.Visible = false;
+                //}
+                populateGameList();
+                populateAltList();
+            }
+
+            invokes.setControlEnabled(progressBar1,false);
+            invokes.setControlEnabled(tabControl1,true);
+            invokes.showProgressTaskBar(progressBar1,false);
+            invokes.setProgressBarValue(progressBar1,0);
+            //invokes.setProgressBarStyle(progressBar1,ProgressBarStyle.Marquee);
+            invokes.setProgressBarState(progressBar1,wyDay.Controls.ProgressBarState.Normal);
+
+            if(invokes.getTab(tabControl1)!=0) {
+                invokes.setControlVisible(statusPanel,false);
+            } else {
+                invokes.setControlVisible(statusPanel,true);
+            }
         }
 
         private void populateGameList() {
+            this.detectedList.Resize -= new System.EventHandler(this.detectedList_Resize);
             ListViewItem new_item;
-            detectedList.Items.Clear();
+            invokes.clearListView(detectedList);
             if (settings.games != null)
             {
                 foreach(KeyValuePair<string,GameData> game in settings.games) {
-                    if (game.Value.detected_roots.Count>0) {
+                    if (game.Value.detected_roots!=null&&game.Value.detected_roots.Count>0) {
                         new_item = new ListViewItem(game.Value.title);
                         new_item.ToolTipText= ((file_holder)game.Value.detected_roots[0]).absolute_path;
                         for(int i = 1; i< game.Value.detected_roots.Count;i++) {
@@ -122,7 +195,8 @@ namespace Masgau
                             new_item.ForeColor = Color.Red;
                         else 
                             new_item.ForeColor = Color.Black;
-                        detectedList.Items.Add(new_item);
+                        invokes.addListViewItem(detectedList,new_item);
+                        //detectedList.Items.Add(new_item);
                     } else if(settings.show_undetected) {
                         new_item = new ListViewItem(game.Value.title);
                         new_item.ToolTipText = "No Path Detected";
@@ -139,25 +213,36 @@ namespace Masgau
                         detectedList.Items.Add(new_item);
                     }
                 }
-                startBackup.Enabled = true;
-            } else {
-                startBackup.Enabled = false;
-                new_item = new ListViewItem("nobackup");
-                new_item.SubItems.Add("No Games Detected");
-                new_item.ToolTipText = "Where have all the games gone?";
-                detectedList.Items.Add(new_item);
+                invokes.setControlEnabled(startBackup,true);
+                invokes.setControlEnabled(detectedList,true);
+                invokes.setListViewScrollable(detectedList,true);
+                invokes.setControlText(progress_label,detectedList.Items.Count + " Games Detected");
             }
-            sp.Visible = false;
+            this.detectedList.Resize += new System.EventHandler(this.detectedList_Resize);
+            if (detectedList.Items.Count == 0)
+            {
+                invokes.setControlEnabled(startBackup,false);
+                new_item = new ListViewItem("No Games Detected");
+                new_item.ToolTipText = "Where have all the games gone?";
+                invokes.addListViewItem(detectedList,new_item);
+                invokes.setControlText(progress_label,"No Games Detected");
+                invokes.setControlEnabled(detectedList,false);
+            }
+            invokes.sortListView(detectedList,sorted_column);
+            resizeDetectedGames();
+            invokes.setControlTheme(detectedList, "explorer");
+
+
         }
 
         private void populateAltList() {
-            altPathList.Items.Clear();
+            invokes.clearListView(altPathList);
             ListViewItem add_me;
             foreach(string new_path in settings.alt_paths) {
                 add_me = new ListViewItem(new_path);
-                altPathList.Items.Add(add_me);
-                
+                invokes.addListViewItem(altPathList,add_me);
             }
+            invokes.setControlTheme(altPathList,"explorer");
         }
 
         private void populateRestoreList() {
@@ -174,34 +259,36 @@ namespace Masgau
             restoreTree.Nodes.Clear();
             if(settings.backup_path!=null) {
                 if(restore.backups.Count>0) {
-                    foreach(backup_holder add_me in restore.backups) {
-                        if(settings.games!=null&&settings.games.ContainsKey(add_me.game_name)) {
-                            if(settings.games[add_me.game_name].platform=="Windows")
-                                game_title = settings.games[add_me.game_name].title;
+                    foreach(KeyValuePair<string,backup_holder> add_me in restore.backups) {
+                        if(settings.games!=null&&settings.games.ContainsKey(add_me.Value.game_name)) {
+                            if(settings.games[add_me.Value.game_name].platform=="Windows")
+                                game_title = settings.games[add_me.Value.game_name].title;
                             else
-                                game_title = settings.games[add_me.game_name].title + " (" + settings.games[add_me.game_name].platform + ")";
+                                game_title = settings.games[add_me.Value.game_name].title + " (" + settings.games[add_me.Value.game_name].platform + ")";
+                        } else  {
+                            game_title = add_me.Value.file_name;
                         }
-                        else
-                        {
-                            game_title = add_me.file_name;
-                        }
-                        if(add_me.owner!=null) {
-                            if(!restoreTree.Nodes.ContainsKey(add_me.game_name))
-                                restoreTree.Nodes.Add(add_me.game_name, game_title);
-                            restoreTree.Nodes[add_me.game_name].Nodes.Add(add_me.file_name, "User: " + add_me.owner + " - " + add_me.file_date);
+                        if(add_me.Value.owner!=null) {
+                            if(!restoreTree.Nodes.ContainsKey(add_me.Value.game_name))
+                                invokes.addTreeItem(restoreTree,add_me.Value.game_name, game_title);
+                            invokes.addTreeSubItem(restoreTree,add_me.Value.game_name,add_me.Value.file_name, "User: " + add_me.Value.owner + " - " + add_me.Value.file_date);
                         } else {
-                            if(!restoreTree.Nodes.ContainsKey(add_me.game_name))
-                                restoreTree.Nodes.Add(add_me.game_name, game_title);
-                            restoreTree.Nodes[add_me.game_name].Nodes.Add(add_me.file_name, "Global - " + add_me.file_date);
+                            if(!restoreTree.Nodes.ContainsKey(add_me.Value.game_name))
+                                invokes.addTreeItem(restoreTree,add_me.Value.game_name, game_title);
+                            invokes.addTreeSubItem(restoreTree,add_me.Value.game_name,add_me.Value.file_name, "Global - " + add_me.Value.file_date);
                         }
                     }
+                    invokes.setControlEnabled(restoreTree,true);
                 } else {
-                    restoreTree.Nodes.Add("Nothing", "No Backups detected");
+                    invokes.addTreeItem(restoreTree,"Nothing", "No Backups detected");
+                    invokes.setControlEnabled(restoreTree,false);
                 }
             } else {
-                backupPathInput.Text = "Backup path not set";
-                restoreTree.Nodes.Add("Nothing", "No Backups detected");
+                invokes.setControlText(backupPathInput,"Backup path not set");
+                invokes.addTreeItem(restoreTree,"Nothing", "No Backups detected");
+                invokes.setControlEnabled(restoreTree,false);
             }
+            invokes.setControlTheme(restoreTree,"explorer");
 
         }
 
@@ -220,11 +307,11 @@ namespace Masgau
                         openBackupPath.Enabled = true;
                         return_me = true;
                     } else {
-                        MessageBox.Show(this, "You don't have permission to write to that folder.", "Freeze, Dirtbag!");
+                        MessageBox.Show(this, "You don't have permission to write to that folder.", "Freeze, Dirtbag!",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         return_me = false;
                     }
                 } else {
-                    MessageBox.Show(this, "You don't have permission to read that folder.", "Freeze, Dirtbag!");
+                    MessageBox.Show(this, "You don't have permission to read that folder.", "Freeze, Dirtbag!",MessageBoxButtons.OK,MessageBoxIcon.Error);
                     return_me = false;
                 }
             }
@@ -232,20 +319,14 @@ namespace Masgau
             return return_me;
         }
 
-
-
-
-
-
         private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
         {
             populateRestoreList();
         }
 
-
         private void refreshToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            settings.detectGames(null,sp.detectingProgress);
+            settings.detectGames(null,progressBar1,progress_label);
             detectGames();
 
         }
@@ -317,11 +398,11 @@ namespace Masgau
                 if(taskmaster.exists) {
                     deleteTask.Enabled = true;
                 } else {
-                    MessageBox.Show(this,"Unable to create task. Here's the excuse:" + Environment.NewLine + taskmaster.output + Environment.NewLine + "The task has been deleted.","What Did I Just Tell You");
+                    MessageBox.Show(this,"Unable to create task. Here's the excuse:" + Environment.NewLine + taskmaster.output + Environment.NewLine + "The task has been deleted.","What Did I Just Tell You",MessageBoxButtons.OK,MessageBoxIcon.Error);
                     deleteTask.Enabled = false;
                 }
             } else {
-                MessageBox.Show(this, "You must enter a password for the user the task will be running as,\nwhich is shown in the little text box right there.","Pander To Me");
+                MessageBox.Show(this, "You must enter a password for the user the task will be running as,\nwhich is shown in the little text box right there.","Pander To Me",MessageBoxButtons.OK,MessageBoxIcon.Stop);
             }
 
         }
@@ -370,32 +451,31 @@ namespace Masgau
             }
         }
 
-
         private void restoreTree_DoubleClick(object sender, EventArgs e)
         {
             if(restoreTree.SelectedNode!=null&&restoreTree.SelectedNode.Parent!=null) {
                 ArrayList restore_me = new ArrayList();
-                restore_me.Add(restoreTree.SelectedNode.Name);
+                restore_me.Add(Path.Combine(settings.backup_path,restoreTree.SelectedNode.Name));
                 Console.WriteLine(restoreTree.SelectedNode.Name);
                 taskForm restore = new taskForm("restore",restore_me,settings,all_users_mode);
                 restore.ShowDialog();
             }
         }
 
-
         // World domination code goes here
         private void detectedTree_AfterSelect(object sender, TreeViewEventArgs e)
         {
         }
 
-        private void detectedList_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
-        {
-            if (detectedList.SelectedItems.Count != 0&&((ListViewItem)detectedList.SelectedItems[0]).Text!="nobackup") {
+
+
+        private void detectedListChecker() {
+            if(detectedList.CheckedItems.Count>0) {
                 backupSelection.Enabled = true;
-                if(detectedList.SelectedItems.Count==1) {
+                if(detectedList.CheckedItems.Count==1) {
                     backupSelection.Text = "Back This Up";
                 } else {
-                    backupSelection.Text = "Back These Up";
+                    backupSelection.Text = "Back These " + detectedList.CheckedItems.Count + " Up";
                 }
             } else {
                 backupSelection.Enabled = false;
@@ -403,35 +483,38 @@ namespace Masgau
             }
         }
 
+        private void detectedList_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
+        {
+            for(int i = 0;i<detectedList.Items.Count;i++)
+            {
+                detectedList.Items[i].Checked = detectedList.Items[i].Selected;
+            }
+            e.Item.Checked = e.Item.Selected;
+            detectedListChecker();
+        }
 
+
+        private void detectedList_ItemChecked(object sender, ItemCheckedEventArgs e)
+        {
+            for(int i = 0;i<detectedList.Items.Count;i++)
+            {
+                detectedList.Items[i].Selected = detectedList.Items[i].Checked;
+            }
+            e.Item.Selected = e.Item.Checked;
+            detectedListChecker();
+        }
 
         private void detectedList_ColumnClick(object sender, ColumnClickEventArgs e)
         {
-			if(e.Column==0)
+			if(e.Column==0) {
+                sorted_column = 2;
 				this.detectedList.ListViewItemSorter = new ListViewItemComparer(2);
-			else
+            } else {
+                sorted_column = e.Column;
 				this.detectedList.ListViewItemSorter = new ListViewItemComparer(e.Column);
-
-        }
-
-
-        // Ruthlessly snatched form the ListView.Sort page on MSDN
-        class ListViewItemComparer : System.Collections.IComparer
-        {
-            private int col;
-            public ListViewItemComparer()
-            {
-                col = 0;
-            }
-            public ListViewItemComparer(int column)
-            {
-                col = column;
-            }
-            public int Compare(object x, object y)
-            {
-                return String.Compare(((ListViewItem)x).SubItems[col].Text, ((ListViewItem)y).SubItems[col].Text);
             }
         }
+
 
         private void versioningCheck_CheckedChanged(object sender, EventArgs e)
         {
@@ -474,9 +557,6 @@ namespace Masgau
             settings.writeConfig();
         }
 
-
-
-
         private void undetectedCheck_CheckedChanged(object sender, EventArgs e)
         {
 			//if(undetectedCheck.Checked) {
@@ -493,7 +573,7 @@ namespace Masgau
             {
                 ArrayList these = new ArrayList();
 
-                foreach (ListViewItem chosen in detectedList.SelectedItems)
+                foreach (ListViewItem chosen in detectedList.CheckedItems)
                 {
                     these.Add(chosen.SubItems[2].Text);
                 }
@@ -507,21 +587,25 @@ namespace Masgau
         private void disableSelectedGames() {
         }
 
-
         // Event handlers
         // Detected Game List Context Menu
         private void gamesContext_Opening(object sender, CancelEventArgs e)
         {
-            if(detectedList.SelectedItems.Count!=0) {
+            if(detectedList.CheckedItems.Count!=0) {
                 backThisUpToolStripMenuItem.Visible = true;
                 disableToolStripMenuItem.Visible = true;
                 purgeToolStripMenuItem.Visible = true;
-                toolStripSeparator1.Visible = true;
+                foreach(ListViewItem check_me in detectedList.CheckedItems) {
+                    if(check_me.SubItems[1].Text!="Windows") {
+                        purgeToolStripMenuItem.Visible = false;
+                    } 
+                }
+
                 addPathToolStripMenuItem.Visible = false;
                 removePathToolStripMenuItem.Visible = false;
-                if (detectedList.SelectedItems.Count > 1){
+                if (detectedList.CheckedItems.Count > 1){
                     bool show_enable = false, show_disable = false;
-                    foreach(ListViewItem check_me in detectedList.SelectedItems) {
+                    foreach(ListViewItem check_me in detectedList.CheckedItems) {
                         if(settings.games[check_me.SubItems[2].Text].disabled) {
                             show_enable = true;
                         } else {
@@ -540,7 +624,7 @@ namespace Masgau
                     backThisUpToolStripMenuItem.Text = "Back These Up";
                     createArchiveToolStripMenuItem.Visible = false;
                 } else {
-                    if(settings.games[detectedList.SelectedItems[0].SubItems[2].Text].disabled) {
+                    if(settings.games[detectedList.CheckedItems[0].SubItems[2].Text].disabled) {
                         disableToolStripMenuItem.Visible = false;
                         enableToolStripMenuItem.Visible = true;
                     } else {
@@ -549,7 +633,7 @@ namespace Masgau
                     }
                     backThisUpToolStripMenuItem.Text = "Back This Up";
                     //addPathToolStripMenuItem.Visible = true;
-					//ArrayList manual_paths = settings.getManualPaths(detectedList.SelectedItems[0].SubItems[2].Text);
+					//ArrayList manual_paths = settings.getManualPaths(detectedList.CheckedItems[0].SubItems[2].Text);
 					//if(manual_paths.Count>0) {
 					//    removePathToolStripMenuItem.Visible = true;
 					//} else {
@@ -558,13 +642,7 @@ namespace Masgau
                     createArchiveToolStripMenuItem.Visible = true;
                 }
             } else {
-                backThisUpToolStripMenuItem.Visible = false;
-                addPathToolStripMenuItem.Visible = false;
-                removePathToolStripMenuItem.Visible = false;
-                disableToolStripMenuItem.Visible = false;
-                purgeToolStripMenuItem.Visible = false;
-                toolStripSeparator1.Visible = false;
-                createArchiveToolStripMenuItem.Visible = false;
+                e.Cancel = true;
             }
         }
 
@@ -574,7 +652,7 @@ namespace Masgau
         }
         private void disableToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            foreach (ListViewItem chosen in detectedList.SelectedItems){
+            foreach (ListViewItem chosen in detectedList.CheckedItems){
                 if(chosen.ForeColor==Color.Gray)
                     chosen.ForeColor=Color.Salmon;
                 if(chosen.ForeColor==Color.Black)
@@ -590,7 +668,7 @@ namespace Masgau
 
         private void enableToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            foreach (ListViewItem chosen in detectedList.SelectedItems){
+            foreach (ListViewItem chosen in detectedList.CheckedItems){
                 if(chosen.ForeColor==Color.Salmon)
                     chosen.ForeColor=Color.Gray;
                 if(chosen.ForeColor==Color.Red)
@@ -606,9 +684,9 @@ namespace Masgau
         private void purgeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             purgeSelector select_root;
-            if (MessageBox.Show(this, "Purging erases all detected save paths for the specified game\nAre you sure you want to continue?", "This could hurt.", MessageBoxButtons.YesNo) == DialogResult.No)
+            if (MessageBox.Show(this, "Purging erases all detected save paths for the specified game\nAre you sure you want to continue?", "This could hurt.", MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.No)
                 return;
-            foreach (ListViewItem chosen in detectedList.SelectedItems)
+            foreach (ListViewItem chosen in detectedList.CheckedItems)
             {
                 select_root = new purgeSelector(settings.games[chosen.SubItems[2].Text].detected_roots);
                 if(select_root.purgeCombo.Items.Count>2) {
@@ -620,14 +698,14 @@ namespace Masgau
                     try {
                         Directory.Delete(select_root.purgeCombo.SelectedItem.ToString(),true);
                     } catch {
-                        MessageBox.Show(this,"Error while trying to delete this:\n" + select_root.purgeCombo.SelectedItem.ToString() + "\nYou probably don't have permission to do that.","I'm Just Not That Creative");
+                        MessageBox.Show(this,"Error while trying to delete this:\n" + select_root.purgeCombo.SelectedItem.ToString() + "\nYou probably don't have permission to do that.","I'm Just Not That Creative",MessageBoxButtons.OK,MessageBoxIcon.Error);
                     }
                 } else {
                     foreach(file_holder delete_me in settings.games[chosen.SubItems[2].Text].detected_roots) {
                         try {
                             Directory.Delete(delete_me.absolute_path,true);
                         } catch {
-                            MessageBox.Show(this, "Error while trying to delete this:\n" + delete_me.absolute_path + "\nYou probably don't have permission to do that.", "I'm Just Not That Creative");
+                            MessageBox.Show(this, "Error while trying to delete this:\n" + delete_me.absolute_path + "\nYou probably don't have permission to do that.", "I'm Just Not That Creative",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         }
                     }
                 }
@@ -652,9 +730,10 @@ namespace Masgau
 			}
 			return return_me;
 		}
+
 		private void createArchiveToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			GameData game = settings.games[detectedList.SelectedItems[0].SubItems[2].Text];
+			GameData game = settings.games[detectedList.CheckedItems[0].SubItems[2].Text];
 			manualBackup manual_backup = new manualBackup(game);
 			if(manual_backup.ShowDialog(this)!=DialogResult.Cancel) {
 				ArrayList selected_files = new ArrayList();
@@ -670,13 +749,22 @@ namespace Masgau
 						back_these_up.Add(file);
 				}
 				if(back_these_up.Count>0) {
-				    if(settings.backup_path!=null)
-				        folderBrowser.SelectedPath = settings.backup_path;
+					if(settings.backup_path!=null&&last_archive_create=="") {
+                        saveFileDialog1.InitialDirectory = settings.backup_path;
+                    } else {
+                        saveFileDialog1.InitialDirectory = last_archive_create;
+                    }
+                    if(manual_backup.rootCombo.Text.ToString()!="Global")
+                        saveFileDialog1.FileName = detectedList.CheckedItems[0].SubItems[2].Text + "«" + manual_backup.rootCombo.Text;
+                    else
+                        saveFileDialog1.FileName = detectedList.CheckedItems[0].SubItems[2].Text;
+//				        folderBrowser.SelectedPath = settings.backup_path;
 
-					folderBrowser.Description = "And where would you like to put this backup??";
-					if(folderBrowser.ShowDialog(this).ToString()!="Cancel") {
+//					folderBrowser.Description = "And where would you like to put this backup??";
+					if(saveFileDialog1.ShowDialog(this).ToString()!="Cancel") {
+                        last_archive_create = Path.GetFullPath(saveFileDialog1.FileName);
 						ArrayList one_game = new ArrayList();
-						taskForm backup = new taskForm(detectedList.SelectedItems[0].SubItems[2].Text,settings,all_users_mode, back_these_up,folderBrowser.SelectedPath);
+						taskForm backup = new taskForm(detectedList.CheckedItems[0].SubItems[2].Text,settings,all_users_mode, back_these_up,Path.GetDirectoryName(saveFileDialog1.FileName),Path.GetFileName(saveFileDialog1.FileName));
 						backup.ShowDialog(this);
 						populateRestoreList();
 					}
@@ -689,7 +777,7 @@ namespace Masgau
 
 		//private void overridePathToolStripMenuItem_Click(object sender, EventArgs e)
 		//{
-		//    string game_name = detectedList.SelectedItems[0].SubItems[2].Text;
+		//    string game_name = detectedList.CheckedItems[0].SubItems[2].Text;
 		//    if(settings.games[game_name].detected_roots.Count>0)
 		//        folderBrowser.SelectedPath = settings.games[game_name].detected_roots[0].ToString();
 
@@ -701,12 +789,12 @@ namespace Masgau
 		//}
 		//private void removePathToolStripMenuItem_Click(object sender, EventArgs e)
 		//{
-		//    pathSelector select_path = new pathSelector(settings.getManualPaths(detectedList.SelectedItems[0].SubItems[2].Text));
+		//    pathSelector select_path = new pathSelector(settings.getManualPaths(detectedList.CheckedItems[0].SubItems[2].Text));
 		//    if(select_path.ShowDialog(this)!=DialogResult.Cancel) {
 		//        if(select_path.pathCombo.SelectedIndex==0) {
-		//            settings.removeAllManualPaths(detectedList.SelectedItems[0].SubItems[2].Text);
+		//            settings.removeAllManualPaths(detectedList.CheckedItems[0].SubItems[2].Text);
 		//        } else {
-		//            settings.removeManualPath(detectedList.SelectedItems[0].SubItems[2].Text,select_path.pathCombo.SelectedItem.ToString());
+		//            settings.removeManualPath(detectedList.CheckedItems[0].SubItems[2].Text,select_path.pathCombo.SelectedItem.ToString());
 		//        }
 		//        settings.writeConfig();
 		//    }
@@ -763,6 +851,10 @@ namespace Masgau
             settings.resetSteam();
             settings.writeConfig();
             settings.playstation = new playstationHandler();
+            if (settings.steam.installed)
+                steamPathInput.Text = settings.steam.path;
+            else
+                steamPathInput.Text = "Steam Not Detected";
             redetect_required = true;
         }
         // Manually set Steam path
@@ -772,11 +864,15 @@ namespace Masgau
                 folderBrowser.SelectedPath = settings.steam.path;
                 folderBrowser.Description = "Choose where Steam is located.";
                 if(folderBrowser.ShowDialog(this).ToString()!="Cancel") {
-                settings.overrideSteam(folderBrowser.SelectedPath);
-                settings.writeConfig();
-                settings.playstation = new playstationHandler();
-                redetect_required = true;
-            }
+                    settings.overrideSteam(folderBrowser.SelectedPath);
+                    settings.writeConfig();
+                    settings.playstation = new playstationHandler();
+                    if (settings.steam.installed)
+                        steamPathInput.Text = settings.steam.path;
+                    else
+                        steamPathInput.Text = "Steam Not Detected";
+                    redetect_required = true;
+                }
         }
         // Changes the alt path remove button text and enability
         private void altPathList_SelectedIndexChanged(object sender, EventArgs e)
@@ -824,13 +920,100 @@ namespace Masgau
         // On tab change, if something happened that necessitates redetecting the games, do it
         private void tabControl1_Selected(object sender, TabControlEventArgs e)
         {
-            if (redetect_required)
-            {
+            if(tabControl1.SelectedIndex!=0) {
+                statusPanel.Visible = false;
+            } else {
+                statusPanel.Visible = true;
+            }
+            if (redetect_required) {
+                statusPanel.Visible = true;
                 detectGames();
                 redetect_required = false;
             }
 
         }
+
+        private void detectedList_Resize(object sender, EventArgs e)
+        {
+            resizeDetectedGames();
+        }
+
+
+        private delegate void resizeDetectedGamesDelegate();
+        private void resizeDetectedGames() {
+            if (detectedList.InvokeRequired)
+            {
+                detectedList.BeginInvoke(new resizeDetectedGamesDelegate(resizeDetectedGames));
+            }
+            else
+            {
+                lock (detectedList)
+                {
+                    try
+                    {
+                        if (detectedList.Items.Count > 0 && detectedList.ClientSize.Height < (detectedList.Items.Count + 1) * detectedList.Items[0].Bounds.Height)
+                        {
+                            detectedList.Scrollable = true;
+                            detectedList.Columns[0].Width = detectedList.Width - 85;
+                        }
+                        else
+                        {
+                            detectedList.Scrollable = false;
+                            detectedList.Columns[0].Width = detectedList.Width - 66;
+                        }
+                        detectedList.Columns[1].Width = 60;
+                        detectedList.Columns[2].Width = 0;
+                    }
+                    catch { }
+                }
+                invokes.setControlTheme(detectedList, "explorer");
+            }
+        }
+
+        private void altPathList_Resize(object sender, EventArgs e)
+        {
+            altPathList.Columns[0].Width = altPathList.Width-5;
+        }
+
+        private void masgauForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(setup_thread.IsAlive)
+                setup_thread.Abort();
+            //settings.writeConfig();
+        }
+
+        private void masgauForm_ResizeEnd(object sender, EventArgs e)
+        {
+            //settings.height = this.Height.ToString();
+            //settings.width = this.Width.ToString();
+        }
+
+        private void masgauForm_Resize(object sender, EventArgs e)
+        {
+            //progressBar1.Width = this.Width-135;
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            WebBrowser browser = new WebBrowser();
+            browser.openBrowser("http://masga.sourceforge.net/");
+        }
+
+        private void masgauForm_ResizeBegin(object sender, EventArgs e)
+        {
+
+        }
+
+        private void redetectButton_Click(object sender, EventArgs e)
+        {
+            detectGames();
+        }
+
+
+
+
+
 
 
     }

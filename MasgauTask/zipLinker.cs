@@ -15,14 +15,11 @@ namespace Masgau
         {
             InitializeComponent();
         }
-
+        
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            string key = @"htmlfile\shell\open\command";
-
-            RegistryKey registryKey = Registry.ClassesRoot.OpenSubKey(key, false);
-            string defaultBrowserPath = ((string) registryKey.GetValue(null, null)).Split('"')[1];
-            System.Diagnostics.Process.Start(defaultBrowserPath, "http://www.7-zip.org/");
+            WebBrowser browser = new WebBrowser();
+            browser.openBrowser("http://www.7-zip.org/");
         }
 
     }

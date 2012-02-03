@@ -1,13 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masgau", "Masgau\Masgau.csproj", "{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauTask", "MasgauTask\MasgauTask.csproj", "{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauMonitor", "MasgauMonitor\MasgauMonitor.csproj", "{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MasgauInstaller", "MasgauInstaller\MasgauInstaller.vdproj", "{6B549197-36C8-439C-BF67-D4ABFC6E3290}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauTask", "MasgauTask\MasgauTask.csproj", "{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauAnalyzer", "MasgauAnalyzer\MasgauAnalyzer.csproj", "{C0F129BC-D668-4612-80E4-A669623A754B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,18 @@ Global
 		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B549197-36C8-439C-BF67-D4ABFC6E3290}.Debug|Any CPU.ActiveCfg = Debug
-		{6B549197-36C8-439C-BF67-D4ABFC6E3290}.Release|Any CPU.ActiveCfg = Release
+		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F129BC-D668-4612-80E4-A669623A754B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F129BC-D668-4612-80E4-A669623A754B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F129BC-D668-4612-80E4-A669623A754B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F129BC-D668-4612-80E4-A669623A754B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

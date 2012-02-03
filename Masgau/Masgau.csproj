@@ -1,8 +1,8 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.50727</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -10,6 +10,11 @@
     <RootNamespace>Masgau</RootNamespace>
     <AssemblyName>Masgau</AssemblyName>
     <ApplicationIcon>masgau_logo.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,6 +40,10 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Windows7ProgressBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Windows7ProgressBar\Control\bin\Debug\Windows7ProgressBar.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\MasgauTask\driveSelector.cs">
@@ -77,6 +86,9 @@
       <DependentUpon>pathSelector.cs</DependentUpon>
     </None>
     <Compile Include="GameData.cs" />
+    <Compile Include="gfwLiveHandler.cs" />
+    <Compile Include="invokes.cs" />
+    <Compile Include="ListViewItemComparer.cs" />
     <Compile Include="manualBackup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,10 +146,6 @@
       <DependentUpon>purgeSelector.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Splash.resx">
-      <DependentUpon>Splash.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="userSelector.resx">
       <DependentUpon>userSelector.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -167,12 +175,6 @@
     <Compile Include="RestoreHandler.cs" />
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="SettingsManager.cs" />
-    <Compile Include="Splash.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Splash.designer.cs">
-      <DependentUpon>Splash.cs</DependentUpon>
-    </Compile>
     <Compile Include="SteamHandler.cs" />
     <Compile Include="structs.cs" />
     <Compile Include="TaskHandler.cs" />
@@ -182,6 +184,7 @@
     <Compile Include="userSelector.designer.cs">
       <DependentUpon>userSelector.cs</DependentUpon>
     </Compile>
+    <Compile Include="WebBrowser.cs" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="IWshRuntimeLibrary">
@@ -194,27 +197,32 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\masgau_wallpaper.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="..\Windows7ProgressBar\Control\bin\Release\Windows7ProgressBar.dll">
+      <Link>Windows7ProgressBar.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="games.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="masgau_logo.ico" />
     <Content Include="mods.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="ps1.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="ps2.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="ps3.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="psp.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\0.7.PNG" />
+    <Content Include="system.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
