@@ -1,8 +1,11 @@
-﻿=0.9.2 - Portable Evolution=
+=0.9.2 - Portable Evolution=
 * Created PortableApps installer
 * Modified path handling to cope with PortableApps
 * Added -portable command line switch
 * Fixed a bug when restoring to a game in an Alt. Install Path
+Path
+* Changed Steam EV to have priority over program files EV
+* Change to remove old location handler when resetting the handler
 
 =0.9.1 - Independent Evolution=
 * Added client code for the new automatically generating update server
