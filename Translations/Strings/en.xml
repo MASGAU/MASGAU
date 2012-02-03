@@ -79,7 +79,7 @@
   <string name="VersioningEnable">Make _Extra Copies</string>
   <string name="VersioningTime">At Least This Long Between Copies</string>
   <string name="VersioningCount">At Most This Many Extra Copies</string>
-  <string name="AltInstallPaths">Alternate Install Paths</string>
+  <string name="AltPaths">Alternate Save Paths</string>
   <string name="AddAltPath">Add New Path</string>
   <string name="RemoveNoAltPaths">Remove Nothing</string>
   <string name="RemoveAltPaths">Remove Paths</string>
