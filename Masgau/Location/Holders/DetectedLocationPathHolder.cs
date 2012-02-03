@@ -16,7 +16,7 @@ namespace MASGAU.Location.Holders {
             this.language = path.language;
             this.platform_version = path.platform_version;
             this.path = path.path;
-            this.read_only = path.read_only;
+            this.deprecated = path.deprecated;
             this.rel_root = path.rel_root;
         }
 

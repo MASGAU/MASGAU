@@ -1,0 +1,55 @@
+Game Name: Dawn of War II - Retribution (Steam Cloud)
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+SteamCommon\dawn of war ii - retribution
+
+Save Path: 
+SteamUserData\56400
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\b25099274a207264182f8181add555d0\SourceList\Net
+Value: 2
+Data: SteamCommon\dawn of war ii - retribution\Install
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{461A6D29-17DB-48C8-9EEB-8060ED7BE06E}
+Value: ConfigApplicationPath
+Data: SteamCommon\dawn of war ii - retribution
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{461A6D29-17DB-48C8-9EEB-8060ED7BE06E}
+Value: ConfigGDFBinaryPath
+Data: 27/12/2011 23:08:07 - SteamCommon\dawn of war ii - retribution\dow2.exe - 17813144
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\sphinx-soft\Vista-Wall\1.0\AppList\Dawn of War II
+Value: File
+Data: 27/12/2011 23:08:07 - SteamCommon\dawn of war ii - retribution\dow2.exe - 17813144
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 56400
+Value: InstallLocation
+Data: SteamCommon\dawn of war ii - retribution
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: O:\
+Drive Root: O:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+05/01/2012 09:28:00 - SteamUserData\56400\remotecache.vdf - 1116
+05/01/2012 05:54:22 - SteamUserData\56400\remote\campaign_space marines du chaos_0.sav - 43911
+02/01/2012 06:37:34 - SteamUserData\56400\remote\campaign_space marines_0.sav - 42790
+05/01/2012 09:12:21 - SteamUserData\56400\remote\laststand.sav - 2557
+
+Install Folder Dump: 
+Look at the file about Dawn of War II - Retribution, Windows entry
+
+UAC Enabled
+
+
+VirtualStore Folders: 

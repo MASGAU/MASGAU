@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="1" date="2011-12-25T00:00:00">
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2011-12-25T00:00:00">
   <!--This file contains games that are run through the ScummVM project-->
   <game name="BeneathASteelSky" platform="ScummVM">
     <title>Beneath a Steel Sky</title>
@@ -7,7 +7,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBENEATH" value="PATH"/>
     <location_shortcut shortcut="Programs\GOG.com\Beneath a Steel Sky\Beneath a Steel Sky.lnk" detract="ScummVM"/>
     <save filename="SKY-VM.*"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="BrokenSword1" platform="ScummVM">
     <title>Broken Sword: The Shadow of the Templars</title>
@@ -15,7 +15,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD1" value="PATH"/>
     <location_shortcut shortcut="Programs\GOG.com\Broken Sword - The Shadow of the Templars\Broken Sword - The Shadow of the Templars\Broken Sword - The Shadow of the Templars.lnk" detract="ScummVM"/>
     <save filename="sword1.*"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="BrokenSword2" platform="ScummVM">
     <title>Broken Sword II: The Smoking Mirror</title>
@@ -23,7 +23,15 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD2" value="PATH"/>
     <location_shortcut shortcut="Programs\GOG.com\Broken Sword II - The Smoking Mirror\Broken Sword II - The Smoking Mirror.lnk" detract="ScummVM"/>
     <save filename="bsword2.*"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="FeebleFiles" platform="ScummVM">
+    <title>The Feeble Files</title>
+    <location_path environment_variable="installlocation" path="GOG.com\The Feeble Files"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGFEBBLEFILES" value="PATH"/>
+    <location_shortcut shortcut="Programs\GOG.com\The Feeble Files\The Feeble Files.lnk" detract="ScummVM"/>
+    <save filename="feeble.0??"/>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="Gobliins2" platform="ScummVM">
     <title>Gobliins 2</title>
@@ -31,7 +39,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGOBLINS2" value="PATH"/>
     <location_shortcut shortcut="Programs\GOG.com\Gobliiins Pack\Gobliiins\Gobliiins.lnk" append="Gobliins2" detract="ScummVM"/>
     <save filename="gobliins2.*"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="Gobliins2Floppy" platform="ScummVM">
     <title>Gobliins 2 Floppy</title>
@@ -39,7 +47,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGOBLINS2FDD" value="PATH"/>
     <location_shortcut shortcut="Programs\GOG.com\Gobliiins Pack\Gobliiins\Gobliiins (Floppy Verion).lnk" append="Gobliins2 Floppy" detract="ScummVM"/>
     <save filename="gobliins2FDD.*"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="GoblinsQuest3" platform="ScummVM">
     <title>Goblins Quest 3</title>
@@ -47,7 +55,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGOBLINS3" value="PATH"/>
     <location_shortcut shortcut="Programs\GOG.com\Gobliiins Pack\Goblins Quest 3\Goblins Quest 3.lnk" append="Goblins3" detract="ScummVM"/>
     <save filename="goblins3.*"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="GoblinsQuest3Floppy" platform="ScummVM">
     <title>Goblins Quest 3 Floppy</title>
@@ -55,7 +63,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGOBLINS3FDD" value="PATH"/>
     <location_shortcut shortcut="Programs\GOG.com\Gobliiins Pack\Goblins Quest 3\Goblins Quest 3 (Floppy Verion).lnk" append="Goblins3 Floppy" detract="ScummVM"/>
     <save filename="goblins3FDD.*"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="LureOfTheTemptress" platform="ScummVM">
     <title>Lure of the Temptress</title>
@@ -63,7 +71,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGLURE" value="PATH"/>
     <location_shortcut shortcut="Programs\GOG.com\Lure of the Temptress\Lure of the Temptress.lnk"/>
     <save filename="lure.*"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="SimonTheSorcerer" platform="ScummVM">
     <title>Simon the Sorcerer</title>
@@ -72,7 +80,7 @@
     <location_shortcut shortcut="Programs\GOG.com\Simon the Sorcerer\Simon the Sorcerer.lnk" detract="ScummVM"/>
     <save filename="simon1.0*"/>
     <save filename="simon1.ini" type="Settings"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="SimonTheSorcerer2" platform="ScummVM">
     <title>Simon the Sorcerer 2</title>
@@ -81,6 +89,6 @@
     <location_shortcut shortcut="Programs\GOG.com\Simon the Sorcerer 2\Simon the Sorcerer 2.lnk" detract="ScummVM"/>
     <save filename="simon2.0*"/>
     <save filename="simon2.ini" type="Settings"/>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
 </games>

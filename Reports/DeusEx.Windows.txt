@@ -1,0 +1,390 @@
+Game Name: Deus Ex
+Operating System: 
+Microsoft Windows NT 5.1.2600 Service Pack 3
+
+Install Path: 
+Drive\Games\Deus Ex
+
+(Default install paths are as follows:
+Steam: steamcommon\deus ex
+Disc c:\DeusEx\
+GoG: C:\Program Files\GOG.com\Deus Ex
+
+Save Path: 
+Drive\Games\Deus Ex\Save
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\deusex\DefaultIcon
+Value: 
+Data: 08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\DeusEx.ico - 3310
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\deusex\Shell\open\command
+Value: 
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\DeusEx.Link\DefaultIcon
+Value: 
+Data: 08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\DeusEx.ico - 3310
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\DeusEx.Link\Shell\open\command
+Value: 
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\DeusEx.Map\DefaultIcon
+Value: 
+Data: 08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\DeusEx.ico - 3310
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\DeusEx.Map\Shell\open\command
+Value: 
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGDEUSX
+Value: EXE
+Data: 08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\DeusEx.exe - 253952
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGDEUSX
+Value: PATH
+Data: Drive\Games\Deus Ex
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGDEUSX
+Value: LAUNCHCOMMAND
+Data: 08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\DeusEx.exe - 253952
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGDEUSX
+Value: SAVEGAMEFOLDER
+Data: Drive\Games\Deus Ex
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Deus Ex
+Value: UninstallString
+Data: 01/26/2012 08:19:54 AM - Drive\Games\Deus Ex\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Deus Ex - Game of the Year Edition_is1
+Value: Inno Setup: App Path
+Data: Drive\Games\Deus Ex
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Deus Ex - Game of the Year Edition_is1
+Value: InstallLocation
+Data: Drive\Games\Deus Ex
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Unreal Technology\Installed Apps\Deus Ex
+Value: Folder
+Data: Drive\Games\Deus Ex
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Deus Ex GOTY [Safe Mode].lnk - 615
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\DeusEx.exe - 253952
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Deus Ex GOTY.lnk - 677
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\DeusEx.exe - 253952
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Uninstall Deus Ex GOTY.lnk - 510
+01/26/2012 08:19:54 AM - Drive\Games\Deus Ex\unins000.exe - 2142547
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Documents\Manual.lnk - 538
+12/30/2011 12:31:12 PM - Drive\Games\Deus Ex\manual.pdf - 3314622
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Documents\Multiplayer Administration.lnk - 598
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\MPAdmin.htm - 1992
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Documents\Multiplayer Documentation.lnk - 630
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\ReadMeMultiplayer.htm - 31315
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Documents\Multiplayer Map Creation.lnk - 590
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\MPMap.htm - 3950
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Documents\Multiplayer Strategy Guide.lnk - 627
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\ReadMeMPStrategy.htm - 75113
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Documents\Patch 1 Documentation.lnk - 615
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\ReadMePatch1.htm - 8606
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Documents\Patch Fixes.lnk - 603
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\PatchFix.htm - 7695
+01/26/2012 08:20:50 AM - AllUsersProfile\Start Menu\Programs\GOG.com\Deus Ex GOTY\Documents\Readme.lnk - 595
+12/30/2011 12:58:44 PM - Drive\Games\Deus Ex\Help\ReadMe.htm - 33059
+
+Root Drive Information: 
+Drive Name: Z:\
+Drive Root: Z:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+
+Install Folder Dump: 
+01/24/2012 03:16:50 PM - Drive\Games\Deus Ex\gfw_high.ico - 120110
+01/26/2012 10:59:58 AM - Drive\Games\Deus Ex\goggame.dll - 226304
+11/28/2008 10:32:10 PM - Drive\Games\Deus Ex\innosetup_license.txt - 1471
+12/30/2011 12:31:12 PM - Drive\Games\Deus Ex\manual.pdf - 3314622
+04/20/2010 12:37:04 PM - Drive\Games\Deus Ex\Support.ico - 62895
+01/26/2012 08:20:51 AM - Drive\Games\Deus Ex\unins000.dat - 70139
+01/26/2012 08:19:54 AM - Drive\Games\Deus Ex\unins000.exe - 2142547
+01/26/2012 08:20:50 AM - Drive\Games\Deus Ex\unins000.ini - 72
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\DeusEx.ico - 3310
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\Logo.bmp - 211000
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\LogoSmall.bmp - 39580
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\MPAdmin.htm - 1992
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\MPMap.htm - 3950
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\PatchFix.htm - 7695
+12/30/2011 12:58:44 PM - Drive\Games\Deus Ex\Help\ReadMe.htm - 33059
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\ReadMeMPStrategy.htm - 75113
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\ReadMeMultiplayer.htm - 31315
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Help\ReadMePatch1.htm - 8606
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\00_Intro.dx - 4702437
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\00_Training.dx - 4431551
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\00_TrainingCombat.dx - 2297793
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\00_TrainingFinal.dx - 3769371
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\01_NYC_UNATCOHQ.dx - 2579635
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\01_NYC_UNATCOIsland.dx - 9411740
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\02_NYC_Bar.dx - 627588
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\02_NYC_BatteryPark.dx - 5104749
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\02_NYC_FreeClinic.dx - 1073976
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\02_NYC_Hotel.dx - 1827517
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\02_NYC_Smug.dx - 1029743
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Maps\02_NYC_Street.dx - 5431692
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\02_NYC_Underground.dx - 1677442
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\02_NYC_Warehouse.dx - 4835505
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_747.dx - 1462124
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_Airfield.dx - 6488338
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_AirfieldHeliBase.dx - 4444272
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_BatteryPark.dx - 3496125
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_BrooklynBridgeStation.dx - 3884113
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_Hangar.dx - 1800796
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_MolePeople.dx - 2046632
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_UNATCOHQ.dx - 2626230
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\03_NYC_UNATCOIsland.dx - 2528418
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\04_NYC_Bar.dx - 611916
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\04_NYC_BatteryPark.dx - 3285325
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\04_NYC_Hotel.dx - 1852100
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\04_NYC_NSFHQ.dx - 3614575
+08/08/2011 11:25:38 AM - Drive\Games\Deus Ex\Maps\04_NYC_Smug.dx - 1028562
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\04_NYC_Street.dx - 5474857
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\04_NYC_UNATCOHQ.dx - 2658401
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\04_NYC_UNATCOIsland.dx - 2561087
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\04_NYC_Underground.dx - 658498
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\05_NYC_UNATCOHQ.dx - 2600903
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\05_NYC_UNATCOIsland.dx - 2860534
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\05_NYC_UNATCOMJ12lab.dx - 7441258
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\06_HongKong_Helibase.dx - 4363990
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\06_HongKong_MJ12lab.dx - 4517287
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\06_HongKong_Storage.dx - 3282126
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\06_HongKong_TongBase.dx - 1115481
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\06_HongKong_VersaLife.dx - 3439321
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\06_HongKong_WanChai_Canal.dx - 6826446
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\06_HongKong_WanChai_Garage.dx - 815838
+08/08/2011 11:25:40 AM - Drive\Games\Deus Ex\Maps\06_HongKong_WanChai_Market.dx - 3942560
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\06_HongKong_WanChai_Street.dx - 4558865
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\06_HongKong_WanChai_Underworld.dx - 3253900
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\08_NYC_Bar.dx - 610113
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\08_NYC_FreeClinic.dx - 1069748
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\08_NYC_Hotel.dx - 1835044
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\08_NYC_Smug.dx - 1029316
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\08_NYC_Street.dx - 3488054
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\08_NYC_Underground.dx - 740333
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\09_NYC_Dockyard.dx - 4809553
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\09_NYC_Graveyard.dx - 1562570
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\09_NYC_Ship.dx - 6085529
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\09_NYC_ShipBelow.dx - 4974361
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\09_NYC_ShipFan.dx - 634986
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\10_Paris_Catacombs.dx - 5529951
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\10_Paris_Catacombs_Tunnels.dx - 2666508
+08/08/2011 11:25:42 AM - Drive\Games\Deus Ex\Maps\10_Paris_Chateau.dx - 4024643
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\10_Paris_Club.dx - 1143640
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\10_Paris_Metro.dx - 6069454
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\11_Paris_Cathedral.dx - 5975041
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\11_Paris_Everett.dx - 3049981
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\11_Paris_Underground.dx - 1172475
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\12_Vandenberg_Cmd.dx - 7800236
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\12_Vandenberg_Computer.dx - 2814631
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\12_Vandenberg_Gas.dx - 3445072
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\12_Vandenberg_Tunnels.dx - 4544536
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\14_OceanLab_Lab.dx - 8210244
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\14_Oceanlab_Silo.dx - 7974873
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\14_OceanLab_UC.dx - 4716412
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\14_Vandenberg_Sub.dx - 7167768
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\15_Area51_Bunker.dx - 6492528
+08/08/2011 11:25:44 AM - Drive\Games\Deus Ex\Maps\15_Area51_Entrance.dx - 4413974
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\Maps\15_Area51_Final.dx - 7504867
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\Maps\15_Area51_Page.dx - 8961143
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\Maps\99_Endgame1.dx - 2574822
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\Maps\99_Endgame2.dx - 3042122
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\Maps\99_Endgame3.dx - 3096965
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\Maps\99_Endgame4.dx - 23374
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Maps\DX.dx - 17459
+01/04/2001 09:31:40 AM - Drive\Games\Deus Ex\Maps\DXMP_Area51Bunker.dx - 3351021
+08/08/2011 11:47:32 AM - Drive\Games\Deus Ex\Maps\DXMP_Cathedral.dx - 3319317
+01/04/2001 09:38:48 AM - Drive\Games\Deus Ex\Maps\DXMP_CMD.dx - 4262223
+01/04/2001 09:40:14 AM - Drive\Games\Deus Ex\Maps\DXMP_Silo.dx - 3630082
+01/04/2001 12:57:22 PM - Drive\Games\Deus Ex\Maps\DXMP_Smuggler.dx - 2119446
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Maps\DXOnly.dx - 6035
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Maps\Entry.dx - 13745
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\Area51Bunker_Music.umx - 1642028
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\Area51_Music.umx - 1807010
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\BatteryPark_Music.umx - 1803702
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\Credits_Music.umx - 1992028
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\DeusExDanceMix_Music.umx - 1738728
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\Endgame1_Music.umx - 1407139
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\Endgame2_Music.umx - 1169570
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\Endgame3_Music.umx - 1954069
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\HKClub2_Music.umx - 1475935
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Music\HKClub_Music.umx - 1255472
+08/08/2011 11:25:32 AM - Drive\Games\Deus Ex\Music\HongKongCanal_Music.umx - 1147546
+08/08/2011 11:25:32 AM - Drive\Games\Deus Ex\Music\HongKongHelipad_Music.umx - 1578818
+08/08/2011 11:25:32 AM - Drive\Games\Deus Ex\Music\HongKong_Music.umx - 1399423
+08/08/2011 11:25:32 AM - Drive\Games\Deus Ex\Music\Intro_Music.umx - 1843428
+08/08/2011 11:25:32 AM - Drive\Games\Deus Ex\Music\Lebedev_Music.umx - 1478323
+08/08/2011 11:25:32 AM - Drive\Games\Deus Ex\Music\LibertyIsland_Music.umx - 1645423
+08/08/2011 11:25:32 AM - Drive\Games\Deus Ex\Music\MJ12_Music.umx - 1533344
+08/08/2011 11:25:32 AM - Drive\Games\Deus Ex\Music\NavalBase_Music.umx - 1743155
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\NYCBar2_Music.umx - 1226857
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\NYCStreets2_Music.umx - 1406663
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\NYCStreets_Music.umx - 1565835
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\OceanLab2_Music.umx - 1455787
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\OceanLab_Music.umx - 1461714
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\ParisCathedral_Music.umx - 1603351
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\ParisChateau_Music.umx - 1660479
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\ParisClub2_Music.umx - 1431970
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\ParisClub_Music.umx - 1404746
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\Quotes_Music.umx - 705383
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\Title_Music.umx - 1976678
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\Training_Music.umx - 1450137
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\Tunnels_Music.umx - 1868459
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\UNATCOReturn_Music.umx - 1776043
+08/08/2011 11:25:34 AM - Drive\Games\Deus Ex\Music\UNATCO_Music.umx - 1617090
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Music\Vandenberg_Music.umx - 2042058
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Music\VersaLife_Music.umx - 1699529
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Sounds\Ambient.uax - 9748357
+08/08/2011 11:25:36 AM - Drive\Games\Deus Ex\Sounds\MoverSFX.uax - 3987934
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\ConSys.dll - 135168
+03/16/2001 12:43:28 PM - Drive\Games\Deus Ex\System\ConSys.u - 94794
+08/08/2011 11:25:26 AM - Drive\Games\Deus Ex\System\Core.dll - 790528
+08/08/2011 11:25:26 AM - Drive\Games\Deus Ex\System\Core.int - 3282
+03/16/2001 12:43:28 PM - Drive\Games\Deus Ex\System\Core.u - 60531
+08/08/2011 11:25:26 AM - Drive\Games\Deus Ex\System\D3DDrv.dll - 212992
+08/08/2011 11:25:26 AM - Drive\Games\Deus Ex\System\D3DDrv.int - 374
+08/08/2011 12:08:24 PM - Drive\Games\Deus Ex\System\Default.ini - 7249
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\System\DefUser.ini - 5959
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\DeusEx.dll - 245760
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\DeusEx.exe - 253952
+08/08/2011 12:08:16 PM - Drive\Games\Deus Ex\System\DeusEx.ini - 7249
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\DeusEx.int - 113023
+03/19/2001 12:16:10 PM - Drive\Games\Deus Ex\System\DeusEx.u - 5386972
+02/15/2001 12:49:38 PM - Drive\Games\Deus Ex\System\DeusExCharacters.u - 27310840
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\System\DeusExConAudioAIBarks.u - 14756574
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\System\DeusExConAudioEndGame.u - 1329928
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\System\DeusExConAudioHK_Shared.u - 31697212
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\System\DeusExConAudioIntro.u - 730907
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission00.u - 5151373
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission01.u - 12444736
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission02.u - 17804434
+08/08/2011 11:25:46 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission03.u - 20125905
+08/08/2011 11:25:48 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission04.u - 14758230
+08/08/2011 11:25:48 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission05.u - 6553799
+08/08/2011 11:25:48 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission08.u - 7618539
+08/08/2011 11:25:48 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission09.u - 6665875
+08/08/2011 11:25:48 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission10.u - 20437859
+08/08/2011 11:25:48 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission11.u - 8928313
+08/08/2011 11:25:48 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission12.u - 7396547
+08/08/2011 11:25:48 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission14.u - 4068239
+08/08/2011 11:25:50 AM - Drive\Games\Deus Ex\System\DeusExConAudioMission15.u - 8454459
+08/08/2011 11:25:50 AM - Drive\Games\Deus Ex\System\DeusExConAudioNYShared.u - 2375589
+03/16/2001 12:43:30 PM - Drive\Games\Deus Ex\System\DeusExConText.u - 3945489
+02/15/2001 12:49:38 PM - Drive\Games\Deus Ex\System\DeusExConversations.u - 2292
+02/15/2001 12:49:46 PM - Drive\Games\Deus Ex\System\DeusExDeco.u - 9840776
+03/16/2001 12:43:30 PM - Drive\Games\Deus Ex\System\DeusExItems.u - 5829328
+03/16/2001 12:43:32 PM - Drive\Games\Deus Ex\System\DeusExSounds.u - 17596150
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\DeusExText.dll - 49152
+03/16/2001 12:43:32 PM - Drive\Games\Deus Ex\System\DeusExText.u - 371251
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\DeusExUI.u - 27378034
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Editor.dll - 1253376
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Editor.int - 3403
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\Editor.u - 98657
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Engine.dll - 1732608
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Engine.int - 4993
+03/16/2001 12:50:30 PM - Drive\Games\Deus Ex\System\Engine.u - 1406778
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Extension.dll - 675840
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\Extension.u - 368327
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Fire.dll - 106496
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\Fire.u - 14926
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Galaxy.dll - 360448
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Galaxy.int - 273
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\GlideDrv.dll - 86016
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\GlideDrv.int - 451
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\IpDrv.dll - 184320
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\IpDrv.int - 1153
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\IpDrv.u - 19849
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\IpServer.int - 301
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\IpServer.u - 29321
+08/08/2011 11:47:32 AM - Drive\Games\Deus Ex\System\Manifest.ini - 21276
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\MeTaLDrv.dll - 53248
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\MeTaLDrv.int - 455
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\MPCharacters.u - 1200984
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\MSVCRT.dll - 277776
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\OpenGlDrv.dll - 110592
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\OpenGlDrv.ini - 1160
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\OpenGlDrv.int - 596
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Render.dll - 233472
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Setup.exe - 299008
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Setup.int - 7594
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\SGLDrv.dll - 94208
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\SGLDrv.int - 451
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\SoftDrv.dll - 393216
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\SoftDrv.int - 329
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Startup.int - 4239
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\UBrowser.u - 325317
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\System\User.ini - 5959
+03/16/2001 12:43:36 PM - Drive\Games\Deus Ex\System\UWindow.u - 644206
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Window.dll - 397312
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\Window.int - 2095
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\WinDrv.dll - 159744
+08/08/2011 11:25:28 AM - Drive\Games\Deus Ex\System\WinDrv.int - 681
+04/28/2000 07:03:54 PM - Drive\Games\Deus Ex\Textures\Airfield.utx - 3802215
+05/23/2000 02:05:28 PM - Drive\Games\Deus Ex\Textures\area51textures.utx - 3025133
+01/19/2000 02:40:52 PM - Drive\Games\Deus Ex\Textures\BatteryPark.utx - 2980734
+01/14/2000 02:12:56 PM - Drive\Games\Deus Ex\Textures\BobPage.utx - 10122
+05/01/2000 02:34:02 PM - Drive\Games\Deus Ex\Textures\Catacombs.utx - 1557535
+05/23/2000 01:48:48 PM - Drive\Games\Deus Ex\Textures\Cmd_tunnels.utx - 389982
+01/26/2000 03:45:06 PM - Drive\Games\Deus Ex\Textures\Constructor.utx - 201485
+04/28/2000 09:58:20 AM - Drive\Games\Deus Ex\Textures\CoreTexBrick.utx - 523868
+04/28/2000 12:35:30 PM - Drive\Games\Deus Ex\Textures\CoreTexCeramic.utx - 149500
+04/28/2000 05:29:22 PM - Drive\Games\Deus Ex\Textures\CoreTexConcrete.utx - 1130768
+02/15/1999 01:02:26 PM - Drive\Games\Deus Ex\Textures\CoreTexDetail.utx - 283939
+04/28/2000 09:48:36 AM - Drive\Games\Deus Ex\Textures\CoreTexEarth.utx - 355984
+04/28/2000 12:25:44 PM - Drive\Games\Deus Ex\Textures\CoreTexFoliage.utx - 199841
+04/28/2000 10:08:52 AM - Drive\Games\Deus Ex\Textures\CoreTexGlass.utx - 450742
+04/28/2000 02:34:36 PM - Drive\Games\Deus Ex\Textures\CoreTexMetal.utx - 5586282
+05/23/2000 09:10:42 AM - Drive\Games\Deus Ex\Textures\CoreTexMisc.utx - 6031976
+04/27/2000 07:42:40 PM - Drive\Games\Deus Ex\Textures\CoreTexPaper.utx - 109872
+04/28/2000 05:56:44 PM - Drive\Games\Deus Ex\Textures\CoreTexSky.utx - 1720642
+04/28/2000 10:26:22 AM - Drive\Games\Deus Ex\Textures\CoreTexStone.utx - 777807
+04/28/2000 01:50:28 PM - Drive\Games\Deus Ex\Textures\CoreTexStucco.utx - 90751
+04/28/2000 07:08:50 PM - Drive\Games\Deus Ex\Textures\CoreTexTextile.utx - 95985
+04/27/2000 03:48:38 PM - Drive\Games\Deus Ex\Textures\CoreTexTiles.utx - 187987
+05/24/2000 01:49:32 PM - Drive\Games\Deus Ex\Textures\CoreTexWallObj.utx - 689106
+01/08/1999 03:50:40 PM - Drive\Games\Deus Ex\Textures\CoreTexWater.utx - 176547
+05/24/2000 01:59:04 PM - Drive\Games\Deus Ex\Textures\CoreTexWood.utx - 1920647
+05/23/2000 01:56:42 PM - Drive\Games\Deus Ex\Textures\Dockyard.utx - 1468754
+04/10/2000 01:55:00 PM - Drive\Games\Deus Ex\Textures\DXFonts.utx - 273241
+05/03/2000 05:37:56 PM - Drive\Games\Deus Ex\Textures\Effects.utx - 678784
+05/04/2000 07:45:00 PM - Drive\Games\Deus Ex\Textures\Extras.utx - 887346
+05/08/2000 12:04:58 PM - Drive\Games\Deus Ex\Textures\FreeClinic.utx - 503442
+04/06/2000 04:06:04 PM - Drive\Games\Deus Ex\Textures\G_Station.utx - 561195
+09/22/1999 10:27:14 AM - Drive\Games\Deus Ex\Textures\Hangar18.utx - 176631
+04/28/2000 09:38:32 AM - Drive\Games\Deus Ex\Textures\HK_BuildingExt.utx - 712401
+04/27/2000 06:57:52 PM - Drive\Games\Deus Ex\Textures\HK_Decorations.utx - 548193
+05/23/2000 01:39:32 PM - Drive\Games\Deus Ex\Textures\HK_Helibase.utx - 430181
+04/28/2000 09:33:18 AM - Drive\Games\Deus Ex\Textures\HK_Interior.utx - 1029980
+05/23/2000 01:40:12 PM - Drive\Games\Deus Ex\Textures\HK_MJ12Lab.utx - 579400
+05/23/2000 01:41:54 PM - Drive\Games\Deus Ex\Textures\HK_Signs.utx - 557689
+05/23/2000 01:40:46 PM - Drive\Games\Deus Ex\Textures\HK_VersaLife.utx - 424128
+05/22/2000 11:59:02 AM - Drive\Games\Deus Ex\Textures\InfoPortraits.utx - 110821
+05/23/2000 01:36:40 PM - Drive\Games\Deus Ex\Textures\MJ12_lab.utx - 560858
+05/01/2000 07:37:04 AM - Drive\Games\Deus Ex\Textures\Mobile_Camp.utx - 437592
+04/28/2000 02:40:30 PM - Drive\Games\Deus Ex\Textures\MolePeople.utx - 4744445
+04/28/2000 12:36:08 PM - Drive\Games\Deus Ex\Textures\Moon.utx - 648185
+05/23/2000 01:34:44 PM - Drive\Games\Deus Ex\Textures\NewYorkCity.utx - 6590004
+05/24/2000 01:46:32 PM - Drive\Games\Deus Ex\Textures\NYCBar.utx - 952219
+04/06/2000 10:31:48 AM - Drive\Games\Deus Ex\Textures\OceanLab.utx - 1083486
+08/08/2011 11:25:30 AM - Drive\Games\Deus Ex\Textures\Palettes.utx - 421024
+04/28/2000 01:38:50 PM - Drive\Games\Deus Ex\Textures\Paris.utx - 2797050
+05/17/1998 09:10:26 AM - Drive\Games\Deus Ex\Textures\Render.utx - 88914
+05/23/2000 02:00:06 PM - Drive\Games\Deus Ex\Textures\Rocket.utx - 2443671
+03/22/2000 01:53:08 PM - Drive\Games\Deus Ex\Textures\SubBase.utx - 644839
+04/28/2000 10:27:18 AM - Drive\Games\Deus Ex\Textures\subway.utx - 218433
+05/23/2000 01:59:04 PM - Drive\Games\Deus Ex\Textures\Supertanker.utx - 2727799
+05/23/2000 01:30:48 PM - Drive\Games\Deus Ex\Textures\UNATCO.utx - 4406928
+05/23/2000 01:45:40 PM - Drive\Games\Deus Ex\Textures\V_Com_Center.utx - 1496835
+
+UAC Disabled or not present
+

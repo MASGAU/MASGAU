@@ -2,7 +2,7 @@
 using System.Windows;
 using System.IO;
 using System.Text;
-
+using Translations;
 namespace MASGAU.Analyzer
 {
     /// <summary>
@@ -18,16 +18,15 @@ namespace MASGAU.Analyzer
 			InitializeComponent();
 			report = new_report;
             name = new_name;
-
+            this.Title = Strings.get("ReportWindowTitle");
+            disclaimerText.Text = Strings.get("AnalyzerDisclaimer");
+            
         }
 
-    
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 			reportTxt.Text = report;
-
-            disclaimerText.Text = AnalyzerProgramHandler.disclaimer;
-
             
             //if (Core.settings.reports_okay_to_publish == null) {
               //  Core.settings.reports_okay_to_publish =
@@ -39,36 +38,27 @@ namespace MASGAU.Analyzer
             //publishPermissionCheck.DataContext = Core.settings;
 
             email.checkAvailability(checkAvailabilityDone);
-            uploadBtn.Content = "Checking E-Mail Server...";
+            uploadBtn.Content = Strings.get("CheckingConnection");
         }
 
         private void checkAvailabilityDone(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
             if(email.email_available) {
                 uploadBtn.IsEnabled = true;
-                uploadBtn.Content = "E-Mail Report";
+                uploadBtn.Content = Strings.get("SendReport");
             } else {
                 uploadBtn.IsEnabled = false;
-                uploadBtn.Content = "E-Mail Server Blocked";
+                uploadBtn.Content = Strings.get("CantSendReport");
             }
 
-        }
-
-        private string prepareReport() {
-            StringBuilder return_me = new StringBuilder(reportTxt.Text);
-            //if((bool)publishPermissionCheck.IsChecked) {
-              //  return_me.AppendLine();
-              //  return_me.AppendLine("Permission to publish has been granted");
-            //}
-            return return_me.ToString();
         }
 
         private void saveBtn_Click(object sender, RoutedEventArgs e)
         {
             System.Windows.Forms.SaveFileDialog save = new System.Windows.Forms.SaveFileDialog();
             save.DefaultExt = "txt";
-            save.Filter = "Text files|*.txt|All files|*";
-            save.Title = "Where Do You Want To Save The Report?";
+            save.Filter = Strings.get("TxtFileDescriptionPlural") + "|*.txt|" + Strings.get("AllFileDescriptionPlural") +"|*";
+            save.Title = Strings.get("SaveReportQuestion");
             if(AnalyzerProgramHandler.last_save_path==null)
                 save.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             else
@@ -79,10 +69,10 @@ namespace MASGAU.Analyzer
                 AnalyzerProgramHandler.last_save_path = Path.GetDirectoryName(save.FileName);
 				try {
 					StreamWriter writer = File.CreateText(save.FileName);
-					writer.Write(prepareReport());
+					writer.Write(reportTxt.Text);
 					writer.Close();
 				} catch {
-                    showError("Pick somewhere else","Eror while trying to write " + save.FileName);
+                    showError(Strings.get("WriteErrorPrompt"), Strings.get("WriteError") + " " + save.FileName);
 				}
 			}
 
@@ -90,30 +80,25 @@ namespace MASGAU.Analyzer
 
         private void uploadBtn_Click(object sender, RoutedEventArgs e)
         {
-            if(Core.settings.email==null||Core.settings.email=="") {
-                EmailWindow get_email = new EmailWindow(this);
-                if((bool)get_email.ShowDialog()) {
-                    Core.settings.email = get_email.email;
-                } else {
-                    return;
-                }
-            }
+            if (!WPFHelpers.checkEmail(this))
+                return;
 
             StringBuilder body = new StringBuilder();
-            body.AppendLine(prepareReport());
+            body.AppendLine(reportTxt.Text);
 
             uploadBtn.IsEnabled = false;
             closeBtn.IsEnabled = false;
-            uploadBtn.Content = "Sending E-Mail...";
-            email.sendEmail(EmailHandler.email_recepient,EmailHandler.email_recepient,Core.settings.email,"MASGAU - " + name, body.ToString(), sendEmailDone);
+            uploadBtn.Content = Strings.get("SendingReport");
+            email.sendEmail(Core.submission_email,Core.submission_email,Core.settings.email,"MASGAU - " + name, body.ToString(), sendEmailDone);
         }
+
         private void sendEmailDone(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
             if(e.Error!=null) {
-                uploadBtn.Content = "E-Mail Not Working";
+                uploadBtn.Content = Strings.get("CantSendReport");
                 showError("Error time",e.Error.Message);
             } else {
-                uploadBtn.Content = "E-Mail Sent";
+                uploadBtn.Content = Strings.get("ReportSent");
             }
             uploadBtn.IsEnabled = false;
             closeBtn.IsEnabled = true;

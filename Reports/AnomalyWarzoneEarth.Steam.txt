@@ -1,0 +1,96 @@
+Comments:
+  <game name="AnomalyWarzoneEarth" platform="Steam">
+    <title>Anomaly Warzone Earth</title>
+    <location_path environment_variable="steamuserdata" path="91200" />
+    <save />
+    <contributer>%USER%</contributer>
+  </game>
+
+
+Game Name: Anomaly Warzone Earth
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth
+
+Save Path: 
+C:\Program Files (x86)\Steam\userdata\#####\91200
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 91200
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\anomaly warzone earth
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Dec 26 7:00:59 PM - C:\Program Files (x86)\Steam\userdata\###\91200\remotecache.vdf - 1012
+Dec 26 7:00:32 PM - C:\Program Files (x86)\Steam\userdata\###\91200\remote\progress - 211
+Dec 26 7:00:43 PM - C:\Program Files (x86)\Steam\userdata\###\91200\remote\progress.alt - 211
+Dec 26 6:49:36 PM - C:\Program Files (x86)\Steam\userdata\###\91200\remote\results - 1084
+Dec 26 7:00:32 PM - C:\Program Files (x86)\Steam\userdata\###\91200\remote\results.alt - 1116
+
+Install Folder Dump: 
+Dec 26 4:45:56 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\91200_install.vdf - 599
+Dec 26 4:43:29 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\animations.dat - 42681
+Dec 26 4:43:28 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\animations.idx - 436
+Dec 26 4:43:58 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\animations_001.dat - 36978
+Dec 26 4:45:19 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\animations_001.idx - 164
+Dec 26 4:47:02 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\AnomalyWarzoneEarth.exe - 2401280
+Dec 26 4:46:11 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\AnomalyWarzoneEarth.ico - 353118
+Dec 26 4:50:14 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\common.dat - 24466513
+Dec 26 4:43:53 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\common.idx - 20751
+Dec 26 4:43:27 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\common_001.dat - 0
+Dec 26 4:43:29 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\common_001.idx - 11
+Dec 26 4:44:09 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\PCTouchHelper.dll - 7680
+Dec 26 4:51:10 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\scenes.dat - 43948343
+Dec 26 4:44:12 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\scenes.idx - 2884
+Dec 26 4:48:54 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\scenes_001.dat - 11684527
+Dec 26 4:43:37 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\scenes_001.idx - 623
+Dec 26 4:55:54 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\sounds.dat - 81167028
+Dec 26 4:43:29 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\sounds.idx - 4465
+Dec 26 4:43:37 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\sounds_001.dat - 160952
+Dec 26 4:49:11 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\sounds_001.idx - 113
+Dec 26 4:43:29 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\steam_api.dll - 124712
+Dec 26 4:45:50 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\templates.dat - 12362466
+Dec 26 4:43:48 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\templates.idx - 23454
+Dec 26 4:48:42 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\templates_001.dat - 532148
+Dec 26 4:43:48 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\templates_001.idx - 1796
+Dec 26 5:05:55 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\textures.dat - 187186330
+Dec 26 4:43:28 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\textures.idx - 7066
+Dec 26 4:44:45 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\textures_001.dat - 2756250
+Dec 26 4:44:15 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\textures_001.idx - 385
+Dec 26 4:52:42 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\videos.dat - 22490748
+Dec 26 4:46:22 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\videos.idx - 28
+Dec 26 4:56:54 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\voices.dat - 66040947
+Dec 26 4:43:28 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\voices.idx - 18337
+Dec 26 4:46:17 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\APR2007_xinput_x86.cab - 53302
+Dec 26 4:48:59 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\DSETUP.dll - 89944
+Dec 26 4:47:59 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\dsetup32.dll - 1801048
+Dec 26 4:43:59 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\dxdllreg_x86.cab - 42410
+Dec 26 4:44:46 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\DXSETUP.exe - 537432
+Dec 26 4:44:05 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\dxupdate.cab - 94011
+Dec 26 4:43:29 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\Feb2010_X3DAudio_x86.cab - 20713
+Dec 26 4:45:38 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\Jun2010_D3DCompiler_43_x86.cab - 931471
+Dec 26 4:43:36 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\Jun2010_d3dcsx_43_x86.cab - 762188
+Dec 26 4:45:41 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\Jun2010_d3dx10_43_x86.cab - 197283
+Dec 26 4:43:28 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\Jun2010_d3dx11_43_x86.cab - 109445
+Dec 26 4:43:35 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\Jun2010_d3dx9_43_x86.cab - 768036
+Dec 26 4:49:14 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\DirectX\Jun2010_XAudio_x86.cab - 278060
+Dec 26 4:46:33 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\Redist\vcredist_x86.exe - 4216840
+Dec 26 4:49:05 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\reslists\precache.lst - 656
+Dec 26 4:44:27 PM - C:\Program Files (x86)\Steam\steamapps\common\anomaly warzone earth\reslists\preload.lst - 656
+
+UAC Disabled or not present
+

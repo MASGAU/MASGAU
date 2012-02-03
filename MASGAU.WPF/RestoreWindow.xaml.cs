@@ -17,7 +17,7 @@ using MASGAU.Archive;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Communication.Progress;
-
+using Translations;
 namespace MASGAU.Restore
 {
     /// <summary>
@@ -33,6 +33,26 @@ namespace MASGAU.Restore
 
         public RestoreWindow(ArchiveHandler archive, AWindow owner): base(new RestoreProgramHandler(archive), owner) {
             InitializeComponent();
+            WPFHelpers.translateContent(cancelButton);
+            WPFHelpers.translateContent(restoreButton);
+            WPFHelpers.translateContent(selectFilesButton);
+            WPFHelpers.translateContent(otherUserButton);
+            WPFHelpers.translateContent(choosePathButton);
+            WPFHelpers.translateContent(selectAllBtn);
+            WPFHelpers.translateContent(selectNoneBtn);
+
+            WPFHelpers.translateHeader(pathBox);
+            WPFHelpers.translateHeader(userBox);
+            WPFHelpers.translateHeader(singlePathBox);
+            WPFHelpers.translateHeader(singleUserBox);
+            
+            WPFHelpers.translateColumnHeader(restoreColumn);
+            WPFHelpers.translateColumnHeader(fileColumn);
+
+            WPFHelpers.translateHeader(selectFilesGroup);
+
+            WPFHelpers.translateText(restoreDoneText);
+            
             default_progress_color = restoreProgress.Foreground;
             this.archive = archive;
         }
@@ -53,13 +73,14 @@ namespace MASGAU.Restore
         {
             base.setup(sender, e);
 
-            
+            if(e.Error!=null)
+                return;
 
             this.archive = restore.archive;
             ProgressHandler.progress_state = ProgressState.None;
 
             tabControl1.SelectedIndex = 1;
-            this.Title = "Confirm Restore Location";
+            this.Title = Strings.get("RestoreConfirmPath");
 
             pathCombo.ItemsSource = restore.path_candidates;
             userCombo.ItemsSource = restore.user_candidates;
@@ -92,19 +113,17 @@ namespace MASGAU.Restore
                 pathBox.Visibility = System.Windows.Visibility.Collapsed;
                 singlePathBox.Visibility = System.Windows.Visibility.Visible;
                 restoreButton.IsEnabled = false;
-                pathLabel.Content = "No Restore Candidates Found";
-                Restore.RestoreProgramHandler.unsuccesfull_restores.Add(archive.file_name + " - No locations found");
+                pathLabel.Content = Strings.get("RestoreNoCandidatesFound");
+                Restore.RestoreProgramHandler.unsuccesfull_restores.Add(archive.file_name + " - " + Strings.get("RestoreNoLocationFound"));
                 this.Close();
             } else if(restore.path_candidates.Count==1) {
                 if(restore.recommended_path.rel_root== EnvironmentVariable.PS3Export||
                     restore.recommended_path.rel_root== EnvironmentVariable.PS3Save||
                     restore.recommended_path.rel_root== EnvironmentVariable.PSPSave) {
-                    userBox.Header = "Choose the removable drive to restore to";
-                    singleUserBox.Header = "This removable drive will be used";
+                    userBox.Header = Strings.get("RestoreRemovableDriveChoice");
+                    singleUserBox.Header = Strings.get("RestoreRemovableDrive");
                     singlePathBox.Visibility = System.Windows.Visibility.Collapsed;
                 } else {
-                    userBox.Header = "Choose the user to restore to";
-                    singleUserBox.Header = "This user will be used";
                     singlePathBox.Visibility = System.Windows.Visibility.Visible;
                 }
                 pathBox.Visibility = System.Windows.Visibility.Collapsed;
@@ -158,7 +177,7 @@ namespace MASGAU.Restore
 
         private void shutDownWindow() {
             restore.cancel();
-            ProgressHandler.progress_message = "Stopping...";
+            ProgressHandler.progress_message = Strings.get("Stopping") + "...";
             if(tabControl1.SelectedIndex != 3)
                 Restore.RestoreProgramHandler.overall_stop = true;
             
@@ -208,17 +227,17 @@ namespace MASGAU.Restore
         private void beginRestoration() {
             if(tabControl1.SelectedIndex == 2) {
                 if(files.SelectedItems.Count==0) {
-                    this.showError("Restore Nothing? That's Stupid.","You haven't selected any files to restore.\nThink about it.");
+                    showTranslatedError("RestoreNoFiles");
                     return;
                 }
             }
 
-            this.Title = "Restoring " + restore.archive.id.ToString();
+            this.Title = Strings.get("Restoring") + " " + restore.archive.id.ToString();
             restoreButton.Visibility = System.Windows.Visibility.Collapsed;
             choosePathButton.Visibility = System.Windows.Visibility.Collapsed;
             selectFilesButton.Visibility = System.Windows.Visibility.Collapsed;
             otherUserButton.Visibility = System.Windows.Visibility.Collapsed;
-            cancelButton.Content = "Stop";
+            cancelButton.Content = Strings.get("StopButton");
             tabControl1.SelectedIndex = 0;
 
             if(Restore.RestoreProgramHandler.use_defaults&&userCombo.SelectedItem!=null) {
@@ -239,8 +258,8 @@ namespace MASGAU.Restore
 
         void restoreComplete(object sender, RunWorkerCompletedEventArgs e)
         {
-            cancelButton.Content = "Close";
-            this.Title = "All Done";
+            cancelButton.Content = Strings.get("CloseButton");
+            this.Title = Strings.get("Finished");
             tabControl1.SelectedIndex = 3;
             if(close_when_done)
                 this.Close();
@@ -259,7 +278,7 @@ namespace MASGAU.Restore
 
         private void choosePathButton_Click(object sender, RoutedEventArgs e)
         {
-            string target = promptForPath("Choose The Location To Restore Too");
+            string target = promptForPath(Strings.get("RestoreLocationChoice"));
             if(target!=null) {
                 restore.addPathCandidate(new ManualLocationPathHolder(target));
                 refreshPaths();
@@ -270,7 +289,7 @@ namespace MASGAU.Restore
 
         private void selectFilesButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Title = "Select Files";
+            this.Title = Strings.get("SelectFiles");
             tabControl1.SelectedIndex = 2;
             choosePathButton.Visibility = System.Windows.Visibility.Collapsed;
             selectFilesButton.Visibility = System.Windows.Visibility.Collapsed;

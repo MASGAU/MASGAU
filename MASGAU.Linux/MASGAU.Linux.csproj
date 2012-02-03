@@ -9,8 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>MASGAU</RootNamespace>
     <AssemblyName>MASGAU.Linux</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <ReleaseVersion>0.9</ReleaseVersion>
+    <ReleaseVersion>0.10</ReleaseVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\MASGAU\masgau.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>

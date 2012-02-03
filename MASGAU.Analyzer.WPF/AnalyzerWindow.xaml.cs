@@ -5,6 +5,7 @@ using MASGAU.Location;
 using System.ComponentModel;
 using MASGAU.Communication.Progress;
 using MASGAU.Location.Holders;
+using Translations;
 namespace MASGAU.Analyzer
 {
     /// <summary>
@@ -16,10 +17,25 @@ namespace MASGAU.Analyzer
 
         public AnalyzerWindow(): base(new AnalyzerProgramHandler())
         {
-            analyzer = (AnalyzerProgramHandler)program_handler;
+            this.analyzer = (AnalyzerProgramHandler)program_handler;
             InitializeComponent();
         }
 
+        protected override void loadTranslations() {
+            this.Title = Strings.get("AnalyzerWindowTitle");
+            this.windowsScanBtn.Content = Strings.get("ScanButton");
+            this.playstationScanButton.Content = Strings.get("ScanButton");
+
+        }
+
+		public override void updateProgress (MASGAU.Communication.Progress.ProgressUpdatedEventArgs e)
+		{
+			if(e.message==null)
+				this.Title = Strings.get("AnalyzerWindowTitle");
+			else 
+				this.Title = Strings.get("AnalyzerWindowTitle") + " - " + e.message;
+		}	
+		
         protected override void WindowLoaded(object sender, RoutedEventArgs e)
         {
             this.Title += " - Loading Settings...";
@@ -36,7 +52,7 @@ namespace MASGAU.Analyzer
 
             if(Core.locations.ready) {
 
-                if(getFolder(EnvironmentVariable.ProgramFilesX86,null)==null) {
+                if(Core.locations.getFolder(EnvironmentVariable.ProgramFilesX86,null)==null) {
                     programFilesx86Btn.IsEnabled = false;
                 }
                 if(!Core.locations.steam_detected) {
@@ -83,7 +99,7 @@ namespace MASGAU.Analyzer
 
 
             if(description==null)
-                pathBrowser.Description = "Select Install Folder";
+                pathBrowser.Description = Strings.get("GameInstallPrompt");
             else
                 pathBrowser.Description = description;
 
@@ -95,28 +111,20 @@ namespace MASGAU.Analyzer
         }
 
         private void getGamePath(string path, Environment.SpecialFolder look_here) {
-            string path_result = getPath(path,"Select Game Install Location",look_here);
+            string path_result = getPath(path, Strings.get("GameInstallPrompt"), look_here);
             if (path_result!=null) {
                 gamePathTxt.Text = path_result;
             }
         }
 
         private void getSavePath(string path, Environment.SpecialFolder look_here) {
-            string path_result = getPath(path,"Select Save Location",look_here);
+            string path_result = getPath(path,Strings.get("GameSavesPrompt"),look_here);
             if (path_result!=null) {
                 gameSaveTxt.Text = path_result;
             }
         }
 
-        private string getFolder(EnvironmentVariable ev, string path){
-            LocationPathHolder parse_me = new LocationPathHolder();
-            parse_me.path = path;
-            parse_me.rel_root = ev;
-            foreach(string user in Core.locations.getUsers(ev)) {
-                return Core.locations.getAbsoluteRoot(parse_me,user);
-            }
-            return Core.locations.getAbsoluteRoot(parse_me,null);
-        }
+
 
         #endregion
 
@@ -131,7 +139,7 @@ namespace MASGAU.Analyzer
 				showError("I'm not omniscient","You need to specify the folder that contains the game's saves.");
 				return;
 			}
-            SearchingWindow searcher = new SearchingWindow(null, psGameSavePathTxt.Text, gameNameTxt.Text, true, this);
+            SearchingWindow searcher = new SearchingWindow(analyzer,null, psGameSavePathTxt.Text, gameNameTxt.Text, true, this);
 			if((bool)searcher.ShowDialog()) {
 				ReportWindow report = new ReportWindow(searcher.output + Environment.NewLine + "Playstation Code: " + psPrefixTxt.Text + "-" + psSuffixTxt.Text,psGameSavePathTxt.Text,this);
 				report.ShowDialog();
@@ -159,7 +167,7 @@ namespace MASGAU.Analyzer
 				showError("I'm not clairvoyant","You need to specify the folder that contains the game's saves.");
 				return;
 			}
-			SearchingWindow searcher = new SearchingWindow(gamePathTxt.Text,gameSaveTxt.Text,gameNameTxt.Text,false,this);
+			SearchingWindow searcher = new SearchingWindow(analyzer, gamePathTxt.Text,gameSaveTxt.Text,gameNameTxt.Text,false,this);
             searcher.ShowInTaskbar = true;
             this.Visibility = System.Windows.Visibility.Hidden;
 			if((bool)searcher.ShowDialog()) {
@@ -179,7 +187,7 @@ namespace MASGAU.Analyzer
         private void programFilesBtn_Click(object sender, RoutedEventArgs e)
         {
             //if(Environment.GetEnvironmentVariable("ProgramW6432")!=null) {
-                getGamePath(getFolder(EnvironmentVariable.ProgramFiles,null),Environment.SpecialFolder.MyComputer);
+            getGamePath(Core.locations.getFolder(EnvironmentVariable.ProgramFiles, null), Environment.SpecialFolder.MyComputer);
             //} else {
                 //getGamePath(WindowsLocationHandler.program_files,Environment.SpecialFolder.ProgramFiles);
             //}
@@ -188,7 +196,7 @@ namespace MASGAU.Analyzer
 
         private void programFilesx86Btn_Click(object sender, RoutedEventArgs e)
         {
-            getGamePath(getFolder(EnvironmentVariable.ProgramFilesX86,null),Environment.SpecialFolder.ProgramFilesX86);
+            getGamePath(Core.locations.getFolder(EnvironmentVariable.ProgramFilesX86, null), Environment.SpecialFolder.ProgramFilesX86);
 
         }
 
@@ -213,52 +221,47 @@ namespace MASGAU.Analyzer
 
         private void myDocumentsBtn_Click(object sender, RoutedEventArgs e)
         {
-            getSavePath(getFolder(EnvironmentVariable.UserDocuments,null),Environment.SpecialFolder.MyDocuments);
+            getSavePath(Core.locations.getFolder(EnvironmentVariable.UserDocuments, null), Environment.SpecialFolder.MyDocuments);
 
         }
 
         private void savedGamesBtn_Click(object sender, RoutedEventArgs e)
         {
-            getSavePath(getFolder(EnvironmentVariable.SavedGames,null),Environment.SpecialFolder.UserProfile);
+            getSavePath(Core.locations.getFolder(EnvironmentVariable.SavedGames, null), Environment.SpecialFolder.UserProfile);
 
         }
 
         private void virtualStoreBtn_Click(object sender, RoutedEventArgs e)
         {
-            getSavePath(System.IO.Path.Combine(getFolder(EnvironmentVariable.LocalAppData,null),"VirtualStore"),Environment.SpecialFolder.LocalApplicationData);
+            getSavePath(System.IO.Path.Combine(Core.locations.getFolder(EnvironmentVariable.LocalAppData, null), "VirtualStore"), Environment.SpecialFolder.LocalApplicationData);
 
         }
 
         private void localAppDataBtn_Click(object sender, RoutedEventArgs e)
         {
-            getSavePath(getFolder(EnvironmentVariable.LocalAppData,null),Environment.SpecialFolder.LocalApplicationData);
+            getSavePath(Core.locations.getFolder(EnvironmentVariable.LocalAppData, null), Environment.SpecialFolder.LocalApplicationData);
 
         }
 
         private void roamingAppDataBtn_Click(object sender, RoutedEventArgs e)
         {
-            getSavePath(getFolder(EnvironmentVariable.AppData,null),Environment.SpecialFolder.ApplicationData);
+            getSavePath(Core.locations.getFolder(EnvironmentVariable.AppData, null), Environment.SpecialFolder.ApplicationData);
 
         }
 
         private void publicUserBtn_Click(object sender, RoutedEventArgs e)
         {
-            getSavePath(getFolder(EnvironmentVariable.Public,null),Environment.SpecialFolder.MyComputer);
+            getSavePath(Core.locations.getFolder(EnvironmentVariable.Public, null), Environment.SpecialFolder.MyComputer);
 
         }
 
         private void programDataBtn_Click(object sender, RoutedEventArgs e)
         {
-            getSavePath(getFolder(EnvironmentVariable.AllUsersProfile,null),Environment.SpecialFolder.MyComputer);
+            getSavePath(Core.locations.getFolder(EnvironmentVariable.AllUsersProfile, null), Environment.SpecialFolder.MyComputer);
         }
 
 
         #endregion
-
-        public override void updateProgress(MASGAU.Communication.Progress.ProgressUpdatedEventArgs e)
-        {
-            // Do nothing!
-        }
 
         private void emailTxt_IsKeyboardFocusedChanged(object sender, DependencyPropertyChangedEventArgs e)
         {

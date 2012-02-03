@@ -1,0 +1,78 @@
+Game Name: Starflight (GoG DOSBOX info)
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX
+
+Save Path: 
+ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSTARFLIGHT1
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSTARFLIGHT1
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSTARFLIGHT2
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSTARFLIGHT2
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+12/24/2011 1:25:53 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Starflight 1 and 2\Starflight 1\Starflight 1.lnk - 2374
+5/12/2010 11:55:40 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\DOSBox.exe - 3727360
+12/24/2011 1:25:50 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Starflight 1 and 2\Starflight 1\Tools\Reset and Start The Game.lnk - 1478
+5/12/2010 11:55:40 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\DOSBox.exe - 3727360
+12/24/2011 1:25:53 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Starflight 1 and 2\Starflight 2\Starflight 2.lnk - 2374
+5/12/2010 11:55:40 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\DOSBox.exe - 3727360
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+7/2/2010 1:00:16 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 11:55:40 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 9:04:12 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\SDL.dll - 448231
+4/9/2010 9:04:12 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\SDL_net.dll - 13312
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 9:08:26 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 9:08:26 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Video Codec\zmbv.inf - 4043
+
+Install Folder Dump: 
+7/2/2010 1:00:16 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 11:55:40 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 9:04:12 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\SDL.dll - 448231
+4/9/2010 9:04:12 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\SDL_net.dll - 13312
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 11:52:52 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 9:08:26 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 9:08:26 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\DOSBOX\Video Codec\zmbv.inf - 4043
+
+UAC Enabled
+
+
+VirtualStore Folders: 

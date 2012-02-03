@@ -1,0 +1,513 @@
+Game Name: WH40K - DoW II - Retribution
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+SteamCommon\dawn of war ii - retribution
+
+Save Path: 
+UserDocuments\My Games\Dawn of War II - Retribution
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\b25099274a207264182f8181add555d0\SourceList\Net
+Value: 2
+Data: SteamCommon\dawn of war ii - retribution\Install
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{461A6D29-17DB-48C8-9EEB-8060ED7BE06E}
+Value: ConfigApplicationPath
+Data: SteamCommon\dawn of war ii - retribution
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{461A6D29-17DB-48C8-9EEB-8060ED7BE06E}
+Value: ConfigGDFBinaryPath
+Data: 27/12/2011 23:08:07 - SteamCommon\dawn of war ii - retribution\dow2.exe - 17813144
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\sphinx-soft\Vista-Wall\1.0\AppList\Dawn of War II
+Value: File
+Data: 27/12/2011 23:08:07 - SteamCommon\dawn of war ii - retribution\dow2.exe - 17813144
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 56400
+Value: InstallLocation
+Data: SteamCommon\dawn of war ii - retribution
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+28/12/2011 23:47:43 - UserDocuments\My Games\Dawn of War II - Retribution\Badges\Claquus Invictus.png - 16838
+28/12/2011 00:19:49 - UserDocuments\My Games\Dawn of War II - Retribution\Badges\<player_id(17decimals)>\zeldatriforcesymbol.png - 16935
+28/12/2011 00:06:50 - UserDocuments\My Games\Dawn of War II - Retribution\Badges\<player_id(17decimals)>\nevar forget.png - 29144
+28/12/2011 22:26:42 - UserDocuments\My Games\Dawn of War II - Retribution\Logfiles\datacrc.txt - 6426
+28/12/2011 23:32:29 - UserDocuments\My Games\Dawn of War II - Retribution\Logfiles\warnings.txt - 24963
+28/12/2011 22:35:07 - UserDocuments\My Games\Dawn of War II - Retribution\Playback\temp.rec - 176748
+28/12/2011 23:32:29 - UserDocuments\My Games\Dawn of War II - Retribution\Settings\configuration.lua - 2547
+28/12/2011 23:32:29 - UserDocuments\My Games\Dawn of War II - Retribution\Settings\Local.ini - 188
+28/12/2011 23:32:28 - UserDocuments\My Games\Dawn of War II - Retribution\Settings\playercfg.lua - 3105
+27/12/2011 23:33:17 - UserDocuments\My Games\Dawn of War II - Retribution\Settings\playername-UTF16.txt - 24
+27/12/2011 23:35:27 - UserDocuments\My Games\Dawn of War II - Retribution\Settings\_keydefaults.lua - 59810
+
+Install Folder Dump: 
+27/12/2011 20:47:10 - SteamCommon\dawn of war ii - retribution\BakeConfig.xml - 3255
+27/12/2011 20:04:52 - SteamCommon\dawn of war ii - retribution\BsSndRpt.exe - 264328
+27/12/2011 21:06:28 - SteamCommon\dawn of war ii - retribution\BugSplat.dll - 229512
+27/12/2011 21:00:07 - SteamCommon\dawn of war ii - retribution\BugSplatHD.exe - 186504
+27/12/2011 20:03:43 - SteamCommon\dawn of war ii - retribution\BugSplatRC.dll - 71040
+27/12/2011 21:18:25 - SteamCommon\dawn of war ii - retribution\content.bin - 31836
+27/12/2011 20:50:56 - SteamCommon\dawn of war ii - retribution\content.cat - 5861
+27/12/2011 20:18:58 - SteamCommon\dawn of war ii - retribution\dbgeng.dll - 3095552
+27/12/2011 20:05:01 - SteamCommon\dawn of war ii - retribution\dbghelp.dll - 986112
+27/12/2011 21:14:24 - SteamCommon\dawn of war ii - retribution\Debug.dll - 54656
+27/12/2011 21:20:40 - SteamCommon\dawn of war ii - retribution\dev_pipeline.ini - 551
+27/12/2011 21:22:38 - SteamCommon\dawn of war ii - retribution\DivxDecoder.dll - 503808
+27/12/2011 20:51:38 - SteamCommon\dawn of war ii - retribution\DivxMediaLib.dll - 110592
+27/12/2011 23:08:07 - SteamCommon\dawn of war ii - retribution\DOW2.exe - 17813144
+27/12/2011 20:33:16 - SteamCommon\dawn of war ii - retribution\DOW2.module - 7383
+27/12/2011 21:15:02 - SteamCommon\dawn of war ii - retribution\DOW2LastStand.module - 4699
+27/12/2011 20:41:44 - SteamCommon\dawn of war ii - retribution\DOW2LSMP.module - 5204
+27/12/2011 20:42:43 - SteamCommon\dawn of war ii - retribution\DOW2Multiplayer.module - 4951
+27/12/2011 21:07:36 - SteamCommon\dawn of war ii - retribution\Essence.ini - 456
+27/12/2011 21:19:25 - SteamCommon\dawn of war ii - retribution\FileParser.dll - 110592
+27/12/2011 21:22:44 - SteamCommon\dawn of war ii - retribution\Filesystem.dll - 267648
+27/12/2011 20:47:01 - SteamCommon\dawn of war ii - retribution\fmodex.dll - 1168768
+27/12/2011 21:22:51 - SteamCommon\dawn of war ii - retribution\ijl15.dll - 352256
+27/12/2011 21:27:32 - SteamCommon\dawn of war ii - retribution\installscript.vdf - 530
+27/12/2011 21:24:59 - SteamCommon\dawn of war ii - retribution\libacml_mp_dll.dll - 7475200
+27/12/2011 20:45:23 - SteamCommon\dawn of war ii - retribution\libexpat.dll - 151552
+27/12/2011 21:11:46 - SteamCommon\dawn of war ii - retribution\libguide40.dll - 200704
+27/12/2011 21:14:10 - SteamCommon\dawn of war ii - retribution\libifcoremd.dll - 655360
+27/12/2011 21:21:30 - SteamCommon\dawn of war ii - retribution\libmmd.dll - 2801756
+27/12/2011 21:10:11 - SteamCommon\dawn of war ii - retribution\Localizer.dll - 62848
+27/12/2011 20:46:53 - SteamCommon\dawn of war ii - retribution\LuaConfig.dll - 165248
+27/12/2011 21:12:23 - SteamCommon\dawn of war ii - retribution\MathBox.dll - 165248
+27/12/2011 21:08:30 - SteamCommon\dawn of war ii - retribution\Memory.dll - 75136
+27/12/2011 20:03:17 - SteamCommon\dawn of war ii - retribution\msdia80.dll - 625152
+27/12/2011 20:08:15 - SteamCommon\dawn of war ii - retribution\Platform.dll - 103808
+27/12/2011 20:53:28 - SteamCommon\dawn of war ii - retribution\Profiler.dll - 20864
+27/12/2011 21:18:48 - SteamCommon\dawn of war ii - retribution\readme_czech.txt - 109764
+27/12/2011 21:05:13 - SteamCommon\dawn of war ii - retribution\readme_english.txt - 57350
+27/12/2011 21:06:45 - SteamCommon\dawn of war ii - retribution\readme_french.txt - 50731
+27/12/2011 20:50:07 - SteamCommon\dawn of war ii - retribution\readme_german.txt - 50924
+27/12/2011 21:16:11 - SteamCommon\dawn of war ii - retribution\readme_italian.txt - 45568
+27/12/2011 21:10:39 - SteamCommon\dawn of war ii - retribution\readme_polish.txt - 126706
+27/12/2011 21:17:53 - SteamCommon\dawn of war ii - retribution\readme_russian.txt - 91018
+27/12/2011 21:00:39 - SteamCommon\dawn of war ii - retribution\readme_spanish.txt - 46235
+27/12/2011 21:15:43 - SteamCommon\dawn of war ii - retribution\readme_tchinese.txt - 55945
+27/12/2011 20:57:37 - SteamCommon\dawn of war ii - retribution\Shark.dll - 484736
+27/12/2011 20:16:06 - SteamCommon\dawn of war ii - retribution\SimEngine.dll - 603520
+27/12/2011 21:14:30 - SteamCommon\dawn of war ii - retribution\Spooge.dll - 677248
+27/12/2011 21:18:20 - SteamCommon\dawn of war ii - retribution\steam_api.dll - 124712
+27/12/2011 21:14:41 - SteamCommon\dawn of war ii - retribution\STLPort.dll - 521600
+27/12/2011 21:05:19 - SteamCommon\dawn of war ii - retribution\Util.dll - 333184
+27/12/2011 20:46:13 - SteamCommon\dawn of war ii - retribution\WorldBuilder.exe - 12875136
+27/12/2011 21:18:29 - SteamCommon\dawn of war ii - retribution\WorldBuilder.pdf - 1214010
+27/12/2011 21:08:09 - SteamCommon\dawn of war ii - retribution\XThread.dll - 32640
+27/12/2011 21:06:23 - SteamCommon\dawn of war ii - retribution\Assets\ArchiveDesign\4p_SmallDemo.sga_design - 539
+27/12/2011 20:04:14 - SteamCommon\dawn of war ii - retribution\Assets\Maps\Atmospheres\4P_SMALLDEMO.ATMOSPHEREPRESET - 2402384
+27/12/2011 21:07:59 - SteamCommon\dawn of war ii - retribution\Assets\Maps\PVP\4p_SmallDemo.info - 282
+27/12/2011 21:07:45 - SteamCommon\dawn of war ii - retribution\Assets\Maps\PVP\4p_SmallDemo.layers - 148
+27/12/2011 21:15:16 - SteamCommon\dawn of war ii - retribution\Assets\Maps\PVP\4p_SmallDemo.scenariomarker - 313
+27/12/2011 21:13:35 - SteamCommon\dawn of war ii - retribution\Assets\Maps\PVP\4p_SmallDemo.wb-scenario - 7538759
+27/12/2011 20:03:10 - SteamCommon\dawn of war ii - retribution\Assets\Maps\PVP\4p_SmallDemo.xml - 42002
+27/12/2011 21:14:52 - SteamCommon\dawn of war ii - retribution\Assets\Maps\PVP\4p_SmallDemo_ID.scar - 129
+27/12/2011 20:12:53 - SteamCommon\dawn of war ii - retribution\Drivers\ati.txt - 2439
+27/12/2011 20:47:41 - SteamCommon\dawn of war ii - retribution\Drivers\intel.txt - 1893
+27/12/2011 20:43:59 - SteamCommon\dawn of war ii - retribution\Drivers\nvidia.txt - 6592
+27/12/2011 20:46:05 - SteamCommon\dawn of war ii - retribution\Drivers\spdx9_config.txt - 2070
+27/12/2011 22:17:03 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\000_campaign.sga - 154635381
+27/12/2011 23:28:33 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\000_data.sga - 1109805044
+27/12/2011 22:49:37 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\000_extra.sga - 1007261731
+27/12/2011 20:04:17 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\000_laststand.sga - 3465240
+27/12/2011 21:39:34 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\000_multiplayer.sga - 166974401
+27/12/2011 23:13:11 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\000_sound.sga - 757392948
+27/12/2011 21:03:54 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\001_campaign.sga - 85645785
+27/12/2011 21:35:38 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\001_data.sga - 39300396
+27/12/2011 21:57:16 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\001_extra.sga - 42145152
+27/12/2011 20:04:14 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\001_laststand.sga - 3346578
+27/12/2011 20:42:57 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\001_multiplayer.sga - 60227763
+27/12/2011 21:15:28 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\001_sound.sga - 10756355
+27/12/2011 20:53:11 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\002_campaign.sga - 3750805
+27/12/2011 21:18:09 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\002_data.sga - 13979211
+27/12/2011 21:44:08 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\002_extra.sga - 12682800
+27/12/2011 20:03:56 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\002_laststand.sga - 2271275
+27/12/2011 20:28:27 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\002_multiplayer.sga - 35988767
+27/12/2011 20:56:03 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\002_sound.sga - 2142193
+27/12/2011 21:05:13 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\003_campaign.sga - 371
+27/12/2011 20:50:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\003_data.sga - 98727241
+27/12/2011 21:55:23 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\003_extra.sga - 34588810
+27/12/2011 20:03:25 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\003_laststand.sga - 43426
+27/12/2011 20:18:07 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\003_multiplayer.sga - 19829404
+27/12/2011 20:58:25 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\004_campaign.sga - 371
+27/12/2011 20:13:11 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\004_data.sga - 5748099
+27/12/2011 20:05:10 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\004_extra.sga - 15161039
+27/12/2011 20:03:22 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\004_laststand.sga - 371
+27/12/2011 20:08:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\004_multiplayer.sga - 7023662
+27/12/2011 20:11:53 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\GameAttrib.sga - 6610094
+27/12/2011 21:16:25 - SteamCommon\dawn of war ii - retribution\GameAssets\Archives\GameSoundContainers.sga - 1412449
+27/12/2011 20:09:31 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\amd_intro.avi - 1570816
+27/12/2011 20:57:58 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\gw_logo_720p_divx1.avi - 527736
+27/12/2011 20:04:14 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\relicintro_720p_divx.avi - 3384622
+27/12/2011 20:03:06 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\thq_logo_new_720p_divx.avi - 288294
+27/12/2011 20:45:40 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_abaddon.avi - 317682
+27/12/2011 20:10:28 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_abaddon.lua - 219
+27/12/2011 21:06:11 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_araghast.avi - 474434
+27/12/2011 20:03:40 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_araghast.lua - 216
+27/12/2011 20:12:53 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_champion.avi - 97154
+27/12/2011 20:02:56 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_champion.lua - 216
+27/12/2011 20:45:22 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_csm.avi - 582172
+27/12/2011 20:33:52 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_csm.lua - 118
+27/12/2011 20:47:41 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_csm_intercepted.lua - 142
+27/12/2011 21:08:09 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_daemon_prince_kyras.avi - 461710
+27/12/2011 20:06:35 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_daemon_prince_kyras.lua - 146
+27/12/2011 21:06:44 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_daemon_prince_kyras_intercepted.lua - 142
+27/12/2011 20:02:57 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_eliphas.avi - 634010
+27/12/2011 20:17:46 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_eliphas.lua - 125
+27/12/2011 21:36:07 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_eliphas_lord.avi - 659546
+27/12/2011 20:04:10 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_eliphas_lord.lua - 130
+27/12/2011 20:47:22 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_great_unclean_one.avi - 668344
+27/12/2011 20:46:00 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_great_unclean_one.lua - 132
+27/12/2011 20:17:22 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_neroth.lua - 205
+27/12/2011 20:02:56 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_sorceror.avi - 643178
+27/12/2011 20:12:29 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_chaos_sorceror.lua - 209
+27/12/2011 20:03:10 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_elenwe.avi - 91836
+27/12/2011 20:55:03 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_elenwe.lua - 110
+27/12/2011 20:46:54 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_elothan.avi - 304136
+27/12/2011 21:08:24 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_elothan.lua - 111
+27/12/2011 20:42:40 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_farseer.avi - 268564
+27/12/2011 20:03:14 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_farseer.lua - 111
+27/12/2011 20:50:29 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_kayleth.avi - 866778
+27/12/2011 20:10:00 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_kayleth.lua - 111
+27/12/2011 21:09:34 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_kaylith.avi - 244654
+27/12/2011 20:41:42 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_kaylith.lua - 111
+27/12/2011 20:04:23 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_ronahn.avi - 220076
+27/12/2011 20:42:57 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_ronahn.lua - 109
+27/12/2011 21:06:04 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_surian.avi - 21482
+27/12/2011 20:53:50 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_surian.lua - 109
+27/12/2011 20:12:02 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_tyrea.avi - 223002
+27/12/2011 20:44:18 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_tyrea.lua - 107
+27/12/2011 21:07:36 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_tyrea_intercepted.lua - 131
+27/12/2011 20:41:24 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_veldoran.avi - 231420
+27/12/2011 20:16:04 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_eldar_veldoran.lua - 113
+27/12/2011 20:04:30 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_adrastia.avi - 867982
+27/12/2011 21:04:23 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_adrastia.lua - 201
+27/12/2011 21:10:05 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_castor.avi - 473688
+27/12/2011 21:07:23 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_castor.lua - 106
+27/12/2011 20:33:14 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_elena.avi - 190064
+27/12/2011 21:07:54 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_elena.lua - 119
+27/12/2011 20:58:09 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_elena_xp1.lua - 201
+27/12/2011 20:44:43 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_guardsman.avi - 287032
+27/12/2011 20:48:04 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_guardsman.lua - 121
+27/12/2011 20:54:26 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_guardsman_alt.avi - 286844
+27/12/2011 20:57:19 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_guardsman_alt.lua - 125
+27/12/2011 21:08:41 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_guardsman_alt_intercepted.lua - 149
+27/12/2011 20:41:01 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_guardsman_intercepted.lua - 145
+27/12/2011 20:47:10 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_merrick.lua - 109
+27/12/2011 21:07:04 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_sergeant.avi - 446378
+27/12/2011 20:51:16 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_sergeant.lua - 121
+27/12/2011 20:09:34 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_sergeant_intercepted.lua - 143
+27/12/2011 20:46:20 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_sergeant_renegade.lua - 125
+27/12/2011 20:55:25 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ig_sergeant_renegade_intercepted.lua - 147
+27/12/2011 20:10:57 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_ancient.avi - 850928
+27/12/2011 20:16:36 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_ancient.lua - 215
+27/12/2011 20:04:48 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_apothecary_galan.lua - 212
+27/12/2011 20:53:27 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_avitus.avi - 280834
+27/12/2011 20:06:10 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_avitus.lua - 185
+27/12/2011 20:11:26 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_cyrus.avi - 237800
+27/12/2011 21:08:45 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_cyrus.lua - 180
+27/12/2011 20:09:58 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_diomedes.avi - 342210
+27/12/2011 21:08:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_diomedes.lua - 216
+27/12/2011 20:03:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_dreadnought.avi - 210660
+27/12/2011 21:07:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_dreadnought.lua - 189
+27/12/2011 20:08:14 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_force_commander.avi - 1256852
+27/12/2011 20:56:37 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_gabriel.avi - 429552
+27/12/2011 21:08:13 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_gabriel.lua - 177
+27/12/2011 20:50:52 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_gabriel_intercepted.lua - 201
+27/12/2011 20:56:20 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_gordian.avi - 259342
+27/12/2011 20:54:45 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_gordian.lua - 83
+27/12/2011 21:00:38 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_kyras.avi - 667886
+27/12/2011 20:09:09 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_kyras.lua - 204
+27/12/2011 21:09:06 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_kyras_intercepted.lua - 228
+27/12/2011 21:04:03 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_librarian.avi - 504564
+27/12/2011 20:15:39 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_librarian.lua - 206
+27/12/2011 21:05:29 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_scout.avi - 796672
+27/12/2011 20:13:23 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_scout.lua - 212
+27/12/2011 20:43:11 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_scout_priam.lua - 204
+27/12/2011 20:05:24 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_tactical.avi - 465326
+27/12/2011 20:57:36 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_tactical.lua - 212
+27/12/2011 20:04:30 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_tactical_intercepted.lua - 234
+27/12/2011 20:05:21 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_tarkus.avi - 236278
+27/12/2011 20:05:51 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_tarkus.lua - 185
+27/12/2011 20:13:51 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_techmarine.avi - 325018
+27/12/2011 21:05:52 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_techmarine.lua - 206
+27/12/2011 20:16:55 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_thaddeus.avi - 974694
+27/12/2011 21:04:11 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_thaddeus.lua - 209
+27/12/2011 21:04:50 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_thule.avi - 500214
+27/12/2011 20:05:40 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_thule.lua - 116
+27/12/2011 20:04:39 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_traitor.lua - 107
+27/12/2011 21:07:46 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_marine_traitor_intercepted.lua - 123
+27/12/2011 20:04:47 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_missing.avi - 89168
+27/12/2011 21:35:37 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_missing.lua - 47
+27/12/2011 20:44:02 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_bluddflagg.avi - 1149322
+27/12/2011 21:03:43 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_bluddflagg.lua - 83
+27/12/2011 20:04:31 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_boy.avi - 742552
+27/12/2011 21:08:29 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_boy.lua - 101
+27/12/2011 20:03:18 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_boy_intercepted.lua - 123
+27/12/2011 20:05:11 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_brakka.avi - 310356
+27/12/2011 20:43:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_brakka.lua - 107
+27/12/2011 20:57:52 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_brakka_intercepted.lua - 132
+27/12/2011 21:06:26 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_brikkfist.lua - 108
+27/12/2011 21:05:35 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_krom.avi - 276098
+27/12/2011 21:04:27 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_krom.lua - 103
+27/12/2011 20:06:45 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_krom_intercepted.lua - 127
+27/12/2011 20:03:23 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_krusha.avi - 408420
+27/12/2011 20:43:30 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_krusha.lua - 114
+27/12/2011 20:32:50 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_maso.avi - 299444
+27/12/2011 20:45:01 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_maso.lua - 103
+27/12/2011 20:03:00 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_mekboy_alt.avi - 2071620
+27/12/2011 20:06:19 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_mekboy_alt.lua - 83
+27/12/2011 20:55:45 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_nailbrain.avi - 299444
+27/12/2011 20:56:07 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_nailbrain.lua - 112
+27/12/2011 20:46:38 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_sliksnik.avi - 255322
+27/12/2011 20:56:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_sliksnik.lua - 79
+27/12/2011 20:03:52 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_spookums.lua - 111
+27/12/2011 20:42:22 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_warboss.avi - 688364
+27/12/2011 21:04:44 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_warboss.lua - 80
+27/12/2011 21:07:43 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_ork_warboss_intercepted.lua - 104
+27/12/2011 20:44:17 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_story_beat.lua - 110
+27/12/2011 20:15:14 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_tyr_hivemind.avi - 1927324
+27/12/2011 20:54:10 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\speech_tyr_hivemind.lua - 206
+27/12/2011 20:03:49 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\standby.avi - 904604
+27/12/2011 21:05:47 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\portraits\standby.lua - 40
+27/12/2011 20:46:52 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_camp_intro.avi - 5134186
+27/12/2011 20:49:44 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_camp_intro_long.avi - 70189366
+27/12/2011 21:48:38 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_camp_intro_short.avi - 68453674
+27/12/2011 21:39:01 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_credits.avi - 82101744
+27/12/2011 20:32:22 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_exterminatus_pt1.avi - 22870546
+27/12/2011 21:03:27 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_exterminatus_pt2.avi - 33245730
+27/12/2011 21:39:29 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_finalmission.avi - 9239428
+27/12/2011 20:43:45 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_intro.avi - 56434324
+27/12/2011 21:07:32 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_orbital_barrage.avi - 2883456
+27/12/2011 20:16:07 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_outro_csm.avi - 7277404
+27/12/2011 20:40:45 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_outro_eldar.avi - 10737106
+27/12/2011 20:09:41 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_outro_ig.avi - 5680172
+27/12/2011 21:19:20 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_outro_ork.avi - 12779788
+27/12/2011 21:00:07 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_outro_sm.avi - 23905522
+27/12/2011 21:18:39 - SteamCommon\dawn of war ii - retribution\GameAssets\Data\Movies\xp2\xp2_outro_tyranid.avi - 29869146
+27/12/2011 20:03:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\DOW2.ucs - 7036468
+27/12/2011 20:05:16 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\font_mapping.ini - 311
+27/12/2011 21:17:59 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\french_000_speech.sga - 666677404
+27/12/2011 20:22:10 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\french_000_speech_campaign.sga - 129233583
+27/12/2011 20:09:20 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\french_001_speech.sga - 28458788
+27/12/2011 20:02:52 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\french_001_speech_campaign.sga - 371
+27/12/2011 20:03:48 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\french_002_speech.sga - 5290573
+27/12/2011 20:02:51 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\french_002_speech_campaign.sga - 371
+27/12/2011 20:04:34 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\french_GameSpeechContainers.sga - 12282091
+27/12/2011 20:03:09 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\amd_intro.lua - 67
+27/12/2011 20:04:49 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\gw_logo.lua - 74
+27/12/2011 20:03:26 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\relic_logo.lua - 79
+27/12/2011 20:04:27 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\thq_logo.lua - 79
+27/12/2011 20:04:13 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_camp_intro.lua - 41
+27/12/2011 20:03:52 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_camp_intro_csm.lua - 3329
+27/12/2011 20:03:08 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_camp_intro_eldar.lua - 3295
+27/12/2011 20:03:43 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_camp_intro_ig.lua - 3321
+27/12/2011 20:03:09 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_camp_intro_ork.lua - 3761
+27/12/2011 20:03:09 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_camp_intro_sm.lua - 3617
+27/12/2011 20:03:22 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_camp_intro_tyranid.lua - 3773
+27/12/2011 20:04:33 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_credits.lua - 85
+27/12/2011 20:03:55 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_exterminatus_pt1.lua - 1135
+27/12/2011 20:03:14 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_exterminatus_pt2.lua - 1561
+27/12/2011 20:04:34 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_finalmission.lua - 92
+27/12/2011 20:04:51 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_intro.lua - 84
+27/12/2011 20:03:13 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_outro_csm.lua - 766
+27/12/2011 20:04:02 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_outro_eldar.lua - 819
+27/12/2011 20:03:09 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_outro_ig.lua - 1504
+27/12/2011 20:03:13 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_outro_ork.lua - 1077
+27/12/2011 20:04:33 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_outro_sm.lua - 1578
+27/12/2011 20:03:34 - SteamCommon\dawn of war ii - retribution\GameAssets\Locale\French\movies\xp2\xp2_outro_tyranid.lua - 1202
+27/12/2011 20:58:15 - SteamCommon\dawn of war ii - retribution\GameAssets\ModSamples\4p_SmallDemo.sga - 885112
+27/12/2011 20:03:41 - SteamCommon\dawn of war ii - retribution\Install\Apr2005_d3dx9_25_x64.cab - 1347354
+27/12/2011 20:57:29 - SteamCommon\dawn of war ii - retribution\Install\Apr2005_d3dx9_25_x86.cab - 1078954
+27/12/2011 20:46:36 - SteamCommon\dawn of war ii - retribution\Install\Apr2006_d3dx9_30_x64.cab - 1397822
+27/12/2011 21:18:17 - SteamCommon\dawn of war ii - retribution\Install\Apr2006_d3dx9_30_x86.cab - 1115221
+27/12/2011 20:05:53 - SteamCommon\dawn of war ii - retribution\Install\Apr2006_MDX1_x86.cab - 916430
+27/12/2011 20:55:37 - SteamCommon\dawn of war ii - retribution\Install\Apr2006_MDX1_x86_Archive.cab - 4162630
+27/12/2011 20:46:23 - SteamCommon\dawn of war ii - retribution\Install\Apr2006_XACT_x64.cab - 179125
+27/12/2011 21:24:39 - SteamCommon\dawn of war ii - retribution\Install\Apr2006_XACT_x86.cab - 133095
+27/12/2011 20:12:59 - SteamCommon\dawn of war ii - retribution\Install\Apr2006_xinput_x64.cab - 87101
+27/12/2011 21:05:33 - SteamCommon\dawn of war ii - retribution\Install\Apr2006_xinput_x86.cab - 46002
+27/12/2011 20:48:29 - SteamCommon\dawn of war ii - retribution\Install\APR2007_d3dx10_33_x64.cab - 698612
+27/12/2011 21:25:55 - SteamCommon\dawn of war ii - retribution\Install\APR2007_d3dx10_33_x86.cab - 695857
+27/12/2011 21:04:00 - SteamCommon\dawn of war ii - retribution\Install\APR2007_d3dx9_33_x64.cab - 1607358
+27/12/2011 20:17:56 - SteamCommon\dawn of war ii - retribution\Install\APR2007_d3dx9_33_x86.cab - 1606031
+27/12/2011 20:04:27 - SteamCommon\dawn of war ii - retribution\Install\APR2007_XACT_x64.cab - 195758
+27/12/2011 21:23:08 - SteamCommon\dawn of war ii - retribution\Install\APR2007_XACT_x86.cab - 151225
+27/12/2011 21:25:28 - SteamCommon\dawn of war ii - retribution\Install\APR2007_xinput_x64.cab - 96817
+27/12/2011 20:15:41 - SteamCommon\dawn of war ii - retribution\Install\APR2007_xinput_x86.cab - 53294
+27/12/2011 21:25:09 - SteamCommon\dawn of war ii - retribution\Install\Aug2005_d3dx9_27_x64.cab - 1350534
+27/12/2011 20:58:35 - SteamCommon\dawn of war ii - retribution\Install\Aug2005_d3dx9_27_x86.cab - 1077644
+27/12/2011 21:28:19 - SteamCommon\dawn of war ii - retribution\Install\AUG2006_XACT_x64.cab - 182903
+27/12/2011 21:16:55 - SteamCommon\dawn of war ii - retribution\Install\AUG2006_XACT_x86.cab - 137235
+27/12/2011 20:42:40 - SteamCommon\dawn of war ii - retribution\Install\AUG2006_xinput_x64.cab - 87142
+27/12/2011 20:12:03 - SteamCommon\dawn of war ii - retribution\Install\AUG2006_xinput_x86.cab - 46058
+27/12/2011 20:41:25 - SteamCommon\dawn of war ii - retribution\Install\AUG2007_d3dx10_35_x64.cab - 852286
+27/12/2011 20:51:17 - SteamCommon\dawn of war ii - retribution\Install\AUG2007_d3dx10_35_x86.cab - 796859
+27/12/2011 21:23:59 - SteamCommon\dawn of war ii - retribution\Install\AUG2007_d3dx9_35_x64.cab - 1800152
+27/12/2011 21:27:14 - SteamCommon\dawn of war ii - retribution\Install\AUG2007_d3dx9_35_x86.cab - 1708144
+27/12/2011 21:25:20 - SteamCommon\dawn of war ii - retribution\Install\AUG2007_XACT_x64.cab - 198088
+27/12/2011 20:04:11 - SteamCommon\dawn of war ii - retribution\Install\AUG2007_XACT_x86.cab - 153004
+27/12/2011 20:03:10 - SteamCommon\dawn of war ii - retribution\Install\Aug2008_d3dx10_39_x64.cab - 867604
+27/12/2011 21:09:33 - SteamCommon\dawn of war ii - retribution\Install\Aug2008_d3dx10_39_x86.cab - 849167
+27/12/2011 20:03:31 - SteamCommon\dawn of war ii - retribution\Install\Aug2008_d3dx9_39_x64.cab - 1794076
+27/12/2011 20:05:00 - SteamCommon\dawn of war ii - retribution\Install\Aug2008_d3dx9_39_x86.cab - 1464664
+27/12/2011 20:05:14 - SteamCommon\dawn of war ii - retribution\Install\Aug2008_XACT_x64.cab - 121764
+27/12/2011 21:17:30 - SteamCommon\dawn of war ii - retribution\Install\Aug2008_XACT_x86.cab - 92996
+27/12/2011 21:08:19 - SteamCommon\dawn of war ii - retribution\Install\Aug2008_XAudio_x64.cab - 271404
+27/12/2011 21:11:01 - SteamCommon\dawn of war ii - retribution\Install\Aug2008_XAudio_x86.cab - 271038
+27/12/2011 20:03:48 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_D3DCompiler_42_x64.cab - 919036
+27/12/2011 21:22:58 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_D3DCompiler_42_x86.cab - 900598
+27/12/2011 20:16:44 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_d3dcsx_42_x64.cab - 3112103
+27/12/2011 20:04:26 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_d3dcsx_42_x86.cab - 3319732
+27/12/2011 21:08:30 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_d3dx10_42_x64.cab - 232635
+27/12/2011 21:24:37 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_d3dx10_42_x86.cab - 192131
+27/12/2011 21:27:42 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_d3dx11_42_x64.cab - 136301
+27/12/2011 21:25:01 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_d3dx11_42_x86.cab - 105036
+27/12/2011 21:25:26 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_d3dx9_42_x64.cab - 930108
+27/12/2011 20:06:52 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_d3dx9_42_x86.cab - 728456
+27/12/2011 21:18:30 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_XACT_x64.cab - 122408
+27/12/2011 20:03:20 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_XACT_x86.cab - 93098
+27/12/2011 21:15:38 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_XAudio_x64.cab - 273264
+27/12/2011 21:06:13 - SteamCommon\dawn of war ii - retribution\Install\Aug2009_XAudio_x86.cab - 272634
+27/12/2011 20:05:25 - SteamCommon\dawn of war ii - retribution\Install\aux_installer.exe - 568704
+27/12/2011 21:05:40 - SteamCommon\dawn of war ii - retribution\Install\aux_installer.ini - 1121
+27/12/2011 21:26:15 - SteamCommon\dawn of war ii - retribution\Install\BDANT.cab - 1155483
+27/12/2011 21:20:31 - SteamCommon\dawn of war ii - retribution\Install\BDAXP.cab - 975148
+27/12/2011 20:17:53 - SteamCommon\dawn of war ii - retribution\Install\Dec2005_d3dx9_28_x64.cab - 1357968
+27/12/2011 21:10:11 - SteamCommon\dawn of war ii - retribution\Install\Dec2005_d3dx9_28_x86.cab - 1079448
+27/12/2011 21:24:28 - SteamCommon\dawn of war ii - retribution\Install\DEC2006_d3dx10_00_x64.cab - 212799
+27/12/2011 21:28:37 - SteamCommon\dawn of war ii - retribution\Install\DEC2006_d3dx10_00_x86.cab - 191712
+27/12/2011 20:06:35 - SteamCommon\dawn of war ii - retribution\Install\DEC2006_d3dx9_32_x64.cab - 1571154
+27/12/2011 20:03:37 - SteamCommon\dawn of war ii - retribution\Install\DEC2006_d3dx9_32_x86.cab - 1574376
+27/12/2011 21:18:22 - SteamCommon\dawn of war ii - retribution\Install\DEC2006_XACT_x64.cab - 192467
+27/12/2011 20:44:17 - SteamCommon\dawn of war ii - retribution\Install\DEC2006_XACT_x86.cab - 145591
+27/12/2011 21:16:31 - SteamCommon\dawn of war ii - retribution\Install\DSETUP.dll - 94024
+27/12/2011 21:04:05 - SteamCommon\dawn of war ii - retribution\Install\dsetup32.dll - 1691464
+27/12/2011 21:04:24 - SteamCommon\dawn of war ii - retribution\Install\dxdllreg_x86.cab - 44440
+27/12/2011 21:21:36 - SteamCommon\dawn of war ii - retribution\Install\dxnt.cab - 13264168
+27/12/2011 20:04:42 - SteamCommon\dawn of war ii - retribution\Install\DXSETUP.exe - 525656
+27/12/2011 21:18:31 - SteamCommon\dawn of war ii - retribution\Install\dxupdate.cab - 95637
+27/12/2011 20:54:56 - SteamCommon\dawn of war ii - retribution\Install\Feb2005_d3dx9_24_x64.cab - 1247499
+27/12/2011 21:13:22 - SteamCommon\dawn of war ii - retribution\Install\Feb2005_d3dx9_24_x86.cab - 1013225
+27/12/2011 21:27:05 - SteamCommon\dawn of war ii - retribution\Install\Feb2006_d3dx9_29_x64.cab - 1362796
+27/12/2011 20:46:02 - SteamCommon\dawn of war ii - retribution\Install\Feb2006_d3dx9_29_x86.cab - 1084712
+27/12/2011 21:09:24 - SteamCommon\dawn of war ii - retribution\Install\Feb2006_XACT_x64.cab - 178359
+27/12/2011 21:27:33 - SteamCommon\dawn of war ii - retribution\Install\Feb2006_XACT_x86.cab - 132409
+27/12/2011 21:07:23 - SteamCommon\dawn of war ii - retribution\Install\FEB2007_XACT_x64.cab - 194667
+27/12/2011 20:13:59 - SteamCommon\dawn of war ii - retribution\Install\FEB2007_XACT_x86.cab - 147983
+27/12/2011 21:05:12 - SteamCommon\dawn of war ii - retribution\Install\Jun2005_d3dx9_26_x64.cab - 1336002
+27/12/2011 20:48:07 - SteamCommon\dawn of war ii - retribution\Install\Jun2005_d3dx9_26_x86.cab - 1064925
+27/12/2011 20:03:09 - SteamCommon\dawn of war ii - retribution\Install\JUN2006_XACT_x64.cab - 180777
+27/12/2011 21:15:01 - SteamCommon\dawn of war ii - retribution\Install\JUN2006_XACT_x86.cab - 133663
+27/12/2011 20:06:50 - SteamCommon\dawn of war ii - retribution\Install\JUN2007_d3dx10_34_x64.cab - 699044
+27/12/2011 20:43:31 - SteamCommon\dawn of war ii - retribution\Install\JUN2007_d3dx10_34_x86.cab - 698464
+27/12/2011 21:12:04 - SteamCommon\dawn of war ii - retribution\Install\JUN2007_d3dx9_34_x64.cab - 1607766
+27/12/2011 20:54:38 - SteamCommon\dawn of war ii - retribution\Install\JUN2007_d3dx9_34_x86.cab - 1607278
+27/12/2011 21:11:26 - SteamCommon\dawn of war ii - retribution\Install\JUN2007_XACT_x64.cab - 197114
+27/12/2011 20:06:51 - SteamCommon\dawn of war ii - retribution\Install\JUN2007_XACT_x86.cab - 152901
+27/12/2011 21:04:40 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_d3dx10_38_x64.cab - 867828
+27/12/2011 20:03:32 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_d3dx10_38_x86.cab - 849919
+27/12/2011 20:04:10 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_d3dx9_38_x64.cab - 1792600
+27/12/2011 20:03:50 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_d3dx9_38_x86.cab - 1463878
+27/12/2011 21:25:39 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_X3DAudio_x64.cab - 55154
+27/12/2011 20:05:26 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_X3DAudio_x86.cab - 21905
+27/12/2011 21:28:43 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_XACT_x64.cab - 121054
+27/12/2011 20:09:42 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_XACT_x86.cab - 93128
+27/12/2011 21:15:54 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_XAudio_x64.cab - 269620
+27/12/2011 20:11:06 - SteamCommon\dawn of war ii - retribution\Install\JUN2008_XAudio_x86.cab - 269016
+27/12/2011 20:53:58 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_d3dx10_37_x64.cab - 844884
+27/12/2011 21:15:52 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_d3dx10_37_x86.cab - 818260
+27/12/2011 21:17:37 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_d3dx9_37_x64.cab - 1769862
+27/12/2011 21:16:38 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_d3dx9_37_x86.cab - 1443274
+27/12/2011 20:18:11 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_X3DAudio_x64.cab - 55050
+27/12/2011 21:10:39 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_X3DAudio_x86.cab - 21867
+27/12/2011 21:16:03 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_XACT_x64.cab - 122336
+27/12/2011 21:23:53 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_XACT_x86.cab - 93726
+27/12/2011 21:22:32 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_XAudio_x64.cab - 251186
+27/12/2011 21:20:10 - SteamCommon\dawn of war ii - retribution\Install\Mar2008_XAudio_x86.cab - 226242
+27/12/2011 21:28:10 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_d3dx10_41_x64.cab - 1067160
+27/12/2011 21:17:28 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_d3dx10_41_x86.cab - 1040737
+27/12/2011 21:10:41 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_d3dx9_41_x64.cab - 1973702
+27/12/2011 20:04:31 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_d3dx9_41_x86.cab - 1612446
+27/12/2011 20:53:11 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_X3DAudio_x64.cab - 54600
+27/12/2011 20:55:46 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_X3DAudio_x86.cab - 21298
+27/12/2011 21:27:16 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_XACT_x64.cab - 121506
+27/12/2011 21:12:03 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_XACT_x86.cab - 92732
+27/12/2011 21:16:46 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_XAudio_x64.cab - 275036
+27/12/2011 21:25:51 - SteamCommon\dawn of war ii - retribution\Install\Mar2009_XAudio_x86.cab - 273010
+27/12/2011 20:03:14 - SteamCommon\dawn of war ii - retribution\Install\Nov2007_d3dx10_36_x64.cab - 864600
+27/12/2011 21:28:21 - SteamCommon\dawn of war ii - retribution\Install\Nov2007_d3dx10_36_x86.cab - 803876
+27/12/2011 21:23:42 - SteamCommon\dawn of war ii - retribution\Install\Nov2007_d3dx9_36_x64.cab - 1802058
+27/12/2011 20:05:00 - SteamCommon\dawn of war ii - retribution\Install\Nov2007_d3dx9_36_x86.cab - 1709360
+27/12/2011 21:07:54 - SteamCommon\dawn of war ii - retribution\Install\NOV2007_X3DAudio_x64.cab - 46144
+27/12/2011 21:16:25 - SteamCommon\dawn of war ii - retribution\Install\NOV2007_X3DAudio_x86.cab - 18496
+27/12/2011 20:57:20 - SteamCommon\dawn of war ii - retribution\Install\NOV2007_XACT_x64.cab - 196754
+27/12/2011 21:07:05 - SteamCommon\dawn of war ii - retribution\Install\NOV2007_XACT_x86.cab - 148264
+27/12/2011 20:34:06 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_d3dx10_40_x64.cab - 994154
+27/12/2011 20:15:29 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_d3dx10_40_x86.cab - 965421
+27/12/2011 20:04:42 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_d3dx9_40_x64.cab - 1906870
+27/12/2011 20:34:24 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_d3dx9_40_x86.cab - 1550796
+27/12/2011 20:04:09 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_X3DAudio_x64.cab - 54522
+27/12/2011 21:15:26 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_X3DAudio_x86.cab - 21843
+27/12/2011 20:44:03 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_XACT_x64.cab - 121786
+27/12/2011 20:54:11 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_XACT_x86.cab - 92676
+27/12/2011 20:41:06 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_XAudio_x64.cab - 273960
+27/12/2011 21:19:43 - SteamCommon\dawn of war ii - retribution\Install\Nov2008_XAudio_x86.cab - 272603
+27/12/2011 21:18:07 - SteamCommon\dawn of war ii - retribution\Install\Oct2005_xinput_x64.cab - 86029
+27/12/2011 20:13:25 - SteamCommon\dawn of war ii - retribution\Install\Oct2005_xinput_x86.cab - 45351
+27/12/2011 21:18:10 - SteamCommon\dawn of war ii - retribution\Install\OCT2006_d3dx9_31_x64.cab - 1412894
+27/12/2011 20:10:14 - SteamCommon\dawn of war ii - retribution\Install\OCT2006_d3dx9_31_x86.cab - 1127209
+27/12/2011 21:24:02 - SteamCommon\dawn of war ii - retribution\Install\OCT2006_XACT_x64.cab - 182361
+27/12/2011 21:06:05 - SteamCommon\dawn of war ii - retribution\Install\OCT2006_XACT_x86.cab - 138009
+27/12/2011 21:19:59 - SteamCommon\dawn of war ii - retribution\Install\retribution.ai - 434
+27/12/2011 21:21:40 - SteamCommon\dawn of war ii - retribution\Install\vcredis1.cab - 252968
+27/12/2011 21:22:28 - SteamCommon\dawn of war ii - retribution\Install\vcredist.msi - 2818048
+27/12/2011 21:05:55 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_AU.pdf - 2885995
+27/12/2011 20:11:35 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_CN.pdf - 1842405
+27/12/2011 21:10:31 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_CZ.pdf - 2546047
+27/12/2011 21:14:08 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_DE.pdf - 3634405
+27/12/2011 20:45:19 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_EN.pdf - 1842405
+27/12/2011 20:04:41 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_ES.pdf - 3738365
+27/12/2011 21:19:57 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_FN.pdf - 5323900
+27/12/2011 21:27:25 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_FR.pdf - 3640331
+27/12/2011 20:41:46 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_GR.pdf - 3973812
+27/12/2011 20:57:07 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_IT.pdf - 3629338
+27/12/2011 21:05:40 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_PL.pdf - 2980663
+27/12/2011 21:28:36 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_RU.pdf - 5000710
+27/12/2011 21:29:30 - SteamCommon\dawn of war ii - retribution\Manual\Dawn of War II - Retribution Manual_UK.pdf - 3634471
+27/12/2011 20:03:14 - SteamCommon\dawn of war ii - retribution\reslists\precache.lst - 656
+27/12/2011 20:03:15 - SteamCommon\dawn of war ii - retribution\reslists\preload.lst - 656
+27/12/2011 20:43:35 - SteamCommon\dawn of war ii - retribution\Tools\Bin\Archive.exe - 640384
+27/12/2011 21:26:25 - SteamCommon\dawn of war ii - retribution\Tools\Bin\Bake.exe - 42368
+27/12/2011 20:56:20 - SteamCommon\dawn of war ii - retribution\Tools\Bin\CreateArchive.bat - 391
+27/12/2011 21:24:19 - SteamCommon\dawn of war ii - retribution\Tools\Foreign\nvdxt.exe - 1048576
+27/12/2011 21:03:27 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\EntityOwnershipColors.lua - 734
+27/12/2011 20:46:54 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\HeightPresets.lua - 406
+27/12/2011 20:09:35 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\MarkerTypes.lua - 3041
+27/12/2011 21:07:43 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\RoadWidthPresets.lua - 153
+27/12/2011 21:08:24 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\SplineHeightPresets.lua - 76
+27/12/2011 21:21:58 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\Atmosphere\DEFAULT.atmospherepreset - 918
+27/12/2011 20:05:53 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Hedge.lua - 417
+27/12/2011 20:43:15 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Hedge_Small.lua - 417
+27/12/2011 21:19:05 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Hedge_Small_With_Cypress.lua - 589
+27/12/2011 20:56:07 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Tree_Clump.lua - 665
+27/12/2011 20:45:01 - SteamCommon\dawn of war ii - retribution\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Wooden_Fence.lua - 338
+
+UAC Enabled
+
+
+VirtualStore Folders: 

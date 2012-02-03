@@ -1,14 +1,14 @@
 using System;
 using Gtk;
 
-namespace MASGAU.Analyzer.Gtk
+namespace MASGAU.Analyzer
 {
 	class MainClass
 	{
 		public static void Main (string[] args)
 		{
 			Application.Init ();
-			MainWindow win = new MainWindow ();
+			AnalyzerWindow win = new AnalyzerWindow ();
 			win.Show ();
 			Application.Run ();
 		}

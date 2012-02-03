@@ -4,14 +4,23 @@ EnableISX=true
 [Setup]
 AppMutex=MASGAU
 AppName=MASGAU
+<<<<<<< HEAD
+AppVerName=MASGAU 0.10.0
+=======
 AppVerName=MASGAU 0.9.2
+>>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
 MinVersion=4.1,4.0
 DefaultDirName={pf}\MASGAU
 DefaultGroupName=MASGAU
 Compression=lzma/Ultra64
 SolidCompression=true
+<<<<<<< HEAD
+OutputBaseFilename=MASGAU-0.10-Setup
+AppCopyright=2011
+=======
 OutputBaseFilename=MASGAU-0.9.2-Setup
 AppCopyright=2012
+>>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
 ChangesAssociations=true
 WizardImageFile=..\Graphics\installer_logo.bmp
 WizardSmallImageFile=..\Graphics\installer_logo_small.bmp
@@ -19,9 +28,15 @@ WizardImageStretch=true
 SetupIconFile=..\Graphics\masgau.ico
 AllowRootDirectory=true
 DirExistsWarning=no
+<<<<<<< HEAD
+VersionInfoVersion=0.10
+VersionInfoProductName=MASGAU
+VersionInfoProductVersion=0.10
+=======
 VersionInfoVersion=0.9.2
 VersionInfoProductName=MASGAU
 VersionInfoProductVersion=0.9.2
+>>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
 LicenseFile=..\Docs\gpl-2.0.txt
 InternalCompressLevel=Ultra64
 ArchitecturesInstallIn64BitMode=x64
@@ -51,6 +66,8 @@ Source: ..\MASGAU.WPF\bin\Release\MASGAU.WPF.dll; DestDir: {app};  Components: M
 Source: ..\MASGAU.WPF\bin\Release\MASGAU.WPF.pdb; DestDir: {app};  Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion;
 Source: ..\MASGAU.Updater\bin\Release\MASGAU.Updater.dll; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion;
 Source: ..\MASGAU.Updater\bin\Release\MASGAU.Updater.pdb; DestDir: {app};  Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion;
+Source: ..\Translations\bin\Release\Translations.dll; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion;
+Source: ..\Translations\bin\Release\Translations.pdb; DestDir: {app};  Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion;
 // Main EXEs
 Source: ..\MASGAU.Restore.WPF\bin\Release\MASGAU.Restore.WPF.exe; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion;
 Source: ..\MASGAU.Restore.WPF\bin\Release\MASGAU.Restore.WPF.pdb; DestDir: {app};  Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion;
@@ -92,6 +109,10 @@ Source: ..\Data\Data\psp.xml; DestDir: {app}\Data;  Components: DataFiles\PSData
 // System Data component 
 Source: ..\Data\Data\system.xml; DestDir: {app}\Data; Components: DataFiles\SysData; 
 
+// Translations
+Source: ..\Translations\Strings\strings.xsd; DestDir: {app}\Strings; Components: Langs\EN; 
+Source: ..\Translations\Strings\en.xml; DestDir: {app}\Strings; Components: Langs\EN; 
+
 
 [Registry]
 // File association
@@ -102,7 +123,7 @@ Root: HKCR; SubKey: MASGAUArchive\shell\open\command; ValueType: string; ValueDa
 // Installation folder key
 Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueName: InstallPath; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteValue; 
 Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteKey  ; 
-Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueName: Version; ValueData: 0.9.1; Components: MASGAU; Flags:  UninsDeleteValue; 
+Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueName: Version; ValueData: 0.10; Components: MASGAU; Flags:  UninsDeleteValue; 
 
 [Messages]
 WinVersionTooLowError=MASGAU requires Windows NT4, Windows 98 or later.
@@ -250,6 +271,9 @@ Name: DataFiles\PCData; Description: PC Games; Types: full compact;
 Name: DataFiles\PSData; Description: PlayStation Games; Types: full; 
 Name: DataFiles\SysData; Description: System Files; Types: full; 
 Name: DataFiles\DeprecatedData; Description: Deprecated; Types: full; 
+Name: Langs; Description: Language Files;
+Name: Langs\EN; Description: English; Flags: fixed; Types: full compact custom; 
+
 
 [Types]
 Name: full; Description: The Whole Shebang;

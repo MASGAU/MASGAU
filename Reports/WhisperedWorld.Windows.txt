@@ -1,0 +1,354 @@
+Comments:
+  <game name="WhisperedWorld" platform="Steam">
+    <title>The Whispered World</title>
+    <location_path environment_variable="steamcommon" path="whispered world" />
+	<save path="savegames"/>
+    <contributer>%USER%</contributer>
+  </game>
+
+
+  
+Game Name: Whispered World
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Steam\steamapps\common\whispered world
+
+Save Path: 
+ProgramFilesX86\Steam\steamapps\common\whispered world\savegames
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\DeepSilver\The Whispered World
+Value: InstallPath
+Data: ProgramFilesX86\Steam\steamapps\common\whispered world
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\DeepSilver\The Whispered World
+Value: OPTIONS_CMD
+Data: Dec 30 6:56:45 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\TWWOptions.exe - 1914368
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\DeepSilver\The Whispered World
+Value: RUN_CMD
+Data: Dec 30 7:02:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\TWWLoader.exe - 289792
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Dec 30 10:02:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\savegames\bookmark00.dat - 1105365
+Dec 30 10:21:36 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\savegames\bookmark01.dat - 1100984
+Dec 30 10:21:33 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\savegames\savegame00.dat - 1140973
+
+Install Folder Dump: 
+Dec 30 5:33:57 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\18490_install.vdf - 1532
+Dec 30 7:01:18 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\audiere.dll - 524288
+Dec 30 7:12:45 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\avcodec-52.dll - 4017152
+Dec 30 6:37:03 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\avdevice-52.dll - 10752
+Dec 30 6:55:42 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\avformat-52.dll - 678912
+Dec 30 6:10:26 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\avutil-50.dll - 70656
+Dec 30 10:21:37 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\config.ini - 94
+Dec 30 6:33:08 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\data.vis - 126638352
+Dec 30 6:38:14 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\Manual.pdf - 3940756
+Dec 30 10:21:35 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\messages.log - 16937
+Dec 30 6:22:03 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\ReadMe.txt - 7639
+Dec 30 7:07:00 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\SDL.dll - 335872
+Dec 30 7:00:03 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\swscale-0.dll - 149504
+Dec 30 6:59:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\TWW.exe - 3417088
+Dec 30 7:02:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\TWWLoader.exe - 289792
+Dec 30 6:56:45 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\TWWOptions.exe - 1914368
+Dec 30 6:33:14 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\TWW_autorun.ico - 90913
+Dec 30 7:07:37 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc000 - 19244147
+Dec 30 6:35:25 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc001 - 78320227
+Dec 30 7:07:23 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc002 - 14817762
+Dec 30 6:48:38 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc003 - 14997009
+Dec 30 6:56:47 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc004 - 3055820
+Dec 30 6:14:24 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc005 - 37539
+Dec 30 6:54:39 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc006 - 1197576
+Dec 30 7:09:55 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc007 - 14216460
+Dec 30 6:41:03 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc008 - 11479700
+Dec 30 7:11:33 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc009 - 2532261
+Dec 30 7:13:44 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc010 - 17512770
+Dec 30 6:20:32 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc011 - 6911071
+Dec 30 6:58:57 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc012 - 905373
+Dec 30 6:15:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc013 - 17533333
+Dec 30 6:56:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc014 - 28101894
+Dec 30 6:59:39 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc015 - 3737180
+Dec 30 7:10:51 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc016 - 5794790
+Dec 30 6:54:46 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc017 - 5672349
+Dec 30 7:13:11 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc018 - 9321889
+Dec 30 6:56:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc019 - 12718139
+Dec 30 6:20:12 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc020 - 2079157
+Dec 30 6:51:56 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc021 - 5164018
+Dec 30 6:57:12 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc022 - 2005966
+Dec 30 6:09:08 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc023 - 14
+Dec 30 6:38:03 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc024 - 14
+Dec 30 6:54:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc025 - 14
+Dec 30 7:01:12 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc026 - 14
+Dec 30 6:47:58 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc027 - 231
+Dec 30 6:33:44 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc028 - 2026142
+Dec 30 6:55:28 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc029 - 231
+Dec 30 6:55:25 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc030 - 903345
+Dec 30 6:56:28 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc031 - 904251
+Dec 30 6:55:33 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc032 - 902234
+Dec 30 6:34:14 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc033 - 901449
+Dec 30 6:56:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc034 - 51904
+Dec 30 7:01:00 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc035 - 388865
+Dec 30 7:05:31 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc036 - 368425
+Dec 30 6:53:00 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc037 - 1856610
+Dec 30 7:11:45 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc038 - 10347171
+Dec 30 6:41:07 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc039 - 11088143
+Dec 30 6:53:44 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc040 - 5478016
+Dec 30 6:40:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\characters\character.vc041 - 2623982
+Dec 30 6:58:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2005_d3dx9_25_x64.cab - 1347354
+Dec 30 6:56:04 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2005_d3dx9_25_x86.cab - 1078954
+Dec 30 6:57:19 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2006_d3dx9_30_x64.cab - 1397822
+Dec 30 6:55:20 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+Dec 30 6:48:29 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2006_MDX1_x86.cab - 916430
+Dec 30 7:07:04 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162630
+Dec 30 6:07:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2006_XACT_x64.cab - 179125
+Dec 30 6:59:51 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2006_XACT_x86.cab - 133095
+Dec 30 6:55:10 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2006_xinput_x64.cab - 87101
+Dec 30 6:07:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Apr2006_xinput_x86.cab - 46002
+Dec 30 7:02:25 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\APR2007_d3dx10_33_x64.cab - 698612
+Dec 30 6:24:11 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\APR2007_d3dx10_33_x86.cab - 695857
+Dec 30 6:38:56 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\APR2007_d3dx9_33_x64.cab - 1607358
+Dec 30 6:41:47 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\APR2007_d3dx9_33_x86.cab - 1606031
+Dec 30 6:36:43 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\APR2007_XACT_x64.cab - 195758
+Dec 30 6:59:28 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\APR2007_XACT_x86.cab - 151225
+Dec 30 7:07:29 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\APR2007_xinput_x64.cab - 96817
+Dec 30 6:07:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\APR2007_xinput_x86.cab - 53294
+Dec 30 6:57:49 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2005_d3dx9_27_x64.cab - 1350534
+Dec 30 6:53:59 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+Dec 30 6:55:31 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2006_XACT_x64.cab - 182903
+Dec 30 6:55:28 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2006_XACT_x86.cab - 137235
+Dec 30 6:47:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2006_xinput_x64.cab - 87142
+Dec 30 6:49:55 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2006_xinput_x86.cab - 46058
+Dec 30 7:08:34 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2007_d3dx10_35_x64.cab - 852286
+Dec 30 6:43:20 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2007_d3dx10_35_x86.cab - 796859
+Dec 30 7:09:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2007_d3dx9_35_x64.cab - 1800152
+Dec 30 7:05:40 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2007_d3dx9_35_x86.cab - 1708144
+Dec 30 6:53:40 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2007_XACT_x64.cab - 198088
+Dec 30 6:57:00 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\AUG2007_XACT_x86.cab - 153004
+Dec 30 6:57:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2008_d3dx10_39_x64.cab - 867604
+Dec 30 6:55:26 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2008_d3dx10_39_x86.cab - 849167
+Dec 30 6:37:53 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2008_d3dx9_39_x64.cab - 1794076
+Dec 30 6:46:57 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2008_d3dx9_39_x86.cab - 1464664
+Dec 30 6:53:17 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2008_XACT_x64.cab - 121764
+Dec 30 6:47:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2008_XACT_x86.cab - 92996
+Dec 30 6:54:21 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2008_XAudio_x64.cab - 271404
+Dec 30 7:02:20 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2008_XAudio_x86.cab - 271038
+Dec 30 7:07:13 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_D3DCompiler_42_x64.cab - 919036
+Dec 30 7:08:45 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_D3DCompiler_42_x86.cab - 900598
+Dec 30 6:55:16 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_d3dcsx_42_x64.cab - 3112103
+Dec 30 6:55:55 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_d3dcsx_42_x86.cab - 3319732
+Dec 30 7:03:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_d3dx10_42_x64.cab - 232635
+Dec 30 6:41:23 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_d3dx10_42_x86.cab - 192131
+Dec 30 6:49:58 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_d3dx11_42_x64.cab - 136301
+Dec 30 6:48:10 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_d3dx11_42_x86.cab - 105036
+Dec 30 7:03:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_d3dx9_42_x64.cab - 930108
+Dec 30 6:41:49 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_d3dx9_42_x86.cab - 728456
+Dec 30 6:20:39 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_XACT_x64.cab - 122408
+Dec 30 6:57:12 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_XACT_x86.cab - 93098
+Dec 30 6:48:44 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_XAudio_x64.cab - 273264
+Dec 30 6:50:04 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Aug2009_XAudio_x86.cab - 272634
+Dec 30 7:13:22 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\BDANT.cab - 1155483
+Dec 30 7:06:07 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\BDAXP.cab - 975148
+Dec 30 7:11:57 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Dec2005_d3dx9_28_x64.cab - 1357968
+Dec 30 7:10:14 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Dec2005_d3dx9_28_x86.cab - 1079448
+Dec 30 6:55:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\DEC2006_d3dx10_00_x64.cab - 212799
+Dec 30 6:57:45 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\DEC2006_d3dx10_00_x86.cab - 191712
+Dec 30 7:00:41 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\DEC2006_d3dx9_32_x64.cab - 1571154
+Dec 30 6:55:04 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+Dec 30 6:56:10 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\DEC2006_XACT_x64.cab - 192467
+Dec 30 6:50:01 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\DEC2006_XACT_x86.cab - 145591
+Dec 30 7:03:32 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\DSETUP.dll - 94024
+Dec 30 6:56:29 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\dsetup32.dll - 1691464
+Dec 30 6:39:08 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\dxdllreg_x86.cab - 44440
+Dec 30 6:58:13 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\dxnt.cab - 13264168
+Dec 30 6:07:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\DXSETUP.exe - 525656
+Dec 30 7:08:52 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\dxupdate.cab - 95637
+Dec 30 7:06:32 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Feb2005_d3dx9_24_x64.cab - 1247499
+Dec 30 6:32:49 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Feb2005_d3dx9_24_x86.cab - 1013225
+Dec 30 6:10:31 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Feb2006_d3dx9_29_x64.cab - 1362796
+Dec 30 6:47:59 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Feb2006_d3dx9_29_x86.cab - 1084712
+Dec 30 6:20:22 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Feb2006_XACT_x64.cab - 178359
+Dec 30 6:59:39 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Feb2006_XACT_x86.cab - 132409
+Dec 30 6:58:23 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\FEB2007_XACT_x64.cab - 194667
+Dec 30 6:39:01 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\FEB2007_XACT_x86.cab - 147983
+Dec 30 7:00:03 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Jun2005_d3dx9_26_x64.cab - 1336002
+Dec 30 6:50:29 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Jun2005_d3dx9_26_x86.cab - 1064925
+Dec 30 6:58:03 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2006_XACT_x64.cab - 180777
+Dec 30 6:41:20 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2006_XACT_x86.cab - 133663
+Dec 30 6:56:01 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2007_d3dx10_34_x64.cab - 699044
+Dec 30 6:58:57 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2007_d3dx10_34_x86.cab - 698464
+Dec 30 6:22:53 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2007_d3dx9_34_x64.cab - 1607766
+Dec 30 6:48:40 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2007_d3dx9_34_x86.cab - 1607278
+Dec 30 6:58:04 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2007_XACT_x64.cab - 197114
+Dec 30 7:03:38 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2007_XACT_x86.cab - 152901
+Dec 30 6:27:30 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_d3dx10_38_x64.cab - 867828
+Dec 30 6:07:20 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+Dec 30 7:02:51 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_d3dx9_38_x64.cab - 1792600
+Dec 30 6:59:18 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+Dec 30 6:29:24 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_X3DAudio_x64.cab - 55154
+Dec 30 6:07:07 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_X3DAudio_x86.cab - 21905
+Dec 30 6:10:05 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_XACT_x64.cab - 121054
+Dec 30 7:07:18 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_XACT_x86.cab - 93128
+Dec 30 6:47:36 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_XAudio_x64.cab - 269620
+Dec 30 6:53:56 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\JUN2008_XAudio_x86.cab - 269016
+Dec 30 7:07:54 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_d3dx10_37_x64.cab - 844884
+Dec 30 7:07:44 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_d3dx10_37_x86.cab - 818260
+Dec 30 6:37:19 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_d3dx9_37_x64.cab - 1769862
+Dec 30 6:53:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_d3dx9_37_x86.cab - 1443274
+Dec 30 6:56:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_X3DAudio_x64.cab - 55050
+Dec 30 6:59:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+Dec 30 6:36:47 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_XACT_x64.cab - 122336
+Dec 30 6:47:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_XACT_x86.cab - 93726
+Dec 30 7:06:57 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_XAudio_x64.cab - 251186
+Dec 30 6:55:25 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2008_XAudio_x86.cab - 226242
+Dec 30 6:55:40 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+Dec 30 6:41:38 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_d3dx10_41_x86.cab - 1040737
+Dec 30 6:42:23 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_d3dx9_41_x64.cab - 1973702
+Dec 30 6:21:19 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+Dec 30 7:07:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_X3DAudio_x64.cab - 54600
+Dec 30 7:07:04 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+Dec 30 7:05:54 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_XACT_x64.cab - 121506
+Dec 30 6:48:07 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_XACT_x86.cab - 92732
+Dec 30 7:02:31 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_XAudio_x64.cab - 275036
+Dec 30 6:38:51 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Mar2009_XAudio_x86.cab - 273010
+Dec 30 7:09:30 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2007_d3dx10_36_x64.cab - 864600
+Dec 30 7:07:11 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2007_d3dx10_36_x86.cab - 803876
+Dec 30 6:59:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2007_d3dx9_36_x64.cab - 1802058
+Dec 30 6:54:12 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2007_d3dx9_36_x86.cab - 1709360
+Dec 30 6:53:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\NOV2007_X3DAudio_x64.cab - 46144
+Dec 30 6:57:28 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\NOV2007_X3DAudio_x86.cab - 18496
+Dec 30 7:09:59 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\NOV2007_XACT_x64.cab - 196754
+Dec 30 6:10:53 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\NOV2007_XACT_x86.cab - 148264
+Dec 30 7:02:08 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_d3dx10_40_x64.cab - 994154
+Dec 30 6:47:43 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_d3dx10_40_x86.cab - 965421
+Dec 30 6:07:14 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_d3dx9_40_x64.cab - 1906870
+Dec 30 7:07:42 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+Dec 30 6:37:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_X3DAudio_x64.cab - 54522
+Dec 30 7:06:06 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_X3DAudio_x86.cab - 21843
+Dec 30 7:06:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_XACT_x64.cab - 121786
+Dec 30 6:07:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_XACT_x86.cab - 92676
+Dec 30 6:49:54 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_XAudio_x64.cab - 273960
+Dec 30 6:58:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Nov2008_XAudio_x86.cab - 272603
+Dec 30 6:50:01 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Oct2005_xinput_x64.cab - 86029
+Dec 30 7:07:16 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\Oct2005_xinput_x86.cab - 45351
+Dec 30 7:11:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\OCT2006_d3dx9_31_x64.cab - 1412894
+Dec 30 7:07:27 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\OCT2006_d3dx9_31_x86.cab - 1127209
+Dec 30 6:09:05 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\OCT2006_XACT_x64.cab - 182361
+Dec 30 6:36:44 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\redist\DirectX\OCT2006_XACT_x86.cab - 138009
+Dec 30 10:02:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\savegames\bookmark00.dat - 1105365
+Dec 30 10:21:36 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\savegames\bookmark01.dat - 1100984
+Dec 30 10:21:33 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\savegames\savegame00.dat - 1140973
+Dec 30 6:47:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs000 - 74466236
+Dec 30 6:40:57 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs001 - 35068896
+Dec 30 6:08:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs002 - 13946133
+Dec 30 6:55:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs003 - 14
+Dec 30 6:10:20 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs004 - 1938633
+Dec 30 7:08:33 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs005 - 12347919
+Dec 30 6:38:12 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs006 - 20114129
+Dec 30 6:27:38 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs007 - 9671987
+Dec 30 6:47:21 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs008 - 35900568
+Dec 30 6:10:43 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs009 - 15851675
+Dec 30 6:41:29 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs010 - 22758823
+Dec 30 6:21:57 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs011 - 24636015
+Dec 30 6:36:36 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs012 - 22769553
+Dec 30 6:09:28 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs013 - 18542991
+Dec 30 6:37:20 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs014 - 22428392
+Dec 30 6:08:58 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs015 - 15323074
+Dec 30 6:09:50 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs016 - 6875961
+Dec 30 6:32:30 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs017 - 11895539
+Dec 30 7:02:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs018 - 4887718
+Dec 30 6:17:52 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs019 - 42581714
+Dec 30 6:36:52 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs020 - 233611
+Dec 30 7:11:59 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs021 - 22673037
+Dec 30 6:55:07 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs022 - 20949600
+Dec 30 6:38:41 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs023 - 8668250
+Dec 30 6:12:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs024 - 12759162
+Dec 30 6:29:04 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs025 - 16315952
+Dec 30 6:49:46 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs026 - 24417816
+Dec 30 7:05:49 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs027 - 16966377
+Dec 30 6:53:32 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs028 - 7707902
+Dec 30 7:09:40 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs029 - 16623563
+Dec 30 7:13:24 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs030 - 39421032
+Dec 30 6:49:46 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs031 - 19340926
+Dec 30 7:11:47 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs032 - 14403345
+Dec 30 6:30:01 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs033 - 18085506
+Dec 30 6:42:41 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs034 - 14664595
+Dec 30 7:08:21 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs035 - 11439332
+Dec 30 6:23:44 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs036 - 11676002
+Dec 30 6:20:13 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs037 - 29034814
+Dec 30 7:12:40 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs038 - 43134626
+Dec 30 7:14:00 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs039 - 12883274
+Dec 30 6:14:46 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs040 - 22271612
+Dec 30 7:01:05 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs041 - 14996710
+Dec 30 6:47:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs042 - 33865676
+Dec 30 6:32:03 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs043 - 20338295
+Dec 30 6:23:41 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs044 - 32944890
+Dec 30 7:05:00 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs045 - 14515422
+Dec 30 6:41:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs046 - 21448715
+Dec 30 6:41:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs047 - 43338558
+Dec 30 6:27:17 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs048 - 20416588
+Dec 30 7:07:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs049 - 22593400
+Dec 30 6:19:33 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs050 - 30152778
+Dec 30 6:49:49 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs051 - 30279327
+Dec 30 7:05:46 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs052 - 19299198
+Dec 30 7:05:17 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs053 - 12517049
+Dec 30 7:03:26 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs054 - 19188462
+Dec 30 7:13:34 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs055 - 20961612
+Dec 30 6:52:21 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs056 - 15528439
+Dec 30 6:23:37 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs057 - 25348522
+Dec 30 6:54:53 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs058 - 16606971
+Dec 30 6:32:42 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs059 - 13075362
+Dec 30 6:55:28 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs060 - 16816413
+Dec 30 6:48:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs061 - 15391718
+Dec 30 6:53:06 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs062 - 6634501
+Dec 30 7:07:18 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs063 - 671414
+Dec 30 6:23:55 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs064 - 8895042
+Dec 30 6:11:42 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs065 - 7916637
+Dec 30 6:57:31 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs066 - 5777952
+Dec 30 6:36:54 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs067 - 14
+Dec 30 6:36:54 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs068 - 14
+Dec 30 6:48:26 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs069 - 14
+Dec 30 6:32:09 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs070 - 14
+Dec 30 6:59:21 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs071 - 14
+Dec 30 6:29:53 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs072 - 9398101
+Dec 30 6:33:44 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs073 - 2525666
+Dec 30 6:20:31 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs074 - 2184198
+Dec 30 6:27:13 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs075 - 15312564
+Dec 30 6:25:06 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs076 - 22744687
+Dec 30 6:26:53 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs077 - 5939978
+Dec 30 6:33:22 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\scenes\scene.vs078 - 10520024
+Dec 30 7:01:34 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv000 - 12047117
+Dec 30 6:55:10 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv001 - 123605565
+Dec 30 6:54:14 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv002 - 119083021
+Dec 30 6:58:02 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv003 - 3520196
+Dec 30 7:13:42 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv004 - 6751010
+Dec 30 7:09:18 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv005 - 3676616
+Dec 30 6:47:06 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv006 - 13808147
+Dec 30 6:45:59 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv007 - 4152530
+Dec 30 7:11:01 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv008 - 17977888
+Dec 30 7:14:55 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv009 - 34470163
+Dec 30 6:36:38 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv010 - 10805527
+Dec 30 6:14:10 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv011 - 29427507
+Dec 30 6:51:24 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv012 - 7434467
+Dec 30 7:13:11 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv013 - 11328554
+Dec 30 6:27:55 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv014 - 609319
+Dec 30 10:02:45 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv015 - 2763884
+Dec 30 6:22:15 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv016 - 936317
+Dec 30 6:29:12 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv017 - 72815053
+Dec 30 10:02:49 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv018 - 282620
+Dec 30 10:05:41 PM - ProgramFilesX86\Steam\steamapps\common\whispered world\videos\video.vv019 - 59604253
+
+UAC Disabled or not present
+

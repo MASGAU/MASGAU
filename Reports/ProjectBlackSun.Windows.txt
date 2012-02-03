@@ -1,0 +1,272 @@
+Comments:
+	<game name="ProjectBlackSun" platform="Windows">
+		<title>Project Black Sun</title>
+		<location_path environment_variable="userdocuments" path="ProjectBlackSun" />
+		<save />
+		<contributer>Arc Angel</contributer>
+	</game>
+
+	
+Game Name: Project Black Sun
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Project Black Sun
+
+Save Path: 
+UserDocuments\ProjectBlackSun
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{76EE77BC-FE08-489B-9AAD-1B89EA3ADD4A}_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\Project Black Sun
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{76EE77BC-FE08-489B-9AAD-1B89EA3ADD4A}_is1
+Value: InstallLocation
+Data: ProgramFilesX86\Project Black Sun
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+Jan 14 6:05:35 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Project Black Sun\Project Black Sun.lnk - 1123
+Dec 02 12:42:54 PM - ProgramFilesX86\Project Black Sun\ProjectBlackSun.exe - 1114112
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Jan 14 6:32:47 PM - UserDocuments\ProjectBlackSun\config.xml - 152
+Jan 15 5:56:34 PM - UserDocuments\ProjectBlackSun\savedata.xml - 47072
+
+Install Folder Dump: 
+Oct 16 7:40:02 PM - ProgramFilesX86\Project Black Sun\icon.ico - 15086
+Oct 14 11:09:58 AM - ProgramFilesX86\Project Black Sun\icon.png - 585
+Oct 09 2:20:44 AM - ProgramFilesX86\Project Black Sun\libsndfile-1.dll - 2275328
+Oct 09 2:20:44 AM - ProgramFilesX86\Project Black Sun\openal32.dll - 456704
+Dec 02 12:42:54 PM - ProgramFilesX86\Project Black Sun\ProjectBlackSun.exe - 1114112
+Dec 02 11:29:18 AM - ProgramFilesX86\Project Black Sun\README.txt - 2099
+Jan 14 6:05:35 PM - ProgramFilesX86\Project Black Sun\unins000.dat - 18646
+Jan 14 6:05:23 PM - ProgramFilesX86\Project Black Sun\unins000.exe - 725278
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0000.dat - 8776
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0001.dat - 1031
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0100.dat - 5795
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0101.dat - 41565
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0200.dat - 3516
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0201.dat - 59121
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0300.dat - 4644
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0301.dat - 1431
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0302.dat - 50869
+Oct 12 3:36:32 PM - ProgramFilesX86\Project Black Sun\data\data0400.dat - 5641
+Nov 02 1:03:14 PM - ProgramFilesX86\Project Black Sun\data\data0500.dat - 4598896
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\data\scene\scene0000.dat - 1316
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\data\scene\scene0100.dat - 16355
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\data\scene\scene0101.dat - 17011
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\data\scene\scene0102.dat - 11394
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\data\scene\scene0103.dat - 18214
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\data\scene\scene0104.dat - 17070
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\data\scene\scene0200.dat - 142
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\fonts\font0001.dat - 1920
+Oct 12 4:20:24 PM - ProgramFilesX86\Project Black Sun\fonts\font0002.dat - 1933
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\door00.dat - 1366
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\door01.dat - 1222
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\door10.dat - 1093
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\door11.dat - 1185
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\door20.dat - 1116
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\door21.dat - 961
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item00.dat - 1432
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item01.dat - 1077
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item02.dat - 1000
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item03.dat - 917
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item04.dat - 1071
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item05.dat - 1067
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item06.dat - 864
+Sep 12 4:20:36 PM - ProgramFilesX86\Project Black Sun\gfx\item07.dat - 685
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item08.dat - 619
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item09.dat - 299
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item10.dat - 299
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item11.dat - 326
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\item12.dat - 2516
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\object00.dat - 3427
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\object01.dat - 2567
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\object02.dat - 2557
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\object03.dat - 1554
+Sep 19 12:39:04 PM - ProgramFilesX86\Project Black Sun\gfx\object04.dat - 2318
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\object05.dat - 13779
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\object06.dat - 2140
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\object07.dat - 2222
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\object08.dat - 1410
+Sep 29 2:16:16 PM - ProgramFilesX86\Project Black Sun\gfx\place00.dat - 1679
+Sep 29 2:16:16 PM - ProgramFilesX86\Project Black Sun\gfx\place01.dat - 2194
+Sep 29 2:16:16 PM - ProgramFilesX86\Project Black Sun\gfx\place02.dat - 2386
+Sep 29 2:16:16 PM - ProgramFilesX86\Project Black Sun\gfx\place03.dat - 1699
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player00.dat - 2113
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player01.dat - 6206
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player02.dat - 4662
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player03.dat - 4455
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player04.dat - 3306
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player05.dat - 7956
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player06.dat - 2913
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player07.dat - 4945
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player08.dat - 7802
+Dec 02 10:53:42 AM - ProgramFilesX86\Project Black Sun\gfx\player09.dat - 4689
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player10.dat - 2792
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player11.dat - 7578
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\player12.dat - 312
+Sep 26 2:36:18 PM - ProgramFilesX86\Project Black Sun\gfx\player13.dat - 215
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui00.dat - 196
+Sep 22 3:27:52 PM - ProgramFilesX86\Project Black Sun\gfx\ui01.dat - 9304
+Sep 22 3:15:58 PM - ProgramFilesX86\Project Black Sun\gfx\ui02.dat - 855
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui03.dat - 173
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui04.dat - 570
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui05.dat - 1545
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui06.dat - 1547
+Sep 27 1:44:04 PM - ProgramFilesX86\Project Black Sun\gfx\ui07.dat - 140
+Oct 12 10:06:10 AM - ProgramFilesX86\Project Black Sun\gfx\ui08.dat - 315
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui09.dat - 889
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui10.dat - 883
+Oct 12 10:09:04 AM - ProgramFilesX86\Project Black Sun\gfx\ui11.dat - 582
+Oct 12 10:08:34 AM - ProgramFilesX86\Project Black Sun\gfx\ui12.dat - 16857
+Nov 08 12:19:34 PM - ProgramFilesX86\Project Black Sun\gfx\ui13.dat - 267
+Sep 22 1:13:42 PM - ProgramFilesX86\Project Black Sun\gfx\ui14.dat - 1740
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui15.dat - 5963
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui16.dat - 288
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui17.dat - 65190
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui18.dat - 240
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui19.dat - 196
+Sep 05 6:09:18 PM - ProgramFilesX86\Project Black Sun\gfx\ui20.dat - 300
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui21.dat - 806
+Sep 22 4:50:00 PM - ProgramFilesX86\Project Black Sun\gfx\ui22.dat - 211
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui23.dat - 163
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui24.dat - 463
+Oct 12 10:11:06 AM - ProgramFilesX86\Project Black Sun\gfx\ui25.dat - 934
+Sep 05 3:46:00 PM - ProgramFilesX86\Project Black Sun\gfx\ui26.dat - 305
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui27.dat - 249
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui28.dat - 286
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui29.dat - 421
+Sep 21 12:34:30 PM - ProgramFilesX86\Project Black Sun\gfx\ui30.dat - 143
+Sep 21 12:49:36 PM - ProgramFilesX86\Project Black Sun\gfx\ui31.dat - 190
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui32.dat - 282
+Oct 12 10:09:38 AM - ProgramFilesX86\Project Black Sun\gfx\ui33.dat - 1082
+Oct 12 10:12:04 AM - ProgramFilesX86\Project Black Sun\gfx\ui34.dat - 9514
+Nov 09 4:48:40 PM - ProgramFilesX86\Project Black Sun\gfx\ui35.dat - 239
+Sep 05 6:09:34 PM - ProgramFilesX86\Project Black Sun\gfx\ui36.dat - 321
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui37.dat - 1142
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui38.dat - 166
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui39.dat - 157
+Sep 19 3:43:16 PM - ProgramFilesX86\Project Black Sun\gfx\ui40.dat - 1843
+Oct 05 6:46:34 PM - ProgramFilesX86\Project Black Sun\gfx\ui41.dat - 871
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui42.dat - 870
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\ui43.dat - 1035
+Nov 09 5:22:04 PM - ProgramFilesX86\Project Black Sun\gfx\ui44.dat - 191
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0000.dat - 481
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0001.dat - 3547
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0002.dat - 1389
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0003.dat - 599
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0004.dat - 1454
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0005.dat - 5678
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0006.dat - 719
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0007.dat - 3035
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0008.dat - 320
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0009.dat - 300
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0010.dat - 286
+Oct 12 4:32:02 PM - ProgramFilesX86\Project Black Sun\gfx\effects\effect0011.dat - 1607
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0000.dat - 495
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0001.dat - 1371
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0002.dat - 2070
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0003.dat - 2356
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0100.dat - 1985
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0101.dat - 1985
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0102.dat - 2238
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0200.dat - 2273
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0201.dat - 2331
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0202.dat - 2183
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0203.dat - 4913
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0300.dat - 2525
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0301.dat - 3120
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0302.dat - 9513
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0303.dat - 3466
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0304.dat - 234
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0400.dat - 403
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0401.dat - 1754
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0402.dat - 1525
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0500.dat - 991
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0501.dat - 768
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0502.dat - 1198
+Sep 26 5:50:04 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0503.dat - 707
+Sep 26 5:52:08 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0504.dat - 252
+Sep 23 5:53:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0600.dat - 3239
+Sep 23 5:52:20 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0601.dat - 1025
+Sep 19 12:31:42 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0700.dat - 1103
+Sep 19 12:31:34 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0701.dat - 1303
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0800.dat - 2020
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0801.dat - 1307
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0802.dat - 3842
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0900.dat - 4362
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0901.dat - 4920
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0902.dat - 2715
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0903.dat - 6638
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0904.dat - 6115
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy0905.dat - 2022
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1000.dat - 2425
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1001.dat - 6334
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1002.dat - 9448
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1003.dat - 6110
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1004.dat - 6664
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1005.dat - 1176
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1006.dat - 649
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1100.dat - 7738
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1101.dat - 4664
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1102.dat - 3112
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1103.dat - 1303
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1104.dat - 1400
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1105.dat - 714
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1106.dat - 1399
+Oct 07 11:33:00 AM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1107.dat - 1262
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1108.dat - 614
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1200.dat - 5602
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1201.dat - 882
+Sep 19 4:33:16 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1202.dat - 454
+Sep 12 2:47:24 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1203.dat - 386
+Sep 14 12:59:58 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1300.dat - 522
+Sep 08 5:32:12 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1301.dat - 24768
+Sep 19 4:36:22 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1302.dat - 566
+Sep 19 5:35:34 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1303.dat - 5247
+Sep 08 5:32:12 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1304.dat - 3418
+Sep 08 5:32:12 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1305.dat - 9892
+Sep 20 2:46:36 PM - ProgramFilesX86\Project Black Sun\gfx\Enemies\enemy1306.dat - 860
+Sep 19 9:25:10 AM - ProgramFilesX86\Project Black Sun\music\black_sun.ogg - 1464050
+Sep 19 9:25:10 AM - ProgramFilesX86\Project Black Sun\music\item_pickup.ogg - 145381
+Sep 19 9:25:10 AM - ProgramFilesX86\Project Black Sun\music\i_kill_monsters.ogg - 1529974
+Sep 19 9:25:10 AM - ProgramFilesX86\Project Black Sun\music\level_1.ogg - 2242149
+Sep 19 9:25:10 AM - ProgramFilesX86\Project Black Sun\music\level_2.ogg - 2494880
+Sep 19 9:25:10 AM - ProgramFilesX86\Project Black Sun\music\level_3.ogg - 2237099
+Oct 11 5:06:14 PM - ProgramFilesX86\Project Black Sun\sfx\bat.ogg - 19047
+Oct 11 1:01:52 PM - ProgramFilesX86\Project Black Sun\sfx\boss_shoot.ogg - 9578
+Oct 11 12:33:24 PM - ProgramFilesX86\Project Black Sun\sfx\carnivore_spit.ogg - 11996
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\sfx\dead.ogg - 8410
+Oct 11 5:06:14 PM - ProgramFilesX86\Project Black Sun\sfx\door.ogg - 40461
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\sfx\enter.ogg - 5773
+Sep 20 4:07:58 PM - ProgramFilesX86\Project Black Sun\sfx\hit.ogg - 7927
+Oct 11 5:06:14 PM - ProgramFilesX86\Project Black Sun\sfx\hit_shield.ogg - 10103
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\sfx\item_obtained.ogg - 300285
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\sfx\jump.ogg - 6982
+Oct 11 5:06:14 PM - ProgramFilesX86\Project Black Sun\sfx\jumper_jump.ogg - 46504
+Oct 11 12:33:24 PM - ProgramFilesX86\Project Black Sun\sfx\knife-stab.ogg - 20527
+Oct 11 12:33:24 PM - ProgramFilesX86\Project Black Sun\sfx\laser.ogg - 59971
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\sfx\pickup.ogg - 9244
+Oct 11 4:37:32 PM - ProgramFilesX86\Project Black Sun\sfx\reload.ogg - 56477
+Dec 02 10:07:18 AM - ProgramFilesX86\Project Black Sun\sfx\rock_fall.ogg - 15566
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\sfx\select.ogg - 6837
+Oct 11 12:33:24 PM - ProgramFilesX86\Project Black Sun\sfx\shift.ogg - 31252
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\sfx\shoot.ogg - 16968
+Sep 03 1:49:10 PM - ProgramFilesX86\Project Black Sun\sfx\slide.ogg - 10515
+Oct 11 12:33:24 PM - ProgramFilesX86\Project Black Sun\sfx\water_splash.ogg - 23453
+Oct 02 11:06:04 PM - ProgramFilesX86\Project Black Sun\VCredist\vcredist_x86.exe - 4995416
+
+UAC Disabled or not present
+

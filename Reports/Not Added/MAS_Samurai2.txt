@@ -1,0 +1,182 @@
+Comments:
+Not sure if this is currently possible, saves are in registry, just saves stats and level finished.
+
+HKEY_CURRENT_USER\Software\Madfingergames\SamuraiII
+
+Game Name: Samurai II - Vengeance
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Samurai II
+
+Save Path: 
+C:\Program Files (x86)\Samurai II
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{30B5553C-0201-4E14-93DC-5BE1D230BB2B}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Samurai II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{30B5553C-0201-4E14-93DC-5BE1D230BB2B}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Samurai II\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Samurai II\Samurai II.lnk
+C:\Program Files (x86)\Samurai II\Samurai II.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Samurai II\Uninstall Samurai II.lnk
+C:\Program Files (x86)\Samurai II\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Samurai II\Samurai II.exe - 6817792
+C:\Program Files (x86)\Samurai II\unins000.dat - 15403
+C:\Program Files (x86)\Samurai II\unins000.exe - 1197507
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level0 - 190964
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level1 - 198399
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level10 - 234
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level11 - 9028
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level12 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level13 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level14 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level15 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level16 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level17 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level18 - 9114
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level2 - 239328
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level3 - 247342
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level4 - 210088
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level5 - 254440
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level6 - 161214
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level7 - 8993
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level8 - 2364
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level9 - 35035
+C:\Program Files (x86)\Samurai II\Samurai II_Data\mainData - 52095
+C:\Program Files (x86)\Samurai II\Samurai II_Data\output_log.txt - 1305
+C:\Program Files (x86)\Samurai II\Samurai II_Data\resources.assets - 20002173
+C:\Program Files (x86)\Samurai II\Samurai II_Data\ScreenSelector.bmp - 211302
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets0.assets - 5240596
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets1.assets - 8439647
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets10.assets - 1147253
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets11.assets - 42
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets12.assets - 1168758
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets13.assets - 1011537
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets14.assets - 1030589
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets15.assets - 1162209
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets16.assets - 1184185
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets17.assets - 1092533
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets18.assets - 1042333
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets19.assets - 737053
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets2.assets - 1386945
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets3.assets - 5353969
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets4.assets - 5420541
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets5.assets - 5749169
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets6.assets - 5167493
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets7.assets - 5577964
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets8.assets - 2742028
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets9.assets - 42
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Assembly-CSharp-firstpass.dll - 45056
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Assembly-CSharp.dll - 531968
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Assembly-UnityScript-firstpass.dll - 26112
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Boo.Lang.dll - 113664
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Mono.Security.dll - 292864
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\mscorlib.dll - 2495488
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\System.dll - 1068544
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\UnityEngine.dll - 408576
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\UnityEngine.dll.mdb - 131791
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\UnityScript.Lang.dll - 13824
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\mono.dll - 2082304
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\browscap.ini - 311984
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\config - 1691
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx - 58196
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\1.0\machine.config - 17259
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx - 60453
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\machine.config - 27626
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\settings.map - 2618
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\web.config - 11686
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\Browsers\Compat.browser - 1605
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\mconfig\config.xml - 25817
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Resources\unity default resources - 2792531
+
+Install Folder Dump: 
+C:\Program Files (x86)\Samurai II\Samurai II.exe - 6817792
+C:\Program Files (x86)\Samurai II\unins000.dat - 15403
+C:\Program Files (x86)\Samurai II\unins000.exe - 1197507
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level0 - 190964
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level1 - 198399
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level10 - 234
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level11 - 9028
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level12 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level13 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level14 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level15 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level16 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level17 - 9071
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level18 - 9114
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level2 - 239328
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level3 - 247342
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level4 - 210088
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level5 - 254440
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level6 - 161214
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level7 - 8993
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level8 - 2364
+C:\Program Files (x86)\Samurai II\Samurai II_Data\level9 - 35035
+C:\Program Files (x86)\Samurai II\Samurai II_Data\mainData - 52095
+C:\Program Files (x86)\Samurai II\Samurai II_Data\output_log.txt - 1305
+C:\Program Files (x86)\Samurai II\Samurai II_Data\resources.assets - 20002173
+C:\Program Files (x86)\Samurai II\Samurai II_Data\ScreenSelector.bmp - 211302
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets0.assets - 5240596
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets1.assets - 8439647
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets10.assets - 1147253
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets11.assets - 42
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets12.assets - 1168758
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets13.assets - 1011537
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets14.assets - 1030589
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets15.assets - 1162209
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets16.assets - 1184185
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets17.assets - 1092533
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets18.assets - 1042333
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets19.assets - 737053
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets2.assets - 1386945
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets3.assets - 5353969
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets4.assets - 5420541
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets5.assets - 5749169
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets6.assets - 5167493
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets7.assets - 5577964
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets8.assets - 2742028
+C:\Program Files (x86)\Samurai II\Samurai II_Data\sharedassets9.assets - 42
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Assembly-CSharp-firstpass.dll - 45056
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Assembly-CSharp.dll - 531968
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Assembly-UnityScript-firstpass.dll - 26112
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Boo.Lang.dll - 113664
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\Mono.Security.dll - 292864
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\mscorlib.dll - 2495488
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\System.dll - 1068544
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\UnityEngine.dll - 408576
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\UnityEngine.dll.mdb - 131791
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Managed\UnityScript.Lang.dll - 13824
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\mono.dll - 2082304
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\browscap.ini - 311984
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\config - 1691
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx - 58196
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\1.0\machine.config - 17259
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx - 60453
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\machine.config - 27626
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\settings.map - 2618
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\web.config - 11686
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\2.0\Browsers\Compat.browser - 1605
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Mono\etc\mono\mconfig\config.xml - 25817
+C:\Program Files (x86)\Samurai II\Samurai II_Data\Resources\unity default resources - 2792531
+
+UAC Disabled or not present
+

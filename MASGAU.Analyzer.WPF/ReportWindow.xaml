@@ -18,7 +18,7 @@
                 <Button Content="Upload" Grid.Column="1" Name="uploadBtn" Margin="1" Click="uploadBtn_Click" Height="23" TabIndex="5" HorizontalAlignment="Right" MinWidth="75" IsEnabled="False" FlowDirection="LeftToRight" Padding="3,0" />
             </StatusBarItem>
             <StatusBarItem Padding="0">
-                <Button Content="Save" Name="saveBtn" Margin="1" Click="saveBtn_Click" Height="23" TabIndex="4" Width="75" HorizontalAlignment="Right" />
+                <Button Content="_Save" Name="saveBtn" Margin="1" Click="saveBtn_Click" Height="23" TabIndex="4" Width="75" HorizontalAlignment="Right" />
             </StatusBarItem>
         </StatusBar>
         <TextBox Name="reportTxt" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" TabIndex="0" IsTabStop="False" IsUndoEnabled="False" Margin="5" AcceptsReturn="True" AcceptsTab="True" />

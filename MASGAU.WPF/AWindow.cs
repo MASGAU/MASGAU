@@ -17,7 +17,7 @@ using System.Threading;
 using System.Windows.Threading;
 using System.IO;
 using MASGAU.Backup;
-
+using Translations;
 namespace MASGAU
 {
 
@@ -78,8 +78,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Main.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = "Main Program";
-            masgau_jump.Description = "Open MASGAU's Main Window";
+            masgau_jump.Title = Strings.get("JumpMainProgram");
+            masgau_jump.Description = Strings.get("JumpMainProgramDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
 
@@ -87,8 +87,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Main.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = "Main Program (All Users Mode)";
-            masgau_jump.Description = "Open MASGAU's Main Window In All Users Mode";
+            masgau_jump.Title = Strings.get("JumpMainProgramAllUsers");
+            masgau_jump.Description = Strings.get("JumpMainProgramAllUsersDescription");
             masgau_jump.Arguments = "-allusers";
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
@@ -97,8 +97,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Analyzer.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = "Analyzer";
-            masgau_jump.Description = "Open MASGAU's Save Game Analyzer";
+            masgau_jump.Title = Strings.get("JumpAnalyzer");
+            masgau_jump.Description = Strings.get("JumpAnalyzerDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
             
@@ -106,8 +106,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Monitor.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = "Monitor";
-            masgau_jump.Description = "Open MASGAU's Monitor";
+            masgau_jump.Title = Strings.get("JumpMonitor");
+            masgau_jump.Description = Strings.get("JumpMonitorDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
 
@@ -121,6 +121,16 @@ namespace MASGAU
             CommunicationHandler.addReceiver(this);
 
             this.Closing += new CancelEventHandler(Window_Closing);
+            this.Loaded += new System.Windows.RoutedEventHandler(AWindow_Loaded);
+            
+        }
+
+        void AWindow_Loaded(object sender, System.Windows.RoutedEventArgs e) {
+            loadTranslations();
+        }
+
+        protected virtual void loadTranslations() {
+            //throw new NotImplementedException();
         }
 
         void Window_Closing(object sender, CancelEventArgs e)
@@ -244,7 +254,7 @@ namespace MASGAU
         protected void beginRestore(List<ArchiveHandler> archives) {
             this.Visibility = System.Windows.Visibility.Hidden;
 
-            if(archives.Count>1&&this.askQuestion("Convenience?","You're restoring more than one archive,\nwould you like MASGAU to not prompt you for input unless absolutely necessary?")) {
+            if(archives.Count>1&&this.askTranslatedQuestion("RestoreMultipleArchives")) {
                 Restore.RestoreProgramHandler.use_defaults = true;
             }
 
@@ -264,7 +274,7 @@ namespace MASGAU
                 foreach(string failed in Restore.RestoreProgramHandler.unsuccesfull_restores) {
                     fail_list.AppendLine(failed);
                 }
-                this.showError("Some archives did not restore",fail_list.ToString());
+                this.showError(Strings.get("RestoreSomeFailed"),fail_list.ToString());
             }
             this.Visibility = System.Windows.Visibility.Visible;
 
@@ -337,16 +347,6 @@ namespace MASGAU
             ProgressHandler.progress_message = old_progress ;
         }
 
-
-
-
-
-
-
-
-
-
-
         private void ApplyEffect(AWindow win) 
         { 
             System.Windows.Media.Effects.BlurEffect objBlur = 
@@ -363,12 +363,27 @@ namespace MASGAU
             win.Effect = null; 
         }
 
+        #region TranslatedMessageBoxes
+        public bool askTranslatedQuestion(String string_name) {
+            return askQuestion(Strings.get(string_name + "Title"),
+                Strings.get(string_name + "Message"));
+        }
+        public bool showTranslatedWarning(String string_name) {
+            return showWarning(Strings.get(string_name + "Title"),
+                Strings.get(string_name + "Message"));
+        }
+        public bool showTranslatedError(String string_name) {
+            return showError(Strings.get(string_name + "Title"),
+                Strings.get(string_name + "Message"));
+        }
+        #endregion
+
         #region MessageBox showing things
         protected bool askQuestion(string title, string message) {
             MessageBox box = new MessageBox(title,message, RequestType.Question, this);
             return (bool)box.ShowDialog();
         }
-        protected bool showError(string title, string message) {
+        public bool showError(string title, string message) {
             return showError(title,message,null);
         }
         protected bool showError(string title, string message, Exception e) {
@@ -419,7 +434,7 @@ namespace MASGAU
             string old_path = Core.settings.steam_path;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = false;
-            folderBrowser.Description = "Choose where Steam is located.";
+            folderBrowser.Description = Strings.get("SelectSteamPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -428,7 +443,7 @@ namespace MASGAU
                     if(Core.settings.steam_path==folderBrowser.SelectedPath||Core.settings.steam_path!=old_path)
                         return true;
                     else 
-                        showWarning("No Go","The selected folder does not contain Steam.exe, so it's probably not a Steam folder");
+                        showTranslatedWarning("SelectSteamPathRejected");
                 } else {
                     try_again = false;
                 }
@@ -441,7 +456,7 @@ namespace MASGAU
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = "Choose where the backups will be saved.";
+            folderBrowser.Description = Strings.get("SelectBackupPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -452,11 +467,11 @@ namespace MASGAU
                             Core.settings.backup_path = new_path;
                             return new_path!=old_path;
                         } else {
-                            showError("Config File Error","You don't have permission to write to the selected backup folder:" + Environment.NewLine + new_path);
+                            showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectBackupPathWriteError") + ":" + Environment.NewLine + new_path);
                             try_again = true;
                         }
                     } else {
-                        showError("Config File Error","You don't have permission to read from the selected backup folder:" + Environment.NewLine + new_path);
+                        showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectBackupPathReadError") + ":" + Environment.NewLine + new_path);
                         try_again = true;
                     }
                 } else {
@@ -470,7 +485,7 @@ namespace MASGAU
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = "Choose where the saves will be synced.";
+            folderBrowser.Description = Strings.get("SelectSyncPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -483,11 +498,11 @@ namespace MASGAU
                                 Core.rebuild_sync = true;
                             return new_path!=old_path;
                         } else {
-                            showError("Config File Error","You don't have permission to write to the selected sync folder:" + Environment.NewLine + new_path);
+                            showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectSyncPathWriteError") + ":" + Environment.NewLine + new_path);
                             try_again = true;
                         }
                     } else {
-                        showError("Config File Error","You don't have permission to read from the selected sync folder:" + Environment.NewLine + new_path);
+                        showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectSyncPathReadError") + ":" + Environment.NewLine + new_path);
                         try_again = true;
                     }
                 } else {
@@ -496,35 +511,11 @@ namespace MASGAU
             } while(try_again);
             return false;
         }
-
 
         protected bool addAltPath() {
-            string new_path;
-            System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
-            folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = "Choose a new Alternative Install Path.";
-            bool try_again = false;
-            do {
-                if(folderBrowser.ShowDialog(this.GetIWin32Window())== System.Windows.Forms.DialogResult.OK) {
-                    new_path = folderBrowser.SelectedPath;
-                    if(PermissionsHelper.isReadable(new_path)) {
-                        if(Core.settings.addAltPath(new_path)){
-                            try_again = false;
-                            return true;
-                        }else {
-                            showError("Duplication","The path you selected has already been added.");
-                            try_again = true;
-                        }
-                    } else {
-                        showError("Can't Read Selected Folder","Due to permissions or something, MASGAU can't read the folder you selected.");
-                        try_again = true;
-                    }
-                } else {
-                    try_again = false;
-                }
-            } while(try_again);
-            return false;
+            return WPFHelpers.addAltPath(this);
         }
+
         protected string promptForPath(string description) {
             string new_path;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();

@@ -1,0 +1,260 @@
+Game Name: Little Big Adventure
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Little Big Adventure
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{159C1607-4BB3-4121-A23D-7828F2FEAC2A}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Little Big Adventure
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{159C1607-4BB3-4121-A23D-7828F2FEAC2A}
+Value: ConfigGDFBinaryPath
+Data: 10/19/2011 11:01:08 AM - ProgramFilesX86\GOG.com\Little Big Adventure\goggame.dll - 222208
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{EE9483C6-827B-470E-A38C-F078DB65B8BC}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Little Big Adventure 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{EE9483C6-827B-470E-A38C-F078DB65B8BC}
+Value: ConfigGDFBinaryPath
+Data: 10/19/2011 12:29:12 PM - ProgramFilesX86\GOG.com\Little Big Adventure 2\goggame.dll - 256000
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA
+Value: EXE
+Data: ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Little Big Adventure
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Little Big Adventure
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA2
+Value: EXE
+Data: ProgramFilesX86\GOG.com\Little Big Adventure 2\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA2
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Little Big Adventure 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA2
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Little Big Adventure 2\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA2
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Little Big Adventure 2\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGLBA2
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Little Big Adventure 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Little Big Adventure 2_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Little Big Adventure 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Little Big Adventure 2_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Little Big Adventure 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Little Big Adventure_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Little Big Adventure
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Little Big Adventure_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Little Big Adventure
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+12/24/2011 1:31:10 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure\Graphic mode setup.lnk - 2245
+2/25/2011 4:19:10 PM - ProgramFilesX86\GOG.com\Little Big Adventure\Graphic mode setup.exe - 980992
+12/24/2011 1:31:08 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure\Language Setup.lnk - 1243
+10/19/2011 10:58:50 AM - ProgramFilesX86\GOG.com\Little Big Adventure\Language.exe - 563200
+12/24/2011 1:31:10 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure\Little Big Adventure.lnk - 2334
+5/12/2010 12:55:40 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\DOSBox.exe - 3727360
+12/24/2011 1:31:09 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure\Uninstall Little Big Adventure.lnk - 1137
+12/24/2011 1:30:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\unins000.exe - 2142547
+12/24/2011 1:31:08 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure\Documents\Manual.lnk - 1237
+9/30/2011 11:46:54 AM - ProgramFilesX86\GOG.com\Little Big Adventure\manual.pdf - 2365113
+12/24/2011 1:31:08 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure\Documents\Readme.lnk - 1237
+9/30/2011 3:09:38 PM - ProgramFilesX86\GOG.com\Little Big Adventure\README.TXT - 3576
+12/24/2011 3:32:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure 2\Graphic mode setup.lnk - 2265
+2/25/2011 4:19:10 PM - ProgramFilesX86\GOG.com\Little Big Adventure 2\Graphic mode setup.exe - 980992
+12/24/2011 3:32:31 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure 2\Language Setup.lnk - 1257
+9/12/2011 5:42:38 PM - ProgramFilesX86\GOG.com\Little Big Adventure 2\Language.exe - 566784
+12/24/2011 3:32:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure 2\Little Big Adventure 2.lnk - 2354
+5/12/2010 12:55:40 PM - ProgramFilesX86\GOG.com\Little Big Adventure 2\DOSBOX\DOSBox.exe - 3727360
+12/24/2011 3:32:32 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure 2\Uninstall Little Big Adventure 2.lnk - 1147
+12/24/2011 3:22:49 PM - ProgramFilesX86\GOG.com\Little Big Adventure 2\unins000.exe - 2142547
+12/24/2011 3:32:31 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure 2\Documents\Manual.lnk - 1251
+10/19/2011 12:28:40 PM - ProgramFilesX86\GOG.com\Little Big Adventure 2\manual.pdf - 7235749
+12/24/2011 3:32:31 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Little Big Adventure 2\Documents\Readme.lnk - 1251
+10/19/2011 12:27:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure 2\README.TXT - 2796
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+1/9/2012 11:27:28 PM - VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure\S5241.LBA - 464
+1/9/2012 11:27:55 PM - VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure\S7323.LBA - 467
+1/9/2012 11:26:35 PM - VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure\stderr.txt - 0
+1/9/2012 11:28:02 PM - VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure\stdout.txt - 176
+
+Install Folder Dump: 
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32ALGFM.DLL - 24576
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32GFX.DLL - 45056
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32MT32.DLL - 14336
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32OP3FM.DLL - 24576
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32PASFM.DLL - 19968
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32PASOP.DLL - 24576
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32SBFM.DLL - 19280
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32SP1FM.DLL - 19968
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32SP2FM.DLL - 24576
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\A32TANDY.DLL - 14848
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\ANIM.HQR - 128603
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\ATI.DLL - 682
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\BODY.HQR - 396854
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\CIRRUS.DLL - 676
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\COMPAQ.DLL - 696
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOS4GW.EXE - 231179
+9/12/2011 5:45:50 PM - ProgramFilesX86\GOG.com\Little Big Adventure\dosboxLBA.conf - 7298
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\FILE3D.HQR - 11851
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\GENOA.DLL - 668
+9/30/2011 3:05:54 PM - ProgramFilesX86\GOG.com\Little Big Adventure\gfw_high.ico - 111482
+10/19/2011 11:01:08 AM - ProgramFilesX86\GOG.com\Little Big Adventure\goggame.dll - 222208
+2/25/2011 4:19:10 PM - ProgramFilesX86\GOG.com\Little Big Adventure\Graphic mode setup.exe - 980992
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\GUSMID32.DLL - 59865
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Little Big Adventure\innosetup_license.txt - 1471
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\INVOBJ.HQR - 38059
+10/19/2011 10:58:50 AM - ProgramFilesX86\GOG.com\Little Big Adventure\Language.exe - 563200
+8/18/2011 2:22:54 PM - ProgramFilesX86\GOG.com\Little Big Adventure\LBA.CFG - 3095
+10/11/2011 5:31:10 PM - ProgramFilesX86\GOG.com\Little Big Adventure\LBA.DAT - 438
+10/11/2011 5:30:52 PM - ProgramFilesX86\GOG.com\Little Big Adventure\LBA.GOG - 380666496
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\LBA_BLL.HQR - 55785
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\LBA_BRK.HQR - 3977143
+7/29/1995 2:22:06 PM - ProgramFilesX86\GOG.com\Little Big Adventure\LBA_GRI.HQR - 602001
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\LOADPATS.EXE - 24705
+9/30/2011 11:46:54 AM - ProgramFilesX86\GOG.com\Little Big Adventure\manual.pdf - 2365113
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\MIDI_MI.HQR - 72870
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\MIDI_SB.HQR - 55622
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\M_GOLD.DLL - 1267
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\M_MWSS.DLL - 998
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\M_PAS.DLL - 2351
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\M_SB16.DLL - 1093
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\M_SB2CD.DLL - 1024
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\M_SBPRO.DLL - 1078
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\NCR.DLL - 666
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\OAK.DLL - 675
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\PARADISE.DLL - 718
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\PATCHES.INI - 7200
+9/30/2011 3:09:38 PM - ProgramFilesX86\GOG.com\Little Big Adventure\README.TXT - 3576
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\REALTEK.DLL - 666
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\RELENT.EXE - 258513
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\RESS.HQR - 954401
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\S3.DLL - 687
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\SAMPLE.AD - 3622
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\SAMPLE.OPL - 5611
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\SAMPLES.HQR - 2429133
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\SCENE.HQR - 179725
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\SETUP.EXE - 75558
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\SETUP.LST - 23479
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\SPRITES.HQR - 180143
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Little Big Adventure\Support.ico - 62895
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\TEXT.HQR - 248654
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\TRIDENT.DLL - 692
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\TSENG.DLL - 686
+12/24/2011 1:31:10 PM - ProgramFilesX86\GOG.com\Little Big Adventure\unins000.dat - 66865
+12/24/2011 1:30:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\unins000.exe - 2142547
+12/24/2011 1:31:10 PM - ProgramFilesX86\GOG.com\Little Big Adventure\unins000.ini - 68
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_GOLD.DLL - 16780
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_GUS.DLL - 38191
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_MWSS.DLL - 16539
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_PAS.DLL - 16518
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_PAS16.DLL - 16574
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_SB.DLL - 16023
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_SB16.DLL - 16399
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_SB16_8.DLL - 16331
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_SB16_M.DLL - 16167
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_SB16_S.DLL - 16415
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_SB2.DLL - 16023
+8/18/2011 1:24:34 PM - ProgramFilesX86\GOG.com\Little Big Adventure\W_SBPRO.DLL - 16562
+7/2/2010 2:00:16 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 12:55:40 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 10:04:12 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\SDL.dll - 448231
+4/9/2010 10:04:12 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\SDL_net.dll - 13312
+5/12/2010 12:52:52 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 12:52:52 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 12:52:52 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 12:52:52 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 12:52:52 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 12:52:52 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 12:52:52 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 10:08:26 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 10:08:26 PM - ProgramFilesX86\GOG.com\Little Big Adventure\DOSBOX\Video Codec\zmbv.inf - 4043
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_000.VOX - 6212701
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_001.VOX - 10105311
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_002.VOX - 1731494
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_003.VOX - 4253383
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_004.VOX - 1366631
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_005.VOX - 1868032
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_006.VOX - 1066193
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_007.VOX - 2321866
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_008.VOX - 287489
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_009.VOX - 1626460
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_010.VOX - 967875
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\DE_GAM.VOX - 1824842
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_000.VOX - 6249564
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_001.VOX - 10343661
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_002.VOX - 1844083
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_003.VOX - 4022734
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_004.VOX - 1367563
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_005.VOX - 1760125
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_006.VOX - 1122810
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_007.VOX - 2164787
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_008.VOX - 284547
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_009.VOX - 1800800
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_010.VOX - 813908
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\EN_GAM.VOX - 1922674
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_000.VOX - 6516645
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_001.VOX - 11283116
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_002.VOX - 2026364
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_003.VOX - 4295526
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_004.VOX - 1351011
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_005.VOX - 1819148
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_006.VOX - 1257886
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_007.VOX - 2275292
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_008.VOX - 297681
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_009.VOX - 1995388
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_010.VOX - 923434
+8/18/2011 2:19:18 PM - ProgramFilesX86\GOG.com\Little Big Adventure\VOX\FR_GAM.VOX - 1970953
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+1/9/2012 11:27:28 PM - VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure\S5241.LBA - 464
+1/9/2012 11:27:55 PM - VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure\S7323.LBA - 467
+1/9/2012 11:26:35 PM - VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure\stderr.txt - 0
+1/9/2012 11:28:02 PM - VirtualStore\Program Files (x86)\GOG.com\Little Big Adventure\stdout.txt - 176

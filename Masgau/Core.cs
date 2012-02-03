@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
+using System.Text;
 using System.Xml;
 using MASGAU.Location;
 using MASGAU.Archive;
@@ -26,20 +27,22 @@ namespace MASGAU
         public const string extension = ".gb7";
         public const string seperator = "«";
         public const string owner_seperator = "@";
-        public const string version = "0.9.2";
+        public const string version = "0.10";
         public const string site_url = "http://masgau.org/";
+        public const string submission_email = "submissions@masgau.org";
 
         // Portable-related settings
         public static bool portable_mode {get; protected set;}
         public static string config_location {get; protected set;}
 
-        public static UpdateVersion program_version = new UpdateVersion(0, 9, 2);
+        public static UpdateVersion program_version = new UpdateVersion(0, 10, 0);
+
         public static UpdateVersion update_compatibility = new UpdateVersion(1, 1, 0);
 
         // This stores the names of the various programs in masgau
         public static ProgramNames programs = new ProgramNames();
 
-        // This stores wether we're using wpf or gtk
+        // This stores whether we're using wpf or gtk
         public static Interface interface_library = Interface.WPF;
 
         // This stores what OS we're on
@@ -174,6 +177,19 @@ namespace MASGAU
             openPath(Core.settings.sync_path);
         }
         #endregion
+		
+        public static string recurseExceptions(Exception e) {
+            StringBuilder return_me = new StringBuilder(e.Message);
+            return_me.AppendLine();
+            return_me.AppendLine();
+            
+            return_me.AppendLine(e.StackTrace);
+            if (e.InnerException != null) {
+                return_me.AppendLine(recurseExceptions(e.InnerException));
+                return_me.AppendLine();
+            }
+            return return_me.ToString(); ;
+        }
 
         // Event handler to take care of XML errors while reading game configs
         private static void validationHandler(object sender, ValidationEventArgs args){
@@ -194,6 +210,8 @@ namespace MASGAU
                 parse_me.Close();
             }
         }
+
+
 
     }
 }

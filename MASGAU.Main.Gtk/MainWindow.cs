@@ -3,7 +3,7 @@ using System.ComponentModel;
 using Gtk;
 
 namespace MASGAU.Main {
-	public partial class MainWindow : MASGAU.Window
+	public partial class MainWindow : MASGAU.AWindow
 	{
 	
 	    MASGAU.Main.MainProgramHandler main;
@@ -11,7 +11,6 @@ namespace MASGAU.Main {
 		public MainWindow () : base(WindowType.Toplevel)
 		{
 			Build();
-	
 			
             main = new MainProgramHandler(setupDone, Interface.Gtk);
             this.Title = main.program_title;

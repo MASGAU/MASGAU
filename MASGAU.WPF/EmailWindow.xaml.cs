@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MASGAU.Communication.Progress;
+using Translations;
 namespace MASGAU
 {
     /// <summary>
@@ -21,6 +22,10 @@ namespace MASGAU
         public EmailWindow(AWindow owner): base(owner)
         {
             InitializeComponent();
+            WPFHelpers.translateContent(cancelBtn);
+            WPFHelpers.translateContent(saveBtn);
+            WPFHelpers.translateHeader(groupBox1);
+            WPFHelpers.translateTitle(this);
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -45,10 +50,7 @@ namespace MASGAU
 
         private void emailTxt_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if(emailTxt.Text.Contains("@"))
-                button1.IsEnabled = true;
-            else
-                button1.IsEnabled = false;
+            saveBtn.IsEnabled = EmailHandler.validateEmailAddress(emailTxt.Text);
         }
     }
 }

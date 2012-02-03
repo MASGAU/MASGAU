@@ -1,0 +1,247 @@
+Comments:
+  <game name="GrotesqueTactics2" platform="Windows">
+    <title>Grotesque Tactics 2: Dungeons and Donuts</title>
+    <location_path environment_variable="userdocuments" path="Grotesque-Tactics2" />
+    <save path="SaveGames" />
+    <save path="Settings" />
+    <contributer>%USER%</contributer>
+  </game>
+
+
+Game Name: Grotesque Tactics 2
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2
+
+Save Path: 
+C:\Users\%USER%\Documents\Grotesque-Tactics2
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 46570
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\grotesque tactics 2
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Dec 25 7:58:17 PM - C:\Users\%USER%\Documents\Grotesque-Tactics2\SaveGames\0.sav - 508917
+Dec 25 8:03:30 PM - C:\Users\%USER%\Documents\Grotesque-Tactics2\SaveGames\2.sav - 513488
+Dec 23 4:43:58 PM - C:\Users\%USER%\Documents\Grotesque-Tactics2\SaveGames\newgame.sav - 508654
+Dec 25 8:03:30 PM - C:\Users\%USER%\Documents\Grotesque-Tactics2\SaveGames\saves.bin - 65568
+Dec 25 8:03:35 PM - C:\Users\%USER%\Documents\Grotesque-Tactics2\Settings\Config.xml - 23958
+Dec 23 4:48:59 PM - C:\Users\%USER%\Documents\Grotesque-Tactics2\Settings\Default.xml - 22493
+Dec 23 4:47:36 PM - C:\Users\%USER%\Documents\Grotesque-Tactics2\Settings\Version.xml - 413
+
+Install Folder Dump: 
+Dec 23 4:46:38 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\46570_install.vdf - 1473
+Dec 23 4:52:24 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\BaseData.zip - 45055440
+Dec 23 5:51:26 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\GameData.zip - 592951520
+Dec 23 4:47:28 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\Grotesque-Tactics2.bat - 46
+Dec 25 8:03:35 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\log.txt - 5922
+Dec 23 9:49:38 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\Models.zip - 929669039
+Dec 23 4:50:13 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\patch1610.zip - 6578049
+Dec 23 4:51:43 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\patch1630.zip - 1002744
+Dec 23 4:43:26 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\patch1640.zip - 40906
+Dec 23 4:46:42 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\Grotesque-Tactics2\SaveGames\newgame.sav - 508654
+Dec 23 4:51:24 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\Grotesque-Tactics2\Settings\Default.xml - 22493
+Dec 23 4:45:10 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\Grotesque-Tactics2\Settings\Version.xml - 412
+Dec 23 4:44:09 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\ffdshow_rev3800_20110328.exe - 4897386
+Dec 23 4:43:53 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\oalinst.exe - 809496
+Dec 23 4:46:27 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\vcredist_x64.exe - 2373640
+Dec 23 4:48:41 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\vcredist_x86.exe - 1821192
+Dec 23 4:48:49 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\vcredist_x86_VS2008.exe - 1821192
+Dec 23 4:45:04 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2005_d3dx9_25_x64.cab - 1347354
+Dec 23 4:44:02 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2005_d3dx9_25_x86.cab - 1078962
+Dec 23 4:46:37 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2006_d3dx9_30_x64.cab - 1397830
+Dec 23 4:44:31 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+Dec 23 4:50:14 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2006_MDX1_x86.cab - 916430
+Dec 23 4:46:41 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162630
+Dec 23 4:49:41 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2006_XACT_x64.cab - 179133
+Dec 23 4:47:49 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2006_XACT_x86.cab - 133103
+Dec 23 4:46:44 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2006_xinput_x64.cab - 87101
+Dec 23 4:47:30 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Apr2006_xinput_x86.cab - 46010
+Dec 23 4:51:00 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\APR2007_d3dx10_33_x64.cab - 698612
+Dec 23 4:46:12 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\APR2007_d3dx10_33_x86.cab - 695865
+Dec 23 4:45:31 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\APR2007_d3dx9_33_x64.cab - 1607358
+Dec 23 4:52:03 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\APR2007_d3dx9_33_x86.cab - 1606039
+Dec 23 4:44:59 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\APR2007_XACT_x64.cab - 195766
+Dec 23 4:47:28 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\APR2007_XACT_x86.cab - 151225
+Dec 23 4:49:35 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\APR2007_xinput_x64.cab - 96817
+Dec 23 4:48:16 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\APR2007_xinput_x86.cab - 53302
+Dec 23 4:43:50 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2005_d3dx9_27_x64.cab - 1350542
+Dec 23 4:48:38 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+Dec 23 4:43:30 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2006_XACT_x64.cab - 182903
+Dec 23 4:43:51 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2006_XACT_x86.cab - 137235
+Dec 23 4:50:11 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2006_xinput_x64.cab - 87142
+Dec 23 4:48:45 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2006_xinput_x86.cab - 46058
+Dec 23 4:49:11 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2007_d3dx10_35_x64.cab - 852286
+Dec 23 4:49:21 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2007_d3dx10_35_x86.cab - 796867
+Dec 23 4:44:35 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2007_d3dx9_35_x64.cab - 1800160
+Dec 23 4:50:40 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2007_d3dx9_35_x86.cab - 1708152
+Dec 23 4:43:48 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2007_XACT_x64.cab - 198096
+Dec 23 4:50:57 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\AUG2007_XACT_x86.cab - 153012
+Dec 23 4:50:51 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2008_d3dx10_39_x64.cab - 867612
+Dec 23 4:48:11 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2008_d3dx10_39_x86.cab - 849167
+Dec 23 4:49:31 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2008_d3dx9_39_x64.cab - 1794084
+Dec 23 4:51:55 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2008_d3dx9_39_x86.cab - 1464672
+Dec 23 4:44:08 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2008_XACT_x64.cab - 121772
+Dec 23 4:45:42 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2008_XACT_x86.cab - 92996
+Dec 23 4:43:27 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2008_XAudio_x64.cab - 271412
+Dec 23 4:43:37 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2008_XAudio_x86.cab - 271038
+Dec 23 4:47:54 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_D3DCompiler_42_x64.cab - 919044
+Dec 23 4:51:11 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_D3DCompiler_42_x86.cab - 900598
+Dec 23 4:50:10 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_d3dcsx_42_x64.cab - 3112111
+Dec 23 4:45:54 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_d3dcsx_42_x86.cab - 3319740
+Dec 23 4:45:15 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_d3dx10_42_x64.cab - 232635
+Dec 23 4:51:35 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_d3dx10_42_x86.cab - 192131
+Dec 23 4:45:19 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_d3dx11_42_x64.cab - 136301
+Dec 23 4:48:23 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_d3dx11_42_x86.cab - 105044
+Dec 23 4:48:04 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_d3dx9_42_x64.cab - 930116
+Dec 23 4:51:47 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_d3dx9_42_x86.cab - 728456
+Dec 23 4:50:52 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_XACT_x64.cab - 122408
+Dec 23 4:47:25 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_XACT_x86.cab - 93106
+Dec 23 4:44:01 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_XAudio_x64.cab - 273264
+Dec 23 4:46:23 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Aug2009_XAudio_x86.cab - 272642
+Dec 23 4:50:03 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Dec2005_d3dx9_28_x64.cab - 1357976
+Dec 23 4:47:20 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Dec2005_d3dx9_28_x86.cab - 1079456
+Dec 23 4:46:37 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\DEC2006_d3dx10_00_x64.cab - 212807
+Dec 23 4:51:19 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\DEC2006_d3dx10_00_x86.cab - 191720
+Dec 23 4:45:10 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\DEC2006_d3dx9_32_x64.cab - 1571154
+Dec 23 4:43:47 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+Dec 23 4:47:05 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\DEC2006_XACT_x64.cab - 192475
+Dec 23 4:44:05 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\DEC2006_XACT_x86.cab - 145599
+Dec 23 4:44:49 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\DSETUP.dll - 95576
+Dec 23 4:49:00 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\dsetup32.dll - 1566040
+Dec 23 4:47:39 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\dxdllreg_x86.cab - 44624
+Dec 23 4:47:24 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\DXSETUP.exe - 517976
+Dec 23 4:49:05 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\dxupdate.cab - 97152
+Dec 23 4:44:37 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2005_d3dx9_24_x64.cab - 1247499
+Dec 23 4:43:51 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2005_d3dx9_24_x86.cab - 1013225
+Dec 23 4:45:43 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2006_d3dx9_29_x64.cab - 1362796
+Dec 23 4:50:43 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2006_d3dx9_29_x86.cab - 1084720
+Dec 23 4:47:23 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2006_XACT_x64.cab - 178359
+Dec 23 4:46:45 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2006_XACT_x86.cab - 132409
+Dec 23 4:47:24 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\FEB2007_XACT_x64.cab - 194675
+Dec 23 4:47:59 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\FEB2007_XACT_x86.cab - 147983
+Dec 23 4:44:49 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2010_X3DAudio_x64.cab - 54678
+Dec 23 4:46:33 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2010_X3DAudio_x86.cab - 20713
+Dec 23 4:47:59 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2010_XACT_x64.cab - 122446
+Dec 23 4:48:51 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2010_XACT_x86.cab - 93180
+Dec 23 4:44:45 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2010_XAudio_x64.cab - 276960
+Dec 23 4:48:10 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Feb2010_XAudio_x86.cab - 277191
+Dec 23 4:48:27 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2005_d3dx9_26_x64.cab - 1336002
+Dec 23 4:51:08 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2005_d3dx9_26_x86.cab - 1064925
+Dec 23 4:46:42 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2006_XACT_x64.cab - 180785
+Dec 23 4:46:41 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2006_XACT_x86.cab - 133671
+Dec 23 4:51:39 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2007_d3dx10_34_x64.cab - 699044
+Dec 23 4:51:25 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2007_d3dx10_34_x86.cab - 698472
+Dec 23 4:47:21 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2007_d3dx9_34_x64.cab - 1607774
+Dec 23 4:44:39 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2007_d3dx9_34_x86.cab - 1607286
+Dec 23 4:46:37 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2007_XACT_x64.cab - 197122
+Dec 23 4:47:19 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2007_XACT_x86.cab - 152909
+Dec 23 4:48:58 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_d3dx10_38_x64.cab - 867828
+Dec 23 4:44:44 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+Dec 23 4:49:55 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_d3dx9_38_x64.cab - 1792608
+Dec 23 4:45:18 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+Dec 23 4:44:50 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_X3DAudio_x64.cab - 55154
+Dec 23 4:46:31 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_X3DAudio_x86.cab - 21905
+Dec 23 4:43:32 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_XACT_x64.cab - 121054
+Dec 23 4:48:17 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_XACT_x86.cab - 93128
+Dec 23 4:43:52 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_XAudio_x64.cab - 269628
+Dec 23 4:44:27 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\JUN2008_XAudio_x86.cab - 269024
+Dec 23 4:50:45 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_D3DCompiler_43_x64.cab - 944460
+Dec 23 4:47:48 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_D3DCompiler_43_x86.cab - 931471
+Dec 23 4:46:55 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_d3dcsx_43_x64.cab - 752783
+Dec 23 4:44:07 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_d3dcsx_43_x86.cab - 762188
+Dec 23 4:45:16 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_d3dx10_43_x64.cab - 235955
+Dec 23 4:45:51 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_d3dx10_43_x86.cab - 197283
+Dec 23 4:46:45 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_d3dx11_43_x64.cab - 138205
+Dec 23 4:44:56 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_d3dx11_43_x86.cab - 109445
+Dec 23 4:50:35 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_d3dx9_43_x64.cab - 937246
+Dec 23 4:45:53 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_d3dx9_43_x86.cab - 768036
+Dec 23 4:43:31 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_XACT_x64.cab - 124596
+Dec 23 4:43:31 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_XACT_x86.cab - 93686
+Dec 23 4:45:37 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_XAudio_x64.cab - 277338
+Dec 23 4:46:43 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Jun2010_XAudio_x86.cab - 278060
+Dec 23 4:46:59 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_d3dx10_37_x64.cab - 844884
+Dec 23 4:44:08 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_d3dx10_37_x86.cab - 818260
+Dec 23 4:45:34 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_d3dx9_37_x64.cab - 1769862
+Dec 23 4:47:06 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_d3dx9_37_x86.cab - 1443282
+Dec 23 4:47:18 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_X3DAudio_x64.cab - 55058
+Dec 23 4:50:16 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+Dec 23 4:44:57 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_XACT_x64.cab - 122336
+Dec 23 4:50:53 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_XACT_x86.cab - 93734
+Dec 23 4:51:33 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_XAudio_x64.cab - 251194
+Dec 23 4:43:30 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2008_XAudio_x86.cab - 226250
+Dec 23 4:46:14 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+Dec 23 4:51:15 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+Dec 23 4:44:59 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_d3dx9_41_x64.cab - 1973702
+Dec 23 4:44:51 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+Dec 23 4:44:17 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_X3DAudio_x64.cab - 54600
+Dec 23 4:45:00 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+Dec 23 4:45:28 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_XACT_x64.cab - 121506
+Dec 23 4:44:08 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_XACT_x86.cab - 92740
+Dec 23 4:49:29 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_XAudio_x64.cab - 275044
+Dec 23 4:50:58 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Mar2009_XAudio_x86.cab - 273018
+Dec 23 4:48:46 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2007_d3dx10_36_x64.cab - 864600
+Dec 23 4:51:25 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2007_d3dx10_36_x86.cab - 803884
+Dec 23 4:43:46 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2007_d3dx9_36_x64.cab - 1802058
+Dec 23 4:50:16 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2007_d3dx9_36_x86.cab - 1709360
+Dec 23 4:46:32 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\NOV2007_X3DAudio_x64.cab - 46144
+Dec 23 4:47:45 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\NOV2007_X3DAudio_x86.cab - 18496
+Dec 23 4:48:13 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\NOV2007_XACT_x64.cab - 196762
+Dec 23 4:47:52 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\NOV2007_XACT_x86.cab - 148264
+Dec 23 4:46:27 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_d3dx10_40_x64.cab - 994154
+Dec 23 4:45:41 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_d3dx10_40_x86.cab - 965421
+Dec 23 4:50:47 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_d3dx9_40_x64.cab - 1906878
+Dec 23 4:46:11 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+Dec 23 4:44:09 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_X3DAudio_x64.cab - 54522
+Dec 23 4:44:00 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_X3DAudio_x86.cab - 21851
+Dec 23 4:47:35 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_XACT_x64.cab - 121794
+Dec 23 4:51:26 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_XACT_x86.cab - 92684
+Dec 23 4:46:48 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_XAudio_x64.cab - 273960
+Dec 23 4:43:27 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Nov2008_XAudio_x86.cab - 272611
+Dec 23 4:46:50 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Oct2005_xinput_x64.cab - 86037
+Dec 23 4:44:59 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\Oct2005_xinput_x86.cab - 45359
+Dec 23 4:51:23 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\OCT2006_d3dx9_31_x64.cab - 1412902
+Dec 23 4:47:07 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\OCT2006_d3dx9_31_x86.cab - 1127217
+Dec 23 4:47:36 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\OCT2006_XACT_x64.cab - 182361
+Dec 23 4:47:29 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\redist\DirectX\OCT2006_XACT_x86.cab - 138017
+Dec 23 4:43:58 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\SaveGames\newgame.sav - 508654
+Dec 23 4:48:59 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\Settings\Default.xml - 22493
+Dec 23 4:47:36 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\Settings\Version.xml - 413
+Dec 23 4:43:57 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\CrashRpt.dll - 66048
+Dec 23 4:47:31 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\crashrpt.xml - 1174
+Dec 23 4:47:33 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\crashrpt_lang.ini - 6914
+Dec 23 4:43:51 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\CrashSender.exe - 743936
+Dec 23 4:50:50 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\GrotesqueTactics.exe - 178688
+Dec 23 4:46:08 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\GrotesqueTacticsAdmin.exe - 178688
+Dec 23 4:45:09 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\iconn.ico - 47734
+Dec 23 4:43:40 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\lua90.dll - 156160
+Dec 23 4:47:25 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\SilentEnginePlugin.vPlugin - 3498496
+Dec 23 4:47:12 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\SilentScriptPlugin.vPlugin - 312832
+Dec 23 4:47:51 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\Steam.dll - 2970960
+Dec 23 4:48:56 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\steamclient.dll - 6563624
+Dec 23 4:51:08 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\steam_api.dll - 120616
+Dec 23 4:49:08 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\steam_api.lib - 14890
+Dec 23 4:49:01 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\tier0_s.dll - 292648
+Dec 23 4:44:10 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\vBase90.dll - 1232896
+Dec 25 8:03:37 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\Vision.log - 916
+Dec 23 4:52:02 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\Vision90.dll - 1376256
+Dec 23 4:47:25 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\VisionEnginePlugin.vPlugin - 1475584
+Dec 23 4:46:24 PM - C:\Program Files (x86)\Steam\steamapps\common\grotesque tactics 2\x86_installer\vstdlib_s.dll - 452392
+
+UAC Disabled or not present
+

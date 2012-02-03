@@ -1,0 +1,272 @@
+Comments:
+The existing profile does not detect the Steam version
+
+
+
+Game Name: Quake IV (Steam)
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Steam\steamapps\common\Quake 4
+
+Save Path: 
+ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-900820399-3332826203-2313936294-1000\{EAE2CDCC-4FCD-47F5-B722-2BCB016A9E08}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\Steam\steamapps\common\Quake 4
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-900820399-3332826203-2313936294-1000\{EAE2CDCC-4FCD-47F5-B722-2BCB016A9E08}
+Value: AppExePath
+Data: Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Quake4.exe - 5042176
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 2210
+Value: InstallLocation
+Data: ProgramFilesX86\Steam\steamapps\common\Quake 4
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Dec 29 5:33:39 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Autosave_game_airdefense1.save - 8867217
+Dec 29 5:33:39 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Autosave_game_airdefense1.txt - 108
+Dec 29 5:38:06 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Checkpoint0.save - 8338128
+Dec 29 5:38:05 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Checkpoint0.tga - 307218
+Dec 29 5:38:05 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Checkpoint0.txt - 67
+Dec 29 5:37:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Start.save - 8349506
+Dec 29 5:37:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Start.tga - 307218
+Dec 29 5:37:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Start.txt - 45
+
+Install Folder Dump: 
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\CHANGES_14.txt - 8183
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\dbghelp.dll - 1030144
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\EULA.txt - 15973
+Dec 29 3:27:53 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\help.txt - 102
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\libcurl.dll - 237568
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\MayaImportx86.dll - 843776
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Mss32.dll - 387072
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\mssvoice.asi - 215040
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Quake4.exe - 5042176
+Dec 29 4:37:58 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Quake4.url - 51
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Quake4Ded.exe - 4947968
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\README_builtin_downloads.txt - 953
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\README_Q4TV_broadcasting.txt - 2407
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Toolsx86.dll - 3424256
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\help.htm - 1128
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\manual.htm - 1121
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\MSR.txt - 1364
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\PBEULA.txt - 5344
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\readme.txt - 16342
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\credits.htm - 36858
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\default.htm - 2437
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\left.htm - 1716
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\man_def.htm - 66407
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\man_left.htm - 964
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\man_top.htm - 1026
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\readme.htm - 913
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\side_ie.css - 892
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\style_ie.css - 1203
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\techhelp.htm - 6867
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\htm\top.htm - 1032
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\ammo_regen.png - 7304
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\armor.png - 6179
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\Bink_Video_4c_rev.png - 7384
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\blaster.png - 15662
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\doubler.png - 6741
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\guard.png - 6532
+Dec 29 3:27:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h01.gif - 595
+Dec 29 3:27:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h02.gif - 675
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h03.gif - 1097
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h04.gif - 1142
+Dec 29 3:27:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h05.gif - 443
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h06.gif - 923
+Dec 29 3:27:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h07.gif - 572
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h08.gif - 1276
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h09.gif - 1120
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h10.gif - 760
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h17a.gif - 964
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h17b.gif - 947
+Dec 29 3:27:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h26.gif - 479
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h28a.gif - 1062
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h28c.gif - 762
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\haste.png - 6321
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\health.png - 7179
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\health_pack.png - 7127
+Dec 29 3:27:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h_def.gif - 662
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h_sup.gif - 1023
+Dec 29 3:27:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h_tec.gif - 625
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\h_top.gif - 883
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\id_logo_small.jpg - 31335
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\ingamedisplay.png - 506217
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\invisibility.png - 5458
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\line1.gif - 1018
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\line1_b.gif - 1018
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\line2.gif - 1018
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\line2_b.gif - 1018
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\machinegun.png - 20717
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\mega_health.png - 6661
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\mpbrowser.png - 460445
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\mssLogo.png - 7337
+Dec 29 3:27:51 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\pad.gif - 49
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\q4_logo_small.jpg - 4699
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\quad_damage.png - 4530
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\raven.gif - 3352
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\regeneration.png - 5488
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\save.png - 469731
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\scout.png - 6543
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\shotgun.png - 17906
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\Thumbs.db - 116736
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Docs\images\watermark.gif - 16885
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\pbag.dll - 57344
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\pbags.dll - 57344
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\pbcl.dll - 565248
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\pbcls.dll - 565248
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\pbsv.dll - 319488
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\dll\wa001307.dll - 57344
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\dll\wc001222.dll - 503808
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\dll\wc001248.dll - 544768
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\dll\wc001254.dll - 565248
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\dll\ws001181.dll - 311296
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\dll\ws001229.dll - 319488
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\la001307.htm - 25775
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\lc001095.htm - 597428
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\lc001222.htm - 607420
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\lc001248.htm - 742009
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\lc001254.htm - 738995
+Dec 29 3:27:59 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\ma001307.htm - 17
+Dec 29 3:27:59 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\mc001095.htm - 17
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\mc001222.htm - 273421
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\mc001248.htm - 517970
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\mc001254.htm - 507198
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\wa001307.htm - 50732
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\wc001095.htm - 431852
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\wc001222.htm - 442944
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\wc001248.htm - 477723
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\wc001254.htm - 491978
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\ws001181.htm - 330776
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\pb\htm\ws001229.htm - 338109
+Dec 29 4:38:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\config.spec - 0
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\game000.pk4 - 1710345
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\game100.pk4 - 2306391
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\game200.pk4 - 5188690
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\game300.pk4 - 8906639
+Dec 30 9:19:05 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\gamex86.dll - 3973120
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\mapcycle-mp1.scriptcfg - 4568
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\mapcycle-mp2.scriptcfg - 5102
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\mapcycle-mp3.scriptcfg - 6949
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\mapcycle-q4cmp_pak001.scriptcfg - 12569
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\mapcycle.scriptcfg - 4119
+Dec 29 4:38:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak001.pk4 - 223947812
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak002.pk4 - 220639087
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak003.pk4 - 220452548
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak004.pk4 - 221972032
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak005.pk4 - 224006192
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak006.pk4 - 220656388
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak007.pk4 - 221657190
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak008.pk4 - 220516301
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak009.pk4 - 220608314
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak010.pk4 - 221232656
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak011.pk4 - 221047953
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak012.pk4 - 75481176
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak013.pk4 - 17391934
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak014.pk4 - 21404183
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak015.pk4 - 512986
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak016.pk4 - 45360121
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak017.pk4 - 17759
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak018.pk4 - 80946
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak019.pk4 - 116026927
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak020.pk4 - 32710
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak021.pk4 - 962643
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak022.pk4 - 42035
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak023.pk4 - 60063
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak024.pk4 - 65876
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\pak025.pk4 - 1373806
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\q4cmp_pak001.pk4 - 37426396
+Dec 30 9:19:15 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\Quake4Config.cfg - 7918
+Dec 30 10:01:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\quake4key - 150
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\zpak_english.pk4 - 65658433
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\zpak_english_01.pk4 - 7885
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\zpak_english_02.pk4 - 229965
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\zpak_english_03.pk4 - 29317
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\zpak_english_04.pk4 - 22831
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\zpak_english_05.pk4 - 22107
+Dec 29 5:33:39 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Autosave_game_airdefense1.save - 8867217
+Dec 29 5:33:39 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Autosave_game_airdefense1.txt - 108
+Dec 29 5:38:06 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Checkpoint0.save - 8338128
+Dec 29 5:38:05 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Checkpoint0.tga - 307218
+Dec 29 5:38:05 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Checkpoint0.txt - 67
+Dec 29 5:37:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Start.save - 8349506
+Dec 29 5:37:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Start.tga - 307218
+Dec 29 5:37:49 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4base\savegames\Start.txt - 45
+Dec 29 5:42:29 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\config.spec - 0
+Jan 10 9:03:57 AM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\description.txt - 16
+Dec 29 6:38:40 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\gamex86.dll - 4194304
+Jan 10 1:08:05 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\pak600.pk4 - 89906856
+Dec 29 6:39:04 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\Quake4Config.cfg - 11646
+Dec 29 6:16:20 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\savegames\Autosave_game_airdefense1.save - 8867289
+Dec 29 6:16:19 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\savegames\Autosave_game_airdefense1.txt - 108
+Dec 29 5:52:19 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\savegames\Checkpoint0.save - 8341288
+Dec 29 5:52:19 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\savegames\Checkpoint0.tga - 307218
+Dec 29 5:52:19 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\Q4E\savegames\Checkpoint0.txt - 67
+Dec 29 5:43:28 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\config.spec - 0
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\game000.pk4 - 1724367
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\game100.pk4 - 2323535
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\game200.pk4 - 5210239
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\game300.pk4 - 8956755
+Dec 29 5:43:30 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\gamex86.dll - 4005888
+Dec 29 5:43:34 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\Quake4Config.cfg - 8761
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\demos\id_perftest.ndmo85 - 1069656
+Dec 29 4:38:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\q4mp\demos\id_serverdemo.ndmo85 - 487053
+Dec 29 5:43:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\config.spec - 0
+Sep 18 6:47:15 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\description.txt - 17
+Sep 18 5:25:30 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\game000.pk4 - 1802554
+Dec 30 9:19:28 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\gamex86.dll - 4214272
+Sep 18 6:46:04 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\mycurrentsetting.cfg - 2889
+Sep 18 7:11:53 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\pak_modfiles.pk4 - 22285302
+Dec 30 10:01:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\Quake4Config.cfg - 11598
+Sep 18 6:41:21 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\readme.txt - 13556
+Sep 18 6:43:46 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\sikkmod-lite_v1.2-Q4_src.rar - 326576
+Jan 31 2:08:19 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\sikkmod.ico - 4150
+Dec 29 6:23:48 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_airdefense1.save - 8837726
+Dec 29 6:23:48 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_airdefense1.txt - 108
+Dec 30 9:21:11 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_airdefense2.save - 4219690
+Dec 30 9:21:10 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_airdefense2.txt - 113
+Dec 30 9:25:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_hangar1.save - 6766911
+Dec 30 9:25:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_hangar1.txt - 102
+Dec 30 9:36:17 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_hangar2.save - 4958680
+Dec 30 9:36:17 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_hangar2.txt - 101
+Dec 30 9:59:00 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_mcc_1.save - 13386249
+Dec 30 9:59:00 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_mcc_1.txt - 100
+Dec 30 9:46:22 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_mcc_landing.save - 8066619
+Dec 30 9:46:22 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Autosave_game_mcc_landing.txt - 110
+Dec 30 10:00:11 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Checkpoint0.save - 13394453
+Dec 30 10:00:11 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Checkpoint0.tga - 307218
+Dec 30 10:00:11 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Checkpoint0.txt - 69
+Dec 30 9:51:09 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Checkpoint1.save - 7251403
+Dec 30 9:51:09 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Checkpoint1.tga - 307218
+Dec 30 9:51:09 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Checkpoint1.txt - 65
+Dec 30 10:01:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick0.save - 13488914
+Dec 30 10:01:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick0.tga - 307218
+Dec 30 10:01:41 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick0.txt - 52
+Dec 30 10:01:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick1.save - 13494892
+Dec 30 10:01:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick1.tga - 307218
+Dec 30 10:01:45 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick1.txt - 52
+Dec 30 9:57:02 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick2.save - 6017952
+Dec 30 9:57:02 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick2.tga - 307218
+Dec 30 9:57:02 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick2.txt - 48
+Dec 30 9:59:35 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick3.save - 13387517
+Dec 30 9:59:35 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick3.tga - 307218
+Dec 30 9:59:35 PM - ProgramFilesX86\Steam\steamapps\common\Quake 4\sikkmod\savegames\Quick3.txt - 52
+
+UAC Disabled or not present
+

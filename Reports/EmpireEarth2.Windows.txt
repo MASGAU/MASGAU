@@ -1,0 +1,1108 @@
+Game Name: Empire Earth II
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Empire Earth II
+
+Save Path: 
+UserDocuments\Empire Earth II
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\EE3savType\Shell\Open\Command
+Value: 
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\EE3wsvType\Shell\Open\Command
+Value: 
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{15608548-A4E4-4EAA-ADA4-A3DEE31F39DF}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{15608548-A4E4-4EAA-ADA4-A3DEE31F39DF}
+Value: ConfigGDFBinaryPath
+Data: 3/16/2010 11:28:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\goggame.dll - 289792
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{EA919304-A0AB-4111-89BF-55E9D4193BD8}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Empire Earth III
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{EA919304-A0AB-4111-89BF-55E9D4193BD8}
+Value: ConfigGDFBinaryPath
+Data: 4/30/2010 3:28:02 PM - ProgramFilesX86\GOG.com\Empire Earth III\goggame.dll - 288768
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{EC1F1D39-C516-4A8E-877F-253B301F1C5A}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{EC1F1D39-C516-4A8E-877F-253B301F1C5A}
+Value: ConfigGDFBinaryPath
+Data: 3/16/2010 11:28:10 AM - ProgramFilesX86\GOG.com\Empire Earth II\goggame_addon.dll - 249344
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{6B3F393A-3777-4D0D-B597-51BDC13BEEDC}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{6B3F393A-3777-4D0D-B597-51BDC13BEEDC}
+Value: AppExePath
+Data: 2/8/2010 11:23:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\EE2.exe - 11599872
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH2
+Value: EXE
+Data: 2/8/2010 11:23:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\EE2.EXE - 11599872
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH2
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH2
+Value: LAUNCHCOMMAND
+Data: 2/8/2010 11:23:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\EE2.EXE - 11599872
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH2ADDON
+Value: EXE
+Data: 2/8/2010 2:06:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\EE2X.EXE - 30121984
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH2ADDON
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH2ADDON
+Value: LAUNCHCOMMAND
+Data: 2/8/2010 2:06:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\EE2X.EXE - 30121984
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH3
+Value: EXE
+Data: 11/8/2007 6:48:32 PM - ProgramFilesX86\GOG.com\Empire Earth III\EE3.EXE - 41995976
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH3
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Empire Earth III
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH3
+Value: LAUNCHCOMMAND
+Data: 11/8/2007 6:48:32 PM - ProgramFilesX86\GOG.com\Empire Earth III\EE3.EXE - 41995976
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Empire Earth II Gold Edition_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Empire Earth II Gold Edition_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Empire Earth III_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Empire Earth III
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Empire Earth III_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Empire Earth III
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B17E235C-7A3B-4482-B650-21FFDE1D452E}
+Value: UninstallString
+Data: 12/25/2011 2:13:59 PM - ProgramFilesX86\GOG.com\Empire Earth III\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B17E235C-7A3B-4482-B650-21FFDE1D452E}
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Empire Earth III
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{DF315348-721C-40B8-BAE2-58C6C7D935A2}
+Value: ModifyPath
+Data: 12/24/2011 3:41:13 PM - ProgramFilesX86\GOG.com\Empire Earth II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{DF315348-721C-40B8-BAE2-58C6C7D935A2}
+Value: UninstallString
+Data: 12/24/2011 3:41:13 PM - ProgramFilesX86\GOG.com\Empire Earth II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{DF315348-721C-40B8-BAE2-58C6C7D935A2}
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{DF315348-721C-40B8-BAE2-58C6C7D935A2}
+Value: InstallSource
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{F596C356-BF35-4ED7-981C-CC791461A8F0}
+Value: ModifyPath
+Data: 12/24/2011 3:41:13 PM - ProgramFilesX86\GOG.com\Empire Earth II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{F596C356-BF35-4ED7-981C-CC791461A8F0}
+Value: UninstallString
+Data: 12/24/2011 3:41:13 PM - ProgramFilesX86\GOG.com\Empire Earth II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{F596C356-BF35-4ED7-981C-CC791461A8F0}
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Sierra\Empire Earth II
+Value: InstallPath
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Sierra\Empire Earth II
+Value: InstallExePath
+Data: 2/8/2010 11:23:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\EE2.exe - 11599872
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Sierra\Empire Earth II: The Art of Supremacy
+Value: InstallPath
+Data: ProgramFilesX86\GOG.com\Empire Earth II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Sierra\Empire Earth II: The Art of Supremacy
+Value: InstallExePath
+Data: 2/8/2010 2:06:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\EE2X.exe - 30121984
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Sierra Entertainment\Empire Earth III
+Value: InstallPath
+Data: ProgramFilesX86\GOG.com\Empire Earth III
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Sierra Entertainment\Empire Earth III
+Value: InstallExePath
+Data: 11/8/2007 6:48:32 PM - ProgramFilesX86\GOG.com\Empire Earth III\EE3.exe - 41995976
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+12/24/2011 3:47:08 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth II Gold Edition\Empire Earth II - The Art of Supremacy.lnk - 2104
+2/8/2010 2:06:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\EE2X.exe - 30121984
+12/24/2011 3:47:07 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth II Gold Edition\Empire Earth II.lnk - 2085
+2/8/2010 11:23:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\EE2.exe - 11599872
+12/24/2011 3:47:07 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth II Gold Edition\Uninstall Empire Earth II Gold Edition.lnk - 1112
+12/24/2011 3:41:13 PM - ProgramFilesX86\GOG.com\Empire Earth II\unins000.exe - 2142547
+12/24/2011 3:47:04 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth II Gold Edition\Documents\Editor Readme.lnk - 1284
+2/26/2005 11:43:52 AM - ProgramFilesX86\GOG.com\Empire Earth II\Map Making Walkthrough.txt - 5582
+12/24/2011 3:47:07 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth II Gold Edition\Documents\Manual (The Art of Supremacy).lnk - 1224
+3/15/2010 1:00:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\Manual_add.pdf - 366193
+12/24/2011 3:47:04 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth II Gold Edition\Documents\Manual.lnk - 1202
+3/15/2010 1:00:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\Manual.pdf - 1738913
+12/24/2011 3:47:07 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth II Gold Edition\Documents\Readme (The Art of Supremacy).lnk - 1224
+3/5/2010 5:27:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\README_add.txt - 3475
+12/24/2011 3:47:04 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth II Gold Edition\Documents\Readme.lnk - 1202
+3/5/2010 5:24:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\README.txt - 32314
+12/25/2011 2:27:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth III\Empire Earth III.lnk - 2094
+11/8/2007 6:48:32 PM - ProgramFilesX86\GOG.com\Empire Earth III\EE3.exe - 41995976
+12/25/2011 2:27:05 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth III\Uninstall Empire Earth III.lnk - 1117
+12/25/2011 2:13:59 PM - ProgramFilesX86\GOG.com\Empire Earth III\unins000.exe - 2142547
+12/25/2011 2:27:03 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth III\Documents\Manual.lnk - 1209
+3/15/2010 2:00:50 PM - ProgramFilesX86\GOG.com\Empire Earth III\Manual.pdf - 1715705
+12/25/2011 2:27:03 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth III\Documents\Readme.lnk - 1209
+3/5/2010 6:31:10 PM - ProgramFilesX86\GOG.com\Empire Earth III\readme.txt - 13019
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+1/9/2012 11:13:38 PM - UserDocuments\Empire Earth II\maps\test.map - 17317
+1/9/2012 11:14:35 PM - UserDocuments\Empire Earth II\savegame_SP\Conquest - (2012_01_09)_(23_14).sav - 376530
+1/9/2012 11:13:26 PM - UserDocuments\Empire Earth II\scenario\test.scn - 25084
+
+Install Folder Dump: 
+3/11/2004 6:09:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\binkw32.dll - 347136
+2/26/2005 9:24:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\config.cfg - 32679
+10/4/2005 12:01:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\config_EE2X.cfg - 33630
+2/24/2004 10:31:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\d3dx8d.dll - 698368
+2/9/2005 12:04:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\DSETUP.dll - 69832
+2/9/2005 12:04:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\dsetup32.dll - 2249416
+2/8/2010 11:23:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\EE2.exe - 11599872
+6/1/2005 10:33:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\EE2.ico - 22486
+2/8/2010 2:06:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\EE2X.exe - 30121984
+11/21/2005 11:52:26 AM - ProgramFilesX86\GOG.com\Empire Earth II\EE2X.ico - 21630
+1/5/2005 5:06:54 PM - ProgramFilesX86\GOG.com\Empire Earth II\EULA.rtf - 14674
+10/2/2003 10:58:56 AM - ProgramFilesX86\GOG.com\Empire Earth II\EULA.txt - 11611
+2/25/2010 2:52:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\gfw_high.ico - 145715
+3/15/2010 1:05:58 PM - ProgramFilesX86\GOG.com\Empire Earth II\gfw_high_addon.ico - 125218
+3/16/2010 11:28:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\goggame.dll - 289792
+3/16/2010 11:28:10 AM - ProgramFilesX86\GOG.com\Empire Earth II\goggame_addon.dll - 249344
+2/25/2005 3:23:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\hotkeys.cfg - 51244
+11/28/2008 10:32:10 PM - ProgramFilesX86\GOG.com\Empire Earth II\innosetup_license.txt - 1471
+3/15/2010 1:00:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\Manual.pdf - 1738913
+3/15/2010 1:00:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\Manual_add.pdf - 366193
+2/26/2005 11:43:52 AM - ProgramFilesX86\GOG.com\Empire Earth II\Map Making Walkthrough.txt - 5582
+2/18/2005 8:17:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\MiscHelper.dll - 102400
+9/28/2005 12:30:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\MiscHelper_EE2X.dll - 102400
+8/20/2004 9:38:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\mss32.dll - 372736
+2/24/2004 10:31:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\MSVCP60.DLL - 401462
+2/24/2004 10:31:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\MSVCP60D.DLL - 516173
+2/24/2004 10:31:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\MSVCRTD.DLL - 401484
+4/15/2005 7:31:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\myconfig.cfg - 56
+4/15/2005 7:31:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\myconfig_EE2X.cfg - 56
+3/5/2010 5:24:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\README.txt - 32314
+3/5/2010 5:27:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\README_add.txt - 3475
+2/4/2005 8:59:54 AM - ProgramFilesX86\GOG.com\Empire Earth II\splash.bmp - 216056
+12/6/2005 1:26:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\splash_EE2X.bmp - 162056
+12/24/2011 3:47:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\unins000.dat - 146690
+12/24/2011 3:41:13 PM - ProgramFilesX86\GOG.com\Empire Earth II\unins000.exe - 2142547
+12/24/2011 3:47:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\unins000.ini - 148
+1/18/2005 2:47:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A1Cuba.aip - 8146
+1/18/2005 2:47:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A1Spain.aip - 8605
+1/6/2005 6:08:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A2France.aip - 8182
+1/6/2005 6:08:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A2Germany.aip - 9366
+1/6/2005 6:08:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A3England.aip - 10452
+1/6/2005 6:08:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A3Germany.aip - 9574
+1/6/2005 6:08:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A3Italy.aip - 9570
+1/6/2005 6:08:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A4Germany.aip - 10473
+2/18/2005 2:33:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A4GermanyAggressive.aip - 12486
+2/18/2005 2:33:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A4GermanyPassive.aip - 12484
+1/6/2005 6:08:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A5England.aip - 10576
+1/6/2005 6:08:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A5France.aip - 10568
+2/8/2005 9:55:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A5SovietUnion.aip - 11270
+1/6/2005 6:08:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A5WestGermany.aip - 10566
+1/6/2005 6:08:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A6SovietUnion.aip - 9916
+1/25/2005 5:43:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A7Blackworth.aip - 10198
+1/28/2005 4:04:18 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\A8Blackworth.aip - 11578
+11/15/2004 10:17:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\aggressive.aip - 23740
+2/19/2005 1:01:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\AIPDefaults.h - 9229
+2/21/2005 1:24:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\AipStructures.h - 6671
+12/9/2004 5:12:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_American.aip - 917
+11/15/2004 10:17:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Aztec.aip - 626
+12/9/2004 5:12:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Babylonian.aip - 672
+11/15/2004 10:17:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Chinese.aip - 644
+11/15/2004 10:17:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Egyptian.aip - 662
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_English.aip - 968
+11/15/2004 10:17:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_German.aip - 862
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Greek.aip - 896
+11/15/2004 10:17:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Inca.aip - 616
+11/15/2004 10:17:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Japanese.aip - 648
+12/9/2004 5:12:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Korean.aip - 675
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Mayan.aip - 614
+12/9/2004 5:12:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Roman.aip - 867
+12/9/2004 5:12:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Civ_Turkish.aip - 658
+11/15/2004 10:17:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Deathmatch.aip - 665
+1/12/2005 1:57:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\default.aip - 9148
+1/4/2005 9:18:58 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\E3Map2.aip - 9010
+1/4/2005 9:18:58 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\E3Map3BadGuy.aip - 8935
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_AirEpoch.aip - 9832
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_AirplaneCraze.aip - 13388
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_Attack.aip - 5527
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_Defend.aip - 4495
+2/19/2005 1:01:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_Expand.aip - 20624
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_LateEpoch.aip - 12874
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_Navy.aip - 15345
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_NavyAirEpoch.aip - 13089
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Eco_NavyLateEpoch.aip - 14009
+1/6/2005 6:08:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G1Barbarians.aip - 11416
+1/27/2005 2:32:10 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G1Livonians.aip - 11422
+1/6/2005 6:08:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G1Prussia.aip - 8265
+1/6/2005 6:08:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G2Denmark.aip - 10107
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G2Dissidents.aip - 4425
+1/10/2005 3:34:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G2HolyRom.aip - 10326
+1/10/2005 3:34:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G2PolandAttack.aip - 10437
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G2PolandDefend.aip - 10433
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G2PolandExpand.aip - 10541
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G2SwedenAttack.aip - 10322
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G2SwedenDefend.aip - 10322
+1/19/2005 11:01:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G3Poland.aip - 10817
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G3Prussians.aip - 7517
+1/31/2005 1:42:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4AggressiveAlly.aip - 8664
+1/31/2005 1:42:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4Friedland.aip - 10992
+1/31/2005 1:42:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4Lithuania.aip - 11008
+1/31/2005 1:42:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4Lyck.aip - 10987
+1/31/2005 1:42:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4Marienwerder.aip - 10997
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4Nobility.aip - 4525
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4PolandAttack.aip - 10424
+1/6/2005 6:08:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4PolandDefend.aip - 10430
+1/31/2005 1:42:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G4Tilsit.aip - 11008
+1/17/2005 5:08:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G5HolyRomAtt.aip - 10687
+1/17/2005 5:08:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G5HolyRomDef.aip - 10774
+1/17/2005 5:08:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G5Konigsburg.aip - 10379
+1/17/2005 5:08:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G5PolandAtt.aip - 10802
+1/17/2005 5:08:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G5PolandDef.aip - 10769
+1/17/2005 5:08:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G5SwedenAtt.aip - 10622
+1/17/2005 5:08:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G5SwedenDef.aip - 10535
+2/18/2005 2:33:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6Austria.aip - 10526
+1/27/2005 4:56:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6AustriaDef.aip - 10533
+2/18/2005 2:33:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6England.aip - 10524
+1/27/2005 4:56:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6EnglandDef.aip - 10533
+2/18/2005 2:33:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6France.aip - 10526
+1/27/2005 4:56:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6FranceDef.aip - 10533
+2/18/2005 2:33:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6Hannover.aip - 10532
+2/18/2005 2:33:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6HannoverDef.aip - 10533
+1/6/2005 6:08:18 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6Neutrals.aip - 10533
+2/18/2005 2:33:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6Russia.aip - 10526
+1/27/2005 4:56:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6RussiaDef.aip - 10533
+2/18/2005 2:33:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6Sweden.aip - 10536
+1/27/2005 4:56:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G6SwedenDef.aip - 10543
+2/18/2005 2:33:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G7Austria.aip - 10472
+2/18/2005 2:33:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G7England.aip - 10472
+2/1/2005 5:38:24 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G7France-Aggressive.aip - 10712
+2/1/2005 5:22:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G7France-Defensive.aip - 10478
+2/18/2005 2:33:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G7Russia.aip - 10589
+2/13/2005 5:01:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G8Austria.aip - 10480
+2/12/2005 10:21:52 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G8Denmark.aip - 10947
+2/10/2005 10:08:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G8England.aip - 10630
+2/12/2005 10:21:52 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G8France.aip - 10947
+2/12/2005 10:21:52 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G8GermanCon.aip - 10215
+2/18/2005 3:38:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\G8Italy.aip - 10427
+11/15/2004 10:17:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\GermanWW2.aip - 11408
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_AirEpoch.aip - 9830
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_AirplaneCraze.aip - 13357
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_Attack.aip - 4518
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_Defend.aip - 4993
+5/5/2005 4:54:28 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_Expand.aip - 20301
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_LateEpoch.aip - 13772
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_Navy.aip - 15215
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_NavyAirEpoch.aip - 13348
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Imp_NavyLateEpoch.aip - 14357
+1/6/2005 6:08:18 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K1Bandits.aip - 6719
+2/8/2005 4:58:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K2Chou.aip - 10691
+2/8/2005 4:58:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K2Donghu.aip - 10615
+2/8/2005 4:58:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K2DonghuBad.aip - 10615
+2/8/2005 4:58:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K2Shang.aip - 10516
+1/12/2005 1:57:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K3China.aip - 11278
+1/15/2005 9:33:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K4LelangAggressive.aip - 9560
+1/6/2005 6:08:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K4LelangPassive.aip - 10819
+1/15/2005 9:33:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K4LintunAggressive.aip - 9560
+1/6/2005 6:08:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K4LintunPassive.aip - 10819
+1/15/2005 9:33:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K4XuantuAggressive.aip - 9560
+1/6/2005 6:08:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K4XuantuPassive.aip - 10819
+1/15/2005 9:33:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K4ZhenfanAggressive.aip - 9560
+1/6/2005 6:08:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K4ZhenfanPassive.aip - 10819
+2/25/2005 9:56:08 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K5Kaya.aip - 10730
+1/17/2005 11:54:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K5Koguryo.aip - 10831
+1/17/2005 11:54:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K5Paekche.aip - 10831
+1/11/2005 6:40:24 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K6China.aip - 10636
+1/6/2005 6:08:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K6Japan.aip - 6847
+2/21/2005 5:50:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K6Koguryo.aip - 10583
+2/21/2005 5:50:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K6Paekche.aip - 10583
+2/18/2005 5:28:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K7China.aip - 10719
+1/6/2005 6:08:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K7Koguryo.aip - 10297
+1/6/2005 6:08:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K7Paekche.aip - 10300
+2/21/2005 5:50:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\K8China.aip - 11400
+1/14/2005 8:34:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Lookbusy.aip - 9822
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_AirEpoch.aip - 9818
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_AirplaneCraze.aip - 13404
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_Attack.aip - 4520
+2/19/2005 1:01:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_Default.h - 15172
+2/17/2005 8:18:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_Defend.aip - 4495
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_Expand.aip - 19510
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_LateEpoch.aip - 12874
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_Navy.aip - 15482
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_NavyAirEpoch.aip - 13079
+4/4/2005 5:01:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Mil_NavyLateEpoch.aip - 13980
+11/15/2004 10:17:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\NormalResources.aip - 688
+11/15/2004 10:17:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips\passive.aip - 23726
+5/5/2005 4:54:28 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Skirmish_Default.aip - 22929
+2/14/2005 2:17:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Skirmish_Easier.aip - 1092
+2/13/2005 3:33:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Skirmish_Easiest.aip - 1093
+2/13/2005 3:33:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Skirmish_Easy.aip - 1088
+2/13/2005 3:33:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Skirmish_Hard.aip - 1090
+2/13/2005 3:33:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Skirmish_Hardest.aip - 1093
+2/13/2005 3:33:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Skirmish_Normal.aip - 1092
+2/18/2005 2:33:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\T1Qiang.aip - 9248
+2/18/2005 2:33:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\T1Shu.aip - 10344
+2/18/2005 2:33:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\T1Wei.aip - 12848
+2/18/2005 2:33:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\T1Wu.aip - 10671
+2/18/2005 2:33:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\T1Wuhuan.aip - 9514
+2/22/2005 4:42:28 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\T2Allies.aip - 12270
+2/22/2005 4:42:28 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\T2Axis.aip - 11754
+1/6/2005 6:08:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Tu4Incan.aip - 9081
+1/6/2005 6:08:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Tu4USAggressive.aip - 9074
+1/6/2005 6:08:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips\Tu4USPassive.aip - 9074
+9/28/2005 12:30:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\aggressive.aip - 23740
+9/28/2005 12:30:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\AIPDefaults.h - 10037
+9/28/2005 12:30:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\AipStructures.h - 6671
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_American.aip - 927
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Aztec.aip - 637
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Babylonian.aip - 682
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Chinese.aip - 655
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Egyptian.aip - 673
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_English.aip - 979
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_French.aip - 869
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_German.aip - 873
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Greek.aip - 907
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Inca.aip - 627
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Japanese.aip - 659
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Korean.aip - 685
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Maasai.aip - 815
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Mayan.aip - 625
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Roman.aip - 877
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Russian.aip - 818
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Turkish.aip - 668
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Civ_Zulu.aip - 809
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Deathmatch.aip - 675
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\default.aip - 9148
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_AirEpoch.aip - 9843
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_AirplaneCraze.aip - 13399
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_Attack.aip - 5527
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_Defend.aip - 4495
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_Expand.aip - 20624
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_LateEpoch.aip - 12885
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_Navy.aip - 15356
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_NavyAirEpoch.aip - 13100
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Eco_NavyLateEpoch.aip - 14020
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_E1BlackSun.aip - 11504
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_E2BlackSun.aip - 11504
+10/26/2005 1:35:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_E2_Baraka.aip - 11154
+11/1/2005 1:14:00 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_E3BlackSun.aip - 11796
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_E3_Tasian.aip - 11504
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_E4BlackSun.aip - 11504
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_E5_Theban.aip - 11506
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_Kursk_German.aip - 10018
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_Kursk_Russian.aip - 10031
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M1_Badguys.aip - 10374
+10/19/2005 12:01:06 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M1_Kwafi.aip - 10329
+9/28/2005 12:30:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M1_Maasai.aip - 10374
+10/21/2005 12:01:06 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M2_Burkeneji.aip - 10592
+11/11/2005 12:57:44 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M2_Burkeneji_Aggro.aip - 10809
+10/21/2005 12:01:06 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M2_Kwafi.aip - 10371
+10/21/2005 1:41:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M2_Pirates.aip - 12064
+11/4/2005 1:39:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M3_Burkeneji.aip - 10642
+11/10/2005 1:13:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M3_Globo.aip - 10399
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M3_Kalenjin.aip - 10332
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M3_Kwafi.aip - 10327
+11/4/2005 1:39:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M4_Burkeneji.aip - 10741
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M4_Kalenjin.aip - 10332
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M4_Kwafi.aip - 10214
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M4_Sambura.aip - 10438
+10/17/2005 12:01:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M5_Burkeneji.aip - 11501
+10/17/2005 12:01:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M5_Kwafi.aip - 11076
+10/17/2005 12:01:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_M5_Omega.aip - 11868
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_NativeTribes.h - 572
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_NativeTribes_Berserk.aip - 13050
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_NativeTribes_Default.aip - 14534
+11/10/2005 1:13:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R2France.aip - 15989
+11/9/2005 1:06:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R2Prussia.aip - 10480
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R3Finland.aip - 10073
+9/28/2005 5:57:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R3France.aip - 9993
+11/7/2005 1:02:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R3Sweden.aip - 12195
+11/8/2005 1:29:44 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R4France.aip - 14335
+11/8/2005 1:29:46 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R4FranceDef.aip - 14379
+9/30/2005 12:01:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R5Austria.aip - 12265
+11/11/2005 12:57:44 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R5France.aip - 15064
+11/3/2005 1:07:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R5FranceDef.aip - 12289
+11/11/2005 12:57:44 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R5Italy.aip - 8697
+9/30/2005 12:01:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\EE2X_R5Prussia.aip - 12265
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\GermanWW2.aip - 11408
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_AirEpoch.aip - 9841
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_AirplaneCraze.aip - 13368
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_Attack.aip - 4518
+9/28/2005 12:30:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_Defend.aip - 4993
+10/3/2005 12:01:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_Expand.aip - 20506
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_LateEpoch.aip - 13783
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_Navy.aip - 15226
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_NavyAirEpoch.aip - 13359
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Imp_NavyLateEpoch.aip - 14368
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Lookbusy.aip - 9822
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_AirEpoch.aip - 9829
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_AirplaneCraze.aip - 13415
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_Attack.aip - 4520
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_Default.h - 17027
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_Defend.aip - 4495
+10/3/2005 12:01:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_Expand.aip - 19716
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_LateEpoch.aip - 12885
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_Navy.aip - 15493
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_NavyAirEpoch.aip - 13090
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Mil_NavyLateEpoch.aip - 13991
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\NormalResources.aip - 698
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\passive.aip - 23726
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Skirmish_Default.aip - 23737
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Skirmish_Easier.aip - 1103
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Skirmish_Easiest.aip - 1104
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Skirmish_Easy.aip - 1099
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Skirmish_Hard.aip - 1101
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Skirmish_Hardest.aip - 1104
+9/28/2005 12:30:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\aips_ee2x\Skirmish_Normal.aip - 1103
+2/19/2005 7:48:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Battle for the Nile.map - 773598
+2/19/2005 7:48:54 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Doughnut.map - 856481
+2/19/2005 7:48:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Golden Triad.map - 310236
+9/28/2005 1:03:24 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Honeycombs.map - 505304
+2/19/2005 7:48:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Indonesia.map - 663937
+4/4/2005 5:01:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Ink Blot.map - 1112218
+4/4/2005 5:01:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Jungle Kings.map - 406649
+4/4/2005 5:01:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Spokes.map - 1387867
+4/4/2005 5:01:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Three Crowns.map - 263433
+2/19/2005 7:49:00 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Thunda Down Unda.map - 2220656
+2/19/2005 7:49:00 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Triumvirate Tussle.map - 372751
+9/28/2005 1:03:26 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Wasteland.map - 610651
+9/28/2005 1:03:26 PM - ProgramFilesX86\GOG.com\Empire Earth II\maps\Yucatan.map - 244586
+2/26/2005 3:40:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies\EE2_credits.bik - 67335412
+1/25/2005 6:08:18 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies\EE2_E3_VUG.bik - 54512568
+2/26/2005 3:41:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies\fe_loop.bik - 29853252
+1/4/2005 10:39:46 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\ger_1_intro.bik - 8235552
+1/4/2005 10:39:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\ger_2_intro.bik - 7706708
+1/4/2005 10:39:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\ger_3_intro.bik - 5500112
+1/4/2005 10:39:54 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\ger_4_intro.bik - 10656000
+1/4/2005 10:39:56 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\ger_5_intro.bik - 6187276
+1/4/2005 10:39:58 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\ger_6_intro.bik - 10007848
+1/4/2005 10:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\ger_7_intro.bik - 7702420
+1/4/2005 10:40:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\ger_8_intro.bik - 5981160
+1/4/2005 10:40:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\Intel.bik - 3111248
+1/4/2005 10:40:08 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\kor_1_intro.bik - 7524800
+1/4/2005 10:40:10 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\kor_2_intro.bik - 6329988
+1/4/2005 10:40:12 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\kor_3_intro.bik - 7481752
+1/4/2005 10:40:14 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\kor_4_intro.bik - 7145652
+1/4/2005 10:40:16 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\kor_5_intro.bik - 8710328
+1/4/2005 10:40:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\kor_6_intro.bik - 7783488
+1/4/2005 10:40:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\kor_7_intro.bik - 7675932
+1/4/2005 10:40:22 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\kor_8_intro.bik - 6438376
+2/26/2005 3:41:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies\md_intro.bik - 22820528
+1/4/2005 10:40:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\Nvidia.bik - 1663472
+1/4/2005 10:40:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\SierraLogo.bik - 12050428
+7/20/2004 9:04:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\still_frame.bik - 37488
+1/4/2005 10:40:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\tp_normandy.bik - 29610148
+1/4/2005 10:40:44 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\tp_three_kingdoms.bik - 22125324
+1/4/2005 10:40:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_1_intro.bik - 12102700
+1/4/2005 10:40:52 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_2_intro.bik - 12305288
+1/4/2005 10:40:56 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_3_intro.bik - 11162708
+1/4/2005 10:41:00 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_4_intro.bik - 11883104
+1/4/2005 10:41:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_5_intro.bik - 17075384
+1/4/2005 10:41:06 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_6_intro.bik - 10121068
+1/4/2005 10:41:08 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_7_intro.bik - 6951176
+1/4/2005 10:41:10 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_8_intro.bik - 11967444
+1/4/2005 10:41:16 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\us_8_outro.bik - 20870456
+1/4/2005 10:41:16 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies\VUGlogo.bik - 2841336
+10/4/2005 9:53:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_1_opening.bik - 26296364
+9/28/2005 12:35:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_1_victory.bik - 3768316
+9/28/2005 12:35:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_2_opening.bik - 15283224
+9/28/2005 12:35:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_2_victory.bik - 4272736
+10/18/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_3_opening.bik - 19194788
+9/28/2005 12:35:26 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_3_victory.bik - 3932472
+9/28/2005 12:35:28 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_4_opening.bik - 19416668
+9/28/2005 12:35:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_4_victory.bik - 5460244
+9/28/2005 12:35:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_5_opening.bik - 20135756
+9/28/2005 12:35:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\egypt_5_victory.bik - 4947668
+9/28/2005 12:35:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\fe_loop_EE2X.bik - 29194336
+9/28/2005 12:35:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\kursk_1_intro.bik - 16325476
+9/28/2005 12:35:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\kursk_german_victory.bik - 7930488
+9/28/2005 12:35:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\kursk_russian_victory.bik - 7461624
+9/28/2005 12:35:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_1_intro.bik - 6837536
+10/5/2005 12:01:12 AM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_1_victory.bik - 3601436
+9/28/2005 12:35:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_2_intro.bik - 5827652
+9/28/2005 12:35:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_2_victory.bik - 3224976
+9/28/2005 12:35:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_3_intro.bik - 7330768
+9/28/2005 12:35:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_3_victory.bik - 4387300
+9/28/2005 12:35:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_4_intro.bik - 6817660
+9/28/2005 12:35:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_4_victory.bik - 4366648
+9/28/2005 12:35:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_5_intro.bik - 4768020
+9/28/2005 12:35:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\maasai_5_victory.bik - 6837156
+9/28/2005 12:35:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\rorkes_1_intro.bik - 20505736
+9/28/2005 12:35:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\rorkes_1_victory_brit.bik - 3968060
+9/28/2005 12:35:54 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\rorkes_1_victory_zulu.bik - 3895976
+9/28/2005 12:35:54 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_1_intro.bik - 9651160
+9/28/2005 12:35:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_1_victory.bik - 5283796
+9/28/2005 12:35:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_2_intro.bik - 12480156
+9/28/2005 12:35:58 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_2_victory.bik - 5158408
+9/28/2005 12:36:00 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_3_intro.bik - 13518404
+9/28/2005 12:36:00 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_3_victory.bik - 6997932
+9/28/2005 12:36:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_4_intro.bik - 15025720
+9/28/2005 12:36:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_4_victory.bik - 10008080
+9/28/2005 12:36:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_5_intro.bik - 14931408
+9/28/2005 12:36:06 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\russia_5_victory.bik - 10377808
+12/22/2005 2:56:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\movies_ee2x\SierraLogo_EE2X.bik - 14348864
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_1.mp3 - 504187
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_10.mp3 - 175880
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_11.mp3 - 311508
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_12.mp3 - 423103
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_13.mp3 - 203465
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_2.mp3 - 189881
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_3.mp3 - 472631
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_4.mp3 - 176298
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_5.mp3 - 213078
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_6.mp3 - 367932
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_7.mp3 - 463018
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_8.mp3 - 463018
+9/28/2005 12:36:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_af_9.mp3 - 315269
+1/4/2005 10:41:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_1.mp3 - 584623
+1/4/2005 10:41:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_1b.mp3 - 584623
+1/4/2005 10:41:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_1c.mp3 - 884300
+1/4/2005 10:41:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_1d.mp3 - 878448
+1/4/2005 10:41:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_1e.mp3 - 878448
+1/4/2005 10:41:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_2.mp3 - 761838
+1/4/2005 10:41:18 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_2b.mp3 - 761838
+1/4/2005 10:41:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_2c.mp3 - 861730
+1/4/2005 10:41:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_2d.mp3 - 830383
+1/4/2005 10:41:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_3.mp3 - 672394
+1/4/2005 10:41:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_4.mp3 - 593818
+1/4/2005 10:41:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_5.mp3 - 742612
+1/4/2005 10:41:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_6.mp3 - 578354
+1/4/2005 10:41:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_7.mp3 - 905198
+1/4/2005 10:41:22 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_am_8.mp3 - 774794
+6/28/2004 6:14:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_1.mp3 - 669469
+6/28/2004 6:14:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_10.mp3 - 1160989
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_11.mp3 - 1019719
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_2.mp3 - 924424
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_3.mp3 - 1125044
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_4.mp3 - 761002
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_4b.mp3 - 713354
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_5.mp3 - 566651
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_5b.mp3 - 561635
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_6.mp3 - 1145106
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_6b.mp3 - 1095787
+6/28/2004 6:14:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_6c.mp3 - 1131314
+6/28/2004 6:14:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_7.mp3 - 1023480
+6/28/2004 6:14:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_8.mp3 - 933619
+6/28/2004 6:14:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_fe_9.mp3 - 1341965
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_1.mp3 - 586295
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_10.mp3 - 454220
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_11.mp3 - 524437
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_11b.mp3 - 307934
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_11c.mp3 - 238135
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_12.mp3 - 1346563
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_13.mp3 - 697472
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_1b.mp3 - 743030
+1/4/2005 10:41:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_2.mp3 - 679918
+1/4/2005 10:41:26 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_2b.mp3 - 629763
+1/4/2005 10:41:26 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_2c.mp3 - 1280107
+1/4/2005 10:41:26 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_2d.mp3 - 1162661
+1/4/2005 10:41:26 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_2e.mp3 - 1154719
+1/4/2005 10:41:26 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_3.mp3 - 999239
+1/4/2005 10:41:26 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_4.mp3 - 1025152
+1/4/2005 10:41:28 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_5.mp3 - 505211
+1/4/2005 10:41:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_6.mp3 - 555366
+1/4/2005 10:41:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_7.mp3 - 675320
+1/4/2005 10:41:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_8.mp3 - 819098
+1/4/2005 10:41:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_me_9.mp3 - 1020136
+1/4/2005 10:41:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_mid_late_1.mp3 - 506883
+1/4/2005 10:41:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_mid_late_2.mp3 - 505211
+1/4/2005 10:41:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_mid_late_3.mp3 - 770197
+1/4/2005 10:41:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_mid_late_4.mp3 - 448368
+1/4/2005 10:41:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_mid_late_5.mp3 - 526527
+1/4/2005 10:41:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_mid_late_6.mp3 - 514824
+1/4/2005 10:41:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_mid_late_7.mp3 - 369792
+1/4/2005 10:41:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_mid_late_8.mp3 - 772287
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_1.mp3 - 679918
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_10.mp3 - 738850
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_2.mp3 - 987118
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_3.mp3 - 608029
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_4.mp3 - 853371
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_5.mp3 - 614716
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_6.mp3 - 551186
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_7.mp3 - 580861
+6/28/2004 6:14:52 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_8.mp3 - 650243
+6/28/2004 6:14:54 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Ambient\amb_we_9.mp3 - 880956
+1/4/2005 10:41:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\American Campaign\A135_Intro.mp3 - 1072381
+1/4/2005 10:41:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\American Campaign\A246_Intro.mp3 - 1079905
+1/4/2005 10:41:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\American Campaign\A78_Intro.mp3 - 1259627
+1/4/2005 10:41:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\American Campaign\American_Complete.mp3 - 684933
+1/4/2005 10:41:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\American Campaign\American_Defeat.mp3 - 557456
+1/4/2005 10:41:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\American Campaign\American_Victory.mp3 - 528616
+1/4/2005 10:41:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\German Campaign\G1234_Intro.mp3 - 1043124
+1/4/2005 10:41:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\German Campaign\G5678_Intro.mp3 - 1209890
+1/4/2005 10:41:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\German Campaign\German_Complete.mp3 - 565815
+1/4/2005 10:41:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\German Campaign\German_Defeat.mp3 - 317547
+1/4/2005 10:41:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\German Campaign\German_Victory.mp3 - 631434
+1/4/2005 10:41:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Global\Intro_movie_music.mp3 - 3163776
+11/8/2004 5:23:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\music\Global\Shell_music.mp3 - 1562112
+1/4/2005 10:41:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Korean Campaign\K12_Defeat.mp3 - 498523
+1/4/2005 10:41:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Korean Campaign\K12_Intro.mp3 - 674484
+1/4/2005 10:41:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Korean Campaign\K12_Victory.mp3 - 339699
+1/4/2005 10:41:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Korean Campaign\K345678_Defeat.mp3 - 498523
+1/4/2005 10:41:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Korean Campaign\K345678_Victory.mp3 - 514824
+1/4/2005 10:41:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Korean Campaign\K357_Intro.mp3 - 1201113
+1/4/2005 10:41:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Korean Campaign\K468_Intro.mp3 - 828293
+1/4/2005 10:41:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Korean Campaign\Korean_Complete.mp3 - 597162
+1/4/2005 10:41:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Turning Points\Arbela_Intro.mp3 - 1294736
+1/4/2005 10:41:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Turning Points\Macedon_Defeat.mp3 - 322981
+1/4/2005 10:41:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Turning Points\Macedon_Vic.mp3 - 279513
+1/4/2005 10:41:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\music\Turning Points\Persian_Vic.mp3 - 355581
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\mss32.dll - 372736
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\mssa3d.m3d - 100352
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\mssds3d.m3d - 83456
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\mssdsp.flt - 111104
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\mssdx7.m3d - 92672
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\msseax.m3d - 140800
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\mssmp3.asi - 149504
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\mssrsx.m3d - 372224
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\msssoft.m3d - 79360
+8/20/2004 9:40:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\redist\mssvoice.asi - 214528
+3/14/2005 10:21:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\American1.scn - 748979
+4/4/2005 5:01:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\American2.scn - 806265
+3/9/2005 9:37:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\American3.scn - 1145119
+4/4/2005 5:01:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\American4.scn - 1683863
+3/9/2005 9:37:44 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\American5.scn - 1386900
+2/25/2005 12:53:10 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\American6.scn - 2124300
+3/9/2005 9:37:46 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\American7.scn - 1095864
+2/23/2005 6:16:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\American8.scn - 2029647
+4/4/2005 5:01:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\German1.scn - 337716
+2/22/2005 1:18:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\German2.scn - 1048424
+2/22/2005 1:18:46 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\German3.scn - 975360
+2/18/2005 2:34:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\German4.scn - 1004876
+4/4/2005 5:01:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\German5.scn - 979908
+4/4/2005 5:01:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\German6.scn - 1156670
+2/4/2005 5:20:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\German7.scn - 1764980
+2/18/2005 7:26:06 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\German8.scn - 1595353
+3/15/2005 11:19:50 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Korean1.scn - 286969
+2/25/2005 12:53:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Korean2.scn - 531772
+2/25/2005 1:55:16 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Korean3.scn - 841090
+2/26/2005 8:25:20 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Korean4.scn - 916615
+2/25/2005 1:55:18 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Korean5.scn - 1006245
+3/21/2005 11:27:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Korean6.scn - 809853
+3/9/2005 9:37:46 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Korean7.scn - 790998
+2/25/2005 1:55:18 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Korean8.scn - 689780
+2/18/2005 12:04:48 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Normandy.scn - 2221631
+2/19/2005 9:10:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\ThreeKingdoms.scn - 1739106
+1/28/2005 10:40:16 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Tutorial1.scn - 136910
+4/4/2005 5:01:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Tutorial2.scn - 326058
+4/4/2005 5:01:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Tutorial3.scn - 326630
+2/20/2005 6:23:50 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario\Tutorial4.scn - 709228
+11/30/2005 12:58:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Egypt1.scn - 420900
+11/10/2005 1:13:54 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Egypt2.scn - 395767
+11/17/2005 2:53:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Egypt3.scn - 643145
+11/18/2005 12:59:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Egypt4.scn - 780121
+12/7/2005 5:45:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Egypt5.scn - 1250050
+11/18/2005 12:59:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Kursk.scn - 1740864
+11/18/2005 12:59:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Maasai1.scn - 481154
+10/21/2005 1:41:56 PM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Maasai2.scn - 617300
+11/4/2005 1:39:58 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Maasai3.scn - 705491
+11/23/2005 10:09:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Maasai4.scn - 384649
+10/18/2005 12:01:22 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Maasai5.scn - 1210341
+10/26/2005 1:35:36 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_RorkesDrift.scn - 292902
+10/20/2005 12:01:14 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Russian1.scn - 253929
+11/10/2005 1:13:54 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Russian2.scn - 357405
+11/7/2005 1:03:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Russian3.scn - 640572
+11/8/2005 1:29:58 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Russian4.scn - 741421
+11/10/2005 1:13:54 AM - ProgramFilesX86\GOG.com\Empire Earth II\scenario_ee2x\EE2X_Russian5.scn - 645516
+10/4/2005 11:14:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\Scripting Docs\Boston.ies - 9913
+10/4/2005 11:14:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\Scripting Docs\Boston.scn - 306568
+10/4/2005 11:14:50 AM - ProgramFilesX86\GOG.com\Empire Earth II\Scripting Docs\EE2 SCRIPTING.doc - 446464
+10/4/2005 11:14:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\Scripting Docs\ScriptExampleTutorial1.ies - 60810
+10/4/2005 11:14:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\Scripting Docs\ScriptExampleTutorial1.scn - 200208
+3/9/2005 9:37:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\American1.dll - 409661
+3/9/2005 9:37:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\American2.dll - 409661
+4/4/2005 5:01:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\American3.dll - 344125
+4/4/2005 5:01:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\American4.dll - 421949
+4/13/2005 5:32:26 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\American5.dll - 512061
+4/4/2005 5:01:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\American6.dll - 618557
+4/5/2005 2:03:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\American7.dll - 368701
+4/5/2005 2:03:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\American8.dll - 446525
+4/4/2005 5:01:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\German1.dll - 340027
+2/25/2005 4:58:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\German2.dll - 135168
+2/25/2005 6:50:06 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\German3.dll - 536635
+4/4/2005 5:01:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\German4.dll - 524347
+4/4/2005 5:01:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\German5.dll - 368699
+4/4/2005 5:01:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\German6.dll - 430139
+2/25/2005 4:58:42 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\German7.dll - 155648
+4/4/2005 5:01:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\German8.dll - 352315
+3/15/2005 9:01:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\Korean1.dll - 356411
+3/16/2005 11:04:10 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\Korean2.dll - 364603
+2/26/2005 6:46:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\Korean3.dll - 430139
+2/25/2005 4:58:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\Korean4.dll - 118784
+2/25/2005 4:58:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\Korean5.dll - 86016
+3/21/2005 11:27:34 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\Korean6.dll - 303163
+2/25/2005 4:58:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\Korean7.dll - 94208
+2/25/2005 4:58:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\Korean8.dll - 77824
+2/25/2005 5:58:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\normandy_allies.dll - 98304
+2/25/2005 5:58:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\normandy_german.dll - 131072
+2/25/2005 5:58:24 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\ThreeKingdoms_Wei.dll - 81920
+1/25/2005 9:53:24 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\ThreeKingdoms_Wu.dll - 45056
+2/25/2005 5:58:24 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\tutorial1.dll - 102400
+2/25/2005 5:58:24 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\tutorial2.dll - 110592
+3/9/2005 9:37:50 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\tutorial3.dll - 323645
+2/25/2005 5:58:26 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\tutorial4.dll - 176128
+2/18/2005 9:15:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\AI\AI_default.dll - 53248
+2/25/2005 4:58:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\AI\Eco_Crown.dll - 61440
+2/25/2005 4:58:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\AI\Imp_Crown.dll - 61440
+2/25/2005 4:58:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs\AI\Mil_Crown.dll - 61440
+11/30/2005 12:58:06 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Egypt1.dll - 397380
+12/1/2005 9:50:16 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Egypt2.dll - 368708
+11/29/2005 12:59:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Egypt3.dll - 385092
+11/30/2005 12:58:06 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Egypt4.dll - 421956
+12/7/2005 5:45:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Egypt5.dll - 380996
+11/18/2005 12:59:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Kursk_German.dll - 290890
+11/18/2005 12:59:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Kursk_Russia.dll - 278602
+11/18/2005 12:59:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Maasai1.dll - 323653
+11/30/2005 12:58:06 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Maasai2.dll - 348229
+11/29/2005 12:59:50 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Maasai3.dll - 413765
+11/23/2005 10:09:50 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Maasai4.dll - 356421
+10/18/2005 12:01:22 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Maasai5.dll - 385093
+9/28/2005 12:36:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Milestone7.dll - 225352
+12/6/2005 1:26:32 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Rorkes_British.dll - 372812
+9/28/2005 12:36:30 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Rorkes_Zulu.dll - 327753
+10/31/2005 1:36:52 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Russian1.dll - 303174
+11/18/2005 12:59:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Russian2.dll - 344134
+11/23/2005 10:09:50 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Russian3.dll - 282694
+11/18/2005 12:59:04 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Russian4.dll - 331846
+11/23/2005 10:09:50 AM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\EE2X_Russian5.dll - 294982
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\AI\AI_default.dll - 229443
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\AI\Eco_Crown.dll - 258114
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\AI\EE2X_NativeTribes_Default.dll - 229458
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\AI\Imp_Crown.dll - 258114
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\scriptlibs_ee2x\AI\Mil_Crown.dll - 258114
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\AnimatedExplosion_Add_Add.NSB - 744
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\AnimatedExplosion_Add_Add.NSF - 1780
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\AnimatedExplosion_Add_Modulate.NSB - 749
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\AnimatedExplosion_Add_Modulate.NSF - 1847
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\AnimExpl_Add_Add_Depth.NSB - 1740
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\AnimExpl_Add_Add_Depth.NSF - 4285
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\AnimExpl_Add_Modulate_Depth.NSB - 1727
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\AnimExpl_Add_Modulate_Depth.NSF - 4313
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Blend2Textures.NSB - 3345
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Blend2Textures.NSF - 6346
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\ClothShader.NSB - 714
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\ClothShader.NSF - 1759
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Electricspark.NSB - 732
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Electricspark.NSF - 1801
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Fire_Add_Modulate_Depth.NSB - 1715
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Fire_Add_Modulate_Depth.NSF - 4212
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\FlagShader.NSB - 1041
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\FlagShader.NSF - 2572
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Font.NSB - 723
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Font.NSF - 1762
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\FontScale.NSB - 728
+2/9/2005 8:21:38 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\FontScale.NSF - 1768
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\ForceFeildRing.NSB - 1061
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\ForceFeildRing.NSF - 2573
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Grass.NSB - 2031
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Grass.NSF - 3834
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\IndexPal20.NSF - 8282
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\IndexPal20_High.NSB - 1472
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\IndexPal20_Low.NSB - 1382
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\IndexPal20_PlayerColor_High.NSB - 1094
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\IndexPal20_PlayerColor_Low.NSB - 1116
+6/28/2004 6:15:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\NSBShaderLib.nl8 - 28672
+6/28/2004 6:15:02 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\NSBShaderLib.nl9 - 28672
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\RainDropShader.NSB - 1143
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\RainDropShader.NSF - 2693
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\ShoreWave.NSB - 778
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\ShoreWave.NSF - 1982
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\ShoreWave_LOD_MEDIUM.NSB - 1283
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\ShoreWave_LOD_MEDIUM.NSF - 3426
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SkyShader.NSB - 928
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SkyShader.NSF - 2477
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SmokeTrail_1Texture.NSB - 759
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SmokeTrail_1Texture.NSF - 1775
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SmokeTrail_1Texture_Additive.NSB - 777
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SmokeTrail_1Texture_Additive.NSF - 1969
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SmokeTrail_2Textures.NSB - 1089
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SmokeTrail_2Textures.NSF - 2743
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SmokeTrail_2Textures_Additive.NSB - 1107
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\SmokeTrail_2Textures_Additive.NSF - 2834
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Smoke_1.NSB - 1054
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Smoke_1.NSF - 2579
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Smoke_2.NSB - 1022
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Smoke_2.NSF - 2510
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\WakeShader.NSB - 709
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\WakeShader.NSF - 1731
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\WaterReflection_LOD_HIGH.NSB - 2209
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\WaterReflection_LOD_HIGH.NSF - 4170
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\WaterShader.NSB - 2333
+2/9/2005 8:21:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\WaterShader.NSF - 5567
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Water_LOD_HIGH.NSB - 2511
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Water_LOD_HIGH.NSF - 5494
+2/2/2005 9:15:42 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Water_LOD_LOW.NSB - 718
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Water_LOD_LOW.NSF - 1752
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Water_LOD_MEDIUM.NSB - 1328
+2/9/2005 8:21:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\Water_LOD_MEDIUM.NSF - 2896
+6/28/2004 6:15:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\Blend2TextureWithVertexColor.vsh - 410
+10/21/2004 8:49:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\ExplAdd_Modulate_Depth.psh - 270
+1/28/2005 4:10:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\ExplAdd_Modulate_Depth.vsh - 258
+12/22/2004 8:20:22 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\ExplAdd_Modulate_Depth_AA.psh - 270
+1/28/2005 4:10:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\ExplAdd_Modulate_Depth_AA.vsh - 258
+10/21/2004 8:49:02 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\FireAdd_Modulate_Depth.psh - 247
+1/28/2005 4:10:40 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\FireAdd_Modulate_Depth.vsh - 258
+10/8/2004 10:22:54 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\GrassShader.vsh - 2914
+1/25/2005 9:53:44 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\IndexPal20_High.vsh - 4103
+1/25/2005 9:53:44 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\IndexPal20_Low.vsh - 3073
+12/22/2004 8:40:46 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\IndexPal20_PlayerColor_High.vsh - 2870
+12/22/2004 8:40:46 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\IndexPal20_PlayerColor_Low.vsh - 2870
+6/28/2004 6:15:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\WakeShader.vsh - 473
+6/28/2004 6:15:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\WaterReflection_LOD_HIGH.psh - 908
+6/28/2004 6:15:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\WaterReflection_LOD_HIGH.vsh - 1542
+6/28/2004 6:15:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\WaterShader.vsh - 322
+2/15/2005 4:39:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\Water_LOD_HIGH.psh - 1393
+1/25/2005 9:53:46 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\Water_LOD_HIGH.vsh - 1135
+1/7/2005 9:27:48 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\Water_LOD_MED.psh - 123
+1/25/2005 9:53:46 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders\vsh_psh\Water_LOD_MED.vsh - 862
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\AnimatedExplosion_Add_Add.NSF - 1780
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\AnimatedExplosion_Add_Modulate.NSF - 1847
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\AnimExpl_Add_Add_Depth.NSF - 4446
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\AnimExpl_Add_Modulate_Depth.NSF - 4479
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Blend2Textures.NSF - 6346
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ClothShader.NSF - 1759
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Electricspark.NSF - 1801
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Fire_Add_Modulate_Depth.NSF - 4212
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\FlagShader.NSF - 2572
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Font.NSF - 1762
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\FontScale.NSF - 1768
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ForceFeildRing.NSF - 2573
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Grass.NSF - 3834
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\SkyShader.NSF - 2477
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\SmokeTrail_1Texture.NSF - 1775
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\SmokeTrail_1Texture_Additive.NSF - 1969
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\SmokeTrail_2Textures.NSF - 2743
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\SmokeTrail_2Textures_Additive.NSF - 2834
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Smoke_1.NSF - 2579
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Smoke_2.NSF - 2510
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\AnimatedExplosion_Add_Add.NSB - 744
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\AnimatedExplosion_Add_Modulate.NSB - 749
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\AnimExpl_Add_Add_Depth.NSB - 1808
+9/28/2005 12:36:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\AnimExpl_Add_Modulate_Depth.NSB - 1813
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\BlackAndWhite.NSB - 725
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Blend2Textures.NSB - 3345
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\ClothShader.NSB - 714
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Electricspark.NSB - 732
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Fire_Add_Modulate_Depth.NSB - 1715
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\FlagShader.NSB - 1041
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Font.NSB - 723
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\FontScale.NSB - 728
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\ForceFeildRing.NSB - 1061
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Gaussian_4Samp.NSB - 1483
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Gaussian_6Samp.NSB - 1915
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Grass.NSB - 2031
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\HDRFinal.NSB - 1018
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\HDRGlare1.NSB - 1979
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\HDRGlare2.NSB - 1929
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\RainDropShader.NSB - 1143
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\ShoreWave.NSB - 778
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\ShoreWave_LOD_MEDIUM.NSB - 1283
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh.NSB - 1448
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh_Alt.NSB - 814
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh_HL.NSB - 2135
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh_HL_DL1.NSB - 2217
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh_HL_DL2.NSB - 2217
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh_HL_ExcessivelyBright.NSB - 2207
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh_Spec_HL.NSB - 2476
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh_Spec_HL_DL1.NSB - 2558
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinHigh_Spec_HL_DL2.NSB - 2558
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkinLow.NSB - 1302
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Skin_OutlineCast.NSB - 929
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SkyShader.NSB - 928
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SmokeTrail_1Texture.NSB - 759
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SmokeTrail_1Texture_Additive.NSB - 777
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SmokeTrail_2Textures.NSB - 1089
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\SmokeTrail_2Textures_Additive.NSB - 1107
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Smoke_1.NSB - 1054
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Smoke_2.NSB - 1022
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid.NSB - 1571
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_Alt.NSB - 596
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_HL.NSB - 2164
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_HL_DL1.NSB - 2246
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_HL_DL2.NSB - 2246
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_HL_DL3.NSB - 2246
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_HL_DL4.NSB - 2246
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_HL_ExcessivelyBright.NSB - 1989
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_OutlineCast.NSB - 808
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_Spec_HL.NSB - 2258
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_Spec_HL_DL1.NSB - 2340
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_Spec_HL_DL2.NSB - 2340
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_Spec_HL_DL3.NSB - 2340
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Solid_Spec_HL_DL4.NSB - 2340
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\WakeShader.NSB - 709
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\WaterReflection_LOD_HIGH.NSB - 2209
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\WaterShader.NSB - 2333
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Water_LOD_HIGH.NSB - 2511
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Water_LOD_LOW.NSB - 718
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Binary\Water_LOD_MEDIUM.NSB - 1328
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Documentation\SkinSolid_README.txt - 2367
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\BlackAndWhite.NSF - 1934
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\Gaussian_4Samp.NSF - 3534
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\Gaussian_6Samp.NSF - 4631
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\HDRFinal.NSF - 2980
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\HDRGlare1.NSF - 4563
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\HDRGlare2.NSF - 4548
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Pixel\BlackAndWhite.psh - 760
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Pixel\Gaussian_4Samp.psh - 1438
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Pixel\Gaussian_6Samp.psh - 2036
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Pixel\HDRFinal.psh - 884
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Pixel\HDRGlare1.psh - 1845
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Pixel\HDRGlare2.psh - 1726
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Vertex\Gaussian_4Samp.vsh - 1524
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Vertex\Gaussian_6Samp.vsh - 1729
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Vertex\HDRFinal.vsh - 1114
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ImageFilters\ShaderPrograms_Vertex\PassThrough.vsh - 925
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Pixel\ExplAdd_Modulate_Depth.psh - 663
+9/28/2005 12:36:34 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Pixel\FireAdd_Modulate_Depth.psh - 573
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Pixel\HemisphereLighting.psh - 1305
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Pixel\HemisphereLighting_Dark.psh - 1362
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Pixel\HemisphereLighting_ExcessivelyBright.psh - 1319
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Pixel\HemisphereLighting_Spec.psh - 1252
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Pixel\PassThrough_2X.psh - 385
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Vertex\Blend2TextureWithVertexColor.vsh - 410
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Vertex\ExplAdd_Modulate_Depth.vsh - 647
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Vertex\FireAdd_Modulate_Depth.vsh - 588
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\ShaderPrograms_Vertex\GrassShader.vsh - 2914
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinHigh.NSF - 2462
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinHigh_Alt.NSF - 1713
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinHigh_HL.NSF - 8467
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinHigh_HL_DL1.NSF - 4641
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinHigh_HL_DL2.NSF - 4754
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinHigh_Spec_HL.NSF - 4586
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinHigh_Spec_HL_DL1.NSF - 4958
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinHigh_Spec_HL_DL2.NSF - 5071
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\SkinLow.NSF - 2433
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\Skin_OutlineCast.NSF - 1737
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinHigh.vsh - 2942
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinHigh_Alt.vsh - 2587
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinHigh_HL.vsh - 5403
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinHigh_HL_DL1.vsh - 6471
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinHigh_HL_DL2.vsh - 7561
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinHigh_Spec_HL.vsh - 7327
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinHigh_Spec_HL_DL1.vsh - 8163
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinHigh_Spec_HL_DL2.vsh - 9253
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\SkinLow.vsh - 2955
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Skin\ShaderPrograms_Vertex\Skin_OutlineCast.vsh - 2468
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid.NSF - 3456
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_Alt.NSF - 1467
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_HL.NSF - 8449
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_HL_DL1.NSF - 4816
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_HL_DL2.NSF - 4929
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_HL_DL3.NSF - 5043
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_HL_DL4.NSF - 5154
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_OutlineCast.NSF - 1746
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_Spec_HL.NSF - 8324
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_Spec_HL_DL1.NSF - 4701
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_Spec_HL_DL2.NSF - 4814
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_Spec_HL_DL3.NSF - 4928
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\Solid_Spec_HL_DL4.NSF - 5039
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid.vsh - 2084
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_Alt.vsh - 1710
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_HL.vsh - 5068
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_HL_DL1.vsh - 6143
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_HL_DL2.vsh - 7235
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_HL_DL3.vsh - 8328
+10/17/2005 12:01:20 AM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_HL_DL4.vsh - 9418
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_OutlineCast.vsh - 236
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_Spec_HL.vsh - 6547
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_Spec_HL_DL1.vsh - 7677
+9/28/2005 12:36:36 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_Spec_HL_DL2.vsh - 8769
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_Spec_HL_DL3.vsh - 9862
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Solid\ShaderPrograms_Vertex\Solid_Spec_HL_DL4.vsh - 10952
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain.vsh - 1265
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain_DL1.vsh - 2339
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain_DL2.vsh - 3390
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain_DL3.vsh - 4273
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain_DL4.vsh - 5154
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain_DL5.vsh - 6035
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain_DL6.vsh - 6916
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain_DL7.vsh - 7797
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Terrain\ShaderPrograms_Vertex\Terrain_DL8.vsh - 8678
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\RainDropShader.NSF - 2693
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShoreWave.NSF - 1982
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShoreWave_LOD_MEDIUM.NSF - 3426
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\WakeShader.NSF - 1731
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\WaterReflection_LOD_HIGH.NSF - 4170
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\WaterShader.NSF - 5567
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\Water_LOD_HIGH.NSF - 5494
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\Water_LOD_LOW.NSF - 1752
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\Water_LOD_MEDIUM.NSF - 2896
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShaderPrograms_Pixel\WaterReflection_LOD_HIGH.psh - 908
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShaderPrograms_Pixel\Water_LOD_HIGH.psh - 1393
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShaderPrograms_Pixel\Water_LOD_MED.psh - 123
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShaderPrograms_Vertex\WakeShader.vsh - 473
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShaderPrograms_Vertex\WaterReflection_LOD_HIGH.vsh - 1542
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShaderPrograms_Vertex\WaterShader.vsh - 322
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShaderPrograms_Vertex\Water_LOD_HIGH.vsh - 1135
+9/28/2005 12:36:38 PM - ProgramFilesX86\GOG.com\Empire Earth II\shaders_ee2x\Water\ShaderPrograms_Vertex\Water_LOD_MED.vsh - 862
+11/4/2005 1:45:12 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips\db.zip - 964841
+2/26/2005 3:51:32 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips\fonts.zip - 417225
+2/26/2005 6:28:08 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips\graphics.zip - 79442466
+5/12/2005 3:24:00 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips\graphics_110.zip - 63000
+9/27/2005 2:07:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips\graphics_120.zip - 122119
+11/4/2005 8:15:22 AM - ProgramFilesX86\GOG.com\Empire Earth II\zips\hdrs.zip - 121811
+2/26/2005 3:51:14 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips\sounds.zip - 96839578
+2/26/2005 4:36:44 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips\textures.zip - 288784335
+9/29/2005 2:58:04 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips\textures_120.zip - 540793
+12/14/2005 4:18:28 PM - ProgramFilesX86\GOG.com\Empire Earth II\zips_ee2x\EE2X_db.zip - 1081084
+12/9/2005 2:32:40 AM - ProgramFilesX86\GOG.com\Empire Earth II\zips_ee2x\EE2X_fonts.zip - 417892
+12/9/2005 2:46:08 AM - ProgramFilesX86\GOG.com\Empire Earth II\zips_ee2x\EE2X_graphics.zip - 16163282
+12/9/2005 2:46:12 AM - ProgramFilesX86\GOG.com\Empire Earth II\zips_ee2x\EE2X_hdrs.zip - 132773
+12/9/2005 2:32:30 AM - ProgramFilesX86\GOG.com\Empire Earth II\zips_ee2x\EE2X_sounds.zip - 17729526
+12/9/2005 2:44:54 AM - ProgramFilesX86\GOG.com\Empire Earth II\zips_ee2x\EE2X_textures.zip - 50000298
+
+UAC Enabled
+
+
+VirtualStore Folders: 

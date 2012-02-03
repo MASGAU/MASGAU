@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console", "MASGAU.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console.Linux", "MASGAU.Console.Linux\MASGAU.Console.Linux.csproj", "{EC344FB5-3AD4-48F4-8698-C154145DA731}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations", "Translations\Translations.csproj", "{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{07E0B781-71EE-44E5-9248-1EEA161D9A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E0B781-71EE-44E5-9248-1EEA161D9A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07E0B781-71EE-44E5-9248-1EEA161D9A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,7 +93,7 @@ Global
 		{EC344FB5-3AD4-48F4-8698-C154145DA731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MASGAU.Console.Linux\MASGAU.Console.Linux.csproj
+		StartupItem = MASGAU.Analyzer.Gtk\MASGAU.Analyzer.Gtk.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = null
@@ -96,7 +102,7 @@ Global
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
-		version = 0.9
+		version = 0.10
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

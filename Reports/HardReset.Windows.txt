@@ -1,0 +1,273 @@
+Comments:
+  <game name="HardReset" platform="Windows">
+    <title>Hard Reset</title>
+    <location_path environment_variable="userdocuments" path="Hard Reset" />
+    <save filename="profiles.cfg" />
+    <save path="profiles" />
+    <contributer>%USER%</contributer>
+  </game>
+
+
+Game Name: Hard Reset
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\hardreset
+
+Save Path: 
+C:\Users\%USER%\Documents\Hard Reset
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 98400
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\hardreset
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Dec 25 3:18:36 PM - C:\Users\%USER%\Documents\Hard Reset\profiles.cfg - 25
+Dec 25 3:18:03 PM - C:\Users\%USER%\Documents\Hard Reset\cache\cache.bin - 7103252
+Dec 25 3:18:03 PM - C:\Users\%USER%\Documents\Hard Reset\cache\cache.bin.ver - 10
+Dec 25 3:22:30 PM - C:\Users\%USER%\Documents\Hard Reset\profiles\mobeeuz\binds.cfg - 1389
+Dec 25 3:22:30 PM - C:\Users\%USER%\Documents\Hard Reset\profiles\mobeeuz\config.cfg - 683
+Dec 25 3:22:30 PM - C:\Users\%USER%\Documents\Hard Reset\profiles\mobeeuz\profile.bin - 601
+Dec 25 3:18:36 PM - C:\Users\%USER%\Documents\Hard Reset\profiles\mobeeuz\profile.binb - 147
+
+Install Folder Dump: 
+Dec 24 11:07:52 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\atiags.dll - 2599920
+Dec 24 11:13:09 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\binkw32.dll - 224256
+Dec 24 11:11:05 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\D3DCompiler_43.dll - 2106216
+Dec 24 11:13:16 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\D3DX9_43.dll - 1998168
+Dec 24 11:21:10 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\fmodex.dll - 798720
+Dec 24 11:08:10 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\fmod_event.dll - 307200
+Dec 24 11:16:24 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\hardreset.exe - 6727680
+Dec 24 11:14:40 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\installscript.vdf - 562
+Dec 24 11:18:21 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\patch_notes.txt - 5912
+Dec 24 11:18:04 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\steam_api.dll - 124712
+Dec 24 11:53:52 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_10_chars.bin - 125178425
+Dec 24 11:52:45 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_10_enviro.bin - 200532993
+Dec 24 11:55:53 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_10_levels.bin - 226618239
+Dec 24 11:53:03 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_10_misc.bin - 163996957
+Dec 24 11:10:50 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_10_scripts.bin - 5843716
+Dec 24 11:09:12 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_10_shaders.bin - 489797
+Dec 24 1:07:30 PM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_10_textures.bin - 1073048317
+Dec 24 11:09:02 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_10_thumbs.bin - 7880042
+Dec 24 11:09:31 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_11_loca.bin - 15993994
+Dec 24 12:38:51 PM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_11_locb.bin - 996710997
+Dec 24 11:06:35 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_11_locc.bin - 27317
+Dec 24 11:06:44 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_12_patch_01.bin - 89261
+Dec 24 11:26:00 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_12_patch_02.bin - 23710792
+Dec 24 11:12:32 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\data_12_patch_03.bin - 3246559
+Dec 24 11:11:40 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\ambient.fsb - 4579424
+Dec 24 11:09:37 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\ambient_comp.fsb - 8465888
+Dec 24 11:38:18 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\ambient_comp_ad.fsb - 7481632
+Dec 24 11:14:20 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_biomech.fsb - 4034784
+Dec 24 11:12:40 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_bird.fsb - 2006880
+Dec 24 11:28:10 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_bird_comp_ad.fsb - 3274624
+Dec 24 11:11:44 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_boss_atlas.fsb - 2933856
+Dec 24 11:15:44 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_boss_atlas_comp.fsb - 1334368
+Dec 24 11:10:35 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_boss_atlas_pcm.fsb - 792352
+Dec 24 11:13:46 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_boss_prawn.fsb - 5754656
+Dec 24 11:10:09 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_concretemixer.fsb - 826976
+Dec 24 11:10:08 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_gorilla.fsb - 5095616
+Dec 24 11:34:43 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\character_streetcleaner.fsb - 703232
+Dec 24 11:33:26 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\footsteps.fsb - 1635392
+Dec 24 11:09:14 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\gui_sfx.fsb - 325920
+Dec 24 11:20:25 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\gui_sfx_comp.fsb - 560896
+Dec 24 11:18:13 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\level11.fsb - 187520
+Dec 24 11:18:42 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\level2_comp.fsb - 879616
+Dec 24 11:21:43 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\lowcity3.fsb - 532416
+Dec 24 11:18:10 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\lowcity3b.fsb - 419456
+Dec 24 11:18:33 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\lowcity3b_stream.fsb - 400256
+Dec 24 11:12:23 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\lowcity3_stream.fsb - 798368
+Dec 24 11:33:48 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\lowcity4.fsb - 969856
+Dec 24 11:30:30 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\lowcity4_comp.fsb - 1422944
+Dec 24 11:16:55 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\menu_machine.fsb - 713792
+Dec 24 11:17:39 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\mid3.fsb - 3066432
+Dec 24 11:09:35 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\mid3_compr.fsb - 1220896
+Dec 24 11:16:32 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\midcity1-comp.fsb - 1564224
+Dec 24 11:17:03 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\midcity1-stream.fsb - 324992
+Dec 24 11:30:01 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\midcity1.fsb - 3507744
+Dec 24 11:44:01 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\musicsys.fsb - 94800768
+Dec 24 11:54:47 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\music_stream_combat.fsb - 161218848
+Dec 24 11:12:52 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\music_stream_menu.fsb - 13325984
+Dec 24 11:09:13 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\placeable.fsb - 9975648
+Dec 24 11:15:50 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\placeable_comp.fsb - 3989184
+Dec 24 11:10:00 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\placeable_comp_ad.fsb - 7250848
+Dec 24 11:10:58 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\player.fsb - 5323104
+Dec 24 11:15:31 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\player_comp.fsb - 2961280
+Dec 24 11:14:30 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\survival_sfx_comp.fsb - 104288
+Dec 24 11:09:07 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\EN\placeableVO.fsb - 6583904
+Dec 24 11:07:51 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\data\sound\EN\VO.fsb - 4263648
+Dec 24 11:10:58 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\vcredist_x86.exe - 4216840
+Dec 24 11:07:14 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2005_d3dx9_25_x64.cab - 1347354
+Dec 24 11:11:30 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2005_d3dx9_25_x86.cab - 1078962
+Dec 24 11:10:20 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2006_d3dx9_30_x64.cab - 1397830
+Dec 24 11:35:55 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2006_d3dx9_30_x86.cab - 1115221
+Dec 24 11:09:19 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2006_MDX1_x86.cab - 916430
+Dec 24 11:12:02 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2006_MDX1_x86_Archive.cab - 4162630
+Dec 24 11:14:48 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2006_XACT_x64.cab - 179133
+Dec 24 11:11:52 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2006_XACT_x86.cab - 133103
+Dec 24 11:14:35 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2006_xinput_x64.cab - 87101
+Dec 24 11:39:00 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Apr2006_xinput_x86.cab - 46010
+Dec 24 11:22:15 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\APR2007_d3dx10_33_x64.cab - 698612
+Dec 24 11:17:54 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\APR2007_d3dx10_33_x86.cab - 695865
+Dec 24 11:18:07 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\APR2007_d3dx9_33_x64.cab - 1607358
+Dec 24 11:20:55 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\APR2007_d3dx9_33_x86.cab - 1606039
+Dec 24 11:06:56 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\APR2007_XACT_x64.cab - 195766
+Dec 24 11:16:39 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\APR2007_XACT_x86.cab - 151225
+Dec 24 11:14:57 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\APR2007_xinput_x64.cab - 96817
+Dec 24 11:08:41 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\APR2007_xinput_x86.cab - 53302
+Dec 24 11:10:04 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2005_d3dx9_27_x64.cab - 1350542
+Dec 24 11:10:41 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2005_d3dx9_27_x86.cab - 1077644
+Dec 24 11:06:52 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2006_XACT_x64.cab - 182903
+Dec 24 11:15:04 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2006_XACT_x86.cab - 137235
+Dec 24 11:28:53 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2006_xinput_x64.cab - 87142
+Dec 24 11:14:00 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2006_xinput_x86.cab - 46058
+Dec 24 11:21:26 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2007_d3dx10_35_x64.cab - 852286
+Dec 24 11:16:57 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2007_d3dx10_35_x86.cab - 796867
+Dec 24 11:16:41 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2007_d3dx9_35_x64.cab - 1800160
+Dec 24 11:07:17 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2007_d3dx9_35_x86.cab - 1708152
+Dec 24 11:13:49 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2007_XACT_x64.cab - 198096
+Dec 24 11:12:40 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\AUG2007_XACT_x86.cab - 153012
+Dec 24 11:19:12 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2008_d3dx10_39_x64.cab - 867612
+Dec 24 11:09:48 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2008_d3dx10_39_x86.cab - 849167
+Dec 24 11:13:42 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2008_d3dx9_39_x64.cab - 1794084
+Dec 24 11:07:54 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2008_d3dx9_39_x86.cab - 1464672
+Dec 24 11:16:35 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2008_XACT_x64.cab - 121772
+Dec 24 11:10:25 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2008_XACT_x86.cab - 92996
+Dec 24 11:07:16 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2008_XAudio_x64.cab - 271412
+Dec 24 11:16:49 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2008_XAudio_x86.cab - 271038
+Dec 24 11:06:53 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_D3DCompiler_42_x64.cab - 919044
+Dec 24 11:09:08 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_D3DCompiler_42_x86.cab - 900598
+Dec 24 11:17:57 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_d3dcsx_42_x64.cab - 3112111
+Dec 24 11:14:36 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_d3dcsx_42_x86.cab - 3319740
+Dec 24 11:07:28 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_d3dx10_42_x64.cab - 232635
+Dec 24 11:09:49 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_d3dx10_42_x86.cab - 192131
+Dec 24 11:21:34 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_d3dx11_42_x64.cab - 136301
+Dec 24 11:16:17 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_d3dx11_42_x86.cab - 105044
+Dec 24 11:22:02 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_d3dx9_42_x64.cab - 930116
+Dec 24 11:07:00 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_d3dx9_42_x86.cab - 728456
+Dec 24 11:22:35 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_XACT_x64.cab - 122408
+Dec 24 11:12:54 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_XACT_x86.cab - 93106
+Dec 24 11:17:26 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_XAudio_x64.cab - 273264
+Dec 24 11:38:39 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Aug2009_XAudio_x86.cab - 272642
+Dec 24 11:07:45 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Dec2005_d3dx9_28_x64.cab - 1357976
+Dec 24 11:20:09 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Dec2005_d3dx9_28_x86.cab - 1079456
+Dec 24 11:15:58 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\DEC2006_d3dx10_00_x64.cab - 212807
+Dec 24 11:14:46 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\DEC2006_d3dx10_00_x86.cab - 191720
+Dec 24 11:09:43 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\DEC2006_d3dx9_32_x64.cab - 1571154
+Dec 24 11:11:37 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\DEC2006_d3dx9_32_x86.cab - 1574376
+Dec 24 11:16:06 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\DEC2006_XACT_x64.cab - 192475
+Dec 24 11:09:20 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\DEC2006_XACT_x86.cab - 145599
+Dec 24 11:17:19 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\DSETUP.dll - 95576
+Dec 24 11:14:17 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\dsetup32.dll - 1566040
+Dec 24 11:18:16 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\dxdllreg_x86.cab - 44624
+Dec 24 11:06:41 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\DXSETUP.exe - 517976
+Dec 24 11:20:16 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\dxupdate.cab - 97152
+Dec 24 11:06:49 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2005_d3dx9_24_x64.cab - 1247499
+Dec 24 11:17:12 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2005_d3dx9_24_x86.cab - 1013225
+Dec 24 11:26:44 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2006_d3dx9_29_x64.cab - 1362796
+Dec 24 11:13:40 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2006_d3dx9_29_x86.cab - 1084720
+Dec 24 11:10:10 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2006_XACT_x64.cab - 178359
+Dec 24 11:16:44 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2006_XACT_x86.cab - 132409
+Dec 24 11:15:48 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\FEB2007_XACT_x64.cab - 194675
+Dec 24 11:14:41 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\FEB2007_XACT_x86.cab - 147983
+Dec 24 11:09:55 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2010_X3DAudio_x64.cab - 54678
+Dec 24 11:16:37 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2010_X3DAudio_x86.cab - 20713
+Dec 24 11:12:33 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2010_XACT_x64.cab - 122446
+Dec 24 11:08:29 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2010_XACT_x86.cab - 93180
+Dec 24 11:12:19 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2010_XAudio_x64.cab - 276960
+Dec 24 11:38:50 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Feb2010_XAudio_x86.cab - 277191
+Dec 24 11:08:38 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2005_d3dx9_26_x64.cab - 1336002
+Dec 24 11:10:25 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2005_d3dx9_26_x86.cab - 1064925
+Dec 24 11:07:37 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2006_XACT_x64.cab - 180785
+Dec 24 11:14:41 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2006_XACT_x86.cab - 133671
+Dec 24 11:07:05 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2007_d3dx10_34_x64.cab - 699044
+Dec 24 11:32:53 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2007_d3dx10_34_x86.cab - 698472
+Dec 24 11:31:05 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2007_d3dx9_34_x64.cab - 1607774
+Dec 24 11:28:45 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2007_d3dx9_34_x86.cab - 1607286
+Dec 24 11:10:20 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2007_XACT_x64.cab - 197122
+Dec 24 11:09:22 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2007_XACT_x86.cab - 152909
+Dec 24 11:12:38 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_d3dx10_38_x64.cab - 867828
+Dec 24 11:22:31 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_d3dx10_38_x86.cab - 849919
+Dec 24 11:32:25 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_d3dx9_38_x64.cab - 1792608
+Dec 24 11:17:54 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_d3dx9_38_x86.cab - 1463878
+Dec 24 11:09:38 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_X3DAudio_x64.cab - 55154
+Dec 24 11:14:32 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_X3DAudio_x86.cab - 21905
+Dec 24 11:06:35 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_XACT_x64.cab - 121054
+Dec 24 11:11:58 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_XACT_x86.cab - 93128
+Dec 24 11:08:59 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_XAudio_x64.cab - 269628
+Dec 24 11:19:04 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\JUN2008_XAudio_x86.cab - 269024
+Dec 24 11:35:12 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_D3DCompiler_43_x64.cab - 944460
+Dec 24 11:14:48 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_D3DCompiler_43_x86.cab - 931471
+Dec 24 11:27:08 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_d3dcsx_43_x64.cab - 752783
+Dec 24 11:11:53 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_d3dcsx_43_x86.cab - 762188
+Dec 24 11:18:49 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_d3dx10_43_x64.cab - 235955
+Dec 24 11:13:51 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_d3dx10_43_x86.cab - 197283
+Dec 24 11:12:23 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_d3dx11_43_x64.cab - 138205
+Dec 24 11:15:15 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_d3dx11_43_x86.cab - 109445
+Dec 24 11:08:41 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_d3dx9_43_x64.cab - 937246
+Dec 24 11:10:55 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_d3dx9_43_x86.cab - 768036
+Dec 24 11:16:59 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_XACT_x64.cab - 124596
+Dec 24 11:14:36 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_XACT_x86.cab - 93686
+Dec 24 11:27:20 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_XAudio_x64.cab - 277338
+Dec 24 11:16:02 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Jun2010_XAudio_x86.cab - 278060
+Dec 24 11:13:09 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_d3dx10_37_x64.cab - 844884
+Dec 24 11:12:11 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_d3dx10_37_x86.cab - 818260
+Dec 24 11:14:30 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_d3dx9_37_x64.cab - 1769862
+Dec 24 11:12:07 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_d3dx9_37_x86.cab - 1443282
+Dec 24 11:07:28 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_X3DAudio_x64.cab - 55058
+Dec 24 11:11:02 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_X3DAudio_x86.cab - 21867
+Dec 24 11:26:10 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_XACT_x64.cab - 122336
+Dec 24 11:08:19 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_XACT_x86.cab - 93734
+Dec 24 11:16:57 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_XAudio_x64.cab - 251194
+Dec 24 11:09:44 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2008_XAudio_x86.cab - 226250
+Dec 24 11:17:40 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_d3dx10_41_x64.cab - 1067160
+Dec 24 11:06:51 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_d3dx10_41_x86.cab - 1040745
+Dec 24 11:31:50 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_d3dx9_41_x64.cab - 1973702
+Dec 24 11:16:31 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_d3dx9_41_x86.cab - 1612446
+Dec 24 11:16:37 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_X3DAudio_x64.cab - 54600
+Dec 24 11:15:53 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_X3DAudio_x86.cab - 21298
+Dec 24 11:13:14 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_XACT_x64.cab - 121506
+Dec 24 11:13:51 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_XACT_x86.cab - 92740
+Dec 24 11:11:44 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_XAudio_x64.cab - 275044
+Dec 24 11:16:09 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Mar2009_XAudio_x86.cab - 273018
+Dec 24 11:08:07 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2007_d3dx10_36_x64.cab - 864600
+Dec 24 11:09:07 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2007_d3dx10_36_x86.cab - 803884
+Dec 24 11:12:58 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2007_d3dx9_36_x64.cab - 1802058
+Dec 24 11:17:17 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2007_d3dx9_36_x86.cab - 1709360
+Dec 24 11:08:51 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\NOV2007_X3DAudio_x64.cab - 46144
+Dec 24 11:15:42 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\NOV2007_X3DAudio_x86.cab - 18496
+Dec 24 11:35:31 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\NOV2007_XACT_x64.cab - 196762
+Dec 24 11:18:05 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\NOV2007_XACT_x86.cab - 148264
+Dec 24 11:11:15 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_d3dx10_40_x64.cab - 994154
+Dec 24 11:11:46 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_d3dx10_40_x86.cab - 965421
+Dec 24 11:12:15 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_d3dx9_40_x64.cab - 1906878
+Dec 24 11:34:22 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_d3dx9_40_x86.cab - 1550796
+Dec 24 11:14:24 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_X3DAudio_x64.cab - 54522
+Dec 24 11:35:22 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_X3DAudio_x86.cab - 21851
+Dec 24 11:32:36 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_XACT_x64.cab - 121794
+Dec 24 11:14:46 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_XACT_x86.cab - 92684
+Dec 24 11:12:49 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_XAudio_x64.cab - 273960
+Dec 24 11:38:29 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Nov2008_XAudio_x86.cab - 272611
+Dec 24 11:34:51 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Oct2005_xinput_x64.cab - 86037
+Dec 24 11:09:55 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\Oct2005_xinput_x86.cab - 45359
+Dec 24 11:07:14 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\OCT2006_d3dx9_31_x64.cab - 1412902
+Dec 24 11:19:36 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\OCT2006_d3dx9_31_x86.cab - 1127217
+Dec 24 11:15:54 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\OCT2006_XACT_x64.cab - 182361
+Dec 24 11:09:31 AM - C:\Program Files (x86)\Steam\steamapps\common\hardreset\redist\directx\OCT2006_XACT_x86.cab - 138017
+
+UAC Disabled or not present
+

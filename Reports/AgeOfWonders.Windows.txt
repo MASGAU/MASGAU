@@ -1,0 +1,1106 @@
+Game Name: Age of Wonders
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Age of Wonders
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Age of Wonders
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AoW.exe
+Value: Path
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AoW.exe
+Value: 
+Data: 9/6/2010 1:03:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoW.exe - 2127872
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{CB219321-4898-4FA8-94E8-1846F2404324}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{CB219321-4898-4FA8-94E8-1846F2404324}
+Value: ConfigGDFBinaryPath
+Data: 9/30/2010 12:44:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\goggame.dll - 241152
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{2B9DE22B-BE67-43B5-BF29-0E946F29060E}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{2B9DE22B-BE67-43B5-BF29-0E946F29060E}
+Value: AppExePath
+Data: 9/6/2010 1:03:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoW.exe - 2127872
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGAOM1
+Value: EXE
+Data: 9/14/2010 4:13:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Launcher.exe - 65536
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGAOM1
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGAOM1
+Value: LAUNCHCOMMAND
+Data: 9/14/2010 4:13:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Launcher.exe - 65536
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGAOM1
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Age of Wonders
+Value: UninstallString
+Data: 12/24/2011 1:29:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Age of Wonders_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Age of Wonders_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\AoW.exe
+Value: Path
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\AoW.exe
+Value: 
+Data: 9/6/2010 1:03:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoW.exe - 2127872
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Triumph Studios\Age of Wonders\General
+Value: Root Directory
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_CURRENT_USER\Software\Triumph Studios\Age of Wonders\General
+Value: Startup Directory
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWARE\Wow6432Node\Microsoft\DirectPlay\Applications\Age Of Wonders
+Value: Path
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Key:HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWARE\Wow6432Node\Microsoft\DirectPlay\Applications\Age Of Wonders
+Value: CurrentDirectory
+Data: ProgramFilesX86\GOG.com\Age of Wonders
+
+Detected Start Menu Shortcuts: 
+12/24/2011 1:29:50 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Age of Wonders\Age of Wonders.lnk - 2127
+9/14/2010 4:13:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Launcher.exe - 65536
+12/24/2011 1:29:49 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Age of Wonders\Config.lnk - 1201
+9/6/2010 1:04:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoWSetup.exe - 1090560
+12/24/2011 1:29:49 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Age of Wonders\Editor.lnk - 1182
+9/6/2010 1:04:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoWEd.exe - 898048
+12/24/2011 1:29:50 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Age of Wonders\Uninstall Age of Wonders.lnk - 1107
+12/24/2011 1:29:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\unins000.exe - 2142547
+12/24/2011 1:29:48 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Age of Wonders\Documents\Quickplay Guide.lnk - 1217
+9/6/2010 1:04:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\QuickStart.pdf - 681071
+12/24/2011 1:29:48 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Age of Wonders\Documents\Readme.lnk - 1195
+9/14/2010 4:11:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Readme.txt - 25920
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+12/24/2011 1:49:52 PM - VirtualStore\Program Files (x86)\GOG.com\Age of Wonders\Save\After the Fall.asg - 96913
+12/24/2011 1:51:15 PM - VirtualStore\Program Files (x86)\GOG.com\Age of Wonders\Save\After the Fsadadall.acg - 83494
+12/24/2011 1:51:01 PM - VirtualStore\Program Files (x86)\GOG.com\Age of Wonders\Save\autosave.acg - 82645
+12/24/2011 1:49:37 PM - VirtualStore\Program Files (x86)\GOG.com\Age of Wonders\Save\autosave.asg - 94564
+
+Install Folder Dump: 
+9/6/2010 1:03:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\AbilityP.dpl - 39424
+9/6/2010 1:03:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Adcpack.dpl - 22016
+9/6/2010 1:03:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Age of Wonders.ico - 766
+9/6/2010 1:03:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoW.exe - 2127872
+9/6/2010 1:04:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoWCompat.exe - 2127872
+9/6/2010 1:05:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\aowDPlay.dpl - 41472
+9/6/2010 1:04:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoWEd.exe - 898048
+9/30/2010 12:38:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoWEPACK.dpl - 2785792
+9/6/2010 1:05:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\aowFXpck.dpl - 17920
+9/6/2010 1:05:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\aowInt.dpl - 311808
+9/6/2010 1:04:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoWInterface.dpl - 301056
+9/6/2010 1:04:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoWSetup.exe - 1090560
+9/6/2010 1:04:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\AoWTCPCK.dpl - 549376
+9/6/2010 1:03:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\AOWTools.dpl - 79360
+9/6/2010 1:04:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Dcpack.dpl - 90624
+9/6/2010 1:04:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Enginep.dpl - 273408
+9/6/2010 1:04:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Galaxy.dll - 373760
+9/8/2010 1:55:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\gfw_high.ico - 125190
+9/6/2010 1:04:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Gfxepack.dpl - 107008
+9/30/2010 12:44:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\goggame.dll - 241152
+9/6/2010 1:04:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\HSEPack.dpl - 295424
+9/6/2010 1:04:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\IBEVNT30.DPL - 33736
+9/6/2010 1:04:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Ilpack.dpl - 279040
+9/6/2010 1:04:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\ILToolsP.dpl - 58880
+9/6/2010 1:05:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\ims.dpl - 251904
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\innosetup_license.txt - 1471
+9/14/2010 4:13:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Launcher.exe - 65536
+9/6/2010 1:04:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Localize.dpl - 467456
+9/6/2010 1:04:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Network.dpl - 46592
+9/6/2010 1:04:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\QRPT30.DPL - 384456
+9/6/2010 1:04:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\QuickStart.pdf - 681071
+9/14/2010 4:11:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Readme.txt - 25920
+9/6/2010 1:04:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\SoundP.dpl - 84480
+9/6/2010 1:04:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Start.wav - 705646
+9/6/2010 1:05:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\startbtn.WAV - 5832
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Support.ico - 62895
+9/6/2010 1:04:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\TEE30.DPL - 316864
+9/6/2010 1:04:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\TEEDB30.DPL - 51144
+9/6/2010 1:04:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\TEEUI30.DPL - 294336
+12/24/2011 1:29:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\unins000.dat - 142450
+12/24/2011 1:29:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\unins000.exe - 2142547
+12/24/2011 1:29:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\unins000.ini - 62
+9/6/2010 1:05:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\vcl30.dpl - 1287088
+9/6/2010 1:05:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Vcladdon.dpl - 122880
+9/6/2010 1:05:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\VCLDB30.DPL - 633280
+9/6/2010 1:05:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\VCLDBX30.DPL - 77256
+9/6/2010 1:05:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\VCLSMP30.DPL - 59328
+9/6/2010 1:05:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\VCLX30.DPL - 219584
+9/6/2010 1:05:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\VideoP.dpl - 29184
+9/6/2010 1:05:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Dict\AoW.mld - 158496
+9/6/2010 1:05:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Dict\AoWEd.mld - 71263
+9/6/2010 1:05:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Dict\AoWSetup.mld - 6273
+9/6/2010 1:05:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Dict\Campaign.mld - 537333
+9/6/2010 1:05:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Dict\CampMaps.mld - 76650
+9/6/2010 1:05:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Dict\CustMaps.mld - 217525
+9/6/2010 1:05:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Dict\Release.mld - 675357
+9/7/2010 10:24:30 AM - ProgramFilesX86\GOG.com\Age of Wonders\Dict\ResStr.mld - 114531
+9/6/2010 1:05:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\EDIMAGES\Splash.BMP - 265014
+9/6/2010 1:05:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\AMShell.ILB - 82780
+9/6/2010 1:05:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_death.ILB - 29924
+9/6/2010 1:05:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_deathA.ILB - 12912
+9/6/2010 1:05:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_FIRE.ILB - 180132
+9/6/2010 1:05:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_ICE.ILB - 134049
+9/6/2010 1:05:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_lghtn.ILB - 15062
+9/6/2010 1:05:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_lghtnA.ILB - 2172
+9/6/2010 1:05:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_LIFE.ILB - 195304
+9/6/2010 1:05:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_pest.ILB - 16004
+9/6/2010 1:05:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\A_pestAn.ILB - 66280
+9/6/2010 1:05:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\BORDER.ILB - 2159675
+9/6/2010 1:05:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\City1.ILB - 28654
+9/6/2010 1:06:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\City2.ILB - 55446
+9/6/2010 1:06:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\City3.ILB - 72642
+9/6/2010 1:06:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\City4.ILB - 89402
+9/6/2010 1:06:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Combat.ILB - 358723
+9/6/2010 1:06:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Cursors.ilb - 94336
+9/6/2010 1:06:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Demo.ILB - 1843478
+9/6/2010 1:06:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\EARTHHEX.ILB - 68446
+9/6/2010 1:06:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Epl_cas2.ILB - 61922
+9/6/2010 1:06:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Epl_casr.ILB - 28168
+9/6/2010 1:06:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Epl_dng2.ILB - 163052
+9/6/2010 1:06:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\EPL_DUNG.ILB - 21664
+9/6/2010 1:06:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\EPL_MONS.ILB - 24010
+9/6/2010 1:06:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\EPL_PMID.ILB - 52940
+9/6/2010 1:06:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Epl_zig.ILB - 100883
+9/6/2010 1:06:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\FHOLE.ILB - 120202
+9/6/2010 1:06:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Flags.ilb - 27747
+9/6/2010 1:06:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\General.ilb - 281247
+9/6/2010 1:06:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\GNDUHOLY.ILB - 131324
+9/6/2010 1:06:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\GND_HOLY.ILB - 114608
+9/6/2010 1:06:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\GND_POIS.ILB - 35144
+9/6/2010 1:06:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\HEXTRANS.ILB - 144906
+9/6/2010 1:06:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\IceHex.ILB - 204314
+9/6/2010 1:06:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\MG_BLK.ILB - 23324
+9/6/2010 1:06:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\MG_CHA.ILB - 36992
+9/6/2010 1:06:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\MG_NAT.ILB - 8948
+9/6/2010 1:06:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\MG_SOR.ILB - 33628
+9/6/2010 1:06:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\MG_WHT.ILB - 7040
+9/6/2010 1:06:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Misc_Obj.ILB - 159812
+9/6/2010 1:06:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\PAD1.ILB - 22050
+9/6/2010 1:06:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\PAD2.ILB - 41438
+9/6/2010 1:06:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\PAD3.ILB - 59622
+9/6/2010 1:06:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\PAD4.ILB - 73462
+9/6/2010 1:06:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Pro_Drgn.ILB - 40752
+9/6/2010 1:06:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Pro_Fire.ILB - 37972
+9/6/2010 1:06:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\PRO_GATE.ILB - 197438
+9/6/2010 1:06:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\PRO_GROV.ILB - 62500
+9/6/2010 1:06:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Pro_syrd.ILB - 25154
+9/6/2010 1:06:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\ROCKHEX.ILB - 68390
+9/6/2010 1:06:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\SMOKE.ILB - 455328
+9/6/2010 1:07:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\SpellIcn.ILB - 588100
+9/6/2010 1:07:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_amgic.ILB - 39511
+9/6/2010 1:07:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_aren.ILB - 17352
+9/6/2010 1:07:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_bldg.ILB - 22456
+9/6/2010 1:07:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_blds.ILB - 25164
+9/6/2010 1:07:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_cave.ILB - 29314
+9/6/2010 1:07:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_elvc.ILB - 20872
+9/6/2010 1:06:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\STR_FARM.ILB - 25252
+9/6/2010 1:07:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_inn.ILB - 17814
+9/6/2010 1:07:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_mage.ILB - 6806
+9/6/2010 1:07:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_mine.ILB - 44550
+9/6/2010 1:07:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_node.ILB - 1628750
+9/6/2010 1:07:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_nrck.ILB - 48434
+9/6/2010 1:07:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_pod.ILB - 129352
+9/6/2010 1:07:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_rf.ILB - 15592
+9/6/2010 1:07:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_sant.ILB - 115718
+9/6/2010 1:07:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_signs.ILB - 11036
+9/6/2010 1:06:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\STR_SOL.ILB - 100314
+9/6/2010 1:06:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\STR_TELE.ILB - 36896
+9/6/2010 1:07:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_towr.ILB - 15593
+9/6/2010 1:07:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Str_wtwr.ILB - 159218
+9/6/2010 1:07:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Targhex.ILB - 3907
+9/6/2010 1:07:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\tcunits.ILB - 78782
+9/6/2010 1:07:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UShadow.ILB - 23722
+9/6/2010 1:07:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\WaterAnm.ILB - 101180
+9/6/2010 1:07:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Waterhex.ILB - 203850
+11/20/1997 3:59:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\AGE_EDIT.SET - 4
+6/3/1998 6:34:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\Destr.ILB - 256242
+10/15/1999 3:09:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\Enchant.ILB - 636791
+6/3/1998 11:04:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\ExplBig.ILB - 2060832
+11/20/1997 9:17:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\ExplSmll.ILB - 113711
+6/4/1998 11:27:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\ExplTC.ILB - 814994
+11/22/1997 3:10:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\FireLg.ILB - 125220
+11/22/1997 3:10:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\FireSm.ILB - 22628
+7/20/1999 4:41:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\FireSm2.ILB - 7426
+10/10/1999 1:22:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\Lightn.ILB - 377479
+10/19/1999 7:18:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\Magic.ILB - 1224074
+6/3/1998 8:39:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\MSparks.ILB - 417746
+10/19/1999 7:10:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\Particle.ILB - 19278
+6/17/1998 12:44:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\PoisnCld.ILB - 772846
+3/6/1998 12:31:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\RAZRAC.ILB - 164689
+5/10/1999 3:08:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\SolarFl.ilb - 75856
+6/15/1998 7:57:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\Storm1.ILB - 3949228
+6/9/1998 4:38:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\StormD.ILB - 3981388
+6/15/1998 7:07:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\StormLgt.ILB - 3217894
+10/1/1999 2:46:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\Swarm.ILB - 21950
+4/27/1999 11:45:38 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\Swrath.ILB - 606327
+2/16/1999 2:01:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Effects\TwinkGr.ILB - 463265
+8/30/1999 11:04:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Faces\H_Faces.ILB - 1745793
+10/28/1999 2:51:44 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Faces\L_Faces.ILB - 687682
+10/24/1998 3:36:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Faces\R_Faces.ILB - 317369
+10/13/1999 12:44:26 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Faces\UNITS.ILB - 2406567
+8/2/1999 8:46:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Items\I_Attack.ILB - 42550
+8/4/1999 4:52:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Items\I_Body.ILB - 62612
+8/4/1999 4:12:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Items\I_Defend.ILB - 33716
+8/3/1999 1:43:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Items\I_Head.ILB - 40334
+8/2/1999 9:02:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Items\I_Rings.ILB - 11918
+8/4/1999 4:11:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Items\I_Scroll.ILB - 22944
+8/4/1999 4:12:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Items\I_Use.ILB - 16116
+4/8/1999 8:29:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Mountain\MOUNTAIN.ILB - 267390
+11/28/1997 10:34:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Mountain\WL_VOLCL.ILB - 253252
+11/28/1997 10:34:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Mountain\WL_VOLCS.ILB - 118652
+3/18/1999 10:50:26 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RAZRAC.ILB - 166609
+3/18/1999 10:50:40 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RDARKELF.ILB - 174239
+3/18/1999 10:50:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RDWARF.ILB - 169714
+3/18/1999 10:51:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RELF.ILB - 171710
+3/18/1999 10:51:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RFROSTL.ILB - 169796
+3/18/1999 10:51:22 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RGOBLIN.ILB - 178996
+3/18/1999 11:10:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RHALFLNG.ILB - 172931
+3/18/1999 11:10:36 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RHIGHMAN.ILB - 177161
+3/18/1999 11:10:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RHUMAN.ILB - 115638
+3/18/1999 11:11:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RLIZARDS.ILB - 182220
+3/18/1999 11:11:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RORC.ILB - 173078
+3/18/1999 11:11:34 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Races\RUNDEAD.ILB - 181799
+10/24/1999 12:36:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\Scenes\Intro.avi - 94386300
+6/29/1998 1:01:36 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\FleeObj.ILB - 9348
+9/19/1999 4:01:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Misc.ILB - 94172
+10/21/1998 5:53:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\TCAnim.ILB - 840673
+6/9/1998 5:09:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\treeshdw.ILB - 5360
+9/14/1999 12:22:40 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\CTransHx.ILB - 157440
+9/30/1998 3:56:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_De.ILB - 30980
+9/30/1998 5:09:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_DeDr.ILB - 41877
+10/28/1998 4:13:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_Dr.ILB - 30980
+10/22/1998 10:57:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_Earth.ILB - 100949
+11/24/1998 12:00:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_Gr.ILB - 31000
+9/13/1998 2:07:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_GrDr.ILB - 48933
+10/28/1998 1:32:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_Ic.ILB - 30980
+2/4/1999 4:26:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_La.ILB - 31004
+10/28/1998 4:14:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_Sn.ILB - 30992
+9/30/1998 5:20:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_SnDr.ILB - 41877
+10/28/1998 4:14:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_St.ILB - 30980
+10/23/1998 2:39:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_StDr.ILB - 41877
+10/28/1998 4:16:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_ugIc.ILB - 31004
+10/28/1998 4:15:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_ugWa.ILB - 31004
+10/28/1998 4:15:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_Wa.ILB - 30980
+10/28/1998 4:15:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_Wl.ILB - 30980
+9/15/1998 2:43:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Base_hex\H_WlDr.ILB - 42068
+9/15/1998 2:10:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\cgr_wpad.ILB - 63144
+9/13/1998 5:44:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\c_Gen1.ILB - 35114
+9/12/1998 8:51:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\c_Swall1.ILB - 124000
+9/15/1998 1:17:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\c_Swall2.ILB - 124008
+9/15/1998 2:09:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\c_Swall3.ILB - 124008
+8/28/1999 11:11:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\c_tile.ILB - 67205
+9/13/1998 9:48:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\c_Wwall1.ILB - 124108
+9/22/1998 2:15:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\c_Wwall2.ILB - 124156
+9/22/1998 2:17:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\c_Wwall3.ILB - 124156
+10/7/1999 11:30:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Azr.ILB - 110504
+9/12/1999 10:03:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_DElf.ILB - 64732
+9/14/1999 1:16:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Dwrf.ILB - 65252
+7/7/1999 6:26:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Elf.ILB - 64724
+10/21/1998 11:11:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Evil.ILB - 98791
+9/14/1999 4:46:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Frost.ILB - 108612
+10/20/1998 1:43:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Gen.ILB - 83912
+6/15/1999 2:35:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Gob.ILB - 104768
+9/14/1999 1:15:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Half.ILB - 64940
+10/15/1999 11:15:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_High.ILB - 62532
+10/20/1998 1:47:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Humn.ILB - 63696
+9/12/1999 9:36:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Liz.ILB - 115332
+10/20/1998 1:49:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Neutr.ILB - 99072
+10/4/1999 10:29:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Neutr2.ILB - 98960
+9/15/1999 2:18:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Orc.ILB - 100864
+10/4/1999 10:30:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\City\zc_Und.ILB - 63028
+9/30/1998 5:22:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_bone.ILB - 14082
+9/30/1998 3:51:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_brk.ILB - 39715
+9/30/1998 3:52:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_cact.ILB - 15506
+11/25/1998 2:56:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_crops.ILB - 5822
+9/30/1998 9:08:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_dtree.ILB - 15330
+9/30/1998 3:52:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_hill.ILB - 30834
+9/30/1998 3:53:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_srk.ILB - 12039
+9/30/1998 3:53:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_ston.ILB - 8556
+9/30/1998 6:36:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\De\zde_tree.ILB - 20284
+10/13/1998 4:10:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\cr_floor.ILB - 25866
+10/15/1998 8:44:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\cr_obj.ILB - 83244
+10/15/1998 9:26:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\cr_wall.ILB - 146620
+12/10/1998 11:30:24 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\drk_floor.ILB - 25876
+12/10/1998 12:12:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\drk_obj.ILB - 56791
+12/9/1998 1:53:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\drk_wall.ILB - 146062
+12/11/1998 1:37:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\dung_obj.ILB - 56944
+12/8/1998 2:28:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\ml_wall.ILB - 35008
+10/15/1998 4:08:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\Torch.ILB - 100278
+1/18/1999 5:26:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\zig_floor.ILB - 25866
+1/18/1999 5:26:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\zig_obj.ILB - 52065
+1/18/1999 8:29:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Expl\zig_wall.ILB - 151286
+9/13/1998 2:31:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_bone.ILB - 15026
+9/21/1998 8:45:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_brk.ILB - 39715
+6/19/1998 4:55:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_brkS.ILB - 12554
+11/25/1998 2:54:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_crop.ILB - 14037
+9/13/1998 10:33:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_dtree.ILB - 15722
+11/24/1998 1:45:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_flwr.ILB - 24424
+11/23/1998 9:35:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_hill.ILB - 30838
+9/23/1998 4:01:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_Pine.ILB - 19009
+9/30/1998 6:26:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_shdw.ILB - 65959
+11/23/1998 9:35:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_shrb.ILB - 16568
+9/21/1998 7:09:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_srk.ILB - 12039
+9/22/1998 2:40:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_srkS.ILB - 4478
+9/21/1998 7:09:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_ston.ILB - 8504
+9/13/1998 3:12:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_toad.ILB - 17037
+11/24/1998 11:59:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_Tre.ILB - 23180
+7/2/1998 7:25:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_TreS.ILB - 7120
+11/24/1998 1:45:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Gr\zgr_Wllw.ILB - 15135
+7/22/1999 8:08:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\Arrow.ILB - 112352
+9/18/1999 10:54:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\Balls.ILB - 21718
+8/12/1998 7:48:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\BFBig1.ILB - 23674
+7/1/1998 2:10:42 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\BFMed1.ILB - 7630
+7/1/1998 2:10:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\BFSml1.ILB - 8138
+10/23/1998 3:57:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\BHBig1.ILB - 49590
+10/23/1998 3:55:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\BHMed1.ILB - 14925
+10/23/1998 3:51:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\BHSml1.ILB - 7103
+2/12/1999 5:42:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\Bolts.ILB - 284352
+8/4/1998 3:10:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\GndBlood.ILB - 7370
+2/16/1999 3:44:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\SEffect.ILB - 517736
+7/11/1998 9:33:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Objects\TCUIcon.ILB - 4413
+9/29/1998 3:20:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_bone.ILB - 15026
+9/23/1998 3:11:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_brk.ILB - 40483
+11/25/1998 2:58:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_crops.ILB - 6038
+9/23/1998 6:06:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_dtree.ILB - 15722
+9/23/1998 3:12:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_hill.ILB - 30834
+10/23/1998 2:40:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_lveg.ILB - 19162
+9/23/1998 6:04:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_pine.ILB - 18592
+9/23/1998 4:01:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_shrb.ILB - 18131
+9/23/1998 3:11:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_srk.ILB - 13391
+9/23/1998 3:30:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Sn\zsn_ston.ILB - 9668
+10/1/1998 4:15:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_bone.ILB - 16282
+10/1/1998 2:53:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_brk.ILB - 41631
+11/25/1998 2:59:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_crops.ILB - 5822
+10/1/1998 4:15:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_dtree.ILB - 15712
+10/1/1998 4:14:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_hill.ILB - 30838
+10/1/1998 6:40:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_lveg.ILB - 12358
+10/1/1998 5:13:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_shrb.ILB - 17994
+10/1/1998 2:54:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_srk.ILB - 13327
+10/1/1998 2:57:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_ston.ILB - 9166
+10/1/1998 4:13:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\St\zst_tree.ILB - 19606
+9/12/1999 2:21:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Struct\zs_bg.ILB - 41016
+9/13/1999 6:32:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Struct\zs_brdge.ILB - 392408
+3/17/1999 12:32:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Struct\zs_fhole.ILB - 45130
+10/30/1998 12:39:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Struct\zs_firpit.ILB - 53060
+10/22/1998 11:42:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Struct\zs_grove.ILB - 42737
+10/30/1998 4:31:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Struct\zs_inn.ILB - 51780
+10/27/1998 4:29:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Struct\zs_mine.ILB - 112568
+9/12/1999 10:48:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Struct\zs_water.ilb - 192192
+10/26/1998 3:06:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Ug\zug_bone.ILB - 13746
+10/26/1998 3:02:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Ug\zug_brk.ILB - 37075
+10/26/1998 3:21:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Ug\zug_crop.ILB - 11642
+10/26/1998 3:05:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Ug\zug_grave.ILB - 12672
+10/26/1998 3:05:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Ug\zug_lveg.ILB - 19386
+10/26/1998 3:06:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Ug\zug_srk.ILB - 11879
+10/26/1998 3:04:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Ug\zug_ston.ILB - 8504
+10/26/1998 3:24:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Ug\zug_toad.ILB - 10074
+10/21/1998 9:42:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_bone.ILB - 13882
+10/21/1998 6:58:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_brk.ILB - 42015
+10/2/1998 5:54:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_dtree.ILB - 15330
+10/21/1998 9:32:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_grave.ILB - 12744
+10/21/1998 6:59:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_hill.ILB - 30838
+10/21/1998 9:32:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_lveg.ILB - 18810
+10/21/1998 9:33:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_shrb.ILB - 18610
+10/2/1998 5:56:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_srk.ILB - 12207
+10/21/1998 9:33:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_ston.ILB - 9934
+10/21/1998 6:57:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\TCombat\Wl\zwl_tree.ILB - 21550
+10/22/1999 11:08:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\DeadUnit.ILB - 495989
+7/3/1998 1:43:36 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UShadow.ILB - 50759
+11/28/1997 10:32:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Animals\BOARY.ILB - 53713
+11/28/1997 10:32:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Animals\EAGLE.ILB - 65252
+11/28/1997 10:32:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Animals\FROGY.ILB - 60959
+11/28/1997 10:32:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Animals\WOLFY.ILB - 46554
+11/28/1997 10:32:24 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\ARZLD.ILB - 53331
+11/28/1997 10:32:18 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\AZRAR.ILB - 42789
+11/28/1997 10:32:18 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\AZRAV.ILB - 61840
+11/28/1997 10:32:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\AZRCL.ILB - 47180
+11/28/1997 10:32:24 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\AZRHE.ILB - 75059
+11/28/1997 10:32:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\AZRHR.ILB - 74059
+11/28/1997 10:32:26 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\AZRHX.ILB - 81102
+11/28/1997 10:32:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\AZRWR.ILB - 45517
+11/28/1997 10:32:22 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\BHLDR.ILB - 103938
+11/28/1997 10:32:22 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\DJINN.ILB - 54355
+11/28/1997 10:32:24 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\ELEPH.ILB - 84420
+11/28/1997 10:32:26 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\SCORP.ILB - 49993
+11/28/1997 10:32:26 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Azr\WORMY.ILB - 57484
+11/28/1997 10:32:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfar.ILB - 42797
+11/28/1997 10:32:54 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfcl.ILB - 47371
+11/28/1997 10:32:54 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfex.ILB - 79689
+11/28/1997 10:32:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfhe.ILB - 76523
+11/28/1997 10:32:56 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfhr.ILB - 79584
+11/28/1997 10:32:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfhx.ILB - 85224
+7/3/1998 12:58:48 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfin.ILB - 93662
+11/28/1997 10:32:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfld.ILB - 52473
+9/25/1999 10:12:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlflp.ILB - 49308
+7/3/1998 12:32:48 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfsh.ILB - 91918
+11/28/1997 10:32:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfsq.ILB - 55533
+11/28/1997 10:32:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dlf\dlfwr.ILB - 46598
+11/28/1997 10:33:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrar.ILB - 42680
+11/28/1997 10:33:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwras.ILB - 38307
+11/28/1997 10:33:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrbr.ILB - 71277
+11/28/1997 10:33:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrbz.ILB - 47145
+11/28/1997 10:33:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrcl.ILB - 49102
+11/28/1997 10:33:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrfb.ILB - 56040
+11/28/1997 10:33:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrhe.ILB - 72365
+11/28/1997 10:33:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrhx.ILB - 77894
+11/28/1997 10:33:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrld.ILB - 48705
+9/14/1999 11:29:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\Dwrmo.ILB - 113917
+11/28/1997 10:33:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\dwrwr.ILB - 43150
+11/28/1997 10:33:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Dwr\giant.ILB - 74492
+7/3/1998 12:58:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Element\elmar.ILB - 211882
+11/28/1997 10:33:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Element\elmer.ILB - 68563
+7/3/1998 1:35:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Element\elmfr.ILB - 102172
+7/3/1998 1:34:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Element\elmwt.ILB - 169374
+11/28/1997 10:33:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\elvar.ILB - 43674
+11/28/1997 10:33:18 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\elvcl.ILB - 48850
+11/28/1997 10:33:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\elvhe.ILB - 75971
+11/28/1997 10:33:18 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\elvhr.ILB - 75959
+11/28/1997 10:33:14 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\elvhx.ILB - 84179
+11/28/1997 10:33:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\elvld.ILB - 53512
+11/28/1997 10:33:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\elvrn.ILB - 70659
+11/28/1997 10:33:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\elvwr.ILB - 46897
+11/28/1997 10:33:22 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\fairy.ILB - 34510
+11/28/1997 10:33:22 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\natsp.ILB - 69713
+11/28/1997 10:33:24 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\nymph.ILB - 41578
+11/28/1997 10:33:26 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Elv\unicn.ILB - 63490
+11/28/1997 10:32:40 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROAR.ILB - 41359
+11/28/1997 10:32:40 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROCL.ILB - 45194
+11/28/1997 10:32:42 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FRODR.ILB - 99798
+11/28/1997 10:32:42 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROHE.ILB - 62999
+11/28/1997 10:32:44 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROHX.ILB - 70128
+11/28/1997 10:32:44 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROKP.ILB - 55715
+11/28/1997 10:32:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROLD.ILB - 48674
+11/28/1997 10:32:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROSQ.ILB - 55866
+11/28/1997 10:32:48 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROSW.ILB - 62334
+11/28/1997 10:32:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROWF.ILB - 62364
+11/28/1997 10:32:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\FROWR.ILB - 42222
+9/10/1999 10:35:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Fro\NOrb.ILB - 60343
+9/13/1999 11:27:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\GbnBB.ILB - 110025
+11/28/1997 10:33:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbnbg.ILB - 37658
+11/28/1997 10:33:34 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbnbm.ILB - 28240
+11/28/1997 10:33:36 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbncl.ILB - 42133
+11/28/1997 10:33:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbnhe.ILB - 62288
+11/28/1997 10:33:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbnhx.ILB - 71340
+11/28/1997 10:33:30 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbnld.ILB - 47834
+11/28/1997 10:33:38 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbnwf.ILB - 68449
+11/28/1997 10:33:38 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbnwr.ILB - 48773
+11/28/1997 10:33:40 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\gbnwy.ILB - 75765
+11/28/1997 10:33:40 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\monst.ILB - 90155
+11/28/1997 10:33:40 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Gbn\troll.ILB - 59415
+11/28/1997 10:33:44 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\astra.ILB - 47762
+11/28/1997 10:33:44 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\hghar.ILB - 45727
+9/1/1999 12:20:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\hghch.ILB - 64796
+11/28/1997 10:33:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\hghcl.ILB - 60342
+11/28/1997 10:33:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\hghdr.ILB - 56897
+11/28/1997 10:33:42 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\hghhe.ILB - 77811
+9/1/1999 12:26:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\Hghhr.ILB - 84203
+11/28/1997 10:33:42 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\hghhx.ILB - 85934
+11/28/1997 10:33:44 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\hghld.ILB - 54077
+11/28/1997 10:33:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\hghwr.ILB - 52880
+7/3/1998 1:00:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\puppt.ILB - 69638
+11/28/1997 10:33:48 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\titan.ILB - 60852
+11/28/1997 10:33:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hgm\valky.ILB - 70877
+11/28/1997 10:33:54 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\centr.ILB - 69430
+11/28/1997 10:33:56 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfcl.ILB - 41622
+11/28/1997 10:33:56 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfer.ILB - 92702
+11/28/1997 10:33:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfhe.ILB - 63819
+11/28/1997 10:33:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfhx.ILB - 71274
+11/28/1997 10:33:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfld.ILB - 48649
+11/28/1997 10:33:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfpr.ILB - 73433
+11/28/1997 10:33:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfrg.ILB - 44551
+11/28/1997 10:34:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfsl.ILB - 41068
+11/28/1997 10:34:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\hlfwr.ILB - 41222
+11/28/1997 10:34:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\leprc.ILB - 38895
+11/28/1997 10:34:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hlf\satyr.ILB - 72587
+11/28/1997 10:32:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNAR.ILB - 44339
+9/10/1999 11:01:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNAS.ILB - 57763
+11/28/1997 10:32:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNCH.ILB - 64776
+11/28/1997 10:32:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNCL.ILB - 50278
+11/28/1997 10:32:34 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNHE.ILB - 76213
+11/28/1997 10:32:30 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNHR.ILB - 81775
+11/28/1997 10:32:36 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNHX.ILB - 83899
+11/28/1997 10:32:38 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNLD.ILB - 53412
+11/28/1997 10:32:30 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNMS.ILB - 50257
+11/28/1997 10:32:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNPL.ILB - 89456
+11/28/1997 10:32:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNSP.ILB - 44667
+11/28/1997 10:32:34 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\HMNWR.ILB - 48903
+11/28/1997 10:32:40 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Hmn\SDRGN.ILB - 114141
+10/5/1999 8:40:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\Baslk.ILB - 109713
+11/28/1997 10:31:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZAR.ILB - 63450
+11/28/1997 10:31:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZCF.ILB - 72148
+11/28/1997 10:31:54 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZCL.ILB - 67573
+11/28/1997 10:31:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZDR.ILB - 97823
+11/28/1997 10:32:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZFR.ILB - 96174
+11/28/1997 10:32:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\lizhe.ILB - 89638
+11/28/1997 10:32:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\lizhx.ILB - 94251
+11/28/1997 10:32:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\lizld.ILB - 56117
+11/28/1997 10:32:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZLK.ILB - 62146
+11/28/1997 10:32:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZSM.ILB - 67269
+11/28/1997 10:32:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZWM.ILB - 41081
+11/28/1997 10:32:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Liz\LIZWR.ILB - 65794
+11/28/1997 10:32:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\blsta.ILB - 40008
+11/28/1997 10:32:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\btram.ILB - 43432
+11/28/1997 10:32:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\build.ILB - 48457
+11/28/1997 10:32:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\CANON.ILB - 49720
+11/28/1997 10:32:14 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\crbow.ILB - 29974
+11/28/1997 10:32:14 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\ctplt.ILB - 43644
+11/28/1997 10:32:14 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\drill.ILB - 73743
+11/28/1997 10:32:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\FLTHR.ILB - 45166
+11/28/1997 10:32:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\frezr.ILB - 47775
+11/28/1997 10:32:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\sbtrm.ILB - 43176
+11/28/1997 10:32:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\spult.ILB - 51213
+11/28/1997 10:32:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\tcrbw.ILB - 37791
+11/28/1997 10:32:18 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Machines\tpult.ILB - 48037
+11/28/1997 10:31:44 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Monsters\bldrg.ILB - 97810
+11/28/1997 10:31:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Monsters\ghost.ILB - 63413
+11/28/1997 10:31:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Monsters\mermd.ILB - 35452
+11/28/1997 10:31:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Monsters\mummy.ILB - 45905
+7/3/1998 1:02:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Monsters\sargn.ILB - 151262
+11/28/1997 10:31:48 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Monsters\seadr.ILB - 58939
+11/28/1997 10:31:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Monsters\spidr.ILB - 47357
+11/28/1997 10:31:44 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Monsters\YLDRG.ILB - 106362
+11/28/1997 10:34:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\kobld.ILB - 39341
+11/28/1997 10:34:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orcar.ILB - 44751
+11/28/1997 10:34:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orcas.ILB - 56002
+11/28/1997 10:34:06 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orcbt.ILB - 35247
+11/28/1997 10:34:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orccl.ILB - 49693
+11/28/1997 10:34:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orcdr.ILB - 101205
+11/28/1997 10:34:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orche.ILB - 73989
+11/28/1997 10:34:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orchr.ILB - 79537
+11/28/1997 10:34:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orchx.ILB - 83571
+11/28/1997 10:34:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orcld.ILB - 52335
+11/28/1997 10:34:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orcwl.ILB - 69207
+11/28/1997 10:34:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Orc\orcwr.ILB - 49616
+11/28/1997 10:31:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Ships\DSHIP.ILB - 33333
+11/28/1997 10:31:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Ships\GALLN.ILB - 65816
+5/29/1998 2:00:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Ships\GALLY.ILB - 46096
+11/28/1997 10:31:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\Ships\SLOOP.ILB - 45245
+10/8/1999 1:09:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\boneh.ILB - 97279
+11/28/1997 10:34:14 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\demon.ILB - 76057
+11/28/1997 10:34:14 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undar.ILB - 42491
+11/28/1997 10:34:14 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undcl.ILB - 70140
+10/13/1999 12:49:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undgh.ILB - 159136
+11/28/1997 10:34:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undhe.ILB - 78008
+11/28/1997 10:34:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undhh.ILB - 45656
+11/28/1997 10:34:18 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undhr.ILB - 82896
+11/28/1997 10:34:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undhx.ILB - 82925
+11/28/1997 10:34:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undld.ILB - 53104
+11/28/1997 10:34:18 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undpr.ILB - 53341
+11/28/1997 10:34:18 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undrp.ILB - 71453
+11/28/1997 10:34:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undwr.ILB - 46080
+11/28/1997 10:34:20 AM - ProgramFilesX86\GOG.com\Age of Wonders\Images\UNITS\UND\undww.ILB - 57808
+9/6/2010 1:07:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\AudioImg.ILB - 13126
+9/6/2010 1:07:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\BookWin.ILB - 801358
+9/6/2010 1:07:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Celtdeco.ilb - 228089
+9/6/2010 1:07:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\DragMenu.ILB - 1435573
+9/6/2010 1:07:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\EventIcn.ILB - 10442
+9/6/2010 1:07:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\FCWin.ILB - 1231856
+9/6/2010 1:07:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\GemPile.ILB - 581572
+9/6/2010 1:07:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\GenericB.ILB - 198124
+9/6/2010 1:07:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\GenericE.ILB - 70613
+9/6/2010 1:07:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\GenericF.ILB - 372190
+9/6/2010 1:07:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\GenericI.ILB - 214253
+9/6/2010 1:08:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\GenericS.ilb - 58202
+9/6/2010 1:08:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\GenericT.ilb - 1050028
+9/6/2010 1:08:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\IconMove.ILB - 9800
+9/6/2010 1:08:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Icons.ILB - 14304
+9/6/2010 1:08:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\LBIcon.ILB - 15876
+9/6/2010 1:08:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Menus.ILB - 284978
+9/6/2010 1:08:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Misc.ILB - 539663
+9/6/2010 1:08:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\MiscArt.ILB - 1479731
+9/6/2010 1:08:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\ProdIcon.ILB - 3236
+9/6/2010 1:08:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\ProdWin.ILB - 143128
+9/6/2010 1:08:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\PyreWin.ILB - 102956
+9/6/2010 1:08:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\ScanFog.ilb - 81946
+9/6/2010 1:08:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\ScanHiLi.ilb - 6401
+9/6/2010 1:08:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\ScanObj.ilb - 17678
+9/6/2010 1:08:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\ScanTile.ilb - 278972
+9/6/2010 1:08:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\ScanWin.ilb - 48732
+9/6/2010 1:08:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\ShieldsM.ILB - 151961
+9/6/2010 1:08:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\TBTurnBt.ILB - 325004
+9/6/2010 1:08:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\TBWin.ILB - 106577
+9/6/2010 1:08:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\TitleM.ILB - 2042656
+9/6/2010 1:08:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\TitleScr.ILB - 614502
+9/6/2010 1:08:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\UnitBgs.ILB - 160669
+9/6/2010 1:08:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Units.ILB - 53810
+9/6/2010 1:08:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\UnitWin.ILB - 401906
+9/6/2010 1:08:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\WinTIcon.ilb - 11459
+12/20/1999 12:27:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age10.ILB - 28164
+12/20/1999 12:20:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age10b.ILB - 29804
+12/20/1999 12:24:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age10bs.ILB - 31975
+12/19/1999 10:29:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age10LB.ILB - 28643
+12/19/1999 6:58:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age10s.ILB - 30113
+12/19/1999 10:27:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age10tb.ILB - 29164
+5/26/1998 5:05:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age14G.ILB - 43610
+12/19/1999 3:34:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age15BlBr.ILB - 49958
+12/20/1999 12:31:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age15WhGr.ILB - 100009
+12/19/1999 4:21:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age15WhIn.ILB - 49958
+12/20/1999 12:33:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age16s.ILB - 39373
+12/19/1999 10:12:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age8.ILB - 26153
+12/19/1999 10:21:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Fonts\Age8s.ILB - 27597
+1/23/1999 5:39:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BookWin.ILB - 822839
+9/26/1999 1:10:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPDElf.ILB - 1012290
+9/22/1999 11:15:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPDwf.ILB - 1214721
+9/28/1999 9:30:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPElf.ILB - 1012272
+10/22/1999 11:10:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPGen.ILB - 2429395
+9/23/1999 5:22:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPGob.ILB - 1012266
+7/19/1999 9:09:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPHalfl.ILB - 1012266
+10/5/1999 7:59:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPHigh.ILB - 809829
+8/18/1999 12:17:30 AM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPLiz.ILB - 1012275
+9/23/1999 8:43:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPOrcs.ILB - 1012265
+10/22/1999 11:11:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\BPUnd.ILB - 809820
+6/22/1999 1:50:24 AM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\CBPics1.ILB - 2024503
+10/22/1999 11:09:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\CityWin.ILB - 1107339
+4/20/1999 3:30:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\CTrans.ILB - 60862
+8/16/1999 9:28:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\EndScene.ILB - 1360924
+8/13/1999 3:06:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\FactionS.ILB - 3130548
+11/4/1998 2:09:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\FShire.ILB - 202485
+11/11/1998 3:05:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\FSMap.ILB - 202475
+8/31/1998 1:31:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\Halfl01.ILB - 100115
+11/10/1998 2:42:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\Halfl02.ILB - 202478
+11/5/1998 7:20:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\HalfUnit.ILB - 202483
+12/10/1998 9:05:14 AM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\Inn.ILB - 1134014
+8/31/1998 9:54:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\Logo.ILB - 2634765
+12/15/1998 3:24:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\LSetup.ILB - 553069
+11/3/1998 12:09:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\PDeadQ.ILB - 202478
+12/8/1999 1:30:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\PlyrIcns.ILB - 31616
+8/16/1999 9:28:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\PyreFrm.ILB - 5141241
+8/5/1999 6:19:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\RelFr.ILB - 995306
+9/7/2010 10:40:56 AM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\title.ilb - 1745978
+9/7/2010 10:40:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\TitleM.ILB - 1492897
+11/10/1998 3:11:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\TradeRte.ILB - 202478
+11/6/1998 1:21:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\UCFire.ILB - 202476
+11/11/1998 3:05:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\UCMap.ILB - 202475
+11/5/1998 9:53:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\UGPassg.ILB - 202479
+11/2/1998 3:14:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\U_Drill.ILB - 202480
+8/16/1999 1:34:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\Victory.ILB - 614513
+10/15/1999 9:07:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Int\Scenes\WMBackg.ILB - 2649807
+9/14/2010 4:12:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Microsoft.VC80.CRT\Microsoft.VC80.CRT.manifest - 1870
+9/14/2010 4:12:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Microsoft.VC80.CRT\msvcm80.dll - 479232
+9/14/2010 4:12:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Microsoft.VC80.CRT\msvcp80.dll - 554832
+9/14/2010 4:13:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Microsoft.VC80.CRT\msvcr80.dll - 632656
+9/6/2010 1:08:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\Ability.pfs - 27855
+9/6/2010 1:09:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\comb_res.pfs - 220410
+9/6/2010 1:08:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\FACERES.PFS - 4885
+9/6/2010 1:08:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\General.pfs - 5
+9/6/2010 1:08:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\HEROES.PFS - 6528
+9/6/2010 1:08:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\HERORES.PFS - 3595
+9/6/2010 1:08:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\High Level.ahl - 20
+9/6/2010 1:08:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\ITEMGFX.PFS - 7049
+9/6/2010 1:08:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\ITEMS.PFS - 6654
+9/6/2010 1:08:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\Release.hss - 1060096
+9/6/2010 1:08:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\Special.ahl - 17
+9/6/2010 1:08:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\Spells.pfs - 78583
+9/6/2010 1:08:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\TEXT.pfs - 25751
+9/6/2010 1:08:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\Unitgfx.pfs - 450705
+9/6/2010 1:08:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Release\Unitres.pfs - 106931
+10/24/1999 5:52:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Darkelf1.csm - 48134
+10/24/1999 5:40:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Darkelf2.csm - 39320
+10/24/1999 5:43:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Darkelf3.csm - 17823
+12/11/1999 7:40:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Darkelf4.csm - 43844
+10/24/1999 4:58:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Dwarf1.CSM - 58909
+11/29/1999 5:33:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Dwarf2.CSM - 18093
+10/27/1999 10:38:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Dwarf3.CSM - 58074
+12/11/1999 7:44:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Dwarf4.CSM - 37267
+10/27/1999 10:40:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Elf1.csm - 43647
+10/24/1999 5:22:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Elf2.csm - 20329
+10/24/1999 5:24:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Elf3.csm - 43480
+10/24/1999 5:26:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Elf4.csm - 30485
+10/24/1999 9:01:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Goblin1.csm - 14428
+10/27/1999 10:37:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Goblin2a.csm - 19719
+11/14/1999 2:26:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Goblin2b.csm - 14050
+12/9/1999 3:05:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Goblin3.csm - 41189
+10/24/1999 8:55:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Halfling1.csm - 14708
+10/27/1999 10:37:42 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Halfling2a.csm - 19648
+10/24/1999 9:00:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Halfling2b.csm - 14021
+12/9/1999 3:03:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Halfling3.csm - 41567
+10/24/1999 5:26:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Highman1.csm - 41067
+10/24/1999 5:27:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Highman2.csm - 24275
+10/24/1999 5:28:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Highman3.csm - 42872
+12/11/1999 7:37:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Highman4.csm - 43290
+12/11/1999 7:52:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Keepers.CAM - 68636
+10/24/1999 5:05:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Lizardman1.csm - 16841
+10/24/1999 5:06:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Lizardman2.csm - 31058
+10/24/1999 5:07:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Lizardman3.csm - 37964
+12/11/1999 7:55:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Lizardman4.csm - 42128
+10/24/1999 5:14:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Orc1.csm - 22754
+10/24/1999 5:14:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Orc2.csm - 42308
+10/27/1999 10:42:58 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Orc3.csm - 32471
+12/11/1999 7:36:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Orc4.csm - 35796
+12/17/1999 4:43:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Storm.CAM - 65994
+10/26/1999 1:12:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Undead1.csm - 23134
+10/24/1999 5:32:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Undead2.csm - 44638
+10/24/1999 5:33:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Undead3.csm - 26434
+12/11/1999 7:36:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Undead4.csm - 43575
+12/11/1999 7:32:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Valley DarkElf.csm - 82079
+12/11/1999 7:32:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Valley Elf.csm - 82079
+12/11/1999 7:33:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Valley Highman.csm - 82330
+12/11/1999 7:34:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Valley Undead.csm - 82156
+8/10/1999 10:32:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Campaign\Valley01.CSM - 51757
+10/28/1999 9:08:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\After the Fall.HSM - 78016
+10/28/1999 2:16:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Barondir Bay.HSM - 22929
+10/28/1999 9:41:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Blood Isles.hsm - 18751
+10/26/1999 2:01:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Cold Fusion.hsm - 23517
+10/26/1999 1:59:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Diplomacy with Dragons.hsm - 40267
+10/27/1999 5:22:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\First Conflict.hsm - 45143
+10/25/1999 11:28:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Heartwood Forest.HSM - 61758
+10/28/1999 9:46:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Honeyvale Falls.hsm - 26168
+10/28/1999 2:36:38 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Icedale.hsm - 48120
+10/27/1999 5:56:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Igor's Folly.hsm - 40311
+10/28/1999 3:56:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Kin Slayers.hsm - 29114
+10/26/1999 10:23:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Love thy Neighbor.hsm - 36465
+10/28/1999 2:15:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Mine All Mine.hsm - 22466
+10/25/1999 11:24:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Mountain Clash.hsm - 13649
+10/27/1999 5:19:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Oracle's Eye.hsm - 53598
+10/27/1999 8:14:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Reedfin Canal.hsm - 42354
+11/29/1999 5:41:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Reign of Chaos.hsm - 49209
+11/20/1999 3:57:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Rise of the South.HSM - 46788
+1/10/2000 7:17:22 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\River of Life.hsm - 43381
+12/6/1999 12:03:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Rocky Hollow.hsm - 58095
+10/28/1999 9:35:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Thinreed Lake.hsm - 36459
+10/28/1999 2:13:22 PM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Toadstool Vale.hsm - 27398
+10/28/1999 1:53:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Scenario\Custom\Tutorial.hsm - 15448
+12/13/1997 4:42:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\ArBlow01.WAV - 83170
+12/13/1997 4:43:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\ArBlow02.WAV - 54250
+4/13/1999 5:15:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\ArrHit.WAV - 44902
+12/13/1997 4:19:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Arrow01.WAV - 84366
+12/13/1997 4:45:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Arrow02.WAV - 73906
+12/20/1997 2:10:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Claw1.WAV - 58838
+12/20/1997 2:27:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Claw2.WAV - 94730
+12/14/1997 2:55:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Force1.WAV - 86098
+12/14/1997 2:56:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Force2.WAV - 41886
+12/14/1997 3:02:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Miss1.WAV - 53422
+12/14/1997 3:04:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Miss2.WAV - 48522
+12/14/1997 3:05:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Miss3.WAV - 48694
+12/20/1997 2:15:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Monst.WAV - 130970
+12/20/1997 2:18:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Monst2.WAV - 159058
+12/20/1997 2:22:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Monst3.WAV - 176574
+12/14/1997 1:55:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Punch1.WAV - 48522
+12/14/1997 1:56:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Punch2.WAV - 49110
+12/20/1997 1:51:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Sword1.WAV - 127610
+12/20/1997 1:53:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Sword2.WAV - 65042
+12/20/1997 1:55:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\A_Sword3.WAV - 79974
+12/14/1997 2:04:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Ballista.WAV - 123350
+9/9/1999 1:36:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Blast.wav - 756150
+10/12/1999 3:10:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\CallHero.wav - 573346
+12/14/1997 1:07:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Cannon.WAV - 152966
+12/14/1997 3:17:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Catapult.WAV - 191266
+12/20/1997 4:32:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Charge.WAV - 86202
+10/9/1999 6:42:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Charm.WAV - 238982
+11/23/1998 3:06:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\DBreath.WAV - 628798
+10/9/1999 6:42:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Dominate.WAV - 152802
+8/21/1998 1:42:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Dragon1.WAV - 219110
+8/21/1998 1:41:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Dragon2.WAV - 240366
+9/9/1999 1:33:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Earth.WAV - 266456
+12/14/1997 1:18:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\EnchN01.WAV - 706234
+12/13/1997 4:27:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\EnchP01.WAV - 666030
+12/13/1997 4:32:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\EnchP02.WAV - 528774
+12/13/1997 4:36:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\EnchP03.WAV - 704674
+10/15/1995 2:33:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Explod1.wav - 26854
+4/12/1999 11:38:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Firebs.WAV - 193024
+12/14/1997 1:12:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Fireloop.WAV - 744226
+12/14/1997 1:11:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\FireStrt.WAV - 598986
+4/12/1999 11:42:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\FlameA.WAV - 92332
+12/14/1997 1:16:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Ice.WAV - 214246
+12/14/1997 1:13:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Iceloop.WAV - 1058446
+12/13/1997 4:59:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Lightng.WAV - 1186758
+1/13/1999 1:25:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic01.WAV - 469410
+12/14/1997 1:33:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic02.WAV - 312126
+12/14/1997 2:31:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic03.WAV - 618534
+12/14/1997 2:32:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic04.WAV - 1103266
+1/11/1999 10:48:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic05.WAV - 555546
+1/11/1999 11:27:16 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic06.WAV - 408778
+1/11/1999 11:29:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic07.WAV - 365820
+1/11/1999 11:31:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic08.WAV - 408218
+1/11/1999 11:38:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic09.WAV - 215024
+1/11/1999 3:14:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic10.WAV - 887890
+1/13/1999 1:52:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic11.WAV - 286498
+1/13/1999 2:06:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic12.WAV - 173522
+9/9/1999 1:37:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Magic13.WAV - 540686
+12/14/1997 3:51:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicA01.wav - 235314
+12/14/1997 3:53:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicA02.WAV - 212826
+12/14/1997 3:54:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicA03.WAV - 320926
+12/14/1997 3:56:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicA04.WAV - 165078
+1/11/1999 10:45:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicB01.WAV - 579946
+1/11/1999 10:49:50 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicB02.WAV - 310516
+1/11/1999 11:33:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicC01.WAV - 245918
+1/11/1999 11:34:30 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicC02.WAV - 88502
+1/11/1999 10:51:26 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MagicT01.WAV - 356228
+10/11/1999 3:40:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MAnarchy.WAV - 705646
+10/16/1999 10:44:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\MDecay.wav - 911266
+8/21/1998 1:52:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Monster1.WAV - 207582
+8/21/1998 1:53:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Monster2.WAV - 131626
+12/14/1997 1:59:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Musket1.WAV - 168534
+12/14/1997 2:00:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Musket2.WAV - 155614
+10/11/1999 3:35:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\m_Air.wav - 600278
+10/11/1999 3:36:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\m_Death.wav - 601462
+10/11/1999 3:37:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\m_Earth.wav - 612118
+10/11/1999 3:37:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\m_Fire.wav - 584886
+10/11/1999 3:38:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\m_Water.WAV - 561406
+12/20/1997 1:58:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Parry.WAV - 70598
+10/26/1999 6:50:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Ressur.WAV - 705646
+1/13/1999 1:36:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Seduce.WAV - 439482
+10/12/1999 6:44:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Shockc.WAV - 877310
+10/12/1999 6:41:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Shockw.wav - 540782
+11/23/1998 3:01:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Sling.WAV - 81966
+10/12/1999 3:28:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\SpellWard.wav - 630478
+12/20/1997 4:41:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Storm.WAV - 1172146
+6/13/1998 9:30:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\StormBig.wav - 1153520
+10/13/1999 1:04:34 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Tornado.wav - 837466
+12/13/1997 4:26:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\TurnUnd.WAV - 771442
+10/11/1999 3:18:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Vapor.wav - 793406
+10/11/1999 3:13:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Vortex.WAV - 1058446
+3/1/1999 9:07:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Wind.WAV - 432542
+12/14/1997 2:38:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Attack\Windloop.WAV - 1411526
+10/26/1999 6:59:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Chat.wav - 45908
+9/20/1999 9:34:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Clock.WAV - 52990
+10/15/1995 6:41:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Gems.wav - 18642
+1/11/1999 10:45:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Gold.WAV - 266238
+1/11/1999 11:55:54 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Info1.WAV - 39678
+1/13/1999 4:35:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Info2.wav - 39674
+1/11/1999 11:36:08 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Mana.WAV - 370650
+10/28/1999 8:51:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Message.WAV - 209524
+10/28/1999 8:47:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Message2.wav - 110568
+8/28/1998 6:23:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\NewEvent.WAV - 27772
+10/28/1999 8:50:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\NEWTURN.WAV - 113408
+1/11/1999 11:58:42 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Events\Roll.wav - 130598
+8/21/1998 2:16:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\BirdScr.WAV - 156994
+12/20/1997 4:13:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_ElfM2.WAV - 84026
+4/8/1998 6:28:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_FemN1.WAV - 134734
+4/8/1998 6:29:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_FemN2.WAV - 120486
+9/8/1999 10:35:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Gek.WAV - 60752
+4/8/1998 5:36:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Norm1.WAV - 57322
+4/8/1998 5:37:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Norm2.WAV - 66978
+4/8/1998 5:38:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Norm3.WAV - 86274
+12/20/1997 1:09:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Rough1.wav - 149270
+4/8/1998 6:14:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Rough2.WAV - 52416
+4/8/1998 6:02:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Small1.WAV - 66318
+12/20/1997 4:11:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Small2.WAV - 93534
+12/20/1997 1:03:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Undead.WAV - 126878
+12/14/1997 1:30:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_Wolf.WAV - 386182
+12/14/1997 1:25:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_WoodLG.WAV - 1138186
+12/14/1997 1:22:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_WoodMD.WAV - 269402
+12/14/1997 1:21:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\D_WoodSM.WAV - 218266
+8/21/1998 2:43:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\ElepDie.WAV - 272134
+8/21/1998 2:41:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\ElepHit.WAV - 100906
+4/12/1999 11:31:54 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\HorseDie.WAV - 116820
+4/12/1999 11:34:02 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\HorseHit.WAV - 171098
+4/8/1998 6:31:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_FemN1.WAV - 93430
+4/8/1998 6:33:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_FemN2.WAV - 68266
+9/8/1999 10:33:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Gek.WAV - 53392
+4/8/1998 5:43:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Norm1.WAV - 51498
+4/8/1998 5:44:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Norm2.WAV - 69878
+4/8/1998 6:23:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Norm3.WAV - 62754
+10/16/1999 10:26:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_ping.wav - 65810
+12/20/1997 2:31:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Rough1.WAV - 73730
+4/8/1998 5:45:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Rough2.WAV - 66982
+9/8/1999 10:37:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Slijm.WAV - 41990
+9/8/1999 10:37:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Slijm2.WAV - 40466
+4/8/1998 6:16:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Small1.WAV - 64974
+4/8/1998 6:17:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Small2.WAV - 86318
+4/8/1998 6:18:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Small3.WAV - 62594
+12/20/1997 1:05:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Undead.WAV - 94778
+12/14/1997 1:27:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\H_Wolf.WAV - 35610
+10/12/1999 3:16:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\InDie.wav - 99982
+8/21/1998 3:04:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\M1Die.WAV - 277714
+8/21/1998 3:12:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\M1Hit.WAV - 158390
+8/21/1998 3:09:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\M2Die.WAV - 329426
+8/21/1998 2:59:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\M2Hit.WAV - 232074
+8/21/1998 1:47:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\Screech1.WAV - 275894
+8/21/1998 1:46:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\Screech2.WAV - 151050
+8/21/1998 1:49:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\Screech3.WAV - 239998
+10/12/1999 3:23:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Hit_Death\Splat.wav - 199426
+1/10/1999 5:48:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\BookClse.WAV - 24666
+1/11/1999 4:53:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\Btn1.WAV - 5832
+1/11/1999 4:53:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\Btn2.WAV - 2670
+1/11/1999 11:48:30 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\Btn3.WAV - 18606
+1/11/1999 11:48:48 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\Btn4.WAV - 17326
+1/11/1999 11:51:04 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\Btn5.WAV - 12398
+1/11/1999 11:53:28 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\Btn6.WAV - 19182
+1/13/1999 3:56:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\Center.WAV - 111774
+1/10/1999 5:50:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Int\Pagef1.WAV - 22184
+9/10/1999 11:26:56 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Air1.wav - 132818
+9/10/1999 11:27:12 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Air2.WAV - 149414
+9/10/1999 11:22:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Crawl1.WAV - 85298
+9/10/1999 11:22:22 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Crawl2.WAV - 94402
+9/10/1999 11:23:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Flutter.WAV - 41292
+1/23/1998 1:09:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\FStep1.wav - 25214
+1/23/1998 1:10:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\FStep2.wav - 31106
+1/23/1998 1:10:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\FStep3.wav - 30396
+1/23/1998 1:10:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\FStep4.wav - 34942
+1/23/1998 1:30:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Horse1.WAV - 25944
+1/23/1998 1:30:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Horse2.WAV - 26226
+8/21/1998 3:33:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\HvyWh1.WAV - 215186
+8/21/1998 3:35:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\HvyWh2.WAV - 185438
+8/21/1998 3:36:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\HvyWh3.WAV - 172850
+9/10/1999 11:27:34 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Insect1.WAV - 19698
+9/10/1999 11:27:46 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Insect2.WAV - 17802
+1/23/1998 1:09:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\M_Swim1.WAV - 66714
+1/23/1998 1:09:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\M_Swim2.WAV - 69078
+1/23/1998 12:20:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SFStep1.WAV - 25212
+1/23/1998 12:20:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SFStep2.WAV - 31104
+1/23/1998 12:21:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SFStep3.WAV - 30394
+1/23/1998 12:18:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SFStep4.WAV - 60656
+8/21/1998 2:50:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SftStep1.WAV - 62286
+8/21/1998 2:51:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SftStep2.WAV - 53782
+8/21/1998 2:51:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SftStep3.WAV - 60634
+8/21/1998 2:53:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SftStep4.WAV - 62466
+1/23/1998 1:10:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SlimeS1.WAV - 38782
+1/23/1998 1:11:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SlimeS2.WAV - 20352
+1/23/1998 1:11:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SlimeS3.WAV - 24832
+1/23/1998 1:12:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\SlimeS4.WAV - 16832
+1/23/1998 2:27:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\waterlg.WAV - 222996
+8/21/1998 2:13:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Wing1.WAV - 64614
+8/21/1998 2:14:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Moves\Wing2.WAV - 53350
+12/14/1997 2:11:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\ADark.WAV - 858358
+10/12/1999 3:26:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\AIce.wav - 704558
+1/11/1999 7:25:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\ALight.wav - 615918
+10/12/1999 3:30:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\APest.wav - 703534
+10/16/1999 10:24:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Arena.wav - 821294
+1/11/1999 12:05:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\BGuild.WAV - 439846
+12/20/1997 12:42:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\CRuin.wav - 452336
+10/12/1999 3:20:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Crypt.WAV - 419474
+1/11/1999 3:08:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Dung.WAV - 666022
+1/11/1999 4:56:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Farm.WAV - 373244
+10/12/1999 3:14:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Forcefld.wav - 192328
+1/11/1999 11:39:32 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Gate.WAV - 253298
+12/20/1997 12:49:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Mine.WAV - 589730
+1/22/1998 5:13:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\MLair.WAV - 726454
+1/11/1999 11:16:30 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Node.WAV - 406064
+12/20/1997 12:54:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Pyramid.WAV - 843598
+1/11/1999 7:33:24 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\SGrove.WAV - 786502
+1/11/1999 10:53:52 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\SoLife.WAV - 703866
+10/28/1999 5:19:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Teleport.WAV - 165400
+10/12/1999 3:32:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\WNod.wav - 705646
+10/16/1999 10:34:30 PM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\WTwr.wav - 793846
+1/11/1999 10:53:10 AM - ProgramFilesX86\GOG.com\Age of Wonders\Sfx\Places\Ziggurat.WAV - 291268
+9/6/2010 1:09:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\CARVED.IT - 638000
+9/6/2010 1:09:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\CLOUDS.IT - 1763128
+9/6/2010 1:09:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\CONTENT.IT - 410106
+9/6/2010 1:09:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\DAMN.IT - 212849
+9/6/2010 1:09:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\Decept.it - 1186223
+9/6/2010 1:09:20 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\HEARTWOO.IT - 1084524
+9/6/2010 1:09:26 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\HIGHMEN.IT - 1186125
+9/6/2010 1:09:28 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\Lovdeath.it - 363466
+9/6/2010 1:09:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\MACABRE.IT - 1042108
+9/6/2010 1:09:36 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\MIRAGES.IT - 484737
+9/6/2010 1:09:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\MOUNTAIN.IT - 592752
+9/6/2010 1:09:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\NATURE.IT - 814560
+9/6/2010 1:09:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\PASTPRES.IT - 573459
+9/6/2010 1:09:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\PERIL.IT - 578402
+9/6/2010 1:09:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\REMARCH.IT - 3240668
+9/6/2010 1:09:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\Ruins.it - 590622
+9/6/2010 1:10:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\SNOWSCAP.IT - 1186932
+9/6/2010 1:10:32 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\THROUGH.IT - 714736
+9/6/2010 1:10:34 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\TITLE.IT - 406883
+9/6/2010 1:10:38 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\Truth.it - 491178
+10/18/1999 6:12:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\Combat\DEFEND.IT - 735158
+10/18/1999 6:45:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\Combat\OUTNUM.IT - 1018408
+10/18/1999 6:50:00 AM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\Combat\RACES.IT - 836742
+3/16/1999 11:29:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\Songs\Special\Sunset.it - 2211430
+9/6/2010 1:10:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\0126c000.HSM - 7630
+9/6/2010 1:10:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\012xc000.hsm - 7597
+9/6/2010 1:10:40 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\023xc000.HSM - 6434
+9/6/2010 1:10:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\02xxc000.hsm - 6790
+9/6/2010 1:10:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\0345c000.hsm - 7521
+9/6/2010 1:10:42 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\034xc000.hsm - 7983
+9/6/2010 1:10:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\056xc000.hsm - 7792
+9/6/2010 1:10:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\05xxc000.hsm - 7564
+9/6/2010 1:10:44 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\0xxxc000.hsm - 7427
+9/6/2010 1:11:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\base_struct.HSM - 3562
+9/6/2010 1:10:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BGuil000.hsm - 4172
+9/6/2010 1:10:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\Blank000.HSM - 3324
+9/6/2010 1:10:46 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrIcA000.hsm - 5506
+9/6/2010 1:10:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrIcB000.hsm - 5411
+9/6/2010 1:10:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrIcC000.hsm - 5510
+9/6/2010 1:10:48 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrLaA000.hsm - 5349
+9/6/2010 1:10:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrLaB000.HSM - 5193
+9/6/2010 1:10:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrLaC000.hsm - 5353
+9/6/2010 1:10:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrUiA000.hsm - 5439
+9/6/2010 1:10:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrUiB000.hsm - 5379
+9/6/2010 1:10:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrUiC000.hsm - 5445
+9/6/2010 1:10:50 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrUWA000.hsm - 5307
+9/6/2010 1:10:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrUwB000.hsm - 5191
+9/6/2010 1:10:52 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrUWC000.hsm - 5314
+9/6/2010 1:10:54 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrWaA000.hsm - 5205
+9/6/2010 1:10:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrWaB000.hsm - 5248
+9/6/2010 1:10:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\BrWaC000.hsm - 5206
+9/6/2010 1:10:56 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\CaveE000.hsm - 3720
+9/6/2010 1:10:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\CaveN000.hsm - 4000
+9/6/2010 1:10:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\CiyW1.HSM - 5740
+9/6/2010 1:11:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eCrpt000.HSM - 5005
+9/6/2010 1:11:10 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eCrpt001.hsm - 4762
+9/6/2010 1:11:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eDung000.HSM - 5059
+9/6/2010 1:11:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eDung001.hsm - 5058
+9/6/2010 1:11:12 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eMrLr000.HSM - 3528
+9/6/2010 1:11:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eMrLr001.hsm - 3638
+9/6/2010 1:11:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eMrLr002.hsm - 3922
+9/6/2010 1:11:14 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eMrLr003.hsm - 3869
+9/6/2010 1:11:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eRuin000.HSM - 5390
+9/6/2010 1:11:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eRuin001.hsm - 5195
+9/6/2010 1:11:16 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eZigg000.HSM - 5463
+9/6/2010 1:11:18 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\eZigg001.hsm - 6052
+9/6/2010 1:11:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\Farmx000.hsm - 5629
+9/6/2010 1:10:58 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\FNode000.HSM - 4073
+9/6/2010 1:11:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\Innxx000.HSM - 3725
+9/6/2010 1:11:00 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\Minex000.HSM - 4172
+9/6/2010 1:11:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\NodeA000.HSM - 3858
+9/6/2010 1:11:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\NodeC000.HSM - 3948
+9/6/2010 1:11:02 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\NodeD000.HSM - 4337
+9/6/2010 1:11:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\NodeE000.HSM - 4202
+9/6/2010 1:11:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\NodeF000.HSM - 4088
+9/6/2010 1:11:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\NodeL000.HSM - 4489
+9/6/2010 1:11:04 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\NodeW000.HSM - 4001
+9/6/2010 1:11:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\RPool000.hsm - 4013
+9/6/2010 1:11:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\Slife000.hsm - 4189
+9/6/2010 1:11:06 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\SYard000.hsm - 4237
+9/6/2010 1:11:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\TeleN000.hsm - 3796
+9/6/2010 1:11:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\Telep000.hsm - 3513
+9/6/2010 1:11:08 PM - ProgramFilesX86\GOG.com\Age of Wonders\TCMaps\TFort000.hsm - 4530
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+12/24/2011 1:49:52 PM - VirtualStore\Program Files (x86)\GOG.com\Age of Wonders\Save\After the Fall.asg - 96913
+12/24/2011 1:51:15 PM - VirtualStore\Program Files (x86)\GOG.com\Age of Wonders\Save\After the Fsadadall.acg - 83494
+12/24/2011 1:51:01 PM - VirtualStore\Program Files (x86)\GOG.com\Age of Wonders\Save\autosave.acg - 82645
+12/24/2011 1:49:37 PM - VirtualStore\Program Files (x86)\GOG.com\Age of Wonders\Save\autosave.asg - 94564

@@ -9,7 +9,7 @@ using System.Security.Principal;
 using System.Text;
 using MASGAU.Registry;
 using MASGAU.Location.Holders;
-
+using Translations;
 using Microsoft.Win32;
 
 namespace MASGAU.Location {
@@ -411,7 +411,7 @@ namespace MASGAU.Location {
                             }
 						}
 					} catch (Exception e) {
-                        throw new MException("Error While Loading Registry Key", e.Message, e, false);
+                        throw new MException(Strings.get("RegistryKeyLoadError"), e.Message, e, false);
 					}
 				}
 			}

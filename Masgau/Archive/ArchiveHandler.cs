@@ -30,8 +30,8 @@ namespace MASGAU.Archive
                     return_me.Append(game.title);
                     if(game.platform!=null)
                         return_me.Append(" - " + game.platform.ToString());
-                    if(game.id.country!=null)
-                        return_me.Append(" - " + game.id.country);
+                    if(game.id.region!=null)
+                        return_me.Append(" - " + game.id.region);
                 }
                 return return_me.ToString();
             }
@@ -73,8 +73,8 @@ namespace MASGAU.Archive
         public string game_platform {
             get { return id.game.platform.ToString();}
         }
-        public string game_country {
-            get { return id.game.country;}
+        public string game_region {
+            get { return id.game.region;}
         }
 
         #endregion
@@ -147,7 +147,7 @@ namespace MASGAU.Archive
             String name = null;
             // this is the default, so that older archives will still correctly identify as windows
             GamePlatform platform = GamePlatform.Windows;
-            String country = null;
+            String region = null;
             String type = null;
             if(exists)
                 file_date = archive.LastWriteTime;
@@ -177,8 +177,8 @@ namespace MASGAU.Archive
                                         case "platform":
                                             platform = GameHandler.parseGamePlatform(load_me.Value);
                                             break;
-                                        case "country":
-                                            country= load_me.Value;
+                                        case "region":
+                                            region= load_me.Value;
                                             break;
                                     }
                                 }
@@ -204,7 +204,7 @@ namespace MASGAU.Archive
                         }
                     }
                 }
-                this.id = new ArchiveID(new GameID(name,platform,country),owner,type);
+                this.id = new ArchiveID(new GameID(name,platform,region),owner,type);
                 load_me.Close();
                 File.Delete(Path.Combine(temp_folder, "masgau.xml"));
             } else {
@@ -261,9 +261,9 @@ namespace MASGAU.Archive
                 attribute = write_me.CreateAttribute("platform");
                 attribute.Value = id.game.platform.ToString();
                 node.SetAttributeNode(attribute);
-                if(id.game.country!=null ) {
-                    attribute = write_me.CreateAttribute("country");
-                    attribute.Value = id.game.country;
+                if(id.game.region!=null ) {
+                    attribute = write_me.CreateAttribute("region");
+                    attribute.Value = id.game.region;
                     node.SetAttributeNode(attribute);
                 }
 

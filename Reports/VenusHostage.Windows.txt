@@ -1,0 +1,85 @@
+Comments:
+  <game name="VenusHostage" platform="Windows">
+    <title>Venus Hostage</title>
+    <location_path environment_variable="appdata" path="VenusHostage" />
+    <save />
+    <contributer>Arc Angel</contributer>
+  </game>
+
+   
+Game Name: Venus Hostage
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Venus Hostage
+
+Save Path: 
+AppData\VenusHostage
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{FB614D22-29F1-42ED-AE91-5F88FDBB0820}_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\Venus Hostage
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{FB614D22-29F1-42ED-AE91-5F88FDBB0820}_is1
+Value: InstallLocation
+Data: ProgramFilesX86\Venus Hostage
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+Jan 07 6:04:09 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Venus Hostage\readme.txt.lnk - 1138
+Nov 18 3:22:56 AM - ProgramFilesX86\Venus Hostage\bin\readme.txt - 875
+Jan 07 6:04:09 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Venus Hostage\Uninstall Venus Hostage.lnk - 1060
+Jan 07 6:03:14 PM - ProgramFilesX86\Venus Hostage\unins000.exe - 745758
+Jan 07 6:04:09 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Venus Hostage\Venus Hostage.lnk - 1150
+Nov 28 9:20:12 PM - ProgramFilesX86\Venus Hostage\bin\Launcher.exe - 1344512
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Jan 07 11:30:43 PM - AppData\VenusHostage\config.ini - 336
+Jan 07 11:35:30 PM - AppData\VenusHostage\VenusHostage.save - 96
+Jan 07 11:30:43 PM - AppData\VenusHostage\VenusHostage.userkey - 231
+
+Install Folder Dump: 
+Jan 07 6:04:09 PM - ProgramFilesX86\Venus Hostage\unins000.dat - 4111
+Jan 07 6:03:14 PM - ProgramFilesX86\Venus Hostage\unins000.exe - 745758
+Sep 16 10:54:32 AM - ProgramFilesX86\Venus Hostage\bin\BlitzAL.dll - 621056
+Dec 13 12:11:22 AM - ProgramFilesX86\Venus Hostage\bin\Blitzpx.dll - 425984
+Jun 24 11:14:04 AM - ProgramFilesX86\Venus Hostage\bin\BSys.dll - 20992
+Oct 25 10:56:44 AM - ProgramFilesX86\Venus Hostage\bin\FastExt.dll - 76288
+May 10 1:02:46 PM - ProgramFilesX86\Venus Hostage\bin\FastImage.dll - 57344
+Oct 10 4:04:02 PM - ProgramFilesX86\Venus Hostage\bin\icon.ico - 35265
+Nov 28 9:20:12 PM - ProgramFilesX86\Venus Hostage\bin\Launcher.exe - 1344512
+Nov 17 10:31:46 PM - ProgramFilesX86\Venus Hostage\bin\license.txt - 3560
+Jan 13 1:48:14 AM - ProgramFilesX86\Venus Hostage\bin\NxCooking.dll - 386600
+Jun 11 7:16:00 PM - ProgramFilesX86\Venus Hostage\bin\OpenAL32.dll - 109144
+Jul 24 9:23:40 PM - ProgramFilesX86\Venus Hostage\bin\particle_amt.dll - 10240
+Nov 28 7:56:14 PM - ProgramFilesX86\Venus Hostage\bin\path.ini - 1826
+Sep 10 1:02:48 PM - ProgramFilesX86\Venus Hostage\bin\PhysXCooking.dll - 386336
+Jan 12 5:48:16 PM - ProgramFilesX86\Venus Hostage\bin\PhysXCore.dll - 2672168
+Jan 13 1:48:14 AM - ProgramFilesX86\Venus Hostage\bin\PhysXLoader.dll - 71208
+Nov 18 3:22:56 AM - ProgramFilesX86\Venus Hostage\bin\readme.txt - 875
+Oct 07 2:20:58 PM - ProgramFilesX86\Venus Hostage\bin\Startup.dll - 79360
+Nov 28 10:10:30 PM - ProgramFilesX86\Venus Hostage\bin\VenusHostage.exe - 3772416
+Nov 28 9:48:56 PM - ProgramFilesX86\Venus Hostage\bin\VenusHostageDemo.exe - 3031040
+Jun 11 7:16:00 PM - ProgramFilesX86\Venus Hostage\bin\wrap_oal.dll - 445016
+Oct 21 4:39:32 PM - ProgramFilesX86\Venus Hostage\bin\xPack.Dll - 28160
+Nov 28 11:47:22 AM - ProgramFilesX86\Venus Hostage\data\char.pack - 151418929
+Nov 18 2:33:28 AM - ProgramFilesX86\Venus Hostage\data\gui.pack - 11870397
+Nov 19 1:52:46 PM - ProgramFilesX86\Venus Hostage\data\levels.pack - 111537064
+Nov 09 4:49:32 PM - ProgramFilesX86\Venus Hostage\data\minigames.pack - 104811
+Nov 18 2:35:54 AM - ProgramFilesX86\Venus Hostage\data\music.pack - 110901746
+Nov 09 4:50:40 PM - ProgramFilesX86\Venus Hostage\data\particles.pack - 4672438
+Nov 16 1:18:42 PM - ProgramFilesX86\Venus Hostage\data\sound.pack - 50604163
+Nov 28 8:04:12 PM - ProgramFilesX86\Venus Hostage\data\text.pack - 15875
+
+UAC Disabled or not present
+

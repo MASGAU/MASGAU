@@ -1,0 +1,1245 @@
+Comments:
+  <game name="AvadonBlackFortress" platform="Windows">
+    <title>Avadon: The Black Fortress</title>
+    <location_path environment_variable="userdocuments" path="Spiderweb Software" />
+    <save path="Avadon Saved Games" />
+    <contributer>%USER%</contributer>
+  </game>
+
+
+Game Name: Avadon: The Black Fortress
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress
+
+Save Path: 
+C:\Users\%USER%\Documents\Spiderweb Software\Avadon Saved Games
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 112100
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\avadon the black fortress
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Dec 25 8:13:52 PM - C:\Users\%USER%\Documents\Spiderweb Software\Avadon Saved Games\AvadonSettingsSteam.dat - 486
+Dec 25 8:13:47 PM - C:\Users\%USER%\Documents\Spiderweb Software\Avadon Saved Games\Save0\data - 10396664
+Dec 25 8:13:47 PM - C:\Users\%USER%\Documents\Spiderweb Software\Avadon Saved Games\Save0\header - 196732
+Dec 25 8:13:47 PM - C:\Users\%USER%\Documents\Spiderweb Software\Avadon Saved Games\Save0\items - 4800000
+Dec 25 8:13:47 PM - C:\Users\%USER%\Documents\Spiderweb Software\Avadon Saved Games\Save0\journal - 0
+
+Install Folder Dump: 
+Dec 22 9:42:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon.exe - 3639296
+Dec 22 9:36:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\steam_api.dll - 118368
+Dec 22 9:40:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\AvScenData.dat - 6026632
+Dec 22 9:41:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND0.ogg - 4673
+Dec 22 9:40:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND1.ogg - 4759
+Dec 22 9:37:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND10.ogg - 7871
+Dec 22 9:40:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND100.ogg - 12564
+Dec 22 9:40:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND101.ogg - 11429
+Dec 22 9:40:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND102.ogg - 12872
+Dec 22 9:38:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND103.ogg - 10321
+Dec 22 9:39:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND104.ogg - 15968
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND105.ogg - 12613
+Dec 22 9:41:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND106.ogg - 17783
+Dec 22 9:41:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND107.ogg - 15270
+Dec 22 9:40:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND108.ogg - 10406
+Dec 22 9:36:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND109.ogg - 11723
+Dec 22 9:38:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND11.ogg - 7168
+Dec 22 9:37:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND110.ogg - 8819
+Dec 22 9:40:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND12.ogg - 8652
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND13.ogg - 8188
+Dec 22 9:41:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND130.ogg - 75620
+Dec 22 9:41:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND131.ogg - 102756
+Dec 22 9:38:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND132.ogg - 128209
+Dec 22 9:40:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND133.ogg - 111150
+Dec 22 9:40:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND134.ogg - 101271
+Dec 22 9:42:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND135.ogg - 51784
+Dec 22 9:41:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND14.ogg - 11194
+Dec 22 9:36:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND140.ogg - 67011
+Dec 22 9:40:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND141.ogg - 80576
+Dec 22 9:40:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND142.ogg - 64495
+Dec 22 9:37:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND143.ogg - 59025
+Dec 22 9:42:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND15.ogg - 5007
+Dec 22 9:39:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND150.ogg - 16277
+Dec 22 9:41:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND151.ogg - 13978
+Dec 22 9:39:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND152.ogg - 10879
+Dec 22 9:37:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND153.ogg - 19880
+Dec 22 9:38:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND154.ogg - 14105
+Dec 22 9:40:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND155.ogg - 11544
+Dec 22 9:41:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND156.ogg - 14788
+Dec 22 9:39:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND157.ogg - 12528
+Dec 22 9:37:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND158.ogg - 13481
+Dec 22 9:36:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND159.ogg - 17058
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND16.ogg - 5235
+Dec 22 9:42:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND160.ogg - 14733
+Dec 22 9:40:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND161.ogg - 14416
+Dec 22 9:39:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND162.ogg - 10657
+Dec 22 9:36:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND163.ogg - 16559
+Dec 22 9:37:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND164.ogg - 10274
+Dec 22 9:40:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND165.ogg - 18924
+Dec 22 9:41:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND166.ogg - 11371
+Dec 22 9:42:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND167.ogg - 14291
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND168.ogg - 13818
+Dec 22 9:39:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND169.ogg - 15944
+Dec 22 9:39:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND170.ogg - 18132
+Dec 22 9:42:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND171.ogg - 23127
+Dec 22 9:41:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND172.ogg - 15953
+Dec 22 9:38:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND173.ogg - 13505
+Dec 22 9:41:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND174.ogg - 14323
+Dec 22 9:39:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND176.ogg - 10732
+Dec 22 9:42:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND177.ogg - 17623
+Dec 22 9:39:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND178.ogg - 10391
+Dec 22 9:38:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND179.ogg - 19182
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND18.ogg - 20720
+Dec 22 9:36:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND180.ogg - 6676
+Dec 22 9:42:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND181.ogg - 10465
+Dec 22 9:38:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND182.ogg - 7264
+Dec 22 9:41:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND183.ogg - 8824
+Dec 22 9:41:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND184.ogg - 8261
+Dec 22 9:42:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND185.ogg - 8481
+Dec 22 9:40:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND186.ogg - 9260
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND19.ogg - 13397
+Dec 22 9:41:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND2.ogg - 284474
+Dec 22 9:39:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND20.ogg - 8115
+Dec 22 9:39:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND200.ogg - 9653
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND201.ogg - 11102
+Dec 22 9:39:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND202.ogg - 9394
+Dec 22 9:38:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND203.ogg - 10328
+Dec 22 9:38:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND204.ogg - 7850
+Dec 22 9:41:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND205.ogg - 9461
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND206.ogg - 8549
+Dec 22 9:42:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND207.ogg - 8492
+Dec 22 9:37:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND208.ogg - 12385
+Dec 22 9:39:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND209.ogg - 8673
+Dec 22 9:38:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND21.ogg - 10606
+Dec 22 9:42:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND210.ogg - 6811
+Dec 22 9:40:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND211.ogg - 9800
+Dec 22 9:38:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND212.ogg - 8597
+Dec 22 9:38:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND213.ogg - 8999
+Dec 22 9:42:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND214.ogg - 9249
+Dec 22 9:37:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND215.ogg - 9681
+Dec 22 9:40:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND216.ogg - 9954
+Dec 22 9:39:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND217.ogg - 10546
+Dec 22 9:39:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND218.ogg - 7563
+Dec 22 9:42:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND219.ogg - 10443
+Dec 22 9:43:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND22.ogg - 283800
+Dec 22 9:40:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND220.ogg - 8125
+Dec 22 9:41:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND221.ogg - 8382
+Dec 22 9:41:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND222.ogg - 7416
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND223.ogg - 8858
+Dec 22 9:40:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND224.ogg - 7004
+Dec 22 9:37:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND230.ogg - 30736
+Dec 22 9:38:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND231.ogg - 49759
+Dec 22 9:39:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND232.ogg - 93701
+Dec 22 9:41:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND233.ogg - 101978
+Dec 22 9:41:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND234.ogg - 73320
+Dec 22 9:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND235.ogg - 78115
+Dec 22 9:40:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND236.ogg - 55268
+Dec 22 9:37:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND240.ogg - 82158
+Dec 22 9:39:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND241.ogg - 86831
+Dec 22 9:42:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND242.ogg - 131110
+Dec 22 9:38:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND245.ogg - 141655
+Dec 22 9:40:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND246.ogg - 273765
+Dec 22 9:41:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND247.ogg - 137771
+Dec 22 9:37:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND248.ogg - 68672
+Dec 22 9:39:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND249.ogg - 110793
+Dec 22 9:36:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND250.ogg - 103935
+Dec 22 9:39:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND253.ogg - 95227
+Dec 22 9:37:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND254.ogg - 91229
+Dec 22 9:37:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND255.ogg - 56264
+Dec 22 9:39:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND258.ogg - 166999
+Dec 22 9:40:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND259.ogg - 98704
+Dec 22 9:40:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND260.ogg - 238931
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND261.ogg - 308423
+Dec 22 9:37:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND264.ogg - 382798
+Dec 22 9:41:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND265.ogg - 86992
+Dec 22 9:40:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND266.ogg - 70099
+Dec 22 9:39:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND267.ogg - 104534
+Dec 22 9:37:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND268.ogg - 89040
+Dec 22 9:36:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND269.ogg - 135300
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND272.ogg - 56951
+Dec 22 9:42:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND273.ogg - 64503
+Dec 22 9:38:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND274.ogg - 86686
+Dec 22 9:37:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND275.ogg - 85810
+Dec 22 9:40:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND276.ogg - 100758
+Dec 22 9:39:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND280.ogg - 39341
+Dec 22 9:36:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND281.ogg - 52474
+Dec 22 9:41:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND282.ogg - 60184
+Dec 22 9:37:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND283.ogg - 62100
+Dec 22 9:40:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND285.ogg - 30637
+Dec 22 9:36:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND286.ogg - 49285
+Dec 22 9:38:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND290.ogg - 51329
+Dec 22 9:37:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND291.ogg - 33103
+Dec 22 9:38:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND292.ogg - 47706
+Dec 22 9:43:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND293.ogg - 12735
+Dec 22 9:39:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND294.ogg - 139075
+Dec 22 9:42:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND295.ogg - 16251
+Dec 22 9:39:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND296.ogg - 20185
+Dec 22 9:41:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND3.ogg - 7770
+Dec 22 9:39:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND4.ogg - 7863
+Dec 22 9:40:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND40.ogg - 10065
+Dec 22 9:41:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND41.ogg - 7733
+Dec 22 9:38:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND42.ogg - 11094
+Dec 22 9:38:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND43.ogg - 18847
+Dec 22 9:40:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND44.ogg - 10368
+Dec 22 9:42:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND45.ogg - 13414
+Dec 22 9:37:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND46.ogg - 12425
+Dec 22 9:39:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND47.ogg - 13964
+Dec 22 9:39:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND48.ogg - 10113
+Dec 22 9:39:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND49.ogg - 11791
+Dec 22 9:40:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND5.ogg - 13076
+Dec 22 9:37:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND50.ogg - 12794
+Dec 22 9:41:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND51.ogg - 12437
+Dec 22 9:38:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND52.ogg - 12694
+Dec 22 9:38:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND53.ogg - 16561
+Dec 22 9:37:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND54.ogg - 10708
+Dec 22 9:41:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND55.ogg - 11933
+Dec 22 9:37:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND56.ogg - 9367
+Dec 22 9:36:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND57.ogg - 16960
+Dec 22 9:37:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND58.ogg - 12794
+Dec 22 9:40:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND59.ogg - 12231
+Dec 22 9:42:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND6.ogg - 8096
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND60.ogg - 16037
+Dec 22 9:38:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND61.ogg - 9550
+Dec 22 9:39:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND62.ogg - 10415
+Dec 22 9:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND7.ogg - 10621
+Dec 22 9:40:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND78.ogg - 12932
+Dec 22 9:41:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND79.ogg - 6216
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND8.ogg - 13597
+Dec 22 9:39:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND80.ogg - 7623
+Dec 22 9:37:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND81.ogg - 6229
+Dec 22 9:40:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND82.ogg - 9496
+Dec 22 9:39:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND83.ogg - 5887
+Dec 22 9:41:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND84.ogg - 8706
+Dec 22 9:41:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND85.ogg - 9088
+Dec 22 9:40:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND86.ogg - 10450
+Dec 22 9:39:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND87.ogg - 11097
+Dec 22 9:37:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND88.ogg - 7777
+Dec 22 9:39:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND89.ogg - 10450
+Dec 22 9:39:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND90.ogg - 7495
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND91.ogg - 8627
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND92.ogg - 10311
+Dec 22 9:39:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND93.ogg - 6755
+Dec 22 9:37:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND94.ogg - 10680
+Dec 22 9:38:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND95.ogg - 6571
+Dec 22 9:37:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND96.ogg - 7273
+Dec 22 9:37:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND97.ogg - 7379
+Dec 22 9:37:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND98.ogg - 8995
+Dec 22 9:41:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Avadon Sounds\SND99.ogg - 8143
+Dec 22 9:39:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1010.bmp - 4808
+Dec 22 9:39:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1011.bmp - 12592
+Dec 22 9:40:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1012.bmp - 4820
+Dec 22 9:37:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1013.bmp - 4808
+Dec 22 9:38:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1014.bmp - 4808
+Dec 22 9:40:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1015.bmp - 5140
+Dec 22 9:38:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1020.png - 6183
+Dec 22 9:41:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1021.png - 6160
+Dec 22 9:39:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1022.png - 6188
+Dec 22 9:42:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1023.png - 7465
+Dec 22 9:38:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1024.png - 10091
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1025.png - 8174
+Dec 22 9:42:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1050.png - 220953
+Dec 22 9:40:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1060.png - 19871
+Dec 22 9:40:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1061.png - 32424
+Dec 22 9:37:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1062.png - 9936
+Dec 22 9:43:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1063.png - 7612
+Dec 22 9:39:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1064.png - 16142
+Dec 22 9:40:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1065.png - 10080
+Dec 22 9:36:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1066.png - 6669
+Dec 22 9:36:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1070.png - 115059
+Dec 22 9:42:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1090.png - 47188
+Dec 22 9:39:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1091.png - 49045
+Dec 22 9:40:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1092.png - 44601
+Dec 22 9:42:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1093.png - 48945
+Dec 22 9:42:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1094.png - 50392
+Dec 22 9:36:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1095.png - 23683
+Dec 22 9:39:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1096.png - 36975
+Dec 22 9:39:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1097.png - 33972
+Dec 22 9:40:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1098.png - 31708
+Dec 22 9:37:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1099.png - 29128
+Dec 22 9:38:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1100.png - 34037
+Dec 22 9:40:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1101.png - 39202
+Dec 22 9:41:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1102.png - 35579
+Dec 22 9:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1103.png - 16576
+Dec 22 9:38:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1104.png - 22931
+Dec 22 9:39:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1105.png - 30925
+Dec 22 9:41:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1106.png - 35900
+Dec 22 9:41:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1107.png - 15320
+Dec 22 9:37:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1108.png - 29475
+Dec 22 9:38:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1109.png - 9541
+Dec 22 9:41:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1110.png - 35879
+Dec 22 9:38:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1111.png - 39095
+Dec 22 9:38:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1112.png - 40781
+Dec 22 9:40:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1113.png - 43215
+Dec 22 9:43:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1114.png - 21415
+Dec 22 9:37:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1115.png - 48468
+Dec 22 9:39:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1116.png - 70325
+Dec 22 9:42:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1117.png - 17940
+Dec 22 9:37:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1130.png - 29232
+Dec 22 9:41:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1131.png - 29293
+Dec 22 9:38:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1132.png - 42659
+Dec 22 9:38:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1133.png - 36430
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1134.png - 16107
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1135.png - 12211
+Dec 22 9:37:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1136.png - 11779
+Dec 22 9:37:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1137.png - 18452
+Dec 22 9:37:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1138.png - 23611
+Dec 22 9:41:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1139.png - 34710
+Dec 22 9:37:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1150.png - 31917
+Dec 22 9:42:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1151.png - 24045
+Dec 22 9:41:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1152.png - 43990
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1153.png - 25223
+Dec 22 9:40:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1154.png - 18649
+Dec 22 9:37:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1155.png - 28675
+Dec 22 9:41:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1156.png - 32073
+Dec 22 9:39:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1157.png - 28402
+Dec 22 9:41:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1170.png - 56811
+Dec 22 9:40:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1171.png - 47467
+Dec 22 9:40:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1172.png - 52458
+Dec 22 9:42:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1173.png - 52813
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1174.png - 34514
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1175.png - 43603
+Dec 22 9:40:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1176.png - 43514
+Dec 22 9:40:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1177.png - 55977
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1178.png - 25478
+Dec 22 9:39:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1179.png - 44581
+Dec 22 9:36:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1190.png - 50343
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1193.png - 34699
+Dec 22 9:43:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1200.png - 48516
+Dec 22 9:36:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1201.png - 75283
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1203.png - 31369
+Dec 22 9:41:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1220.png - 98455
+Dec 22 9:40:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1221.png - 111470
+Dec 22 9:41:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1222.png - 133378
+Dec 22 9:40:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1223.png - 85254
+Dec 22 9:37:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1224.png - 64103
+Dec 22 9:38:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1225.png - 39340
+Dec 22 9:40:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1226.png - 15532
+Dec 22 9:39:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1340.bmp - 7520
+Dec 22 9:40:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1400.png - 58739
+Dec 22 9:40:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1410.bmp - 16280
+Dec 22 9:42:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1411.bmp - 16280
+Dec 22 9:38:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1412.bmp - 16280
+Dec 22 9:37:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1413.bmp - 10480
+Dec 22 9:38:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1414.bmp - 9632
+Dec 22 9:37:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1415.bmp - 10500
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1420.bmp - 936
+Dec 22 9:42:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1430.bmp - 2856
+Dec 22 9:36:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1431.bmp - 2964
+Dec 22 9:37:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1440.bmp - 11884
+Dec 22 9:38:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1441.bmp - 2388
+Dec 22 9:38:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1442.bmp - 11884
+Dec 22 9:40:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1443.bmp - 2560
+Dec 22 9:39:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1444.bmp - 11884
+Dec 22 9:39:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1445.bmp - 2560
+Dec 22 9:41:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1450.png - 14058
+Dec 22 9:37:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1451.png - 11751
+Dec 22 9:41:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1452.png - 24746
+Dec 22 9:39:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1470.png - 35239
+Dec 22 9:40:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1471.png - 13769
+Dec 22 9:41:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1472.png - 17252
+Dec 22 9:36:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1473.png - 28393
+Dec 22 9:37:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1474.png - 21238
+Dec 22 9:42:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1475.png - 25562
+Dec 22 9:39:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1476.png - 44996
+Dec 22 9:41:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1477.png - 19070
+Dec 22 9:38:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1500.png - 126072
+Dec 22 9:40:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1510.png - 167708
+Dec 22 9:40:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1520.png - 154290
+Dec 22 9:42:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1530.png - 172404
+Dec 22 9:40:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1540.png - 195422
+Dec 22 9:42:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1560.png - 6814
+Dec 22 9:39:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1561.png - 5386
+Dec 22 9:40:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1570.bmp - 41924
+Dec 22 9:36:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1571.bmp - 41152
+Dec 22 9:40:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1572.bmp - 41256
+Dec 22 9:41:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1573.bmp - 41388
+Dec 22 9:43:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1574.bmp - 42088
+Dec 22 9:41:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1580.png - 18120
+Dec 22 9:41:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1581.png - 23726
+Dec 22 9:41:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1582.png - 17662
+Dec 22 9:38:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1583.bmp - 6360
+Dec 22 9:40:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1584.bmp - 21056
+Dec 22 9:37:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1585.bmp - 7652
+Dec 22 9:41:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1586.bmp - 8160
+Dec 22 9:42:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1587.bmp - 9000
+Dec 22 9:40:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1588.bmp - 9524
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1589.png - 8553
+Dec 22 9:41:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1590.png - 46087
+Dec 22 9:38:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1591.png - 129277
+Dec 22 9:42:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1592.png - 15313
+Dec 22 9:41:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1593.png - 25850
+Dec 22 9:36:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1594.png - 26201
+Dec 22 9:42:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1595.png - 23852
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1600.bmp - 237416
+Dec 22 9:40:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1601.bmp - 193556
+Dec 22 9:38:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1602.bmp - 10024
+Dec 22 9:40:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1603.bmp - 6088
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1604.bmp - 6092
+Dec 22 9:38:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1605.bmp - 6828
+Dec 22 9:39:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1606.bmp - 6088
+Dec 22 9:41:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1607.bmp - 6092
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1608.bmp - 7020
+Dec 22 9:37:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1609.bmp - 70748
+Dec 22 9:37:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1700.png - 238994
+Dec 22 9:39:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1710.png - 232765
+Dec 22 9:38:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1720.png - 154372
+Dec 22 9:41:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1730.png - 51711
+Dec 22 9:42:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1731.png - 50142
+Dec 22 9:38:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1732.png - 44926
+Dec 22 9:39:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1733.png - 40598
+Dec 22 9:40:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1734.png - 41365
+Dec 22 9:36:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1735.png - 47537
+Dec 22 9:37:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1740.png - 73486
+Dec 22 9:37:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1750.png - 49470
+Dec 22 9:42:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1800.png - 119005
+Dec 22 9:37:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1810.png - 70311
+Dec 22 9:37:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1820.png - 82119
+Dec 22 9:40:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1830.png - 116577
+Dec 22 9:42:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1840.png - 110821
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1850.png - 94134
+Dec 22 9:36:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1860.png - 90838
+Dec 22 9:42:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1870.png - 87694
+Dec 22 9:42:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1900.png - 237134
+Dec 22 9:40:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1910.png - 97046
+Dec 22 9:40:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1920.png - 112441
+Dec 22 9:37:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1930.png - 129621
+Dec 22 9:41:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1970.png - 219802
+Dec 22 9:37:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1980.png - 212121
+Dec 22 9:38:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G1990.png - 186092
+Dec 22 9:42:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2000.png - 206535
+Dec 22 9:43:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2010.png - 205024
+Dec 22 9:41:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2050.png - 237396
+Dec 22 9:42:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2060.png - 208991
+Dec 22 9:40:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2070.png - 226154
+Dec 22 9:36:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2080.png - 223675
+Dec 22 9:38:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2090.png - 179962
+Dec 22 9:38:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2100.png - 183059
+Dec 22 9:39:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2110.png - 225864
+Dec 22 9:40:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2120.png - 216168
+Dec 22 9:40:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2130.png - 206683
+Dec 22 9:37:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2140.png - 187575
+Dec 22 9:41:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2150.png - 170596
+Dec 22 9:38:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2160.png - 181164
+Dec 22 9:40:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2170.png - 196297
+Dec 22 9:40:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2180.png - 238685
+Dec 22 9:39:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2190.png - 254514
+Dec 22 9:42:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2300.png - 247736
+Dec 22 9:41:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2310.png - 145290
+Dec 22 9:42:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2320.png - 292652
+Dec 22 9:41:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2330.png - 182755
+Dec 22 9:41:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2340.png - 301360
+Dec 22 9:42:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2350.png - 183244
+Dec 22 9:38:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2360.png - 332679
+Dec 22 9:38:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2370.png - 176936
+Dec 22 9:42:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2400.png - 188433
+Dec 22 9:36:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2410.png - 131475
+Dec 22 9:37:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2420.png - 178544
+Dec 22 9:40:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2430.png - 121198
+Dec 22 9:42:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2440.png - 185050
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2450.png - 120849
+Dec 22 9:38:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2460.png - 245224
+Dec 22 9:41:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2470.png - 164810
+Dec 22 9:36:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2480.png - 295198
+Dec 22 9:36:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics A\G2490.png - 166238
+Dec 22 9:41:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2500.png - 265079
+Dec 22 9:41:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2501.png - 232094
+Dec 22 9:41:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2502.png - 216772
+Dec 22 9:41:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2503.png - 235478
+Dec 22 9:37:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2504.png - 235024
+Dec 22 9:36:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2505.png - 328677
+Dec 22 9:41:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2506.png - 258457
+Dec 22 9:37:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2510.png - 254547
+Dec 22 9:40:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2511.png - 204858
+Dec 22 9:40:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2512.png - 215397
+Dec 22 9:39:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2513.png - 235311
+Dec 22 9:42:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2514.png - 232420
+Dec 22 9:38:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2515.png - 233108
+Dec 22 9:37:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2516.png - 268880
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2520.png - 163265
+Dec 22 9:37:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2521.png - 159513
+Dec 22 9:42:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2522.png - 158010
+Dec 22 9:40:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2523.png - 151609
+Dec 22 9:37:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2524.png - 157080
+Dec 22 9:41:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2525.png - 169515
+Dec 22 9:39:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2526.png - 187258
+Dec 22 9:38:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2527.png - 131117
+Dec 22 9:42:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2528.png - 144281
+Dec 22 9:37:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2530.png - 185500
+Dec 22 9:43:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2531.png - 180755
+Dec 22 9:40:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2532.png - 176911
+Dec 22 9:39:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2533.png - 171130
+Dec 22 9:36:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2534.png - 180418
+Dec 22 9:41:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2535.png - 243794
+Dec 22 9:39:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2536.png - 279411
+Dec 22 9:38:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2537.png - 165713
+Dec 22 9:43:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2538.png - 175341
+Dec 22 9:41:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2540.png - 189808
+Dec 22 9:36:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2541.png - 176129
+Dec 22 9:38:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2542.png - 175089
+Dec 22 9:36:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2543.png - 181672
+Dec 22 9:38:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2544.png - 184340
+Dec 22 9:38:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2545.png - 256701
+Dec 22 9:39:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2546.png - 273022
+Dec 22 9:40:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2547.png - 175720
+Dec 22 9:37:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2548.png - 194056
+Dec 22 9:40:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2550.png - 199243
+Dec 22 9:39:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2551.png - 184229
+Dec 22 9:42:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2552.png - 192576
+Dec 22 9:42:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2553.png - 185243
+Dec 22 9:39:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2554.png - 187214
+Dec 22 9:39:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2555.png - 272911
+Dec 22 9:38:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2556.png - 286218
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2557.png - 175051
+Dec 22 9:40:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2558.png - 195851
+Dec 22 9:38:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2560.png - 116499
+Dec 22 9:43:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2561.png - 119243
+Dec 22 9:37:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2562.png - 139591
+Dec 22 9:42:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2563.png - 154524
+Dec 22 9:38:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2564.png - 160968
+Dec 22 9:37:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2565.png - 246151
+Dec 22 9:37:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2566.png - 231739
+Dec 22 9:37:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2570.png - 181113
+Dec 22 9:41:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2571.png - 157454
+Dec 22 9:41:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2572.png - 163465
+Dec 22 9:42:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2573.png - 159808
+Dec 22 9:41:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2574.png - 161500
+Dec 22 9:39:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2575.png - 253306
+Dec 22 9:42:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2576.png - 237088
+Dec 22 9:42:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2580.png - 167333
+Dec 22 9:40:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2581.png - 127436
+Dec 22 9:41:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2582.png - 138474
+Dec 22 9:39:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2583.png - 149133
+Dec 22 9:42:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2584.png - 151463
+Dec 22 9:40:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2585.png - 176933
+Dec 22 9:39:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2586.png - 216942
+Dec 22 9:39:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2590.png - 171354
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2591.png - 182293
+Dec 22 9:42:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2592.png - 188442
+Dec 22 9:41:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2593.png - 159249
+Dec 22 9:36:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2594.png - 160636
+Dec 22 9:37:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2595.png - 172113
+Dec 22 9:40:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2596.png - 180940
+Dec 22 9:42:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2600.png - 69289
+Dec 22 9:39:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2601.png - 57756
+Dec 22 9:41:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2602.png - 57519
+Dec 22 9:43:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2603.png - 61463
+Dec 22 9:41:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2604.png - 66899
+Dec 22 9:40:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2605.png - 68358
+Dec 22 9:41:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2606.png - 82073
+Dec 22 9:41:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2610.png - 120509
+Dec 22 9:41:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2611.png - 121014
+Dec 22 9:38:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2612.png - 125891
+Dec 22 9:41:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2613.png - 123429
+Dec 22 9:39:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2614.png - 123163
+Dec 22 9:37:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2615.png - 142100
+Dec 22 9:43:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2616.png - 142712
+Dec 22 9:40:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2620.png - 119262
+Dec 22 9:42:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2621.png - 108787
+Dec 22 9:41:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2622.png - 112725
+Dec 22 9:39:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2623.png - 117234
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2624.png - 117196
+Dec 22 9:40:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2625.png - 136880
+Dec 22 9:37:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2626.png - 136534
+Dec 22 9:42:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2630.png - 108761
+Dec 22 9:37:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2631.png - 107617
+Dec 22 9:40:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2632.png - 114018
+Dec 22 9:39:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2633.png - 111806
+Dec 22 9:38:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2634.png - 112485
+Dec 22 9:39:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2635.png - 166411
+Dec 22 9:40:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2636.png - 169857
+Dec 22 9:42:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2640.png - 109986
+Dec 22 9:37:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2641.png - 106339
+Dec 22 9:42:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2642.png - 114209
+Dec 22 9:37:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2643.png - 113854
+Dec 22 9:39:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2644.png - 114071
+Dec 22 9:37:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2645.png - 169756
+Dec 22 9:41:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2646.png - 168094
+Dec 22 9:38:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2650.png - 90617
+Dec 22 9:37:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2651.png - 115246
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2652.png - 120229
+Dec 22 9:41:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2653.png - 132287
+Dec 22 9:39:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2654.png - 131476
+Dec 22 9:40:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2655.png - 202249
+Dec 22 9:37:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2656.png - 213718
+Dec 22 9:40:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2660.png - 91661
+Dec 22 9:38:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2661.png - 122070
+Dec 22 9:39:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2662.png - 125649
+Dec 22 9:42:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2663.png - 120603
+Dec 22 9:38:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2664.png - 121927
+Dec 22 9:41:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2665.png - 173187
+Dec 22 9:40:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2666.png - 188472
+Dec 22 9:38:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2670.png - 306536
+Dec 22 9:38:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2671.png - 293904
+Dec 22 9:38:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2672.png - 309716
+Dec 22 9:39:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2673.png - 293808
+Dec 22 9:42:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2674.png - 293019
+Dec 22 9:42:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2675.png - 443501
+Dec 22 9:40:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2676.png - 455280
+Dec 22 9:42:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2680.png - 343130
+Dec 22 9:39:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2681.png - 328442
+Dec 22 9:37:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2682.png - 331611
+Dec 22 9:40:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2683.png - 336199
+Dec 22 9:36:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2684.png - 338441
+Dec 22 9:38:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2685.png - 322129
+Dec 22 9:37:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2686.png - 386293
+Dec 22 9:40:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2690.png - 345407
+Dec 22 9:41:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2691.png - 316419
+Dec 22 9:39:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2692.png - 322318
+Dec 22 9:43:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2693.png - 313778
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2694.png - 315240
+Dec 22 9:43:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2695.png - 365747
+Dec 22 9:39:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2696.png - 361594
+Dec 22 9:41:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2700.png - 442126
+Dec 22 9:39:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2701.png - 312621
+Dec 22 9:36:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2702.png - 324401
+Dec 22 9:39:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2703.png - 471305
+Dec 22 9:42:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2704.png - 487815
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2705.png - 493182
+Dec 22 9:40:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2706.png - 551548
+Dec 22 9:37:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2710.png - 134038
+Dec 22 9:39:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2711.png - 115421
+Dec 22 9:36:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2712.png - 118016
+Dec 22 9:41:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2713.png - 135099
+Dec 22 9:38:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2714.png - 134009
+Dec 22 9:42:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2715.png - 198853
+Dec 22 9:36:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2716.png - 203494
+Dec 22 9:37:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2717.png - 108796
+Dec 22 9:42:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2718.png - 116425
+Dec 22 9:40:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2720.png - 155541
+Dec 22 9:37:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2721.png - 131162
+Dec 22 9:40:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2722.png - 152466
+Dec 22 9:37:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2723.png - 106294
+Dec 22 9:42:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2724.png - 126441
+Dec 22 9:41:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2725.png - 212476
+Dec 22 9:40:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2726.png - 219086
+Dec 22 9:40:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2727.png - 138796
+Dec 22 9:39:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2728.png - 147620
+Dec 22 9:38:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2730.png - 125454
+Dec 22 9:39:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2731.png - 123856
+Dec 22 9:38:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2732.png - 122595
+Dec 22 9:40:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2733.png - 128487
+Dec 22 9:41:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2734.png - 123711
+Dec 22 9:37:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2735.png - 182043
+Dec 22 9:39:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2736.png - 193495
+Dec 22 9:41:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2737.png - 109276
+Dec 22 9:38:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2738.png - 114380
+Dec 22 9:41:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2740.png - 157980
+Dec 22 9:38:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2741.png - 131151
+Dec 22 9:41:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2742.png - 152869
+Dec 22 9:38:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2743.png - 147288
+Dec 22 9:37:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2744.png - 154317
+Dec 22 9:39:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2745.png - 210222
+Dec 22 9:40:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2746.png - 229044
+Dec 22 9:42:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2747.png - 143988
+Dec 22 9:40:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2748.png - 154795
+Dec 22 9:40:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2750.png - 126585
+Dec 22 9:39:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2751.png - 105198
+Dec 22 9:40:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2752.png - 107560
+Dec 22 9:40:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2753.png - 131535
+Dec 22 9:42:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2754.png - 132031
+Dec 22 9:39:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2755.png - 195077
+Dec 22 9:40:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2756.png - 195531
+Dec 22 9:43:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2757.png - 108577
+Dec 22 9:40:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2758.png - 114498
+Dec 22 9:38:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2760.png - 137843
+Dec 22 9:41:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2761.png - 125767
+Dec 22 9:41:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2762.png - 137509
+Dec 22 9:41:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2763.png - 133784
+Dec 22 9:37:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2764.png - 147794
+Dec 22 9:39:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2765.png - 198582
+Dec 22 9:40:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2766.png - 202518
+Dec 22 9:39:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2767.png - 132669
+Dec 22 9:41:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2768.png - 142406
+Dec 22 9:40:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2770.png - 118973
+Dec 22 9:37:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2771.png - 121041
+Dec 22 9:40:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2772.png - 118106
+Dec 22 9:37:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2773.png - 123280
+Dec 22 9:38:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2774.png - 120433
+Dec 22 9:40:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2775.png - 175711
+Dec 22 9:40:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2776.png - 182955
+Dec 22 9:37:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2777.png - 102427
+Dec 22 9:42:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2778.png - 102733
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2780.png - 152728
+Dec 22 9:40:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2781.png - 130887
+Dec 22 9:38:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2782.png - 150224
+Dec 22 9:39:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2783.png - 144546
+Dec 22 9:36:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2784.png - 152251
+Dec 22 9:38:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2785.png - 210888
+Dec 22 9:37:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2786.png - 230141
+Dec 22 9:37:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2787.png - 144665
+Dec 22 9:39:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2788.png - 152884
+Dec 22 9:41:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2790.png - 185247
+Dec 22 9:37:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2791.png - 136284
+Dec 22 9:42:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2792.png - 143153
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2793.png - 176645
+Dec 22 9:39:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2794.png - 177264
+Dec 22 9:38:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2795.png - 254698
+Dec 22 9:37:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2796.png - 270278
+Dec 22 9:37:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2800.png - 142039
+Dec 22 9:41:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2801.png - 131702
+Dec 22 9:42:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2802.png - 137470
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2803.png - 141731
+Dec 22 9:41:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2804.png - 139159
+Dec 22 9:38:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2805.png - 214409
+Dec 22 9:37:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2806.png - 210285
+Dec 22 9:36:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2807.png - 137068
+Dec 22 9:42:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2808.png - 136102
+Dec 22 9:42:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2810.png - 130621
+Dec 22 9:36:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2811.png - 137252
+Dec 22 9:38:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2812.png - 148517
+Dec 22 9:39:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2813.png - 149140
+Dec 22 9:39:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2814.png - 152073
+Dec 22 9:37:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2815.png - 224973
+Dec 22 9:40:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2816.png - 232410
+Dec 22 9:39:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2817.png - 144734
+Dec 22 9:38:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2818.png - 152028
+Dec 22 9:39:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2820.png - 93134
+Dec 22 9:38:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2821.png - 115095
+Dec 22 9:40:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2822.png - 120344
+Dec 22 9:37:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2823.png - 106575
+Dec 22 9:36:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2824.png - 110276
+Dec 22 9:40:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2825.png - 155577
+Dec 22 9:40:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2826.png - 159370
+Dec 22 9:40:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2830.png - 117013
+Dec 22 9:41:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2831.png - 122475
+Dec 22 9:38:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2832.png - 123210
+Dec 22 9:39:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2833.png - 121931
+Dec 22 9:40:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2834.png - 124326
+Dec 22 9:39:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2835.png - 153263
+Dec 22 9:41:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2836.png - 187035
+Dec 22 9:37:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2840.png - 283921
+Dec 22 9:36:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2841.png - 283493
+Dec 22 9:40:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2842.png - 279797
+Dec 22 9:36:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2843.png - 293689
+Dec 22 9:37:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2844.png - 285828
+Dec 22 9:39:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2845.png - 438301
+Dec 22 9:39:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2846.png - 439305
+Dec 22 9:39:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2850.png - 246450
+Dec 22 9:42:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2851.png - 255089
+Dec 22 9:37:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2852.png - 269556
+Dec 22 9:41:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2853.png - 217480
+Dec 22 9:40:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2854.png - 242682
+Dec 22 9:39:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2855.png - 383571
+Dec 22 9:39:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2856.png - 370626
+Dec 22 9:42:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2860.png - 159922
+Dec 22 9:38:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2861.png - 171856
+Dec 22 9:39:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G2862.png - 163028
+Dec 22 9:37:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3500.png - 144137
+Dec 22 9:39:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3501.png - 133459
+Dec 22 9:39:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3502.png - 137427
+Dec 22 9:42:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3503.png - 137164
+Dec 22 9:39:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3504.png - 138661
+Dec 22 9:40:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3505.png - 199829
+Dec 22 9:36:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3506.png - 211718
+Dec 22 9:41:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3507.png - 132554
+Dec 22 9:37:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3508.png - 138640
+Dec 22 9:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3510.png - 131892
+Dec 22 9:39:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3511.png - 134667
+Dec 22 9:42:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3512.png - 133767
+Dec 22 9:40:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3513.png - 140343
+Dec 22 9:41:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3514.png - 133439
+Dec 22 9:41:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3515.png - 205253
+Dec 22 9:39:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3516.png - 182617
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3517.png - 140865
+Dec 22 9:36:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3518.png - 139133
+Dec 22 9:39:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3520.png - 144697
+Dec 22 9:36:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3521.png - 131165
+Dec 22 9:41:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3522.png - 139245
+Dec 22 9:39:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3523.png - 146663
+Dec 22 9:39:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3524.png - 146333
+Dec 22 9:39:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3525.png - 202200
+Dec 22 9:39:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3526.png - 208124
+Dec 22 9:37:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3527.png - 133644
+Dec 22 9:40:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3528.png - 133663
+Dec 22 9:39:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3530.png - 126145
+Dec 22 9:41:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3531.png - 126583
+Dec 22 9:36:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3532.png - 128032
+Dec 22 9:40:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3533.png - 137292
+Dec 22 9:41:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3534.png - 137799
+Dec 22 9:42:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3535.png - 182382
+Dec 22 9:39:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3536.png - 192683
+Dec 22 9:40:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3537.png - 126687
+Dec 22 9:36:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3538.png - 125361
+Dec 22 9:38:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3550.png - 149418
+Dec 22 9:42:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3551.png - 116374
+Dec 22 9:41:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3552.png - 123069
+Dec 22 9:40:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3553.png - 144346
+Dec 22 9:39:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3554.png - 143353
+Dec 22 9:42:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3555.png - 147814
+Dec 22 9:36:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3556.png - 162801
+Dec 22 9:38:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3557.png - 133776
+Dec 22 9:41:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3558.png - 138685
+Dec 22 9:39:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3560.png - 157759
+Dec 22 9:42:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3561.png - 111344
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3562.png - 121718
+Dec 22 9:40:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3563.png - 149517
+Dec 22 9:42:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3564.png - 157992
+Dec 22 9:37:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3565.png - 220485
+Dec 22 9:41:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3566.png - 235239
+Dec 22 9:39:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3567.png - 137934
+Dec 22 9:40:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3568.png - 141077
+Dec 22 9:40:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3570.png - 167753
+Dec 22 9:39:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3571.png - 115736
+Dec 22 9:43:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3572.png - 117514
+Dec 22 9:37:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3573.png - 151033
+Dec 22 9:37:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3574.png - 168314
+Dec 22 9:40:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3575.png - 261834
+Dec 22 9:37:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3576.png - 259263
+Dec 22 9:42:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3577.png - 162668
+Dec 22 9:38:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3578.png - 168614
+Dec 22 9:36:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3580.png - 136566
+Dec 22 9:37:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3581.png - 144160
+Dec 22 9:38:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3582.png - 178721
+Dec 22 9:39:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3583.png - 133059
+Dec 22 9:41:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3584.png - 156375
+Dec 22 9:41:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3585.png - 248911
+Dec 22 9:40:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3586.png - 259927
+Dec 22 9:40:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3587.png - 164085
+Dec 22 9:40:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3588.png - 175465
+Dec 22 9:37:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3600.png - 101463
+Dec 22 9:40:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3601.png - 134130
+Dec 22 9:38:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3602.png - 131159
+Dec 22 9:42:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3603.png - 138700
+Dec 22 9:37:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3604.png - 139012
+Dec 22 9:36:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3605.png - 149021
+Dec 22 9:37:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3606.png - 157593
+Dec 22 9:38:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3607.png - 142573
+Dec 22 9:36:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3608.png - 145306
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3610.png - 116155
+Dec 22 9:37:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3611.png - 145028
+Dec 22 9:42:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3612.png - 146831
+Dec 22 9:39:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3613.png - 149587
+Dec 22 9:41:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3614.png - 147041
+Dec 22 9:41:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3615.png - 220286
+Dec 22 9:39:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3616.png - 228994
+Dec 22 9:40:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3617.png - 156431
+Dec 22 9:43:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3618.png - 154527
+Dec 22 9:38:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3620.png - 167424
+Dec 22 9:41:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3621.png - 146436
+Dec 22 9:36:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3622.png - 152092
+Dec 22 9:37:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3623.png - 151220
+Dec 22 9:37:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3624.png - 157565
+Dec 22 9:37:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3625.png - 235053
+Dec 22 9:38:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3626.png - 231241
+Dec 22 9:37:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3627.png - 154630
+Dec 22 9:39:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3628.png - 168394
+Dec 22 9:39:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3630.png - 189547
+Dec 22 9:41:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3631.png - 151314
+Dec 22 9:42:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3632.png - 175498
+Dec 22 9:42:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3633.png - 172720
+Dec 22 9:42:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3634.png - 180619
+Dec 22 9:40:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3635.png - 247961
+Dec 22 9:42:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3636.png - 270449
+Dec 22 9:42:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3637.png - 168875
+Dec 22 9:39:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3638.png - 179806
+Dec 22 9:40:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3650.png - 90502
+Dec 22 9:37:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3651.png - 118544
+Dec 22 9:38:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3652.png - 122895
+Dec 22 9:36:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3653.png - 116540
+Dec 22 9:39:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3654.png - 122041
+Dec 22 9:40:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3655.png - 170198
+Dec 22 9:42:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3656.png - 192091
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3657.png - 116890
+Dec 22 9:41:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3658.png - 120725
+Dec 22 9:38:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3660.png - 110255
+Dec 22 9:38:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3661.png - 136784
+Dec 22 9:42:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3662.png - 136035
+Dec 22 9:37:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3663.png - 137229
+Dec 22 9:42:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3664.png - 129370
+Dec 22 9:41:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3665.png - 200965
+Dec 22 9:41:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3666.png - 211134
+Dec 22 9:38:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3667.png - 140258
+Dec 22 9:41:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3668.png - 139927
+Dec 22 9:41:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3670.png - 121213
+Dec 22 9:37:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3671.png - 133895
+Dec 22 9:39:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3672.png - 143643
+Dec 22 9:41:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3673.png - 138305
+Dec 22 9:42:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3674.png - 143391
+Dec 22 9:36:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3675.png - 198594
+Dec 22 9:37:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3676.png - 210899
+Dec 22 9:39:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3677.png - 139311
+Dec 22 9:38:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3678.png - 152271
+Dec 22 9:43:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3680.png - 118737
+Dec 22 9:40:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3681.png - 137512
+Dec 22 9:37:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3682.png - 137934
+Dec 22 9:38:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3683.png - 134479
+Dec 22 9:40:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3684.png - 140224
+Dec 22 9:38:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3685.png - 201479
+Dec 22 9:39:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3686.png - 219378
+Dec 22 9:38:21 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3687.png - 136895
+Dec 22 9:38:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics B\G3688.png - 142366
+Dec 22 9:41:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G1.bmp - 15472
+Dec 22 9:36:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G128.png - 975860
+Dec 22 9:42:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G129.jpg - 89483
+Dec 22 9:38:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G130.jpg - 120371
+Dec 22 9:38:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G131.jpg - 29748
+Dec 22 9:40:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G132.png - 312565
+Dec 22 9:39:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G133.png - 207413
+Dec 22 9:38:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G134.png - 46020
+Dec 22 9:42:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G135.png - 47114
+Dec 22 9:36:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G136.png - 18275
+Dec 22 9:41:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G137.png - 253402
+Dec 22 9:37:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G138.png - 84112
+Dec 22 9:37:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G140.png - 351920
+Dec 22 9:36:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G141.png - 69944
+Dec 22 9:40:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G142.jpg - 181181
+Dec 22 9:37:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G143.jpg - 67906
+Dec 22 9:40:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G145.png - 588159
+Dec 22 9:41:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G146.png - 345719
+Dec 22 9:39:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G147.jpg - 27219
+Dec 22 9:41:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G148.jpg - 27832
+Dec 22 9:37:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G153.png - 131985
+Dec 22 9:38:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G154.bmp - 15472
+Dec 22 9:37:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G158.png - 69860
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G159.png - 41349
+Dec 22 9:36:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G165.png - 41924
+Dec 22 9:41:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G167.png - 72889
+Dec 22 9:39:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G169.bmp - 22036
+Dec 22 9:41:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G170.jpg - 77173
+Dec 22 9:42:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G171.jpg - 104128
+Dec 22 9:38:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G172.jpg - 126676
+Dec 22 9:41:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G173.jpg - 75156
+Dec 22 9:40:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G174.jpg - 97325
+Dec 22 9:38:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G175.jpg - 109302
+Dec 22 9:40:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G176.jpg - 237583
+Dec 22 9:42:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G177.jpg - 221933
+Dec 22 9:36:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G178.jpg - 66608
+Dec 22 9:36:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G179.jpg - 56782
+Dec 22 9:40:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G180.jpg - 89004
+Dec 22 9:41:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G181.jpg - 90827
+Dec 22 9:41:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G182.jpg - 138706
+Dec 22 9:39:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G183.jpg - 122914
+Dec 22 9:38:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G184.jpg - 114086
+Dec 22 9:40:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G185.jpg - 129455
+Dec 22 9:39:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G186.jpg - 109853
+Dec 22 9:37:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G187.jpg - 77342
+Dec 22 9:41:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G189.png - 57419
+Dec 22 9:39:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G198.png - 163074
+Dec 22 9:37:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G199.jpg - 181268
+Dec 22 9:41:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G200.jpg - 181710
+Dec 22 9:38:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G201.png - 338947
+Dec 22 9:41:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G203.png - 54760
+Dec 22 9:39:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G220.png - 257124
+Dec 22 9:42:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G231.jpg - 134472
+Dec 22 9:40:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G232.jpg - 165472
+Dec 22 9:42:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G233.jpg - 141631
+Dec 22 9:37:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G290.png - 123200
+Dec 22 9:39:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G300.png - 114367
+Dec 22 9:43:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G301.png - 110974
+Dec 22 9:38:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G400.jpg - 6537
+Dec 22 9:37:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G401.jpg - 6724
+Dec 22 9:39:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G402.jpg - 5392
+Dec 22 9:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G403.jpg - 5679
+Dec 22 9:40:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G404.jpg - 6216
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G405.jpg - 5247
+Dec 22 9:41:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G406.jpg - 3777
+Dec 22 9:40:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G407.jpg - 5298
+Dec 22 9:38:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G408.jpg - 5497
+Dec 22 9:42:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G409.jpg - 5533
+Dec 22 9:39:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G410.jpg - 5478
+Dec 22 9:37:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G411.jpg - 5377
+Dec 22 9:43:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G420.png - 46241
+Dec 22 9:42:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G421.png - 41356
+Dec 22 9:39:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G422.png - 33295
+Dec 22 9:37:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G423.png - 38255
+Dec 22 9:40:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G424.png - 50014
+Dec 22 9:41:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G425.png - 48883
+Dec 22 9:39:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G426.png - 41855
+Dec 22 9:39:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Graphics Core\G427.png - 39705
+Dec 22 9:38:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\avfloorster.txt - 86366
+Dec 22 9:37:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\avitemschars.txt - 119835
+Dec 22 9:43:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\avobjsmisc.txt - 114835
+Dec 22 9:37:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\basin.txt - 1940
+Dec 22 9:39:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\box.txt - 317
+Dec 22 9:41:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\codex.txt - 255
+Dec 22 9:37:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\exitstairs.txt - 1645
+Dec 22 9:43:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\flaggate.txt - 1063
+Dec 22 9:40:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\flaglever.txt - 1185
+Dec 22 9:38:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\floortrap.txt - 3154
+Dec 22 9:41:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\gate.txt - 1699
+Dec 22 9:37:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\leavezone.txt - 2440
+Dec 22 9:36:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\lockbox.txt - 2895
+Dec 22 9:42:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobarcher.txt - 2087
+Dec 22 9:40:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobbasic.txt - 1505
+Dec 22 9:38:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobboss.txt - 2555
+Dec 22 9:36:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobcaller.txt - 2503
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobflagshift.txt - 1738
+Dec 22 9:38:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobflee.txt - 1632
+Dec 22 9:36:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobfleeonce.txt - 2522
+Dec 22 9:42:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobflock.txt - 2116
+Dec 22 9:37:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobforcetk.txt - 1956
+Dec 22 9:42:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobfrozen.txt - 2287
+Dec 22 9:38:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobgphunt.txt - 1562
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobgroup.txt - 2151
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobgroupgd.txt - 3963
+Dec 22 9:40:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobguard.txt - 2886
+Dec 22 9:41:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobhunter.txt - 1772
+Dec 22 9:39:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobleadpc.txt - 1588
+Dec 22 9:40:16 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobnavpt.txt - 2033
+Dec 22 9:39:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobnull.txt - 613
+Dec 22 9:41:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobpackhunt.txt - 2677
+Dec 22 9:38:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobpatrol.txt - 1911
+Dec 22 9:42:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobpet.txt - 1151
+Dec 22 9:41:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobshiftgd.txt - 2057
+Dec 22 9:36:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobspawner.txt - 1672
+Dec 22 9:39:11 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobsplitter.txt - 2210
+Dec 22 9:37:09 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobturret.txt - 1904
+Dec 22 9:36:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobtwopts.txt - 2183
+Dec 22 9:36:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\mobwimpygp.txt - 1698
+Dec 22 9:42:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\nullobj.txt - 243
+Dec 22 9:42:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\secdoor.txt - 889
+Dec 22 9:38:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\sparkleobj.txt - 1205
+Dec 22 9:40:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\stairs.txt - 897
+Dec 22 9:39:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\swingdoor.txt - 5824
+Dec 22 9:38:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\talkobj.txt - 426
+Dec 22 9:38:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\teleport.txt - 806
+Dec 22 9:37:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textcheevos.txt - 2657
+Dec 22 9:39:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textcodex.txt - 37965
+Dec 22 9:39:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textdialogs.txt - 4396
+Dec 22 9:37:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textdocs.txt - 38573
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textfullskills.txt - 15882
+Dec 22 9:37:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\texthints.txt - 8975
+Dec 22 9:38:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textplot.txt - 22224
+Dec 22 9:41:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textquests.txt - 34240
+Dec 22 9:42:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textskills.txt - 5807
+Dec 22 9:37:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textspecitems.txt - 8960
+Dec 22 9:38:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\textstatus.txt - 4321
+Dec 22 9:38:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\trapbox.txt - 2732
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\trapdoor1.txt - 357
+Dec 22 9:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\trapdoor2.txt - 768
+Dec 22 9:42:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\walllever.txt - 873
+Dec 22 9:38:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\wheel.txt - 487
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0ambush.txt - 1730
+Dec 22 9:40:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0avadon.txt - 12942
+Dec 22 9:41:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0avadondlg.txt - 308905
+Dec 22 9:41:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0jenell.txt - 2637
+Dec 22 9:37:43 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0miranda.txt - 1478
+Dec 22 9:38:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0miranda2.txt - 2429
+Dec 22 9:39:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0nath.txt - 2693
+Dec 22 9:39:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0nico1.txt - 1768
+Dec 22 9:41:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0polus.txt - 1817
+Dec 22 9:39:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0sevilin.txt - 2761
+Dec 22 9:41:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0shima.txt - 2734
+Dec 22 9:36:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z0spy.txt - 1855
+Dec 22 9:41:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10antje.txt - 3591
+Dec 22 9:38:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10carsta1.txt - 2388
+Dec 22 9:39:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10carsta2.txt - 2524
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10dagobert.txt - 3052
+Dec 22 9:41:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10hunter.txt - 2355
+Dec 22 9:41:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10moritz1.txt - 1941
+Dec 22 9:41:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10moritz2.txt - 1018
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10ogrhymtor.txt - 7212
+Dec 22 9:40:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10ogrhymtordlg.txt - 78689
+Dec 22 9:39:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10titan.txt - 3062
+Dec 22 9:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z10woodspir.txt - 1629
+Dec 22 9:37:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11dhorlaw.txt - 8196
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11dhorlawdlg.txt - 66275
+Dec 22 9:38:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11ghost.txt - 2450
+Dec 22 9:39:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11hunter.txt - 2266
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11madghost.txt - 3736
+Dec 22 9:37:59 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11patrol.txt - 2029
+Dec 22 9:39:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11shavon.txt - 2507
+Dec 22 9:39:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11wayf.txt - 1521
+Dec 22 9:36:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11wayfb.txt - 1526
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11widow.txt - 2108
+Dec 22 9:37:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z11wyldrylm.txt - 2140
+Dec 22 9:40:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12beast1.txt - 3461
+Dec 22 9:41:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12beast2.txt - 2891
+Dec 22 9:42:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12beast3.txt - 3898
+Dec 22 9:42:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12beastwd.txt - 6268
+Dec 22 9:39:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12beastwddlg.txt - 62696
+Dec 22 9:39:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12boss.txt - 1947
+Dec 22 9:42:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12invader.txt - 1779
+Dec 22 9:39:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12moritz.txt - 2292
+Dec 22 9:36:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z12ogre.txt - 2063
+Dec 22 9:40:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13appr.txt - 3285
+Dec 22 9:36:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13beloch.txt - 9214
+Dec 22 9:40:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13demon1.txt - 2635
+Dec 22 9:36:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13growdemo.txt - 1987
+Dec 22 9:39:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13helma.txt - 2312
+Dec 22 9:40:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13imp.txt - 1436
+Dec 22 9:40:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13ivo.txt - 1796
+Dec 22 9:41:22 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13moritz.txt - 2561
+Dec 22 9:39:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13mortower.txt - 5612
+Dec 22 9:38:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13mortowerdlg.txt - 65522
+Dec 22 9:40:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13pris.txt - 1180
+Dec 22 9:42:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13pulldemon.txt - 2663
+Dec 22 9:36:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13shade1.txt - 1208
+Dec 22 9:38:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13shade2.txt - 1210
+Dec 22 9:41:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13shade3.txt - 1210
+Dec 22 9:40:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13twin.txt - 2584
+Dec 22 9:43:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z13wheel.txt - 909
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14gavin.txt - 1979
+Dec 22 9:36:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14gryfyn1.txt - 1378
+Dec 22 9:39:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14gryfyn2.txt - 5895
+Dec 22 9:39:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14guard.txt - 1614
+Dec 22 9:41:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14questa.txt - 3398
+Dec 22 9:38:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14rance.txt - 2761
+Dec 22 9:40:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14shigaz.txt - 2029
+Dec 22 9:40:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14vebeaux.txt - 18146
+Dec 22 9:39:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z14vebeauxdlg.txt - 164856
+Dec 22 9:40:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z15berwoods.txt - 5692
+Dec 22 9:39:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z15berwoodsdlg.txt - 61783
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z15ghost.txt - 3415
+Dec 22 9:39:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z15vinvella.txt - 4537
+Dec 22 9:39:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z15wayf.txt - 1516
+Dec 22 9:39:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16assault1.txt - 2903
+Dec 22 9:42:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16assault2.txt - 2391
+Dec 22 9:42:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16bandit.txt - 2015
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16berpits.txt - 11001
+Dec 22 9:42:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16berpitsdlg.txt - 77781
+Dec 22 9:38:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16demon1.txt - 3530
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16demon2.txt - 4277
+Dec 22 9:41:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16demon3.txt - 2233
+Dec 22 9:40:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16eudor.txt - 1733
+Dec 22 9:38:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16imp.txt - 2063
+Dec 22 9:42:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16orian.txt - 3186
+Dec 22 9:41:58 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16puppet.txt - 1941
+Dec 22 9:40:36 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z16zhossa.txt - 10944
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17audric.txt - 4778
+Dec 22 9:39:33 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17banroads.txt - 9298
+Dec 22 9:40:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17banroadsdlg.txt - 89246
+Dec 22 9:37:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17drake.txt - 2602
+Dec 22 9:41:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17harua.txt - 1573
+Dec 22 9:38:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17hunter.txt - 1921
+Dec 22 9:41:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17ogre.txt - 2474
+Dec 22 9:39:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17orian.txt - 1992
+Dec 22 9:38:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17patrol.txt - 3479
+Dec 22 9:37:28 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17shade.txt - 1525
+Dec 22 9:37:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17shigaz1.txt - 3447
+Dec 22 9:40:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17shigaz2.txt - 4458
+Dec 22 9:37:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z17wayf.txt - 1516
+Dec 22 9:40:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18decoy.txt - 1927
+Dec 22 9:41:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18deepwood.txt - 8791
+Dec 22 9:41:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18deepwooddlg.txt - 82283
+Dec 22 9:42:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18gavin2.txt - 1917
+Dec 22 9:41:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18hunter.txt - 2809
+Dec 22 9:40:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18melis.txt - 1945
+Dec 22 9:38:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18patrol.txt - 3706
+Dec 22 9:41:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18thehunt.txt - 2516
+Dec 22 9:39:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18varoche.txt - 3534
+Dec 22 9:36:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z18wayfarer.txt - 3041
+Dec 22 9:37:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19cahil1.txt - 1670
+Dec 22 9:38:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19cahil2.txt - 2429
+Dec 22 9:39:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19drake.txt - 1986
+Dec 22 9:40:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19ghost.txt - 2393
+Dec 22 9:41:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19golemenc.txt - 2197
+Dec 22 9:36:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19sev.txt - 1816
+Dec 22 9:39:06 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19whitepl.txt - 6321
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19whitepldlg.txt - 54109
+Dec 22 9:40:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z19zombie.txt - 2757
+Dec 22 9:41:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z1dungeon.txt - 7193
+Dec 22 9:38:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z1dungeondlg.txt - 72097
+Dec 22 9:39:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z1ghroz.txt - 1289
+Dec 22 9:41:52 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z1hansi.txt - 1995
+Dec 22 9:39:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z1kano.txt - 1833
+Dec 22 9:40:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z1quiria.txt - 2016
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z20final.txt - 2243
+Dec 22 9:38:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z20jarlsw.txt - 6076
+Dec 22 9:40:32 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z20jarlswdlg.txt - 46585
+Dec 22 9:41:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z20merten.txt - 2181
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z20siege.txt - 1611
+Dec 22 9:40:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z20vid.txt - 1860
+Dec 22 9:42:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z21harua.txt - 2784
+Dec 22 9:43:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z21moncamp.txt - 9170
+Dec 22 9:36:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z21moncampdlg.txt - 36430
+Dec 22 9:40:15 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z21shima.txt - 1028
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z22bossghost.txt - 2663
+Dec 22 9:37:34 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z22drake.txt - 3355
+Dec 22 9:40:41 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z22draketr.txt - 7499
+Dec 22 9:39:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z22draketrdlg.txt - 36844
+Dec 22 9:40:37 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z22nath.txt - 1538
+Dec 22 9:37:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z22titan.txt - 1923
+Dec 22 9:39:24 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z23jail.txt - 1164
+Dec 22 9:38:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z23jaildlg.txt - 8911
+Dec 22 9:38:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z2callan.txt - 1838
+Dec 22 9:40:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z2pc.txt - 946
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z2rbeard1.txt - 2488
+Dec 22 9:39:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z2rbeard2.txt - 4203
+Dec 22 9:41:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z2redtower.txt - 10097
+Dec 22 9:39:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z2redtowerdlg.txt - 165185
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z2souljar.txt - 2188
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z2wayf.txt - 2552
+Dec 22 9:39:23 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z3goldcrag.txt - 11631
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z3goldcragdlg.txt - 98142
+Dec 22 9:39:56 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z3levent.txt - 1922
+Dec 22 9:38:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z4angevine.txt - 1652
+Dec 22 9:40:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z4kvalands.txt - 7040
+Dec 22 9:39:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z4kvalandsdlg.txt - 72121
+Dec 22 9:40:46 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z4nightshade.txt - 2403
+Dec 22 9:40:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z4ogre.txt - 1661
+Dec 22 9:40:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z4prozz.txt - 1287
+Dec 22 9:38:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z4tolia.txt - 1868
+Dec 22 9:40:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z4wayf.txt - 1697
+Dec 22 9:40:49 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z5demon.txt - 2866
+Dec 22 9:37:31 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z5dragon.txt - 1585
+Dec 22 9:36:39 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z5drake.txt - 3608
+Dec 22 9:36:54 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z5frontguy.txt - 1957
+Dec 22 9:39:40 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z5specter.txt - 1932
+Dec 22 9:41:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z5thara.txt - 1734
+Dec 22 9:38:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z5zhethaerie.txt - 13123
+Dec 22 9:40:20 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z5zhethaeriedlg.txt - 103759
+Dec 22 9:42:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6chief.txt - 1997
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6fireguy.txt - 2207
+Dec 22 9:38:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6hunter.txt - 2312
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6neray.txt - 1342
+Dec 22 9:37:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6ogre.txt - 2202
+Dec 22 9:39:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6patrol.txt - 3084
+Dec 22 9:39:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6shrineguy.txt - 1742
+Dec 22 9:38:19 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6talky.txt - 1341
+Dec 22 9:37:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6wretchwar.txt - 12878
+Dec 22 9:40:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6wretchwardlg.txt - 55699
+Dec 22 9:40:25 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z6yevner.txt - 2197
+Dec 22 9:41:48 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7azarni.txt - 2245
+Dec 22 9:36:47 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7chief.txt - 2154
+Dec 22 9:37:42 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7dragon.txt - 6661
+Dec 22 9:40:45 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7golem.txt - 2962
+Dec 22 9:39:44 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7jhareth.txt - 15089
+Dec 22 9:41:00 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7jharethdlg.txt - 75147
+Dec 22 9:37:51 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7merula.txt - 4826
+Dec 22 9:40:05 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7neray.txt - 2504
+Dec 22 9:40:12 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7ogreminer.txt - 1622
+Dec 22 9:37:26 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7ore.txt - 730
+Dec 22 9:40:27 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7scout.txt - 1540
+Dec 22 9:39:04 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z7wayf.txt - 1727
+Dec 22 9:41:30 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8bigshaman.txt - 2190
+Dec 22 9:40:03 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8chief1.txt - 1240
+Dec 22 9:38:50 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8chief2.txt - 3110
+Dec 22 9:43:02 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8drake.txt - 2558
+Dec 22 9:37:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8shnrunk.txt - 2370
+Dec 22 9:39:08 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8slave.txt - 1721
+Dec 22 9:40:07 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8soldier.txt - 3353
+Dec 22 9:41:35 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8splinter.txt - 2759
+Dec 22 9:39:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8titan.txt - 3223
+Dec 22 9:41:13 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8titkeep.txt - 6736
+Dec 22 9:40:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8titkeepdlg.txt - 62640
+Dec 22 9:42:53 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z8wayf.txt - 1702
+Dec 22 9:39:01 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9ambush.txt - 2075
+Dec 22 9:39:10 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9basic.txt - 1625
+Dec 22 9:36:55 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9beast.txt - 1323
+Dec 22 9:36:38 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9boy.txt - 1829
+Dec 22 9:41:57 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9dhorlstead.txt - 11297
+Dec 22 9:39:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9dhorlsteaddlg.txt - 139723
+Dec 22 9:40:14 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9hunters.txt - 2423
+Dec 22 9:37:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9laurella.txt - 1459
+Dec 22 9:41:17 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\z9wayf.txt - 1552
+Dec 22 9:40:18 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\zonetemp.txt - 1277
+Dec 22 9:39:29 PM - C:\Program Files (x86)\Steam\steamapps\common\avadon the black fortress\Avadon Files\Scripts\zonetempdlg.txt - 6946
+
+UAC Disabled or not present
+

@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel;
-
+using Translations;
 namespace MASGAU
 {
     public abstract class AProgramWindow: AWindow
     {
         protected AProgramHandler<Location.LocationsHandler>  program_handler;
+
+        public AProgramWindow() {}
 
         protected AProgramWindow(AProgramHandler<Location.LocationsHandler>  program_handler, AWindow parent): base(parent) {
             this.program_handler = program_handler;
@@ -39,7 +41,7 @@ namespace MASGAU
             if(!Core.initialized) {
                 this.enableInterface();
                 this.Close();
-                throw new MException("Error","Something Went Wrong While Loading Settings.\nI Have No Idea What",false);
+                throw new MException(Strings.get("Error"),Strings.get("SettingsLoadError"),false);
             }
             this.Title = program_handler.program_title;
         }

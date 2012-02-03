@@ -1,14 +1,14 @@
-﻿using System.Net.Mail;
+﻿using System;
+using System.Net.Mail;
 using System.ComponentModel;
 
 namespace MASGAU
 {
     public class EmailHandler: BackgroundWorker
     {
+        public const string email_sender = "masgausubmissions@gmail.com";
+        public const string email_password = "0WCM;i$N";
 
-        public static string email_recepient = "submissions@masgau.org";
-        public static string email_sender = "submissions@masgau.org";
-        public static string email_password = "0WCM;i$N";
         public EmailHandler() {
 
         }
@@ -50,7 +50,7 @@ namespace MASGAU
 
             mail.To.Add(to);
             mail.Subject = title;
-            mail.Body = body;
+            mail.Body = body + Environment.NewLine + Environment.NewLine + "Sent from version " + Core.version;
             mail.ReplyToList.Add(new MailAddress(Core.settings.email));
                 
             //AlternateView planview = AlternateView.CreateAlternateViewFromString("This is my plain text content, viewable tby those clients that don't support html");
@@ -60,7 +60,7 @@ namespace MASGAU
 
             mail.IsBodyHtml = false;
             mail.Priority = MailPriority.High;
-            mail.Headers.Add("Disposition-Notification-To", "<" + email_recepient + ">");
+            mail.Headers.Add("Disposition-Notification-To", "<" + Core.submission_email + ">");
             // mail.Attachments.Add(Server.MapPath("/"));
             SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587)
             {
@@ -68,6 +68,13 @@ namespace MASGAU
                 EnableSsl = true
             };
             smtp.Send(mail);
+        }
+        public static bool validateEmailAddress(string email) {
+            if(email.Contains("@"))
+                return true;
+            else
+                return false;
+
         }
     }
 }

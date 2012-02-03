@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd" >
+  <!--  For some of these, there are pairs of strings that have the same name,
+        but one will have Title at the end, and the other Message.
+        These are for dialog boxes that are entirely translated, and should be
+        translated with the thought that they will be displayed together.
+        I tend to put random things, sometimes jokes, as the dialog titles,
+        and if I can I like to give the message an insulting tone.
+        Feel free to be clever and use your sense of humor!-->
+  
+  
+  <!-- Probably shouldn't translate this one -->
+  <string name="MASGAU">MASGAU</string>
+  <string name="MASGAUPlural">%MASGAU%'s</string>
+  
+  <!-- Common strings-->
+  <string name="Loading">Loading</string>
+
+  <string name="Portable">Portable</string>
+  <string name="MainProgram">Main Program</string>
+  <string name="AllUsersMode">All Users Mode</string>
+
+  <string name="File">File</string>
+  <string name="Stop">Stop</string>
+  <string name="Stopping">Stopping</string>
+  <string name="Finished">All done</string>
+
+  <!-- Button stuff (the underlines are for key combos, so choose letters wisely) -->
+  <string name="SelectButton">_Select</string>
+  <string name="SubmitButton">_Submit</string>
+  <string name="StopButton">_Stop</string>
+  <string name="SaveButton">_Save</string>
+  <string name="UploadButton">_Upload</string>
+  <string name="OKButton">_OK</string>
+  <string name="CancelButton">_Cancel</string>
+  <string name="YesButton">_Yes</string>
+  <string name="NoButton">_No</string>
+  <string name="MaybeButton">_Maybe</string>
+  <string name="CloseButton">_Close</string>
+  <string name="ChangeButton">_Change</string>
+  <string name="OpenButton">_Open</string>
+  <string name="ResetButton">_Reset</string>
+  <string name="SelectAllButton">Select _All</string>
+  <string name="SelectNoneButton">Select _None</string>
+  <string name="RestoreButton">_Restore</string>
+  <string name="SelectFilesButton">_Select Files</string>
+  <string name="OtherLocationButton">Other _Location...</string>
+  <string name="OtherUserButton">Other _User...</string>
+
+  <!-- Platform names -->	
+  <string name="Linux">Linux</string>
+  <string name="Windows">Windows</string>
+  <string name="PlayStation">PlayStation</string>
+  <string name="Steam">Steam</string>
+  
+	<!-- MessageBox strings-->	
+	<string name="ExceptionInformation">Exception Information</string>
+	
+	<!-- Email Button strings -->
+	<string name="CheckingConnection">Checking Connection...</string>
+	<string name="SendReport">_Send Report</string>
+	<string name="CantSendReport">Can't Send Report</string>
+	<string name="SendingReport">Sending Report...</string>
+	<string name="SendFailed">Send Failed</string>
+	<string name="ReportSent">Report Sent</string>
+	
+	<!-- Email prompt strings -->
+	<string name="EmailRequest">Please Enter Your E-Mail Address In Case I Need To Contact You For More Info</string>
+	<string name="ChangeLaterInSettings">You Can Change It Later In Settings</string>
+	
+	<!-- Settings -->	
+  <string name="Settings">Settings</string>
+  <string name="EmailAddress">E-Mail Address</string>
+  <string name="AutoUpdate">_Auto-Check For Updates</string>
+  <string name="IgnoreDates">_Ignore Dates During Backup</string>
+  <string name="BackupPath">Backup Path</string>
+  <string name="SteamPath">Steam Path</string>
+  <string name="CheckForUpdates">Check For _Updates</string>
+  <string name="VersioningEnable">Make _Extra Copies</string>
+  <string name="VersioningTime">At Least This Long Between Copies</string>
+  <string name="VersioningCount">At Most This Many Extra Copies</string>
+  <string name="AltInstallPaths">Alternate Install Paths</string>
+  <string name="AddAltPath">Add New Path</string>
+  <string name="RemoveNoAltPaths">Remove Nothing</string>
+  <string name="RemoveAltPaths">Remove Paths</string>
+  <string name="RemoveAltPath">Remove Path</string>
+  
+  <!-- Path choosing strings (the read/write errors here use ReadWriteErrorTitle for their titles) -->
+  <string name="SelectBackupPath">Choose where the backups will be saved</string>
+  <string name="SelectBackupPathReadError">%ReadPermissionError% the selected backup folder</string>
+  <string name="SelectBackupPathWriteError">%WritePermissionError% the selected backup folder</string>
+  <string name="SelectSyncPath">Choose where the saves will be synced</string>
+  <string name="SelectSyncPathReadError">%ReadPermissionError% the selected sync folder</string>
+  <string name="SelectSyncPathWriteError">%WritePermissionError% the selected sync folder</string>
+  <string name="SelectAltPath">Choose a new Alternative Install Path</string>
+  <string name="SelectAltPathReadError">Due to permissions or something, MASGAU can't read the folder you selected</string>
+  <string name="SelectAltPathDuplicateTitle">Duplication</string>
+  <string name="SelectAltPathDuplicateMessage">The path you selected has already been added</string>
+  <string name="SelectSteamPath">Choose where Steam is located</string>
+  <string name="SelectSteamPathRejectedTitle">No Go</string>
+  <string name="SelectSteamPathRejectedMessage">The selected folder does not contain Steam.exe, so it's probably not a Steam folder</string>
+
+  <!-- Restore process -->
+  <string name="RestoreTitle">MASGAU Is Restoring</string>
+  <string name="Restore">Restore</string>
+  <string name="Restoring">Restoring</string>
+  <string name="SelectFiles">Select Files</string>
+
+  <string name="RestoreNoCandidatesFound">No Restore Candidates Found</string>
+  <string name="RestoreNoLocationFound">No locations found</string>
+
+  <string name="RestoreRemovableDriveChoice">Choose the removable drive to restore to</string>
+  <string name="RestoreRemovableDrive">This removable drive will be used</string>
+
+  <string name="RestoreConfirmPath">Confirm Restore Location</string>
+  <string name="RestoreLocationChoice">Choose the location to restore to</string>
+  <string name="RestoreLocation">This location will be used</string>
+  <string name="RestoreUserChoice">Choose the user to restore to</string>
+  <string name="RestoreUser">This user will be used</string>
+  <string name="RestoreSelectFiles">Select Files To Restore</string>
+
+  <string name="RestoreNoFilesTitle">Restore Nothing? That's Stupid.</string>
+  <string name="RestoreNoFilesMessage">You haven't selected any files to restore.\nThink about it.</string>
+
+  <string name="RestoreComplete">Restore Complete</string>
+  <string name="RestoreMultipleArchivesTitle">Convenience?</string>
+  <string name="RestoreMultipleArchivesMessage">You're restoring more than one archive,\nwould you like MASGAU to not prompt you for input unless absolutely necessary?</string>
+  
+  <string name="RestoreSomeFailed">Some archives did not restore</string>
+  
+  
+  
+  <!-- Windows 7 Jump List -->
+  <string name="JumpMainProgram">%MainProgram%</string>
+  <string name="JumpMainProgramDescription">%Open% %MASGAUPlural% %MainProgram%</string>
+  <string name="JumpMainProgramAllUsers">%JumpMainProgram% (%AllUsersMode%)</string>
+  <string name="JumpMainProgramAllUsersDescription">Open %MASGAUPlural% %MainProgram% In %AllUsersMode%</string>
+  <string name="JumpAnalyzer">%AnalyzerWindowTitle%</string>
+  <string name="JumpAnalyzerDescription">%Open% %MASGAUPlural% %AnalyzerWindowTitle%</string>
+  <string name="JumpMonitor">%MonitorWindowTitle%</string>
+  <string name="JumpMonitorDescription">%Open% %MASGAUPlural% %MonitorWindowTitle%</string>
+
+  <!-- Monitor-specific strings -->
+  <string name="MonitorWindowTitle">Monitor</string>
+  
+  <!-- Analyzer-specific strings -->
+  <string name="AnalyzerWindowTitle">Save Game Analyzer</string>
+  <string name="GameNameQuestion">What Is The Game's Name?</string>
+  <string name="GameInstallQuestion">Where Is The Game Installed?</string>
+  <string name="GameSavesQuestion">Where Does The Game Keep Its Saves?</string>
+  <string name="ScanButton">_Scan And Generate Report</string>
+  <!-- Folder browser titles -->
+  <string name="GameInstallPrompt">Select Install Folder</string>
+  <string name="GameSavesPrompt">Select Save Location</string>
+	<!-- Playstation tab -->
+	<string name="PlayStationScanButton">Scan And Generate Report</string>
+	<string name="PlayStationCodeQuestion">What Is The Game's Code?</string>
+  <string name="PlayStationLocationQuestion">Where Are The PlayStation Saves?</string>
+  <string name="PlayStationLocationPrompt">Select PlayStation Saves Folder</string>
+	<!-- Searching window -->
+	<string name="SearchingWindowTitle">Seaching For Game Information...</string>
+  <string name="DumpingSaveFolder">Dumping Save Folder...</string>
+  <string name="DumpingInstallFolder">Dumping Install Folder...</string>
+  <string name="DumpingVirtualStoreFolder">Dumping VirtualStore Folders...</string>
+  <string name="ScanningLocalMachineRegistry">Scanning Local Machine Registry...</string>
+  <string name="ScanningCurrentUserRegistry">Scanning Current User Registry...</string>
+  <string name="ScanningStartMenu">Scanning Start Menu...</string>
+  <!-- Analyzer report -->
+	<string name="ReportWindowTitle">Here's The Report (Feel Free To Edit It)</string>
+	<string name="SaveReportQuestion">"Where Do You Want To Save The Report?"</string>
+  <string name="AnalyzerDisclaimer">Submitted reports are published to a public server. No one involved with MASGAU can be held liable for any repurcusions from the publishing of sensitive information through these reports, so please carefully look over and edit the report for any information that you do not want to be made public. By submitting a report you are agreeing that it is free for public dispersal.</string>
+	
+	<!-- File types -->
+	<string name="TxtFileDescription">Text file</string>
+	<string name="TxtFileDescriptionPlural">Text files</string>
+	<string name="AllFileDescription">All file</string>
+	<string name="AllFileDescriptionPlural">All files</string>
+	
+	<!-- Error messages -->
+  <string name="Error">Error</string>
+  <string name="ReadWriteErrorTitle">Literacy %Error%</string>
+  <!-- Permission errors -->
+  <string name="ReadPermissionError">You don't have permission to read from</string>
+  <string name="WritePermissionError">You don't have permission to write to</string>
+  
+  <!-- Write errors-->
+  <string name="WriteError">Error while trying to write</string>
+	<string name="WriteErrorPrompt">Pick somewhere else</string>
+  <!-- Settings errors-->
+  <string name="SettingsLoadError">Something Went Wrong While Loading Settings.\nI Have No Idea What</string>
+  <!-- Registry Errors -->
+  <string name="RegistryKeyLoadError">Error While Loading Registry Key</string>
+  
+	
+</strings>

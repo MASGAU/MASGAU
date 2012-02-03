@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="1" date="2011-12-25T00:00:00">
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2011-12-25T00:00:00">
   <!--This file contains games that have saves that are compatible with more than one platform-->
   <game name="Altitude">
     <title>Altitude</title>
     <location_path environment_variable="steamcommon" path="Altitude"/>
     <save path="config" type="Settings"/>
-    <contributer>AvvA</contributer>
+    <contributor>AvvA</contributor>
   </game>
   <game name="DontTakeItPersonallyBabeItJustAintYourStory">
     <title>don't take it personally, babe, it just ain't your story</title>
@@ -19,7 +19,7 @@
     <identifier filename="fs2_open*"/>
     <save path="data\players"/>
     <comment>Doesn't have a default install folder, so might require an Alt. Install Path.</comment>
-    <contributer>SanMadJack</contributer>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="UrQuanMasters">
     <title>The Ur-Quan Masters</title>
@@ -27,6 +27,6 @@
     <location_path environment_variable="userprofile" path=".uqm"/>
     <save path="save"/>
     <save filename="*.cfg" type="Settings"/>
-    <contributer>Scandalon</contributer>
+    <contributor>Scandalon</contributor>
   </game>
 </games>

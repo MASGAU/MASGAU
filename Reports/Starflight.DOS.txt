@@ -1,0 +1,103 @@
+Game Name: Starflight
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1
+
+Save Path: 
+ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{B7E55F18-66C5-4C34-916F-A5B9073AE56C}
+Value: ConfigGDFBinaryPath
+Data: 11/18/2011 12:19:06 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\goggame.dll - 204800
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSTARFLIGHT1
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSTARFLIGHT1
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSTARFLIGHT1
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+12/24/2011 1:25:51 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Starflight 1 and 2\Starflight 1\Documents\Manual.lnk - 1388
+11/9/2011 11:39:10 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\manual.pdf - 25496816
+12/24/2011 1:25:51 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Starflight 1 and 2\Starflight 1\Documents\Map.lnk - 1369
+11/15/2011 1:02:56 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\map.pdf - 791057
+12/24/2011 1:25:51 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Starflight 1 and 2\Starflight 1\Tools\Starflight starcodes.lnk - 1475
+11/3/2011 11:28:28 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\Starflight_codes_by_gog.exe - 779776
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+10/18/2011 1:31:40 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\dosboxSF1.conf - 7297
+10/18/2011 1:41:26 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\dosboxSF1_setup.conf - 7313
+11/17/2011 2:31:46 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\gfw_high.ico - 98513
+11/18/2011 12:19:06 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\goggame.dll - 204800
+11/9/2011 11:39:10 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\manual.pdf - 25496816
+11/15/2011 1:02:56 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\map.pdf - 791057
+11/3/2011 11:28:28 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\Starflight_codes_by_gog.exe - 779776
+1/10/2012 10:30:24 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\stderr.txt - 0
+1/10/2012 10:30:44 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\stdout.txt - 176
+4/20/2010 12:37:04 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\Support.ico - 62895
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\GOBACK.BAT - 744
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\HDNOTESA.TXT - 612
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\HDNOTESB.TXT - 977
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\REMEMBER.BAT - 1267
+10/18/2011 1:35:18 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\RESET.BAT - 41
+1/10/2012 10:30:44 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\STARA.COM - 256000
+1/10/2012 10:30:44 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\STARB.COM - 362496
+10/18/2011 1:11:56 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\STARFLT.COM - 54183
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\THROWOUT.BAT - 1690
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\XXXXXXXX.BAT - 338
+10/18/2011 1:11:56 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\YESNO.COM - 30
+1/4/1988 3:30:20 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\START\STARA.COM - 256000
+1/4/1988 3:45:20 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\START\STARB.COM - 362496
+1/4/1988 3:44:52 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\START\STARFLT.COM - 54183
+5/11/1987 2:22:16 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\START\YESNO.COM - 30
+
+Install Folder Dump: 
+10/18/2011 1:31:40 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\dosboxSF1.conf - 7297
+10/18/2011 1:41:26 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\dosboxSF1_setup.conf - 7313
+11/17/2011 2:31:46 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\gfw_high.ico - 98513
+11/18/2011 12:19:06 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\goggame.dll - 204800
+11/9/2011 11:39:10 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\manual.pdf - 25496816
+11/15/2011 1:02:56 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\map.pdf - 791057
+11/3/2011 11:28:28 AM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\Starflight_codes_by_gog.exe - 779776
+1/10/2012 10:30:24 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\stderr.txt - 0
+1/10/2012 10:30:44 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\stdout.txt - 176
+4/20/2010 12:37:04 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\Support.ico - 62895
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\GOBACK.BAT - 744
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\HDNOTESA.TXT - 612
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\HDNOTESB.TXT - 977
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\REMEMBER.BAT - 1267
+10/18/2011 1:35:18 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\RESET.BAT - 41
+1/10/2012 10:30:44 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\STARA.COM - 256000
+1/10/2012 10:30:44 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\STARB.COM - 362496
+10/18/2011 1:11:56 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\STARFLT.COM - 54183
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\THROWOUT.BAT - 1690
+10/18/2011 1:11:50 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\XXXXXXXX.BAT - 338
+10/18/2011 1:11:56 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\PLAY\YESNO.COM - 30
+1/4/1988 3:30:20 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\START\STARA.COM - 256000
+1/4/1988 3:45:20 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\START\STARB.COM - 362496
+1/4/1988 3:44:52 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\START\STARFLT.COM - 54183
+5/11/1987 2:22:16 PM - ProgramFilesX86\GOG.com\Starflight 1 and 2\Starflight 1\STARFLT\START\YESNO.COM - 30
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+1/9/2012 11:31:42 PM - VirtualStore\Program Files (x86)\GOG.com\Starflight 1 and 2\Starflight 1\stderr.txt - 0
+1/9/2012 11:31:59 PM - VirtualStore\Program Files (x86)\GOG.com\Starflight 1 and 2\Starflight 1\stdout.txt - 515

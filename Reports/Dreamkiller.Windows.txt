@@ -1,0 +1,296 @@
+Comments:
+	<game name="Dreamkiller" platform="Windows">
+		<title>Dreamkiller</title>
+		<location_path environment_variable="userdocuments" path="Aspyr\Dreamkiller" />
+		<save />
+		<contributer>Arc Angel</contributer>
+	</game>
+	
+	
+Game Name: Dreamkiller
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Steam\steamapps\common\dreamkiller
+
+Save Path: 
+UserDocuments\Aspyr\Dreamkiller
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{65866AD9-9295-4E6B-827D-AD92DA54EF05}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\Steam\steamapps\common\dreamkiller
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{65866AD9-9295-4E6B-827D-AD92DA54EF05}
+Value: ConfigGDFBinaryPath
+Data: Jan 04 7:22:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\dreamkiller.exe - 1399032
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{65866AD9-9295-4E6B-827D-AD92DA54EF05}
+Value: AppExePath
+Data: Jan 04 7:22:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\dreamkiller.exe - 1399032
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 24500
+Value: InstallLocation
+Data: ProgramFilesX86\Steam\steamapps\common\dreamkiller
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Jan 15 12:15:05 AM - UserDocuments\Aspyr\Dreamkiller\Config.txt - 1263
+Jan 15 12:27:18 AM - UserDocuments\Aspyr\Dreamkiller\Saves\a00000001.msv - 3419586
+
+Install Folder Dump: 
+Jan 04 7:21:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\24500_install.vdf - 1249
+Jan 04 7:21:42 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\dbgeng.dll - 3174144
+Jan 04 7:21:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\dbghelp.dll - 1045128
+Jan 04 7:21:38 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\dreamkiller.ex - 2257728
+Jan 04 7:22:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\dreamkiller.exe - 1399032
+Jan 04 9:04:55 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\fonts.mpk - 45664
+Jan 04 7:21:36 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\launcher_french.dll - 292088
+Jan 04 7:21:46 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\launcher_german.dll - 292088
+Jan 04 7:21:26 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\launcher_italian.dll - 287992
+Jan 04 7:21:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\launcher_spanish.dll - 292088
+Jan 04 7:55:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C02L07_Asylum.mpk - 123224164
+Jan 04 7:21:20 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C02L07_Asylum_bytecode.mpk - 913420
+Jan 05 4:38:21 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C02L07_Asylum_stream.mpk - 529454728
+Jan 05 4:35:56 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L01_ZOO.mpk - 105307584
+Jan 04 9:03:41 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L01_ZOO_bytecode.mpk - 834104
+Jan 05 4:43:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L01_ZOO_stream.mpk - 441282580
+Jan 05 4:31:11 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L02_Industrial_Nightmare.mpk - 131175688
+Jan 04 8:00:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L02_Industrial_Nightmare_bytecode.mpk - 859356
+Jan 05 4:58:40 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L02_Industrial_Nightmare_stream.mpk - 431790124
+Jan 04 9:49:47 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L03_Skycraper.mpk - 135290656
+Jan 04 9:04:53 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L03_Skycraper_bytecode.mpk - 837256
+Jan 05 4:38:49 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L03_Skycraper_stream.mpk - 598183144
+Jan 04 7:54:17 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L04_Frozen.mpk - 132945752
+Jan 04 7:21:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L04_Frozen_bytecode.mpk - 950328
+Jan 05 4:53:14 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L04_Frozen_stream.mpk - 630298056
+Jan 05 4:44:54 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L05_Gothic_Castle.mpk - 110132744
+Jan 04 9:03:46 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L05_Gothic_Castle_bytecode.mpk - 854908
+Jan 05 4:46:10 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L05_Gothic_Castle_stream.mpk - 515181228
+Jan 04 10:49:10 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L06_High_Tower.mpk - 100645764
+Jan 04 9:28:50 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L06_High_Tower_bytecode.mpk - 802172
+Jan 04 7:56:52 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C1L06_High_Tower_stream.mpk - 411354580
+Jan 05 4:49:25 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C2L08_Puppet_Teathre.mpk - 106699136
+Jan 05 4:46:10 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C2L08_Puppet_Teathre_bytecode.mpk - 797876
+Jan 04 10:12:09 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C2L08_Puppet_Teathre_stream.mpk - 463316608
+Jan 05 4:29:22 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C3L09_Dark_Forest.mpk - 99566536
+Jan 04 7:42:32 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C3L09_Dark_Forest_bytecode.mpk - 799028
+Jan 05 4:49:04 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C3L09_Dark_Forest_stream.mpk - 420625248
+Jan 05 4:34:40 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L10_Horror_School.mpk - 113936840
+Jan 04 7:21:20 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L10_Horror_School_bytecode.mpk - 846164
+Jan 05 4:33:23 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L10_Horror_School_stream.mpk - 462715912
+Jan 04 9:25:52 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L11_Lost_Train.mpk - 177993740
+Jan 04 9:04:43 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L11_Lost_Train_bytecode.mpk - 1062208
+Jan 04 9:28:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L11_Lost_Train_stream.mpk - 684486092
+Jan 05 4:46:08 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L12_Other_World.mpk - 103012424
+Jan 04 7:21:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L12_Other_World_bytecode.mpk - 900516
+Jan 05 4:23:10 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_C4L12_Other_World_stream.mpk - 532385904
+Jan 04 9:12:25 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD01_Gothic.mpk - 49686220
+Jan 04 9:50:04 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD01_Gothic_bytecode.mpk - 460496
+Jan 05 4:54:52 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD01_Gothic_stream.mpk - 287720396
+Jan 04 7:27:16 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD02_ZOO.mpk - 51482044
+Jan 04 7:21:35 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD02_ZOO_bytecode.mpk - 434664
+Jan 04 8:01:11 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD02_ZOO_stream.mpk - 330123104
+Jan 04 9:04:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD03_Puppet.mpk - 49166688
+Jan 04 7:22:58 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD03_Puppet_bytecode.mpk - 425876
+Jan 04 9:04:28 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD03_Puppet_stream.mpk - 271770312
+Jan 04 9:40:43 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD04_Steam.mpk - 51173480
+Jan 04 10:12:15 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD04_Steam_bytecode.mpk - 440044
+Jan 04 7:53:16 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD04_Steam_stream.mpk - 267977208
+Jan 04 9:03:18 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD05_Industrial.mpk - 51392220
+Jan 04 10:55:37 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD05_Industrial_bytecode.mpk - 441280
+Jan 04 7:42:27 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD05_Industrial_stream.mpk - 255918764
+Jan 05 4:27:41 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD06_Other_World.mpk - 55262212
+Jan 04 10:55:43 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD06_Other_World_bytecode.mpk - 456804
+Jan 04 7:58:09 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD06_Other_World_stream.mpk - 274941324
+Jan 04 8:00:54 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD07_Dark_forest.mpk - 57306340
+Jan 04 7:22:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD07_Dark_forest_bytecode.mpk - 394396
+Jan 04 10:51:20 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD07_Dark_forest_stream.mpk - 333695464
+Jan 04 9:13:46 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD08_Tower.mpk - 46561324
+Jan 04 7:22:01 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD08_Tower_bytecode.mpk - 440428
+Jan 05 4:45:53 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\level_MPD08_Tower_stream.mpk - 215563604
+Jan 04 7:22:03 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\localized_readme.exe - 66808
+Jan 04 7:45:18 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies.mpk - 272851320
+Jan 04 7:21:28 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\NxCharacter.dll - 124184
+Jan 04 7:21:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\NxCooking.dll - 390424
+Jan 04 7:21:18 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\pack.list - 2027
+Jan 04 7:25:26 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\shared.mpk - 33901048
+Jan 04 7:28:01 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\shared_bytecode.mpk - 443936
+Jan 04 7:39:19 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\shared_stream.mpk - 96817208
+Jan 04 7:21:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\steam_api.dll - 115960
+Jan 04 9:04:58 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000000_0001.ogg - 420665
+Jan 05 4:23:12 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000001_0001.ogg - 490593
+Jan 04 7:21:12 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000002_0001.ogg - 545268
+Jan 04 9:49:54 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000003_0001.ogg - 136706
+Jan 04 10:53:46 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000004_0001.ogg - 5549361
+Jan 04 8:00:00 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000005_0001.ogg - 4150520
+Jan 04 7:21:58 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000005_0003.ogg - 4175740
+Jan 04 7:22:56 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000005_0004.ogg - 4142678
+Jan 04 9:04:47 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000005_0005.ogg - 4179517
+Jan 04 7:54:17 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000005_0006.ogg - 4162660
+Jan 04 7:53:35 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000006_0001.ogg - 2021586
+Jan 04 9:03:35 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000006_0003.ogg - 2019772
+Jan 05 4:22:20 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000006_0004.ogg - 2019655
+Jan 04 7:39:38 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000006_0005.ogg - 2035887
+Jan 04 7:27:58 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000006_0006.ogg - 2011649
+Jan 04 7:27:44 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000007_0001.ogg - 2841082
+Jan 05 4:38:37 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000007_0003.ogg - 2846151
+Jan 05 4:46:39 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000007_0004.ogg - 2845540
+Jan 04 7:42:52 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000007_0005.ogg - 2828243
+Jan 04 7:22:27 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000007_0006.ogg - 2836629
+Jan 04 7:21:52 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000008_0001.ogg - 4010341
+Jan 05 4:33:40 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000008_0003.ogg - 4035548
+Jan 05 4:36:10 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000008_0004.ogg - 4034396
+Jan 04 7:21:56 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000008_0005.ogg - 3993463
+Jan 04 9:04:37 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000008_0006.ogg - 4029251
+Jan 04 10:55:31 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000009_0001.ogg - 4437568
+Jan 04 9:04:10 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000009_0003.ogg - 4387624
+Jan 04 7:59:24 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000009_0004.ogg - 4382556
+Jan 05 4:46:35 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000009_0005.ogg - 4315029
+Jan 04 7:58:43 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\movies\00000009_0006.ogg - 4400462
+Jan 04 7:55:24 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2005_d3dx9_25_x64.cab - 1347346
+Jan 05 4:22:08 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2005_d3dx9_25_x86.cab - 1078954
+Jan 05 4:36:21 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2006_d3dx9_30_x64.cab - 1397830
+Jan 04 7:23:06 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+Jan 05 4:23:22 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2006_MDX1_x86.cab - 916422
+Jan 05 4:46:35 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162622
+Jan 04 9:04:56 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2006_XACT_x64.cab - 179125
+Jan 05 4:46:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2006_XACT_x86.cab - 133095
+Jan 04 7:39:30 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2006_xinput_x64.cab - 87093
+Jan 04 9:41:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Apr2006_xinput_x86.cab - 46002
+Jan 04 7:21:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\APR2007_d3dx10_33_x64.cab - 698612
+Jan 05 4:22:30 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\APR2007_d3dx10_33_x86.cab - 695857
+Jan 05 4:22:32 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\APR2007_d3dx9_33_x64.cab - 1607358
+Jan 04 7:21:40 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\APR2007_d3dx9_33_x86.cab - 1606039
+Jan 04 7:28:03 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\APR2007_XACT_x64.cab - 195758
+Jan 04 9:28:58 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\APR2007_XACT_x86.cab - 151225
+Jan 05 4:45:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\APR2007_xinput_x64.cab - 96817
+Jan 04 10:12:51 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\APR2007_xinput_x86.cab - 53302
+Jan 04 7:27:56 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2005_d3dx9_27_x64.cab - 1350534
+Jan 04 8:01:09 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+Jan 04 7:21:27 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2006_XACT_x64.cab - 182895
+Jan 05 4:22:00 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2006_XACT_x86.cab - 137227
+Jan 04 7:21:27 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2006_xinput_x64.cab - 87134
+Jan 04 7:21:58 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2006_xinput_x86.cab - 46050
+Jan 04 7:21:24 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2007_d3dx10_35_x64.cab - 852278
+Jan 04 9:03:51 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2007_d3dx10_35_x86.cab - 796859
+Jan 04 9:04:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2007_d3dx9_35_x64.cab - 1800152
+Jan 04 9:04:40 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2007_d3dx9_35_x86.cab - 1708144
+Jan 04 10:56:09 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2007_XACT_x64.cab - 198088
+Jan 04 9:03:43 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\AUG2007_XACT_x86.cab - 153004
+Jan 05 4:29:33 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2008_d3dx10_39_x64.cab - 867604
+Jan 05 4:46:03 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2008_d3dx10_39_x86.cab - 849159
+Jan 04 10:56:34 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2008_d3dx9_39_x64.cab - 1794076
+Jan 04 9:03:44 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2008_d3dx9_39_x86.cab - 1464664
+Jan 05 4:46:14 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2008_XACT_x64.cab - 121824
+Jan 04 8:00:02 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2008_XACT_x86.cab - 93004
+Jan 05 4:46:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2008_XAudio_x64.cab - 271360
+Jan 05 4:22:23 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Aug2008_XAudio_x86.cab - 269842
+Jan 04 10:13:11 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\BDANT.cab - 1155483
+Jan 04 9:04:50 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\BDAXP.cab - 975148
+Jan 04 7:21:38 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Dec2005_d3dx9_28_x64.cab - 1357976
+Jan 04 10:52:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Dec2005_d3dx9_28_x86.cab - 1079456
+Jan 04 9:50:16 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\DEC2006_d3dx10_00_x64.cab - 212799
+Jan 04 9:28:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\DEC2006_d3dx10_00_x86.cab - 191720
+Jan 04 7:42:49 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\DEC2006_d3dx9_32_x64.cab - 1571154
+Jan 05 4:45:16 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+Jan 04 9:50:09 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\DEC2006_XACT_x64.cab - 192475
+Jan 05 4:23:15 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\DEC2006_XACT_x86.cab - 145591
+Jan 04 7:28:00 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\DSETUP.dll - 94024
+Jan 05 4:46:35 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\dsetup32.dll - 1691464
+Jan 04 7:25:34 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\dxdllreg_x86.cab - 44444
+Jan 04 9:15:40 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\dxnt.cab - 13264160
+Jan 04 8:01:14 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\DXSETUP.exe - 525128
+Jan 05 4:22:00 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\dxupdate.cab - 95296
+Jan 05 4:46:23 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Feb2005_d3dx9_24_x64.cab - 1247499
+Jan 05 4:36:14 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Feb2005_d3dx9_24_x86.cab - 1013217
+Jan 05 4:46:22 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Feb2006_d3dx9_29_x64.cab - 1362788
+Jan 04 7:21:52 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Feb2006_d3dx9_29_x86.cab - 1084712
+Jan 04 7:53:28 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Feb2006_XACT_x64.cab - 178351
+Jan 04 10:56:10 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Feb2006_XACT_x86.cab - 132409
+Jan 05 4:46:15 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\FEB2007_XACT_x64.cab - 194675
+Jan 04 7:58:20 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\FEB2007_XACT_x86.cab - 147975
+Jan 04 9:05:10 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Jun2005_d3dx9_26_x64.cab - 1335994
+Jan 04 7:21:24 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Jun2005_d3dx9_26_x86.cab - 1064917
+Jan 05 4:34:42 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2006_XACT_x64.cab - 180777
+Jan 04 7:27:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2006_XACT_x86.cab - 133663
+Jan 04 7:21:24 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2007_d3dx10_34_x64.cab - 699036
+Jan 05 4:22:18 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2007_d3dx10_34_x86.cab - 698472
+Jan 04 7:22:17 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2007_d3dx9_34_x64.cab - 1607766
+Jan 04 9:04:22 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2007_d3dx9_34_x86.cab - 1607286
+Jan 04 7:22:32 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2007_XACT_x64.cab - 197122
+Jan 04 9:04:38 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2007_XACT_x86.cab - 152909
+Jan 04 7:53:46 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_d3dx10_38_x64.cab - 867828
+Jan 04 10:54:25 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+Jan 05 4:38:46 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_d3dx9_38_x64.cab - 1792600
+Jan 05 4:38:36 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+Jan 04 7:22:57 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_X3DAudio_x64.cab - 55154
+Jan 04 7:54:20 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_X3DAudio_x86.cab - 21897
+Jan 04 7:57:01 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_XACT_x64.cab - 121046
+Jan 05 4:45:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_XACT_x86.cab - 93120
+Jan 04 9:12:41 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_XAudio_x64.cab - 269620
+Jan 04 7:22:06 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\JUN2008_XAudio_x86.cab - 269016
+Jan 04 7:45:31 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_d3dx10_37_x64.cab - 844884
+Jan 05 4:22:14 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_d3dx10_37_x86.cab - 818252
+Jan 05 4:22:12 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_d3dx9_37_x64.cab - 1769854
+Jan 05 4:46:28 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_d3dx9_37_x86.cab - 1443282
+Jan 05 4:21:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_X3DAudio_x64.cab - 55058
+Jan 04 9:04:58 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+Jan 04 7:21:27 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_XACT_x64.cab - 122328
+Jan 04 7:54:20 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_XACT_x86.cab - 93726
+Jan 05 4:45:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_XAudio_x64.cab - 251194
+Jan 04 7:58:46 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2008_XAudio_x86.cab - 226242
+Jan 05 4:27:55 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+Jan 05 4:46:27 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+Jan 04 7:22:43 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_d3dx9_41_x64.cab - 1973694
+Jan 04 7:21:48 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+Jan 04 7:21:16 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_X3DAudio_x64.cab - 54592
+Jan 04 7:21:26 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+Jan 05 4:22:25 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_XACT_x64.cab - 121498
+Jan 04 10:49:42 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_XACT_x86.cab - 92732
+Jan 05 4:33:51 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_XAudio_x64.cab - 275036
+Jan 05 4:22:01 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Mar2009_XAudio_x86.cab - 273010
+Jan 04 9:03:35 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2007_d3dx10_36_x64.cab - 864592
+Jan 05 4:45:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2007_d3dx10_36_x86.cab - 803884
+Jan 05 4:22:16 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2007_d3dx9_36_x64.cab - 1802050
+Jan 04 7:22:02 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2007_d3dx9_36_x86.cab - 1709352
+Jan 04 7:39:40 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\NOV2007_X3DAudio_x64.cab - 46144
+Jan 05 4:22:04 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\NOV2007_X3DAudio_x86.cab - 18488
+Jan 05 4:22:00 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\NOV2007_XACT_x64.cab - 196754
+Jan 05 4:33:49 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\NOV2007_XACT_x86.cab - 148264
+Jan 04 9:04:21 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_d3dx10_40_x64.cab - 994146
+Jan 05 4:45:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_d3dx10_40_x86.cab - 965413
+Jan 04 9:50:31 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_d3dx9_40_x64.cab - 1906870
+Jan 04 8:01:02 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+Jan 04 9:26:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_X3DAudio_x64.cab - 55110
+Jan 05 4:31:19 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_X3DAudio_x86.cab - 21836
+Jan 05 4:45:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_XACT_x64.cab - 121746
+Jan 05 4:21:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_XACT_x86.cab - 92688
+Jan 04 7:59:27 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_XAudio_x64.cab - 273990
+Jan 05 4:36:04 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Nov2008_XAudio_x86.cab - 273203
+Jan 04 7:21:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Oct2005_xinput_x64.cab - 86029
+Jan 04 7:42:38 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\Oct2005_xinput_x86.cab - 45359
+Jan 05 4:46:33 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\OCT2006_d3dx9_31_x64.cab - 1412894
+Jan 05 4:22:14 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\OCT2006_d3dx9_31_x86.cab - 1127209
+Jan 05 4:22:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\OCT2006_XACT_x64.cab - 182361
+Jan 05 4:21:59 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\DirectX\OCT2006_XACT_x86.cab - 138017
+Jan 04 7:47:17 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\redist\PhysX\PhysX_9.09.0814_SystemSoftware.exe - 41212184
+Jan 04 7:21:18 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\Support\readme_de.txt - 6737
+Jan 04 7:21:18 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\Support\readme_en.txt - 6011
+Jan 04 7:21:13 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\Support\readme_fr.txt - 6448
+Jan 04 7:22:29 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\Support\readme_it.txt - 6463
+Jan 04 7:22:05 PM - ProgramFilesX86\Steam\steamapps\common\dreamkiller\Support\readme_sp.txt - 6591
+
+UAC Disabled or not present
+

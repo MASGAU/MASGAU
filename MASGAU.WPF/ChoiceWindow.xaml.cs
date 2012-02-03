@@ -11,7 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MASGAU.Communication.Progress;
-
+using Translations;
 namespace MASGAU
 {
     /// <summary>
@@ -22,6 +22,8 @@ namespace MASGAU
         public ChoiceWindow(string title, string message, List<string> options, string default_option, AWindow owner): base(owner)
         {
             InitializeComponent();
+            WPFHelpers.translateContent(cancelBtn);
+            WPFHelpers.translateContent(selectBtn);
             int selected = 0;
             this.Title = title;
             messageGrp.Header = message;
@@ -32,6 +34,7 @@ namespace MASGAU
                 selected++;
             }
         }
+
 
         public override void updateProgress(ProgressUpdatedEventArgs e)
         {

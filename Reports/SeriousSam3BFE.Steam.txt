@@ -1,0 +1,142 @@
+Comments:
+  <game name="SeriousSam3BFE" platform="Steam">
+    <title>Serious Sam 3: BFE</title>
+    <location_path environment_variable="steamuserdata" path="41070\local" />
+    <save />
+    <contributer>%USER%</contributer>
+  </game>
+  
+  
+  
+Game Name: Serious Sam 3: BFE
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Steam\steamapps\common\serious sam 3
+
+Save Path: 
+ProgramFilesX86\Steam\userdata\###\41070
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 41070
+Value: InstallLocation
+Data: ProgramFilesX86\Steam\steamapps\common\serious sam 3
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Jan 02 8:24:39 PM - ProgramFilesX86\Steam\userdata\###\41070\remotecache.vdf - 270
+Jan 02 8:24:35 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3.ini - 12771
+Jan 02 8:12:54 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000012_QuickSave.sav - 6291456
+Jan 02 8:12:54 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000012_QuickSave_Info.nfo - 862
+Jan 02 8:12:54 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000012_QuickSave_Name.nfo - 37
+Jan 02 8:12:54 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000012_QuickSave_Thumb.tga - 196626
+Jan 02 8:13:46 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000013_QuickSave.sav - 6291456
+Jan 02 8:13:46 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000013_QuickSave_Info.nfo - 862
+Jan 02 8:13:46 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000013_QuickSave_Name.nfo - 37
+Jan 02 8:13:46 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000013_QuickSave_Thumb.tga - 196626
+Jan 02 8:15:37 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000014_QuickSave.sav - 6291456
+Jan 02 8:15:37 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000014_QuickSave_Info.nfo - 872
+Jan 02 8:15:37 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000014_QuickSave_Name.nfo - 37
+Jan 02 8:15:37 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000014_QuickSave_Thumb.tga - 196626
+Jan 02 8:16:44 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000015_QuickSave.sav - 6291456
+Jan 02 8:16:44 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000015_QuickSave_Info.nfo - 872
+Jan 02 8:16:44 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000015_QuickSave_Name.nfo - 37
+Jan 02 8:16:44 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000015_QuickSave_Thumb.tga - 196626
+Jan 02 8:18:03 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000016_QuickSave.sav - 6291456
+Jan 02 8:18:03 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000016_QuickSave_Info.nfo - 872
+Jan 02 8:18:03 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000016_QuickSave_Name.nfo - 37
+Jan 02 8:18:03 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000016_QuickSave_Thumb.tga - 196626
+Jan 02 8:18:42 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000017_QuickSave.sav - 6291456
+Jan 02 8:18:41 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000017_QuickSave_Info.nfo - 872
+Jan 02 8:18:41 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000017_QuickSave_Name.nfo - 37
+Jan 02 8:18:42 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000017_QuickSave_Thumb.tga - 196626
+Jan 02 8:23:17 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000018_QuickSave.sav - 6291456
+Jan 02 8:23:16 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000018_QuickSave_Info.nfo - 874
+Jan 02 8:23:16 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000018_QuickSave_Name.nfo - 37
+Jan 02 8:23:17 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000018_QuickSave_Thumb.tga - 196626
+Jan 02 8:23:20 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000019_QuickSave.sav - 6291456
+Jan 02 8:23:20 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000019_QuickSave_Info.nfo - 874
+Jan 02 8:23:20 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000019_QuickSave_Name.nfo - 37
+Jan 02 8:23:20 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000019_QuickSave_Thumb.tga - 196626
+Jan 02 8:24:04 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000020_QuickSave.sav - 6291456
+Jan 02 8:24:04 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000020_QuickSave_Info.nfo - 874
+Jan 02 8:24:04 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000020_QuickSave_Name.nfo - 37
+Jan 02 8:24:04 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000020_QuickSave_Thumb.tga - 196626
+Jan 02 8:24:28 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000021_QuickSave.sav - 6291456
+Jan 02 8:24:27 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000021_QuickSave_Info.nfo - 875
+Jan 02 8:24:27 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000021_QuickSave_Name.nfo - 38
+Jan 02 8:24:28 PM - ProgramFilesX86\Steam\userdata\###\41070\local\SeriousSam3\SavedGames\0000000021_QuickSave_Thumb.tga - 196626
+Jan 02 8:24:33 PM - ProgramFilesX86\Steam\userdata\###\41070\remote\playerprofile.dat - 2765
+
+Install Folder Dump: 
+Jan 01 8:52:21 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\installscript.vdf - 619
+Jan 02 6:01:41 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Bin\sam3.exe - 15946392
+Jan 01 8:49:53 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Bin\sam3_unrestricted.exe - 15956632
+Jan 01 8:50:34 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Bin\steam_api.dll - 124712
+Jan 02 6:01:27 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\All_01.gro - 1717694285
+Jan 02 5:10:00 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\All_02.gro - 1665834429
+Jan 02 5:15:18 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\All_145562.gro - 885503377
+Jan 02 4:02:30 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\All_147686.gro - 162461539
+Jan 01 9:25:50 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\All_148899.gro - 47221533
+Jan 01 9:04:27 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\CachedShaders_PC.gro - 7204800
+Jan 01 8:54:34 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\SignatureCatalog.dat - 1382244
+Jan 01 8:52:21 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\AdvancedGfxOptions.xml - 2420
+Jan 01 8:54:34 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\AutoDetect.lua - 46692
+Jan 01 8:49:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\autoexec.cfg - 173
+Jan 01 8:54:27 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\autoexec_dedserver.cfg - 631
+Jan 01 8:49:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\CheckDriver.lua - 1853
+Jan 01 8:53:17 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\CPU-options.xml - 4820
+Jan 01 8:50:27 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\CPU-QL1.cfg - 603
+Jan 01 8:55:11 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\CPU-QL2.cfg - 603
+Jan 01 8:52:21 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\CPU-QL3.cfg - 605
+Jan 01 8:49:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\CPU-QL4.cfg - 607
+Jan 01 8:50:55 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\CPU-QL5.cfg - 609
+Jan 01 8:49:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\GPU-options.xml - 14636
+Jan 01 8:53:37 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\GPU-QL1.cfg - 1546
+Jan 01 8:53:17 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\GPU-QL2.cfg - 1548
+Jan 01 8:54:34 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\GPU-QL3.cfg - 1547
+Jan 01 8:49:38 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\GPU-QL4.cfg - 1558
+Jan 01 8:49:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\GPU-QL5.cfg - 1551
+Jan 01 8:51:32 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\TEX-options.xml - 2431
+Jan 01 8:49:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\TEX-QL1.cfg - 179
+Jan 01 8:53:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\TEX-QL2.cfg - 180
+Jan 01 8:49:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\TEX-QL3.cfg - 181
+Jan 01 8:52:21 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\TEX-QL4.cfg - 181
+Jan 01 8:52:23 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Content\SeriousSam3\Config\TEX-QL5.cfg - 181
+Jan 02 8:24:35 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Log\Sam3.All.log - 45944
+Jan 02 8:24:35 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Log\Sam3.log - 18086
+Jan 01 8:50:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\APR2007_xinput_x86.cab - 53302
+Jan 01 8:50:44 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\DSETUP.dll - 89944
+Jan 01 8:53:39 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\dsetup32.dll - 1801048
+Jan 01 8:50:42 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\dxdllreg_x86.cab - 42410
+Jan 01 9:06:06 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\dxnt.cab - 13264168
+Jan 01 8:50:27 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\DXSETUP.exe - 537432
+Jan 01 8:50:55 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\dxupdate.cab - 94011
+Jan 01 8:51:32 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\Feb2010_X3DAudio_x86.cab - 20713
+Jan 01 8:51:11 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\Jun2010_D3DCompiler_43_x86.cab - 931471
+Jan 01 8:50:09 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\Jun2010_d3dx9_43_x86.cab - 768036
+Jan 01 8:52:21 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Redist\DirectX\Jun2010_XAudio_x86.cab - 278060
+Jan 02 7:34:12 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0x06\0x06b6562d.shc - 3838
+Jan 02 7:34:11 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0x14\0x14d87a77.shc - 5364
+Jan 02 7:34:12 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0x35\0x358d3f5b.shc - 5746
+Jan 02 7:34:11 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0x3b\0x3b64397f.shc - 4612
+Jan 02 7:34:13 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0x7e\0x7ed03d62.shc - 5830
+Jan 02 7:34:11 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0x98\0x9800ba65.shc - 1078
+Jan 02 7:34:08 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0xb8\0xb8342c95.shc - 465
+Jan 02 7:34:11 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0xc6\0xc687aa90.shc - 3428
+Jan 02 7:34:08 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0xc8\0xc8f5e44a.shc - 445
+Jan 02 7:34:11 PM - ProgramFilesX86\Steam\steamapps\common\serious sam 3\Temp\ShaderCache\0xff\0xffcdd47b.shc - 3758
+
+UAC Disabled or not present
+

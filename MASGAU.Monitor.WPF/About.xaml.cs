@@ -22,15 +22,11 @@ namespace MASGAU.Monitor
         {
             InitializeComponent();
             this.masgauLbl.Content += Core.version;
-        }
-
-        private void urlLbl_Loaded(object sender, RoutedEventArgs e)
-        {
             siteLink.NavigateUri = new Uri(Core.site_url);
             siteLink.Inlines.Clear();
             siteLink.Inlines.Add(Core.site_url);
-            masgauLbl.Content += Core.version;
         }
+
 
         private void urlLbl_MouseUp(object sender, MouseButtonEventArgs e)
         {
