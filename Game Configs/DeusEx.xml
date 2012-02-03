@@ -6,6 +6,9 @@
 	<title>Deus Ex</title>
 	<root path="%DRIVE%\DeusEx" />
 	<root path="%STEAMCOMMON%\deus ex" />
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Unreal Technology\Installed Apps\Deus Ex\Folder" />
+	<root shortcut="Programs\Deus Ex\Play Deus Ex.lnk" detract="System" />
+	<identifier path="Save" />
 	<save path="Save" />
 	<save path="System" filename="*.ini" />
 </game_data>

@@ -4,7 +4,10 @@
 -->
 <game_data>
 	<title>Medieval II Total War</title>
+	<root shortcut="Programs\SEGA\Medieval II Total War\Launch Medieval II Total War.lnk" />
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\medieval2.exe\Path" />
 	<root path="%PROGRAMFILES%\SEGA\Medieval II Total War" />
+	<root path="%STEAMCOMMON%\medieval ii total war" />
 	<save path="saves" />
 	<save path="preferences" />
 </game_data>

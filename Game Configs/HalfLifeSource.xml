@@ -4,6 +4,6 @@
 -->
 <game_data>
 	<title>Half-Life: Source</title>
-	<root path="%STEAMUSER%\half-life source" />
-	<save path="hl1\SAVE" />
+	<root path="%STEAMUSER%\half-life source\hl1" />
+	<save path="SAVE" />
 </game_data>

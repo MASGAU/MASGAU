@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Starcraft</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Blizzard Entertainment\StarCraft\InstallPath" />
 	<root path="%PROGRAMFILES%\Starcraft" />
 	<save path="save" />
 </game_data>

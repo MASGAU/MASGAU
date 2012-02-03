@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Postal 2</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Running With Scissors\Postal2STP\Full\US\InstallDir" />
 	<root path="%PROGRAMFILES%\Postal2STP" />
 	<save path="Save" />
 </game_data>

@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>X2: The Threat</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\X2 Key\Path" />
 	<root path="%STEAMCOMMON%\x2 - the threat" />
 	<save path="" filename="*.sav" />
 </game_data>

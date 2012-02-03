@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Myst IV: Revelation</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{96F702F3-7CA4-41B5-A70A-4F348DF99A9A}\InstallLocation" />
 	<root path="%PROGRAMFILES%\Ubisoft\Myst IV - Revelation" />
 	<save path="save" />
 </game_data>

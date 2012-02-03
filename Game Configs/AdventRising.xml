@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Advent Rising</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Advent\UninstallString" />
 	<root path="%PROGRAMFILES%\Advent Rising" />
 	<root path="%STEAMCOMMON%\advent rising" />
 	<save path="System\Saves" />

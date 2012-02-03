@@ -9,6 +9,20 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Masgau</RootNamespace>
     <AssemblyName>MasgauFrontend</AssemblyName>
+    <ApplicationIcon>..\masgau_logo.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,15 +43,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\MasgauBackend\GameData.cs">
       <Link>GameData.cs</Link>
+    </Compile>
+    <Compile Include="..\MasgauBackend\ModData.cs">
+      <Link>ModData.cs</Link>
     </Compile>
     <Compile Include="..\MasgauBackend\PathHandler.cs">
       <Link>PathHandler.cs</Link>
@@ -114,6 +134,32 @@
     </Compile>
     <Compile Include="TaskHandler.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masgau_detecting.png" />
+    <None Include="Resources\masgau_cool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\masgau_logo.ico">
+      <Link>masgau_logo.ico</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -124,9 +170,9 @@
   -->
   <PropertyGroup>
     <PostBuildEvent>"$(DevEnvDir)..\..\VC\bin\mt.exe" -manifest "$(ProjectDir)Properties\app.manifest"  –outputresource:"$(TargetDir)$(TargetFileName)";#1
-xcopy "$(SolutionDir)MasgauBackend\$(OutDir)MasgauBackend.exe"  "$(SolutionDir)$(TargetName)\$(OutDir)" /Y
+xcopy "$(SolutionDir)MasgauBackend\$(OutDir)MasgauBackend.exe"  "$(SolutionDir)$(TargetName)\$(OutDir)" /Y /S
 mkdir "$(SolutionDir)$(TargetName)\$(OutDir)games\"
 del "$(SolutionDir)$(TargetName)\$(OutDir)games\*"
-xcopy "$(SolutionDir)Game Configs\*"  "$(SolutionDir)$(TargetName)\$(OutDir)games\" /Y</PostBuildEvent>
+xcopy "$(SolutionDir)Game Configs\*"  "$(SolutionDir)$(TargetName)\$(OutDir)games\" /Y /S</PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -4,7 +4,9 @@
 -->
 <game_data>
 	<title>Unreal Tournament 2004</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Unreal Technology\Installed Apps\UT2004\Folder" />
 	<root path="%DRIVE%\UT2004" />
+	<root path="%STEAMCOMMON%\unreal tournament 2004" />
 	<save path="Saves" />
 	<save path="System" filename="*.ini" />
 </game_data>

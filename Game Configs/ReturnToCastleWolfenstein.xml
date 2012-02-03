@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-15"?> 
 <!-- 
 	Contributed By: SanMadJack
+	Path Info Contributed By: Jetsetlemming
 -->
 <game_data>
 	<title>Return to Castle Wolfenstein</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein - Platinum Edition\InstallPath" />
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein\InstallPath" />
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Return to Castle Wolfenstein - Game of The Year Edition\InstallPath" />
 	<root path="%PROGRAMFILES%\Return to Castle Wolfenstein" />
+	<root path="%STEAMCOMMON%\return to castle wolfenstein" />
 	<save path="Main\save" />
 	<save path="Main" filename="wolfconfig.cfg" />
 </game_data>

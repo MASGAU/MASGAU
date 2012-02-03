@@ -15,18 +15,15 @@ namespace Masgau
     public partial class Form1 : Form
     {
         public SettingsManager settings;
-        string program_title = "MASGAU v.0.1";
+        string program_title = "MASGAU v.0.2";
         TaskHandler taskmaster;
         RestoreHandler restore;
         Process backend;
+        Splash sp = new Splash();
 
         public Form1() {
             Control.CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
-            Thread th = new Thread(new ThreadStart(showSplash));
-            th.Start();
-
-            settings = new SettingsManager(null,null);
 
             populateGameList();
             if (settings.backup_path != null){
@@ -39,47 +36,53 @@ namespace Masgau
             Console.WriteLine(System.Environment.GetEnvironmentVariable("USER"));
             this.Text = program_title;
             populateTaskScheduler();
-            th.Abort();
 
         }
         private void showSplash()
         {
-            Splash sp = new Splash();
             sp.ShowDialog();
         }
 
         private void populateGameList() {
             Thread th = new Thread(new ThreadStart(showSplash));
             th.Start();
-            game_list.Clear();
-            game_list.Columns.Add("RealName", "Secret Name! Sssh!", 0);
-            game_list.Columns.Add("Games", "Detected Games", 390);
+			detectedTree.Nodes.Clear();
+            settings = new SettingsManager(null, null, sp.detectingProgress);
             if (settings.steam.installed) 
                 steamPathInput.Text = settings.steam.path;
             else
                 steamPathInput.Text = "Steam Not Detected";
-            ListViewItem add_me;
+
             foreach(GameData game in settings.games) {
                 if (game.root_detected) {
-                    add_me = new ListViewItem(game.name);
-                    add_me.SubItems.Add(game.title);
-                    game_list.Items.Add(add_me);
+                    detectedTree.Nodes.Add(game.name,game.title);
+                    if(game.mods.Count!=0) {
+                        foreach(ModData add_me in game.mods) {
+                            if(add_me.root_detected) {
+                                detectedTree.Nodes[game.name].Nodes.Add(add_me.name,add_me.title);
+                            }
+                        }
+                    }
                 }
             }
             if(settings.games.Count==0) {
-                add_me = new ListViewItem("Nothing");
-                add_me.SubItems.Add("No games detected");
-                game_list.Items.Add(add_me);
+                detectedTree.Nodes.Add("No Games Detected");
             }
+            detectedTree.ExpandAll();
+            sp.Visible = false;
+            populateAltList();
+            th.Abort();
+        }
+
+        private void populateAltList() {
             altPathList.Clear();
             altPathList.Columns.Add("Path", "Path", 410);
-
+            ListViewItem add_me;
             foreach(string new_path in settings.alt_paths) {
                 add_me = new ListViewItem(new_path);
                 altPathList.Items.Add(add_me);
                 
             }
-            th.Abort();
         }
 
         private void populateRestoreList() {
@@ -92,28 +95,50 @@ namespace Masgau
                 restoreTree.Nodes.Add("Nothing", "No Backups detected");
             }
 
-            String game_title;
+            String game_title=null, mod_title=null;
+            int game_id, mod_id;
             restoreTree.Nodes.Clear();
             if(settings.backup_path!=null) {
                 FileInfo[] add_us = new DirectoryInfo(settings.backup_path).GetFiles("*.gb7");
                 if(add_us.Length>0) {
                     foreach(backup_holder add_me in restore.backups) {
-                        game_title = settings.getGameTitle(add_me.game_name);
-                        if(game_title==null)
-                            game_title = add_me.game_name;
-                        if(add_me.owner!=null) {
-                            if(restoreTree.Nodes.ContainsKey(add_me.game_name)) {
-                                restoreTree.Nodes[add_me.game_name].Nodes.Add(add_me.owner, "User: " + add_me.owner + " - " + add_me.file_date);
+                        game_id = settings.findGame(add_me.game_name);
+                        if(game_id!=-1){
+                            game_title = ((GameData)settings.games[game_id]).title;
+                            if(add_me.owner!=null) {
+                                if(add_me.mod_name!=null) {
+                                    mod_id = ((GameData)settings.games[game_id]).findMod(add_me.mod_name);
+                                    if(mod_id==-1)
+                                        mod_title=add_me.mod_name;
+                                    else
+                                        mod_title = ((ModData)((GameData)settings.games[game_id]).mods[mod_id]).title;
+                                    if (!restoreTree.Nodes.ContainsKey(add_me.game_name))
+                                        restoreTree.Nodes.Add(add_me.game_name, game_title);
+                                    if (!restoreTree.Nodes[add_me.game_name].Nodes.ContainsKey(add_me.mod_name))
+                                        restoreTree.Nodes[add_me.game_name].Nodes.Add(add_me.mod_name, mod_title);
+                                    restoreTree.Nodes[add_me.game_name].Nodes[add_me.mod_name].Nodes.Add(add_me.owner, "User: " + add_me.owner + " - " + add_me.file_date);
+                                } else {
+                                    if(!restoreTree.Nodes.ContainsKey(add_me.game_name))
+                                        restoreTree.Nodes.Add(add_me.game_name, game_title);
+                                    restoreTree.Nodes[add_me.game_name].Nodes.Add(add_me.owner, "User: " + add_me.owner + " - " + add_me.file_date);
+                                }
                             } else {
-                                restoreTree.Nodes.Add(add_me.game_name, game_title);
-                                restoreTree.Nodes[add_me.game_name].Nodes.Add(add_me.owner, "User: " + add_me.owner + " - " + add_me.file_date);
-                            }
-                        } else {
-                            if(restoreTree.Nodes.ContainsKey(add_me.game_name)) {
-                                restoreTree.Nodes[add_me.game_name].Nodes.Add("Global", "Global - " + add_me.file_date);
-                            } else {
-                                restoreTree.Nodes.Add(add_me.game_name, game_title);
-                                restoreTree.Nodes[add_me.game_name].Nodes.Add("Global", "Global - " + add_me.file_date);
+                                if(add_me.mod_name!=null) {
+                                    mod_id = ((GameData)settings.games[game_id]).findMod(add_me.mod_name);
+                                    if(mod_id==-1)
+                                        mod_title=add_me.mod_name;
+                                    else
+                                        mod_title = ((ModData)((GameData)settings.games[game_id]).mods[mod_id]).title;
+                                    if (!restoreTree.Nodes.ContainsKey(add_me.game_name))
+                                        restoreTree.Nodes.Add(add_me.game_name, game_title);
+                                    if (!restoreTree.Nodes[add_me.game_name].Nodes.ContainsKey(add_me.mod_name))
+                                        restoreTree.Nodes[add_me.game_name].Nodes.Add(add_me.mod_name, mod_title);
+                                    restoreTree.Nodes[add_me.game_name].Nodes[add_me.mod_name].Nodes.Add("Global", "Global - " + add_me.file_date);
+                                } else {
+                                    if(!restoreTree.Nodes.ContainsKey(add_me.game_name))
+                                        restoreTree.Nodes.Add(add_me.game_name, game_title);
+                                    restoreTree.Nodes[add_me.game_name].Nodes.Add("Global", "Global - " + add_me.file_date);
+                                }
                             }
                         }
                     }
@@ -186,7 +211,7 @@ namespace Masgau
 
         private void refreshToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            settings.detectGames(null);
+            settings.detectGames(null,sp.detectingProgress);
             populateGameList();
 
         }
@@ -298,39 +323,23 @@ namespace Masgau
         }
 
 
-        private void game_list_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            if(settings.backup_path!=null) {
-                if(File.Exists("MasgauBackend.exe")) {
-                    backend = new Process();
-                    backend.StartInfo.Arguments="/backup " + game_list.SelectedItems[0].SubItems[0].Text;
-
-                    backend.StartInfo.FileName = "MasgauBackend.exe";
-                    backend.StartInfo.UseShellExecute = false;
-                    backend.StartInfo.CreateNoWindow = true;
-                    backend.Start();
-                    backend.WaitForExit();
-                    populateRestoreList();
-                }
-                else
-                {
-                    MessageBox.Show("Masga's Backend is missing. Reinstall it or something.","Catastrophic Devastation!");
-                }
-            } else {
-                MessageBox.Show("You need to set a location to put your backups before you can start backing up.","Back to the place");
-            }
-        }
-
         private void restoreTree_DoubleClick(object sender, EventArgs e)
         {
-            if(restoreTree.SelectedNode!=null&&restoreTree.SelectedNode.Parent!=null) {
+            if(restoreTree.SelectedNode!=null&&restoreTree.SelectedNode.Nodes.Count==0) {
                 string restore_this;
-                if(restoreTree.SelectedNode.Name=="Global") {
-                    restore_this = restoreTree.SelectedNode.Parent.Name + ".gb7";
+                string restore_parent;
+                if(restoreTree.SelectedNode.Parent.Parent!=null) {
+                    restore_parent = restoreTree.SelectedNode.Parent.Parent.Name + "»" + restoreTree.SelectedNode.Parent.Name;
                 } else {
-                    restore_this = restoreTree.SelectedNode.Parent.Name + " - " + restoreTree.SelectedNode.Name + ".gb7";
+                    restore_parent = restoreTree.SelectedNode.Parent.Name;
+                }
+                if(restoreTree.SelectedNode.Name=="Global") {
+                    restore_this = restore_parent + ".gb7";
+                } else {
+                    restore_this = restore_parent + "«" + restoreTree.SelectedNode.Name + ".gb7";
                 }
                 if(File.Exists("MasgauBackend.exe")) {
+                    Console.Write(restore_this);
                     backend = new Process();
                     backend.StartInfo.Arguments= "\"" + restore_this + "\"";
                     backend.StartInfo.FileName = "MasgauBackend.exe";
@@ -351,7 +360,47 @@ namespace Masgau
             Process.Start("explorer","\"" + backupPathInput.Text + "\"");
         }
 
+        private void detectedTree_DoubleClick(object sender, EventArgs e)
+        {
+            if(detectedTree.SelectedNode!=null) {
+                detectedTree.ExpandAll();
+                if(settings.backup_path!=null) {
+                    string backup_this;
+                    if(detectedTree.SelectedNode.Parent==null) {
+                        backup_this = detectedTree.SelectedNode.Name;
+                    } else {
+                        backup_this = detectedTree.SelectedNode.Parent.Name + "\\" + detectedTree.SelectedNode.Name;
+                    }
+                    if(File.Exists("MasgauBackend.exe")) {
+                        backend = new Process();
+                        backend.StartInfo.Arguments = "/backup " + backup_this;
 
+                        backend.StartInfo.FileName = "MasgauBackend.exe";
+                        backend.StartInfo.UseShellExecute = false;
+                        backend.StartInfo.CreateNoWindow = true;
+                        backend.Start();
+                        backend.WaitForExit();
+                        populateRestoreList();
+                    }
+                    else {
+                        MessageBox.Show("Masga's Backend is missing. Reinstall it or something.","Catastrophic Devastation!");
+                    }
+                } else {
+                    MessageBox.Show("You need to set a location to put your backups before you can start backing up.","Back to the place");
+                }
+            }
+ 
+        }
+
+        private void detectedTree_Click(object sender, EventArgs e)
+        {
+
+        }
+        // World domination code goes here
+        private void detectedTree_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
 
     }
 }

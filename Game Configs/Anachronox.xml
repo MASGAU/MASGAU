@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Anachronox</title>
+	<root shortcut="Programs\Eidos Interactive\Anachronox\Anachronox.lnk" />
 	<root path="%DRIVE%\Anachronox" />
 	<save path="anoxdata\SAVE" />
 </game_data>

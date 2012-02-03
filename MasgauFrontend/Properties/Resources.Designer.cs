@@ -59,5 +59,19 @@ namespace Masgau.Properties {
                 resourceCulture = value;
             }
         }
+        
+        internal static System.Drawing.Bitmap masgau_cool {
+            get {
+                object obj = ResourceManager.GetObject("masgau_cool", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap masgau_detecting {
+            get {
+                object obj = ResourceManager.GetObject("masgau_detecting", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

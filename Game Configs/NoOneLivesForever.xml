@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>No One Lives Forever</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Monolith Productions\No One Lives Forever\1.0\WorkingDirectory" />
 	<root path="%PROGRAMFILES%\Fox\No One Lives Forever" />
 	<save path="Save" />
 	<save path="" filename="autoexec.cfg" />

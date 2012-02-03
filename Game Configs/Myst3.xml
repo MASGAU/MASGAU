@@ -5,6 +5,7 @@
 
 <game_data>
 	<title>Myst III: Exile</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\M3.exe\Path" />
 	<root path="%PROGRAMFILES%\Ubi Soft\Myst III Exile" />
 	<save path="Saved Games" />
 	<save path="bin" filename="M3prefs.m3p" />

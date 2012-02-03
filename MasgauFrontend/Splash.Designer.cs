@@ -28,35 +28,52 @@ namespace Masgau
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
+            this.detectingProgress = new System.Windows.Forms.ProgressBar();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // detectingProgress
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Masgau is detecting your saved games";
+            this.detectingProgress.Location = new System.Drawing.Point(12, 58);
+            this.detectingProgress.Name = "detectingProgress";
+            this.detectingProgress.Size = new System.Drawing.Size(180, 12);
+            this.detectingProgress.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.pictureBox1.Image = global::Masgau.Properties.Resources.masgau_detecting;
+            this.pictureBox1.ImageLocation = "";
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(201, 61);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(229, 56);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(207, 73);
+            this.Controls.Add(this.detectingProgress);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Splash";
+            this.Text = "MASGAU Wants You In The Worst Way";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.ProgressBar detectingProgress;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -1,7 +1,12 @@
 using System;
 using System.IO;
 using System.Collections;
+using System.Management;
+using System.DirectoryServices;
+using System.Configuration;
 using System.Runtime.InteropServices;
+using System.Security.Permissions;
+using System.Security.Principal;
 
 public class PathHandler{
     public ArrayList user_list = new ArrayList();
@@ -10,10 +15,14 @@ public class PathHandler{
     private ArrayList alt_paths = new ArrayList();
     public string host_name, users, user_profile, all_users, public_user, local_app_data, app_data, program_files, program_files_x86, common_program_files, user_documents, virtual_store=null;
     public bool uac = false, xp = false;
+	public ArrayList usahs = new ArrayList();
 
 
     public PathHandler() {
-        users = "";
+		// I would like to replace all this with per-user detection of paths,
+		// if anyone knows how to get Environment variables as another user, please let me know
+
+		users = "";
         string[] disect_me = Environment.GetEnvironmentVariable("USERPROFILE").Split('\\');
         for(int i = 1;i<disect_me.Length;i++) {
             users += disect_me[i-1];
@@ -31,7 +40,8 @@ public class PathHandler{
         host_name = Environment.GetEnvironmentVariable("COMPUTERNAME");
         all_users = Environment.GetEnvironmentVariable("ALLUSERSPROFILE");
         public_user = Environment.GetEnvironmentVariable("PUBLIC");
-        local_app_data = Environment.GetEnvironmentVariable("LOCALAPPDATA");
+        local_app_data = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+//        local_app_data = Environment.GetEnvironmentVariable("LOCALAPPDATA");
         app_data = Environment.GetEnvironmentVariable("APPDATA");
         if (local_app_data != null)
         {
@@ -58,7 +68,7 @@ public class PathHandler{
             }
         } else {
             xp = true;
-            local_app_data = user_profile + "\\Local Settings\\Application Data";
+//            local_app_data = user_profile + "\\Local Settings\\Application Data";
             disect_me = app_data.Split('\\');
             app_data = "";
             for(int i = 0;i<disect_me.Length;i++) {
@@ -73,21 +83,19 @@ public class PathHandler{
         program_files = Environment.GetEnvironmentVariable("PROGRAMFILES");
         program_files_x86 = Environment.GetEnvironmentVariable("PROGRAMFILES(X86)");
         common_program_files = Environment.GetEnvironmentVariable("COMMONPROGRAMFILES");
-        if(xp) {
-            user_documents = users  + "\\%USERNAME%\\My Documents";
-        } else {
+        if(!xp) {
             RegistryManager uac_status = new RegistryManager("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System");
             if(uac_status.getValue("EnableLUA")=="1") {
                 uac = true;
                 virtual_store = local_app_data + "\\VirtualStore";
             }
             local_app_data = local_app_data.Replace(Environment.GetEnvironmentVariable("USERNAME"), "%USERNAME%");
-            user_documents = users + "\\%USERNAME%\\Documents";
         }
+        user_documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).Replace(Environment.GetEnvironmentVariable("USERNAME"), "%USERNAME%");
         drives.AddRange(Environment.GetLogicalDrives());
     }
 
-    public void addAltPath(string add_me) {
+	public void addAltPath(string add_me) {
         alt_paths.Add(add_me);
     }
     public void addAltPath(ArrayList add_me) {
@@ -252,6 +260,12 @@ public class PathHandler{
                 //Console.WriteLine(add_me.relative_path);
                 return_me.Add(add_me);
             }
+        } else {
+            add_me.relative_root = null;
+            add_me.absolute_path = get_me;
+            add_me.absolute_root = null;
+            if(Directory.Exists(add_me.absolute_path))
+                return_me.Add(add_me);
         }
         return return_me;
     }

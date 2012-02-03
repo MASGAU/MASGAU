@@ -40,7 +40,7 @@ namespace Masgau
             // notifyIcon1
             // 
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Text = "MASGAU Is Touching Your Stuff";
             this.notifyIcon1.Visible = true;
             // 
             // groupBox1
@@ -78,6 +78,7 @@ namespace Masgau
             this.ClientSize = new System.Drawing.Size(411, 78);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "MASGAU is...";
             this.Shown += new System.EventHandler(this.Form1_Shown);

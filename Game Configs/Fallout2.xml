@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Fallout 2</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\fallout2.exe\Path" />
 	<root path="%PROGRAMFILES%\BlackIsle\Fallout2" />
 	<save path="data\SAVEGAME" />
 </game_data>

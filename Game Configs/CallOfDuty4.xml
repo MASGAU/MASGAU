@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Call of Duty 4: Modern Warfare</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Call of Duty 4\InstallPath" />
+	<root shortcut="Programs\Activision\Call of Duty(R) 4 - Modern Warfare(TM)\Call of Duty(R) 4 - Modern Warfare(TM) Singleplayer.lnk" />
+	<root path="%PROGRAMFILES%\Activision\Call of Duty 4 - Modern Warfare" />
+	<root path="%STEAMCOMMON%\call of duty 4" />
+	<save path="players\profiles" />
+</game_data>

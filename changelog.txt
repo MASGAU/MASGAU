@@ -1,0 +1,33 @@
+v.0.2 - Second Alpha
+Changed detected game list to be a tree for MOD sorting
+Added support for MODs that depend on detected games
+Changed the character for seperating game and username to «
+Added a progress bar to the detecting games splash
+Added similar progress bar to backend
+Added the hastilyest produced logo in history
+Fixed a problem where MASGAU could hang while querying task settings
+Fixed a problem where two threads tried to make the splash appear
+Changed SettingsManager so undetected games are not kept in memory (redetection now re-creates SettingsManager object)
+Changed Documents folder detection to use GetFolderPath (takes care of a localization problem)
+Added ability to specify a registry key to supply a root path
+Added new tag for game configs to specify an identifying folder or file
+Added ability to specify a start menu shortcut that points to the root
+Added indentifiers to games that might get confused
+Fixed a problem were an incomplete archive could crash the program
+Added an icon! Woo!
+Fixed a problem when checking the registry key that tells MASGAU if UAC is enabled
+New Games:
+* The Nameless Mod - Our first supported MOD! - Info provided by Trestkon
+* Daggerfall - Info provided by Jetsetlemming
+* Peggle World of Warcraft Edition
+* Quake 2 - Steam only - Info provided by Jetsetlemming
+* The Longest Journey 4-disc - Info provided by Miral
+* Unreal Tournament
+* Call of Duty 4
+Update Games
+* Return to Castle Wolfenstein - Added Steam path - Info provided by Jetsetlemming
+* Peggle Deluxe - Corrected Steam path
+* Added Registry keys to many games
+* Added shortcuts to a few games
+
+v.0.1 - Initial Release

@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Half-Life: Blue Shift</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="bshift" />
 	<root path="%STEAMUSER%\half-life blue shift\bshift" />
 	<save path="SAVE" />
 </game_data>

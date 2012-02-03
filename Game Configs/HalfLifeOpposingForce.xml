@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Half-Life: Opposing Force</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="gearbox" />
 	<root path="%STEAMUSER%\opposing force\gearbox" />
 	<save path="SAVE" />
 </game_data>

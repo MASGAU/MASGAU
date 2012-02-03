@@ -4,7 +4,7 @@
     </StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <StartArguments>/restore "Fallout2.gb7"</StartArguments>
+    <StartArguments>/backup PeggleDeluxe</StartArguments>
   </PropertyGroup>
   <PropertyGroup>
     <PublishUrlHistory>publish\</PublishUrlHistory>

@@ -17,7 +17,7 @@ public class SettingsManager {
     public string steam_override = null;
 
 
-    public SettingsManager(string force_config, string force_game) {
+    public SettingsManager(string force_config, string force_game, ProgressBar progress) {
         config_path = System.Environment.GetEnvironmentVariable("ALLUSERSPROFILE") + "\\MASGAU";
         bool config_found = false;
 
@@ -64,10 +64,10 @@ public class SettingsManager {
         if (alt_paths.Count > 0)
             paths.addAltPath(alt_paths);
         
-        detectGames(force_game);
+        detectGames(force_game, progress);
     }
 
-    public void detectGames(string force_game) {
+    public void detectGames(string force_game, ProgressBar progress) {
         games = new ArrayList();
         GameData new_game;
         string game_configs = null;
@@ -84,15 +84,19 @@ public class SettingsManager {
             } else   {
                 read_us = read_me.GetFiles("*.xml");
             }
-
+            progress.Maximum = read_us.Length;
+            progress.Minimum = 0;
+            progress.Value = 0;
             foreach(FileInfo me_me in read_us) {
                 new_game = new GameData(me_me.FullName, paths, steam);
                 Console.Write(new_game.title + ": ");
-                if(new_game.root_detected)
+                if(new_game.root_detected) {
                     Console.WriteLine("Detected!");
-                else
+                    games.Add(new_game);
+                } else {
                     Console.WriteLine("Not Detected!");
-                games.Add(new_game);
+                }
+                progress.Value++;
             }
         }
     }
@@ -119,11 +123,6 @@ public class SettingsManager {
             return_me++;
         }
         return -1;
-    }
-
-    public string getPath(string get_me) {
-//        return ((string)((GameData)games[findGame(get_me)]).relative_folders[0]);
-        return "No!";
     }
 
     public bool writeConfig() {
@@ -213,6 +212,5 @@ public class SettingsManager {
         }
         return null;
     }
-
 }
 }

@@ -13,7 +13,7 @@ class RegistryManager {
     }
 
     public string getValue(string get_me) {
-        if(the_key!=null)
+        if (the_key != null && the_key.GetValue(get_me)!=null)
             return the_key.GetValue(get_me).ToString();
         return null;
     }

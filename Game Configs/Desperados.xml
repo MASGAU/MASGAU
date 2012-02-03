@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Desperados</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Spellbound Software\Desperados 1.0\InstallPath" />
 	<root path="%PROGRAMFILES%\Infogrames\Desperados" />
 	<save path="Game\Data\Savegame" />
 </game_data>

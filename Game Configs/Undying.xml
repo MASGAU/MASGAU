@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Clive Barker's Undying</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\undying.exe\Path" />
 	<root path="%PROGRAMFILES%\EA Games\Clive Barker's Undying" />
 	<save path="Save" />
 	<save path="System" filename="*.ini" />

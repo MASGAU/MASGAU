@@ -4,8 +4,10 @@
 -->
 <game_data>
 	<title>Peggle Nights</title>
+	<root registry="HKEY_CURRENT_USER\Software\PopCap\PeggleNights\RunPath" />
 	<root path="%ALLUSERSPROFILE%\Steam\PeggleNights" />
-	<root path="%ALLUSERSPROFILE%\PopCapGames\PeggleNights" />
+	<root path="%ALLUSERSPROFILE%\PopCap Games\PeggleNights" />
 	<root path="%STEAMCOMMON%\peggle nights" />
+	<identifier path="userdata" />
 	<save path="userdata" />
 </game_data>

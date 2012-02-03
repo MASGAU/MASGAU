@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Doom 3</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\id\Doom 3\InstallPath" />
 	<root path="%PROGRAMFILES%\DOOM 3" />
 	<save path="base\savegames" />
 	<virtualstore override="yes" />

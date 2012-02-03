@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>American McGee's Alice</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Alice.exe\Path" />
 	<root path="%PROGRAMFILES%\EA GAMES\American McGee's Alice" />
 	<save path="Base\save" />
 	<save path="Base" filename="*.cfg" />

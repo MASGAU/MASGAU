@@ -5,9 +5,9 @@
 
 <game_data>
 	<title>Tron 2.0</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Monolith Productions\Tron 2.0\1.0\InstallDir" />
 	<root path="%PROGRAMFILES%\Buena Vista Interactive\Tron 2.0" />
 	<save path="Profiles" />
 	<save path="Save" />
 	<save path="" filename="display.cfg" />
-	
 </game_data>

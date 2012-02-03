@@ -4,7 +4,9 @@
 -->
 <game_data>
 	<title>MechWarrior 4: Black Knight</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Black Knight\EXE Path" />
 	<root path="%PROGRAMFILES%\Microsoft Games\MechWarrior Vengeance" />
+	<identifier filename="optionsx.ini" />
 	<save path="resource\Pilotsx" />
 	<save path="resource\Variantsx" />
 	<save path="" filename="optionsx.ini" />

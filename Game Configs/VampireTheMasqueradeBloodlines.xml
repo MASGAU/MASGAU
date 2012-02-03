@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Vampire: The Masquerade - Bloodlines</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Vampire - Bloodlines\InstallPath" />
 	<root path="%STEAMCOMMON%\vampire the masquerade - bloodlines" />
 	<save path="Vampire\SAVE" />
 </game_data>

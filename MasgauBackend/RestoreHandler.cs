@@ -51,12 +51,19 @@ namespace Masgau
                     foreach(FileInfo read_me in read_us) {
                         add_me.file_date = read_me.LastWriteTime.ToString();
                         add_me.file_name = read_me.Name;
-                        hold_me = add_me.file_name.Replace(".gb7","").Split('-');
+                        hold_me = add_me.file_name.Replace(".gb7", "").Split('«');
                         add_me.game_name = hold_me[0].Trim(); ;
                         if(hold_me.Length>1) {
                             add_me.owner = hold_me[1].Trim();
                         } else {
                             add_me.owner = null;
+                        }
+                        hold_me = add_me.game_name.Split('»');
+                        add_me.game_name = hold_me[0].Trim();
+                        if(hold_me.Length>1) {
+                            add_me.mod_name = hold_me[1].Trim();
+                        } else {
+                            add_me.mod_name = null;
                         }
                         backups.Add(add_me);
                     }
@@ -109,13 +116,18 @@ namespace Masgau
             }
         }
 
-        public string restoreBackup(int i, GameData game_data) {
+        public string restoreBackup(int i, GameData game_data, ModData mod_data) {
             if(i!=-1) {
                 DirectoryInfo from_here = new DirectoryInfo(temp);
                 backup_holder data = (backup_holder)backups[i];
                 DirectoryInfo to_here = new DirectoryInfo("here");
                 if(game_data!=null&&game_data.root_detected) {
-                    file_holder goes_here = game_data.getPath(paths, steam_path);
+                    file_holder goes_here;
+                    if(mod_data!=null) {
+                        goes_here = mod_data.getPath();
+                    } else {
+                        goes_here = game_data.getPath();
+                    }
                     if(goes_here.relative_path==null)
                         return "Game Not Detected";
                     else if(goes_here.relative_root.Contains("%STEAMUSER%")) {

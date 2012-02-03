@@ -5,7 +5,8 @@
 <game_data>
 	<title>Peggle Deluxe</title>
 	<root path="%ALLUSERSPROFILE%\Steam\Peggle" />
-	<root path="%ALLUSERSPROFILE%\PopCapGames\Peggle" />
-	<root path="%STEAMCOMMON%\peggle" />
+	<root path="%ALLUSERSPROFILE%\PopCap Games\Peggle" />
+	<root path="%STEAMCOMMON%\peggle deluxe" />
+	<identifier path="userdata" />
 	<save path="userdata" />
 </game_data>

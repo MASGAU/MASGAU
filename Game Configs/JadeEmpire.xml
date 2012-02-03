@@ -4,7 +4,8 @@
 -->
 <game_data>
 	<title>Jade Empire</title>
-	<root path ="%STEAMCOMMON%\jade empire" />
+	<root path="HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\Jade Empire\Path" />
+	<root path="%STEAMCOMMON%\jade empire" />
 	<save path="Save" />
 	<save path="" filename="*.ini" />
 </game_data>

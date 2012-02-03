@@ -6,5 +6,6 @@
 	<title>Peggle Extreme</title>
 	<root path="%ALLUSERSPROFILE%\Steam\PeggleExtreme" />
 	<root path="%STEAMCOMMON%\peggle extreme" />
+	<identifier path="userdata" />
 	<save path="userdata" />
 </game_data>

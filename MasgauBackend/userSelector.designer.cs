@@ -28,6 +28,7 @@ namespace Masgau
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userSelector));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.userSelectorCombo = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -87,6 +88,7 @@ namespace Masgau
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "userSelector";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

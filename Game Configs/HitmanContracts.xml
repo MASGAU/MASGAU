@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Hitman: Contracts</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Eidos\Hitman Contracts\InstallDir" />
 	<root path="%PROGRAMFILES%\Eidos\Hitman Contracts" />
 	<save path="Save" />
 	<save path="" filename="HitmanContracts.ini" />

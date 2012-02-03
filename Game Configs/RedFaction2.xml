@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Red Faction II</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E074FB23-D61B-4C6A-AD15-AB9695ED2EF7}\InstallLocation" />
 	<root path="%PROGRAMFILES%\THQ\Red Faction II" />
 	<save path="profiles" />
 	<save path="" filename="rf2_config.ini" />

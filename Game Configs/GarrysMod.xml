@@ -4,6 +4,6 @@
 -->
 <game_data>
 	<title>Garry's Mod</title>
-	<root path="%STEAMUSER%\garrysmod" />
-	<save path="garrysmod\SAVE" />
+	<root path="%STEAMUSER%\garrysmod\garrysmod" />
+	<save path="SAVE" />
 </game_data>

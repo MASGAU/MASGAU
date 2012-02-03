@@ -15,11 +15,11 @@ namespace Masgau
     {
         private string[] args = Environment.GetCommandLineArgs();
         private zipLinker zipLink = new zipLinker();
-        private string back_me_up = null, restore_me = null, config_file = null, selected_game = null;
+        private string back_me_up = null, restore_me = null, config_file = null, selected_game = null, selected_mod = null;
         private Thread thread;
         private SettingsManager settings;
         private RestoreHandler restore;
-        private ArchiveManager back_up;
+        private ArchiveManager back_up = null;
 
         bool log = false;
 
@@ -75,10 +75,15 @@ namespace Masgau
 
         private void restoreBackup() {
             string[] hold_me = restore_me.Replace(".gb7", "").Split('\\');
-            hold_me = hold_me[hold_me.Length - 1].Split('-');
+            hold_me = hold_me[hold_me.Length - 1].Split('«');
             selected_game = hold_me[0].Trim();
+            hold_me = selected_game.Split('»');
+            if(hold_me.Length>1) {
+                selected_game = hold_me[0].Trim();
+                selected_mod = hold_me[1].Trim();
+            } 
 
-            settings = new SettingsManager(config_file, selected_game);
+            settings = new SettingsManager(config_file, selected_game,progressBar1);
             FileInfo the_backup = null;
             if (File.Exists(settings.backup_path + "\\" + restore_me)) {
                 the_backup = new FileInfo(settings.backup_path + "\\" + restore_me);
@@ -106,9 +111,15 @@ namespace Masgau
 
             int i = settings.findGame(selected_game);
             GameData game_data;
+            ModData mod_data = null;
             if (i != -1) {
-                game_data = (GameData)(settings.games[i]);
+                game_data = (GameData)settings.games[i];
                 groupBox1.Text = "Restoring " + game_data.title;
+                int j = game_data.findMod(selected_mod);
+                if(j!=-1) {
+                    mod_data = (ModData)game_data.mods[j];
+                    groupBox1.Text = "Restoring " + mod_data.title;
+                } 
             } else {
                 game_data = null;
                 groupBox1.Text = "Restoring " + selected_game;
@@ -122,22 +133,25 @@ namespace Masgau
                     return;
             }
 
-            int j = restore.findBackup(the_backup.Name);
+            int k = restore.findBackup(the_backup.Name);
             progressBar1.Value = 1;
 
-            switch (restore.restoreBackup(j,game_data)) {
+            switch (restore.restoreBackup(k,game_data,mod_data)) {
                 case "Steam Not Installed":
+                    progressBar1.Value = 0;
                     MessageBox.Show("Steam is not detected. Please use the Settings tab to locate Steam or install it from http:////steampowered.com//", "Steam is required to restore this backup");
                     break;
                 case "Backup Not Found":
+                    progressBar1.Value = 0;
                     MessageBox.Show("Couldn't find the backup. WTF?", "The frell happened?");
                     break;
                 case "Game Not Detected":
+                    progressBar1.Value = 0;
                     MessageBox.Show("This backup requires for its game to be detected, and it has not been. If the game is not installed, install it. If it is installed, try running it and saving a game. If it still isn't detected, check the settings tab to see if your alternate paths are properly set. If that doesn't fix it, then the game isn't supported, which makes the existence of this backup really weird.", "Game not detected");
                     break;
                 case "Success":
+                    progressBar1.Value = 2;
                     MessageBox.Show("Restore Complete!", "Super Success!");
-                    progressBar1.Value = progressBar1.Maximum;
                     break;
                 case "Cancelled":
                     break;
@@ -147,7 +161,22 @@ namespace Masgau
 
         private void createBackup() {
             groupBox1.Text = "Detecting game saves...";
-            settings = new SettingsManager(config_file, back_me_up);
+            string game_name = null;
+            string mod_name = null;
+            if (back_me_up != null)
+            {
+                string[] mod_check = back_me_up.Split('\\');
+                if(mod_check.Length==2) {
+                    game_name = mod_check[0];
+                    mod_name = mod_check[1];
+                } else {
+                    game_name = back_me_up;
+                }
+                settings = new SettingsManager(config_file, game_name, progressBar1);
+            } else {
+                settings = new SettingsManager(config_file, null, progressBar1);
+            }
+
             back_up = new ArchiveManager(settings.backup_path);
 
             if (back_up.ready) {
@@ -155,15 +184,30 @@ namespace Masgau
                     progressBar1.Maximum = settings.countDetectedGames();
                     progressBar1.Value = 0;
                     foreach (GameData parse_me in settings.games) {
-                        if (parse_me.name==back_me_up||(back_me_up==null&&parse_me.root_detected)) {
-                            back_up.setName(parse_me.name);
-                            back_up.addSave(parse_me.getSaves());
-                            Console.WriteLine("Backing up " + parse_me.name);
-                            groupBox1.Text = "Backing up " + parse_me.title + " (" + (progressBar1.Value+1).ToString() + "/" + progressBar1.Maximum + ")";
-                            notifyIcon1.ShowBalloonTip(30, "MASGAU is backing up", parse_me.title, ToolTipIcon.Info);
-                            back_up.archiveIt();
-                            back_up.clearArchive();
-                            progressBar1.Value++;
+                        if (parse_me.name==game_name||(back_me_up==null&&parse_me.root_detected)) {
+                            if(mod_name!=null) {
+                                foreach(ModData mod_me in parse_me.mods) {
+                                    if(mod_me.name==mod_name) {
+                                        back_up.setName(parse_me.name + "»" + mod_me.name);
+                                        back_up.addSave(mod_me.getSaves());
+                                        Console.WriteLine("Backing up " + mod_me.name);
+                                        groupBox1.Text = "Backing up " + mod_me.title + " (" + (progressBar1.Value + 1).ToString() + "/" + progressBar1.Maximum + ")";
+                                        notifyIcon1.ShowBalloonTip(30, "MASGAU is backing up", mod_me.title, ToolTipIcon.Info);
+                                        back_up.archiveIt();
+                                        back_up.clearArchive();
+                                        progressBar1.Value++;
+                                    }
+                                }
+                            } else {
+                                back_up.setName(parse_me.name);
+                                back_up.addSave(parse_me.getSaves());
+                                Console.WriteLine("Backing up " + parse_me.name);
+                                groupBox1.Text = "Backing up " + parse_me.title + " (" + (progressBar1.Value+1).ToString() + "/" + progressBar1.Maximum + ")";
+                                notifyIcon1.ShowBalloonTip(30, "MASGAU is backing up", parse_me.title, ToolTipIcon.Info);
+                                back_up.archiveIt();
+                                back_up.clearArchive();
+                                progressBar1.Value++;
+                            }
                         }
                     }
                     Console.WriteLine("Backup Complete");
@@ -183,8 +227,9 @@ namespace Masgau
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if(thread!=null) {
-                if(thread.ThreadState==System.Threading.ThreadState.Running)
+                if(thread.ThreadState==System.Threading.ThreadState.Running) {
                     thread.Abort();
+                }
             }
 
 
@@ -194,9 +239,9 @@ namespace Masgau
                     kill_me.WaitForExit();
                 }
             }
-            if(settings.backup_path!=null) {
-                foreach(FileInfo delete_me in new DirectoryInfo(settings.backup_path).GetFiles("*.tmp*"))
-                    delete_me.Delete();
+
+            if(settings.backup_path!=null&back_up!=null) {
+                back_up.cleanUp(settings.backup_path);
             }
 
         }

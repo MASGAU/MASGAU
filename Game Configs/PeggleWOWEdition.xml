@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<!-- 
+	Contributed By: SanMadJack
+-->
+<game_data>
+	<title>Peggle World of Warcraft Edition</title>
+	<root shortcut="Programs\PopCap Games\Peggle World of Warcraft Edition\Play Peggle World of Warcraft Edition.lnk" />
+	<root registry="HKEY_CURRENT_USER\Software\PopCap\PeggleWoW\RunPath" />
+	<root path="%ALLUSERSPROFILE%\PopCap Games\PeggleWoW" />
+	<root path="%PROGRAMFILES%\PopCap Games\Peggle World of Warcraft Edition" />
+	<identifier path="userdata" />
+	<save path="userdata" />
+</game_data>

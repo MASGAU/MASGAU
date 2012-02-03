@@ -3,7 +3,8 @@
 	Contributed By: SanMadJack
 -->
 <game_data>
-	<title>The Longest Journey</title>
+	<title>The Longest Journey (2-Disc or DVD)</title>
 	<root path="%APPDATA%\The Longest Journey" />
-	<save path="" />
+	<save path="" filename="Preferences.ini" />
+	<save path="Save" />
 </game_data>

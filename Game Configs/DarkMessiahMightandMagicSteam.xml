@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Dark Messiah Might and Magic</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Ubisoft\Dark Messiah of Might and Magic\Install Location" />
 	<root path="%STEAMUSER%\dark messiah might and magic single player" />
 	<save path="mm\SAVE" />
 </game_data>

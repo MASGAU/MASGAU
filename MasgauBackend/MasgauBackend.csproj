@@ -10,6 +10,7 @@
     <RootNamespace>Masgau</RootNamespace>
     <AssemblyName>MasgauBackend</AssemblyName>
     <SignManifests>false</SignManifests>
+    <ApplicationIcon>..\masgau_logo_backend.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,12 +33,15 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArchiveManager.cs" />
+    <Compile Include="ModData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +84,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="RegistryHandler.cs" />
     <Compile Include="RegistryManager.cs" />
     <Compile Include="RestoreHandler.cs" />
     <Compile Include="SettingsManager.cs" />
@@ -98,6 +103,21 @@
       <DependentUpon>zipLinker.cs</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\masgau_logo_backend.ico">
+      <Link>masgau_logo_backend.ico</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -110,6 +130,6 @@
     <PostBuildEvent>"$(DevEnvDir)..\..\VC\bin\mt.exe" -manifest "$(ProjectDir)Properties\app.manifest"  –outputresource:"$(TargetDir)$(TargetFileName)";#1
 mkdir "$(SolutionDir)$(TargetName)\$(OutDir)games\"
 del "$(SolutionDir)$(TargetName)\$(OutDir)games\*"
-xcopy "$(SolutionDir)Game Configs\*"  "$(SolutionDir)$(TargetName)\$(OutDir)games\" /Y</PostBuildEvent>
+xcopy "$(SolutionDir)Game Configs\*"  "$(SolutionDir)$(TargetName)\$(OutDir)games\" /Y /S</PostBuildEvent>
   </PropertyGroup>
 </Project>

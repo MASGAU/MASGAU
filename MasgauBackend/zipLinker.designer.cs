@@ -28,6 +28,7 @@ namespace Masgau
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(zipLinker));
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -74,6 +75,7 @@ namespace Masgau
             this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "zipLinker";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "7-zip not found! Oh noes!";

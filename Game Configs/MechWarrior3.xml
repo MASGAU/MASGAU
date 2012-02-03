@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>MechWarrior 3</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\MicroProse\MechWarrior 3\1.0\Program" />
 	<root path="%DRIVE%\MicroProse\MechWarrior3" />
 	<save path="pilots" />
 	<save path="configs" />

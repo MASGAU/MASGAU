@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Half-Life</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Sierra OnLine\Setup\HALFLIFE\Directory" append="valve" />
 	<root path="%STEAMUSER%\half-life\valve" />
 	<save path="SAVE" />
 </game_data>

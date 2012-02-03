@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Unreal</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Unreal.exe\Path" />
 	<root path="%DRIVE%\UnrealGold" />
 	<root path="%DRIVE%\Unreal" />
 	<save path="Save" />

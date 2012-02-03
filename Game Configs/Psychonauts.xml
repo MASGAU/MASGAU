@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Psychonauts</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A129D1F2-CAC4-4AD7-B26D-3C6411B87DCC}\InstallLocation" />
 	<root path="%STEAMCOMMON%\psychonauts" />
 	<save path="Profiles" />
 	<save path="" filename="*.ini" />

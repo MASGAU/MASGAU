@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Grim Fandango</title>
+	<root path="HKEY_LOCAL_MACHINE\SOFTWARE\LucasArts Entertainment Company LLC\Grim Fandango\v1.0\Install Path" />
 	<root path="%PROGRAMFILES%\Lucasarts\Grim" />
 	<save path="" filename="*.gsv" />
 	<virtualstore override="yes" />

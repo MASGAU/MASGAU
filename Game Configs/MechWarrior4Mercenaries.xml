@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>MechWarrior 4: Mercenaries</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Mercenaries\EXE Path" />
 	<root path="%PROGRAMFILES%\Microsoft Games\Mechwarrior Mercenaries" />
 	<save path="RESOURCE\Pilots" />
 	<save path="RESOURCE\VariantsMercs" />

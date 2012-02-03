@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Black And White</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Black.exe\Path" />
 	<root path="%DRIVE%\Games\Black And White" />
 	<save path="Profiles" />
 </game_data>

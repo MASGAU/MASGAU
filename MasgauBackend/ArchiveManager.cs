@@ -5,10 +5,10 @@ using System.Diagnostics;
 
 class ArchiveManager{
     private Process zipper = new Process();
-    private string title = "default", output_path;
+    private string title = "default", output_path, file_name;
     private ArrayList saves = new ArrayList();
 
-    public bool ready = false;
+    public bool ready = false, creating_file = false;
 
 
 	public ArchiveManager(string new_path) {
@@ -72,7 +72,6 @@ class ArchiveManager{
         Random rand = new Random();
 //        string temp = Environment.GetEnvironmentVariable("TEMP") + "\\" + rand.Next(100000, 999999).ToString() + "\\";
         string temp = Environment.GetEnvironmentVariable("TEMP") + "\\MASGAUArchiving\\";
-
         DirectoryInfo read_me = new DirectoryInfo(temp);
         DirectoryInfo[] read_us;
 
@@ -83,6 +82,13 @@ class ArchiveManager{
 //        int i = 1;
         foreach (file_holder copy_me in saves)
         {
+            if (copy_me.owner == null)
+                file_name = title + ".gb7";
+            else
+                file_name = title + "«" + copy_me.owner + ".gb7";
+
+            creating_file = !File.Exists(output_path + "\\" + file_name);
+
             if (copy_me.file_name == null) {
                 copyDirectory(copy_me.absolute_path,temp + copy_me.relative_path);
                 read_us = read_me.GetDirectories();
@@ -101,16 +107,23 @@ class ArchiveManager{
                 read_us = read_me.GetDirectories();
             }
 
-            if (copy_me.owner == null)
-                zipper.StartInfo.Arguments = "a -t7z -ms=off \"" + title + ".gb7\" \"" + temp + "\\*\"";
-            else
-                zipper.StartInfo.Arguments = "a -t7z -ms=off \"" + title + " - " + copy_me.owner + ".gb7\" \"" + temp + "\\*\"";
+            zipper.StartInfo.Arguments = "a -t7z -ms=off \"" + file_name + "\" \"" + temp + "\\*\"";
             runBinary();
 
             Directory.Delete(temp, true);
 
+            creating_file = !File.Exists(output_path + "\\" + file_name);
+
         }
         Console.WriteLine("Backed Up!");
         return true;
+    }
+    public void cleanUp(string backup_path) {
+        if(backup_path!=null) {
+            foreach(FileInfo delete_me in new DirectoryInfo(backup_path).GetFiles("*.tmp*"))
+                delete_me.Delete();
+            if(creating_file)
+                File.Delete(output_path + "\\" + file_name);
+        }
     }
 }

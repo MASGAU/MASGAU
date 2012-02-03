@@ -21,8 +21,8 @@ namespace Masgau
             taskmaster.StartInfo.FileName = "schtasks.exe";
             taskmaster.StartInfo.CreateNoWindow = true;
             taskmaster.StartInfo.RedirectStandardOutput = true;
-            taskmaster.StartInfo.RedirectStandardError = true;
-            taskmaster.StartInfo.RedirectStandardInput = true;
+//            taskmaster.StartInfo.RedirectStandardError = true;
+//            taskmaster.StartInfo.RedirectStandardInput = true;
             taskmaster.StartInfo.UseShellExecute = false;
 
             // An important break, for some reason the schtasks takes forever on vista without
@@ -35,9 +35,8 @@ namespace Masgau
             day = 1;
             the_times = DateTime.Parse("12:00");
             try {
+                Console.WriteLine(taskmaster.StartInfo.Arguments);
                 taskmaster.Start();
-                taskmaster.WaitForExit();
-
                 string output = taskmaster.StandardOutput.ReadLine();
                 while(output!=null&&(!output.StartsWith("TaskName:")||!output.Contains(task_name)))
                     output = taskmaster.StandardOutput.ReadLine();
@@ -84,6 +83,7 @@ namespace Masgau
                     }
                     output = taskmaster.StandardOutput.ReadLine();
                 }
+                taskmaster.WaitForExit();
                 schtasks_available = true;
             } catch {
                 Console.WriteLine("SCHTASKS Not Found");
@@ -155,7 +155,7 @@ namespace Masgau
             Console.WriteLine(arguments);
             taskmaster.Start();
             Console.WriteLine(taskmaster.StandardOutput.ReadToEnd());
-            Console.WriteLine(taskmaster.StandardError.ReadToEnd());
+            //Console.WriteLine(taskmaster.StandardError.ReadToEnd());
             taskmaster.WaitForExit();
             exists = true;
             return true;
@@ -165,7 +165,7 @@ namespace Masgau
             taskmaster.StartInfo.Arguments = "/Delete /TN " + task_name + " /F";
             taskmaster.Start();
             Console.WriteLine(taskmaster.StandardOutput.ReadToEnd());
-            Console.WriteLine(taskmaster.StandardError.ReadToEnd());
+//            Console.WriteLine(taskmaster.StandardError.ReadToEnd());
             taskmaster.WaitForExit();
             exists = false;
         }

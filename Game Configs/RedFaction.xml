@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Red Faction</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\RedFaction.exe\Path" />
 	<root path="%DRIVE%\Games\RedFaction" />
 	<save path="savegame" />
 </game_data>

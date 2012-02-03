@@ -4,6 +4,6 @@
 -->
 <game_data>
 	<title>Half-Life 2: Lost Coast</title>
-	<root path="%STEAMUSER%\half-life 2 lostcoast" />
-	<save path="lostcoast\SAVE" />
+	<root path="%STEAMUSER%\half-life 2 lostcoast\lostcoast" />
+	<save path="SAVE" />
 </game_data>

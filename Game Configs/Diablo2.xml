@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Diablo II</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Blizzard Entertainment\Diablo II\InstallPath" />
 	<root path="%PROGRAMFILES%\Diablo II" />
 	<save path="save" />
 </game_data>

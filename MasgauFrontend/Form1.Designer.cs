@@ -29,13 +29,14 @@ namespace Masgau
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.game_list = new System.Windows.Forms.ListView();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gamesContext = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.refreshToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.startBackup = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.detectedTree = new System.Windows.Forms.TreeView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -66,7 +67,7 @@ namespace Masgau
             this.taskFrequency = new System.Windows.Forms.ComboBox();
             this.taskApply = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
@@ -90,21 +91,9 @@ namespace Masgau
             this.groupBox10.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.altPathContext.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // game_list
-            // 
-            this.game_list.ContextMenuStrip = this.gamesContext;
-            this.game_list.FullRowSelect = true;
-            this.game_list.Location = new System.Drawing.Point(5, 18);
-            this.game_list.Margin = new System.Windows.Forms.Padding(2);
-            this.game_list.Name = "game_list";
-            this.game_list.Size = new System.Drawing.Size(419, 232);
-            this.game_list.TabIndex = 0;
-            this.game_list.UseCompatibleStateImageBehavior = false;
-            this.game_list.View = System.Windows.Forms.View.Details;
-            this.game_list.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.game_list_MouseDoubleClick);
             // 
             // gamesContext
             // 
@@ -160,13 +149,26 @@ namespace Masgau
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.game_list);
+            this.groupBox5.Controls.Add(this.detectedTree);
             this.groupBox5.Location = new System.Drawing.Point(5, 5);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(429, 255);
             this.groupBox5.TabIndex = 3;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Detected Games (Double-click to back up a specific game)";
+            // 
+            // detectedTree
+            // 
+            this.detectedTree.FullRowSelect = true;
+            this.detectedTree.Location = new System.Drawing.Point(6, 19);
+            this.detectedTree.Name = "detectedTree";
+            this.detectedTree.ShowPlusMinus = false;
+            this.detectedTree.ShowRootLines = false;
+            this.detectedTree.Size = new System.Drawing.Size(417, 230);
+            this.detectedTree.TabIndex = 1;
+            this.detectedTree.DoubleClick += new System.EventHandler(this.detectedTree_DoubleClick);
+            this.detectedTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.detectedTree_AfterSelect);
+            this.detectedTree.Click += new System.EventHandler(this.detectedTree_Click);
             // 
             // tabPage2
             // 
@@ -498,7 +500,7 @@ namespace Masgau
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.label2);
+            this.tabPage5.Controls.Add(this.pictureBox1);
             this.tabPage5.Controls.Add(this.linkLabel1);
             this.tabPage5.Controls.Add(this.label1);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
@@ -509,24 +511,24 @@ namespace Masgau
             this.tabPage5.Text = "About";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // pictureBox1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(161, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Pretty logo to go here";
+            this.pictureBox1.Image = global::Masgau.Properties.Resources.masgau_cool;
+            this.pictureBox1.Location = new System.Drawing.Point(65, 51);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(305, 72);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(105, 247);
+            this.linkLabel1.Location = new System.Drawing.Point(140, 244);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(237, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(151, 13);
             this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "https://sourceforge.net/apps/mediawiki/masga/";
+            this.linkLabel1.Text = "http://masga.sourceforge.net/";
             // 
             // label1
             // 
@@ -536,7 +538,7 @@ namespace Masgau
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(398, 19);
             this.label1.TabIndex = 1;
-            this.label1.Text = "MASGAU Automatic Save Game Archive Utility v.0.1";
+            this.label1.Text = "MASGAU Automatic Save Game Archive Utility v.0.2";
             // 
             // folderBrowser
             // 
@@ -562,11 +564,12 @@ namespace Masgau
             this.ClientSize = new System.Drawing.Size(446, 321);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "MASGA";
+            this.Text = "MASGAU";
             this.gamesContext.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -588,6 +591,7 @@ namespace Masgau
             this.groupBox6.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.altPathContext.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -595,7 +599,6 @@ namespace Masgau
 
         #endregion
 
-        private System.Windows.Forms.ListView game_list;
         private System.Windows.Forms.Button startBackup;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
@@ -636,8 +639,9 @@ namespace Masgau
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.ComboBox weekDay;
         private System.Windows.Forms.NumericUpDown monthDay;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button openBackupPath;
+        private System.Windows.Forms.TreeView detectedTree;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

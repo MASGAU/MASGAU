@@ -4,6 +4,6 @@
 -->
 <game_data>
 	<title>Half-Life 2: Episode Two</title>
-	<root path="%STEAMUSER%\half-life 2 episode two" />
-	<save path="ep2\SAVE" />
+	<root path="%STEAMUSER%\half-life 2 episode two\ep2" />
+	<save path="SAVE" />
 </game_data>

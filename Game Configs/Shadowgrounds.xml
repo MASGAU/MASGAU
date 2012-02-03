@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Shadowgrounds</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Shadowgrounds_is1\InstallLocation" />
 	<root path="%STEAMCOMMON%\shadowgrounds" />
 	<save path="Profiles" />
 	<save path="Config" filename="options.txt" />

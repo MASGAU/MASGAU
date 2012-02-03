@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Giants: Citizen Kaubto</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\giants.exe\Path" />
 	<root path="%PROGRAMFILES%\Giants" />
 	<save path="savegame" />
 </game_data>

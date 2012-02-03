@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>MechCommander 2</title>
+	<root shortcut="Programs\Microsoft Games\MechCommander 2\MechCommander 2.lnk" />
 	<root path="%PROGRAMFILES%\Microsoft Games\MechCommander2" />
 	<save path="data\savegame" />
 	<save path="" filename="*.cfg" />

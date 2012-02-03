@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>MechWarrior 4: Vengeance</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\MechWarrior Vengeance\EXE Path" />
 	<root path="%PROGRAMFILES%\Microsoft Games\MechWarrior Vengeance" />
 	<save path="resource\pilots" />
 	<save path="resource\variants" />

@@ -4,6 +4,7 @@
 -->
 <game_data>
 	<title>Neverwinter Nights</title>
+	<root registry="HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\NWN\Neverwinter\Location" />
 	<root path="%DRIVE%\NeverwinterNights" />
 	<save path="NWN\dmvault" />
 	<save path="NWN\localvault" />
