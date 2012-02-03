@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-15"?> 
-<!-- 
-	Contributed By: SanMadJack
--->
-<game_data>
-	<title>Tomb Raider III: Adventures Of Lara Croft</title>
-	<root path="%PROGRAMFILES%\Core Design\Tomb Raider III" />
-	<save path="" filename="savegame.*" />
-</game_data>

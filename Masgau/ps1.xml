@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<games>
+<game_data name="ChronoCross»PS1">
+	<title>Chrono Cross</title>
+	<ps1 prefix="SLUS" suffix="01041" />
+	<ps1 prefix="SLUS" suffix="01080" />
+</game_data>
+
+<game_data name="ChronoTrigger»PS1">
+	<title>Chrono Trigger</title>
+	<ps1 prefix="SLUS" suffix="01363" />
+</game_data>
+
+<game_data name="Descent»PS1">
+	<title>Descent</title>
+	<ps1 prefix="SLUS" suffix="00037" />
+</game_data>
+
+<game_data name="DescentMaximum»PS1.xml">
+	<title>Descent: Maximum</title>
+	<ps1 prefix="SLUS" suffix="00460" />
+</game_data>
+
+<game_data name="FinalFantasy4»PS1">
+	<title>Final Fantasy IV</title>
+	<ps1 prefix="SLUS" suffix="01360" />
+</game_data>
+
+<game_data name="FinalFantasy8»PS1">
+	<title>Final Fantasy VIII</title>
+	<ps1 prefix="SLUS" suffix="00892" />
+	<ps1 prefix="SLUS" suffix="00908" />
+	<ps1 prefix="SLUS" suffix="00909" />
+	<ps1 prefix="SLUS" suffix="00910" />
+</game_data>
+
+<game_data name="FinalFantasy9»PS1">
+	<title>Final Fantasy IX</title>
+	<ps1 prefix="SLUS" suffix="01251" />
+	<ps1 prefix="SLUS" suffix="01295" />
+	<ps1 prefix="SLUS" suffix="01296" />
+	<ps1 prefix="SLUS" suffix="01297" />
+</game_data>
+
+<game_data name="FinalFantasyTactics»PS1">
+	<title>Final Fantasy Tactics</title>
+	<ps1 prefix="SLUS" suffix="94221" />
+</game_data>
+
+<game_data name="MetalGearSolid»PS1">
+	<title>Metal Gear Solid</title>
+	<ps1 prefix="SLUS" suffix="00594" />
+	<ps1 prefix="SLUS" suffix="00776" />
+</game_data>
+
+<game_data name="MetalGearSolidVRMissions»PS1">
+	<title>Metal Gear Solid: VR Missions</title>
+	<ps1 prefix="SLUS" suffix="00957" />
+</game_data>
+
+<game_data name="ParasiteEve»PS1">
+	<title>Parasite Eve</title>
+	<ps1 prefix="SLUS" suffix="00662" />
+	<ps1 prefix="SLUS" suffix="00668" />
+</game_data>
+
+<game_data name="ParasiteEve2»PS1">
+	<title>Parasite Eve II</title>
+	<ps1 prefix="SLUS" suffix="01042" />
+	<ps1 prefix="SLUS" suffix="01055" />
+</game_data>
+
+<game_data name="SilentHill»PS1">
+	<title>Silent Hill</title>
+	<ps1 prefix="SLUS" suffix="00707" />
+</game_data>
+
+<game_data name="SoulBlade»PS1">
+	<title>Soul Blade</title>
+	<ps1 prefix="SLUS" suffix="00240" />
+</game_data>
+
+
+
+
+
+</games>

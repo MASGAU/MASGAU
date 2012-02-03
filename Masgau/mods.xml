@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<games>
+
+<game_data name="NamelessMod">
+	<!-- 
+		Path Info Contributed By: Trestkon
+	-->
+	<title>The Nameless Mod</title>
+	<root game="DeusEx" append="TNM" />
+	<root shortcut="Programs\The Nameless Mod\The Nameless Mod.lnk" detract="System" append="TNM" />
+	<save path="System" filename="*.ini" />
+	<save path="Save" />
+</game_data>
+
+</games>

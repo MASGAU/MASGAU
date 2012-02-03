@@ -1,18 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauFrontend", "MasgauFrontend\MasgauFrontend.csproj", "{700D0483-D96A-49B6-96B9-ADC948E1A146}"
-	ProjectSection(ProjectDependencies) = postProject
-		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66} = {DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masgau", "Masgau\Masgau.csproj", "{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MasgauInstaller", "MasgauInstaller\MasgauInstaller.vdproj", "{AAE1212D-E4BF-4E66-A07E-EC7D95E729EF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{700D0483-D96A-49B6-96B9-ADC948E1A146} = {700D0483-D96A-49B6-96B9-ADC948E1A146}
-		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66} = {DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauTask", "MasgauTask\MasgauTask.csproj", "{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauBackend", "MasgauBackend\MasgauBackend.csproj", "{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasgauMonitor", "MasgauMonitor\MasgauMonitor.csproj", "{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MasgauInstaller", "MasgauInstaller\MasgauInstaller.vdproj", "{6B549197-36C8-439C-BF67-D4ABFC6E3290}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,16 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{700D0483-D96A-49B6-96B9-ADC948E1A146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{700D0483-D96A-49B6-96B9-ADC948E1A146}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{700D0483-D96A-49B6-96B9-ADC948E1A146}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{700D0483-D96A-49B6-96B9-ADC948E1A146}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAE1212D-E4BF-4E66-A07E-EC7D95E729EF}.Debug|Any CPU.ActiveCfg = Debug
-		{AAE1212D-E4BF-4E66-A07E-EC7D95E729EF}.Release|Any CPU.ActiveCfg = Release
-		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFFE60FE-2F51-4CD9-A46D-0448D4ADAE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3956BAB-47F8-4AD5-AE95-44D1EA18B96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EC5D66-0B00-4F8E-83AC-587A27D8CE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B549197-36C8-439C-BF67-D4ABFC6E3290}.Debug|Any CPU.ActiveCfg = Debug
+		{6B549197-36C8-439C-BF67-D4ABFC6E3290}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

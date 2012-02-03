@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-15"?> 
-<!-- 
-	Contributed By: SanMadJack
--->
-<game_data>
-	<title>Half-Life 2</title>
-	<root path="%STEAMUSER%\half-life 2\hl2" />
-	<save path="SAVE" />
-</game_data>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<games>
+	<game_data name="BeyondGoodEvil»PS2">
+		<title>Beyond Good &amp; Evil</title>
+		<ps2 prefix="SLUS" suffix="20763" />
+	</game_data>
+	
+<game_data name="Bouncer»PS2">
+	<title>The Bouncer</title>
+	<ps2 prefix="SLUS" suffix="20069" />
+</game_data>
+
+<game_data name="DarkCloud»PS2">
+	<title>Dark Cloud</title>
+	<ps2 prefix="SCUS" suffix="97111" />
+</game_data>
+
+<game_data name="DarkCloud2»PS2">
+	<title>Dark Cloud 2</title>
+	<ps2 prefix="SCUS" suffix="97213" />
+</game_data>
+
+<game_data name="DeusExTheConspiracy»PS2">
+	<title>Deus Ex: The Conspiracy</title>
+	<ps2 prefix="SLUS" suffix="20111" />
+</game_data>
+
+<game_data name="DevilMayCry»PS2">
+	<title>Devil May Cry</title>
+	<ps2 prefix="SLUS" suffix="20216" />
+</game_data>
+
+<game_data name="DevilMayCry2»PS2">
+	<title>Devil May Cry 2</title>
+	<ps2 prefix="SLUS" suffix="20484" />
+	<ps2 prefix="SLUS" suffix="20627" />
+</game_data>
+
+<game_data name="DevilMayCry3DantesAwakeningSpecialEdition»PS2">
+	<title>Devil May Cry 3: Dante's Awakening: Special Edition</title>
+	<ps2 prefix="SLUS" suffix="21361" />
+</game_data>
+
+<game_data name="DirgeOfCerberusFinalFantasy7»PS2">
+	<title>Dirge of Cerberus: Final Fantasy VII</title>
+	<ps2 prefix="SLUS" suffix="21419" />
+</game_data>
+
+<game_data name="DisgaeaHourOfDarkness»PS2">
+	<title>Disgaea: Hour of Darkness</title>
+	<ps2 prefix="SLUS" suffix="20666" />
+</game_data>
+
+<game_data name="Disgaea2CursedMemories»PS2">
+	<title>Disgaea 2: Cursed Memories</title>
+	<ps2 prefix="SLUS" suffix="21397" />
+</game_data>
+
+<game_data name="DragonQuest8JourneyOfTheCursedKing»PS2">
+	<title>Dragon Quest VIII: Journey of the Cursed King</title>
+	<ps2 prefix="SLUS" suffix="21207" />
+</game_data>
+
+<game_data name="EscapeFromMonkeyIsland»PS2">
+	<title>Escape From Monkey Island</title>
+	<ps2 prefix="SLUS" suffix="20181" />
+</game_data>
+
+<game_data name="FinalFantasy10»PS2">
+	<title>Final Fantasy X</title>
+	<ps2 prefix="SLUS" suffix="20312" />
+</game_data>
+
+<game_data name="FinalFantasy10-2»PS2">
+	<title>Final Fantasy X-2</title>
+	<ps2 prefix="SLUS" suffix="20672" />
+</game_data>
+
+<game_data name="FinalFantasy12»PS2">
+	<title>Final Fantasy XII</title>
+	<ps2 prefix="SLUS" suffix="20963" />
+</game_data>
+
+<game_data name="Frequency»PS2">
+	<title>Frequency</title>
+	<ps2 prefix="SCUS" suffix="97125" />
+</game_data>
+
+<game_data name="GodOfWar»PS2">
+	<title>God of War</title>
+	<ps2 prefix="SCUS" suffix="97399" />
+</game_data>
+
+<game_data name="GodOfWar2»PS2">
+	<title>God of War II</title>
+	<ps2 prefix="SCUS" suffix="97481" />
+</game_data>
+
+<game_data name="HalfLife»PS2">
+	<title>Half-Life</title>
+	<ps2 prefix="SLUS" suffix="20066" />
+</game_data>
+
+<game_data name="Ico»PS2">
+	<title>Ico</title>
+	<ps2 prefix="SCUS" suffix="97113" />
+</game_data>
+
+<game_data name="IndigoProphecy»PS2">
+	<title>Indigo Prophecy</title>
+	<ps2 prefix="SLUS" suffix="21196" />
+</game_data>
+
+<game_data name="JakAndDaxterPrecursorLegacy»PS2">
+	<title>Jack and Daxter: The Precursor Legacy</title>
+	<ps2 prefix="SCUS" suffix="97124" />
+</game_data>
+
+<game_data name="Jak2»PS2">
+	<title>Jack II</title>
+	<ps2 prefix="SCUS" suffix="97265" />
+</game_data>
+
+<game_data name="Jak3»PS2">
+	<title>Jack 3</title>
+	<ps2 prefix="SCUS" suffix="97330" />
+</game_data>
+
+<game_data name="JakXCombatRacing»PS2">
+	<title>Jack X: Combat Racing</title>
+	<ps2 prefix="SCUS" suffix="97429" />
+</game_data>
+
+<game_data name="KingdomHearts»PS2">
+	<title>Kingdom Hearts</title>
+	<ps2 prefix="SLUS" suffix="20370" />
+</game_data>
+
+<game_data name="KingdomHeartsReChainOfMemories»PS2">
+	<title>Kingdom Hearts: Re: Chain of Memories</title>
+	<ps2 prefix="SLUS" suffix="21799" />
+</game_data>
+
+<game_data name="KingdomHearts2»PS2">
+	<title>Kingdom Hearts II</title>
+	<ps2 prefix="SLUS" suffix="21005" />
+</game_data>
+
+<game_data name="MetalGearSolid2Substance»PS2">
+	<title>Metal Gear Solid 2: Substance</title>
+	<ps2 prefix="SLUS" suffix="20554" />
+</game_data>
+
+<game_data name="MetalGearSolid3Subsistence»PS2">
+	<title>Metal Gear Solid 3: Subsistence</title>
+	<ps2 prefix="SLUS" suffix="21359" />
+	<ps2 prefix="SLUS" suffix="21243" />
+</game_data>
+
+<game_data name="OkageShadowKing»PS2">
+	<title>Okage: Shadow King</title>
+	<ps2 prefix="SCUS" suffix="97129" />
+</game_data>
+
+<game_data name="Okami»PS2">
+	<title>Okami</title>
+	<ps2 prefix="SLUS" suffix="21115" />
+</game_data>
+
+<game_data name="PrinceOfPersiaSandsOfTime»PS2">
+	<title>Prince of Persia: The Sands of Time</title>
+	<ps2 prefix="SLUS" suffix="20743" />
+</game_data>
+
+<game_data name="PrinceOfPersiaWarriorWithin»PS2">
+	<title>Prince of Persia: Warrior Within</title>
+	<ps2 prefix="SLUS" suffix="21022" />
+</game_data>
+
+<game_data name="PrinceOfPersiaTwoThrones»PS2">
+	<title>Prince of Persia: The Two Thrones</title>
+	<ps2 prefix="SLUS" suffix="21287" />
+</game_data>
+
+<game_data name="Psychonauts»PS2">
+	<title>Psychonauts</title>
+	<ps2 prefix="SLUS" suffix="21120" />
+</game_data>
+
+<game_data name="RatchetClank»PS2">
+	<title>Ratchet &amp; Clank</title>
+	<ps2 prefix="SCUS" suffix="97199" />
+</game_data>
+
+<game_data name="RatchetClankGoingCommando»PS2">
+	<title>Ratchet &amp; Clank: Going Commando</title>
+	<ps2 prefix="SCUS" suffix="97268" />
+</game_data>
+
+<game_data name="RatchetClankUpYourArsenal»PS2">
+	<title>Ratchet &amp; Clank: Up Your Arsenal</title>
+	<ps2 prefix="SCUS" suffix="97353" />
+</game_data>
+
+<game_data name="RatchetDeadlocked»PS2">
+	<title>Ratchet: Deadlocked</title>
+	<ps2 prefix="SCUS" suffix="97465" />
+</game_data>
+
+<game_data name="ResidentEvilCodeVeronicaX»PS2">
+	<title>Resident Evil: Code Veronica X</title>
+	<ps2 prefix="SLUS" suffix="20184" />
+</game_data>
+
+<game_data name="ResidentEvil4»PS2">
+	<title>Resident Evil 4</title>
+	<ps2 prefix="SLUS" suffix="21134" />
+</game_data>
+
+<game_data name="RogueGalaxy»PS2">
+	<title>Rogue Galaxy</title>
+	<ps2 prefix="SCUS" suffix="97490" />
+</game_data>
+
+<game_data name="ShadowOfTheColossus»PS2">
+	<title>Shadow of the Colossus</title>
+	<ps2 prefix="SCUS" suffix="97472" />
+</game_data>
+
+<game_data name="SilentHill2GreatestHits»PS2">
+	<title>Silent Hill 2: Greatest Hits Edition</title>
+	<ps2 prefix="SLUS" suffix="20228" />
+</game_data>
+
+<game_data name="SilentHill3»PS2">
+	<title>Silent Hill 3</title>
+	<ps2 prefix="SLUS" suffix="20622" />
+</game_data>
+
+<game_data name="SilentHill4Room»PS2">
+	<title>Silent Hill 4: The Room</title>
+	<ps2 prefix="SLUS" suffix="20873" />
+</game_data>
+
+<game_data name="SlyCooperAndtheThievusRaccoonus»PS2">
+	<title>Sky Cooper and the Thievus Raccoonus</title>
+	<ps2 prefix="SCUS" suffix="97198" />
+</game_data>
+
+<game_data name="SoulCalibur3»PS2">
+	<title>Soul Calibur III</title>
+	<ps2 prefix="SLUS" suffix="21216" />
+</game_data>
+
+<game_data name="StarOceanTillTheEndOfTime»PS2.xml">
+	<title>Star Ocean: Till the End of Time</title>
+	<ps2 prefix="SLUS" suffix="20488" />
+	<ps2 prefix="SLUS" suffix="20891" />
+</game_data>
+
+<game_data name="Summoner»PS2">
+	<title>Summoner</title>
+	<ps2 prefix="SLUS" suffix="20074" />
+</game_data>
+
+<game_data name="Summoner2»PS2">
+	<title>Summoner 2</title>
+	<ps2 prefix="SLUS" suffix="20448" />
+</game_data>
+
+<game_data name="Tekken5»PS2">
+	<title>Tekken 5</title>
+	<ps2 prefix="SLUS" suffix="21059" />
+</game_data>
+
+<game_data name="UnrealTournament»PS2">
+	<title>Unreal Tournament</title>
+	<ps2 prefix="SLUS" suffix="20034" />
+</game_data>
+
+<game_data name="XFilesResistOrServer»PS2">
+	<title>The X-Files: Resist or Serve</title>
+	<ps2 prefix="SLUS" suffix="20179" />
+</game_data>
+
+<game_data name="XIII»PS2">
+	<title>XIII</title>
+	<ps2 prefix="SLUS" suffix="20677" />
+</game_data>
+
+</games>

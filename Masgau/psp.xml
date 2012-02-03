@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<games>
+<game_data name="CrisisCoreFinalFantasy7»PSP">
+	<title>Crisis Core: Final Fantasy VII</title>
+	<psp prefix="ULUS" suffix="10336" />
+</game_data>
+
+<game_data name="Daxter»PSP">
+	<title>Daxter</title>
+	<psp prefix="UCUS" suffix="98618" />
+</game_data>
+
+<game_data name="Echochrome»PSP">
+	<title>Echochrome</title>
+	<psp prefix="NPUG" suffix="80135" />
+</game_data>
+
+<game_data name="FinalFantasy»PSP">
+	<title>Final Fantasy</title>
+	<psp prefix="ULUS" suffix="10251" />
+</game_data>
+
+<game_data name="FinalFantasy2»PSP">
+	<title>Final Fantasy II</title>
+	<psp prefix="ULUS" suffix="10263" />
+</game_data>
+
+<game_data name="FinalFantasyTacticsWarOfTheLions»PSP">
+	<title>Final Fantasy Tactics: War of the Lions</title>
+	<psp prefix="ULUS" suffix="10297" />
+</game_data>
+
+<game_data name="GodOfWarChainsOfOlympus»PSP">
+	<title>God of War: Chains of Olympus</title>
+	<psp prefix="UCUS" suffix="98653" />
+</game_data>
+
+<game_data name="JeanneDArc»PSP">
+	<title>Jeanne D'Arc</title>
+	<psp prefix="UCUS" suffix="98700" />
+</game_data>
+
+<game_data name="MetalGearAcid»PSP">
+	<title>Metal Gear Ac!d</title>
+	<psp prefix="ULUS" suffix="10006" />
+</game_data>
+
+<game_data name="MetalGearSolidPortableOps»PSP">
+	<title>Metal Gear Solid: Portable Ops</title>
+	<psp prefix="ULUS" suffix="10202" />
+</game_data>
+
+<game_data name="NoGravity»PSP">
+	<title>No Gravity</title>
+	<psp prefix="NPUH" suffix="10007" />
+</game_data>
+
+<game_data name="Patapon»PSP">
+	<title>Patapon</title>
+	<psp prefix="UCUS" suffix="98711" />
+</game_data>
+
+<game_data name="RatchetClankSizeMatters»PSP">
+	<title>Ratchet &amp; Clank: Size Matters</title>
+	<psp prefix="UCUS" suffix="98633" />
+</game_data>
+
+<game_data name="SilentHill0rigins»PSP">
+	<title>Silent Hill: 0rigins</title>
+	<psp prefix="ULUS" suffix="10285" />
+</game_data>
+
+<game_data name="StarOceanFirstDeparture»PSP.xml">
+	<title>Star Ocean: First Departure</title>
+	<psp prefix="ULUS" suffix="10374" />
+</game_data>
+
+<game_data name="SuperStardustPortable»PSP">
+	<title>Super Stardust Portable</title>
+	<psp prefix="NPUG" suffix="80221" />
+</game_data>
+
+
+</games>

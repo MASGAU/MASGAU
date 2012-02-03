@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-15"?> 
-<!-- 
-	Contributed By: SanMadJack
--->
-<game_data>
-	<title>Thief: Deadly Shadows</title>
-	<root path="%PUBLIC%\Documents\Thief - Deadly Shadows" />
-	<save path="SaveGames" />
-</game_data>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-15"?> 
-<!-- 
-	Contributed By: SanMadJack
--->
-<game_data>
-	<title>fs2_open</title>
-	<root path="%DRIVE%\fs2_open" />
-	<save path="data\players" />
-</game_data>

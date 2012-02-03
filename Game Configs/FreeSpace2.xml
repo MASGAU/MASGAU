@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-15"?> 
-<!-- 
-	Contributed By: SanMadJack
--->
-<game_data>
-	<title>FreeSpace 2</title>
-	<root path="%DRIVE%\Games\FreeSpace2" />
-	<save path="data\players" />
-</game_data>

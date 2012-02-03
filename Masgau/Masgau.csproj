@@ -1,0 +1,228 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C36E2BBF-990B-40AF-AD9D-9CEDE1037D9E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Masgau</RootNamespace>
+    <AssemblyName>Masgau</AssemblyName>
+    <ApplicationIcon>masgau_logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\MasgauTask\driveSelector.cs">
+      <Link>driveSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\driveSelector.designer.cs">
+      <Link>driveSelector.designer.cs</Link>
+      <DependentUpon>driveSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MasgauTask\rootSelector.cs">
+      <Link>rootSelector.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\rootSelector.designer.cs">
+      <Link>rootSelector.designer.cs</Link>
+      <DependentUpon>rootSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MasgauTask\taskForm.cs">
+      <Link>taskForm.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\taskForm.designer.cs">
+      <Link>taskForm.designer.cs</Link>
+      <DependentUpon>taskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\MasgauTask\zipLinker.cs">
+      <Link>zipLinker.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\MasgauTask\zipLinker.designer.cs">
+      <Link>zipLinker.designer.cs</Link>
+      <DependentUpon>zipLinker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveManager.cs" />
+    <None Include="pathSelector.cs">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="pathSelector.designer.cs">
+      <DependentUpon>pathSelector.cs</DependentUpon>
+    </None>
+    <Compile Include="GameData.cs" />
+    <Compile Include="manualBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manualBackup.Designer.cs">
+      <DependentUpon>manualBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="masgauForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masgauForm.designer.cs">
+      <DependentUpon>masgauForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PathHandler.cs" />
+    <Compile Include="playstationHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="..\MasgauTask\driveSelector.resx">
+      <Link>driveSelector.resx</Link>
+      <DependentUpon>driveSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MasgauTask\rootSelector.resx">
+      <Link>rootSelector.resx</Link>
+      <DependentUpon>rootSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MasgauTask\taskForm.resx">
+      <Link>taskForm.resx</Link>
+      <DependentUpon>taskForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MasgauTask\zipLinker.resx">
+      <Link>zipLinker.resx</Link>
+      <DependentUpon>zipLinker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="pathSelector.resx">
+      <DependentUpon>pathSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="manualBackup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>manualBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masgauForm.resx">
+      <DependentUpon>masgauForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purgeSelector.resx">
+      <DependentUpon>purgeSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userSelector.resx">
+      <DependentUpon>userSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="purgeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purgeSelector.designer.cs">
+      <DependentUpon>purgeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistryHandler.cs" />
+    <Compile Include="RegistryManager.cs" />
+    <Compile Include="RestoreHandler.cs" />
+    <Compile Include="SecurityHandler.cs" />
+    <Compile Include="SettingsManager.cs" />
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SteamHandler.cs" />
+    <Compile Include="structs.cs" />
+    <Compile Include="TaskHandler.cs" />
+    <Compile Include="userSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userSelector.designer.cs">
+      <DependentUpon>userSelector.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masgau_wallpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="games.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="masgau_logo.ico" />
+    <Content Include="mods.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ps1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ps2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ps3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="psp.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
