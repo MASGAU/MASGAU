@@ -32,18 +32,6 @@ namespace MASGAU.Game
             FileInfo[] read_us;
 	        DirectoryInfo read_me = new DirectoryInfo(game_configs);
 
-            XmlReaderSettings xml_settings = new XmlReaderSettings();
-            xml_settings.ConformanceLevel = ConformanceLevel.Auto;
-            xml_settings.IgnoreWhitespace = true;
-            xml_settings.IgnoreComments = true;
-            xml_settings.IgnoreProcessingInstructions = false;
-            xml_settings.DtdProcessing = DtdProcessing.Parse;
-            //xml_settings.ProhibitDtd = false;
-            xml_settings.ValidationType = ValidationType.Schema;
-            xml_settings.ValidationFlags |= XmlSchemaValidationFlags.ProcessIdentityConstraints;
-            xml_settings.ValidationFlags |= XmlSchemaValidationFlags.ProcessSchemaLocation;
-            xml_settings.ValidationEventHandler += new ValidationEventHandler(validationHandler);
-
             read_us = read_me.GetFiles("*.xml");
 
             if(read_us.Length==0)
@@ -53,17 +41,12 @@ namespace MASGAU.Game
             foreach(FileInfo me_me in read_us) {
                 i++;
 
-                XmlDocument game_config = new XmlDocument();
-                XmlReader parse_me = XmlReader.Create(me_me.FullName, xml_settings);
-
+                XmlDocument game_config;
                 try {
-                    game_config.Load(parse_me);
+                    game_config = Core.readXmlFile(me_me.FullName);
                 } catch (XmlException ex) {
-                    IXmlLineInfo info = parse_me as IXmlLineInfo;
-                    MessageHandler.SendError("What A Duketastrophe","The file " + me_me.Name + " has produced this error:" + Environment.NewLine + ex.Message + Environment.NewLine + "The error is on or near line " + info.LineNumber + ", possibly at column " + info.LinePosition + "." + Environment.NewLine + "Go fix it.");
+                    MessageHandler.SendError("What A Duketastrophe",ex.Message);
                     continue;
-                } finally {
-                    parse_me.Close();
                 }
 
 
@@ -81,7 +64,7 @@ namespace MASGAU.Game
                     continue;
                 }
 
-                UpdateHandler new_update = new UpdateHandler(games_node,Path.Combine("data",me_me.Name),me_me.FullName);;
+                UpdateHandler new_update = new UpdateHandler(games_node,"data"+ "/" + me_me.Name,me_me.FullName);
                 xml_file_versions.Add(new_update);
 
                 foreach(XmlElement element in games_node.ChildNodes) {
@@ -121,9 +104,5 @@ namespace MASGAU.Game
             ready = true;
         }
 
-        // Event handler to take care of XML errors while reading game configs
-        private static void validationHandler(object sender, ValidationEventArgs args){
-            throw new XmlException(args.Message);
-        }
     }
 }

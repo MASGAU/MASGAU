@@ -153,13 +153,6 @@
       <Link>masgau.ico</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Resource Include="..\MASGAU.Updater\updates.xml">
-      <Link>updates.xml</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\Configs\config.xml">
-      <Link>config.xml</Link>
-    </Resource>
     <Content Include="..\Dependencies\7-Zip\7z.dll">
       <Link>7z.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -171,8 +164,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>IF NOT EXIST "$(TargetDir)Data" MKDIR "$(TargetDir)Data"
-copy "$(SolutionDir)Data\*" "$(TargetDir)Data"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

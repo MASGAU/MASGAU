@@ -211,6 +211,7 @@ namespace MASGAU
             this.updater_program = updater_program;
             this.suppress_message = suppress_message;
             BackgroundWorker update = new BackgroundWorker();
+            Core.updater = new Update.UpdatesHandler();
             old_progress = ProgressHandler.progress_message;
             update.DoWork += new DoWorkEventHandler(update_DoWork);
             update.RunWorkerCompleted += new RunWorkerCompletedEventHandler(update_RunWorkerCompleted);

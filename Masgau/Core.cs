@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
+using System.Xml;
 using MASGAU.Location;
 using MASGAU.Archive;
 using MASGAU.Config;
@@ -8,6 +9,7 @@ using MASGAU.Monitor;
 using MASGAU.Update;
 using MASGAU.Game;
 using MASGAU.Task;
+using System.Xml.Schema;
 
 namespace MASGAU
 {
@@ -24,10 +26,10 @@ namespace MASGAU
         public const string extension = ".gb7";
         public const string seperator = "«";
         public const string owner_seperator = "@";
-        public const string version = "0.9";
-        public const string site_url = "http://masgau.sf.net/";
+        public const string version = "0.9.1";
+        public const string site_url = "http://masgau.org/";
 
-        public static UpdateVersion program_version = new UpdateVersion(0, 9, 0);
+        public static UpdateVersion program_version = new UpdateVersion(0, 9, 1);
         public static UpdateVersion update_compatibility = new UpdateVersion(1, 1, 0);
 
         // This stores the names of the various programs in masgau
@@ -97,6 +99,19 @@ namespace MASGAU
             Assembly temp = Assembly.GetExecutingAssembly();
 
             app_path = Path.GetDirectoryName(temp.Location);
+
+            xml_settings.ConformanceLevel = ConformanceLevel.Auto;
+            xml_settings.IgnoreWhitespace = true;
+            xml_settings.IgnoreComments = true;
+            xml_settings.IgnoreProcessingInstructions = false;
+            xml_settings.DtdProcessing = DtdProcessing.Parse;
+            //xml_settings.ProhibitDtd = false;
+            xml_settings.ValidationType = ValidationType.Schema;
+            xml_settings.ValidationFlags |= XmlSchemaValidationFlags.ProcessIdentityConstraints;
+            xml_settings.ValidationFlags |= XmlSchemaValidationFlags.ProcessSchemaLocation;
+            xml_settings.ValidationEventHandler += new ValidationEventHandler(validationHandler);
+
+            settings = new SettingsHandler();
         }
 
         protected Core(Interface new_interface) {
@@ -142,6 +157,26 @@ namespace MASGAU
             openPath(Core.settings.sync_path);
         }
         #endregion
+
+        // Event handler to take care of XML errors while reading game configs
+        private static void validationHandler(object sender, ValidationEventArgs args){
+            throw new XmlException(args.Message);
+        }
+
+        private static XmlReaderSettings xml_settings = new XmlReaderSettings();
+        public static XmlDocument readXmlFile(string name) {
+            XmlDocument game_config = new XmlDocument();
+            XmlReader parse_me = XmlReader.Create(name, xml_settings);
+            try {
+                game_config.Load(parse_me);
+                return game_config;
+            } catch (XmlException ex) {
+                IXmlLineInfo info = parse_me as IXmlLineInfo;
+                throw new XmlException("The file " + name + " has produced this error:" + Environment.NewLine + ex.Message + Environment.NewLine + "The error is on or near line " + info.LineNumber + ", possibly at column " + info.LinePosition + "." + Environment.NewLine + "Go fix it.");
+            } finally {
+                parse_me.Close();
+            }
+        }
 
     }
 }

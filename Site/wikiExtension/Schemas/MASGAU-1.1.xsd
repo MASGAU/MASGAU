@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!--simple elements-->
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="contributer" type="xs:string"/>
+    <xs:element name="comment" type="xs:string"/>
+    <xs:element name="restore_comment" type="xs:string"/>
+    <xs:element name="require_detection" />
+
+  <!--attributes-->
+
+    <xs:attribute name="date">
+        <xs:simpleType>
+            <xs:restriction base="xs:string" >
+                <xs:pattern value="\d{4}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[0-2])T([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:attribute name="environment_variable">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="allusersprofile"/>
+                <xs:enumeration value="altsavepaths"/>
+                <xs:enumeration value="appdata"/>
+                <xs:enumeration value="drive"/>
+                <xs:enumeration value="flashshared" />
+                <xs:enumeration value="installlocation"/>
+                <xs:enumeration value="localappdata"/>
+                <xs:enumeration value="public"/>
+                <xs:enumeration value="savedgames"/>
+                <xs:enumeration value="steamuser"/>
+                <xs:enumeration value="steamcommon"/>
+                <xs:enumeration value="steamsourcemods"/>
+                <xs:enumeration value="steamuserdata"/>
+                <xs:enumeration value="userprofile"/>
+                <xs:enumeration value="userdocuments"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="filename" type="xs:string"/>
+    <xs:attribute name="game" type="xs:string"/>
+    <xs:attribute name="key" type="xs:string"/>
+  
+    <xs:attribute name="country">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="USA"/>
+                <xs:enumeration value="EUR"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+  
+    <xs:attribute name="name">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[-_A-Za-z0-9]*"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:attribute name="override" default="no">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="yes"/>
+                <xs:enumeration value="no"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+  
+    <xs:attribute name="read_only">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="true"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="path" type="xs:string"/>
+    <xs:attribute name="root">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="classes_root"/>
+                <xs:enumeration value="current_user"/>
+                <xs:enumeration value="current_config"/>
+                <xs:enumeration value="dyn_data"/>
+                <xs:enumeration value="local_machine"/>
+                <xs:enumeration value="performance_data"/>
+                <xs:enumeration value="users"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="shortcut" type="xs:string"/>
+    <xs:attribute name="value" type="xs:string"/>
+    <xs:attribute name="deprecated" type="xs:boolean"/>
+
+    <xs:attribute name="platform_version">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="XP"/>
+                <xs:enumeration value="Vista"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:attribute name="platform">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="ScummVM"/>
+                <xs:enumeration value="Steam"/>
+                <xs:enumeration value="Linux"/>
+                <xs:enumeration value="Flash"/>
+                <xs:enumeration value="DOS"/>
+                <xs:enumeration value="OSX"/>
+                <xs:enumeration value="PS1"/>
+                <xs:enumeration value="PS2"/>
+                <xs:enumeration value="PS3"/>
+                <xs:enumeration value="PSP"/>
+                <xs:enumeration value="Windows"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:attribute name="type">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Settings"/>
+                <xs:enumeration value="Replays"/>
+                <xs:enumeration value="MODs"/>
+                <xs:enumeration value="Characters"/>
+                <xs:enumeration value="Statistics"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+  <!--attribute groups-->
+    <xs:attributeGroup name="playstation_code">
+        <xs:attribute name="prefix">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:length value="4"/>
+                    <xs:pattern value="[A-Z]{4}"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    
+        <xs:attribute name="suffix">
+            <xs:simpleType>
+                <xs:restriction base="xs:integer" >
+                    <xs:pattern value="[0-9]{5}"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="location_attributes">
+        <xs:attribute ref="platform_version" use="optional"/>
+        <xs:attribute ref="read_only" use="optional"/>
+        <xs:attributeGroup ref="append_detract" />
+    </xs:attributeGroup>
+  
+    <xs:attributeGroup name="append_detract">
+        <xs:attribute name="append" type="xs:string"/>
+        <xs:attribute name="detract" type="xs:string"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="files">
+        <xs:attribute ref="path" use="optional"/>
+        <xs:attribute ref="filename" use="optional"/>
+        <xs:attribute name="modified_after">
+            <xs:simpleType>
+                <xs:restriction base="xs:string" >
+                    <xs:pattern value="\d{4}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[0-2])T([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="typed_files">
+        <xs:attributeGroup ref="files"/>
+        <xs:attribute name="type" type="xs:string"/>
+    </xs:attributeGroup>
+
+  <!--complex elements-->
+    <xs:element name="location_registry">
+        <xs:complexType>
+            <xs:attribute ref="root" use="required"/>
+            <xs:attribute ref="key" use="required"/>
+            <xs:attribute ref="value" use="optional"/>
+            <xs:attributeGroup ref="location_attributes" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="location_shortcut">
+        <xs:complexType>
+            <xs:attribute ref="shortcut" use="required"/>
+            <xs:attributeGroup ref="location_attributes" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="location_game">
+        <xs:complexType>
+            <xs:attribute ref="name" use="required"/>
+            <xs:attribute ref="platform" use="optional"/>
+            <xs:attribute ref="country" use="optional"/>
+            <xs:attributeGroup ref="location_attributes" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="location_path">
+        <xs:complexType>
+            <xs:attribute ref="environment_variable" use="required"/>
+            <xs:attribute ref="path" use="required"/>
+            <xs:attributeGroup ref="location_attributes" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="save">
+        <xs:complexType>
+            <xs:attributeGroup ref="typed_files" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ignore">
+        <xs:complexType>
+            <xs:attributeGroup ref="typed_files" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ps_code">
+        <xs:complexType>
+            <xs:attributeGroup ref="playstation_code" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="virtualstore">
+        <xs:complexType>
+            <xs:attribute ref="override" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="identifier">
+        <xs:complexType>
+            <xs:attributeGroup ref="files" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="game">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title" minOccurs="1" maxOccurs="1"/>
+                <xs:choice>
+                    <xs:sequence>
+                        <xs:choice minOccurs="1" maxOccurs="unbounded">
+                            <xs:element ref="location_registry" minOccurs="1" maxOccurs="unbounded" />
+                            <xs:element ref="location_shortcut" minOccurs="1" maxOccurs="unbounded" />
+                            <xs:element ref="location_game" minOccurs="1" maxOccurs="unbounded" />
+                            <xs:element ref="location_path" minOccurs="1" maxOccurs="unbounded" />
+                        </xs:choice>
+                        <xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded"/>
+                        <xs:choice minOccurs="1" maxOccurs="unbounded">
+                            <xs:element ref="save" minOccurs="1" maxOccurs="unbounded"/>
+                            <xs:element ref="ignore" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:choice>
+                        <xs:element ref="virtualstore" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="require_detection" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                    <xs:element ref="ps_code" minOccurs="1" maxOccurs="unbounded"/>
+                </xs:choice>
+                <xs:element ref="comment" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="restore_comment" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="contributer" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute ref="name" use="required"/>
+            <xs:attribute ref="platform" use="optional"/>
+            <xs:attribute ref="country" use="optional"/>
+            <xs:attribute ref="deprecated" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="games">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="game" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="majorVersion" type="xs:integer" use="required"/>
+            <xs:attribute name="minorVersion" type="xs:integer" use="required"/>
+            <xs:attribute ref="date" use="required"/>
+            <xs:anyAttribute processContents="skip"/> 
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+

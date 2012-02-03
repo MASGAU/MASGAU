@@ -25,6 +25,23 @@ namespace MASGAU.Update
             }
         }
 
+
+        private bool? _update_me = null;
+        public bool? update_me {
+            get {
+                if (_update_me == null)
+                    if (current_version.date.CompareTo(new DateTime(1955, 11, 5)) == 0)
+                        return false;
+                    else
+                        return needs_update;
+                else
+                    return _update_me;
+            }
+            set {
+                _update_me = value;
+            }
+        }
+
         public List<string> latest_version_urls;
         private UpdateVersion latest_version;
         public string latest_version_string {
@@ -67,18 +84,18 @@ namespace MASGAU.Update
                 throw new MException("Update XML Error","url attribute missing in " + name,true);
             }
 
-            if(latest_version.CompareTo(test)<0)
+            if (latest_version.CompareTo(test) < 0) {
                 latest_version_urls = new List<string>();
-
-            latest_version_urls.Add(latest_version_url);
-            latest_version = test;
+                latest_version_urls.Add(latest_version_url);
+                latest_version = test;
+            }
 
             NotifyPropertyChanged("latest_version_string");
         }
 
         public bool needs_update {
             get {
-                return latest_version.CompareTo(current_version)>0;
+                return latest_version.CompareTo(current_version) > 0;
             }
         }
         private bool? _updating = false;
@@ -121,6 +138,20 @@ namespace MASGAU.Update
 
                     writer.Close();
                     new_file.Close();
+
+                    XmlDocument game_config;
+                    try {
+                        game_config = Core.readXmlFile(tmp_name);
+                    } catch (InvalidOperationException ex) {
+                        MessageHandler.SendError("Error Downloading",latest_version_url + " is producing bad data.\nYou really should click Send Report so I can fix it.",ex);
+                        File.Delete(tmp_name);
+                        continue;
+                    } catch (XmlException ex) {
+                        MessageHandler.SendError("Error Downloading",latest_version_url + " is producing bad data.\nYou really should click Send Report so I can fix it.",ex);
+                        File.Delete(tmp_name);
+                        continue;
+                    }
+
 
                     if(File.Exists(current_version_path))
                         File.Delete(current_version_path);

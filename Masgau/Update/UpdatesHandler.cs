@@ -75,6 +75,7 @@ namespace MASGAU.Update
                 shutdown_required = true;
                 throw new MException("Not cool","The updates.xml file couldn't be found. You probably need to re-install.",false);
             }
+
             XmlReaderSettings xml_settings = new XmlReaderSettings();
             xml_settings.ConformanceLevel = ConformanceLevel.Document;
             xml_settings.IgnoreComments = true;
@@ -103,9 +104,10 @@ namespace MASGAU.Update
                 throw new MException("Update XML Error","Couldn't find the updates tag in updates.xml", false);
             }
 
-            this.Add(new UpdateHandler(updates_node,"updates.xml",updates_file));
+            //this.Add(new UpdateHandler(updates_node,"updates.xml",updates_file));
 
             update_sources = new List<string>();
+
             foreach(XmlElement element in updates_node.ChildNodes) {
                 if(element.Name!="source")
                     continue;
@@ -170,9 +172,9 @@ namespace MASGAU.Update
                                 new_file = new UpdateHandler(new UpdateVersion(0,0,0),name,Path.Combine(Core.app_path,name));
                             }
 
-                            UpdateVersion test = UpdateVersion.getVersionFromXml(element);
-                            if(Core.update_compatibility.compatibleWith(test))
-                                continue;
+                            //UpdateVersion test = UpdateVersion.getVersionFromXml(element);
+                            //if(Core.update_compatibility.compatibleWith(test))
+                                //continue;
 
                             new_file.setLatestVersion(element);
                             if(!this.Contains(new_file))
@@ -189,14 +191,19 @@ namespace MASGAU.Update
                     shutdown_required = true;
                     return;
                 } else {
-                    return;
                 }
             } 
 
-            foreach(UpdateHandler update_me in this) {
-                if(update_me.needs_update) {
-                    update_available = true;
-                    break;
+            for(int i = 0;i<this.Count;i++) {
+                UpdateHandler update_me = this[i];
+                if (update_me.needs_update) {
+                    if ((bool)update_me.update_me) {
+                        update_available = true;
+                    }
+                }
+                else {
+                    this.RemoveAt(i);
+                    i--;
                 }
             } 
 
@@ -228,6 +235,7 @@ namespace MASGAU.Update
                     redetect_required = false;
                 }
             } else {
+                Core.settings.auto_update = false;
                 throw new MException("How could you let this happen?","The updater executable is missing." + Environment.NewLine + "You'll probably have to reinstall MASGAU before updating will work again",false);
             }
         

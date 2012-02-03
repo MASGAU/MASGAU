@@ -75,6 +75,7 @@ namespace MASGAU.Updater
 
         private void okBtn_Click(object sender, RoutedEventArgs e)
         {
+            updateLst.IsEnabled = false;
             okBtn.IsEnabled = false;
             cancelBtn.IsEnabled = false;
             updater.RunWorkerAsync();
@@ -82,12 +83,20 @@ namespace MASGAU.Updater
 
 
         private void updateComplete(object sender, RunWorkerCompletedEventArgs e) {
+            okBtn.Visibility = System.Windows.Visibility.Collapsed;
+            cancelBtn.Visibility = System.Windows.Visibility.Collapsed;
+            donBtn.Visibility = System.Windows.Visibility.Visible;
+            //this.tabControl1.TabIndex = 3;
             Environment.ExitCode =  1;
-            this.Close();
+            //this.Close();
         }
 
         private void cancelBtn_Click(object sender, RoutedEventArgs e)
         {
+            this.Close();
+        }
+
+        private void donBtn_Click(object sender, RoutedEventArgs e) {
             this.Close();
         }
         

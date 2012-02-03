@@ -3,6 +3,8 @@ TODO: Assassin's Creed 2 and other stuff like that
 TODO: Confirm new restore code properly handles being denied write access
 TODO: Add logging for all errors and messages?
 TODO: Double check appdata priorities
+0.9.1 - Independent Evolution
+* Added client code for the new automatically generating update server
 0.9 - Beta in mind
 * Change Analyzer to disable entire interface while e-mailing
 * Changed analyzer to e-mail masgausubmissions@gmail.com instead of my personal address

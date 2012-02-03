@@ -25,8 +25,6 @@ namespace MASGAU {
             if (!initialized) {
                 ProgressHandler.progress_message = "Loading Settings...";
 
-                settings = new SettingsHandler();
-
                 if (!settings.IsReady) {
                     initialized = false;
                     MessageHandler.SendError("Show Stopper", "");

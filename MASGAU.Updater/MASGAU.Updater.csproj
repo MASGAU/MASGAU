@@ -63,7 +63,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fileversions.xml" />
     <Content Include="updates.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

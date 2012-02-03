@@ -20,46 +20,61 @@ namespace MASGAU.Update
             get;
             protected set;
         }
+        public DateTime date {
+            get;
+            protected set;
+        }
 
-        public UpdateVersion(int major, int minor, int revision) {
+        public UpdateVersion(int major, int minor, int revision): this() {
             this.major = major;
             this.minor = minor;
             this.revision = revision;
         }
 
         // Allow the constructors to do their things
-        protected UpdateVersion() {}
+        protected UpdateVersion() { this.date = new DateTime(1955, 11, 5); ; }
 
         public static UpdateVersion getVersionFromXml(XmlElement element) {
             UpdateVersion return_me = new UpdateVersion();
             if(element.HasAttribute("majorVersion"))
                 return_me.major = Int32.Parse(element.GetAttribute("majorVersion"));
-            else
-                throw new MException("Version Read Error","Could not find majorVersion attribute",true);
+            //else
+              //  throw new MException("Version Read Error","Could not find majorVersion attribute",true);
 
             if(element.HasAttribute("minorVersion"))
                 return_me.minor = Int32.Parse(element.GetAttribute("minorVersion"));
-            else
-                throw new MException("Version Read Error","Could not find minorVersion attribute", true);
+            //else
+              //  throw new MException("Version Read Error","Could not find minorVersion attribute", true);
 
-            if(element.HasAttribute("revisionVersion"))
-                return_me.revision = Int32.Parse(element.GetAttribute("revisionVersion"));
+            if (element.HasAttribute("revision"))
+                return_me.revision = Int32.Parse(element.GetAttribute("revision"));
+            else {
+                return_me.revision = 0;
+            }
+
+            if (element.HasAttribute("date"))
+                return_me.date = DateTime.Parse(element.GetAttribute("date"));
+            else if (element.HasAttribute("last_updated"))
+                return_me.date = DateTime.Parse(element.GetAttribute("last_updated"));
             else
-                throw new MException("Version Read Error","Could not find revisionVersion attribute", true);
+                throw new MException("Version Read Error","Could not find date attribute", true);
             return return_me;
         }
 
 
         public int CompareTo(UpdateVersion version) {
-            int result = major.CompareTo(version.major);
-            
-            if(result==0)
-                result = minor.CompareTo(version.minor);
+                int result = major.CompareTo(version.major);
 
-            if(result==0)
-                result = revision.CompareTo(version.revision);
+                if (result == 0)
+                    result = minor.CompareTo(version.minor);
 
-            return result;
+                if (result == 0)
+                    result = revision.CompareTo(version.revision);
+
+                if (major==0&&minor==0&&revision==0)
+                    result = this.date.CompareTo(version.date);
+
+                return result;
         }
 
         public bool compatibleWith(UpdateVersion version) {
@@ -68,10 +83,10 @@ namespace MASGAU.Update
 
         public override string ToString()
         {
-            if(major==0&&major==0&&revision==0)
+            if (this.date.CompareTo(new DateTime(1955, 11, 5)) == 0)
                 return "Not Present";
             else
-                return major + "." + minor + "." + revision;
+                return this.date.ToString();
         }
 
        

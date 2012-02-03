@@ -6,8 +6,8 @@ namespace MASGAU
     public class EmailHandler: BackgroundWorker
     {
 
-        public static string email_recepient = "masgau-devel@lists.sourceforge.net";
-        public static string email_sender = "masgausubmissions@gmail.com";
+        public static string email_recepient = "submissions@masgau.org";
+        public static string email_sender = "submissions@masgau.org";
         public static string email_password = "0WCM;i$N";
         public EmailHandler() {
 

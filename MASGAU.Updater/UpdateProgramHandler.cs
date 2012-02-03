@@ -23,11 +23,11 @@ namespace MASGAU.Update
         void UpdateProgramHandler_DoWork(object sender, DoWorkEventArgs e)
         {
             foreach(UpdateHandler update in updater) {
-                if(update.needs_update) {
+                if((bool)update.update_me) {
                     update.update();
                 } 
             } 
-            MessageHandler.SendInfo("Feeling Better","Update Finished");
+            //MessageHandler.SendInfo("Feeling Better","Update Finished");
         }
 
     }

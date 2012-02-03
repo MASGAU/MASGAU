@@ -18,7 +18,7 @@ namespace MASGAU.Updater
             else if(updating==true)
                 retval = Brushes.LightYellow;
             else
-                retval = Brushes.LightSalmon;
+                retval = Brushes.White;
 
             return retval;
         }

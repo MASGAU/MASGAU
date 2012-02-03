@@ -4,24 +4,24 @@ EnableISX=true
 [Setup]
 AppMutex=MASGAU
 AppName=MASGAU
-AppVerName=MASGAU 0.9.0
+AppVerName=MASGAU 0.9.1
 MinVersion=4.1,4.0
 DefaultDirName={pf}\MASGAU
 DefaultGroupName=MASGAU
 Compression=lzma/Ultra64
 SolidCompression=true
-OutputBaseFilename=MASGAU-0.9-Setup
+OutputBaseFilename=MASGAU-0.9.1-Setup
 AppCopyright=2011
 ChangesAssociations=true
-WizardImageFile=..\Graphics\installer_logo.bmp
-WizardSmallImageFile=..\Graphics\installer_logo_small.bmp
+WizardImageFile=installer_logo.bmp
+WizardSmallImageFile=installer_logo_small.bmp
 WizardImageStretch=true
-SetupIconFile=..\Graphics\masgau.ico
+SetupIconFile=..\MASGAU\masgau.ico
 AllowRootDirectory=true
 DirExistsWarning=no
 VersionInfoVersion=0.9
 VersionInfoProductName=MASGAU
-VersionInfoProductVersion=0.9
+VersionInfoProductVersion=0.9.1
 LicenseFile=..\Docs\gpl-2.0.txt
 InternalCompressLevel=Ultra64
 ArchitecturesInstallIn64BitMode=x64
@@ -40,8 +40,8 @@ Source: ..\Docs\changelog.txt; DestDir: {app}; Components: MASGAU\Core;
 Source: ..\Docs\data changelog.txt; DestDir: {app}; Components: MASGAU\Core; 
 Source: ..\MASGAU.Updater\updates.xml; DestDir: {app};  Components: MASGAU\Core;
 Source: ..\Docs\gpl-2.0.txt; DestDir: {app}; Components: MASGAU\Core;
-Source: ..\Data\games.xsd; DestDir: {app}\Data; Components: MASGAU\Core; 
-Source: ..\Graphics\masgau.ico; DestDir: {app};  Components: MASGAU\Core;
+Source: ..\Data\Data\games.xsd; DestDir: {app}\Data; Components: MASGAU\Core; 
+Source: ..\MASGAU\masgau.ico; DestDir: {app};  Components: MASGAU\Core;
 // Main DLLs
 Source: ..\MASGAU\bin\Release\MASGAU.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\MASGAU\bin\Release\MASGAU.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
@@ -77,22 +77,22 @@ Source: ..\MASGAU.Monitor.WPF\bin\Release\MASGAU.Monitor.WPF.exe; DestDir: {app}
 Source: ..\MASGAU.Monitor.WPF\bin\Release\MASGAU.Monitor.WPF.pdb; DestDir: {app};  Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion;
 
 // PC Game Data component 
-Source: ..\Data\games.xml; DestDir: {app}\Data;  Components: DataFiles\PCData; 
-Source: ..\Data\mods.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
-Source: ..\Data\windows.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
-Source: ..\Data\dos.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
-Source: ..\Data\scummvm.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
-Source: ..\Data\steam.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
-Source: ..\Data\flash.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
+Source: ..\Data\Data\games.xml; DestDir: {app}\Data;  Components: DataFiles\PCData; 
+Source: ..\Data\Data\mods.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
+Source: ..\Data\Data\windows.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
+Source: ..\Data\Data\dos.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
+Source: ..\Data\Data\scummvm.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
+Source: ..\Data\Data\steam.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
+Source: ..\Data\Data\flash.xml; DestDir: {app}\Data;  Components: DataFiles\PCData;
 // Deprecated game data
-Source: ..\Data\deprecated.xml; DestDir: {app}\Data;  Components: DataFiles\DeprecatedData;
+Source: ..\Data\Data\deprecated.xml; DestDir: {app}\Data;  Components: DataFiles\DeprecatedData;
 // PlayStation Game Data Component 
-Source: ..\Data\ps1.xml; DestDir: {app}\Data; Components: DataFiles\PSData; 
-Source: ..\Data\ps2.xml; DestDir: {app}\Data;  Components: DataFiles\PSData;
-Source: ..\Data\ps3.xml; DestDir: {app}\Data;  Components: DataFiles\PSData;
-Source: ..\Data\psp.xml; DestDir: {app}\Data;  Components: DataFiles\PSData;
+Source: ..\Data\Data\ps1.xml; DestDir: {app}\Data; Components: DataFiles\PSData; 
+Source: ..\Data\Data\ps2.xml; DestDir: {app}\Data;  Components: DataFiles\PSData;
+Source: ..\Data\Data\ps3.xml; DestDir: {app}\Data;  Components: DataFiles\PSData;
+Source: ..\Data\Data\psp.xml; DestDir: {app}\Data;  Components: DataFiles\PSData;
 // System Data component 
-Source: ..\Data\system.xml; DestDir: {app}\Data; Components: DataFiles\SysData; 
+Source: ..\Data\Data\system.xml; DestDir: {app}\Data; Components: DataFiles\SysData; 
 
 
 [Registry]
@@ -104,7 +104,7 @@ Root: HKCR; SubKey: MASGAUArchive\shell\open\command; ValueType: string; ValueDa
 // Installation folder key
 Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueName: InstallPath; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteValue; 
 Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteKey  ; 
-Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueName: Version; ValueData: 0.9; Components: MASGAU; Flags:  UninsDeleteValue; 
+Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueName: Version; ValueData: 0.9.1; Components: MASGAU; Flags:  UninsDeleteValue; 
 
 [Messages]
 WinVersionTooLowError=MASGAU requires Windows NT4, Windows 98 or later.
