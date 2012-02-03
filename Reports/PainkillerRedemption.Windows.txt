@@ -1,0 +1,121 @@
+Game Name: Painkiller Redemption
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Painkiller Redemption
+
+Save Path: 
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{43C3BB44-5D3C-4DA1-ACC1-F542AC8CC1E8}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Painkiller Redemption
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{43C3BB44-5D3C-4DA1-ACC1-F542AC8CC1E8}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Painkiller Redemption\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Painkiller Redemption\Painkiller Redemption Editor.lnk
+C:\Program Files (x86)\Painkiller Redemption\Bin\RedemptionEditor.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Painkiller Redemption\Painkiller Redemption.lnk
+C:\Program Files (x86)\Painkiller Redemption\Bin\Redemption.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Painkiller Redemption\Uninstall Painkiller Redemption.lnk
+C:\Program Files (x86)\Painkiller Redemption\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\PKTVStrings.dic - 0
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Redemption.ini - 10875
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\000\Save.RedemptionSave - 1540
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\000\SaveGame.Info - 234
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\001\Save.RedemptionSave - 648080
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\001\SaveGame.Info - 229
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\002\Save.RedemptionSave - 439090
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\002\SaveGame.Info - 243
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\003\Save.RedemptionSave - 446560
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\003\SaveGame.Info - 243
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\004\Save.RedemptionSave - 446531
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\004\SaveGame.Info - 243
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\005\Save.RedemptionSave - 428530
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\005\SaveGame.Info - 243
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\006\Save.RedemptionSave - 647943
+C:\Users\%USERNAME%\AppData\Local\Painkiller Redemption\Saves\006\SaveGame.Info - 229
+
+Install Folder Dump: 
+C:\Program Files (x86)\Painkiller Redemption\unins000.dat - 15075
+C:\Program Files (x86)\Painkiller Redemption\unins000.exe - 1197507
+C:\Program Files (x86)\Painkiller Redemption\Bin\binkw32.dll - 167424
+C:\Program Files (x86)\Painkiller Redemption\Bin\iconv.dll - 978432
+C:\Program Files (x86)\Painkiller Redemption\Bin\mss32.dll - 435200
+C:\Program Files (x86)\Painkiller Redemption\Bin\Redemption.exe - 3417088
+C:\Program Files (x86)\Painkiller Redemption\Bin\RedemptionD3D.dll - 240128
+C:\Program Files (x86)\Painkiller Redemption\Bin\RedemptionD3DEditor.dll - 243712
+C:\Program Files (x86)\Painkiller Redemption\Bin\RedemptionEditor.exe - 3577856
+C:\Program Files (x86)\Painkiller Redemption\Bin\RedemptionEngine.dll - 3297792
+C:\Program Files (x86)\Painkiller Redemption\Bin\RedemptionEngineEditor.dll - 3575296
+C:\Program Files (x86)\Painkiller Redemption\Bin\RedemptionMUI.dll - 450560
+C:\Program Files (x86)\Painkiller Redemption\Bin\Miles\mssdolby.flt - 7680
+C:\Program Files (x86)\Painkiller Redemption\Bin\Miles\mssds3d.flt - 12800
+C:\Program Files (x86)\Painkiller Redemption\Bin\Miles\mssdsp.flt - 56832
+C:\Program Files (x86)\Painkiller Redemption\Bin\Miles\msseax.flt - 59392
+C:\Program Files (x86)\Painkiller Redemption\Bin\Miles\mssmp3.asi - 94208
+C:\Program Files (x86)\Painkiller Redemption\Bin\Miles\msssrs.flt - 12800
+C:\Program Files (x86)\Painkiller Redemption\Bin\Miles\mssvoice.asi - 153600
+C:\Program Files (x86)\Painkiller Redemption\Data\fonts.pak - 1789207
+C:\Program Files (x86)\Painkiller Redemption\Data\items.pak - 7875647
+C:\Program Files (x86)\Painkiller Redemption\Data\levels.pak - 1058750
+C:\Program Files (x86)\Painkiller Redemption\Data\Locs.pak - 17709
+C:\Program Files (x86)\Painkiller Redemption\Data\lscripts.pak - 2183505
+C:\Program Files (x86)\Painkiller Redemption\Data\maps.pak - 118560190
+C:\Program Files (x86)\Painkiller Redemption\Data\Mapview.pak - 1379266
+C:\Program Files (x86)\Painkiller Redemption\Data\models.pak - 148186380
+C:\Program Files (x86)\Painkiller Redemption\Data\scripts.pak - 817885
+C:\Program Files (x86)\Painkiller Redemption\Data\scripts01.pak - 555
+C:\Program Files (x86)\Painkiller Redemption\Data\shaders.pak - 479767
+C:\Program Files (x86)\Painkiller Redemption\Data\soundscommon.pak - 471101982
+C:\Program Files (x86)\Painkiller Redemption\Data\texturescommon.pak - 778634848
+C:\Program Files (x86)\Painkiller Redemption\Data\texturesmulti.pak - 13978672
+C:\Program Files (x86)\Painkiller Redemption\Data\movies\credits.bik - 125388952
+C:\Program Files (x86)\Painkiller Redemption\Data\movies\DC_logo.bik - 9949000
+C:\Program Files (x86)\Painkiller Redemption\Data\movies\intro.bik - 35578528
+C:\Program Files (x86)\Painkiller Redemption\Data\movies\jowood_logo.bik - 14644560
+C:\Program Files (x86)\Painkiller Redemption\Data\movies\middle.bik - 29901504
+C:\Program Files (x86)\Painkiller Redemption\Data\movies\outro1.bik - 178043572
+C:\Program Files (x86)\Painkiller Redemption\Data\movies\qa_logo.bik - 6534644
+C:\Program Files (x86)\Painkiller Redemption\Data\movies\redemption_machinima.bik - 94733312
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L01_Spikes_Ambient.mp3 - 5126314
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L01_Spikes_Fight.mp3 - 2876857
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L02_Magazines_Ambient.mp3 - 3523044
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L02_Magazines_Fight.mp3 - 6354224
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L03_Rafinery_Ambient.mp3 - 1601499
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L03_Rafinery_Fight.mp3 - 1584970
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L04_The_Complex_of_Towers_Ambient.mp3 - 1631383
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L04_The_Complex_of_Towers_Fight.mp3 - 3930701
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L04_The_Complex_Of_Towers_Secret_music.mp3 - 1154459
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L04_The_Complex_Of_Towers_Secret_music1.mp3 - 1154460
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L05_Old_UnderGround_Complex_Ambient.mp3 - 2216851
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L05_Old_UnderGround_Complex_Fight.mp3 - 5446469
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L06_Entrance.mp3 - 1122331
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L06_Entrance_Ambient.mp3 - 2101488
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L06_Entrance_Fight.mp3 - 3298746
+C:\Program Files (x86)\Painkiller Redemption\Data\music\C7L06_Entrance_Fight_Boss.mp3 - 3770204
+C:\Program Files (x86)\Painkiller Redemption\Data\music\DM_Sacred.mp3 - 1845187
+C:\Program Files (x86)\Painkiller Redemption\Data\music\Mech- Painkiller.mp3 - 7922588
+C:\Program Files (x86)\Painkiller Redemption\Data\music\painkiller-stats-loop.mp3 - 345846
+C:\Program Files (x86)\Painkiller Redemption\Data\music\Sergio_Survival_music.mp3 - 2477637
+C:\Program Files (x86)\Painkiller Redemption\Documentation\Readme.txt - 7985
+
+UAC Disabled or not present
+

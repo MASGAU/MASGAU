@@ -1,0 +1,222 @@
+Comments:
+  <game name="DeusExHumanRevolution" platform="Steam">
+    <title>Deus Ex: Human Revolution</title>
+    <location_path environment_variable="steamuserdata" path="28050" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Deus Ex: Human REvolution
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution
+
+Save Path: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C4A997E7-3772-48D4-8407-C77882968465}
+Value: ConfigApplicationPath
+Data: c:\program files (x86)\steam\steamapps\common\deus ex - human revolution
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C4A997E7-3772-48D4-8407-C77882968465}
+Value: ConfigGDFBinaryPath
+Data: c:\program files (x86)\steam\steamapps\common\deus ex - human revolution\dxhr.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C4A997E7-3772-48D4-8407-C77882968465}
+Value: AppExePath
+Data: c:\program files (x86)\steam\steamapps\common\deus ex - human revolution\dxhr.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 28050
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\deus ex - human revolution
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050\remotecache.vdf - 1754
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050\remote\gamea1 - 284046
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050\remote\gamea2 - 271848
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050\remote\gameq - 280441
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050\remote\gamer1 - 87095
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050\remote\gamer2 - 241741
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050\remote\saveindex - 322
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\28050\remote\user - 184
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\bigfile.000 - 2048733184
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\bigfile.001 - 2146390016
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\bigfile.002 - 2145282048
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\bigfile.003 - 1524129792
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\bigfile_English.000 - 873891840
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\DFEngine.dll - 889488
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\dxhr.exe - 13397280
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\dxhr_620_crash_2011_8_24T2_46_25C0.mdmp - 38125
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\dxhr_620_crash_2011_8_25T1_53_23C0.mdmp - 36645
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\dxhr_622_crash_2011_8_26T1_41_38C0.mdmp - 37397
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\fmodex.dll - 379712
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\installscript.vdf - 772
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\patch0.000 - 28749824
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2005_d3dx9_25_x64.cab - 1347354
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2005_d3dx9_25_x86.cab - 1078962
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2006_d3dx9_30_x64.cab - 1397830
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2006_d3dx9_30_x86.cab - 1115221
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2006_MDX1_x86.cab - 916430
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2006_MDX1_x86_Archive.cab - 4162630
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2006_XACT_x64.cab - 179133
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2006_XACT_x86.cab - 133103
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2006_xinput_x64.cab - 87101
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Apr2006_xinput_x86.cab - 46010
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\APR2007_d3dx10_33_x64.cab - 698612
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\APR2007_d3dx10_33_x86.cab - 695865
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\APR2007_d3dx9_33_x64.cab - 1607358
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\APR2007_d3dx9_33_x86.cab - 1606039
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\APR2007_XACT_x64.cab - 195766
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\APR2007_XACT_x86.cab - 151225
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\APR2007_xinput_x64.cab - 96817
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2005_d3dx9_27_x64.cab - 1350542
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2005_d3dx9_27_x86.cab - 1077644
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2006_XACT_x64.cab - 182903
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2006_XACT_x86.cab - 137235
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2006_xinput_x64.cab - 87142
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2006_xinput_x86.cab - 46058
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2007_d3dx10_35_x64.cab - 852286
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2007_d3dx10_35_x86.cab - 796867
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2007_d3dx9_35_x64.cab - 1800160
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2007_d3dx9_35_x86.cab - 1708152
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2007_XACT_x64.cab - 198096
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\AUG2007_XACT_x86.cab - 153012
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2008_d3dx10_39_x64.cab - 867612
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2008_d3dx10_39_x86.cab - 849167
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2008_d3dx9_39_x64.cab - 1794084
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2008_d3dx9_39_x86.cab - 1464672
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2008_XACT_x64.cab - 121772
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2008_XACT_x86.cab - 92996
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2008_XAudio_x64.cab - 271412
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2008_XAudio_x86.cab - 271038
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_D3DCompiler_42_x64.cab - 919044
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_D3DCompiler_42_x86.cab - 900598
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_d3dcsx_42_x64.cab - 3112111
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_d3dcsx_42_x86.cab - 3319740
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_d3dx10_42_x64.cab - 232635
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_d3dx10_42_x86.cab - 192131
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_d3dx11_42_x64.cab - 136301
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_d3dx11_42_x86.cab - 105044
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_d3dx9_42_x64.cab - 930116
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_d3dx9_42_x86.cab - 728456
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_XACT_x64.cab - 122408
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_XACT_x86.cab - 93106
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_XAudio_x64.cab - 273264
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Aug2009_XAudio_x86.cab - 272642
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\BDANT.cab - 1155491
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\BDAXP.cab - 975148
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Dec2005_d3dx9_28_x64.cab - 1357976
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Dec2005_d3dx9_28_x86.cab - 1079456
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\DEC2006_d3dx10_00_x64.cab - 212807
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\DEC2006_d3dx10_00_x86.cab - 191720
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\DEC2006_d3dx9_32_x64.cab - 1571154
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\DEC2006_d3dx9_32_x86.cab - 1574376
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\DEC2006_XACT_x64.cab - 192475
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\DEC2006_XACT_x86.cab - 145599
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\DSETUP.dll - 94040
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\dsetup32.dll - 1691480
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\dxdllreg_x86.cab - 44448
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\dxnt.cab - 13264168
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\DXSETUP.exe - 525656
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\dxupdate.cab - 95820
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2005_d3dx9_24_x64.cab - 1247499
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2005_d3dx9_24_x86.cab - 1013225
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2006_d3dx9_29_x64.cab - 1362796
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2006_d3dx9_29_x86.cab - 1084720
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2006_XACT_x64.cab - 178359
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2006_XACT_x86.cab - 132409
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\FEB2007_XACT_x64.cab - 194675
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\FEB2007_XACT_x86.cab - 147983
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2010_X3DAudio_x64.cab - 54678
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2010_X3DAudio_x86.cab - 20713
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2010_XACT_x64.cab - 122446
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2010_XACT_x86.cab - 93180
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2010_XAudio_x64.cab - 276960
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Feb2010_XAudio_x86.cab - 277191
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Jun2005_d3dx9_26_x64.cab - 1336002
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Jun2005_d3dx9_26_x86.cab - 1064925
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2006_XACT_x64.cab - 180785
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2006_XACT_x86.cab - 133671
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2007_d3dx10_34_x64.cab - 699044
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2007_d3dx10_34_x86.cab - 698472
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2007_d3dx9_34_x64.cab - 1607774
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2007_d3dx9_34_x86.cab - 1607286
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2007_XACT_x64.cab - 197122
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2007_XACT_x86.cab - 152909
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_d3dx10_38_x64.cab - 867828
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_d3dx10_38_x86.cab - 849919
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_d3dx9_38_x64.cab - 1792608
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_d3dx9_38_x86.cab - 1463878
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_X3DAudio_x64.cab - 55154
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_X3DAudio_x86.cab - 21905
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_XACT_x64.cab - 121054
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_XACT_x86.cab - 93128
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_XAudio_x64.cab - 269628
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\JUN2008_XAudio_x86.cab - 269024
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_d3dx10_37_x64.cab - 844884
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_d3dx10_37_x86.cab - 818260
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_d3dx9_37_x64.cab - 1769862
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_d3dx9_37_x86.cab - 1443282
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_X3DAudio_x64.cab - 55058
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_X3DAudio_x86.cab - 21867
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_XACT_x64.cab - 122336
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_XACT_x86.cab - 93734
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_XAudio_x64.cab - 251194
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2008_XAudio_x86.cab - 226250
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_d3dx10_41_x86.cab - 1040745
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_d3dx9_41_x64.cab - 1973702
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_X3DAudio_x64.cab - 54600
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_XACT_x64.cab - 121506
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_XACT_x86.cab - 92740
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_XAudio_x64.cab - 275044
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Mar2009_XAudio_x86.cab - 273018
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2007_d3dx10_36_x64.cab - 864600
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2007_d3dx10_36_x86.cab - 803884
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2007_d3dx9_36_x64.cab - 1802058
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2007_d3dx9_36_x86.cab - 1709360
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\NOV2007_X3DAudio_x64.cab - 46144
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\NOV2007_X3DAudio_x86.cab - 18496
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\NOV2007_XACT_x64.cab - 196762
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\NOV2007_XACT_x86.cab - 148264
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_d3dx10_40_x64.cab - 994154
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_d3dx10_40_x86.cab - 965421
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_d3dx9_40_x64.cab - 1906878
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_d3dx9_40_x86.cab - 1550796
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_X3DAudio_x64.cab - 54522
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_X3DAudio_x86.cab - 21851
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_XACT_x64.cab - 121794
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_XACT_x86.cab - 92684
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_XAudio_x64.cab - 273960
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Nov2008_XAudio_x86.cab - 272611
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Oct2005_xinput_x64.cab - 86037
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\Oct2005_xinput_x86.cab - 45359
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\OCT2006_d3dx9_31_x64.cab - 1412902
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\OCT2006_d3dx9_31_x86.cab - 1127217
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\OCT2006_XACT_x64.cab - 182361
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\dx90c\OCT2006_XACT_x86.cab - 138017
+C:\Program Files (x86)\Steam\steamapps\common\deus ex - human revolution\redist\vcredist\vcredist_x86.exe - 1821192
+
+UAC Disabled or not present
+

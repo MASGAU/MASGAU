@@ -1,0 +1,121 @@
+﻿<src:AWindow x:Class="MASGAU.Analyzer.AnalyzerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
+        Title="MASGAU Save Game Analyzer" Loaded="Window_Loaded" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" MaxWidth="1000" SizeToContent="WidthAndHeight" MinWidth="600">
+    <Grid Grid.IsSharedSizeScope="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="539*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <GroupBox Header="What Is The Game's Name?" Name="groupBox1" Margin="5">
+            <TextBox Height="23" Name="gameNameTxt" TextChanged="buttonCheck" TabIndex="1" />
+        </GroupBox>
+        <TabControl Grid.Row="1" Name="tabControl1">
+            <TabItem Header="Windows" Name="windowsTab">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <GroupBox Header="Where Is The Game Installed?" Name="groupBox2" Margin="1" >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="129*" />
+                                <ColumnDefinition Width="129*" />
+                                <ColumnDefinition Width="129*" />
+                                <ColumnDefinition Width="129*" />
+                            </Grid.ColumnDefinitions>
+                            <Button Content="My Computer" Grid.Row="1" Name="myComputerBtn" Margin="1" Click="myComputerBtn_Click" Height="23" TabIndex="3" />
+                            <Button Content="Program Files" Grid.Column="1" Grid.Row="1" Name="programFilesBtn" Margin="1" Click="programFilesBtn_Click" Height="23" TabIndex="4" />
+                            <Button Content="Program Files (x86)" Grid.Column="2" Grid.Row="1" Name="programFilesx86Btn" Margin="1" Click="programFilesx86Btn_Click" Height="23" TabIndex="5" />
+                            <Button Content="Steamapps" Grid.Column="3" Grid.Row="1" Name="steamappsBtn" Margin="1" Click="steamappsBtn_Click" Height="23" TabIndex="6" />
+                            <TextBox Name="gamePathTxt" Grid.ColumnSpan="4" Margin="1" IsReadOnly="True" TextChanged="buttonCheck" Height="23" TabIndex="2" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Grid.Row="1" Header="Where Does The Game Keep Its Saves?" Name="groupBox3" Margin="1,1,1,0" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="129*" />
+                                <ColumnDefinition Width="129*" />
+                                <ColumnDefinition Width="129*" />
+                                <ColumnDefinition Width="129*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Button Content="Install Folder" Grid.Row="1" Name="installFolderBtn" Margin="1" IsEnabled="False" Click="installFolderBtn_Click" Height="23" TabIndex="8" />
+                            <Button Content="My Documents" Grid.Column="1" Grid.Row="1" Name="myDocumentsBtn" Margin="1" Click="myDocumentsBtn_Click" Height="23" TabIndex="9" />
+                            <Button Content="Saved Games" Grid.Column="2" Grid.Row="1" Name="savedGamesBtn" Margin="1" Click="savedGamesBtn_Click" Height="23" TabIndex="10" />
+                            <Button Content="Virtualstore" Grid.Column="3" Grid.Row="1" Name="virtualStoreBtn" Margin="1" Click="virtualStoreBtn_Click" Height="23" TabIndex="11" />
+                            <Button Content="Local AppData" Grid.Row="2" Name="localAppDataBtn" Margin="1" Click="localAppDataBtn_Click" Height="23" TabIndex="12" />
+                            <Button Content="(Roaming) AppData" Grid.Column="1" Grid.Row="2" Name="roamingAppDataBtn" Margin="1" Click="roamingAppDataBtn_Click" Height="23" TabIndex="13" />
+                            <Button Content="Public User" Grid.Column="2" Grid.Row="2" Name="publicUserBtn" Margin="1" Click="publicUserBtn_Click" Height="23" TabIndex="14" />
+                            <Button Content="All Users/ProgramData" Grid.Column="3" Grid.Row="2" Name="programDataBtn" Margin="1" Click="programDataBtn_Click" Height="23" TabIndex="15" />
+                            <TextBox Name="gameSaveTxt" Grid.ColumnSpan="4" Margin="1" IsReadOnly="True" TextChanged="buttonCheck" TabIndex="7" />
+                        </Grid>
+                    </GroupBox>
+                    <Button Content="Scan And Generate Report" Grid.Row="2" Name="windowsScanBtn" Margin="1" Click="windowsScanBtn_Click" IsEnabled="False" Height="23" TabIndex="16" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="PlayStation" Name="playstationTab">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <GroupBox Grid.Row="1" Header="Where Does The Game Keep Its Saves?" Name="groupBox4" Margin="1,1,1,0" >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Button Content="My Computer" Grid.Row="1" Name="psMyComputerBtn" Margin="1" Click="psMyComputerBtn_Click" TabIndex="5" Height="23" />
+                            <TextBox Height="23" Name="psGameSavePathTxt" Margin="1" IsReadOnly="True" TextChanged="buttonCheck" TabIndex="4" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="What Is The Game's Code?" Name="groupBox5" Margin="1">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="20" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Content="-" Grid.Column="1" HorizontalContentAlignment="Center" Name="label1" VerticalContentAlignment="Center" />
+                            <TextBox Height="23" Name="psPrefixTxt" Margin="1" TextChanged="buttonCheck" TabIndex="2" />
+                            <TextBox Grid.Column="2" Height="23" Name="psSuffixTxt" Margin="1" TextChanged="buttonCheck" TabIndex="3" />
+                        </Grid>
+                    </GroupBox>
+                    <Button Content="Scan And Generate Report" Grid.Row="2" Margin="1" Name="playstationScanButton" Click="playstationScanButton_Click" IsEnabled="False" Height="23" TabIndex="6" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Settings" Name="settingsTab">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <GroupBox Header="E-Mail Address" Name="groupBox6" VerticalAlignment="Top" Margin="1">
+                        <TextBox Text="{Binding email}" Height="23" Margin="1" Name="emailTxt" TabIndex="2" LostFocus="emailTxt_LostFocus" />
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</src:AWindow>

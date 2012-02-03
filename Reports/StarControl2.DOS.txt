@@ -1,0 +1,131 @@
+Game Name: Star control 2
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C4104F2A-F6DF-49A8-BD29-EB744694F5FA}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC2
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC2
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC2
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Star Control 1 and 2\Star Control 2\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Star Control 1 and 2\Star Control 2\Documents\Star Map.lnk
+C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\starmap.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+10/25/2011 12:03:16 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SAVEGAME.01 - 1137
+10/25/2011 12:03:24 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SAVEGAME.05 - 1137
+10/25/2011 12:02:44 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\stderr.txt - 0
+10/25/2011 12:03:30 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\stdout.txt - 176
+
+Install Folder Dump:
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\100PTS_A.MLE - 103
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\100PTS_B.MLE - 94
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\200_PTS.MLE - 148
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\300_PTS.MLE - 186
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\ANDROSYN.SHP - 53103
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\ARILOU.SHP - 46739
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\BALANCE1.MLE - 144
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\BALANCE2.MLE - 166
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\BEHEMOTH.MLE - 157
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\BLACKURQ.SHP - 87325
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\CHENJESU.SHP - 97521
+6/27/1996 5:56:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\CHMMR.SHP - 82821
+6/27/1996 5:56:02 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\CON1.PKG - 2053204
+6/27/1996 5:56:02 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\CON2.PKG - 1443224
+6/16/2009 3:03:38 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\DEFGRP.DAT - 288
+3/1/2011 12:15:14 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\dosboxSC2.conf - 7268
+3/1/2011 12:56:54 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\dosboxSC2_addon.conf - 7265
+4/22/2011 10:39:52 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\dosboxSC2_setup.conf - 7264
+6/27/1996 5:56:02 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\DRUUGE.SHP - 56261
+3/21/2011 2:37:08 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\gfw_high.ico - 123601
+4/22/2011 10:43:42 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\goggame.dll - 246272
+6/27/1996 5:56:02 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\HUMAN.SHP - 81403
+6/27/1996 5:56:02 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\ILWRATH.SHP - 66461
+6/27/1996 5:56:02 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\IP.PKG - 947953
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\KEYS.EXE - 30784
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\LILDUDES.MLE - 114
+3/28/1997 9:31:46 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MANUAL.BAT - 28
+4/4/2011 9:54:28 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\manual.pdf - 1411265
+4/8/1997 1:14:24 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MANUAL.TXT - 158048
+2/9/2011 12:46:26 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MELEE.COM - 8154
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MELEE.EXB - 170177
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MELEE.EXE - 170177
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MELEE.PKG - 67742
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MELNORME.SHP - 87127
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MMRNMHRM.SHP - 74011
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\MYCON.SHP - 83953
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\NEW_ALLY.MLE - 181
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\OLD_ALLY.MLE - 122
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\OLD_HIER.MLE - 117
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\ORZ.SHP - 89887
+6/27/1996 5:56:04 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\PKUNK.SHP - 89261
+5/13/1997 6:02:16 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\PLAYSC2.BAT - 11
+5/13/1997 6:07:48 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\PLAYSC2.PIF - 967
+6/16/2009 3:03:38 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\RANDGRP.DAT - 268
+3/20/1995 12:00:00 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\READ.COM - 1024
+3/28/1997 9:30:58 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\README.BAT - 28
+6/3/1997 4:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\README.TXT - 16621
+4/1/1997 1:56:18 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\RESOURCE.BAT - 30
+5/29/1996 5:22:42 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\RESOURCE.PDF - 708000
+4/1/1997 12:15:52 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\RESOURCE.TXT - 93721
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SETUP.PKG - 2370872
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SHOFIXTI.SHP - 67817
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SLYLANDR.SHP - 62665
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SPATHI.SHP - 48297
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\STARCON.PKG - 1434
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\STARCON1.MLE - 186
+2/9/2011 12:46:46 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\STARCON2.COM - 8154
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\STARCON2.EXB - 342819
+3/12/1997 10:27:28 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\STARCON2.EXE - 342819
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\STARCON2.ICO - 766
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\STARCON2.MLE - 183
+6/16/2009 3:03:38 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\STARINFO.DAT - 2008
+4/4/2011 9:58:56 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\starmap.pdf - 243594
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SUPOX.SHP - 48093
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SYREEN.SHP - 56583
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\THRADD.SHP - 48333
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\UMGAH.SHP - 49083
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\URQUAN.SHP - 93513
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\UTWIG.SHP - 65059
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\VUX.SHP - 36793
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\YEHAT.SHP - 44527
+6/27/1996 5:56:06 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\ZOQFOT.SHP - 43445
+
+UAC Enabled
+
+
+VirtualStore Folders:
+10/25/2011 12:03:16 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SAVEGAME.01 - 1137
+10/25/2011 12:03:24 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\SAVEGAME.05 - 1137
+10/25/2011 12:02:44 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\stderr.txt - 0
+10/25/2011 12:03:30 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 2\stdout.txt - 176

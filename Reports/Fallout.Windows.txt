@@ -1,0 +1,129 @@
+Game Name: Fallout
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Games\GOG.com\Fallout
+
+Save Path: 
+C:\Games\GOG.com\Fallout\DATA\SAVEGAME
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGFALLOUT
+Value: EXE
+Data: C:\Games\GOG.com\Fallout\falloutw.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGFALLOUT
+Value: PATH
+Data: C:\Games\GOG.com\Fallout\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGFALLOUT
+Value: LAUNCHCOMMAND
+Data: C:\Games\GOG.com\Fallout\falloutw.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGFALLOUT
+Value: SAVEGAMEFOLDER
+Data: C:\Games\GOG.com\Fallout\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fallout_is1
+Value: Inno Setup: App Path
+Data: C:\Games\GOG.com\Fallout
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fallout_is1
+Value: InstallLocation
+Data: C:\Games\GOG.com\Fallout\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fallout\Fallout.lnk
+C:\Games\GOG.com\Fallout\falloutw.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fallout\Uninstall Fallout.lnk
+C:\Games\GOG.com\Fallout\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fallout\Documents\Manual.lnk
+C:\Games\GOG.com\Fallout\MANUAL.PDF
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fallout\Documents\Readme.lnk
+C:\Games\GOG.com\Fallout\readme.TXT
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+
+Install Folder Dump: 
+C:\Games\GOG.com\Fallout\CRITTER.DAT - 157085138
+C:\Games\GOG.com\Fallout\ddraw.dll - 90112
+C:\Games\GOG.com\Fallout\fallout.cfg - 24
+C:\Games\GOG.com\Fallout\fallout.ico - 8478
+C:\Games\GOG.com\Fallout\falloutw.exe - 1244672
+C:\Games\GOG.com\Fallout\gfw_high.ico - 130224
+C:\Games\GOG.com\Fallout\goggame.dll - 297984
+C:\Games\GOG.com\Fallout\innosetup_license.txt - 1471
+C:\Games\GOG.com\Fallout\MANUAL.PDF - 8172286
+C:\Games\GOG.com\Fallout\MASTER.DAT - 339379746
+C:\Games\GOG.com\Fallout\readme.TXT - 13776
+C:\Games\GOG.com\Fallout\Support.ico - 62895
+C:\Games\GOG.com\Fallout\unins000.dat - 56258
+C:\Games\GOG.com\Fallout\unins000.exe - 2142547
+C:\Games\GOG.com\Fallout\unins000.ini - 68
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\BITSBOB.INT - 14180
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\COCDOOR.INT - 414
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\GABRIEL.INT - 8302
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\GIZMO.INT - 13084
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\glowgen.int - 1088
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\HALLDED1.INT - 4680
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\HARRY.INT - 12388
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\HOTELMAP.INT - 3864
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\HUBDWNTN.INT - 3380
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\inblade.int - 4312
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\JUNKCAS.INT - 6502
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\JUNKENT.INT - 3336
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\KILLIAN.INT - 22916
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\LARIPPER.INT - 3864
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\LARS.INT - 9778
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\MASTER1.INT - 3504
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\MASTER2.INT - 4974
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\MORPH.INT - 14846
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\MSTMERCH.INT - 7906
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\NH2OPUMP.INT - 1400
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\RAIDMAP.INT - 3626
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\RAZOR.INT - 11686
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\RHOMDOOR.INT - 1428
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\rndmtn.int - 25096
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\SLAPPY.INT - 5738
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\TANDI.INT - 14484
+C:\Games\GOG.com\Fallout\DATA\SCRIPTS\V13CAVE.INT - 8638
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\01HUB.ACM - 5271351
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\02MSTRLR.ACM - 4061386
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\03WRLDMP.ACM - 3939405
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\04BRTHRH.ACM - 4419943
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\05RAIDER.ACM - 4340887
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\06VAULT.ACM - 5278078
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\07DESERT.ACM - 4273282
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\08VATS.ACM - 4205084
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\09GLOW.ACM - 5100660
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\10LABONE.ACM - 4682336
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\11CHILRN.ACM - 4328676
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\12JUNKTN.ACM - 4422501
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\13CARVRN.ACM - 5045692
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\14NECRO.ACM - 4464634
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\15SHADY.ACM - 5237668
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\16FOLLOW.ACM - 3820901
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\MAYBE.ACM - 3692533
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\WIND1.ACM - 136918
+C:\Games\GOG.com\Fallout\DATA\SOUND\MUSIC\WIND2.ACM - 120544
+C:\Games\GOG.com\Fallout\DATA\TEXT\ENGLISH\DIALOG\RAZOR.MSG - 9822
+C:\Games\GOG.com\Fallout\DATA\TEXT\ENGLISH\GAME\COMBAT.MSG - 29754
+C:\Games\GOG.com\Fallout\DATA\TEXT\ENGLISH\GAME\LSGAME.MSG - 1497
+C:\Games\GOG.com\Fallout\DATA\TEXT\ENGLISH\GAME\MAP.MSG - 10356
+C:\Games\GOG.com\Fallout\DATA\TEXT\ENGLISH\GAME\PROTO.MSG - 6127
+
+UAC Enabled
+
+
+VirtualStore Folders: 

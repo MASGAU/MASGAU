@@ -1,0 +1,75 @@
+Comments:
+  <game name="RenegadeOps" platform="Windows">
+    <title>Renegade Ops</title>
+    <location_path environment_variable="userdocuments" path="SEGA\Renegade Ops" />
+    <save path="Saves"/>
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+
+Game Name: Renegade Ops
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\renegade ops
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\SEGA\Renegade Ops
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 99300
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\renegade ops
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\OpenAutomate\RegisteredApps\SEGA\RenegadeOps\v1.0
+Value: INSTALL_ROOT_PATH
+Data: c:\program files (x86)\steam\steamapps\common\renegade ops\
+
+Key:HKEY_CURRENT_USER\Software\OpenAutomate\RegisteredApps\SEGA\RenegadeOps\v1.0
+Value: ENTRY_EXE
+Data: c:\program files (x86)\steam\steamapps\common\renegade ops\RenegadeOps.exe
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Oct 27 8:36:24 PM - C:\Users\%USERNAME%\Documents\SEGA\Renegade Ops\Saves\RenegadeOps00.sav - 891904
+Oct 27 7:45:07 PM - C:\Users\%USERNAME%\Documents\SEGA\Renegade Ops\Saves\Settings - 72192
+
+Install Folder Dump: 
+Oct 27 7:42:05 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\DebugBookmarks.txt - 0
+Oct 27 7:42:05 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\DebugBookmarks.xml - 0
+Oct 27 6:34:54 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\DX10_Shaders_F.shader_bundle - 3768248
+Oct 27 6:34:39 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\DX10_SpecialShaders_F.shader_bundle - 1852
+Oct 27 6:34:39 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\EffectFragments_F.dll - 124744
+Oct 27 6:34:41 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\fmodex.dll - 407368
+Oct 27 6:34:39 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\fmod_event.dll - 358216
+Oct 27 6:34:51 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\FragmentBundle_F.dll - 63816
+Oct 27 6:34:39 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\GuiFragments_F.dll - 131912
+Oct 27 6:34:48 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\installscript.vdf - 324
+Oct 27 6:34:41 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\Pf2DFragments_F.dll - 40776
+Oct 27 6:35:46 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\RenegadeOps.exe - 10018120
+Oct 27 6:34:57 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\ShadersDLC_F.shader_bundle - 9704
+Oct 27 6:34:41 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\steam_api.dll - 124296
+Oct 27 7:19:58 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\archives_win32\game0.arc - 981721088
+Oct 27 6:34:40 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\archives_win32\game0.tab - 27736
+Oct 27 7:13:27 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\archives_win32\game1.arc - 1024149504
+Oct 27 6:34:44 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\archives_win32\game1.tab - 232
+Oct 27 6:45:50 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\archives_win32\game2.arc - 115288064
+Oct 27 6:34:57 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\archives_win32\game2.tab - 580
+Oct 27 6:49:07 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\archives_win32_ext\game0.arc - 146227200
+Oct 27 6:34:44 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\archives_win32_ext\game0.tab - 100
+Oct 27 6:35:22 PM - C:\Program Files (x86)\Steam\steamapps\common\renegade ops\redist\vcredist_x86.exe - 5073240
+
+UAC Disabled or not present
+

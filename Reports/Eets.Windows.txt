@@ -1,0 +1,1515 @@
+Operating System:
+Microsoft Windows NT 6.0.6001 Service Pack 1
+
+Install Path:
+C:\Program Files\Steam\steamapps\common\eets
+
+Save Path:
+C:\Program Files\Steam\steamapps\common\eets\User
+
+Detected Registry Key Values:
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Puzzle Sample 1.eet
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Puzzle Sample 2.eet
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Puzzle Sample 3.eet
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 1.dds
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 1.png
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 2.dds
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 3.dds
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 3.png
+C:\Program Files\Steam\steamapps\common\eets\User\Profiles\dummy.txt
+C:\Program Files\Steam\steamapps\common\eets\User\Profiles\Duncan.prf
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\A Better Solution.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Marshmallow Pop.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\More Cart Delivery NS.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Travel Preparations.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Unhappy Customer NS.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\A Better Solution.png
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\dummy.txt
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\Marshmallow Pop.png
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\More Cart Delivery NS.png
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\Travel Preparations.png
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\Unhappy Customer NS.png
+C:\Program Files\Steam\steamapps\common\eets\User\Screenshots\dummy.txt
+
+Install Folder Dump:
+C:\Program Files\Steam\steamapps\common\eets\alias.lua
+C:\Program Files\Steam\steamapps\common\eets\Eets.exe
+C:\Program Files\Steam\steamapps\common\eets\init
+C:\Program Files\Steam\steamapps\common\eets\instscript.vdf
+C:\Program Files\Steam\steamapps\common\eets\Launcher.exe
+C:\Program Files\Steam\steamapps\common\eets\License.txt
+C:\Program Files\Steam\steamapps\common\eets\TestApp.exe
+C:\Program Files\Steam\steamapps\common\eets\Data\AllObjects.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\credits.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\DebugConnectionData.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\default_attributes.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\DrawingOrder.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\exceptions.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\globalsettings.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\localize.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\Trophies.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\TrophyWidget.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\WidgetReferences.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\WorldData.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\default.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_looking.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_looking_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_teleport_end.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_teleport_end_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_teleport_middle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_teleport_middle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_teleport_start.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_teleport_start_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\bob_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Bob\effects\telekenesis.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\butterfly\butterfly.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\cart_alt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\cart_ejection.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\cart_ejection_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\cart_ejection_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\cart_tnt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\cart_tnt_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\cart_tnt_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\Effects\eets_angry.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Cart\Effects\object_inside.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Cloud\choco_cloud_alt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Cloud\choco_cloud_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Cloud\choco_cloud_idle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Cloud\choco_cloud_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Cloud\Effects\arrow.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Pump\choco_pump_firing.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Pump\choco_pump_firing_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Pump\choco_pump_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Pump\choco_pump_idle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Choco Pump\choco_pump_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Chocolate Chip\Chocolate_Chip_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Chocolate Chip\Chocolate_Chip_idle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_eat.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_eat_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_fall.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_fall_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_jump.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_jump_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_land.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_land_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_squat.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_squat_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_walk.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_angry_walk_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_angry_2.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_angry_3.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_angry_4.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_angry_5.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_angry_first.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_happy.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_scared_2.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_scared_3.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_emote_scared_first.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_eat.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_eat_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_fall.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_fall_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_jump.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_jump_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_land.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_land_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_squat.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_squat_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_walk.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_happy_walk_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_eat.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_eat_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_fall.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_fall_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_jump.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_jump_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_land.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_land_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_squat.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_squat_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_walk.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\eets_scared_walk_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\chomp.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\emotion_angry.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\emotion_happy.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\emotion_scared.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\mommy.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\mommy_flipped.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\scared_bling.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\show_eets.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\slurp.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\star.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\trip.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Eets\Effects\yum.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\firefly\firefly_blue.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\firefly\firefly_green.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\firefly\firefly_red.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_alt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_alt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_deflating.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_deflating_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_inflated.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_inflated_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_inflating.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_inflating_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_look_down.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_look_down_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_look_up.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_look_up_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_mumble.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_mumble_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_suck_tooth.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_suck_tooth_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_balloon_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_being_hit.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_being_hit_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_doze_off.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_doze_off_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_alt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_being_hit.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_being_hit_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_upset_and_mumble.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_upset_and_mumble_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_upset_and_mumble_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_upset_and_mumble_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_upset_and_mumble_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_exploding_upset_and_mumble_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_look_down.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_look_down_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_look_up.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_look_up_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_yawn.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Giant Marshmallow\giant_marshmallow_yawn_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng\ginseng.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng\effects\ginseng_back_halo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng\effects\ginseng_explode.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng\effects\ginseng_front_halo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_accident.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_accident_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_firing.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_firing_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_gun_fixing.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_gun_fixing_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_idle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_look_around.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_look_around_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\ginseng_factory_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng factory\effects\fire.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng light\ginseng_light_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng light\ginseng_light_idle_look_right_to_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng light\ginseng_light_idle_look_right_to_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng light\ginseng_light_idle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng light\ginseng_light_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng light\effects\blue_back_halo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\ginseng light\effects\blue_front_halo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\contraption.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\conveyor belt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\profile selector parent window scroll button down.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\profile selector parent window scroll button over.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\profile selector parent window scroll button up.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\slider.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\x.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\button_background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_clear.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_gears.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_help.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_hint.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_hint_bg.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_menu_click.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_menu_default.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_menu_enter.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_menu_exit.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_menu_hover.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_no_soln.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_off_soln.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_play_click.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_play_default.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_play_enter.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_play_exit.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_play_hover.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_properties.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_stop_click.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_stop_default.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_stop_enter.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_stop_exit.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_stop_hover.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_test_mode.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_undo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\ctrl_menu_undo_disabled.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\speed_fast.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\speed_fast_selected.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\speed_medium.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\speed_medium_selected.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\speed_slow.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\control menu\speed_slow_selected.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\cursor\click_arrow.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\cursor\click_arrow_tutorial.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\eets_dead\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\game_menu\game_menu_background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\game_menu\game_menu_load_replay.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\game_menu\game_menu_main_menu.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\game_menu\game_menu_open.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\game_menu\game_menu_options.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\game_menu\game_menu_puzzle_map.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\game_menu\game_menu_return.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\game_menu\game_menu_save.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\back.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\cancel.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\confirm_file_new.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\file_select.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\large_dialog.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\medium_dialog.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\message_box.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\okay.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\generic\small_dialog.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\go_to_puzzle_map\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\boom.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\close_window.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_arrow_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_arrow_right_small.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_arrow_up.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_equals.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_plus.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_text_click.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_text_hit.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_text_light.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\help\item_introduction_text_sound.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_complete\find_more.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_complete\found.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_complete\level_complete.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_complete\level_complete_highlight.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_complete\puzzle_shard.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_editor\quick_reference_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\arrow.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\arrow_complete.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets_angry.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets_angry_complete.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets_happy.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets_happy_complete.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets_normal.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets_normal_complete.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets_scared.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\eets_scared_complete.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\hub_arrows.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\hub_arrows_yellow.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_box_ginseng_hollow.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_box_introduction.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_box_kaboom_desert.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_box_lair.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_box_mishmash.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_box_smore_land.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_box_topsy_turvy.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_difficulty_1.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_difficulty_2.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_difficulty_3.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\level_difficulty_4.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\question_mark.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\status_bar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\tiny_commando.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\tiny_karate.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_map\tiny_ninja.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_select\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_select\date_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_select\eets_head.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_select\name_title_button.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_select\thumbnail_bg.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_select\tiny_bud.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_select\type_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_select\type_title_disabled.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\level_title\level_title_bg.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\bonus_button.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\bonus_features_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\create_a_puzzle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\eets_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\main_bg.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\options_button.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\options_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\play_button.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\profile_bg.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\puzzle_maker_button.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\quit_button.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\main_menu\sample_levels_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\hub1.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\hub1_selected.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\hub2.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\hub2_selected.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\hub3.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\hub3_selected.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\hub4.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\platform_select\hub4_selected.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\profile_select\create_new.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\profile_select\eets_head.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\profile_select\load_profile.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\profile_select\shading.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\properties\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\properties\properties_background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\properties\properties_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\properties\time_of_day.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\box.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\clear_puzzle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\Ginseng Hollow.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\introduction.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\Kaboom Desert.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\Marshomech Lair.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\new_puzzle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\puzzle_map_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\Smore Land.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\Smore Mishmash.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\puzzle_map\Topsy Turvy World.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\quit\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\bring_forward.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\emotions.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\flip.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\hint_off.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\hint_on.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\locked.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\platforms.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\rotate.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\send_backward.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\radial_menu\unlocked.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\replay_select\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\replay_select\puzzle_title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\return_to_main_menu\background.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\sound_test\bob.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\test_level\return_to_canvas.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\test_level\test_level.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\tooltip\tooltip.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\burger.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\double_burger.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\dunce_hat.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\exit.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\gatling_gun.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\ginseng_light.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\goodie_powar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\karate.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\mushroom.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\ninja.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\puzzle_piece.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\question_mark.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\rambo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\star.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\trophy\title.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\tutorial\tutorial_hand.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\tutorial\tutorial_hand_pump.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\tutorial\warren_the_wise.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\tutorial\warren_the_wise2.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\tutorial\warren_the_wise2_large.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\tutorial\warren_the_wise_large.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\upsell\upsell1.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\upsell\upsell2.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\GUI\upsell\upsell3.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_being_eaten_half_frame.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_being_eaten_half_frame_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_down.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_down_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_up.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_look_up_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_smack.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_smack_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_squint.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_squint_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_squint_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_squint_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_squint_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_squint_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_angry_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_being_eaten_half_frame.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_being_eaten_half_frame_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_eyebrow_lift.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_eyebrow_lift_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_down.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_down_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_up.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_look_up_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_shake.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_shake_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_shifty_eyed.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_shifty_eyed_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_smack.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_smack_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_gravity_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_being_eaten_half_frame.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_being_eaten_half_frame_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_eyebrow_lift.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_eyebrow_lift_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_down.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_down_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_up.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_look_up_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_normal.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_smack.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_smack_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_suspicous_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_suspicous_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_suspicous_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_suspicous_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_happy_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_being_eaten_half_frame.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_being_eaten_half_frame_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_down.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_down_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_up.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_look_up_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_scared.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_scared_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_scared_look_left_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_scared_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_scared_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_scared_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_smack.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_smack_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_suspicous_look_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\marsh_bud_scared_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\effects\alien_dash.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\effects\flame.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\effects\sunshine.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshmallow Bud\effects\sweat.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech(tool_bar).anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_growl_walk.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_growl_walk_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_hit_into_screen.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_hit_into_screen_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_idle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_roar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_roar_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_scratch.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_scratch_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_suspicious_look_right.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\marshomech_suspicious_look_right_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\Effects\kicked_up_dust.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\Effects\roar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Marshomech\Effects\smoke.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\fleshreaper.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\flesh_reaper_biting_around.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\flesh_reaper_idle_v1.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\flesh_reaper_idle_v2.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\flesh_reaper_idle_v2_bite.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_happy_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_happy_transition.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_hop_back.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_hop_forward.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_merch.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_sad_idle1.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_sad_idle2.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_sad_transition.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\merch_talking.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\Effects\cha-ching.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\Effects\reaper.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\Effects\red_glow.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\Merch Merch\merch_merch_alarm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\Merch Merch\merch_merch_ball.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Merch\Merch Merch\merch_merch_cap.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\blank.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_bush_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_bush_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_cactus_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_cactus_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_plat_bg_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_plat_bg_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_rock_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_rock_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_rock_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_skeleton_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_skull_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_spikes_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_decor_stonehead_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_large_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_05.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_06.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_07.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_08.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_09.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_10.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_medium_11.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_small_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_small_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\boom_platform_small_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_decor_crystal_large_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_decor_crystal_small_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_decor_slab_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_decor_slab_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_large_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_large_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_medium_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_medium_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_medium_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_medium_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_medium_05.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_small_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_wall_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_wall_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_wall_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_wall_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\cave_platform_wall_05.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_angry.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_angry_inactive.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_angry_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_happy.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_happy_inactive.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_happy_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_scared.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_scared_inactive.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\emotion_platform_scared_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_lily_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_rock_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_rock_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_sign_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_skel_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_skel_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_skel_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_skel_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_tree_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_tree_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_vine_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_vine_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_vine_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_vine_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_vine_long_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_vine_long_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_vine_long_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_decor_weed_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_large_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_large_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_large_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_large_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_medium_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_medium_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_medium_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_medium_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_medium_05.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_small_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\hollow_platform_small_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\platform_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_berry_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_bush_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_bush_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_bush_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_mushroom_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_mushroom_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_mushroom_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_mushroom_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_run_down_mech_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_sign_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_tree_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_tree_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_tree_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_tree_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_vine_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_vine_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_vine_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_decor_weed_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_large_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_large_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_large_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_large_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_03.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_04.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_05.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_06.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_07.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_08.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_09.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_medium_10.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_small_01.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Platforms\smore_platform_small_02.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Reflector\reflector_normal.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Reflector\reflector_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_blink_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_firing.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_firing_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_idle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_scratch_ground.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_scratch_ground_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_sniff.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_sniff_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_tail_wag.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_tail_wag_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\sneezy_sow_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\sneezy sow\Effects\fire.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Star\starman_curls.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Star\starman_curls_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Star\starman_faces.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Star\starman_faces_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Star\starman_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Star\star_alt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Star\Effects\sprinkle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\static_light_blink.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\static_light_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\static_light_look_right_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\static_light_look_up_down.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\static_light_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\static_light_twirl_eyes_ccw.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\static_light_twirl_eyes_cw.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\effects\back_halo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\effects\front_halo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\static light\effects\halo.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\SuperPig\super_pig_flying.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\SuperPig\super_pig_flying_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Whale\whale_alt_collision.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Whale\whale_idle.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Whale\whale_idle_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Whale\whale_shooting.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Whale\whale_shooting_nm.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Whale\whale_toolbar.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Whale\Effects\splurt.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\Whale\Effects\splurt_left.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\blank.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\explosion.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\kicked_up_dust.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\kicked_up_dust_big.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\kicked_up_dust_small.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\puzzle_piece_shine.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\puzzle_shard.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\puzzle_shard_obtained.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\puzzle_shard_shine.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\small_collision.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\Animations\World\small_dust.anim
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\blank.tga
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Cactus Single Cloud 01.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Cactus Single Cloud 02.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Cactus Single Cloud 03.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Floating Island.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Hollow Mist 01.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Smore Clouds 01.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Smore Clouds 02.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Smore Single Cloud 01.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Smore Single Cloud 02.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Smore Single Cloud 03.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Super Cactus Cloud.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Forest Mist 01.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Forest Mist 02.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Forest Mist 03.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Forest Mist 04.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Forest Mist 05.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Clouds 01.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Clouds 02.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Clouds 03.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Clouds 04.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Sunset 01.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Sunset 02.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Sunset 03.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Sunset 04.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Kaboom Sunset 05.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sky Clouds 01.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sky Clouds 02.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sky Clouds 03.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sky Floating Island 01.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sky Floating Island 02.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sky Floating Island 03.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sky Mist 01.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sky Mist 02.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sunset Mist 01.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Ambient\Preset\Sunset Mist 02.amb
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Cave Depths.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Cave Window.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Ginseng Hollow Forest.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Ginseng Hollow Spook.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Ginseng Hollow Swamp.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Kaboom Desert Sphynx.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Kaboom Desert Sunset.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Kaboom Desert.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Kaboom Mine.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Legend of the Marshomech.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Smoreland Marshomoon.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Smoreland Sky Part 2.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Smoreland Sky.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Background\Smoreland Sunset.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Cactus and Rocks.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Cave Frame.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Forest Branches.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Ginseng Hollow Trees.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Inside Cave.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Kaboom Cactus.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Kaboom Desert Trees.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Kaboom Rocks.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\BackGround\Foreground\Smoreland Trees.dat
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\BadFX.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\highlight.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\bob\explode.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\bob\telekenesis.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\balloon_giant_marshmallow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\bubbles.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\chocolate_chip.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\chocolate_chip_super.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\eets_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\eets_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\eets_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\eject_explode.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\eject_inner_explosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\eject_outer_explosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\explode.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\giant_marshmallow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\giant_marshmallow_balloon.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\giant_marshmallow_exploding.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\marsh_bud_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\marsh_bud_gravity.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\marsh_bud_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\marsh_bud_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\merch_merch.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\object_inside.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Cart\star.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\angry_jump_dust.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\angry_walk_dust.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\change_emotion_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\change_emotion_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\change_emotion_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\chomp.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\emotion_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\emotion_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\emotion_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\happy_jump_dust.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\happy_walk_dust.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\InnerExplosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\mommy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\mommy_flipped.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\OuterExplosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\scared_walk_bling.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\show_eets.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\slurp.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\trip.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Eets\yum.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Explosion\InnerExplosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Explosion\OuterExplosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Giant_Marshmallow\inflate.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Ginseng\ginseng_back_halo.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Ginseng\ginseng_explode.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Ginseng\ginseng_front_halo.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Ginseng Light\blue_back_halo.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Ginseng Light\blue_front_halo.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Ginseng_Factory\fire_whirl.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\marshmallow_bud\alien_dash.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\marshmallow_bud\flame.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\marshmallow_bud\sunshine.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\marshmallow_bud\sweat.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Marshomech\mech_dust.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Marshomech\pow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Marshomech\roar.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\cha-ching.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\merch_pickup.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\poomph.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\poomph_inner.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\poomph_outer.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\reaper.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\reaper_explosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\reaping.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Merch\red_glow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\puzzle_map\clear ginseng hollow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\puzzle_map\clear introduction.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\puzzle_map\clear kaboom desert.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\puzzle_map\clear marshomech lair.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\puzzle_map\clear smore land.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\puzzle_map\clear smore mishmash.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\puzzle_map\clear topsy turvy world.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\puzzle_map\new.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\sneezy sow\fire.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\cart_ejection.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\cart_tnt.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\chocolate_chip.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\chocolate_chip_super.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\eets_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\eets_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\eets_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\giant_marshmallow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\giant_marshmallow_balloon.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\giant_marshmallow_exploding.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\ginseng.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\marsh_bud_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\marsh_bud_gravity.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\marsh_bud_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\marsh_bud_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\merch.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\merch_merch.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\star.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Spiral\superpig.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Star\sprinkle.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Static Light\back_halo.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Static Light\front_halo.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\cart_ejection.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\cart_ejection_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\chocolate_chip.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\chocolate_chip_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\eets_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\eets_angry_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\eets_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\eets_happy_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\eets_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\eets_scared_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\giant_marshmallow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\giant_marshmallow_balloon.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\giant_marshmallow_balloon_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\giant_marshmallow_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\marsh_bud_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\marsh_bud_angry_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\marsh_bud_gravity.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\marsh_bud_gravity_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\marsh_bud_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\marsh_bud_happy_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\marsh_bud_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\marsh_bud_scared_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\star.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Thwack\star_indoor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\trophy\explosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\trophy\InnerExplosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\trophy\new_trophy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\trophy\OuterExplosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\trophy\sparkles.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\trophy\trophy_shine.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Whale\splurt.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Whale\splurt_left.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\Whale\suck.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\big_collision.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\click.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\click_arrow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\click_arrow_tutorial.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\click_dust.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\click_stars.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\goal.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\goal_obtained.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\goal_shine.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\hint.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\hint_large.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\hint_small.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\increment_shard_count.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\new_puzzle_piece_sparkle.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\paused.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\puzzle_piece.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\puzzle_piece_down_explosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\puzzle_piece_shine.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\screen_shake.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\small_collision.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\unlock_explosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\unlock_puzzle_piece.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\win_explosion.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\win_shine.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\x.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\level_map\new_hub.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\level_map\new_level.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\level_map\poomph.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\level_map\poomph_inner.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\level_map\poomph_outer.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\tutorial\arrow_cannon_play.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\tutorial\arrow_sweet_happiness.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Effects\World\tutorial\arrow_whale_me_up.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\AlertableExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\AltCollisionExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\CanBeAttachedExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\CanHaveThingsAttachedExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\ClickableExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\DefaultMotionExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\EaterExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\EdibleExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\EmotionExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\EmotionPlatformExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\FlippableExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\FlyingExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\HoldingExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\InternalForceExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\LevelEditorExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\LightingExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\PhysicsExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\PositionExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\RollingExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\StretchingExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\SuckableExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\TeleporterExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\ThwackableExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\ThwackerExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\WalkableExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\WalkingExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Extensions\WallExtension.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Fonts\BradBunR.ttf
+C:\Program Files\Steam\steamapps\common\eets\Data\Fonts\GEEKABYTE.TTF
+C:\Program Files\Steam\steamapps\common\eets\Data\Fonts\komika bold.ttf
+C:\Program Files\Steam\steamapps\common\eets\Data\Fonts\Komika License.txt
+C:\Program Files\Steam\steamapps\common\eets\Data\Fonts\komika.ttf
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\Base_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\Builder_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\Creator_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\Dialogs_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\GUI_Tutorials.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\LevelEditor_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\MainMenu_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\PuzzleMap_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\ScreenUtil.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\Simulator_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\GUI\TrophyScreen_Screen.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\credits.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\default.tga
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\Eets.ico
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\eets_angry_small.png
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\loading1.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\loading2.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\loading3.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\loading4.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\loading_main_menu.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\loading_nag.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\quit_nag.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\signature.png
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\telefilm.png
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\trophy_room.jpg
+C:\Program Files\Steam\steamapps\common\eets\Data\Images\Cursors\hand.cur
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\PuzzleMap.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Angry Resistance.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Balloon Chimney.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Balloon Chimney.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Blast Off.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Bomb Springboard.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Bomb Springboard.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Bridge Booming.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Bud Bowling.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Bud Delivery.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Bud Delivery.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Bud Delivery.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Bush Hopping.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Buy Merch Merch.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cannon Jumping.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cannon Play.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cannon Play.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cart Boosting.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cart Circus.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cart Delivery.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cart Delivery.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cart Delivery.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cart Me Up.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Carts and TNT.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Carts and TNT.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Cave Exploration.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Chain Explosions.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Chain Explosions.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Choco Alley oop.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Choco Alley oop.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Choco Roadblock.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Distance Jumping.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Distance Jumping.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Down and Around.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Downside Up.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Eets Everywhere.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Eets Everywhere.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Eets Showdown.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Emotion Cycle.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Emotion Maze.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Emotion Quiz.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Emotion Quiz.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Emotional Awareness.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Enter the Merch.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Enter the Merch.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Enter the Merch.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Explosive Mix.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Explosive Reaction.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Explosive Trail.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Explosive Trail.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Fill It Up.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Fine Divide.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Flip Flop Fun.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Flip of Emotion.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Float Me Up.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Float to Freedom.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Floating Marshmallow.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Floating Marshmallow.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Freedom.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Freedom.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Get Merch Merch.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Giant Happiness.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Ginseng Crazy.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Goal Digging.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Goal Digging.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Happy Footing.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Happy Footing.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Happy Footing.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Hard Work Pays.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Head Butt.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Hit the Eets.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Hit the Eets.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Hit the Eets.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Hole In One.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Hot Marshmallow.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Irritable Ginseng.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Irritable Ginseng.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Irritable Ginseng.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Jail Break.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Jumbo Sized Buds.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Jumbo Sized Buds.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Jumbo Sized Buds.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Kaboom Tower.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Leap of Faith.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Leap of Faith.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Let Balloons Fly.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Light the Way.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Light the Way.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Light the Way.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Long Jump.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Main Menu Level.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Marshmallow Cannon.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Marshmallow Filter.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Marshmallow Pop.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Marshmallow Punting.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Marshomech Control.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Marshomech Escape.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Marshomech Escape.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Marshomech Fort.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Midnight Stroll.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Midnight Stroll.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Midnight Stroll.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Mine Field.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\More Cart Delivery.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Mountain Climbing.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Nervous Entrance.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Passing Buds.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Perfect Aim.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Pig Show.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Piggy Tap.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Piggy Tap.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Raining Marshmallows.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Rapid Fire.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Rapid Fire.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Rear End.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Reflect This.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Reflect This.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Reflect This.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Rock Pile.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Rock Pile.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Scarily Sour.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Scarily Sour.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Scarily Sour.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Scary Trip.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Smacky Wacky.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sneeky Eetsy Beetsy.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sneeky Eetsy Beetsy.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Spicy Anger.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Spicy Anger.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Spicy Anger.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Star Cannon.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Star Cushion.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Super Stars.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Super Stars.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sweet and Sour.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sweet and Sour.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sweet and Spicy.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sweet and Spicy.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sweet and Spicy.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sweet Happiness.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sweet Happiness.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Sweet Happiness.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Target Practice.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Telekinetic Bob.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Telekinetic Bob.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Telekinetic Bob.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\The Long Way.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\The Marshomech.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\The Marshomech.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\The Marshomech.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Tight Space.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Tower Rescue.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Travel Preparations.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Trippy Travelling.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Unhappy Customer.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Unhappy Customer.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Unwanted Bud.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Unwanted Bud.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Up and In.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Wall Demolition.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Wall of Anger.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Wall Scaling.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Wall Scaling.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Wall Scaling.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Welcome to Eets.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Welcome to Eets.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Welcome to Eets.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Whale Me Up More.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Whale Me Up.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Whale Me Up.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Whale Me Up.win
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Whale Ninjutsu.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\What Goes Up.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\What Goes Up.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Wrong Way.eet
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Wrong Way.gui
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Angry Resistance.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Balloon Chimney.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Blast Off.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Bomb Springboard.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Bridge Booming.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Bud Bowling.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Bud Delivery.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Bush Hopping.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Buy Merch Merch.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Cannon Jumping.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Cannon Play.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Cart Boosting.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Cart Circus.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Cart Delivery.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Cart Me Up.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Carts and TNT.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Cave Exploration.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Chain Explosions.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Choco Alley oop.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Choco Roadblock.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Down and Around.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Downside Up.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Eets Everywhere.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Eets Showdown.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Emotion Quiz.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Emotional Awareness.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Enter the Merch.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Explosive Mix.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Explosive Reaction.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Explosive Trail.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Fill It Up.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Fine Divide.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Flip Flop Fun.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Flip of Emotion.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Float Me Up.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Float to Freedom.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Floating Marshmallow.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Freedom.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Get Merch Merch.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Giant Happiness.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Ginseng Crazy.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Goal Digging.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Happy Footing.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Hard Work Pays.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Head Butt.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Hit the Eets.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Hole In One.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Hot Marshmallow.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Irritable Ginseng.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Jail Break.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Jumbo Sized Buds.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Kaboom Tower.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Leap of Faith.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Let Balloons Fly.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Light the Way.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Long Jump.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Marshmallow Cannon.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Marshmallow Filter.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Marshmallow Pop.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Marshmallow Punting.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Marshomech Control.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Marshomech Escape.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Marshomech Fort.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Midnight Stroll.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Mine Field.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\More Cart Delivery.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Mountain Climbing.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Nervous Entrance.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Passing Buds.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Perfect Aim.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Pig Show.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Piggy Tap.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Raining Marshmallows.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Rapid Fire.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Rear End.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Reflect This.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Rock Pile.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Scarily Sour.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Scary Trip.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Smacky Wacky.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Sneeky Eetsy Beetsy.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Star Cannon.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Star Cushion.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Super Stars.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Sweet and Sour.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Sweet and Spicy.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Target Practice.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Telekinetic Bob.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\The Long Way.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\The Marshomech.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Tight Space.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Tower Rescue.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Travel Preparations.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Trippy Travelling.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Unhappy Customer.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Unwanted Bud.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Up and In.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Wall Demolition.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Wall of Anger.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Wall Scaling.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Welcome to Eets.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Whale Me Up More.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Whale Me Up.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\Whale Ninjutsu.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Game\Thumbnails\What Goes Up.dds
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Utility\GoalUtils.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Levels\Utility\LevelUtil.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\bob.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\butterfly.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\cart_ejection.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\cart_tnt.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\chocolate_chip.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\choco_cloud.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\choco_pump.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\eets_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\eets_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\eets_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\emotimeter_eets.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\emotion_platform_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\emotion_platform_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\emotion_platform_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\firefly_blue.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\firefly_green.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\firefly_red.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\giant_marshmallow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\giant_marshmallow_balloon.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\giant_marshmallow_exploding.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\ginseng.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\ginseng_factory.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\ginseng_light.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\ginseng_static_light.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\goal.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\marshomech.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\marsh_bud_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\marsh_bud_gravity.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\marsh_bud_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\marsh_bud_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\merch.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\merch_merch.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\platform.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\reflector.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\sneezy_sow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\star.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\superpig.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\whale.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\contraption\contraption.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\contraption\contraption_conveyor.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\contraption\contraption_scroller.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\control_menu\ctrl_menu.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\control_menu\ctrl_menu_gears.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\control_menu\ctrl_menu_menu.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\control_menu\ctrl_menu_play.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\control_menu\ctrl_menu_stop.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\generic_buttons\vertical_scroller.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\GUI\profile\profile_scroller.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\fleshreaper.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\giant_marshmallow.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\giant_marshmallow_balloon_idle.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\giant_marshmallow_exploding.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\ginseng_factory_firing.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\ginseng_factory_idle.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\marshomech_idle.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\marsh_bud_angry.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\marsh_bud_gravity.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\marsh_bud_happy.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\marsh_bud_scared.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\merch.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\reflector.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Objects\Item Introduction\sneezy_sow_idle.lua
+C:\Program Files\Steam\steamapps\common\eets\Data\Shaders\default.fx
+C:\Program Files\Steam\steamapps\common\eets\Data\Shaders\globals.fx
+C:\Program Files\Steam\steamapps\common\eets\Data\Shaders\lightattenuation.tga
+C:\Program Files\Steam\steamapps\common\eets\Data\Shaders\nolighting.fx
+C:\Program Files\Steam\steamapps\common\eets\Data\Shaders\normalmap.fx
+C:\Program Files\Steam\steamapps\common\eets\Data\Shaders\no_texture.fx
+C:\Program Files\Steam\steamapps\common\eets\Data\Shaders\redmask.fx
+C:\Program Files\Steam\steamapps\common\eets\Data\Shaders\toonshading.tga
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Music\Lounging Jazz.ogg
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Music\Mystic Jungle.ogg
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Music\Old School.ogg
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Music\Prelude to Triumph.ogg
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Music\Screens\Trophy Room.ogg
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Blink.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Bob Activation.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Boing.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Crashing_Bang.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Angry Eating 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Angry Eating 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Angry Emotion Change.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Angry Jumping 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Angry Jumping 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Angry Landing.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Angry Walking 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Angry Walking 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Happy Eating End.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Happy Eating.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Happy Emotion Change.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Happy Jumping.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Happy Landing.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Happy Walking 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Happy Walking 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Scared Eating 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Scared Eating 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Scared Emotion Change.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Scared Landing.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Scared Stopping.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Scared Walking.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Eets Tripping.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Error.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Explosion.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Fanfare.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Firing Sound.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Freedom.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\GUI Click 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\GUI Click 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\GUI MouseOver.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\GUI Radial Menu Popup.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Hint.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Level Complete.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Marshomech Buildup.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Marshomech Roar.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Marshomech Walk 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Marshomech Walk 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Merch Bite 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Merch Bite 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Merch Bite 3.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Merch Kreee.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Merch Poomph.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Popup.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Power Baby.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Puzzle Piece Down Explosion.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Puzzle Piece Get.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Sneezy Sow Firing.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Sneezy Sow Windup 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Sneezy Sow Windup.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Squeaky Hammer of Power.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Star Hit.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Whale Eating 1.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Whale Eating 2.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Whale Eating 3.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Patch\Whale Grinning.ptch
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Bob Activation.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Boing.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Crashing Bang.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Angry Eating 1.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Angry Eating 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Angry Emotion Change.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Angry Jumping 1.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Angry Jumping 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Angry Landing.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Angry Walking 1.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Angry Walking 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Happy Eating End.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Happy Eating.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Happy Emotion Change.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Happy Jumping.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Happy Landing.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Happy Walking 1.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Happy Walking 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Scared Eating 1.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Scared Eating 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Scared Emotion Change.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Scared Landing.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Scared Stopping.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Scared Walking.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Eets Tripping.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Error.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Explosion.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Fanfare.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Firing Sound.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Freedom.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\GUI Click 1.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\GUI Click 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\GUI Menu Popup.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\GUI MouseOver.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\GUI Radial Menu Popup.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Kreee.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Level Complete.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Marshomech Buildup.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Marshomech Roar.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Marshomech Walking 1.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Marshomech Walking 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Merch Bite.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Ohhh.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Poomph.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Popup.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Power Baby.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Sneezy Sow Firing.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Sneezy Sow Windup 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Sneezy Sow Windup.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Squeaky Hammer of Power.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Star Hit.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Whale Eating 1.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Whale Eating 2.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Whale Eating 3.snd
+C:\Program Files\Steam\steamapps\common\eets\Data\Sound\Wav\Whale Grinning.snd
+C:\Program Files\Steam\steamapps\common\eets\Log\game.log
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Puzzle Sample 1.eet
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Puzzle Sample 2.eet
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Puzzle Sample 3.eet
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 1.dds
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 1.png
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 2.dds
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 3.dds
+C:\Program Files\Steam\steamapps\common\eets\User\Custom Levels\Thumbnails\Puzzle Sample 3.png
+C:\Program Files\Steam\steamapps\common\eets\User\Profiles\dummy.txt
+C:\Program Files\Steam\steamapps\common\eets\User\Profiles\Duncan.prf
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\A Better Solution.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Marshmallow Pop.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\More Cart Delivery NS.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Travel Preparations.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Unhappy Customer NS.etr
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\A Better Solution.png
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\dummy.txt
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\Marshmallow Pop.png
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\More Cart Delivery NS.png
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\Travel Preparations.png
+C:\Program Files\Steam\steamapps\common\eets\User\Replays\Thumbnails\Unhappy Customer NS.png
+C:\Program Files\Steam\steamapps\common\eets\User\Screenshots\dummy.txt

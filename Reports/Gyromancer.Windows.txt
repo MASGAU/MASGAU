@@ -1,0 +1,163 @@
+Comments:
+  <game name="Gyromancer" platform="Steam">
+    <title>Gyromancer</title>
+    <location_path environment_variable="steamcommon" path="gyromancer" />
+	<save filename="Gyromancer_*.dat"/>
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Gyromancer
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer
+
+Save Path: 
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 23380
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\gyromancer
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer.exe - 2028824
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer.sys - 292
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer_0.dat - 9788
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer_1.dat - 0
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer_2.dat - 0
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer_3.dat - 0
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\installscript.vdf - 232
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\SteamAPIUpdater.dll - 1296880
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\steam_api.dll - 115960
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\UpdateDLLWrapper.dll - 58616
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\APR2007_xinput_x64.cab - 96817
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\BDAXP.cab - 975148
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\DSETUP.dll - 94024
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\dsetup32.dll - 1691464
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\dxdllreg_x86.cab - 44444
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\DXSETUP.exe - 525128
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\dxupdate.cab - 95296
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_d3dx9_41_x64.cab - 1973694
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_X3DAudio_x64.cab - 54592
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_XACT_x64.cab - 121498
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_XACT_x86.cab - 92732
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_XAudio_x64.cab - 275036
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_XAudio_x86.cab - 273010
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Lang\lang.dat - 2
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\data.bin - 111591972
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Battle.bjm - 1429937
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Boss_01.bjm - 1351704
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Boss_02.bjm - 1805448
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Ending.bjm - 3064630
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_01.bjm - 1693524
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_02.bjm - 860122
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_03.bjm - 1167441
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_04.bjm - 629664
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_05.bjm - 1340537
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_01.bjm - 1477388
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_02.bjm - 2128279
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_03.bjm - 1082153
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_04.bjm - 1184638
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_05.bjm - 1804290
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_06.bjm - 2346576
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_07.bjm - 1614026
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_08.bjm - 1169779
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_09.bjm - 1747533
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_10.bjm - 1685237
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Last_Boss_01.bjm - 1783630
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Last_Boss_02.bjm - 2501419
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Lose.bjm - 460772
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Main_Theme.bjm - 1017138
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Starge_Clear.bjm - 192504
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Starge_Select.bjm - 886770
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Win.bjm - 807043
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys012.bjm - 5
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys015.bjm - 912
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys016.bjm - 15409
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys017.bjm - 835
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys106.bjm - 16284
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer.exe - 2028824
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer.sys - 292
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer_0.dat - 9788
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer_1.dat - 0
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer_2.dat - 0
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Gyromancer_3.dat - 0
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\installscript.vdf - 232
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\SteamAPIUpdater.dll - 1296880
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\steam_api.dll - 115960
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\UpdateDLLWrapper.dll - 58616
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\APR2007_xinput_x64.cab - 96817
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\BDAXP.cab - 975148
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\DSETUP.dll - 94024
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\dsetup32.dll - 1691464
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\dxdllreg_x86.cab - 44444
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\DXSETUP.exe - 525128
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\dxupdate.cab - 95296
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_d3dx9_41_x64.cab - 1973694
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_X3DAudio_x64.cab - 54592
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_XACT_x64.cab - 121498
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_XACT_x86.cab - 92732
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_XAudio_x64.cab - 275036
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\DirectX\Mar2009_XAudio_x86.cab - 273010
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\Lang\lang.dat - 2
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\data.bin - 111591972
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Battle.bjm - 1429937
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Boss_01.bjm - 1351704
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Boss_02.bjm - 1805448
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Ending.bjm - 3064630
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_01.bjm - 1693524
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_02.bjm - 860122
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_03.bjm - 1167441
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_04.bjm - 629664
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Event_05.bjm - 1340537
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_01.bjm - 1477388
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_02.bjm - 2128279
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_03.bjm - 1082153
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_04.bjm - 1184638
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_05.bjm - 1804290
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_06.bjm - 2346576
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_07.bjm - 1614026
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_08.bjm - 1169779
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_09.bjm - 1747533
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Field_10.bjm - 1685237
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Last_Boss_01.bjm - 1783630
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Last_Boss_02.bjm - 2501419
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Lose.bjm - 460772
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Main_Theme.bjm - 1017138
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Starge_Clear.bjm - 192504
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Starge_Select.bjm - 886770
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\BJ2_Win.bjm - 807043
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys012.bjm - 5
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys015.bjm - 912
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys016.bjm - 15409
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys017.bjm - 835
+C:\Program Files (x86)\Steam\steamapps\common\gyromancer\media\MData\sys106.bjm - 16284
+
+UAC Disabled or not present
+

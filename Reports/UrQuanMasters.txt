@@ -1,0 +1,102 @@
+Comments:
+Windows version of The Ur-Quan Masters, which is the freely available (open source) version of Star-Control 2.
+http://wiki.uqm.stack.nl/The_Ur-Quan_Masters_Technical_FAQ#Where_are_my_settings_stored.3F
+
+Game Name: Ur-Quan Masters
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\games\UQM
+
+Save Path:
+C:\Users\mattew\AppData\Roaming\uqm\save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\The Ur-Quan Masters
+Value: UninstallString
+Data: C:\games\UQM\uninst.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\The Ur-Quan Masters
+Value: DisplayIcon
+Data: C:\games\UQM\uqm.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\uqm.exe
+Value:
+Data: C:\games\UQM\uqm.exe
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
+Value: url3
+Data: C:\games\UQM
+
+Detected Start Menu Shortcuts:
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\Keyboard Test.lnk
+C:\games\UQM\keyjam.exe
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\The Ur-Quan Masters.lnk
+C:\games\UQM\uqm.exe
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\Uninstall.lnk
+C:\games\UQM\uninst.exe
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\UQM (Safe Mode).lnk
+C:\games\UQM\uqm.exe
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\UQM (Safe OpenGL).lnk
+C:\games\UQM\uqm.exe
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\Documentation\AUTHORS.lnk
+C:\games\UQM\AUTHORS.txt
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\Documentation\COPYING.lnk
+C:\games\UQM\COPYING.txt
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\Documentation\Manual.lnk
+C:\games\UQM\Manual.txt
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\Documentation\README.lnk
+C:\games\UQM\README.txt
+C:\Users\mattew\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\The Ur-Quan Masters\Documentation\WhatsNew.lnk
+C:\games\UQM\WhatsNew.txt
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\mattew\AppData\Roaming\uqm\save\starcon2.00 - 1206
+
+Install Folder Dump:
+C:\games\UQM\AUTHORS.txt - 5008
+C:\games\UQM\COPYING.txt - 50593
+C:\games\UQM\jpeg.dll - 169443
+C:\games\UQM\keyjam.exe - 24686
+C:\games\UQM\libpng12-0.dll - 132096
+C:\games\UQM\libpng12.dll - 126976
+C:\games\UQM\libpng13.dll - 126976
+C:\games\UQM\Manual.txt - 31045
+C:\games\UQM\ogg.dll - 36864
+C:\games\UQM\OpenAL32.dll - 109080
+C:\games\UQM\README-SDL.txt - 438
+C:\games\UQM\README.txt - 1042
+C:\games\UQM\SDL.dll - 262144
+C:\games\UQM\SDL_gfx.dll - 53248
+C:\games\UQM\SDL_image.dll - 43520
+C:\games\UQM\stderr.txt - 79255
+C:\games\UQM\uninst.exe - 50438
+C:\games\UQM\uqm.exe - 1148336
+C:\games\UQM\vorbis.dll - 1060864
+C:\games\UQM\vorbisfile.dll - 65536
+C:\games\UQM\WhatsNew.txt - 20429
+C:\games\UQM\wrap_oal.dll - 444952
+C:\games\UQM\zlib1.dll - 100352
+C:\games\UQM\content\version - 61
+C:\games\UQM\content\addons\uqm-0.7.0-3domusic.uqm - 18980671
+C:\games\UQM\content\addons\uqm-0.7.0-voice.uqm - 115143439
+C:\games\UQM\content\packages\uqm-0.7.0-content.uqm - 11538533
+C:\games\UQM\content\packages\addons\remix\uqm-remix-pack1.zip - 50188123
+C:\games\UQM\content\packages\addons\remix\uqm-remix-pack2.zip - 60281175
+C:\games\UQM\content\packages\addons\remix\uqm-remix-pack3.zip - 39923803
+
+UAC Enabled
+
+
+VirtualStore Folders:

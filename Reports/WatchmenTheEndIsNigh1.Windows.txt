@@ -1,0 +1,461 @@
+Comments:
+  <game name="WatchmenEndisNigh1" platform="Steam">
+    <title>Watchmen: End is Nigh - Part 1</title>
+    <location_path environment_variable="steamcommon" path="watchmen\SaveData" />
+	<save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Watchmen: End is Nigh - Part 1
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\watchmen
+
+Save Path: 
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\SaveData
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 21010
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\watchmen
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 21030
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\watchmen part 2
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\SaveData\Profile1\PROGRESS.kpw - 1006
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\SaveData\Profile1\SETTINGS.kpw - 2687
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\bootscreen.bmp - 3686456
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\installscript.vdf - 1234
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\local_config.txt - 346
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\Watchmen User Manual.pdf - 7483035
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\WBGames EULA_US-Watchmen.txt - 7717
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\WBGames_EULA_Int'l-Watchmen.txt - 9037
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Credits.bik - 75922868
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Cutscene00.bik - 64919724
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Cutscene01.bik - 29301664
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Cutscene02.bik - 90964968
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Cutscene03.bik - 70815112
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Cutscene04.bik - 65793672
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Cutscene05.bik - 87549024
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Cutscene06.bik - 30644092
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\Cutscene07.bik - 55607100
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\DC_logo.bik - 6246840
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\DeadlineGames_logo.bik - 2387348
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Art\cutscenes\WBGames_logo.bik - 13559596
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\binkw32.dll - 171008
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\KapowMulti.exe - 8351744
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\MultiLauncher.exe - 196608
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\NxCharacter.dll - 124184
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\NxCooking.dll - 390424
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\XBox360LibraryWrapper.dll - 2412544
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\de\MultiLauncher.resources.dll - 36864
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\es\MultiLauncher.resources.dll - 36864
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\fr\MultiLauncher.resources.dll - 32768
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Engine\it\MultiLauncher.resources.dll - 32768
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Levels\Game_Levels\ConstructionSite\Gameplay\constructionSite.hpd - 53296
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Levels\Game_Levels\Docks\Gameplay\Docks.hpd - 199152
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Levels\Game_Levels\Prison\Gameplay\Prison.hpd - 139756
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Levels\Game_Levels\Street2\Gameplay\streets2.hpd - 367980
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Levels\Game_Levels\Streets\Gameplay\Streets.hpd - 360316
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data\Levels\Game_Levels\Underground\Gameplay\underground.hpd - 600364
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\data_baked\tnt\production\database.bin - 161482
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\art\textures\gray.texture_h_z - 750
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\art\textures\gray.texture_s_z - 20
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\engine\helpers\unitsphere.modelres_h_z - 269
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\engine\helpers\unitsphere.modelres_s_z - 2764
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\engine\helpers\unit_box.modelres_h_z - 256
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\engine\helpers\unit_box.modelres_s_z - 221
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\engine\helpers\unit_cone.modelres_h_z - 261
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\engine\helpers\unit_cone.modelres_s_z - 323
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\engine\helpers\white.texture_h_z - 757
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\engine\helpers\white.texture_s_z - 22
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\WatchMen.block_h_z - 17212969
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\WatchMen.block_s_z - 5513882
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\ConstructionSite\ConstructionSite.block_h_z - 84168462
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\ConstructionSite\ConstructionSite.block_s_z - 71812525
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Docks\docks.block_h_z - 59905062
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Docks\docks.block_s_z - 98945133
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\MainMenu\MainMenu.block_h_z - 2627087
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\MainMenu\MainMenu.block_s_z - 9232069
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Prison\Prison.block_h_z - 48531459
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Prison\Prison.block_s_z - 86447392
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Prison\Art\PrisonYard.block_s_z - 3639905
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Prison\Art\Buildings\BuildingPrisonShowerRoom.block_s_z - 6139978
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Prison\Art\Buildings\GeneratorRoom.block_s_z - 4060448
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Prison\Art\Buildings\hallway.block_s_z - 723927
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Street2\Street2.block_h_z - 40794299
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Street2\Street2.block_s_z - 90134991
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Streets\streets.block_h_z - 49434733
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Streets\streets.block_s_z - 91006327
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Underground\underground.block_h_z - 48880236
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\Levels\Game_Levels\Underground\underground.block_s_z - 88306812
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\pivotbooks\default.pivotbook_h_z - 596
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\2DWaterSimulationNormalPS-420399530.bin - 752
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\2DWaterSimulationStepPS1156765470.bin - 604
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\AddBloomPS1709023263.bin - 272
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\AnnotatorPS38646985.bin - 268
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\AnnotatorVS1528486081.bin - 1172
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\bink_passthroughVS-785715415.bin - 264
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\bink_YuvToRgbAlphaPS2053819723.bin - 516
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\bink_YuvToRgbPS243686475.bin - 468
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\BloomControlFilterPS1517102329.bin - 328
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\BloomRenderPS1258885052.bin - 412
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DbgPS2105718940.bin - 128
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DbgVS476570358.bin - 400
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS-1350408374.bin - 772
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS-1618906181.bin - 728
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS-227303590.bin - 652
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS-5578360.bin - 856
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS-646414458.bin - 920
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS-855663748.bin - 1316
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS-989970870.bin - 1064
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS1194766883.bin - 1040
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS1338782322.bin - 1040
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS188002277.bin - 1332
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS2130203233.bin - 884
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS335322398.bin - 756
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS455813013.bin - 652
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS711467474.bin - 920
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS722341924.bin - 916
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerPS761867201.bin - 916
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredLightLayerVS-1873264034.bin - 376
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS-1272983682.bin - 2856
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS-270807833.bin - 1840
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS-453328923.bin - 2576
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS-539395255.bin - 3160
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS-718494251.bin - 2760
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS1329511463.bin - 3372
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS1434741439.bin - 3672
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS1511320278.bin - 3624
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS165933613.bin - 3468
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS1798852635.bin - 3024
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS1936479114.bin - 3012
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS2127388548.bin - 2820
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS393962838.bin - 2916
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2PS665232727.bin - 1572
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS-1255421598.bin - 968
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS-1314339552.bin - 1040
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS-1625787984.bin - 968
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS-1987010665.bin - 1672
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS-202936803.bin - 1680
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS-20405042.bin - 1440
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS-271689829.bin - 1448
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS-522784233.bin - 964
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS1339698147.bin - 1040
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS1835652617.bin - 972
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS2129774943.bin - 892
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMain2VS667934979.bin - 900
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-1209756536.bin - 4128
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-1220635926.bin - 416
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-1372565734.bin - 3008
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-1401429116.bin - 416
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-153300648.bin - 2732
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-1583001879.bin - 2276
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-1618986982.bin - 3544
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-1633077846.bin - 3296
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-1863699716.bin - 4104
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-2107425680.bin - 4328
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-262304435.bin - 3296
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-359032028.bin - 3112
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-512551304.bin - 3824
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-933386564.bin - 4152
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS-990871400.bin - 3288
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS100024561.bin - 3600
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS1276598315.bin - 416
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS1411587417.bin - 4656
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS1517618377.bin - 3316
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS1731817013.bin - 2400
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS1916536392.bin - 3140
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS1925100470.bin - 2832
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS1940371665.bin - 4304
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS2124024879.bin - 2652
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS271877981.bin - 2680
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS284828575.bin - 416
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS645548027.bin - 2368
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS683334895.bin - 2400
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS796392159.bin - 3008
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS800412416.bin - 4460
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS897225966.bin - 2832
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainPS975101186.bin - 3928
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainVS1070636580.bin - 1680
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainVS1310798868.bin - 948
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainVS1694016783.bin - 960
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainVS1849773736.bin - 1668
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredMainVS1968594147.bin - 1060
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredWaterPS-1376729315.bin - 3376
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredWaterPS-202897487.bin - 3432
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredWaterPS606844900.bin - 3296
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DeferredWaterVS2105334764.bin - 820
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DepthClearVS1630118363.bin - 252
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DepthPS-1594099745.bin - 156
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DepthPS161103341.bin - 308
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DepthPS1727711607.bin - 304
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DepthVS-1054954059.bin - 412
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DepthVS-989868415.bin - 880
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DepthVS1633645952.bin - 584
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DepthVS1697075780.bin - 1052
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DiffuseTexturingPS-1099918982.bin - 220
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DownScale2x2PS1135384672.bin - 616
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DummyPS-377590.bin - 204
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\DummyVS-1642109088.bin - 176
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\FixedColorPS-1126537473.bin - 160
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\FixedFunctionPS-172403070.bin - 272
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\FixedFunctionPS453591715.bin - 376
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\FixedFunctionVS-1805906712.bin - 420
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GaussianBlurPS625052378.bin - 1064
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GlassWaterPS1272001593.bin - 2060
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GlassWaterPS1720919017.bin - 2372
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GlassWaterVS1069830113.bin - 676
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GlassWaterVS897163885.bin - 1312
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassDepthVS-1955129550.bin - 1160
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassDepthVS-481826727.bin - 1160
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassPS1182805421.bin - 544
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassPS1913019866.bin - 544
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassPS453688628.bin - 544
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-1488234742.bin - 3460
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-1568402910.bin - 1788
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-1950511425.bin - 1532
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-1986780612.bin - 1624
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-491688367.bin - 1532
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-515013493.bin - 2140
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-701030874.bin - 1532
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-812453443.bin - 3976
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-899828587.bin - 2304
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS-9822621.bin - 1992
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS1115580947.bin - 3764
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS1202794299.bin - 2092
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS121743962.bin - 1632
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS1822498597.bin - 1928
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS1921418701.bin - 2204
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS2070845078.bin - 1672
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\GrassVS442442618.bin - 1688
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\HairPS-1491958672.bin - 3088
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\HairPS1892411399.bin - 1656
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\HairVS-1788859328.bin - 1504
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\HairVS1024105262.bin - 1696
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\HelperPS435730272.bin - 872
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\HelperVS1085266792.bin - 328
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-1051486232.bin - 3924
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-1308871806.bin - 6172
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-1488396309.bin - 4692
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-1679226758.bin - 5508
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-1793140555.bin - 3776
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-193005268.bin - 2664
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-2107089273.bin - 2480
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-357435344.bin - 3656
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-758046234.bin - 512
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-792373086.bin - 3860
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-800896262.bin - 3528
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-802516546.bin - 3776
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS-965626677.bin - 5244
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS1061825513.bin - 5508
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS1392362819.bin - 512
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS1466244309.bin - 4048
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS1544510252.bin - 5308
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS1679606596.bin - 512
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS1815638722.bin - 1584
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS1879009048.bin - 2692
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS193347058.bin - 2716
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS1935191811.bin - 5032
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS281023584.bin - 4100
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS587542927.bin - 512
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS769671523.bin - 1636
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS798575523.bin - 4572
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS81908853.bin - 2640
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainPS959293386.bin - 3116
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVertexLightPS-476997625.bin - 428
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVertexLightVS-482444120.bin - 1100
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVertexLightVS-675803937.bin - 1956
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVertexLightVS-716733455.bin - 1656
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVertexLightVS-745701201.bin - 2512
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVertexLightVS-946398118.bin - 792
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVS-119769788.bin - 1780
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVS-1210387295.bin - 1144
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVS-1367501480.bin - 1336
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVS-1480351135.bin - 1456
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVS-527804385.bin - 1972
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVS1473113839.bin - 1256
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVS44907117.bin - 1448
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\MainVS901430857.bin - 1264
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\OutputDepthFromTexturePS-1372960501.bin - 336
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticlePS-2034963700.bin - 520
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticlePS-854413592.bin - 368
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticlePS1927432485.bin - 680
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticlePS415761405.bin - 220
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticlePS582227611.bin - 376
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticlePS666943418.bin - 544
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleRefractionPS-1786504306.bin - 584
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS-1262836486.bin - 1556
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS-196666201.bin - 1988
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS-1975897650.bin - 2068
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS-644766083.bin - 2200
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS-775006690.bin - 1888
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS1100967925.bin - 1484
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS1461325553.bin - 1996
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS1478851076.bin - 1760
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS1489267446.bin - 1916
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS634633818.bin - 2120
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS743940195.bin - 1684
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ParticleVS897012469.bin - 1688
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS-2079091166.bin - 984
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS-2141933760.bin - 2084
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS-503546760.bin - 1852
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS-579087225.bin - 1744
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS-816476524.bin - 888
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS1296663463.bin - 1980
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS1475435305.bin - 1336
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS1481811418.bin - 1208
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\PostProcessPS666310415.bin - 1016
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowFilterPS-834844986.bin - 1504
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowFilterPS1444868134.bin - 2784
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowFilterPS1654161489.bin - 2144
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowMapPS-837414288.bin - 300
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowMapPS1698675478.bin - 140
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowMapVS-910971257.bin - 444
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowMapVS1299379813.bin - 936
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowMapVS2145651462.bin - 752
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowMapVS81453436.bin - 260
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowVolumeVS-225175558.bin - 808
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowVolumeVS-252835108.bin - 1336
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowVolumeVS-715036666.bin - 808
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowVolumeVS-866513871.bin - 1336
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowVolumeVS1185339393.bin - 1004
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\ShadowVolumeVS340357429.bin - 1556
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\SimpleLightPS1793390644.bin - 320
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\SimpleLightVS-1277433609.bin - 1368
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\SimpleLightVS-1857045038.bin - 912
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\SimpleLightVS1431484195.bin - 732
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\SimpleLightVS184656478.bin - 840
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\SkyBoxPS-1122230604.bin - 288
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\SkyBoxVS-587643682.bin - 472
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\TexturingVS-1665881666.bin - 1048
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\TexturingVS1652444446.bin - 556
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\precompiled_shaders\WaterWavePS1944705595.bin - 556
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\01_Prison\Prison_Intro_Scene\Intro01_track0.mediastream_s - 371665
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\01_Prison\Prison_Music_01\Prison2_track0.mediastream_s - 1277486
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\01_Prison\Prison_Music_Long\Prison_track0.mediastream_s - 4485501
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\04_Underground\underground_part1\Underground_track0.mediastream_s - 3252231
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\GameOverMusic\GameOver_track0.mediastream_s - 850118
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\Level3MusicFinal\L3_A_track0.mediastream_s - 1289552
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\Level4MusicFinal\L4_A_track0.mediastream_s - 1232562
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\Level5MusicFinal\L5_A_track0.mediastream_s - 1059622
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\MainMenuMusic\Menu48_track0.mediastream_s - 2794322
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\MissionCompletMusic\Complete_track0.mediastream_s - 829315
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\Music_Street\MusicStreetFinal\Streets_final_track0.mediastream_s - 1284804
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\Music_Street\MusicStreetPart1\Str_p1_track0.mediastream_s - 5116509
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\derived_pc\sounds\Music\Music_Street\MusicStreetPart2\Str_p2_track0.mediastream_s - 2310141
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\NetFx20SP1_x86.exe - 24758792
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\PhysX_2.8.1.1_8.06.16_SystemSoftware.exe - 45236504
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\WindowsInstaller-KB893803-v2-x86.exe - 2585872
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2005_d3dx9_25_x64.cab - 1348242
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2005_d3dx9_25_x86.cab - 1079850
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2006_d3dx9_30_x64.cab - 1398718
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2006_d3dx9_30_x86.cab - 1116109
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2006_MDX1_x86.cab - 917318
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2006_MDX1_x86_Archive.cab - 4163518
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2006_XACT_x64.cab - 180021
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2006_XACT_x86.cab - 133991
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2006_xinput_x64.cab - 87989
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Apr2006_xinput_x86.cab - 46898
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\APR2007_d3dx10_33_x64.cab - 702212
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\APR2007_d3dx10_33_x86.cab - 699465
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\APR2007_d3dx9_33_x64.cab - 1610958
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\APR2007_d3dx9_33_x86.cab - 1609639
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\APR2007_XACT_x64.cab - 199366
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\APR2007_XACT_x86.cab - 154825
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\APR2007_xinput_x64.cab - 100417
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\APR2007_xinput_x86.cab - 56902
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Aug2005_d3dx9_27_x64.cab - 1351430
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Aug2005_d3dx9_27_x86.cab - 1078532
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2006_XACT_x64.cab - 183863
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2006_XACT_x86.cab - 138195
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2006_xinput_x64.cab - 88102
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2006_xinput_x86.cab - 47018
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2007_d3dx10_35_x64.cab - 855886
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2007_d3dx10_35_x86.cab - 800467
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2007_d3dx9_35_x64.cab - 1803760
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2007_d3dx9_35_x86.cab - 1711752
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2007_XACT_x64.cab - 201696
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\AUG2007_XACT_x86.cab - 156612
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\BDANT.cab - 1156363
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\BDAXP.cab - 976020
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Dec2005_d3dx9_28_x64.cab - 1358864
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Dec2005_d3dx9_28_x86.cab - 1080344
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\DEC2006_d3dx10_00_x64.cab - 213767
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\DEC2006_d3dx10_00_x86.cab - 192680
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\DEC2006_d3dx9_32_x64.cab - 1572114
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\DEC2006_d3dx9_32_x86.cab - 1575336
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\DEC2006_XACT_x64.cab - 193435
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\DEC2006_XACT_x86.cab - 146559
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\DSETUP.dll - 97288
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\dsetup32.dll - 1694728
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\dxdllreg_x86.cab - 47596
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\dxnt.cab - 13265040
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\DXSETUP.exe - 527880
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\dxupdate.cab - 97396
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Feb2005_d3dx9_24_x64.cab - 1248387
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Feb2005_d3dx9_24_x86.cab - 1014113
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Feb2006_d3dx9_29_x64.cab - 1363684
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Feb2006_d3dx9_29_x86.cab - 1085608
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Feb2006_XACT_x64.cab - 179247
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Feb2006_XACT_x86.cab - 133297
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\FEB2007_XACT_x64.cab - 198275
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\FEB2007_XACT_x86.cab - 151583
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Jun2005_d3dx9_26_x64.cab - 1336890
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Jun2005_d3dx9_26_x86.cab - 1065813
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\JUN2006_XACT_x64.cab - 181745
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\JUN2006_XACT_x86.cab - 134631
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\JUN2007_d3dx10_34_x64.cab - 702644
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\JUN2007_d3dx10_34_x86.cab - 702072
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\JUN2007_d3dx9_34_x64.cab - 1611374
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\JUN2007_d3dx9_34_x86.cab - 1610886
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\JUN2007_XACT_x64.cab - 200722
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\JUN2007_XACT_x86.cab - 156509
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_d3dx10_37_x64.cab - 848132
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_d3dx10_37_x86.cab - 821508
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_d3dx9_37_x64.cab - 1773110
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_d3dx9_37_x86.cab - 1446530
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_X3DAudio_x64.cab - 58306
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_X3DAudio_x86.cab - 25115
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_XACT_x64.cab - 125584
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_XACT_x86.cab - 96982
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_XAudio_x64.cab - 254442
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Mar2008_XAudio_x86.cab - 229498
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\NOV2007_d3dx10_36_x64.cab - 867848
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\NOV2007_d3dx10_36_x86.cab - 807132
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\NOV2007_d3dx9_36_x64.cab - 1805306
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\NOV2007_d3dx9_36_x86.cab - 1712608
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\NOV2007_X3DAudio_x64.cab - 49392
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\NOV2007_X3DAudio_x86.cab - 21744
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\NOV2007_XACT_x64.cab - 200010
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\NOV2007_XACT_x86.cab - 151512
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Oct2005_xinput_x64.cab - 86925
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\Oct2005_xinput_x86.cab - 46247
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\OCT2006_d3dx9_31_x64.cab - 1413862
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\OCT2006_d3dx9_31_x86.cab - 1128177
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\OCT2006_XACT_x64.cab - 183321
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\prerequisites\dx9mar2008\OCT2006_XACT_x86.cab - 138977
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\SaveData\Profile1\PROGRESS.kpw - 1006
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\SaveData\Profile1\SETTINGS.kpw - 2687
+C:\Program Files (x86)\Steam\steamapps\common\watchmen\titledata\pc\bootscreen.bmp - 3686456
+
+UAC Disabled or not present
+

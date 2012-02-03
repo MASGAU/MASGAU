@@ -1,0 +1,311 @@
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\1C Company\King's Bounty
+
+Save Path:
+C:\Users\%USERNAME%\Documents\My Games\Kings Bounty
+
+Detected Registry Key Values:
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{91BD01BD-287C-4322-906F-C1FF99571838}\ConfigApplicationPath
+C:\Program Files (x86)\1C Company\King's Bounty
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{91BD01BD-287C-4322-906F-C1FF99571838}\ConfigGDFBinaryPath
+C:\Program Files (x86)\1C Company\King's Bounty\KBVistaShellSupport.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E43ED0A0-C85E-40F0-807C-6A8A9D2FAEF3}_is1\Inno Setup: App Path
+C:\Program Files (x86)\1C Company\King's Bounty
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E43ED0A0-C85E-40F0-807C-6A8A9D2FAEF3}_is1\InstallLocation
+C:\Program Files (x86)\1C Company\King's Bounty\
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E43ED0A0-C85E-40F0-807C-6A8A9D2FAEF3}_is1\DisplayIcon
+C:\Program Files (x86)\1C Company\King's Bounty\kb.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E43ED0A0-C85E-40F0-807C-6A8A9D2FAEF3}_is1\Readme
+C:\Program Files (x86)\1C Company\King's Bounty\readme.rtf
+HKEY_CURRENT_USER\Software\Katauri Interactive\KingsBountyTheLegend\UninstallExe
+C:\Program Files (x86)\1C Company\King's Bounty\unins000.exe
+HKEY_CURRENT_USER\Software\Katauri Interactive\KingsBountyTheLegend\InstallPath
+C:\Program Files (x86)\1C Company\King's Bounty\kb.exe
+HKEY_CURRENT_USER\Software\Katauri Interactive\KingsBountyTheLegend\Common\aPaths
+c:\program files (x86)\1c company\king's bounty?c:\program files (x86)\1c company\king's bounty\
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\1C Company\King's Bounty. The Legend\King's Bounty. The Legend.lnk
+C:\Program Files (x86)\1C Company\King's Bounty\kb.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\1C Company\King's Bounty. The Legend\Manual.lnk
+C:\Program Files (x86)\1C Company\King's Bounty\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\1C Company\King's Bounty. The Legend\ReadMe.lnk
+C:\Program Files (x86)\1C Company\King's Bounty\readme.rtf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\Documents\My Games\Kings Bounty\game.ini - 1205
+
+Install Folder Dump:
+C:\Program Files (x86)\1C Company\King's Bounty\binkw32.dll - 339456
+C:\Program Files (x86)\1C Company\King's Bounty\curver.txt - 4
+C:\Program Files (x86)\1C Company\King's Bounty\desktop.ini - 49
+C:\Program Files (x86)\1C Company\King's Bounty\GameuxInstallHelper.dll - 111848
+C:\Program Files (x86)\1C Company\King's Bounty\kb.exe - 23821312
+C:\Program Files (x86)\1C Company\King's Bounty\kb.exe.old - 18470400
+C:\Program Files (x86)\1C Company\King's Bounty\KBVistaShellSupport.dll - 200704
+C:\Program Files (x86)\1C Company\King's Bounty\Kings-Bounty-manual-view.pdf - 18250131
+C:\Program Files (x86)\1C Company\King's Bounty\lang.ini - 56264
+C:\Program Files (x86)\1C Company\King's Bounty\LuaIDE.dll - 950272
+C:\Program Files (x86)\1C Company\King's Bounty\Manual.pdf - 18250131
+C:\Program Files (x86)\1C Company\King's Bounty\paul.dll - 253952
+C:\Program Files (x86)\1C Company\King's Bounty\readme.rtf - 88760
+C:\Program Files (x86)\1C Company\King's Bounty\SciLexer.dll - 266240
+C:\Program Files (x86)\1C Company\King's Bounty\unins000.dat - 149994
+C:\Program Files (x86)\1C Company\King's Bounty\unins000.exe - 712424
+C:\Program Files (x86)\1C Company\King's Bounty\unins000.msg - 10590
+C:\Program Files (x86)\1C Company\King's Bounty\data\animation.kfs - 102022118
+C:\Program Files (x86)\1C Company\King's Bounty\data\app.ini - 559
+C:\Program Files (x86)\1C Company\King's Bounty\data\data.kfs - 34248738
+C:\Program Files (x86)\1C Company\King's Bounty\data\default.ini - 2989
+C:\Program Files (x86)\1C Company\King's Bounty\data\game.ini - 1025
+C:\Program Files (x86)\1C Company\King's Bounty\data\interface_textures.kfs - 141124386
+C:\Program Files (x86)\1C Company\King's Bounty\data\loc_data.kfs - 7757073
+C:\Program Files (x86)\1C Company\King's Bounty\data\models.kfs - 55596703
+C:\Program Files (x86)\1C Company\King's Bounty\data\sky.kfs - 51920165
+C:\Program Files (x86)\1C Company\King's Bounty\data\sounds.kfs - 171918335
+C:\Program Files (x86)\1C Company\King's Bounty\data\textures.kfs - 324299505
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\battle_of_minds.ogg - 1475353
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\campaign.ogg - 3267719
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\dark_eclipse.ogg - 2291743
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\dead_land.ogg - 2304479
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\defeat.ogg - 383225
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\dragon_pass.ogg - 2610001
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\duel_of_the_winds.ogg - 3011504
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\dungeon.ogg - 2449639
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\fear.ogg - 2581784
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\feat_of_arms.ogg - 2572818
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\glory_ride.ogg - 2306772
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\gnome_mines.ogg - 2391167
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\golem_attack.ogg - 2191968
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\grounds_of_the_darkness.ogg - 2602895
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\hammer_of_the_chaos.ogg - 3684216
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\home_lands.ogg - 3039406
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\in_the_heart_of_battle.ogg - 2499264
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\journey.ogg - 3589561
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\knight.ogg - 3189745
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\level_up.ogg - 125173
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\mountain_of_the_dwarf_king.ogg - 3200364
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\mushroom_cave.ogg - 2329455
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\sacred_quest.ogg - 3824441
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\siege.ogg - 2715868
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\spider_cave.ogg - 2094098
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\temple_of_eternity.ogg - 2087880
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\the_deep.ogg - 1423441
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\the_legend.ogg - 3651878
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\to_the_horizon.ogg - 2440589
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\turtle.ogg - 154961
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\turtle_bog.ogg - 3012908
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\under_the_shadow_of_the_oak.ogg - 3472326
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\valley_of_a_thousand_rivers.ogg - 3898589
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\victory.ogg - 371234
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\warlord_horn.ogg - 3593589
+C:\Program Files (x86)\1C Company\King's Bounty\data\music\way_to_the_dark_castle.ogg - 2569639
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\1c_logo_eng.ogm - 6924667
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\defeat1024x512.bik - 71726292
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\katauri_logo800x600.ogm - 293840
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\kb-startlogo-add.bik - 5538568
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\kb-startlogo_alpha.bik - 10004616
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\kbtl-intro-800x600-eng.ogm - 38816503
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\lvlup_frame_add.bik - 350924
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\lvlup_runes_alpha.bik - 469168
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\slot_border_alpha.bik - 33460
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\ui_ability_alpha.bik - 21652
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\ui_log_add.bik - 165596
+C:\Program Files (x86)\1C Company\King's Bounty\data\video\victory1024x512.bik - 61270724
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\loc_ses.kfs - 828345
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\ses.kfs - 6365376
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aboss_kraken.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aboss_spider.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_acastle_dwarf.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_acastle_karador.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_acastle_orc_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_acastl_dwarf_winter.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion4_magictower.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_bridge_1.stream - 22061056
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_coast_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_coast_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_coast_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_dungeon_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_dungeon_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_forest_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_forest_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_forest_4.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_forest_5.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_forest_6.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_forest_7.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_lake_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_lake_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_1_lake_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_2_dragon_castle.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_2_kingtomb.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_2_road_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_2_road_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_bog_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_bog_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_bog_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_bog_4.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_bog_castle_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_bog_castle_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_crypt_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_crypt_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_crypt_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_deadland_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_3_dungeon_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_4_road_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_4_road_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_adarion_gnomroad_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ademon_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ademon_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ademon_island.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ademon_ultrax.stream - 26460160
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ademon_ultrax_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aelinia_1_road_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_1_coast_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_1_dungeon_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_1_forest_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_1_forest_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_1_forest_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_1_forest_4.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_2_castle_01.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_3_mountain_1.stream - 17661952
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_book.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aellinia_dungeon_treelife_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aghostship.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_agremlincastle_grey.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_agremlincastle_grey_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_agremlincastle_grey_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_agremlincastle_light.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_1_bridge_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_1_castle_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_1_dundeon_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_1_dungeon_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_1_dungeon_4.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_2_coast_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_2_coast_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_2_coast_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_2_dungeon_2_castl_01.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aisland_turtle.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_demon01.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_demon02.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_dwarf_01.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_dwarf_02.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_elf_01.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_elf_02.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_human_02.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_human_03.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_orc_01.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_undead_01.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aitem_undead_02.stream - 2998272
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_1_ciklop_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_1_dwarfdangeon_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_1_lake_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_1_road_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_1_road_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_1_road_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_2_demon_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_2_demon_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_2_road_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_2_road_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_demonroad.stream - 22061056
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_demonroad_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_dungeon_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_dungeon_road_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_dungeon_road_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_dungeon_road_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_akordar_dungeon_road_4.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_amurok_1_road_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_amurok_1_road_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_amurok_1_road_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_arena_necro.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_arena_tournament.stream - 26460160
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aship.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_atrue.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aturtle_head.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_blackmountains.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_book.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_coast.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_dragondungeon1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_dragondungeon2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_graveyard1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_graveyard2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_island.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_redmountains.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_aundead_village.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_castledemon_01.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_castle_01.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_1_dungeon_1.stream - 26460160
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_1_dungeon_2.stream - 14729216
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_1_dungeon_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_2.stream - 66052096
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_3.stream - 85848064
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_3_crypt_1.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_3_crypt_2.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_3_crypt_3.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_3_crypt_4.stream - 14729216
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_3_crypt_5.stream - 41123840
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_3_dungeon_1.stream - 14729216
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_3_dungeon_3.stream - 26460160
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_4.stream - 105644032
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_4_dungeon_1.stream - 46989312
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_4_dungeon_2.stream - 41123840
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_4_magictower.stream - 26460160
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_gnomroad.stream - 79249408
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_darion_kingtomb.stream - 46989312
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_deadland_01_arena.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_deadland_02_arena.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_deadland_03_arena.stream - 14729216
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_demon_1.stream - 112975872
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_demon_ultrax.stream - 46989312
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ellinia_1.stream - 52854784
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ellinia_1_labirint_1.stream - 73383936
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ellinia_1_labirint_2.stream - 105644032
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ellinia_1_labirint_3.stream - 105644032
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ellinia_2.stream - 59453440
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ellinia_3.stream - 105644032
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_ellinia_dungeon_treelife.stream - 26460160
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_forest_01.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_forest_02.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_forest_03.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_forest_04.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_gremlin_castle.stream - 102711296
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_infish.stream - 26460160
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_1.stream - 88047616
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_1_dungeon_1.stream - 46989312
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_1_dungeon_2.stream - 30859264
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_1_dungeon_3.stream - 35991552
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_1_dungeon_4.stream - 17661952
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_2.stream - 96845824
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_2_dungeon_1.stream - 20594688
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_2_dungeon_2.stream - 39657472
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_2_dungeon_3.stream - 14729216
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_island_titan.stream - 26460160
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_kordar_1.stream - 80715776
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_kordar_1_ciklop.stream - 14729216
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_kordar_1_dungeon_1.stream - 18395136
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_kordar_1_piramida.stream - 11796480
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_kordar_2.stream - 80715776
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_kordar_demonroad.stream - 46989312
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_kordar_dungeon_1.stream - 80715776
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_kordar_dungeon_2.stream - 80715776
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_l50_cave_bigtree.stream - 35991552
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_mehgard_1.stream - 102711296
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_murok_1.stream - 114442240
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_training_centre.stream - 102711296
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_turtle_head.stream - 76316672
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_turtle_island.stream - 35991552
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_undead_1.stream - 61652992
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_undead_1_dungeon_1.stream - 44056576
+C:\Program Files (x86)\1C Company\King's Bounty\sessions\base\locations\tex_undead_2.stream - 105644032
+
+UAC Disabled or not present
+

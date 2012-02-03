@@ -1,0 +1,512 @@
+Comments:
+Previous versions put the savegames in the program folder. I left them both in the list in case you wanted to create a profile
+that covers the situation.
+
+Game Name: Stubbs the Zombie: Rebel Without a Pulse (v1.02)
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Stubbs.exe
+Value: Path
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-900820399-3332826203-2313936294-1000\{0C94D6B7-C19D-49AD-B975-7852CE6E5B54}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-900820399-3332826203-2313936294-1000\{0C94D6B7-C19D-49AD-B975-7852CE6E5B54}
+Value: AppExePath
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\stubbs.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\105AF755446B490418068E50C3527279
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\bink\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\11FE4412A234AAB4FBFD1839DF6FA8FD
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\37A860AB2B0F5E94292E706CF4ADE547
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\3AB53BBFE3E0F8A4581BB9EE261762BE
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\5B15D04A717F6004AAD312963EB830D9
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\9A5BD0C1CE43FFF45B60681CFCB02C9F
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\9DBEC798684F79641886FC430892055F
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\sed\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\AED2B29FA6DC90F4EB8D96A6A1987B44
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\BE26888CEEADC514D8879340573B3152
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\E20CBCF9F94C3884D9F387B378D9C777
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\E7AC0CCEBCC144F4AA9FE5D9DB63DC3B
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Components\F423AB6A8ACA4D045B3A5A35BF9F1371
+Value: B27E62079F0836F48A6D9AEE432D22EF
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-21-900820399-3332826203-2313936294-1000\Products\B27E62079F0836F48A6D9AEE432D22EF\InstallProperties
+Value: InstallLocation
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{7026E72B-80F9-4F63-A8D6-A9EE34D222FE}
+Value: InstallLocation
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C5334C85-F601-427C-85F7-CDD9FDC8C69F}
+Value: InstallLocation
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\Stubbs.exe
+Value: Path
+Data: C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Aspyr Media, Inc\Stubbs The Zombie\Register Online.lnk
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\Register Stubbs.url
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Aspyr Media, Inc\Stubbs The Zombie\Stubbs Read Me.lnk
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\Stubbs Read Me.rtf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Aspyr Media, Inc\Stubbs The Zombie\Play Stubbs in Safe Mode.lnk
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\Stubbs.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\lastprof.txt - 256
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegame.bin - 4718592
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\hdmu.map - 518
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\player_profiles\default_profile\00.sav - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\player_profiles\default_profile\01.sav - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\00\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\01\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\02\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\03\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\04\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\05\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\06\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\07\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\08\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\09\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\10\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\11\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\12\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\13\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\14\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\15\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\16\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\17\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\18\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\19\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\20\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\21\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\22\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\23\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\24\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\saved\playlists\default_playlist\25\blam.lst - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegames\Max\blam.sav - 8192
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegames\Max\Max - 19
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegames\Max\savegame.bin - 4718592
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegames\Max\savegame.sav - 33
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegames\Max\checkpoints\autosave.bin - 4718592
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegames\Max\checkpoints\autosave.sav - 33
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegames\Max\checkpoints\autosave1.bin - 4718592
+C:\Users\%USERNAME%\Documents\Stubbs the Zombie\savegames\Max\checkpoints\autosave1.sav - 32
+
+Install Folder Dump: 
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\binkw32.dll - 193024
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\OpenAL32.dll - 413696
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\OpenALwEAX.exe - 356352
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\Register Stubbs.url - 88
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\RunFirst.exe - 20480
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\savegame.bin - 4718592
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\Strings.dll - 1138688
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\Stubbs Read Me.rtf - 7117
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\Stubbs.exe - 20779008
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\Stubbs.exe.old - 5959680
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\wrap_oal.dll - 266240
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\bink\attract1.bik - 112779940
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\bink\creative.bik - 2759840
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\bink\credits.bik - 43462152
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\bink\nvidia.bik - 1663472
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\a10_plaza.map - 234661888
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\a30_greenhouse.map - 280542208
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\a40_police_station.map - 278180864
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\a45_dance.map - 95720960
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\a50_maul.map - 241327104
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\a60_maulfight.map - 185623040
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\b10_farm_house.map - 189107712
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\b30_dam.map - 277254656
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\c10_offender.map - 212935680
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\c30_lab.map - 219792896
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\c40_cityhall.map - 216219136
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\c50_end.map - 231893504
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\maps\ui.map - 37878272
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\saved\hdmu.map - 0
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\saved\player_profiles\default_profile\00.sav - 8192
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\saved\player_profiles\default_profile\01.sav - 8192
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\.DS_Store - 6148
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\.DS_Store - 6148
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\1743.psh - 1092
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\767d.psh - 440
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\9305.psh - 789
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\d7f1.psh - 1067
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\env_reflection_mirror.psh - 1933
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\model_bumped_distance_bump_diffuse.psh - 2793
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\psh\tex0_2d.psh - 115
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\sed\PC - 5103
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\sed\runme - 349
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\sed\step1 - 5110
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\sed\step2 - 349
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\sed\step3 - 1165
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\.DS_Store - 6148
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\convolution.vsh - 1284
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\debug.vsh - 1154
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\decal copy.vsh - 1466
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\decal.vsh - 1607
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\detail_object_type0.vsh - 2346
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\detail_object_type1.vsh - 2537
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\effect.vsh - 2455
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\effect_multitexture.vsh - 2501
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\effect_multitexture_screenspace.vsh - 2588
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\effect_zsprite.vsh - 3123
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_diffuse_light.vsh - 1472
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_fog.vsh - 1240
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_fog_screen.vsh - 1212
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_lightmap.vsh - 1819
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_reflection_bumped.vsh - 1503
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_reflection_flat.vsh - 1659
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_reflection_lightmap_mask.vsh - 1156
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_reflection_mirror.vsh - 2214
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_reflection_radiosity.vsh - 1509
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_shadow.vsh - 1375
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_specular_light.vsh - 1509
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_specular_lightmap.vsh - 1543
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_specular_spot_light.vsh - 1647
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_test0.vsh - 1542
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_test1.vsh - 1828
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_test2.vsh - 2150
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_test3.vsh - 1802
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_test4.vsh - 1556
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_test5.vsh - 1538
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\environment_texture.vsh - 1329
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\lens_flare.vsh - 1230
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model.vsh - 4418
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_active_camouflage.vsh - 2766
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_bumped_diffuse_lights.vsh - 3394
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_bumped_diffuse_texture.vsh - 1775
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_bumped_distant_diffuse.vsh - 2632
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_bumped_distant_diffuse_fogged.vsh - 3386
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_bumped_distant_lights.vsh - 2563
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_bumped_fogged.vsh - 2336
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_bumped_reflection.vsh - 2500
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_bumped_reflection_fogged.vsh - 3251
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_fast.vsh - 3531
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_fogged.vsh - 5116
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_fog_screen.vsh - 1848
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_scenery.vsh - 2743
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_shadow.vsh - 1674
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_simple.vsh - 1585
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\model_zbuffer.vsh - 1748
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\screen.vsh - 1836
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\screen2.vsh - 2831
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic.vsh - 2620
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_lit_m.vsh - 4810
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_m.vsh - 3241
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_object_centered.vsh - 2807
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_object_centered_m.vsh - 3576
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_reflection.vsh - 2976
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_reflection_m.vsh - 3576
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_screenspace.vsh - 2709
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_screenspace_m.vsh - 3309
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_viewer_centered.vsh - 2853
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_generic_viewer_centered_m.vsh - 3453
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_diffuse_light.vsh - 3353
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_diffuse_light_m.vsh - 3936
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_reflection_bumped.vsh - 2464
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_reflection_bumped_m.vsh - 3356
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_reflection_flat.vsh - 2627
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_reflection_flat_m.vsh - 3519
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_reflection_mirror.vsh - 3306
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_tint.vsh - 2200
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_glass_tint_m.vsh - 2656
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_meter.vsh - 2168
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_meter_m.vsh - 2665
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_plasma_m.vsh - 3406
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_water_opacity.vsh - 1348
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_water_opacity_m.vsh - 2240
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_water_reflection.vsh - 1562
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh\transparent_water_reflection_m.vsh - 2388
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\convolution.vsh - 387
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\debug.vsh - 300
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\decal.vsh - 655
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\detail_object_type0.vsh - 1744
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\detail_object_type1.vsh - 1722
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\effect.vsh - 1682
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\effect_multitexture.vsh - 1726
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\effect_multitexture_screenspace.vsh - 1809
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\effect_zsprite.vsh - 2541
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_diffuse_light.vsh - 668
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_fog.vsh - 378
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_fog_screen.vsh - 351
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_lightmap.vsh - 1106
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_reflection_bumped.vsh - 697
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_reflection_flat.vsh - 910
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_reflection_lightmap_mask.vsh - 298
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_reflection_mirror.vsh - 1201
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_reflection_radiosity.vsh - 703
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_shadow.vsh - 486
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_specular_light.vsh - 775
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_specular_lightmap.vsh - 806
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_specular_spot_light.vsh - 954
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_test0.vsh - 600
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_test1.vsh - 877
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_test2.vsh - 1188
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_test3.vsh - 852
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_test4.vsh - 616
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_test5.vsh - 599
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\environment_texture.vsh - 464
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\lens_flare.vsh - 436
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model.vsh - 4075
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_active_camouflage.vsh - 2363
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_bumped_diffuse_lights.vsh - 2922
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_bumped_diffuse_texture.vsh - 1011
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_bumped_distant_diffuse.vsh - 1976
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_bumped_distant_diffuse_fogged.vsh - 2783
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_bumped_distant_lights.vsh - 1906
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_bumped_fogged.vsh - 1561
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_bumped_reflection.vsh - 1837
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_bumped_reflection_fogged.vsh - 2641
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_fast.vsh - 3319
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_fogged.vsh - 4766
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_fog_screen.vsh - 1128
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_scenery.vsh - 2280
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_shadow.vsh - 917
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_simple.vsh - 757
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\model_zbuffer.vsh - 991
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\screen.vsh - 1149
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\screen2.vsh - 2163
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic.vsh - 1868
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_lit_m.vsh - 4464
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_m.vsh - 2642
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_object_centered.vsh - 2048
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_object_centered_m.vsh - 3085
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_reflection.vsh - 2331
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_reflection_m.vsh - 3085
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_screenspace.vsh - 1951
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_screenspace_m.vsh - 2705
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_viewer_centered.vsh - 2164
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_generic_viewer_centered_m.vsh - 2918
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_diffuse_light.vsh - 2865
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_diffuse_light_m.vsh - 3603
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_reflection_bumped.vsh - 1705
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_reflection_bumped_m.vsh - 2865
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_reflection_flat.vsh - 1925
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_reflection_flat_m.vsh - 3085
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_reflection_mirror.vsh - 2214
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_tint.vsh - 1385
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_glass_tint_m.vsh - 1936
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_meter.vsh - 1362
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_meter_m.vsh - 1952
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_plasma_m.vsh - 2917
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_water_opacity.vsh - 631
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_water_opacity_m.vsh - 1791
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_water_reflection.vsh - 769
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_PC\transparent_water_reflection_m.vsh - 1929
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\.DS_Store - 6148
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\convolution.vsh - 639
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\debug.vsh - 445
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\decal.vsh - 1123
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\detail_object_type0.vsh - 2828
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\detail_object_type1.vsh - 3038
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\effect.vsh - 2566
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\effect_multitexture.vsh - 2652
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\effect_multitexture_screenspace.vsh - 2791
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\effect_zsprite.vsh - 3662
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_diffuse_light.vsh - 1086
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_fog.vsh - 599
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_fog_screen.vsh - 539
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_lightmap.vsh - 1915
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_reflection_bumped.vsh - 1014
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_reflection_flat.vsh - 1321
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_reflection_lightmap_mask.vsh - 455
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_reflection_mirror.vsh - 1535
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_reflection_radiosity.vsh - 1053
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_shadow.vsh - 726
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_specular_light.vsh - 1194
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_specular_lightmap.vsh - 1297
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_specular_spot_light.vsh - 1441
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_test0.vsh - 945
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_test1.vsh - 1461
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_test2.vsh - 1870
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_test3.vsh - 1401
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_test4.vsh - 1047
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_test5.vsh - 1030
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\environment_texture.vsh - 730
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\lens_flare.vsh - 598
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model.vsh - 6502
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_active_camouflage.vsh - 3387
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_bumped_diffuse_lights.vsh - 4593
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_bumped_diffuse_texture.vsh - 1585
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_bumped_distant_diffuse.vsh - 3012
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_bumped_distant_diffuse_fogged.vsh - 4253
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_bumped_distant_lights.vsh - 2926
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_bumped_fogged.vsh - 2504
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_bumped_reflection.vsh - 2802
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_bumped_reflection_fogged.vsh - 4049
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_fast.vsh - 4787
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_fogged.vsh - 7630
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_fog_screen.vsh - 1718
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_scenery.vsh - 3174
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_shadow.vsh - 1463
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_simple.vsh - 1259
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\model_zbuffer.vsh - 1533
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\screen.vsh - 1362
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\screen2.vsh - 2980
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic.vsh - 2934
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_lit_m.vsh - 7165
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_m.vsh - 4175
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_object_centered.vsh - 3183
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_object_centered_m.vsh - 4829
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_reflection.vsh - 3643
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_reflection_m.vsh - 4862
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_screenspace.vsh - 3073
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_screenspace_m.vsh - 4292
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_viewer_centered.vsh - 3339
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_generic_viewer_centered_m.vsh - 4558
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_diffuse_light.vsh - 4690
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_diffuse_light_m.vsh - 5876
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_reflection_bumped.vsh - 2624
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_reflection_bumped_m.vsh - 4501
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_reflection_flat.vsh - 2938
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_reflection_flat_m.vsh - 4815
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_reflection_mirror.vsh - 3150
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_tint.vsh - 2183
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_glass_tint_m.vsh - 3094
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_meter.vsh - 2148
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_meter_m.vsh - 3132
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_plasma_m.vsh - 4511
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_water_opacity.vsh - 888
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_water_opacity_m.vsh - 2765
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_water_reflection.vsh - 1195
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_step0\transparent_water_reflection_m.vsh - 2971
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\.DS_Store - 6148
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\convolution.vsh - 655
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\debug.vsh - 457
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\decal.vsh - 1014
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\detail_object_type0.vsh - 2899
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\detail_object_type1.vsh - 3045
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\effect.vsh - 886
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\effect_multitexture.vsh - 974
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\effect_multitexture_screenspace.vsh - 1117
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\effect_zsprite.vsh - 2422
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_diffuse_light.vsh - 1111
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_fog.vsh - 613
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_fog_screen.vsh - 553
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_lightmap.vsh - 1954
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_reflection_bumped.vsh - 1043
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_reflection_flat.vsh - 1347
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_reflection_lightmap_mask.vsh - 467
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_reflection_mirror.vsh - 1565
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_reflection_radiosity.vsh - 1082
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_shadow.vsh - 744
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_specular_light.vsh - 1222
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_specular_lightmap.vsh - 1328
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_specular_spot_light.vsh - 1407
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_test0.vsh - 982
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_test1.vsh - 1507
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_test2.vsh - 1930
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_test3.vsh - 1445
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_test4.vsh - 1078
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_test5.vsh - 1060
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\environment_texture.vsh - 748
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\lens_flare.vsh - 614
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model.vsh - 5643
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_active_camouflage.vsh - 2760
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_bumped_diffuse_lights.vsh - 3990
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_bumped_diffuse_texture.vsh - 924
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_bumped_distant_diffuse.vsh - 2384
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_bumped_distant_diffuse_fogged.vsh - 2407
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_bumped_distant_lights.vsh - 2295
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_bumped_fogged.vsh - 621
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_bumped_reflection.vsh - 2174
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_bumped_reflection_fogged.vsh - 2147
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_fast.vsh - 4144
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_fogged.vsh - 5580
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_fog_screen.vsh - 1060
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_scenery.vsh - 3042
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_shadow.vsh - 799
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_simple.vsh - 595
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\model_zbuffer.vsh - 870
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\screen.vsh - 1391
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\screen2.vsh - 2790
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic.vsh - 841
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_lit_m.vsh - 4456
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_m.vsh - 1391
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_object_centered.vsh - 1095
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_object_centered_m.vsh - 2079
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_reflection.vsh - 1562
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_reflection_m.vsh - 2112
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_screenspace.vsh - 984
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_screenspace_m.vsh - 1534
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_viewer_centered.vsh - 1254
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_generic_viewer_centered_m.vsh - 1804
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_diffuse_light.vsh - 3113
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_diffuse_light_m.vsh - 3629
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_reflection_bumped.vsh - 1013
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_reflection_bumped_m.vsh - 2237
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_reflection_flat.vsh - 1324
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_reflection_flat_m.vsh - 2548
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_reflection_mirror.vsh - 1539
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_tint.vsh - 557
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_glass_tint_m.vsh - 791
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_meter.vsh - 522
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_meter_m.vsh - 830
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_plasma_m.vsh - 2236
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_water_opacity.vsh - 909
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_water_opacity_m.vsh - 2133
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_water_reflection.vsh - 1124
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\transparent_water_reflection_m.vsh - 2348
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\_fog_generic.vsh - 2143
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\_fog_planar.vsh - 1233
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\_fog_planar_atmospheric.vsh - 1663
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\_skin.vsh - 667
+C:\Program Files (x86)\Aspyr Media, Inc\Stubbs the Zombie - Rebel Without a Pulse\shaders\vsh_XboxStubbs\_skin_position.vsh - 708
+
+UAC Disabled or not present
+

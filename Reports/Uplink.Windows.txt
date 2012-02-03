@@ -1,0 +1,149 @@
+Game Name: Uplink
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+SteamCommon\uplink
+
+Save Path:
+SteamCommon\uplink
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-2586813670-1133313148-2872852914-1000\{62224A15-1085-4D30-B50C-933A804A840F}
+Value: ConfigApplicationPath
+Data: SteamCommon\uplink
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-2586813670-1133313148-2872852914-1000\{62224A15-1085-4D30-B50C-933A804A840F}
+Value: AppExePath
+Data: 21.12.2011 16:22:27 - SteamCommon\uplink\Uplink.exe - 1671168
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 1510
+Value: InstallLocation
+Data: SteamCommon\uplink
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: D:\
+Drive Root: D:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+21.12.2011 16:22:04 - SteamCommon\uplink\changes.txt - 28751
+21.12.2011 16:22:14 - SteamCommon\uplink\data.dat - 34911
+21.12.2011 16:22:43 - SteamCommon\uplink\dbghelp.dll - 1038848
+21.12.2011 16:22:14 - SteamCommon\uplink\fonts.dat - 79490
+21.12.2011 16:22:24 - SteamCommon\uplink\graphics.dat - 5645148
+21.12.2011 16:22:09 - SteamCommon\uplink\loading.dat - 1722352
+21.12.2011 16:22:14 - SteamCommon\uplink\mfc80.dll - 1093632
+21.12.2011 16:22:12 - SteamCommon\uplink\Microsoft.VC80.CRT.manifest - 522
+21.12.2011 16:22:19 - SteamCommon\uplink\Microsoft.VC80.MFC.manifest - 550
+21.12.2011 16:22:10 - SteamCommon\uplink\msvcm80.dll - 479232
+21.12.2011 16:22:13 - SteamCommon\uplink\msvcp80.dll - 548864
+21.12.2011 16:22:09 - SteamCommon\uplink\msvcr80.dll - 626688
+21.12.2011 16:22:41 - SteamCommon\uplink\music.dat - 2271462
+21.12.2011 16:22:27 - SteamCommon\uplink\opengl32.dll.bak - 753808
+21.12.2011 16:22:15 - SteamCommon\uplink\patch.dat - 262020
+21.12.2011 16:22:19 - SteamCommon\uplink\patch2.dat - 5104
+21.12.2011 16:22:26 - SteamCommon\uplink\patch3.dat - 290014
+21.12.2011 16:22:15 - SteamCommon\uplink\readme.txt - 10928
+13.03.2004 01:23:14 - SteamCommon\uplink\Readme_Uconsole.txt - 1121
+21.12.2011 16:22:12 - SteamCommon\uplink\SDL.dll - 258048
+21.12.2011 16:22:18 - SteamCommon\uplink\SDL_mixer.dll - 241664
+02.08.2002 23:28:44 - SteamCommon\uplink\sounds.dat - 2659656
+21.12.2011 16:22:10 - SteamCommon\uplink\tcp4w32.dll - 56832
+21.12.2011 16:22:27 - SteamCommon\uplink\Uplink.exe - 1671168
+21.12.2011 16:22:22 - SteamCommon\uplink\uplink.ico - 6254
+21.12.2011 16:22:04 - SteamCommon\uplink\UplinkSupport.exe - 106496
+21.12.2011 16:22:16 - SteamCommon\uplink\UplinkSupport.ini - 479
+15.06.2003 10:17:30 - SteamCommon\uplink\data\agentaliases.txt - 2330
+27.03.2002 14:44:00 - SteamCommon\uplink\data\companya.txt - 1912
+15.06.2003 09:50:04 - SteamCommon\uplink\data\surnames.txt - 633572
+21.12.2011 16:22:23 - SteamCommon\uplink\docs\README-SDL.txt - 438
+21.12.2011 16:22:18 - SteamCommon\uplink\docs\README-SDL_mixer.txt - 266
+21.12.2011 16:22:13 - SteamCommon\uplink\docs\README-UplinkSupport.txt - 336
+21.12.2011 16:22:21 - SteamCommon\uplink\docs\SDL_Mixer.patch - 508
+21.12.2011 17:21:50 - SteamCommon\uplink\users\AdmiringWorm.tmp - 2438200
+21.12.2011 17:21:50 - SteamCommon\uplink\users\AdmiringWorm.usr - 2438200
+21.12.2011 22:45:25 - SteamCommon\uplink\users\debug.log - 141265
+21.12.2011 22:45:24 - SteamCommon\uplink\users\options - 3688
+21.12.2011 22:45:12 - SteamCommon\uplink\users\V3RC377I.tmp - 1679999
+21.12.2011 22:45:12 - SteamCommon\uplink\users\V3RC377I.usr - 1679999
+21.07.2011 18:28:16 - SteamCommon\uplink\usersold\TooManySecrets.tmp - 269
+21.07.2011 18:28:16 - SteamCommon\uplink\usersold\TooManySecrets.usr - 269
+21.12.2011 17:22:26 - SteamCommon\uplink\usersold\V3RC377I.tmp - 237
+21.12.2011 17:22:26 - SteamCommon\uplink\usersold\V3RC377I.usr - 237
+21.12.2011 22:45:12 - SteamCommon\uplink\userstmp\curagent.usr - 1679999
+
+Install Folder Dump:
+21.12.2011 16:22:04 - SteamCommon\uplink\changes.txt - 28751
+21.12.2011 16:22:14 - SteamCommon\uplink\data.dat - 34911
+21.12.2011 16:22:43 - SteamCommon\uplink\dbghelp.dll - 1038848
+21.12.2011 16:22:14 - SteamCommon\uplink\fonts.dat - 79490
+21.12.2011 16:22:24 - SteamCommon\uplink\graphics.dat - 5645148
+21.12.2011 16:22:09 - SteamCommon\uplink\loading.dat - 1722352
+21.12.2011 16:22:14 - SteamCommon\uplink\mfc80.dll - 1093632
+21.12.2011 16:22:12 - SteamCommon\uplink\Microsoft.VC80.CRT.manifest - 522
+21.12.2011 16:22:19 - SteamCommon\uplink\Microsoft.VC80.MFC.manifest - 550
+21.12.2011 16:22:10 - SteamCommon\uplink\msvcm80.dll - 479232
+21.12.2011 16:22:13 - SteamCommon\uplink\msvcp80.dll - 548864
+21.12.2011 16:22:09 - SteamCommon\uplink\msvcr80.dll - 626688
+21.12.2011 16:22:41 - SteamCommon\uplink\music.dat - 2271462
+21.12.2011 16:22:27 - SteamCommon\uplink\opengl32.dll.bak - 753808
+21.12.2011 16:22:15 - SteamCommon\uplink\patch.dat - 262020
+21.12.2011 16:22:19 - SteamCommon\uplink\patch2.dat - 5104
+21.12.2011 16:22:26 - SteamCommon\uplink\patch3.dat - 290014
+21.12.2011 16:22:15 - SteamCommon\uplink\readme.txt - 10928
+13.03.2004 01:23:14 - SteamCommon\uplink\Readme_Uconsole.txt - 1121
+21.12.2011 16:22:12 - SteamCommon\uplink\SDL.dll - 258048
+21.12.2011 16:22:18 - SteamCommon\uplink\SDL_mixer.dll - 241664
+02.08.2002 23:28:44 - SteamCommon\uplink\sounds.dat - 2659656
+21.12.2011 16:22:10 - SteamCommon\uplink\tcp4w32.dll - 56832
+21.12.2011 16:22:27 - SteamCommon\uplink\Uplink.exe - 1671168
+21.12.2011 16:22:22 - SteamCommon\uplink\uplink.ico - 6254
+21.12.2011 16:22:04 - SteamCommon\uplink\UplinkSupport.exe - 106496
+21.12.2011 16:22:16 - SteamCommon\uplink\UplinkSupport.ini - 479
+15.06.2003 10:17:30 - SteamCommon\uplink\data\agentaliases.txt - 2330
+27.03.2002 14:44:00 - SteamCommon\uplink\data\companya.txt - 1912
+15.06.2003 09:50:04 - SteamCommon\uplink\data\surnames.txt - 633572
+21.12.2011 16:22:23 - SteamCommon\uplink\docs\README-SDL.txt - 438
+21.12.2011 16:22:18 - SteamCommon\uplink\docs\README-SDL_mixer.txt - 266
+21.12.2011 16:22:13 - SteamCommon\uplink\docs\README-UplinkSupport.txt - 336
+21.12.2011 16:22:21 - SteamCommon\uplink\docs\SDL_Mixer.patch - 508
+21.12.2011 17:21:50 - SteamCommon\uplink\users\AdmiringWorm.tmp - 2438200
+21.12.2011 17:21:50 - SteamCommon\uplink\users\AdmiringWorm.usr - 2438200
+21.12.2011 22:45:25 - SteamCommon\uplink\users\debug.log - 141265
+21.12.2011 22:45:24 - SteamCommon\uplink\users\options - 3688
+21.12.2011 22:45:12 - SteamCommon\uplink\users\V3RC377I.tmp - 1679999
+21.12.2011 22:45:12 - SteamCommon\uplink\users\V3RC377I.usr - 1679999
+21.07.2011 18:28:16 - SteamCommon\uplink\usersold\TooManySecrets.tmp - 269
+21.07.2011 18:28:16 - SteamCommon\uplink\usersold\TooManySecrets.usr - 269
+21.12.2011 17:22:26 - SteamCommon\uplink\usersold\V3RC377I.tmp - 237
+21.12.2011 17:22:26 - SteamCommon\uplink\usersold\V3RC377I.usr - 237
+21.12.2011 22:45:12 - SteamCommon\uplink\userstmp\curagent.usr - 1679999
+
+UAC Enabled
+
+
+VirtualStore Folders:
+
+XML:
+<game name="Uplink" platform="Windows">
+   <title>Uplink</title>
+   <location_path environment_variable="steamcommon" path="uplink"/>
+   <save path="users" />
+   <save path="usersold"/>
+   <save path="userstmp"/>
+   <ignore path="users" filename="debug.log" />
+   <comment>
+     There is a setting file in the users folder which is required.
+     If the file is not present the profiles will not show up,
+     until the user has created a new profile.
+     The folder userstmp may not be needed, but I added it just in case.
+   </comment>
+   <contributer>AdmiringWorm</contributer>
+ </game>

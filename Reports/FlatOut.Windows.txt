@@ -1,0 +1,63 @@
+Game Name: Flatout
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Steam\steamapps\common\flatout
+
+Save Path:
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 12360
+Value:InstallLocation
+Data:c:\program files (x86)\steam\steamapps\common\flatout ultimate carnage
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 2990
+Value:InstallLocation
+Data:c:\program files (x86)\steam\steamapps\common\flatout2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 6220
+Value:InstallLocation
+Data:c:\program files (x86)\steam\steamapps\common\flatout
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\am00000000000000000000000000000000.dat - 336
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\am44495644495000000000000002a1045e.dat - 336
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\device.cfg - 164
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\options.cfg - 1937
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\options.sav - 8192
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\player001.sav - 8192
+
+Install Folder Dump:
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Bugbear.url - 53
+C:\Program Files (x86)\Steam\steamapps\common\flatout\common1.bfs - 512785455
+C:\Program Files (x86)\Steam\steamapps\common\flatout\common2.bfs - 636884134
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Empire Interactive.url - 60
+C:\Program Files (x86)\Steam\steamapps\common\flatout\europe.bfs - 4531
+C:\Program Files (x86)\Steam\steamapps\common\flatout\filesystem.ini - 84
+C:\Program Files (x86)\Steam\steamapps\common\flatout\flatout.exe - 1047040
+C:\Program Files (x86)\Steam\steamapps\common\flatout\FlatOut.url - 54
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Manual.pdf - 235145
+C:\Program Files (x86)\Steam\steamapps\common\flatout\testapp.exe - 1047040
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\am00000000000000000000000000000000.dat - 336
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\am44495644495000000000000002a1045e.dat - 336
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\device.cfg - 164
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\options.cfg - 1937
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\options.sav - 8192
+C:\Program Files (x86)\Steam\steamapps\common\flatout\Savegame\player001.sav - 8192
+
+UAC Disabled or not present
+

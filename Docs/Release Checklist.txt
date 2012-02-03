@@ -1,0 +1,23 @@
+Main Program
+	All Users Mode/Single User Mode
+		Backup Tab
+			Verify All Test Detections
+			Test Redetect Games Button
+			Test Backup Selection Button Label
+			Test Backup All Button
+				Test With Some/All Games Disabled
+			Test Context Menu
+				Test Create Custom Archive
+					Test With some/none files selected
+				Test Back This/These Up
+					Test with disabled games selected
+				Test Purge
+				Test Enable/Disable Backup
+			Test No Games Detected
+		Restore Tab
+		Settings Tab
+		About Tab
+	All Users Mode
+		Schedule Tab 
+Monitor
+Analyzer

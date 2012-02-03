@@ -1,0 +1,161 @@
+Game Name: Fallout 2
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Games\GOG.com\Fallout 2
+
+Save Path: 
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGFALLOUT2
+Value: EXE
+Data: C:\Games\GOG.com\Fallout 2\fallout2.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGFALLOUT2
+Value: PATH
+Data: C:\Games\GOG.com\Fallout 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGFALLOUT2
+Value: LAUNCHCOMMAND
+Data: C:\Games\GOG.com\Fallout 2\fallout2.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGFALLOUT2
+Value: SAVEGAMEFOLDER
+Data: C:\Games\GOG.com\Fallout 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fallout 2_is1
+Value: Inno Setup: App Path
+Data: C:\Games\GOG.com\Fallout 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fallout 2_is1
+Value: InstallLocation
+Data: C:\Games\GOG.com\Fallout 2\
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\IntelliType Pro\AppSpecific\fallout2.exe
+Value: Path
+Data: C:\Games\GOG.com\Fallout 2\fallout2.exe
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fallout 2\Fallout 2.lnk
+C:\Games\GOG.com\Fallout 2\fallout2.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fallout 2\Uninstall Fallout 2.lnk
+C:\Games\GOG.com\Fallout 2\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fallout 2\Documents\Manual.lnk
+C:\Games\GOG.com\Fallout 2\MANUAL.PDF
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fallout 2\Documents\Readme.lnk
+C:\Games\GOG.com\Fallout 2\readme.txt
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\ARTEMPLE.SAV - 12482
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\AUTOMAP.SAV - 1186
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\SAVE.DAT - 62374
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000062.pro - 111
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000079.pro - 144
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000089.pro - 126
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000097.pro - 123
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000107.pro - 115
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000136.pro - 134
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000152.pro - 148
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000160.pro - 122
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000161.pro - 138
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000162.pro - 124
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000163.pro - 99
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000164.pro - 105
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000165.pro - 107
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000191.pro - 126
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000195.pro - 135
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000196.pro - 101
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000197.pro - 109
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000265.pro - 135
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000342.pro - 134
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000379.pro - 127
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000380.pro - 131
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000381.pro - 146
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000384.pro - 121
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000471.pro - 138
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\items\00000455.pro - 59
+
+Install Folder Dump: 
+C:\Games\GOG.com\Fallout 2\critter.dat - 166951131
+C:\Games\GOG.com\Fallout 2\ddraw.dll - 90112
+C:\Games\GOG.com\Fallout 2\fallout2.cfg - 975
+C:\Games\GOG.com\Fallout 2\fallout2.exe - 1189888
+C:\Games\GOG.com\Fallout 2\fallout2.ico - 8478
+C:\Games\GOG.com\Fallout 2\gfw_high.ico - 113307
+C:\Games\GOG.com\Fallout 2\goggame.dll - 281088
+C:\Games\GOG.com\Fallout 2\innosetup_license.txt - 1471
+C:\Games\GOG.com\Fallout 2\MANUAL.PDF - 1630455
+C:\Games\GOG.com\Fallout 2\master.dat - 333177805
+C:\Games\GOG.com\Fallout 2\patch000.dat - 2355526
+C:\Games\GOG.com\Fallout 2\readme.txt - 22533
+C:\Games\GOG.com\Fallout 2\Support.ico - 62895
+C:\Games\GOG.com\Fallout 2\unins000.dat - 54145
+C:\Games\GOG.com\Fallout 2\unins000.exe - 2142547
+C:\Games\GOG.com\Fallout 2\unins000.ini - 70
+C:\Games\GOG.com\Fallout 2\data\worldmap.dat - 9516
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\ARTEMPLE.SAV - 12482
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\AUTOMAP.SAV - 1186
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\SAVE.DAT - 62374
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000062.pro - 111
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000079.pro - 144
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000089.pro - 126
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000097.pro - 123
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000107.pro - 115
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000136.pro - 134
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000152.pro - 148
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000160.pro - 122
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000161.pro - 138
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000162.pro - 124
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000163.pro - 99
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000164.pro - 105
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000165.pro - 107
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000191.pro - 126
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000195.pro - 135
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000196.pro - 101
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000197.pro - 109
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000265.pro - 135
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000342.pro - 134
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000379.pro - 127
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000380.pro - 131
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000381.pro - 146
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000384.pro - 121
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\critters\00000471.pro - 138
+C:\Games\GOG.com\Fallout 2\data\SAVEGAME\SLOT01\proto\items\00000455.pro - 59
+C:\Games\GOG.com\Fallout 2\sound\music\01hub.acm - 5271351
+C:\Games\GOG.com\Fallout 2\sound\music\03wrldmp.acm - 3939405
+C:\Games\GOG.com\Fallout 2\sound\music\05raider.acm - 4340887
+C:\Games\GOG.com\Fallout 2\sound\music\07desert.acm - 4273282
+C:\Games\GOG.com\Fallout 2\sound\music\08vats.acm - 4205084
+C:\Games\GOG.com\Fallout 2\sound\music\10labone.acm - 4682336
+C:\Games\GOG.com\Fallout 2\sound\music\12junktn.acm - 4422501
+C:\Games\GOG.com\Fallout 2\sound\music\13carvrn.acm - 5045692
+C:\Games\GOG.com\Fallout 2\sound\music\14necro.acm - 4464634
+C:\Games\GOG.com\Fallout 2\sound\music\16follow.acm - 3820901
+C:\Games\GOG.com\Fallout 2\sound\music\17arroyo.acm - 4112911
+C:\Games\GOG.com\Fallout 2\sound\music\18modoc.acm - 4166911
+C:\Games\GOG.com\Fallout 2\sound\music\19reno.acm - 4140849
+C:\Games\GOG.com\Fallout 2\sound\music\20car.acm - 1478843
+C:\Games\GOG.com\Fallout 2\sound\music\21sf.acm - 5099957
+C:\Games\GOG.com\Fallout 2\sound\music\22vcity.acm - 4349590
+C:\Games\GOG.com\Fallout 2\sound\music\23world.acm - 1948171
+C:\Games\GOG.com\Fallout 2\sound\music\24redd.acm - 4408303
+C:\Games\GOG.com\Fallout 2\sound\music\akiss.acm - 3956001
+C:\Games\GOG.com\Fallout 2\sound\music\wind1.acm - 136918
+C:\Games\GOG.com\Fallout 2\sound\music\wind2.acm - 120544
+
+UAC Enabled
+
+
+VirtualStore Folders: 

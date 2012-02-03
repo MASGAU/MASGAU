@@ -1,0 +1,283 @@
+Comments:
+  <game name="GhostReconAdvancedWarfighter2" platform="Windows">
+    <title>Ghost Recon: Advanced Warfighter 2</title>
+    <location_path environment_variable="localappdata" path="GRAW2" />
+    <save path="data" />
+    <save path="settings" />
+	<save filename="level_snapshot.dsl" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Ghost Recon: Advanced Warfighter 2
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2
+
+Save Path: 
+C:\Users\%USERNAME%\AppData\Local\GRAW2
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 13510
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\ghost recon advanced warfighter 2
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\UBISOFT\Ghost Recon Advanced Warfighter 2
+Value: InstalledPath
+Data: c:\program files (x86)\steam\steamapps\common\ghost recon advanced warfighter 2
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\AppData\Local\GRAW2\level_snapshot.dsl - 101159
+C:\Users\%USERNAME%\AppData\Local\GRAW2\data\settings\renderer_settings.xml - 2236
+C:\Users\%USERNAME%\AppData\Local\GRAW2\game_logs\30_05_2011\match_0000\server_log.txt - 3029
+C:\Users\%USERNAME%\AppData\Local\GRAW2\game_logs\30_05_2011\match_0001\server_log.txt - 869
+C:\Users\%USERNAME%\AppData\Local\GRAW2\game_logs\30_05_2011\match_0002\server_log.txt - 1060
+C:\Users\%USERNAME%\AppData\Local\GRAW2\settings\game_info.xml - 421
+C:\Users\%USERNAME%\AppData\Local\GRAW2\settings\game_info_coop.xml - 563
+C:\Users\%USERNAME%\AppData\Local\GRAW2\settings\profiles\graw2_mobeeuz\bindings.xml - 4794
+C:\Users\%USERNAME%\AppData\Local\GRAW2\settings\profiles\graw2_mobeeuz\profile_name.txt - 9
+C:\Users\%USERNAME%\AppData\Local\GRAW2\settings\profiles\graw2_mobeeuz\settings.xml - 868
+C:\Users\%USERNAME%\AppData\Local\GRAW2\settings\profiles\graw2_mobeeuz\savegames\mission01_check_point00_1.dsl - 174910
+C:\Users\%USERNAME%\AppData\Local\GRAW2\settings\profiles\graw2_mobeeuz\savegames\mission01_check_point01_1.dsl - 181655
+C:\Users\%USERNAME%\AppData\Local\GRAW2\settings\profiles\graw2_mobeeuz\savegames\mission01_check_point02_1.dsl - 149908
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\binkw32.dll - 347136
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\context-editor.xml - 1871
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\context-standalone.xml - 1522
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\context.xml - 1635
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\ghost_recon_advanced_warfighter_2_1.00_to_1.05.exe - 39785120
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\graw2.exe - 12389648
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\graw2.mcl - 648
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\graw2_dedicated.exe - 11638400
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\graw2_editor.bat - 40
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\graw2_Thumnail.jpg - 37949
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\installscript.vdf - 1872
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\libcurl.dll - 258048
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\nxcooking.dll - 386600
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\nxextensions.dll - 118784
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\OpenAL32.dll - 413696
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\openal32.dll.old - 110592
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\patch_history.txt - 7276
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\physxloader.dll - 71208
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\script_params.txt - 199
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\SI.bin - 1
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\um.dll - 163840
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\wrap_oal.dll - 266240
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\wrap_oal.dll.old - 413696
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\wxmsw270_vc_custom.dll - 5316608
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Bundles\patch.bundle - 120255207
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Bundles\quick.bundle - 3649882006
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\custom_levels\readme.txt - 36
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\bhp_temp.bik - 861336
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\ESRB.bik - 359728
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\graw2_trailer.bik - 45715608
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\grin_logo.bik - 7903256
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\Jim_Night_City.bik - 2322284
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\kea_loop_01.bik - 1285376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m01_video.bik - 9231576
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m02_video.bik - 9222120
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m03_video.bik - 959208
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m04_video.bik - 9231868
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m05_video.bik - 9235000
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m06_video.bik - 959208
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m07_video.bik - 9249068
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m08_video.bik - 9229496
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m09_video.bik - 959208
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\m10_video.bik - 9209528
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS01_01_Jos.bik - 5346228
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS02_03_Jos.bik - 4145392
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS02_08_Kea.bik - 3143752
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS03_02.1_LUP.bik - 6227456
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS03_02_1_LUP.bik - 6227456
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS04_05.2_Jim.bik - 1001620
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS04_05.A_Jim.bik - 876388
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS04_09_LAV.bik - 1043272
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS04_18_Jim.bik - 1402160
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS04_24_Jim.bik - 1339980
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS05_10_Jos.bik - 2823440
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS05_17_Jos.bik - 2944084
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS06_18.1_JOS.bik - 1461176
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS07_01.2_Kea.bik - 1865960
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS07_01_Kea.bik - 1285376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS07_02_1_KEA.bik - 1285376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS07_02_Bar.bik - 3162464
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS07_03_Kea.bik - 1285376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS07_04_Kea.bik - 1285376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS07_06_Kea.bik - 1285376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS07_07_Kea.bik - 1285376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS08_02_Kea.bik - 2737744
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS08_06_2_REE.bik - 3532672
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_01_BHP.bik - 2430572
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_03.1_Pla.bik - 452776
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_04.2_Pla.bik - 801288
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_04_Kea.bik - 2420364
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_06_Kea.bik - 1619124
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_07_Bar.bik - 2528768
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_08_PLA.bik - 847196
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_09_PLA.bik - 582916
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS09_11_REE.bik - 7513968
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS10_03_Der.bik - 918060
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS10_10A_Der.bik - 1116404
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS10_10C_Der.bik - 1439684
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS10_11_Jos.bik - 1769296
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS10_24_Der.bik - 1344216
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS10_34_DER.bik - 2653464
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS11_04_KEA.bik - 5060732
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS11_06_Bar.bik - 3029436
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS11_07_JOS.bik - 328352
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS11_09_KEA.bik - 3598152
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS12_01_4_Jos.bik - 1201940
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\nar-com_mis12_02_ree.bik - 3445560
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS12_04_Tnk.bik - 2178336
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS12_08.1_Brd.bik - 2128492
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\nar-com_mis12_11_2_zam.bik - 1996592
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS12_11_Jos.bik - 1689380
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\nar-com_mis12_11_ree.bik - 1415692
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS12_15_Jos.bik - 901552
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\nar-com_mis12_16_ci3.bik - 3585808
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_MIS12_28_F15.bik - 684412
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS00_01_1_REE.bik - 6156484
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS00_01_2_ZAM.bik - 4613908
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS01_01A_KEA.bik - 67116804
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS01_01_01A_KEA.bik - 11903812
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS02_01_JOS.bik - 2733728
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS02_02_Jos.bik - 7099900
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS02_03_REE.bik - 5491192
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS02_04_Lup.bik - 5849844
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS02_05_JOS.bik - 8613252
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\nar-com_sas03_01_1_lup.bik - 1128520
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\nar-com_sas03_01_2_dlb.bik - 3412432
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS03_01_REE.bik - 1329020
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\nar-com_sas04_01_2_zam.bik - 3211924
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS04_01_REE.bik - 2043368
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS04_04.2_KEA.bik - 6163600
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS05_01_REE.bik - 5512088
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS05_02_LUP.bik - 2950628
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS05_04_KEA.bik - 6287284
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS06_01.3_Jos.bik - 9414972
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS07_01_KEA.bik - 5720472
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS08_01_BAR.bik - 8272944
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS09_01_KEA.bik - 3478324
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS10_01A_KEA.bik - 12120212
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS11_01.1_KEA.bik - 1521564
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS11_01A_KEA.bik - 9114944
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS11_03A_Kea.bik - 2263620
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS12_01A_KEA.bik - 14869920
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS13_01_KEA.bik - 3278244
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR-COM_SAS13_04_JOS.bik - 6446048
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_DAY_APA_01.bik - 931512
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_DAY_APA_02.bik - 1624200
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_GAMEOVER_01_PBR_Kea.bik - 1685104
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_GAMEOVER_01_PCR_Kea.bik - 3907088
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_GAMEOVER_06_DAY_Jos.bik - 924964
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_GAMEOVER_MIS09_01_Kea.bik - 3826932
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_OUTBTA_01_DAY_Jos.bik - 1591816
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_OUTBTA_01_NIG_Jos.bik - 3814780
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_OUTBTA_02_DAY_Jos.bik - 1273768
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_OUTBTA_02_NIG_Jos.bik - 2940316
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_OUTBTA_04_DAY_Jos.bik - 1382072
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_OUTBTA_04_NIG_Jos.bik - 3172120
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\NAR_SYS_PBR_KEA_01.bik - 1874476
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\pickup.bik - 565200
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\SIGNATURE.BIK - 9429056
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\Steve_Calme1.bik - 2416600
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\Steve_Calme2.bik - 14499676
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\Steve_Stresse.bik - 4833176
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\movies\ubi_presents.bik - 942376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Data\settings\renderer_settings.xml - 461
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Apr2005_d3dx9_25_x64.cab - 1348242
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Apr2005_d3dx9_25_x86.cab - 1079850
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Aug2005_d3dx9_27_x64.cab - 1351430
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Aug2005_d3dx9_27_x86.cab - 1078532
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\BDA.cab - 703080
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\BDANT.cab - 1156363
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\BDAXP.cab - 976020
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Dec2005_d3dx9_28_x64.cab - 1358864
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Dec2005_d3dx9_28_x86.cab - 1080344
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Dec2005_MDX1_x86.cab - 916806
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Dec2005_MDX1_x86_Archive.cab - 3673932
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\DirectX.cab - 15493481
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\DSETUP.dll - 74448
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\dsetup32.dll - 2247888
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\dxdllreg_x86.cab - 41888
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\dxnt.cab - 13265040
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\DXSETUP.exe - 484560
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\dxupdate.cab - 81092
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Feb2005_d3dx9_24_x64.cab - 1248387
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Feb2005_d3dx9_24_x86.cab - 1014113
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Jun2005_d3dx9_26_x64.cab - 1336890
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Jun2005_d3dx9_26_x86.cab - 1065813
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Oct2005_xinput_x64.cab - 86925
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\DirectX\Oct2005_xinput_x86.cab - 46247
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\mods\readme.txt - 298
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\OpenAL\oalinst.exe - 782336
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\PhysX\PhysX_8.06.12_SystemSoftware.exe - 45455128
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\atlasgen\atlasgen.exe - 1191424
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\atlasgen\FreeImage.dll - 1048576
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\atlasgen\GRAW2_atlasgen.html - 23170
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\atlasgen\license-fi.txt - 17577
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\bundler\bundle.bat - 185
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\bundler\bundler.exe - 836096
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\bundler\mod_version.xmb - 98
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\bundler\mod_version.xml - 108
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\bundler\readme.txt - 2120
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\max8exporter\maxexporter.dle - 1654784
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\tutorials\GRAW2_Editor.pdf - 705275
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\tutorials\GRAW2_GameModes.pdf - 296088
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\public_tools\tutorials\GRAW2_Scripting.pdf - 548542
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\emea.txt - 0
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\help_server_settings.txt - 10140
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\hud_palett.xml - 5545
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\hud_palett_2.xml - 5819
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\hud_palett_dev.tga - 1130044
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\hud_palett_dev_2.tga - 1130044
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\hud_palett_help.psd - 334568
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\hud_visibility.xml - 1952
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Settings\MPID.txt - 76
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\config.log - 40076
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\detectionapi_rd.dll - 177680
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\detectionui_r.exe - 136720
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\directx8tests_rd.dll - 30736
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\directx9tests_rd.dll - 32272
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\directxtests_rd.tst - 13824
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\gameinterpreters_rd.intr - 57344
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\interpreter_local.ini - 4038
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\local.dll - 296464
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\MFC71.dll - 1060864
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\MFC71u.dll - 1053184
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\msvcp71.dll - 499712
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\msvcr71.dll - 348160
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Detection\systemtests_rd.tst - 208896
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\GRAW 2_PC_Manuel_BEN.V5.pdf - 6906514
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\GRAW 2_PC_Manuel_US.pdf - 2101329
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\GRAW2_PC_DE.pdf - 3959014
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\GRAW2_PC_FR.pdf - 3886716
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\GRAW2_PC_IT.pdf - 3798344
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\GRAW2_PC_SP.pdf - 3868893
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\GRAW2_PC_UK.pdf - 3883827
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\ReadmeCZ.txt - 13801
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\ReadmeENG.txt - 31756
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\ReadmeFRA.txt - 36322
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\ReadmeGER.txt - 36115
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\ReadmeITA.txt - 35088
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\ReadmePL.txt - 16324
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Manual\ReadmeSPA.txt - 36947
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\Support\Register\RegistrationReminder.exe - 874000
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter 2\tools\KeyHasher.exe - 249856
+
+UAC Disabled or not present
+

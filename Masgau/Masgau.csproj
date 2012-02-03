@@ -2,35 +2,20 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{12C8E695-52B9-4695-9144-CE0BAFF50AFD}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <ProjectGuid>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MASGAU</RootNamespace>
     <AssemblyName>MASGAU</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ReleaseVersion>0.9</ReleaseVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -38,256 +23,153 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>masgau.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>masgau.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>masgau.ico</ApplicationIcon>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'GTK|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\GTK</OutputPath>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\Task\taskForm.resx">
-      <Link>taskForm.resx</Link>
-      <DependentUpon>taskForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\Updater\programUpdateForm.resx">
-      <Link>programUpdateForm.resx</Link>
-      <DependentUpon>programUpdateForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="driveSelector.resx">
-      <DependentUpon>driveSelector.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="manualBackup.resx">
-      <DependentUpon>manualBackup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="masgauForm.resx">
-      <DependentUpon>masgauForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pathSelector.resx">
-      <DependentUpon>pathSelector.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="purgeSelector.resx">
-      <DependentUpon>purgeSelector.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="rootSelector.resx">
-      <DependentUpon>rootSelector.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="userSelector.resx">
-      <DependentUpon>userSelector.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\Task\taskForm.cs">
-      <Link>taskForm.cs</Link>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="..\Task\taskForm.designer.cs">
-      <Link>taskForm.designer.cs</Link>
-      <DependentUpon>taskForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="..\Updater\programUpdateForm.cs">
-      <Link>programUpdateForm.cs</Link>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="..\Updater\programUpdateForm.designer.cs">
-      <Link>programUpdateForm.designer.cs</Link>
-      <DependentUpon>programUpdateForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="..\Updater\updateHandler.cs">
-      <Link>updateHandler.cs</Link>
-    </Compile>
-    <Compile Include="ArchiveManager.cs" />
-    <Compile Include="driveSelector.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="driveSelector.designer.cs">
-      <DependentUpon>driveSelector.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GameData.cs" />
-    <Compile Include="gfwLiveHandler.cs" />
-    <Compile Include="invokes.cs" />
-    <Compile Include="ListViewItemComparer.cs" />
-    <Compile Include="manualBackup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="manualBackup.designer.cs">
-      <DependentUpon>manualBackup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="masgauForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="masgauForm.designer.cs">
-      <DependentUpon>masgauForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PathHandler.cs" />
-    <Compile Include="pathSelector.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="pathSelector.designer.cs">
-      <DependentUpon>pathSelector.cs</DependentUpon>
-    </Compile>
-    <Compile Include="playstationHandler.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="purgeSelector.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="purgeSelector.designer.cs">
-      <DependentUpon>purgeSelector.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RegistryHandler.cs" />
-    <Compile Include="RegistryManager.cs" />
-    <Compile Include="RestoreHandler.cs" />
-    <Compile Include="rootSelector.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="rootSelector.designer.cs">
-      <DependentUpon>rootSelector.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SecurityHandler.cs" />
-    <Compile Include="SettingsManager.cs" />
-    <Compile Include="SteamHandler.cs" />
-    <Compile Include="structs.cs" />
-    <Compile Include="SyncHandler.cs" />
-    <Compile Include="TaskHandler.cs" />
-    <Compile Include="userSelector.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="userSelector.designer.cs">
-      <DependentUpon>userSelector.cs</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.XML" />
-    <Reference Include="Windows7ProgressBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Dependencies\Windows7ProgressBar.dll</HintPath>
+    <Reference Include="Microsoft.CSharp">
     </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\Configs\config.xml">
-      <Link>config.xml</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Data\!test.xml">
-      <Link>!test.xml</Link>
-    </Content>
-    <Content Include="..\Data\games.xml">
-      <Link>games.xml</Link>
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="..\Data\mods.xml">
-      <Link>mods.xml</Link>
-    </Content>
-    <Content Include="..\Data\ps1.xml">
-      <Link>ps1.xml</Link>
-    </Content>
-    <Content Include="..\Data\ps2.xml">
-      <Link>ps2.xml</Link>
-    </Content>
-    <Content Include="..\Data\ps3.xml">
-      <Link>ps3.xml</Link>
-    </Content>
-    <Content Include="..\Data\psp.xml">
-      <Link>psp.xml</Link>
-    </Content>
-    <Content Include="..\Data\system.xml">
-      <Link>system.xml</Link>
-    </Content>
-    <Content Include="..\Dependencies\7-Zip\7z.dll">
-      <Link>7z.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Dependencies\7-Zip\7z.exe">
-      <Link>7z.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Monitor\bin\Debug\Monitor.exe">
-      <Link>Monitor.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Task\bin\Debug\Task.exe">
-      <Link>Task.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Updater\bin\Debug\Updater.exe">
-      <Link>Updater.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Updater\updates.xml">
-      <Link>updates.xml</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Compile Include="AIdentifier.cs" />
+    <Compile Include="AModelItem.cs" />
+    <Compile Include="AProgramHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Archive\ArchiveHandler.cs" />
+    <Compile Include="Archive\ArchiveID.cs" />
+    <Compile Include="Archive\ArchivesHandler.cs" />
+    <Compile Include="Archive\ArchiveType.cs" />
+    <Compile Include="BackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Collections\DictionaryList.cs" />
+    <Compile Include="Communication\CommunicationHandler.cs" />
+    <Compile Include="Communication\ICommunicationReceiver.cs" />
+    <Compile Include="Communication\Interface\InterfaceHandler.cs" />
+    <Compile Include="Communication\Message\MessageEventArgs.cs" />
+    <Compile Include="Communication\Message\MessageHandler.cs" />
+    <Compile Include="Communication\Message\MessageTypes.cs" />
+    <Compile Include="Communication\Progress\ProgressChangedEventArgs.cs" />
+    <Compile Include="Communication\Progress\ProgressHandler.cs" />
+    <Compile Include="Communication\Progress\ProgressState.cs" />
+    <Compile Include="Communication\Request\RequestEventArgs.cs" />
+    <Compile Include="Communication\Request\RequestHandler.cs" />
+    <Compile Include="Communication\Request\RequestReply.cs" />
+    <Compile Include="Communication\Request\RequestType.cs" />
+    <Compile Include="Communication\RespondableEventArg.cs" />
+    <Compile Include="Communication\ResponseType.cs" />
+    <Compile Include="Comparers\FileInfoComparer.cs" />
+    <Compile Include="Comparers\ReversableComparer.cs" />
+    <Compile Include="Config\ConfigFileHandler.cs" />
+    <Compile Include="Enums\Interface.cs" />
+    <Compile Include="Game\ContributerHandler.cs" />
+    <Compile Include="Game\GameID.cs" />
+    <Compile Include="Game\GamePlatform.cs" />
+    <Compile Include="Location\AFlashLocationHandler.cs" />
+    <Compile Include="Location\ALocationHandler.cs" />
+    <Compile Include="Location\APlaystationLocationHandler.cs" />
+    <Compile Include="Location\ASteamLocationHandler.cs" />
+    <Compile Include="Location\ASystemLocationHandler.cs" />
+    <Compile Include="Location\Enums\EnvironmentVariable.cs" />
+    <Compile Include="Location\Enums\PlatformVersion.cs" />
+    <Compile Include="Location\Enums\HandlerType.cs" />
+    <Compile Include="Location\Holders\ALocationHolder.cs" />
+    <Compile Include="Location\Holders\AltPathHolder.cs" />
+    <Compile Include="Location\Holders\DetectedFile.cs" />
+    <Compile Include="Location\Holders\DetectedFiles.cs" />
+    <Compile Include="Location\Holders\DetectedLocationPathHolder.cs" />
+    <Compile Include="Location\Holders\GenericHolder.cs" />
+    <Compile Include="Location\Holders\LocationGameHolder.cs" />
+    <Compile Include="Location\Holders\LocationPathHolder.cs" />
+    <Compile Include="Location\Holders\LocationRegistryHolder.cs" />
+    <Compile Include="Location\Holders\LocationShortcutHolder.cs" />
+    <Compile Include="Location\Holders\ManualLocationPathHolder.cs" />
+    <Compile Include="Location\Holders\PlayStationID.cs" />
+    <Compile Include="Location\IDs\ALocationID.cs" />
+    <Compile Include="Location\ILocationsHandler.cs" />
+    <Compile Include="Location\UserData.cs" />
+    <Compile Include="MException.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="OperatingSystem.cs" />
+    <Compile Include="PermissionsHelper.cs" />
+    <Compile Include="ProgramNames.cs" />
+    <Compile Include="Registry\RegistryHandler.cs" />
+    <Compile Include="Registry\RegistryKeyValue.cs" />
+    <Compile Include="Registry\RegRoot.cs" />
+    <Compile Include="Restore\RestoreResult.cs" />
+    <Compile Include="Config\VersioningUnit.cs" />
+    <Compile Include="EmailHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Game\GameCountry.cs" />
+    <Compile Include="Game\GameHandler.cs" />
+    <Compile Include="Game\GamesHandler.cs" />
+    <Compile Include="Game\GamesXMLHandler.cs" />
+    <Compile Include="Game\GameXMLHolder.cs" />
+    <Compile Include="Location\ALocationsHandler.cs" />
+    <Compile Include="Core.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Restore\ARestoreProgramHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Config\SettingsHandler.cs" />
+    <Compile Include="Backup\ABackupProgramHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Monitor\MonitorHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityHandler.cs" />
+    <Compile Include="StringID.cs" />
+    <Compile Include="structs.cs" />
+    <Compile Include="Task\DayOfWeek.cs" />
+    <Compile Include="Task\Frequency.cs" />
+    <Compile Include="Task\TaskHandler.cs" />
+    <Compile Include="Update\UpdateHandler.cs" />
+    <Compile Include="Update\UpdatesHandler.cs" />
+    <Compile Include="Update\UpdateVersion.cs" />
+    <None Include="gfwLiveHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="masgau.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\flag.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="masgau.ico" />
-    <None Include="..\Data\games.xsd">
-      <Link>games.xsd</Link>
-    </None>
-    <None Include="Resources\0.8.png" />
   </ItemGroup>
-  <ItemGroup>
-    <COMReference Include="IWshRuntimeLibrary">
-      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
-      <Visible>False</Visible>
-      <ProductName>Windows Installer 3.1</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>IF NOT EXIST "$(TargetDir)Data" MKDIR "$(TargetDir)Data"
-copy "$(SolutionDir)Data\*" "$(TargetDir)Data"</PostBuildEvent>
-  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

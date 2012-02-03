@@ -1,0 +1,96 @@
+Game Name: Axis & Allies
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files\Hasbro Interactive\Axis and Allies
+
+Save Path:
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Hasbro Interactive\Axis and Allies
+Value: InstallPath
+Data: C:\Program Files\Hasbro Interactive\Axis and Allies
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlay\Applications\Axis & Allies
+Value: Path
+Data: C:\Program Files\Hasbro Interactive\Axis and Allies
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlay\Applications\Axis & Allies
+Value: CurrentDirectory
+Data: C:\Program Files\Hasbro Interactive\Axis and Allies
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AxisAllies.exe
+Value: Path
+Data: C:\Program Files\Hasbro Interactive\Axis and Allies
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AxisAllies.exe
+Value:
+Data: C:\Program Files\Hasbro Interactive\Axis and Allies\AxisAllies.exe
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Axis & Allies\AA Helper.lnk
+C:\Program Files\Hasbro Interactive\Axis and Allies\AAHelper.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Axis & Allies\Axis & Allies.lnk
+C:\Program Files\Hasbro Interactive\Axis and Allies\AxisAllies.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Axis & Allies\IPC Editor & Corruption Fixer.lnk
+C:\Program Files\Hasbro Interactive\Axis and Allies\IPCEditor\AAEdit.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Axis & Allies\Odds Grapher Help.lnk
+C:\Program Files\Hasbro Interactive\Axis and Allies\OddsGrapher\AAOddsGrapher.hlp
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Axis & Allies\Odds Grapher.lnk
+C:\Program Files\Hasbro Interactive\Axis and Allies\OddsGrapher\AAOddsGrapher.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Axis & Allies\Starter Guide.lnk
+C:\Program Files\Hasbro Interactive\Axis and Allies\AAStarterGuide.chm
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Hasbro Interactive\Axis & Allies\Axis & Allies.lnk
+C:\Program Files\Hasbro Interactive\Axis and Allies\AxisAllies.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Hasbro Interactive\Axis & Allies\Readme File.lnk
+C:\Program Files\Hasbro Interactive\Axis and Allies\Readme.txt
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames\AutoSave.hst - 5202984
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames\AutoSave.sav - 132593
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames\Davids.hst - 4791452
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames\Davids.sav - 132593
+
+Install Folder Dump:
+C:\Program Files\Hasbro Interactive\Axis and Allies\aa2.dll - 401408
+C:\Program Files\Hasbro Interactive\Axis and Allies\AAHelper.exe - 461824
+C:\Program Files\Hasbro Interactive\Axis and Allies\AAStarterGuide.chm - 48650
+C:\Program Files\Hasbro Interactive\Axis and Allies\AxisAllies.exe - 466944
+C:\Program Files\Hasbro Interactive\Axis and Allies\Config.dat - 22
+C:\Program Files\Hasbro Interactive\Axis and Allies\Data.MGF - 5675905
+C:\Program Files\Hasbro Interactive\Axis and Allies\drawfix.dll - 8704
+C:\Program Files\Hasbro Interactive\Axis and Allies\drawfix_config.exe - 5120
+C:\Program Files\Hasbro Interactive\Axis and Allies\English.MGF - 49562
+C:\Program Files\Hasbro Interactive\Axis and Allies\Fonts.MGF - 670999
+C:\Program Files\Hasbro Interactive\Axis and Allies\INSTALL.LOG - 11116
+C:\Program Files\Hasbro Interactive\Axis and Allies\Maps.mgf - 14274970
+C:\Program Files\Hasbro Interactive\Axis and Allies\netstat.log - 2465
+C:\Program Files\Hasbro Interactive\Axis and Allies\Pics.mgf - 26307526
+C:\Program Files\Hasbro Interactive\Axis and Allies\Readme.txt - 4962
+C:\Program Files\Hasbro Interactive\Axis and Allies\Smackw32.dll - 94720
+C:\Program Files\Hasbro Interactive\Axis and Allies\Sounds.MGF - 332438
+C:\Program Files\Hasbro Interactive\Axis and Allies\Sprites.MGF - 1489426
+C:\Program Files\Hasbro Interactive\Axis and Allies\temphist.dat - 5202984
+C:\Program Files\Hasbro Interactive\Axis and Allies\Uninst.isu - 6561
+C:\Program Files\Hasbro Interactive\Axis and Allies\UNWISE.EXE - 148992
+C:\Program Files\Hasbro Interactive\Axis and Allies\IPCEditor\AAEdit.exe - 467456
+C:\Program Files\Hasbro Interactive\Axis and Allies\OddsGrapher\AAOddsGrapher.exe - 781312
+C:\Program Files\Hasbro Interactive\Axis and Allies\OddsGrapher\AAOddsGrapher.hlp - 26191
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames\AutoSave.hst - 5202984
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames\AutoSave.sav - 132593
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames\Davids.hst - 4791452
+C:\Program Files\Hasbro Interactive\Axis and Allies\SaveGames\Davids.sav - 132593
+
+UAC Disabled or not present

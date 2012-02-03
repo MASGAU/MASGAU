@@ -1,0 +1,416 @@
+Game Name: Port Royale
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files\GOG.com\Port Royale
+
+Save Path:
+C:\Program Files\GOG.com\Port Royale\Save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Ascaron\Port Royale
+Value: InstalledTo
+Data: C:\Program Files\GOG.com\Port Royale\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGPORTROYALE
+Value: EXE
+Data: C:\Program Files\GOG.com\Port Royale\PortRoyale.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGPORTROYALE
+Value: PATH
+Data: C:\Program Files\GOG.com\Port Royale\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGPORTROYALE
+Value: LAUNCHCOMMAND
+Data: C:\Program Files\GOG.com\Port Royale\PortRoyale.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGPORTROYALE
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files\GOG.com\Port Royale\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{03790056-B8C7-45CF-BD11-B00186FCD789}
+Value: ConfigApplicationPath
+Data: C:\Program Files\GOG.com\Port Royale\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{03790056-B8C7-45CF-BD11-B00186FCD789}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files\GOG.com\Port Royale\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1474111506-174181425-2251853152-1004\{579B826A-F3B3-45C7-B717-9B289F303192}
+Value: ConfigApplicationPath
+Data: C:\Program Files\GOG.com\Port Royale
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1474111506-174181425-2251853152-1004\{579B826A-F3B3-45C7-B717-9B289F303192}
+Value: AppExePath
+Data: C:\Program Files\GOG.com\Port Royale\PortRoyale.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Port Royale_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files\GOG.com\Port Royale
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Port Royale_is1
+Value: InstallLocation
+Data: C:\Program Files\GOG.com\Port Royale\
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Foxit Software\Foxit Reader\Recent File List
+Value: File1
+Data: C:\Program Files\GOG.com\Port Royale\Manual.pdf
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Port Royale\Port Royale.lnk
+C:\Program Files\GOG.com\Port Royale\PortRoyale.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Port Royale\Uninstall Port Royale.lnk
+C:\Program Files\GOG.com\Port Royale\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Port Royale\Documents\Manual.lnk
+C:\Program Files\GOG.com\Port Royale\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Port Royale\Documents\Map.lnk
+C:\Program Files\GOG.com\Port Royale\Map.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Port Royale\Documents\Readme.lnk
+C:\Program Files\GOG.com\Port Royale\Readme.txt
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files\GOG.com\Port Royale\Save\AutoSave_1.mrk - 338336
+C:\Program Files\GOG.com\Port Royale\Save\options.sav - 24
+
+Install Folder Dump:
+C:\Program Files\GOG.com\Port Royale\2D_ERR.2DL - 0
+C:\Program Files\GOG.com\Port Royale\2D_FULL.2DL - 222
+C:\Program Files\GOG.com\Port Royale\2D_NOT.2DL - 0
+C:\Program Files\GOG.com\Port Royale\2D_WARN.2DL - 222
+C:\Program Files\GOG.com\Port Royale\AIM.dll - 56320
+C:\Program Files\GOG.com\Port Royale\Aim20.dll - 205312
+C:\Program Files\GOG.com\Port Royale\Archiver.dll - 64512
+C:\Program Files\GOG.com\Port Royale\binkplay.exe - 120320
+C:\Program Files\GOG.com\Port Royale\CpuDetect.dll - 3584
+C:\Program Files\GOG.com\Port Royale\ExceptionDialog.exe - 17920
+C:\Program Files\GOG.com\Port Royale\game.ico - 4286
+C:\Program Files\GOG.com\Port Royale\game.ini - 250
+C:\Program Files\GOG.com\Port Royale\gfw_high.ico - 125126
+C:\Program Files\GOG.com\Port Royale\goggame.dll - 252416
+C:\Program Files\GOG.com\Port Royale\Ijl11.dll - 180224
+C:\Program Files\GOG.com\Port Royale\innosetup_license.txt - 1471
+C:\Program Files\GOG.com\Port Royale\Intro.bik - 86476436
+C:\Program Files\GOG.com\Port Royale\libsigc.dll - 286793
+C:\Program Files\GOG.com\Port Royale\Manual.pdf - 1895681
+C:\Program Files\GOG.com\Port Royale\Map.pdf - 816914
+C:\Program Files\GOG.com\Port Royale\mfc42.dll - 995383
+C:\Program Files\GOG.com\Port Royale\mp3dec.asi - 125952
+C:\Program Files\GOG.com\Port Royale\Mss32.dll - 351744
+C:\Program Files\GOG.com\Port Royale\msvcp60.dll - 401462
+C:\Program Files\GOG.com\Port Royale\MSVCP60D.DLL - 516173
+C:\Program Files\GOG.com\Port Royale\msvcrt.dll - 290869
+C:\Program Files\GOG.com\Port Royale\MSVCRTD.DLL - 434252
+C:\Program Files\GOG.com\Port Royale\nvlinker.dll - 114176
+C:\Program Files\GOG.com\Port Royale\PortRoyale.exe - 2699264
+C:\Program Files\GOG.com\Port Royale\pr_arcd0.cpr - 39695776
+C:\Program Files\GOG.com\Port Royale\pr_arcs0.cpr - 69506176
+C:\Program Files\GOG.com\Port Royale\pr_arcs1.cpr - 3431328
+C:\Program Files\GOG.com\Port Royale\pr_arct0.cpr - 131937152
+C:\Program Files\GOG.com\Port Royale\pr_arct1.cpr - 36238304
+C:\Program Files\GOG.com\Port Royale\Readme.txt - 3110
+C:\Program Files\GOG.com\Port Royale\SchnellTransfer.dll - 1351750
+C:\Program Files\GOG.com\Port Royale\sound.cp0 - 25374972
+C:\Program Files\GOG.com\Port Royale\stlport_vc645.dll - 774144
+C:\Program Files\GOG.com\Port Royale\support.txt - 827
+C:\Program Files\GOG.com\Port Royale\Trailer.bik - 5842816
+C:\Program Files\GOG.com\Port Royale\unins000.dat - 77045
+C:\Program Files\GOG.com\Port Royale\unins000.exe - 2142547
+C:\Program Files\GOG.com\Port Royale\unins000.ini - 74
+C:\Program Files\GOG.com\Port Royale\Walhalla.dll - 446464
+C:\Program Files\GOG.com\Port Royale\WalhallaExtension.dll - 237645
+C:\Program Files\GOG.com\Port Royale\WalParticleSystem.dll - 61952
+C:\Program Files\GOG.com\Port Royale\WalSks.dll - 32836
+C:\Program Files\GOG.com\Port Royale\WalType.dll - 278592
+C:\Program Files\GOG.com\Port Royale\Ascman\games.inf - 628
+C:\Program Files\GOG.com\Port Royale\Ascman\InternetClient.exe - 516096
+C:\Program Files\GOG.com\Port Royale\Ascman\local.inf - 83
+C:\Program Files\GOG.com\Port Royale\Ascman\texts.inf - 2945
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\ascaron.gif - 11508
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_001.gif - 14377
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_002.gif - 14136
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_003.gif - 10841
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_004.gif - 8765
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_005.gif - 12484
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_006.gif - 14253
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_007.gif - 13829
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_008.gif - 12266
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_009.gif - 7733
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_010.gif - 11323
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Ascaron_Dragon_011.gif - 13926
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\ascman.skn - 6694
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\ascman_neu.skn.txt - 6731
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\chatlock.JPG - 1572
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\chatlock_h.JPG - 1581
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\chatlock_p.JPG - 1554
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\chatunlock.JPG - 1568
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\chatunlock_h.JPG - 1546
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\chatunlock_p.JPG - 1542
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\click.wav - 3180
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\close.wav - 4500
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Down.JPG - 1668
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Down_h.JPG - 1733
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Down_p.JPG - 1620
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\editback.gif - 848
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hc.GIF - 831
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hcdn.GIF - 833
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hcmo.GIF - 833
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hl.gif - 839
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hldn.GIF - 843
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hlmo.GIF - 843
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hr.GIF - 842
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hrdn.GIF - 843
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\hrmo.GIF - 843
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\listback.gif - 857
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Logout_Button.gif - 5134
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Logout_Button_h.gif - 4990
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Logout_Button_p.gif - 4849
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\LO_Button_a.JPG - 5655
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\LO_Button_b.JPG - 3530
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\LO_Button_H_a.JPG - 5811
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\LO_Button_H_b.JPG - 3617
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\LO_Button_P_a.JPG - 5478
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\LO_Button_P_b.JPG - 3463
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\middle_bottom.GIF - 850
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\middle_center.GIF - 843
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\middle_top.GIF - 845
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\ML_Button.JPG - 7858
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\ML_Button_h.JPG - 8253
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\ML_Button_P.JPG - 7496
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MM_Button.JPG - 7512
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MM_Button_H.JPG - 7906
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MM_Button_P.JPG - 7052
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MO_Button_a.JPG - 5637
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MO_Button_b.JPG - 4245
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MO_Button_H_a.JPG - 5737
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MO_Button_H_b.JPG - 4307
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MO_Button_P_a.JPG - 5487
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MO_Button_P_b.JPG - 4185
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MR_Button.JPG - 8303
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MR_Button_h.JPG - 8691
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\MR_Button_P.JPG - 7798
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\privatemessage.wav - 13250
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\RO_Button_a.JPG - 6104
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\RO_Button_b.JPG - 4801
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\RO_Button_H_a.JPG - 6197
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\RO_Button_H_b.JPG - 4854
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\RO_Button_P_a.JPG - 5940
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\RO_Button_P_b.JPG - 4724
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\Screen.jpg - 165513
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\UP.JPG - 1684
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\UP_h.JPG - 1748
+C:\Program Files\GOG.com\Port Royale\Ascman\skins\Ascman\UP_P.JPG - 1633
+C:\Program Files\GOG.com\Port Royale\data_p3pat\ball.aim - 1109
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Balls.bsd - 1324
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Ball_S.3do - 6472
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Brett_S.3do - 2124
+C:\Program Files\GOG.com\Port Royale\data_p3pat\CannonSmoke.bsd - 1760
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Deck.aim - 477
+C:\Program Files\GOG.com\Port Royale\data_p3pat\explosion1.aim - 6792
+C:\Program Files\GOG.com\Port Royale\data_p3pat\explosion2.aim - 6792
+C:\Program Files\GOG.com\Port Royale\data_p3pat\explosionshade1.aim - 161
+C:\Program Files\GOG.com\Port Royale\data_p3pat\explosionshade2.aim - 133
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Fahrwasser_Dummy.aim - 1631
+C:\Program Files\GOG.com\Port Royale\data_p3pat\fireshade.aim - 165
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Fitz.aim - 4157
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Fitz2.aim - 4265
+C:\Program Files\GOG.com\Port Royale\data_p3pat\gischt.aim - 1157
+C:\Program Files\GOG.com\Port Royale\data_p3pat\gischt2.aim - 2641
+C:\Program Files\GOG.com\Port Royale\data_p3pat\gischtaddshade.aim - 181
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Holz1.aim - 2191
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Holz2.aim - 2991
+C:\Program Files\GOG.com\Port Royale\data_p3pat\KanonenRauch03.aim - 21101
+C:\Program Files\GOG.com\Port Royale\data_p3pat\KanonenRauch04.aim - 12657
+C:\Program Files\GOG.com\Port Royale\data_p3pat\KanonenRauch05.aim - 20808
+C:\Program Files\GOG.com\Port Royale\data_p3pat\MiniBrocken_S.3do - 556
+C:\Program Files\GOG.com\Port Royale\data_p3pat\normal.bsd - 356
+C:\Program Files\GOG.com\Port Royale\data_p3pat\RingeAdd.bsd - 1848
+C:\Program Files\GOG.com\Port Royale\data_p3pat\RingeMul.bsd - 1848
+C:\Program Files\GOG.com\Port Royale\data_p3pat\ringemulshade.aim - 141
+C:\Program Files\GOG.com\Port Royale\data_p3pat\ringlie_mul.aim - 1225
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Rumpf.aim - 617
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Segel.aim - 397
+C:\Program Files\GOG.com\Port Royale\data_p3pat\setup.ins - 52
+C:\Program Files\GOG.com\Port Royale\data_p3pat\shade.aim - 157
+C:\Program Files\GOG.com\Port Royale\data_p3pat\splash.aim - 1077
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Splash.bsd - 1848
+C:\Program Files\GOG.com\Port Royale\data_p3pat\splashpage.aim - 2709
+C:\Program Files\GOG.com\Port Royale\data_p3pat\splashpage2.aim - 29444
+C:\Program Files\GOG.com\Port Royale\data_p3pat\splashpage3.aim - 20209
+C:\Program Files\GOG.com\Port Royale\data_p3pat\splashshade.aim - 149
+C:\Program Files\GOG.com\Port Royale\data_p3pat\splashshade2.aim - 117
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Splitter1.3do - 1372
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Splitter2.3do - 1372
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Splitter3.3do - 1372
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Splitter4.3do - 3208
+C:\Program Files\GOG.com\Port Royale\data_p3pat\test.aim - 753
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Torus_S.3do - 3648
+C:\Program Files\GOG.com\Port Royale\data_p3pat\wreckage.aim - 22297
+C:\Program Files\GOG.com\Port Royale\data_p3pat\Wreckage.bsd - 1804
+C:\Program Files\GOG.com\Port Royale\data_p3pat\wreckageshade.aim - 117
+C:\Program Files\GOG.com\Port Royale\Logos\Logo0.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo1.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo10.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo11.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo12.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo13.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo14.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo15.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo16.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo17.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo18.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo19.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo2.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo20.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo21.bmp - 12342
+C:\Program Files\GOG.com\Port Royale\Logos\Logo3.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo4.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo5.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo6.bmp - 5176
+C:\Program Files\GOG.com\Port Royale\Logos\Logo7.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo8.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Logos\Logo9.bmp - 12344
+C:\Program Files\GOG.com\Port Royale\Music\music.ini - 13282
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\01_Schiffsjunge.mp3 - 208460
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\02_Leichtmatrose.mp3 - 193831
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\03_Matrose.mp3 - 193831
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\04_Seemann.mp3 - 216819
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\05_Steuermann.mp3 - 215983
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\06_Navigator.mp3 - 248166
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\07_Kapitaen.mp3 - 220163
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\08_Admiral.mp3 - 220163
+C:\Program Files\GOG.com\Port Royale\Music\AufstiegsVideos\09_Herrscher.mp3 - 258197
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Angriff_Landseite.mp3 - 262632
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Arbeiter-fehlen.mp3 - 91431
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Attackevonsee.mp3 - 109821
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Entdeckung-Goldfund.mp3 - 98119
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Gebaeude-wird-fertig.mp3 - 82654
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Geb?ude-wird-fertig.mp3 - 82654
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Goldfund.mp3 - 98119
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Gouverneur.mp3 - 512886
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Handelsroute_unterbrochen.mp3 - 91849
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Hochzeit.mp3 - 104071
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Mission-erfuellt.mp3 - 129883
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Mission-fehlgeschlagen.mp3 - 98119
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Pirat-schl?gt-zu.mp3 - 106060
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Pirat.mp3 - 106060
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Rohstoffe_fehlen.mp3 - 108150
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Schiff-gesunken.mp3 - 129883
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Seeschlacht-beginnt.mp3 - 65936
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Seuche.mp3 - 104806
+C:\Program Files\GOG.com\Port Royale\Music\Ereignisse\Stadt_wird_angegriffen.mp3 - 98119
+C:\Program Files\GOG.com\Port Royale\Music\Gebaeude\gouverneur.mp3 - 808412
+C:\Program Files\GOG.com\Port Royale\Music\Gebaeude\kirche.mp3 - 1196862
+C:\Program Files\GOG.com\Port Royale\Music\Gebaeude\kirche2.mp3 - 1194644
+C:\Program Files\GOG.com\Port Royale\Music\Gebaeude\kirche_ragga.mp3 - 261250
+C:\Program Files\GOG.com\Port Royale\Music\Gebaeude\kneipe.mp3 - 1582966
+C:\Program Files\GOG.com\Port Royale\Music\Gebaeude\lager.mp3 - 629508
+C:\Program Files\GOG.com\Port Royale\Music\Gebaeude\markt.mp3 - 2299836
+C:\Program Files\GOG.com\Port Royale\Music\Gebaeude\werft.mp3 - 623656
+C:\Program Files\GOG.com\Port Royale\Music\Mainmenu\Menue.mp3 - 3986466
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte1.mp3 - 480282
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte10.mp3 - 1642322
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte2.mp3 - 838508
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte3.mp3 - 865260
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte4.mp3 - 1551198
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte5-spanien.mp3 - 1254836
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte5.mp3 - 1254836
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte6.mp3 - 1295382
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte7-spanien.mp3 - 517484
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte7.mp3 - 1642322
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte8.mp3 - 1379818
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Seekarte9.mp3 - 1084292
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Atmo\Seeatmo_sommer-lang.mp3 - 4935326
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Atmo\Seeatmo_sommer.mp3 - 1012396
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Atmo\Seeatmo_winter.mp3 - 1174580
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Jingle\Jingle1.mp3 - 265720
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Jingle\Jingle2.mp3 - 159141
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Jingle\Jingle3.mp3 - 179203
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Jingle\Jingle4.mp3 - 214852
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Jingle\Jingle5.mp3 - 167200
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Jingle\Jingle6.mp3 - 130834
+C:\Program Files\GOG.com\Port Royale\Music\Seekarte\Jingle\Jingle7.mp3 - 418000
+C:\Program Files\GOG.com\Port Royale\Music\Seeschlacht\Seeschlacht1.mp3 - 1172490
+C:\Program Files\GOG.com\Port Royale\Music\Seeschlacht\Seeschlacht2.mp3 - 1185030
+C:\Program Files\GOG.com\Port Royale\Music\Seeschlacht\Seeschlacht3.mp3 - 2482920
+C:\Program Files\GOG.com\Port Royale\Music\Seeschlacht\Atmo\SeeschlachtAtmo.mp3 - 1040402
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Atmo\Stadtatmo_sommer.mp3 - 1253164
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Atmo\Stadtatmo_sommer_lang.mp3 - 6050968
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Atmo\Stadtatmo_winter.mp3 - 933394
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Atmo\Stadtatmo_winter_lang.mp3 - 5456572
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\England\England1.mp3 - 1024100
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\England\England2-see.mp3 - 1551198
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\England\England3.mp3 - 1244804
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\England\England4.mp3 - 1149500
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\England\England5-see.mp3 - 1175834
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\England\England6.mp3 - 953876
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\England\England7.mp3 - 814682
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\England\England8.mp3 - 736098
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Frankreich\Frankreich1.mp3 - 801306
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Frankreich\Frankreich2.mp3 - 1602612
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Frankreich\Frankreich3.mp3 - 913330
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Frankreich\Frankreich4.mp3 - 1037894
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Frankreich\Frankreich5.mp3 - 667128
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Frankreich\Frankreich6.mp3 - 961400
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Frankreich\Frankreich7.mp3 - 700150
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Frankreich\Frankreich8.mp3 - 2176526
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Holland\Holland1-see.mp3 - 978538
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Holland\Holland2-see.mp3 - 1262360
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Holland\Holland3.mp3 - 1293710
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Holland\Holland4.mp3 - 768702
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Holland\Holland5.mp3 - 1097668
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Holland\Holland6.mp3 - 512886
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Holland\Holland7-see.mp3 - 1071334
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Holland\Holland8.mp3 - 722304
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle1.mp3 - 75967
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle10.mp3 - 259996
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle2.mp3 - 226432
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle3.mp3 - 238553
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle4.mp3 - 125286
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle5.mp3 - 226432
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle6.mp3 - 226432
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle7.mp3 - 155379
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle8.mp3 - 246912
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Jingle\Jingle9.mp3 - 321024
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Spanien\Spanien1.mp3 - 460218
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Spanien\Spanien2.mp3 - 723140
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Spanien\Spanien3.mp3 - 1535314
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Spanien\Spanien4.mp3 - 1295382
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Spanien\Spanien5-see.mp3 - 517484
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Spanien\Spanien6.mp3 - 774972
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Spanien\Spanien7.mp3 - 837254
+C:\Program Files\GOG.com\Port Royale\Music\Stadt\Spanien\Spanien8-see.mp3 - 1757272
+C:\Program Files\GOG.com\Port Royale\Run\L0K1.aim - 39521
+C:\Program Files\GOG.com\Port Royale\Run\L0K2.aim - 125888
+C:\Program Files\GOG.com\Port Royale\Run\L0K3.aim - 198616
+C:\Program Files\GOG.com\Port Royale\Run\L0K4.aim - 208176
+C:\Program Files\GOG.com\Port Royale\Run\L1K1.aim - 8352
+C:\Program Files\GOG.com\Port Royale\Run\L1K2.aim - 7684
+C:\Program Files\GOG.com\Port Royale\Run\L1K3.aim - 8308
+C:\Program Files\GOG.com\Port Royale\Run\L1K4.aim - 8232
+C:\Program Files\GOG.com\Port Royale\Run\L3K1.aim - 2491
+C:\Program Files\GOG.com\Port Royale\Run\L3K2.aim - 2291
+C:\Program Files\GOG.com\Port Royale\Run\L3K3.aim - 2423
+C:\Program Files\GOG.com\Port Royale\Run\L3K4.aim - 2411
+C:\Program Files\GOG.com\Port Royale\Run\PiratL0.aim - 32353
+C:\Program Files\GOG.com\Port Royale\Run\PiratL1.aim - 9852
+C:\Program Files\GOG.com\Port Royale\Run\PiratL3.aim - 2883
+C:\Program Files\GOG.com\Port Royale\Run\Player0L0.aim - 33529
+C:\Program Files\GOG.com\Port Royale\Run\Player0L1.aim - 10184
+C:\Program Files\GOG.com\Port Royale\Run\SegelL0.aim - 31461
+C:\Program Files\GOG.com\Port Royale\Run\SegelL1.aim - 9612
+C:\Program Files\GOG.com\Port Royale\Run\SegelL3.aim - 2883
+C:\Program Files\GOG.com\Port Royale\Save\AutoSave_1.mrk - 338336
+C:\Program Files\GOG.com\Port Royale\Save\options.sav - 24
+
+UAC Disabled or not present

@@ -1,0 +1,111 @@
+Game Name: Solar 2
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+SteamCommon\solar 2
+
+Save Path: 
+UserDocuments\SavedGames\Solar2
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\0AA7CFB2C445A3E47869763FEB56B59E\SourceList\Net
+Value: 1
+Data: SteamCommon\solar 2\Redists
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\0AA7CFB2C445A3E47869763FEB56B59E\InstallProperties
+Value: InstallSource
+Data: SteamCommon\solar 2\Redists
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 97000
+Value: InstallLocation
+Data: SteamCommon\solar 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{2BFC7AA0-544C-4E3A-8796-67F3BE655BE9}
+Value: InstallSource
+Data: SteamCommon\solar 2\Redists
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+15/07/2011 07:39:03 - UserDocuments\SavedGames\Solar2\solar2_save\AllPlayers\solar_save_game - 112081
+
+Install Folder Dump: 
+02/07/2011 23:17:48 - SteamCommon\solar 2\EasyStorage.dll - 31232
+02/07/2011 23:16:33 - SteamCommon\solar 2\installscript.vdf - 371
+16/11/2011 22:51:12 - SteamCommon\solar 2\Power.dll - 129536
+02/07/2011 23:19:54 - SteamCommon\solar 2\PowerRuntime.dll - 7168
+16/11/2011 22:51:10 - SteamCommon\solar 2\Solar2.exe - 483840
+02/07/2011 23:17:21 - SteamCommon\solar 2\Solar2Runtime.dll - 4608
+02/07/2011 23:19:51 - SteamCommon\solar 2\SpriteSheetRuntime.dll - 6656
+16/11/2011 22:51:11 - SteamCommon\solar 2\SteamManaged.dll - 60928
+02/07/2011 23:17:23 - SteamCommon\solar 2\steam_api.dll - 124712
+02/07/2011 23:17:26 - SteamCommon\solar 2\steam_appid.txt - 5
+26/10/2011 09:28:34 - SteamCommon\solar 2\Languages\strung.en.txt - 43714
+02/07/2011 23:17:42 - SteamCommon\solar 2\Redists\dotNetFx40_Client_setup.exe - 887896
+02/07/2011 23:22:04 - SteamCommon\solar 2\Redists\xnafx40_redist.msi - 7054336
+02/07/2011 23:18:04 - SteamCommon\solar 2\Solar2Content\Blur.xnb - 562
+02/07/2011 23:17:15 - SteamCommon\solar 2\Solar2Content\NebulaShader.xnb - 586
+02/07/2011 23:18:53 - SteamCommon\solar 2\Solar2Content\nebula_full.xnb - 1052602
+02/07/2011 23:18:59 - SteamCommon\solar 2\Solar2Content\splash_screen.xnb - 3528230
+02/07/2011 23:17:04 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\audio.xnb - 844
+02/07/2011 23:20:32 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Adrift.xnb - 5013817
+02/07/2011 23:19:33 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Asteroid - Snag 1.xnb - 493937
+02/07/2011 23:19:02 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Asteroid Absorbed_20.xnb - 63893
+02/07/2011 23:16:53 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Black Hole loop.xnb - 605917
+02/07/2011 23:19:41 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Explosion 1.xnb - 353693
+02/07/2011 23:17:13 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Explosion 2.xnb - 199101
+02/07/2011 23:16:57 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Explosion Star.xnb - 414329
+02/07/2011 23:21:03 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Impact - Asteroid Asteroid.xnb - 194617
+02/07/2011 23:20:41 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Kitty.xnb - 115885
+02/07/2011 23:17:34 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Missile Launch.xnb - 151305
+02/07/2011 23:20:54 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Missle Explode.xnb - 238197
+02/07/2011 23:16:48 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Planet - Snag 1.xnb - 508365
+02/07/2011 23:18:31 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Planet Absorbed_6.xnb - 111361
+02/07/2011 23:20:38 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Player Star Top Speed.xnb - 607677
+02/07/2011 23:19:30 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Shields down.xnb - 71593
+02/07/2011 23:20:28 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Shields Up.xnb - 133689
+02/07/2011 23:20:45 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Ship Deploy.xnb - 151305
+02/07/2011 23:19:27 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Ship Explod.xnb - 155741
+02/07/2011 23:18:56 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Ship Shoot.xnb - 33177
+02/07/2011 23:20:14 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Transform - Asteroid to Planet.xnb - 423969
+02/07/2011 23:18:51 - SteamCommon\solar 2\Solar2Content\AudioSoundEffect\effects\Turret Deploy.xnb - 302505
+23/10/2011 01:19:53 - SteamCommon\solar 2\Solar2Content\AudioXACT\solar2audio.xgs - 871
+23/10/2011 01:19:53 - SteamCommon\solar 2\Solar2Content\AudioXACT\Solar2Music.xsb - 779
+23/10/2011 01:20:17 - SteamCommon\solar 2\Solar2Content\AudioXACT\Solar2MusicWaves.xwb - 21699624
+23/10/2011 01:19:54 - SteamCommon\solar 2\Solar2Content\AudioXACT\Solar2Sounds.xsb - 2230
+23/10/2011 01:19:54 - SteamCommon\solar 2\Solar2Content\AudioXACT\Solar2SoundWaves.xwb - 349408
+02/07/2011 23:19:59 - SteamCommon\solar 2\Solar2Content\Backgrounds\backgrounds.xnb - 100754
+02/07/2011 23:17:57 - SteamCommon\solar 2\Solar2Content\Cutscenes\cutscene1.xnb - 268358
+02/07/2011 23:20:17 - SteamCommon\solar 2\Solar2Content\Cutscenes\cutscene2.xnb - 249910
+02/07/2011 23:20:47 - SteamCommon\solar 2\Solar2Content\Cutscenes\cutscene_animation.xnb - 2486
+02/07/2011 23:16:41 - SteamCommon\solar 2\Solar2Content\Fonts\Venus_10.xnb - 19580
+02/07/2011 23:19:37 - SteamCommon\solar 2\Solar2Content\Fonts\Venus_12.xnb - 22236
+02/07/2011 23:18:36 - SteamCommon\solar 2\Solar2Content\Fonts\Venus_14.xnb - 34094
+02/07/2011 23:17:38 - SteamCommon\solar 2\Solar2Content\Fonts\Venus_30.xnb - 72006
+02/07/2011 23:18:12 - SteamCommon\solar 2\Solar2Content\Gameplay\gameplay.xnb - 1174774
+23/10/2011 01:19:54 - SteamCommon\solar 2\Solar2Content\Menus\menus.xnb - 344232
+02/07/2011 23:18:14 - SteamCommon\solar 2\Solar2Content\Particles\ai_bullet.xnb - 211
+02/07/2011 23:18:16 - SteamCommon\solar 2\Solar2Content\Particles\body_dust.xnb - 1396
+02/07/2011 23:16:39 - SteamCommon\solar 2\Solar2Content\Particles\explosion_particle.xnb - 1426
+02/07/2011 23:21:06 - SteamCommon\solar 2\Solar2Content\Particles\fragment.xnb - 474
+02/07/2011 23:17:52 - SteamCommon\solar 2\Solar2Content\Particles\ship_electrics.xnb - 6790
+02/07/2011 23:19:35 - SteamCommon\solar 2\Solar2Content\Particles\ship_smoke.xnb - 1770
+02/07/2011 23:16:44 - SteamCommon\solar 2\Solar2Content\Particles\ship_spark.xnb - 1774
+02/07/2011 23:19:56 - SteamCommon\solar 2\Solar2Content\PowerAssets\debugFont.xnb - 4958
+02/07/2011 23:20:21 - SteamCommon\solar 2\Solar2Content\PowerAssets\debugGameFont.xnb - 4960
+02/07/2011 23:18:42 - SteamCommon\solar 2\Solar2Content\PowerAssets\ParticleEffect.xnb - 1526
+
+UAC Enabled
+
+
+VirtualStore Folders: 

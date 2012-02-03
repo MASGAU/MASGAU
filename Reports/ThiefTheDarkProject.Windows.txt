@@ -1,0 +1,129 @@
+Game Name: Thief: The Dark Project
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Games\Thief
+
+Save Path: 
+C:\Games\Thief\SAVES
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\thief.exe
+Value: Path
+Data: C:\games\Thief
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\thief.exe
+Value: 
+Data: C:\games\Thief\thief.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\thief.exe
+Value: Path
+Data: C:\games\Thief
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\thief.exe
+Value: 
+Data: C:\games\Thief\thief.exe
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Thief\Thief.lnk
+C:\Games\Thief\Thief.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Thief\Web Sites\Eidos Interactive.lnk
+C:\Games\Thief\EIDOS.URL
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Thief\Web Sites\Eidos Online Store.lnk
+C:\Games\Thief\EidosStore.URL
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Thief\Web Sites\Eidos Tech Support.lnk
+C:\Games\Thief\ETS.URL
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Thief\Web Sites\Looking Glass Studios.lnk
+C:\Games\Thief\LGT.URL
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Thief\Web Sites\Online Registration.lnk
+C:\Games\Thief\REGISTER.URL
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Games\Thief\SAVES\CFG0000.BND - 2200
+C:\Games\Thief\SAVES\CFG0001.BND - 2043
+C:\Games\Thief\SAVES\CFG0002.BND - 2207
+
+Install Folder Dump: 
+C:\Games\Thief\BITMAP.CRF - 237177
+C:\Games\Thief\BOOKS.CRF - 1622538
+C:\Games\Thief\CAM.CFG - 381
+C:\Games\Thief\DARK.BND - 2350
+C:\Games\Thief\DARK.CFG - 4258
+C:\Games\Thief\DARK.GAM - 889398
+C:\Games\Thief\DEFAULT.CRF - 1361
+C:\Games\Thief\EDITOR.CRF - 2247
+C:\Games\Thief\EDITOR.RES - 312076
+C:\Games\Thief\EIDOS.URL - 87
+C:\Games\Thief\EidosStore.URL - 151
+C:\Games\Thief\ETS.URL - 112
+C:\Games\Thief\FAM.CRF - 8422636
+C:\Games\Thief\gen.osm - 1059776
+C:\Games\Thief\ILIST.F - 1387
+C:\Games\Thief\ILIST.M - 779
+C:\Games\Thief\ILIST.T - 801
+C:\Games\Thief\install.cfg - 408
+C:\Games\Thief\INSTALL.LOG - 2945
+C:\Games\Thief\INTRFACE.CRF - 9125996
+C:\Games\Thief\LGT.URL - 58
+C:\Games\Thief\LGVID.AX - 316928
+C:\Games\Thief\MESH.CRF - 5768039
+C:\Games\Thief\miss01.osm - 1267616
+C:\Games\Thief\miss02.osm - 1092436
+C:\Games\Thief\miss03.osm - 1228376
+C:\Games\Thief\miss04.osm - 1106552
+C:\Games\Thief\miss05.osm - 1241668
+C:\Games\Thief\miss06.osm - 1096752
+C:\Games\Thief\MISS07.OSM - 1115160
+C:\Games\Thief\miss09.osm - 1111212
+C:\Games\Thief\MISS1.MIS - 2237603
+C:\Games\Thief\MISS10.MIS - 6009258
+C:\Games\Thief\miss10.osm - 1140220
+C:\Games\Thief\MISS11.MIS - 6762213
+C:\Games\Thief\miss11.osm - 1267600
+C:\Games\Thief\MISS12.MIS - 6659687
+C:\Games\Thief\miss12.osm - 1091412
+C:\Games\Thief\MISS13.MIS - 9708385
+C:\Games\Thief\miss13.osm - 1184060
+C:\Games\Thief\MISS14.MIS - 6909238
+C:\Games\Thief\miss14.osm - 1159956
+C:\Games\Thief\MISS2.MIS - 9854543
+C:\Games\Thief\MISS3.MIS - 9636734
+C:\Games\Thief\MISS4.MIS - 8596606
+C:\Games\Thief\MISS5.MIS - 10724399
+C:\Games\Thief\MISS6.MIS - 8859728
+C:\Games\Thief\MISS7.MIS - 10516212
+C:\Games\Thief\MISS9.MIS - 10453540
+C:\Games\Thief\MOTIONDB.BIN - 227868
+C:\Games\Thief\MOTIONS.CRF - 11863501
+C:\Games\Thief\MSVCRT40.DLL - 326656
+C:\Games\Thief\OBJ.CRF - 7426547
+C:\Games\Thief\PAL.CRF - 3515
+C:\Games\Thief\Readme.wri - 596006
+C:\Games\Thief\REGISTER.URL - 106
+C:\Games\Thief\SHKRES.RES - 4156
+C:\Games\Thief\SKELDATA.RES - 730
+C:\Games\Thief\SND.CRF - 130740715
+C:\Games\Thief\STRINGS.CRF - 6710
+C:\Games\Thief\TEXTURE.RES - 84298
+C:\Games\Thief\Thief.exe - 2239488
+C:\Games\Thief\thiefalphaIIu.log - 10115
+C:\Games\Thief\USER.CFG - 2
+C:\Games\Thief\MOVIES\DEATH.AVI - 691840
+C:\Games\Thief\MOVIES\SUCCESS.AVI - 684494
+C:\Games\Thief\SAVES\CFG0000.BND - 2200
+C:\Games\Thief\SAVES\CFG0001.BND - 2043
+C:\Games\Thief\SAVES\CFG0002.BND - 2207
+
+UAC Disabled or not present
+

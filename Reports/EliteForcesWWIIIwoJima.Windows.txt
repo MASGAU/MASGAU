@@ -1,0 +1,84 @@
+Game Name: Elite Forces WWII Iwo Jima
+Operating System:
+Microsoft Windows NT 5.1.2600 Service Pack 3
+
+Install Path:
+C:\Games\IwoJima
+
+Save Path:
+C:\Games\IwoJima\save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IwoJima.exe
+Value: Path
+Data: C:\Games\IwoJima
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IwoJima.exe
+Value:
+Data: C:\Games\IwoJima\IwoJima.exe
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\3LV Games\IwoJima Launcher\1.0
+Value: InstallPath
+Data: C:\Games\IwoJima
+
+Detected Start Menu Shortcuts:
+C:\Documents and Settings\All Users\Start Menu\Programs\Games\WWII IwoJima\ReadMe.lnk
+C:\Games\IwoJima\Readme.txt
+C:\Documents and Settings\All Users\Start Menu\Programs\Games\WWII IwoJima\WWII IwoJima.lnk
+C:\Games\IwoJima\IwoJima.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/7/2011 1:57:23 AM - C:\Games\IwoJima\save\player\AutoSave\gameinfo.nmc - 3546
+12/7/2011 1:57:36 AM - C:\Games\IwoJima\save\player\Startsafsd\gameinfo.nmc - 3616
+12/7/2011 1:57:36 AM - C:\Games\IwoJima\save\player\Startsafsd\objects.nco - 102740
+12/7/2011 1:57:36 AM - C:\Games\IwoJima\save\player\Startsafsd\Startsafsd.pcx - 41511
+12/7/2011 1:57:41 AM - C:\Games\IwoJima\save\player\Startsafsdsadf\gameinfo.nmc - 3616
+12/7/2011 1:57:41 AM - C:\Games\IwoJima\save\player\Startsafsdsadf\objects.nco - 102740
+12/7/2011 1:57:41 AM - C:\Games\IwoJima\save\player\Startsafsdsadf\Startsafsdsadf.pcx - 41511
+12/7/2011 1:57:41 AM - C:\Games\IwoJima\save\player\__LastSave\gameinfo.nmc - 3616
+
+Install Folder Dump:
+12/7/2011 1:58:24 AM - C:\Games\IwoJima\autoexec.cfg - 8188
+8/19/2001 10:44:02 PM - C:\Games\IwoJima\CDAudio.dll - 86016
+9/11/2001 12:39:16 AM - C:\Games\IwoJima\client.exe - 733237
+9/13/2001 12:27:36 PM - C:\Games\IwoJima\CRes.dll - 73728
+9/13/2001 5:02:38 PM - C:\Games\IwoJima\cshell.dll - 1024053
+9/13/2001 2:49:06 PM - C:\Games\IwoJima\d3d.ren - 356352
+9/13/2001 7:31:44 AM - C:\Games\IwoJima\default.cfg - 5511
+5/22/2001 3:49:06 PM - C:\Games\IwoJima\DE_Msg.dll - 45056
+9/10/2001 9:27:16 AM - C:\Games\IwoJima\Help.txt - 8057
+9/13/2001 11:11:22 AM - C:\Games\IwoJima\IwoJima.exe - 1748992
+9/13/2001 7:55:54 PM - C:\Games\IwoJima\IwoJima.rez - 221789489
+12/31/1998 7:56:28 AM - C:\Games\IwoJima\MSS16.DLL - 276992
+12/31/1998 7:56:10 AM - C:\Games\IwoJima\MSS32.DLL - 328704
+12/31/1998 7:56:12 AM - C:\Games\IwoJima\MSSA3D.M3D - 50176
+12/31/1998 7:56:16 AM - C:\Games\IwoJima\MSSB16.TSK - 4640
+12/31/1998 7:56:22 AM - C:\Games\IwoJima\MSSDS3DH.M3D - 50176
+12/31/1998 7:56:24 AM - C:\Games\IwoJima\MSSDS3DS.M3D - 49664
+12/31/1998 7:56:06 AM - C:\Games\IwoJima\MSSEAX.M3D - 52736
+12/31/1998 7:56:32 AM - C:\Games\IwoJima\MSSFAST.M3D - 59392
+12/31/1998 7:56:36 AM - C:\Games\IwoJima\MSSRSX.M3D - 49152
+9/10/2001 6:08:44 AM - C:\Games\IwoJima\Music.rez - 339634850
+9/13/2001 2:54:36 PM - C:\Games\IwoJima\object.lto - 987136
+9/13/2001 12:04:36 PM - C:\Games\IwoJima\ReadMe.txt - 20670
+12/7/2011 1:58:21 AM - C:\Games\IwoJima\savescreen.pcx - 42934
+7/20/2001 2:18:58 PM - C:\Games\IwoJima\SRes.dll - 32768
+12/7/2011 1:57:23 AM - C:\Games\IwoJima\save\player\AutoSave\gameinfo.nmc - 3546
+12/7/2011 1:57:36 AM - C:\Games\IwoJima\save\player\Startsafsd\gameinfo.nmc - 3616
+12/7/2011 1:57:36 AM - C:\Games\IwoJima\save\player\Startsafsd\objects.nco - 102740
+12/7/2011 1:57:36 AM - C:\Games\IwoJima\save\player\Startsafsd\Startsafsd.pcx - 41511
+12/7/2011 1:57:41 AM - C:\Games\IwoJima\save\player\Startsafsdsadf\gameinfo.nmc - 3616
+12/7/2011 1:57:41 AM - C:\Games\IwoJima\save\player\Startsafsdsadf\objects.nco - 102740
+12/7/2011 1:57:41 AM - C:\Games\IwoJima\save\player\Startsafsdsadf\Startsafsdsadf.pcx - 41511
+12/7/2011 1:57:41 AM - C:\Games\IwoJima\save\player\__LastSave\gameinfo.nmc - 3616
+
+UAC Disabled or not present

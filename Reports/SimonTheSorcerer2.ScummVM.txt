@@ -1,0 +1,106 @@
+Game Name: Simon the Sorcerer 2
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer 2
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{0F30980C-6504-4FE2-B8FF-EE38B80CF413}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{0F30980C-6504-4FE2-B8FF-EE38B80CF413}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON2
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\scummvm.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON2
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON2
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\scummvm.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON2
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Simon the Sorcerer 2_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Simon the Sorcerer 2_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer 2\Simon the Sorcerer 2.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\scummvm.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer 2\Uninstall Simon the Sorcerer 2.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer 2\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/29/2011 3:03:00 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer 2\simon2.001 - 712
+11/29/2011 3:02:30 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer 2\simon2.ini - 748
+
+Install Folder Dump:
+12/8/2008 2:10:54 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\game.ico - 2238
+12/8/2008 2:29:04 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\gfw_high.ico - 136710
+10/7/2010 4:10:24 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\goggame.dll - 304640
+11/20/1995 6:27:58 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\GSPTR30 - 58652
+5/31/1995 12:54:30 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ICON.DAT - 18089
+11/28/2008 11:32:10 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\innosetup_license.txt - 1471
+11/6/1998 3:55:42 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\manual.pdf - 2011875
+11/20/1995 6:30:56 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\SIMON2.GME - 20046789
+11/29/2011 2:46:25 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\simon2.ini - 751
+9/21/1995 6:01:06 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\SIMON2.WAV - 154091444
+11/20/1995 6:27:42 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\STRIPPED.TXT - 171
+4/20/2010 1:37:04 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\Support.ico - 62895
+11/20/1995 6:27:58 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\TBLLIST - 513
+11/29/2011 2:46:26 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\unins000.dat - 53586
+11/29/2011 2:46:09 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\unins000.exe - 2142547
+11/29/2011 2:46:25 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\unins000.ini - 66
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\AUTHORS.txt - 15063
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\COPYING.LGPL.txt - 27032
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\COPYING.txt - 18353
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\COPYRIGHT.txt - 4538
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\drascula.dat - 218403
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\kyra.dat - 353834
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\lure.dat - 637824
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\NEWS.txt - 41723
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\pred.dic - 134467
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\queen.tbl - 1084522
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\README-SDL.txt - 438
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\README.txt - 89848
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\scummmodern.zip - 159965
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\scummvm.exe - 10947072
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\SDL.dll - 324096
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\sky.cpt - 419427
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\teenagent.dat - 70047
+
+UAC Enabled
+
+
+VirtualStore Folders:
+11/29/2011 3:03:00 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer 2\simon2.001 - 712
+11/29/2011 3:02:30 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer 2\simon2.ini - 748

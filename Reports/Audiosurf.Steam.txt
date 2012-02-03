@@ -1,0 +1,878 @@
+Game Name: Audiosurf
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf
+
+Save Path:
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 12900
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\audiosurf
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores\CD_ScoreStorage.cgr - 3337
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores\FileSong_ScoreStorage.cgr - 3168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores\LocalScores.cgr - 49795
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores\StatCollector.cgr - 64488
+
+Install Folder Dump:
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\Audiosurf.exe - 33280
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\config.ini - 81
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\testapp.exe - 33280
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\awesomium.log - 0
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Awesomium_LGPL.txt - 24846
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\bass.dll - 98360
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\basscd.dll - 16960
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\bassflac.dll - 25152
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\basswma.dll - 15424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels.lst - 92232
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Crypt.dll - 983040
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\d3dx9_25.dll - 2337488
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\d3dx9_30.dll - 2388176
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\d3dx9_31.dll - 2414360
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\d3dx9_33.dll - 3495784
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\D3DX9_38.dll - 3850760
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\group list handler.cgr - 3433
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\HighPoly.dll - 131072
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\libmusicbrainz.dll - 270336
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\load group sequence.cgr - 4631
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\load single group.cgr - 1272
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\msvcm80.dll - 479232
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\msvcp71.dll - 499712
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\msvcp80.dll - 548864
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\msvcr71.dll - 348160
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\msvcr80.dll - 626688
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\options.ini - 354
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Preloader.cgr - 253691
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Preloader_config.xml - 878
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\progress calculator.cgr - 654
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Q3DStart.q3d - 5611
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\QuestViewer.exe - 69632
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\QuestViewer.exe.manifest - 1869
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\start - project loader.cgr - 96477
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\steam_api.dll - 115960
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\steam_appid.txt - 5
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\tag.dll - 331776
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\taglib.dll - 544768
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Taglib_License.txt - 9317
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\tags.dll - 15280
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\uninstall.nfo - 151947
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\WebView.cgr - 6379
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\xinput1_3.dll - 81768
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\XX_StartHere.cgr - 2743054
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\XX_StartHere_config.xml - 5306
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\Awesomium.dll - 8773632
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\bass.dll - 98360
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\basscd.dll - 16960
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\bassflac.dll - 25152
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\basswma.dll - 15424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\d3dx9_25.dll - 2337488
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\d3dx9_30.dll - 2388176
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\d3dx9_31.dll - 2414360
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\d3dx9_33.dll - 3495784
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\D3DX9_38.dll - 3850760
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\icudt38.dll - 8679424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\libmusicbrainz.dll - 270336
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\MSVCM80.DLL - 479232
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\msvcp71.dll - 499712
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\MSVCP80.DLL - 548864
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\msvcr71.dll - 348160
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\MSVCR80.DLL - 626688
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\steam_api.dll - 115960
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\tag.dll - 331776
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\taglib.dll - 544768
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\tags.dll - 15280
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\3rd\xinput1_3.dll - 81768
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\Boss_TrafficRunner.cgr - 765840
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\BusyBee.cgr - 1840796
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\CarParts.cgr - 506
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\CollectibleCommander.cgr - 1354
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\CollectionGates.cgr - 3326
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\Debris.cgr - 50326
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\Enemies_Flight.cgr - 35668
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\Explosion.cgr - 9288
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\GrenadeManager.cgr - 8066
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\MoneyFloaterCommander.cgr - 21697
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\NinjasLittleHelper.cgr - 3051
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\Player.cgr - 31067
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar.cgr - 9255
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Boomer.cgr - 127226
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Boomer2.cgr - 158849
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_DragWarp.cgr - 173031
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_EraserElite.cgr - 287499
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Jetboat.cgr - 25057
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Ovol.cgr - 122614
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Ovol2.cgr - 155809
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Rocket.cgr - 108659
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Rocket2.cgr - 116656
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_RocketPro.cgr - 196638
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Skinny.cgr - 21349
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Sword.cgr - 2092972
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Sword2.cgr - 144486
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Sword3.cgr - 287096
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\PlayerCar_Vegas.cgr - 123676
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\Player_Pullers.cgr - 13528
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\Rocket.cgr - 20279
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\ScoreFloaterCommander.cgr - 14883
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\SpecialPurpose.cgr - 48426
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\Sprayer.cgr - 9866
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\SprayerStraight.cgr - 14919
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\TrafficCommander.cgr - 50241
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Actors\TuneThruster.cgr - 23268
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Cache\Fonts\Arial.ttf - 367112
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Cache\Web\www.audio-surf.com\as\globalmessage.cgr - 3219
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Cache\Web\www.audio-surf.com\as\asradio\ASR_PedroCamacho_AudiosurfOverture.cgr - 2813495
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\00560937-855B-4DF7-8B7A-48D321F7F819.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\04E1045F-0DCF-4FEA-89A6-A1B4EB85ECFA.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\04EB85EB-DA14-4E18-9F9C-A0EFF6837B00.dll - 13824
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\060F2106-8CEF-4DC9-9E80-27D654FE2014.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\092004E6-C5DF-4027-8855-4825DD8527BC.dll - 12800
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\09F292F7-25DB-49F7-A863-83DCD2ABC616.dll - 15360
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\0A1C3637-A047-4740-A761-1247CEF0E940.dll - 23552
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\0CC1D8C2-57EB-4427-842F-BCD32F2FCCF3.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\0DE141BF-025D-4313-94AF-BE13150C6458.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\0E43F737-C7AA-491D-B3A5-C6B0D9DC6483.dll - 15872
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\10C20C0A-7A55-4084-8676-95E5699BCEC2.dll - 16384
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\1118038E-554C-492C-8E03-928F76A7EEC0.dll - 14336
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\122557DC-CABF-4806-AFA1-B0A0DD9C8C5F.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\1352B30C-2B0C-411F-8791-2107E78FF8E3.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\145D3B82-FDC2-4925-A66B-7DCFFF022A97.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\17C5B19F-4273-423C-A158-CA6F73046D43.dll - 14336
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\18616469-E3A9-4AD7-AF1B-C3FABC25E831.dll - 51200
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\18F9C150-2530-4B16-9D95-D31ECC69425F.dll - 11776
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\1ABC2216-3D9A-4B62-95CA-1ACA029F703E.dll - 10752
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\1B002068-B627-41F2-95CD-E45489A5142F.dll - 61440
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\1BD8A232-B080-491B-A614-DBCA30A77063.dll - 31232
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2013B2A6-9CB0-4956-8080-D7EFDBD5386F.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\21A8923D-B908-4104-AE88-B6718D8A8678.dll - 35328
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\21B682FC-63BD-461C-A9EF-F533563AAD47.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\221CFD44-69C0-46F0-8BB2-EA9CD15CA02D.dll - 102400
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2346A6DF-5942-4CB5-9908-E59CEC72841F.dll - 23040
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2690162E-A224-4267-AE70-413D8C0912A8.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2B10BAE4-83A1-41F5-87CD-EB69473D6538.dll - 13824
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2CEC3DD4-BAD8-40BB-9C1A-67A382CD24B6.dll - 86016
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2DFC141F-B06C-47B3-B7F9-2ABFB08C190E.dll - 15360
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2EAD7434-29D5-4CA1-9700-B6A770FBD7F7.dll - 26624
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2EE7E3C5-5969-4117-A8A4-074D7C9986E3.dll - 17408
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\2F605354-314D-4775-86E4-1F733550B227.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\3164909D-47F3-43EF-8DF8-E8E95E8E22ED.dll - 17920
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\3237CF29-DB73-47D8-B4B9-A6CE2E1E60F1.dll - 26112
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\3423DAD4-77ED-4B4C-9F00-59CB533388C6.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\376A9C13-8D66-49EC-BAE5-D59BE13BC519.dll - 12800
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\3B1F74D6-65D7-4B91-9114-827027E4500D.dll - 16896
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\3C0ED055-563B-4B10-8DC6-6EAE2EEEBE96.dll - 10240
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\3FF51E2F-6D04-4297-BC69-079C555FF765.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\4B22839D-2545-400D-A5C9-D977058037AA.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\4DD461D0-7C4E-45EF-91AB-F211F9B920F2.dll - 24576
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\4DE5B0C2-DDAC-4927-AC0F-73D422863D69.dll - 15872
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\4DF6BAF0-3AED-407A-926F-35B2BBB62D0C.dll - 49152
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\59283614-4E90-42B0-83A1-8FD225004619.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\59A93B79-C960-4E83-A1AE-6D3811315C09.dll - 57344
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\5A4A4C8D-81A4-4A1E-828D-53C15D3B8E3C.dll - 11264
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\5F672C7F-7F68-408E-88AE-286A3F2F873A.dll - 10752
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\5FE055B0-4269-4B25-9F31-157C835EC678.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\624FAFE1-326D-4444-8768-D0D405FE0D23.dll - 21504
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\63C9809D-F615-4FED-A77C-B8F071AA3DB0.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\6514FE12-88CF-480B-A3D8-7730C0CD23B3.dll - 131072
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\676D2DE0-210E-4A1F-81AA-11CDB316796A.dll - 10752
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\6918910A-F8BA-43C4-B8D4-CD6587D0F67C.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\694FD196-D575-4E3E-BA5C-67D889A072DD.dll - 30720
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\69D8970F-E413-47BB-8E51-4C25B0F65E51.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\6BE5BC8E-8036-4BDD-8FDA-591F6BDB68BB.dll - 11776
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\6CA8B1B9-2B59-4B6B-BD21-3755F934DBFB.dll - 15872
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\6E6FB247-4627-4FBE-8973-48344F23881E.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\75EEFB46-A56E-4248-908D-3354A0B96184.dll - 6656
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\7805644A-FB2C-4BA2-8A8B-3D73D441D338.dll - 20992
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\78167FBA-D3FF-4D4D-B6A3-51AAB049F11C.dll - 12288
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\7A4813B2-0BE6-408B-BD46-8A20E747A47E.dll - 12800
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\7AF0080E-C5C3-4BE5-8FB9-A9E2CF6FC9F1.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\7CBFBE82-DE01-4CEE-90CF-C10E5A5B82EE.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\7D101BC8-E798-42FF-95E7-216902731C0E.dll - 10240
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\7DFC389A-BDFD-4092-93AB-D0B93A030DD6.dll - 69632
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\809FD14E-C408-4DE6-BC3D-AB69C47238F6.dll - 14848
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8360311B-789B-4C30-896E-D3B77775044A.dll - 12800
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\83783433-179C-4997-A4A5-C6F820CBFDB6.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\85642FF9-3940-4196-9596-90409AF1CDB4.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\87C266FD-5A43-419D-B402-44E1B0FFBE8F.dll - 10752
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\894B077B-D372-4166-8F39-F188F9C3C237.dll - 11264
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\89E051CA-4273-4EB9-89C8-5FD0CDA1B026.dll - 20480
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8A5B6098-82B6-4BF0-A6CC-C36770E10685.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8A6078ED-69D4-4DB4-9ADB-A3987B26369A.dll - 13312
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8B1013FA-72C7-4794-817C-FE5178EC7A24.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8B959D25-5101-437B-A908-359E2AE36CF2.dll - 10240
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8BA3FB7B-C452-4ED1-BAC4-529877249C28.dll - 12800
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8BB8F3A3-58FA-48A5-BDC3-E984862BABBE.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8C3D0983-CC73-4A3D-AB5A-9D40D9FD6E1D.dll - 30720
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\8DAE38A8-C189-45DC-B634-F7F98EA0B43D.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\913C08C8-2386-4FB8-A21D-9FFBA789761A.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\95117CD9-4859-4C6E-BC58-4F817E9D5D4F.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\97E389C0-B889-4896-922C-843AADB02D7B.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\98012B2B-BF6C-4D22-BEDE-267F5901889B.dll - 10240
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\98813502-F9E2-4DDD-BB21-02762CF9583A.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\9D045960-EAC2-4C40-9BBF-10F32F7FA305.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\9D28CD4B-2103-4E99-B1EE-C338242E165D.dll - 16896
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\9E2350D9-A93D-4CC1-BCCE-930A60AF14A4.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\A1617BEA-2E4A-4A92-B235-509245665AFC.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\A19F6C27-85A3-45F3-A17B-9C1107E7A09A.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\A38DEC0A-4740-452C-9832-41CB93324B4D.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\A488E6B9-0DA7-4E32-A2E6-0510CBE81B41.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\A550BB21-BE5C-4675-B53E-3FA246F76538.dll - 36864
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\A879B0B6-A589-4094-8A5A-9F3DDD191C0C.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\AB37DFCA-32A2-4A4B-9DD9-09282EE3037A.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\ABA92939-1B14-4A41-AF8D-F217794512EE.dll - 16896
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\AC73F78E-667D-4DB5-B22B-BCA1D98A1540.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\AD27535B-D89B-441B-86C2-5A4D22E66943.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\AssociativeArray_Value.dll - 27648
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\AssociativeArray_Value_Clear.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\AwesomiumQuest.dll - 60416
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\B028B538-D554-434B-88CE-AA79A717C396.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\B6225961-01DA-463D-B5F7-3AD6541F5BD8.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\B973720E-2CC1-4F5C-A35A-33A152E2453E.dll - 20480
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BAC7326D-6DDC-4ECF-B821-6A52C8287DC7.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_GetDriveInfoCD.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_GetLevels.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_GetSongPosition.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Bass_GetTags.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_Listen.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_PlayBuffer.dll - 29184
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Bass_PlayQuickTimeStream.dll - 19456
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_PreCalcSong.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_SetGlobalVolume.dll - 27136
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_SetPosition.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_Stop.dll - 27136
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BASS_Stream.dll - 25600
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Bass_Stream_LoadOrPlay.dll - 27648
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BB029F54-D13C-47B3-A75A-B84581CDC303.dll - 11264
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BB520AA0-6270-4BA9-AE0A-6863EB388CFE.dll - 9728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BC052C38-2D5D-4F0C-A0CA-654D0AFC584A.dll - 23552
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BDAC0FBF-AEE8-4E6C-918C-2672F89026E4.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BE69CCC4-CFC1-4362-AC81-767D199BBFC3.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BE8C55B0-3057-4F3D-AB5A-5791EEA8D946.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BED6EA12-2615-49CB-BBBF-67EE0EC7AF8B.dll - 13824
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BufferVault.dll - 28672
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\BufferVault_StoreFile.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\C06850B2-A74E-453F-ADB7-2815D64CEA69.dll - 6656
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\C0EF3703-84D2-4C4D-B9FF-BD8ADE7E9AE4.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\C57A9D3F-0C29-41E0-B11E-BBED4C17AAF8.dll - 10240
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\C682A43C-22B3-4CDD-A0EA-CF1B3FAE63D5.dll - 10240
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CBCCC586-CAE0-45AE-9689-F5C179360700.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CCA74882-F05D-44D4-B07F-644A55500151.dll - 20480
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CF3378B6-F19D-488D-9361-9C35F8382722.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\ClipCursorToWindow.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CollisionObject_CreateTree.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Crypt.dll - 983040
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CustomGeometry.dll - 25088
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CustomTexture.dll - 13312
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CustomTexture05.dll - 38912
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CustomTexture_GetValidationStatus.dll - 48128
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\CustomTexture_Update.dll - 11776
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\D01A1329-F854-4AFA-BDDC-70A1CD5AE25B.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\D30F7991-36AC-47CF-9879-781759131388.dll - 7168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\D5DE69E6-690D-4A06-ACE7-96BB143367DD.dll - 28160
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\D7B36419-8613-49FE-BA20-27EEF00BA7A5.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\D8386F07-7A2B-4DD3-AD23-8470B80B7689.dll - 17408
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\DCCEA252-C4A3-41EC-A6BD-C05175242006.dll - 11776
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\DD2CD91D-2928-4324-BB1E-36DEC301E63C.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\DD626E09-F497-4A34-9032-47AD4D2BCBD7.dll - 12800
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\DF5BF7F7-C204-4F6E-BDB8-666A53DFCC58.dll - 13312
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Directory.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\E2D1C95B-1B84-4D94-A373-BEBABADF7AEE.dll - 26112
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\E34823CE-646E-46FE-8B36-0B9483ABB6F5.dll - 6656
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\EACC7F74-0344-4C1F-9BC2-400EC0C7C499.dll - 12800
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\EB69314C-9A02-43D7-BB94-EA27A32AA120.dll - 126976
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\EBD84E0B-137A-45E2-A63E-EC1D98852828.dll - 14336
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\EF1644CB-C99E-44B9-B07C-EC8A9E9F2CBA.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\EF17C559-44E9-49CA-9F8A-E2E5A7B015EB.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F091DFC1-A51A-45C2-92D1-88EBDAE6B48E.dll - 13312
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F26BB40B-B196-4AB9-B59E-FA7C8FF436F9.dll - 26624
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F31897FC-64C3-4FF7-96E0-854BB1E13046.dll - 43008
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F3D35A1E-F8CB-4330-B307-9557F9F73615.dll - 10240
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F48570A2-D00B-4280-B381-BB9A952FE8AA.dll - 20992
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F5BF6106-8544-495D-9BCA-E69A6F42BF95.dll - 23552
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F7709F2F-62CF-4D08-A1DC-BC736F85E6DC.dll - 11776
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F9388FDD-EEEA-459F-9246-E7AC017E0062.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\F9CEB566-E5C4-4B13-9DDF-908FE6B6AFA4.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\FB4B1F9A-AB55-4B60-98E2-E63D9FF501D2.dll - 53248
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\FB68CC7D-5B8E-4654-AECF-8D4A12E020BC.dll - 159744
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\FBB1D22B-CBB2-4A2A-AAC3-4BB57F144FD4.dll - 12288
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\FetchUnixTime.dll - 48128
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\FFD5DB8C-E56B-49DE-943E-0A7BF998824F.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\FileLoader.dll - 16384
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\FileSaver.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\FolderExploder.dll - 126976
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\GamepadQuery.dll - 13312
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\GetFileAttributes.dll - 8192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\GetLogicalDrives.dll - 11264
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\GetProgramPath.dll - 8704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\HighwayFileDo.dll - 11264
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\HTTP_Fetch_Unicode.dll - 954368
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Internet.dll - 19968
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\InterpolateRotationQuaternions.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\KeepRunning.dll - 25600
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\KeyboardCapture_Unicode.dll - 52736
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\LanguagePack.dll - 3293184
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\LanguagePack_Create.dll - 47616
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\LanguagePack_Translate.dll - 49152
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Mersenne_Twister.dll - 9216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\msvcm80.dll - 479232
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\msvcp80.dll - 548864
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\msvcr80.dll - 626688
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\MusicBrainz_FetchCD.dll - 31744
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\nvapi_query.dll - 28672
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\QuickTime_Core.dll - 36864
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\QuickTime_GetFFT.dll - 40960
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\QuickTime_GetTags.dll - 28672
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\QuickTime_LoadMovie.dll - 393216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\QuickTime_MovieRate.dll - 28672
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\QuickTime_SetTime.dll - 28672
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\ReadFileUnicode.dll - 946176
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\RegistryDo.dll - 11264
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\ScreenText.dll - 50176
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\SendWM_COPYDATA.dll - 954368
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\SetText_Unicode.dll - 26112
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\SteamStatData.dll - 31744
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\SteamUserData.dll - 946176
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\TagReader.dll - 51200
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Texter_Unicode.dll - 64000
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Texter_Unicode_Command.dll - 47616
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Texter_Unicode_Draw.dll - 69632
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\TuneThruster.dll - 18944
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\TuneWall.dll - 33280
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Tune_Car.dll - 18944
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Tune_Forest.dll - 31744
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Unicode_CurrentDirectory.dll - 49152
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\Unicode_Merge.dll - 966656
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\WindowHandler.dll - 393216
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\WriteError.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\XInput_Poll.dll - 13824
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\XML_Node.dll - 3289088
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\XML_NodeAttribute.dll - 942080
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\XML_NodeText.dll - 942080
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\XML_NumChildNodes.dll - 27136
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\XML_SetChildNode.dll - 27136
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\channels\XML_SetRootNode.dll - 942080
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\BeatFlash.cgr - 5056
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\EraserEffect.cgr - 20377
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\HintBrackets.cgr - 34332
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\HitCrosses.cgr - 12986
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\LaserShot.cgr - 5036
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\MatchBlurs.cgr - 3725
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\MileMarkers.cgr - 7711
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\SkySpray.cgr - 10993
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Effects\TrafficHusks.cgr - 81947
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\DynamicSkyBackground.cgr - 5131
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\Highway.cgr - 210131
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\Puzzle.cgr - 64574
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\SetPieces.cgr - 393202
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\SetPiecesBlack.cgr - 710101
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\SetPiecesBlack2.cgr - 714881
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\SetPiecesBlack3.cgr - 735101
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\SetPiecesWhite.cgr - 528793
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\SetPiecesWhite2.cgr - 528097
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\Squid_Black.cgr - 2658746
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Environment\Squid_White.cgr - 637209
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\gui\AlertWindow.cgr - 8112
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\gui\QuestionMarkTip.cgr - 7493
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\gui\XX_gui.cgr - 1216208
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\gui\XX_PauseScreen.cgr - 104933
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\gui\XX_WindowStateButtons.cgr - 98426
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\AwardFare.cgr - 444945
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\CharacterDescription.cgr - 69946
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\CharacterTutorial.cgr - 112459
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\Credits.cgr - 11386
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\FadeOverlay.cgr - 2397
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\Feats.cgr - 16370
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\GrenadeSelector.cgr - 117348
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\HowToPlayDoc.cgr - 15153
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\Ladder.cgr - 40985
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\LevelTreeSelector.cgr - 231490
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\LoadingScreen.cgr - 39207
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\MainMenu.cgr - 433566
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\MedalRequirements.cgr - 14514
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\MenuMusic.cgr - 3487
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\News.cgr - 18894
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\RandomTip.cgr - 11331
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\RouteMap.cgr - 95370
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\Runner.cgr - 14888
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\SavingMessage.cgr - 4253
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\ScoreBrowser.cgr - 81554
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\SellUpgrade.cgr - 17051
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\ServerMessages.cgr - 10022
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\SFX_Chooser.cgr - 23562
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\Storefront.cgr - 3772
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\VehicleSelector.cgr - 1094728
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\VehicleSelector_RenderVehicle.cgr - 12106
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\ViewRank.cgr - 7909
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\WorldSelector.cgr - 212321
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\XX_HighScoresTable.cgr - 35214
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Intros\XX_OnlineHighScoresTable.cgr - 449770
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\laddermusic\Circuit_Breakdown.ogg - 1672941
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\laddermusic\Circuit_Breakdown_alternate_loop.ogg - 2460741
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\laddermusic\flute loops 2.ogg - 683003
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\laddermusic\Victims_of_Science_-_The_Device_Has_Been_Modified_v2.mp3 - 4140975
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\aslang_EN.xml - 28639
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\aslang_RU.xml - 45900
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_AddAFriend.png - 2709
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_ArtistSearch.png - 3819
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_AudiosurfRadio.png - 2904
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Back.png - 1983
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_BUY.png - 2164
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_bwOK.png - 1598
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_CasualCharacters.png - 5091
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_CasualScores.png - 3995
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_CharacterInfo.png - 3754
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_CharacterSelect.png - 9424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_ColorPointsWedge.png - 9488
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Comments.png - 1100
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Continue.png - 2726
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_CreateAccountDialog.png - 24212
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Credits.png - 2254
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Credits_Over.png - 2638
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_DemoMonoTip.png - 9797
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_DemoPointmanTip.png - 9693
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_DemoPusherTip.png - 13312
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_DoubleVision.png - 790
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_DVElite.png - 611
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_DVPro.png - 577
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_EliteCharacters.png - 4710
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_EliteScores.png - 3625
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Eraser.png - 525
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_EraserElite.png - 626
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Exit.png - 1354
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Exit_Over.png - 1914
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Freeride.png - 2657
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_FriendScores.png - 1266
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_FriendSongs.png - 3466
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Fullscreen.png - 2614
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_GlobalScores.png - 1388
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Ironmode.png - 1398
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Login.png - 1744
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_LogInDialog.png - 14997
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Logout.png - 2334
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_MedalGoals.png - 3689
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Mono.png - 501
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_MonoPro.png - 613
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_MyMusic.png - 2355
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_MySongs.png - 3530
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_NearbyScores.png - 1544
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_News.png - 2379
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_NinjaMono.png - 710
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_OnlineScores.png - 1409
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Options.png - 2618
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_PersonalAchievements.png - 1736
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Play.png - 1847
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Playtitle.png - 1436
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Playtitle_Over.png - 1961
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Pointman.png - 609
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_PointmanElite.png - 718
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_PointmanPro.png - 657
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_PopularSongs.png - 3813
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_ProCharacters.png - 5600
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_ProScores.png - 3328
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Pusher.png - 604
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_PusherElite.png - 697
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_RandomTips.png - 3571
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Respawning.png - 1373
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Shuffle.png - 928
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_SongSelect.png - 7377
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_SoundEffects.png - 4134
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide.png - 3914
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_01.png - 177222
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_02.png - 186325
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_03.png - 127282
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_04.png - 76558
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_05.png - 90716
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_06.png - 146665
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_07.png - 158145
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_08.png - 97959
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_09.png - 134738
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_10.png - 124849
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_StrategyGuide_11.png - 144066
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_TitleDialog.png - 52867
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Tutorial.png - 2045
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_TutorialEsc.png - 30131
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_TutorialLanes.png - 13514
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_TutorialMouse.png - 20922
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_TutorialScore.png - 12507
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_Vegas.png - 685
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\EN\EN_YouAreHere.png - 2735
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\LanguagePacks\Textures\RU\EN_bwOK.png - 1672
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song10.mp3 - 1673825
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song11.mp3 - 554948
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song13.mp3 - 482223
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song14.mp3 - 1448963
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song15.mp3 - 1930034
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song17.mp3 - 1984786
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song19.mp3 - 1851875
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song20.mp3 - 1360773
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song21.mp3 - 1354922
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song24.mp3 - 1239983
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song25.mp3 - 1593159
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song25_REMIX3.mp3 - 977923
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song26.mp3 - 601759
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song3.mp3 - 2110174
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song4.mp3 - 929857
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song5.mp3 - 1540496
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song6.mp3 - 1601100
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life\HL1_song9.mp3 - 1493266
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_intro.mp3 - 1357430
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song0.mp3 - 636450
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song1.mp3 - 1575921
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song10.mp3 - 467913
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song11.mp3 - 556071
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song12_long.mp3 - 1171343
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song12_short.mp3 - 712425
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song13.mp3 - 857968
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song14.mp3 - 2550603
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song15.mp3 - 1108744
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song16.mp3 - 2726246
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song17.mp3 - 979594
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song19.mp3 - 1853965
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song2.mp3 - 2766687
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song20_submix0.mp3 - 1656270
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song20_submix4.mp3 - 2234726
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song22_CombineTheme3.mp3 - 1336532
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song23_SuitSong3.mp3 - 695800
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song24_Lamar.mp3 - 100208
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song25_Teleporter.mp3 - 741358
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song26.mp3 - 1116685
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song26_trainstation1.mp3 - 1451470
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song27_trainstation2.mp3 - 1154719
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song28.mp3 - 213893
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song29.mp3 - 2172450
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song3.mp3 - 1454295
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song30.mp3 - 1665465
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song31.mp3 - 1581456
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song32.mp3 - 684097
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song33.mp3 - 1345309
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song4.mp3 - 1050547
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song5.mp3 - 1085237
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song6.mp3 - 725057
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song7.mp3 - 814400
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\HL2_song8.mp3 - 955771
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\radio1.mp3 - 637704
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2\Ravenholm_1.mp3 - 499669
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Abandoned In Place.mp3 - 4018368
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Combine  Advisory.mp3 - 2577662
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Dark Interval.mp3 - 2290520
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Darkness at Noon.mp3 - 1346980
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Decay Mode.mp3 - 4484803
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Disrupted Original.mp3 - 1875492
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Eine Kleiner Elevatormuzik.mp3 - 1804655
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Eon Trap.mp3 - 4657836
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Extinction Event Horizon.mp3 - 2988941
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Guard Down.mp3 - 2390200
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Hunting Party.mp3 - 5032750
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Infraradiant.mp3 - 6673448
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Inhuman Frequency.mp3 - 2645371
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Last Legs.mp3 - 3071055
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Nectarium.mp3 - 2573892
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\No One Rides For Free.mp3 - 1503093
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Penultimatum.mp3 - 4072279
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Sector Sweep.mp3 - 3998927
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Self Destruction.mp3 - 2887369
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Shu'ulathoi.mp3 - 3795171
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\Vortal Combat.mp3 - 4676649
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Half-Life 2 Episode 1 & 2\What Kind Of Hospital Is This.mp3 - 4435294
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\01 - Subject Name Here.mp3 - 2516833
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\02 - Taste of Blood.mp3 - 4477894
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\03 - Android Hell.mp3 - 5425197
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\04 - Self Esteem Fund.mp3 - 5064711
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\05 - Procedural Jiggle Bone.mp3 - 6591313
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\06 - No Cake For You.mp3 - 5891642
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\07 - 4000 Degrees Kelvin.mp3 - 1478624
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\08 - Stop What You Are Doing.mp3 - 5835853
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\09 - Party Escort.mp3 - 6282222
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\10 - Your Not A Good Person.mp3 - 2030333
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\11 - You Can't Escape You Know.mp3 - 9219443
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\12 - Still Alive.mp3 - 4237181
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Portal\13 - Still Alive (J.C. Mix).mp3 - 4235300
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Team Fortress 2\01 - Team Fortress 2.mp3 - 1719940
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Team Fortress 2\02 - Playing With Danger.mp3 - 5801315
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Team Fortress 2\03 - Rocket Jump Waltz.mp3 - 928118
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Orange Box Soundtrack\Team Fortress 2\04 - The Art of War.mp3 - 3274120
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Render\CopyPasteBuffer.cgr - 98103
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Render\FixedChainspans.cgr - 16064
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Render\RenderCommon.cgr - 1596535
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Render\Render_IndustrialTunnel.cgr - 4724679
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Render\RoadSupports.cgr - 10424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores\CD_ScoreStorage.cgr - 3337
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores\FileSong_ScoreStorage.cgr - 3168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores\LocalScores.cgr - 49795
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Scores\StatCollector.cgr - 64488
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\BuiltinSongPicks.cgr - 4972
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\CDBrowser.cgr - 34422
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\FileBrowser.cgr - 79653
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\IncludedMusic.cgr - 4020
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\OpenMic.cgr - 11915
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\PlaylistManager.cgr - 14192
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\QuickPicks.cgr - 49910
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\RadioBrowser.cgr - 45749
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\SongSelector.cgr - 481377
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\SongSelector\ValveMusic.cgr - 275
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\audiosurf is a visualizer.ogg - 59010
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\collision_black.wav - 128666
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\collision_color.wav - 5040
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\collision_stone.wav - 47660
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\high score board popup.ogg - 89342
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\intense down.ogg - 39452
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\last_tutorial_screen.ogg - 95761
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\matchblack.wav - 121082
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\matchformed.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\matchformedOLD.wav - 85166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\matchhuge.wav - 113560
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\matchlarge.wav - 99482
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\matchmedium.wav - 73508
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\matchshared.wav - 178946
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\matchsmall.wav - 76698
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\medalbronze.wav - 223390
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\medalgold.wav - 299166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\medalsilver.wav - 244382
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\minimap.ogg - 30424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\overfill.wav - 74404
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\overfillwarning.wav - 52696
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\overfill_safehitOLD.wav - 171100
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\powerup_bonus.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\powerup_multiplier.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\powerup_paint.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\powerup_sort.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\powerup_storm.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\power_erase.wav - 65550
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\power_fail.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\power_hint.wav - 111388
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\power_push.wav - 38380
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\power_shuffle.wav - 441044
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\power_suriken.wav - 69402
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\rush down.ogg - 49450
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\screen_1_welcome.ogg - 129477
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\second_color_blue_screen_8.ogg - 137573
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\slow up.ogg - 31583
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\third_color_green.ogg - 127419
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\tilefallOLD.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\time_to_add_traffic_screen_6.ogg - 48168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\tunnels.ogg - 43667
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\ui_buttonclick.wav - 106834
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\ui_buttonhover.wav - 26428
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\ui_characterselect.wav - 139424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\weave.wav - 19230
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chillout\you_made_a_cluster_screen_7.ogg - 152409
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\audiosurf is a visualizer.ogg - 59010
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\collision_black.wav - 128666
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\collision_color.wav - 130220
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\collision_stone.wav - 47660
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\high score board popup.ogg - 89342
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\intense down.ogg - 39452
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\last_tutorial_screen.ogg - 95761
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\matchblack.wav - 121082
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\matchformedOLD.wav - 85166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\matchhuge.wav - 313494
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\matchlarge.wav - 264342
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\matchmedium.wav - 74916
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\matchshared.wav - 178946
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\matchsmall.wav - 62884
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\medalbronze.wav - 223390
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\medalgold.wav - 299166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\medalsilver.wav - 244382
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\minimap.ogg - 30424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\overfill.wav - 53090
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\overfillwarning.wav - 52696
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\overfill_safehitOLD.wav - 171100
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\powerup_bonus.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\powerup_multiplier.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\powerup_paint.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\powerup_sort.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\powerup_storm.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\power_erase.wav - 65550
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\power_fail.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\power_hint.wav - 111388
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\power_push.wav - 38380
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\power_shuffle.wav - 441044
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\power_suriken.wav - 69402
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\rush down.ogg - 49450
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\screen_1_welcome.ogg - 129477
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\second_color_blue_screen_8.ogg - 137573
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\slow up.ogg - 31583
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\third_color_green.ogg - 127419
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\tilefallOLD.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\time_to_add_traffic_screen_6.ogg - 48168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\tunnels.ogg - 43667
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\ui_buttonclick.wav - 106834
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\ui_buttonhover.wav - 26428
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\ui_characterselect.wav - 139424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\weave.wav - 19230
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\chimes\you_made_a_cluster_screen_7.ogg - 152409
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\audiosurf is a visualizer.ogg - 59010
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\collision_black.wav - 128666
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\collision_color.wav - 17196
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\collision_stone.wav - 47660
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\high score board popup.ogg - 89342
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\intense down.ogg - 39452
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\last_tutorial_screen.ogg - 95761
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchblack.wav - 121082
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchformed.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchformedOLD.wav - 85166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchhuge-old1.wav - 0
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchhuge.wav - 94252
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchlarge.wav - 130720
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchmedium.wav - 122016
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchshared.wav - 178946
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\matchsmall.wav - 49184
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\medalbronze.wav - 223390
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\medalgold.wav - 299166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\medalsilver.wav - 244382
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\minimap.ogg - 30424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\overfill.wav - 53090
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\overfillwarning.wav - 70048
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\overfill_safehitOLD.wav - 171100
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\powerup_bonus.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\powerup_multiplier.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\powerup_paint.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\powerup_sort.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\powerup_storm.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\power_erase.wav - 65550
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\power_fail.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\power_hint.wav - 111388
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\power_push.wav - 38380
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\power_shuffle.wav - 441044
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\power_suriken.wav - 69402
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\rush down.ogg - 49450
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\screen_1_welcome.ogg - 129477
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\second_color_blue_screen_8.ogg - 137573
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\slow up.ogg - 31583
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\third_color_green.ogg - 127419
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\tilefallOLD.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\time_to_add_traffic_screen_6.ogg - 48168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\tunnels.ogg - 43667
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\ui_buttonclick.wav - 106834
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\ui_buttonhover.wav - 26428
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\ui_characterselect.wav - 139424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\weave.wav - 19230
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\circuits\you_made_a_cluster_screen_7.ogg - 152409
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\audiosurf is a visualizer.ogg - 59010
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\collision_black.wav - 128666
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\collision_color.wav - 130220
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\collision_stone.wav - 47660
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\high score board popup.ogg - 89342
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\intense down.ogg - 39452
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\last_tutorial_screen.ogg - 95761
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\matchblack.wav - 121082
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\matchformed.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\matchformedOLD.wav - 85166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\matchhuge.wav - 200350
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\matchlarge.wav - 173726
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\matchmedium.wav - 95830
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\matchshared.wav - 178946
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\matchsmall.wav - 104094
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\medalbronze.wav - 223390
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\medalgold.wav - 299166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\medalsilver.wav - 244382
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\minimap.ogg - 30424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\overfill.wav - 53090
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\overfillwarning.wav - 74404
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\overfill_safehitOLD.wav - 171100
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\powerup_bonus.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\powerup_multiplier.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\powerup_paint.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\powerup_sort.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\powerup_storm.wav - 67748
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\power_erase.wav - 65550
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\power_fail.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\power_hint.wav - 111388
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\power_push.wav - 38380
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\power_shuffle.wav - 441044
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\power_suriken.wav - 69402
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\rush down.ogg - 49450
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\screen_1_welcome.ogg - 129477
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\second_color_blue_screen_8.ogg - 137573
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\slow up.ogg - 31583
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\third_color_green.ogg - 127419
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\tilefallOLD.wav - 80856
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\time_to_add_traffic_screen_6.ogg - 48168
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\tunnels.ogg - 43667
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\ui_buttonclick.wav - 106834
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\ui_buttonhover.wav - 26428
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\ui_characterselect.wav - 139424
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\weave.wav - 19230
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\soundeffects\cyclone\you_made_a_cluster_screen_7.ogg - 152409
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\sounds\Sounds_Narratives.cgr - 283
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\sounds\VisMusic.cgr - 25396
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\sounds\XX_Sounds.cgr - 6558
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Stage\XX_Camera.cgr - 32981
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Stage\XX_Lights.cgr - 2838
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Stage\XX_MouseState.cgr - 6417
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Stage\XX_Timer.cgr - 1166
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Stage\XX_WindowState.cgr - 27586
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\Achievements.cgr - 139459
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\CombatOverlord.cgr - 18554
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\Dumpty.cgr - 268
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\FriendManager.cgr - 94222
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\Hinter.cgr - 7762
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\Input.cgr - 1083
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\IrrelevanceTest.cgr - 2465
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\Options.cgr - 2291013
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\PlayerLevel.cgr - 5848
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\QuestionBoxOverlord.cgr - 23260
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\Replay.cgr - 12423
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\SavedConstants.cgr - 56615
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\SetConstants.cgr - 11470
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\SongCache.cgr - 999
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\SpecialP_Overlord.cgr - 36114
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\Steam.cgr - 5312
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\TutorialOverlord.cgr - 254117
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\UnlockableStats.cgr - 865
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\Support\Useless.cgr - 282
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\cliff1-1.png - 476
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\cliff1-2.png - 474
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\cliff2-1.png - 1222
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\cliff2-2.png - 1131
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\hit1.png - 3114
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\hit2.jpg - 1852
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\particles1.png - 5789
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\particles2.jpg - 3150
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\particles3.jpg - 5679
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\ring1A.png - 12425
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\ring1B.png - 24575
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\ring2A.jpg - 3601
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\ring2B.jpg - 9643
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\tileflyup.png - 5665
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\textures\tiles.png - 16173
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\4000DegreesKelvin.cgr - 1482241
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\AbandonedInPlace.cgr - 4012494
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\Infraradiant.cgr - 6655996
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\LastLegs.cgr - 3097871
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\PlayingWithDanger.cgr - 5806717
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\StillAlive.cgr - 4230536
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\StillAlive_JCMix.cgr - 4228655
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\TeamFortress2.cgr - 1737116
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\TheArtOfWar.cgr - 3256612
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\VortalCombat.cgr - 4668700
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\valvemusic\WhatKindOfHostpitalIsThis.cgr - 4439225
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\video\EraserTutorial.wmv - 1581635
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\video\PointmanTutorial.wmv - 1573635
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\video\PusherTutorial.wmv - 1317629
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\video\StarterVideo.wmv - 12261905
+C:\Program Files (x86)\Steam\steamapps\common\audiosurf\engine\video\VegasTutorial.wmv - 1573635
+
+UAC Enabled
+
+
+VirtualStore Folders:

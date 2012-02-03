@@ -1,0 +1,56 @@
+Game Name: Fish Tycoon
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+SteamCommon\fish tycoon
+
+Save Path:
+SteamCommon\fish tycoon
+
+Local Machine Registry Entries:
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: D:\
+Drive Root: D:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+17.09.2010 06:00:51 - SteamCommon\fish tycoon\Fish Tycoon.scr - 40960
+11.10.2010 09:42:38 - SteamCommon\fish tycoon\FishSaveGame1.pts - 0
+17.09.2010 06:09:16 - SteamCommon\fish tycoon\fishtycoon.exe - 28299264
+17.09.2010 06:01:04 - SteamCommon\fish tycoon\fmod.dll - 161280
+17.09.2010 06:00:44 - SteamCommon\fish tycoon\INSTALLER SPECS!.doc - 5419
+17.09.2010 06:00:44 - SteamCommon\fish tycoon\Readme.txt - 529
+17.09.2010 06:01:10 - SteamCommon\fish tycoon\TANKED.XM - 400456
+17.09.2010 06:04:55 - SteamCommon\fish tycoon\testapp.exe - 28299264
+17.09.2010 06:00:45 - SteamCommon\fish tycoon\images\FTpre_reminder.jpg - 68980
+
+Install Folder Dump:
+17.09.2010 06:00:51 - SteamCommon\fish tycoon\Fish Tycoon.scr - 40960
+11.10.2010 09:42:38 - SteamCommon\fish tycoon\FishSaveGame1.pts - 0
+17.09.2010 06:09:16 - SteamCommon\fish tycoon\fishtycoon.exe - 28299264
+17.09.2010 06:01:04 - SteamCommon\fish tycoon\fmod.dll - 161280
+17.09.2010 06:00:44 - SteamCommon\fish tycoon\INSTALLER SPECS!.doc - 5419
+17.09.2010 06:00:44 - SteamCommon\fish tycoon\Readme.txt - 529
+17.09.2010 06:01:10 - SteamCommon\fish tycoon\TANKED.XM - 400456
+17.09.2010 06:04:55 - SteamCommon\fish tycoon\testapp.exe - 28299264
+17.09.2010 06:00:45 - SteamCommon\fish tycoon\images\FTpre_reminder.jpg - 68980
+
+UAC Enabled
+
+
+VirtualStore Folders:
+
+XML:
+<game name="FishTycoon" platform="Windows">
+   <title>Fish Tycoon</title>
+   <location_path environment_variable="steamcommon" path="Fish Tycoon"/>
+   <save filename="*.pts" />
+   <contributer>AdmiringWorm</contributer>
+ </game>

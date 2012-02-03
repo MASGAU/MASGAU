@@ -1,0 +1,94 @@
+Comments:
+  <game name="LANoire" platform="Windows">
+    <title>L.A. Noire</title>
+    <location_path environment_variable="userdocuments" path="Rockstar Games\L.A. Noire" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: L.A. Noire
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Rockstar Games\L.A. Noire
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\Rockstar Games\L.A. Noire
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{915726DF-7891-444A-AA03-0DF1D64F561A}
+Value: InstallLocation
+Data: C:\Program Files (x86)\Rockstar Games\L.A. Noire
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{915726DF-7891-444A-AA03-0DF1D64F561A}
+Value: DisplayIcon
+Data: C:\Program Files (x86)\Rockstar Games\L.A. Noire\LANoire.exe,0
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Rockstar Games\L.A. Noire
+Value: InstallDir
+Data: C:\Program Files (x86)\Rockstar Games\L.A. Noire
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Rockstar Games\L.A. Noire\L.A. Noire.lnk
+C:\Program Files (x86)\Rockstar Games\L.A. Noire\LANLauncher.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Nov 10 7:00:08 PM - C:\Users\%USERNAME%\Documents\Rockstar Games\L.A. Noire\settings.ini - 342
+Nov 10 8:39:28 PM - C:\Users\%USERNAME%\Documents\Rockstar Games\L.A. Noire\Profiles\C4C37536\L.A. Noire\prefs.lanoire - 8196
+Nov 10 8:39:28 PM - C:\Users\%USERNAME%\Documents\Rockstar Games\L.A. Noire\Profiles\C4C37536\L.A. Noire\SaveGame1.lanoire - 119812
+
+Install Folder Dump: 
+Sep 08 12:26:18 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\binkw32.dll - 224256
+Oct 13 9:48:06 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\Cases - 8082459
+Sep 08 12:39:12 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\dbghelp.dll - 1045128
+Oct 13 9:48:30 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\DLC - 1540705485
+Oct 13 9:06:50 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\ErrorHandler.dll - 711680
+Sep 08 12:26:52 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\fmodex.dll - 798720
+Sep 08 12:26:52 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\fmod_event.dll - 307200
+Sep 08 12:26:52 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\fmod_event_net.dll - 339968
+Nov 10 6:53:31 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\LANLauncher.exe - 1097856
+Nov 10 6:53:31 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\LANoire.exe - 9440368
+Nov 10 6:53:34 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\MainContent - 119536960
+Oct 12 7:05:06 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\metadata.dat - 504389
+Nov 03 2:20:29 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\Patch_2382_02393_1.exe - 67217322
+Nov 10 6:53:34 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\readmeDEU.txt - 15589
+Nov 10 6:53:34 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\readmeENG.txt - 14063
+Nov 10 6:53:34 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\readmeESP.txt - 15608
+Nov 10 6:53:34 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\readmeFRA.txt - 16291
+Nov 10 6:53:34 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\readmeITA.txt - 14964
+Nov 10 6:53:34 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\Social Club v1.0.5.0 Setup.exe - 17385330
+Oct 13 9:51:04 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\version.txt - 167
+Oct 13 4:14:38 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\ypatcher.exe - 1275600
+Sep 22 9:07:42 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\animationsets.big.pc - 26299520
+Sep 22 7:26:48 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\audio.big.pc - 355803384
+Sep 22 8:47:36 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\cases_1_1.big.pc - 5559849322
+Oct 05 3:33:18 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\characters.big.pc - 192699164
+Sep 22 7:19:24 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\da.big.pc - 1422915392
+Sep 22 7:32:06 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\movies.big.pc - 913621968
+Sep 25 12:06:10 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\populated.bd.big.pc - 2786102320
+Sep 25 12:04:36 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\populated.lowlodenv.big.pc - 268581532
+Sep 25 12:07:42 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\populated.metasection.bd.big.pc - 563100
+Sep 24 10:00:14 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\populated.navmesh.dev.big.pc - 165598108
+Sep 24 10:03:06 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\populated.roads.uber.dev.big.pc - 3521512
+Sep 24 9:59:28 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\populated.streamingattributes.dev.big.pc - 26819548
+Sep 23 12:53:26 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\props.big.pc - 233775340
+Sep 23 12:54:48 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\props.high.big.pc - 148143116
+Sep 22 7:26:38 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\reftextures_characters.big.pc - 28327516
+Sep 24 10:59:00 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\reftextures_populated.big.pc - 422557692
+Sep 23 11:31:48 AM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\shopfronts.big.pc - 13968276
+Sep 22 7:33:44 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\ui_streamed_textures.big.pc - 28279604
+Sep 23 12:53:16 PM - C:\Program Files (x86)\Rockstar Games\L.A. Noire\final\pc\vehicles.big.pc - 59880852
+
+UAC Disabled or not present
+

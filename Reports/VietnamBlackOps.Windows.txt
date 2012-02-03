@@ -1,0 +1,73 @@
+Game Name: Vietnam: Black Ops
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\BlackOps
+
+Save Path:
+C:\BlackOps\Save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{DBDC0D5D-EDCD-4265-9D72-E0B185BD3FD9}
+Value: ConfigApplicationPath
+Data: C:\BlackOps
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{DBDC0D5D-EDCD-4265-9D72-E0B185BD3FD9}
+Value: AppExePath
+Data: C:\BlackOps\BlackOps.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Vietnam: BlackOps
+Value: UninstallString
+Data: C:\BlackOps\UNWISE.EXE C:\BlackOps\INSTALL.LOG
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Fused Software\BlackOps.lnk
+C:\BlackOps\BlackOps.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Fused Software\Readme.lnk
+C:\BlackOps\Readme.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Fused Software\Uninstall.lnk
+C:\BlackOps\Unwise.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/14/2011 2:15:12 PM - C:\BlackOps\Save\Reload.sav - 88331
+11/14/2011 2:15:16 PM - C:\BlackOps\Save\Save.ini - 59
+11/14/2011 2:15:16 PM - C:\BlackOps\Save\Slot00.sav - 88427
+
+Install Folder Dump:
+11/14/2011 2:15:21 PM - C:\BlackOps\autoexec.cfg - 5670
+10/16/2000 1:11:28 AM - C:\BlackOps\BlackOps.exe - 561152
+4/7/2000 1:46:12 PM - C:\BlackOps\cdaudio.dll - 90112
+4/17/2000 12:04:00 PM - C:\BlackOps\cdtracks..ini - 162
+10/16/2000 1:29:40 AM - C:\BlackOps\d3d.ren - 233472
+10/16/2000 1:52:54 AM - C:\BlackOps\Data.rez - 82040904
+4/14/2000 10:43:26 AM - C:\BlackOps\defaults.cfg - 4910
+4/13/2000 7:23:40 PM - C:\BlackOps\defkeybd.cfg - 2315
+9/16/1998 8:08:58 AM - C:\BlackOps\DetailHi.cfg - 320
+9/16/1998 8:09:00 AM - C:\BlackOps\DetailLo.cfg - 319
+9/16/1998 8:09:00 AM - C:\BlackOps\DetailMd.cfg - 320
+12/22/1999 9:53:48 PM - C:\BlackOps\DE_Msg.dll - 208957
+11/14/2011 2:07:26 PM - C:\BlackOps\INSTALL.LOG - 1544
+12/31/1998 7:56:28 AM - C:\BlackOps\Mss16.dll - 276992
+12/31/1998 7:56:10 AM - C:\BlackOps\Mss32.dll - 328704
+4/19/2000 7:07:22 PM - C:\BlackOps\Readme.txt - 2519
+10/16/2000 1:27:04 AM - C:\BlackOps\Soft.ren - 237629
+6/25/1999 11:55:30 AM - C:\BlackOps\Unwise.exe - 149504
+11/14/2011 2:15:12 PM - C:\BlackOps\Save\Reload.sav - 88331
+11/14/2011 2:15:16 PM - C:\BlackOps\Save\Save.ini - 59
+11/14/2011 2:15:16 PM - C:\BlackOps\Save\Slot00.sav - 88427
+
+UAC Enabled
+
+
+VirtualStore Folders:

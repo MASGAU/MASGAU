@@ -1,0 +1,417 @@
+Lost Planet Colonies
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES
+
+Save Path:
+C:\Users\Ochy\AppData\Local\capcom\lostplanetcolonies
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\CAPCOM\LOST PLANET COLONIES
+Value:InstallDir
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\LPColoniesSave-capcomType\Shell\Open\Command
+Value:
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LPCLauncher.exe "%1"
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{99382794-F4D6-48A0-AEBF-C1130959FF22}
+Value:ConfigApplicationPath
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{99382794-F4D6-48A0-AEBF-C1130959FF22}
+Value:ConfigGDFBinaryPath
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LPCLauncher.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\07365743273B0424D9B67869251D3BBF
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2F064B193D1E9F74ABBE1FEF3DACBAF3
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_fra\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2F4A1DCB43F2C5D45862539BF891D494
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3575F8D853730A749873F2B7E64A0E1B
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_spa\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3DCF4CB9B75582643AB9EDE25A082B07
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_ita\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\476D72C518DA20F49838A6F3B6BFB333
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_rus\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\49B588623665B664FA4E2A9E5E32B603
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\51762A2C9FC7AF3408FED87F284A8C32
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_jpn\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\53FD8350416F53E4BA66A0BF58B232D2
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\5FF59F2DB12F17A4AADD2ABD98B38AF1
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\tool\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\6012979810AD109469490E145A0C8016
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\tool\SprLayout\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\60B26CE04066200428C4BE2BFCDA4798
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_kra\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\682FE829DFF9B824B95487244A1AE9C2
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\7240B7AC0EFCEF3478C9699EED096377
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\75B564F21B0CEA649BCC693BDCF6024D
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\76AE8EE805D3510438EAFD88A0BFECC4
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\font_tex\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\83476A74C8E56CC42AD3E2F76055AD10
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\85A8301E907C3C04EB8F08A0D9836391
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8852B06BE59FFC74D8CBBEB1EAE04C93
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\system\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\9413C61BA31B85C419AB60B5E909BD3C
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A94259BDCF0A66E43A93926EF0F9E840
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A9C2A13EAA0299C469CA641CA7ECCD66
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\movie\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\C4B69C4C72EA0454B98938EA55D7FB36
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\guide_bg\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\DBF247FAE7A333E4890E6ECBD53C0422
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F3F1C8ECA14DBA945983F45CB13705E5
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_pol\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F5D9248051FE41C4F8CE6B00D81FB2DF
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_ger\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\FDC304856ADFE54479B2DAC1AD6F0782
+Value:387AFCF6B7EC8104CA84E0E6AEEA3A22
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_usa\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\387AFCF6B7EC8104CA84E0E6AEEA3A22\InstallProperties
+Value:InstallLocation
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Media Center\Extensibility\Entry Points\{833fcfd2-f96e-4f0e-bbb5-ca7a205f3618}
+Value:Run
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LPCLauncher-MCE.lnk
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Media Center\Extensibility\Entry Points\{833fcfd2-f96e-4f0e-bbb5-ca7a205f3618}
+Value:ThumbnailUrl
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LPCLauncher-MCE.png
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6FCFA783-CE7B-4018-AC48-0E6EEAAEA322}
+Value:InstallLocation
+Data:C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\Ochy\AppData\Local\capcom\lostplanetcolonies\config.ini - 728
+C:\Users\Ochy\AppData\Local\capcom\lostplanetcolonies\e000008eeb684317\LPColonies.LPColoniesSave-capcom - 143440
+
+Install Folder Dump:
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LostPlanetColoniesDX10.exe - 10673992
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LostPlanetColoniesDX10.exe.cat - 73415
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LostPlanetColoniesDX10.exe.cfg - 343
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LostPlanetColoniesDX9.exe - 9984328
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LostPlanetColoniesDX9.exe.cat - 69379
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LostPlanetColoniesDX9.exe.cfg - 343
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LPCLauncher-MCE.lnk - 1013
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LPCLauncher-MCE.png - 149070
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LPCLauncher-MCE.xml - 1684
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\LPCLauncher.exe - 18900250
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\default.cfg - 3998
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\rich_thumbnail.hkx - 130603
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\serial.hkx - 22
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\shaderlog.slg - 1928
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\alert_00.anm - 464
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\alert_00_BM.tex - 14380
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00.anm - 188
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00_BM.tex - 43804
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00_f_BM.tex - 43804
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00_g_BM.tex - 43804
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00_i_BM.tex - 43804
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00_k_BM.tex - 43804
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00_p_BM.tex - 43804
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00_r_BM.tex - 43804
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\alert\load_00_s_BM.tex - 43804
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\guide_bg\guide_00.anm - 552
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\guide_bg\guide_00_BM.tex - 303404
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\caplogo.tex - 786476
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\dolbylogo_BM_HQ.tex - 78892
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\intellogo_BM_HQ.tex - 174880
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\menseki_g_BM.tex - 89132
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\menseki_j_BM.tex - 89132
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\menseki_u_BM.tex - 89132
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\nvidialogo_BM_HQ.tex - 174880
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\ratinglogo_j_BM_HQ.tex - 112684
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\ratinglogo_u_BM_HQ.tex - 148524
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\etc\logo\soundeluxlogo_BM_HQ.tex - 78892
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\design.anm - 480
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\design.tex - 262188
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\design_BM.tex - 87520
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design.anm - 1284
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design_BM.tex - 193580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design_f_BM.tex - 193580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design_g_BM.tex - 193580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design_i_BM.tex - 193580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design_k_BM.tex - 193580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design_p_BM.tex - 193580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design_r_BM.tex - 193580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\design_jpn\mess-design_s_BM.tex - 193580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\font_tex\font_eng_BM.tex - 1398212
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\font_tex\font_jpn_BM.tex - 1398212
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\font_tex\font_kra_BM.tex - 1398212
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\font_tex\font_pol_BM.tex - 1398212
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\font_tex\font_rus_BM.tex - 1398212
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_fra\msg_fra_00.msg - 256174
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_fra\msg_fra_01.msg - 188020
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_fra\msg_fra_02.msg - 92494
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_ger\msg_ger_00.msg - 249094
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_ger\msg_ger_01.msg - 194950
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_ger\msg_ger_02.msg - 91798
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_ita\msg_ita_00.msg - 258304
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_ita\msg_ita_01.msg - 182062
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_ita\msg_ita_02.msg - 85450
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_jpn\msg_jpn_00.msg - 138580
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_jpn\msg_jpn_01.msg - 84016
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_jpn\msg_jpn_02.msg - 58468
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_kra\msg_kra_00.msg - 124492
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_kra\msg_kra_01.msg - 90670
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_kra\msg_kra_02.msg - 49420
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_pol\msg_pol_00.msg - 182470
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_pol\msg_pol_01.msg - 185116
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_pol\msg_pol_02.msg - 72298
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_rus\msg_rus_00.msg - 179656
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_rus\msg_rus_01.msg - 170680
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_rus\msg_rus_02.msg - 66022
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_spa\msg_spa_00.msg - 257896
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_spa\msg_spa_01.msg - 188854
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_spa\msg_spa_02.msg - 87418
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_usa\msg_eng_00.msg - 233806
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_usa\msg_eng_01.msg - 187576
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\message\mes_usa\msg_eng_02.msg - 110398
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\movie\demoloop.wmv - 88469095
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\movie\fullscreen.rtex - 40
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\movie\nvidia.wmv - 2733615
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\movie\titlemenu1.wmv - 84934095
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\movie\titlemenu2.wmv - 84614137
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\movie\titlemenu3.wmv - 67158035
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\movie\titlemenu4.wmv - 53094023
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\system\furtable.fur - 7315
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\system\shader.arc - 611886
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\system\shader10.arc - 1052352
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\tool\SprLayout\alert00.sprmap - 2428
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\tool\SprLayout\guide00.sprmap - 3365
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\tool\SprLayout\loading00.sprmap - 1461
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\tool\SprLayout\online02.sprmap - 4076
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\benchmark.arc - 16800705
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m00_s220.arc - 69497948
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m10_s100.arc - 47693660
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m10_s110.arc - 41713715
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m20_s100.arc - 86833981
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m20_s120.arc - 58700133
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m30_s130.arc - 60123418
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m40_s200.arc - 80793937
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m50_s110.arc - 56939133
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m50_s210.arc - 31325131
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m60_s220.arc - 95074750
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m70_s130.arc - 69477425
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m70_s140.arc - 70327812
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m70_s150.arc - 88000620
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m80_s400.arc - 90140160
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m80_s500.arc - 77137979
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m90_s410.arc - 92069867
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\m90_s412boss.arc - 57871555
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\ma0_s600.arc - 90447198
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\ma0_s603boss.arc - 55190701
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\ma0_s610.arc - 90431451
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\mb0_s620.arc - 55973421
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s102.arc - 31720196
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s104.arc - 60397708
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s105.arc - 48187366
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s106.arc - 61482799
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s111.arc - 31702973
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s112.arc - 23240893
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s113.arc - 35939746
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s121.arc - 39811993
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s123.arc - 35951053
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s124.arc - 75692385
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s131.arc - 93115865
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s132.arc - 51211199
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s141.arc - 58360281
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s151.arc - 48257885
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s201.arc - 36256659
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s202.arc - 49645470
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s204.arc - 39611735
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s205.arc - 37209927
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s211.arc - 25600347
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s221.arc - 51842877
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s222.arc - 39429283
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s223.arc - 81992456
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s224.arc - 84784983
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s401.arc - 67986811
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s402.arc - 47644592
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s411.arc - 72472027
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s412.arc - 63205731
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s413.arc - 58498284
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s501.arc - 39465524
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s502.arc - 39677331
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s601.arc - 46364520
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s602.arc - 45396475
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s603.arc - 57115286
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s611.arc - 66234406
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s612.arc - 85706545
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s621.arc - 35777337
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack1\s622.arc - 29959679
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core.arc - 37617967
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core_eng.arc - 37614291
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core_fra.arc - 37646629
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core_ger.arc - 37661195
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core_ita.arc - 37649108
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core_kor.arc - 37607407
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core_pol.arc - 37732040
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core_rus.arc - 37719819
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\core_spa.arc - 37650465
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d11x00.arc - 42836158
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d12x00.arc - 62354123
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d12x01.arc - 58238097
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d12x02.arc - 50716158
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d12x03.arc - 54756554
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d12x04.arc - 65280514
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d20x00.arc - 63875525
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d22x00.arc - 86144183
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d22x01.arc - 63206065
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d22x02.arc - 89013628
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d22x03.arc - 85514190
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d22x04.arc - 62852301
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d22x05.arc - 135388895
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d22x06.arc - 38403311
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d40x01.arc - 78124645
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d50x00.arc - 73013475
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d60x00.arc - 75931526
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d60x01.arc - 79383077
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d60x02.arc - 114460144
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d60x03.arc - 112565343
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d60x04.arc - 58136105
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d61x00.arc - 87738443
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d61x01.arc - 84864081
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d61x02.arc - 71557137
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d62x00.arc - 50888741
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d70000.arc - 61154526
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d71000.arc - 73758100
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d71002.arc - 59321963
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d71003.arc - 33480333
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d71004.arc - 65308554
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d71006.arc - 48637897
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d71007.arc - 55101969
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\d72000.arc - 97910003
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission.arc - 3525443
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission_eng.arc - 3524941
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission_fra.arc - 3546525
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission_ger.arc - 3553815
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission_ita.arc - 3555453
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission_kor.arc - 3512694
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission_pol.arc - 3553792
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission_rus.arc - 3543235
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\InterMission_spa.arc - 3550994
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\NetBase.arc - 97083158
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s810.arc - 78295068
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s820.arc - 86295624
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s830.arc - 110186859
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s840.arc - 56716113
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s850.arc - 74102620
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s870.arc - 56186853
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s880.arc - 79410920
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s890.arc - 63146613
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s900.arc - 70769919
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s901.arc - 64010185
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s902.arc - 74133550
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s903.arc - 81073469
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s904.arc - 67581061
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s905.arc - 14804855
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s906.arc - 102590218
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s907.arc - 82225749
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s920.arc - 91075823
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s921.arc - 114783853
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s922.arc - 113879040
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\s923.arc - 92548757
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\StaffRoll.arc - 54433095
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title.arc - 19842574
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title_eng.arc - 19846989
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title_fra.arc - 19840974
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title_ger.arc - 19890993
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title_ita.arc - 19831980
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title_kor.arc - 19764077
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title_pol.arc - 19956127
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title_rus.arc - 19911712
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\Title_spa.arc - 19856497
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\TotalResult.arc - 8
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\nativePC\ZZPack2\trial.arc - 59966616
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_English.txt - 3793
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_French.txt - 4215
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_German.txt - 3875
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_Italian.txt - 3985
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_Japanese.txt - 3586
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_Korean.txt - 3391
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_Polish.txt - 4126
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_Russian.txt - 6232
+C:\Program Files\CAPCOM\LOSTPLANETCOLONIES\Readme\Readme_Spanish.txt - 4020
+
+UAC Disabled or not present

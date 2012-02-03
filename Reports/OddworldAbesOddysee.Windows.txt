@@ -1,0 +1,515 @@
+Game Name: Oddworld - Abe's Oddysee
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Abe's Oddysee
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Oddysee
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{B9150004-1D52-47EF-A350-EF1F2F89C854}
+Value: AppExePath
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee\AbeWin.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{B9150004-1D52-47EF-A350-EF1F2F89C854}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{5B78B95B-9A01-4DA1-AE48-82057FA58D01}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{5B78B95B-9A01-4DA1-AE48-82057FA58D01}
+Value: AppExePath
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee\AbeWin.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGABESODDYSEE
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee\AbeWin.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGABESODDYSEE
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGABESODDYSEE
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee\AbeWin.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGABESODDYSEE
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Abe's Oddysee_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Abe's Oddysee_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Abe's Oddysee\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Abe's Oddysee\Abe's Oddysee.lnk
+C:\Program Files (x86)\GOG.com\Abe's Oddysee\AbeWin.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Abe's Oddysee\Uninstall Abe's Oddysee.lnk
+C:\Program Files (x86)\GOG.com\Abe's Oddysee\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Abe's Oddysee\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Abe's Oddysee\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Abe's Oddysee\Documents\Readme.lnk
+C:\Program Files (x86)\GOG.com\Abe's Oddysee\README.TXT
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/29/2011 2:56:08 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Oddysee\RuptureFarms p16.sav - 8192
+11/29/2011 2:56:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Oddysee\RuptureFarms p16ada.sav - 8192
+
+Install Folder Dump:
+9/23/1997 7:11:06 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\ABEMORPH.ddv - 5797952
+10/22/1997 3:33:22 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\AbeWin.exe - 1125376
+9/23/1997 7:11:10 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\Badend.ddv - 9589280
+9/23/1997 7:11:18 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\Barrels.ddv - 8183008
+9/23/1997 7:13:12 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\Begin.ddv - 77410368
+10/22/1997 3:16:16 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\c1.lvl - 8298496
+10/22/1997 3:17:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d1.lvl - 25114624
+9/23/1997 7:13:16 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d1p1p2.ddv - 2111744
+9/23/1997 7:13:18 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\D1P2P1.ddv - 2111744
+9/23/1997 7:13:22 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d1p3p4.ddv - 2111744
+10/7/1997 5:03:30 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\D1P4P3.ddv - 2111744
+9/23/1997 7:13:26 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d1p6p7.ddv - 3739936
+9/23/1997 7:13:30 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\D1P7P6.ddv - 3739936
+9/23/1997 7:13:32 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d1p9d2.ddv - 3158272
+10/22/1997 3:18:10 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2.lvl - 28200960
+9/23/1997 7:13:34 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10d7.ddv - 1065216
+9/23/1997 7:13:34 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10p2.ddv - 1065216
+9/23/1997 7:13:36 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10p3.ddv - 1065216
+9/23/1997 7:13:36 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10p4.ddv - 1065216
+9/23/1997 7:13:38 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10p5.ddv - 1065216
+9/23/1997 7:13:38 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10p6.ddv - 1065216
+9/23/1997 7:13:40 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10p7.ddv - 1065216
+9/23/1997 7:13:40 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10p8.ddv - 1065216
+9/23/1997 7:13:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p10p9.ddv - 1065216
+9/23/1997 7:13:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p1p10.ddv - 1065216
+9/23/1997 7:13:44 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p2p10.ddv - 1065216
+9/23/1997 7:13:46 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p2p10b.ddv - 1065216
+9/23/1997 7:13:46 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p3p10.ddv - 1065216
+9/23/1997 7:13:48 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p3p10b.ddv - 1065216
+9/23/1997 7:13:48 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p4p10.ddv - 1065216
+9/23/1997 7:13:48 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p4p10b.ddv - 1065216
+9/23/1997 7:13:50 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p5p10.ddv - 1065216
+9/23/1997 7:13:50 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p5p10b.ddv - 1065216
+9/23/1997 7:13:52 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p6p10.ddv - 1065216
+9/23/1997 7:13:52 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p6p10b.ddv - 1065216
+9/23/1997 7:13:54 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p7p10.ddv - 1065216
+9/23/1997 7:13:54 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p7p10b.ddv - 1065216
+9/23/1997 7:13:54 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p8p10.ddv - 1065216
+9/23/1997 7:13:56 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p8p10b.ddv - 1065216
+9/23/1997 7:13:56 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p9p10.ddv - 1065216
+9/23/1997 7:13:56 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d2p9p10b.ddv - 1065216
+10/22/1997 3:18:22 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d7.lvl - 8914944
+9/23/1997 7:13:58 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d7c11c12.ddv - 1065216
+9/23/1997 7:13:58 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\d7c12c11.ddv - 1065216
+9/23/1997 7:14:08 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\Drag.ddv - 11574880
+10/22/1997 3:17:08 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\e1.lvl - 21852160
+9/23/1997 7:14:08 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\E1P4C8.ddv - 1065216
+10/22/1997 3:19:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\e2.lvl - 10924032
+9/23/1997 7:14:12 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\E2P2R2.ddv - 1065216
+10/22/1997 3:20:12 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\f1.lvl - 19484672
+9/23/1997 7:14:12 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1p1p2.ddv - 1065216
+9/23/1997 9:58:58 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1P2P1.ddv - 1065216
+9/23/1997 7:14:16 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1P2P5.ddv - 710144
+9/23/1997 7:14:16 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1P5P2.ddv - 710144
+9/23/1997 7:14:18 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1P5P6.ddv - 1065216
+9/23/1997 7:14:18 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1P6P5.ddv - 1065216
+9/23/1997 7:14:20 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1P8P9.ddv - 1065216
+9/23/1997 7:14:22 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1p9f2.ddv - 3251712
+9/23/1997 7:14:22 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F1P9P8.ddv - 1065216
+10/22/1997 3:20:36 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\f2.lvl - 23816192
+9/23/1997 7:14:22 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P1P8.ddv - 1065216
+9/23/1997 7:14:24 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P2P8.ddv - 1065216
+9/23/1997 7:14:26 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P2P8B.ddv - 1065216
+9/23/1997 7:14:26 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2p3p8.ddv - 1065216
+9/23/1997 7:14:28 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2p3p8b.ddv - 1065216
+9/23/1997 7:14:28 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P4P8.ddv - 1065216
+9/23/1997 7:14:28 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P4P8B.ddv - 1065216
+9/23/1997 7:14:30 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P5P8.ddv - 1065216
+9/23/1997 7:14:30 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P5P8B.ddv - 1065216
+9/23/1997 7:14:32 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P6P8.ddv - 1065216
+9/23/1997 7:14:32 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P6P8B.ddv - 1065216
+9/23/1997 7:14:36 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P7P8.ddv - 1065216
+9/23/1997 7:14:36 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P7P8B.ddv - 1065216
+9/23/1997 7:14:38 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P8F4.ddv - 1065216
+9/23/1997 7:14:38 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P8P2.ddv - 1065216
+9/23/1997 7:14:38 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\f2p8p3.ddv - 1065216
+9/23/1997 7:14:40 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P8P4.ddv - 1065216
+9/23/1997 7:14:40 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P8P5.ddv - 1065216
+9/23/1997 7:14:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P8P6.ddv - 1065216
+9/23/1997 7:14:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F2P8P7.ddv - 1065216
+10/22/1997 3:20:50 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\f4.lvl - 9496576
+9/23/1997 7:14:44 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F4C11C13.ddv - 1065216
+9/23/1997 7:14:46 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\F4C13C11.ddv - 1065216
+11/28/2008 11:20:42 AM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\game.ico - 4286
+9/23/1997 7:14:50 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\GAMEBGN.ddv - 7015008
+11/28/2008 9:45:24 AM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\gfw_high.ico - 52122
+9/23/1997 7:15:18 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\Goodend.ddv - 28485184
+9/23/1997 7:15:26 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\gtddlogo.ddv - 4933632
+9/23/1997 7:15:32 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\Halts.ddv - 6545472
+10/20/2008 2:56:58 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\innosetup_license.txt - 1471
+10/22/1997 3:21:16 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\l1.lvl - 20475904
+9/23/1997 7:15:34 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P1C14.ddv - 1065216
+9/23/1997 7:15:36 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P1P2.ddv - 1401600
+9/23/1997 7:15:38 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P2P1.ddv - 1401600
+9/23/1997 7:15:40 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P2P3.ddv - 2111744
+9/23/1997 7:15:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P3P2.ddv - 2111744
+9/23/1997 7:15:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P5C4.ddv - 1065216
+9/23/1997 7:15:44 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P5P6.ddv - 1401600
+9/23/1997 7:58:02 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P6E2.ddv - 1065216
+9/23/1997 7:15:46 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\L1P6P5.ddv - 1401600
+9/23/1997 7:15:46 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\li1p6e2.ddv - 1065216
+9/23/1997 7:15:52 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\logoint.ddv - 13560480
+9/23/1997 7:15:54 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\LP1C15C3.ddv - 1065216
+9/23/1997 7:15:54 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\LP1C16C3.ddv - 1065216
+9/23/1997 7:15:56 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\LP1C3C15.ddv - 1065216
+9/23/1997 7:15:56 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\LP1C3C16.ddv - 1065216
+9/23/1997 7:15:58 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\LP5C3C4.ddv - 1065216
+9/23/1997 7:15:58 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\LP5C4C3.ddv - 1065216
+12/5/2008 2:10:00 AM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\manual.pdf - 2843059
+9/23/1997 7:16:02 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\Mollock.ddv - 5270016
+9/23/1997 7:16:44 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\moon.ddv - 29419584
+9/23/1997 7:16:58 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\PARAMITE.ddv - 5704512
+9/23/1997 7:17:06 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\PARSCAR.ddv - 6391296
+10/22/1997 3:16:44 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\r1.lvl - 20101120
+9/23/1997 7:17:08 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\R1P11P6.ddv - 1065216
+9/23/1997 7:17:12 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\R1p13p1.ddv - 7250944
+9/23/1997 7:17:18 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\r1p13p14.ddv - 7250944
+9/23/1997 7:17:22 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\r1p14p13.ddv - 7250944
+9/23/1997 7:17:30 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\R1p18p1.ddv - 7482208
+9/23/1997 7:17:32 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\R1P18P19.ddv - 1424960
+9/23/1997 7:17:32 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\R1P19P18.ddv - 1424960
+9/23/1997 7:17:38 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\R1P1P13.ddv - 7250944
+9/23/1997 7:17:42 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\R1p1p18.ddv - 7482208
+9/23/1997 7:17:44 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\R1P6P11.ddv - 1065216
+10/22/1997 3:19:20 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\r2.lvl - 46192640
+10/22/1997 3:19:54 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\r6.lvl - 8192000
+12/12/2008 5:10:22 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\README.TXT - 8723
+10/22/1997 3:16:06 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\s1.lvl - 10461184
+9/23/1997 7:17:48 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\Scrab.ddv - 5704512
+9/23/1997 7:17:50 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\ScrScar.ddv - 5590048
+11/29/2011 2:39:11 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\unins000.dat - 52411
+11/29/2011 2:38:07 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\unins000.exe - 2142547
+11/29/2011 2:39:11 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\unins000.ini - 76
+9/23/1997 7:17:50 PM - C:\Program Files (x86)\GOG.com\Abe's Oddysee\xaosopen.ddv - 1065216
+
+UAC Enabled
+
+
+VirtualStore Folders:
+11/29/2011 2:56:08 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Oddysee\RuptureFarms p16.sav - 8192
+11/29/2011 2:56:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Oddysee\RuptureFarms p16ada.sav - 8192
+
+Game Name: Oddworld: Abe's Oddysee
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Games\Steam\steamapps\common\oddworld abes oddysee
+
+Save Path: 
+C:\Games\Steam\steamapps\common\oddworld abes oddysee
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 15700
+Value: InstallLocation
+Data: c:\games\steam\steamapps\common\oddworld abes oddysee
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\IntelliType Pro\AppSpecific\AbeWin.exe
+Value: Path
+Data: C:\Games\Steam\steamapps\common\oddworld abes oddysee\AbeWin.exe
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\ABEMORPH.ddv - 5797952
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\AbeWin.exe - 1132032
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Badend.ddv - 9589280
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Barrels.ddv - 8183008
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Begin.ddv - 77410368
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\c1.lvl - 8298496
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1.lvl - 25114624
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1p1p2.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\D1P2P1.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1p3p4.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\D1P4P3.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1p6p7.ddv - 3739936
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\D1P7P6.ddv - 3739936
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1p9d2.ddv - 3158272
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2.lvl - 28200960
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10d7.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p5.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p6.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p7.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p9.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p1p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p2p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p2p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p3p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p3p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p4p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p4p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p5p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p5p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p6p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p6p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p7p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p7p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p8p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p8p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p9p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p9p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d7.lvl - 8914944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d7c11c12.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d7c12c11.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Drag.ddv - 11574880
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\e1.lvl - 21852160
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\E1P4C8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\e2.lvl - 10924032
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\E2P2R2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\empty.txt - 1
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\f1.lvl - 19484672
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1p1p2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P2P1.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P2P5.ddv - 710144
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P5P2.ddv - 710144
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P5P6.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P6P5.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P8P9.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1p9f2.ddv - 3251712
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P9P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\f2.lvl - 23816192
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P1P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P2P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P2P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2p3p8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2p3p8b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P4P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P4P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P5P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P5P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P6P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P6P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P7P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P7P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8F4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\f2p8p3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P5.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P6.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P7.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\f4.lvl - 9496576
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F4C11C13.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F4C13C11.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\GAMEBGN.ddv - 7015008
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Goodend.ddv - 28485184
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\gtddlogo.ddv - 4933632
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Halts.ddv - 6545472
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\l1.lvl - 20475904
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P1C14.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P1P2.ddv - 1401600
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P2P1.ddv - 1401600
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P2P3.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P3P2.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P5C4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P5P6.ddv - 1401600
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P6E2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P6P5.ddv - 1401600
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\li1p6e2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\logoint.ddv - 13560480
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP1C15C3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP1C16C3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP1C3C15.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP1C3C16.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP5C3C4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP5C4C3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Mollock.ddv - 5270016
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\moon.ddv - 29419584
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\PARAMITE.ddv - 5704512
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\PARSCAR.ddv - 6391296
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r1.lvl - 20101120
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P11P6.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1p13p1.ddv - 7250944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r1p13p14.ddv - 7250944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r1p14p13.ddv - 7250944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1p18p1.ddv - 7482208
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P18P19.ddv - 1424960
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P19P18.ddv - 1424960
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P1P13.ddv - 7250944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1p1p18.ddv - 7482208
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P6P11.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r2.lvl - 46192640
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r6.lvl - 8192000
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\s1.lvl - 10461184
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Scrab.ddv - 5704512
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\ScrScar.ddv - 5590048
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Test.sav - 8192
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\testapp.exe - 1132032
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\xaosopen.ddv - 1065216
+
+Install Folder Dump: 
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\ABEMORPH.ddv - 5797952
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\AbeWin.exe - 1132032
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Badend.ddv - 9589280
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Barrels.ddv - 8183008
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Begin.ddv - 77410368
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\c1.lvl - 8298496
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1.lvl - 25114624
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1p1p2.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\D1P2P1.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1p3p4.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\D1P4P3.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1p6p7.ddv - 3739936
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\D1P7P6.ddv - 3739936
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d1p9d2.ddv - 3158272
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2.lvl - 28200960
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10d7.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p5.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p6.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p7.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p10p9.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p1p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p2p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p2p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p3p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p3p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p4p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p4p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p5p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p5p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p6p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p6p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p7p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p7p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p8p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p8p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p9p10.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d2p9p10b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d7.lvl - 8914944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d7c11c12.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\d7c12c11.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Drag.ddv - 11574880
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\e1.lvl - 21852160
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\E1P4C8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\e2.lvl - 10924032
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\E2P2R2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\empty.txt - 1
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\f1.lvl - 19484672
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1p1p2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P2P1.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P2P5.ddv - 710144
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P5P2.ddv - 710144
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P5P6.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P6P5.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P8P9.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1p9f2.ddv - 3251712
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F1P9P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\f2.lvl - 23816192
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P1P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P2P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P2P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2p3p8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2p3p8b.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P4P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P4P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P5P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P5P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P6P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P6P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P7P8.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P7P8B.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8F4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\f2p8p3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P5.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P6.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F2P8P7.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\f4.lvl - 9496576
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F4C11C13.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\F4C13C11.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\GAMEBGN.ddv - 7015008
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Goodend.ddv - 28485184
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\gtddlogo.ddv - 4933632
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Halts.ddv - 6545472
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\l1.lvl - 20475904
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P1C14.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P1P2.ddv - 1401600
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P2P1.ddv - 1401600
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P2P3.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P3P2.ddv - 2111744
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P5C4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P5P6.ddv - 1401600
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P6E2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\L1P6P5.ddv - 1401600
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\li1p6e2.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\logoint.ddv - 13560480
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP1C15C3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP1C16C3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP1C3C15.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP1C3C16.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP5C3C4.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\LP5C4C3.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Mollock.ddv - 5270016
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\moon.ddv - 29419584
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\PARAMITE.ddv - 5704512
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\PARSCAR.ddv - 6391296
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r1.lvl - 20101120
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P11P6.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1p13p1.ddv - 7250944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r1p13p14.ddv - 7250944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r1p14p13.ddv - 7250944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1p18p1.ddv - 7482208
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P18P19.ddv - 1424960
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P19P18.ddv - 1424960
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P1P13.ddv - 7250944
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1p1p18.ddv - 7482208
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\R1P6P11.ddv - 1065216
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r2.lvl - 46192640
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\r6.lvl - 8192000
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\s1.lvl - 10461184
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Scrab.ddv - 5704512
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\ScrScar.ddv - 5590048
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\Test.sav - 8192
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\testapp.exe - 1132032
+C:\Games\Steam\steamapps\common\oddworld abes oddysee\xaosopen.ddv - 1065216
+
+UAC Enabled
+
+
+VirtualStore Folders: 

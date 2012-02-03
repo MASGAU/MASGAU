@@ -1,0 +1,118 @@
+Game Name: Saint's Row the Third
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Saint Row
+
+Save Path:
+C:\Users\Christophe\AppData\Local\SKIDROW
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Saint Row_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Saint Row
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Saint Row_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Saint Row\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Saint Row\Играть Saint Row.lnk
+C:\Program Files (x86)\Saint Row\Launcher.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Saint Row\Скачать еще игр.lnk
+C:\Program Files (x86)\Saint Row\Download more games.url
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Saint Row\Удалить Игру.lnk
+C:\Program Files (x86)\Saint Row\unins000.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/29/2011 2:39:53 AM - C:\Users\Christophe\AppData\Local\SKIDROW\55230\Storage\savedir.sr3d_pc - 608
+11/29/2011 2:39:53 AM - C:\Users\Christophe\AppData\Local\SKIDROW\55230\Storage\sr3def_profile - 16968
+11/29/2011 2:36:14 AM - C:\Users\Christophe\AppData\Local\SKIDROW\55230\Storage\sr3save_00.sr3s_pc - 108776
+11/29/2011 2:39:53 AM - C:\Users\Christophe\AppData\Local\SKIDROW\55230\Storage\sr3save_01.sr3s_pc - 108776
+
+Install Folder Dump:
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\binkw32.dll - 214016
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\capture.srtt_audiodump - 11
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\capture.srtt_framedump - 11
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\changelist.txt - 9
+11/29/2011 12:02:25 AM - C:\Program Files (x86)\Saint Row\display.ini - 3367
+3/27/2009 12:49:38 AM - C:\Program Files (x86)\Saint Row\Download more games.url - 199
+11/14/2011 9:28:10 PM - C:\Program Files (x86)\Saint Row\game_launcher.exe - 2216448
+4/4/2009 4:46:14 PM - C:\Program Files (x86)\Saint Row\ic.ico - 4286
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\installscript.vdf - 856
+11/17/2011 12:25:02 AM - C:\Program Files (x86)\Saint Row\Launcher.exe - 281088
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\launcher.vpp_pc - 929836
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\Readme_SaintsRowTheThird_RU.txt - 47822
+11/14/2011 1:42:13 PM - C:\Program Files (x86)\Saint Row\runasadmin.vdf - 877
+11/17/2011 12:25:02 AM - C:\Program Files (x86)\Saint Row\saintsrowthethird.exe - 16087552
+11/17/2011 12:25:02 AM - C:\Program Files (x86)\Saint Row\saintsrowthethird_dx11.exe - 70642176
+11/28/2011 11:57:35 PM - C:\Program Files (x86)\Saint Row\SKIDROW.ini - 252
+11/17/2011 12:25:02 AM - C:\Program Files (x86)\Saint Row\Steamclient.dll - 346624
+11/17/2011 12:25:02 AM - C:\Program Files (x86)\Saint Row\steam_api.dll - 122880
+11/28/2011 11:05:37 PM - C:\Program Files (x86)\Saint Row\unins000.dat - 19152
+11/28/2011 11:05:28 PM - C:\Program Files (x86)\Saint Row\unins000.exe - 723294
+11/14/2011 4:53:29 PM - C:\Program Files (x86)\Saint Row\viewed.dat - 1
+11/14/2011 1:18:38 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\characters.vpp_pc - 502018215
+11/14/2011 1:19:17 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\customize_item.vpp_pc - 583758060
+11/14/2011 1:19:17 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\customize_player.vpp_pc - 22686227
+11/14/2011 1:20:05 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\cutscenes.vpp_pc - 395255011
+11/14/2011 1:19:31 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\cutscene_sounds.vpp_pc - 193624064
+11/14/2011 1:19:31 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\cutscene_tables.vpp_pc - 791049
+11/14/2011 1:20:05 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\da_tables.vpp_pc - 516649
+11/14/2011 1:20:05 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\decals.vpp_pc - 281990
+11/14/2011 1:20:05 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\effects.vpp_pc - 44142
+11/14/2011 1:20:05 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\high_mips.vpp_pc - 2048
+11/14/2011 1:20:21 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\interface.vpp_pc - 279970084
+11/14/2011 1:20:21 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\interface_startup.vpp_pc - 844796
+11/14/2011 1:20:23 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\items.vpp_pc - 26807200
+11/14/2011 1:20:23 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\misc.vpp_pc - 10489840
+11/14/2011 1:20:23 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\misc_tables.vpp_pc - 5343916
+11/14/2011 1:20:23 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\player_morph.vpp_pc - 366903
+11/14/2011 1:20:24 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\preload_anim.vpp_pc - 17407448
+11/14/2011 1:20:24 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\preload_effects.vpp_pc - 5768250
+11/14/2011 1:20:25 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\preload_items.vpp_pc - 7741438
+11/14/2011 1:20:25 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\preload_rigs.vpp_pc - 515396
+11/14/2011 1:20:25 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\shaders.vpp_pc - 9468559
+11/14/2011 1:20:28 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\skybox.vpp_pc - 37513216
+11/14/2011 1:20:28 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\soundboot.vpp_pc - 4141080
+11/14/2011 1:20:48 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\sounds.vpp_pc - 284567368
+11/14/2011 1:21:33 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\sounds_common.vpp_pc - 653412352
+11/14/2011 1:20:28 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\sound_turbo.vpp_pc - 1274082
+11/14/2011 1:23:17 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\sr3_city_0.vpp_pc - 1502024767
+11/14/2011 1:26:03 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\sr3_city_1.vpp_pc - 2611376351
+11/14/2011 1:26:03 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\sr3_city_missions.vpp_pc - 58204
+11/14/2011 1:26:03 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\startup.vpp_pc - 8212
+11/14/2011 1:26:12 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\vehicles.vpp_pc - 121195966
+11/14/2011 1:26:12 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\vehicles_preload.vpp_pc - 2490525
+11/14/2011 1:27:31 PM - C:\Program Files (x86)\Saint Row\packfiles\pc\cache\voices.vpp_pc - 1391007744
+11/14/2011 1:27:31 PM - C:\Program Files (x86)\Saint Row\reslists\precache.lst - 656
+11/14/2011 1:27:31 PM - C:\Program Files (x86)\Saint Row\reslists\preload.lst - 656
+11/14/2011 1:27:37 PM - C:\Program Files (x86)\Saint Row\videos\01_crawl.bik - 96275476
+11/14/2011 1:27:37 PM - C:\Program Files (x86)\Saint Row\videos\02_out_atm.bik - 1161072
+11/14/2011 1:27:39 PM - C:\Program Files (x86)\Saint Row\videos\09_out_tv.bik - 13163868
+11/14/2011 1:27:39 PM - C:\Program Files (x86)\Saint Row\videos\13_out.bik - 589764
+11/14/2011 1:27:39 PM - C:\Program Files (x86)\Saint Row\videos\14_in_laptop.bik - 2194172
+11/14/2011 1:27:40 PM - C:\Program Files (x86)\Saint Row\videos\15_in_supercomputer_matt.bik - 17482052
+11/14/2011 1:27:41 PM - C:\Program Files (x86)\Saint Row\videos\20_in_pt2.bik - 15737812
+11/14/2011 1:27:44 PM - C:\Program Files (x86)\Saint Row\videos\22_choice.bik - 44264080
+11/14/2011 1:27:44 PM - C:\Program Files (x86)\Saint Row\videos\22_out1_bomb.bik - 322576
+11/14/2011 1:27:44 PM - C:\Program Files (x86)\Saint Row\videos\22_out2_mars.bik - 5961072
+11/14/2011 1:27:44 PM - C:\Program Files (x86)\Saint Row\videos\DK_SH01_powerplant.bik - 3004376
+11/14/2011 1:27:47 PM - C:\Program Files (x86)\Saint Row\videos\GenkiTutorial_v1.bik - 57623684
+11/14/2011 1:27:47 PM - C:\Program Files (x86)\Saint Row\videos\kinzie_typing.bik - 355084
+11/14/2011 1:27:50 PM - C:\Program Files (x86)\Saint Row\videos\logo_amd_hd.bik - 55453840
+11/14/2011 1:27:51 PM - C:\Program Files (x86)\Saint Row\videos\logo_thq_and_voli_hd.bik - 13622612
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\videos\main_menu_bg.bik - 287965040
+11/14/2011 1:28:10 PM - C:\Program Files (x86)\Saint Row\videos\MS_SH02_Jumbotron.bik - 1960556
+
+UAC Disabled or not present

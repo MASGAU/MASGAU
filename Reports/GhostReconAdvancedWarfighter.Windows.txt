@@ -1,0 +1,626 @@
+Comments:
+  <game name="GhostReconAdvancedWarfighter" platform="Steam">
+    <title>Ghost Recon: Advanced Warfighter</title>
+    <location_path environment_variable="steamcommon" path="ghost recon advanced warfighter\Settings" />
+    <save path="profiles" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Ghost Recon: Advanced Warfighter
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter
+
+Save Path: 
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\profiles
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-900820399-3332826203-2313936294-1000\{C8970513-225E-4FDC-A7D4-43D114A5560D}
+Value: ConfigApplicationPath
+Data: c:\program files (x86)\Steam\steamapps\common\ghost recon advanced warfighter
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-900820399-3332826203-2313936294-1000\{C8970513-225E-4FDC-A7D4-43D114A5560D}
+Value: AppExePath
+Data: c:\program files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\graw.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 13510
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\ghost recon advanced warfighter 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 13640
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\ghost recon advanced warfighter
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\SEGA\Ubisoft\Ghost Recon Advanced Warfighter
+Value: InstalledPath
+Data: c:\program files (x86)\steam\steamapps\common\ghost recon advanced warfighter
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\profiles\graw_profile_default\profile.xml - 3314
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\profiles\graw_profile_default\savegame_1.dsl - 131192
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\profiles\graw_profile_default\savegame_2.dsl - 141667
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\binkw32.dll - 347136
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\context-editor.xml - 1695
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\context-standalone.xml - 1488
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\context.xml - 1693
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\graw-standalone.exe - 8178176
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\graw.exe - 8777216
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\installscript.vdf - 2641
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\installscript.vdf.bak - 2631
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\libcurl.dll - 258048
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\msvcp71.dll - 499712
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\msvcp71d.dll - 765952
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\msvcr71.dll - 348160
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\msvcr71d.dll - 544768
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\NxCooking.dll - 307200
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\NxExtensions.dll - 90112
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\OpenAL32.dll - 86016
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\PhysXLoader.dll - 49152
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\testapp.exe - 8777216
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\testapp2.exe - 8178176
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\wrap_oal.dll - 262144
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Bundles\init_game.xml - 714
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Bundles\patch.bundle - 773413791
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Bundles\quick.bundle - 3067335923
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Custom_levels\Readme.txt - 218
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\API_COMIN_STR_SRI.BIK - 433448
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\API_HU1_TAK_SRI.BIK - 1376368
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\API_MA1_BRA_DAY.BIK - 162760
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\API_MA1_STR_DAY.BIK - 390216
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\API_MA1_TAK_NIG.BIK - 590884
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\API_MA1_TAK_SRI.BIK - 1056680
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\API_REL_STR_SRI.BIK - 1146144
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS01_01_JOE.BIK - 3470008
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS01_06_BUD.BIK - 1690548
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS01_09_JOE.BIK - 980260
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS01_11_BUD.BIK - 1542908
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS01_19_BUD.BIK - 890628
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS01_25_KEA.BIK - 2948772
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS01_33_BUD.BIK - 1181696
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_14_KEA.BIK - 4916256
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_21_CI4.BIK - 1576448
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_23_BUD.BIK - 1384992
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_25_KEA.BIK - 4404420
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_34_KEA.BIK - 1468596
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_40_CI4.BIK - 578216
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_42_CI4.BIK - 937792
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_59_BUD.BIK - 757720
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_68_BOW.BIK - 555960
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_74_SOL.BIK - 1048808
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_76_BUD.BIK - 1784268
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS02_85_CI4.BIK - 454940
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS03_10_BUD.BIK - 408760
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS03_24_KEA.BIK - 2234808
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS03_31_BUD.BIK - 1810816
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS03_35_BUD.BIK - 1858496
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS03_42_APA.BIK - 1126068
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS04_08_BUD.BIK - 869948
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS04_19_BUD.BIK - 711184
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS04_21_CI1.BIK - 1724572
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS04_27_CI1.BIK - 1588068
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS04_31_CI1.BIK - 632776
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS04_36_CI1.BIK - 2362624
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS05_08_BUD.BIK - 934916
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS05_10_BUD.BIK - 421636
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS05_13_BUD.BIK - 5907500
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS05_31_BUD.BIK - 2604736
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS05_49_BUD.BIK - 619048
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS06_04_CI1.BIK - 1130956
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS06_06_BUD.BIK - 2075408
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS06_18_CI1.BIK - 1902352
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS06_31_BUD.BIK - 1467440
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS06_34_FOS.BIK - 1825228
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS06_48_KEA.BIK - 6343848
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_05_BRA.BIK - 274080
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_12_SAL.BIK - 1291320
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_20_KEA.BIK - 3274388
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_24_BRA.BIK - 805364
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_28_CI1.BIK - 665192
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_62_BAR.BIK - 2265804
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_72_BUD.BIK - 1162464
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_74_KEA.BIK - 1034872
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS08_76_CI1.BIK - 863068
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS09_09_BAR.BIK - 2123392
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS09_12_BUD.BIK - 471416
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS09_31_BUD.BIK - 569920
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS10_14_CI1.BIK - 1241152
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS11_01_CI1.BIK - 3222308
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS11_20_KEA.BIK - 2250424
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS11_25_CI1.BIK - 1116356
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS11_55_KEA.BIK - 1526472
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS12_20_CAR.BIK - 804428
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS12_22_CI1.BIK - 1921732
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_MIS12_31_CI1.BIK - 1522400
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS01_05_Jen.bik - 3920248
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS02_04_JEN.BIK - 7011960
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS03_04_Bud.bik - 3941840
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS04_07_REE.BIK - 2341368
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS05_01_KEA.BIK - 4347648
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS05_09_JEN.BIK - 1557440
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS05_13_APA.BIK - 1340880
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS05_15_APA.BIK - 3918152
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS06_06_BAR.BIK - 5703888
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS08_01_KEA.BIK - 6778096
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS09_01_Ci1.bik - 7401988
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS10_02_Ree.bik - 6400584
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS11_01_CI1.BIK - 8792520
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS12_08_Bud.bik - 10971400
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\AV_SAS13_01_Bar.bik - 7642972
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_HU1_BHK_SRI.BIK - 1610760
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_HU2_BHK_DAY.bik - 1364736
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_HU2_BHK_DAY_1.BIK - 3191468
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_HU3_BHK_NIG.BIK - 1787444
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN1_BHK_RP_SRI.bik - 577504
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN1_BHK_SRI.BIK - 3344080
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN1_BHK_SRI_2.BIK - 4069032
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN1_BHK_SRI_3.BIK - 3357492
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN2_BHK_DAY.BIK - 2340320
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN2_BHK_DAY_1.BIK - 4195624
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN2_BHK_DAY_2.BIK - 2183872
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN3_BHK_NIG.BIK - 2334652
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN3_BHK_NIG_1.BIK - 3224216
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN3_BHK_NIG_2.BIK - 3506444
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN3_BHK_NIG_3.BIK - 2804684
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_IN4_BHK_DAY.BIK - 590500
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_MA1_BHK_SRI.BIK - 4300988
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_MA1_BHK_SRI_1.BIK - 1240052
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_MA2_BHK_DAY.BIK - 2180332
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_MA2_BHK_DAY_1.BIK - 1326112
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_MA2_BHK_DAY_2.BIK - 1535824
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_MA3_BHK_NIG.BIK - 2323380
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_MA3_BHK_NIG_1.BIK - 2309320
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_MA4_BHK_DAY.BIK - 2911476
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_OUT_BTA_DAY.BIK - 663588
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_OUT_BTA_NIG.BIK - 652924
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\BAL_OUT_BTA_SRI.BIK - 663572
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\CON_MA1_ALP_SRI.BIK - 1531624
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\CON_MA2_ALP_SRI.BIK - 1525520
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\CON_NER_ALP_SRI.BIK - 1501576
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\DFO_MA1_CHA_SRI.BIK - 2312092
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GKE_DEA_PLA_NLI.BIK - 2985396
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GKE_DEA_VIP_NLI.BIK - 3270864
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GKE_IN1_CCE_NLI.bik - 2250496
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GMA_HU1_ALP_SRI.BIK - 2421452
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GMA_HU3_ALP_DAY.BIK - 1543268
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GMA_IN1_ALP_SRI.BIK - 4360816
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GMA_IN2_ALP_NIG.BIK - 2324084
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GMA_MA1_ALP_SRI.BIK - 3301748
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GMA_MA2_ALP_NIG.BIK - 1511072
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\GRAW_HDEU.BIK - 5216332
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\grin_logo.bik - 1819708
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\HPI_COMIN_APA_DAY.BIK - 421900
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\hpi_pro2_apa_day.bik - 2417004
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\hpI_pro2_bhk_day.bik - 2416820
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\HPI_PRO_APA_DAY.BIK - 819424
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\HPI_PRO_BHK_DAY.BIK - 581264
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\JRO_IN3_BHK_SRI.BIK - 3265288
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\JRO_VN1_BHK_SRI.BIK - 2068512
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\loading_logo_spin.bik - 311400
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\MAB_OVE_INS_NLI.BIK - 1267804
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\MAB_PRO_INS_NLI.BIK - 1345632
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\MBA_INV_CCE_NLI.BIK - 1196052
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\MBA_PR1_CCE_NLI.BIK - 1400396
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\MBA_PR2_CCE_NLI.BIK - 884972
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\menu_campaign.bik - 15004388
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\menu_main.bik - 22165000
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\menu_options.bik - 10902348
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\menu_sub.bik - 4937260
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\MKM_TE2_ALP_SRI.BIK - 907812
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\NSA_HUR_GEN_DAY.BIK - 1696464
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\SIGNATURE.BIK - 9429056
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\SOL_PRO_ALP_SRI.BIK - 541392
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\SRI_HUR_ALP_DAY.BIK - 1534152
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\Steve_Calme1.bik - 2211608
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\Steve_Calme2.bik - 2194628
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\Steve_Decontracte1.bik - 2223868
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\Steve_Stresse1.bik - 2191412
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS01_scott.00.bik - 752132
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS02_09_PLA.BIK - 3440016
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS02_61_PLA.BIK - 1752672
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS02_64_PLA.BIK - 974952
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS03_17_PLA.BIK - 1531888
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS03_19_PLA.BIK - 897220
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS08_36_PLA.BIK - 885160
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS08_40_PLA.BIK - 758624
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS08_49_PLA.BIK - 2042976
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS08_52_PLA.BIK - 384024
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS08_56_PLA.BIK - 2190256
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS09_27_PLA.BIK - 1744628
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS10_02_PLA.BIK - 1501012
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS10_18_PLA.BIK - 1798580
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_MIS10_23_PLA.BIK - 2386936
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\TRT_SAS04_15_CI1.BIK - 2921756
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\UsArmyGunner_tensed_02.bik - 2416876
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\UsArmyMech_professional.bik - 2416788
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\usrifleman_hurry_01.bik - 2411976
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\movies\ustanklead_professional_01.bik - 2417196
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\settings\emea.txt - 0
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\settings\renderer_settings.xml - 3006
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\settings\sound_settings.xml - 177
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\settings.xml - 32733
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\settings.xml.bin - 27133
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\character\breathing\breathing_wave.bank - 605844
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\character\fastrope\fastrope_wave.bank - 144996
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\character\foley\foley_wave.bank - 7788408
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\character\skydive\skydive_wave.bank - 1873824
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\aa\aa_wave.bank - 1153380
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ac\ac_wave.bank - 14712
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ad_pillar\ad_pillar_wave.bank - 149460
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_city_day\ambience_city_day_wave.bank - 3108636
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_city_night\ambience_city_night_wave.bank - 3171492
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_historical_day\ambience_historical_day_wave.bank - 3476616
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_industrial_day\ambience_industrial_day_wave.bank - 4917468
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_military_war\ambience_military_war_wave.bank - 1666920
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_park_night\ambience_park_night_wave.bank - 1799052
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_shanty_morning\ambience_shanty_morning_wave.bank - 2258052
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_shanty_war\ambience_shanty_war_wave.bank - 2313852
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ambience_shore_day\ambience_shore_day_wave.bank - 1209144
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\barrel\barrel_wave.bank - 76860
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\birds\birds_wave.bank - 174588
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\birds_night\birds_night_wave.bank - 205344
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\box\box_wave.bank - 178740
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\branch\branch_wave.bank - 49200
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\cafe_chair\cafe_chair_wave.bank - 17040
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\cafe_table\cafe_table_wave.bank - 25944
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\circuitbox\circuitbox_wave.bank - 42888
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\cistern\cistern_wave.bank - 61152
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\clay_props\clay_props_wave.bank - 159072
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\container\container_wave.bank - 366756
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\crickets\crickets_wave.bank - 28428
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\debris\debris_wave.bank - 368604
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\drainage\drainage_wave.bank - 97764
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\factory\factory_wave.bank - 57936
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\fire\fire_wave.bank - 391128
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\flies\flies_wave.bank - 2116876
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\foliage\foliage_wave.bank - 588384
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\fountain_large\fountain_large_wave.bank - 666428
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\frogs\frogs_wave.bank - 83184
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\glass\glass_wave.bank - 273828
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\hangar\hangar_wave.bank - 406584
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\lightbulb\lightbulb_wave.bank - 49140
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ocean\ocean_wave.bank - 269100
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\parkingmeter\parkingmeter_wave.bank - 106356
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\radio\radio_wave.bank - 12931788
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\rooftop\rooftop_noise_wave.bank - 528852
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\ruins\ruins_wave.bank - 407556
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\scrambler\scrambler_wave.bank - 360600
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\seagulls\seagulls_wave.bank - 257040
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\environment\tunnel\tunnel_wave.bank - 124104
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\hudandmenu\hudandmenu_wave.bank - 1062876
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\01\mission01_wave.bank - 2213592
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\02\mission02_wave.bank - 1576530
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\03\mission03_wave.bank - 2721044
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\04\mission04_wave.bank - 2232564
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\05\mission05_wave.bank - 504084
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\06\mission06_wave.bank - 88032
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\08\mission08_wave.bank - 824616
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\09\mission09_wave.bank - 5259904
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\11\mission11_wave.bank - 128652
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\missions\12\mission12_wave.bank - 217188
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\music\act01\music_act01_wave.bank - 14842944
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\music\act02\music_act02_wave.bank - 14417064
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\music\act03\music_act03_wave.bank - 19167504
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\music\menu_music\menu_music_wave.bank - 18639744
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\abrams\abrams_wave.bank - 1930164
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\apache\apache_wave.bank - 786912
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\blackhawk\blackhawk_wave.bank - 1341472
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\car\car_wave.bank - 1744692
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\f15\f15_wave.bank - 1055448
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\hemit\hemit_wave.bank - 480828
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\hercules\hercules_wave.bank - 2761212
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\mi28\mi28_wave.bank - 597216
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\panhard\panhard_wave.bank - 517320
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\petrol_truck\petrol_truck_wave.bank - 764172
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\sam\sam_wave.bank - 210912
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\stryker\stryker_wave.bank - 1547712
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\uav\uav_wave.bank - 608208
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\vehicles\vehicle_music\vehicle_music.bank - 1228308
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\allen\allen_wave.bank - 17467800
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\apache_speech\apache_speech_wave.bank - 2483532
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\artillery_speech\artillery_speech_wave.bank - 194916
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\brown\brown_wave.bank - 17043300
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\drone_speech\drone_speech_wave.bank - 129708
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\elite\elite_wave.bank - 14271096
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\f15_speech\f15_speech_wave.bank - 409692
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\guerrillo1\guerrillo1_wave.bank - 9637296
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\guerrillo2\guerrillo2_wave.bank - 10213332
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\kirkland\kirkland_wave.bank - 17489424
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\marine1\marine1_wave.bank - 9184872
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\marine2\marine2_wave.bank - 8261364
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\marine3\marine3_wave.bank - 9345084
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\mitchell\mitchell_wave.bank - 13890624
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\system\system_voices_wave.bank - 279312
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\system_mp\system_mp_wave.bank - 413760
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\voices\tank_speech\tank_speech_wave.bank - 2429256
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\0460bullet\0460bullet_wave.bank - 23604
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\0500bullet\0500bullet_wave.bank - 23604
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\0556bullet\0556bullet_wave.bank - 207720
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\0762bullet\0762bullet_wave.bank - 129264
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\0900bullet\0900bullet_wave.bank - 77640
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\1270bullet\1270bullet_wave.bank - 55260
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\50cal\50cal_wave.bank - 698556
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\barrett\barrett_wave.bank - 746444
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\barrett\barrett_wave_3rd.bank - 93576
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\barrett\barrett_wave_share.bank - 225276
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\beretta\beretta_wave.bank - 2018432
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\beretta\beretta_wave_3rd.bank - 502728
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\beretta\beretta_wave_share.bank - 266484
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\bullet_hits\bullet_hits_wave.bank - 5564172
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\c4\c4_wave.bank - 30300
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\crye\crye_wave.bank - 3157698
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\crye\crye_wave_3rd.bank - 639696
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\crye\crye_wave_share.bank - 502620
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\foley_bazooka\foley_bazooka_wave.bank - 15420
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\foley_pistol\foley_pistol_wave.bank - 14352
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\foley_rifle\foley_rifle_wave.bank - 17376
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\foley_support\foley_support_wave.bank - 94908
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\g36\g36_wave_3rd.bank - 1281708
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\glock\glock_wave.bank - 1845854
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\glock\glock_wave_3rd.bank - 574344
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\glock\glock_wave_share.bank - 252732
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\grenade\grenade_frag_wave.bank - 197112
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\grenade\grenade_smoke_wave.bank - 173664
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\grenade\grenade_wave_share.bank - 255384
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\grenadelauncher\grenadelauncher_wave.bank - 233040
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\grenadelauncher\grenadelauncher_wave_3rd.bank - 123684
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\grenadelauncher\grenadelauncher_wave_share.bank - 361248
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\grenadethrower\grenadethrower_wave.bank - 165552
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\hk21\hk21e_wave_3rd.bank - 19704
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\hk21\hk21_wave.bank - 13296
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\hk21\hk21_wave_share.bank - 476256
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\m8\m8_wave.bank - 1673964
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\m8\m8_wave_3rd.bank - 736572
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\m8\m8_wave_share.bank - 457296
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\mag_carbine\mag_carbine_wave.bank - 5016
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\mag_pistol\mag_pistol_wave.bank - 5052
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\minigun\minigun_wave.bank - 342528
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\mk19\mk19_wave.bank - 533760
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\mortar\mortar_wave.bank - 3126652
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\mp5\mp5_silenced_wave.bank - 290452
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\mp5\mp5_silenced_wave_3rd.bank - 128964
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\mp5\mp5_silenced_wave_share.bank - 94164
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\predator\predator_wave.bank - 557052
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\predator\predator_wave_3rd.bank - 36708
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\predator\predator_wave_share.bank - 528252
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\psg1\psg1_wave_3rd.bank - 298968
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\rpg7\rpg7_wave_3rd.bank - 461220
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\saw\saw_wave.bank - 2176190
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\saw\saw_wave_3rd.bank - 579900
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\saw\saw_wave_share.bank - 186180
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\scar556\scar556_wave.bank - 2711580
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\scar556\scar556_wave_3rd.bank - 1113108
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\scar556\scar556_wave_share.bank - 674868
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\scar762\scar762_wave.bank - 3076238
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\scar762\scar762_wave_3rd.bank - 1203120
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Data\sound\weapons\scar762\scar762_wave_share.bank - 507324
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Apr2005_d3dx9_25_x64.cab - 1348242
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Apr2005_d3dx9_25_x86.cab - 1079850
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Aug2005_d3dx9_27_x64.cab - 1351430
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Aug2005_d3dx9_27_x86.cab - 1078532
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\BDA.cab - 703080
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\BDANT.cab - 1156363
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\BDAXP.cab - 976020
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Dec2005_d3dx9_28_x64.cab - 1358864
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Dec2005_d3dx9_28_x86.cab - 1080344
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Dec2005_MDX1_x86.cab - 916806
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Dec2005_MDX1_x86_Archive.cab - 3673932
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\DirectX.cab - 15493481
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\DSETUP.dll - 74448
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\dsetup32.dll - 2247888
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\dxdllreg_x86.cab - 41888
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\dxnt.cab - 13265040
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\DXSETUP.exe - 484560
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\dxupdate.cab - 81092
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Feb2005_d3dx9_24_x64.cab - 1248387
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Feb2005_d3dx9_24_x86.cab - 1014113
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Jun2005_d3dx9_26_x64.cab - 1336890
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Jun2005_d3dx9_26_x86.cab - 1065813
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Oct2005_xinput_x64.cab - 86925
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\DirectX\Oct2005_xinput_x86.cab - 46247
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\physx\AGEIA_PhysX_2.3.3_FC4.exe - 6272802
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\ctrl_set_def.xml - 3894
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\ctrl_set_def.xml.bin - 2626
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\defaults.xml - 151
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\defaults.xml.bin - 128
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\default_mp_weapon_kits.xml - 1343
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\mpid.txt - 76
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\servers_shared.xml - 555
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\weapon_ids.txt - 1438
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\profiles\graw_profile_default\profile.xml - 3314
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\profiles\graw_profile_default\savegame_1.dsl - 131192
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Settings\profiles\graw_profile_default\savegame_2.dsl - 141667
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor Known Issues.txt - 2908
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\EULA Map Editor GRAW.doc - 44544
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\GRAW Dedicated Server Usage.txt - 1900
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Server commands.htm - 20481
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Editor Usage Tutorial.htm - 37505
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_atlasgen.html - 23170
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_custom contents_overview.html - 37711
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_exporter_readme.htm - 3752
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\GRAW_landscape.htm - 22539
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\Landscape_tutorial_max7.max - 1156096
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\vertex_color.jpg - 52082
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\data\levels\custom_levels\your_level\texture_scope.xml - 858
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\data\levels\custom_levels\your_level\texture_scope.xml.bak - 873
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\data\objects\city\custom_level\custom_level_landscape.xml - 1178
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\data\objects\city\custom_level\custom_level_landscape.xml.bak - 1149
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\data\objects\city\custom_level\materials.xml - 984
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\data\objects\city\custom_level\materials.xml.bak - 1070
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ how to add your own custom terrain\data\units\city\u_custom_level.xml - 473
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\GRAW_how to make a prop01.htm - 15004
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\GRAW_how to make a prop02.htm - 22302
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\GRAW_how to make a prop03.htm - 31766
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\GRAW_how to make a prop04.htm - 25423
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\GRAW_how to make a prop05.htm - 23326
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\GRAW_how to make a prop06.htm - 8275
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\object tutorial 01_export me if you want to!.max - 68608
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\data\objects\props\wall\materials.xml - 130
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\data\objects\props\wall\wall.diesel - 27661
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\data\objects\props\wall\wall.xml - 772
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\data\objects\props\wall\wall_df.tga - 4194348
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\data\units\props\u_wall.xml - 402
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\images\image001.jpg - 69588
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\images\image003.jpg - 48293
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\images\image005.jpg - 20242
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\images\image006.jpg - 7219
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\images\image007.gif - 45221
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\images\units_setup1.gif - 8241
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\images\units_setup2.gif - 10037
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\atlasgen.exe - 3594752
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\create all of your atlas xmls in this folder to make it easier in the future! - 0
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\FreeImage.dll - 1048576
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\input.bat - 662
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\license-fi.txt - 17577
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\wall_atlas.xml - 218
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\bump\put your TGA normalmaps in here! - 0
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\diffuse\put your TGA Diffusemaps in here! - 0
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add a lightmapped prop and textures\my_textures\diffuse\wall_df.tga - 4194348
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\GRAW how to add damage to your model.max - 74752
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\GRAW_how to add damage to your prop01.htm - 12478
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\GRAW_how to add damage to your prop02.htm - 10032
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\GRAW_how to add damage to your prop03.htm - 32068
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\data\objects\props\pot\materials.xml - 120
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\data\objects\props\pot\pot.diesel - 104498
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\data\objects\props\pot\pot.xml - 2350
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\data\units\props\u_pot.xml - 371
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\images\1.jpg - 89563
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\images\2.jpg - 73214
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\images\3.jpg - 47525
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\images\4.jpg - 38270
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\images\5.jpg - 52309
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add damage models to your prop\images\6.jpg - 68765
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p1.htm - 15678
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p2.htm - 10971
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p3.htm - 13449
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p4.htm - 11837
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p5.htm - 26197
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p6.htm - 27651
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p2-filer\filelist.xml - 268
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p2-filer\image001.jpg - 58407
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p2-filer\image002.jpg - 71272
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p2-filer\image004.jpg - 22585
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p3-filer\filelist.xml - 236
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p3-filer\image001.jpg - 169746
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to add your own building\How to get a building into graw_p3-filer\image002.jpg - 59530
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\Graw_how to create a new weapon.htm - 60494
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image001.jpg - 83663
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image002.jpg - 19298
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image003.jpg - 62960
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image004.jpg - 10146
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image005.jpg - 142769
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image006.jpg - 6474
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image007.jpg - 211135
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image008.jpg - 7830
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image009.jpg - 144026
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how to create a new weapon\images\image010.jpg - 19188
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_how_to_make_custom_characters\GRAW - Adding new characters.htm - 24519
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_hud_weapon_icons\GRAW - Making a HUD weapon icon.htm - 26825
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_ogr coop level tutorial\GRAW ogr coop tutorial.htm - 87851
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\characters\ghost_lead.max - 1614336
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\characters\mexican_army_rifleman.max - 655872
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\characters\mex_mp.max - 976896
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\characters\ragdoll_pose_skeleton.max - 413184
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\characters\std_skin_pose_skeleton.max - 451072
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\house\ghe_l_block_01.max - 2518016
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\house\mp_tequila_factory.max - 6345216
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\house\residence_medium_02_x.max - 2823680
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\hud_icon\hud_aimlines_1_op.tga - 8236
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\hud_icon\hud_scar_l.max - 84992
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\props\AReset_commercial_pillar11.max - 250368
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\props\trashcan_lod_10_wreck08.max - 398336
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\vehicle\AReset_hemtt15.max - 4341760
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\vehicle\AReset_hemtt_wreck_maxexport_05.max - 2857472
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\barrett.max - 179712
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\barrett_mag.max - 267264
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\beretta.max - 173568
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\beretta_mag.max - 222720
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\frag.max - 115712
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\mp5sd.max - 197120
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\mp5sd_mag.max - 319488
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\scarl.max - 196608
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_Sample models_3dsmax7\weapon\scarl_mag.max - 265728
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_sounds tutorials\How to create a new soundbank setup.htm - 12423
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\GRAW_sounds tutorials\How to edit an excisting soundbank.htm - 28969
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\filelist.xml - 1542
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image001.jpg - 379151
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image002.jpg - 29181
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image003.jpg - 313330
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image004.jpg - 23932
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image005.jpg - 442925
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image006.jpg - 36649
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image007.jpg - 460718
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image008.jpg - 11231
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image009.png - 490839
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image010.jpg - 10744
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image011.jpg - 827635
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image012.jpg - 64202
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image013.jpg - 826330
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image014.jpg - 64396
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image015.jpg - 855213
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image016.jpg - 66840
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image017.jpg - 597108
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image018.jpg - 45831
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image019.jpg - 596274
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image020.jpg - 49506
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image021.jpg - 639132
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image022.jpg - 48757
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image023.jpg - 665337
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image024.jpg - 50251
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image025.jpg - 787018
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image026.jpg - 58746
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image027.jpg - 648087
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image028.jpg - 51439
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image029.jpg - 645446
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image030.jpg - 50696
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image031.jpg - 647200
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image032.jpg - 50645
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image033.jpg - 854682
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image034.jpg - 65801
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image035.jpg - 873624
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image036.jpg - 64232
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image037.jpg - 759833
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image038.jpg - 53230
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image039.png - 671897
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image040.jpg - 41359
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image041.jpg - 514843
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image042.jpg - 43047
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image043.jpg - 874170
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Editor tutorials\Tutorial_files\image044.jpg - 65912
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\AdbeRdr707_en_US.exe - 21254280
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\GRAW_PC_Manuel_FR.pdf - 690870
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\GRAW_PC_Manuel_GER.pdf - 801150
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\GRAW_PC_Manuel_IT.pdf - 680303
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\GRAW_PC_Manuel_SP.pdf - 687296
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\GRAW_PC_Manuel_UK.pdf - 669208
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\GR_30875_PCS_MNL.pdf - 4054559
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\ReadmeENG.txt - 33539
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\ReadmeFRA.txt - 37915
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\ReadmeGER.txt - 39007
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\ReadmeITA.txt - 37788
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Manual\ReadmeSPA.txt - 39069
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\Support\Register\RegistrationReminder.exe - 868352
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\tools\atlasgen.exe - 3594752
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\tools\bundler.exe - 2861568
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\tools\FreeImage.dll - 1048576
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\tools\KeyHasher.exe - 249856
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\tools\license-fi.txt - 17577
+C:\Program Files (x86)\Steam\steamapps\common\ghost recon advanced warfighter\tools\maxexporter.dle - 3133440
+
+UAC Disabled or not present
+

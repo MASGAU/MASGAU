@@ -1,0 +1,199 @@
+Comments:
+  <game name="Precursors">
+    <title>Precursors</title>
+    <location_path environment_variable="public" path="Documents\Precursors" windows_version="Vista" />
+    <location_path environment_variable="allusersprofile" path="Documents\Precursors" windows_version="XP" />
+    <save path="INI" />
+    <save path="SAVE" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+
+Game Name: Precursors
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Precursors
+
+Save Path: 
+C:\Users\Public\Documents\Precursors
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DEE7BEAE-7E08-4EB3-A146-3EF2EF7C23FB}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Precursors
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DEE7BEAE-7E08-4EB3-A146-3EF2EF7C23FB}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Precursors\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Precursors\Precursors.lnk
+C:\Program Files (x86)\Precursors\Precursors.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Precursors\Uninstall Precursors.lnk
+C:\Program Files (x86)\Precursors\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\Public\Documents\Precursors\CACHE\SPACEMAP.DAT - 202328
+C:\Users\Public\Documents\Precursors\CACHE\UICODECACHE.DAT - 196008
+C:\Users\Public\Documents\Precursors\INI\CONTROLSETTINGS.INI - 1954
+C:\Users\Public\Documents\Precursors\INI\ENGINESETTINGS.INI - 7458
+C:\Users\Public\Documents\Precursors\INI\GAME.INI - 1778
+C:\Users\Public\Documents\Precursors\INI\SOUNDOPTIONS.INI - 300
+C:\Users\Public\Documents\Precursors\INI\VIDEOOPTIONS.INI - 6862
+C:\Users\Public\Documents\Precursors\INI\VIDEOPLAYED.INI - 95
+C:\Users\Public\Documents\Precursors\LOGS\CONSOLE.LOG - 50318
+C:\Users\Public\Documents\Precursors\SAVE\QUICKSAVE1.BIN - 984182
+C:\Users\Public\Documents\Precursors\SAVE\QUICKSAVE2.BIN - 1016477
+C:\Users\Public\Documents\Precursors\SAVE\QUICKSAVE3.BIN - 937134
+C:\Users\Public\Documents\Precursors\SCREENS\SCREEN00.JPG - 886833
+
+Install Folder Dump: 
+C:\Program Files (x86)\Precursors\dbghelp.dll - 1045128
+C:\Program Files (x86)\Precursors\DSETUP.dll - 76808
+C:\Program Files (x86)\Precursors\DX9RENDER.dll - 1691648
+C:\Program Files (x86)\Precursors\game.dll - 1826816
+C:\Program Files (x86)\Precursors\game.ini - 146
+C:\Program Files (x86)\Precursors\game.pdb - 8915968
+C:\Program Files (x86)\Precursors\gamedll.lst - 16
+C:\Program Files (x86)\Precursors\game_space.dll - 659456
+C:\Program Files (x86)\Precursors\game_space.pdb - 4705280
+C:\Program Files (x86)\Precursors\GFManager.dlv - 1822720
+C:\Program Files (x86)\Precursors\ImageProcessor.dlv - 544768
+C:\Program Files (x86)\Precursors\libogg-0.dll - 65536
+C:\Program Files (x86)\Precursors\libtheoradec.dll - 115640
+C:\Program Files (x86)\Precursors\LOAD_ERRORS.DBG - 157480
+C:\Program Files (x86)\Precursors\Particles.dlv - 176128
+C:\Program Files (x86)\Precursors\Particles2.dlv - 401408
+C:\Program Files (x86)\Precursors\Precursors.exe - 2341596
+C:\Program Files (x86)\Precursors\Precursors.exe.old - 1081344
+C:\Program Files (x86)\Precursors\Precursors.ico - 9062
+C:\Program Files (x86)\Precursors\ProceduralTextures.dlv - 262144
+C:\Program Files (x86)\Precursors\PropertyGrid.dlv - 278528
+C:\Program Files (x86)\Precursors\protect.dll - 2750888
+C:\Program Files (x86)\Precursors\protect.exe - 536928
+C:\Program Files (x86)\Precursors\protect.x64 - 3002400
+C:\Program Files (x86)\Precursors\protect.x86 - 73632
+C:\Program Files (x86)\Precursors\resource.qrc - 6670299
+C:\Program Files (x86)\Precursors\ScriptEngine.dlv - 245760
+C:\Program Files (x86)\Precursors\SHADERLIB.dlv - 1622016
+C:\Program Files (x86)\Precursors\tbb.dll - 77824
+C:\Program Files (x86)\Precursors\tbbmalloc.dll - 11264
+C:\Program Files (x86)\Precursors\tbbmalloc_debug.dll - 73728
+C:\Program Files (x86)\Precursors\tbb_debug.dll - 249856
+C:\Program Files (x86)\Precursors\tweaks.dlv - 497152
+C:\Program Files (x86)\Precursors\unins000.dat - 19273
+C:\Program Files (x86)\Precursors\unins000.exe - 1197507
+C:\Program Files (x86)\Precursors\VEDebug.dll - 122880
+C:\Program Files (x86)\Precursors\VELoader.dll - 225280
+C:\Program Files (x86)\Precursors\VELoader.dll.old - 204800
+C:\Program Files (x86)\Precursors\VERENDER3.dll - 917504
+C:\Program Files (x86)\Precursors\vital.dll - 4182016
+C:\Program Files (x86)\Precursors\vital.dll.old - 2490368
+C:\Program Files (x86)\Precursors\vital.pdb - 10259456
+C:\Program Files (x86)\Precursors\XenusModels.dlv - 274432
+C:\Program Files (x86)\Precursors\XMLParser.dlv - 81920
+C:\Program Files (x86)\Precursors\CACHE\PC\SHADER_CODE_CACHE.DAT - 3382812
+C:\Program Files (x86)\Precursors\ini\ControlSettings.ini - 1045
+C:\Program Files (x86)\Precursors\ini\CONTROLSETTINGS_DEF.INI - 1045
+C:\Program Files (x86)\Precursors\ini\EngineSettings.ini - 7458
+C:\Program Files (x86)\Precursors\ini\en_US.aff - 2727
+C:\Program Files (x86)\Precursors\ini\en_US.dic - 695865
+C:\Program Files (x86)\Precursors\ini\FileSystem.ini - 237
+C:\Program Files (x86)\Precursors\ini\frmObjList.pos - 847
+C:\Program Files (x86)\Precursors\ini\Game.ini - 1778
+C:\Program Files (x86)\Precursors\ini\Interface.ini - 1601
+C:\Program Files (x86)\Precursors\ini\LeveditColors.ini - 1651
+C:\Program Files (x86)\Precursors\ini\LeveditForms.xml - 1105
+C:\Program Files (x86)\Precursors\ini\LeveditPlugins.ini - 429
+C:\Program Files (x86)\Precursors\ini\leveditplugin_ukr.lng - 3296
+C:\Program Files (x86)\Precursors\ini\LeveditSettings.ini - 18698
+C:\Program Files (x86)\Precursors\ini\LeveditShortCuts.ini - 7965
+C:\Program Files (x86)\Precursors\ini\LeveditVideoOptions.ini - 206
+C:\Program Files (x86)\Precursors\ini\LevelObjListForm.pos - 402
+C:\Program Files (x86)\Precursors\ini\LevLauncher.ini - 239
+C:\Program Files (x86)\Precursors\ini\lighting.ini - 16432
+C:\Program Files (x86)\Precursors\ini\lvScenarioData.pos - 550
+C:\Program Files (x86)\Precursors\ini\mapplanner_ua.lng - 2060
+C:\Program Files (x86)\Precursors\ini\MapTiles.xml - 10875
+C:\Program Files (x86)\Precursors\ini\qre.dat - 2021
+C:\Program Files (x86)\Precursors\ini\qre_rus.lng - 8646
+C:\Program Files (x86)\Precursors\ini\qre_ua.lng - 8601
+C:\Program Files (x86)\Precursors\ini\RF2View.ini - 8651
+C:\Program Files (x86)\Precursors\ini\ru_RU.aff - 28062
+C:\Program Files (x86)\Precursors\ini\ru_RU.dic - 1726017
+C:\Program Files (x86)\Precursors\ini\soundoptions.ini - 300
+C:\Program Files (x86)\Precursors\ini\terrainmap.ini - 1320
+C:\Program Files (x86)\Precursors\ini\UIEditor.ini - 38
+C:\Program Files (x86)\Precursors\ini\VDT.pos - 1629
+C:\Program Files (x86)\Precursors\ini\VideoOptions.ini - 6709
+C:\Program Files (x86)\Precursors\ini\videoplayed.ini - 95
+C:\Program Files (x86)\Precursors\ini\Vital.ini - 34
+C:\Program Files (x86)\Precursors\LEV\ALIEN\ALIEN.WLD - 1120351
+C:\Program Files (x86)\Precursors\packages\gf_cache.grp - 4247581195
+C:\Program Files (x86)\Precursors\packages\gf_common.grp - 445204750
+C:\Program Files (x86)\Precursors\packages\gf_sounds.grp - 460091228
+C:\Program Files (x86)\Precursors\packages\lev_0.grp - 7392256
+C:\Program Files (x86)\Precursors\packages\lev_1.grp - 961886359
+C:\Program Files (x86)\Precursors\packages\lev_2.grp - 15756068
+C:\Program Files (x86)\Precursors\packages\lev_3.grp - 9423413
+C:\Program Files (x86)\Precursors\packages\lev_4.grp - 8366691
+C:\Program Files (x86)\Precursors\packages\lev_5.grp - 29002926
+C:\Program Files (x86)\Precursors\packages\lev_6.grp - 2190752
+C:\Program Files (x86)\Precursors\packages\lev_7.grp - 9948649
+C:\Program Files (x86)\Precursors\packages\main.fat - 5267920
+C:\Program Files (x86)\Precursors\packages\rf2_0.grp - 1244523
+C:\Program Files (x86)\Precursors\packages\rf2_1.grp - 173922777
+C:\Program Files (x86)\Precursors\packages\rf2_2.grp - 10940254
+C:\Program Files (x86)\Precursors\packages\rf2_3.grp - 45975506
+C:\Program Files (x86)\Precursors\packages\rf2_4.grp - 19757295
+C:\Program Files (x86)\Precursors\packages\rf2_5.grp - 10743184
+C:\Program Files (x86)\Precursors\packages\rf2_6.grp - 64348500
+C:\Program Files (x86)\Precursors\packages\rf2_7.grp - 52404239
+C:\Program Files (x86)\Precursors\packages\textures_0.grp - 4
+C:\Program Files (x86)\Precursors\packages\textures_1.grp - 4
+C:\Program Files (x86)\Precursors\packages\textures_2.grp - 4
+C:\Program Files (x86)\Precursors\packages\textures_3.grp - 4
+C:\Program Files (x86)\Precursors\packages\textures_4.grp - 4
+C:\Program Files (x86)\Precursors\packages\textures_5.grp - 4
+C:\Program Files (x86)\Precursors\packages\textures_6.grp - 4
+C:\Program Files (x86)\Precursors\packages\textures_7.grp - 4
+C:\Program Files (x86)\Precursors\Sounds\CUTSCENES\EMPIRETROOPERS.OGG - 2456969
+C:\Program Files (x86)\Precursors\Sounds\CUTSCENES\ABOUTCASSILA\SCENE1.OGG - 6586523
+C:\Program Files (x86)\Precursors\Sounds\CUTSCENES\ALIEN\SCENE1.OGG - 5292895
+C:\Program Files (x86)\Precursors\Sounds\CUTSCENES\AVI\VIDEO_1S.OGG - 6334180
+C:\Program Files (x86)\Precursors\Sounds\CUTSCENES\FALKAO\SCENE1.OGG - 4760521
+C:\Program Files (x86)\Precursors\Sounds\CUTSCENES\FINAL\SCENE1.OGG - 9674722
+C:\Program Files (x86)\Precursors\Sounds\CUTSCENES\MEETING\SCENE1.OGG - 7791565
+C:\Program Files (x86)\Precursors\Sounds\CUTSCENES\MEETING2\SCENE1.OGG - 7791565
+C:\Program Files (x86)\Precursors\Sounds\MUSIC\space_fast1\low\action1.ogg - 1097462
+C:\Program Files (x86)\Precursors\Sounds\MUSIC\space_slow1\low\space_slow1.ogg - 4852670
+C:\Program Files (x86)\Precursors\Video\1s_sound.ogg - 1495411
+C:\Program Files (x86)\Precursors\Video\2s.ogg - 443975
+C:\Program Files (x86)\Precursors\Video\boot_progressbar.dds - 16512
+C:\Program Files (x86)\Precursors\Video\boot_progressbar_back.dds - 16512
+C:\Program Files (x86)\Precursors\Video\deepshadows.ogg - 328258
+C:\Program Files (x86)\Precursors\Video\deepshadows_sound.ogg - 53305
+C:\Program Files (x86)\Precursors\Video\loading.ogg - 178623
+C:\Program Files (x86)\Precursors\Video\loading2.ogg - 39318
+C:\Program Files (x86)\Precursors\Video\menu0_0.ogg - 175374
+C:\Program Files (x86)\Precursors\Video\menu0_0.ogv - 106574
+C:\Program Files (x86)\Precursors\Video\menu0_1.ogg - 100797
+C:\Program Files (x86)\Precursors\Video\menu0_1.ogv - 202035
+C:\Program Files (x86)\Precursors\Video\publisher.ogg - 601791
+C:\Program Files (x86)\Precursors\Video\publisher_sound.ogg - 62654
+C:\Program Files (x86)\Precursors\Video\video_1s.ogg - 58895189
+
+UAC Disabled or not present
+

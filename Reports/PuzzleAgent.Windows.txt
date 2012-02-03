@@ -1,0 +1,207 @@
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Telltale Games\Puzzle Agent
+
+Save Path:
+C:\Users\%USERNAME%\Documents\Telltale Games\Puzzle Agent
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Puzzle Agent
+Value:UninstallString
+Data:C:\Program Files (x86)\Telltale Games\Puzzle Agent\UNINSTALL_Grickle101.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Puzzle Agent
+Value:DisplayIcon
+Data:C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Grickle101.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Puzzle Agent
+Value:InstallLocation
+Data:C:\Program Files (x86)\Telltale Games\Puzzle Agent
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Puzzle Agent
+Value:
+Data:C:\Program Files (x86)\Telltale Games\Puzzle Agent\Grickle101.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\Grickle101.exe
+Value:Install Location
+Data:C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\Grickle101.exe
+Value:Uninstaller
+Data:C:\Program Files (x86)\Telltale Games\Puzzle Agent\UNINSTALL_Grickle101.exe
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Telltale Games\Puzzle Agent\Puzzle Agent.lnk
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Grickle101.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Telltale Games\Puzzle Agent\Uninstall\Uninstall - Puzzle Agent.lnk
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\UNINSTALL_Grickle101.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\Documents\Telltale Games\Puzzle Agent\prefs.prop - 1020
+C:\Users\%USERNAME%\Documents\Telltale Games\Puzzle Agent\save1.save - 79775
+
+Install Folder Dump:
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent.lnk - 1267
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\UNINSTALL_Grickle101.exe - 257218
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\fmodex.dll - 394240
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Grickle101.exe - 7781376
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\steam_api.dll - 128808
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Telltale Games.url - 55
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\0_Grickle101_pc_0launcher.ttarch - 3389765
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\1_Grickle101_pc_data.ttarch - 11812249
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\2_Grickle101_pc_voice.ttarch - 8948423
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\3_Grickle101_pc_ms.ttarch - 26823708
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\4_Grickle101_pc_tx.ttarch - 88495912
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\alpha.png - 920
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\arrow_red.png - 933
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\arrow_yellow.png - 933
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\background_nocontent.png - 511131
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\border_corner1.png - 1152
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\border_corner2.png - 1148
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\border_corner3.png - 1149
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\border_corner4.png - 1140
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_alreadypaid.png - 18505
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_blog.png - 2759
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_close_down.png - 1024
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_close_off.png - 1012
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_close_over.png - 1011
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_closing_buyit.png - 38033
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_comics.png - 3240
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_emailrequestcode.png - 5263
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_emailrequestcode_eval.png - 4936
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_evalinfo.png - 14137
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_forums.png - 2991
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_freedemo.png - 23633
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_go.png - 1270
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_launchgame.png - 31926
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_launchgame_nojs.png - 7214
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_launch_buyit.png - 14080
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_launch_launchdemo.png - 27944
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_logmein.png - 6874
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_manualunlock.png - 2577
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_moreunlockoptions.png - 4354
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_no.png - 4246
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_nothanksdemo.png - 7556
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_printrequestcode.png - 5132
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_requestcode.png - 13780
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_saverequestcode.png - 4078
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_serialnumber.png - 3615
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_support.png - 2254
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_ttglogin.png - 2932
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_unlock.png - 1923
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_unlockcode.png - 14760
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_unlock_roll.png - 3873
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_visitttg.png - 41472
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\button_yes.png - 1472
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\closebox_top.png - 208
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\evil.png - 1982
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\form_bg.png - 952
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\form_bg_mytelltale.png - 944
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\form_bg_newsletter.png - 943
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\gameapp.png - 360
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\hr_blue.png - 925
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\hr_blue_short.png - 923
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\hr_grey.png - 925
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\hr_grey_mytelltale.png - 925
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\hr_print.png - 920
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\icon_blogpage.png - 1023
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\icon_talkbubble.png - 1018
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_bg.png - 28821
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_bg_roll.png - 10338
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_bottomshadow.png - 2762
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_errorbg.png - 18904
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_errorbottom.png - 2984
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_errorclose.png - 1843
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_errorleft.png - 137
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_errorright.png - 137
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_green_bg.png - 8462
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_loginboxbg.png - 29618
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\login_topshadow.png - 2735
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\logo.png - 5834
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\manualunlock_bottom.png - 327
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\manualunlock_close.png - 1270
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\manualunlock_title_alert.png - 1066
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\manualunlock_title_entercode.png - 3971
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\manualunlock_title_errormsg.png - 2821
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\manualunlock_title_getcode.png - 3337
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\mytelltale_unlock.png - 4664
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\offlinemode.png - 2740
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\processing.png - 4729
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\processing_spinner.png - 6090
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\processing_unlockerror.png - 1988
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\processing_unlocksuccess.png - 2084
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product_title.png - 127733
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\supportbox_cornerleft.png - 2982
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\supportbox_cornerright.png - 292
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\ttglogo.png - 15054
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockbox_borderleft.png - 166
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockbox_borderright.png - 166
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockbox_bottom.png - 162
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockbox_cornerleft.png - 246
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockbox_cornerright.png - 256
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\vr_grey.png - 925
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\wrapper_interstitial_bg.png - 13399
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\background_nocontent.png - 386237
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\background_withsidecontent.png - 386237
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\defaultbg.png - 20677
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\eval_defaultbg.png - 140065
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\eval_productbackground.png - 253112
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\mac_app_screen_PA.png - 132435
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\productbackground.png - 386237
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\producttitle.png - 135642
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\product_title.png - 135642
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\welcome.png - 75526
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\product\wrapper_generic.png - 386237
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\-.png - 3586
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\0.png - 3619
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\1.png - 3605
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\2.png - 3614
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\3.png - 3621
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\4.png - 3618
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\5.png - 3615
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\6.png - 3618
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\7.png - 3619
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\8.png - 3618
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\9.png - 3614
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\a.png - 3617
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\b.png - 3611
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\c.png - 3623
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\d.png - 3613
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\e.png - 3623
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\f.png - 3624
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\g.png - 3623
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\h.png - 3603
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\i.png - 3597
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\j.png - 3609
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\k.png - 3624
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\l.png - 3605
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\m.png - 3612
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\n.png - 3614
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\o.png - 3621
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\p.png - 3610
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\q.png - 3624
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\r.png - 3616
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\s.png - 3616
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\sample0.png - 3617
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\sampleo.png - 3610
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\t.png - 3609
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\u.png - 3600
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\v.png - 3607
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\w.png - 3606
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\x.png - 3612
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\y.png - 3610
+C:\Program Files (x86)\Telltale Games\Puzzle Agent\Puzzle Agent\Pack\Launcher\images\unlockfront\z.png - 3619
+
+UAC Disabled or not present
+

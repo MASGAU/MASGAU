@@ -1,0 +1,82 @@
+Game Name: Prototype
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Activision\Prototype
+
+Save Path:
+C:\Users\Scott\Documents\Prototype
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Prototype
+Value:EXEString
+Data:C:\Program Files (x86)\Activision\Prototype\Prototypef.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Prototype
+Value:InstallExePath
+Data:C:\Program Files (x86)\Activision\Prototype\Prototypef.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Prototype
+Value:InstallPath
+Data:C:\Program Files (x86)\Activision\Prototype
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Activision\Prototype
+Value:Path
+Data:C:\Program Files (x86)\Activision\Prototype
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\InstallShield_{9322A850-9091-4D0E-B252-3E82EDA3D94A}
+Value:InstallLocation
+Data:C:\Program Files (x86)\Activision\Prototype\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9322A850-9091-4D0E-B252-3E82EDA3D94A}
+Value:InstallLocation
+Data:C:\Program Files (x86)\Activision\Prototype\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\Scott\Documents\Prototype\profile.bin - 5336
+C:\Users\Scott\Documents\Prototype\slot-A.bin - 16600
+
+Install Folder Dump:
+C:\Program Files (x86)\Activision\Prototype\00audio.rcf - 1036156325
+C:\Program Files (x86)\Activision\Prototype\00woi.rcf - 905983448
+C:\Program Files (x86)\Activision\Prototype\01audio.rcf - 1026077458
+C:\Program Files (x86)\Activision\Prototype\01woi.rcf - 996822520
+C:\Program Files (x86)\Activision\Prototype\02woi.rcf - 993766032
+C:\Program Files (x86)\Activision\Prototype\03woi.rcf - 1049158952
+C:\Program Files (x86)\Activision\Prototype\art.rcf - 496846408
+C:\Program Files (x86)\Activision\Prototype\binkw32.dll - 171008
+C:\Program Files (x86)\Activision\Prototype\cells.rcf - 663720616
+C:\Program Files (x86)\Activision\Prototype\cementfiles.p3d - 338
+C:\Program Files (x86)\Activision\Prototype\CL170625.txt - 8
+C:\Program Files (x86)\Activision\Prototype\movies.rcf - 1154135580
+C:\Program Files (x86)\Activision\Prototype\prototypeenginef.dll - 20210960
+C:\Program Files (x86)\Activision\Prototype\prototypef.exe - 2269232
+C:\Program Files (x86)\Activision\Prototype\proto_uv.dat - 1024
+C:\Program Files (x86)\Activision\Prototype\scripts.rcf - 120240
+C:\Program Files (x86)\Activision\Prototype\shaders.rcf - 10793
+C:\Program Files (x86)\Activision\Prototype\skuinfo.p3d - 184
+C:\Program Files (x86)\Activision\Prototype\art\frontendshaders.p3d - 81110
+C:\Program Files (x86)\Activision\Prototype\Audio\audio.p3d - 23314
+C:\Program Files (x86)\Activision\Prototype\Audio\boot_strap.p3d - 3969452
+C:\Program Files (x86)\Activision\Prototype\Docs\CS\Customer_support.htm - 73373
+C:\Program Files (x86)\Activision\Prototype\Docs\License\license.txt - 11892
+C:\Program Files (x86)\Activision\Prototype\Docs\MSR\msr.txt - 1470
+C:\Program Files (x86)\Activision\Prototype\Docs\Readme\README.htm - 72085
+C:\Program Files (x86)\Activision\Prototype\scripts\frevents.lua - 4383
+C:\Program Files (x86)\Activision\Prototype\scripts\statsachievements_tod.p3d - 8683
+
+UAC Disabled or not present
+

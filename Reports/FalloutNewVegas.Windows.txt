@@ -1,0 +1,493 @@
+Operating System:
+Microsoft Windows NT 5.1.2600 Service Pack 3
+
+Install Path:
+C:\Program Files\Bethesda Softworks\Fallout New Vegas
+
+Save Path:
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Bethesda Softworks\FalloutNV
+Value:Installed Path
+Data:C:\Program Files\Bethesda Softworks\Fallout New Vegas\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fallout New Vegas_is1
+Value:Inno Setup: App Path
+Data:C:\Program Files\Bethesda Softworks\Fallout New Vegas
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fallout New Vegas_is1
+Value:InstallLocation
+Data:C:\Program Files\Bethesda Softworks\Fallout New Vegas\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fallout New Vegas_is1
+Value:DisplayIcon
+Data:C:\Program Files\Bethesda Softworks\Fallout New Vegas\FalloutNVLauncher.exe
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\Documents and Settings\All Users\Start Menu\Programs\Bethesda Softworks\Fallout New Vegas\Fallout New Vegas.lnk
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\FalloutNVLauncher.exe
+C:\Documents and Settings\All Users\Start Menu\Programs\Bethesda Softworks\Fallout New Vegas\Uninstall Fallout New Vegas.lnk
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\unins000.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\Fallout.ini - 19959
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\FalloutPrefs.ini - 21623
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\RendererInfo.txt - 805
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\Saves\autosave.fos - 2577721
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\Saves\autosave.fos.bak - 2565827
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\Saves\quicksave.fos - 2600600
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\Saves\quicksave.fos.bak - 2600718
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\Saves\Save 1   Venus  Goodsprings  00 32 19.fos - 1648317
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\Saves\Save 2   Chris  Doc Mitchell s House  00 21 45.fos - 1537933
+C:\Documents and Settings\Garrett\My Documents\My Games\FalloutNV\Saves\Save 3   Venus  Mojave Wasteland  04 20 13.fos - 2600306
+
+Install Folder Dump:
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\atimgpud.dll - 165304
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\binkw32.dll - 338944
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\ExitData.mhd - 0
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\FalloutNV.exe - 16039936
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\FalloutNV.ico - 168879
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\FalloutNVLauncher.exe - 1707008
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Fallout_default.ini - 19959
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\GDFFalloutNV.dll - 1963176
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\high.ini - 1116
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\InstallScript.vdf - 808
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\libvorbis.dll - 1241528
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\libvorbisfile.dll - 120248
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\low.ini - 1107
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\MainTitle.wav - 6158306
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\medium.ini - 1115
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Readme.txt - 4086
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\steam_api.dll - 121984
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\unins000.dat - 55751
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\unins000.exe - 722782
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\VeryHigh.ini - 1134
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\backp\FalloutNV.exe - 16397640
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\backp\FalloutNVLauncher.exe - 2072392
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Credits.txt - 44683
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\CreditsWacky.txt - 49262
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Data.sfv - 332
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Fallout - Meshes.bsa - 1061624491
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Fallout - Misc.bsa - 1905069
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Fallout - Sound.bsa - 850985572
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Fallout - Textures.bsa - 1196767196
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Fallout - Textures2.bsa - 961249657
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Fallout - Voices1.bsa - 1602331889
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\FalloutNV.esm - 245491701
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil1\mus_BTTL_Lp_Evil1_City_Full.mp3 - 879552
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil1\mus_BTTL_Lp_Evil1_City_Perc.mp3 - 879552
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil1\mus_BTTL_Lp_Evil1_Rural_Full(alt1).mp3 - 879552
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil1\mus_BTTL_Lp_Evil1_Rural_Full.mp3 - 879552
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil1\mus_BTTL_Lp_Evil1_Rural_Perc(alt1).mp3 - 1098432
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil1\mus_BTTL_Lp_Evil1_Rural_Perc(alt2).mp3 - 1098432
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil1\mus_BTTL_Lp_Evil1_Rural_Perc.mp3 - 1098432
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil2\mus_BTTL_Lp_Evil2_City_Full.mp3 - 893952
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil2\mus_BTTL_Lp_Evil2_City_Perc.mp3 - 893952
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil2\mus_BTTL_Lp_Evil2_Rural_Full(alt1).mp3 - 893952
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil2\mus_BTTL_Lp_Evil2_Rural_Full.mp3 - 893952
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil2\mus_BTTL_Lp_Evil2_Rural_Perc(alt1).mp3 - 893952
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil2\mus_BTTL_Lp_Evil2_Rural_Perc.mp3 - 891648
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil3\mus_BTTL_Lp_Evil3_City_Full.mp3 - 855360
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil3\mus_BTTL_Lp_Evil3_City_Perc.mp3 - 832320
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil3\mus_BTTL_Lp_Evil3_Rural_Full.mp3 - 869184
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil3\mus_BTTL_Lp_Evil3_Rural_Perc.mp3 - 869760
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil4\mus_BTTL_Lp_Evil4_City_Full.mp3 - 1045440
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil4\mus_BTTL_Lp_Evil4_City_Perc.mp3 - 1045440
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil4\mus_BTTL_Lp_Evil4_Rural_Full.mp3 - 1044864
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Evil4\mus_BTTL_Lp_Evil4_Rural_Perc.mp3 - 1046016
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good1\mus_BTTL_Lp_Good1_City_Full.mp3 - 957888
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good1\mus_BTTL_Lp_Good1_City_Perc.mp3 - 972864
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good1\mus_BTTL_Lp_Good1_Rural_Full.mp3 - 1215360
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good1\mus_BTTL_Lp_Good1_Rural_Perc.mp3 - 1215360
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good2\mus_BTTL_Lp_Good2_City_Full.mp3 - 991296
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good2\mus_BTTL_Lp_Good2_City_Perc.mp3 - 991296
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good2\mus_BTTL_Lp_Good2_Rural_Full(alt1).mp3 - 991296
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good2\mus_BTTL_Lp_Good2_Rural_Full.mp3 - 977472
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good2\mus_BTTL_Lp_Good2_Rural_Perc(alt1).mp3 - 991296
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good2\mus_BTTL_Lp_Good2_Rural_Perc.mp3 - 977472
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good3\mus_BTTL_Lp_Good3_City_Full.mp3 - 1615104
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good3\mus_BTTL_Lp_Good3_City_Perc.mp3 - 1615680
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good3\mus_BTTL_Lp_Good3_Rural_Full.mp3 - 1615104
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good3\mus_BTTL_Lp_Good3_Rural_Perc.mp3 - 1615104
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good4\mus_BTTL_Lp_Good4_City_Full.mp3 - 1207296
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good4\mus_BTTL_Lp_Good4_City_Perc.mp3 - 1206144
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good4\mus_BTTL_Lp_Good4_Rural_Full.mp3 - 1206144
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\BTTL\Good4\mus_BTTL_Lp_Good4_Rural_Perc.mp3 - 1206720
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon1\mus_DNGN_One_1Low(alt).mp3 - 3070080
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon1\mus_DNGN_One_1Low.mp3 - 2924928
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon1\mus_DNGN_One_2Mid.mp3 - 2924928
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon1\mus_DNGN_One_3High.mp3 - 2924928
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon2\mus_DNGN_Two_1Low(alt1).mp3 - 3123072
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon2\mus_DNGN_Two_1Low.mp3 - 3075264
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon2\mus_DNGN_Two_2Mid.mp3 - 3075264
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon2\mus_DNGN_Two_3High.mp3 - 3075264
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon3\mus_DNGN_Three_1Low.mp3 - 2984832
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon3\mus_DNGN_Three_2Mid(alt1).mp3 - 3070080
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon3\mus_DNGN_Three_2Mid.mp3 - 2984832
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon3\mus_DNGN_Three_3High.mp3 - 2984832
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon4\mus_DNGN_Four_1Low.mp3 - 3113280
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon4\mus_DNGN_Four_2Mid.mp3 - 3113280
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon4\mus_DNGN_Four_3High.mp3 - 3113280
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon5\mus_DNGN_Five_1Low.mp3 - 3123648
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon5\mus_DNGN_Five_2Mid(alt1).mp3 - 3135168
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon5\mus_DNGN_Five_2Mid.mp3 - 3123648
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon5\mus_DNGN_Five_3High.mp3 - 3123648
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon6\mus_DNGN_Six_1Low.mp3 - 3074112
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon6\mus_DNGN_Six_2Mid.mp3 - 3074112
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon6\mus_DNGN_Six_3High.mp3 - 3074112
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon7\mus_DNGN_Seven_1Low.mp3 - 2875392
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon7\mus_DNGN_Seven_2Mid.mp3 - 2875392
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon7\mus_DNGN_Seven_3High.mp3 - 2875392
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon8\mus_DNGN_Eight_1Low.mp3 - 3218112
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon8\mus_DNGN_Eight_2Mid.mp3 - 3218112
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\DNGN\Dungeon8\mus_DNGN_Eight_3High.mp3 - 3218112
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\01MetallicMonks.mp3 - 3275929
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\02DesertWind.mp3 - 3217832
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\03ATradersLife.mp3 - 3904121
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\04TheVaultoftheFuture.mp3 - 3865669
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\05IndustrialJunk.mp3 - 3271331
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\06MoribundWorld.mp3 - 2940725
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\07VatsofGoo.mp3 - 3173947
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\08CityoftheDead.mp3 - 3274675
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\09SecondChance.mp3 - 3912063
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\10UndergroundTroubles.mp3 - 3736520
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\11CityofLostAngels.mp3 - 3629522
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\12FollowersCredo.mp3 - 2868836
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\13RadiationStorm.mp3 - 3807155
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\14AcolytesoftheNewgod.mp3 - 3167259
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\15FlameoftheAncientWorld.mp3 - 3015122
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout\16KhansofNewCalifornia.mp3 - 3201114
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout2\Arroyo.mp3 - 3368225
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout2\Modoc.mp3 - 3304694
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout2\NewReno.mp3 - 3193520
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout2\Redding.mp3 - 3464774
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout2\SanFrancisco.mp3 - 3976362
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout2\VaultCity.mp3 - 3226540
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout2\Worldmap1.mp3 - 1640385
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Fallout1and2\Fallout2\Worldmap2.mp3 - 1224516
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CaesarsLegion\mus_LOC_Caesar_Day_1Low.mp3 - 3194496
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CaesarsLegion\mus_LOC_Caesar_Day_2Mid.mp3 - 3194496
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CaesarsLegion\mus_LOC_Caesar_Day_3High.mp3 - 3194496
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CaesarsLegion\mus_LOC_Caesar_Night_1Low.mp3 - 3210624
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CaesarsLegion\mus_LOC_Caesar_Night_2Mid.mp3 - 3210624
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CaesarsLegion\mus_LOC_Caesar_Night_3High.mp3 - 3210624
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CorporateRuins\mus_LOC_CorpRuins_Day_1Low.mp3 - 2920320
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CorporateRuins\mus_LOC_CorpRuins_Day_2Mid.mp3 - 2920320
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CorporateRuins\mus_LOC_CorpRuins_Day_3High.mp3 - 2920320
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CorporateRuins\mus_LOC_CorpRuins_Night_1Low.mp3 - 2910528
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CorporateRuins\mus_LOC_CorpRuins_Night_2Mid.mp3 - 2910528
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\CorporateRuins\mus_LOC_CorpRuins_Night_3High.mp3 - 2910528
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertExploration\mus_LOC_DesExpl_Day_1Low.mp3 - 3184128
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertExploration\mus_LOC_DesExpl_Day_2Mid.mp3 - 3184128
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertExploration\mus_LOC_DesExpl_Day_3High.mp3 - 3184128
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertExploration\mus_LOC_DesExpl_Night_1Low.mp3 - 3086208
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertExploration\mus_LOC_DesExpl_Night_2Mid.mp3 - 3086208
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertExploration\mus_LOC_DesExpl_Night_3High.mp3 - 3086208
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertSettlement\mus_LOC_DesSttl_Day_1Low.mp3 - 2950848
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertSettlement\mus_LOC_DesSttl_Day_2Mid.mp3 - 2950848
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertSettlement\mus_LOC_DesSttl_Day_3High.mp3 - 2950848
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertSettlement\mus_LOC_DesSttl_Night_1Low.mp3 - 2962944
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertSettlement\mus_LOC_DesSttl_Night_2Mid.mp3 - 2962944
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\DesertSettlement\mus_LOC_DesSttl_Night_3High.mp3 - 2962944
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Freeside\mus_LOC_Freeside_Day_1Low.mp3 - 3093696
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Freeside\mus_LOC_Freeside_Day_2Mid.mp3 - 3093696
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Freeside\mus_LOC_Freeside_Day_3High.mp3 - 3093696
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Freeside\mus_LOC_Freeside_Night_1Low.mp3 - 3031488
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Freeside\mus_LOC_Freeside_Night_2Mid.mp3 - 3031488
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Freeside\mus_LOC_Freeside_Night_3High.mp3 - 3031488
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\HooverDam\mus_LOC_Hoover_Caesar_1Low.mp3 - 2971008
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\HooverDam\mus_LOC_Hoover_Caesar_2Mid.mp3 - 2971008
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\HooverDam\mus_LOC_Hoover_Caesar_3High.mp3 - 2971008
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\HooverDam\mus_LOC_Hoover_NCR_1Low.mp3 - 2979072
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\HooverDam\mus_LOC_Hoover_NCR_2Mid.mp3 - 2979072
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\HooverDam\mus_LOC_Hoover_NCR_3High.mp3 - 2979072
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\IndustrialCity\mus_LOC_Industrial_Day_1Low.mp3 - 2931840
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\IndustrialCity\mus_LOC_Industrial_Day_2Mid.mp3 - 2936448
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\IndustrialCity\mus_LOC_Industrial_Day_3High(alt1).mp3 - 2979648
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\IndustrialCity\mus_LOC_Industrial_Day_3High.mp3 - 2936448
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\IndustrialCity\mus_LOC_Industrial_Night_1Low.mp3 - 2922624
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\IndustrialCity\mus_LOC_Industrial_Night_2Mid.mp3 - 2922624
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\IndustrialCity\mus_LOC_Industrial_Night_3High(alt1).mp3 - 3065472
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\IndustrialCity\mus_LOC_Industrial_Night_3High.mp3 - 2922624
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Jacobstown\mus_LOC_Jacobstown_Day_1Low.mp3 - 2932992
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Jacobstown\mus_LOC_Jacobstown_Day_2Mid.mp3 - 2932992
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Jacobstown\mus_LOC_Jacobstown_Day_3High.mp3 - 2932992
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Jacobstown\mus_LOC_Jacobstown_Night_1Low.mp3 - 2884032
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Jacobstown\mus_LOC_Jacobstown_Night_2Mid.mp3 - 2884032
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Jacobstown\mus_LOC_Jacobstown_Night_3High.mp3 - 2884032
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\LargerTown\mus_LOC_LrgTown_Day_1Low.mp3 - 2983680
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\LargerTown\mus_LOC_LrgTown_Day_2Mid.mp3 - 2983680
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\LargerTown\mus_LOC_LrgTown_Day_3High(alt1).mp3 - 3173760
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\LargerTown\mus_LOC_LrgTown_Day_3High.mp3 - 2983680
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\LargerTown\mus_LOC_LrgTown_Night_1Low.mp3 - 2956032
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\LargerTown\mus_LOC_LrgTown_Night_2Mid.mp3 - 2956032
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\LargerTown\mus_LOC_LrgTown_Night_3High.mp3 - 2956032
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Mountain\mus_LOC_Mountain_Day_1Low.mp3 - 2960640
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Mountain\mus_LOC_Mountain_Day_2Mid.mp3 - 2960640
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Mountain\mus_LOC_Mountain_Day_3High.mp3 - 2960640
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Mountain\mus_LOC_Mountain_Night_1Low.mp3 - 2960640
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Mountain\mus_LOC_Mountain_Night_2Mid.mp3 - 2960640
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\Mountain\mus_LOC_Mountain_Night_3High.mp3 - 2960640
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\NewCaliforniaRepublic\mus_LOC_CalRepublic_Day_1Low.mp3 - 2916288
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\NewCaliforniaRepublic\mus_LOC_CalRepublic_Day_2Mid.mp3 - 2916288
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\NewCaliforniaRepublic\mus_LOC_CalRepublic_Day_3High.mp3 - 2916288
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\NewCaliforniaRepublic\mus_LOC_CalRepublic_Night_1Low.mp3 - 2987712
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\NewCaliforniaRepublic\mus_LOC_CalRepublic_Night_2Mid.mp3 - 2987712
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\LOC\NewCaliforniaRepublic\mus_LOC_CalRepublic_Night_3High.mp3 - 2987712
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_AcolytesOfTheNewGod.mp3 - 4729536
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_CityOfLostAngels.mp3 - 5428800
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_CityOfTheDead.mp3 - 4891392
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_DesertWind.mp3 - 4820544
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_FlameOfTheAncientWorld.mp3 - 4500864
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_IndustrialJunk.mp3 - 4910400
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_MetallicMonks.mp3 - 4902912
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_RadiationStorm.mp3 - 5700672
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_SecondChance.mp3 - 5851584
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_TheVaultOfTheFuture.mp3 - 5800320
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO1\mus_FO1_UndergroundTrouble.mp3 - 5607360
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO2\mus_FO2_Modoc.mp3 - 4848192
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO2\mus_FO2_Redding.mp3 - 5058432
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Base2.mp3 - 2346624
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Base3.mp3 - 2411712
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Base5.mp3 - 2483136
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Death.mp3 - 382464
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Dungeon1.mp3 - 5244480
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Dungeon2.mp3 - 4927680
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Dungeon3.mp3 - 5244480
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Explore1.mp3 - 4999680
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Explore3.mp3 - 5878080
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Explore4.mp3 - 4956480
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Explore5.mp3 - 4048128
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\OLD\FO3\mus_FO3_Explore6.mp3 - 5090688
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_DeathStinger.mp3 - 387072
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_DocMitchell.mp3 - 2911680
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_GoodspringsStinger.mp3 - 715392
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_Muzak.mp3 - 759168
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_MuzakRadio.mp3 - 759168
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_VegasStinger.mp3 - 1851264
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_VictorySinger(alt1).mp3 - 399168
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_VictorySinger(alt2).mp3 - 302976
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\SCR\mus_SCR_VictorySinger.mp3 - 302976
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Special\EndCredits.mp3 - 5179776
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Special\MainTitle.mp3 - 4012416
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Special\mus_endgameslideshow.mp3 - 2319744
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Special\mus_endgametransitionstinger.mp3 - 74880
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Music\Special\mus_hailchief.mp3 - 1018752
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage002.sdp - 1001568
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage003.sdp - 1332844
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage004.sdp - 1375792
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage006.sdp - 1346644
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage007.sdp - 1388744
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage009.sdp - 1359440
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage010.sdp - 1337124
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage011.sdp - 1337124
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage012.sdp - 1380772
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage013.sdp - 1380772
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage014.sdp - 1351036
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage015.sdp - 1351036
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage016.sdp - 1393812
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage017.sdp - 1393812
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage018.sdp - 1367052
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Shaders\shaderpackage019.sdp - 1367052
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Aint_That_A_Kick_In_the_Head.mp3 - 4673100
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_American_Swing.mp3 - 3037208
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Big_Iron.mp3 - 7628907
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Blues_For_You.mp3 - 4660561
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Blue_Moon.mp3 - 5493136
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Cobwebs_and_Rainbows.mp3 - 5448832
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Concerto_For_2_Vl_Str_In_D_Minor.mp3 - 13316496
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Concerto_Grosso_In_B_Minor_Allegro_01.mp3 - 8199839
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Concerto_Grosso_In_B_Minor_Allegro_02.mp3 - 6887448
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_EddyArnold_Rca_ItsASin.mp3 - 4683131
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Flower_Duet_Lakm_KPM.mp3 - 3012966
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Four_Seasons_No_4_The_Winter.mp3 - 4546876
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Goin_Under.mp3 - 5672022
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Hallo_Mister_X.mp3 - 4146471
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Happy_Times.mp3 - 3752754
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Heartaches_by_the_Number.mp3 - 4930563
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_HomeOnTheWastes.mp3 - 4857002
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_In_The_Shadow_Of_The_Valley.mp3 - 5988835
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Its_A_Sin_To_Tell_A_Lie.mp3 - 4518455
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_I_m_Movin_Out.mp3 - 5605149
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_I_m_So_Blue.mp3 - 6937603
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Jazz_Blues_GT.mp3 - 9543996
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Jazz_Club_Blues_CAS.mp3 - 7018687
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Jingle_Jangle_Jingle.mp3 - 6410138
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Joe_Cool_CAS.mp3 - 4668920
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Johnny_Guitar.mp3 - 5860104
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Lazy_Day_Blues.mp3 - 5392825
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Let_s_Ride_Into_The_Sunset_Together.mp3 - 5881002
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Lone_Star.mp3 - 4814370
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Love_Me_As_Though_No_Tomorrow.mp3 - 4976538
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Mad_About_The_Boy.mp3 - 4118886
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Manhattan.mp3 - 2610889
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_NewVegasValley.mp3 - 3822971
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Piano_Concerto_No_21__Elvira_Madigan.mp3 - 10811248
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Ride_Of_The_Valkyries_01.mp3 - 11507568
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Roundhouse_Rock.mp3 - 5379451
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Sit_And_Dream.mp3 - 2877547
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Sleepy_Town_Blues_CAS.mp3 - 5096910
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Slow_Bounce.mp3 - 3986811
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Slow_Sax_KOS.mp3 - 5118644
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Somethings_Gotta_Give.mp3 - 3913250
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Spring_Song_KPMC.mp3 - 5247376
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Stars_Of_The_Midnight_Range.mp3 - 5544127
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Strahlende_Trompete.mp3 - 5975461
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_StreetsOfNewReno.mp3 - 4439879
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Von_Spanien_Nach_S_damerika.mp3 - 3384114
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Where_Have_You_Been_All_My_Life.mp3 - 5661155
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Sound\songs\radionv\MUS_Why_Dont_You_Do_Right.mp3 - 6476176
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Data\Video\FNVIntro.bik - 353301852
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\vcredist_x86.exe - 4216840
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2005_d3dx9_25_x64.cab - 1347354
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2005_d3dx9_25_x86.cab - 1078954
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2006_d3dx9_30_x64.cab - 1397822
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2006_d3dx9_30_x86.cab - 1115221
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2006_MDX1_x86.cab - 916430
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2006_MDX1_x86_Archive.cab - 4162630
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2006_XACT_x64.cab - 179125
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2006_XACT_x86.cab - 133095
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2006_xinput_x64.cab - 87101
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Apr2006_xinput_x86.cab - 46002
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\APR2007_d3dx10_33_x64.cab - 698612
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\APR2007_d3dx10_33_x86.cab - 695857
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\APR2007_d3dx9_33_x64.cab - 1607358
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\APR2007_d3dx9_33_x86.cab - 1606031
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\APR2007_XACT_x64.cab - 195758
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\APR2007_XACT_x86.cab - 151225
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\APR2007_xinput_x64.cab - 96817
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\APR2007_xinput_x86.cab - 53294
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2005_d3dx9_27_x64.cab - 1350534
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2005_d3dx9_27_x86.cab - 1077644
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2006_XACT_x64.cab - 182903
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2006_XACT_x86.cab - 137235
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2006_xinput_x64.cab - 87142
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2006_xinput_x86.cab - 46058
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2007_d3dx10_35_x64.cab - 852286
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2007_d3dx10_35_x86.cab - 796859
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2007_d3dx9_35_x64.cab - 1800152
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2007_d3dx9_35_x86.cab - 1708144
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2007_XACT_x64.cab - 198088
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\AUG2007_XACT_x86.cab - 153004
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2008_d3dx10_39_x64.cab - 867604
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2008_d3dx10_39_x86.cab - 849167
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2008_d3dx9_39_x64.cab - 1794076
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2008_d3dx9_39_x86.cab - 1464664
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2008_XACT_x64.cab - 121764
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2008_XACT_x86.cab - 92996
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2008_XAudio_x64.cab - 271404
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2008_XAudio_x86.cab - 271038
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_D3DCompiler_42_x64.cab - 919036
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_D3DCompiler_42_x86.cab - 900598
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_d3dcsx_42_x64.cab - 3112103
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_d3dcsx_42_x86.cab - 3319732
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_d3dx10_42_x64.cab - 232635
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_d3dx10_42_x86.cab - 192131
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_d3dx11_42_x64.cab - 136301
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_d3dx11_42_x86.cab - 105036
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_d3dx9_42_x64.cab - 930108
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_d3dx9_42_x86.cab - 728456
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_XACT_x64.cab - 122408
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_XACT_x86.cab - 93098
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_XAudio_x64.cab - 273264
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Aug2009_XAudio_x86.cab - 272634
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\BDANT.cab - 1155483
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\BDAXP.cab - 975148
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Dec2005_d3dx9_28_x64.cab - 1357968
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Dec2005_d3dx9_28_x86.cab - 1079448
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\DEC2006_d3dx10_00_x64.cab - 212799
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\DEC2006_d3dx10_00_x86.cab - 191712
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\DEC2006_d3dx9_32_x64.cab - 1571154
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\DEC2006_d3dx9_32_x86.cab - 1574376
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\DEC2006_XACT_x64.cab - 192467
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\DEC2006_XACT_x86.cab - 145591
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\DSETUP.dll - 94024
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\dsetup32.dll - 1691464
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\dxdllreg_x86.cab - 44440
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\dxnt.cab - 13264168
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\DXSETUP.exe - 525656
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\dxupdate.cab - 95637
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Feb2005_d3dx9_24_x64.cab - 1247499
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Feb2005_d3dx9_24_x86.cab - 1013225
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Feb2006_d3dx9_29_x64.cab - 1362796
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Feb2006_d3dx9_29_x86.cab - 1084712
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Feb2006_XACT_x64.cab - 178359
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Feb2006_XACT_x86.cab - 132409
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\FEB2007_XACT_x64.cab - 194667
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\FEB2007_XACT_x86.cab - 147983
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Jun2005_d3dx9_26_x64.cab - 1336002
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Jun2005_d3dx9_26_x86.cab - 1064925
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2006_XACT_x64.cab - 180777
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2006_XACT_x86.cab - 133663
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2007_d3dx10_34_x64.cab - 699044
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2007_d3dx10_34_x86.cab - 698464
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2007_d3dx9_34_x64.cab - 1607766
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2007_d3dx9_34_x86.cab - 1607278
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2007_XACT_x64.cab - 197114
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2007_XACT_x86.cab - 152901
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_d3dx10_38_x64.cab - 867828
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_d3dx10_38_x86.cab - 849919
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_d3dx9_38_x64.cab - 1792600
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_d3dx9_38_x86.cab - 1463878
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_X3DAudio_x64.cab - 55154
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_X3DAudio_x86.cab - 21905
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_XACT_x64.cab - 121054
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_XACT_x86.cab - 93128
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_XAudio_x64.cab - 269620
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\JUN2008_XAudio_x86.cab - 269016
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_d3dx10_37_x64.cab - 844884
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_d3dx10_37_x86.cab - 818260
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_d3dx9_37_x64.cab - 1769862
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_d3dx9_37_x86.cab - 1443274
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_X3DAudio_x64.cab - 55050
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_X3DAudio_x86.cab - 21867
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_XACT_x64.cab - 122336
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_XACT_x86.cab - 93726
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_XAudio_x64.cab - 251186
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2008_XAudio_x86.cab - 226242
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_d3dx10_41_x86.cab - 1040737
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_d3dx9_41_x64.cab - 1973702
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_X3DAudio_x64.cab - 54600
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_XACT_x64.cab - 121506
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_XACT_x86.cab - 92732
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_XAudio_x64.cab - 275036
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Mar2009_XAudio_x86.cab - 273010
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2007_d3dx10_36_x64.cab - 864600
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2007_d3dx10_36_x86.cab - 803876
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2007_d3dx9_36_x64.cab - 1802058
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2007_d3dx9_36_x86.cab - 1709360
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\NOV2007_X3DAudio_x64.cab - 46144
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\NOV2007_X3DAudio_x86.cab - 18496
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\NOV2007_XACT_x64.cab - 196754
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\NOV2007_XACT_x86.cab - 148264
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_d3dx10_40_x64.cab - 994154
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_d3dx10_40_x86.cab - 965421
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_d3dx9_40_x64.cab - 1906870
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_d3dx9_40_x86.cab - 1550796
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_X3DAudio_x64.cab - 54522
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_X3DAudio_x86.cab - 21843
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_XACT_x64.cab - 121786
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_XACT_x86.cab - 92676
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_XAudio_x64.cab - 273960
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Nov2008_XAudio_x86.cab - 272603
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Oct2005_xinput_x64.cab - 86029
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\Oct2005_xinput_x86.cab - 45351
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\OCT2006_d3dx9_31_x64.cab - 1412894
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\OCT2006_d3dx9_31_x86.cab - 1127209
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\OCT2006_XACT_x64.cab - 182361
+C:\Program Files\Bethesda Softworks\Fallout New Vegas\Redists\directx\OCT2006_XACT_x86.cab - 138009
+
+UAC Disabled or not present

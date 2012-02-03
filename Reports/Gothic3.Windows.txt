@@ -1,0 +1,379 @@
+Game Name: Gothic 3
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+SteamCommon\gothic 3
+
+Save Path: 
+UserDocuments\gothic3
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3620144083-4235650824-943157732-1001\{1259B336-5ECB-4799-9B8B-42D37D244CCE}
+Value: ConfigApplicationPath
+Data: SteamCommon\gothic 3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3620144083-4235650824-943157732-1001\{1259B336-5ECB-4799-9B8B-42D37D244CCE}
+Value: AppExePath
+Data: 30/07/2010 03:27:51 - SteamCommon\gothic 3\Gothic3.exe - 581632
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 39500
+Value: InstallLocation
+Data: SteamCommon\gothic 3
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+31/07/2010 05:28:50 - UserDocuments\gothic3\G3_World_01_0001.g3sav - 65685
+31/07/2010 05:28:55 - UserDocuments\gothic3\G3_World_01_0001.g3savdat - 2254784
+31/07/2010 05:13:33 - UserDocuments\gothic3\UserOptions.ini - 4126
+
+Install Folder Dump: 
+30/07/2010 03:42:41 - SteamCommon\gothic 3\binkw32.dll - 193024
+30/07/2010 03:29:59 - SteamCommon\gothic 3\Changelog-112.txt - 7467
+30/07/2010 03:42:07 - SteamCommon\gothic 3\copublisher.url - 128
+30/07/2010 03:26:43 - SteamCommon\gothic 3\CP_Changelog_en.txt - 32365
+30/07/2010 03:26:24 - SteamCommon\gothic 3\CP_Readme_en.txt - 6315
+30/07/2010 03:26:55 - SteamCommon\gothic 3\dbghelp.dll - 665600
+30/07/2010 03:27:18 - SteamCommon\gothic 3\Disclaimer_en.txt - 816
+30/07/2010 03:27:23 - SteamCommon\gothic 3\Engine.dll - 11472896
+30/07/2010 03:28:47 - SteamCommon\gothic 3\Exporter.dll - 286720
+30/07/2010 03:28:30 - SteamCommon\gothic 3\FileSystem.dll - 376832
+30/07/2010 03:34:15 - SteamCommon\gothic 3\fmod.dll - 161280
+30/07/2010 03:47:58 - SteamCommon\gothic 3\fmodex.dll - 319488
+30/07/2010 03:32:24 - SteamCommon\gothic 3\Game.dll - 8228864
+30/07/2010 03:29:21 - SteamCommon\gothic 3\ge3dialogs.dll - 278528
+30/07/2010 03:43:31 - SteamCommon\gothic 3\GFC.dll - 307200
+30/07/2010 03:27:51 - SteamCommon\gothic 3\Gothic3.exe - 581632
+30/07/2010 03:33:56 - SteamCommon\gothic 3\Gothic3.ttf - 448744
+30/07/2010 03:30:06 - SteamCommon\gothic 3\GUI.dll - 819200
+30/07/2010 03:30:01 - SteamCommon\gothic 3\IMAGEHLP.DLL - 85264
+30/07/2010 03:29:08 - SteamCommon\gothic 3\Importer.dll - 966656
+30/07/2010 03:26:59 - SteamCommon\gothic 3\installscript.vdf - 833
+30/07/2010 03:46:22 - SteamCommon\gothic 3\kupdate.exe - 413696
+30/07/2010 03:27:29 - SteamCommon\gothic 3\lib3ds.dll - 184320
+30/07/2010 03:29:51 - SteamCommon\gothic 3\libexpat.dll - 147456
+30/07/2010 03:44:07 - SteamCommon\gothic 3\Microsoft.VC80.CRT.manifest - 522
+30/07/2010 03:43:32 - SteamCommon\gothic 3\Microsoft.VC80.OpenMP.manifest - 467
+30/07/2010 03:26:36 - SteamCommon\gothic 3\msdbi.dll - 102672
+30/07/2010 04:33:30 - SteamCommon\gothic 3\msvcm80.dll - 479232
+30/07/2010 04:34:01 - SteamCommon\gothic 3\msvcp71.dll - 499712
+30/07/2010 04:31:42 - SteamCommon\gothic 3\msvcp80.dll - 548864
+30/07/2010 03:26:47 - SteamCommon\gothic 3\msvcr71.dll - 348160
+30/07/2010 03:29:36 - SteamCommon\gothic 3\msvcr80.dll - 626688
+30/07/2010 03:46:45 - SteamCommon\gothic 3\MSVCRT.DLL - 266293
+30/07/2010 03:26:33 - SteamCommon\gothic 3\NxCooking.dll - 331776
+30/07/2010 03:28:44 - SteamCommon\gothic 3\NxExtensions.dll - 90112
+30/07/2010 03:28:40 - SteamCommon\gothic 3\PhysXCore.dll - 1695744
+30/07/2010 03:44:28 - SteamCommon\gothic 3\PhysXLoader.dll - 49152
+30/07/2010 03:27:16 - SteamCommon\gothic 3\protect.dll - 75896
+30/07/2010 03:27:57 - SteamCommon\gothic 3\publisher.url - 177
+30/07/2010 03:26:39 - SteamCommon\gothic 3\register.url - 137
+31/07/2010 04:58:15 - SteamCommon\gothic 3\runasadmin.vdf - 785
+30/07/2010 03:26:28 - SteamCommon\gothic 3\sapi_lipsync.dll - 286720
+30/07/2010 03:31:21 - SteamCommon\gothic 3\SCM.dll - 712704
+30/07/2010 03:45:06 - SteamCommon\gothic 3\Script.dll - 847872
+30/07/2010 03:28:27 - SteamCommon\gothic 3\SharedBase.dll - 1409024
+30/07/2010 03:29:51 - SteamCommon\gothic 3\SHW32.DLL - 193536
+30/07/2010 03:26:32 - SteamCommon\gothic 3\site.url - 180
+30/07/2010 03:43:36 - SteamCommon\gothic 3\splash.bmp - 270056
+30/07/2010 03:31:05 - SteamCommon\gothic 3\vcomp.dll - 65536
+30/07/2010 03:29:03 - SteamCommon\gothic 3\Data\gui.p00 - 31206255
+30/07/2010 03:43:25 - SteamCommon\gothic 3\Data\gui.p01 - 9194053
+30/07/2010 03:47:34 - SteamCommon\gothic 3\Data\gui.pak - 73985038
+30/07/2010 03:28:34 - SteamCommon\gothic 3\Data\Infos.p00 - 197064
+30/07/2010 03:29:04 - SteamCommon\gothic 3\Data\Infos.p01 - 466167
+30/07/2010 03:44:24 - SteamCommon\gothic 3\Data\Infos.pak - 3739522
+30/07/2010 04:33:27 - SteamCommon\gothic 3\Data\Library.p00 - 44340
+30/07/2010 03:34:00 - SteamCommon\gothic 3\Data\Library.pak - 71487
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\Lightmaps.pak - 119638208
+30/07/2010 04:32:28 - SteamCommon\gothic 3\Data\Music.p00 - 4778111
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\Music.pak - 186689536
+30/07/2010 03:28:20 - SteamCommon\gothic 3\Data\Projects_compiled.p00 - 19080374
+30/07/2010 03:30:20 - SteamCommon\gothic 3\Data\Projects_compiled.p01 - 380
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\Projects_compiled.pak - 169609605
+30/07/2010 03:29:22 - SteamCommon\gothic 3\Data\Quests.p00 - 14096
+30/07/2010 03:31:49 - SteamCommon\gothic 3\Data\Quests.p01 - 28663
+30/07/2010 03:28:01 - SteamCommon\gothic 3\Data\Quests.pak - 432064
+30/07/2010 03:28:50 - SteamCommon\gothic 3\Data\Sound.p00 - 122267
+30/07/2010 03:28:25 - SteamCommon\gothic 3\Data\Sound.p01 - 450963
+30/07/2010 03:34:05 - SteamCommon\gothic 3\Data\Sound.pak - 78480174
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\Speech_English.pak - 699535922
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\Speech_French.pak - 692380689
+30/07/2010 03:28:35 - SteamCommon\gothic 3\Data\Speech_German.p00 - 433232
+30/07/2010 04:32:35 - SteamCommon\gothic 3\Data\Speedtrees.pak - 203332
+30/07/2010 03:29:34 - SteamCommon\gothic 3\Data\Strings.p00 - 2335899
+30/07/2010 03:26:55 - SteamCommon\gothic 3\Data\Strings.pak - 2344926
+30/07/2010 03:28:40 - SteamCommon\gothic 3\Data\Templates.p00 - 1400836
+30/07/2010 03:26:25 - SteamCommon\gothic 3\Data\Templates.p01 - 542951
+30/07/2010 03:31:46 - SteamCommon\gothic 3\Data\Templates.pak - 17043572
+30/07/2010 03:45:14 - SteamCommon\gothic 3\Data\Workspace.pak - 2985
+30/07/2010 03:28:30 - SteamCommon\gothic 3\Data\_compiledAnimation.p00 - 6981796
+30/07/2010 03:42:47 - SteamCommon\gothic 3\Data\_compiledAnimation.pak - 146354336
+30/07/2010 04:33:52 - SteamCommon\gothic 3\Data\_compiledImage.p00 - 6447795
+30/07/2010 04:34:12 - SteamCommon\gothic 3\Data\_compiledImage.p01 - 1506429
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\_compiledImage.pak - 587217568
+30/07/2010 03:29:13 - SteamCommon\gothic 3\Data\_compiledMaterial.pak - 1298721
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\_compiledMesh.pak - 469926307
+30/07/2010 03:44:04 - SteamCommon\gothic 3\Data\_compiledPhysic.pak - 98396885
+30/07/2010 03:27:54 - SteamCommon\gothic 3\Data\_intern.pak - 5795265
+30/07/2010 03:27:22 - SteamCommon\gothic 3\Data\Materials\imageadmin.dat - 153
+30/07/2010 03:27:49 - SteamCommon\gothic 3\Data\Materials\Effects\Particle.bfx - 2528
+30/07/2010 03:28:44 - SteamCommon\gothic 3\Data\Materials\Effects\Particle.fx - 5851
+30/07/2010 03:28:55 - SteamCommon\gothic 3\Data\Materials\Effects\PH_PL_OB_P.fx - 23064
+30/07/2010 04:33:02 - SteamCommon\gothic 3\Data\Materials\Effects\PH_PL_OB_V.fx - 27534
+30/07/2010 03:29:18 - SteamCommon\gothic 3\Data\Materials\Effects\Shadowmap_P.fx - 11889
+30/07/2010 03:30:32 - SteamCommon\gothic 3\Data\Materials\Effects\Shadowmap_V.fx - 10551
+30/07/2010 03:26:30 - SteamCommon\gothic 3\Data\Materials\Effects\Skydome_P.fx - 3808
+30/07/2010 03:27:23 - SteamCommon\gothic 3\Data\Materials\Effects\Skydome_V.fx - 6148
+30/07/2010 03:28:01 - SteamCommon\gothic 3\Data\Materials\Effects\Vegetation.fx - 15959
+30/07/2010 03:45:19 - SteamCommon\gothic 3\Data\Materials\Effects\VH_PL_OB_P.fx - 23573
+30/07/2010 03:29:15 - SteamCommon\gothic 3\Data\Materials\Effects\VH_PL_OB_V.fx - 28122
+30/07/2010 03:26:37 - SteamCommon\gothic 3\Data\Materials\Effects\VH_VL_OB_P.fx - 14000
+30/07/2010 03:46:16 - SteamCommon\gothic 3\Data\Materials\Effects\VH_VL_OB_V.fx - 27172
+31/07/2010 05:01:05 - SteamCommon\gothic 3\Data\Materials\Effects\VH_VL_P.bfx - 54155
+30/07/2010 03:47:52 - SteamCommon\gothic 3\Data\Materials\Effects\VH_VL_P.fx - 38590
+30/07/2010 03:28:22 - SteamCommon\gothic 3\Data\Materials\Effects\VH_VL_V.fx - 27387
+30/07/2010 04:33:06 - SteamCommon\gothic 3\Data\Materials\Effects\Water.fx - 1864
+30/07/2010 03:30:44 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_AlphaHighLights.fx - 3825
+30/07/2010 03:43:26 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_Blur8.fx - 2824
+30/07/2010 03:27:21 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_Cartoon.fx - 8072
+30/07/2010 03:28:03 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_CreateLightmaps.fx - 11057
+30/07/2010 03:28:47 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_DOF.fx - 4627
+30/07/2010 04:33:47 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_DOF2.fx - 5422
+30/07/2010 03:29:56 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_HDRI.fx - 3194
+30/07/2010 04:32:47 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_MaskHighLights.fx - 3616
+30/07/2010 04:33:21 - SteamCommon\gothic 3\Data\Materials\Effects\ImageProcessing\IP_PrePCF.fx - 2909
+30/07/2010 03:28:15 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Diffuse_01.tga - 1440044
+30/07/2010 03:34:20 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Loadingbar_Diffuse_01.tga - 512
+30/07/2010 03:28:05 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_01.tga - 276716
+30/07/2010 04:33:24 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_02.tga - 276716
+30/07/2010 03:27:51 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_03.tga - 276716
+30/07/2010 03:29:48 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_04.tga - 276716
+30/07/2010 03:30:55 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_05.tga - 276716
+30/07/2010 03:28:44 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_06.tga - 276716
+30/07/2010 03:29:59 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_07.tga - 276716
+30/07/2010 03:26:45 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_08.tga - 276716
+30/07/2010 03:47:48 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_09.tga - 276716
+30/07/2010 03:27:12 - SteamCommon\gothic 3\Data\Materials\Images\G3_Startscreen\G3_Startscreen_Main_Slideshow_Series01_Diffuse_10.tga - 276716
+30/07/2010 03:29:15 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\Augapfel.tga - 49196
+30/07/2010 03:47:19 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\blue.tga - 66
+30/07/2010 03:44:33 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\checker_grey.tga - 786476
+30/07/2010 04:33:57 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\closebox.tga - 3116
+30/07/2010 03:27:20 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\console.tga - 786476
+30/07/2010 03:27:12 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\cursor.tga - 16402
+30/07/2010 03:47:37 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\dlg.tga - 1068
+30/07/2010 04:33:18 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\down.tga - 1068
+30/07/2010 03:26:34 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\EchoBright0000.tga - 49196
+30/07/2010 03:28:40 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\edit.tga - 1068
+30/07/2010 03:44:26 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\FONT_default.tga - 524332
+30/07/2010 04:33:59 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\green.tga - 92
+30/07/2010 03:42:43 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\healthbar_bg.tga - 32786
+30/07/2010 03:26:27 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\healthbar_progress.tga - 92
+30/07/2010 03:28:27 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\Iris-b.tga - 259859
+30/07/2010 03:30:01 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\Iris-blaugruen.tga - 196652
+30/07/2010 03:26:25 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\left.tga - 1068
+30/07/2010 03:29:41 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\maximizebox.tga - 3116
+30/07/2010 03:47:43 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\minimizebox.tga - 3116
+30/07/2010 03:27:45 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\mousepointer.tga - 1068
+30/07/2010 03:26:37 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\progress.tga - 1068
+30/07/2010 03:29:45 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\red.tga - 92
+30/07/2010 03:27:22 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\right.tga - 1068
+30/07/2010 03:27:31 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\scrollbar.tga - 32786
+30/07/2010 03:27:07 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\static_text.tga - 24594
+30/07/2010 03:29:04 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\up.tga - 1068
+30/07/2010 03:42:23 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\Vegetaion_AlphaDisolve.dds - 262272
+30/07/2010 03:48:01 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\Vegetaion_AlphaDisolve.tga - 196652
+30/07/2010 03:30:49 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\white.tga - 92
+30/07/2010 03:28:49 - SteamCommon\gothic 3\Data\Materials\Images\_Intern\yellow.tga - 92
+30/07/2010 03:31:01 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_default_1_1.fx - 10146
+30/07/2010 03:44:10 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_default_1_4.fx - 13141
+30/07/2010 03:31:59 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_default_2_0.fx - 33174
+30/07/2010 03:26:40 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_default_3_0.fx - 33877
+30/07/2010 03:29:23 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_error.fx - 3153
+30/07/2010 03:29:18 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_globals.fx - 39853
+30/07/2010 04:32:50 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_indicator_1_1.fx - 6455
+30/07/2010 03:26:44 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_lightstreaks_1_1.fx - 7065
+30/07/2010 04:32:46 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_ocean_1_4.fx - 5393
+30/07/2010 03:27:39 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_ocean_2_0.fx - 12147
+30/07/2010 03:26:22 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_ocean_3_0.fx - 13123
+30/07/2010 03:28:35 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_particle_1_1.fx - 7404
+30/07/2010 03:44:09 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_preview.fx - 6565
+30/07/2010 03:27:03 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_river_1_4.fx - 5393
+30/07/2010 03:26:43 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_river_2_0.fx - 12147
+30/07/2010 03:27:27 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_river_3_0.fx - 13126
+30/07/2010 03:26:41 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_shore_2_0.fx - 13013
+30/07/2010 03:48:04 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_shore_3_0.fx - 12925
+30/07/2010 03:28:49 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_skin.fx - 2969
+30/07/2010 03:28:47 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_skin_2_0.fx - 24159
+30/07/2010 03:27:34 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_skin_3_0.fx - 25285
+30/07/2010 03:34:17 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_skydome_1_1.fx - 8481
+30/07/2010 03:42:45 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_skydome_2_0.fx - 10649
+30/07/2010 03:26:36 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_sm2lspsm_2_0.fx - 4068
+30/07/2010 03:47:37 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ge_vegetation_1_1.fx - 11430
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\Materials\ShaderMaterial\Effects\ShaderMaterialPool_Master.smp - 69035527
+30/07/2010 07:16:50 - SteamCommon\gothic 3\Data\Video\G3_Credits.bik - 215060808
+30/07/2010 03:27:11 - SteamCommon\gothic 3\Data\Video\G3_Credits2.bik - 5860416
+30/07/2010 03:42:05 - SteamCommon\gothic 3\Data\Video\G3_Intro.bik - 109684008
+30/07/2010 03:33:52 - SteamCommon\gothic 3\Data\Video\G3_Logo_01.bik - 6629212
+30/07/2010 03:44:06 - SteamCommon\gothic 3\Data\Video\G3_Logo_02.bik - 6178996
+30/07/2010 04:33:00 - SteamCommon\gothic 3\Data\Video\G3_Logo_03.bik - 1663472
+30/07/2010 03:27:34 - SteamCommon\gothic 3\Data\Video\G3_Logo_04.bik - 1268116
+30/07/2010 03:26:28 - SteamCommon\gothic 3\Docs\G3_Manual_FRA.pdf - 1797319
+30/07/2010 03:30:20 - SteamCommon\gothic 3\Docs\G3_Manual_UK.pdf - 3396239
+30/07/2010 03:26:23 - SteamCommon\gothic 3\Docs\readme.txt - 3859
+30/07/2010 03:29:59 - SteamCommon\gothic 3\Ini\controls.ini - 183847
+31/07/2010 05:29:03 - SteamCommon\gothic 3\Ini\debug.ini - 41054
+30/07/2010 03:29:08 - SteamCommon\gothic 3\Ini\events.ini - 66943
+30/07/2010 03:44:39 - SteamCommon\gothic 3\Ini\G3_World_01_local.wrldatasc - 18980
+30/07/2010 03:26:22 - SteamCommon\gothic 3\Ini\ge3.INI - 16160
+30/07/2010 03:30:23 - SteamCommon\gothic 3\Ini\ge3local.ini - 218
+30/07/2010 03:31:11 - SteamCommon\gothic 3\Ini\imagequality.ini - 4666
+31/07/2010 05:29:03 - SteamCommon\gothic 3\Ini\keyboard_and_console.txt - 30775
+31/07/2010 05:01:14 - SteamCommon\gothic 3\Ini\log.ini - 977
+30/07/2010 03:28:53 - SteamCommon\gothic 3\Ini\logo.ini - 62
+30/07/2010 03:26:21 - SteamCommon\gothic 3\Ini\mountlist.INI - 912
+30/07/2010 03:29:13 - SteamCommon\gothic 3\redist\PhysX_9.09.0428_SystemSoftware.exe - 41168152
+30/07/2010 03:27:47 - SteamCommon\gothic 3\redist\vcredist_x86.exe - 1821192
+30/07/2010 03:47:03 - SteamCommon\gothic 3\redist\DirectX\Apr2005_d3dx9_25_x64.cab - 1347346
+30/07/2010 03:27:16 - SteamCommon\gothic 3\redist\DirectX\Apr2005_d3dx9_25_x86.cab - 1078954
+30/07/2010 03:28:31 - SteamCommon\gothic 3\redist\DirectX\Apr2006_d3dx9_30_x64.cab - 1397830
+30/07/2010 03:47:43 - SteamCommon\gothic 3\redist\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+30/07/2010 03:47:49 - SteamCommon\gothic 3\redist\DirectX\Apr2006_MDX1_x86.cab - 916422
+30/07/2010 03:46:11 - SteamCommon\gothic 3\redist\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162622
+30/07/2010 03:26:59 - SteamCommon\gothic 3\redist\DirectX\Apr2006_XACT_x64.cab - 179125
+30/07/2010 03:27:32 - SteamCommon\gothic 3\redist\DirectX\Apr2006_XACT_x86.cab - 133095
+30/07/2010 03:34:08 - SteamCommon\gothic 3\redist\DirectX\Apr2006_xinput_x64.cab - 87093
+30/07/2010 03:29:47 - SteamCommon\gothic 3\redist\DirectX\Apr2006_xinput_x86.cab - 46002
+30/07/2010 03:26:51 - SteamCommon\gothic 3\redist\DirectX\APR2007_d3dx10_33_x64.cab - 698612
+30/07/2010 03:29:15 - SteamCommon\gothic 3\redist\DirectX\APR2007_d3dx10_33_x86.cab - 695857
+30/07/2010 03:29:41 - SteamCommon\gothic 3\redist\DirectX\APR2007_d3dx9_33_x64.cab - 1607358
+30/07/2010 03:26:30 - SteamCommon\gothic 3\redist\DirectX\APR2007_d3dx9_33_x86.cab - 1606039
+30/07/2010 03:29:15 - SteamCommon\gothic 3\redist\DirectX\APR2007_XACT_x64.cab - 195758
+30/07/2010 03:31:53 - SteamCommon\gothic 3\redist\DirectX\APR2007_XACT_x86.cab - 151225
+30/07/2010 03:32:21 - SteamCommon\gothic 3\redist\DirectX\APR2007_xinput_x64.cab - 96817
+30/07/2010 04:33:44 - SteamCommon\gothic 3\redist\DirectX\APR2007_xinput_x86.cab - 53302
+30/07/2010 03:28:42 - SteamCommon\gothic 3\redist\DirectX\Aug2005_d3dx9_27_x64.cab - 1350534
+30/07/2010 03:44:23 - SteamCommon\gothic 3\redist\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+30/07/2010 03:30:25 - SteamCommon\gothic 3\redist\DirectX\AUG2006_XACT_x64.cab - 182895
+30/07/2010 03:29:43 - SteamCommon\gothic 3\redist\DirectX\AUG2006_XACT_x86.cab - 137227
+30/07/2010 03:29:56 - SteamCommon\gothic 3\redist\DirectX\AUG2006_xinput_x64.cab - 87134
+30/07/2010 03:26:45 - SteamCommon\gothic 3\redist\DirectX\AUG2006_xinput_x86.cab - 46050
+30/07/2010 03:46:39 - SteamCommon\gothic 3\redist\DirectX\AUG2007_d3dx10_35_x64.cab - 852278
+30/07/2010 03:26:25 - SteamCommon\gothic 3\redist\DirectX\AUG2007_d3dx10_35_x86.cab - 796859
+30/07/2010 03:28:14 - SteamCommon\gothic 3\redist\DirectX\AUG2007_d3dx9_35_x64.cab - 1800152
+30/07/2010 03:34:20 - SteamCommon\gothic 3\redist\DirectX\AUG2007_d3dx9_35_x86.cab - 1708144
+30/07/2010 03:27:56 - SteamCommon\gothic 3\redist\DirectX\AUG2007_XACT_x64.cab - 198088
+30/07/2010 03:29:55 - SteamCommon\gothic 3\redist\DirectX\AUG2007_XACT_x86.cab - 153004
+30/07/2010 03:30:04 - SteamCommon\gothic 3\redist\DirectX\Aug2008_d3dx10_39_x64.cab - 867604
+30/07/2010 03:28:19 - SteamCommon\gothic 3\redist\DirectX\Aug2008_d3dx10_39_x86.cab - 849159
+30/07/2010 03:29:30 - SteamCommon\gothic 3\redist\DirectX\Aug2008_d3dx9_39_x64.cab - 1794076
+30/07/2010 03:42:36 - SteamCommon\gothic 3\redist\DirectX\Aug2008_d3dx9_39_x86.cab - 1464664
+30/07/2010 03:44:33 - SteamCommon\gothic 3\redist\DirectX\Aug2008_XACT_x64.cab - 121824
+30/07/2010 03:27:25 - SteamCommon\gothic 3\redist\DirectX\Aug2008_XACT_x86.cab - 93004
+30/07/2010 04:33:54 - SteamCommon\gothic 3\redist\DirectX\Aug2008_XAudio_x64.cab - 271360
+30/07/2010 03:44:35 - SteamCommon\gothic 3\redist\DirectX\Aug2008_XAudio_x86.cab - 269842
+30/07/2010 03:26:32 - SteamCommon\gothic 3\redist\DirectX\BDANT.cab - 1155483
+30/07/2010 03:31:48 - SteamCommon\gothic 3\redist\DirectX\BDAXP.cab - 975148
+30/07/2010 03:29:29 - SteamCommon\gothic 3\redist\DirectX\Dec2005_d3dx9_28_x64.cab - 1357976
+30/07/2010 03:26:36 - SteamCommon\gothic 3\redist\DirectX\Dec2005_d3dx9_28_x86.cab - 1079456
+30/07/2010 03:44:39 - SteamCommon\gothic 3\redist\DirectX\DEC2006_d3dx10_00_x64.cab - 212799
+30/07/2010 03:47:54 - SteamCommon\gothic 3\redist\DirectX\DEC2006_d3dx10_00_x86.cab - 191720
+30/07/2010 03:26:44 - SteamCommon\gothic 3\redist\DirectX\DEC2006_d3dx9_32_x64.cab - 1571154
+30/07/2010 03:32:41 - SteamCommon\gothic 3\redist\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+30/07/2010 03:30:20 - SteamCommon\gothic 3\redist\DirectX\DEC2006_XACT_x64.cab - 192475
+30/07/2010 03:27:39 - SteamCommon\gothic 3\redist\DirectX\DEC2006_XACT_x86.cab - 145591
+30/07/2010 03:45:27 - SteamCommon\gothic 3\redist\DirectX\DSETUP.dll - 94024
+30/07/2010 03:27:26 - SteamCommon\gothic 3\redist\DirectX\dsetup32.dll - 1691464
+30/07/2010 03:42:49 - SteamCommon\gothic 3\redist\DirectX\dxdllreg_x86.cab - 44444
+30/07/2010 03:27:17 - SteamCommon\gothic 3\redist\DirectX\dxnt.cab - 13264160
+30/07/2010 03:29:20 - SteamCommon\gothic 3\redist\DirectX\DXSETUP.exe - 525128
+30/07/2010 03:43:38 - SteamCommon\gothic 3\redist\DirectX\dxupdate.cab - 95296
+30/07/2010 03:47:32 - SteamCommon\gothic 3\redist\DirectX\Feb2005_d3dx9_24_x64.cab - 1247499
+30/07/2010 03:27:22 - SteamCommon\gothic 3\redist\DirectX\Feb2005_d3dx9_24_x86.cab - 1013217
+30/07/2010 03:29:11 - SteamCommon\gothic 3\redist\DirectX\Feb2006_d3dx9_29_x64.cab - 1362788
+30/07/2010 03:27:18 - SteamCommon\gothic 3\redist\DirectX\Feb2006_d3dx9_29_x86.cab - 1084712
+30/07/2010 03:27:29 - SteamCommon\gothic 3\redist\DirectX\Feb2006_XACT_x64.cab - 178351
+30/07/2010 03:30:15 - SteamCommon\gothic 3\redist\DirectX\Feb2006_XACT_x86.cab - 132409
+30/07/2010 03:26:26 - SteamCommon\gothic 3\redist\DirectX\FEB2007_XACT_x64.cab - 194675
+30/07/2010 03:27:32 - SteamCommon\gothic 3\redist\DirectX\FEB2007_XACT_x86.cab - 147975
+30/07/2010 03:29:03 - SteamCommon\gothic 3\redist\DirectX\Jun2005_d3dx9_26_x64.cab - 1335994
+30/07/2010 03:28:48 - SteamCommon\gothic 3\redist\DirectX\Jun2005_d3dx9_26_x86.cab - 1064917
+30/07/2010 03:26:27 - SteamCommon\gothic 3\redist\DirectX\JUN2006_XACT_x64.cab - 180777
+30/07/2010 03:26:39 - SteamCommon\gothic 3\redist\DirectX\JUN2006_XACT_x86.cab - 133663
+30/07/2010 03:27:08 - SteamCommon\gothic 3\redist\DirectX\JUN2007_d3dx10_34_x64.cab - 699036
+30/07/2010 03:47:14 - SteamCommon\gothic 3\redist\DirectX\JUN2007_d3dx10_34_x86.cab - 698472
+30/07/2010 03:27:00 - SteamCommon\gothic 3\redist\DirectX\JUN2007_d3dx9_34_x64.cab - 1607766
+30/07/2010 03:29:56 - SteamCommon\gothic 3\redist\DirectX\JUN2007_d3dx9_34_x86.cab - 1607286
+30/07/2010 03:26:42 - SteamCommon\gothic 3\redist\DirectX\JUN2007_XACT_x64.cab - 197122
+30/07/2010 03:34:12 - SteamCommon\gothic 3\redist\DirectX\JUN2007_XACT_x86.cab - 152909
+30/07/2010 03:27:56 - SteamCommon\gothic 3\redist\DirectX\JUN2008_d3dx10_38_x64.cab - 867828
+30/07/2010 03:28:00 - SteamCommon\gothic 3\redist\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+30/07/2010 03:42:20 - SteamCommon\gothic 3\redist\DirectX\JUN2008_d3dx9_38_x64.cab - 1792600
+30/07/2010 04:33:41 - SteamCommon\gothic 3\redist\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+30/07/2010 04:33:04 - SteamCommon\gothic 3\redist\DirectX\JUN2008_X3DAudio_x64.cab - 55154
+30/07/2010 03:27:34 - SteamCommon\gothic 3\redist\DirectX\JUN2008_X3DAudio_x86.cab - 21897
+30/07/2010 03:27:28 - SteamCommon\gothic 3\redist\DirectX\JUN2008_XACT_x64.cab - 121046
+30/07/2010 03:27:36 - SteamCommon\gothic 3\redist\DirectX\JUN2008_XACT_x86.cab - 93120
+30/07/2010 03:46:27 - SteamCommon\gothic 3\redist\DirectX\JUN2008_XAudio_x64.cab - 269620
+30/07/2010 03:43:29 - SteamCommon\gothic 3\redist\DirectX\JUN2008_XAudio_x86.cab - 269016
+30/07/2010 03:28:45 - SteamCommon\gothic 3\redist\DirectX\Mar2008_d3dx10_37_x64.cab - 844884
+30/07/2010 03:30:10 - SteamCommon\gothic 3\redist\DirectX\Mar2008_d3dx10_37_x86.cab - 818252
+30/07/2010 03:44:56 - SteamCommon\gothic 3\redist\DirectX\Mar2008_d3dx9_37_x64.cab - 1769854
+30/07/2010 03:29:41 - SteamCommon\gothic 3\redist\DirectX\Mar2008_d3dx9_37_x86.cab - 1443282
+30/07/2010 03:30:38 - SteamCommon\gothic 3\redist\DirectX\Mar2008_X3DAudio_x64.cab - 55058
+30/07/2010 03:26:29 - SteamCommon\gothic 3\redist\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+30/07/2010 03:44:37 - SteamCommon\gothic 3\redist\DirectX\Mar2008_XACT_x64.cab - 122328
+30/07/2010 03:28:49 - SteamCommon\gothic 3\redist\DirectX\Mar2008_XACT_x86.cab - 93726
+30/07/2010 03:42:38 - SteamCommon\gothic 3\redist\DirectX\Mar2008_XAudio_x64.cab - 251194
+30/07/2010 03:29:17 - SteamCommon\gothic 3\redist\DirectX\Mar2008_XAudio_x86.cab - 226242
+30/07/2010 03:27:33 - SteamCommon\gothic 3\redist\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+30/07/2010 04:32:41 - SteamCommon\gothic 3\redist\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+30/07/2010 03:26:55 - SteamCommon\gothic 3\redist\DirectX\Mar2009_d3dx9_41_x64.cab - 1973694
+30/07/2010 03:29:49 - SteamCommon\gothic 3\redist\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+30/07/2010 03:27:20 - SteamCommon\gothic 3\redist\DirectX\Mar2009_X3DAudio_x64.cab - 54592
+30/07/2010 03:42:25 - SteamCommon\gothic 3\redist\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+30/07/2010 04:33:16 - SteamCommon\gothic 3\redist\DirectX\Mar2009_XACT_x64.cab - 121498
+30/07/2010 04:32:38 - SteamCommon\gothic 3\redist\DirectX\Mar2009_XACT_x86.cab - 92732
+30/07/2010 03:26:29 - SteamCommon\gothic 3\redist\DirectX\Mar2009_XAudio_x64.cab - 275036
+30/07/2010 03:28:08 - SteamCommon\gothic 3\redist\DirectX\Mar2009_XAudio_x86.cab - 273010
+30/07/2010 04:33:13 - SteamCommon\gothic 3\redist\DirectX\Nov2007_d3dx10_36_x64.cab - 864592
+30/07/2010 03:28:59 - SteamCommon\gothic 3\redist\DirectX\Nov2007_d3dx10_36_x86.cab - 803884
+30/07/2010 03:29:49 - SteamCommon\gothic 3\redist\DirectX\Nov2007_d3dx9_36_x64.cab - 1802050
+30/07/2010 03:34:41 - SteamCommon\gothic 3\redist\DirectX\Nov2007_d3dx9_36_x86.cab - 1709352
+30/07/2010 03:26:59 - SteamCommon\gothic 3\redist\DirectX\NOV2007_X3DAudio_x64.cab - 46144
+30/07/2010 03:27:11 - SteamCommon\gothic 3\redist\DirectX\NOV2007_X3DAudio_x86.cab - 18488
+30/07/2010 03:32:09 - SteamCommon\gothic 3\redist\DirectX\NOV2007_XACT_x64.cab - 196754
+30/07/2010 03:26:46 - SteamCommon\gothic 3\redist\DirectX\NOV2007_XACT_x86.cab - 148264
+30/07/2010 03:31:32 - SteamCommon\gothic 3\redist\DirectX\Nov2008_d3dx10_40_x64.cab - 994146
+30/07/2010 04:32:44 - SteamCommon\gothic 3\redist\DirectX\Nov2008_d3dx10_40_x86.cab - 965413
+30/07/2010 03:26:41 - SteamCommon\gothic 3\redist\DirectX\Nov2008_d3dx9_40_x64.cab - 1906870
+30/07/2010 03:27:28 - SteamCommon\gothic 3\redist\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+30/07/2010 03:26:26 - SteamCommon\gothic 3\redist\DirectX\Nov2008_X3DAudio_x64.cab - 55110
+30/07/2010 03:43:34 - SteamCommon\gothic 3\redist\DirectX\Nov2008_X3DAudio_x86.cab - 21836
+30/07/2010 03:32:27 - SteamCommon\gothic 3\redist\DirectX\Nov2008_XACT_x64.cab - 121746
+30/07/2010 03:42:10 - SteamCommon\gothic 3\redist\DirectX\Nov2008_XACT_x86.cab - 92688
+30/07/2010 03:32:15 - SteamCommon\gothic 3\redist\DirectX\Nov2008_XAudio_x64.cab - 273990
+30/07/2010 04:33:50 - SteamCommon\gothic 3\redist\DirectX\Nov2008_XAudio_x86.cab - 273203
+30/07/2010 03:29:33 - SteamCommon\gothic 3\redist\DirectX\Oct2005_xinput_x64.cab - 86029
+30/07/2010 03:42:51 - SteamCommon\gothic 3\redist\DirectX\Oct2005_xinput_x86.cab - 45359
+30/07/2010 03:26:36 - SteamCommon\gothic 3\redist\DirectX\OCT2006_d3dx9_31_x64.cab - 1412894
+30/07/2010 03:28:00 - SteamCommon\gothic 3\redist\DirectX\OCT2006_d3dx9_31_x86.cab - 1127209
+30/07/2010 03:44:30 - SteamCommon\gothic 3\redist\DirectX\OCT2006_XACT_x64.cab - 182361
+30/07/2010 03:27:03 - SteamCommon\gothic 3\redist\DirectX\OCT2006_XACT_x86.cab - 138017
+30/07/2010 03:30:18 - SteamCommon\gothic 3\scripts\Script_Game.dll - 2457600
+30/07/2010 03:28:49 - SteamCommon\gothic 3\snapshots\snapshots_ForceDir.txt.txt - 0
+
+UAC Enabled
+
+
+VirtualStore Folders: 

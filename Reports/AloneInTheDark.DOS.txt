@@ -1,0 +1,303 @@
+Game Name: Alone in the dark
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Alone in the Dark
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{31FDE4A2-4C3D-4238-8369-9ABA4CF65F28}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{31FDE4A2-4C3D-4238-8369-9ABA4CF65F28}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{409BE385-5B13-4D53-8C55-7570ABEF829C}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{409BE385-5B13-4D53-8C55-7570ABEF829C}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{FD3B74B1-8644-4B56-B148-ED40E793E91F}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{FD3B74B1-8644-4B56-B148-ED40E793E91F}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE1
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE1
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE1
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE1
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE1
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE2
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE2
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE2
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE2
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE2
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE3
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE3
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE3
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE3
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGALONE3
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Alone in the Dark 2_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Alone in the Dark 2_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Alone in the Dark 3_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Alone in the Dark 3_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Alone in the Dark_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Alone in the Dark_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Alone in the Dark\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark\Alone in the Dark.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark\Jack in the Dark.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark\Setup.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark\Uninstall Alone in the Dark.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 2\Alone in the Dark 2.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 2\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 2\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 2\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 2\Setup.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 2\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 2\Uninstall Alone in the Dark 2.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 2\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 2\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 2\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 3\Alone in the Dark 3.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 3\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 3\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 3\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 3\Setup.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 3\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 3\Uninstall Alone in the Dark 3.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 3\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 3\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 3\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Alone in the Dark 3\Documents\Mastery Examiner.lnk
+C:\Program Files (x86)\GOG.com\Alone in the Dark 3\handout.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+10/25/2011 12:15:01 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\stderr.txt - 0
+10/25/2011 12:51:20 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\stdout.txt - 209
+10/25/2011 12:51:05 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\SAVE0.ITD - 28254
+10/25/2011 12:51:14 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\SAVE1.ITD - 28254
+10/25/2011 12:54:58 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\JACK\SAVE0.ITD - 30296
+10/25/2011 12:55:02 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\JACK\SAVE1.ITD - 30296
+
+Install Folder Dump:
+4/5/2011 11:20:00 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\dosboxAlone1.conf - 7328
+4/5/2011 11:51:28 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\dosboxAlone1_addon.conf - 7347
+4/11/2011 10:19:00 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\dosboxAlone1_setup.conf - 7329
+2/10/2008 2:17:54 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\GAME.GOG - 353924256
+2/9/2011 10:53:42 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\GAME.INST - 793
+3/21/2011 6:03:16 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\gfw_high.ico - 143342
+4/5/2011 11:30:18 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\gfw_high_add.ico - 143265
+4/11/2011 10:19:56 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\goggame.dll - 280576
+2/25/2011 3:19:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\Graphic mode setup.exe - 980992
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\innosetup_license.txt - 1471
+4/1/2011 12:40:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\manual.pdf - 14523890
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\Support.ico - 62895
+10/25/2011 12:14:14 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\unins000.dat - 62962
+10/25/2011 12:13:33 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\unins000.exe - 2142547
+10/25/2011 12:14:14 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\unins000.ini - 66
+7/2/2010 1:00:16 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 11:55:40 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\SDL.dll - 448231
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\SDL_net.dll - 13312
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\DOSBOX\Video Codec\zmbv.inf - 4043
+8/18/2008 6:37:46 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ADLIBM.COM - 3534
+8/18/2008 6:37:46 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CAMERA00.PAK - 143007
+8/18/2008 6:37:48 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CAMERA01.PAK - 209442
+8/18/2008 6:37:48 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CAMERA02.PAK - 606722
+8/18/2008 6:37:50 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CAMERA03.PAK - 519297
+8/18/2008 6:37:50 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CAMERA04.PAK - 112840
+8/18/2008 6:37:52 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CAMERA05.PAK - 840998
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CAMERA06.PAK - 390359
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CAMERA07.PAK - 167091
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\CLEARDRV.EXE - 8426
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\DEFINES.ITD - 90
+8/18/2008 6:37:56 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\DEUTSCH.PAK - 28085
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\DRV_BZ.COM - 761
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\DRV_SB.COM - 1571
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\DRV_SBD.COM - 932
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\DRV_SS.COM - 913
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ENDSEQ.PAK - 43847
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ENGLISH.PAK - 28211
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ESPAGNOL.PAK - 28247
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ETAGE00.PAK - 2652
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ETAGE01.PAK - 6478
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ETAGE02.PAK - 15858
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ETAGE03.PAK - 15176
+8/18/2008 6:37:54 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ETAGE04.PAK - 2050
+8/18/2008 6:37:56 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ETAGE05.PAK - 15507
+8/18/2008 6:37:56 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ETAGE06.PAK - 6411
+8/18/2008 6:37:56 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ETAGE07.PAK - 2071
+12/12/2004 7:30:58 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\FITD.exe - 176128
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\FRANCAIS.PAK - 27928
+8/18/2008 6:37:46 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\INDARK.EXE - 155088
+8/18/2008 6:37:56 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\INDARK.ICO - 2686
+8/18/2008 6:38:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\INDARK2.CFG - 88
+8/18/2008 6:38:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\INSTALL.EXE - 99571
+8/18/2008 6:38:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\INSTALL.OPT - 6718
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ITALIANO.PAK - 28725
+8/18/2008 6:37:56 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\ITD_RESS.PAK - 362835
+8/18/2008 6:37:56 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\LISTANI2.PAK - 59810
+8/18/2008 6:37:56 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\LISTANIM.PAK - 59818
+8/18/2008 6:37:58 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\LISTBOD2.PAK - 268430
+8/18/2008 6:37:58 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\LISTBODY.PAK - 264831
+8/18/2008 6:37:58 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\LISTLIFE.PAK - 74618
+8/18/2008 6:37:58 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\LISTMUS.PAK - 12469
+8/18/2008 6:38:00 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\LISTSAMP.PAK - 961234
+8/18/2008 6:38:00 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\LISTTRAK.PAK - 3696
+8/18/2008 6:38:00 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\OBJETS.ITD - 15186
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\PRESENT.PAK - 267190
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\PRIORITY.ITD - 101
+12/12/2004 5:16:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\SDL.dll - 237568
+12/12/2004 5:34:38 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\SDL_mixer.dll - 348160
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\USA.PAK - 28211
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\VARS.ITD - 414
+8/18/2008 6:38:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\WINSTALL.EXE - 147472
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\ADLIBM.COM - 4122
+8/18/2008 6:38:02 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\ANIM16.PAK - 28906
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\CAMERA16.PAK - 250225
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\CLEARDRV.EXE - 8426
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\DEFINES.ITD - 30
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\DEUTSCH.PAK - 3457
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\DRV_BZ.COM - 761
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\DRV_SB.COM - 1571
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\DRV_SBD.COM - 932
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\DRV_SMP.COM - 708
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\DRV_SS.COM - 913
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\DRV_VM.COM - 1448
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\ENGLISH.PAK - 3245
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\ESPAGNOL.PAK - 3339
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\ETAGE16.PAK - 2736
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\FRANCAIS.PAK - 3373
+8/18/2008 6:38:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\INDARK2.CFG - 88
+8/18/2008 6:38:04 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\INDARK2.EXE - 66552
+8/18/2008 6:38:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\INSTALL.EXE - 99571
+8/18/2008 6:38:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\INSTALL.OPT - 6718
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\ITALIANO.PAK - 3395
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\ITD_RESS.PAK - 272741
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\JACK.BAT - 42
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\JACK.ICO - 766
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\LISTANIM.PAK - 62121
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\LISTBODY.PAK - 57221
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\LISTHYB.PAK - 3039
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\LISTLIFE.PAK - 9152
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\LISTMAT.PAK - 360
+8/18/2008 6:38:06 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\LISTMUS.PAK - 2862
+8/18/2008 6:38:08 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\LISTSAMP.PAK - 188375
+8/18/2008 6:38:08 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\LISTTRAK.PAK - 1654
+8/18/2008 6:38:08 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\MASK16.PAK - 12013
+8/18/2008 6:38:08 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\OBJETS.ITD - 1784
+8/18/2008 6:38:08 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\PERE.PAK - 296437
+8/18/2008 6:38:08 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\PRIORITY.ITD - 26
+8/18/2008 6:38:08 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\VARS.ITD - 104
+8/18/2008 6:38:10 PM - C:\Program Files (x86)\GOG.com\Alone in the Dark\JACK\WINSTALL.EXE - 147472
+
+UAC Enabled
+
+
+VirtualStore Folders:
+10/25/2011 12:15:01 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\stderr.txt - 0
+10/25/2011 12:51:20 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\stdout.txt - 209
+10/25/2011 12:51:05 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\SAVE0.ITD - 28254
+10/25/2011 12:51:14 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\INDARK\SAVE1.ITD - 28254
+10/25/2011 12:54:58 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\JACK\SAVE0.ITD - 30296
+10/25/2011 12:55:02 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Alone in the Dark\JACK\SAVE1.ITD - 30296

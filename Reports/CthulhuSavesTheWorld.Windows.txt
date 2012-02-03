@@ -1,0 +1,612 @@
+Comments:
+  <game name="CthulhuSavesTheWorld" platform="Windows">
+    <title>Cthulhu Saves The World</title>
+    <location_path environment_variable="userdocuments" path="SavedGames\CSTW\Cthulhu Saves the World" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Cthulhu Saves The World
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Cthulhu Saves the World
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\SavedGames\CSTW\Cthulhu Saves the World
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A95881CB-7D81-4B97-B72F-30A2B890F861}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Cthulhu Saves the World
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A95881CB-7D81-4B97-B72F-30A2B890F861}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Cthulhu Saves the World\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cthulhu Saves the World\Cthulhu Saves the World.lnk
+C:\Program Files (x86)\Cthulhu Saves the World\CSTW.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cthulhu Saves the World\Uninstall Cthulhu Saves the World.lnk
+C:\Program Files (x86)\Cthulhu Saves the World\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\SavedGames\CSTW\Cthulhu Saves the World\AllPlayers\Epitaph - 164
+C:\Users\%USERNAME%\Documents\SavedGames\CSTW\Cthulhu Saves the World\AllPlayers\Save1 - 23952
+C:\Users\%USERNAME%\Documents\SavedGames\CSTW\Cthulhu Saves the World\AllPlayers\Settings - 84
+
+Install Folder Dump: 
+C:\Program Files (x86)\Cthulhu Saves the World\CSTW.application - 1989
+C:\Program Files (x86)\Cthulhu Saves the World\CSTW.exe - 9688064
+C:\Program Files (x86)\Cthulhu Saves the World\CSTW.exe.manifest - 235553
+C:\Program Files (x86)\Cthulhu Saves the World\CSTW.pdb - 921088
+C:\Program Files (x86)\Cthulhu Saves the World\dotNetFx40_Full_x86_x64.exe - 50449456
+C:\Program Files (x86)\Cthulhu Saves the World\unins000.dat - 69623
+C:\Program Files (x86)\Cthulhu Saves the World\unins000.exe - 715038
+C:\Program Files (x86)\Cthulhu Saves the World\xnafx40_redist.msi - 7054336
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\SpriteSheet22.xnb - 54828
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\SpriteSheet26.xnb - 58518
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Azathoth_Size.xnb - 51946
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Azathoth_Size_INSANE.xnb - 52546
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Bosses_Sheet (2).xnb - 124040
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Bosses_Sheet_INSANE.xnb - 132956
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Monsters_Medium (1).xnb - 357448
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Monsters_Medium_Insane.xnb - 371998
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Monsters_Small.xnb - 36348
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Monsters_Small_INSANE.xnb - 40298
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Shadows\Azathoth_Size_Shadow.xnb - 632
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Shadows\Bosses_Sheet_Shadows.xnb - 1768
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Shadows\Monsters_Medium_Shadow.xnb - 7276
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Alive Stuff\Monsters\Shadows\Shadows_Small.xnb - 1436
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\BODVII_BG.xnb - 46716
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Space1.xnb - 95994
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\SunsetFrame1b.xnb - 44336
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\SunsetFrame2b.xnb - 44710
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Sunset_BG.xnb - 45564
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Sunset_BG_Lake2.xnb - 57462
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\VolcanoBG.xnb - 39076
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\BoD BG.xnb - 4296
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\KrakenBG.xnb - 75504
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\1 - Beach\BeachBossBattleBG2.xnb - 113022
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\1 - Beach\Beachindoor1b.xnb - 87950
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\1 - Beach\Beachindoor2.xnb - 85998
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\1 - Beach\BeachLevel1.xnb - 95870
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\1 - Beach\BeachLevel2.xnb - 139694
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\2 - Shrine Heroes\SharpeBattle.xnb - 80940
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\2 - Shrine Heroes\ShrineHeroesBG.xnb - 140018
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\3 - Zombie City\ZCityBattleBG.xnb - 134472
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\3 - Zombie City\ZCityINdoor.xnb - 106374
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\4 - Ghost Forest\Forest_BG.xnb - 168536
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\5 - Alien Ship\Alienship1.xnb - 118862
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\5 - Alien Ship\Alienship2.xnb - 78644
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\6 - Water Shrine\WaterShrineBG1.xnb - 128768
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\6 - Water Shrine\WaterShrineBG2.xnb - 112770
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\6 - Water Shrine\WSBGUWD.xnb - 128380
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\7 - Volcano\Volc1BG.xnb - 120654
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\7 - Volcano\Volc2BG.xnb - 78766
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\7 - Volcano\VolcanoBOSS.xnb - 101162
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\8 - Innsmouth\FactoryArea5.xnb - 97248
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\8 - Innsmouth\FactoryBossRoom.xnb - 103386
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\8 - Innsmouth\FactoryUpper.xnb - 133364
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\9 - R'lyeh\RlyehBridge.xnb - 83642
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\9 - R'lyeh\RlyehLower.xnb - 74854
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\9 - R'lyeh\RlyehUpper.xnb - 99534
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\Extra Dungeons\LibraryBG1.xnb - 108536
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\Extra Dungeons\SC_background1.xnb - 126402
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\Extra Dungeons\SC_background2.xnb - 102780
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\Extra Dungeons\SC_background_3.xnb - 141452
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\Overworld\Forest_Normal2b.xnb - 104930
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\Overworld\Hills3.xnb - 83316
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\Overworld\PlainsBackground.xnb - 89088
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\Overworld\Swamp5.xnb - 87226
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\X1 - Bonus Cave 1\BonusCave1.xnb - 140326
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\X2 - Swamp\Swamp_BG.xnb - 91422
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\X3 - Cemetery\Cemetary_BG.xnb - 87570
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\X4 - Ice Cave\Ice_Cave.xnb - 104472
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Backgrounds\Battle\X5 - Black Hole Cave\Astral_Cave_BG.xnb - 120396
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\Cthulhu1.xnb - 20192
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\DacreBromide.xnb - 38120
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\DarkUmiBromide.xnb - 24686
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\DemBromide1.xnb - 28092
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\ElonaBromide4.xnb - 35664
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\EmberBromide1.xnb - 36478
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\MollyBromide2.xnb - 22122
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\OctoberBromide1.xnb - 24140
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\Paws_Bromide1.xnb - 31224
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\Sara_Bromide.xnb - 33264
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\Sharpe_Bromide1.xnb - 16302
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Bromide\Umi_Bromide1.xnb - 24680
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\ButtonScreen.xnb - 73432
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\CSTW_credits2.xnb - 107006
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\CSTW_credits3.xnb - 36086
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\CSTW_TITLE_FINAL.xnb - 87674
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\endingcut1.xnb - 38620
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\Epi3.xnb - 82126
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\introcut1.xnb - 59208
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\Loading1.xnb - 50254
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\Loading2.xnb - 50214
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\LongTitleScreen.xnb - 26540
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\Necro2.xnb - 141972
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\ZeboydLogo_1.xnb - 4706
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuOnBeach.xnb - 53028
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuRising1.xnb - 18842
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuRising2.xnb - 23892
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuRising3.xnb - 25222
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuRising4.xnb - 27106
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuRising5.xnb - 26614
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuRising6.xnb - 26684
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuRising7.xnb - 26762
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\CuRising8.xnb - 26810
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\DeterminedCu.xnb - 32916
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\PriestCasting1.xnb - 32678
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\1 - Opening\Rlyeh_UnderWater1.xnb - 39826
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\10 - Zombie City Saved\1_Dying_Nyar.xnb - 24254
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\10 - Zombie City Saved\2_Angry_Zombie.xnb - 10100
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\10 - Zombie City Saved\3_Happy_Zombie.xnb - 9690
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\10 - Zombie City Saved\4_Triumphant_Team.xnb - 31942
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\10 - Zombie City Saved\5_Cu_Zombie_Mugs.xnb - 24742
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\11 - Alien Abduction\Cow_Rising.xnb - 16488
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\11 - Alien Abduction\MeetPaws2.xnb - 11030
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\11 - Alien Abduction\Party_Rising.xnb - 16464
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\11 - Alien Abduction\PawsTentacles.xnb - 20896
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\12 - Against Pawz\1_Command_Center.xnb - 25506
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\12 - Against Pawz\2_Pawz_Encounter.xnb - 21138
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\12 - Against Pawz\3_Paws_Vs_Pawz.xnb - 28958
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\13 - Space Ship Crashes\1_Ship_in_Space.xnb - 18288
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\13 - Space Ship Crashes\2_ShipCrashing.xnb - 21906
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\13 - Space Ship Crashes\3_ShipCrashed.xnb - 29824
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\14 - Sick City\6_Entering_Big_City.xnb - 20034
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\14 - Sick City\7_Sick_beggars.xnb - 23252
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\14 - Sick City\8_Hospital_Sick.xnb - 9734
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\14 - Sick City\9_Umi_Concerned_at_Hospital.xnb - 11926
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\15 - Meet Dacre\10_Dacre_by_Water_Back.xnb - 25518
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\15 - Meet Dacre\11_Meet_Dacre.xnb - 24614
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\15 - Meet Dacre\12_Dacre_As_Santa.xnb - 20384
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\15 - Meet Dacre\13_Healing_Pool_Deep_Within.xnb - 27190
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\15 - Meet Dacre\14_Dacre_HandShake.xnb - 26088
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\16 - Shoggoth\15_Healing_Pool_Boss.xnb - 27554
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\16 - Shoggoth\16_Healing_Pool_Shoggy.xnb - 30838
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\16 - Shoggoth\17_Shoggy_Jumps_at_Umi.xnb - 23736
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\16 - Shoggoth\18_Cu_Saves_Umi_From_Shoggy.xnb - 27780
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\16 - Shoggoth\19_Umi_fallen_but_OK.xnb - 19494
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\16 - Shoggoth\20_Angry_Cthulhu.xnb - 29816
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\17 - Healthy Town\21_Sick_beggars2.xnb - 22632
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\17 - Healthy Town\22_Heroes_Helping_Water.xnb - 38572
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\17 - Healthy Town\23_Healthy_Citizens.xnb - 20892
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\17 - Healthy Town\24_Port_In_Operation.xnb - 18560
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\18 - Crossing the Ocean\z_Ship_Crossing_Water.xnb - 26110
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\19 - Volcano\v1_Top of Volc.xnb - 20680
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\19 - Volcano\v2_Top of Volc2.xnb - 17384
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\19 - Volcano\v3_Ember_Jumping_Out_of_lava.xnb - 18474
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\19 - Volcano\v4_DQ3_intro_Parody.xnb - 21286
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\2 - Umi Meeting\CtSlashing.xnb - 35274
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\2 - Umi Meeting\Ct_FlowersHearts.xnb - 66152
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\2 - Umi Meeting\Umi_In_Love_2.xnb - 17574
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\20 - Innsmouth Inn\1_Nigh_falls_on_Innsmouth.xnb - 25598
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\20 - Innsmouth Inn\2_Sleeping_in_Innsmouth.xnb - 20660
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\20 - Innsmouth Inn\3_Villagers_break_in.xnb - 10378
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\20 - Innsmouth Inn\4_THWAK.xnb - 22878
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\20 - Innsmouth Inn\5_VillagersOnFloor.xnb - 14690
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\21 - Dagon\6_Dagon_Leaps_out.xnb - 29230
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\21 - Dagon\7_Cthulh_Close_up_Vs_Dagon.xnb - 23590
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\21 - Dagon\8_Cu_Fights_Dagon.xnb - 29710
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\22 - Dagon Defeated\11_Cu_spotlight_power.xnb - 27358
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\22 - Dagon Defeated\12_Cu_Looking_up_at_light.xnb - 22824
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\22 - Dagon Defeated\13_Team_Concerned.xnb - 41786
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\22 - Dagon Defeated\14_Cu_ReGains_Power.xnb - 26316
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\22 - Dagon Defeated\9_Dagon_Dies.xnb - 25234
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\23 - Evil Ending\15_Umi_Normal.xnb - 25128
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\23 - Evil Ending\16_Umi_INSANE.xnb - 30764
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\23 - Evil Ending\17_Evil_Cthulu_World_ending.xnb - 26196
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\24 - Good Continuation\18_Heroic_Cthulhu.xnb - 36726
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\24 - Good Continuation\19_Voice.xnb - 42720
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\24 - Good Continuation\20_Rlyeh_Rising_1.xnb - 25604
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\24 - Good Continuation\21_Rlyeh_Rising_2.xnb - 24410
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\25 - Golthulhu\22_GolThulhu_Is_Here.xnb - 19736
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\25 - Golthulhu\23_Lets_Fight_Golthulhu.xnb - 28198
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\25 - Golthulhu\24_Team_Versus_Golthulhu.xnb - 22388
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\26 - Azathoth\1_Vastness_of_Space.xnb - 13938
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\26 - Azathoth\2_Birth_of_Cu.xnb - 8654
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\26 - Azathoth\3_Azzy_Attacks.xnb - 27194
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\27 - Good Ending\10_Cu_Hand_to_umi.xnb - 31342
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\27 - Good Ending\4_Azzy_Defeated.xnb - 149948
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\27 - Good Ending\5_World_At_Peace.xnb - 50096
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\27 - Good Ending\6_Farewell_to_Cu.xnb - 64310
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\27 - Good Ending\7_CuBoardingShip.xnb - 40892
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\27 - Good Ending\8_Umi_Crying.xnb - 20030
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\27 - Good Ending\9_Cu_Turns_back_to_umi.xnb - 28584
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\3 - 3 Heroes\3HeroesSillhouettes.xnb - 14412
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\3 - 3 Heroes\3Heroes_toBattle.xnb - 52144
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\3 - 3 Heroes\ClericFace1.xnb - 26220
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\3 - 3 Heroes\Hero_Face1.xnb - 25458
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\3 - 3 Heroes\Thief_Face1.xnb - 7854
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\4 - Star Terror\CuUmiCrossingBridge3.xnb - 60832
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\4 - Star Terror\StarBossEncounter3.xnb - 76172
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\4 - Star Terror\StarJumpingOut3.xnb - 142294
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\5 - Sharpe Meeting\CuReachesforSharpe.xnb - 7168
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\5 - Sharpe Meeting\SharpeReadytoFight.xnb - 6986
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\5 - Sharpe Meeting\SharpeSillhoutete1.xnb - 5612
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\5 - Sharpe Meeting\Sharpface3.xnb - 8824
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\6 - Cafe\ManBurstThruDoor.xnb - 16702
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\6 - Cafe\UmiCuDinner.xnb - 23000
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\6 - Cafe\UmiCuDinner2.xnb - 22868
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\6 - Cafe\UmiOuttatheway.xnb - 19970
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\7 - Enter Zombie City\CuFacepalm2.xnb - 9652
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\7 - Enter Zombie City\ZCityCut1.xnb - 24246
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\7 - Enter Zombie City\ZCityUmiSharpeDetermined.xnb - 20394
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\8 - Meet October\CuClapping3.xnb - 11998
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\8 - Meet October\MeetingOctober.xnb - 22322
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\8 - Meet October\OcobertFireball.xnb - 8066
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\8 - Meet October\OctoberWhipping.xnb - 16002
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\8 - Meet October\Worried Umi.xnb - 12532
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\8 - Meet October\ZombieFried.xnb - 6310
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\9 - Zombie City Boss\Cu_Sword_at_Nyar.xnb - 16790
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\9 - Zombie City Boss\NyarLethotep1.xnb - 18476
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\9 - Zombie City Boss\ZombiesAttackVillagers.xnb - 28286
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A1 - Open\A1-1.xnb - 17302
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A1 - Open\A1-2.xnb - 20596
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A1 - Open\A1-3.xnb - 30910
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A1 - Open\A1-4.xnb - 38178
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A1 - Open\A1-5.xnb - 37190
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A2 - Molly\A2-1.xnb - 44752
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A2 - Molly\A2-2.xnb - 37882
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A2 - Molly\A2-3.xnb - 15824
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A2 - Molly\A2-4.xnb - 24462
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A2 - Molly\A2-5.xnb - 34486
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A3 - Alien\A3-1.xnb - 16488
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A3 - Alien\A3-2.xnb - 20412
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A3 - Alien\A3-3.xnb - 11030
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A3 - Alien\A3-4.xnb - 28602
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A4 - Alien Boss\A4-1.xnb - 25536
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A4 - Alien Boss\A4-2.xnb - 42374
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A4 - Alien Boss\A4-3.xnb - 45890
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A5 - Ship\Ship_Crossing_Water.xnb - 26110
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A5 - Ship\Ship_Crossing_Water_Kraken.xnb - 26632
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A6 - Volcano\A6-1.xnb - 17134
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A6 - Volcano\A6-2.xnb - 17570
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A6 - Volcano\A6-3.xnb - 18474
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A6 - Volcano\A6-4.xnb - 46418
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A6 - Volcano\A6-5.xnb - 29420
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A7 - Mother\A7-1.xnb - 27984
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A7 - Mother\A7-2.xnb - 34354
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A7 - Mother\A7-3.xnb - 33928
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A7 - Mother\A7-4.xnb - 33866
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A7 - Mother\A7-5.xnb - 71578
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A8 - Ending\A8-1.xnb - 41220
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A8 - Ending\A8-2.xnb - 34748
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A8 - Ending\A8-3.xnb - 25930
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A8 - Ending\A8-5.xnb - 35080
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A8 - Ending\A8-6.xnb - 53942
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A8 - Ending\A8-7.xnb - 25082
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Cutscenes\A8 - Ending\A8-8.xnb - 31996
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Font\Debug font.xnb - 9682
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Font\German Font.xnb - 9318
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Font\PF Tempesta SDTV.xnb - 13772
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Font\PF Tempesta Seven Extended Bold.xnb - 16596
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Icons\Armor_Icons.xnb - 5468
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Icons\Weapons_Icons.xnb - 7758
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Movies\CSTW_intro2.wmv - 5029837
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Movies\CSTW_intro2.xnb - 268
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_adventurehero5.wma - 2975715
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_adventurehero5.xnb - 136
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_battleloop5.wma - 5167975
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_battleloop5.xnb - 133
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_battleold2.wma - 6134359
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_battleold2.xnb - 132
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_battlespecial2.wma - 6456487
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_battlespecial2.xnb - 136
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_bigcity3.wma - 3432063
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_bigcity3.xnb - 130
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_bossbattle.wma - 6277527
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_bossbattle.xnb - 132
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_CA_battle.wma - 6000139
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_CA_battle.xnb - 131
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_CA_boss.wma - 4917431
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_CA_boss.xnb - 129
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_beachmountain3.wma - 4246331
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_beachmountain3.xnb - 144
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_bod3.wma - 4013683
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_bod3.xnb - 134
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_cave5.wma - 4693731
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_cave5.xnb - 135
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_factory3.wma - 4344759
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_factory3.xnb - 138
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_final4.wma - 4738471
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_final4.xnb - 136
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_forest4.wma - 2671483
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_forest4.xnb - 137
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_shrine3.wma - 3602075
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_shrine3.xnb - 137
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_spaceship3.wma - 5042703
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_spaceship3.xnb - 140
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_volcano10.wma - 6053827
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_volcano10.xnb - 139
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_zombie4.wma - 2904131
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_dungeon_zombie4.xnb - 137
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_finalboss4.wma - 9454067
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_finalboss4.xnb - 132
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_foreboding3.wma - 3548387
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_foreboding3.xnb - 133
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_heroine3.wma - 5293247
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_heroine3.xnb - 130
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_townloop3.wma - 4765315
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_townloop3.xnb - 131
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_victory3.wma - 3968943
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_victory3.xnb - 130
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_worldmap3.wma - 3789983
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\cth_worldmap3.xnb - 131
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\merchant_v2.wma - 3315739
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Music\merchant_v2.xnb - 129
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Overlay\FOG.xnb - 209116
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Overlay\Rain1.xnb - 25030
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Overlay\Rain2.xnb - 23810
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Overlay\Rain3.xnb - 23878
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Overlay\ZombieCityCircle1.xnb - 5140
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Overlay\ZombieCityCircle2.xnb - 5120
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Overlay\ZombieCityCircle3.xnb - 5122
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Angels\CosplayerPortrait.xnb - 8394
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Angels\DemP1b.xnb - 5860
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Angels\Director_Portrait.xnb - 6938
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Angels\EsDogPortrait.xnb - 4834
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Angels\Robert_Khoo_Portrait.xnb - 7194
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Angels\SaraP1b.xnb - 8672
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Angels\U-Bovinator Portrait.xnb - 5794
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Cthulhu\Cu_Angry.xnb - 9514
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Cthulhu\Cu_Default.xnb - 9394
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Cthulhu\Cu_Disgust.xnb - 9522
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Cthulhu\Cu_Fear.xnb - 9548
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Cthulhu\Cu_Happy.xnb - 9646
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Cthulhu\Cu_Laugh.xnb - 9478
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Cthulhu\Cu_Sad.xnb - 9436
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Cthulhu\Cu_Surprise.xnb - 9632
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dacre\Dacre_Angry.xnb - 8898
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dacre\Dacre_Default.xnb - 8882
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dacre\Dacre_Disgust.xnb - 7364
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dacre\Dacre_Fear.xnb - 4832
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dacre\Dacre_Happy.xnb - 6370
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dacre\Dacre_Laugh.xnb - 6294
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dacre\Dacre_Sad.xnb - 4716
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dacre\Dacre_Surprise.xnb - 4668
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dark Umi\Silver_Umi_Default.xnb - 15824
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dark Umi\Silver_Umi_Disgust.xnb - 16078
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dark Umi\Silver_Umi_Fear.xnb - 16092
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dark Umi\Silver_Umi_happy.xnb - 15886
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dark Umi\Silver_Umi_Laugh.xnb - 15934
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dark Umi\Silver_Umi_Mad.xnb - 15732
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dark Umi\Silver_Umi_Sad.xnb - 15786
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Dark Umi\Silver_Umi_Surprise.xnb - 15932
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Elonalina\Elona_angry.xnb - 12924
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Elonalina\Elona_default.xnb - 12516
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Elonalina\Elona_disgust.xnb - 11810
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Elonalina\Elona_fear.xnb - 11182
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Elonalina\Elona_happy.xnb - 12414
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Elonalina\Elona_laugh.xnb - 7450
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Elonalina\Elona_sad.xnb - 12122
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Elonalina\Elona_surprise.xnb - 11258
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Ember\Ember_Angry.xnb - 6104
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Ember\Ember_Default.xnb - 8062
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Ember\Ember_Disgust.xnb - 5952
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Ember\Ember_Fear.xnb - 5960
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Ember\Ember_Happy.xnb - 5774
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Ember\Ember_Laugh.xnb - 5804
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Ember\Ember_Sad.xnb - 5686
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Ember\Ember_Surprise.xnb - 6042
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Molly\Molly_Angry.xnb - 6552
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Molly\Molly_Default.xnb - 6536
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Molly\Molly_Disgust.xnb - 6530
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Molly\Molly_Fear.xnb - 6526
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Molly\Molly_Happy.xnb - 6646
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Molly\Molly_Laugh.xnb - 6524
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Molly\Molly_Sad.xnb - 6548
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Molly\Molly_Surprise.xnb - 6530
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Azzy_Port.xnb - 9564
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Blacksmith1.xnb - 5580
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Boy1.xnb - 3846
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Boy2.xnb - 3806
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\ClericPortrait1.xnb - 6646
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\DagonPort.xnb - 5444
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Girl1.xnb - 4790
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Girl2.xnb - 4710
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\HatGuy1.xnb - 8206
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\HatGuy2.xnb - 7894
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Hero_Portrait1.xnb - 6600
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\InnKeeper1.xnb - 4692
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Innmsouthman.xnb - 4458
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\InnmsouthWoman.xnb - 8914
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Man1.xnb - 3918
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Man2.xnb - 3856
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\NinjaSpiritPort.xnb - 6470
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Nun.xnb - 7256
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\NyarLethotepPortrait.xnb - 7148
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Oldman1.xnb - 5644
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Oldman2.xnb - 4280
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\OldWoman1.xnb - 4888
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\OldWoman2.xnb - 4662
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\PawzPort.xnb - 6326
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Priest1.xnb - 5102
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\PuppyPortrait.xnb - 5298
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Sailor1.xnb - 5602
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\ShipCaptain.xnb - 5282
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Thief_Portrait1.xnb - 5220
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Woman1.xnb - 5982
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\NPCs\Woman2.xnb - 5816
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\October\October_Angry.xnb - 8740
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\October\October_Default.xnb - 8732
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\October\October_Disgust.xnb - 8796
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\October\October_Fear.xnb - 8730
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\October\October_Happy.xnb - 8798
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\October\October_Laugh.xnb - 8798
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\October\October_Sad.xnb - 8728
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\October\October_Surprise.xnb - 8772
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Paws\Paws_Angry.xnb - 6814
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Paws\Paws_Default.xnb - 6988
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Paws\Paws_Disgust.xnb - 6576
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Paws\Paws_Fear.xnb - 6716
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Paws\paws_Happy.xnb - 6706
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Paws\Paws_Laugh.xnb - 6446
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Paws\Paws_Sad.xnb - 6738
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Paws\Paws_Surprise.xnb - 6692
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Sharpe\Sharp_Angry.xnb - 5956
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Sharpe\Sharp_Default.xnb - 5756
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Sharpe\Sharp_Disgust.xnb - 5904
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Sharpe\Sharp_Fear.xnb - 5794
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Sharpe\Sharp_Happy.xnb - 5842
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Sharpe\Sharp_Laugh.xnb - 5936
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Sharpe\Sharp_Sad.xnb - 5902
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Sharpe\Sharp_Surprise.xnb - 5886
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Umi\Umi_Angry.xnb - 9286
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Umi\Umi_Default.xnb - 9344
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Umi\Umi_Disgust.xnb - 9602
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Umi\Umi_Fear.xnb - 9590
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Umi\Umi_Happy.xnb - 9408
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Umi\Umi_Laugh.xnb - 9472
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Umi\Umi_Sad.xnb - 9328
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Portrait\Umi\Umi_Surprise.xnb - 9442
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\Attack.xnb - 11329
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\buystuff.xnb - 45969
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\EnemyDying5.xnb - 42537
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\equipstuff.xnb - 24469
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\Heal.xnb - 57703
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\MenuSelect1.xnb - 18633
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\MenuSelect3.xnb - 18633
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\MenuSound12.xnb - 12457
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\MenuSound13.xnb - 12457
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\OpenChest5.xnb - 18919
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\savejingle2.xnb - 63909
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\Spell.xnb - 53197
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\StairsDOWN.xnb - 88169
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\StairsUP.xnb - 101097
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Sound Effects\Tech.xnb - 38705
+C:\Program Files (x86)\Cthulhu Saves the World\Content\Special Effects\SpellFX_Final6_XNA4.xnb - 189592
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Beach1_Tiles_FINALvsn3.xnb - 100764
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\CuWorld3_tiles5_50w.xnb - 116334
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Dock_tiles_50w.xnb - 298680
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Factory_tiles.xnb - 431626
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Innsmouth_outer_town_tiles.xnb - 458784
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Innsmouth_outer_town_tiles2.xnb - 459586
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\InnsMouth_Tiles_50w.xnb - 431626
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\LIBRARY_TILES_FINAL.xnb - 167940
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Overworld_Dry_RLYEH.xnb - 142884
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ranch1_Final_TILES2.xnb - 115604
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Rlyeh_Tiles.xnb - 311202
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Shrine_Heroes_NoSwordTiles.xnb - 175976
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\VolcanoTiles1_ver2_50w.xnb - 98438
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\volcano_5tiles.xnb - 99264
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\volcano_tiles.xnb - 65728
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\WaterShrine_tiles_Waterdown_50w.xnb - 140432
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Alien Ship\Ship4TTTTT.xnb - 156162
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Bonus Dungeons\AstraCaveTiles2.xnb - 13080
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Bonus Dungeons\BonusCave1_Lower_TIL.xnb - 18656
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Bonus Dungeons\Cemetary1_tiles2.xnb - 44690
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Bonus Dungeons\IceCave2_tiles.xnb - 25028
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Bonus Dungeons\Swamp1_tiles2b.xnb - 64508
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Breath of Death Bonus\BOD_secret_1_Final_Tiles.xnb - 28698
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Breath of Death Bonus\BOD_secret_3_FINAL.xnb - 109870
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest1_Collision_Tiles_50w.xnb - 101396
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest1_Treetops_50w.xnb - 39450
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest1_Trunks_50w.xnb - 369688
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest2_Collision_50w.xnb - 101396
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest2_Treetops2FIXED_50w.xnb - 27394
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest2_Trunks_50w.xnb - 293562
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest2_Trunks_Pink.xnb - 293622
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest3Collision_Tiles_50w.xnb - 101396
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest3TreeTop_Tiles_50w.xnb - 37032
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\Forest3Trunks_50w.xnb - 397410
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\GhostForest_Boss_tiles.xnb - 107118
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Ghost Forest\GhostForest_tiles.xnb - 112930
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Soulcaster\soulcaster1_tiles.xnb - 156896
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Soulcaster\soulcaster2_tiles.xnb - 165242
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Soulcaster\soulcaster3_tiles.xnb - 171906
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Towns\BigCity1_Final_Tileset1.xnb - 277850
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Towns\Innsmouth1_indoor_Tiles.xnb - 114752
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Towns\Town1_Tiles_vsn3.xnb - 128034
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Towns\Town2Indoor1_tiles2.xnb - 133062
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Towns\Town2_Tiles2.xnb - 92320
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Towns\Town3.xnb - 155930
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Towns\town3indoorTiles.xnb - 152578
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Zombie City\ZC1_indoor_floor1_50w.xnb - 51990
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Zombie City\ZC1_indoor_floor2_50w.xnb - 52234
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Zombie City\Zc2_indoor_floor1_50w.xnb - 41598
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Zombie City\ZC2_indoor_floor2_50w.xnb - 41630
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Zombie City\ZC3_indoor_floor1_50w.xnb - 46982
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Zombie City\ZC3_indoor_floor2_50w.xnb - 47224
+C:\Program Files (x86)\Cthulhu Saves the World\Content\TileMap\Zombie City\ZCity_MainTiles.xnb - 335512
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\160x165Menu4Items.xnb - 406
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\160x180Menu4Items.xnb - 420
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\160x200Menu5Items.xnb - 434
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\160x220Menu5Items.xnb - 462
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\160x60Name.xnb - 298
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\180x165Menu4Items.xnb - 408
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\180x200Menu5Items.xnb - 446
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\200x165Menu4Items.xnb - 426
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\200x200Menu5Items.xnb - 454
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\320x200Menu5Items.xnb - 556
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\380x60Name.xnb - 348
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\540x200Description.xnb - 804
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\900x200Text.xnb - 1082
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\AlternateTextBox.xnb - 1078
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Battles Left.xnb - 926
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\BelowBattlesLeft.xnb - 318
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\BelowGold.xnb - 312
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\BlackPixel.xnb - 191
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\BlueGradiant.xnb - 658
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Breath of Death VII Small Logo.xnb - 42216
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Choose Slot to Load.xnb - 1222
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Choose Slot to Save.xnb - 1208
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\DeFeat1.xnb - 7788
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\downarrow.xnb - 260
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\GrayGradiant.xnb - 596
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Levelup.xnb - 4684
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\menugraphic.xnb - 6200
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\MenuSelectArrow.xnb - 292
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\QuickStats.xnb - 388
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\reticle1a.xnb - 494
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\reticle1b.xnb - 532
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\scrollbar.xnb - 270
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\ScrollbarDiamond.xnb - 272
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\ScrollbarDownArrow.xnb - 298
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\ScrollbarUpArrow.xnb - 288
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\StatusBox.xnb - 1496
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\StatusBoxDivider.xnb - 222
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\StatusBoxPictureBoundary.xnb - 216
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\tentaclepointer1.xnb - 822
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\tentaclepointer2.xnb - 784
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Victory1.xnb - 5810
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\WhitePixel.xnb - 191
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\XLMenu5.xnb - 746
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\Bromide_Frame2.xnb - 8996
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\ContinueGame_TitleMen.xnb - 15196
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\Credits_TitleMen.xnb - 11760
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\Cu_Regains_power_Menu_Image.xnb - 129116
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\EasyMode2.xnb - 32236
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\ExtraModes.xnb - 18012
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\HardMode2.xnb - 41334
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\Highlander_mode.xnb - 15364
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\Necronom_TitleMen.xnb - 22130
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\NewGame_TitleMen.xnb - 9452
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\NormalMode2.xnb - 14174
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\QuitGame_TitleMen.xnb - 13538
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\ScoreAttack_mode.xnb - 10822
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\swordPointer.xnb - 424
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\TitleMenuMainBG_TitleMen.xnb - 32506
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\New Stuff\Bestiary_menuitem.xnb - 75122
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\New Stuff\Bromides_menuitem.xnb - 26662
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\New Stuff\CusAngels_menuitem.xnb - 14680
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\New Stuff\Dirs_CutMode.xnb - 22748
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\New Stuff\Insane_Mode_Menu_Item.xnb - 17212
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\New Stuff\Options_menuitem.xnb - 21736
+C:\Program Files (x86)\Cthulhu Saves the World\Content\User Interface\Title Menu\New Stuff\Options_Title_Menu_Item.xnb - 12546
+
+UAC Disabled or not present
+

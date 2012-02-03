@@ -1,0 +1,111 @@
+Game Name: The Last Express
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\The Last Express
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\The Last Express
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{59C541D0-21B8-49A8-BA52-217FE51B655C}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\The Last Express\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{59C541D0-21B8-49A8-BA52-217FE51B655C}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\The Last Express\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTHELASTEXPRESS
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\The Last Express\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTHELASTEXPRESS
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\The Last Express\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTHELASTEXPRESS
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTHELASTEXPRESS
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTHELASTEXPRESS
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\The Last Express\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\The Last Express_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\The Last Express
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\The Last Express_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\The Last Express\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\The Last Express\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\The Last Express\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\The Last Express\The Last Express.lnk
+C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\The Last Express\Uninstall The Last Express.lnk
+C:\Program Files (x86)\GOG.com\The Last Express\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\The Last Express\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\The Last Express\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\The Last Express\Documents\Readme.lnk
+C:\Program Files (x86)\GOG.com\The Last Express\README.TXT
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/12/2011 1:06:46 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\The Last Express\BLUE.EGG - 5232
+12/12/2011 1:06:51 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\The Last Express\stderr.txt - 0
+12/12/2011 1:06:59 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\The Last Express\stdout.txt - 289
+
+Install Folder Dump:
+1/24/2011 2:44:06 PM - C:\Program Files (x86)\GOG.com\The Last Express\dosboxTLE.conf - 7277
+12/14/2010 2:49:04 PM - C:\Program Files (x86)\GOG.com\The Last Express\EXPRESS.EXE - 1084437
+12/20/2010 4:33:08 PM - C:\Program Files (x86)\GOG.com\The Last Express\gfw_high.ico - 94606
+1/24/2011 3:08:52 PM - C:\Program Files (x86)\GOG.com\The Last Express\goggame.dll - 246784
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\The Last Express\Graphic mode setup.exe - 1279488
+3/1/2000 6:03:58 PM - C:\Program Files (x86)\GOG.com\The Last Express\HD.HPF - 30715904
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\The Last Express\innosetup_license.txt - 1471
+2/3/2000 7:15:10 PM - C:\Program Files (x86)\GOG.com\The Last Express\Manual.pdf - 10998511
+12/14/2010 3:00:36 PM - C:\Program Files (x86)\GOG.com\The Last Express\README.TXT - 7929
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\The Last Express\Support.ico - 62895
+12/12/2011 1:00:36 PM - C:\Program Files (x86)\GOG.com\The Last Express\unins000.dat - 55279
+12/12/2011 12:57:04 PM - C:\Program Files (x86)\GOG.com\The Last Express\unins000.exe - 2142547
+12/12/2011 1:00:36 PM - C:\Program Files (x86)\GOG.com\The Last Express\unins000.ini - 82
+2/14/2000 5:02:02 PM - C:\Program Files (x86)\GOG.com\The Last Express\data\CD1.HPF - 525522944
+2/10/1997 10:19:30 PM - C:\Program Files (x86)\GOG.com\The Last Express\data\CD2.HPF - 669581312
+2/10/1997 9:44:08 PM - C:\Program Files (x86)\GOG.com\The Last Express\data\CD3.HPF - 641128448
+7/2/2010 1:00:16 PM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 11:55:40 AM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\SDL.dll - 448231
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\SDL_net.dll - 13312
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\The Last Express\DOSBOX\Video Codec\zmbv.inf - 4043
+
+UAC Enabled
+
+
+VirtualStore Folders:
+12/12/2011 1:06:46 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\The Last Express\BLUE.EGG - 5232
+12/12/2011 1:06:51 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\The Last Express\stderr.txt - 0
+12/12/2011 1:06:59 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\The Last Express\stdout.txt - 289

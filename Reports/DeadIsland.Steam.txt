@@ -1,0 +1,378 @@
+Comments:
+  <game name="DeadIsland" platform="Steam">
+    <title>Dead Island</title>
+    <location_path environment_variable="steamuserdata" path="91310" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Dead Island
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\dead island
+
+Save Path: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\91310
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 91310
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\dead island
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Techland\DeadIsland
+Value: Install_Path
+Data: c:\program files (x86)\steam\steamapps\common\dead island
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Techland\DeadIsland
+Value: Exe_Path
+Data: c:\program files (x86)\steam\steamapps\common\dead island\DeadIslandGame.exe
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\91310\remotecache.vdf - 537
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\91310\remote\out\profiles\default.pro - 8647
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\91310\remote\out\save\save_0.sav - 1538
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\dead island\curllib.dll - 330240
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DbgHelp.dll - 1061944
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DeadIslandGame.exe - 592384
+C:\Program Files (x86)\Steam\steamapps\common\dead island\engine_x86_rwdi.dll - 6307328
+C:\Program Files (x86)\Steam\steamapps\common\dead island\filesystem_x86_rwdi.dll - 163328
+C:\Program Files (x86)\Steam\steamapps\common\dead island\game_x86_rwdi.dll - 13299200
+C:\Program Files (x86)\Steam\steamapps\common\dead island\imagelib_x86_rwdi.dll - 276480
+C:\Program Files (x86)\Steam\steamapps\common\dead island\installscript.vdf - 1597
+C:\Program Files (x86)\Steam\steamapps\common\dead island\jsoncpp_vs2008_x86_rwdi.dll - 78336
+C:\Program Files (x86)\Steam\steamapps\common\dead island\libeay32.dll - 1552412
+C:\Program Files (x86)\Steam\steamapps\common\dead island\libssl32.dll - 354814
+C:\Program Files (x86)\Steam\steamapps\common\dead island\libxml2.dll - 967168
+C:\Program Files (x86)\Steam\steamapps\common\dead island\memdump_x86_rwdi.dll - 11776
+C:\Program Files (x86)\Steam\steamapps\common\dead island\ogg_vs2008_x86_rwdi.dll - 17408
+C:\Program Files (x86)\Steam\steamapps\common\dead island\ogg_x86_rwdi.dll - 16896
+C:\Program Files (x86)\Steam\steamapps\common\dead island\ssleay32.dll - 200192
+C:\Program Files (x86)\Steam\steamapps\common\dead island\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\dead island\steam_appid.txt - 5
+C:\Program Files (x86)\Steam\steamapps\common\dead island\vorbisfile_vs2008_x86_rwdi.dll - 27136
+C:\Program Files (x86)\Steam\steamapps\common\dead island\vorbisfile_x86_rwdi.dll - 26112
+C:\Program Files (x86)\Steam\steamapps\common\dead island\vorbis_vs2008_x86_rwdi.dll - 1616896
+C:\Program Files (x86)\Steam\steamapps\common\dead island\vorbis_x86_rwdi.dll - 1630208
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data0.pak - 7410662
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data1.pak - 64428013
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data2.pak - 53967329
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\DataEn.pak - 764872
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn.pak - 15641
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act1a.spb - 813527
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act1a.xwb - 32923942
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act1a_load_PC.rpack - 2723840
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act1a_PC.rpack - 199217152
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act1a_stream.xwb - 124044160
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act2a.spb - 528603
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act2a.xwb - 31762152
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act2a_load_PC.rpack - 2125824
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act2a_PC.rpack - 185491456
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act2a_stream.xwb - 95753658
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3a.spb - 368881
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3a.xwb - 32326072
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3a_load_PC.rpack - 2406400
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3a_PC.rpack - 208066560
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3a_stream.xwb - 174217370
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3b.spb - 346261
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3b.xwb - 36908430
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3b_load_PC.rpack - 2406400
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3b_PC.rpack - 179652608
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3b_stream.xwb - 231512510
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3c.spb - 117452
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3c.xwb - 35843876
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3c_load_PC.rpack - 2406400
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3c_PC.rpack - 143396864
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act3c_stream.xwb - 233617114
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4a.spb - 116107
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4a.xwb - 14258754
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4a_load_PC.rpack - 2705408
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4a_PC.rpack - 121247744
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4a_stream.xwb - 15784276
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4b.spb - 310073
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4b.xwb - 27591108
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4b_load_PC.rpack - 2705408
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4b_PC.rpack - 155740160
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\act4b_stream.xwb - 133007900
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\buildinginterior.spb - 122695
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\buildinginterior.xwb - 27308048
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\buildinginterior_load_PC.rpack - 2125824
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\buildinginterior_PC.rpack - 117159936
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\buildinginterior_stream.xwb - 14940550
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhalla.spb - 210237
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhalla.xwb - 14624542
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhalla_load_PC.rpack - 2125824
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhalla_PC.rpack - 131254272
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhalla_stream.xwb - 43386560
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhallb.spb - 92632
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhallb.xwb - 26846180
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhallb_load_PC.rpack - 2125824
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhallb_PC.rpack - 123486208
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\cityhallb_stream.xwb - 42023940
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\common.xwb - 51126474
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\common_anims_PC.rpack - 6889472
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\common_meshes_PC.rpack - 53248
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\common_stream.xwb - 3487324
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\common_textures_PC.rpack - 36
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\engine_PC.rpack - 2662400
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\game.ini - 863
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\hotel.spb - 109314
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\hotel.xwb - 21016046
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\hotel_load_PC.rpack - 2723840
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\hotel_PC.rpack - 101251072
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\hotel_stream.xwb - 25142860
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\market.spb - 99307
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\market.xwb - 32125258
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\market_load_PC.rpack - 2125824
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\market_PC.rpack - 149833728
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\market_stream.xwb - 42423938
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu.xwb - 255738
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu2_common_PC.rpack - 3293184
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu2_ingame_net_PC.rpack - 1361920
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu2_ingame_single_PC.rpack - 149504
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu2_main_PC.rpack - 120832
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menuback.spb - 23520
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menuback.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menuback_PC.rpack - 49102848
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menuback_stream.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu_common_PC.rpack - 3295232
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu_ingame_net_PC.rpack - 1361920
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu_ingame_single_PC.rpack - 141312
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu_main_PC.rpack - 120832
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\menu_stream.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\music.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\music_stream.xwb - 872957984
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\parkinglot.spb - 162250
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\parkinglot.xwb - 31353584
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\parkinglot_load_PC.rpack - 2723840
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\parkinglot_PC.rpack - 134797312
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\parkinglot_stream.xwb - 19011178
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\policestation.spb - 112984
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\policestation.xwb - 21854928
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\policestation_load_PC.rpack - 2125824
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\policestation_PC.rpack - 126889984
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\policestation_stream.xwb - 26971608
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\sewers.spb - 99614
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\sewers.xwb - 26637660
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\sewers_load_PC.rpack - 2125824
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\sewers_PC.rpack - 118435840
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\sewers_stream.xwb - 50796328
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\weapons_PC.rpack - 44814336
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\Menu\Movies\IntroDI_720p.wmv - 99546156
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\Menu\Movies\IntroDI_720p_4_3.wmv - 98692033
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\Menu\Movies\Intro_720p.wmv - 11958828
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\Menu\Movies\Intro_720p_4_3.wmv - 9210457
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\Menu\Movies\menu_frontend_background.wmv - 1023947
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\Menu\Movies\menu_frontend_background_4_3.wmv - 764131
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\Data\Menu\Movies\menu_main_loop_background.wmv - 12680635
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act1a_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act1a_local_stream.xwb - 172822706
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act2a_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act2a_local_stream.xwb - 134510924
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act3a_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act3a_local_stream.xwb - 111980390
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act3b_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act3b_local_stream.xwb - 109760902
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act3c_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act3c_local_stream.xwb - 78783892
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act4a_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act4a_local_stream.xwb - 79726102
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act4b_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\act4b_local_stream.xwb - 106290788
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\buildinginterior_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\buildinginterior_local_stream.xwb - 79031112
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\cityhalla_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\cityhalla_local_stream.xwb - 91241116
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\cityhallb_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\cityhallb_local_stream.xwb - 75157902
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\hotel_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\hotel_local_stream.xwb - 77301540
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\market_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\market_local_stream.xwb - 75787702
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\menuback_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\menuback_local_stream.xwb - 9443080
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\parkinglot_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\parkinglot_local_stream.xwb - 86084176
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\policestation_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\policestation_local_stream.xwb - 78205530
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\sewers_local.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\sewers_local_stream.xwb - 76383678
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\speech_ai_chatter.xwb - 148
+C:\Program Files (x86)\Steam\steamapps\common\dead island\DI\SpeechEn\Data\speech_ai_chatter_stream.xwb - 151024570
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2005_d3dx9_25_x64.cab - 1347354
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2005_d3dx9_25_x86.cab - 1078962
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2006_d3dx9_30_x64.cab - 1397830
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2006_MDX1_x86.cab - 916430
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162630
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2006_XACT_x64.cab - 179133
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2006_XACT_x86.cab - 133103
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2006_xinput_x64.cab - 87101
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Apr2006_xinput_x86.cab - 46010
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\APR2007_d3dx10_33_x64.cab - 698612
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\APR2007_d3dx10_33_x86.cab - 695865
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\APR2007_d3dx9_33_x64.cab - 1607358
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\APR2007_d3dx9_33_x86.cab - 1606039
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\APR2007_XACT_x64.cab - 195766
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\APR2007_XACT_x86.cab - 151225
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\APR2007_xinput_x64.cab - 96817
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2005_d3dx9_27_x64.cab - 1350542
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2006_XACT_x64.cab - 182903
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2006_XACT_x86.cab - 137235
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2006_xinput_x64.cab - 87142
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2006_xinput_x86.cab - 46058
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2007_d3dx10_35_x64.cab - 852286
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2007_d3dx10_35_x86.cab - 796867
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2007_d3dx9_35_x64.cab - 1800160
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2007_d3dx9_35_x86.cab - 1708152
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2007_XACT_x64.cab - 198096
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\AUG2007_XACT_x86.cab - 153012
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2008_d3dx10_39_x64.cab - 867612
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2008_d3dx10_39_x86.cab - 849167
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2008_d3dx9_39_x64.cab - 1794084
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2008_d3dx9_39_x86.cab - 1464672
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2008_XACT_x64.cab - 121772
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2008_XACT_x86.cab - 92996
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2008_XAudio_x64.cab - 271412
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2008_XAudio_x86.cab - 271038
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_D3DCompiler_42_x64.cab - 919044
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_D3DCompiler_42_x86.cab - 900598
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_d3dcsx_42_x64.cab - 3112111
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_d3dcsx_42_x86.cab - 3319740
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_d3dx10_42_x64.cab - 232635
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_d3dx10_42_x86.cab - 192131
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_d3dx11_42_x64.cab - 136301
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_d3dx11_42_x86.cab - 105044
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_d3dx9_42_x64.cab - 930116
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_d3dx9_42_x86.cab - 728456
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_XACT_x64.cab - 122408
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_XACT_x86.cab - 93106
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_XAudio_x64.cab - 273264
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Aug2009_XAudio_x86.cab - 272642
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Dec2005_d3dx9_28_x64.cab - 1357976
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Dec2005_d3dx9_28_x86.cab - 1079456
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\DEC2006_d3dx10_00_x64.cab - 212807
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\DEC2006_d3dx10_00_x86.cab - 191720
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\DEC2006_d3dx9_32_x64.cab - 1571154
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\DEC2006_XACT_x64.cab - 192475
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\DEC2006_XACT_x86.cab - 145599
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\DSETUP.dll - 95576
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\dsetup32.dll - 1566040
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\dxdllreg_x86.cab - 44624
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\DXSETUP.exe - 517976
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\dxupdate.cab - 97152
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2005_d3dx9_24_x64.cab - 1247499
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2005_d3dx9_24_x86.cab - 1013225
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2006_d3dx9_29_x64.cab - 1362796
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2006_d3dx9_29_x86.cab - 1084720
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2006_XACT_x64.cab - 178359
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2006_XACT_x86.cab - 132409
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\FEB2007_XACT_x64.cab - 194675
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\FEB2007_XACT_x86.cab - 147983
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2010_X3DAudio_x64.cab - 54678
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2010_X3DAudio_x86.cab - 20713
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2010_XACT_x64.cab - 122446
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2010_XACT_x86.cab - 93180
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2010_XAudio_x64.cab - 276960
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Feb2010_XAudio_x86.cab - 277191
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2005_d3dx9_26_x64.cab - 1336002
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2005_d3dx9_26_x86.cab - 1064925
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2006_XACT_x64.cab - 180785
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2006_XACT_x86.cab - 133671
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2007_d3dx10_34_x64.cab - 699044
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2007_d3dx10_34_x86.cab - 698472
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2007_d3dx9_34_x64.cab - 1607774
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2007_d3dx9_34_x86.cab - 1607286
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2007_XACT_x64.cab - 197122
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2007_XACT_x86.cab - 152909
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_d3dx10_38_x64.cab - 867828
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_d3dx9_38_x64.cab - 1792608
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_X3DAudio_x64.cab - 55154
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_X3DAudio_x86.cab - 21905
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_XACT_x64.cab - 121054
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_XACT_x86.cab - 93128
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_XAudio_x64.cab - 269628
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\JUN2008_XAudio_x86.cab - 269024
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_D3DCompiler_43_x64.cab - 944460
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_D3DCompiler_43_x86.cab - 931471
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_d3dcsx_43_x64.cab - 752783
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_d3dcsx_43_x86.cab - 762188
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_d3dx10_43_x64.cab - 235955
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_d3dx10_43_x86.cab - 197283
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_d3dx11_43_x64.cab - 138205
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_d3dx11_43_x86.cab - 109445
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_d3dx9_43_x64.cab - 937246
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_d3dx9_43_x86.cab - 768036
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_XACT_x64.cab - 124596
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_XACT_x86.cab - 93686
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_XAudio_x64.cab - 277338
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Jun2010_XAudio_x86.cab - 278060
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_d3dx10_37_x64.cab - 844884
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_d3dx10_37_x86.cab - 818260
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_d3dx9_37_x64.cab - 1769862
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_d3dx9_37_x86.cab - 1443282
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_X3DAudio_x64.cab - 55058
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_XACT_x64.cab - 122336
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_XACT_x86.cab - 93734
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_XAudio_x64.cab - 251194
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2008_XAudio_x86.cab - 226250
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_d3dx9_41_x64.cab - 1973702
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_X3DAudio_x64.cab - 54600
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_XACT_x64.cab - 121506
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_XACT_x86.cab - 92740
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_XAudio_x64.cab - 275044
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Mar2009_XAudio_x86.cab - 273018
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2007_d3dx10_36_x64.cab - 864600
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2007_d3dx10_36_x86.cab - 803884
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2007_d3dx9_36_x64.cab - 1802058
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2007_d3dx9_36_x86.cab - 1709360
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\NOV2007_X3DAudio_x64.cab - 46144
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\NOV2007_X3DAudio_x86.cab - 18496
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\NOV2007_XACT_x64.cab - 196762
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\NOV2007_XACT_x86.cab - 148264
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_d3dx10_40_x64.cab - 994154
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_d3dx10_40_x86.cab - 965421
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_d3dx9_40_x64.cab - 1906878
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_X3DAudio_x64.cab - 54522
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_X3DAudio_x86.cab - 21851
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_XACT_x64.cab - 121794
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_XACT_x86.cab - 92684
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_XAudio_x64.cab - 273960
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Nov2008_XAudio_x86.cab - 272611
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Oct2005_xinput_x64.cab - 86037
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\Oct2005_xinput_x86.cab - 45359
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\OCT2006_d3dx9_31_x64.cab - 1412902
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\OCT2006_d3dx9_31_x86.cab - 1127217
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\OCT2006_XACT_x64.cab - 182361
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\DirectX\OCT2006_XACT_x86.cab - 138017
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\VCRedist\vcredist_x86.exe - 4216840
+C:\Program Files (x86)\Steam\steamapps\common\dead island\Redist\WMF\WMFDist11-WindowsXP-X86-ENU.exe - 12212040
+
+UAC Disabled or not present
+

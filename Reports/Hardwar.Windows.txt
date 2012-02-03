@@ -1,0 +1,122 @@
+Game Name: Hardwar
+
+Operating System:
+Microsoft Windows NT 5.1.2600 Service Pack 3
+
+Install Path:
+C:\Program Files\Interplay\Hardwar
+
+Save Path:
+C:\Program Files\Interplay\Hardwar
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlay\Applications\Hardwar
+Value: CurrentDirectory
+Data: C:\Program Files\Interplay\Hardwar\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlay\Applications\Hardwar
+Value: Path
+Data: C:\Program Files\Interplay\Hardwar\
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\*
+Value: a
+Data: C:\Program Files\Interplay\Hardwar\Splendor.sav
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\*
+Value: b
+Data: C:\Program Files\Interplay\Hardwar\Rapture.sav
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\sav
+Value: a
+Data: C:\Program Files\Interplay\Hardwar\Splendor.sav
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\sav
+Value: b
+Data: C:\Program Files\Interplay\Hardwar\Rapture.sav
+
+Key:HKEY_CURRENT_USER\Software\Refinery\hardman\Config
+Value: GDVPath
+Data: C:\Program Files\Interplay\Hardwar\
+
+Key:HKEY_CURRENT_USER\Software\Refinery\hardman\Config
+Value: GDVPath2
+Data: C:\Program Files\Interplay\Hardwar\
+
+Key:HKEY_CURRENT_USER\Software\Refinery\hardman\Config
+Value: GDVPath3
+Data: C:\Program Files\Interplay\Hardwar\
+
+Key:HKEY_CURRENT_USER\Software\Refinery\hardman\Config
+Value: RunPath
+Data: C:\Program Files\Interplay\Hardwar\
+
+Key:HKEY_CURRENT_USER\Software\Refinery\hardman\Config
+Value: DataPath
+Data: C:\Program Files\Interplay\Hardwar\
+
+Key:HKEY_CURRENT_USER\Software\Refinery\hardman\Config
+Value: SavePath
+Data: C:\Program Files\Interplay\Hardwar\
+
+Detected Start Menu Shortcuts:
+C:\Documents and Settings\SanMadJack\Start Menu\Programs\Hardwar.lnk
+C:\Program Files\Interplay\Hardwar\Hardman.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+7/14/1997 11:00:00 AM - C:\Program Files\Interplay\Hardwar\DSetup.DLL - 127488
+7/1/1996 8:07:34 AM - C:\Program Files\Interplay\Hardwar\EREG.BIN - 128
+5/6/1997 8:20:52 AM - C:\Program Files\Interplay\Hardwar\EREG3201.DLL - 197120
+8/14/1998 11:57:10 AM - C:\Program Files\Interplay\Hardwar\EREGUI.INI - 28659
+10/23/1997 8:32:10 AM - C:\Program Files\Interplay\Hardwar\EREGUI32.DLL - 270848
+8/13/1998 6:47:02 AM - C:\Program Files\Interplay\Hardwar\Hardman.exe - 105472
+8/13/1998 6:10:18 AM - C:\Program Files\Interplay\Hardwar\Hardwar.res - 34416748
+8/13/1998 6:47:16 AM - C:\Program Files\Interplay\Hardwar\HardwarW.exe - 1520640
+8/21/1996 4:30:38 AM - C:\Program Files\Interplay\Hardwar\INTER.BMP - 2518
+7/30/1998 8:26:44 PM - C:\Program Files\Interplay\Hardwar\ip640320.exe - 5501170
+6/21/1998 4:43:44 PM - C:\Program Files\Interplay\Hardwar\Media.txt - 662
+1/31/1997 6:24:20 AM - C:\Program Files\Interplay\Hardwar\MFC42.DLL - 941840
+1/22/1997 4:07:38 PM - C:\Program Files\Interplay\Hardwar\MSVCRT.DLL - 271632
+10/14/1997 5:12:44 AM - C:\Program Files\Interplay\Hardwar\PRTBODY.TXT - 1285
+11/7/2011 4:40:24 PM - C:\Program Files\Interplay\Hardwar\Rapture.sav - 995973
+8/17/1998 9:18:02 AM - C:\Program Files\Interplay\Hardwar\Readme.txt - 30345
+10/11/1996 6:14:12 AM - C:\Program Files\Interplay\Hardwar\REG32A.EXE - 18432
+10/14/1997 5:13:18 AM - C:\Program Files\Interplay\Hardwar\REGFAX.TXT - 183
+10/14/1997 9:36:48 AM - C:\Program Files\Interplay\Hardwar\REGMAIL.TXT - 184
+10/14/1997 5:18:48 AM - C:\Program Files\Interplay\Hardwar\REGRCRD.TXT - 161
+10/15/1997 8:53:54 AM - C:\Program Files\Interplay\Hardwar\REGXMIT.TXT - 189
+7/23/1997 6:00:00 PM - C:\Program Files\Interplay\Hardwar\VFX.DLL - 62464
+
+Install Folder Dump:
+7/14/1997 11:00:00 AM - C:\Program Files\Interplay\Hardwar\DSetup.DLL - 127488
+7/1/1996 8:07:34 AM - C:\Program Files\Interplay\Hardwar\EREG.BIN - 128
+5/6/1997 8:20:52 AM - C:\Program Files\Interplay\Hardwar\EREG3201.DLL - 197120
+8/14/1998 11:57:10 AM - C:\Program Files\Interplay\Hardwar\EREGUI.INI - 28659
+10/23/1997 8:32:10 AM - C:\Program Files\Interplay\Hardwar\EREGUI32.DLL - 270848
+8/13/1998 6:47:02 AM - C:\Program Files\Interplay\Hardwar\Hardman.exe - 105472
+8/13/1998 6:10:18 AM - C:\Program Files\Interplay\Hardwar\Hardwar.res - 34416748
+8/13/1998 6:47:16 AM - C:\Program Files\Interplay\Hardwar\HardwarW.exe - 1520640
+8/21/1996 4:30:38 AM - C:\Program Files\Interplay\Hardwar\INTER.BMP - 2518
+7/30/1998 8:26:44 PM - C:\Program Files\Interplay\Hardwar\ip640320.exe - 5501170
+6/21/1998 4:43:44 PM - C:\Program Files\Interplay\Hardwar\Media.txt - 662
+1/31/1997 6:24:20 AM - C:\Program Files\Interplay\Hardwar\MFC42.DLL - 941840
+1/22/1997 4:07:38 PM - C:\Program Files\Interplay\Hardwar\MSVCRT.DLL - 271632
+10/14/1997 5:12:44 AM - C:\Program Files\Interplay\Hardwar\PRTBODY.TXT - 1285
+11/7/2011 4:40:24 PM - C:\Program Files\Interplay\Hardwar\Rapture.sav - 995973
+8/17/1998 9:18:02 AM - C:\Program Files\Interplay\Hardwar\Readme.txt - 30345
+10/11/1996 6:14:12 AM - C:\Program Files\Interplay\Hardwar\REG32A.EXE - 18432
+10/14/1997 5:13:18 AM - C:\Program Files\Interplay\Hardwar\REGFAX.TXT - 183
+10/14/1997 9:36:48 AM - C:\Program Files\Interplay\Hardwar\REGMAIL.TXT - 184
+10/14/1997 5:18:48 AM - C:\Program Files\Interplay\Hardwar\REGRCRD.TXT - 161
+10/15/1997 8:53:54 AM - C:\Program Files\Interplay\Hardwar\REGXMIT.TXT - 189
+7/23/1997 6:00:00 PM - C:\Program Files\Interplay\Hardwar\VFX.DLL - 62464
+
+UAC Disabled or not present

@@ -1,0 +1,367 @@
+Comments:
+  <game name="RedFactionArmageddon" platform="Steam">
+    <title>Red Faction: Armageddon</title>
+    <location_path environment_variable="steamuserdata" path="55110" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Red Faction: Armegeddon
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon
+
+Save Path: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\55110
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 55110
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\red faction armageddon
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\55110\remotecache.vdf - 1054
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\55110\remote\player_options.rfao_pc - 4856
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\55110\remote\rfasave_00.rfas_pc - 251392
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\55110\remote\rfasave_01.rfas_pc - 251392
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\55110\remote\savedir.rfad_pc - 1536
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\binkw32.dll - 227328
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\changelist.txt - 9
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\installscript.vdf - 978
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\Readme_RedFactionArmageddon_DE.txt - 57028
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\Readme_RedFactionArmageddon_EN.txt - 70884
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\Readme_RedFactionArmageddon_ES.txt - 48604
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\Readme_RedFactionArmageddon_FR.txt - 57924
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\Readme_RedFactionArmageddon_GR.txt - 57028
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\Readme_RedFactionArmageddon_IT.txt - 45864
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\Readme_RedFactionArmageddon_PL.txt - 84178
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\Readme_RedFactionArmageddon_RU.txt - 84714
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\RedFactionArmageddon.exe - 11340376
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\RedFactionArmageddon_DX11.exe - 11277400
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\rf4_launcher.exe - 2916352
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\vcredist_x86.exe - 4216840
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\dlc01\pc\cache\dlc01_id.txt - 5
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\dlc01\pc\cache\dlcp01_misc.vpp_pc - 6451
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\dlc02\pc\cache\dlc02_id.txt - 5
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\dlc02\pc\cache\dlcp02_misc.vpp_pc - 8567
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\dlc03\pc\cache\dlc03_id.txt - 5
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\dlc03\pc\cache\dlcp03_misc.vpp_pc - 8563
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\activities.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\anims.vpp_pc - 6227532
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\bio_precache.vpp_pc - 41973953
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\chunks.vpp_pc - 88531
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\cloth_sim.vpp_pc - 215163
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\debug.vpp_pc - 143512
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\decals.vpp_pc - 1239093
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\dlc01_precache.vpp_pc - 146909265
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\effects.vpp_pc - 12646650
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\effects_mp.vpp_pc - 8200
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\humans.vpp_pc - 254228855
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\ice_precache.vpp_pc - 41996514
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\interface.vpp_pc - 74090588
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\items.vpp_pc - 53931900
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\items_mp.vpp_pc - 8200
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\langs.dat - 55
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\legal_hd-demo.bik - 1775488
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\legal_hd.bik - 3838112
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\legal_hd_no_esrb.bik - 3602512
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\legal_hd_PS3-demo.bik - 1761856
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\legal_hd_PS3.bik - 3760136
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\legal_hd_PS3_no_esrb.bik - 3712632
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\logo_SPIKE.bik - 5608976
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\logo_SyfyGAMES.bik - 5752388
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\logo_THQ-V-RFA.bik - 14492416
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M01_CS_00.bik - 142337996
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M01_MO_flyercrash.bik - 18262680
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M01_MO_HaleTrick.bik - 23803020
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M01_MO_M01Transition.bik - 38882132
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M01_MO_WalkerAttacks.bik - 6521568
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M02_CS_01_02_MO_EWalk.bik - 273606812
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M02_MO_SealPan.bik - 15881776
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M03_CS_03_MO_ExoExit.bik - 102042772
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M03_MO_CaveCrawl.bik - 12222648
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M03_RV_01_Creeper.bik - 17112104
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M03_RV_02_Pod.bik - 15783460
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M03_RV_03_Grunt.bik - 15661724
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M04_MO_CarCrash.bik - 11903312
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M04_MO_EnterDriller.bik - 11122564
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M04_MO_ExitDriller.bik - 8770024
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M04_MO_SoldierTalk.bik - 21463248
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M04_RV_04_Heavy.bik - 20969804
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M05_MO_CorporalDead.bik - 27715432
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M05_MO_WaterBuilding.bik - 20165136
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M05_RV_05_Ambusher.bik - 16310496
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M06_CS_05.bik - 81219624
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M06_MO_ThugDeath.bik - 23271844
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M06_RV_06_Tank.bik - 17739752
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M07_MO_RCrawl_CS_06_07.bik - 183749072
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M07_MO_TentacleEmerge.bik - 7132992
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M08_CS_10.bik - 173237028
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M08_MO_M08Transition.bik - 25269616
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M09_CS_11.bik - 77176928
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M12_CS_13.bik - 87758320
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M12_MO_RFBridge.bik - 17740240
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M13_CS_14_MO_WBarge.bik - 75583392
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M14_CS_15.bik - 74990052
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M14_MO_WFall_CS_17.bik - 51049284
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M14_MO_WSeal_CS_16.bik - 131934172
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M16_MO_TentaclePan.bik - 12898192
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M16_RV_07_Queen.bik - 16066776
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M17_CS_18.bik - 82141352
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M17_MO_QueenTentacles.bik - 33915948
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M17_MO_TheEnd_CS_19.bik - 155428952
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\M17_MO_VentCrawl.bik - 9797636
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\magma_precache.vpp_pc - 41965713
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\MB_Placeholder.bik - 342636
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\misc.vpp_pc - 10252352
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\missions.vpp_pc - 1481404
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf01.vpp_pc - 12164904
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf01d.vpp_pc - 12125312
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf02.vpp_pc - 9846530
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf02d.vpp_pc - 9842796
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf03.vpp_pc - 27177276
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf03d.vpp_pc - 27479578
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf04.vpp_pc - 12949790
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf04d.vpp_pc - 12966306
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf05.vpp_pc - 27454108
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf05d.vpp_pc - 27490009
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf06.vpp_pc - 14172585
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf06d.vpp_pc - 14177437
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf07.vpp_pc - 12388638
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf07d.vpp_pc - 12353431
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf08.vpp_pc - 12506903
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_inf08d.vpp_pc - 12891975
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\mp_precache.vpp_pc - 146906198
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\natural_precache.vpp_pc - 41984739
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\placeholder.txt - 1
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q01_CS_04.bik - 81195924
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q01_MO_HeavyCivilianKill.bik - 19011884
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q01_MO_PowercellEnd.bik - 15168096
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q01_MO_PowercellStart.bik - 21461104
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q02_CS_04_5.bik - 56282088
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q04_CS_08_08_5.bik - 135244096
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q06_CS_09_MO_Thwart.bik - 91664512
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q07_CS_12.bik - 92606728
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\Q08_CS_12_5.bik - 67982656
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\RF4_MainMenuBG.bik - 18062108
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\RF4_MainMenuBG1.bik - 18062104
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\RF4_MainMenuBG2.bik - 18341892
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\RF4_MainMenuBG3.bik - 18321684
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\RF4_MainMenuBG4.bik - 18321884
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\ruin01.vpp_pc - 834433
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\ruin03.vpp_pc - 478024
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\ruin06.vpp_pc - 3009088
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\ruin07.vpp_pc - 752891
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\ruin08.vpp_pc - 10435151
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\skybox.vpp_pc - 1169667
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\soundboot.vpp_pc - 235141
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\sounds.vpp_pc - 836345856
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\surface_precache.vpp_pc - 41977914
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\table.vpp_pc - 894768
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\vehicles.vpp_pc - 41905829
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot.vpp_pc - 74438
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_AR.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_CZ.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_DE.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_ES.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_FR.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_IT.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_JP.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_KO.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_PL.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voiceboot_RU.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices.vpp_pc - 61167616
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_AR.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_CZ.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_DE.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_ES.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_FR.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_IT.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_JP.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_KO.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_PL.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\voices_RU.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\world_l0.vpp_pc - 3049187971
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\world_l1.vpp_pc - 6152
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\world_precache.vpp_pc - 2048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\build\pc\cache\zonescript_world.vpp_pc - 17120551
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2005_d3dx9_25_x64.cab - 1347354
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2005_d3dx9_25_x86.cab - 1078962
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2006_d3dx9_30_x64.cab - 1397830
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2006_MDX1_x86.cab - 916430
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162630
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2006_XACT_x64.cab - 179133
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2006_XACT_x86.cab - 133103
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2006_xinput_x64.cab - 87101
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Apr2006_xinput_x86.cab - 46010
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\APR2007_d3dx10_33_x64.cab - 698612
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\APR2007_d3dx10_33_x86.cab - 695865
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\APR2007_d3dx9_33_x64.cab - 1607358
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\APR2007_d3dx9_33_x86.cab - 1606039
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\APR2007_XACT_x64.cab - 195766
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\APR2007_XACT_x86.cab - 151225
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\APR2007_xinput_x64.cab - 96817
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2005_d3dx9_27_x64.cab - 1350542
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2006_XACT_x64.cab - 182903
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2006_XACT_x86.cab - 137235
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2006_xinput_x64.cab - 87142
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2006_xinput_x86.cab - 46058
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2007_d3dx10_35_x64.cab - 852286
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2007_d3dx10_35_x86.cab - 796867
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2007_d3dx9_35_x64.cab - 1800160
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2007_d3dx9_35_x86.cab - 1708152
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2007_XACT_x64.cab - 198096
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\AUG2007_XACT_x86.cab - 153012
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2008_d3dx10_39_x64.cab - 867612
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2008_d3dx10_39_x86.cab - 849167
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2008_d3dx9_39_x64.cab - 1794084
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2008_d3dx9_39_x86.cab - 1464672
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2008_XACT_x64.cab - 121772
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2008_XACT_x86.cab - 92996
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2008_XAudio_x64.cab - 271412
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2008_XAudio_x86.cab - 271038
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_D3DCompiler_42_x64.cab - 919044
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_D3DCompiler_42_x86.cab - 900598
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_d3dcsx_42_x64.cab - 3112111
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_d3dcsx_42_x86.cab - 3319740
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_d3dx10_42_x64.cab - 232635
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_d3dx10_42_x86.cab - 192131
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_d3dx11_42_x64.cab - 136301
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_d3dx11_42_x86.cab - 105044
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_d3dx9_42_x64.cab - 930116
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_d3dx9_42_x86.cab - 728456
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_XACT_x64.cab - 122408
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_XACT_x86.cab - 93106
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_XAudio_x64.cab - 273264
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Aug2009_XAudio_x86.cab - 272642
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Dec2005_d3dx9_28_x64.cab - 1357976
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Dec2005_d3dx9_28_x86.cab - 1079456
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\DEC2006_d3dx10_00_x64.cab - 212807
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\DEC2006_d3dx10_00_x86.cab - 191720
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\DEC2006_d3dx9_32_x64.cab - 1571154
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\DEC2006_XACT_x64.cab - 192475
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\DEC2006_XACT_x86.cab - 145599
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\DSETUP.dll - 89944
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\dsetup32.dll - 1801048
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\dxdllreg_x86.cab - 42410
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\DXSETUP.exe - 537432
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\dxupdate.cab - 94011
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2005_d3dx9_24_x64.cab - 1247499
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2005_d3dx9_24_x86.cab - 1013225
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2006_d3dx9_29_x64.cab - 1362796
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2006_d3dx9_29_x86.cab - 1084720
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2006_XACT_x64.cab - 178359
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2006_XACT_x86.cab - 132409
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\FEB2007_XACT_x64.cab - 194675
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\FEB2007_XACT_x86.cab - 147983
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2010_X3DAudio_x64.cab - 54678
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2010_X3DAudio_x86.cab - 20713
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2010_XACT_x64.cab - 122446
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2010_XACT_x86.cab - 93180
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2010_XAudio_x64.cab - 276960
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Feb2010_XAudio_x86.cab - 277191
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2005_d3dx9_26_x64.cab - 1336002
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2005_d3dx9_26_x86.cab - 1064925
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2006_XACT_x64.cab - 180785
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2006_XACT_x86.cab - 133671
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2007_d3dx10_34_x64.cab - 699044
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2007_d3dx10_34_x86.cab - 698472
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2007_d3dx9_34_x64.cab - 1607774
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2007_d3dx9_34_x86.cab - 1607286
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2007_XACT_x64.cab - 197122
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2007_XACT_x86.cab - 152909
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_d3dx10_38_x64.cab - 867828
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_d3dx9_38_x64.cab - 1792608
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_X3DAudio_x64.cab - 55154
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_X3DAudio_x86.cab - 21905
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_XACT_x64.cab - 121054
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_XACT_x86.cab - 93128
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_XAudio_x64.cab - 269628
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\JUN2008_XAudio_x86.cab - 269024
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_D3DCompiler_43_x64.cab - 944460
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_D3DCompiler_43_x86.cab - 931471
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_d3dcsx_43_x64.cab - 752783
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_d3dcsx_43_x86.cab - 762188
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_d3dx10_43_x64.cab - 235955
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_d3dx10_43_x86.cab - 197283
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_d3dx11_43_x64.cab - 138205
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_d3dx11_43_x86.cab - 109445
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_d3dx9_43_x64.cab - 937246
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_d3dx9_43_x86.cab - 768036
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_XACT_x64.cab - 124596
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_XACT_x86.cab - 93686
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_XAudio_x64.cab - 277338
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Jun2010_XAudio_x86.cab - 278060
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_d3dx10_37_x64.cab - 844884
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_d3dx10_37_x86.cab - 818260
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_d3dx9_37_x64.cab - 1769862
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_d3dx9_37_x86.cab - 1443282
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_X3DAudio_x64.cab - 55058
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_XACT_x64.cab - 122336
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_XACT_x86.cab - 93734
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_XAudio_x64.cab - 251194
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2008_XAudio_x86.cab - 226250
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_d3dx9_41_x64.cab - 1973702
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_X3DAudio_x64.cab - 54600
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_XACT_x64.cab - 121506
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_XACT_x86.cab - 92740
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_XAudio_x64.cab - 275044
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Mar2009_XAudio_x86.cab - 273018
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2007_d3dx10_36_x64.cab - 864600
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2007_d3dx10_36_x86.cab - 803884
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2007_d3dx9_36_x64.cab - 1802058
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2007_d3dx9_36_x86.cab - 1709360
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\NOV2007_X3DAudio_x64.cab - 46144
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\NOV2007_X3DAudio_x86.cab - 18496
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\NOV2007_XACT_x64.cab - 196762
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\NOV2007_XACT_x86.cab - 148264
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_d3dx10_40_x64.cab - 994154
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_d3dx10_40_x86.cab - 965421
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_d3dx9_40_x64.cab - 1906878
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_X3DAudio_x64.cab - 54522
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_X3DAudio_x86.cab - 21851
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_XACT_x64.cab - 121794
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_XACT_x86.cab - 92684
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_XAudio_x64.cab - 273960
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Nov2008_XAudio_x86.cab - 272611
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Oct2005_xinput_x64.cab - 86037
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\Oct2005_xinput_x86.cab - 45359
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\OCT2006_d3dx9_31_x64.cab - 1412902
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\OCT2006_d3dx9_31_x86.cab - 1127217
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\OCT2006_XACT_x64.cab - 182361
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\DirectX\OCT2006_XACT_x86.cab - 138017
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\reslists\precache.lst - 0
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\reslists\preload.lst - 656
+C:\Program Files (x86)\Steam\steamapps\common\red faction armageddon\reslists\RF4\precache.lst - 0
+
+UAC Disabled or not present
+

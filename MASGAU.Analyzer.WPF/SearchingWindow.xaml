@@ -1,0 +1,16 @@
+﻿<src:AWindow x:Class="MASGAU.Analyzer.SearchingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
+        Title="Searching For Game Information..." Closing="Window_Closing" Loaded="Window_Loaded" ResizeMode="CanMinimize" Padding="3" SizeToContent="WidthAndHeight" MinWidth="400" >
+    <GroupBox Header="Where To Look First..." Name="groupBox1" Margin="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="304*" />
+                <ColumnDefinition Width="56*" />
+            </Grid.ColumnDefinitions>
+            <Button Content="Cancel" Grid.Column="1" Name="cancelBtn" Margin="2" Click="cancelBtn_Click" TabIndex="1" Height="23" />
+            <ProgressBar Name="progressBar1" Margin="2" IsTabStop="False" />
+        </Grid>
+    </GroupBox>
+</src:AWindow>

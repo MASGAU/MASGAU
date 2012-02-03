@@ -1,0 +1,120 @@
+Game Name: Ghostbusters
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Atari\Ghostbusters
+
+Save Path:
+C:\Users\Scott\Documents\GHOSTBUSTERS (tm)
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Atari\Ghostbusters
+Value:ExePath
+Data:C:\Program Files (x86)\Atari\Ghostbusters\ghost_w32.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Atari\Ghostbusters
+Value:InstallPath
+Data:C:\Program Files (x86)\Atari\Ghostbusters\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\InstallShield_{3A1B1652-D70A-4D19-981E-BB15D0DBF253}
+Value:InstallLocation
+Data:C:\Program Files (x86)\Atari\Ghostbusters\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3A1B1652-D70A-4D19-981E-BB15D0DBF253}
+Value:InstallLocation
+Data:C:\Program Files (x86)\Atari\Ghostbusters\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\Scott\Documents\GHOSTBUSTERS (tm)\PROFILE.SAV - 4244
+
+Install Folder Dump:
+C:\Program Files (x86)\Atari\Ghostbusters\COMMON.POD - 322100165
+C:\Program Files (x86)\Atari\Ghostbusters\GameuxInstallHelper.dll - 78184
+C:\Program Files (x86)\Atari\Ghostbusters\ghost_w32.exe - 21342208
+C:\Program Files (x86)\Atari\Ghostbusters\ghost_w32.fpt - 1024
+C:\Program Files (x86)\Atari\Ghostbusters\lang.ini - 137880
+C:\Program Files (x86)\Atari\Ghostbusters\LANGUAGE.POD - 9240993
+C:\Program Files (x86)\Atari\Ghostbusters\paul.dll - 296176
+C:\Program Files (x86)\Atari\Ghostbusters\readme.rtf - 147227
+C:\Program Files (x86)\Atari\Ghostbusters\vitality.dll - 5120
+C:\Program Files (x86)\Atari\Ghostbusters\W32ART.POD - 2135778624
+C:\Program Files (x86)\Atari\Ghostbusters\W32ART02.POD - 1076846102
+C:\Program Files (x86)\Atari\Ghostbusters\W32DESND.POD - 527511945
+C:\Program Files (x86)\Atari\Ghostbusters\W32ENSND.POD - 543735552
+C:\Program Files (x86)\Atari\Ghostbusters\W32ESSND.POD - 507073174
+C:\Program Files (x86)\Atari\Ghostbusters\W32FRSND.POD - 514882729
+C:\Program Files (x86)\Atari\Ghostbusters\W32ITSND.POD - 507228301
+C:\Program Files (x86)\Atari\Ghostbusters\W32MODEL.POD - 368219895
+C:\Program Files (x86)\Atari\Ghostbusters\W32MUSND.POD - 509802598
+C:\Program Files (x86)\Atari\Ghostbusters\W32SET.POD - 2113245106
+C:\Program Files (x86)\Atari\Ghostbusters\W32SET02.POD - 81953834
+C:\Program Files (x86)\Atari\Ghostbusters\W32SOUND.POD - 496332738
+C:\Program Files (x86)\Atari\Ghostbusters\xinput1_3.dll - 81768
+C:\Program Files (x86)\Atari\Ghostbusters\Video\attract_vid.ogv - 29198196
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_CEM_02.ogv - 6916524
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_Cem_06.ogv - 8582506
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_CEM_07.ogv - 26126143
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_EXT_01.ogv - 21290567
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_FH1_01.ogv - 8217719
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_FH1_01a.ogv - 71687253
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_FH1_02.ogv - 19426975
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_FH4_01.ogv - 55440471
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_FH5_01.ogv - 3397444
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_H1_05.ogv - 2833083
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_H1_06.ogv - 32623878
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_H1_07.ogv - 18363565
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_H2_01.ogv - 18914933
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_H2_02.ogv - 35611278
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_H2_03.ogv - 25376238
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_LIB_01.ogv - 47678604
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_LIB_04.ogv - 61379291
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_LIB_05.ogv - 26919975
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_LI_01.ogv - 49280357
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_LI_02.ogv - 28316551
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_MUS_01.ogv - 27930549
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_MUS_02.ogv - 11842436
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_MUS_03.ogv - 38810097
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_MUS_03a.ogv - 63786434
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_MUS_03b.ogv - 42750534
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_PAR_06.ogv - 26618279
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_PAR_07.ogv - 23667216
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_TS_05.ogv - 35901490
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_TS_07.ogv - 47863733
+C:\Program Files (x86)\Atari\Ghostbusters\Video\CS_TS_08.ogv - 90997873
+C:\Program Files (x86)\Atari\Ghostbusters\Video\extras.ogv - 8172751
+C:\Program Files (x86)\Atari\Ghostbusters\Video\FH02_scene.ogv - 155396755
+C:\Program Files (x86)\Atari\Ghostbusters\Video\FH03_scene.ogv - 56171864
+C:\Program Files (x86)\Atari\Ghostbusters\Video\FH04_scene.ogv - 95995823
+C:\Program Files (x86)\Atari\Ghostbusters\Video\FH05_scene.ogv - 83989245
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb01.ogv - 78682381
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb02.ogv - 16748117
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb03.ogv - 22546896
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb04.ogv - 43001442
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb05.ogv - 38486362
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb06.ogv - 63306287
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb08.ogv - 35136203
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb09.ogv - 12102536
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb10.ogv - 26159242
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb11.ogv - 33246416
+C:\Program Files (x86)\Atari\Ghostbusters\Video\gb12.ogv - 75026186
+C:\Program Files (x86)\Atari\Ghostbusters\Video\home.ogv - 6087039
+C:\Program Files (x86)\Atari\Ghostbusters\Video\load.ogv - 1898367
+C:\Program Files (x86)\Atari\Ghostbusters\Video\loading.ogv - 25299284
+C:\Program Files (x86)\Atari\Ghostbusters\Video\logo.ogv - 25435919
+C:\Program Files (x86)\Atari\Ghostbusters\Video\options.ogv - 5927228
+
+UAC Disabled or not present
+

@@ -1,0 +1,137 @@
+﻿<src:AWindow x:Class="MASGAU.Monitor.MonitorSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
+        Title="MASGAU Monitor Settings" Height="450" Width="650" MinWidth="650" MinHeight="450">
+    <Window.Resources>
+        <src:VisibilityConverter x:Key="visibleConverter"/>
+        <src:PathValueConverter x:Key="pathValueConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TabControl Name="tabControl1" SelectionChanged="tabControl1_SelectionChanged">
+        <TabItem Header="Games" Name="tabItem1">
+                    <ListView ItemsSource="{Binding}" Name="gamesLst" ScrollViewer.HorizontalScrollBarVisibility="Disabled" TabIndex="3" SizeChanged="gamesLst_SizeChanged">
+                        <ListView.ContextMenu>
+                            <ContextMenu Name="gamesMenu" Opened="gamesMenu_Opened">
+                                <MenuItem Header="Enable Backup" IsCheckable="True" Name="enableBackupMenu" Click="enableBackupMenu_Click" />
+                                <MenuItem Header="Enable Sync" IsCheckable="True" Name="enableSyncMenu" Click="enableSyncMenu_Click" />
+                            </ContextMenu>
+                        </ListView.ContextMenu>
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="Control.HorizontalContentAlignment" Value="Stretch" />
+                                <Setter Property="FrameworkElement.ToolTip" Value="{Binding tooltip}" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding name}" />
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                        <ListView.Resources>
+                            <Style x:Key="DataGridCheckBox" TargetType="{x:Type CheckBox}">
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center" />
+                                <Setter Property="Control.HorizontalContentAlignment" Value="Center" />
+                                <Setter Property="FrameworkElement.Margin" Value="2" />
+                                <Setter Property="FrameworkElement.VerticalAlignment" Value="Center" />
+                                <Setter Property="Control.VerticalContentAlignment" Value="Center" />
+                            </Style>
+                        </ListView.Resources>
+                        <ListView.View>
+                            <GridView AllowsColumnReorder="False">
+                                <GridViewColumn x:Name="gameNameColumn" Header="Secret Name (Don't Tell Anyone!)" Width="0">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding name}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn x:Name="gameTitleColumn" Header="Game" Width="200">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding title}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn x:Name="gamePlatformColumn" Header="Platform" Width="80">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock HorizontalAlignment="Center" Text="{Binding platform}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn x:Name="backupColumn" Header="Backup" Width="50">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox HorizontalAlignment="Center" IsChecked="{Binding backup_enabled, Mode=TwoWay}" Style="{StaticResource DataGridCheckBox}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn x:Name="syncColumn" Header="Sync" Width="50">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                        <CheckBox HorizontalAlignment="Center" IsChecked="{Binding sync_enabled, Mode=TwoWay}" Style="{StaticResource DataGridCheckBox}"  IsEnabled="{Binding sync_available}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            <GridViewColumn x:Name="defaultPathColumn" Header="Sync Location" Width="200">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <TextBlock Text="{Binding sync_location}"  />
+                                            <ComboBox ItemsSource="{Binding detected_location_list}" SelectedItem="{Binding sync_location}" Visibility="{Binding multiple_detected_paths, Converter={StaticResource visibleConverter}}"  IsEnabled="{Binding sync_enabled}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                        </ListView.View>
+                    </ListView>
+            </TabItem>
+            <TabItem Header="Monitor">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto"  />
+                    </Grid.RowDefinitions>
+                    <GroupBox Header="Sync Path" Name="groupBox3" Grid.Row="1" Grid.ColumnSpan="2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="159*" />
+                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="40" />
+                            </Grid.ColumnDefinitions>
+                            <Button Content="Change" Grid.Column="1" Height="23" Margin="1" Name="changeSyncPathButton" TabIndex="8" Click="changeSyncPathButton_Click" />
+                            <Button Content="Open" Grid.Column="2" Height="23" IsEnabled="{Binding sync_path_set}" Margin="1" Name="openSyncPathButton" TabIndex="9" Click="openSyncPathButton_Click" />
+                            <TextBox Height="23" IsReadOnly="True" Margin="1" MaxLines="7" Name="syncPathText" Text="{Binding sync_path, Converter={StaticResource pathValueConverter}}" />
+                        </Grid>
+                    </GroupBox>
+                    <CheckBox Content="Start Monitor On Login" Height="16" HorizontalContentAlignment="Center" IsChecked="{Binding enabled, Mode=TwoWay}" Name="monitorOnLoginCheck" TabIndex="3" VerticalContentAlignment="Center" />
+                    <CheckBox Content="Full Backup On Monitor Startup" Height="16" HorizontalContentAlignment="Center" IsChecked="{Binding monitor_startup_backup, Mode=TwoWay}" Name="backupOnStartupCheck" TabIndex="3" VerticalContentAlignment="Center" Grid.Column="1" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Other">
+                <src:SettingsControl x:Name="settingsControl" Height="Auto" Width="Auto" />
+            </TabItem>
+        </TabControl>
+        <StatusBar Grid.ColumnSpan="2" Grid.Row="2" Name="statusBar1" HorizontalContentAlignment="Right" FlowDirection="RightToLeft">
+            <StatusBarItem Padding="0">
+                <Button Content="Close" Grid.Row="2" Height="23" Name="okButton" Width="75" Grid.Column="2" Margin="3" Click="okButton_Click" />
+            </StatusBarItem>
+            <StatusBarItem x:Name="progressStatus" Grid.Column="1" HorizontalContentAlignment="Stretch" Visibility="Collapsed">
+                <Grid>
+                    <ProgressBar Height="18" Name="progressBar" Grid.Row="1" IsTabStop="False" Value="100" Opacity="0.4"></ProgressBar>
+                    <TextBlock  Margin="0,2,0,0" TextAlignment="Center" Name="progressTxt">Ready</TextBlock>
+                </Grid>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</src:AWindow>

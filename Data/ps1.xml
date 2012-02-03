@@ -1,116 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:noNamespaceSchemaLocation="games.xsd"
-	majorVersion="1" minorVersion="0" revisionVersion="0">
+	majorVersion="1" minorVersion="1" revisionVersion="0">
 	
-  <game name="ChronoCross»PS1">
+  <game name="ChronoCross" platform="PS1" country="USA">
 	  <title>Chrono Cross</title>
-	  <ps1 prefix="SLUS" suffix="01041" />
-	  <ps1 prefix="SLUS" suffix="01080" />
+	  <ps_code prefix="SLUS" suffix="01041" />
+	  <ps_code prefix="SLUS" suffix="01080" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="ChronoTrigger»PS1">
+  <game name="ChronoTrigger" platform="PS1" country="USA">
 	  <title>Chrono Trigger</title>
-	  <ps1 prefix="SLUS" suffix="01363" />
+	  <ps_code prefix="SLUS" suffix="01363" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="Descent»PS1">
+  <game name="Descent" platform="PS1" country="USA">
 	  <title>Descent</title>
-	  <ps1 prefix="SLUS" suffix="00037" />
+	  <ps_code prefix="SLUS" suffix="00037" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="DescentMaximum»PS1.xml">
+  <game name="DescentMaximum" platform="PS1" country="USA">
 	  <title>Descent: Maximum</title>
-	  <ps1 prefix="SLUS" suffix="00460" />
+	  <ps_code prefix="SLUS" suffix="00460" />
     <contributer>SanMadJack</contributer>
   </game>
 
-    <game name="FearEffect»PS1">
-      <title>Final Fantasy VIII</title>
-      <ps1 prefix="SLUS" suffix="00920" />
-      <ps1 prefix="SLUS" suffix="01056" />
-      <ps1 prefix="SLUS" suffix="01057" />
-      <ps1 prefix="SLUS" suffix="01058" />
-      <contributer>SanMadJack</contributer>
-    </game>
+  <game name="FearEffect" platform="PS1" country="USA">
+    <title>Final Fantasy VIII</title>
+    <ps_code prefix="SLUS" suffix="00920" />
+    <ps_code prefix="SLUS" suffix="01056" />
+    <ps_code prefix="SLUS" suffix="01057" />
+    <ps_code prefix="SLUS" suffix="01058" />
+    <contributer>SanMadJack</contributer>
+  </game>
 
-    <game name="FearEffect2»PS1">
-      <title>Fear Effect 2: Retro Helix</title>
-      <ps1 prefix="SLUS" suffix="01266" />
-      <ps1 prefix="SLUS" suffix="01275" />
-      <ps1 prefix="SLUS" suffix="01276" />
-      <ps1 prefix="SLUS" suffix="01277" />
-      <contributer>SanMadJack</contributer>
-    </game>
+  <game name="FearEffect2" platform="PS1" country="USA">
+    <title>Fear Effect 2: Retro Helix</title>
+    <ps_code prefix="SLUS" suffix="01266" />
+    <ps_code prefix="SLUS" suffix="01275" />
+    <ps_code prefix="SLUS" suffix="01276" />
+    <ps_code prefix="SLUS" suffix="01277" />
+    <contributer>SanMadJack</contributer>
+  </game>
     
-    <game name="FinalFantasy4»PS1">
-	    <title>Final Fantasy IV</title>
-	    <ps1 prefix="SLUS" suffix="01360" />
-      <contributer>SanMadJack</contributer>
-    </game>
+  <game name="FinalFantasy4" platform="PS1" country="USA">
+	  <title>Final Fantasy IV</title>
+	  <ps_code prefix="SLUS" suffix="01360" />
+    <contributer>SanMadJack</contributer>
+  </game>
 
-  <game name="FinalFantasy8»PS1">
+  <game name="FinalFantasy8" platform="PS1" country="USA">
 	  <title>Final Fantasy VIII</title>
-	  <ps1 prefix="SLUS" suffix="00892" />
-	  <ps1 prefix="SLUS" suffix="00908" />
-	  <ps1 prefix="SLUS" suffix="00909" />
-	  <ps1 prefix="SLUS" suffix="00910" />
+	  <ps_code prefix="SLUS" suffix="00892" />
+	  <ps_code prefix="SLUS" suffix="00908" />
+	  <ps_code prefix="SLUS" suffix="00909" />
+	  <ps_code prefix="SLUS" suffix="00910" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="FinalFantasy9»PS1">
+  <game name="FinalFantasy9" platform="PS1" country="USA">
 	  <title>Final Fantasy IX</title>
-	  <ps1 prefix="SLUS" suffix="01251" />
-	  <ps1 prefix="SLUS" suffix="01295" />
-	  <ps1 prefix="SLUS" suffix="01296" />
-	  <ps1 prefix="SLUS" suffix="01297" />
+	  <ps_code prefix="SLUS" suffix="01251" />
+	  <ps_code prefix="SLUS" suffix="01295" />
+	  <ps_code prefix="SLUS" suffix="01296" />
+	  <ps_code prefix="SLUS" suffix="01297" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="FinalFantasyTactics»PS1">
+  <game name="FinalFantasyTactics" platform="PS1" country="USA">
 	  <title>Final Fantasy Tactics</title>
-	  <ps1 prefix="SLUS" suffix="94221" />
+	  <ps_code prefix="SLUS" suffix="94221" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="MetalGearSolid»PS1">
+  <game name="MetalGearSolid" platform="PS1" country="USA">
 	  <title>Metal Gear Solid</title>
-	  <ps1 prefix="SLUS" suffix="00594" />
-	  <ps1 prefix="SLUS" suffix="00776" />
+	  <ps_code prefix="SLUS" suffix="00594" />
+	  <ps_code prefix="SLUS" suffix="00776" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="MetalGearSolidVRMissions»PS1">
+  <game name="MetalGearSolidVRMissions" platform="PS1" country="USA">
 	  <title>Metal Gear Solid: VR Missions</title>
-	  <ps1 prefix="SLUS" suffix="00957" />
+	  <ps_code prefix="SLUS" suffix="00957" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="ParasiteEve»PS1">
+  <game name="ParasiteEve" platform="PS1" country="USA">
 	  <title>Parasite Eve</title>
-	  <ps1 prefix="SLUS" suffix="00662" />
-	  <ps1 prefix="SLUS" suffix="00668" />
+	  <ps_code prefix="SLUS" suffix="00662" />
+	  <ps_code prefix="SLUS" suffix="00668" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="ParasiteEve2»PS1">
+  <game name="ParasiteEve2" platform="PS1" country="USA">
 	  <title>Parasite Eve II</title>
-	  <ps1 prefix="SLUS" suffix="01042" />
-	  <ps1 prefix="SLUS" suffix="01055" />
+	  <ps_code prefix="SLUS" suffix="01042" />
+	  <ps_code prefix="SLUS" suffix="01055" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="SilentHill»PS1">
+  <game name="SilentHill" platform="PS1" country="USA">
 	  <title>Silent Hill</title>
-	  <ps1 prefix="SLUS" suffix="00707" />
+	  <ps_code prefix="SLUS" suffix="00707" />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="SoulBlade»PS1">
+  <game name="SoulBlade" platform="PS1" country="USA">
 	  <title>Soul Blade</title>
-	  <ps1 prefix="SLUS" suffix="00240" />
+	  <ps_code prefix="SLUS" suffix="00240" />
     <contributer>SanMadJack</contributer>
   </game>
 

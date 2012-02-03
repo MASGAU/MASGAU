@@ -1,0 +1,231 @@
+Comments:
+  <game name="Xenus2">
+    <title>Xenus 2: White Gold</title>
+    <location_path environment_variable="public" path="Documents\White Gold" windows_version="Vista" />
+    <location_path environment_variable="allusersprofile" path="Documents\White Gold" windows_version="XP" />
+    <save path="INI" />
+    <save path="SAVE" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+
+Game Name: Xenus 2: White Gold
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Xenus 2
+
+Save Path: 
+C:\Users\Public\Documents\White Gold
+
+Local Machine Registry Entries: 
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Xenus 2\Uninstall Xenus 2.lnk
+C:\Program Files (x86)\Xenus 2\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Xenus 2\Xenus 2.lnk
+C:\Program Files (x86)\Xenus 2\Xenus.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\Public\Documents\White Gold\CACHE\SHADERCACHE.DAT - 5925
+C:\Users\Public\Documents\White Gold\CACHE\SHADER_CODE_CACHE.DAT - 5680496
+C:\Users\Public\Documents\White Gold\INI\CONTROLSETTINGS.INI - 1045
+C:\Users\Public\Documents\White Gold\INI\ENGINESETTINGS.INI - 7056
+C:\Users\Public\Documents\White Gold\INI\GAME.INI - 1147
+C:\Users\Public\Documents\White Gold\INI\SOUNDOPTIONS.INI - 300
+C:\Users\Public\Documents\White Gold\INI\VIDEOOPTIONS.INI - 6447
+C:\Users\Public\Documents\White Gold\INI\VIDEOPLAYED.INI - 95
+C:\Users\Public\Documents\White Gold\LOGS\CONSOLE.LOG - 55272
+C:\Users\Public\Documents\White Gold\SAVE\SAVE.INI - 34
+C:\Users\Public\Documents\White Gold\SAVE\SAVE1.BIN - 2471125
+
+Install Folder Dump: 
+C:\Program Files (x86)\Xenus 2\dbghelp.dll - 1045128
+C:\Program Files (x86)\Xenus 2\dblog.txt - 55
+C:\Program Files (x86)\Xenus 2\DSETUP.dll - 76808
+C:\Program Files (x86)\Xenus 2\DX9RENDER.dll - 1568768
+C:\Program Files (x86)\Xenus 2\game.dll - 1807704
+C:\Program Files (x86)\Xenus 2\game.ini - 148
+C:\Program Files (x86)\Xenus 2\GFManager.dlv - 1212416
+C:\Program Files (x86)\Xenus 2\gf_cache.grp - 711295398
+C:\Program Files (x86)\Xenus 2\gf_common.grp - 431186543
+C:\Program Files (x86)\Xenus 2\gf_sounds.grp - 378252682
+C:\Program Files (x86)\Xenus 2\lev_0.grp - 988160801
+C:\Program Files (x86)\Xenus 2\lev_1.grp - 20173718
+C:\Program Files (x86)\Xenus 2\libogg-0.dll - 65536
+C:\Program Files (x86)\Xenus 2\libtheoradec.dll - 115640
+C:\Program Files (x86)\Xenus 2\main.fat - 2768214
+C:\Program Files (x86)\Xenus 2\Particles.dlv - 176128
+C:\Program Files (x86)\Xenus 2\Particles2.dlv - 360448
+C:\Program Files (x86)\Xenus 2\ProceduralTextures.dlv - 102400
+C:\Program Files (x86)\Xenus 2\PropertyGrid.dlv - 278528
+C:\Program Files (x86)\Xenus 2\protect.dll - 11204096
+C:\Program Files (x86)\Xenus 2\resource.qrc - 9813070
+C:\Program Files (x86)\Xenus 2\rf2_0.grp - 171113812
+C:\Program Files (x86)\Xenus 2\rf2_1.grp - 33686879
+C:\Program Files (x86)\Xenus 2\ScriptEngine.dlv - 237568
+C:\Program Files (x86)\Xenus 2\SHADERLIB.dlv - 1617920
+C:\Program Files (x86)\Xenus 2\tbb.dll - 118784
+C:\Program Files (x86)\Xenus 2\tbbmalloc.dll - 86016
+C:\Program Files (x86)\Xenus 2\textures_0.grp - 932654640
+C:\Program Files (x86)\Xenus 2\textures_1.grp - 205688038
+C:\Program Files (x86)\Xenus 2\unins000.dat - 29189
+C:\Program Files (x86)\Xenus 2\unins000.exe - 1197507
+C:\Program Files (x86)\Xenus 2\VEDebug.dll - 122880
+C:\Program Files (x86)\Xenus 2\VELoader.dll - 214360
+C:\Program Files (x86)\Xenus 2\VERENDER3.dll - 978944
+C:\Program Files (x86)\Xenus 2\vital.dll - 2504024
+C:\Program Files (x86)\Xenus 2\Xenus.exe - 942080
+C:\Program Files (x86)\Xenus 2\XenusModels.dlv - 540672
+C:\Program Files (x86)\Xenus 2\XMLParser.dlv - 98304
+C:\Program Files (x86)\Xenus 2\INI\batch.ini - 241
+C:\Program Files (x86)\Xenus 2\INI\ControlSettings.ini - 1045
+C:\Program Files (x86)\Xenus 2\INI\CONTROLSETTINGS_DEF.ini - 1045
+C:\Program Files (x86)\Xenus 2\INI\EngineSettings.ini - 7056
+C:\Program Files (x86)\Xenus 2\INI\en_US.aff - 2727
+C:\Program Files (x86)\Xenus 2\INI\en_US.dic - 695865
+C:\Program Files (x86)\Xenus 2\INI\ex.ini - 64
+C:\Program Files (x86)\Xenus 2\INI\FileSystem.ini - 237
+C:\Program Files (x86)\Xenus 2\INI\Game.bak - 628
+C:\Program Files (x86)\Xenus 2\INI\Game.ini - 1147
+C:\Program Files (x86)\Xenus 2\INI\Interface.ini - 1206
+C:\Program Files (x86)\Xenus 2\INI\LeveditColors.ini - 1644
+C:\Program Files (x86)\Xenus 2\INI\LeveditForms.xml - 1208
+C:\Program Files (x86)\Xenus 2\INI\LeveditPlugins.ini - 400
+C:\Program Files (x86)\Xenus 2\INI\leveditplugin_ukr.lng - 3296
+C:\Program Files (x86)\Xenus 2\INI\LeveditSettings.ini - 16025
+C:\Program Files (x86)\Xenus 2\INI\LeveditShortCuts.ini - 7619
+C:\Program Files (x86)\Xenus 2\INI\LeveditVideoOptions.ini - 206
+C:\Program Files (x86)\Xenus 2\INI\LevLauncher.ini - 239
+C:\Program Files (x86)\Xenus 2\INI\LevLauncher.xml - 634
+C:\Program Files (x86)\Xenus 2\INI\lighting.ini - 2432
+C:\Program Files (x86)\Xenus 2\INI\mapplanner_ua.lng - 7152
+C:\Program Files (x86)\Xenus 2\INI\objcomments.ini - 27
+C:\Program Files (x86)\Xenus 2\INI\odefault.txt - 74914
+C:\Program Files (x86)\Xenus 2\INI\qre.dat - 1989
+C:\Program Files (x86)\Xenus 2\INI\qre_rus.lng - 8646
+C:\Program Files (x86)\Xenus 2\INI\qre_ua.lng - 13147
+C:\Program Files (x86)\Xenus 2\INI\RF2View.ini - 1043
+C:\Program Files (x86)\Xenus 2\INI\ru_RU.aff - 28062
+C:\Program Files (x86)\Xenus 2\INI\ru_RU.dic - 1726017
+C:\Program Files (x86)\Xenus 2\INI\soundoptions.ini - 270
+C:\Program Files (x86)\Xenus 2\INI\terrainmap.ini - 1110
+C:\Program Files (x86)\Xenus 2\INI\VideoOptions.ini - 6446
+C:\Program Files (x86)\Xenus 2\INI\Vital.ini - 34
+C:\Program Files (x86)\Xenus 2\LOGS\crash_25.08.2010_13.24.24.dmp - 116371
+C:\Program Files (x86)\Xenus 2\LOGS\crash_25.08.2010_13.24.26.txt - 2419
+C:\Program Files (x86)\Xenus 2\LOGS\ErrorsInWld.log - 0
+C:\Program Files (x86)\Xenus 2\UI\Config.ini - 396
+C:\Program Files (x86)\Xenus 2\UI\Control.hud - 1904
+C:\Program Files (x86)\Xenus 2\UI\Fiasco.hud - 473
+C:\Program Files (x86)\Xenus 2\UI\GamePadButtons.xml - 812
+C:\Program Files (x86)\Xenus 2\UI\Loading.hud - 361
+C:\Program Files (x86)\Xenus 2\UI\Menu.hud - 1028
+C:\Program Files (x86)\Xenus 2\UI\Pause.hud - 310
+C:\Program Files (x86)\Xenus 2\UI\Planet.hud - 1440
+C:\Program Files (x86)\Xenus 2\UI\PlanetMap.xml - 290
+C:\Program Files (x86)\Xenus 2\UI\Sight.hud - 807
+C:\Program Files (x86)\Xenus 2\UI\Void.hud - 805
+C:\Program Files (x86)\Xenus 2\UI\Fonts\Description.txt - 82
+C:\Program Files (x86)\Xenus 2\UI\Fonts\Main.fnt - 532876
+C:\Program Files (x86)\Xenus 2\UI\Fonts\MenuButtons.fnt - 795020
+C:\Program Files (x86)\Xenus 2\UI\Fonts\Symbols.fnt - 532876
+C:\Program Files (x86)\Xenus 2\UI\PC\Control\Core.lua - 22041
+C:\Program Files (x86)\Xenus 2\UI\PC\Control\Defaults.lua - 87
+C:\Program Files (x86)\Xenus 2\UI\PC\Control\Inventory.lua - 11146
+C:\Program Files (x86)\Xenus 2\UI\PC\Control\Log.lua - 1490
+C:\Program Files (x86)\Xenus 2\UI\PC\Control\Map.lua - 2353
+C:\Program Files (x86)\Xenus 2\UI\PC\Control\Objectives.lua - 609
+C:\Program Files (x86)\Xenus 2\UI\PC\Control\Profile.lua - 7367
+C:\Program Files (x86)\Xenus 2\UI\PC\Control\Scheme.xml - 220458
+C:\Program Files (x86)\Xenus 2\UI\PC\EndGame\Code.lua - 751
+C:\Program Files (x86)\Xenus 2\UI\PC\EndGame\Scheme.xml - 1347
+C:\Program Files (x86)\Xenus 2\UI\PC\Fiasco\Code.lua - 1715
+C:\Program Files (x86)\Xenus 2\UI\PC\Fiasco\Scheme.xml - 3560
+C:\Program Files (x86)\Xenus 2\UI\PC\Film\Code.lua - 1964
+C:\Program Files (x86)\Xenus 2\UI\PC\Film\Scheme.xml - 3635
+C:\Program Files (x86)\Xenus 2\UI\PC\Loading\Code.lua - 737
+C:\Program Files (x86)\Xenus 2\UI\PC\Loading\Scheme.xml - 1152
+C:\Program Files (x86)\Xenus 2\UI\PC\Menu\Code.lua - 8127
+C:\Program Files (x86)\Xenus 2\UI\PC\Menu\InputBox.xml - 6578
+C:\Program Files (x86)\Xenus 2\UI\PC\Menu\InputBox2.xml - 9175
+C:\Program Files (x86)\Xenus 2\UI\PC\Menu\InputBox3.xml - 5089
+C:\Program Files (x86)\Xenus 2\UI\PC\Menu\Scheme.xml - 221124
+C:\Program Files (x86)\Xenus 2\UI\PC\MessageBoxes\Exclamation.lua - 588
+C:\Program Files (x86)\Xenus 2\UI\PC\MessageBoxes\Exclamation.xml - 2803
+C:\Program Files (x86)\Xenus 2\UI\PC\MessageBoxes\QuantityChooser.lua - 1426
+C:\Program Files (x86)\Xenus 2\UI\PC\MessageBoxes\QuantityChooser.xml - 4651
+C:\Program Files (x86)\Xenus 2\UI\PC\MessageBoxes\Question.lua - 638
+C:\Program Files (x86)\Xenus 2\UI\PC\MessageBoxes\Question.xml - 4231
+C:\Program Files (x86)\Xenus 2\UI\PC\MessageBoxes\Tutorial.lua - 913
+C:\Program Files (x86)\Xenus 2\UI\PC\MessageBoxes\Tutorial.xml - 4346
+C:\Program Files (x86)\Xenus 2\UI\PC\Pause\Code.lua - 257
+C:\Program Files (x86)\Xenus 2\UI\PC\Pause\Scheme.xml - 783
+C:\Program Files (x86)\Xenus 2\UI\PC\Planet\Code.lua - 30456
+C:\Program Files (x86)\Xenus 2\UI\PC\Planet\Scheme.xml - 45028
+C:\Program Files (x86)\Xenus 2\UI\PC\Planet\Waiting.xml - 5599
+C:\Program Files (x86)\Xenus 2\UI\PC\Sight\Code.lua - 1978
+C:\Program Files (x86)\Xenus 2\UI\PC\Sight\Scheme.xml - 2932
+C:\Program Files (x86)\Xenus 2\UI\PC\Void\Code.lua - 464
+C:\Program Files (x86)\Xenus 2\UI\PC\Void\Scheme.xml - 766
+C:\Program Files (x86)\Xenus 2\UI\Titres\Titres_01.txt - 7707
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Core.lua - 19357
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Inventory.lua - 5226
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Loading.lua - 340
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Loading.xml - 2078
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Log.lua - 2125
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Objectives.lua - 882
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Parameters.lua - 1584
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Perks.lua - 2117
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Relations.lua - 1409
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Scheme.xml - 148921
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Search.lua - 2633
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Trade.lua - 2579
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Control\Upgrade.lua - 5225
+C:\Program Files (x86)\Xenus 2\UI\XBOX\EndGame\Code.lua - 339
+C:\Program Files (x86)\Xenus 2\UI\XBOX\EndGame\Scheme.xml - 1468
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Fiasco\Code.lua - 740
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Fiasco\Scheme.xml - 2557
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Loading\Code.lua - 744
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Loading\Scheme.xml - 1232
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Menu\Code.lua - 8285
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Menu\Scheme.xml - 221408
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\ActionList.lua - 9488
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\ActionList.xml - 12319
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\Exclamation.lua - 597
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\Exclamation.xml - 2580
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\QuantityChooser.lua - 931
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\QuantityChooser.xml - 5755
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\Question.lua - 647
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\Question.xml - 3600
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\Tutorial.lua - 814
+C:\Program Files (x86)\Xenus 2\UI\XBOX\MessageBoxes\Tutorial.xml - 3998
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Planet\Code.lua - 25105
+C:\Program Files (x86)\Xenus 2\UI\XBOX\Planet\Scheme.xml - 39385
+C:\Program Files (x86)\Xenus 2\Video\boot_progressbar.dds - 65664
+C:\Program Files (x86)\Xenus 2\Video\boot_progressbar_back.dds - 192
+C:\Program Files (x86)\Xenus 2\Video\deepshadows.ogg - 328258
+C:\Program Files (x86)\Xenus 2\Video\deepshadows_sound.ogg - 53305
+C:\Program Files (x86)\Xenus 2\Video\intro.ogg - 47629185
+C:\Program Files (x86)\Xenus 2\Video\intro_sound.ogg - 4200752
+C:\Program Files (x86)\Xenus 2\Video\kino.ogg - 1342730
+C:\Program Files (x86)\Xenus 2\Video\loading.ogg - 39470
+C:\Program Files (x86)\Xenus 2\Video\max.ogg - 4487380
+C:\Program Files (x86)\Xenus 2\Video\max_sound.ogg - 504464
+C:\Program Files (x86)\Xenus 2\Video\menu.ogg - 1991644
+C:\Program Files (x86)\Xenus 2\Video\publisher.ogg - 601791
+C:\Program Files (x86)\Xenus 2\Video\publisher_sound.ogg - 62654
+C:\Program Files (x86)\Xenus 2\Video\sex.ogg - 1644272
+
+UAC Disabled or not present
+

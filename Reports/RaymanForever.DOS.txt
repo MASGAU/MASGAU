@@ -1,0 +1,618 @@
+Game Name: Rayman Forever
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Rayman Forever
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{8964D274-7076-494C-86D1-C3D9F782F2BB}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{8964D274-7076-494C-86D1-C3D9F782F2BB}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{964FAE0C-3477-4F49-855F-74B655EE052C}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{964FAE0C-3477-4F49-855F-74B655EE052C}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{D6F8F604-C625-4812-9B76-63EABCDA7515}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{D6F8F604-C625-4812-9B76-63EABCDA7515}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMAN1
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\game.EXE
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMAN1
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMAN1
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMAN1
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMAN1
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANFAN
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\game.EXE
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANFAN
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANFAN
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANFAN
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANFAN
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANKI
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\game.EXE
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANKI
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANKI
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANKI
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGRAYMANKI
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Rayman Forever_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Rayman Forever_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Rayman Forever\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Uninstall Rayman Forever.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Rayman\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Rayman\Rayman.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Rayman\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Rayman by his Fans\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Rayman by his Fans\Rayman by his Fans.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Rayman Designer\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Rayman Designer\Mapper.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MAPPER.EXE
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Rayman Forever\Rayman Designer\Rayman Designer.lnk
+C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\DOSBox.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+10/25/2011 1:18:57 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\RayFan\RAYFAN.CFG - 133
+10/25/2011 1:17:12 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\RayFan\stderr.txt - 0
+10/25/2011 1:19:01 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\RayFan\stdout.txt - 179
+10/25/2011 1:16:38 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\Rayman\RAYMAN.CFG - 132
+10/25/2011 1:08:59 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\Rayman\RAYMAN1.SAV - 695
+10/25/2011 1:08:08 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\Rayman\stderr.txt - 0
+10/25/2011 1:16:40 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\Rayman\stdout.txt - 179
+
+Install Folder Dump:
+2/25/2011 3:19:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Graphic mode setup.exe - 980992
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\innosetup_license.txt - 1471
+10/25/2011 12:55:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\unins000.dat - 106754
+10/25/2011 12:54:42 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\unins000.exe - 2142547
+10/25/2011 12:55:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\unins000.ini - 174
+7/2/2010 1:00:16 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 11:55:40 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\SDL.dll - 448231
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\SDL_net.dll - 13312
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\DOSBOX\Video Codec\zmbv.inf - 4043
+3/14/2011 3:50:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\game.gog - 134303904
+3/23/2011 2:58:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\game.inst - 1360
+3/14/2011 2:12:08 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman02.ogg - 1805221
+3/14/2011 2:11:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman03.ogg - 1743449
+3/14/2011 2:11:44 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman04.ogg - 1757886
+3/14/2011 2:11:30 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman05.ogg - 1903324
+3/14/2011 2:11:16 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman06.ogg - 1827759
+3/14/2011 2:11:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman07.ogg - 1860601
+3/14/2011 2:10:52 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman08.ogg - 754728
+3/14/2011 2:10:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman09.ogg - 1065576
+3/14/2011 2:10:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman10.ogg - 425536
+3/14/2011 2:10:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman11.ogg - 2418458
+3/14/2011 2:10:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman12.ogg - 101535
+3/14/2011 2:10:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman13.ogg - 625316
+3/14/2011 2:10:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman14.ogg - 1136942
+3/14/2011 2:10:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman15.ogg - 855268
+3/14/2011 2:09:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman16.ogg - 2304623
+3/14/2011 2:09:42 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman17.ogg - 3565775
+3/14/2011 2:09:16 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman18.ogg - 935218
+3/14/2011 2:09:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman19.ogg - 770732
+3/14/2011 2:09:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Music\rayman20.ogg - 381894
+3/23/2011 2:58:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\dosboxRayFan.conf - 7278
+3/21/2011 5:50:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\gfw_high.ico - 107489
+3/28/2011 11:15:54 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\goggame.dll - 235008
+2/6/1995 4:00:00 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\HMIDET.386 - 81990
+2/6/1995 4:00:00 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\HMIDRV.386 - 261425
+1/27/1999 12:26:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\RAYFAN.bat - 29
+3/14/2011 11:55:12 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\RAYFAN.CFG - 133
+8/4/1998 5:23:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\RAYFAN.EXE - 442330
+8/21/1995 6:39:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\RayFan.ico - 766
+1/26/1999 4:13:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\SETSOUND.BAT - 88
+7/15/1998 8:20:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\SETSOUND.EXE - 99896
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\Support.ico - 62895
+7/9/1998 8:53:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\Kitfond.pcx - 26402
+8/2/1996 2:05:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\LET.OBF - 780
+8/2/1996 2:05:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\LET.SPR - 9908
+7/31/1996 4:05:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\LET2.OBF - 1116
+7/31/1996 4:05:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\LET2.SPR - 36828
+9/6/1995 5:06:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\PERFECT.VIG - 25472
+11/12/1996 8:48:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\SOUND.BIN - 2415
+11/12/1996 8:48:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\USA.BIN - 2002
+11/12/1996 8:40:08 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\DATA\VERSION.BIN - 229
+1/27/1999 12:18:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\ALLFIX.DAT - 482820
+1/27/1999 12:18:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\BIGRAY.DAT - 94578
+1/27/1999 12:18:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAK01.LEV - 720942
+1/27/1999 12:18:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAK02.LEV - 712396
+1/27/1999 12:18:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAK03.LEV - 674579
+1/27/1999 12:18:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAK04.LEV - 701565
+1/27/1999 12:18:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAK05.LEV - 712474
+1/27/1999 12:18:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAK06.LEV - 734827
+1/27/1999 12:18:52 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAV01.LEV - 792942
+1/27/1999 12:18:52 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAV02.LEV - 697623
+1/27/1999 12:18:52 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAV03.LEV - 726029
+1/27/1999 12:18:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAV04.LEV - 745201
+1/27/1999 12:18:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\CAV05.LEV - 719517
+1/27/1999 12:18:02 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\COMMON.DAT - 9439
+1/27/1999 12:18:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\IMA01.LEV - 651878
+1/27/1999 12:18:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\IMA02.LEV - 596447
+1/27/1999 12:18:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\IMA03.LEV - 605220
+1/27/1999 12:18:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\IMA04.LEV - 615898
+1/27/1999 12:18:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\IMA05.LEV - 615968
+1/27/1999 12:18:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\IMA06.LEV - 647195
+1/27/1999 12:18:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\IMA07.LEV - 659084
+1/27/1999 12:18:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\JUN01.LEV - 723563
+1/27/1999 12:18:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\JUN02.LEV - 899396
+1/27/1999 12:18:30 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\JUN03.LEV - 906892
+1/27/1999 12:18:30 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\JUN04.LEV - 899404
+1/27/1999 12:18:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\JUN05.LEV - 1049734
+1/27/1999 12:18:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\JUN06.LEV - 913808
+1/27/1999 12:18:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\JUN07.LEV - 921508
+1/27/1999 12:18:38 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON01.LEV - 858008
+1/27/1999 12:18:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON02.LEV - 895576
+1/27/1999 12:18:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON03.LEV - 865554
+1/27/1999 12:18:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON04.LEV - 681609
+1/27/1999 12:18:42 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON05.LEV - 880011
+1/27/1999 12:18:42 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON06.LEV - 879984
+1/27/1999 12:18:44 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON07.LEV - 781133
+1/27/1999 12:18:44 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON08.LEV - 757018
+1/27/1999 12:18:44 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON09.LEV - 789638
+1/27/1999 12:18:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MON10.LEV - 772071
+1/27/1999 12:18:34 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MUS01.LEV - 576576
+1/27/1999 12:18:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MUS02.LEV - 829954
+1/27/1999 12:18:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MUS03.LEV - 729460
+1/27/1999 12:18:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MUS04.LEV - 846169
+1/27/1999 12:18:38 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\MUS05.LEV - 845036
+1/27/1999 12:18:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\RAY01.WLD - 721867
+1/27/1999 12:18:34 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\RAY02.WLD - 602872
+1/27/1999 12:18:38 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\RAY03.WLD - 594736
+1/27/1999 12:18:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\RAY04.WLD - 450398
+1/27/1999 12:18:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\RAY05.WLD - 483623
+1/27/1999 12:18:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\RAY06.WLD - 604711
+1/27/1999 12:17:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\SNDD8B.DAT - 1383096
+1/27/1999 12:17:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\SNDH8B.DAT - 14500
+1/27/1999 12:17:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\VIGNET.DAT - 1842334
+1/27/1999 12:18:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\EVNAME00.WLD - 6556
+1/27/1999 12:18:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\EVNAME01.WLD - 4163
+1/27/1999 12:18:34 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\EVNAME02.WLD - 5321
+1/27/1999 12:18:38 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\EVNAME03.WLD - 4912
+1/27/1999 12:18:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\EVNAME04.WLD - 7409
+1/27/1999 12:18:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\EVNAME05.WLD - 6319
+1/27/1999 12:18:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\EVNAME06.WLD - 4415
+1/27/1999 12:17:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\SNDSMP.DAT - 394573
+2/4/1999 10:04:06 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayFan\pcmap\usa\SPECIAL.DAT - 10037
+3/23/2011 2:58:02 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\dosboxRayKit.conf - 7288
+3/21/2011 4:42:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\gfw_high.ico - 129426
+3/28/2011 11:15:50 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\goggame.dll - 252928
+2/6/1995 3:00:00 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\HMIDET.386 - 81990
+2/6/1995 3:00:00 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\HMIDRV.386 - 261425
+7/22/1998 5:29:30 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MAPPER.EXE - 449024
+6/20/1997 12:44:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\RAYKIT.BAT - 29
+3/14/2011 12:00:34 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\RAYKIT.CFG - 133
+7/15/1998 3:18:02 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\RAYKIT.EXE - 440662
+8/21/1995 6:39:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\RAYKIT.ICO - 766
+11/18/1996 2:28:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\RAYPOINT.ANI - 13656
+11/18/1996 2:28:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\RAYRUN.ANI - 67712
+7/22/1998 5:29:30 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\RAYRUN.EXE - 228864
+11/18/1996 2:28:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\RAYWALK.ANI - 69966
+5/23/1997 1:21:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\SETSOUND.BAT - 88
+7/11/1997 1:05:38 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\SETSOUND.EXE - 99680
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\Support.ico - 62895
+2/5/1997 1:23:14 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\CAK.MAP - 36004
+6/2/1997 5:27:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\CAK.PCX - 82705
+6/11/1997 10:34:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\EVE.MLT - 35365
+5/14/1997 5:48:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_101\EVENT.MAP - 96004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_101\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_101\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_101\MAP.INI - 189
+4/18/1997 1:52:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_102\EVENT.MAP - 96004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_102\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_102\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_102\MAP.INI - 189
+5/14/1997 5:49:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_103\EVENT.MAP - 160004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_103\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_103\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_103\MAP.INI - 189
+5/14/1997 5:49:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_104\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_104\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_104\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_104\MAP.INI - 189
+5/14/1997 5:49:42 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_105\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_105\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_105\EVENT.SEV - 169
+7/29/1997 5:56:34 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAKE\MAP_105\MAP.INI - 189
+4/18/1997 1:17:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\CAV.MAP - 19204
+6/2/1997 5:20:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\CAV.PCX - 86057
+6/27/1997 6:33:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\EVE.MLT - 41938
+5/14/1997 5:47:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_101\EVENT.MAP - 96004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_101\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_101\EVENT.SEV - 169
+7/29/1997 5:58:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_101\MAP.INI - 189
+5/14/1997 5:47:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_102\EVENT.MAP - 32004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_102\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_102\EVENT.SEV - 169
+7/29/1997 5:58:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_102\MAP.INI - 189
+5/14/1997 5:46:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_103\EVENT.MAP - 160004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_103\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_103\EVENT.SEV - 169
+7/29/1997 5:58:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_103\MAP.INI - 189
+5/14/1997 5:45:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_104\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_104\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_104\EVENT.SEV - 169
+7/29/1997 5:58:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_104\MAP.INI - 189
+5/14/1997 5:45:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_105\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_105\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_105\EVENT.SEV - 169
+7/29/1997 5:58:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\CAVE\MAP_105\MAP.INI - 189
+6/19/1997 5:50:00 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\AL.BIN - 2173
+11/12/1996 7:30:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\FR.BIN - 2292
+10/10/1996 5:42:52 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\KITFOND.PCX - 19446
+8/2/1996 1:05:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\LET.OBF - 780
+8/2/1996 1:05:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\LET.SPR - 9908
+7/31/1996 3:05:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\LET2.OBF - 1116
+7/31/1996 3:05:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\LET2.SPR - 36828
+9/6/1995 5:06:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\PERFECT.VIG - 25472
+11/12/1996 7:48:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\SOUND.BIN - 2415
+11/12/1996 7:48:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\USA.BIN - 2002
+11/12/1996 7:40:08 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\DATA\VERSION.BIN - 229
+6/11/1997 10:34:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\EVE.MLT - 33666
+4/18/1997 1:18:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\IMA.MAP - 35204
+6/24/1997 7:52:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\IMA.PCX - 59762
+5/14/1997 5:23:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_101\EVENT.MAP - 96004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_101\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_101\EVENT.SEV - 169
+7/29/1997 5:58:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_101\MAP.INI - 189
+5/14/1997 5:21:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_102\EVENT.MAP - 32004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_102\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_102\EVENT.SEV - 169
+7/29/1997 5:58:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_102\MAP.INI - 189
+5/14/1997 5:20:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_103\EVENT.MAP - 160004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_103\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_103\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_103\MAP.INI - 189
+5/14/1997 5:20:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_104\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_104\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_104\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_104\MAP.INI - 189
+5/14/1997 5:17:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_105\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_105\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_105\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\IMAGE\MAP_105\MAP.INI - 189
+6/11/1997 10:34:16 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\EVE.MLT - 35641
+4/18/1997 1:23:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\JUN.MAP - 22404
+6/2/1997 5:22:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\JUN.PCX - 132255
+4/18/1997 2:19:14 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_101\EVENT.MAP - 96004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_101\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_101\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_101\MAP.INI - 189
+4/18/1997 2:17:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_102\EVENT.MAP - 32004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_102\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_102\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_102\MAP.INI - 189
+4/18/1997 2:16:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_103\EVENT.MAP - 160004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_103\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_103\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_103\MAP.INI - 189
+4/18/1997 2:13:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_104\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_104\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_104\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_104\MAP.INI - 189
+5/14/1997 2:21:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_105\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_105\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_105\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\JUNGLE\MAP_105\MAP.INI - 189
+6/11/1997 10:34:16 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\EVE.MLT - 40501
+4/18/1997 1:42:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MON.MAP - 25204
+6/2/1997 5:23:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MON.PCX - 67348
+5/14/1997 5:10:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_101\EVENT.MAP - 96004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_101\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_101\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_101\MAP.INI - 189
+5/14/1997 5:10:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_102\EVENT.MAP - 32004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_102\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_102\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_102\MAP.INI - 189
+5/14/1997 5:11:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_103\EVENT.MAP - 160004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_103\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_103\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_103\MAP.INI - 189
+5/14/1997 5:11:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_104\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_104\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_104\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_104\MAP.INI - 189
+5/14/1997 5:15:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_105\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_105\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_105\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MOUNTAIN\MAP_105\MAP.INI - 189
+6/11/1997 10:34:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\EVE.MLT - 38182
+4/18/1997 1:46:16 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MUS.MAP - 30004
+6/2/1997 5:23:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MUS.PCX - 63812
+5/14/1997 2:25:08 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_101\EVENT.MAP - 96004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_101\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_101\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_101\MAP.INI - 189
+5/14/1997 2:25:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_102\EVENT.MAP - 32004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_102\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_102\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_102\MAP.INI - 189
+5/14/1997 2:26:16 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_103\EVENT.MAP - 160004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_103\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_103\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_103\MAP.INI - 189
+5/14/1997 2:26:34 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_104\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_104\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_104\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_104\MAP.INI - 189
+5/14/1997 2:27:30 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_105\EVENT.MAP - 80004
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_105\EVENT.MEV - 3788
+10/15/1996 3:24:24 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_105\EVENT.SEV - 169
+7/29/1997 5:58:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\MUSIC\MAP_105\MAP.INI - 189
+8/6/1997 1:21:44 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\OSD\CLIENT.DLL - 124416
+7/22/1998 5:29:30 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\OSD\CLIENT.EXE - 248832
+8/6/1997 7:20:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\OSD\RAYKIT.DLL - 147968
+9/18/1996 6:12:16 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\OSD\SECUR32.DLL - 25088
+7/22/1998 5:29:30 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\OSD\STARTUP.EXE - 90112
+9/18/1996 6:12:14 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\OSD\SVRAPI.DLL - 13312
+7/11/1997 12:53:26 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\ALLFIX.DAT - 490498
+7/11/1997 12:53:22 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\BIGRAY.DAT - 94578
+8/6/1997 8:45:02 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\CAK01.LEV - 705409
+8/6/1997 8:52:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\CAK02.LEV - 884486
+8/6/1997 8:52:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\CAK03.LEV - 790639
+8/6/1997 8:51:56 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\CAK04.LEV - 716172
+8/6/1997 8:51:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\CAV01.LEV - 664934
+8/6/1997 8:51:02 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\CAV02.LEV - 805199
+8/6/1997 8:50:42 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\CAV03.LEV - 692746
+8/6/1997 8:50:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\CAV04.LEV - 590099
+7/11/1997 12:54:52 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\COMMON.DAT - 9439
+8/6/1997 8:49:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\IMA01.LEV - 711199
+8/6/1997 8:49:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\IMA02.LEV - 602509
+8/6/1997 8:49:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\IMA03.LEV - 639101
+8/6/1997 8:48:44 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\IMA04.LEV - 568678
+8/6/1997 8:43:38 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\JUN01.LEV - 927567
+8/6/1997 8:48:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\JUN02.LEV - 804150
+8/6/1997 8:47:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\JUN03.LEV - 898337
+8/6/1997 8:47:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\JUN04.LEV - 652619
+8/6/1997 8:47:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\MON01.LEV - 781719
+8/6/1997 8:46:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\MON02.LEV - 606750
+8/6/1997 8:46:14 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\MON03.LEV - 733074
+8/6/1997 8:45:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\MON04.LEV - 945074
+8/6/1997 8:52:34 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\MUS01.LEV - 906259
+8/6/1997 8:44:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\MUS02.LEV - 678167
+8/6/1997 8:44:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\MUS03.LEV - 814226
+8/6/1997 8:44:02 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\MUS04.LEV - 717738
+7/11/1997 12:53:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\RAY01.WLD - 721867
+7/11/1997 10:46:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\RAY02.WLD - 602872
+7/11/1997 10:46:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\RAY03.WLD - 594736
+7/11/1997 10:47:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\RAY04.WLD - 450398
+7/11/1997 10:47:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\RAY05.WLD - 483623
+7/11/1997 10:47:46 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\RAY06.WLD - 604711
+4/28/1997 6:23:18 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\SNDD8B.DAT - 1383096
+4/28/1997 6:23:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\SNDH8B.DAT - 14500
+7/11/1997 12:50:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\VIGNET.DAT - 1778719
+7/11/1997 12:50:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\WldDesc.dat - 1778719
+7/11/1997 12:53:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\EVNAME00.WLD - 7350
+7/11/1997 12:52:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\EVNAME01.WLD - 4927
+7/11/1997 12:52:44 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\EVNAME02.WLD - 6110
+7/11/1997 12:52:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\EVNAME03.WLD - 5923
+7/11/1997 12:52:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\EVNAME04.WLD - 8654
+7/11/1997 12:53:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\EVNAME05.WLD - 7517
+7/11/1997 12:53:10 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\EVNAME06.WLD - 5052
+6/25/1997 8:17:50 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\SNDSMP.DAT - 405743
+7/11/1997 12:54:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\AL\SPECIAL.DAT - 10370
+7/11/1997 12:54:08 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\EVNAME00.WLD - 7217
+7/11/1997 12:53:32 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\EVNAME01.WLD - 4505
+7/11/1997 12:53:40 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\EVNAME02.WLD - 6022
+7/11/1997 12:53:48 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\EVNAME03.WLD - 5631
+7/11/1997 12:53:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\EVNAME04.WLD - 7918
+7/11/1997 12:54:00 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\EVNAME05.WLD - 7226
+7/11/1997 12:54:08 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\EVNAME06.WLD - 4854
+6/25/1997 6:48:02 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\SNDSMP.DAT - 386527
+7/11/1997 12:54:54 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\FR\SPECIAL.DAT - 17904
+7/11/1997 12:52:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\EVNAME00.WLD - 6556
+7/11/1997 12:51:36 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\EVNAME01.WLD - 4163
+7/11/1997 12:51:44 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\EVNAME02.WLD - 5321
+7/11/1997 12:51:52 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\EVNAME03.WLD - 4912
+7/11/1997 12:51:58 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\EVNAME04.WLD - 7409
+7/11/1997 12:52:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\EVNAME05.WLD - 6319
+7/11/1997 12:52:12 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\EVNAME06.WLD - 4415
+6/25/1997 8:18:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\SNDSMP.DAT - 394573
+7/11/1997 12:54:28 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\PCMAP\USA\SPECIAL.DAT - 9852
+10/25/2011 12:55:06 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\RayKit\ubisoft\ubi.ini - 219
+3/23/2011 2:57:52 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\dosboxRayman.conf - 7279
+3/21/2011 1:33:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\gfw_high.ico - 127534
+3/28/2011 11:15:44 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\goggame.dll - 249344
+3/14/2011 11:47:08 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\HMIDET.386 - 81990
+3/14/2011 11:47:08 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\HMIDRV.386 - 261425
+3/7/2011 12:41:20 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\Manual.pdf - 322811
+3/14/2011 11:47:08 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\RAY.LNG - 18727
+3/14/2011 12:12:38 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\RAYMAN.BAT - 38
+3/14/2011 11:48:40 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\RAYMAN.CFG - 132
+3/14/2011 11:47:08 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\RAYMAN.EXE - 428743
+3/14/2011 11:47:08 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\SNDD8B.DAT - 1331360
+3/14/2011 11:47:08 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\SNDH8B.DAT - 14336
+3/14/2011 11:47:08 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\SNDVIG.DAT - 772910
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\Support.ico - 62895
+3/14/2011 11:47:10 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\VIGNET.DAT - 3009138
+3/14/2011 11:47:10 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\ALLFIX.DAT - 519234
+3/14/2011 11:47:10 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\BRAY.DAT - 98229
+3/14/2011 11:47:10 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\RAY1.WLD - 903731
+3/14/2011 11:47:12 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\RAY2.WLD - 853899
+3/14/2011 11:47:12 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\RAY3.WLD - 772177
+3/14/2011 11:47:12 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\RAY4.WLD - 919132
+3/14/2011 11:47:12 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\RAY5.WLD - 995747
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\RAY6.WLD - 778784
+3/14/2011 11:47:26 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAKE\RAY1.LEV - 435280
+3/14/2011 11:47:26 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAKE\RAY2.LEV - 482414
+3/14/2011 11:47:26 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAKE\RAY3.LEV - 537426
+3/14/2011 11:47:26 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAKE\RAY4.LEV - 41158
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY1.LEV - 261654
+3/14/2011 11:47:26 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY10.LEV - 157527
+3/14/2011 11:47:26 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY11.LEV - 26496
+3/14/2011 11:47:26 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY12.LEV - 256632
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY2.LEV - 446494
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY3.LEV - 23552
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY4.LEV - 257822
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY5.LEV - 529262
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY6.LEV - 258504
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY7.LEV - 501874
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY8.LEV - 370734
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\CAVE\RAY9.LEV - 324777
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY1.LEV - 246270
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY10.LEV - 234060
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY11.LEV - 34956
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY12.LEV - 164166
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY13.LEV - 111048
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY2.LEV - 268242
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY3.LEV - 422029
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY4.LEV - 29996
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY5.LEV - 441007
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY6.LEV - 323900
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY7.LEV - 264143
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY8.LEV - 474493
+3/14/2011 11:47:24 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\IMAGE\RAY9.LEV - 335138
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY1.LEV - 322667
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY10.LEV - 293946
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY11.LEV - 442411
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY12.LEV - 566732
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY13.LEV - 493598
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY14.LEV - 380120
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY15.LEV - 333814
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY16.LEV - 27688
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY17.LEV - 196089
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY18.LEV - 246687
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY19.LEV - 258083
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY2.LEV - 483583
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY20.LEV - 200300
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY21.LEV - 152206
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY22.LEV - 28250
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY3.LEV - 176086
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY4.LEV - 383232
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY5.LEV - 474060
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY6.LEV - 267305
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY7.LEV - 261228
+3/14/2011 11:47:14 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY8.LEV - 245441
+3/14/2011 11:47:16 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\JUNGLE\RAY9.LEV - 241860
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY1.LEV - 306499
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY10.LEV - 33402
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY11.LEV - 135057
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY12.LEV - 108368
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY13.LEV - 93785
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY2.LEV - 447326
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY3.LEV - 358327
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY4.LEV - 430054
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY5.LEV - 320732
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY6.LEV - 366075
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY7.LEV - 206442
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY8.LEV - 432135
+3/14/2011 11:47:22 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MOUNTAIN\RAY9.LEV - 446533
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY1.LEV - 626839
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY10.LEV - 485964
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY11.LEV - 238850
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY12.LEV - 303465
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY13.LEV - 222994
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY14.LEV - 568472
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY15.LEV - 210493
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY16.LEV - 30452
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY17.LEV - 53972
+3/14/2011 11:47:20 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY18.LEV - 52002
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY2.LEV - 275994
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY3.LEV - 413900
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY4.LEV - 313536
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY5.LEV - 397746
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY6.LEV - 271390
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY7.LEV - 320268
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY8.LEV - 368372
+3/14/2011 11:47:18 AM - C:\Program Files (x86)\GOG.com\Rayman Forever\Rayman\PCMAP\MUSIC\RAY9.LEV - 478117
+
+UAC Enabled
+
+
+VirtualStore Folders:
+10/25/2011 1:18:57 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\RayFan\RAYFAN.CFG - 133
+10/25/2011 1:17:12 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\RayFan\stderr.txt - 0
+10/25/2011 1:19:01 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\RayFan\stdout.txt - 179
+10/25/2011 1:16:38 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\Rayman\RAYMAN.CFG - 132
+10/25/2011 1:08:59 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\Rayman\RAYMAN1.SAV - 695
+10/25/2011 1:08:08 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\Rayman\stderr.txt - 0
+10/25/2011 1:16:40 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Rayman Forever\Rayman\stdout.txt - 179

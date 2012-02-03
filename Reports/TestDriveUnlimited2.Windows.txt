@@ -1,0 +1,282 @@
+Comments:
+  <game name="TestDriveUnlimited2" platform="Windows">
+    <title>Test Drive Unlimited 2</title>
+    <location_path environment_variable="userdocuments" path="Eden Games\Test Drive Unlimited 2" />
+    <save path="savegame"/>
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Test Drive Unlimited 2
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Atari\TDU2
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\Eden Games\Test Drive Unlimited 2\savegame
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{FB1C185F-016D-4378-BB78-22FB51634524}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\Atari\TDU2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{FB1C185F-016D-4378-BB78-22FB51634524}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\Atari\TDU2\GDFrc.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{FB1C185F-016D-4378-BB78-22FB51634524}
+Value: AppExePath
+Data: C:\Program Files (x86)\Atari\TDU2\UpLauncher.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Atari\TDU2
+Value: InstallDir
+Data: C:\Program Files (x86)\Atari\TDU2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Atari\TDU2
+Value: ExePath
+Data: C:\Program Files (x86)\Atari\TDU2\TestDrive2.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Atari\TDU2
+Value: LauncherPath
+Data: C:\Program Files (x86)\Atari\TDU2\UpLauncher.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Atari\TDU2
+Value: UninstallExePath
+Data: C:\Program Files (x86)\Atari\TDU2\Uninstall\unins000.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Test Drive Unlimited 2_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Atari\TDU2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Test Drive Unlimited 2_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Atari\TDU2\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Atari\Test Drive Unlimited 2\Open ReadMe file.lnk
+C:\Program Files (x86)\Atari\TDU2\ReadMe.htm
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Atari\Test Drive Unlimited 2\Read Manual.lnk
+C:\Program Files (x86)\Atari\TDU2\Extra\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Atari\Test Drive Unlimited 2\Test Drive Unlimited 2.lnk
+C:\Program Files (x86)\Atari\TDU2\UpLauncher.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Atari\Test Drive Unlimited 2\Uninstall Test Drive Unlimited 2.lnk
+C:\Program Files (x86)\Atari\TDU2\Uninstall\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\Eden Games\Test Drive Unlimited 2\savegame\ProfileList.dat - 267
+C:\Users\%USERNAME%\Documents\Eden Games\Test Drive Unlimited 2\savegame\SystemDefault - 628
+C:\Users\%USERNAME%\Documents\Eden Games\Test Drive Unlimited 2\savegame\Mobeeuz\AVATAR\PHOTO00 - 12548
+C:\Users\%USERNAME%\Documents\Eden Games\Test Drive Unlimited 2\savegame\Mobeeuz\LICENCES\LIC_03 - 14171
+C:\Users\%USERNAME%\Documents\Eden Games\Test Drive Unlimited 2\savegame\Mobeeuz\PLAYERSAVE\DATA - 150201
+C:\Users\%USERNAME%\Documents\Eden Games\Test Drive Unlimited 2\savegame\Mobeeuz\PLAYERSAVE\KEYMAP - 6179
+C:\Users\%USERNAME%\Documents\Eden Games\Test Drive Unlimited 2\savegame\Mobeeuz\PLAYERSAVE\OPTIONS - 7788
+
+Install Folder Dump: 
+C:\Program Files (x86)\Atari\TDU2\Audio.cpr - 512
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_1.big - 3567712819
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_1.map - 105784
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_2.big - 3456924565
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_2.map - 29624
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_3.big - 3596660736
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_3.map - 29664
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_4.big - 3856626151
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_4.map - 34764
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_5.big - 825798656
+C:\Program Files (x86)\Atari\TDU2\bigfile_EU_5.map - 15464
+C:\Program Files (x86)\Atari\TDU2\BuildVersion.dat - 4
+C:\Program Files (x86)\Atari\TDU2\CmdFilterPresets.xmb - 1688
+C:\Program Files (x86)\Atari\TDU2\CrashHook.dll - 90112
+C:\Program Files (x86)\Atari\TDU2\CrashReport.exe - 2043904
+C:\Program Files (x86)\Atari\TDU2\crashrpt_lang.ini - 4500
+C:\Program Files (x86)\Atari\TDU2\dbghelp.dll - 1080656
+C:\Program Files (x86)\Atari\TDU2\Default_KB.xmb - 6160
+C:\Program Files (x86)\Atari\TDU2\DeviceDrivingForceGT.xmb - 6491
+C:\Program Files (x86)\Atari\TDU2\DeviceDrivingForcePro.xmb - 6510
+C:\Program Files (x86)\Atari\TDU2\DeviceFanatec911TurboS.xmb - 6632
+C:\Program Files (x86)\Atari\TDU2\DeviceLogitechDualActionUSB.xmb - 6927
+C:\Program Files (x86)\Atari\TDU2\DeviceLogitechG25.xmb - 6616
+C:\Program Files (x86)\Atari\TDU2\DeviceLogitechG27.xmb - 6679
+C:\Program Files (x86)\Atari\TDU2\DeviceMomoForce.xmb - 6260
+C:\Program Files (x86)\Atari\TDU2\DevicesPC.cpr - 7112
+C:\Program Files (x86)\Atari\TDU2\DeviceSubsonicRacinPro.xmb - 6448
+C:\Program Files (x86)\Atari\TDU2\DeviceThrustmasterF430_FFB.xmb - 6341
+C:\Program Files (x86)\Atari\TDU2\DeviceThrustmasterRGT_FFB_Clutch.xmb - 6337
+C:\Program Files (x86)\Atari\TDU2\DeviceX360Pad.xmb - 6773
+C:\Program Files (x86)\Atari\TDU2\DeviceXBOXPad.xmb - 7154
+C:\Program Files (x86)\Atari\TDU2\dxdiag.xml - 119184
+C:\Program Files (x86)\Atari\TDU2\dxwebsetup.exe - 292184
+C:\Program Files (x86)\Atari\TDU2\GamePC.cpr - 23304
+C:\Program Files (x86)\Atari\TDU2\GDFInstall.dll - 103424
+C:\Program Files (x86)\Atari\TDU2\GDFrc.dll - 2103808
+C:\Program Files (x86)\Atari\TDU2\key.txt - 22
+C:\Program Files (x86)\Atari\TDU2\lang.ini - 153034
+C:\Program Files (x86)\Atari\TDU2\Language.cpr - 64
+C:\Program Files (x86)\Atari\TDU2\logo-paul.bmp - 58854
+C:\Program Files (x86)\Atari\TDU2\paul.dll - 279880
+C:\Program Files (x86)\Atari\TDU2\Physics.cpr - 16192
+C:\Program Files (x86)\Atari\TDU2\Quality_Settings.cpr - 53088
+C:\Program Files (x86)\Atari\TDU2\Replay.cpr - 3104
+C:\Program Files (x86)\Atari\TDU2\Shadows.cpr - 3392
+C:\Program Files (x86)\Atari\TDU2\SystemPC.cpr - 3560
+C:\Program Files (x86)\Atari\TDU2\TDU2DLCEXPLOv017.big - 863981146
+C:\Program Files (x86)\Atari\TDU2\TDU2DLCEXPLOv017.map - 12904
+C:\Program Files (x86)\Atari\TDU2\TDU2DLCEXPLOv023.big - 72484792
+C:\Program Files (x86)\Atari\TDU2\TDU2DLCEXPLOv023.map - 1184
+C:\Program Files (x86)\Atari\TDU2\TDU2DLCEXPLOv024.big - 1439744
+C:\Program Files (x86)\Atari\TDU2\TDU2DLCEXPLOv024.map - 444
+C:\Program Files (x86)\Atari\TDU2\TDU2v082.big - 52566736
+C:\Program Files (x86)\Atari\TDU2\TDU2v082.map - 964
+C:\Program Files (x86)\Atari\TDU2\TDU2v083.big - 3574368
+C:\Program Files (x86)\Atari\TDU2\TDU2v083.map - 584
+C:\Program Files (x86)\Atari\TDU2\TDU2v086.big - 1155920
+C:\Program Files (x86)\Atari\TDU2\TDU2v086.map - 444
+C:\Program Files (x86)\Atari\TDU2\TDU2v097.big - 13702568
+C:\Program Files (x86)\Atari\TDU2\TDU2v097.map - 704
+C:\Program Files (x86)\Atari\TDU2\TestDrive2.exe - 20926976
+C:\Program Files (x86)\Atari\TDU2\ThrustmasterDualAnalog3.xmb - 6836
+C:\Program Files (x86)\Atari\TDU2\UpLauncher.exe - 631808
+C:\Program Files (x86)\Atari\TDU2\UpLauncher.localdb - 4816
+C:\Program Files (x86)\Atari\TDU2\_UpLauncher.exe - 635392
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110216201522\dxwebsetup.exe - 292184
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110218191951\UpLauncher.exe - 635392
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\DeviceSubsonicRacinPro.xmb - 6448
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\DeviceThrustmasterF430_FFB.xmb - 6341
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\DeviceThrustmasterRGT_FFB_Clutch.xmb - 6337
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\Euro\Shaders\edrender_gouraud.sob - 16172
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\Euro\Shaders\edrender_pfx_haze.sob - 10488
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\Euro\Shaders\TD_CarAlpha.sob - 2768
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\Euro\Shaders\td_envmapdebugsphere.sob - 7464
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\Euro\Shaders\TD_Flash.sob - 25980
+C:\Program Files (x86)\Atari\TDU2\DownloadCache\20110419153900\Euro\Shaders\TD_Furnitures.sob - 2486760
+C:\Program Files (x86)\Atari\TDU2\Euro\Bnk\Video\Bumper_ATARI.mkv - 2019710
+C:\Program Files (x86)\Atari\TDU2\Euro\Bnk\Video\Bumper_EDEN_TDU.mkv - 12856044
+C:\Program Files (x86)\Atari\TDU2\Euro\Bnk\Video\Teaser_TDU2.mkv - 93355352
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_dbg_badshader.sob - 2616
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_dbg_nomaterial.sob - 1576
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_dbg_text.sob - 2492
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_gouraud.sob - 16172
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_anaglyph.sob - 3692
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_apply_lut.sob - 2956
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_blur.sob - 9760
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_haze.sob - 10488
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_lightness.sob - 7368
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_lut_creation.sob - 3028
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_motionvector.sob - 3956
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_sampling.sob - 2048
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_pfx_shadow.sob - 84772
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\edrender_screenquad.sob - 65852
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Accessories2.sob - 57504
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_actors.sob - 7516
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Avatar.sob - 24476
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_backwash.sob - 6916
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_belt.sob - 4792
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Bones.sob - 7768
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Building.sob - 4002004
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarAlpha.sob - 2768
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarDeform_TS.sob - 59864
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarGlassDirt.sob - 51800
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarMat_NM.sob - 1977028
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarPaint.sob - 451384
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarPaint2.sob - 391900
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarPainting_helper.sob - 8820
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarPaint_NM.sob - 385600
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_carplate.sob - 36680
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CarVelour.sob - 12196
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Casino_scroll.sob - 8464
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_checkpoint.sob - 4564
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_ChipsStack.sob - 10712
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Clothe2.sob - 1203124
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CloudMesh.sob - 14128
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Clouds.sob - 16496
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_CloudsPerlin.sob - 1576
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_color_palette.sob - 3688
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_damagemap.sob - 3512
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_DashBoard.sob - 97128
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_digit.sob - 5568
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_dome.sob - 8840
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_dome_vs.sob - 4812
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Droplets.sob - 3108
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Droplets_Oncam.sob - 2168
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_ElectricalNetwork.sob - 4536
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_envmapdebugsphere.sob - 7464
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Eye.sob - 29016
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Flag.sob - 21356
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Flare.sob - 3580
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Flash.sob - 25980
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_flashdashboard.sob - 5180
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_flashtext.sob - 3444
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Furnitures.sob - 2486760
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Gouraud.sob - 1007684
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_GPS.sob - 2084
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Ground.sob - 1318948
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Ground_HM.sob - 17696
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Hair.sob - 137368
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_HardwareInstance.sob - 11132
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_HeadLightCaustics.sob - 2112
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_HeightMap.sob - 149508
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Impostor.sob - 12616
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Lamp.sob - 9948
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_LightBeam.sob - 15988
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Lightning.sob - 2472
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_mirror.sob - 12792
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_moon.sob - 4772
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_movie.sob - 2708
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_navpath.sob - 2076
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_NEONDECAL.sob - 26612
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_noiseassembly.sob - 1892
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_noisecompose.sob - 1984
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Ocean.sob - 8776
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_ocean_nmap_from_hmap.sob - 2204
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Paper.sob - 2980
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Particle.sob - 32988
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_ParticlesBlit.sob - 1708
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Pedestrian.sob - 5492
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_pubneon.sob - 271664
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Rain.sob - 2108
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Road.sob - 236204
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Roulette.sob - 8760
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_ShadowBox.sob - 4804
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_ShadowCaster.sob - 66100
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_ShadowCaster_Only.sob - 4628
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_shadowmerger.sob - 2580
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_shop.sob - 58712
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_sign.sob - 3428
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Skin2.sob - 32692
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Skinface.sob - 34636
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_SpaceBackground.sob - 2072
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Sprite.sob - 333880
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_STICKERMAP.sob - 34876
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_SunDazzle.sob - 1920
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_SunDazzleDisplay.sob - 1568
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_SunEyeLum.sob - 1828
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_SunHalo.sob - 2740
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_SunMarker.sob - 1288
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_SunVisible.sob - 2120
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_TallGrass.sob - 47124
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_tire.sob - 44296
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_TireSkid.sob - 3496
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_tunnel.sob - 98528
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_UVBORDER.sob - 2780
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Vegetation.sob - 134284
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_VegetationSPR.sob - 58204
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\td_video.sob - 2708
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Water.sob - 111584
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_WaterRiver.sob - 137268
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_Wetground.sob - 2664
+C:\Program Files (x86)\Atari\TDU2\Euro\Shaders\TD_WheelRadialBlur.sob - 13928
+C:\Program Files (x86)\Atari\TDU2\Uninstall\unins000.dat - 54695
+C:\Program Files (x86)\Atari\TDU2\Uninstall\unins000.exe - 1399949
+
+UAC Disabled or not present
+

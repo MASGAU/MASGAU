@@ -1,0 +1,155 @@
+Comments:
+  <game name="WatchmenEndisNigh2" platform="Steam">
+    <title>Watchmen: End is Nigh - Part 2</title>
+    <location_path environment_variable="steamcommon" path="watchmen part 2\SaveData" />
+	<save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Watchmen: End is Nigh - Part 2
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2
+
+Save Path: 
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\SaveData
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 21030
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\watchmen part 2
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\SaveData\Profile1\PROGRESS.kpw - 987
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\SaveData\Profile1\SETTINGS.kpw - 2749
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\game.naz - 937161709
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\installscript.vdf - 1236
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\local_config.txt - 291
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Watchmen II PC.pdf - 8126759
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Watchmen User Manual.pdf - 6317985
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\WBGames EULA_US-Watchmen.txt - 7717
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\WBGames_EULA_Int'l-Watchmen.txt - 9037
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\binkw32.dll - 171008
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\KapowMulti.exe - 10403840
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\MultiLauncher.exe - 110592
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\NxCharacter.dll - 124184
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\NxCooking.dll - 390424
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\XBox360LibraryWrapper.dll - 2412544
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\de\MultiLauncher.resources.dll - 36864
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\es\MultiLauncher.resources.dll - 36864
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\fr\MultiLauncher.resources.dll - 32768
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\Data\Engine\it\MultiLauncher.resources.dll - 32768
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\NetFx20SP1_x86.exe - 24758792
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\PhysX_2.8.1.1_8.06.16_SystemSoftware.exe - 45236504
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\WindowsInstaller-KB893803-v2-x86.exe - 2585872
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2005_d3dx9_25_x64.cab - 1348242
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2005_d3dx9_25_x86.cab - 1079850
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2006_d3dx9_30_x64.cab - 1398718
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2006_d3dx9_30_x86.cab - 1116109
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2006_MDX1_x86.cab - 917318
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2006_MDX1_x86_Archive.cab - 4163518
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2006_XACT_x64.cab - 180021
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2006_XACT_x86.cab - 133991
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2006_xinput_x64.cab - 87989
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Apr2006_xinput_x86.cab - 46898
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\APR2007_d3dx10_33_x64.cab - 702212
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\APR2007_d3dx10_33_x86.cab - 699465
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\APR2007_d3dx9_33_x64.cab - 1610958
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\APR2007_d3dx9_33_x86.cab - 1609639
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\APR2007_XACT_x64.cab - 199366
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\APR2007_XACT_x86.cab - 154825
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\APR2007_xinput_x64.cab - 100417
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\APR2007_xinput_x86.cab - 56902
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Aug2005_d3dx9_27_x64.cab - 1351430
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Aug2005_d3dx9_27_x86.cab - 1078532
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2006_XACT_x64.cab - 183863
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2006_XACT_x86.cab - 138195
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2006_xinput_x64.cab - 88102
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2006_xinput_x86.cab - 47018
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2007_d3dx10_35_x64.cab - 855886
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2007_d3dx10_35_x86.cab - 800467
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2007_d3dx9_35_x64.cab - 1803760
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2007_d3dx9_35_x86.cab - 1711752
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2007_XACT_x64.cab - 201696
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\AUG2007_XACT_x86.cab - 156612
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\BDANT.cab - 1156363
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\BDAXP.cab - 976020
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Dec2005_d3dx9_28_x64.cab - 1358864
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Dec2005_d3dx9_28_x86.cab - 1080344
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\DEC2006_d3dx10_00_x64.cab - 213767
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\DEC2006_d3dx10_00_x86.cab - 192680
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\DEC2006_d3dx9_32_x64.cab - 1572114
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\DEC2006_d3dx9_32_x86.cab - 1575336
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\DEC2006_XACT_x64.cab - 193435
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\DEC2006_XACT_x86.cab - 146559
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\DSETUP.dll - 97288
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\dsetup32.dll - 1694728
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\dxdllreg_x86.cab - 47596
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\dxnt.cab - 13265040
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\DXSETUP.exe - 527880
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\dxupdate.cab - 97396
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Feb2005_d3dx9_24_x64.cab - 1248387
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Feb2005_d3dx9_24_x86.cab - 1014113
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Feb2006_d3dx9_29_x64.cab - 1363684
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Feb2006_d3dx9_29_x86.cab - 1085608
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Feb2006_XACT_x64.cab - 179247
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Feb2006_XACT_x86.cab - 133297
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\FEB2007_XACT_x64.cab - 198275
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\FEB2007_XACT_x86.cab - 151583
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Jun2005_d3dx9_26_x64.cab - 1336890
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Jun2005_d3dx9_26_x86.cab - 1065813
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\JUN2006_XACT_x64.cab - 181745
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\JUN2006_XACT_x86.cab - 134631
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\JUN2007_d3dx10_34_x64.cab - 702644
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\JUN2007_d3dx10_34_x86.cab - 702072
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\JUN2007_d3dx9_34_x64.cab - 1611374
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\JUN2007_d3dx9_34_x86.cab - 1610886
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\JUN2007_XACT_x64.cab - 200722
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\JUN2007_XACT_x86.cab - 156509
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_d3dx10_37_x64.cab - 848132
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_d3dx10_37_x86.cab - 821508
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_d3dx9_37_x64.cab - 1773110
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_d3dx9_37_x86.cab - 1446530
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_X3DAudio_x64.cab - 58306
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_X3DAudio_x86.cab - 25115
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_XACT_x64.cab - 125584
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_XACT_x86.cab - 96982
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_XAudio_x64.cab - 254442
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Mar2008_XAudio_x86.cab - 229498
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\NOV2007_d3dx10_36_x64.cab - 867848
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\NOV2007_d3dx10_36_x86.cab - 807132
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\NOV2007_d3dx9_36_x64.cab - 1805306
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\NOV2007_d3dx9_36_x86.cab - 1712608
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\NOV2007_X3DAudio_x64.cab - 49392
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\NOV2007_X3DAudio_x86.cab - 21744
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\NOV2007_XACT_x64.cab - 200010
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\NOV2007_XACT_x86.cab - 151512
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Oct2005_xinput_x64.cab - 86925
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\Oct2005_xinput_x86.cab - 46247
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\OCT2006_d3dx9_31_x64.cab - 1413862
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\OCT2006_d3dx9_31_x86.cab - 1128177
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\OCT2006_XACT_x64.cab - 183321
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\prerequisites\dx9mar2008\OCT2006_XACT_x86.cab - 138977
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\SaveData\Profile1\PROGRESS.kpw - 987
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\SaveData\Profile1\SETTINGS.kpw - 2749
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\titledata\pc\bootscreen.jpg - 187327
+C:\Program Files (x86)\Steam\steamapps\common\watchmen part 2\titledata\pc\launcher_logo.bmp - 98456
+
+UAC Disabled or not present
+

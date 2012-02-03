@@ -1,0 +1,292 @@
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Darkest of Days
+
+Save Path:
+C:\Program Files (x86)\Darkest of Days\base\save
+
+Detected Registry Key Values:
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3D6293F2-53DA-45A1-B7F4-1843CA3B2658}\InstallLocation
+C:\Program Files (x86)\Darkest of Days
+
+Detected Start Menu Shortcuts:
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Darkest of Days\Play Darkest of Days.lnk
+C:\Program Files (x86)\Darkest of Days\darkestofdays.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Darkest of Days\View README File.lnk
+C:\Program Files (x86)\Darkest of Days\README.txt
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files (x86)\Darkest of Days\base\save\auto0.sav - 887694
+C:\Program Files (x86)\Darkest of Days\base\save\auto1.sav - 815836
+C:\Program Files (x86)\Darkest of Days\base\save\auto2.sav - 803363
+C:\Program Files (x86)\Darkest of Days\base\save\auto3.sav - 803462
+C:\Program Files (x86)\Darkest of Days\base\save\auto4.sav - 513448
+C:\Program Files (x86)\Darkest of Days\base\save\auto5.sav - 873091
+C:\Program Files (x86)\Darkest of Days\base\save\auto6.sav - 854006
+C:\Program Files (x86)\Darkest of Days\base\save\auto7.sav - 887980
+C:\Program Files (x86)\Darkest of Days\base\save\auto8.sav - 808162
+C:\Program Files (x86)\Darkest of Days\base\save\auto9.sav - 1033153
+C:\Program Files (x86)\Darkest of Days\base\save\crucial.dat - 2377
+C:\Program Files (x86)\Darkest of Days\base\save\restart1.sav - 394769
+C:\Program Files (x86)\Darkest of Days\base\save\restart2.sav - 94522
+C:\Program Files (x86)\Darkest of Days\base\save\restart3.sav - 892044
+C:\Program Files (x86)\Darkest of Days\base\save\restart4.sav - 28347
+C:\Program Files (x86)\Darkest of Days\base\save\restart5.sav - 677976
+C:\Program Files (x86)\Darkest of Days\base\save\restart6.sav - 28351
+C:\Program Files (x86)\Darkest of Days\base\save\restart7.sav - 511241
+
+Install Folder Dump:
+C:\Program Files (x86)\Darkest of Days\APEX_Destructible.dll - 581632
+C:\Program Files (x86)\Darkest of Days\APEX_Emitter.dll - 294912
+C:\Program Files (x86)\Darkest of Days\APEX_Example.dll - 167936
+C:\Program Files (x86)\Darkest of Days\APEX_Explosion.dll - 151552
+C:\Program Files (x86)\Darkest of Days\APEX_ForceField.dll - 176128
+C:\Program Files (x86)\Darkest of Days\APEX_Particles.dll - 339968
+C:\Program Files (x86)\Darkest of Days\APEX_release.dll - 585728
+C:\Program Files (x86)\Darkest of Days\APEX_Wind.dll - 180224
+C:\Program Files (x86)\Darkest of Days\binkw32.dll - 171520
+C:\Program Files (x86)\Darkest of Days\changelog.txt - 1021
+C:\Program Files (x86)\Darkest of Days\darkestofdays.exe - 4350464
+C:\Program Files (x86)\Darkest of Days\darkestofdays.exe.old - 11194368
+C:\Program Files (x86)\Darkest of Days\game_all.log - 586269
+C:\Program Files (x86)\Darkest of Days\game_debug.log - 25682
+C:\Program Files (x86)\Darkest of Days\game_error.log - 14545
+C:\Program Files (x86)\Darkest of Days\game_load.log - 527734
+C:\Program Files (x86)\Darkest of Days\game_warning.log - 18308
+C:\Program Files (x86)\Darkest of Days\Manual.pdf - 671273
+C:\Program Files (x86)\Darkest of Days\NxCharacter.dll - 124192
+C:\Program Files (x86)\Darkest of Days\NxCooking.dll - 390432
+C:\Program Files (x86)\Darkest of Days\PhysXLoader.dll - 70944
+C:\Program Files (x86)\Darkest of Days\README.txt - 7351
+C:\Program Files (x86)\Darkest of Days\SDL.dll - 321536
+C:\Program Files (x86)\Darkest of Days\base\interface\controls.cfg - 753
+C:\Program Files (x86)\Darkest of Days\base\interface\controlsGamepad.cfg - 383
+C:\Program Files (x86)\Darkest of Days\base\interface\courier_tiny.tga - 499436
+C:\Program Files (x86)\Darkest of Days\base\interface\dodfont.tga - 5221964
+C:\Program Files (x86)\Darkest of Days\base\interface\dodfont.tga_kern - 2406
+C:\Program Files (x86)\Darkest of Days\base\interface\dodfont_noglow.tga - 1305524
+C:\Program Files (x86)\Darkest of Days\base\interface\dodfont_noglow.tga_kern - 2406
+C:\Program Files (x86)\Darkest of Days\base\interface\dodfont_noglow_tiny.tga - 228020
+C:\Program Files (x86)\Darkest of Days\base\interface\dodfont_noglow_tiny.tga_kern - 2406
+C:\Program Files (x86)\Darkest of Days\base\interface\gamma.tga - 16428
+C:\Program Files (x86)\Darkest of Days\base\interface\gammaramp.tga - 49196
+C:\Program Files (x86)\Darkest of Days\base\interface\guiControls.cfg - 378
+C:\Program Files (x86)\Darkest of Days\base\interface\japanese.tga - 3500044
+C:\Program Files (x86)\Darkest of Days\base\interface\LOGO_PhysXbyNV.tga - 131116
+C:\Program Files (x86)\Darkest of Days\base\interface\LOGO_PhysXbyNV.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\LOGO_SpeedTree.tga - 131116
+C:\Program Files (x86)\Darkest of Days\base\interface\LOGO_SpeedTree.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\omfg.tga - 262188
+C:\Program Files (x86)\Darkest of Days\base\interface\user.cfg - 577
+C:\Program Files (x86)\Darkest of Days\base\interface\woot.tga - 2359340
+C:\Program Files (x86)\Darkest of Days\base\interface\action\amp60_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\ar55_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\arrow_idle.tga - 16428
+C:\Program Files (x86)\Darkest of Days\base\interface\action\arrow_mouseover.tga - 16428
+C:\Program Files (x86)\Darkest of Days\base\interface\action\c96_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\cannon_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\coltnavy_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\dngrpistol_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\dngrsniper_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\fmg_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\gewehr98k_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\gewehr98_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\grenade_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\henry_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\luger_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\m7_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\ma22_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\maxim_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\morganjames_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\mp34_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\nagant_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\shotgun_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\springfield_icon.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\beenhere.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\beenhere.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\bighorn.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\bighorn.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\burnsides.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\burnsides.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\competition.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\competition.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\escape.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\escape.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\frankenau.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\frankenau.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\germanrun.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\germanrun.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\harvest.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\harvest.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\hide.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\hide.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\holyground.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\holyground.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\nightmoves.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\nightmoves.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\pompeii1.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\pompeii1.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\pompeii2.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\pompeii2.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\pow.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\pow.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\rebelyell.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\rebelyell.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\stairway.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\stairway.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\thinreddot.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\thinreddot.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\trap.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\trap.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\trestle.tga - 196652
+C:\Program Files (x86)\Darkest of Days\base\interface\action\level\trestle.tgac - 32782
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\alarmbutton_idle.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\alarmbutton_mouseover.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\glow.tga - 786476
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\mainbutton_idle.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\mainbutton_mouseover.tga - 65580
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_gun1.tga - 3145772
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_gun2.tga - 3145772
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_gun3.tga - 3145772
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_gun4.tga - 3145772
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_gun5.tga - 3145772
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_gun6.tga - 3145772
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_gun7.tga - 3145772
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_gun8.tga - 3145772
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_logo.tga - 1572908
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_logo.tgac - 262158
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\menu_music.ogg - 1253493
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\onfocus.wav - 3442
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\onselect.wav - 15032
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\smallbutton_idle.tga - 1068
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\smallbutton_mousedown.tga - 1068
+C:\Program Files (x86)\Darkest of Days\base\interface\menu\smallbutton_mouseover.tga - 1068
+C:\Program Files (x86)\Darkest of Days\base\interface\upgrades\confirm.tga - 130132
+C:\Program Files (x86)\Darkest of Days\base\interface\upgrades\confirm_OVER.tga - 130132
+C:\Program Files (x86)\Darkest of Days\base\language\captions.csv - 1599704
+C:\Program Files (x86)\Darkest of Days\base\language\credits.txt - 3484
+C:\Program Files (x86)\Darkest of Days\base\language\creditsPC.txt - 3772
+C:\Program Files (x86)\Darkest of Days\base\language\language.csv - 301222
+C:\Program Files (x86)\Darkest of Days\base\level\chapterList.cfg - 2791
+C:\Program Files (x86)\Darkest of Days\base\level\default_briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamA2\AntietamA2.cage - 168197757
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamA2\AntietamA2.hab - 4876532
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamA2\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamBC\AntietamBC.cage - 189278147
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamBC\AntietamBC.hab - 7123227
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamBC\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamE\AntietamE.cage - 187323504
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamE\AntietamE.hab - 5209837
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamE\AntietamE_benchmark.cage - 161976092
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamE\AntietamE_benchmark.hab - 2188044
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamE\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamFG\AntietamFG.cage - 195552810
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamFG\AntietamFG.hab - 10505433
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamFG\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamH\AntietamH.cage - 196901445
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamH\AntietamH.hab - 7801792
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamH\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamI\AntietamI.cage - 209160979
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamI\AntietamI.hab - 5498522
+C:\Program Files (x86)\Darkest of Days\base\level\Antietam\AntietamI\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\cause\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\cause\cause.cage - 160427447
+C:\Program Files (x86)\Darkest of Days\base\level\cause\cause.hab - 3871072
+C:\Program Files (x86)\Darkest of Days\base\level\gauntlet\gauntlet.cage - 203784362
+C:\Program Files (x86)\Darkest of Days\base\level\gauntlet\gauntlet.hab - 5324059
+C:\Program Files (x86)\Darkest of Days\base\level\lbh\bighorn.cage - 126224814
+C:\Program Files (x86)\Darkest of Days\base\level\lbh\bighorn.hab - 4291494
+C:\Program Files (x86)\Darkest of Days\base\level\lbh\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhub1.cage - 74601310
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhub1.hab - 53156
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhub2.cage - 71048847
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhub2.hab - 51969
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhub3.cage - 71128591
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhub3.hab - 47746
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhubendgame.cage - 89209663
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhubendgame.hab - 48337
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhubintro.cage - 177251433
+C:\Program Files (x86)\Darkest of Days\base\level\motherhub\motherhubintro.hab - 1473133
+C:\Program Files (x86)\Darkest of Days\base\level\new_pompeii\pompeiiA.cage - 212450027
+C:\Program Files (x86)\Darkest of Days\base\level\new_pompeii\pompeiiA.hab - 5257491
+C:\Program Files (x86)\Darkest of Days\base\level\new_pompeii\pompeiiB.cage - 208935099
+C:\Program Files (x86)\Darkest of Days\base\level\new_pompeii\pompeiiB.hab - 7459781
+C:\Program Files (x86)\Darkest of Days\base\level\oppfarm\oppfarm.cage - 60465655
+C:\Program Files (x86)\Darkest of Days\base\level\oppfarm\oppfarm.hab - 174669
+C:\Program Files (x86)\Darkest of Days\base\level\oppfarm2\oppfarm2.cage - 58888771
+C:\Program Files (x86)\Darkest of Days\base\level\oppfarm2\oppfarm2.hab - 180790
+C:\Program Files (x86)\Darkest of Days\base\level\pow_1\pow_2.cage - 205937191
+C:\Program Files (x86)\Darkest of Days\base\level\pow_1\pow_2.hab - 7650127
+C:\Program Files (x86)\Darkest of Days\base\level\stairway\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\stairway\stairway.cage - 199635879
+C:\Program Files (x86)\Darkest of Days\base\level\stairway\stairway.hab - 29028888
+C:\Program Files (x86)\Darkest of Days\base\level\supersecret\supersecret.cage - 96509668
+C:\Program Files (x86)\Darkest of Days\base\level\supersecret\supersecret.hab - 1250022
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergABC\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergABC\TannenbergABC.cage - 211325408
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergABC\TannenbergABC.hab - 11431807
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergDEF\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergDEF\TannenbergDEF.cage - 206217709
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergDEF\TannenbergDEF.hab - 9332266
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergFHI\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergFHI\TannenbergFHI.cage - 193706023
+C:\Program Files (x86)\Darkest of Days\base\level\TannenbergFHI\TannenbergFHI.hab - 13555474
+C:\Program Files (x86)\Darkest of Days\base\level\trap\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\trap\trap.cage - 147184046
+C:\Program Files (x86)\Darkest of Days\base\level\trap\trap.hab - 4111287
+C:\Program Files (x86)\Darkest of Days\base\level\trestle\beenhere.cage - 241857988
+C:\Program Files (x86)\Darkest of Days\base\level\trestle\beenhere.hab - 11605147
+C:\Program Files (x86)\Darkest of Days\base\level\trestle\briefing.tga - 4320044
+C:\Program Files (x86)\Darkest of Days\base\level\trestle\trestle.cage - 236408629
+C:\Program Files (x86)\Darkest of Days\base\level\trestle\trestle.hab - 15651890
+C:\Program Files (x86)\Darkest of Days\base\save\auto0.sav - 887694
+C:\Program Files (x86)\Darkest of Days\base\save\auto1.sav - 815836
+C:\Program Files (x86)\Darkest of Days\base\save\auto2.sav - 803363
+C:\Program Files (x86)\Darkest of Days\base\save\auto3.sav - 803462
+C:\Program Files (x86)\Darkest of Days\base\save\auto4.sav - 513448
+C:\Program Files (x86)\Darkest of Days\base\save\auto5.sav - 873091
+C:\Program Files (x86)\Darkest of Days\base\save\auto6.sav - 854006
+C:\Program Files (x86)\Darkest of Days\base\save\auto7.sav - 887980
+C:\Program Files (x86)\Darkest of Days\base\save\auto8.sav - 808162
+C:\Program Files (x86)\Darkest of Days\base\save\auto9.sav - 1033153
+C:\Program Files (x86)\Darkest of Days\base\save\crucial.dat - 2377
+C:\Program Files (x86)\Darkest of Days\base\save\restart1.sav - 394769
+C:\Program Files (x86)\Darkest of Days\base\save\restart2.sav - 94522
+C:\Program Files (x86)\Darkest of Days\base\save\restart3.sav - 892044
+C:\Program Files (x86)\Darkest of Days\base\save\restart4.sav - 28347
+C:\Program Files (x86)\Darkest of Days\base\save\restart5.sav - 677976
+C:\Program Files (x86)\Darkest of Days\base\save\restart6.sav - 28351
+C:\Program Files (x86)\Darkest of Days\base\save\restart7.sav - 511241
+C:\Program Files (x86)\Darkest of Days\base\shaders\YcRcB_to_RGB.frag - 762
+C:\Program Files (x86)\Darkest of Days\base\shaders\YcRcB_to_RGB.vert - 278
+C:\Program Files (x86)\Darkest of Days\base\weapon\amp60.cage - 7291172
+C:\Program Files (x86)\Darkest of Days\base\weapon\ar55.cage - 8023840
+C:\Program Files (x86)\Darkest of Days\base\weapon\c96.cage - 5655196
+C:\Program Files (x86)\Darkest of Days\base\weapon\coltnavy.cage - 4578542
+C:\Program Files (x86)\Darkest of Days\base\weapon\dngrpistol.cage - 4079273
+C:\Program Files (x86)\Darkest of Days\base\weapon\fmg.cage - 10652536
+C:\Program Files (x86)\Darkest of Days\base\weapon\gewehr98.cage - 9817865
+C:\Program Files (x86)\Darkest of Days\base\weapon\gewehr98k.cage - 13122361
+C:\Program Files (x86)\Darkest of Days\base\weapon\grenade.cage - 3975960
+C:\Program Files (x86)\Darkest of Days\base\weapon\henry.cage - 8377710
+C:\Program Files (x86)\Darkest of Days\base\weapon\luger.cage - 6086065
+C:\Program Files (x86)\Darkest of Days\base\weapon\m7.cage - 7508652
+C:\Program Files (x86)\Darkest of Days\base\weapon\ma22.cage - 8538658
+C:\Program Files (x86)\Darkest of Days\base\weapon\maxim.cage - 13982564
+C:\Program Files (x86)\Darkest of Days\base\weapon\morganjames.cage - 9385405
+C:\Program Files (x86)\Darkest of Days\base\weapon\mp34.cage - 7669772
+C:\Program Files (x86)\Darkest of Days\base\weapon\nagant.cage - 14219180
+C:\Program Files (x86)\Darkest of Days\base\weapon\shotgun.cage - 7442049
+C:\Program Files (x86)\Darkest of Days\base\weapon\springfield.cage - 7995123
+
+UAC Disabled or not present
+

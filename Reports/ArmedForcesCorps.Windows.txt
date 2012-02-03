@@ -1,0 +1,119 @@
+Game Name: Armed Forces Corps
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN
+
+Save Path:
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\City Interactive\Armed Forces Corps\EN
+Value:Path
+Data:C:\Program Files (x86)\City Interactive\Armed Forces Corps EN
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\City Interactive\Armed Forces Corps\EN
+Value:ExeDir
+Data:C:\Program Files (x86)\City Interactive\Armed Forces Corps EN
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\City Interactive\Armed Forces Corps\EN
+Value:DocsDir
+Data:C:\Program Files (x86)\City Interactive\Armed Forces Corps EN
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Armed Forces Corps/EN/FR-English_is1
+Value:Inno Setup: App Path
+Data:C:\Program Files (x86)\City Interactive\Armed Forces Corps EN
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Armed Forces Corps/EN/FR-English_is1
+Value:InstallLocation
+Data:C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\Armed Forces Corps EN\Armed Forces Corps EN.lnk
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\game.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\Armed Forces Corps EN\Config.lnk
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Config.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\Armed Forces Corps EN\License.lnk
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\License.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\Armed Forces Corps EN\ReadMe.lnk
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\ReadMe.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\Armed Forces Corps EN\Uninstall Armed Forces Corps.lnk
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\unins000.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\BanIPList.txt - 0
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\Game.ini - 55
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\MPMissions.Gamdb00p - 168
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\settings.cfg - 285
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\Profiles\Profile000.gdb - 13356
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\Save\Profile000\SinglePlayer\Checkpoint.sav - 3615704
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\Save\Profile000\SinglePlayer\Kpalv.sav - 18148
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\Save\Profile000\SinglePlayer\Reload.sav - 3104318
+C:\Users\Public\Documents\City Interactive\Armed Forces Corps\Save\Profile000\SinglePlayer\Save1001.ini - 313
+
+Install Folder Dump:
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\checkcd.txt - 120
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Config.exe - 98304
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Config.Strdb00p - 2192
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\data.Arch00 - 4716305721
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\dataA.Arch00 - 536798039
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\dataL.Arch00 - 205958602
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\dbghelp.dll - 640000
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Default.archcfg - 45
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\eax.dll - 188416
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\enginemsg.txt - 3332
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\EngineServer.dll - 1216512
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\game.exe - 1953792
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\game.exe.old - 1953792
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\GameDatabase.dll - 86016
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\License.txt - 6768
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\logo.bmp - 9296
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\LTMemory.dll - 49152
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\ReadMe.txt - 1052
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\SndDrv.dll - 77824
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\StringEditRuntime.dll - 17408
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\unins000.dat - 38103
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\unins000.exe - 695642
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\ClientFx.fxd - 262144
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\GameClient.dll - 2461696
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\GameServer.dll - 3268608
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\Microsoft.VC80.CRT\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\Microsoft.VC80.CRT\msvcm80.dll - 479232
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\Microsoft.VC80.CRT\msvcp80.dll - 548864
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\Microsoft.VC80.CRT\msvcr80.dll - 626688
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\blow_tank_01.mpg - 446133
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\DirTypeTextures - 0
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\Fireball_02.mpg - 466079
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\Fireball_03.mpg - 90079
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\Fireball_04.mpg - 82393
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\Fireball_05.mpg - 132904
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\Fireball_06.mpg - 85365
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\Fireball_07.mpg - 665979
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\Flame01.mpg - 161857
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\intro.mpg - 53301252
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\jupiter.mpg - 724380
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\logo_city.mpg - 5933060
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Game\videos\Molotow.mpg - 720803
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.CRT\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.CRT\msvcm80.dll - 479232
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.CRT\msvcp80.dll - 548864
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.CRT\msvcr80.dll - 626688
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.MFC\mfc80.dll - 1101824
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.MFC\mfc80u.dll - 1093120
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.MFC\mfcm80.dll - 69632
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.MFC\mfcm80u.dll - 57856
+C:\Program Files (x86)\City Interactive\Armed Forces Corps EN\Microsoft.VC80.MFC\Microsoft.VC80.MFC.manifest - 2371
+
+UAC Disabled or not present
+

@@ -1,0 +1,128 @@
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2
+
+Save Path:
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save
+
+Detected Registry Key Values:
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Darkness Within 2: The Dark Lineage_is1\Inno Setup: App Path
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Darkness Within 2: The Dark Lineage_is1\InstallLocation
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Darkness Within 2: The Dark Lineage_is1\DisplayIcon
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\DarkLineage.exe
+HKEY_CURRENT_USER\Software\Darkness Within 2\Path
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Iceberg Interactive\Darkness Within 2\Config.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\Config.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Iceberg Interactive\Darkness Within 2\Darkness Within 2.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\DarkLineage.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Iceberg Interactive\Darkness Within 2\Uninstall Darkness Within 2.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\unins000.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\headers - 463
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\savegame1 - 9830
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\shot1.jpg - 408647
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\temp - 9830
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\temp.jpg - 408647
+
+Install Folder Dump:
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\Config.exe - 204800
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\Config.exe.manifest - 550
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\config.txt - 899
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\DarkLineage.exe - 1408512
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\DarkLineage.exe.manifest - 550
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\log.txt - 826
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\main.bin - 5031016
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\unins000.dat - 29795
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\unins000.exe - 856410
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\unins000.exe.manifest - 550
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\dialogs_english.bin - 75146087
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\images.bin - 42534249
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\items.bin - 76632118
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\local_english.bin - 4170338
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\music.bin - 118561506
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\objects.bin - 246137090
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\patch1.bin - 169399296
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\sfx.bin - 134697083
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\shaders.bin - 1126258
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\closure\resources.bin - 37788944
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\closure\scene.geo - 17036414
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\cottage\resources.bin - 34995856
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\cottage\scene.geo - 14308443
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\hovel\exterior\resources.bin - 18431376
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\hovel\exterior\scene.geo - 4108635
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\hovel\galleries\resources.bin - 72547600
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\hovel\galleries\scene.geo - 10258463
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\hovel\interior\resources.bin - 49186960
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\hovel\interior\scene.geo - 7073345
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\intro_seq\resources.bin - 37821328
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\intro_seq\scene.geo - 11811816
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\2nd_floor_dream\scene.geo - 6050347
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\cellar\resources.bin - 59370512
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\cellar\scene.geo - 10393592
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\cellar_underground\resources.bin - 28775952
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\cellar_underground\scene.geo - 8009016
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\garden\resources.bin - 43627152
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\garden\scene.geo - 10207110
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\mansion_int\resources.bin - 107868816
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\mansion_int\scene.geo - 32909059
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\sculptroom\resources.bin - 74068760
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\sculptroom\scene.geo - 4406054
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\tomb\resources.bin - 52734480
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\tomb\scene.geo - 4919890
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\well_dream\resources.bin - 35246864
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\loreid_mansion\well_dream\scene.geo - 825364
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\btw\resources.bin - 20074512
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\btw\scene.geo - 2579076
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\castle\resources.bin - 18521360
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\castle\scene.geo - 2642116
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\ending\resources.bin - 45589264
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\ending\scene.geo - 18026955
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\galleries\resources.bin - 16944912
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\galleries\scene.geo - 5429367
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\underwater_hall\resources.bin - 38345488
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\necropolis\underwater_hall\scene.geo - 8294067
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town\resources.bin - 72900368
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town\scene.geo - 12460508
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_bookstore\bookstore\resources.bin - 27744144
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_bookstore\bookstore\scene.geo - 2347642
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_bookstore\cellar\resources.bin - 41435920
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_bookstore\cellar\scene.geo - 4663137
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_inn\resources.bin - 54097936
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_inn\scene.geo - 17967945
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_inn_dream\resources.bin - 23276176
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_inn_dream\scene.geo - 2864561
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_nursing_home\resources.bin - 47164304
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_nursing_home\scene.geo - 10802244
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_oldman\resources.bin - 15244176
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_oldman\scene.geo - 1618714
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_sewers\resources.bin - 11866896
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_sewers\scene.geo - 6724610
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_station\resources.bin - 63214992
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\town_station\scene.geo - 8727373
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\train_video\compartment\resources.bin - 15381520
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\train_video\compartment\scene.geo - 2663007
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\train_video\comp_exterior\resources.bin - 11417616
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\data\stages\train_video\comp_exterior\scene.geo - 2483362
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\headers - 463
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\savegame1 - 9830
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\shot1.jpg - 408647
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\temp - 9830
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\save\temp.jpg - 408647
+
+UAC Disabled or not present
+

@@ -1,0 +1,150 @@
+Game Name: Space Rangers 2: Dominators
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Space Rangers 2
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers 2\Save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{409C77C9-4E8A-4096-B2C2-9091D16E02D1}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{409C77C9-4E8A-4096-B2C2-9091D16E02D1}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS2
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\Rangers.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS2
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS2
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\Rangers.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS2
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Space Rangers 2 - Dominators_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Space Rangers 2 - Dominators_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers 2 - Dominators\Space Rangers 2 - Dominators.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers 2\Rangers.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers 2 - Dominators\Uninstall Space Rangers 2 - Dominators.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers 2\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers 2 - Dominators\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers 2\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/21/2011 3:03:01 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers 2\Save\Ranger centre Agate2132.sav - 1498355
+11/21/2011 3:03:07 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers 2\Save\Ranger centre Agate456456.sav - 1498359
+
+Install Folder Dump:
+5/20/2010 2:32:28 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\cfg.txt - 1213
+1/19/2004 3:16:26 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\DebugMsg.dll - 61440
+5/26/2010 1:27:56 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\gfw_high.ico - 125658
+2/3/2011 2:21:22 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\goggame.dll - 252416
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\innosetup_license.txt - 1471
+2/12/2006 6:49:08 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\install.txt - 694
+1/31/2006 2:06:20 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\manual.pdf - 11653794
+9/1/2006 4:27:58 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\MatrixGame.dll - 2125824
+9/13/2004 7:43:16 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\OKGF.dll - 696320
+7/15/2000 12:12:46 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\OKMPA.DLL - 172032
+7/15/2000 12:12:46 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\OKMPB.DLL - 172032
+9/1/2006 4:27:58 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\Rangers.exe - 3007488
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\Support.ico - 62895
+11/21/2011 3:01:09 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\unins000.dat - 57892
+11/21/2011 2:58:35 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\unins000.exe - 2142547
+11/21/2011 3:01:09 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\unins000.ini - 80
+8/31/2004 7:57:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\xvidcore.dll - 499712
+2/12/2006 6:47:50 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\cfg\CacheData.dat - 55962
+2/12/2006 6:47:36 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\cfg\eng.dat - 364672
+2/12/2006 6:47:50 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\cfg\main.dat - 131395
+5/2/2005 8:22:16 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\cfg\robots.dat - 67532
+9/16/2004 5:03:16 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\1captain.pkg - 14424046
+9/16/2004 5:03:22 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\1gov.pkg - 28856702
+9/16/2004 5:03:26 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\1Items.pkg - 23788403
+5/13/2005 9:30:54 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\1main.pkg - 125096942
+9/16/2004 5:03:36 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\2captain.pkg - 23425386
+9/16/2004 5:03:50 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\2gov.pkg - 152431072
+9/16/2004 5:03:54 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\2Items.pkg - 29739392
+5/13/2005 9:24:58 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\2main.pkg - 186760489
+11/24/2004 5:02:18 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\cenega.dat - 654524
+2/12/2006 11:29:02 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\cenega.vdo - 673792
+2/12/2006 6:50:36 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\common.pkg - 199304408
+8/31/2004 12:23:20 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\hyper.vdo - 4136960
+5/2/2005 10:52:30 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\intro.vdo - 53715052
+8/31/2004 12:20:14 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\outro.vdo - 37156864
+9/5/2004 11:15:46 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\record.vdo - 7995392
+10/7/2004 7:49:32 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\robots.pkg - 84186515
+8/28/2004 9:59:30 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\ShipFull.pkg - 32493915
+8/28/2004 9:59:50 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\ShipSmall.pkg - 14662066
+5/3/2005 3:25:02 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\sound.pkg - 53905311
+7/30/2004 8:39:42 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\data\Star.pkg - 93978128
+10/18/2002 8:06:06 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\1c.dat - 333113
+7/13/2004 7:38:52 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\hyper.dat - 387448
+4/29/2005 10:25:58 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\intro.dat - 2894784
+2/18/2004 3:37:38 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\logo.dat - 368640
+8/13/2004 11:13:14 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\outro.dat - 2384875
+9/5/2004 11:14:28 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\record.dat - 480652
+5/23/2000 4:06:40 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\BATTLE\Boy1.dat - 1022067
+1/18/2002 1:59:24 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\BATTLE\fight2.dat - 1275731
+2/18/1999 5:58:04 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\Awakening.dat - 4086148
+6/8/2002 1:58:46 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\Beyond_reach.dat - 4124967
+1/17/2002 12:38:08 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\fly12.dat - 3798998
+2/20/2001 1:35:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\FLY3.dat - 3449963
+10/18/2004 8:35:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\HyperDream2.dat - 6110981
+11/30/1999 1:04:54 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\LONGWAY.dat - 3575892
+10/18/2004 8:50:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\starflight.dat - 4834951
+6/29/2000 1:44:10 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\Surf.dat - 2962572
+10/18/2004 8:55:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\Theo-Inside.dat - 5104953
+10/18/2004 9:00:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\FLY\TRASH.dat - 4318772
+6/29/2000 6:20:50 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\PLANET\COSMIC.dat - 1479771
+7/1/2000 6:56:06 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\PLANET\COSMIC2.dat - 2620982
+2/14/2001 6:17:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\PLANET\FEI1.dat - 4147954
+2/7/2001 1:22:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\PLANET\GAAL.dat - 2697636
+1/20/2001 8:25:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\PLANET\MALLOC4.dat - 1641035
+3/27/2001 3:10:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\PLANET\PEOPLE.dat - 3070456
+9/3/2004 12:46:24 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\PLANET\RobotForce.dat - 3848695
+8/23/2000 2:16:18 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\PLANET\WEAPON.dat - 1348379
+4/16/2001 3:10:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\QUESTS\gladiator.dat - 2007149
+2/18/2004 5:09:52 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\SPECIAL\begin.dat - 1251497
+2/18/2004 5:10:24 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\SPECIAL\begin2.dat - 627902
+1/7/2001 4:32:54 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\SPECIAL\HYMN.dat - 3314456
+9/4/2003 10:30:44 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\SPECIAL\outroden.dat - 3451507
+10/18/2004 9:08:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\SPECIAL\SilentFlower.dat - 4380630
+2/18/2004 3:29:16 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\SPECIAL\song.dat - 3542622
+1/14/2004 2:20:04 AM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\SPECIAL\SpaceIsCalling.dat - 2676112
+7/14/2000 4:04:26 PM - C:\Program Files (x86)\GOG.com\Space Rangers 2\music\SPECIAL\TRIUMPH.dat - 1223366
+
+UAC Enabled
+
+
+VirtualStore Folders:
+11/21/2011 3:01:47 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers 2\########.log - 2899
+11/21/2011 3:03:01 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers 2\Save\Ranger centre Agate2132.sav - 1498355
+11/21/2011 3:03:07 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers 2\Save\Ranger centre Agate456456.sav - 1498359

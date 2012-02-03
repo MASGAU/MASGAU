@@ -1,0 +1,266 @@
+Game Name: Shellshock 2
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Eidos\Shellshock 2
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\Eidos\Shellshock2
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Eidos\Shellshock2
+Value: InstallPath
+Data: C:\Program Files (x86)\Eidos\Shellshock 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Shellshock2
+Value: UninstallString
+Data: C:\Program Files (x86)\Eidos\Shellshock 2\uninstall.exe
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\Eidos\Shellshock2\PlayerProfile000.sav - 354498
+C:\Users\%USERNAME%\Documents\Eidos\Shellshock2\SS2_Config.txt - 221
+
+Install Folder Dump: 
+C:\Program Files (x86)\Eidos\Shellshock 2\binkw32.dll - 198480
+C:\Program Files (x86)\Eidos\Shellshock 2\d3dx9_33.dll - 3495784
+C:\Program Files (x86)\Eidos\Shellshock 2\GDF.dll - 2942288
+C:\Program Files (x86)\Eidos\Shellshock 2\language.txt - 30
+C:\Program Files (x86)\Eidos\Shellshock 2\ReadmeEN.rtf - 258192
+C:\Program Files (x86)\Eidos\Shellshock 2\ReadmeFR.rtf - 280660
+C:\Program Files (x86)\Eidos\Shellshock 2\ReadmeGE.rtf - 360875
+C:\Program Files (x86)\Eidos\Shellshock 2\ReadmeIT.rtf - 316592
+C:\Program Files (x86)\Eidos\Shellshock 2\ReadmeSP.rtf - 298276
+C:\Program Files (x86)\Eidos\Shellshock 2\Shellshock 2.exe - 29630184
+C:\Program Files (x86)\Eidos\Shellshock 2\Shellshock 2.exe.old - 11484384
+C:\Program Files (x86)\Eidos\Shellshock 2\Uninstall.exe - 120080
+C:\Program Files (x86)\Eidos\Shellshock 2\x360ce.ini - 25262
+C:\Program Files (x86)\Eidos\Shellshock 2\xinput1_3.dll - 46760
+C:\Program Files (x86)\Eidos\Shellshock 2\xinput1_3.dll.old - 81768
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\frontend.pc - 5857063
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M01.en - 14775232
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M01.ent - 1374122
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M01.pc - 596963432
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M02.en - 16263452
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M02.ent - 433092
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M02.pc - 571073078
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M03.en - 16502986
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M03.ent - 894898
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M03.pc - 549773999
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M06.en - 7296114
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M06.ent - 567829
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M06.pc - 588520254
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M07.en - 6744560
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M07.ent - 360327
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M07.pc - 585032928
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M08.en - 6301300
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M08.ent - 378457
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M08.pc - 530138818
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M09.en - 20567244
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M09.ent - 772584
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M09.pc - 583850867
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\m10.en - 17528166
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M10.ent - 668222
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\m10.pc - 589000850
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M11.en - 7852968
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M11.ent - 759744
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M11.pc - 570913596
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M12.en - 6024318
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M12.ent - 317593
+C:\Program Files (x86)\Eidos\Shellshock 2\envs\M12.pc - 523272088
+C:\Program Files (x86)\Eidos\Shellshock 2\fmv\attract.bik - 100455016
+C:\Program Files (x86)\Eidos\Shellshock 2\fmv\eidos.bik - 7190244
+C:\Program Files (x86)\Eidos\Shellshock 2\fmv\rebellion.bik - 4716160
+C:\Program Files (x86)\Eidos\Shellshock 2\fonts\CredFont.asr - 1054744
+C:\Program Files (x86)\Eidos\Shellshock 2\fonts\Fonts.asr - 1054136
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\beams.asr - 16704
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\logo.asr - 5736
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\fonts\Btn_PC.asr - 133096
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\specialfx\heathaze.bmp - 12344
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\specialfx\heathaze.dds - 2872
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\specialfx\partclfx.dds - 349680
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\specialfx\partclfx.tga - 1049115
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\Tools\Font.dds - 262272
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\ui\debugui.asr - 11232
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\ui\hud.asr - 15516
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\ui\sse.asr - 2568
+C:\Program Files (x86)\Eidos\Shellshock 2\graphics\ui\textures\cursor.dds - 1520
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\captured.gui - 272277
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\Common.gui - 673435
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\Credits.gui - 661900
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\DevMenus.gui - 528858
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\evac.gui - 272281
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\GUIAudio.asr - 80
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\host.gui - 272281
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\HUD.gui - 141324
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\hunted.gui - 272265
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\infection.gui - 272285
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\payback.gui - 272265
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\PC_Menus.gui - 165384
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\quarantine.gui - 272289
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\refuge.gui - 272265
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\SS2_InGameMenus.gui - 845568
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\trip.gui - 272253
+C:\Program Files (x86)\Eidos\Shellshock 2\GUIMenu\whiteknight.gui - 272289
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Banter.asr - 3824
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Common.asr - 8792660
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Sequences.asr - 815400
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Boot\Boot_Am.asr - 912
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Boot\Boot_En.asr - 944
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Cutscene\Cutscene_Am.asr - 36387
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Cutscene\Cutscene_En.asr - 36387
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Goals\Goals_Am.asr - 17444
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Goals\Goals_En.asr - 17436
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Menu\Menu_Am.asr - 48738
+C:\Program Files (x86)\Eidos\Shellshock 2\Misc\Menu\Menu_En.asr - 48822
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\GmSnd.asr - 62136350
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\GmSnd.en - 149696752
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\airfield_action_stereo_mastered.bik - 4111160
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\airfield_normal_stereo_mastered.bik - 3714908
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\airfield_trans_down_stereo_mastered.bik - 267052
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\airfield_trans_up_stereo_mastered.bik - 258260
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\battlefield_loop.bik - 3983736
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\battlefield_stereo_mastered_intro.bik - 15176
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\blood_room.bik - 1906244
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\bridge_area_action_stereo_mastered.bik - 5227512
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\bridge_area_normal_stereo_mastered.bik - 3301980
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\bridge_area_trans_down_stereo_mastered.bik - 250592
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\bridge_area_trans_up_stereo_mastered.bik - 261768
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\catacombs_action_stereo_mastered.bik - 4324600
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\catacombs_normal_stereo_mastered.bik - 3059336
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\catacombs_trans_down_stereo_mastered.bik - 187672
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\catacombs_trans_up_stereo_mastered.bik - 213128
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\colonial_house_action_stereo_mastered.bik - 7735264
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\colonial_house_normal_stereo_mastered.bik - 6425980
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\colonial_house_trans_down_stereo_mastered.bik - 241760
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\colonial_house_trans_up_stereo_mastered.bik - 244860
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\credits.bik - 11501804
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\disorientated_01.bik - 2961780
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\disorientated_02.bik - 2410340
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\env_frontend_ambience.bik - 2643708
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\factory_action_stereo_mastered.bik - 4677712
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\factory_normal_stereo_mastered.bik - 3474788
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\factory_trans_down_stereo_mastered.bik - 212812
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\frontend_temp.bik - 2716760
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\hillside_action_stereo_mastered.bik - 5920740
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\hillside_normal_stereo_mastered.bik - 3916988
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\hillside_trans_down_stereo_mastered.bik - 211664
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\hillside_trans_up_stereo_mastered.bik - 219680
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\jungle_action_stereo_mastered.bik - 6583700
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\jungle_normal_stereo_mastered.bik - 5618156
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\jungle_trans_down_stereo_mastered.bik - 198180
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\jungle_trans_up_stereo_mastered.bik - 216660
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\m02_airfield_tension_bit.bik - 396784
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\m09_caves_intro.bik - 271804
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\m11_river_action.bik - 8039644
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\m11_river_trans_up.bik - 110032
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\m11_tunnel_caves.bik - 3987340
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\m12_col_house_action.bik - 7767928
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\m12_col_house_loop.bik - 268488
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\mus_ghostly_001.bik - 4375384
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\mus_ghostly_002.bik - 3316888
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\mus_ghouls_001.bik - 3184512
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\mus_swells_001.bik - 1295648
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\mus_trippy_001.bik - 5249100
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\river_action_loop.bik - 8015640
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\river_action_loop_edit.bik - 8011424
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\river_area_normal_stereo_mastered.bik - 4665752
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\river_area_trans_down_stereo_mastered.bik - 219096
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\river_area_trans_up_stereo_mastered.bik - 227980
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\shock_01.bik - 88744
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\shock_03.bik - 134356
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\shock_edit.bik - 208388
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\sting_short_reveal_01.bik - 64732
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\sting_short_reveal_02.bik - 108012
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\sting_short_shock_01.bik - 170764
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\sting_short_shock_02.bik - 147712
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\sting_short_shock_03.bik - 91888
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\temple_action_stereo_mastered.bik - 5702004
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\temple_normal_stereo_mastered.bik - 4916520
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\temple_trans_down_stereo_mastered.bik - 195484
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\temple_trans_up_stereo_mastered.bik - 197820
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\torture_rooms_action_edit.bik - 5359908
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\torture_rooms_action_stereo_mastered.bik - 5364552
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\torture_rooms_normal_stereo_mastered.bik - 4284664
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\torture_rooms_normal_stereo_mix.bik - 4424236
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\torture_rooms_trans_down_stereo_mastered.bik - 225508
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\torture_rooms_trans_up_stereo_mastered.bik - 243172
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\tunnel_caves_action_stereo_mastered.bik - 5078528
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\tunnel_caves_normal_stereo_mastered.bik - 4000868
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\tunnel_caves_trans_down_stereo_mastered.bik - 159036
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\tunnel_caves_trans_up_stereo_mastered.bik - 163004
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\village_action_stereo_mastered.bik - 4703080
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\village_normal_stereo_mastered.bik - 3896440
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\village_trans_down_stereo_mastered.bik - 126532
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\music\village_trans_up_stereo_mastered.bik - 144364
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cal_griffin.bik - 448436
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cal_griffin_scene.bik - 882188
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs01b_01_a.bik - 136920
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs01d_01_a.bik - 523260
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs01_01_a.bik - 2003012
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs03_01.bik - 669308
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs04_02.bik - 1125664
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs08_02.bik - 523324
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs09_03.bik - 135172
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs10a_03.bik - 396368
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs10_03.bik - 836232
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs11_outro.bik - 970092
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs14_04.bik - 743052
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs16_04.bik - 558224
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs18_05.bik - 1194736
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs22_06.bik - 558528
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs23_06.bik - 627268
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs24a_07.bik - 448364
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs24_07.bik - 921512
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs25a_07.bik - 259844
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs25b_07.bik - 285008
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs25c_07.bik - 820828
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs25_07.bik - 465324
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs27_07.bik - 772996
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs28_08.bik - 1753756
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs30_08.bik - 494460
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs31_09.bik - 1043688
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs32_09.bik - 737892
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs34_10.bik - 557780
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs35_10.bik - 349876
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs37_10.bik - 518080
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs38_11.bik - 903484
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs41_12_part1.bik - 121016
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs41_12_part2.bik - 139552
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs41_12_part3.bik - 305056
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs42_12.bik - 1107716
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs43_12_01.bik - 517544
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs43_12_02.bik - 440408
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\CS_Get_to_Boat.bik - 128080
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\CS_Grenade_Setup.bik - 401520
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs_griffinbridge.bik - 353852
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs_m09_crash.bik - 170604
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs_m10_casper.bik - 146352
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs_m12_chopper.bik - 59788
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs_m12_compound.bik - 326976
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\cs_newtorture.bik - 828764
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\m02_chopper_shot.bik - 95604
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\m02_truck_crash.bik - 356232
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\m02_truck_leaves.bik - 327768
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\m02_truck_vo.bik - 270912
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\M06_CS_New_Start.bik - 372552
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\m09_outro.bik - 326684
+C:\Program Files (x86)\Eidos\Shellshock 2\Sounds\Streams\English\cutscene\m10_griffin.bik - 458796
+C:\Program Files (x86)\Eidos\Shellshock 2\WebLinks\Eidos.url - 110
+C:\Program Files (x86)\Eidos\Shellshock 2\WebLinks\Rebellion.url - 126
+C:\Program Files (x86)\Eidos\Shellshock 2\WebLinks\TechnicalSupport.url - 132
+
+UAC Disabled or not present
+

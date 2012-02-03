@@ -1,0 +1,53 @@
+Game Name: Puzzle Quest 2
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2
+
+Save Path:
+C:\Users\%USERNAME%\AppData\Local\Namco\Puzzle Quest 2
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 47540
+Value:InstallLocation
+Data:c:\program files (x86)\steam\steamapps\common\puzzlequest2
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Namco\Puzzle Quest 2\Steam
+Value:directory
+Data:c:\program files (x86)\steam\steamapps\common\puzzlequest2
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\AppData\Local\Namco\Puzzle Quest 2\Debug Logs\Puzzle Quest 2.txt - 2999558
+C:\Users\%USERNAME%\AppData\Local\Namco\Puzzle Quest 2\Saves\2011-01-02-19-57-11-761.PQ2 - 4508
+
+Install Folder Dump:
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\Assets.zip - 459486503
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\dxwebsetup.exe - 288088
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\fmodex.dll - 381440
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\fmod_event.dll - 307200
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\installscript.vdf - 876
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\Patch1.zip - 444636
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\Patch2.zip - 67129
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\PuzzleQuest2.exe - 7610368
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\PuzzleQuest2.exe.manifest - 382
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\steam_api.dll - 116056
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\steam_appid.txt - 9
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\vc2008redist_x86.exe - 1821192
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\reslists\precache.lst - 656
+C:\Program Files (x86)\Steam\steamapps\common\puzzlequest2\reslists\preload.lst - 656
+
+UAC Disabled or not present
+

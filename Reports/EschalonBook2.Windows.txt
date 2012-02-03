@@ -1,0 +1,55 @@
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Eschalon Book 2
+
+Save Path:
+C:\Users\%USERNAME%\AppData\Roaming\Basilisk Games\Book 2 Saved Games
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9D5DC01F-4D34-429D-BA49-20BEA75710C3}_is1
+Value:Inno Setup: App Path
+Data:C:\Program Files (x86)\Eschalon Book 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9D5DC01F-4D34-429D-BA49-20BEA75710C3}_is1
+Value:InstallLocation
+Data:C:\Program Files (x86)\Eschalon Book 2\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Eschalon Book 2\Eschalon Book 2.lnk
+C:\Program Files (x86)\Eschalon Book 2\book_2.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Eschalon Book 2\Uninstall Eschalon Book 2.lnk
+C:\Program Files (x86)\Eschalon Book 2\unins000.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\AppData\Roaming\Basilisk Games\Book 2 Saved Games\eb2.cfg - 137
+C:\Users\%USERNAME%\AppData\Roaming\Basilisk Games\Book 2 Saved Games\slot2\5050.ent - 5137
+C:\Users\%USERNAME%\AppData\Roaming\Basilisk Games\Book 2 Saved Games\slot2\5050.map - 269084
+C:\Users\%USERNAME%\AppData\Roaming\Basilisk Games\Book 2 Saved Games\slot2\5050.opq - 234
+C:\Users\%USERNAME%\AppData\Roaming\Basilisk Games\Book 2 Saved Games\slot2\char - 5416
+C:\Users\%USERNAME%\AppData\Roaming\Basilisk Games\Book 2 Saved Games\slot2\savename - 1267
+
+Install Folder Dump:
+C:\Program Files (x86)\Eschalon Book 2\book_2.exe - 3222528
+C:\Program Files (x86)\Eschalon Book 2\datapak - 289867858
+C:\Program Files (x86)\Eschalon Book 2\Eschalon Book II Players Manual.pdf - 1441551
+C:\Program Files (x86)\Eschalon Book 2\Eschalon World Map.jpg - 701288
+C:\Program Files (x86)\Eschalon Book 2\general.cfg - 1558
+C:\Program Files (x86)\Eschalon Book 2\launchscreenpak - 428490
+C:\Program Files (x86)\Eschalon Book 2\license.txt - 7348
+C:\Program Files (x86)\Eschalon Book 2\README.txt - 1363
+C:\Program Files (x86)\Eschalon Book 2\unins000.dat - 3845
+C:\Program Files (x86)\Eschalon Book 2\unins000.exe - 1197507
+
+UAC Disabled or not present
+

@@ -20,8 +20,8 @@ namespace MASGAU
         public bool     installed = false;
         public Dictionary<string,gfw_user> users = new Dictionary<string,gfw_user>();
 
-        public gfwLiveHandler(PathHandler paths) {
-            RegistryManager live = new RegistryManager(Microsoft.Win32.RegistryHive.LocalMachine,@"SOFTWARE\Classes\Software\Microsoft\XLive",false);
+        public gfwLiveHandler() {
+            RegistryHandler live = new RegistryHandler(RegRoot.local_machine,@"SOFTWARE\Classes\Software\Microsoft\XLive",false);
             if (live.key_found){
                 install_path = live.getValue("DashDir").TrimEnd('\\');
                 if (Directory.Exists(install_path)){
@@ -29,7 +29,7 @@ namespace MASGAU
                         installed = true;
                         DirectoryInfo data_dir, user_dir;
                         gfw_user new_user;
-                        foreach(KeyValuePair<string,user_data> user in paths.users) {
+                        foreach(KeyValuePair<string,user_data> user in WindowsLocationHandler.users) {
                             new_user.system_user = user.Value.name;
                             data_dir = new DirectoryInfo(Path.Combine(user.Value.local_app_data,"Microsoft\\XLive\\Content"));
                             if(data_dir.Exists) {

@@ -1,0 +1,115 @@
+Game Name: Broken Sword 4: The Angel of Death
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+
+Save Path: 
+UserDocuments\Broken Sword - The Angel of Death
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{ED63A5B2-5A7F-4C13-8605-5E2022D3EBBB}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{ED63A5B2-5A7F-4C13-8605-5E2022D3EBBB}
+Value: ConfigGDFBinaryPath
+Data: 10/17/2011 11:37:24 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\goggame.dll - 239104
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBROKENSWORD4
+Value: EXE
+Data: 9/21/2011 11:14:34 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\bs4pc.exe - 4797440
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBROKENSWORD4
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBROKENSWORD4
+Value: LAUNCHCOMMAND
+Data: 9/21/2011 11:14:34 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\bs4pc.exe - 4797440
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBROKENSWORD4
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBROKENSWORD4US
+Value: EXE
+Data: 9/21/2011 11:14:34 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\bs4pc.exe - 4797440
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBROKENSWORD4US
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBROKENSWORD4US
+Value: LAUNCHCOMMAND
+Data: 9/21/2011 11:14:34 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\bs4pc.exe - 4797440
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBROKENSWORD4US
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Broken Sword - The Angel of Death_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Broken Sword - The Angel of Death_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Revolution Software\Les Chevaliers de Baphomet 4\1.00.000
+Value: path
+Data: ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+12/19/2011 8:55:42 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Broken Sword - The Angel of Death\Broken Sword - The Angel of Death.lnk - 2259
+9/21/2011 11:14:34 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\bs4pc.exe - 4797440
+12/19/2011 8:55:42 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Broken Sword - The Angel of Death\Uninstall Broken Sword - The Angel of Death.lnk - 1202
+12/19/2011 8:53:19 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\unins000.exe - 2142547
+12/19/2011 8:55:37 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Broken Sword - The Angel of Death\Documents\Manual.lnk - 1328
+10/17/2011 10:57:36 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\manual.pdf - 6553145
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+12/19/2011 9:02:23 PM - UserDocuments\Broken Sword - The Angel of Death\Save Game - 2011-12-19 - 21-02-23 - Matthew, New York Bail Bonds George meets a new client, 00-04-21.BS4 - 918766
+
+Install Folder Dump: 
+8/14/2006 3:15:44 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\audio.pak - 263180854
+9/15/2006 4:15:38 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\binkw32.dll - 194560
+9/15/2006 4:15:38 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\binkw64.dll - 279040
+9/22/2011 11:45:16 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\bs4.pak - 1979623974
+9/21/2011 11:14:34 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\bs4pc.exe - 4797440
+8/14/2006 3:10:32 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\english.pak - 408731612
+10/17/2011 11:32:46 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\gfw_high.ico - 122483
+10/17/2011 11:37:24 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\goggame.dll - 239104
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\innosetup_license.txt - 1471
+10/17/2011 10:57:36 AM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\manual.pdf - 6553145
+9/15/2006 4:15:36 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\mss32.dll - 380416
+9/15/2006 4:15:36 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\mss64.dll - 598528
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\Support.ico - 62895
+12/19/2011 8:55:42 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\unins000.dat - 59416
+12/19/2011 8:53:19 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\unins000.exe - 2142547
+12/19/2011 8:55:42 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\unins000.ini - 158
+9/15/2006 4:50:56 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\compat.ini - 576
+9/15/2006 4:50:56 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\custom.ini - 1181
+9/15/2006 4:50:54 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\ExtrasMenu.ini - 6160
+9/15/2006 4:50:54 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\FinalExtrasMenu.ini - 754
+9/15/2006 4:50:56 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\asi\mssmp3.asi - 150016
+9/15/2006 4:50:56 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\asi\mssmp3.pdb - 420864
+9/15/2006 4:50:56 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\asi64\mss64mp3.asi - 191488
+9/15/2006 4:50:56 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\asi64\mss64mp3.pdb - 625664
+9/15/2006 4:50:56 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\asid\mssmp3d.asi - 200704
+9/15/2006 4:50:56 PM - ProgramFilesX86\GOG.com\Broken Sword - The Angel of Death\system\asid\mssmp3d.pdb - 519168
+
+UAC Enabled
+
+
+VirtualStore Folders: 

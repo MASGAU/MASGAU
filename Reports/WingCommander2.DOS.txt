@@ -1,0 +1,395 @@
+Game Name: Wing Commander II: Vengeance of the Kilrathi
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{6214614A-287D-4198-A6EA-A4F04BBA78E3}
+Value: ConfigGDFBinaryPath
+Data: 9/15/2011 11:09:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\goggame.dll - 230400
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER2
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER2
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER2
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+12/12/2011 12:15:58 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander 1 and 2\Wing Commander II\Documents\Manual.lnk - 1347
+3/11/2005 10:13:24 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\manual.pdf - 990901
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+12/12/2011 12:24:27 PM - VirtualStore\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\stderr.txt - 0
+12/12/2011 12:25:30 PM - VirtualStore\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\stdout.txt - 281
+
+Install Folder Dump: 
+6/30/2011 3:39:20 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\dosboxWC2.conf - 11011
+6/30/2011 2:18:20 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\gfw_high.ico - 114608
+9/15/2011 11:09:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\goggame.dll - 230400
+3/11/2005 10:13:24 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\manual.pdf - 990901
+12/12/2011 12:31:25 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\stderr.txt - 0
+12/12/2011 12:38:24 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\stdout.txt - 176
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\Support.ico - 62895
+12/25/1996 12:32:00 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\wc2.cfg - 15
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\WC2.EXE - 363696
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\ALTINT.001 - 105
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\ALTSHIPS.000 - 1490
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\ALTSHIPS.001 - 3219
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\ALTSHIPS.002 - 4701
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\ARROW.VGA - 513
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\ARTDATA.V00 - 493538
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\ARTDATA.V02 - 6712
+12/12/2011 12:36:22 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\AUTO.$$$ - 5936
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\BLOWBY.V00 - 16523
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\BRIEF.PAL - 670
+2/4/1995 9:12:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\BRIEFING.V00 - 82922
+2/4/1995 9:12:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\BUTTONS.V00 - 7260
+2/4/1995 9:12:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\CAMP.000 - 1706
+2/4/1995 9:12:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\CAMPAIGN.S00 - 20768
+2/4/1995 9:12:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\CAMPAIGN.S01 - 11037
+2/4/1995 9:12:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\CAMPAIGN.S02 - 19832
+2/4/1995 9:12:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\CLOSEUP.V00 - 605276
+2/4/1995 9:12:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\CLOSEUP.V01 - 53673
+2/4/1995 9:12:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\CLOSEUP.V02 - 55225
+2/4/1995 9:12:54 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COCKPIT.VGA - 26101
+2/4/1995 9:12:54 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S01 - 210683
+2/4/1995 9:12:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S03 - 195983
+2/4/1995 9:12:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S04 - 238583
+2/4/1995 9:12:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S06 - 384149
+2/4/1995 9:12:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S08 - 82002
+2/4/1995 9:12:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S09 - 357083
+2/4/1995 9:12:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S11 - 179182
+2/4/1995 9:12:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S12 - 150734
+2/4/1995 9:12:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S14 - 166583
+2/4/1995 9:12:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S15 - 126403
+2/4/1995 9:12:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S16 - 123103
+2/4/1995 9:12:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S17 - 131203
+2/4/1995 9:12:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S18 - 139605
+2/4/1995 9:12:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S19 - 163005
+2/4/1995 9:13:00 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S20 - 198711
+2/4/1995 9:13:00 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S21 - 205790
+2/4/1995 9:13:00 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S22 - 151935
+2/4/1995 9:13:00 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S23 - 184635
+2/4/1995 9:13:02 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S24 - 192135
+2/4/1995 9:13:02 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S25 - 178035
+2/4/1995 9:13:02 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S26 - 108133
+2/4/1995 9:13:02 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S27 - 112933
+2/4/1995 9:13:02 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S28 - 116054
+2/4/1995 9:13:04 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S29 - 82376
+2/4/1995 9:13:04 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S36 - 276764
+2/4/1995 9:13:04 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.S37 - 129237
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T01 - 465
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T03 - 449
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T04 - 537
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T06 - 773
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T08 - 490
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T09 - 545
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T11 - 519
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T12 - 342
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T14 - 468
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T15 - 570
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T16 - 602
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T17 - 579
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T18 - 496
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T19 - 511
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T20 - 654
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T21 - 655
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T22 - 341
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T23 - 349
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T24 - 348
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T25 - 337
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T26 - 284
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T27 - 271
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T28 - 271
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T29 - 233
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T36 - 613
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.T37 - 426
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.YOU - 609
+2/4/1995 9:13:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.YU2 - 609
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\COMMUNIC.YU3 - 609
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\CONTINUE.VGA - 12172
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\DESPAIR.V00 - 73087
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\DIFFLEVL.000 - 112
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\DOCK.V00 - 7161
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\DOORS.V00 - 184545
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\EJECT.V00 - 227287
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\EST.V20 - 7594
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\EST.V21 - 18994
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\EST.V22 - 17002
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\FF.V00 - 5283
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\FIELD.V00 - 18865
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\FIELD.V02 - 42406
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\FONTS.FNT - 23949
+2/4/1995 9:13:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\FUNER.V00 - 39881
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\FX.000 - 448
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\GAMEFLOW.S00 - 4144
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\GAMEFLOW.S01 - 2632
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\GAMEFLOW.S02 - 4580
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\HELMET.V00 - 47460
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\HELMET.V20 - 2125
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\HITDEMO.V00 - 178739
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INCIDENT.S00 - 190086
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INCIDENT.S01 - 38691
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INCIDENT.S02 - 54672
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INSULT.EXE - 31350
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INSULT2.EXE - 32794
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.001 - 105
+2/4/1995 9:13:12 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.003 - 105
+2/4/1995 9:13:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.004 - 105
+2/4/1995 9:13:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.006 - 105
+2/4/1995 9:13:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.009 - 105
+2/4/1995 9:13:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.011 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.012 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.014 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.022 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.023 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.024 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.025 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.028 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.029 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTEL.036 - 105
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.000 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.002 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.003 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.004 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.005 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.006 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.007 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.008 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.009 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.015 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.036 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.041 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\INTELSHP.050 - 89
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\JAZZRESC.V00 - 134976
+2/4/1995 9:13:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\KAMGOBYE.V00 - 3113
+2/4/1995 9:13:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\KISS.V20 - 155017
+2/4/1995 9:13:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAND.V30 - 11292
+2/4/1995 9:13:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAND.V39 - 7686
+2/4/1995 9:13:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V00 - 263033
+2/4/1995 9:13:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V01 - 94289
+2/4/1995 9:13:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V02 - 116738
+2/4/1995 9:13:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V03 - 133572
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V04 - 186447
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V05 - 58226
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V06 - 114479
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V10 - 10090
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V11 - 17836
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V12 - 23858
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V20 - 191112
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V21 - 170391
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V22 - 16430
+2/4/1995 9:13:20 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LANDGAME.V29 - 12587
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNCH.V00 - 510063
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNCH.V20 - 4415
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNCH.V21 - 22143
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNCH.V30 - 7269
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNCH.V31 - 13671
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNCH.V32 - 13671
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNCH.V39 - 3043
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V00 - 88034
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V01 - 29500
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V02 - 28509
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V03 - 46541
+2/4/1995 9:13:22 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V04 - 47732
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V05 - 9617
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V06 - 16615
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V07 - 42021
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V08 - 18565
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V11 - 13229
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V12 - 10632
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V20 - 29956
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V21 - 15003
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V22 - 26956
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V23 - 30316
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V24 - 12866
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V29 - 12587
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LAUNGAME.V39 - 12552
+2/4/1995 9:13:26 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LOGFILE.TXT - 139
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LOGO.V00 - 21213
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LOGO.V01 - 4982
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LOGO.V02 - 10981
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\LOVE.V00 - 165240
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MCSPARK.V00 - 159097
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MEDIUM.V00 - 336657
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MEDIUM.V01 - 23094
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MEDIUM.V02 - 31997
+12/12/2011 12:31:30 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MEM.$$$ - 954
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MESSAGE.V00 - 122
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDBACK.V00 - 61322
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDBACK.V01 - 9465
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDBACK.V02 - 12415
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDFACE.V00 - 83811
+2/4/1995 9:13:28 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDFACE.V01 - 19224
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDFACE.V02 - 35048
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDGAME.V00 - 339560
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDGAME.V02 - 90264
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDGAME.V03 - 87113
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDGAME.V08 - 206276
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MIDXFACE.V00 - 18604
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MISSILE.V00 - 11637
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MISSILE.V01 - 10660
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MODULE.000 - 177824
+2/4/1995 9:13:32 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MODULE.001 - 45295
+2/4/1995 9:13:34 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MODULE.002 - 177824
+2/4/1995 9:13:34 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MURDER.V00 - 236266
+2/4/1995 9:13:34 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MUSIC.A00 - 262797
+2/4/1995 9:13:34 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MUSIC.A01 - 8652
+2/4/1995 9:13:34 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MUSIC.A02 - 12779
+2/4/1995 9:13:34 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MUSIC.R00 - 351037
+2/4/1995 9:13:34 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MUSIC.R01 - 10404
+2/4/1995 9:13:34 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\MUSIC.R02 - 15377
+2/4/1995 9:13:36 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\NIVL.V00 - 82834
+2/4/1995 9:13:36 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\NUKE.VGA - 36611
+2/4/1995 9:13:36 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\OBJECTS.VGA - 235858
+2/4/1995 9:13:36 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\OPTIONS.V00 - 159736
+2/4/1995 9:13:36 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PALCOMM.S08 - 14874
+2/4/1995 9:13:36 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PALCOMM.S28 - 14874
+2/4/1995 9:13:36 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PALCOMM.T08 - 188
+2/4/1995 9:13:36 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PCSHIP.V00 - 114089
+2/4/1995 9:13:38 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PCSHIP.V01 - 103366
+2/4/1995 9:13:38 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PCSHIP.V02 - 125901
+2/4/1995 9:13:38 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PCSHIP.V03 - 109256
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PCSHIP.V04 - 118473
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PCSHIP.V15 - 114282
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PCSHIP.V41 - 101551
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V00 - 48195
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V01 - 33577
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V02 - 44418
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V03 - 70707
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V04 - 38033
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V05 - 38873
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V06 - 46262
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V07 - 27963
+2/4/1995 9:13:42 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V08 - 45486
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V09 - 38214
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V10 - 35437
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V11 - 33003
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V12 - 54577
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V13 - 56507
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V14 - 40005
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V15 - 34930
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V16 - 64511
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V17 - 45924
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V20 - 8286
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V21 - 15460
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V22 - 48206
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V30 - 38741
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V31 - 44674
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V32 - 40391
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V33 - 40836
+2/4/1995 9:13:44 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V38 - 15460
+2/4/1995 9:13:46 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PEOPLE.V39 - 8286
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PICKUP.V00 - 158265
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PILOTANM.VGA - 89230
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PLANETS.V00 - 20493
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PLANETS.V01 - 20493
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\PLANETS.V02 - 20493
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\POKER.V00 - 89915
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\POWERDN.V00 - 111927
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\README.DOC - 2227
+2/4/1995 9:13:48 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\REPBAY.V00 - 70838
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\REPBAY.V01 - 22721
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\RUN_ANIM.V00 - 42247
+12/12/2011 12:35:46 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SAVEGAME.WC2 - 15048
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SCREENS.V00 - 10421
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SCREENS.V01 - 3227
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SCREENS.V02 - 2441
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SECTOR.000 - 6
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SECTOR.002 - 5
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SERIES.S00 - 361808
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SERIES.S01 - 156568
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SERIES.S02 - 147124
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V00 - 78820
+2/4/1995 9:13:50 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V01 - 81656
+2/4/1995 9:13:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V02 - 90059
+2/4/1995 9:13:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V03 - 74657
+2/4/1995 9:13:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V04 - 77046
+2/4/1995 9:13:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V05 - 80105
+2/4/1995 9:13:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V06 - 78429
+2/4/1995 9:13:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V07 - 86365
+2/4/1995 9:13:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V08 - 77406
+2/4/1995 9:13:52 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V09 - 80755
+2/4/1995 9:13:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V10 - 79977
+2/4/1995 9:13:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V11 - 159436
+2/4/1995 9:13:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V12 - 124462
+2/4/1995 9:13:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V13 - 144694
+2/4/1995 9:13:56 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V15 - 112907
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V16 - 137216
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V17 - 141354
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V18 - 181200
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V19 - 131761
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V20 - 151386
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V21 - 145415
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V23 - 75329
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V24 - 152023
+2/4/1995 9:13:58 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V25 - 154833
+2/4/1995 9:14:00 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V26 - 134045
+2/4/1995 9:14:00 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V36 - 88694
+2/4/1995 9:14:00 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V41 - 88194
+2/4/1995 9:14:02 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V48 - 458681
+2/4/1995 9:14:02 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SHIP.V50 - 88694
+2/4/1995 9:14:02 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S00 - 638494
+2/4/1995 9:14:04 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S01 - 408084
+2/4/1995 9:14:04 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S02 - 338453
+2/4/1995 9:14:06 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S03 - 435968
+2/4/1995 9:14:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S04 - 717089
+2/4/1995 9:14:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S05 - 56409
+2/4/1995 9:14:08 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S10 - 429433
+2/4/1995 9:14:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S20 - 273904
+2/4/1995 9:14:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S21 - 133685
+2/4/1995 9:14:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SPEECH.S22 - 24456
+2/4/1995 9:14:10 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\STARS.000 - 520
+2/4/1995 9:14:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\STARTGLB.000 - 1538
+2/4/1995 9:14:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\STARTGLB.001 - 1538
+2/4/1995 9:14:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\STARTGLB.002 - 1538
+2/4/1995 9:14:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\STATIC.V30 - 2073
+2/4/1995 9:14:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\STRAIGHT.V00 - 52589
+2/4/1995 9:14:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\STRAX.DRV - 6462
+2/4/1995 9:14:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\SUPERTM.DRV - 87198
+12/12/2011 12:37:53 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TAPE.TMP - 280053
+12/12/2011 12:35:46 PM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TEMPGLOB.000 - 1538
+2/4/1995 9:14:14 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TEMPGLOB.002 - 1538
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TIGER.V00 - 507501
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TITLE.VGA - 122793
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TITLES.V00 - 11000
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TM.DRV - 28337
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TOAST.V99 - 214069
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TOSS.V20 - 6607
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\TRESC.V00 - 133746
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\VDU.V00 - 194550
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\VDU.V01 - 32780
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\VDU.V02 - 38068
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\WC2LOGO.VGA - 71719
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\WC2PAL - 1024
+2/4/1995 9:14:16 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\WING2.TIM - 21865
+2/4/1995 9:14:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\WINGMAN.V00 - 34522
+2/4/1995 9:14:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\WORMHOLE.V01 - 12632
+2/4/1995 9:14:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\XHT.V00 - 9814
+2/4/1995 9:14:18 AM - ProgramFilesX86\GOG.com\Wing Commander 1 and 2\WC2\GAMEDAT\YAHOO.V00 - 377984
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+12/12/2011 12:24:27 PM - VirtualStore\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\stderr.txt - 0
+12/12/2011 12:25:30 PM - VirtualStore\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\stdout.txt - 281

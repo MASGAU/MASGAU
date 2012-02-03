@@ -1,0 +1,175 @@
+Game Name: Simon the Sorcerer
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{0F30980C-6504-4FE2-B8FF-EE38B80CF413}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{0F30980C-6504-4FE2-B8FF-EE38B80CF413}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{D75D6DC5-3803-45F0-A9EE-C9804E5CC51E}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{D75D6DC5-3803-45F0-A9EE-C9804E5CC51E}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer\scummvm.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer\scummvm.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON2
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\scummvm.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON2
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON2
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\scummvm.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIMON2
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Simon the Sorcerer 2_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Simon the Sorcerer 2_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Simon the Sorcerer_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Simon the Sorcerer_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Simon the Sorcerer\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer\Simon the Sorcerer.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\scummvm.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer\Uninstall Simon the Sorcerer.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer\Documents\Walkthrough.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer\walkthrough.doc
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer 2\Simon the Sorcerer 2.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\ScummVM\scummvm.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer 2\Uninstall Simon the Sorcerer 2.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Simon the Sorcerer 2\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Simon the Sorcerer 2\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/29/2011 3:02:14 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer\simon1.001 - 778
+11/29/2011 3:00:27 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer\simon1.ini - 618
+
+Install Folder Dump:
+12/5/2008 1:18:12 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\game.ico - 2238
+2/1/1996 4:18:28 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\GAMEPC - 36152
+12/8/2008 2:23:34 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\gfw_high.ico - 119919
+9/22/2010 2:36:34 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\goggame.dll - 287744
+9/1/1993 9:50:48 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ICON.DAT - 14361
+11/28/2008 11:32:10 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\innosetup_license.txt - 1471
+11/5/1998 3:08:16 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\manual.pdf - 1377880
+2/6/1996 10:04:00 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX02 - 213908
+2/6/1996 10:04:22 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX03 - 172478
+2/6/1996 10:04:28 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX04 - 281658
+2/6/1996 10:04:34 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX05 - 602632
+2/6/1996 10:04:40 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX06 - 185706
+2/6/1996 10:04:44 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX07 - 144598
+2/6/1996 10:04:50 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX08 - 198240
+2/6/1996 10:04:54 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX09 - 82836
+2/6/1996 10:05:00 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX10 - 137096
+2/6/1996 10:05:06 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX11 - 71358
+2/6/1996 10:05:10 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX12 - 254618
+2/19/1996 3:33:46 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX13 - 245210
+2/6/1996 10:05:20 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX14 - 91162
+2/19/1996 3:37:38 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX15 - 441822
+2/6/1996 10:05:30 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX16 - 201114
+2/6/1996 10:05:36 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX17 - 337438
+2/6/1996 10:05:42 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX18 - 172478
+2/6/1996 10:05:46 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX19 - 172478
+2/6/1996 10:05:50 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX20 - 189804
+2/6/1996 10:05:56 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX21 - 371292
+2/6/1996 10:06:00 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX22 - 212580
+2/6/1996 10:06:04 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX23 - 256384
+2/6/1996 10:06:08 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX24 - 53136
+2/6/1996 10:06:12 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX25 - 144830
+2/6/1996 10:06:16 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX26 - 269732
+2/6/1996 10:06:20 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX27 - 184098
+2/6/1996 10:06:24 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX28 - 155624
+2/6/1996 10:06:30 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SFXXXX29 - 644710
+2/20/1996 9:14:12 AM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\SIMON.GME - 7030377
+11/21/1995 10:24:50 AM - C:\Program Files (x86)\GOG..com\Simon the Sorcerer\SIMON.WAV - 170374592
+11/29/2011 2:45:08 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\simon1.ini - 582
+2/1/1996 4:18:16 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\STRIPPED.TXT - 252
+4/20/2010 1:37:04 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\Support.ico - 62895
+2/1/1996 4:18:28 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\TBLLIST - 711
+11/29/2011 2:45:08 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\unins000.dat - 56787
+11/29/2011 2:44:51 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\unins000.exe - 2142547
+11/29/2011 2:45:08 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\unins000.ini - 64
+12/8/2008 2:32:08 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\walkthrough.doc - 55808
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\AUTHORS.txt - 15063
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\COPYING.LGPL.txt - 27032
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\COPYING.txt - 18353
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\COPYRIGHT.txt - 4538
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\drascula.dat - 218403
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\kyra.dat - 353834
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\lure.dat - 637824
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\NEWS.txt - 41723
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\pred.dic - 134467
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\queen.tbl - 1084522
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\README-SDL.txt - 438
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\README.txt - 89848
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\scummmodern.zip - 159965
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\scummvm.exe - 10947072
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\SDL.dll - 324096
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\sky.cpt - 419427
+4/30/2010 12:41:58 PM - C:\Program Files (x86)\GOG.com\Simon the Sorcerer\ScummVM\teenagent.dat - 70047
+
+UAC Enabled
+
+
+VirtualStore Folders:
+11/29/2011 3:02:14 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer\simon1.001 - 778
+11/29/2011 3:00:27 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Simon the Sorcerer\simon1.ini - 618

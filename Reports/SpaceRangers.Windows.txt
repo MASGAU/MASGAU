@@ -1,0 +1,292 @@
+Game Name: Space Rangers
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Space Rangers
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers\Save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{409C77C9-4E8A-4096-B2C2-9091D16E02D1}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{409C77C9-4E8A-4096-B2C2-9091D16E02D1}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{95BF48C9-F259-4C52-A685-0490B9FE4C46}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{95BF48C9-F259-4C52-A685-0490B9FE4C46}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Elemental Games\Space Rangers
+Value: Path
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\Rangers.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\Rangers.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS2
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\Rangers.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS2
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS2
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\Rangers.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSPACERANGERS2
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Space Rangers
+Value: UninstallString
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\unins000.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Space Rangers 2 - Dominators_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Space Rangers 2 - Dominators_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Space Rangers 2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Space Rangers_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Space Rangers
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Space Rangers_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Space Rangers\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers\Configure.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers\setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers\Space Rangers.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers\Rangers.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers\Uninstall Space Rangers.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers\Documents\Readme.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers\Readme.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers 2 - Dominators\Space Rangers 2 - Dominators.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers 2\Rangers.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers 2 - Dominators\Uninstall Space Rangers 2 - Dominators.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers 2\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Space Rangers 2 - Dominators\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Space Rangers 2\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/21/2011 3:00:17 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers\Save\00.sav - 815260
+11/21/2011 3:00:26 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers\Save\05.sav - 815258
+
+Install Folder Dump:
+5/17/2010 10:52:14 AM - C:\Program Files (x86)\GOG.com\Space Rangers\cfg.txt - 573
+1/14/2002 6:46:48 PM - C:\Program Files (x86)\GOG.com\Space Rangers\DebugMsg.dll - 245809
+5/26/2010 1:25:42 PM - C:\Program Files (x86)\GOG.com\Space Rangers\gfw_high.ico - 133350
+11/8/2010 5:57:08 PM - C:\Program Files (x86)\GOG.com\Space Rangers\goggame.dll - 265728
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\Space Rangers\innosetup_license.txt - 1471
+5/17/2010 10:52:14 AM - C:\Program Files (x86)\GOG.com\Space Rangers\install.txt - 794
+5/17/2010 10:42:40 AM - C:\Program Files (x86)\GOG.com\Space Rangers\manual.pdf - 17185398
+9/13/2004 5:43:16 PM - C:\Program Files (x86)\GOG.com\Space Rangers\OKGF.dll - 696320
+7/15/2000 10:12:46 AM - C:\Program Files (x86)\GOG.com\Space Rangers\OKMPA.DLL - 172032
+7/15/2000 10:12:46 AM - C:\Program Files (x86)\GOG.com\Space Rangers\OKMPB.DLL - 172032
+2/15/2006 1:36:22 PM - C:\Program Files (x86)\GOG.com\Space Rangers\Rangers.exe - 2371072
+5/17/2010 12:23:48 PM - C:\Program Files (x86)\GOG.com\Space Rangers\setup.exe - 1238016
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Space Rangers\Support.ico - 62895
+11/21/2011 2:57:53 AM - C:\Program Files (x86)\GOG.com\Space Rangers\unins000.dat - 57456
+11/21/2011 2:56:54 AM - C:\Program Files (x86)\GOG.com\Space Rangers\unins000.exe - 2142547
+11/21/2011 2:57:53 AM - C:\Program Files (x86)\GOG.com\Space Rangers\unins000.ini - 78
+9/2/2004 9:25:42 PM - C:\Program Files (x86)\GOG.com\Space Rangers\xvidcore.dll - 499712
+2/15/2006 1:38:40 PM - C:\Program Files (x86)\GOG.com\Space Rangers\cfg\CacheData.dat - 24842
+2/15/2006 1:38:38 PM - C:\Program Files (x86)\GOG.com\Space Rangers\cfg\eng.dat - 173616
+2/15/2006 1:38:40 PM - C:\Program Files (x86)\GOG.com\Space Rangers\cfg\main.dat - 70911
+9/25/2003 10:54:30 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\1captain.pkg - 5274379
+2/15/2006 1:25:58 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\1CenegaLogo.gi - 4739
+9/25/2003 10:54:38 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\1gov.pkg - 35127134
+9/25/2003 10:54:42 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\1Hangar.pkg - 13715904
+9/25/2003 10:54:46 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\1Items.pkg - 10477337
+5/13/2005 7:43:16 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\1main.pkg - 47043159
+12/2/2002 4:22:46 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\1TitleEng.png - 135347
+9/25/2003 10:55:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\2captain.pkg - 8594248
+2/12/2006 8:45:28 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\2CenegaLogo.gi - 5626
+9/25/2003 10:55:14 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\2gov.pkg - 53307651
+9/25/2003 10:55:18 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\2Hangar.pkg - 16806648
+9/25/2003 10:55:22 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\2Items.pkg - 13309214
+5/13/2005 7:42:46 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\2main.pkg - 65891137
+10/26/2002 9:55:02 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\2TitleEng.png - 216181
+11/24/2004 7:02:18 AM - C:\Program Files (x86)\GOG.com\Space Rangers\data\Cenega.dat - 654524
+2/12/2006 1:29:02 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\Cenega.vdo - 673792
+4/29/2005 8:56:14 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\common.pkg - 79796275
+9/25/2003 10:56:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\ShipFull.pkg - 18541238
+9/25/2003 10:56:02 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\ShipSmall.pkg - 7692254
+9/25/2003 10:56:04 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\sound.pkg - 16533670
+9/25/2003 10:56:08 PM - C:\Program Files (x86)\GOG.com\Space Rangers\data\Star.pkg - 15069659
+10/18/2002 6:06:06 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\1c.dat - 333113
+5/24/2000 2:06:40 AM - C:\Program Files (x86)\GOG.com\Space Rangers\music\BATTLE\Boy1.dat - 1022067
+1/18/2002 11:59:24 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\BATTLE\fight2.dat - 1275731
+8/8/2000 5:11:54 AM - C:\Program Files (x86)\GOG.com\Space Rangers\music\BATTLE\psr_track02.dat - 1313355
+2/19/1999 3:58:04 AM - C:\Program Files (x86)\GOG.com\Space Rangers\music\FLY\Awakening.dat - 4086148
+6/8/2002 11:58:46 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\FLY\Beyond_reach.dat - 4124967
+1/17/2002 10:38:08 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\FLY\fly12.dat - 3798998
+2/20/2001 11:35:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\FLY\FLY3.dat - 3449963
+11/30/1999 11:04:54 AM - C:\Program Files (x86)\GOG.com\Space Rangers\music\FLY\LONGWAY.dat - 3575892
+6/29/2000 11:44:10 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\FLY\Surf.dat - 2962572
+1/2/2001 4:26:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers\music\FLY\TRASH.dat - 4317810
+6/30/2000 4:20:50 AM - C:\Program Files (x86)\GOG.com\Space Rangers\music\PLANET\COSMIC.dat - 1479771
+7/1/2000 4:56:06 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\PLANET\COSMIC2.dat - 2620982
+2/14/2001 4:17:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\PLANET\FEI1.dat - 4147954
+2/7/2001 11:22:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\PLANET\GAAL.dat - 2697636
+1/20/2001 6:25:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\PLANET\MALLOC4.dat - 1641035
+3/27/2001 1:10:00 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\PLANET\PEOPLE.dat - 3070456
+8/23/2000 12:16:18 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\PLANET\WEAPON.dat - 1348379
+4/17/2001 1:10:00 AM - C:\Program Files (x86)\GOG.com\Space Rangers\music\QUESTS\gladiator.dat - 2007149
+1/7/2001 2:32:54 PM - C:\Program Files (x86)\GOG.com\Space Rangers\music\SPECIAL\HYMN.dat - 3314456
+7/15/2000 2:04:26 AM - C:\Program Files (x86)\GOG.com\Space Rangers\music\SPECIAL\TRIUMPH.dat - 1223366
+
+UAC Enabled
+
+
+VirtualStore Folders:
+11/21/2011 2:58:49 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers\########.log - 2821
+11/21/2011 3:00:17 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers\Save\00.sav - 815260
+11/21/2011 3:00:26 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Space Rangers\Save\05.sav - 815258
+
+Game Name: Space Rangers
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Games\Steam\steamapps\common\space rangers
+
+Save Path: 
+C:\Games\Steam\steamapps\common\space rangers\Save
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Elemental Games\Space Rangers
+Value: Path
+Data: c:\games\steam\steamapps\common\space rangers\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 46320
+Value: InstallLocation
+Data: c:\games\steam\steamapps\common\space rangers
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\IntelliType Pro\AppSpecific\Rangers.exe
+Value: Path
+Data: C:\Games\Steam\steamapps\common\space rangers\Rangers.exe
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Games\Steam\steamapps\common\space rangers\Save\00.sav - 776003
+
+Install Folder Dump: 
+C:\Games\Steam\steamapps\common\space rangers\########.log - 2622
+C:\Games\Steam\steamapps\common\space rangers\1C.url - 49
+C:\Games\Steam\steamapps\common\space rangers\46320_install.vdf - 475
+C:\Games\Steam\steamapps\common\space rangers\Cenega.url - 47
+C:\Games\Steam\steamapps\common\space rangers\cfg.txt - 581
+C:\Games\Steam\steamapps\common\space rangers\DebugMsg.dll - 245809
+C:\Games\Steam\steamapps\common\space rangers\install.log - 1207
+C:\Games\Steam\steamapps\common\space rangers\install.txt - 794
+C:\Games\Steam\steamapps\common\space rangers\OKGF.dll - 696320
+C:\Games\Steam\steamapps\common\space rangers\OKMPA.DLL - 172032
+C:\Games\Steam\steamapps\common\space rangers\OKMPB.DLL - 172032
+C:\Games\Steam\steamapps\common\space rangers\Rangers.exe - 2371072
+C:\Games\Steam\steamapps\common\space rangers\readme_eng.chm - 2705823
+C:\Games\Steam\steamapps\common\space rangers\setup.exe - 1238016
+C:\Games\Steam\steamapps\common\space rangers\xvidcore.dll - 499712
+C:\Games\Steam\steamapps\common\space rangers\cfg\CacheData.dat - 24842
+C:\Games\Steam\steamapps\common\space rangers\cfg\eng.dat - 173616
+C:\Games\Steam\steamapps\common\space rangers\cfg\main.dat - 70911
+C:\Games\Steam\steamapps\common\space rangers\data\1captain.pkg - 5274379
+C:\Games\Steam\steamapps\common\space rangers\data\1CenegaLogo.gi - 4739
+C:\Games\Steam\steamapps\common\space rangers\data\1gov.pkg - 35127134
+C:\Games\Steam\steamapps\common\space rangers\data\1Hangar.pkg - 13715904
+C:\Games\Steam\steamapps\common\space rangers\data\1Items.pkg - 10477337
+C:\Games\Steam\steamapps\common\space rangers\data\1main.pkg - 47043159
+C:\Games\Steam\steamapps\common\space rangers\data\1TitleEng.png - 135347
+C:\Games\Steam\steamapps\common\space rangers\data\2captain.pkg - 8594248
+C:\Games\Steam\steamapps\common\space rangers\data\2CenegaLogo.gi - 5626
+C:\Games\Steam\steamapps\common\space rangers\data\2gov.pkg - 53307651
+C:\Games\Steam\steamapps\common\space rangers\data\2Hangar.pkg - 16806648
+C:\Games\Steam\steamapps\common\space rangers\data\2Items.pkg - 13309214
+C:\Games\Steam\steamapps\common\space rangers\data\2main.pkg - 65891137
+C:\Games\Steam\steamapps\common\space rangers\data\2TitleEng.png - 216181
+C:\Games\Steam\steamapps\common\space rangers\data\Cenega.dat - 654524
+C:\Games\Steam\steamapps\common\space rangers\data\Cenega.vdo - 673792
+C:\Games\Steam\steamapps\common\space rangers\data\common.pkg - 79796275
+C:\Games\Steam\steamapps\common\space rangers\data\ShipFull.pkg - 18541238
+C:\Games\Steam\steamapps\common\space rangers\data\ShipSmall.pkg - 7692254
+C:\Games\Steam\steamapps\common\space rangers\data\sound.pkg - 16533670
+C:\Games\Steam\steamapps\common\space rangers\data\Star.pkg - 15069659
+C:\Games\Steam\steamapps\common\space rangers\music\1c.dat - 333113
+C:\Games\Steam\steamapps\common\space rangers\music\BATTLE\Boy1.dat - 1022067
+C:\Games\Steam\steamapps\common\space rangers\music\BATTLE\fight2.dat - 1275731
+C:\Games\Steam\steamapps\common\space rangers\music\BATTLE\psr_track02.dat - 1313355
+C:\Games\Steam\steamapps\common\space rangers\music\FLY\Awakening.dat - 4086148
+C:\Games\Steam\steamapps\common\space rangers\music\FLY\Beyond_reach.dat - 4124967
+C:\Games\Steam\steamapps\common\space rangers\music\FLY\fly12.dat - 3798998
+C:\Games\Steam\steamapps\common\space rangers\music\FLY\FLY3.dat - 3449963
+C:\Games\Steam\steamapps\common\space rangers\music\FLY\LONGWAY.dat - 3575892
+C:\Games\Steam\steamapps\common\space rangers\music\FLY\Surf.dat - 2962572
+C:\Games\Steam\steamapps\common\space rangers\music\FLY\TRASH.dat - 4317810
+C:\Games\Steam\steamapps\common\space rangers\music\PLANET\COSMIC.dat - 1479771
+C:\Games\Steam\steamapps\common\space rangers\music\PLANET\COSMIC2.dat - 2620982
+C:\Games\Steam\steamapps\common\space rangers\music\PLANET\FEI1.dat - 4147954
+C:\Games\Steam\steamapps\common\space rangers\music\PLANET\GAAL.dat - 2697636
+C:\Games\Steam\steamapps\common\space rangers\music\PLANET\MALLOC4.dat - 1641035
+C:\Games\Steam\steamapps\common\space rangers\music\PLANET\PEOPLE.dat - 3070456
+C:\Games\Steam\steamapps\common\space rangers\music\PLANET\WEAPON.dat - 1348379
+C:\Games\Steam\steamapps\common\space rangers\music\QUESTS\gladiator.dat - 2007149
+C:\Games\Steam\steamapps\common\space rangers\music\SPECIAL\HYMN.dat - 3314456
+C:\Games\Steam\steamapps\common\space rangers\music\SPECIAL\TRIUMPH.dat - 1223366
+C:\Games\Steam\steamapps\common\space rangers\Save\00.sav - 776003
+
+UAC Enabled
+
+
+VirtualStore Folders: 

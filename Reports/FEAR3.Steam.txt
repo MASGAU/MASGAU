@@ -1,0 +1,111 @@
+Comments:
+  <game name="Fear3" platform="Steam">
+    <title>F.E.A.R. 3 (F.3.A.R)</title>
+    <location_path environment_variable="steamuserdata" path="21100" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: F.E.A.R. 3
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3
+
+Save Path: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\21100
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 21100
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\f.e.a.r. 3
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\21100\local\FEAR30.dsSave - 524288
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\21100\local\FEAR31.dsSave - 524288
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\21100\local\User.profile - 66480
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\21100\local\VARIANTS.VAR - 128182
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\binkw32.dll - 214016
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\F.E.A.R. 3.exe - 22407256
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\fmodex.dll - 423936
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\InstallScript.vdf - 1273
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Aug2009_D3DCompiler_42_x86.cab - 900598
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\DSETUP.dll - 89944
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\dsetup32.dll - 1801048
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\dxdllreg_x86.cab - 42410
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\DXSETUP.exe - 537432
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\dxupdate.cab - 94011
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Jun2010_D3DCompiler_43_x86.cab - 931471
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Jun2010_d3dcsx_43_x86.cab - 762188
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Jun2010_d3dx10_43_x86.cab - 197283
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Jun2010_d3dx11_43_x86.cab - 109445
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Jun2010_d3dx9_43_x86.cab - 768036
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Jun2010_XACT_x86.cab - 93686
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Jun2010_XAudio_x86.cab - 278060
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Bin\x64\D3D11Install.exe - 212824
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Bin\x64\D3D11InstallHelper.dll - 59736
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Bin\x86\D3D11Install.exe - 203608
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\directx\Bin\x86\D3D11InstallHelper.dll - 53592
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\vcredist\vcredist_x64.exe - 4961800
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\redist\vcredist\vcredist_x86.exe - 4216840
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Audio.dsPack - 415760384
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Boot.dsPack - 103219200
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\DLC_MP1.dsPack - 67469312
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\DLC_MP2.dsPack - 112132096
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Patch.dsPack - 15761408
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Preloads.dsPack - 12419072
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Resource.dsPack - 1764655104
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\ResVersion.txt - 130
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Localized\Audio\English.dsPack - 90734592
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0101.bik - 201089484
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0102.bik - 49416648
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_01WR.bik - 20771960
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0201.bik - 2445876
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0202.bik - 42700316
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_02WR.bik - 21166872
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0301.bik - 81197372
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0302.bik - 47382412
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_03WR.bik - 20836384
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0401.bik - 38611052
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0402.bik - 83783720
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0403.bik - 92102672
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_04WR.bik - 21039220
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0501.bik - 46820404
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0502.bik - 49603660
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_05WR.bik - 21559216
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0601.bik - 75532188
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0602.bik - 53125652
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_06WR.bik - 22209064
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0701.bik - 38814120
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0702.bik - 187893872
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0801.bik - 100594352
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0801b.bik - 35411452
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0802.bik - 32527508
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0802_RESULT.bik - 68598868
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0803.bik - 88623424
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0804.bik - 90956832
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_0805.bik - 11651276
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\CS_08WR.bik - 128090728
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\HarlanVO_Distressed.bik - 3003636
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\LogoTrain.bik - 7137656
+C:\Program Files (x86)\Steam\steamapps\common\f.e.a.r. 3\resources\Streamed\WardRoom_UI_MasterScene_Montage.bik - 47205592
+
+UAC Disabled or not present
+

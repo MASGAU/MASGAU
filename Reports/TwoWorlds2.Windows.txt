@@ -1,0 +1,281 @@
+Comments:
+  <game name="TwoWorldsII" platform="Windows">
+    <title>Two Worlds II</title>
+    <location_path environment_variable="savedgames" path="Two Worlds II" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Two Worlds II
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii
+
+Save Path: 
+C:\Users\%USERNAME%\Saved Games\Two Worlds II
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 7520
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\two worlds ii
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\FileSystem
+Value: DataPath
+Data: c:\program files (x86)\steam\steamapps\common\two worlds ii
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\FileSystem
+Value: OutputDir
+Data: c:\program files (x86)\steam\steamapps\common\two worlds ii
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\Installer
+Value: UninstallFolder
+Data: c:\program files (x86)\steam\steamapps\common\two worlds ii
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Saved Games\Two Worlds II\000000.TwoWorldsIISave - 669860
+C:\Users\%USERNAME%\Saved Games\Two Worlds II\000002.TwoWorldsIISave - 663411
+C:\Users\%USERNAME%\Saved Games\Two Worlds II\000003.TwoWorldsIISave - 682576
+C:\Users\%USERNAME%\Saved Games\Two Worlds II\000004.TwoWorldsIISave - 1299144
+C:\Users\%USERNAME%\Saved Games\Two Worlds II\000005.TwoWorldsIISave - 1290180
+C:\Users\%USERNAME%\Saved Games\Two Worlds II\090000.TwoWorldsIISave - 1290163
+C:\Users\%USERNAME%\Saved Games\Two Worlds II\090002.TwoWorldsIISave - 678524
+C:\Users\%USERNAME%\Saved Games\Two Worlds II\090003.TwoWorldsIISave - 1293385
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\7520_install.vdf - 2143
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Manual.pdf - 8180336
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\MXVideoEngine.dll - 1432760
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Readme.txt - 7190
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\TwoWorlds2.exe - 10796032
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\TwoWorlds2.exe.old - 10776576
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\TwoWorlds2_DX10.exe - 10796032
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\XAudio2SoundEngine.dll - 1498808
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2005_d3dx9_25_x64.cab - 1347354
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2005_d3dx9_25_x86.cab - 1078962
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2006_d3dx9_30_x64.cab - 1397830
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2006_MDX1_x86.cab - 916430
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162630
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2006_XACT_x64.cab - 179133
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2006_XACT_x86.cab - 133103
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2006_xinput_x64.cab - 87101
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Apr2006_xinput_x86.cab - 46010
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\APR2007_d3dx10_33_x64.cab - 698612
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\APR2007_d3dx10_33_x86.cab - 695865
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\APR2007_d3dx9_33_x64.cab - 1607358
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\APR2007_d3dx9_33_x86.cab - 1606039
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\APR2007_XACT_x64.cab - 195766
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\APR2007_XACT_x86.cab - 151225
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\APR2007_xinput_x64.cab - 96817
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2005_d3dx9_27_x64.cab - 1350542
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2006_XACT_x64.cab - 182903
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2006_XACT_x86.cab - 137235
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2006_xinput_x64.cab - 87142
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2006_xinput_x86.cab - 46058
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2007_d3dx10_35_x64.cab - 852286
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2007_d3dx10_35_x86.cab - 796867
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2007_d3dx9_35_x64.cab - 1800160
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2007_d3dx9_35_x86.cab - 1708152
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2007_XACT_x64.cab - 198096
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\AUG2007_XACT_x86.cab - 153012
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2008_d3dx10_39_x64.cab - 867612
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2008_d3dx10_39_x86.cab - 849167
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2008_d3dx9_39_x64.cab - 1794084
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2008_d3dx9_39_x86.cab - 1464672
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2008_XACT_x64.cab - 121772
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2008_XACT_x86.cab - 92996
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2008_XAudio_x64.cab - 271412
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2008_XAudio_x86.cab - 271038
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_D3DCompiler_42_x64.cab - 919044
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_D3DCompiler_42_x86.cab - 900598
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_d3dcsx_42_x64.cab - 3112111
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_d3dcsx_42_x86.cab - 3319740
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_d3dx10_42_x64.cab - 232635
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_d3dx10_42_x86.cab - 192131
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_d3dx11_42_x64.cab - 136301
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_d3dx11_42_x86.cab - 105044
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_d3dx9_42_x64.cab - 930116
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_d3dx9_42_x86.cab - 728456
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_XACT_x64.cab - 122408
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_XACT_x86.cab - 93106
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_XAudio_x64.cab - 273264
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Aug2009_XAudio_x86.cab - 272642
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Dec2005_d3dx9_28_x64.cab - 1357976
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Dec2005_d3dx9_28_x86.cab - 1079456
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\DEC2006_d3dx10_00_x64.cab - 212807
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\DEC2006_d3dx10_00_x86.cab - 191720
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\DEC2006_d3dx9_32_x64.cab - 1571154
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\DEC2006_XACT_x64.cab - 192475
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\DEC2006_XACT_x86.cab - 145599
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\DSETUP.dll - 89944
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\dsetup32.dll - 1801048
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\dxdllreg_x86.cab - 42410
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\DXSETUP.exe - 537432
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\dxupdate.cab - 94011
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2005_d3dx9_24_x64.cab - 1247499
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2005_d3dx9_24_x86.cab - 1013225
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2006_d3dx9_29_x64.cab - 1362796
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2006_d3dx9_29_x86.cab - 1084720
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2006_XACT_x64.cab - 178359
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2006_XACT_x86.cab - 132409
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\FEB2007_XACT_x64.cab - 194675
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\FEB2007_XACT_x86.cab - 147983
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2010_X3DAudio_x64.cab - 54678
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2010_X3DAudio_x86.cab - 20713
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2010_XACT_x64.cab - 122446
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2010_XACT_x86.cab - 93180
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2010_XAudio_x64.cab - 276960
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Feb2010_XAudio_x86.cab - 277191
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2005_d3dx9_26_x64.cab - 1336002
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2005_d3dx9_26_x86.cab - 1064925
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2006_XACT_x64.cab - 180785
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2006_XACT_x86.cab - 133671
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2007_d3dx10_34_x64.cab - 699044
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2007_d3dx10_34_x86.cab - 698472
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2007_d3dx9_34_x64.cab - 1607774
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2007_d3dx9_34_x86.cab - 1607286
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2007_XACT_x64.cab - 197122
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2007_XACT_x86.cab - 152909
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_d3dx10_38_x64.cab - 867828
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_d3dx9_38_x64.cab - 1792608
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_X3DAudio_x64.cab - 55154
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_X3DAudio_x86.cab - 21905
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_XACT_x64.cab - 121054
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_XACT_x86.cab - 93128
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_XAudio_x64.cab - 269628
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\JUN2008_XAudio_x86.cab - 269024
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_D3DCompiler_43_x64.cab - 944460
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_D3DCompiler_43_x86.cab - 931471
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_d3dcsx_43_x64.cab - 752783
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_d3dcsx_43_x86.cab - 762188
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_d3dx10_43_x64.cab - 235955
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_d3dx10_43_x86.cab - 197283
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_d3dx11_43_x64.cab - 138205
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_d3dx11_43_x86.cab - 109445
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_d3dx9_43_x64.cab - 937246
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_d3dx9_43_x86.cab - 768036
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_XACT_x64.cab - 124596
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_XACT_x86.cab - 93686
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_XAudio_x64.cab - 277338
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Jun2010_XAudio_x86.cab - 278060
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_d3dx10_37_x64.cab - 844884
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_d3dx10_37_x86.cab - 818260
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_d3dx9_37_x64.cab - 1769862
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_d3dx9_37_x86.cab - 1443282
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_X3DAudio_x64.cab - 55058
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_XACT_x64.cab - 122336
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_XACT_x86.cab - 93734
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_XAudio_x64.cab - 251194
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2008_XAudio_x86.cab - 226250
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_d3dx9_41_x64.cab - 1973702
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_X3DAudio_x64.cab - 54600
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_XACT_x64.cab - 121506
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_XACT_x86.cab - 92740
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_XAudio_x64.cab - 275044
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Mar2009_XAudio_x86.cab - 273018
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2007_d3dx10_36_x64.cab - 864600
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2007_d3dx10_36_x86.cab - 803884
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2007_d3dx9_36_x64.cab - 1802058
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2007_d3dx9_36_x86.cab - 1709360
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\NOV2007_X3DAudio_x64.cab - 46144
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\NOV2007_X3DAudio_x86.cab - 18496
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\NOV2007_XACT_x64.cab - 196762
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\NOV2007_XACT_x86.cab - 148264
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_d3dx10_40_x64.cab - 994154
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_d3dx10_40_x86.cab - 965421
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_d3dx9_40_x64.cab - 1906878
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_X3DAudio_x64.cab - 54522
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_X3DAudio_x86.cab - 21851
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_XACT_x64.cab - 121794
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_XACT_x86.cab - 92684
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_XAudio_x64.cab - 273960
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Nov2008_XAudio_x86.cab - 272611
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Oct2005_xinput_x64.cab - 86037
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\Oct2005_xinput_x86.cab - 45359
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\OCT2006_d3dx9_31_x64.cab - 1412902
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\OCT2006_d3dx9_31_x86.cab - 1127217
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\OCT2006_XACT_x64.cab - 182361
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\DirectX\OCT2006_XACT_x86.cab - 138017
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\PhysX\License.rtf - 11013
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\install\PhysX\PhysX_10.01.29_9.10.0129_SystemSoftware.exe - 34135392
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\EAXConfig.cfg - 203137
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\EAXConfig.cfgx - 19116
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\music.idx - 9406
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\music.idx.asncdat - 249589760
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\music.idx.database - 11582
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\music.lipsync - 4
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\sfx.idx - 176980
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\sfx.idx.asncdat - 140181504
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\sfx.idx.database - 170892
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\sfx.lipsync - 4
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\sfx2.idx - 18430
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\sfx2.idx.asncdat - 5693440
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\sfx2.idx.database - 16838
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\sfx2.lipsync - 4
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng.idx - 435562
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng.idx.asncdat - 537853952
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng.idx.database - 742594
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng.lipsync - 3434109
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng2.idx - 1898
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng2.idx.asncdat - 720896
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng2.idx.database - 3187
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng2.lipsync - 4079
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng4.idx - 10453
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng4.idx.asncdat - 38936576
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng4.idx.database - 17657
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\voice_eng4.lipsync - 154201
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\SoundData\VolumeCurve.cfg - 401
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\intro1.ogg - 1865947
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\intro1.wmv - 4674965
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\intro3.ogg - 1298083
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\intro3.wmv - 2286527
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\intro5.ogg - 168710369
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\intro5.wmv - 130551610
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_2.ogg - 29962
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_2.wmv - 159636
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_3.ogg - 23626072
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_3.wmv - 27304101
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_4.ogg - 29962
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_4.wmv - 159636
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_5.ogg - 33091355
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_5.wmv - 43011340
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_6.ogg - 6140107
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\Video\sc_6.wmv - 15895666
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Editor.wd - 4761600
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Graphics.wd - 2048450560
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Language.wd - 1001472
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Levels.wd - 133398528
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Physx.wd - 43849728
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Startup.wd - 32978944
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Update11.wd - 27635712
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Update12.wd - 7514112
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Update_eng.wd - 563200
+C:\Program Files (x86)\Steam\steamapps\common\two worlds ii\WDFiles\Update_lan.wd - 563200
+
+UAC Disabled or not present
+

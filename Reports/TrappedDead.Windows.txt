@@ -1,0 +1,91 @@
+Comments:
+  <game name="TrappedDead" platform="Windows">
+    <title>Trapped Dead</title>
+    <location_path environment_variable="userdocuments" path="Trapped Dead" />
+	<save filename="*.cfg" />
+	<save path="savegames" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Trapped Dead
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\Trapped Dead
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 46540
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\trapped dead
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\SPlayer\射手影音播放器\Recent File List
+Value: File1
+Data: C:\Program Files (x86)\Steam\steamapps\common\trapped dead\_GameData\intro.wmv
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\Trapped Dead\input.cfg - 196
+C:\Users\%USERNAME%\Documents\Trapped Dead\network.cfg - 132
+C:\Users\%USERNAME%\Documents\Trapped Dead\logs\engine.txt - 18886
+C:\Users\%USERNAME%\Documents\Trapped Dead\logs\GameLog.txt - 865
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_00.tds - 793
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_01.tds - 1787
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_01_00.jpg - 3441
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_01_00.tds - 1924
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_01_01.jpg - 4138
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_01_01.tds - 1928
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_01_02.jpg - 5981
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_01_02.tds - 2445
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\Level_02.tds - 4562
+C:\Users\%USERNAME%\Documents\Trapped Dead\savegames\player.settings - 342
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\Manual.pdf - 4890585
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\uninstall.exe - 63342
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\_GameData.v - 1071490193
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\_Patch0.v - 4354867
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\crashdump.suo - 9728
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\CrashRpt.dll - 77824
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\crashrpt_lang.ini - 6848
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\CrashSender.exe - 577536
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\installscript.vdf - 863
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\lua90.dll - 156672
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\NavMeshEnginePlugin.vPlugin - 103424
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\NxCharacter.dll - 124256
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\patchnotes.txt - 1853
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\PhysXCooking.dll - 374112
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\PhysXCore.dll - 3753312
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\physxcudart_20.dll - 197912
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\PhysXDevice.dll - 71008
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\PhysXLoader.dll - 56320
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\RagdollPlugin.vPlugin - 123392
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\SlaughteredGamePlugin.vPlugin - 684544
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\SoundEnginePlugin.vPlugin - 224256
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\TrappedDead.exe - 1093632
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\vBase90.dll - 1183744
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\Vision.log - 1607
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\Vision90.dll - 1362944
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\VisionEnginePlugin.vPlugin - 1331712
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\bin\vPhysX.vplugin - 444416
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\_GameData\intro.wmv - 0
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\_GameData\intro.wmv.old - 47447882
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\_GameData\outro.wmv - 22134448
+C:\Program Files (x86)\Steam\steamapps\common\trapped dead\_GameData\xml\settings.xml - 683
+
+UAC Disabled or not present
+

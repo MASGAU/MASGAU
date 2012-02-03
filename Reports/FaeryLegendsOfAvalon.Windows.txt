@@ -1,0 +1,81 @@
+Game Name: Faery - Legends of Avalon
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Faery - Legends of Avalon
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\Faery - Legends of Avalon
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E857F71C-F8ED-464B-8FCC-C1776A774015}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Faery - Legends of Avalon
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E857F71C-F8ED-464B-8FCC-C1776A774015}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Faery - Legends of Avalon\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E857F71C-F8ED-464B-8FCC-C1776A774015}_is1
+Value: DisplayIcon
+Data: C:\Program Files (x86)\Faery - Legends of Avalon\Faery.exe
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Faery - Legends of Avalon\Faery - Legends of Avalon.lnk
+C:\Program Files (x86)\Faery - Legends of Avalon\Faery.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Faery - Legends of Avalon\Uninstall Faery - Legends of Avalon.lnk
+C:\Program Files (x86)\Faery - Legends of Avalon\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\Faery - Legends of Avalon\graphicconfig.txt - 49
+C:\Users\%USERNAME%\Documents\Faery - Legends of Avalon\save_15-05-2011_16-22-17.fsav - 421346
+
+Install Folder Dump: 
+C:\Program Files (x86)\Faery - Legends of Avalon\activation.exe - 741392
+C:\Program Files (x86)\Faery - Legends of Avalon\activation.x86.dll - 184832
+C:\Program Files (x86)\Faery - Legends of Avalon\activation.x86.dll.old - 7000048
+C:\Program Files (x86)\Faery - Legends of Avalon\activation.xml - 32512
+C:\Program Files (x86)\Faery - Legends of Avalon\cg.dll - 5615616
+C:\Program Files (x86)\Faery - Legends of Avalon\cgD3D9.dll - 1032192
+C:\Program Files (x86)\Faery - Legends of Avalon\cudart32_30_9.dll - 290408
+C:\Program Files (x86)\Faery - Legends of Avalon\dbghelp.dll - 1213200
+C:\Program Files (x86)\Faery - Legends of Avalon\Faery.exe - 10467608
+C:\Program Files (x86)\Faery - Legends of Avalon\GameServer.dll - 14002688
+C:\Program Files (x86)\Faery - Legends of Avalon\NxCharacter.dll - 124256
+C:\Program Files (x86)\Faery - Legends of Avalon\PhysXCore.dll - 3032416
+C:\Program Files (x86)\Faery - Legends of Avalon\PhysXDevice.dll - 71008
+C:\Program Files (x86)\Faery - Legends of Avalon\PhysXLoader.dll - 71008
+C:\Program Files (x86)\Faery - Legends of Avalon\unins000.dat - 43599
+C:\Program Files (x86)\Faery - Legends of Avalon\unins000.exe - 1286595
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\shaders\sp_splash.pssg.gz - 2469
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\loadinganim.pssg.gz - 41107
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash0.pssg.gz - 2090699
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash1.pssg.gz - 2093284
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash2.pssg.gz - 2207042
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash3.pssg.gz - 2199994
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash4.pssg.gz - 2097701
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash_loading_text_eng.pssg.gz - 2220
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash_loading_text_fra.pssg.gz - 3484
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash_loading_text_ger.pssg.gz - 1708
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash_loading_text_ita.pssg.gz - 3088
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash_loading_text_spa.pssg.gz - 3091
+C:\Program Files (x86)\Faery - Legends of Avalon\boot\datapc\textures\splash_loading_text_usa.pssg.gz - 2222
+C:\Program Files (x86)\Faery - Legends of Avalon\packs\data.spk - 90331294
+C:\Program Files (x86)\Faery - Legends of Avalon\packs\datapc.spk - 56145549
+C:\Program Files (x86)\Faery - Legends of Avalon\packs\datapco.spk - 616125176
+C:\Program Files (x86)\Faery - Legends of Avalon\packs\loc_ENG.spk - 3335403
+C:\Program Files (x86)\Faery - Legends of Avalon\packs\sli.spk - 476377
+
+UAC Disabled or not present
+

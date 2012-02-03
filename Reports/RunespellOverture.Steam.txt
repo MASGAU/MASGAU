@@ -1,0 +1,114 @@
+Comments:
+  <game name="RunespellOverture" platform="Steam">
+    <title>Runespell: Overture</title>
+    <location_path environment_variable="steamuserdata" path="102200" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Runespell: Overture
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture
+
+Save Path: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\102200
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 102200
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\runespelloverture
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\102200\remotecache.vdf - 263
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\102200\remote\saves.sg - 18290
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell.exe - 5837824
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\Assembly - CSharp.dll - 1179136
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\Assembly - UnityScript.dll - 14848
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\C5.dll - 272384
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\I18N.CJK.dll - 679936
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\I18N.dll - 30720
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\I18N.MidEast.dll - 28160
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\I18N.Other.dll - 31232
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\I18N.Rare.dll - 170496
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\I18N.West.dll - 64512
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\Ionic.Zip.Reduced.dll - 197632
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level0 - 19718
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level1 - 11504
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level10 - 7657
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level11 - 132209
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level12 - 371204
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level13 - 176396
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level14 - 144802
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level15 - 171762
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level16 - 1907
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level2 - 93860
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level3 - 17420
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level4 - 17245
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level5 - 101051
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level6 - 22204
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level7 - 335516
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level8 - 139851
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\level9 - 128630
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\mainData - 84158
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\output_log.txt - 346
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets0.assets - 216543840
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets1.assets - 56540749
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets10.assets - 5387406
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets11.assets - 539
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets12.assets - 471676
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets13.assets - 18850215
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets14.assets - 2373156
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets15.assets - 4450
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets16.assets - 1343668
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets17.assets - 481
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets2.assets - 579
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets3.assets - 971410
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets4.assets - 11257
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets5.assets - 82562
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets6.assets - 1801561
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets7.assets - 736
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets8.assets - 12200234
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\sharedassets9.assets - 2653894
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\SX.dll - 3276800
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\System.Data.dll - 813568
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\etc\mono\config - 33
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\etc\mono\2.0\machine.config - 20853
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\Boo.Lang.dll - 102400
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\Mono.Data.Tds.dll - 73216
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\Mono.Security.dll - 287744
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\mscorlib.dll - 2508288
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\System.Configuration.dll - 117760
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\System.Core.dll - 208896
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\System.dll - 1467392
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\System.Drawing.dll - 450048
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\System.EnterpriseServices.dll - 46080
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\System.Security.dll - 132608
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\System.Transactions.dll - 26624
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\System.Xml.dll - 1250304
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\UnityDomainLoad.exe - 3584
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\UnityEngine.dll - 307200
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\lib\UnityScript.Lang.dll - 14848
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\Plugins\propulsor_glue.dll - 13824
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\unity\mono-1-vc.dll - 1592832
+C:\Program Files (x86)\Steam\steamapps\common\runespelloverture\Runespell_Data\unity\unity default resources - 2065876
+
+UAC Disabled or not present
+

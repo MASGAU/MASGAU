@@ -1,0 +1,584 @@
+Game Name: Oddworld - Abe's Exoddus
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Abe's Exoddus
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Exoddus
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C6FC277A-ECDF-48A7-83B7-DC3B1F95047A}
+Value: AppExePath
+Data: C:\Program Files (x86)\GOG.com\Abe's Exoddus\Exoddus.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C6FC277A-ECDF-48A7-83B7-DC3B1F95047A}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Abe's Exoddus\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGABESEXODDUS
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Abe's Exoddus\Exoddus.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGABESEXODDUS
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Abe's Exoddus\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGABESEXODDUS
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Abe's Exoddus\Exoddus.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGABESEXODDUS
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Abe's Exoddus\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Abe's Exoddus_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Abe's Exoddus
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Abe's Exoddus_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Abe's Exoddus\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Abe's Exoddus\Abe's Exoddus.lnk
+C:\Program Files (x86)\GOG.com\Abe's Exoddus\Exoddus.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Abe's Exoddus\Uninstall Abe's Exoddus.lnk
+C:\Program Files (x86)\GOG.com\Abe's Exoddus\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Abe's Exoddus\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Abe's Exoddus\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Abe's Exoddus\Documents\Readme.lnk
+C:\Program Files (x86)\GOG.com\Abe's Exoddus\README.TXT
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/29/2011 2:58:34 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Exoddus\MIP01C04ada.sav - 8192
+11/29/2011 2:58:37 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Exoddus\MIP01C04adw .sav - 8192
+
+Install Folder Dump:
+11/3/1998 10:56:44 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\ASLIKEXP.DDV - 7160352
+11/3/1998 10:57:40 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\ASLIKINF.DDV - 10920806
+11/20/1998 5:02:56 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\ba.lvl - 14358528
+11/5/1998 2:30:58 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BA1114.DDV - 1144805
+11/3/1998 10:59:36 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BACKSTRY.DDV - 19838918
+11/3/1998 11:01:06 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BDENDING.DDV - 18580361
+11/20/1998 5:03:46 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\bm.lvl - 5113856
+11/20/1998 5:03:38 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\br.lvl - 26376192
+11/3/1998 10:37:54 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BREW.DDV - 27846115
+11/3/1998 11:40:10 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BREWCAMT.DDV - 2408720
+11/5/1998 2:34:52 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C01.DDV - 952509
+11/5/1998 2:33:48 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C02.DDV - 965633
+11/5/1998 2:33:56 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C03.DDV - 1067261
+11/5/1998 2:34:04 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C04.DDV - 1047613
+11/5/1998 2:34:12 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C05.DDV - 1042009
+11/5/1998 2:35:32 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C06.DDV - 2209475
+11/5/1998 2:34:20 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C1R.DDV - 953011
+11/5/1998 2:34:28 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C2R.DDV - 966449
+11/5/1998 2:34:36 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C3R.DDV - 1066917
+11/5/1998 2:34:44 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C4R.DDV - 1047721
+11/5/1998 2:33:40 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C5R.DDV - 1041761
+11/5/1998 2:35:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BRP01C6R.DDV - 2207777
+11/20/1998 5:03:08 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\bw.lvl - 12623872
+11/5/1998 2:32:34 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BWP3P4.DDV - 1042374
+11/5/1998 2:32:42 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\BWP3P4R.DDV - 1043464
+11/3/1998 11:02:16 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\CONFRNCE.DDV - 7997126
+11/20/1998 5:02:14 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\cr.lvl - 11726848
+11/4/1998 4:37:44 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\Ddlogo.ddv - 1744878
+11/3/1998 11:02:48 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\DRIPEXP.DDV - 5211012
+11/3/1998 11:03:40 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\DRIPINF.DDV - 10026805
+11/3/1998 11:04:08 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\ESCAPE.DDV - 3564591
+11/26/2008 1:10:40 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\Exoddus.exe - 1945600
+11/20/1998 5:02:42 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\fd.lvl - 17575936
+11/3/1998 11:06:16 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\FEECO.DDV - 31839918
+11/28/2008 11:21:42 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\game.ico - 4286
+11/3/1998 11:09:20 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\GDENDING.DDV - 41538871
+11/28/2008 9:36:06 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\gfw_high.ico - 61542
+11/12/1998 3:48:12 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\gtilogo.ddv - 1557316
+11/3/1998 11:11:34 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\INFBOOTH.DDV - 9207796
+11/3/1998 11:12:42 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\INGRDNT.DDV - 13185359
+10/20/2008 2:56:58 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\innosetup_license.txt - 1471
+11/2/1998 6:40:52 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\INTRO.DDV - 10162890
+10/8/1998 4:21:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\logo.ddv - 2113539
+11/5/1998 2:37:42 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\M1018310.DDV - 927514
+11/5/1998 2:36:04 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\M1018517.DDV - 1063376
+11/5/1998 3:26:44 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\M5171018.DDV - 1053446
+12/5/2008 2:09:20 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\manual.pdf - 5158843
+11/20/1998 5:01:20 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\mi.lvl - 25931776
+11/5/1998 2:36:18 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI122711.DDV - 864278
+11/5/1998 2:36:24 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI218227.DDV - 885482
+11/5/1998 2:36:30 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI221222.DDV - 661310
+11/5/1998 2:36:34 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI221227.DDV - 676170
+11/5/1998 2:36:40 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI222221.DDV - 944616
+11/5/1998 2:36:44 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI227218.DDV - 863450
+11/5/1998 2:36:50 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI227221.DDV - 961854
+11/5/1998 2:36:56 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI313401.DDV - 685048
+11/13/1998 10:57:40 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\Mi404430.ddv - 865930
+11/5/1998 2:37:00 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI410313.DDV - 944022
+11/5/1998 2:37:06 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI419431.DDV - 629050
+11/5/1998 2:37:12 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI420432.DDV - 914336
+11/5/1998 2:37:16 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI422423.DDV - 677084
+11/5/1998 2:37:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI422437.DDV - 878482
+11/5/1998 2:37:28 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI426427.DDV - 1030804
+11/13/1998 11:00:20 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\Mi430044.ddv - 901932
+11/5/1998 2:37:38 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI431419.DDV - 632476
+11/13/1998 11:01:54 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\Mi437422.ddv - 922844
+11/5/1998 2:37:48 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MI711122.DDV - 622250
+11/5/1998 2:41:52 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MIP01C03.DDV - 893158
+11/5/1998 2:42:14 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MP1C1C2.DDV - 1328120
+11/5/1998 2:42:06 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\MP1C2C1.DDV - 1328900
+11/20/1998 5:01:34 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\ne.lvl - 10328064
+11/5/1998 2:43:30 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE140601.DDV - 659263
+11/5/1998 2:42:28 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE140604.DDV - 935229
+11/5/1998 2:42:34 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE310033.DDV - 844355
+11/5/1998 2:42:40 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE330309.DDV - 843079
+11/5/1998 2:42:46 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE410404.DDV - 1010063
+11/5/1998 2:42:50 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE440401.DDV - 731649
+11/5/1998 2:42:56 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE610104.DDV - 1083401
+11/5/1998 2:43:02 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE610602.DDV - 701755
+11/5/1998 2:43:06 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE620603.DDV - 670305
+11/5/1998 2:43:12 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE630604.DDV - 661289
+11/5/1998 2:43:16 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE640401.DDV - 687711
+11/5/1998 2:43:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NE640601.DDV - 689497
+11/5/1998 2:43:26 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NEBLK201.DDV - 452517
+11/5/1998 2:44:10 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NEP01C08.DDV - 1223918
+11/5/1998 2:43:56 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NEP01C09.DDV - 1097444
+11/5/1998 2:44:02 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NEP01C10.DDV - 1151930
+11/5/1998 2:43:50 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NEP01C8R.DDV - 1224504
+11/5/1998 2:44:30 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NEP02C01.DDV - 1056644
+11/5/1998 2:44:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NEP02C02.DDV - 1158894
+11/5/1998 2:44:16 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\NEP1C10R.DDV - 1152338
+11/2/1998 5:05:42 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\option.ddv - 878716
+11/5/1998 2:45:46 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\P1391314.DDV - 583411
+11/3/1998 11:13:30 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PHLEGEXP.DDV - 8359854
+11/3/1998 11:14:40 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PHLEGINF.DDV - 15823493
+11/5/1998 4:33:06 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\prophecy.ddv - 9870779
+11/20/1998 5:02:02 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\pv.lvl - 12582912
+11/5/1998 2:45:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV107071.DDV - 561809
+11/5/1998 2:45:30 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV114081.DDV - 812699
+11/5/1998 2:45:36 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV12181R.DDV - 833607
+11/5/1998 2:45:40 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV131452.DDV - 637879
+11/5/1998 2:45:16 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV370801.DDV - 917523
+11/5/1998 2:45:50 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV410801.DDV - 538143
+11/5/1998 2:45:56 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV430402.DDV - 504629
+11/5/1998 2:46:00 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV470801.DDV - 772773
+11/5/1998 2:46:06 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV550801.DDV - 766739
+11/5/1998 2:46:10 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV712101.DDV - 586397
+11/5/1998 3:27:52 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\Pv801901.ddv - 860931
+11/5/1998 2:46:16 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV810301.DDV - 820467
+11/5/1998 2:46:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV810401.DDV - 846463
+11/5/1998 2:46:26 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV810501.DDV - 803435
+11/5/1998 2:46:32 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV810901.DDV - 860931
+11/5/1998 2:46:38 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV811101.DDV - 811601
+11/5/1998 2:46:42 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV811201.DDV - 854375
+11/5/1998 3:28:10 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\Pv821301.ddv - 618803
+11/5/1998 2:46:48 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PV910801.DDV - 592457
+11/5/1998 2:47:02 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\PVP01C5R.DDV - 917627
+12/17/2008 11:38:42 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\README.TXT - 3386
+11/3/1998 11:18:22 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\REWARD.DDV - 42074900
+11/5/1998 2:49:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\S1102N58.DDV - 664628
+11/5/1998 2:30:52 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SBP01C01.DDV - 1119169
+11/5/1998 2:30:46 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SBP01C1R.DDV - 1119373
+10/19/1998 11:12:04 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\sounds.dat - 5447314
+11/3/1998 11:20:14 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SSINFO.DDV - 8619043
+11/24/1998 12:53:58 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\st.lvl - 9455616
+11/20/1998 5:01:50 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\sv.lvl - 13551616
+11/13/1998 11:03:32 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\Sv101112.ddv - 720648
+11/5/1998 2:47:20 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV110703.DDV - 1007616
+11/5/1998 2:47:26 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV140106.DDV - 848170
+11/6/1998 3:36:16 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV160703.ddv - 844320
+11/5/1998 2:47:32 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV22073L.DDV - 1058316
+11/5/1998 2:47:36 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV36073R.DDV - 1045912
+11/5/1998 2:47:42 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV420405.DDV - 610364
+11/5/1998 2:47:48 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV430703.DDV - 1080770
+11/5/1998 2:47:52 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV520504.DDV - 618004
+11/5/1998 2:47:58 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV550507.DDV - 821160
+11/5/1998 2:48:04 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV590703.DDV - 1021752
+11/5/1998 2:48:08 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV616618.DDV - 594110
+11/5/1998 2:48:14 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV619622.DDV - 618160
+11/5/1998 2:48:18 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV624063.DDV - 576464
+11/5/1998 2:48:22 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV630609.DDV - 573118
+11/5/1998 2:48:28 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV690613.DDV - 575526
+11/5/1998 2:48:32 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV730101.DDV - 895754
+11/5/1998 2:48:38 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV730202.DDV - 859962
+11/5/1998 2:47:14 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV730306.DDV - 1036364
+11/5/1998 2:48:48 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV730401.DDV - 932414
+11/5/1998 2:48:54 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV730502.DDV - 953920
+11/5/1998 2:49:00 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV730801.DDV - 959758
+11/5/1998 2:49:06 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV740904.DDV - 930152
+11/5/1998 2:49:12 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV830703.DDV - 949288
+11/5/1998 2:49:16 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SV940704.DDV - 845834
+11/5/1998 2:49:36 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\SVP01C05.DDV - 829576
+11/4/1998 4:34:16 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\TRAIN1.DDV - 8046253
+11/4/1998 4:35:38 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\TRAIN2.DDV - 13350414
+11/4/1998 4:36:18 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\train3.ddv - 9067650
+11/29/2011 2:44:01 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\unins000.dat - 54870
+11/29/2011 2:41:48 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\unins000.exe - 2142547
+11/29/2011 2:44:01 PM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\unins000.ini - 76
+11/3/1998 11:22:56 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\v1a4s01.ddv - 9571155
+11/3/1998 11:26:28 AM - C:\Program Files (x86)\GOG.com\Abe's Exoddus\vision.ddv - 46471472
+
+UAC Enabled
+
+
+VirtualStore Folders:
+11/29/2011 2:58:34 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Exoddus\MIP01C04ada.sav - 8192
+11/29/2011 2:58:37 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Abe's Exoddus\MIP01C04adw .sav - 8192
+
+
+Game Name: Oddworld: Abe's Exoddus
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Games\Steam\steamapps\common\oddworld abes exoddus
+
+Save Path: 
+C:\Games\Steam\steamapps\common\oddworld abes exoddus
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 15710
+Value: InstallLocation
+Data: c:\games\steam\steamapps\common\oddworld abes exoddus
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\IntelliType Pro\AppSpecific\Exoddus.exe
+Value: Path
+Data: C:\Games\Steam\steamapps\common\oddworld abes exoddus\Exoddus.exe
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ASLIKEXP.DDV - 7160352
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ASLIKINF.DDV - 10920806
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ba.lvl - 14358528
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BA1114.DDV - 1144805
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BACKSTRY.DDV - 19838918
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BDENDING.DDV - 18580361
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\bm.lvl - 5113856
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\br.lvl - 26376192
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BREW.DDV - 27846115
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BREWCAMT.DDV - 2408720
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C01.DDV - 952509
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C02.DDV - 965633
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C03.DDV - 1067261
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C04.DDV - 1047613
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C05.DDV - 1042009
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C06.DDV - 2209475
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C1R.DDV - 953011
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C2R.DDV - 966449
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C3R.DDV - 1066917
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C4R.DDV - 1047721
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C5R.DDV - 1041761
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C6R.DDV - 2207777
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\bw.lvl - 12623872
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BWP3P4.DDV - 1042374
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BWP3P4R.DDV - 1043464
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\CONFRNCE.DDV - 7997126
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\cr.lvl - 11726848
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Ddlogo.ddv - 1744878
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\DRIPEXP.DDV - 5211012
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\DRIPINF.DDV - 10026805
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ESCAPE.DDV - 3564591
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Exoddus.exe - 2289664
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\fd.lvl - 17575936
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\FEECO.DDV - 31839918
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\GDENDING.DDV - 41538871
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\gtilogo.ddv - 1557316
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\INFBOOTH.DDV - 9207796
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\INGRDNT.DDV - 13185359
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\INTRO.DDV - 10162890
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\logo.ddv - 2113539
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\M1018310.DDV - 927514
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\M1018517.DDV - 1063376
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\M5171018.DDV - 1053446
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\mi.lvl - 25931776
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI122711.DDV - 864278
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI218227.DDV - 885482
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI221222.DDV - 661310
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI221227.DDV - 676170
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI222221.DDV - 944616
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI227218.DDV - 863450
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI227221.DDV - 961854
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI313401.DDV - 685048
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Mi404430.ddv - 865930
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI410313.DDV - 944022
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI419431.DDV - 629050
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI420432.DDV - 914336
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI422423.DDV - 677084
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI422437.DDV - 878482
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI426427.DDV - 1030804
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Mi430044.ddv - 901932
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI431419.DDV - 632476
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Mi437422.ddv - 922844
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI711122.DDV - 622250
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MIP01C03.DDV - 893158
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MP1C1C2.DDV - 1328120
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MP1C2C1.DDV - 1328900
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ne.lvl - 10328064
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE140601.DDV - 659263
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE140604.DDV - 935229
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE310033.DDV - 844355
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE330309.DDV - 843079
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE410404.DDV - 1010063
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE440401.DDV - 731649
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE610104.DDV - 1083401
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE610602.DDV - 701755
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE620603.DDV - 670305
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE630604.DDV - 661289
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE640401.DDV - 687711
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE640601.DDV - 689497
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEBLK201.DDV - 452517
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP01C08.DDV - 1223918
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP01C09.DDV - 1097444
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP01C10.DDV - 1151930
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP01C8R.DDV - 1224504
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP02C01.DDV - 1056644
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP02C02.DDV - 1158894
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP1C10R.DDV - 1152338
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\option.ddv - 878716
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\P1391314.DDV - 583411
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PHLEGEXP.DDV - 8359854
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PHLEGINF.DDV - 15823493
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\prophecy.ddv - 9870779
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\pv.lvl - 12582912
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV107071.DDV - 561809
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV114081.DDV - 812699
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV12181R.DDV - 833607
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV131452.DDV - 637879
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV370801.DDV - 917523
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV410801.DDV - 538143
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV430402.DDV - 504629
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV470801.DDV - 772773
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV550801.DDV - 766739
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV712101.DDV - 586397
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Pv801901.ddv - 860931
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV810301.DDV - 820467
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV810401.DDV - 846463
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV810501.DDV - 803435
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV810901.DDV - 860931
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV811101.DDV - 811601
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV811201.DDV - 854375
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Pv821301.ddv - 618803
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV910801.DDV - 592457
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PVP01C5R.DDV - 917627
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\REWARD.DDV - 42074900
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\S1102N58.DDV - 664628
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SBP01C01.DDV - 1119169
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SBP01C1R.DDV - 1119373
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\sounds.dat - 5447314
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SSINFO.DDV - 8619043
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\st.lvl - 9455616
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\sv.lvl - 13551616
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Sv101112.ddv - 720648
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV110703.DDV - 1007616
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV140106.DDV - 848170
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV160703.ddv - 844320
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV22073L.DDV - 1058316
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV36073R.DDV - 1045912
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV420405.DDV - 610364
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV430703.DDV - 1080770
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV520504.DDV - 618004
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV550507.DDV - 821160
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV590703.DDV - 1021752
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV616618.DDV - 594110
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV619622.DDV - 618160
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV624063.DDV - 576464
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV630609.DDV - 573118
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV690613.DDV - 575526
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730101.DDV - 895754
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730202.DDV - 859962
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730306.DDV - 1036364
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730401.DDV - 932414
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730502.DDV - 953920
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730801.DDV - 959758
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV740904.DDV - 930152
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV830703.DDV - 949288
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV940704.DDV - 845834
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SVP01C05.DDV - 829576
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\test.sav - 8192
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\testapp.exe - 2289664
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\TRAIN1.DDV - 8046253
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\TRAIN2.DDV - 13350414
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\train3.ddv - 9067650
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\v1a4s01.ddv - 9571155
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\vision.ddv - 46471472
+
+Install Folder Dump: 
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ASLIKEXP.DDV - 7160352
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ASLIKINF.DDV - 10920806
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ba.lvl - 14358528
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BA1114.DDV - 1144805
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BACKSTRY.DDV - 19838918
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BDENDING.DDV - 18580361
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\bm.lvl - 5113856
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\br.lvl - 26376192
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BREW.DDV - 27846115
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BREWCAMT.DDV - 2408720
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C01.DDV - 952509
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C02.DDV - 965633
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C03.DDV - 1067261
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C04.DDV - 1047613
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C05.DDV - 1042009
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C06.DDV - 2209475
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C1R.DDV - 953011
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C2R.DDV - 966449
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C3R.DDV - 1066917
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C4R.DDV - 1047721
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C5R.DDV - 1041761
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BRP01C6R.DDV - 2207777
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\bw.lvl - 12623872
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BWP3P4.DDV - 1042374
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\BWP3P4R.DDV - 1043464
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\CONFRNCE.DDV - 7997126
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\cr.lvl - 11726848
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Ddlogo.ddv - 1744878
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\DRIPEXP.DDV - 5211012
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\DRIPINF.DDV - 10026805
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ESCAPE.DDV - 3564591
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Exoddus.exe - 2289664
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\fd.lvl - 17575936
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\FEECO.DDV - 31839918
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\GDENDING.DDV - 41538871
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\gtilogo.ddv - 1557316
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\INFBOOTH.DDV - 9207796
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\INGRDNT.DDV - 13185359
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\INTRO.DDV - 10162890
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\logo.ddv - 2113539
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\M1018310.DDV - 927514
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\M1018517.DDV - 1063376
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\M5171018.DDV - 1053446
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\mi.lvl - 25931776
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI122711.DDV - 864278
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI218227.DDV - 885482
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI221222.DDV - 661310
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI221227.DDV - 676170
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI222221.DDV - 944616
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI227218.DDV - 863450
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI227221.DDV - 961854
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI313401.DDV - 685048
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Mi404430.ddv - 865930
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI410313.DDV - 944022
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI419431.DDV - 629050
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI420432.DDV - 914336
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI422423.DDV - 677084
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI422437.DDV - 878482
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI426427.DDV - 1030804
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Mi430044.ddv - 901932
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI431419.DDV - 632476
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Mi437422.ddv - 922844
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MI711122.DDV - 622250
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MIP01C03.DDV - 893158
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MP1C1C2.DDV - 1328120
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\MP1C2C1.DDV - 1328900
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\ne.lvl - 10328064
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE140601.DDV - 659263
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE140604.DDV - 935229
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE310033.DDV - 844355
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE330309.DDV - 843079
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE410404.DDV - 1010063
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE440401.DDV - 731649
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE610104.DDV - 1083401
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE610602.DDV - 701755
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE620603.DDV - 670305
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE630604.DDV - 661289
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE640401.DDV - 687711
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NE640601.DDV - 689497
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEBLK201.DDV - 452517
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP01C08.DDV - 1223918
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP01C09.DDV - 1097444
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP01C10.DDV - 1151930
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP01C8R.DDV - 1224504
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP02C01.DDV - 1056644
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP02C02.DDV - 1158894
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\NEP1C10R.DDV - 1152338
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\option.ddv - 878716
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\P1391314.DDV - 583411
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PHLEGEXP.DDV - 8359854
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PHLEGINF.DDV - 15823493
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\prophecy.ddv - 9870779
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\pv.lvl - 12582912
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV107071.DDV - 561809
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV114081.DDV - 812699
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV12181R.DDV - 833607
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV131452.DDV - 637879
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV370801.DDV - 917523
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV410801.DDV - 538143
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV430402.DDV - 504629
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV470801.DDV - 772773
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV550801.DDV - 766739
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV712101.DDV - 586397
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Pv801901.ddv - 860931
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV810301.DDV - 820467
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV810401.DDV - 846463
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV810501.DDV - 803435
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV810901.DDV - 860931
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV811101.DDV - 811601
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV811201.DDV - 854375
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Pv821301.ddv - 618803
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PV910801.DDV - 592457
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\PVP01C5R.DDV - 917627
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\REWARD.DDV - 42074900
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\S1102N58.DDV - 664628
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SBP01C01.DDV - 1119169
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SBP01C1R.DDV - 1119373
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\sounds.dat - 5447314
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SSINFO.DDV - 8619043
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\st.lvl - 9455616
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\sv.lvl - 13551616
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\Sv101112.ddv - 720648
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV110703.DDV - 1007616
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV140106.DDV - 848170
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV160703.ddv - 844320
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV22073L.DDV - 1058316
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV36073R.DDV - 1045912
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV420405.DDV - 610364
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV430703.DDV - 1080770
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV520504.DDV - 618004
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV550507.DDV - 821160
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV590703.DDV - 1021752
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV616618.DDV - 594110
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV619622.DDV - 618160
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV624063.DDV - 576464
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV630609.DDV - 573118
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV690613.DDV - 575526
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730101.DDV - 895754
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730202.DDV - 859962
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730306.DDV - 1036364
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730401.DDV - 932414
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730502.DDV - 953920
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV730801.DDV - 959758
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV740904.DDV - 930152
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV830703.DDV - 949288
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SV940704.DDV - 845834
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\SVP01C05.DDV - 829576
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\test.sav - 8192
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\testapp.exe - 2289664
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\TRAIN1.DDV - 8046253
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\TRAIN2.DDV - 13350414
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\train3.ddv - 9067650
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\v1a4s01.ddv - 9571155
+C:\Games\Steam\steamapps\common\oddworld abes exoddus\vision.ddv - 46471472
+
+UAC Enabled
+
+
+VirtualStore Folders: 

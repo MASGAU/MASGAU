@@ -1,9 +1,26 @@
-﻿NOTE: All button rows are 30 pixels tall
-NOTE: All dialog windows are 105 pixels tall
-TODO: Add every open source game you can think of - save for updates
-TODO: Machinarium needs the ability to detect paths that can have a random name (use an asterisk with an identifier?)
-TODO: journeyman 2
+﻿TODO: Add every open source game you can think of - save for updates
 TODO: Assassin's Creed 2 and other stuff like that
+TODO: Confirm new restore code properly handles being denied write access
+TODO: Add logging for all errors and messages?
+TODO: Double check appdata priorities
+0.9 - Beta in mind
+* Change Analyzer to disable entire interface while e-mailing
+* Changed analyzer to e-mail masgausubmissions@gmail.com instead of my personal address
+* Added startup check to monitor to exit the program if a detected monitor is already running.
+* Settings are automatically shared between running programs
+* Restore process overhauled, including ability to select specific files to restore
+* Added the ability to mass-restore easily
+* Entire interface re-written (But it still looks pretty much the same! Progress!)
+* Monitor settings overhauled, right click menu much smaller and tidier
+* Added the ability to do an automatic mass-restore
+* Added ability to edit reports before sending/saving them
+* Added a flashshare environemtn variable for flash games
+* Changed the restore process to create a temp file (which is ignored by DropBox), and works on that file, then copies the temp file over the original file (or converts the old one to a revision copy if that setting is enabled).
+* Added new modified_after attribute to the save, ignore and identifier tags.
+* Stuff
+* Little things
+* Big things
+* SUPPORT FOR DAIKATANA! BOOYAH!
 v.0.8 - Beta in spirit
 * Added a contribution counter to the about tab. So cool.
 * Added the ability to sort the games list both ascending and descending
@@ -79,6 +96,7 @@ New Windows Games
 * Aquaria - Contributed by Dwight Holman
 * Arcanum: Of Steamworks and Migick Obscura - GoG only
 * ArmA: Combat Operations - Contributed by arc Angel
+* The Ball - Contributed by Arc Angel
 * Battlefield: Bad Company 2 - Contributed by arc Angel
 * Beneath a Steel Sky - GoG only
 * Bioshock 2 - Contributed by H?rd Kr??
@@ -129,6 +147,8 @@ New Windows Games
 * Earth 2150 - GoG only
 * Earth 2150: Lost Souls - GoG only
 * Earth 2150: The Moon Project - GoG only
+* Eschalon: Book I - Contributed by Arc Angel
+* Eschalon: Book II - Contributed by ARc Angel
 * Evil Genius (Steam Only) - Contributed by duncans_pumpkin
 * Evil Genius - GoG Only
 * Exodus from the Earth - Contributed by Arc Angel
@@ -157,8 +177,10 @@ New Windows Games
 * Ishar 3 - The Seven Gates of Infinity - GoG only
 * Clive Barker's Jericho - Contributed by Arc Angel
 * Judge Dredd: Dredd vs. Death - Steam only - Contributed by Arc Angel
+* Just Cause 2 - Contributed by Arc Angel
 * Kane & Lynch 2: Dog Days - Contributed by Arc Angel
 * King's Bounty: The Legend - Contributed by Arc Angel
+* Lara Croft and the Guardian of Light - Contribute by Arc Angel
 * The Last Remnant - Contributed by Arc Angel
 * Legendary - Contributed by Arc Angel
 * Lost Planet: Colonies - contributed by Caleb Love
@@ -191,7 +213,9 @@ New Windows Games
 * Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode Two
 * Phantasmagoria - GoG only
 * Phantasmagoria 2: A Puzzle of Flesh - GoG only
+* Pound of Ground - Contributed by Arc Angel
 * Quantz - Steam Cloud only
+* Puzzle Agents - Contributed by Arc Angel
 * Puzzle Quest: Challenge of the Warlords
 * Raptor: Call of the Shadows - GoG only
 * RealMyst - GoG only
@@ -199,6 +223,7 @@ New Windows Games
 * Rise of the Argonauts - Contributed by Arc Angel
 * Robinson's Requiem - GoG only
 * Rogue Warrior - Contributed by Arc Angel
+* Runaway: A Road Adventure - Contributed by Arc Angel
 * Sam & Max - The Devil's Playhouse Episode 1 - The Penal Zone
 * Sam & Max - The Devil's Playhouse Episode 2 - The Tomb of Sammun-Mak
 * Sam & Max - The Devil's Playhouse Episode 3 - They Stole Max's Brain
@@ -208,7 +233,8 @@ New Windows Games
 * Sanitarium
 * The Scourge Project: Episodes 1 and 2 - Contributed by Arc Angel
 * Septerra Core: Legacy of the Creator
-* Serious Sam HD: The First Encounter - Steam only
+* Serious Sam HD: The First Encounter
+* Serious Sam HD: The Second Encounter - Contributed by Arc Angel
 * Shogo - Mobile Armor Division
 * The Sims 3 - Contributed by Caleb Love
 * Starcraft II: Wings of Liberty - Contributed by Caleb Love
@@ -228,6 +254,8 @@ New Windows Games
 * Star Wars: The Force Unleashed II - contributed by Arc Angel
 * Star Wolves - GoG only
 * Still Life - GoG only
+* Street Fighter IV - Contributed by Arc Angel
+* Super Meat Boy - Contributed by Arc Angel
 * Supreme Commander - Contributed by duncans_pumpkin
 * Supreme Commander: Forged Alliance - Contributed by duncans_pumpkin
 * Trine - Steam Cloud only
@@ -236,6 +264,7 @@ New Windows Games
 * Tex Murphy: Overseer - GoG only
 * TorchLight - Contributed by Arc Angel
 * Trine - Steam Cloud only
+* Tron: Evolution - Contributed by Arc Angel
 * Under A Killing Moon - GoG only
 * Twin Sector - Contributed by Arc Angel
 * Tyrian 2000 - GoG only

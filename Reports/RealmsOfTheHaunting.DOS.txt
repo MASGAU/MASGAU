@@ -1,0 +1,440 @@
+Game Name: Realms of the Haunting
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Realms of the Haunting
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3E8023AD-C396-4E4F-84A3-435E60E149F0}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3E8023AD-C396-4E4F-84A3-435E60E149F0}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGROTH
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGROTH
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGROTH
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGROTH
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGROTH
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Realms of the Haunting_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Realms of the Haunting_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Realms of the Haunting\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Realms of the Haunting\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Realms of the Haunting\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Realms of the Haunting\Realms of the Haunting.lnk
+C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Realms of the Haunting\Uninstall Realms of the Haunting.lnk
+C:\Program Files (x86)\GOG.com\Realms of the Haunting\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Realms of the Haunting\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Realms of the Haunting\Manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/5/2011 10:30:52 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\stderr.txt - 0
+11/5/2011 10:36:30 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\stdout.txt - 368
+11/5/2011 10:36:29 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\ROTH.INI - 163
+11/5/2011 10:31:34 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\SAVEGAME\SAVE0.SAV - 14303
+11/5/2011 10:36:20 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\SAVEGAME\SAVE2.SAV - 14251
+11/5/2011 10:36:26 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\SAVEGAME\SAVE4.SAV - 14251
+11/5/2011 10:36:26 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\TMP\STUDY1.TMP - 8374
+
+Install Folder Dump:
+3/29/2011 2:56:16 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\dosboxROTH.conf - 7299
+2/28/2011 5:13:08 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\gfw_high.ico - 118119
+3/29/2011 4:09:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\goggame.dll - 234496
+2/25/2011 3:19:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\Graphic mode setup.exe - 980992
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\innosetup_license.txt - 1471
+3/24/2011 3:47:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\Manual.pdf - 18362668
+3/24/2011 2:58:40 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\mapper.txt - 2951
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\Support.ico - 62895
+10/29/2011 12:59:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\unins000.dat - 84795
+10/29/2011 12:56:06 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\unins000.exe - 2142547
+10/29/2011 12:59:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\unins000.ini - 62
+11/9/1996 2:05:54 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DBASE100.DAT - 42124
+11/9/1996 2:05:54 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DBASE200.DAT - 1775000
+11/9/1996 2:05:54 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DBASE300.DAT - 22012910
+11/9/1996 2:05:54 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DBASE400.DAT - 176132
+11/9/1996 2:05:54 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DBASE500.DAT - 128083552
+7/11/1995 1:05:00 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DOS4GW.EXE - 265396
+11/12/1996 10:58:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DTEST.EXE - 30335
+9/2/1996 3:32:00 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL.EXE - 153632
+11/9/1996 3:08:52 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL.PIF - 967
+11/10/1996 4:27:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\README.TXT - 1781
+11/11/1996 10:05:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\ROTH.EXE - 470447
+11/11/1996 10:07:22 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\ROTH.RES - 877
+11/8/1996 10:14:06 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DATA\BACKDROP.RAW - 173832
+2/15/2011 4:56:20 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DATA\FILELIST.TXT - 2300
+11/8/1996 11:01:14 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DATA\FX22.SFX - 14764542
+11/2/1996 2:36:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DATA\FXSCRIPT.SFX - 11462660
+11/1/1996 2:05:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DATA\ICONS.ALL - 55972
+4/1/1996 12:27:40 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DIGI\HMIDET.386 - 81990
+3/12/1996 3:01:22 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\DIGI\HMIDRV.386 - 261425
+10/1/1996 4:01:44 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON1A.GDV - 3625447
+9/3/1996 8:07:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON1B.GDV - 1917088
+9/3/1996 8:08:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON1C.GDV - 3100518
+9/3/1996 8:09:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON1D.GDV - 2135065
+9/3/1996 8:10:24 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON1E.GDV - 2210070
+9/3/1996 8:11:36 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON1F.GDV - 6986039
+9/3/1996 8:12:38 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON1G.GDV - 5520570
+10/21/1996 12:54:06 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON1H.GDV - 3171742
+9/11/1996 8:49:30 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2A.GDV - 8042205
+9/11/1996 8:50:42 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2B.GDV - 2351796
+9/11/1996 8:51:32 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2C.GDV - 3008326
+9/11/1996 8:52:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2D.GDV - 4082346
+9/11/1996 8:55:42 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2E.GDV - 4856851
+9/11/1996 8:56:58 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2F.GDV - 5379431
+9/11/1996 9:00:34 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2G.GDV - 5504891
+9/11/1996 9:01:24 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2H.GDV - 2043050
+9/11/1996 9:02:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ABADON2I.GDV - 8801732
+11/4/1996 3:32:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ALEF01.GDV - 34823693
+11/6/1996 2:49:16 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ALEF02.GDV - 14550812
+9/12/1996 6:15:08 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ALEF03A.GDV - 3495447
+9/11/1996 8:09:24 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ALEF03B.GDV - 7447690
+10/1/1996 6:14:20 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ALEF03C.GDV - 11672649
+8/13/1996 10:22:02 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ALEF03D.GDV - 5987132
+10/24/1996 11:53:50 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ALEF04.GDV - 30242586
+8/17/1996 1:04:14 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BEAST.GDV - 11474270
+11/4/1996 12:06:08 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELEXTRA.GDV - 464608
+10/24/1996 12:57:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELIAL1A.GDV - 17424788
+10/1/1996 6:54:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELIAL1B.GDV - 1961141
+10/1/1996 6:31:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELIAL1C.GDV - 1596673
+9/10/1996 1:58:38 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELIAL1E.GDV - 6345979
+10/21/1996 1:46:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELIAL1F.GDV - 8568013
+10/1/1996 6:25:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELSB1.GDV - 13588079
+11/5/1996 12:47:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELSB3.GDV - 4633620
+8/13/1996 10:28:24 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELSB4.GDV - 10195062
+8/13/1996 10:37:30 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELSB5.GDV - 14856827
+8/12/1996 4:54:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BELSB6.GDV - 6663425
+11/5/1996 4:41:18 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BENDGMA.GDV - 4368545
+10/21/1996 1:11:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BENDGMB.GDV - 15867879
+11/5/1996 4:47:16 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BETRAYAL.GDV - 27016370
+8/7/1996 1:44:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\BRANDED.GDV - 21332333
+10/16/1996 3:49:44 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR1.GDV - 499185
+10/16/1996 3:49:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR10.GDV - 544111
+10/16/1996 3:49:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR11.GDV - 549490
+10/16/1996 3:49:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR12.GDV - 558384
+10/16/1996 3:49:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR13.GDV - 602557
+10/16/1996 3:49:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR14.GDV - 581115
+10/16/1996 3:49:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR15.GDV - 581262
+10/16/1996 3:49:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR16.GDV - 548737
+10/16/1996 3:49:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR17.GDV - 581108
+10/16/1996 3:49:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR18.GDV - 569028
+10/16/1996 3:49:58 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR19.GDV - 578513
+10/16/1996 3:49:44 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR2.GDV - 553859
+10/16/1996 3:49:58 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR20.GDV - 621106
+10/16/1996 3:49:44 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR3.GDV - 550020
+10/16/1996 3:49:46 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR4.GDV - 572722
+10/16/1996 3:49:46 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR5.GDV - 530308
+10/16/1996 3:49:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR6.GDV - 548739
+10/16/1996 3:49:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR7.GDV - 570907
+10/16/1996 3:49:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR8.GDV - 607897
+10/16/1996 3:49:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\CHPTR9.GDV - 589381
+10/17/1996 12:24:00 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\DODGERA.GDV - 8479871
+10/24/1996 11:34:22 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\DOPPLE.GDV - 7406048
+10/30/1996 3:05:20 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ECREDITS.GDV - 13625490
+10/1/1996 4:15:36 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\EFFIGYA1.GDV - 8547583
+10/1/1996 4:18:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\EFFIGYA2.GDV - 4664706
+10/1/1996 4:20:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\EFFIGYA3.GDV - 1234990
+9/13/1996 4:15:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\EFFIGYB.GDV - 4455956
+9/13/1996 4:11:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\EFFIGYC.GDV - 3742594
+11/4/1996 12:16:36 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\ENCHANT.GDV - 12325514
+10/23/1996 5:55:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\EPILOGUE.GDV - 16341962
+9/11/1996 9:31:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\FALSHIRE.GDV - 23083304
+10/18/1996 3:39:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\FLOTRAP1.GDV - 7230728
+7/31/1996 12:32:18 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\FLOTRAP2.GDV - 3504264
+7/31/1996 12:36:02 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\FLOTRAP3.GDV - 2765746
+10/18/1996 3:40:24 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\FLOTRAP4.GDV - 3555560
+7/31/1996 12:54:16 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\FLOTRAP5.GDV - 2900575
+9/20/1996 1:10:14 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\FLOTRAP6.GDV - 13090155
+11/4/1996 1:37:08 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\FULLKEEP.GDV - 90388126
+9/18/1996 5:18:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GARDENS.GDV - 13125940
+9/13/1996 4:28:18 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GATE01A.GDV - 5777493
+9/13/1996 4:28:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GATE01B.GDV - 3551233
+8/14/1996 1:14:40 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GAUL01.GDV - 15846994
+10/24/1996 1:04:24 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GAUL02.GDV - 9359574
+10/1/1996 4:32:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GLASSWIN.GDV - 13387239
+10/28/1996 3:35:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLA.GDV - 25427417
+9/11/1996 9:46:46 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLB.GDV - 3850737
+9/11/1996 9:48:22 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLC.GDV - 2415404
+9/11/1996 9:49:08 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLD.GDV - 2661983
+11/8/1996 6:04:18 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLE.GDV - 1245637
+9/11/1996 9:50:14 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLF.GDV - 2081712
+10/18/1996 3:36:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLG.GDV - 2692126
+9/11/1996 9:52:34 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLH.GDV - 4655268
+9/11/1996 9:53:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GNARLI.GDV - 1965170
+10/24/1996 6:25:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\GREMLOGO.GDV - 2175690
+9/3/1996 8:16:08 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK01.GDV - 16801696
+10/1/1996 8:34:38 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK02A.GDV - 6925871
+9/3/1996 8:19:46 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK02B.GDV - 1423355
+9/3/1996 8:20:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK02C.GDV - 1787151
+9/3/1996 8:21:06 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK02D.GDV - 7461816
+10/4/1996 5:11:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03A.GDV - 44875559
+10/16/1996 11:57:54 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03B.GDV - 10905686
+10/16/1996 11:59:26 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03C.GDV - 7782889
+10/16/1996 12:00:36 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03D.GDV - 4721763
+10/16/1996 12:03:30 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03E.GDV - 8701864
+10/16/1996 12:04:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03F.GDV - 9204445
+10/16/1996 12:06:40 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03G.GDV - 4876548
+10/16/1996 12:08:16 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03H.GDV - 4280093
+10/16/1996 12:08:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03I.GDV - 3937238
+10/14/1996 10:34:22 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03J.GDV - 4683746
+10/14/1996 10:34:36 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03K.GDV - 5782478
+10/14/1996 10:34:48 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03L.GDV - 2424935
+10/14/1996 10:35:08 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03M.GDV - 7702777
+10/14/1996 10:35:26 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03N.GDV - 8840385
+10/14/1996 10:35:42 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03O.GDV - 4961665
+10/14/1996 10:48:40 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK03P.GDV - 24896308
+10/3/1996 5:27:28 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\HAWK04.GDV - 20259165
+9/10/1996 2:10:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRA.GDV - 2930860
+9/10/1996 2:10:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRB.GDV - 2585168
+9/10/1996 2:11:32 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRC.GDV - 3719317
+9/10/1996 2:12:14 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRD.GDV - 2242381
+9/10/1996 2:13:32 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRE.GDV - 2052205
+9/10/1996 2:14:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRF.GDV - 3256521
+9/10/1996 2:15:30 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRG.GDV - 3096958
+9/10/1996 2:17:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRH.GDV - 4519101
+9/10/1996 2:18:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INSTRI.GDV - 4024854
+10/8/1996 4:34:44 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\INTRO.GDV - 90371541
+11/1/1996 1:47:34 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\MOVIE.GDV - 70837180
+11/4/1996 2:50:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RANDALL.GDV - 35032092
+10/23/1996 5:32:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAEL.GDV - 37388972
+9/16/1996 1:50:18 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAELH.GDV - 3767781
+9/16/1996 2:05:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAELI.GDV - 7436175
+9/16/1996 2:16:58 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAELJ.GDV - 4011387
+9/16/1996 2:18:14 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAELK.GDV - 2276018
+9/16/1996 2:19:44 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAELL.GDV - 1546894
+9/16/1996 2:20:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAELM.GDV - 3958306
+9/16/1996 2:29:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAELN.GDV - 2454403
+9/16/1996 2:30:38 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAPHAELO.GDV - 4634881
+10/16/1996 1:10:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RATPFA.GDV - 15040973
+10/14/1996 10:14:24 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RATPFB.GDV - 5397358
+10/21/1996 1:33:22 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAYSEL1A.GDV - 6668150
+10/21/1996 1:34:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAYSEL1B.GDV - 3685571
+10/21/1996 1:35:08 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAYSEL1C.GDV - 4841471
+10/21/1996 1:35:18 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAYSEL1D.GDV - 3685652
+10/21/1996 1:35:32 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAYSEL1E.GDV - 7466766
+10/21/1996 1:35:38 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAYSEL1F.GDV - 1057345
+8/16/1996 11:29:40 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RAYSEL1G.GDV - 3775218
+8/7/1996 1:25:42 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\REBECCA.GDV - 31859294
+9/11/1996 5:51:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\REFLECTA.GDV - 3098510
+9/11/1996 5:51:46 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\REFLECTB.GDV - 2441183
+9/11/1996 5:54:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\REFLECTC.GDV - 17258163
+10/16/1996 12:36:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\RITUAL.GDV - 17048694
+8/14/1996 1:29:10 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\SHRIVEA.GDV - 5572641
+8/14/1996 1:29:28 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\SHRIVEB.GDV - 2635974
+8/14/1996 1:30:18 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\SHRIVEC.GDV - 10724963
+8/14/1996 1:30:30 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\SHRIVED.GDV - 1295957
+10/24/1996 11:40:24 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\TALEWELA.GDV - 24142254
+9/10/1996 2:06:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\TALEWELB.GDV - 8105433
+9/10/1996 2:08:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\TALEWELC.GDV - 6425273
+10/1/1996 1:23:30 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\TUNNWARP.GDV - 1220426
+10/18/1996 1:04:24 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\VERSE.GDV - 5786403
+8/8/1996 12:57:46 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\WALKWAY1.GDV - 13288170
+8/8/1996 12:48:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\WALKWAY2.GDV - 2171427
+8/8/1996 11:49:22 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\WALKWAY3.GDV - 2256773
+10/11/1996 12:23:36 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\GDV\WALKWY1A.GDV - 14188110
+2/6/1995 3:00:00 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL\HMIDET.DRV - 52856
+2/6/1995 3:00:00 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL\HMIDRV.DRV - 188711
+2/6/1995 3:00:00 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL\HMIMDRV.DRV - 100647
+11/8/1996 5:29:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL\INSTALL.INI - 29409
+1/24/1995 2:26:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL\INSTGRAV.INI - 63
+12/8/1994 2:19:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL\LOADPATS.EXE - 49194
+9/21/1996 4:57:34 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL\REALMS.BAT - 17
+9/21/1996 4:57:56 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\INSTALL\WIN95RUN.PIF - 967
+11/6/1996 1:33:26 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\ABAGATE2.RAW - 25300
+11/6/1996 3:32:04 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\ADEMO.DAS - 19470288
+11/7/1996 12:13:40 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\AELF.RAW - 78488
+11/6/1996 1:33:30 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\ANUBIS.RAW - 51572
+11/8/1996 3:43:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\AQUA1.RAW - 68794
+11/6/1996 1:34:54 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\AQUA2.RAW - 57962
+11/6/1996 1:34:30 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\CAVERNS.RAW - 86932
+11/6/1996 1:33:46 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\CAVERNS2.RAW - 15008
+11/8/1996 7:39:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\CAVERNS3.RAW - 80606
+11/8/1996 12:44:58 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\CHURCH1.RAW - 90494
+11/6/1996 1:32:24 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\DEMO.DAS - 15821238
+11/5/1996 6:34:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\DEMO1.DAS - 17449076
+11/1/1996 5:27:30 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\DEMO2.DAS - 4259068
+11/5/1996 6:22:20 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\DEMO3.DAS - 7286362
+3/31/1996 4:18:30 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\DEMO4.DAS - 13033962
+11/8/1996 3:40:34 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\DOMINION.RAW - 69414
+11/8/1996 3:37:32 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\DOPPLE.RAW - 63264
+11/6/1996 1:33:36 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\ELOHIM1.RAW - 27688
+11/8/1996 5:21:40 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\GNARL1.RAW - 14784
+11/6/1996 1:33:54 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\GRAVE.RAW - 48758
+11/6/1996 1:34:56 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\LRINTH.RAW - 48496
+11/6/1996 1:34:58 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\LRINTH1.RAW - 44010
+11/7/1996 12:59:58 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\MAS3.RAW - 35850
+11/6/1996 1:33:38 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\MAS4.RAW - 31496
+11/7/1996 8:03:46 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\MAS6.RAW - 10322
+11/6/1996 1:33:42 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\MAS7.RAW - 42148
+11/6/1996 1:33:32 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\MAUSO1EA.RAW - 58992
+11/7/1996 1:02:24 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\MAUSO1EB.RAW - 40376
+11/6/1996 1:33:56 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\MAZE.RAW - 46316
+11/6/1996 1:35:00 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\OPTEMP1.RAW - 22622
+11/7/1996 10:41:32 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\RAQUIA1.RAW - 53484
+11/6/1996 1:34:36 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\RAQUIA2.RAW - 50522
+11/7/1996 12:44:42 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\RAQUIA3.RAW - 59882
+11/7/1996 10:36:32 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\RAQUIA4.RAW - 29844
+11/6/1996 1:34:42 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\RAQUIA5.RAW - 69420
+11/7/1996 4:09:24 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\SALVAT.RAW - 67832
+11/7/1996 10:44:46 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\SOULST2.RAW - 83954
+11/6/1996 1:34:10 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\SOULST3.RAW - 54674
+11/7/1996 12:11:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\STUDY1.RAW - 84788
+11/6/1996 1:33:22 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\STUDY2.RAW - 94290
+11/7/1996 12:41:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\STUDY3.RAW - 39404
+11/6/1996 1:33:24 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\STUDY4.RAW - 37222
+11/7/1996 3:21:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\TEMPLE1.RAW - 51258
+11/8/1996 6:17:20 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\TGATE1F.RAW - 76742
+11/7/1996 8:50:34 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\TGATE1G.RAW - 39306
+11/8/1996 6:22:00 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\TGATE1H.RAW - 76490
+11/7/1996 8:51:20 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\TGATE1I.RAW - 18922
+11/7/1996 1:19:02 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\TOWER1.AXX - 86489
+11/6/1996 1:34:14 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\TOWER1.RAW - 84542
+11/6/1996 1:34:44 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\VICAR.RAW - 45820
+11/6/1996 1:33:26 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\M\VICAR1.RAW - 29178
+12/12/1994 12:26:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\MIDI\DRUM.BNK - 5404
+10/26/1995 5:39:42 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\MIDI\GRAVIS.INI - 536
+2/6/1995 4:00:00 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\MIDI\HMIMDRV.386 - 117776
+12/12/1994 12:26:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\MIDI\MELODIC.BNK - 5404
+9/1/1994 1:56:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DATA\MIDI\MT32MAP.MTX - 1104
+7/2/2010 1:00:16 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 11:55:40 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\SDL.dll - 448231
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\SDL_net.dll - 13312
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\DOSBOX\Video Codec\zmbv.inf - 4043
+2/15/2011 4:56:48 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\CONFIG.INI - 211
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DBASE100.DAT - 42124
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DBASE200.DAT - 1775000
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DBASE400.DAT - 176132
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DOS4GW.EXE - 265396
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL.EXE - 153632
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\REALMS.BAT - 17
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\ROTH.EXE - 470447
+2/15/2011 5:03:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\ROTH.INI - 163
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\ROTH.RES - 877
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DATA\BACKDROP.RAW - 173832
+2/15/2011 4:37:56 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DATA\FXSCRIPT.SFX - 14764542
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DATA\ICONS.ALL - 55972
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DIGI\HMIDET.386 - 81990
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\DIGI\HMIDRV.386 - 261425
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\DOS4GW.EXE - 265396
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\DTEST.EXE - 30335
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\HMIDET.DRV - 52856
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\HMIDRV.DRV - 188711
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\HMIMDRV.DRV - 100647
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\INSTALL.EXE - 153632
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\INSTALL.INI - 29409
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\INSTGRAV.INI - 63
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\LOADPATS.EXE - 49194
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\INSTALL\ROTH.EXE - 470447
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\ABAGATE2.RAW - 25300
+2/15/2011 4:37:52 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\ADEMO.DAS - 19470288
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\AELF.RAW - 78488
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\ANUBIS.RAW - 51572
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\AQUA1.RAW - 68794
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\AQUA2.RAW - 57962
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\CAVERNS.RAW - 86932
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\CAVERNS2.RAW - 15008
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\CAVERNS3.RAW - 80606
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\CHURCH1.RAW - 90494
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\DEMO.DAS - 15821238
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\DEMO1.DAS - 17449076
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\DEMO2.DAS - 4259068
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\DEMO3.DAS - 7286362
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\DEMO4.DAS - 13033962
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\DOMINION.RAW - 69414
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\DOPPLE.RAW - 63264
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\ELOHIM1.RAW - 27688
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\GNARL1.RAW - 14784
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\GRAVE.RAW - 48758
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\LRINTH.RAW - 48496
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\LRINTH1.RAW - 44010
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\MAS3.RAW - 35850
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\MAS4.RAW - 31496
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\MAS6.RAW - 10322
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\MAS7.RAW - 42148
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\MAUSO1EA.RAW - 58992
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\MAUSO1EB.RAW - 40376
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\MAZE.RAW - 46316
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\OPTEMP1.RAW - 22622
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\RAQUIA1.RAW - 53484
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\RAQUIA2.RAW - 50522
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\RAQUIA3.RAW - 59882
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\RAQUIA4.RAW - 29844
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\RAQUIA5.RAW - 69420
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\SALVAT.RAW - 67832
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\SOULST2.RAW - 83954
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\SOULST3.RAW - 54674
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\STUDY1.RAW - 84788
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\STUDY2.RAW - 94290
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\STUDY3.RAW - 39404
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\STUDY4.RAW - 37222
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\TEMPLE1.RAW - 51258
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\TGATE1F.RAW - 76742
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\TGATE1G.RAW - 39306
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\TGATE1H.RAW - 76490
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\TGATE1I.RAW - 18922
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\TOWER1.RAW - 84542
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\VICAR.RAW - 45820
+2/15/2011 4:37:50 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\M\VICAR1.RAW - 29178
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\MIDI\DRUM.BNK - 5404
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\MIDI\GRAVIS.INI - 536
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\MIDI\HMIMDRV.386 - 117776
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\MIDI\MELODIC.BNK - 5404
+2/15/2011 4:37:54 PM - C:\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\MIDI\MT32MAP.MTX - 1104
+
+UAC Enabled
+
+
+VirtualStore Folders:
+11/5/2011 10:30:52 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\stderr.txt - 0
+11/5/2011 10:36:30 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\stdout.txt - 368
+11/5/2011 10:36:29 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\ROTH.INI - 163
+11/5/2011 10:31:34 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\SAVEGAME\SAVE0.SAV - 14303
+11/5/2011 10:36:20 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\SAVEGAME\SAVE2.SAV - 14251
+11/5/2011 10:36:26 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\SAVEGAME\SAVE4.SAV - 14251
+11/5/2011 10:36:26 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Realms of the Haunting\ROTH\TMP\STUDY1.TMP - 8374

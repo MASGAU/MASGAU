@@ -1,0 +1,136 @@
+Game Name: Flight Control HD
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+SteamCommon\flight_control_hd
+
+Save Path: 
+SteamUserData\62000
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\sphinx-soft\Vista-Wall\1.0\AppList\flightcontrol_win32.exe
+Value: File
+Data: 04/08/2011 01:57:22 - SteamCommon\flight_control_hd\flightcontrol_win32.exe - 732160
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Firemint\FlightControl
+Value: Install_Path
+Data: SteamCommon\flight_control_hd
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Firemint\FlightControl
+Value: Exe_Path
+Data: 04/08/2011 01:57:22 - SteamCommon\flight_control_hd\flightControl_win32.exe - 732160
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 62000
+Value: InstallLocation
+Data: SteamCommon\flight_control_hd
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: O:\
+Drive Root: O:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+15/12/2011 13:58:49 - SteamUserData\62000\remotecache.vdf - 2492
+01/06/2011 03:52:32 - SteamUserData\62000\remote\data0 - 89900
+19/12/2010 04:17:39 - SteamUserData\62000\remote\data1 - 89236
+19/12/2010 03:02:39 - SteamUserData\62000\remote\data10 - 89236
+10/07/2011 23:45:16 - SteamUserData\62000\remote\data11 - 90056
+20/12/2010 22:20:07 - SteamUserData\62000\remote\data2 - 89236
+19/12/2010 03:20:15 - SteamUserData\62000\remote\data3 - 89236
+19/12/2010 06:18:56 - SteamUserData\62000\remote\data4 - 89236
+15/12/2011 13:26:14 - SteamUserData\62000\remote\data5 - 90056
+12/01/2011 06:37:49 - SteamUserData\62000\remote\data9 - 89236
+15/12/2011 13:26:15 - SteamUserData\62000\remote\game0 - 752
+
+Install Folder Dump: 
+18/12/2010 22:47:14 - SteamCommon\flight_control_hd\alut.dll - 32768
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA0 - 89900
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA1 - 89236
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA10 - 89236
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA11 - 90056
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA2 - 89236
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA3 - 89236
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA4 - 89236
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA5 - 90056
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\DATA9 - 89236
+04/08/2011 01:57:22 - SteamCommon\flight_control_hd\flightControl_win32.exe - 732160
+15/12/2011 13:58:28 - SteamCommon\flight_control_hd\GAME0 - 752
+15/12/2011 13:26:15 - SteamCommon\flight_control_hd\highscores.bin - 16336
+18/12/2010 22:47:34 - SteamCommon\flight_control_hd\installscript.vdf - 1193
+19/12/2010 03:12:15 - SteamCommon\flight_control_hd\output_1292712950.txt - 1040195
+19/12/2010 04:17:52 - SteamCommon\flight_control_hd\output_1292724743.txt - 252834
+19/12/2010 06:19:02 - SteamCommon\flight_control_hd\output_1292733732.txt - 152223
+20/12/2010 01:05:50 - SteamCommon\flight_control_hd\output_1292801142.txt - 156559
+20/12/2010 14:25:17 - SteamCommon\flight_control_hd\output_1292841804.txt - 767200
+20/12/2010 23:40:56 - SteamCommon\flight_control_hd\output_1292875916.txt - 452713
+22/12/2010 22:08:57 - SteamCommon\flight_control_hd\output_1293050751.txt - 110960
+12/01/2011 06:38:00 - SteamCommon\flight_control_hd\output_1294810188.txt - 48209
+15/12/2011 13:58:48 - SteamCommon\flight_control_hd\output_log.txt - 39827
+15/12/2011 13:58:47 - SteamCommon\flight_control_hd\startup.bin - 28
+15/12/2011 13:58:47 - SteamCommon\flight_control_hd\startup.bin2 - 16
+30/06/2011 22:50:16 - SteamCommon\flight_control_hd\steam_api.dll - 124712
+15/12/2011 13:58:47 - SteamCommon\flight_control_hd\tmevents.bin - 180
+18/12/2010 22:46:58 - SteamCommon\flight_control_hd\zlib1.dll - 70656
+07/04/2011 19:52:07 - SteamCommon\flight_control_hd\OpenAL\oalinst.exe - 809496
+18/12/2010 22:46:52 - SteamCommon\flight_control_hd\OS_Check\check_os_version.bat - 166
+18/12/2010 22:47:10 - SteamCommon\flight_control_hd\OS_Check\check_xp_sp.vbs - 659
+18/12/2010 22:46:57 - SteamCommon\flight_control_hd\OS_Check\messagebox.vbs - 231
+18/12/2010 22:47:17 - SteamCommon\flight_control_hd\res\arrow_small.png - 1311
+30/06/2011 22:50:18 - SteamCommon\flight_control_hd\res\bin.pack - 3576
+18/12/2010 22:47:08 - SteamCommon\flight_control_hd\res\CC_SeedData.bin - 52
+18/12/2010 22:47:03 - SteamCommon\flight_control_hd\res\fc_icon.ico - 22486
+30/06/2011 22:50:16 - SteamCommon\flight_control_hd\res\font.pack - 46258
+18/12/2010 22:48:58 - SteamCommon\flight_control_hd\res\outback.bin - 40119
+07/04/2011 19:52:02 - SteamCommon\flight_control_hd\res\output_jigsaw_data.txt - 20307
+07/04/2011 19:52:05 - SteamCommon\flight_control_hd\res\readme_flightcontrolhd.txt - 223
+18/12/2010 22:48:15 - SteamCommon\flight_control_hd\res\snow.bin - 13152
+30/06/2011 22:52:10 - SteamCommon\flight_control_hd\res\texture.pack - 55470669
+18/12/2010 22:48:44 - SteamCommon\flight_control_hd\res\win_cursor.cur - 4286
+18/12/2010 22:48:51 - SteamCommon\flight_control_hd\res\sounds\bing_bong1.wav - 762596
+18/12/2010 22:47:11 - SteamCommon\flight_control_hd\res\sounds\bing_bong2.wav - 614824
+18/12/2010 22:47:07 - SteamCommon\flight_control_hd\res\sounds\bing_bong3.wav - 485844
+18/12/2010 22:47:28 - SteamCommon\flight_control_hd\res\sounds\bing_bong4.wav - 485256
+18/12/2010 22:48:00 - SteamCommon\flight_control_hd\res\sounds\bing_bong5.wav - 558648
+18/12/2010 22:48:53 - SteamCommon\flight_control_hd\res\sounds\bing_bong6.wav - 305072
+18/12/2010 22:48:52 - SteamCommon\flight_control_hd\res\sounds\collision.wav - 225766
+18/12/2010 22:47:17 - SteamCommon\flight_control_hd\res\sounds\congrats.wav - 557432
+18/12/2010 22:48:15 - SteamCommon\flight_control_hd\res\sounds\emergency.wav - 41686
+30/06/2011 22:51:04 - SteamCommon\flight_control_hd\res\sounds\fc-summer.wav - 12051500
+18/12/2010 22:47:07 - SteamCommon\flight_control_hd\res\sounds\FC_new_plane_airport.wav - 70810
+18/12/2010 22:47:55 - SteamCommon\flight_control_hd\res\sounds\gate_1.wav - 105228
+18/12/2010 22:47:08 - SteamCommon\flight_control_hd\res\sounds\gate_2.wav - 100236
+18/12/2010 22:48:24 - SteamCommon\flight_control_hd\res\sounds\gate_3.wav - 88844
+18/12/2010 22:46:59 - SteamCommon\flight_control_hd\res\sounds\gate_4.wav - 83598
+18/12/2010 22:46:54 - SteamCommon\flight_control_hd\res\sounds\gate_5.wav - 60174
+18/12/2010 22:48:15 - SteamCommon\flight_control_hd\res\sounds\gate_6.wav - 43918
+18/12/2010 22:46:56 - SteamCommon\flight_control_hd\res\sounds\gate_7.wav - 42382
+18/12/2010 22:47:45 - SteamCommon\flight_control_hd\res\sounds\KitschieKoo2.wav - 20593196
+18/12/2010 22:47:13 - SteamCommon\flight_control_hd\res\sounds\landed.wav - 48536
+18/12/2010 22:47:45 - SteamCommon\flight_control_hd\res\sounds\level_picker_close.wav - 24972
+18/12/2010 22:47:15 - SteamCommon\flight_control_hd\res\sounds\level_picker_open.wav - 23002
+18/12/2010 22:48:10 - SteamCommon\flight_control_hd\res\sounds\loop.wav - 3272972
+18/12/2010 22:47:00 - SteamCommon\flight_control_hd\res\sounds\menu.wav - 11990
+18/12/2010 22:47:53 - SteamCommon\flight_control_hd\res\sounds\option_highlight_wet.wav - 43124
+18/12/2010 22:47:53 - SteamCommon\flight_control_hd\res\sounds\panic_button.wav - 185632
+18/12/2010 22:47:00 - SteamCommon\flight_control_hd\res\sounds\plane.wav - 6264
+18/12/2010 22:48:12 - SteamCommon\flight_control_hd\res\sounds\proximity.wav - 15604
+18/12/2010 22:48:07 - SteamCommon\flight_control_hd\res\sounds\runway.wav - 9766
+18/12/2010 22:47:16 - SteamCommon\flight_control_hd\res\sounds\score_updating.wav - 136383
+18/12/2010 22:48:50 - SteamCommon\flight_control_hd\res\sounds\tabs.wav - 34564
+18/12/2010 22:46:50 - SteamCommon\flight_control_hd\res\sounds\toggle_switch.wav - 11180
+18/12/2010 22:48:15 - SteamCommon\flight_control_hd\res\sounds\wind.wav - 156120
+18/12/2010 22:48:05 - SteamCommon\flight_control_hd\reslists\precache.lst - 656
+18/12/2010 22:46:55 - SteamCommon\flight_control_hd\reslists\preload.lst - 656
+18/12/2010 22:47:51 - SteamCommon\flight_control_hd\VC_Redist\vcredist_x86.exe - 5073240
+
+UAC Enabled
+
+
+VirtualStore Folders: 

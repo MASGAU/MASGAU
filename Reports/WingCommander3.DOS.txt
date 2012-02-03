@@ -1,0 +1,115 @@
+Game Name: Wing Commander 3
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Wing Commander 3
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{04C6AB85-E0E9-416D-8BA9-DA38576B97BE}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{04C6AB85-E0E9-416D-8BA9-DA38576B97BE}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER3
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER3
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER3
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER3
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER3
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wing Commander III - Heart of the Tiger_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wing Commander III - Heart of the Tiger_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 3\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander III\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander 3\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander III\Uninstall Wing Commander III - Heart of the Tiger.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander 3\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander III\Wing Commander III.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander III\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander 3\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/12/2011 12:56:18 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\00000001.WSG - 2882
+12/12/2011 12:56:21 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\00000011.WSG - 2882
+12/12/2011 12:52:58 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\stderr.txt - 0
+12/12/2011 12:56:29 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\stdout.txt - 176
+12/12/2011 12:53:01 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\SWAPFILE.$$$ - 20000000
+12/12/2011 12:56:21 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\WSG_NDX.WSG - 3054
+12/12/2011 12:53:01 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\WC3\WC3.CON - 375
+
+Install Folder Dump:
+6/28/2011 12:50:40 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DATA.DAT - 1862948864
+7/14/2011 2:18:32 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\dosboxWC3.conf - 10183
+7/14/2011 3:14:26 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\gfw_high.ico - 114201
+9/2/2011 5:36:40 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\goggame.dll - 229376
+2/25/2011 4:19:10 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\Graphic mode setup.exe - 980992
+11/28/2008 11:32:10 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\innosetup_license.txt - 1471
+7/14/2011 3:22:44 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\manual.pdf - 3226619
+6/28/2011 12:56:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\OBJECTS.TRE - 8836276
+4/20/2010 1:37:04 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\Support.ico - 62895
+12/12/2011 12:41:34 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\unins000.dat - 57732
+12/12/2011 12:34:59 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\unins000.exe - 2142547
+12/12/2011 12:41:33 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\unins000.ini - 90
+7/1/2009 10:22:14 AM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox-0.73.tar.gz - 1279384
+5/27/2009 12:50:36 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox.exe - 3760640
+5/27/2009 7:11:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox_AUTHORS.txt - 243
+5/27/2009 7:11:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox_COPYING.txt - 18332
+5/27/2009 7:11:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox_INSTALL.txt - 3937
+5/27/2009 7:11:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox_NEWS.txt - 27704
+5/27/2009 7:11:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox_README.txt - 52658
+5/27/2009 7:11:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\dosbox_THANKS.txt - 960
+5/27/2009 12:48:18 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\SDL.dll - 448231
+5/27/2009 12:48:18 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\SDL_net.dll - 13312
+5/27/2009 7:11:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\zmbv\README.txt - 1608
+5/27/2009 12:48:08 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\zmbv\zmbv.dll - 94208
+5/27/2009 12:48:08 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\DOSBOX\zmbv\zmbv.inf - 4043
+6/28/2011 12:56:26 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\WC3\WC3.CFG - 126
+6/28/2011 12:55:18 PM - C:\Program Files (x86)\GOG.com\Wing Commander 3\WC3\WC3.CON - 375
+
+UAC Enabled
+
+
+VirtualStore Folders:
+12/12/2011 12:56:18 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\00000001.WSG - 2882
+12/12/2011 12:56:21 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\00000011.WSG - 2882
+12/12/2011 12:52:58 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\stderr.txt - 0
+12/12/2011 12:56:29 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\stdout.txt - 176
+12/12/2011 12:53:01 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\SWAPFILE.$$$ - 20000000
+12/12/2011 12:56:21 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\WSG_NDX.WSG - 3054
+12/12/2011 12:53:01 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 3\WC3\WC3.CON - 375

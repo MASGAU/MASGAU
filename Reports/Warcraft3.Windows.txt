@@ -1,0 +1,655 @@
+Game Name: Warcraft 3
+
+Operating System:
+Microsoft Windows NT 5.1.2600 Service Pack 3
+
+Install Path:
+C:\Program Files\Warcraft III
+
+Save Path:
+C:\Program Files\Warcraft III\save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\World Editor.exe\shell\open\command
+Value:
+Data: C:\Program Files\Warcraft III\World Editor.exe -loadfile "%1"
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{307A6C42-0000-0010-8000-00AA00389B71}\InprocServer32
+Value:
+Data: c:\program files\warcraft iii\blizzard.ax
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Warcraft3.Replay\DefaultIcon
+Value:
+Data: C:\Program Files\Warcraft III\Replays.ico
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WorldEdit.AIData\DefaultIcon
+Value:
+Data: C:\Program Files\Warcraft III\WorldEdit.exe,5
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WorldEdit.AIData\shell\open\command
+Value:
+Data: C:\Program Files\Warcraft III\World Editor.exe -loadfile "%1"
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WorldEdit.Campaign\DefaultIcon
+Value:
+Data: C:\Program Files\Warcraft III\WorldEdit.exe,4
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WorldEdit.Campaign\shell\open\command
+Value:
+Data: C:\Program Files\Warcraft III\World Editor.exe -loadfile "%1"
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WorldEdit.Scenario\DefaultIcon
+Value:
+Data: C:\Program Files\Warcraft III\WorldEdit.exe,2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WorldEdit.Scenario\shell\open\command
+Value:
+Data: C:\Program Files\Warcraft III\World Editor.exe -loadfile "%1"
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WorldEdit.ScenarioEx\DefaultIcon
+Value:
+Data: C:\Program Files\Warcraft III\WorldEdit.exe,3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WorldEdit.ScenarioEx\shell\open\command
+Value:
+Data: C:\Program Files\Warcraft III\World Editor.exe -loadfile "%1"
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III
+Value: InstallPath
+Data: C:\Program Files\Warcraft III
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III
+Value: Program
+Data: C:\Program Files\Warcraft III\Warcraft III.exe
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III
+Value: InstallPathX
+Data: C:\Program Files\Warcraft III
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III
+Value: ProgramX
+Data: C:\Program Files\Warcraft III\Frozen Throne.exe
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt0
+Value: Path0
+Data: C:\Program Files\Warcraft III\save
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt0
+Value: Path1
+Data: C:\Program Files\Warcraft III\save
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt0
+Value: Path2
+Data: C:\Program Files\Warcraft III\save
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt1
+Value: Path0
+Data: C:\Program Files\Warcraft III\replay
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt2
+Value: Path0
+Data: C:\Program Files\Warcraft III\Logs
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt2
+Value: Path1
+Data: C:\Program Files\Warcraft III\Logs
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt2
+Value: Path2
+Data: C:\Program Files\Warcraft III\Logs
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt2
+Value: Path3
+Data: C:\Program Files\Warcraft III\Logs
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\DelOpt3
+Value: Path0
+Data: C:\Program Files\Warcraft III\Errors
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Last Open Directory
+Data: C:\Program Files\Warcraft III\Maps\
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 00
+Data: C:\Program Files\Warcraft III\Maps\(4)DragonMountain.w3x
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 01
+Data: C:\Program Files\Warcraft III\Maps\(4)DragonMountain.w3m
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 02
+Data: C:\Program Files\Warcraft III\Maps\(8)Battleground.w3x
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 03
+Data: C:\Program Files\Warcraft III\Maps\(8)Battleground.w3m
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 04
+Data: C:\Program Files\Warcraft III\Maps\(4)LostTemple.w3m
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 05
+Data: C:\Program Files\Warcraft III\Maps\(10)DustwallowKeys.w3m
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 06
+Data: C:\Program Files\Warcraft III\Maps\This was a triumph! (12).w3x
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 07
+Data: C:\Program Files\Warcraft III\Maps\This was a triumph! (12).w3m
+
+Key:HKEY_CURRENT_USER\Software\Blizzard Entertainment\WorldEdit
+Value: Recent Document 08
+Data: C:\Program Files\Warcraft III\Maps\(12)DivideAndConquer.w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3m
+Value: a
+Data: C:\Program Files\Warcraft III\Maps\TH. v. TS. v. TA..w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3m
+Value: b
+Data: C:\Program Files\Warcraft III\Maps\(12)IceCrown.w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3m
+Value: c
+Data: C:\Program Files\Warcraft III\Maps\(12)DivideAndConquer.w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3m
+Value: d
+Data: C:\Program Files\Warcraft III\Maps\This was a triumph! (12).w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3m
+Value: e
+Data: C:\Program Files\Warcraft III\Maps\(10)DustwallowKeys.w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3m
+Value: f
+Data: C:\Program Files\Warcraft III\Maps\(4)LostTemple.w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3m
+Value: g
+Data: C:\Program Files\Warcraft III\Maps\(8)Battleground.w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3m
+Value: h
+Data: C:\Program Files\Warcraft III\Maps\(4)DragonMountain.w3m
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3x
+Value: a
+Data: C:\Program Files\Warcraft III\Maps\Test\WorldEditTestMap.w3x
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\w3x
+Value: b
+Data: C:\Program Files\Warcraft III\Maps\This was a triumph! (12).w3x
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\Warcraft III
+Value: InstallLocation
+Data: C:\Program Files\Warcraft III
+
+Detected Start Menu Shortcuts:
+C:\Documents and Settings\mark if fat\Start Menu\Programs\Warcraft III\Warcraft III - The Frozen Throne Readme.lnk
+C:\Program Files\Warcraft III\support\Layout\(PC)Index.html
+C:\Documents and Settings\mark if fat\Start Menu\Programs\Warcraft III\Warcraft III - The Frozen Throne.lnk
+C:\Program Files\Warcraft III\Frozen Throne.exe
+C:\Documents and Settings\mark if fat\Start Menu\Programs\Warcraft III\Warcraft III Readme.lnk
+C:\Program Files\Warcraft III\support\Layout\Index.html
+C:\Documents and Settings\mark if fat\Start Menu\Programs\Warcraft III\Warcraft III World Editor.lnk
+C:\Program Files\Warcraft III\World Editor.exe
+C:\Documents and Settings\mark if fat\Start Menu\Programs\Warcraft III\Warcraft III.lnk
+C:\Program Files\Warcraft III\Warcraft III.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files\Warcraft III\save\Profile1\Campaigns.w3p - 527
+C:\Program Files\Warcraft III\save\Profile1\Campaigns.w3v - 106
+C:\Program Files\Warcraft III\save\Profile1\DemoCampaign.w3p - 59
+C:\Program Files\Warcraft III\save\Profile1\ww.w3z - 4002608
+C:\Program Files\Warcraft III\save\Profile2\Campaigns.w3p - 529
+C:\Program Files\Warcraft III\save\Profile2\Campaigns.w3v - 106
+
+Install Folder Dump:
+C:\Program Files\Warcraft III\blizzard.ax - 606208
+C:\Program Files\Warcraft III\BNUpdate.exe - 294912
+C:\Program Files\Warcraft III\bnupdate.log - 190
+C:\Program Files\Warcraft III\CustomKeyInfo.txt - 5424
+C:\Program Files\Warcraft III\CustomKeysSample.txt - 60274
+C:\Program Files\Warcraft III\Frozen Throne.exe - 274432
+C:\Program Files\Warcraft III\game.dll - 9375804
+C:\Program Files\Warcraft III\ijl15.dll - 372736
+C:\Program Files\Warcraft III\License.txt - 14132
+C:\Program Files\Warcraft III\Mss32.dll - 347648
+C:\Program Files\Warcraft III\Patch.txt - 112636
+C:\Program Files\Warcraft III\replays.ico - 21630
+C:\Program Files\Warcraft III\Storm.dll - 368702
+C:\Program Files\Warcraft III\war3.exe - 1568211
+C:\Program Files\Warcraft III\war3.mpq - 440825562
+C:\Program Files\Warcraft III\War3.org - 1572307
+C:\Program Files\Warcraft III\War3Inst.log - 66
+C:\Program Files\Warcraft III\War3Patch.mpq - 27470305
+C:\Program Files\Warcraft III\War3x.mpq - 346540695
+C:\Program Files\Warcraft III\War3xInst.log - 66
+C:\Program Files\Warcraft III\War3xlocal.mpq - 44795849
+C:\Program Files\Warcraft III\Warcraft III.exe - 274432
+C:\Program Files\Warcraft III\World Editor.exe - 69632
+C:\Program Files\Warcraft III\worldedit.exe - 4362240
+C:\Program Files\Warcraft III\AI Scripts\GruntMaster.wai - 8369
+C:\Program Files\Warcraft III\AI Scripts\WyrmMonger.wai - 9443
+C:\Program Files\Warcraft III\Campaigns\DemoCampaign.w3n - 2629245
+C:\Program Files\Warcraft III\Errors\2011-04-29 08.29.26 Crash.dmp - 261687
+C:\Program Files\Warcraft III\Errors\2011-04-29 08.29.26 Crash.txt - 14141
+C:\Program Files\Warcraft III\Errors\CrashSummaries.bin - 48
+C:\Program Files\Warcraft III\Maps\(10)DustwallowKeys.w3m - 306818
+C:\Program Files\Warcraft III\Maps\(12)DivideAndConquer.w3m - 348935
+C:\Program Files\Warcraft III\Maps\(12)IceCrown.w3m - 431169
+C:\Program Files\Warcraft III\Maps\(12)IceCrown.w3x - 433758
+C:\Program Files\Warcraft III\Maps\(2)BootyBay.w3m - 124881
+C:\Program Files\Warcraft III\Maps\(2)Harrow.w3m - 90772
+C:\Program Files\Warcraft III\Maps\(2)HillsOfGlory.w3m - 95243
+C:\Program Files\Warcraft III\Maps\(2)OgreMound.w3m - 80609
+C:\Program Files\Warcraft III\Maps\(2)PlunderIsle.w3m - 119343
+C:\Program Files\Warcraft III\Maps\(3)Forestwalk.w3m - 204066
+C:\Program Files\Warcraft III\Maps\(3)IsleOfDread.w3m - 167604
+C:\Program Files\Warcraft III\Maps\(3)Nighthaven.w3m - 89494
+C:\Program Files\Warcraft III\Maps\(4)Adrenaline.w3m - 65085
+C:\Program Files\Warcraft III\Maps\(4)Borderlands.w3m - 103589
+C:\Program Files\Warcraft III\Maps\(4)Deadwaterdrop.w3m - 94454
+C:\Program Files\Warcraft III\Maps\(4)DragonMountain.w3m - 316383
+C:\Program Files\Warcraft III\Maps\(4)DragonMountain.w3x - 144835
+C:\Program Files\Warcraft III\Maps\(4)Duskwood.w3m - 198924
+C:\Program Files\Warcraft III\Maps\(4)Frostsabre.w3m - 212442
+C:\Program Files\Warcraft III\Maps\(4)HarvestMoon.w3m - 196561
+C:\Program Files\Warcraft III\Maps\(4)HeartToHeart.w3m - 126988
+C:\Program Files\Warcraft III\Maps\(4)Legends.w3m - 185491
+C:\Program Files\Warcraft III\Maps\(4)LostTemple.w3m - 244981
+C:\Program Files\Warcraft III\Maps\(4)MysticIsles.w3m - 194775
+C:\Program Files\Warcraft III\Maps\(4)TranquilPaths.w3m - 253583
+C:\Program Files\Warcraft III\Maps\(5)TheGlaive.w3m - 150682
+C:\Program Files\Warcraft III\Maps\(6)DarkForest.w3m - 241441
+C:\Program Files\Warcraft III\Maps\(6)DragonFire.w3m - 219713
+C:\Program Files\Warcraft III\Maps\(6)DrywaterGulch.w3m - 223899
+C:\Program Files\Warcraft III\Maps\(6)GnollWood.w3m - 243998
+C:\Program Files\Warcraft III\Maps\(6)Moonglade.w3m - 151828
+C:\Program Files\Warcraft III\Maps\(6)ScorchedBasin.w3m - 147648
+C:\Program Files\Warcraft III\Maps\(6)Stromguarde.w3m - 221990
+C:\Program Files\Warcraft III\Maps\(6)SwampOfSorrows.w3m - 218641
+C:\Program Files\Warcraft III\Maps\(6)TimbermawHold.w3m - 172781
+C:\Program Files\Warcraft III\Maps\(8)Battleground.w3m - 397561
+C:\Program Files\Warcraft III\Maps\(8)Battleground.w3x - 890817
+C:\Program Files\Warcraft III\Maps\(8)BlastedLands.w3m - 185496
+C:\Program Files\Warcraft III\Maps\(8)BloodvenomFalls.w3m - 232993
+C:\Program Files\Warcraft III\Maps\(8)GardenOfWar.w3m - 208466
+C:\Program Files\Warcraft III\Maps\(8)GolemsInTheMist.w3m - 237486
+C:\Program Files\Warcraft III\Maps\(8)PetrifiedForest.w3m - 277870
+C:\Program Files\Warcraft III\Maps\(8)Plaguelands.w3m - 255418
+C:\Program Files\Warcraft III\Maps\(8)PlainsOfSnow.w3m - 238809
+C:\Program Files\Warcraft III\Maps\(8)TheCrucible.w3m - 225331
+C:\Program Files\Warcraft III\Maps\(9)Riverrun.w3m - 314318
+C:\Program Files\Warcraft III\Maps\TH. v. TS. v. TA..w3m - 22097
+C:\Program Files\Warcraft III\Maps\This was a triumph! (12).w3m - 512003
+C:\Program Files\Warcraft III\Maps\This was a triumph! (12).w3x - 641393
+C:\Program Files\Warcraft III\Maps\DOTA\DotA Allstars v6.38b AI v1.93b.w3x - 2654321
+C:\Program Files\Warcraft III\Maps\DOTA\DotA Allstars v6.41.w3x - 1981041
+C:\Program Files\Warcraft III\Maps\DOTA\Anime\Anime Arena Final.w3x - 332589
+C:\Program Files\Warcraft III\Maps\DOTA\Anime\Anime Battle v1.3.w3x - 3511456
+C:\Program Files\Warcraft III\Maps\DOTA\Anime\Anime Fight Beta v1.39o4.w3x - 243241
+C:\Program Files\Warcraft III\Maps\DOTA\Anime\Anime Wars v4.2.w3x - 3648240
+C:\Program Files\Warcraft III\Maps\DOTA\Naruto\Naruto - 3rd Shinobi Wars 1.5c.w3x - 2879239
+C:\Program Files\Warcraft III\Maps\DOTA\Naruto\Naruto - Chunin Exam.w3x - 631411
+C:\Program Files\Warcraft III\Maps\DOTA\Naruto\naruto - Clash Of Gato v4.5.0.w3x - 4118014
+C:\Program Files\Warcraft III\Maps\DOTA\Naruto\Naruto - Hero Builder Arena v3.2e.w3x - 3994380
+C:\Program Files\Warcraft III\Maps\DOTA\Naruto\Naruto - RPG v4.0.w3x - 2835926
+C:\Program Files\Warcraft III\Maps\DOTA\Naruto\Naruto - SC Beta 1.2.w3x - 2748102
+C:\Program Files\Warcraft III\Maps\DOTA\Naruto\Naruto - TD v2.9.w3x - 1462644
+C:\Program Files\Warcraft III\Maps\DOTA\Naruto\Naruto Wars v7.6b.w3x - 3846360
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(10)RagingStream.w3x - 199265
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(12)EmeraldGardens.w3x - 318894
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)BanditRidge.w3x - 169014
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)Circumvention.w3x - 99364
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)EchoIsles.w3x - 117071
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)GlacialThaw.w3x - 164304
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)Korea.w3x - 125413
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)ShrineOfTheAncients.w3x - 143053
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)TerenasStand.w3x - 100483
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)TheTwoRivers.w3x - 105825
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(2)TirisfalGlades.w3x - 100632
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Adrenaline.w3x - 66792
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Avalanche.w3x - 145822
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)BridgeTooNear.w3x - 174827
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)BrokenShard.w3x - 170194
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)ColdHeart.w3x - 134441
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Deathrose.w3x - 360222
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)DesertStrife.w3x - 96365
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)DevilsCauldron.w3x - 145035
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)ExcavationSite.w3x - 254780
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)FloodPlains.w3x - 210970
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)FloodPlains1v1.w3x - 220498
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)FrozenClover.w3x - 220653
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Goldshire.w3x - 190529
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)HailStone.w3x - 191923
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)HearthglenHills.w3x - 229024
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Hellfire.w3x - 110694
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)IceFlow.w3x - 106869
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)IceForge.w3x - 132260
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Islands.w3x - 170968
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)LostTemple.w3x - 245991
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)ParadiseIslands.w3x - 182269
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)PhantomGrove.w3x - 207754
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Predators.w3x - 220170
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Roundabout.w3x - 238612
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Ruins.w3x - 185038
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)StoneColdMountain.w3x - 189146
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Tanaris.w3x - 153467
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)TurtleRock.w3x - 146415
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)TwistedMeadows.w3x - 212959
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Venetia.w3x - 82939
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Wetlands.w3x - 110118
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)Whirlwind.w3x - 118713
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(4)WindyWaste.w3x - 86261
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Andorhal.w3x - 170350
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)BloodstoneMesa.w3x - 159077
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)CopperCanyon.w3x - 180432
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Demon'sCrossing.w3x - 227312
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)DragonBlight.w3x - 276164
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Duststorm.w3x - 211005
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)EmeraldShores.w3x - 198074
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)EnakrosWay.w3x - 229858
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Everfrost.w3x - 225625
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)GnollWood.w3x - 247131
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)HavenOfTheDamned.w3x - 166954
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Highperch.w3x - 235160
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)HinterlandRaid.w3x - 182613
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Jack-o-Lantern.w3x - 172051
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)JungleFever.w3x - 202238
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Monsoon.w3x - 228288
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Moonglade.w3x - 152962
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)RiceFields.w3x - 191116
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)RiverOfSouls.w3x - 222196
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)RollingHills.w3x - 210208
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)RuinsOfStratholme.w3x - 194672
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)SavageStorm.w3x - 238152
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)ScorchedBasin.w3x - 151569
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)SilverpineForest.w3x - 257125
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)StranglethornVale.w3x - 173677
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)SunrockCove.w3x - 273537
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)ThunderLake.w3x - 280115
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)TimbermawHold.w3x - 173445
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Typhoon.w3x - 163382
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)UpperKingdom.w3x - 236530
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)Wellspring.w3x - 105971
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)WheelofChaos.w3x - 150608
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(6)WizardsRetreat.w3x - 142275
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Battleground.w3x - 231330
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Cherryville.w3x - 278373
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Deadlands.w3x - 182248
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Deadlock.w3x - 273978
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Deathknell.w3x - 254997
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)DragonFalls.w3x - 234696
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Feralas.w3x - 229416
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Friends.w3x - 236355
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)FullScaleAssault.w3x - 320610
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)GardenOfWar.w3x - 202560
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)GoldRush.w3x - 379015
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)HurricaneIsle.w3x - 337341
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)LastManStanding.w3x - 309897
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)MarketSquare.w3x - 184929
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Mur'gulOasis.w3x - 252253
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Northshire.w3x - 240365
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)PlainsOfSnow.w3x - 243184
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)RockQuarry.w3x - 367510
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Sanctuary.w3x - 207468
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)ShamrockReef.w3x - 258408
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)Slalom.w3x - 238043
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)SpiderFalls.w3x - 242945
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)TheCrossroads.w3x - 213385
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(8)TwilightRuins.w3x - 314407
+C:\Program Files\Warcraft III\Maps\FrozenThrone\(9)RoundVillage.w3x - 278211
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(10)ExtremeCandyWar2004 2.w3x - 2685440
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(10)ExtremeCandyWar2004.w3x - 2685513
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(10)Skibi'sCastleTD.w3x - 1617932
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(12) Elite Snipers II 1.0 Final.w3x - 301930
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(12)Legendary Heroes TFT.w3x - 54304
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(12)Snipers.Remix 1.08[P].w3x - 300145
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(12)WormWar.w3x - 382409
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(2)TheTwoRivers(AMAI).w3x - 487014
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(4)ArathiHighlands.w3x - 164641
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(4)BurbenogTDv2.02.w3x - 476410
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(4)Monolith.w3x - 1918553
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(6)BlizzardTD.w3x - 996081
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(8)AzerothGrandPrix.w3x - 1238199
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(8)AzureTowerDefense.w3x - 296434
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(8)Brutal Warfare.w3x - 88987
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\(8)FunnyBunnysEggHunt.w3x - 2409021
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\Advanced Footman War 2.2.w3x - 78558
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\Advanced Footman War 2.6.w3x - 186420
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\Angel Arena Morphed (Protec.w3x - 1213005
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\AnimeMaul TD v1.5.w3x - 112554
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\Base Invaders BETA V.01.w3x - 34897
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\Battle Arena.w3x - 86682
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\BUG Invasion.w3x - 102855
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\bunker warz tft!!.w3x - 77201
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\DarkLineageOwen003.w3x - 4033714
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\Element TD 4.1b.w3x - 1349370
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\Glare of Vanity ORPG2.w3x - 835490
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\WOA Remix.w3x - 2064666
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\To the Bitter End\TTBE01 Dark Dawn.w3x - 7763528
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\To the Bitter End\TTBE02 The Dream of Blood.w3x - 8275572
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\To the Bitter End\TTBE03 Juggernaut.w3x - 6820175
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\To the Bitter End\TTBE04 Heart of Ice.w3x - 7209728
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\To the Bitter End\TTBE05 Reunion.w3x - 8855053
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\To the Bitter End\TTBE06 Harbingers of War.w3x - 12008282
+C:\Program Files\Warcraft III\Maps\FrozenThrone\Scenario\To the Bitter End\TTBE07 Grim Harvest.w3x - 13843965
+C:\Program Files\Warcraft III\Maps\Scenario\(1)TheDeathSheep.w3m - 58318
+C:\Program Files\Warcraft III\Maps\Scenario\(4)WarChasers.w3m - 232446
+C:\Program Files\Warcraft III\Maps\Test\WorldEditTestMap.w3x - 144807
+C:\Program Files\Warcraft III\Movies\HumanEd.mpq - 20393390
+C:\Program Files\Warcraft III\Movies\HumanOp.mpq - 26366936
+C:\Program Files\Warcraft III\Movies\IntroX.mpq - 27922090
+C:\Program Files\Warcraft III\Movies\NightElfEd.mpq - 19138382
+C:\Program Files\Warcraft III\Movies\OrcEd.mpq - 28432146
+C:\Program Files\Warcraft III\Movies\OutroX.mpq - 28240358
+C:\Program Files\Warcraft III\Movies\TutorialIn.mpq - 16453216
+C:\Program Files\Warcraft III\Movies\TutorialOp.mpq - 21283740
+C:\Program Files\Warcraft III\Movies\UndeadEd.mpq - 15052312
+C:\Program Files\Warcraft III\redist\miles\Mp3dec.asi - 125952
+C:\Program Files\Warcraft III\redist\miles\Mssdolby.m3d - 65536
+C:\Program Files\Warcraft III\redist\miles\Msseax2.m3d - 70144
+C:\Program Files\Warcraft III\redist\miles\Mssfast.m3d - 64000
+C:\Program Files\Warcraft III\redist\miles\Reverb3.flt - 56832
+C:\Program Files\Warcraft III\replay\LastReplay.w3g - 2456
+C:\Program Files\Warcraft III\save\Profile1\Campaigns.w3p - 527
+C:\Program Files\Warcraft III\save\Profile1\Campaigns.w3v - 106
+C:\Program Files\Warcraft III\save\Profile1\DemoCampaign.w3p - 59
+C:\Program Files\Warcraft III\save\Profile1\ww.w3z - 4002608
+C:\Program Files\Warcraft III\save\Profile2\Campaigns.w3p - 529
+C:\Program Files\Warcraft III\save\Profile2\Campaigns.w3v - 106
+C:\Program Files\Warcraft III\support\BattleNet\(Mac)BNetMenu.html - 3697
+C:\Program Files\Warcraft III\support\BattleNet\(Mac)BNetTroubleshooting.html - 9621
+C:\Program Files\Warcraft III\support\BattleNet\(PC)BNetMenu.html - 3725
+C:\Program Files\Warcraft III\support\BattleNet\(PC)BNetTroubleshooting.html - 13461
+C:\Program Files\Warcraft III\support\BattleNet\ChatHelp.html - 15501
+C:\Program Files\Warcraft III\support\BattleNet\ClanHelp.html - 7089
+C:\Program Files\Warcraft III\support\Images\Blizz.jpg - 34838
+C:\Program Files\Warcraft III\support\Images\BLWidget.jpg - 19651
+C:\Program Files\Warcraft III\support\Images\BNet.jpg - 36497
+C:\Program Files\Warcraft III\support\Images\BRepeat.jpg - 31890
+C:\Program Files\Warcraft III\support\Images\BRWidget.jpg - 19588
+C:\Program Files\Warcraft III\support\Images\BSpacer.jpg - 24267
+C:\Program Files\Warcraft III\support\Images\BWidget.jpg - 20100
+C:\Program Files\Warcraft III\support\Images\cb_center.jpg - 1830
+C:\Program Files\Warcraft III\support\Images\cb_left.jpg - 813
+C:\Program Files\Warcraft III\support\Images\cb_right.jpg - 755
+C:\Program Files\Warcraft III\support\Images\CRepeat.jpg - 26856
+C:\Program Files\Warcraft III\support\Images\ct_center.jpg - 1859
+C:\Program Files\Warcraft III\support\Images\ct_left.jpg - 826
+C:\Program Files\Warcraft III\support\Images\ct_right.jpg - 762
+C:\Program Files\Warcraft III\support\Images\c_left.jpg - 2260
+C:\Program Files\Warcraft III\support\Images\c_right.jpg - 1878
+C:\Program Files\Warcraft III\support\Images\h_center.jpg - 138833
+C:\Program Files\Warcraft III\support\Images\h_left.jpg - 54142
+C:\Program Files\Warcraft III\support\Images\h_left_fixed.jpg - 36077
+C:\Program Files\Warcraft III\support\Images\h_right.jpg - 53999
+C:\Program Files\Warcraft III\support\Images\h_right_fixed.jpg - 35484
+C:\Program Files\Warcraft III\support\Images\ItemMarker.jpg - 19551
+C:\Program Files\Warcraft III\support\Images\Logo.jpg - 77273
+C:\Program Files\Warcraft III\support\Images\LRepeat.jpg - 23078
+C:\Program Files\Warcraft III\support\Images\MacLogo.jpg - 21700
+C:\Program Files\Warcraft III\support\Images\m_bottom.jpg - 2067
+C:\Program Files\Warcraft III\support\Images\m_ml.jpg - 2260
+C:\Program Files\Warcraft III\support\Images\m_mr.jpg - 1878
+C:\Program Files\Warcraft III\support\Images\m_top.jpg - 2110
+C:\Program Files\Warcraft III\support\Images\PlatformBarMac.jpg - 27727
+C:\Program Files\Warcraft III\support\Images\PlatformBarPC.jpg - 27422
+C:\Program Files\Warcraft III\support\Images\RRepeat.jpg - 22354
+C:\Program Files\Warcraft III\support\Images\splash.jpg - 53481
+C:\Program Files\Warcraft III\support\Images\TLWidget.jpg - 19712
+C:\Program Files\Warcraft III\support\Images\TRepeat.jpg - 55811
+C:\Program Files\Warcraft III\support\Images\TRWidget.jpg - 19659
+C:\Program Files\Warcraft III\support\Images\TWidget.jpg - 20285
+C:\Program Files\Warcraft III\support\Images\WinLogo.jpg - 22079
+C:\Program Files\Warcraft III\support\Images\ClanIcons\Initiate.jpg - 27408
+C:\Program Files\Warcraft III\support\Images\ClanIcons\Leader.jpg - 27704
+C:\Program Files\Warcraft III\support\Images\ClanIcons\Member.jpg - 27823
+C:\Program Files\Warcraft III\support\Images\ClanIcons\Officer.jpg - 27845
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_00.jpg - 75569
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_01.jpg - 75715
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_02.jpg - 75670
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_03.jpg - 75586
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_04.jpg - 75614
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_05.jpg - 75611
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_10.jpg - 75715
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_11.jpg - 75715
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_12.jpg - 75810
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_13.jpg - 75729
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_14.jpg - 75749
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_15.jpg - 75737
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_20.jpg - 75670
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_21.jpg - 75810
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_22.jpg - 75670
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_23.jpg - 75700
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_24.jpg - 75713
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_25.jpg - 75723
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_30.jpg - 75586
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_31.jpg - 75729
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_32.jpg - 75700
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_33.jpg - 75586
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_34.jpg - 75612
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_35.jpg - 75624
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_40.jpg - 75614
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_41.jpg - 75749
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_42.jpg - 75713
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_43.jpg - 75612
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_44.jpg - 75614
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_45.jpg - 75654
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_50.jpg - 75611
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_51.jpg - 75737
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_52.jpg - 75723
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_53.jpg - 75624
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_54.jpg - 75654
+C:\Program Files\Warcraft III\support\Images\Nav\Nav_55.jpg - 75611
+C:\Program Files\Warcraft III\support\Layout\(Mac)BSpacer.html - 835
+C:\Program Files\Warcraft III\support\Layout\(Mac)Index.html - 1499
+C:\Program Files\Warcraft III\support\Layout\(Mac)LBorder.html - 325
+C:\Program Files\Warcraft III\support\Layout\(Mac)Nav.html - 1900
+C:\Program Files\Warcraft III\support\Layout\(Mac)RBorder.html - 326
+C:\Program Files\Warcraft III\support\Layout\(Mac)TBorder.html - 1763
+C:\Program Files\Warcraft III\support\Layout\(Mac)WEHIndex.html - 1500
+C:\Program Files\Warcraft III\support\Layout\(Mac)WEHTBorder.html - 1619
+C:\Program Files\Warcraft III\support\Layout\(PC)BSpacer.html - 841
+C:\Program Files\Warcraft III\support\Layout\(PC)Index.html - 1550
+C:\Program Files\Warcraft III\support\Layout\(PC)LBorder.html - 325
+C:\Program Files\Warcraft III\support\Layout\(PC)Nav.html - 1896
+C:\Program Files\Warcraft III\support\Layout\(PC)RBorder.html - 326
+C:\Program Files\Warcraft III\support\Layout\(PC)TBorder.html - 1756
+C:\Program Files\Warcraft III\support\Layout\(PC)WEHIndex.html - 1496
+C:\Program Files\Warcraft III\support\Layout\(PC)WEHTBorder.html - 1608
+C:\Program Files\Warcraft III\support\Layout\(WEH)Nav.html - 341
+C:\Program Files\Warcraft III\support\Layout\cb_center.html - 303
+C:\Program Files\Warcraft III\support\Layout\cb_left.html - 301
+C:\Program Files\Warcraft III\support\Layout\cb_right.html - 302
+C:\Program Files\Warcraft III\support\Layout\CSpacer.html - 315
+C:\Program Files\Warcraft III\support\Layout\ct_center.html - 303
+C:\Program Files\Warcraft III\support\Layout\ct_left.html - 301
+C:\Program Files\Warcraft III\support\Layout\ct_right.html - 302
+C:\Program Files\Warcraft III\support\Layout\c_center.html - 867
+C:\Program Files\Warcraft III\support\Layout\c_left.html - 300
+C:\Program Files\Warcraft III\support\Layout\c_right.html - 301
+C:\Program Files\Warcraft III\support\Layout\Detector.js - 364
+C:\Program Files\Warcraft III\support\Layout\header_c.html - 491
+C:\Program Files\Warcraft III\support\Layout\header_l.html - 300
+C:\Program Files\Warcraft III\support\Layout\header_lf.html - 487
+C:\Program Files\Warcraft III\support\Layout\header_r.html - 301
+C:\Program Files\Warcraft III\support\Layout\header_rf.html - 483
+C:\Program Files\Warcraft III\support\Layout\Index.html - 3480
+C:\Program Files\Warcraft III\support\Layout\Index2.html - 3748
+C:\Program Files\Warcraft III\support\Layout\IndexMac.html - 3479
+C:\Program Files\Warcraft III\support\Layout\m_bottom.html - 300
+C:\Program Files\Warcraft III\support\Layout\m_mc.html - 1182
+C:\Program Files\Warcraft III\support\Layout\m_mc2.html - 1178
+C:\Program Files\Warcraft III\support\Layout\m_ml.html - 300
+C:\Program Files\Warcraft III\support\Layout\m_mr.html - 300
+C:\Program Files\Warcraft III\support\Layout\m_top.html - 299
+C:\Program Files\Warcraft III\support\Layout\Splash.html - 839
+C:\Program Files\Warcraft III\support\Layout\Styles.css - 5067
+C:\Program Files\Warcraft III\support\Layout\TheScript.js - 3682
+C:\Program Files\Warcraft III\support\Layout\WorldEditLocationBar.html - 417
+C:\Program Files\Warcraft III\support\Readme\(Mac)Addendum.html - 4759
+C:\Program Files\Warcraft III\support\Readme\(Mac)Foreword.html - 1379
+C:\Program Files\Warcraft III\support\Readme\(Mac)InGame.html - 6658
+C:\Program Files\Warcraft III\support\Readme\(Mac)PatchUninstall.html - 4784
+C:\Program Files\Warcraft III\support\Readme\(Mac)ReadMeMenu.html - 4855
+C:\Program Files\Warcraft III\support\Readme\(Mac)Start.html - 5169
+C:\Program Files\Warcraft III\support\Readme\(Mac)UIMainMenus.html - 25702
+C:\Program Files\Warcraft III\support\Readme\(PC)Addendum.html - 5393
+C:\Program Files\Warcraft III\support\Readme\(PC)Foreword.html - 1115
+C:\Program Files\Warcraft III\support\Readme\(PC)InGame.html - 6344
+C:\Program Files\Warcraft III\support\Readme\(PC)PatchUninstall.html - 2561
+C:\Program Files\Warcraft III\support\Readme\(PC)ReadMeMenu.html - 4833
+C:\Program Files\Warcraft III\support\Readme\(PC)Start.html - 5485
+C:\Program Files\Warcraft III\support\Readme\(PC)UIMainMenus.html - 25829
+C:\Program Files\Warcraft III\support\Readme\Addendum.html - 1450
+C:\Program Files\Warcraft III\support\Readme\BNTOU.html - 20106
+C:\Program Files\Warcraft III\support\Readme\Contact.html - 7030
+C:\Program Files\Warcraft III\support\Readme\EULA.html - 15698
+C:\Program Files\Warcraft III\support\Readme\Games.html - 10344
+C:\Program Files\Warcraft III\support\Support\(Mac)InstallUninstall.html - 6955
+C:\Program Files\Warcraft III\support\Support\(Mac)LAN.html - 7391
+C:\Program Files\Warcraft III\support\Support\(Mac)LockCrashDrivers.html - 6769
+C:\Program Files\Warcraft III\support\Support\(Mac)Patches.html - 4281
+C:\Program Files\Warcraft III\support\Support\(Mac)SupportMenu.html - 4406
+C:\Program Files\Warcraft III\support\Support\(PC)InstallUninstall.html - 10821
+C:\Program Files\Warcraft III\support\Support\(PC)LAN.html - 14903
+C:\Program Files\Warcraft III\support\Support\(PC)LockCrashDrivers.html - 14122
+C:\Program Files\Warcraft III\support\Support\(PC)Patches.html - 4019
+C:\Program Files\Warcraft III\support\Support\(PC)SupportMenu.html - 5232
+C:\Program Files\Warcraft III\support\WorldEdit\(Mac)WorldEditMenu.html - 10242
+C:\Program Files\Warcraft III\support\WorldEdit\(PC)WorldEditMenu.html - 10223
+C:\Program Files\Warcraft III\support\WorldEdit\(WEH)WorldEditMenu.html - 10223
+C:\Program Files\Warcraft III\support\WorldEdit\AIEditor.html - 13189
+C:\Program Files\Warcraft III\support\WorldEdit\CampaignEditor.html - 3864
+C:\Program Files\Warcraft III\support\WorldEdit\CreationSet.html - 13971
+C:\Program Files\Warcraft III\support\WorldEdit\FeaturesNav.html - 11751
+C:\Program Files\Warcraft III\support\WorldEdit\ImportManager.html - 966
+C:\Program Files\Warcraft III\support\WorldEdit\Intro.html - 2077
+C:\Program Files\Warcraft III\support\WorldEdit\LocationBar.html - 331
+C:\Program Files\Warcraft III\support\WorldEdit\Menus.html - 18846
+C:\Program Files\Warcraft III\support\WorldEdit\ObjectEditor.html - 9474
+C:\Program Files\Warcraft III\support\WorldEdit\ObjectManager.html - 1973
+C:\Program Files\Warcraft III\support\WorldEdit\SoundEditor.html - 5338
+C:\Program Files\Warcraft III\support\WorldEdit\TerrainEdit.html - 21483
+C:\Program Files\Warcraft III\support\WorldEdit\TriggerEdit.html - 11059
+C:\Program Files\Warcraft III\support\WorldEdit\UnitEdit.html - 10726
+C:\Program Files\Warcraft III\support\WorldEdit\WorldEditMenu.html - 6476
+
+UAC Disabled or not present

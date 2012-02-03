@@ -1,0 +1,223 @@
+Anno 1404
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files\Ubisoft\Related Designs
+
+Save Path:
+C:\Users\Ochy\Documents\Anno 1404
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\5FA6FC9060297DF4B980AB8691BF743E\SourceList\Net
+Value:1
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\{09CF6AF5-9206-4FD7-9B08-BA6819FB47E3}\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\s6savegameType\Shell\Open\Command
+Value:
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Anno4.exe -savegame:"%1"
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3406AD1B-D526-4C71-B74B-FE803C204A02}
+Value:ConfigApplicationPath
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3406AD1B-D526-4C71-B74B-FE803C204A02}
+Value:ConfigGDFBinaryPath
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\Anno1404GDF.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\5FA6FC9060297DF4B980AB8691BF743E\InstallProperties
+Value:InstallLocation
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\5FA6FC9060297DF4B980AB8691BF743E\InstallProperties
+Value:InstallSource
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\{09CF6AF5-9206-4FD7-9B08-BA6819FB47E3}\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{09CF6AF5-9206-4FD7-9B08-BA6819FB47E3}
+Value:InstallLocation
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{09CF6AF5-9206-4FD7-9B08-BA6819FB47E3}
+Value:InstallSource
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\{09CF6AF5-9206-4FD7-9B08-BA6819FB47E3}\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3D9CF3CA-3AB0-4A82-9853-D7C43FD1D775}
+Value:InstallLocation
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3D9CF3CA-3AB0-4A82-9853-D7C43FD1D775}
+Value:DisplayIcon
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Anno4.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\UBISOFT\Anno 1404\GameUpdate
+Value:execPath
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Anno4.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\UBISOFT\Anno 1404\GameUpdate
+Value:installdir
+Data:C:\Program Files\Ubisoft\Related Designs\ANNO 1404
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\Ochy\Documents\Anno 1404\Savegames\autosave_0_ochy.sww - 2799533
+C:\Users\Ochy\Documents\Anno 1404\Savegames\autosave_1_ochy.sww - 3694185
+C:\Users\Ochy\Documents\Anno 1404\Savegames\autosave_2_ochy.sww - 3766563
+C:\Users\Ochy\Documents\Anno 1404\Savegames\autosave_campaign_0_Ochy.sww - 2600558
+C:\Users\Ochy\Documents\Anno 1404\Savegames\autosave_campaign_1_Ochy.sww - 2517682
+C:\Users\Ochy\Documents\Anno 1404\Savegames\autosave_campaign_2_Ochy.sww - 2547901
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame.sww - 2276374
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame1.sww - 2169184
+C:\Users\Ochy\Documents\Anno 1404\Savegames\Savegame10.sww - 1144545
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame2.sww - 2308195
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame3.sww - 2421656
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame4.sww - 2501033
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame5.sww - 2565374
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame6.sww - 2741910
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame7.sww - 2850814
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame8.sww - 3905631
+C:\Users\Ochy\Documents\Anno 1404\Savegames\savegame9.sww - 2303066
+
+Install Folder Dump:
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Anno4.exe - 15000944
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Anno4.exe.manifest - 146
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\BenchMark.xml - 530
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\dvm.dll - 53027525
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Engine.ini - 55
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\gu.exe - 614400
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\TagesClient.dat - 1523712
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\TagesClient.exe - 462496
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\Anno1404GDF.dll - 1631664
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\binkw32.dll - 173056
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\granny2.dll - 618496
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\mss32.dll - 444416
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\miles\mssdolby.flt - 7680
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\miles\mssds3d.flt - 13312
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\miles\mssdsp.flt - 57856
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\miles\msseax.flt - 59904
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\miles\mssmp3.asi - 95744
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\miles\msssrs.flt - 12800
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\bin\miles\mssvoice.asi - 153600
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\blank.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\bomb.ani - 133314
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\bomb.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\bomb_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\check_in.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\check_in.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\check_in_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\clock.ani - 133314
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\delete.ani - 111936
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\delete.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\delete_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\drop.ani - 111936
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\drop.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\drop_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\fight.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\fight.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\fight_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\follow.ani - 107526
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\follow.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\follow_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\hand_drop.ani - 107526
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\hand_drop_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\hand_grab.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\hand_hold.ani - 4374
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\hand_point.ani - 156954
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\hyperlink.ani - 90426
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\move.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\move.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\move_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\nobuild.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\nobuild.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\noresource.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\normal.ani - 90426
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\normal.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\normal_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\normal_flash.ani - 133314
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\pickup.ani - 111936
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\pickup.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\pickup_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\pipette.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\pipette.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\pipette_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\rotate.ani - 176294
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\special.ani - 133314
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\special.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\special_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\waypoint.ani - 107526
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\waypoint.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\waypoint_disable.ani - 90334
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\world_scroll.ani - 81738
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\graphics\ui\mousepointer\world_scroll.cur - 4286
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0000.fxo - 12244
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0001.fxo - 30208
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0002.fxo - 28404
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0003.fxo - 17184
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0004.fxo - 18440
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0005.fxo - 18496
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0006.fxo - 15748
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0007.fxo - 16668
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0008.fxo - 28724
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0009.fxo - 15580
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0010.fxo - 13304
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0011.fxo - 13444
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0012.fxo - 12644
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0013.fxo - 12460
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0014.fxo - 12332
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0015.fxo - 12680
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0016.fxo - 13736
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0017.fxo - 12984
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0018.fxo - 12736
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0019.fxo - 13680
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0020.fxo - 13452
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0021.fxo - 12740
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0022.fxo - 33580
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0023.fxo - 45348
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0024.fxo - 29128
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0025.fxo - 18568
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0026.fxo - 16584
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0027.fxo - 20912
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0028.fxo - 18000
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0029.fxo - 37084
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0030.fxo - 36444
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0031.fxo - 12568
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\0032.fxo - 12268
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\data\system\shaders\fxo\Benchmark\cache.xml - 104
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\Data0.rda - 324203
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\Data1.rda - 46568333
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\Data2.rda - 1382048328
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\Data3.rda - 342159614
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\Data4.rda - 986499750
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\Data5.rda - 185792
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\eng0.rda - 532813002
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\esp0.rda - 496103267
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\fra0.rda - 510121028
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\ita0.rda - 546674068
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\maindata\patch0.rda - 148865894
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Resources\de\GameUpdate.de - 5742
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Resources\es\GameUpdate.es - 6297
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Resources\fr\GameUpdate.fr - 6229
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Resources\it\GameUpdate.it - 5812
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Resources\nl\GameUpdate.nl - 5549
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Resources\uk\GameUpdate.uk - 5016
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\Resources\us\GameUpdate.us - 5016
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\support\EULA_en-GB.rtf - 56133
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\support\Manual.pdf - 221557
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\support\PatchNotes_Pre-Patch_ENG.txt - 103
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\support\Patch_Notes_ENG.txt - 18050
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\support\Readme.txt - 13098
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\tools\Anno4Web.exe - 1324400
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\tools\Benchmark.exe - 2286888
+C:\Program Files\Ubisoft\Related Designs\ANNO 1404\tools\binkw32.dll - 193024
+
+UAC Disabled or not present

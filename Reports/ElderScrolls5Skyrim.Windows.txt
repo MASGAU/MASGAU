@@ -1,0 +1,245 @@
+Comments:
+  <game name="ElderScrolls5Skyrim" platform="Windows">
+    <title>The Elder Scrolls IV: Oblivion</title>
+    <location_path environment_variable="userdocuments" path="My Games\Skyrim" />
+    <save filename="*.ini" type="Settings" />
+    <save path="Saves" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+
+Game Name: Skyrim
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\skyrim
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\My Games\Skyrim
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{0EAF196C-C5A8-41FF-9472-D44A077E93FE}
+Value: ConfigApplicationPath
+Data: c:\program files (x86)\steam\steamapps\common\skyrim
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{0EAF196C-C5A8-41FF-9472-D44A077E93FE}
+Value: ConfigGDFBinaryPath
+Data: c:\program files (x86)\steam\steamapps\common\skyrim\TESV.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{0EAF196C-C5A8-41FF-9472-D44A077E93FE}
+Value: AppExePath
+Data: c:\program files (x86)\steam\steamapps\common\skyrim\SkyrimLauncher.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Bethesda Softworks\Skyrim
+Value: Installed Path
+Data: c:\program files (x86)\steam\steamapps\common\skyrim\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 72850
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\skyrim
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Nov 13 12:45:44 PM - C:\Users\%USERNAME%\Documents\My Games\Skyrim\RendererInfo.txt - 660
+Nov 13 12:45:40 PM - C:\Users\%USERNAME%\Documents\My Games\Skyrim\Skyrim.ini - 1141
+Nov 13 12:45:40 PM - C:\Users\%USERNAME%\Documents\My Games\Skyrim\SkyrimPrefs.ini - 3250
+Nov 13 12:50:08 PM - C:\Users\%USERNAME%\Documents\My Games\Skyrim\Saves\Save 1 - Prisoner  Skyrim  00.04.16.ess - 3207181
+
+Install Folder Dump: 
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\atimgpud.dll - 165304
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\binkw32.dll - 214016
+Nov 13 12:32:10 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\high.ini - 1159
+Nov 13 12:44:20 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\installscript.vdf - 1257
+Nov 13 12:32:08 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\low.ini - 1132
+Nov 13 12:32:07 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\medium.ini - 1150
+Nov 13 12:32:06 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\readme.txt - 3877
+Nov 13 12:32:15 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\SkyrimLauncher.exe - 1880400
+Nov 13 12:32:02 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Skyrim_default.ini - 1056
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\steam_api.dll - 118368
+Nov 13 12:33:12 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\TESV.exe - 19123536
+Nov 13 12:32:06 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\VeryHigh.ini - 1181
+Nov 13 12:24:50 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - Animations.bsa - 42365780
+Nov 13 12:34:04 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - Interface.bsa - 34707771
+Nov 13 12:27:39 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - Meshes.bsa - 1520899887
+Nov 13 12:37:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - Misc.bsa - 177443330
+Nov 13 12:27:40 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - Shaders.bsa - 25686897
+Nov 13 12:28:43 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - Sounds.bsa - 953785521
+Nov 13 12:30:14 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - Textures.bsa - 1388866502
+Nov 13 12:32:01 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - Voices.bsa - 1458554685
+Nov 13 12:32:02 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim - VoicesExtra.bsa - 13016190
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Skyrim.esm - 249371467
+Nov 13 12:32:07 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Update.esm - 120433
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Interface\Translate_ENGLISH.txt - 18176
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Strings\Skyrim_English.DLSTRINGS - 2442981
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Strings\Skyrim_English.ILSTRINGS - 2711842
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Strings\Skyrim_English.STRINGS - 833753
+Nov 13 12:32:05 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Strings\Update_English.DLSTRINGS - 7113
+Nov 13 12:32:06 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Strings\Update_English.ILSTRINGS - 1925
+Nov 13 12:32:06 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Strings\Update_English.STRINGS - 2299
+Nov 13 12:24:35 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Data\Video\BGS_Logo.bik - 1809540
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2005_d3dx9_25_x64.cab - 1347354
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2005_d3dx9_25_x86.cab - 1078962
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2006_d3dx9_30_x64.cab - 1397830
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2006_d3dx9_30_x86.cab - 1115221
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2006_MDX1_x86.cab - 916430
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2006_MDX1_x86_Archive.cab - 4162630
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2006_XACT_x64.cab - 179133
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2006_XACT_x86.cab - 133103
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2006_xinput_x64.cab - 87101
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Apr2006_xinput_x86.cab - 46010
+Nov 13 12:30:28 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\APR2007_d3dx10_33_x64.cab - 698612
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\APR2007_d3dx10_33_x86.cab - 695865
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\APR2007_d3dx9_33_x64.cab - 1607358
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\APR2007_d3dx9_33_x86.cab - 1606039
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\APR2007_XACT_x64.cab - 195766
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\APR2007_XACT_x86.cab - 151225
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\APR2007_xinput_x64.cab - 96817
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\APR2007_xinput_x86.cab - 53302
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2005_d3dx9_27_x64.cab - 1350542
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2005_d3dx9_27_x86.cab - 1077644
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2006_XACT_x64.cab - 182903
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2006_XACT_x86.cab - 137235
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2006_xinput_x64.cab - 87142
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2006_xinput_x86.cab - 46058
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2007_d3dx10_35_x64.cab - 852286
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2007_d3dx10_35_x86.cab - 796867
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2007_d3dx9_35_x64.cab - 1800160
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2007_d3dx9_35_x86.cab - 1708152
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2007_XACT_x64.cab - 198096
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\AUG2007_XACT_x86.cab - 153012
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2008_d3dx10_39_x64.cab - 867612
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2008_d3dx10_39_x86.cab - 849167
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2008_d3dx9_39_x64.cab - 1794084
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2008_d3dx9_39_x86.cab - 1464672
+Nov 13 12:30:29 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2008_XACT_x64.cab - 121772
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2008_XACT_x86.cab - 92996
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2008_XAudio_x64.cab - 271412
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2008_XAudio_x86.cab - 271038
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_D3DCompiler_42_x64.cab - 919044
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_D3DCompiler_42_x86.cab - 900598
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_d3dcsx_42_x64.cab - 3112111
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_d3dcsx_42_x86.cab - 3319740
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_d3dx10_42_x64.cab - 232635
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_d3dx10_42_x86.cab - 192131
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_d3dx11_42_x64.cab - 136301
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_d3dx11_42_x86.cab - 105044
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_d3dx9_42_x64.cab - 930116
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_d3dx9_42_x86.cab - 728456
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_XACT_x64.cab - 122408
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_XACT_x86.cab - 93106
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_XAudio_x64.cab - 273264
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Aug2009_XAudio_x86.cab - 272642
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\BDANT.cab - 1155491
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\BDAXP.cab - 975148
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Dec2005_d3dx9_28_x64.cab - 1357976
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Dec2005_d3dx9_28_x86.cab - 1079456
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\DEC2006_d3dx10_00_x64.cab - 212807
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\DEC2006_d3dx10_00_x86.cab - 191720
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\DEC2006_d3dx9_32_x64.cab - 1571154
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\DEC2006_d3dx9_32_x86.cab - 1574376
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\DEC2006_XACT_x64.cab - 192475
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\DEC2006_XACT_x86.cab - 145599
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\DSETUP.dll - 94040
+Nov 13 12:30:30 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\dsetup32.dll - 1691480
+Nov 13 12:30:31 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\dxdllreg_x86.cab - 44448
+Nov 13 12:30:31 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\dxnt.cab - 13264168
+Nov 13 12:30:31 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\DXSETUP.exe - 525656
+Nov 13 12:30:31 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\dxupdate.cab - 95820
+Nov 13 12:30:31 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2005_d3dx9_24_x64.cab - 1247499
+Nov 13 12:30:31 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2005_d3dx9_24_x86.cab - 1013225
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2006_d3dx9_29_x64.cab - 1362796
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2006_d3dx9_29_x86.cab - 1084720
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2006_XACT_x64.cab - 178359
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2006_XACT_x86.cab - 132409
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\FEB2007_XACT_x64.cab - 194675
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\FEB2007_XACT_x86.cab - 147983
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2010_X3DAudio_x64.cab - 54678
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2010_X3DAudio_x86.cab - 20713
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2010_XACT_x64.cab - 122446
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2010_XACT_x86.cab - 93180
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2010_XAudio_x64.cab - 276960
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Feb2010_XAudio_x86.cab - 277191
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Jun2005_d3dx9_26_x64.cab - 1336002
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Jun2005_d3dx9_26_x86.cab - 1064925
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2006_XACT_x64.cab - 180785
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2006_XACT_x86.cab - 133671
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2007_d3dx10_34_x64.cab - 699044
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2007_d3dx10_34_x86.cab - 698472
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2007_d3dx9_34_x64.cab - 1607774
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2007_d3dx9_34_x86.cab - 1607286
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2007_XACT_x64.cab - 197122
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2007_XACT_x86.cab - 152909
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_d3dx10_38_x64.cab - 867828
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_d3dx10_38_x86.cab - 849919
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_d3dx9_38_x64.cab - 1792608
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_d3dx9_38_x86.cab - 1463878
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_X3DAudio_x64.cab - 55154
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_X3DAudio_x86.cab - 21905
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_XACT_x64.cab - 121054
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_XACT_x86.cab - 93128
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_XAudio_x64.cab - 269628
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\JUN2008_XAudio_x86.cab - 269024
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_d3dx10_37_x64.cab - 844884
+Nov 13 12:30:32 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_d3dx10_37_x86.cab - 818260
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_d3dx9_37_x64.cab - 1769862
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_d3dx9_37_x86.cab - 1443282
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_X3DAudio_x64.cab - 55058
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_X3DAudio_x86.cab - 21867
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_XACT_x64.cab - 122336
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_XACT_x86.cab - 93734
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_XAudio_x64.cab - 251194
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2008_XAudio_x86.cab - 226250
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_d3dx10_41_x64.cab - 1067160
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_d3dx10_41_x86.cab - 1040745
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_d3dx9_41_x64.cab - 1973702
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_d3dx9_41_x86.cab - 1612446
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_X3DAudio_x64.cab - 54600
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_X3DAudio_x86.cab - 21298
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_XACT_x64.cab - 121506
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_XACT_x86.cab - 92740
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_XAudio_x64.cab - 275044
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Mar2009_XAudio_x86.cab - 273018
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2007_d3dx10_36_x64.cab - 864600
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2007_d3dx10_36_x86.cab - 803884
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2007_d3dx9_36_x64.cab - 1802058
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2007_d3dx9_36_x86.cab - 1709360
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\NOV2007_X3DAudio_x64.cab - 46144
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\NOV2007_X3DAudio_x86.cab - 18496
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\NOV2007_XACT_x64.cab - 196762
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\NOV2007_XACT_x86.cab - 148264
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_d3dx10_40_x64.cab - 994154
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_d3dx10_40_x86.cab - 965421
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_d3dx9_40_x64.cab - 1906878
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_d3dx9_40_x86.cab - 1550796
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_X3DAudio_x64.cab - 54522
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_X3DAudio_x86.cab - 21851
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_XACT_x64.cab - 121794
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_XACT_x86.cab - 92684
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_XAudio_x64.cab - 273960
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Nov2008_XAudio_x86.cab - 272611
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Oct2005_xinput_x64.cab - 86037
+Nov 13 12:30:33 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\Oct2005_xinput_x86.cab - 45359
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\OCT2006_d3dx9_31_x64.cab - 1412902
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\OCT2006_d3dx9_31_x86.cab - 1127217
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\OCT2006_XACT_x64.cab - 182361
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DirectX10\OCT2006_XACT_x86.cab - 138017
+Nov 13 12:32:22 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\DotNetFX\dotnetfx35setup.exe - 2959376
+Nov 13 12:32:02 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\reslists\precache.lst - 656
+Nov 13 12:32:02 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\reslists\preload.lst - 656
+Nov 13 12:32:07 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\Skyrim\SkyrimPrefs.ini - 2940
+Nov 13 12:30:34 PM - C:\Program Files (x86)\Steam\steamapps\common\skyrim\VCRedist\vcredist_x86.exe - 4995416
+
+UAC Disabled or not present
+

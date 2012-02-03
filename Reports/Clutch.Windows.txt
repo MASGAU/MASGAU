@@ -1,0 +1,74 @@
+Comments:
+  <game name="Clutch" platform="Windows">
+    <title>Clutch</title>
+    <location_path environment_variable="userdocuments" path="My Games\Clutch" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Clutch
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Clutch
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\My Games\Clutch
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{63F8FAB1-E7F2-44C5-99DF-E404834DD381}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Clutch
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{63F8FAB1-E7F2-44C5-99DF-E404834DD381}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Clutch\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Clutch\Clutch.lnk
+C:\Program Files (x86)\Clutch\Clutch.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Clutch\Uninstall Clutch.lnk
+C:\Program Files (x86)\Clutch\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\My Games\Clutch\DeviceCaps.log - 1315
+C:\Users\%USERNAME%\Documents\My Games\Clutch\game.log - 945
+C:\Users\%USERNAME%\Documents\My Games\Clutch\user_config.cfg - 6723
+C:\Users\%USERNAME%\Documents\My Games\Clutch\profiles\00000002.prfl - 1682
+C:\Users\%USERNAME%\Documents\My Games\Clutch\profiles\list.dat - 23
+
+Install Folder Dump: 
+C:\Program Files (x86)\Clutch\Clutch.exe - 6275072
+C:\Program Files (x86)\Clutch\d3dx9_39.dll - 3851784
+C:\Program Files (x86)\Clutch\datasources.txt - 52
+C:\Program Files (x86)\Clutch\fmod.dll - 162816
+C:\Program Files (x86)\Clutch\rucap.dll - 49152
+C:\Program Files (x86)\Clutch\unins000.dat - 5017
+C:\Program Files (x86)\Clutch\unins000.exe - 1197507
+C:\Program Files (x86)\Clutch\xinput1_3.dll - 68888
+C:\Program Files (x86)\Clutch\data\config.cfg - 2186
+C:\Program Files (x86)\Clutch\data\gamedata.pak - 564754
+C:\Program Files (x86)\Clutch\data\levels.pak - 21552116
+C:\Program Files (x86)\Clutch\data\materials.pak - 44397424
+C:\Program Files (x86)\Clutch\data\models.pak - 403126651
+C:\Program Files (x86)\Clutch\data\particles.pak - 961837
+C:\Program Files (x86)\Clutch\data\sounds.pak - 148580448
+C:\Program Files (x86)\Clutch\data\textures.pak - 97515018
+C:\Program Files (x86)\Clutch\data\ui.pak - 31143860
+C:\Program Files (x86)\Clutch\data\video\AR_fin.wmv - 22724023
+C:\Program Files (x86)\Clutch\data1\patch1.pak - 2296540
+C:\Program Files (x86)\Clutch\localize_data\localize.pak - 2368641
+
+UAC Disabled or not present
+

@@ -1,0 +1,372 @@
+Comments:
+	<game name="AtomZombieSmasher" platform="Windows">
+		<title>Atom Zombie Smasher</title>
+		<location_path environment_variable="appdata" path="AtomZombieData" />
+		<save path="profiles"/>
+		<contributer>%USERNAME%</contributer>
+	</game>
+
+Game Name: Atom Zombie Smasher
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher
+
+Save Path: 
+C:\Users\%USERNAME%\AppData\Roaming\AtomZombieData
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 55040
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\atomzombiesmasher
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\AppData\Roaming\AtomZombieData\mods\example_mod\manifest.txt - 22807
+C:\Users\%USERNAME%\AppData\Roaming\AtomZombieData\profiles\Mobeeuz\OperationDarkBear725.sav - 31940
+C:\Users\%USERNAME%\AppData\Roaming\AtomZombieData\profiles\Mobeeuz\OperationDarkBear725autosave.sav - 31940
+C:\Users\%USERNAME%\AppData\Roaming\AtomZombieData\profiles\Mobeeuz\profile.dat - 1705
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\readme.htm - 17930
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\Accessibility.dll - 10752
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\atigktxx.dll - 14848
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\atomzombiesmasher.exe - 1268723
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\csfml-audio.dll - 102400
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\csfml-graphics.dll - 1150464
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\csfml-window.dll - 44032
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\game.ico - 13942
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\libglib-2.0-0.dll - 1110713
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\libgthread-2.0-0.dll - 40146
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\libsndfile-1.dll - 325120
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\mono.dll - 2492147
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\Mono.Posix.dll - 183808
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\Mono.Security.dll - 294400
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\openal32.dll - 208896
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\sfmlnet-audio.dll - 28672
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\sfmlnet-graphics.dll - 45056
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\sfmlnet-window.dll - 28672
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\steamwrapper.dll - 16896
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\System.Configuration.dll - 124928
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\System.dll - 1671680
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\System.Drawing.dll - 448512
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\System.Windows.Forms.dll - 3053568
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\System.Xml.dll - 1270272
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\Tao.OpenGl.dll - 2441216
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\Tao.OpenGl.ExtensionLoader.dll - 20480
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\Tao.OpenGl.Glu.dll - 57344
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\alive.txt - 563
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\anything.txt - 556
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\bike.txt - 468
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\bonobo.txt - 599
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\conquer.txt - 547
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\cool.txt - 618
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\dog.txt - 444
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\elephantbird.txt - 566
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\end.txt - 1653
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\footprints.txt - 439
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\glass.txt - 367
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\grievance.txt - 452
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\idle.txt - 548
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\intro.txt - 723
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\jeep.txt - 425
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\katana.txt - 406
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\know.txt - 414
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\lanes.txt - 664
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\lion.txt - 816
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\manifesto.txt - 531
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\math.txt - 640
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\morning.txt - 685
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\nugget.txt - 658
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\orange.txt - 660
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\peachie.txt - 596
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\pigeons.txt - 721
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\retribution.txt - 629
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\robots.txt - 669
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\speech.txt - 628
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\superzombie.txt - 296
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\torch.txt - 700
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\comics\trip.txt - 574
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\data\comics.txt - 431
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\data\manifest.txt - 22807
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\data\menu.sounds - 3786
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\data\music.txt - 725
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\data\names.txt - 6038
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\data\tips.txt - 1795
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\fonts\accid.ttf - 41388
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\fonts\din.ttf - 48708
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\fonts\dustismo.ttf - 105340
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\fonts\dustismoi.ttf - 83048
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\fonts\fette.ttf - 62500
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\fonts\share.ttf - 112376
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\fonts\typolatin.ttf - 66624
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\fonts\veteran.ttf - 45808
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\music\bennyhammond_hangthemhigh.ogg - 1594265
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\music\bennyhammond_tsunami.ogg - 1870206
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\music\volcanics_bluewithoutyou.ogg - 2205857
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\music\volcanics_boulevard.ogg - 1941378
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\music\volcanics_thebaron.ogg - 3045615
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyfire01.ogg - 22768
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyfire02.ogg - 24521
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyfire03.ogg - 43614
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyfire04.ogg - 35594
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyfire05.ogg - 28207
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyplace.ogg - 32406
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio01.ogg - 83052
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio02.ogg - 51144
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio03.ogg - 54101
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio04.ogg - 57910
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio05.ogg - 62180
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio06.ogg - 62554
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio07.ogg - 56697
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio08.ogg - 61371
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio09.ogg - 52653
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio10.ogg - 49180
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio11.ogg - 48306
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio12.ogg - 42375
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio13.ogg - 59472
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio14.ogg - 59817
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio15.ogg - 41664
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio16.ogg - 48366
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio17.ogg - 52158
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio18.ogg - 50399
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio19.ogg - 46956
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyradio20.ogg - 38923
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\artyreload.ogg - 10287
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\aww1.ogg - 19920
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\aww2.ogg - 18118
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\aww3.ogg - 19160
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\aww4.ogg - 24017
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\bark01.ogg - 7229
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\bark02.ogg - 7080
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\bark03.ogg - 7383
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\bark04.ogg - 12222
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\bark05.ogg - 7573
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\bark06.ogg - 6545
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\bark07.ogg - 6971
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\birds.ogg - 263655
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\camzoomin.ogg - 12903
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\camzoomout.ogg - 22102
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\capture.ogg - 50928
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cashbeep.ogg - 5872
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cashregister.ogg - 11937
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cello1.ogg - 36452
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cello2.ogg - 20558
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cello3.ogg - 39671
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cello4.ogg - 45772
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cello5.ogg - 49814
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cheering1.ogg - 53205
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cheering2.ogg - 41595
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\cheering3.ogg - 55884
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\chime.ogg - 11631
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\clickbeep.ogg - 3901
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\clickerror.ogg - 9225
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\clickselect.ogg - 5695
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\clicktiny.ogg - 4799
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\crickets.ogg - 169522
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\demolition01.ogg - 25309
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\demolition02.ogg - 44285
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\demolition03.ogg - 70486
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\demolition04.ogg - 38358
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\demolition05.ogg - 44975
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\ding2.ogg - 10432
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\ding3.ogg - 26347
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\drill01.ogg - 8923
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\drill02.ogg - 9083
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\drill03.ogg - 10336
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\eisenhower.ogg - 290720
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\elephantready1.ogg - 19638
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\explo01.ogg - 56442
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\explo02.ogg - 50143
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\explo03.ogg - 20422
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\explo04.ogg - 30253
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\explo05.ogg - 31017
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\explo06.ogg - 22473
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\explo07.ogg - 20875
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\explo08.ogg - 24602
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\fanfare.ogg - 12065
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\fanfareitem.ogg - 8655
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\foghorn01.ogg - 19419
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\foghorn02.ogg - 18138
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\foghorn03.ogg - 23596
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\footstep01.ogg - 8199
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gore01.ogg - 6723
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gore02.ogg - 8581
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gore03.ogg - 7664
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gun01.ogg - 12905
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gun02.ogg - 16610
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gun03.ogg - 14958
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gun04.ogg - 14007
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gun05.ogg - 16219
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gun06.ogg - 15120
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gun07.ogg - 15441
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\gun08.ogg - 18954
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\helileave01.ogg - 69051
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\helileave02.ogg - 48592
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\heliload.ogg - 6080
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\heliloop.ogg - 103635
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\helioverrun01.ogg - 44839
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\helioverrun02.ogg - 28470
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\helioverrun03.ogg - 27584
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\howl01.ogg - 39292
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio01.ogg - 9150
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio02.ogg - 8774
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio03.ogg - 12631
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio04.ogg - 8903
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio05.ogg - 9214
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio06.ogg - 13203
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio07.ogg - 10669
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio08.ogg - 9907
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio09.ogg - 11160
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio10.ogg - 8635
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio11.ogg - 9494
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio12.ogg - 10580
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio13.ogg - 12869
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio14.ogg - 9085
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\infantryradio15.ogg - 13105
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\klaxon.ogg - 29767
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\klaxonshort.ogg - 8338
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\lab01.ogg - 14249
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\lab02.ogg - 18539
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\lab03.ogg - 16839
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\llama.ogg - 35399
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\llamatiny.ogg - 21372
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\mercfanfare.ogg - 17629
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\minedelete.ogg - 5237
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\mineplace.ogg - 7978
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\minetrigger.ogg - 10560
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\modem.ogg - 21614
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\nectarloop.ogg - 63929
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\nectarstart.ogg - 21486
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\nectarstop.ogg - 42994
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\nighttransition.ogg - 87935
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\pageturn01.ogg - 8185
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\pageturn02.ogg - 9553
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\pageturn03.ogg - 10389
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\pageturn04.ogg - 13183
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\pageturn05.ogg - 7947
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\pageturn06.ogg - 9954
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\pause.ogg - 7015
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\rain.ogg - 186121
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\reloaddone.ogg - 17261
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\researchcomplete.ogg - 13442
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\rooster1.ogg - 27967
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\scientistding01.ogg - 26025
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\signature.ogg - 10108
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniper01.ogg - 24249
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniper02.ogg - 26102
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniper03.ogg - 21563
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniper04.ogg - 19536
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniperconfirm01.ogg - 29145
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniperconfirm02.ogg - 21095
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniperconfirm03.ogg - 25977
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniperconfirm04.ogg - 17680
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniperconfirm05.ogg - 19967
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\sniperplace.ogg - 8296
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\splat.ogg - 7035
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\superzombie01.ogg - 20729
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\superzombie02.ogg - 19407
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\superzombie03.ogg - 20147
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\thunder1.ogg - 45543
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\thunder2.ogg - 45783
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\timer.ogg - 26783
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\transport01.ogg - 16696
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\transport02.ogg - 22485
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\transport03.ogg - 16262
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\transport04.ogg - 17530
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\transport05.ogg - 17861
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\trumpet.ogg - 14030
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\unpause.ogg - 9325
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\upgrade.ogg - 11462
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\whoosh1.ogg - 6261
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\whoosh2.ogg - 5281
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\whoosh3.ogg - 4981
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\wind.ogg - 219725
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\write01.ogg - 6392
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\write02.ogg - 6009
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\write03.ogg - 5951
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zepmove.ogg - 17938
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zepreturn.ogg - 23253
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom01.ogg - 7658
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom02.ogg - 5284
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom03.ogg - 5897
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom04.ogg - 7901
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom05.ogg - 6453
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom06.ogg - 9284
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom07.ogg - 8051
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom08.ogg - 10540
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom09.ogg - 9401
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom10.ogg - 11046
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom11.ogg - 5794
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom12.ogg - 8738
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom13.ogg - 10701
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom14.ogg - 7384
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom15.ogg - 6357
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom16.ogg - 8244
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom17.ogg - 7487
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom18.ogg - 8270
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom19.ogg - 8013
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\sounds\zom20.ogg - 11078
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\blank.png - 2832
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\buildings.png - 655498
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\buildings2.png - 866583
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\comic01.png - 903582
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\comicblank.png - 1038633
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\comicfiller.png - 8195
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\end01.png - 493183
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\end02.png - 406125
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\end03.png - 520753
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\icon.png - 3674
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\loading.jpg - 53320
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\portraits01.png - 515833
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\portraits02.png - 428919
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\portraits03.png - 297300
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\textures\thumb.png - 35513
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\assaultmission.zep - 557
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\barricade.zep - 556
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\camera.zep - 250
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\controls.zep - 562
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\dynamite.zep - 519
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\evacheli.zep - 798
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\gaslines.zep - 206
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\helpmessages.zep - 278
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\history.zep - 224
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\his_arouet.zep - 1019
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\his_eighteen.zep - 1525
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\his_hyperborea.zep - 1839
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\his_lewis.zep - 1668
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\his_references.zep - 1576
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\infantry.zep - 317
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\landmines.zep - 370
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\llamabomb.zep - 400
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\mercenaries.zep - 492
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\missiontypes.zep - 762
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\nectar.zep - 1124
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\rescuemission.zep - 941
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\research.zep - 282
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\scientists.zep - 601
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\scorchedearth.zep - 273
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\siegeartillery.zep - 322
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\snipers.zep - 607
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\victorytrack.zep - 544
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\welcome.zep - 1057
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\zedautopsy.zep - 910
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\zedpedia.zep - 349
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\data\content\zedpedia\zeppelin.zep - 1441
+C:\Program Files (x86)\Steam\steamapps\common\atomzombiesmasher\lib\mono\2.0\mscorlib.dll - 2589696
+
+UAC Disabled or not present
+

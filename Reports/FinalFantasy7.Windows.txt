@@ -1,0 +1,280 @@
+FFVII
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files\Final Fantasy VII
+
+Save Path:
+C:\Program Files\Final Fantasy VII\save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-4046687237-1517792568-2122233732-1000\{18B833A9-2E9D-4F25-92CB-83347D05AA0E}
+Value:ConfigApplicationPath
+Data:C:\Program Files\Final Fantasy VII
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-4046687237-1517792568-2122233732-1000\{18B833A9-2E9D-4F25-92CB-83347D05AA0E}
+Value:AppExePath
+Data:C:\Program Files\Final Fantasy VII\ff7.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Final Fantasy VII_is1
+Value:Inno Setup: App Path
+Data:C:\Program Files\Final Fantasy VII
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Square Soft, Inc.\Final Fantasy VII
+Value:AppPath
+Data:C:\Program Files\Final Fantasy VII\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Square Soft, Inc.\Final Fantasy VII
+Value:DataPath
+Data:C:\Program Files\Final Fantasy VII\Data\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Square Soft, Inc.\Final Fantasy VII
+Value:MoviePath
+Data:C:\Program Files\Final Fantasy VII\Movies\
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Recent File List
+Value:File7
+Data:C:\Program Files\Final Fantasy VII\FF7 PC manual.rtf
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Final Fantasy VII\Final Fantasy VII Manual.lnk
+C:\Program Files\Final Fantasy VII\FF7 PC manual.rtf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Final Fantasy VII\Final Fantasy VII Readme.lnk
+C:\Program Files\Final Fantasy VII\ReadMe.rtf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Final Fantasy VII\Open Final Fantasy VII Goodies Folder.lnk
+C:\Program Files\Final Fantasy VII\goodies
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Final Fantasy VII\Play Final Fantasy VII.lnk
+C:\Program Files\Final Fantasy VII\ff7.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Final Fantasy VII\Run Final Fantasy VII Configuration Utility.lnk
+C:\Program Files\Final Fantasy VII\FF7Config.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Final Fantasy VII\Uninstall Final Fantasy VII.lnk
+C:\Program Files\Final Fantasy VII\unins000.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+
+Install Folder Dump:
+C:\Program Files\Final Fantasy VII\APP.LOG - 0
+C:\Program Files\Final Fantasy VII\cdcheck.exe - 28672
+C:\Program Files\Final Fantasy VII\FF7 PC manual.rtf - 112432
+C:\Program Files\Final Fantasy VII\FF7 ReadMe.txt - 10384
+C:\Program Files\Final Fantasy VII\ff7.exe - 5882880
+C:\Program Files\Final Fantasy VII\FF7Config.exe - 448000
+C:\Program Files\Final Fantasy VII\ff7input.cfg - 301
+C:\Program Files\Final Fantasy VII\ReadMe.rtf - 3872
+C:\Program Files\Final Fantasy VII\S2D.P - 352
+C:\Program Files\Final Fantasy VII\S3D.P - 352
+C:\Program Files\Final Fantasy VII\SF2D.P - 320
+C:\Program Files\Final Fantasy VII\SF3D.P - 320
+C:\Program Files\Final Fantasy VII\SG2D.P - 320
+C:\Program Files\Final Fantasy VII\SG3D.P - 320
+C:\Program Files\Final Fantasy VII\SGT2D.P - 352
+C:\Program Files\Final Fantasy VII\SGT3D.P - 352
+C:\Program Files\Final Fantasy VII\T2D.P - 296
+C:\Program Files\Final Fantasy VII\T3D.P - 296
+C:\Program Files\Final Fantasy VII\TF2D.P - 272
+C:\Program Files\Final Fantasy VII\TF3D.P - 272
+C:\Program Files\Final Fantasy VII\TG2D.P - 272
+C:\Program Files\Final Fantasy VII\TG3D.P - 272
+C:\Program Files\Final Fantasy VII\TGT2D.P - 296
+C:\Program Files\Final Fantasy VII\TGT3D.P - 296
+C:\Program Files\Final Fantasy VII\unins000.dat - 17851
+C:\Program Files\Final Fantasy VII\unins000.exe - 76297
+C:\Program Files\Final Fantasy VII\data\battle\battle.lgp - 62326400
+C:\Program Files\Final Fantasy VII\data\battle\camdat0.bin - 49044
+C:\Program Files\Final Fantasy VII\data\battle\camdat1.bin - 42552
+C:\Program Files\Final Fantasy VII\data\battle\camdat2.bin - 42760
+C:\Program Files\Final Fantasy VII\data\battle\co.bin - 5696
+C:\Program Files\Final Fantasy VII\data\battle\enemy012.dat - 5532
+C:\Program Files\Final Fantasy VII\data\battle\enemy331.dat - 122592
+C:\Program Files\Final Fantasy VII\data\battle\kage.dat - 476
+C:\Program Files\Final Fantasy VII\data\battle\magic.lgp - 51094486
+C:\Program Files\Final Fantasy VII\data\battle\mark.dat - 132
+C:\Program Files\Final Fantasy VII\data\battle\rain7.tex - 9452
+C:\Program Files\Final Fantasy VII\data\battle\scene.bin - 270336
+C:\Program Files\Final Fantasy VII\data\battle\seffect1.tex - 67500
+C:\Program Files\Final Fantasy VII\data\battle\seffect2.tex - 67500
+C:\Program Files\Final Fantasy VII\data\battle\seffect3.tex - 67500
+C:\Program Files\Final Fantasy VII\data\battle\sky_a.lmd - 5588
+C:\Program Files\Final Fantasy VII\data\battle\sky_b.ply - 1728
+C:\Program Files\Final Fantasy VII\data\battle\sky_c.lmd - 5588
+C:\Program Files\Final Fantasy VII\data\battle\sky_d.ply - 1728
+C:\Program Files\Final Fantasy VII\data\battle\Stage57.dat - 222996
+C:\Program Files\Final Fantasy VII\data\cd\cr_us.lgp - 2409081
+C:\Program Files\Final Fantasy VII\data\cd\disc_us.lgp - 3009458
+C:\Program Files\Final Fantasy VII\data\cd\moviecam.lgp - 2274727
+C:\Program Files\Final Fantasy VII\data\field\char.lgp - 48989860
+C:\Program Files\Final Fantasy VII\data\field\flevel.lgp - 127963958
+C:\Program Files\Final Fantasy VII\data\kernel\Kernel.bin - 22376
+C:\Program Files\Final Fantasy VII\data\kernel\kernel2.bin - 14532
+C:\Program Files\Final Fantasy VII\data\kernel\Window.bin - 13266
+C:\Program Files\Final Fantasy VII\data\menu\menu_us.lgp - 1705214
+C:\Program Files\Final Fantasy VII\data\midi\awe.lgp - 1435597
+C:\Program Files\Final Fantasy VII\data\midi\midi.lgp - 1383992
+C:\Program Files\Final Fantasy VII\data\midi\xg.lgp - 1658851
+C:\Program Files\Final Fantasy VII\data\midi\ygm.lgp - 1648035
+C:\Program Files\Final Fantasy VII\data\midi\sf2\FF7.sf2 - 3660750
+C:\Program Files\Final Fantasy VII\data\midi\sf2\FF7m.sf2 - 2109546
+C:\Program Files\Final Fantasy VII\data\midi\sf2\ff7s.SF2 - 569034
+C:\Program Files\Final Fantasy VII\data\midi\sf2\lb2.SF2 - 1528890
+C:\Program Files\Final Fantasy VII\data\minigame\chocobo.lgp - 4622922
+C:\Program Files\Final Fantasy VII\data\minigame\coaster.lgp - 1151709
+C:\Program Files\Final Fantasy VII\data\minigame\condor.lgp - 3471555
+C:\Program Files\Final Fantasy VII\data\minigame\high-us.lgp - 2744735
+C:\Program Files\Final Fantasy VII\data\minigame\snowboard-us.lgp - 1670640
+C:\Program Files\Final Fantasy VII\data\minigame\sub.lgp - 666982
+C:\Program Files\Final Fantasy VII\data\music\heart.wav - 61678
+C:\Program Files\Final Fantasy VII\data\music\music.idx - 647
+C:\Program Files\Final Fantasy VII\data\music\sato.wav - 503978
+C:\Program Files\Final Fantasy VII\data\music\sensui.wav - 51438
+C:\Program Files\Final Fantasy VII\data\music\wind.wav - 1362158
+C:\Program Files\Final Fantasy VII\data\sound\audio.dat - 71738528
+C:\Program Files\Final Fantasy VII\data\sound\audio.fmt - 54668
+C:\Program Files\Final Fantasy VII\data\wm\Wm0.bot - 15638528
+C:\Program Files\Final Fantasy VII\data\wm\Wm0.map - 3250176
+C:\Program Files\Final Fantasy VII\data\wm\Wm2.bot - 2260992
+C:\Program Files\Final Fantasy VII\data\wm\Wm2.map - 565248
+C:\Program Files\Final Fantasy VII\data\wm\Wm3.bot - 753664
+C:\Program Files\Final Fantasy VII\data\wm\Wm3.map - 188416
+C:\Program Files\Final Fantasy VII\data\wm\world_us.lgp - 3115485
+C:\Program Files\Final Fantasy VII\goodies\FFVII Animated GIFs.rar - 155234
+C:\Program Files\Final Fantasy VII\goodies\FFVII Icons.rar - 36308
+C:\Program Files\Final Fantasy VII\goodies\FFVII Images.rar - 2954082
+C:\Program Files\Final Fantasy VII\goodies\FFVII Midis 1.rar - 303689
+C:\Program Files\Final Fantasy VII\goodies\FFVII Midis 2.rar - 330010
+C:\Program Files\Final Fantasy VII\goodies\FFVII Patches.rar - 15198714
+C:\Program Files\Final Fantasy VII\goodies\FFVII Spoilers.rar - 727044
+C:\Program Files\Final Fantasy VII\movies\biglight.avi - 25260596
+C:\Program Files\Final Fantasy VII\movies\bike.avi - 14954764
+C:\Program Files\Final Fantasy VII\movies\biskdead.avi - 2804966
+C:\Program Files\Final Fantasy VII\movies\boogdemo.avi - 10699514
+C:\Program Files\Final Fantasy VII\movies\boogdown.avi - 1330718
+C:\Program Files\Final Fantasy VII\movies\boogstar.avi - 19856714
+C:\Program Files\Final Fantasy VII\movies\boogup.avi - 1371730
+C:\Program Files\Final Fantasy VII\movies\brgnvl.avi - 4250188
+C:\Program Files\Final Fantasy VII\movies\canon.avi - 21816748
+C:\Program Files\Final Fantasy VII\movies\canonh1p.avi - 2706498
+C:\Program Files\Final Fantasy VII\movies\canonh3f.avi - 4062996
+C:\Program Files\Final Fantasy VII\movies\canonht0.avi - 7228702
+C:\Program Files\Final Fantasy VII\movies\canonht1.avi - 10747026
+C:\Program Files\Final Fantasy VII\movies\canonht2.avi - 4797162
+C:\Program Files\Final Fantasy VII\movies\canonon.avi - 10077264
+C:\Program Files\Final Fantasy VII\movies\car_1209.avi - 17492194
+C:\Program Files\Final Fantasy VII\movies\c_scene1.avi - 8381782
+C:\Program Files\Final Fantasy VII\movies\c_scene2.avi - 5524092
+C:\Program Files\Final Fantasy VII\movies\c_scene3.avi - 4567334
+C:\Program Files\Final Fantasy VII\movies\dumcrush.avi - 8326812
+C:\Program Files\Final Fantasy VII\movies\d_ropego.avi - 3216700
+C:\Program Files\Final Fantasy VII\movies\d_ropein.avi - 3545798
+C:\Program Files\Final Fantasy VII\movies\earithdd.avi - 17871114
+C:\Program Files\Final Fantasy VII\movies\eidoslogo.avi - 1897520
+C:\Program Files\Final Fantasy VII\movies\ending1.avi - 15975630
+C:\Program Files\Final Fantasy VII\movies\ending2.avi - 149466880
+C:\Program Files\Final Fantasy VII\movies\ending3.avi - 17844506
+C:\Program Files\Final Fantasy VII\movies\Explode.avi - 856098
+C:\Program Files\Final Fantasy VII\movies\fallpl.avi - 14658384
+C:\Program Files\Final Fantasy VII\movies\fcar.avi - 18329954
+C:\Program Files\Final Fantasy VII\movies\feelwin0.avi - 8423880
+C:\Program Files\Final Fantasy VII\movies\feelwin1.avi - 4701536
+C:\Program Files\Final Fantasy VII\movies\fship2.avi - 2371718
+C:\Program Files\Final Fantasy VII\movies\funeral.avi - 7596390
+C:\Program Files\Final Fantasy VII\movies\gelnica.avi - 4506982
+C:\Program Files\Final Fantasy VII\movies\gold1.avi - 19731124
+C:\Program Files\Final Fantasy VII\movies\gold2.avi - 6311786
+C:\Program Files\Final Fantasy VII\movies\gold3.avi - 3022962
+C:\Program Files\Final Fantasy VII\movies\gold4.avi - 9356832
+C:\Program Files\Final Fantasy VII\movies\gold5.avi - 2937262
+C:\Program Files\Final Fantasy VII\movies\gold6.avi - 2404262
+C:\Program Files\Final Fantasy VII\movies\gold7.avi - 6896478
+C:\Program Files\Final Fantasy VII\movies\gold7_2.avi - 6461082
+C:\Program Files\Final Fantasy VII\movies\greatpit.avi - 14047580
+C:\Program Files\Final Fantasy VII\movies\hiwind0.avi - 7219690
+C:\Program Files\Final Fantasy VII\movies\hwindfly.avi - 12660956
+C:\Program Files\Final Fantasy VII\movies\hwindjet.avi - 7073254
+C:\Program Files\Final Fantasy VII\movies\jairofal.avi - 3141736
+C:\Program Files\Final Fantasy VII\movies\jairofly.avi - 12650370
+C:\Program Files\Final Fantasy VII\movies\jenova_e.avi - 12124242
+C:\Program Files\Final Fantasy VII\movies\junair_d.avi - 1097798
+C:\Program Files\Final Fantasy VII\movies\junair_u.avi - 1088302
+C:\Program Files\Final Fantasy VII\movies\junelego.avi - 2089830
+C:\Program Files\Final Fantasy VII\movies\junelein.avi - 2189346
+C:\Program Files\Final Fantasy VII\movies\junin_go.avi - 2097862
+C:\Program Files\Final Fantasy VII\movies\junin_in.avi - 2439390
+C:\Program Files\Final Fantasy VII\movies\junon.avi - 15959370
+C:\Program Files\Final Fantasy VII\movies\junsea.avi - 1323018
+C:\Program Files\Final Fantasy VII\movies\last4_2.avi - 248326
+C:\Program Files\Final Fantasy VII\movies\last4_3.avi - 269906
+C:\Program Files\Final Fantasy VII\movies\last4_4.avi - 12219044
+C:\Program Files\Final Fantasy VII\movies\lastflor.avi - 3134718
+C:\Program Files\Final Fantasy VII\movies\lastmap.avi - 4023802
+C:\Program Files\Final Fantasy VII\movies\loslake1.avi - 8116378
+C:\Program Files\Final Fantasy VII\movies\lslmv.avi - 3024106
+C:\Program Files\Final Fantasy VII\movies\mainplr.avi - 3470890
+C:\Program Files\Final Fantasy VII\movies\meteofix.avi - 13492154
+C:\Program Files\Final Fantasy VII\movies\meteosky.avi - 5461474
+C:\Program Files\Final Fantasy VII\movies\mk8.avi - 1182074
+C:\Program Files\Final Fantasy VII\movies\mkup.avi - 2131442
+C:\Program Files\Final Fantasy VII\movies\monitor.avi - 2341138
+C:\Program Files\Final Fantasy VII\movies\moviecam.lgp - 2274727
+C:\Program Files\Final Fantasy VII\movies\mtcrl.avi - 1314374
+C:\Program Files\Final Fantasy VII\movies\mtnvl.avi - 7313558
+C:\Program Files\Final Fantasy VII\movies\mtnvl2.avi - 4729670
+C:\Program Files\Final Fantasy VII\movies\nivlsfs.avi - 7597984
+C:\Program Files\Final Fantasy VII\movies\northmk.avi - 3633912
+C:\Program Files\Final Fantasy VII\movies\nrcrl.avi - 6657140
+C:\Program Files\Final Fantasy VII\movies\nrcrl_b.avi - 2742738
+C:\Program Files\Final Fantasy VII\movies\nvlmk.avi - 7465908
+C:\Program Files\Final Fantasy VII\movies\ontrain.avi - 3923234
+C:\Program Files\Final Fantasy VII\movies\opening.avi - 26596308
+C:\Program Files\Final Fantasy VII\movies\parashot.avi - 7876652
+C:\Program Files\Final Fantasy VII\movies\phoenix.avi - 10680404
+C:\Program Files\Final Fantasy VII\movies\plrexp.avi - 5132454
+C:\Program Files\Final Fantasy VII\movies\rckethit0.avi - 3498830
+C:\Program Files\Final Fantasy VII\movies\rckethit1.avi - 7268814
+C:\Program Files\Final Fantasy VII\movies\rcketoff.avi - 13562958
+C:\Program Files\Final Fantasy VII\movies\rcktfail.avi - 13972590
+C:\Program Files\Final Fantasy VII\movies\setogake.avi - 2819610
+C:\Program Files\Final Fantasy VII\movies\smk.avi - 708474
+C:\Program Files\Final Fantasy VII\movies\southmk.avi - 4401674
+C:\Program Files\Final Fantasy VII\movies\sqlogo.AVI - 2555976
+C:\Program Files\Final Fantasy VII\movies\u_ropego.avi - 3163032
+C:\Program Files\Final Fantasy VII\movies\u_ropein.avi - 3123444
+C:\Program Files\Final Fantasy VII\movies\weapon0.avi - 14415508
+C:\Program Files\Final Fantasy VII\movies\weapon1.avi - 9665112
+C:\Program Files\Final Fantasy VII\movies\weapon2.avi - 11018396
+C:\Program Files\Final Fantasy VII\movies\weapon3.avi - 10450768
+C:\Program Files\Final Fantasy VII\movies\weapon4.avi - 5786532
+C:\Program Files\Final Fantasy VII\movies\weapon5.avi - 14320904
+C:\Program Files\Final Fantasy VII\movies\wh2e2.avi - 17582294
+C:\Program Files\Final Fantasy VII\movies\white2.avi - 736286
+C:\Program Files\Final Fantasy VII\movies\zmind01.avi - 4022946
+C:\Program Files\Final Fantasy VII\movies\zmind02.avi - 3719914
+C:\Program Files\Final Fantasy VII\movies\zmind03.avi - 7168898
+C:\Program Files\Final Fantasy VII\tm_redist\DATA.TAG - 107
+C:\Program Files\Final Fantasy VII\tm_redist\data1.cab - 211365
+C:\Program Files\Final Fantasy VII\tm_redist\lang.dat - 4557
+C:\Program Files\Final Fantasy VII\tm_redist\layout.bin - 334
+C:\Program Files\Final Fantasy VII\tm_redist\os.dat - 417
+C:\Program Files\Final Fantasy VII\tm_redist\SETUP.EXE - 59904
+C:\Program Files\Final Fantasy VII\tm_redist\SETUP.INI - 72
+C:\Program Files\Final Fantasy VII\tm_redist\setup.ins - 59790
+C:\Program Files\Final Fantasy VII\tm_redist\setup.iss - 248
+C:\Program Files\Final Fantasy VII\tm_redist\setup.lid - 49
+C:\Program Files\Final Fantasy VII\tm_redist\tm_redist.exe - 797541
+C:\Program Files\Final Fantasy VII\tm_redist\_INST32I.EX_ - 290586
+C:\Program Files\Final Fantasy VII\tm_redist\_ISDEL.EXE - 8192
+C:\Program Files\Final Fantasy VII\tm_redist\_SETUP.DLL - 11264
+C:\Program Files\Final Fantasy VII\tm_redist\_sys1.cab - 203728
+C:\Program Files\Final Fantasy VII\tm_redist\_user1.cab - 53543
+
+UAC Disabled or not present

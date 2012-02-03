@@ -1,0 +1,47 @@
+Game Name: Darwinia
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+SteamCommon\darwinia
+
+Save Path:
+SavedGames\Darwinia
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 1500
+Value: InstallLocation
+Data: SteamCommon\darwinia
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+05/01/2011 00:54:55 - SavedGames\Darwinia\preferences.txt - 813
+04/01/2011 21:52:40 - SavedGames\Darwinia\user_input_preferences.txt - 465
+05/01/2011 00:54:39 - SavedGames\Darwinia\users\AvvA\game.txt - 13177
+05/01/2011 00:54:38 - SavedGames\Darwinia\users\AvvA\mission_containment_enable.txt - 8044
+04/01/2011 23:52:26 - SavedGames\Darwinia\users\AvvA\mission_garden_liberate.txt - 5825
+
+Install Folder Dump:
+04/01/2011 22:18:28 - SteamCommon\darwinia\blackbox.txt - 1135
+04/01/2011 21:10:42 - SteamCommon\darwinia\d3dx9_32.dll - 3426072
+04/01/2011 21:10:36 - SteamCommon\darwinia\darwinia.exe - 2440560
+04/01/2011 21:10:19 - SteamCommon\darwinia\language.dat - 122492
+04/01/2011 21:10:24 - SteamCommon\darwinia\main.dat - 1264314
+04/01/2011 21:10:45 - SteamCommon\darwinia\patch.dat - 4488927
+04/01/2011 21:11:47 - SteamCommon\darwinia\sounds.dat - 31234361
+04/01/2011 21:10:15 - SteamCommon\darwinia\xinput1_3.dll - 68888
+
+UAC Enabled
+
+
+VirtualStore Folders:

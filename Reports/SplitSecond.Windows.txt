@@ -1,0 +1,262 @@
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Disney Interactive Studios\Split Second
+
+Save Path:
+C:\Users\%USERNAME%\Documents\Disney Interactive Studios\Split Second
+
+Detected Registry Key Values:
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C2228C32-996A-471A-A955-A32C656969D1}\ConfigApplicationPath
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C2228C32-996A-471A-A955-A32C656969D1}\ConfigGDFBinaryPath
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\SplitSecond.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{C2228C32-996A-471A-A955-A32C656969D1}\AppExePath
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\SplitSecond.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Disney Interactive Studios\Split Second\InstallPath
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Disney Interactive Studios\Split Second\InstallExePath
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\\SplitSecond.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{28526951-55EF-4901-A0CA-B9AC966D1DD1}\InstallLocation
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{28526951-55EF-4901-A0CA-B9AC966D1DD1}\DisplayIcon
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\Icons\SplitSecond.ico
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Disney Interactive Studios\Split Second\Deactivate product.lnk
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\SplitSecond.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Disney Interactive Studios\Split Second\Split Second.lnk
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\SplitSecond.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Disney Interactive Studios\Split Second\View Readme.lnk
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\readmeEN.txt
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\Documents\Disney Interactive Studios\Split Second\config_ss.cfg - 65
+C:\Users\%USERNAME%\Documents\Disney Interactive Studios\Split Second\_4d6f626565757a.sav - 57520
+
+Install Folder Dump:
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\binkw32.dll - 171008
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\dfe - 3265314
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\dishp.dll - 110592
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\FirewallInstallHelper.dll - 51032
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\fmodex.dll - 1052672
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\fmod_event.dll - 585728
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\lang.ini - 281468
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\logo-paul.bmp - 58856
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\paul.dll - 327680
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\SplitSecond.exe - 20754432
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\ssversion.ini - 34
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\airport_test_03powerplays.ark - 24463360
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\dockspowerplays.ark - 96133120
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\downtownpowerplays.ark - 107841536
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\end_sequencepowerplays.ark - 9345024
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\frontendpowerplays.ark - 106496
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\graveyardpowerplays.ark - 46383104
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\powerplantpowerplays.ark - 28663808
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\resident.ark - 833114112
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\seclusion.ark - 1656832
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\collision\debug_collision.fev - 15547
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\collision\debug_collision.fsb - 150304
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\genericpowerplays\debug_genericpowerplays.fev - 8885
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\genericpowerplays\debug_genericpowerplays.fsb - 215616
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\global\global_streamed.fev - 37500
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\global\global_streamed.fsb - 21742176
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\locales\airport\airport_streamed.fsb - 3165888
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\locales\docks\docks_streamed.fsb - 4339232
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\locales\downtown\downtown_streamed.fsb - 2737728
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\locales\end\end_streamed.fsb - 1979712
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\locales\graveyard\graveyard_streamed.fsb - 4249760
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\locales\nem\nem_truck_streamed.fsb - 2893536
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\locales\nem_training\nem_training_streamed.fsb - 1979712
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\locales\powerplant\powerplant_streamed.fsb - 3490752
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\menu\frontendmenu.fev - 10134
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\menu\frontendmenu.fsb - 5369696
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\music\music.fev - 42203
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\music\music.fsb - 195095040
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\particles\debug_particles.fev - 9713
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\particles\debug_particles.fsb - 199360
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\surface\debug_surface.fev - 9299
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\release\surface\debug_surface.fsb - 45504
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\audio\replay\audio_commands_recording.bin - 37184384
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\airport_test_03.ark - 39817216
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\docks.ark - 163825664
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\downtown.ark - 134653952
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\end_sequence.ark - 16664576
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\graveyard.ark - 85317632
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_downtown.ark - 20287488
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_graveyard.ark - 32557056
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_storm.ark - 18616320
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_training.ark - 29075456
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_warehouse.ark - 26058752
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\powerplant.ark - 84547584
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\airport_test_03\sectors\airport_test_03.static.ark - 31015294
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\airport_test_03\sectors\airport_test_03.stream.ark - 188089857
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\docks\sectors\docks.static.ark - 137357070
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\docks\sectors\docks.stream.ark - 440633227
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\downtown\sectors\downtown.static.ark - 177910028
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\downtown\sectors\downtown.stream.ark - 602088122
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\end_sequence\sectors\end_sequence.static.ark - 1853468
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\end_sequence\sectors\end_sequence.stream.ark - 34447961
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\graveyard\sectors\graveyard.static.ark - 97570584
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\graveyard\sectors\graveyard.stream.ark - 364102344
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_downtown\sectors\nem_downtown.static.ark - 3070678
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_downtown\sectors\nem_downtown.stream.ark - 56006293
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_graveyard\sectors\nem_graveyard.static.ark - 8140006
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_graveyard\sectors\nem_graveyard.stream.ark - 67670143
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_storm\sectors\nem_storm.static.ark - 5522300
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_storm\sectors\nem_storm.stream.ark - 39705679
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_training\sectors\nem_training.static.ark - 6787200
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_training\sectors\nem_training.stream.ark - 74176530
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_warehouse\sectors\nem_warehouse.static.ark - 4643452
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\nem_warehouse\sectors\nem_warehouse.stream.ark - 56532843
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\powerplant\sectors\powerplant.static.ark - 84149286
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\environments\levels\powerplant\sectors\powerplant.stream.ark - 336688586
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\bootup\disbr.bik - 31767944
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\bootup\intro.bik - 144543556
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\demo\ss_demoteaser.bik - 86704428
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\demo\ss_demotutorial.bik - 130328092
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\all\fe_mm_static.bik - 3533128
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\all\fe_placeholder.bik - 5992916
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode01.bik - 14932640
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode02.bik - 14704220
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode03.bik - 15517292
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode04.bik - 14153480
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode05.bik - 13258744
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode06.bik - 13779692
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode07.bik - 14778132
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode08.bik - 14720380
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode09.bik - 14646948
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode10.bik - 13370260
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode11.bik - 14810776
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episode12.bik - 15856800
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\episodeselect\episodestatic.bik - 10471300
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track1.bik - 15822728
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track10.bik - 17101904
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track11.bik - 17220820
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track12.bik - 16570792
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track13.bik - 15723872
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track14.bik - 28390536
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track15.bik - 17592188
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track2.bik - 17004036
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track3.bik - 15982108
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track4.bik - 16848168
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track5.bik - 16021408
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track6.bik - 15817352
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track7.bik - 16839904
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track8.bik - 16273544
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\eventselect\fe_evs_track9.bik - 15880760
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic1.bik - 5771676
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic10.bik - 4728432
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic2.bik - 5777112
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic3.bik - 6144492
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic4.bik - 5698420
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic5.bik - 5818664
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic6.bik - 5788156
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic7.bik - 4713944
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic8.bik - 5932044
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\mainmenu\fe_mm_generic9.bik - 5762940
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_chopper_revenge.bik - 7550100
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_chopper_survival.bik - 7625004
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_eliminator.bik - 7400716
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_locked.bik - 3579424
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_nemesis.bik - 7461872
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track1.bik - 8986124
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track10.bik - 5672588
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track11.bik - 5735580
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track12.bik - 5485832
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track13.bik - 5203940
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track14.bik - 5598492
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track15.bik - 5831456
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track2.bik - 6001784
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track3.bik - 6001752
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track4.bik - 5995760
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track5.bik - 5983708
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track6.bik - 5753884
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track7.bik - 6020792
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track8.bik - 6001636
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_qp_track9.bik - 6001684
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_race.bik - 7329376
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\screens\quickplay\fe_timetrial.bik - 7384952
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\EndSequence.bik - 95914444
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode1.bik - 118269240
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode10.bik - 49697844
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode11.bik - 50818772
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode12.bik - 140921512
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode2.bik - 51413036
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode3.bik - 51900732
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode4.bik - 50841700
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode5.bik - 49991448
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode6.bik - 56892464
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode7.bik - 51224328
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode8.bik - 51228280
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\comingup\CU_Episode9.bik - 51308288
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode10.bik - 38805632
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode11.bik - 39003964
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode12.bik - 47792252
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode2.bik - 39697052
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode3.bik - 47876924
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode4.bik - 49072036
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode5.bik - 43474420
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode6.bik - 41881600
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode7.bik - 38376752
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode8.bik - 37666840
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\season\nexttime\NT_Episode9.bik - 38171196
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\tutorials\gametutorial\shot_1.bik - 15515400
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\tutorials\gametutorial\shot_2.bik - 18437492
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\tutorials\gametutorial\shot_3.bik - 14882836
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\movies\tutorials\gametutorial\shot_4.bik - 21044704
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\shaders\deform.ops - 896
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\shaders\deform.ovs - 172
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\shaders\skin.ops - 1200
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\shaders\skin.ovs - 172
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\ui\frontend\powerplays\timelines\fe_fireexplosion_v1_t.xml - 18109
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\ui\frontend\powerplays\timelines\fe_fireexplosion_v2_t.xml - 20666
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\data\ui\frontend\powerplays\timelines\fe_titlescreen_v1_t.xml - 1463
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\directx\dsetup.dll - 94040
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\directx\dsetup32.dll - 1691480
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\ICONS\Readme.ico - 4846
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\ICONS\SplitSecond.ico - 12862
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\ICONS\Uninstall.ico - 6518
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULABL.txt - 27192
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULABP.txt - 11266
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULACHS.txt - 6102
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULACHT.txt - 6552
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULACS.txt - 12356
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULACZ.txt - 15206
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULADE.txt - 13232
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULADK.txt - 11936
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAES.txt - 12364
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAFIN.txt - 12887
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAFR_CA.txt - 13537
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAFR_EU.txt - 13518
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAHU.txt - 24354
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAIT.txt - 12867
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAJP.txt - 10987
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULANL.txt - 13604
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULANO.txt - 12288
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAPL.txt - 19852
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAPOR.txt - 12456
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULARU.txt - 12541
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULASW.txt - 11327
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULASZ.txt - 39682
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\EULAUK.txt - 11083
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\LEGAL\LICENSE.txt - 11075
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\eManual.chm - 1116135
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\readmeDE.txt - 15894
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\readmeEN.txt - 13910
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\readmeES.txt - 16114
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\readmeFR.txt - 16566
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\readmeIT.txt - 15719
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\readmePL.txt - 14872
+C:\Program Files (x86)\Disney Interactive Studios\Split Second\README\readmeRU.txt - 26616
+
+UAC Disabled or not present
+

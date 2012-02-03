@@ -1,0 +1,116 @@
+Game Name: Wolfschanze II
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\City Interactive\Wolfschanze II
+
+Save Path:
+C:\Users\Public\Documents\City Interactive\Wolfschanze
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\City Interactive\Wolfschanze II
+Value:Path
+Data:C:\Program Files (x86)\City Interactive\Wolfschanze II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\City Interactive\Wolfschanze II
+Value:WorkingDir
+Data:C:\Program Files (x86)\City Interactive\Wolfschanze II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Wolfschanze II_is1
+Value:Inno Setup: App Path
+Data:C:\Program Files (x86)\City Interactive\Wolfschanze II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Wolfschanze II_is1
+Value:InstallLocation
+Data:C:\Program Files (x86)\City Interactive\Wolfschanze II\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Wolfschanze II\Config.lnk
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Config.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Wolfschanze II\License.lnk
+C:\Program Files (x86)\City Interactive\Wolfschanze II\license.txt
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Wolfschanze II\ReadMe.lnk
+C:\Program Files (x86)\City Interactive\Wolfschanze II\readme.txt
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Wolfschanze II\Uninstall Wolfschanze II.lnk
+C:\Program Files (x86)\City Interactive\Wolfschanze II\unins000.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Wolfschanze II\Wolfschanze II.lnk
+C:\Program Files (x86)\City Interactive\Wolfschanze II\game.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\Public\Documents\City Interactive\Wolfschanze\BanIPList.txt - 0
+C:\Users\Public\Documents\City Interactive\Wolfschanze\Game.ini - 44
+C:\Users\Public\Documents\City Interactive\Wolfschanze\MPMissions.Gamdb00p - 168
+C:\Users\Public\Documents\City Interactive\Wolfschanze\settings.cfg - 217
+C:\Users\Public\Documents\City Interactive\Wolfschanze\Profiles\Profile000.gdb - 13760
+C:\Users\Public\Documents\City Interactive\Wolfschanze\Save\Profile000\SinglePlayer\Checkpoint.sav - 2020426
+C:\Users\Public\Documents\City Interactive\Wolfschanze\Save\Profile000\SinglePlayer\Kpalv.sav - 15382
+C:\Users\Public\Documents\City Interactive\Wolfschanze\Save\Profile000\SinglePlayer\Quick.sav - 2020258
+C:\Users\Public\Documents\City Interactive\Wolfschanze\Save\Profile000\SinglePlayer\Reload.sav - 1518126
+C:\Users\Public\Documents\City Interactive\Wolfschanze\Save\Profile000\SinglePlayer\Save1001.ini - 378
+
+Install Folder Dump:
+C:\Program Files (x86)\City Interactive\Wolfschanze II\checkcd.txt - 112
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Config.exe - 155648
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Config.Strdb00p - 2192
+C:\Program Files (x86)\City Interactive\Wolfschanze II\data.Arch00 - 5144835393
+C:\Program Files (x86)\City Interactive\Wolfschanze II\dataA.Arch00 - 658492067
+C:\Program Files (x86)\City Interactive\Wolfschanze II\dataL.Arch00 - 153911833
+C:\Program Files (x86)\City Interactive\Wolfschanze II\dbghelp.dll - 640000
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Default.archcfg - 45
+C:\Program Files (x86)\City Interactive\Wolfschanze II\eax.dll - 188416
+C:\Program Files (x86)\City Interactive\Wolfschanze II\enginemsg.txt - 3332
+C:\Program Files (x86)\City Interactive\Wolfschanze II\EngineServer.dll - 1216512
+C:\Program Files (x86)\City Interactive\Wolfschanze II\game.exe - 2023424
+C:\Program Files (x86)\City Interactive\Wolfschanze II\game.exe.old - 2023424
+C:\Program Files (x86)\City Interactive\Wolfschanze II\GameDatabase.dll - 86016
+C:\Program Files (x86)\City Interactive\Wolfschanze II\license.txt - 5673
+C:\Program Files (x86)\City Interactive\Wolfschanze II\LTMemory.dll - 49152
+C:\Program Files (x86)\City Interactive\Wolfschanze II\readme.txt - 6080
+C:\Program Files (x86)\City Interactive\Wolfschanze II\SndDrv.dll - 77824
+C:\Program Files (x86)\City Interactive\Wolfschanze II\StringEditRuntime.dll - 17408
+C:\Program Files (x86)\City Interactive\Wolfschanze II\unins000.dat - 24564
+C:\Program Files (x86)\City Interactive\Wolfschanze II\unins000.exe - 707418
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\ClientFx.fxd - 266240
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\GameClient.dll - 2514944
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\GameServer.dll - 3301376
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\Microsoft.VC80.CRT\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\Microsoft.VC80.CRT\msvcm80.dll - 479232
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\Microsoft.VC80.CRT\msvcp80.dll - 548864
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\Microsoft.VC80.CRT\msvcr80.dll - 626688
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\blow_tank_01.mpg - 446133
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\DirTypeTextures - 0
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\Fireball_02.mpg - 466079
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\Fireball_03.mpg - 90079
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\Fireball_04.mpg - 82393
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\Fireball_05.mpg - 132904
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\Fireball_06.mpg - 85365
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\Fireball_07.mpg - 665979
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\Flame01.mpg - 161857
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\jupiter.mpg - 724380
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\logo_city.mpg - 1847300
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\menu.mpg - 25149541
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\Molotow.mpg - 720803
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Game\videos\WW2_2.mpg - 42642475
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.CRT\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.CRT\msvcm80.dll - 479232
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.CRT\msvcp80.dll - 548864
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.CRT\msvcr80.dll - 626688
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.MFC\mfc80.dll - 1101824
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.MFC\mfc80u.dll - 1093120
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.MFC\mfcm80.dll - 69632
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.MFC\mfcm80u.dll - 57856
+C:\Program Files (x86)\City Interactive\Wolfschanze II\Microsoft.VC80.MFC\Microsoft.VC80.MFC.manifest - 2371
+
+UAC Disabled or not present
+

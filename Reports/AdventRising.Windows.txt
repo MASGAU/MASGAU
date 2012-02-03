@@ -1,0 +1,570 @@
+Game Name: Advent Rising
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+ProgramFilesX86\GOG.com\Advent Rising
+
+Save Path:
+VirtualStore\Program Files (x86)\GOG.com\Advent Rising
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{DF434CB1-3568-4942-8B3E-4C7A45935A68}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Advent Rising\System
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{DF434CB1-3568-4942-8B3E-4C7A45935A68}
+Value: ConfigGDFBinaryPath
+Data: 11/2/2009 3:29:50 PM - ProgramFilesX86\GOG.com\Advent Rising\goggame.dll - 205312
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{F71C55E7-CBD5-4143-BDFC-AEB3CF3E94DA}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Advent Rising\System
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{F71C55E7-CBD5-4143-BDFC-AEB3CF3E94DA}
+Value: AppExePath
+Data: 10/1/2009 5:06:32 PM - ProgramFilesX86\GOG.com\Advent Rising\System\advent.exe - 290816
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGADVENTRISING
+Value: EXE
+Data: 10/1/2009 5:06:32 PM - ProgramFilesX86\GOG.com\Advent Rising\System\advent.exe - 290816
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGADVENTRISING
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Advent Rising
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGADVENTRISING
+Value: LAUNCHCOMMAND
+Data: 10/1/2009 5:06:32 PM - ProgramFilesX86\GOG.com\Advent Rising\System\advent.exe - 290816
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGADVENTRISING
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Advent Rising
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Advent
+Value: UninstallString
+Data: 12/13/2011 2:19:01 AM - ProgramFilesX86\GOG.com\Advent Rising\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Advent Rising_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Advent Rising
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Advent Rising_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Advent Rising
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Unreal Technology\Installed Apps\Advent
+Value: Folder
+Data: ProgramFilesX86\GOG.com\Advent Rising
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+12/13/2011 2:30:33 AM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Advent Rising\Advent Rising.lnk - 2203
+10/1/2009 5:06:32 PM - ProgramFilesX86\GOG.com\Advent Rising\System\advent.exe - 290816
+12/13/2011 2:30:33 AM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Advent Rising\Uninstall Advent Rising.lnk - 1102
+12/13/2011 2:19:01 AM - ProgramFilesX86\GOG.com\Advent Rising\unins000.exe - 2142547
+12/13/2011 2:30:30 AM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Advent Rising\Documents\Manual.lnk - 1188
+1/10/2006 3:59:04 PM - ProgramFilesX86\GOG.com\Advent Rising\manual.pdf - 6382055
+12/13/2011 2:30:30 AM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Advent Rising\Documents\Readme.lnk - 1299
+10/9/2009 12:45:06 PM - ProgramFilesX86\GOG.com\Advent Rising\Help\ReadMe.int.txt - 6200
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/13/2011 8:25:49 AM - VirtualStore\Program Files (x86)\GOG.com\Advent Rising\System\advent.log - 1818
+12/13/2011 8:25:49 AM - VirtualStore\Program Files (x86)\GOG.com\Advent Rising\System\Mydefault.ini - 1587
+12/13/2011 8:11:19 AM - VirtualStore\Program Files (x86)\GOG.com\Advent Rising\System\MyDefUser.ini - 83
+12/13/2011 8:20:51 AM - VirtualStore\Program Files (x86)\GOG.com\Advent Rising\System\Saves\ADVENT00.SAV - 5937
+
+Install Folder Dump:
+9/30/2009 11:58:00 AM - ProgramFilesX86\GOG.com\Advent Rising\gfw_high.ico - 105517
+11/2/2009 3:29:50 PM - ProgramFilesX86\GOG.com\Advent Rising\goggame.dll - 205312
+11/28/2008 10:32:10 PM - ProgramFilesX86\GOG.com\Advent Rising\innosetup_license.txt - 1471
+1/10/2006 3:59:04 PM - ProgramFilesX86\GOG.com\Advent Rising\manual.pdf - 6382055
+12/13/2011 2:30:33 AM - ProgramFilesX86\GOG.com\Advent Rising\unins000.dat - 91302
+12/13/2011 2:19:01 AM - ProgramFilesX86\GOG.com\Advent Rising\unins000.exe - 2142547
+12/13/2011 2:30:33 AM - ProgramFilesX86\GOG.com\Advent Rising\unins000.ini - 78
+9/14/2009 2:59:52 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\adventcamera.ukx - 637372
+9/14/2009 2:59:52 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\ambient.ukx - 1239030
+9/14/2009 2:59:52 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\aurelians.ukx - 9614035
+9/14/2009 2:59:54 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\bosses.ukx - 8590077
+9/14/2009 2:59:54 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\extracharacters.ukx - 3143338
+9/14/2009 2:59:54 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\hud_anims.ukx - 36985
+9/14/2009 2:59:56 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\humans.ukx - 21060061
+9/14/2009 2:59:56 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\interface_anims.ukx - 33379
+9/14/2009 2:59:56 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\level14animations.ukx - 4142
+9/14/2009 3:00:02 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv01.ukx - 38521469
+9/14/2009 3:00:02 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv01b.ukx - 640263
+9/14/2009 3:00:02 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv01c.ukx - 700482
+9/14/2009 3:00:06 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv02.ukx - 30350894
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv03.ukx - 32665835
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv03a.ukx - 513134
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv03b.ukx - 353712
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv03c.ukx - 563245
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv03d.ukx - 372785
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv03e.ukx - 311795
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv04.ukx - 7663405
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv04a.ukx - 46684
+9/14/2009 3:00:10 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv04c.ukx - 28426
+9/14/2009 3:00:12 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv05.ukx - 2649679
+9/14/2009 3:00:14 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv06.ukx - 16431956
+9/14/2009 3:00:14 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv06b.ukx - 155012
+9/14/2009 3:00:14 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv06d.ukx - 466902
+9/14/2009 3:00:14 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv06e.ukx - 666075
+9/14/2009 3:00:14 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv07.ukx - 4804630
+9/14/2009 3:00:16 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv08.ukx - 13081646
+9/14/2009 3:00:16 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv08a.ukx - 814675
+9/14/2009 3:00:16 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv09.ukx - 7195467
+9/14/2009 3:00:18 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv09a.ukx - 9230
+9/14/2009 3:00:18 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv09b.ukx - 122926
+9/14/2009 3:00:20 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv10.ukx - 24869883
+9/14/2009 3:00:20 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv10b.ukx - 14182
+9/14/2009 3:00:20 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv10e.ukx - 88454
+9/14/2009 3:00:20 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv11.ukx - 3159984
+9/14/2009 3:00:20 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv12.ukx - 7325176
+9/14/2009 3:00:22 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv13.ukx - 15695613
+9/14/2009 3:00:22 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv13a.ukx - 206448
+9/14/2009 3:00:26 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv14.ukx - 33192215
+9/14/2009 3:00:26 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv14a.ukx - 150100
+9/14/2009 3:00:26 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv14c.ukx - 128614
+9/14/2009 3:00:26 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv14d.ukx - 119649
+9/14/2009 3:00:26 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv14e.ukx - 18793
+9/14/2009 3:00:26 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv14f.ukx - 161755
+9/14/2009 3:00:28 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv15.ukx - 15320193
+9/14/2009 3:00:28 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv15a.ukx - 72566
+9/14/2009 3:00:30 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv16.ukx - 20282914
+9/14/2009 3:00:30 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv16a.ukx - 211606
+9/14/2009 3:00:32 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv16a2.ukx - 35014
+9/14/2009 3:00:32 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv16c.ukx - 116190
+9/14/2009 3:00:32 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv16d.ukx - 66300
+9/14/2009 3:00:32 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv16e.ukx - 157673
+9/14/2009 3:00:32 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv16g.ukx - 120166
+9/14/2009 3:00:32 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv16h.ukx - 11630
+9/14/2009 3:00:34 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv17.ukx - 16885006
+9/14/2009 3:00:34 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv17a.ukx - 207301
+9/14/2009 3:00:34 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv18.ukx - 909373
+9/14/2009 3:00:34 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\lv18a.ukx - 17908
+9/14/2009 3:00:34 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\seekers.ukx - 6302944
+9/14/2009 3:00:34 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\vehiclesaurelian.ukx - 1718981
+9/14/2009 3:00:36 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\vehicleshuman.ukx - 7377875
+9/14/2009 3:00:36 PM - ProgramFilesX86\GOG.com\Advent Rising\animations\vehiclesseeker.ukx - 4359866
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Help\Advent.ico - 3262
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Help\AdventRisingWeb.url - 134
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Help\InstallerLogo.bmp - 29284
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Help\Logo.bmp - 308280
+10/9/2009 12:45:06 PM - ProgramFilesX86\GOG.com\Advent Rising\Help\ReadMe.int.txt - 6200
+9/14/2009 2:59:38 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\Entry.adv - 298920
+9/14/2009 2:59:38 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\Title_pc.adv - 341068
+9/14/2009 2:59:38 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level01sectiona.adv - 4441075
+9/14/2009 2:59:38 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level01sectionb.adv - 3927139
+9/14/2009 2:59:38 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level01sectionb2.adv - 1254149
+9/14/2009 2:59:38 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level01sectionc.adv - 8397684
+9/14/2009 2:59:40 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level03sectiona.adv - 6160955
+9/14/2009 2:59:40 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level03sectionb.adv - 5955776
+9/14/2009 2:59:40 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level03sectionc.adv - 3943702
+9/14/2009 2:59:40 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level03sectiond.adv - 3984770
+9/14/2009 2:59:40 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level03sectione.adv - 3990072
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level04sectiona.adv - 5601446
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level04sectionb.adv - 5849394
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level04sectionc.adv - 5149800
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level05sectionc.adv - 3943129
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level06sectiona.adv - 3146108
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level06sectionb.adv - 3471411
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level06sectionb2.adv - 2806939
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level06sectionc.adv - 1674802
+9/14/2009 2:59:42 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level06sectiond.adv - 4069729
+9/14/2009 2:59:44 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level06sectione.adv - 7431771
+9/14/2009 2:59:44 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level08sectiona.adv - 1626124
+9/14/2009 2:59:44 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level09sectiona.adv - 5358456
+9/14/2009 2:59:44 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level09sectionb.adv - 6426534
+9/14/2009 2:59:44 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level10sectiona.adv - 8561193
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level10sectionb.adv - 5746512
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level10sectione.adv - 1511223
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level11sectiona.adv - 2827683
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level12sectiona.adv - 2424507
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level13sectiona.adv - 1832315
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level14sectiona.adv - 4016570
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level14sectionc.adv - 3189277
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level14sectiond.adv - 2687447
+9/14/2009 2:59:46 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level14sectione.adv - 3387762
+9/14/2009 2:59:48 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level14sectionf.adv - 5151996
+9/14/2009 2:59:48 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level15sectiona.adv - 1673199
+9/14/2009 2:59:48 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level16sectiona.adv - 5391664
+9/14/2009 2:59:48 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level16sectiona2.adv - 9686056
+9/14/2009 2:59:48 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level16sectionb.adv - 4595190
+9/14/2009 2:59:50 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level16sectionc.adv - 1170788
+9/14/2009 2:59:50 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level16sectiond.adv - 4306819
+9/14/2009 2:59:50 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level16sectione.adv - 6390824
+9/14/2009 2:59:50 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level16sectiong.adv - 2632711
+9/14/2009 2:59:50 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level16sectionh.adv - 7206261
+9/14/2009 2:59:50 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level17sectiona.adv - 1409648
+9/14/2009 2:59:52 PM - ProgramFilesX86\GOG.com\Advent Rising\maps\final\done\level18sectiona.adv - 1320115
+9/14/2009 3:00:36 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\11_Satelite.bik - 5494036
+9/14/2009 3:00:52 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\chpmov_Ch1.bik - 684500
+9/14/2009 3:00:52 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\chpmov_Ch2.bik - 1281036
+9/14/2009 3:00:52 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\chpmov_Ch3.bik - 1900080
+9/14/2009 3:00:52 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\chpmov_Ch4.bik - 1561652
+9/14/2009 3:00:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\chpmov_Ch5.bik - 1757684
+9/14/2009 3:00:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\chpmov_Ch6.bik - 2221464
+9/14/2009 3:00:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\chpmov_Epilogue.bik - 871924
+9/14/2009 3:00:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\chpmov_Prologue.bik - 844080
+9/14/2009 3:00:52 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Credits.bik - 86915832
+9/14/2009 3:00:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\DefaultInterfaceMovie.bik - 389880
+9/14/2009 3:01:00 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\DoomBig.bik - 28368924
+9/14/2009 3:01:00 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\glyphxlogo.bik - 3472680
+9/14/2009 3:01:00 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Intro_In.bik - 1056024
+9/14/2009 3:01:00 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Intro_Loop.bik - 4806580
+9/14/2009 3:01:14 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level01sectionA.bik - 76236864
+9/14/2009 3:01:16 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level01sectionB.bik - 10467428
+9/14/2009 3:01:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level01sectionB2.bik - 60235844
+9/14/2009 3:01:38 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level01sectionC.bik - 52214228
+9/14/2009 3:02:02 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level03sectionA.bik - 154985576
+9/14/2009 3:02:06 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level03sectionB.bik - 13220320
+9/14/2009 3:02:10 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level03sectionC.bik - 30773464
+9/14/2009 3:02:14 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level03sectionD.bik - 27021092
+9/14/2009 3:02:20 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level04sectionA.bik - 32935152
+9/14/2009 3:02:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level04sectionA_olivia.bik - 30001852
+9/14/2009 3:02:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level04sectionB.bik - 15756976
+9/14/2009 3:02:32 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level04sectionC.bik - 30664948
+9/14/2009 3:02:36 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level04sectionC_olivia.bik - 25118912
+9/14/2009 3:02:40 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level06sectionB.bik - 16450092
+9/14/2009 3:02:44 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level06sectionD.bik - 23704380
+9/14/2009 3:02:48 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level06sectionE.bik - 24438992
+9/14/2009 3:03:32 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level08sectionA.bik - 259824652
+9/14/2009 3:04:08 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level08sectionA_olivia.bik - 248640696
+9/14/2009 3:04:16 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level09sectionA.bik - 48390408
+9/14/2009 3:04:18 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level09sectionB.bik - 23956364
+9/14/2009 3:04:22 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level10sectionA.bik - 27500040
+9/14/2009 3:04:24 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level10sectionE.bik - 16722068
+9/14/2009 3:04:32 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level11sectionA.bik - 51509248
+9/14/2009 3:04:40 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level11sectionA_Olivia.bik - 51508716
+9/14/2009 3:04:50 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level12sectionA.bik - 77528108
+9/14/2009 3:05:00 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level12sectionA_Olivia.bik - 77571956
+9/14/2009 3:05:14 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level13sectionA.bik - 100078180
+9/14/2009 3:05:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level14sectionA.bik - 107793628
+9/14/2009 3:05:30 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level14sectionC.bik - 21344016
+9/14/2009 3:05:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level14sectionD.bik - 26497276
+9/14/2009 3:05:40 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\level15sectionA.bik - 53866680
+9/14/2009 3:05:50 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\level16sectionA.bik - 66117576
+9/14/2009 3:05:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\level16sectionC.bik - 27022356
+9/14/2009 3:05:56 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\level16sectionE2.bik - 18141640
+9/14/2009 3:05:58 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level16sectionG.bik - 27100924
+9/14/2009 3:06:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level16sectionH.bik - 37330028
+9/14/2009 3:06:40 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level17sectionA.bik - 293413300
+9/14/2009 3:07:16 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level17sectionA_Olivia.bik - 276705480
+9/14/2009 3:07:20 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level18sectionA.bik - 46888340
+9/14/2009 3:07:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Level18sectionA_Olivia.bik - 46124516
+9/14/2009 3:07:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\LoadingScreen_256.bik - 602080
+9/14/2009 3:07:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv01_sc11.bik - 8937540
+9/14/2009 3:07:30 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv01_sc14.bik - 16513372
+9/14/2009 3:07:32 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv01_sc15.bik - 19374116
+9/14/2009 3:07:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv01_sc16.bik - 22031528
+9/14/2009 3:07:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Lv01_Training.bik - 411008
+9/14/2009 3:07:42 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv03_sc08.bik - 36780252
+9/14/2009 3:07:48 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv03_sc21_1.bik - 4471676
+9/14/2009 3:07:52 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Lv03_sc21_2.bik - 11336108
+9/14/2009 3:07:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv03_sc26.bik - 11753076
+9/14/2009 3:07:58 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv06_sc02.bik - 17131628
+9/14/2009 3:08:14 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv06_sc10b.bik - 69660688
+9/14/2009 3:08:18 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv06_sc13.bik - 11188332
+9/14/2009 3:08:18 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Lv06_sc14.bik - 3832680
+9/14/2009 3:08:30 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Lv13_sc03.bik - 22222600
+9/14/2009 3:08:36 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Lv14_sc10.bik - 46579540
+9/14/2009 3:08:38 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv14_sc12.bik - 26917656
+9/14/2009 3:08:48 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Lv14_sc14.bik - 80411160
+9/14/2009 3:08:54 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\Lv15_sc03.bik - 42382252
+9/14/2009 3:08:56 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv15_sc04_1.bik - 17517384
+9/14/2009 3:08:58 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv16_sc08.bik - 17085560
+9/14/2009 3:08:58 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv16_Vids.bik - 411008
+9/14/2009 3:09:00 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv17_sc01_4.bik - 13274404
+9/14/2009 3:09:02 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv17_sc01_4b.bik - 13169280
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\lv18_sc02.bik - 12997728
+9/14/2009 3:08:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\LV1_TV.bik - 52648992
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\pwrmov_EnergyBlast.bik - 506780
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\pwrmov_EnergyPush.bik - 543512
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\pwrmov_Levitation.bik - 521796
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\pwrmov_Shatter.bik - 491764
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\pwrmov_Shield.bik - 491740
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\pwrmov_Speed.bik - 443236
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_hmnBlaster.bik - 419836
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_hmnGrenade.bik - 419824
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_hmnLauncher.bik - 419824
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_hmnPistol.bik - 419832
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_hmnXJ9.bik - 419848
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_skrAssault.bik - 419836
+9/14/2009 3:09:04 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_skrLauncher.bik - 419832
+9/14/2009 3:09:06 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_skrMicrowave.bik - 419828
+9/14/2009 3:09:06 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_skrPhoton.bik - 419844
+9/14/2009 3:09:06 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_skrPistol.bik - 419820
+9/14/2009 3:09:06 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_skrPulse.bik - 419844
+9/14/2009 3:09:06 PM - ProgramFilesX86\GOG.com\Advent Rising\Movies\wpnmov_skrXJ9.bik - 419820
+9/14/2009 2:59:24 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\ADVENT_RISING.ogg - 3403216
+9/14/2009 2:59:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\ADVENT_RISING_51.ogg - 10676769
+9/14/2009 2:59:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\AURELIAN_MOVEMENT.ogg - 2611096
+9/14/2009 2:59:24 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\A_FIERY_ARRIVAL_ON_AURELIA.ogg - 953907
+9/14/2009 2:59:24 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\A_FREE_AURELIA.ogg - 653694
+9/14/2009 2:59:24 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\A_LINE_IN_THE_SAND.ogg - 2333342
+9/14/2009 2:59:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\bridge.ogg - 1847023
+9/14/2009 2:59:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\COLOR1.ogg - 265884
+9/14/2009 2:59:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\COLOR2.ogg - 248261
+9/14/2009 2:59:26 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\DEATH.ogg - 1704531
+9/14/2009 2:59:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\EDUMEAS_LAST_STAND.ogg - 2396731
+9/14/2009 2:59:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\GIDEON_TRIUMPHANT.ogg - 2266658
+9/14/2009 2:59:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\GREATER_LIGHTS.ogg - 4335161
+9/14/2009 2:59:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\HUMAN_MOVEMENT.ogg - 2284215
+9/14/2009 2:59:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\HUNTED_BY_SEEKERS.ogg - 2243078
+9/14/2009 2:59:28 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\IN_THE_MIDST_OF_THE_NKUL.ogg - 583704
+9/14/2009 2:59:30 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\KOROEM.ogg - 3587601
+9/14/2009 2:59:30 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\LURIAM_DOWN.ogg - 1174853
+9/14/2009 2:59:30 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\MASTERY_OF_SELF.ogg - 2533371
+9/14/2009 2:59:30 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\muse2.ogg - 1795714
+9/14/2009 2:59:30 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\POETA.ogg - 4037826
+9/14/2009 2:59:32 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\POETA_51.ogg - 12481150
+9/14/2009 2:59:32 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\POWER_WITHIN.ogg - 1091483
+9/14/2009 2:59:32 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\RESPONSIBILITY_OF_CIRCUMSTANCE.ogg - 2462420
+9/14/2009 2:59:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\REYASTHEME.ogg - 4853721
+9/14/2009 2:59:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\SILENCE.ogg - 4636
+9/14/2009 2:59:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\SPEED.ogg - 2515841
+9/14/2009 2:59:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\THE_ADVENT_OF_HUMANITY.ogg - 2527002
+9/14/2009 2:59:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\THE_BELLY_OF_THE_BEAST.ogg - 2352631
+9/14/2009 2:59:34 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\THE_HUMAN_REALITY.ogg - 2053605
+9/14/2009 2:59:36 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\THE_NOBLE_AURELIANS.ogg - 3362508
+9/14/2009 2:59:36 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\THE_RISE_OF_AURELIA.ogg - 2353177
+9/14/2009 2:59:36 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\THE_SEEKERS_UNMASKED.ogg - 1058945
+9/14/2009 2:59:36 PM - ProgramFilesX86\GOG.com\Advent Rising\Music\THE_SEEKER_HORDE.ogg - 2333924
+9/14/2009 2:57:34 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\aivoices.uax - 25286186
+9/14/2009 2:57:34 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\boss.uax - 3389924
+9/14/2009 2:57:38 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\character.uax - 34218698
+9/14/2009 2:57:42 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\effects_snd.uax - 24191668
+9/14/2009 2:58:08 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\environmental.uax - 235551335
+9/14/2009 2:58:08 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\frontend.uax - 19045
+9/14/2009 2:58:16 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\fx.uax - 76740306
+9/14/2009 2:58:18 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\level.uax - 6623122
+9/14/2009 2:58:38 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv01_snd.uax - 166334927
+9/14/2009 2:58:42 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv02_snd.uax - 76407043
+9/14/2009 2:58:46 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv03_snd.uax - 43055967
+9/14/2009 2:58:48 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv04_snd.uax - 14678454
+9/14/2009 2:58:48 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv05_snd.uax - 7587076
+9/14/2009 2:58:52 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv06_snd.uax - 20484194
+9/14/2009 2:58:52 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv07_snd.uax - 9827030
+9/14/2009 2:59:04 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv08_snd.uax - 89991127
+9/14/2009 2:59:04 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv09_snd.uax - 917617
+9/14/2009 2:59:06 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv10_snd.uax - 37257542
+9/14/2009 2:59:06 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv11_snd.uax - 583628
+9/14/2009 2:59:08 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv12_snd.uax - 4051658
+9/14/2009 2:59:08 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv13_snd.uax - 2962366
+9/14/2009 2:59:10 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv14_snd.uax - 32596053
+9/14/2009 2:59:12 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv15_snd.uax - 2585945
+9/14/2009 2:59:12 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv16e2_snd.uax - 2187198
+9/14/2009 2:59:12 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv16_snd.uax - 6350076
+9/14/2009 2:59:12 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv17_snd.uax - 2704339
+9/14/2009 2:59:12 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\lv18_snd.uax - 2735816
+9/14/2009 2:59:16 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\power.uax - 16730384
+9/14/2009 2:59:16 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\srcmedia.uax - 146289
+9/14/2009 2:59:20 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\vehicle.uax - 37908438
+9/14/2009 2:59:24 PM - ProgramFilesX86\GOG.com\Advent Rising\sounds\weapon.uax - 20983704
+9/14/2009 2:57:22 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\aurelianarchitecture_sm.usx - 17641607
+9/14/2009 2:57:22 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\aurelianvehicles_sm.usx - 7160942
+9/14/2009 2:57:22 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\effects_sm.usx - 1068330
+9/14/2009 2:57:24 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\environments_sm.usx - 11832863
+9/14/2009 2:57:26 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\humanarchitecture_sm.usx - 34707273
+9/14/2009 2:57:28 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\humanvehicles_sm.usx - 12487555
+9/14/2009 2:57:30 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\seekerarchitecture_sm.usx - 19871945
+9/14/2009 2:57:30 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\seekervehicles_sm.usx - 8622753
+9/14/2009 2:57:30 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\senatearchitecture_sm.usx - 2089307
+9/14/2009 2:57:30 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\skyboxes_sm.usx - 2013283
+9/14/2009 2:57:30 PM - ProgramFilesX86\GOG.com\Advent Rising\staticmeshes\weapons_sm.usx - 1279653
+10/1/2009 5:06:32 PM - ProgramFilesX86\GOG.com\Advent Rising\System\advent.exe - 290816
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Advent.int - 97
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\System\ALAudio.dll - 122880
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\alaudio.int - 261
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\System\binkw32.dll - 338944
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Core.dll - 905216
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\core.int - 3481
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Core.u - 93886
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\System\D3DDrv.dll - 999424
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\d3ddrv.int - 374
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\default.ini - 11471
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\DefOpenAL32.dll - 159744
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\defuser.ini - 7024
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Editor.dll - 1888256
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\editor.int - 6657
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Editor.u - 457124
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Engine.dll - 5267456
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\engine.int - 17476
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Engine.u - 1962474
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonCharacters.dll - 102400
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonCharacters.u - 901395
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonDecorations.u - 38197
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonEffects.u - 3044534
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonEngine.dll - 536576
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonEngine.int - 430
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonEngine.u - 621249
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonGame.dll - 53248
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonGame.u - 320514
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonPowers.int - 3275
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonPowers.u - 199690
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonVehicles.u - 24734
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonWeapons.int - 1245
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\EonWeapons.u - 176481
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\GamePlay.u - 159003
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\GUI.dll - 323584
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\GUI.int - 285
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\GUI.u - 223158
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\HUD.int - 11738
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\HUD.u - 210489
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\IFC23.DLL - 237568
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Interface.int - 18510
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Interface.u - 623072
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\IpDrv.dll - 245760
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\License.int - 3343
+9/14/2009 3:09:06 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Manifest.ini - 34582
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Manifest.int - 1306
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\MOGdrv.dll - 13824
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\msvcp70.dll - 487424
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\MSVCR70.dll - 344064
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\MSVCR71.dll - 348160
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\ogg.dll - 11264
+9/14/2009 2:56:54 PM - ProgramFilesX86\GOG.com\Advent Rising\System\setup.exe - 675840
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\setup.int - 8465
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\startup.int - 1721
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Vehicles.dll - 143360
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Vehicles.u - 353766
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\vorbis.dll - 126976
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\vorbisfile.dll - 16896
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\WarfareGame.dll - 48128
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\WarfareGame.u - 739592
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\Window.dll - 544768
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\window.int - 2263
+9/14/2009 2:56:56 PM - ProgramFilesX86\GOG.com\Advent Rising\System\WinDrv.dll - 233472
+9/14/2009 2:56:58 PM - ProgramFilesX86\GOG.com\Advent Rising\System\windrv.int - 681
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\ShaderData\Common\VertexShaders\Adv_DistortionCopyReflect.vsh - 818
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\ShaderData\Common\VertexShaders\Adv_DistortionCopyRefract.vsh - 733
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\ShaderData\Common\VertexShaders\Adv_Water.vsh - 1167
+9/14/2009 2:57:00 PM - ProgramFilesX86\GOG.com\Advent Rising\System\ShaderData\Common\VertexShaders\Distortion.vsh - 1239
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\DefaultSubtitles.txt - 30
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\InGameCredits.txt - 658
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\InGameCreditsA.txt - 654
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level01sectionA.txt - 1583
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\level01sectionb2.txt - 1845
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\level01sectionc.txt - 1298
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\level03sectiona.txt - 3855
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\level03sectionb.txt - 390
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\level03sectionc.txt - 457
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level04sectionA.txt - 415
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level04sectionA_olivia.txt - 280
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level04sectionC.txt - 894
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level04sectionC_olivia.txt - 627
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level08sectionA.txt - 6069
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level08sectionA_Olivia.txt - 6331
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level09sectionA.txt - 813
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level10sectionA.txt - 485
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level10sectionE.txt - 53
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level11sectionA.txt - 123
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level11sectionA_Olivia.txt - 111
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level12sectionA.txt - 1369
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level12sectionA_Olivia.txt - 1330
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level13sectionA.txt - 2503
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level14SectionA.txt - 3642
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level14SectionC.txt - 461
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level14SectionD.txt - 448
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level15SectionA.txt - 2045
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level16sectionA.txt - 1423
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level16sectionH.txt - 509
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level17sectionA.txt - 4787
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\Level17sectionA_Olivia.txt - 4786
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv01_sc06b.txt - 1844
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv01_sc09.txt - 1272
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv01_sc11.txt - 284
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv01_sc14.txt - 401
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv01_sc15.txt - 623
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv01_sc16.txt - 694
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv02_sc00.txt - 3497
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv03_sc01.txt - 196
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv03_sc07.txt - 427
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv03_sc08.txt - 682
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv03_sc13.txt - 379
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv03_sc15.txt - 133
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv03_sc21_1.txt - 202
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv03_sc21_2.txt - 414
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv03_sc26.txt - 481
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv04_sc02_1.txt - 887
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv04_sc02_2.txt - 631
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv06_sc02.txt - 626
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv06_sc10b.txt - 1952
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv06_sc13.txt - 393
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv06_sc14.txt - 126
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv06_sc16.txt - 3689
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv06_sc17.txt - 3963
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv08_sc02.txt - 2242
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv09_sc01_1.txt - 1056
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv09_sc03.txt - 575
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv10_sc03.txt - 204
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv10_sc13.txt - 111
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv11_sc01_1.txt - 143
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv11_sc01_2.txt - 95
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv11_sc02_1.txt - 323
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv11_sc02_2.txt - 303
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv12_sc01b.txt - 1059
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv13_sc01.txt - 2504
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv13_sc01_3.txt - 2502
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv13_sc03.txt - 384
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv13_sc05.txt - 887
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv14_sc01_3.txt - 2556
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv14_sc10.txt - 1140
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv14_sc11.txt - 443
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv14_sc12.txt - 388
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv14_sc14.txt - 818
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv14_sc15.txt - 229
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv14_sc17.txt - 190
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv15_sc01.txt - 2078
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv15_sc03.txt - 1512
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv15_sc04_1.txt - 323
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv15_sc4_2.txt - 744
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv16_sc01.txt - 614
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv16_sc08.txt - 140
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv16_sc10.txt - 390
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv17_sc01_4.txt - 152
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv17_sc01_4b.txt - 138
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv18_sc02.txt - 76
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv4_sc01_1.txt - 354
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\System\subtitles\lv4_sc01_2.txt - 207
+9/14/2009 2:57:02 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\ambientcreatures_tx.utx - 778882
+9/14/2009 2:57:04 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\aurelianarchitecture_tx.utx - 6663158
+9/14/2009 2:57:04 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\aureliancharacters_tx.utx - 7807290
+9/14/2009 2:57:04 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\aurelianvehicles_tx.utx - 2811137
+9/14/2009 2:57:04 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\cubemaps_tx.utx - 289288
+9/14/2009 2:57:04 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\editor_tx.utx - 58747
+9/14/2009 2:57:04 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\effects_tx.utx - 2572200
+9/14/2009 2:57:06 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\environments_tx.utx - 5553464
+9/14/2009 2:57:08 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\extracharacters_tx.utx - 10317978
+9/14/2009 2:57:08 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\GUIContent.utx - 1862761
+9/14/2009 2:57:08 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\GUIFonts.utx - 293896
+9/14/2009 2:57:10 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\humanarchitecture_tx.utx - 18197876
+9/14/2009 2:57:14 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\humancharacters_tx.utx - 16493645
+9/14/2009 2:57:16 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\humanvehicles_tx.utx - 11825809
+9/14/2009 2:57:16 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\interface_tx.utx - 4486827
+9/14/2009 2:57:16 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\seekerarchitecture_tx.utx - 9930802
+9/14/2009 2:57:18 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\seekercharacters_tx.utx - 5868739
+9/14/2009 2:57:18 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\seekervehicles_tx.utx - 8373567
+9/14/2009 2:57:18 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\senate_tx.utx - 1709052
+9/14/2009 2:57:20 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\skyboxes_tx.utx - 7370886
+9/14/2009 2:57:20 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\test_tx.utx - 350074
+9/14/2009 2:57:20 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\UWindowFonts.utx - 1755531
+9/14/2009 2:57:20 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\WarfareFonts.utx - 6000306
+9/14/2009 2:57:20 PM - ProgramFilesX86\GOG.com\Advent Rising\textures\weapons_tx.utx - 3373217
+
+UAC Enabled
+
+
+VirtualStore Folders:
+12/13/2011 8:25:49 AM - VirtualStore\Program Files (x86)\GOG.com\Advent Rising\System\advent.log - 1818
+12/13/2011 8:25:49 AM - VirtualStore\Program Files (x86)\GOG.com\Advent Rising\System\Mydefault.ini - 1587
+12/13/2011 8:11:19 AM - VirtualStore\Program Files (x86)\GOG.com\Advent Rising\System\MyDefUser.ini - 83
+12/13/2011 8:20:51 AM - VirtualStore\Program Files (x86)\GOG.com\Advent Rising\System\Saves\ADVENT00.SAV - 5937

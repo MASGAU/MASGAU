@@ -1,0 +1,74 @@
+Comments:
+  <game name="Jamestown" platform="Steam">
+    <title>Jamestown</title>
+    <location_path environment_variable="userdocuments" path="Saved Games\Jamestown" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: JamesTown
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\jamestown
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\Saved Games\Jamestown
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 94200
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\jamestown
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\Saved Games\Jamestown\ControllerLog.txt - 3343
+C:\Users\%USERNAME%\Documents\Saved Games\Jamestown\Default.sav - 8517
+C:\Users\%USERNAME%\Documents\Saved Games\Jamestown\LastScoreLog.ffg - 35
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\InstallScript.vdf - 683
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Jamestown.exe - 4974592
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\LICENSES.TXT - 10766
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\steam_appid.txt - 5
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Animations.ffg - 151627
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\AnimSources.ffg - 307716
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Emitters.ffg - 7638
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Fonts.ffg - 507918
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\LevelData.ffg - 7908
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Manifests.ffg - 3005
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Materials.ffg - 127247
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Music.ffg - 50941147
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\PaletteSets.ffg - 41869
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\PlacementSets.ffg - 68042
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Scripts.ffg - 2007305
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Sounds.ffg - 7200340
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\SubLevelData.ffg - 2741897
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\Archives\Textures.ffg - 36339243
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\oalinst.exe - 809496
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\vcredist_x86.exe - 1821192
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\Aug2009_D3DCompiler_42_x86.cab - 900598
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\Aug2009_d3dx9_42_x86.cab - 728456
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\DSETUP.dll - 94040
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\dsetup32.dll - 1691480
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\dxdllreg_x86.cab - 44448
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\dxnt.cab - 13264168
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\DXSETUP.exe - 525656
+C:\Program Files (x86)\Steam\steamapps\common\jamestown\redist\dxinstall\dxupdate.cab - 95820
+
+UAC Disabled or not present
+

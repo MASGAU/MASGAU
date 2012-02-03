@@ -1,0 +1,279 @@
+Game Name: Titan Quest
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\THQ\Titan Quest
+
+Save Path:
+C:\Users\%USERNAME%\Documents\My Games\Titan Quest
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Iron Lore\Titan Quest
+Value:Install Location
+Data:C:\Program Files (x86)\THQ\Titan Quest
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Iron Lore\Titan Quest Immortal Throne
+Value:Install Location
+Data:C:\Program Files (x86)\THQ\Titan Quest Immortal Throne
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{412B69AF-C352-4F6F-A318-B92B3CB9ACC6}
+Value:InstallLocation
+Data:C:\Program Files (x86)\THQ\Titan Quest
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{412B69AF-C352-4F6F-A318-B92B3CB9ACC6}
+Value:DisplayIcon
+Data:C:\Program Files (x86)\THQ\Titan Quest\Titan Quest.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B5C5C17E-FEF6-4062-8151-A427AE8AF9D7}
+Value:InstallLocation
+Data:C:\Program Files (x86)\THQ\Titan Quest Immortal Throne
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B5C5C17E-FEF6-4062-8151-A427AE8AF9D7}
+Value:DisplayIcon
+Data:C:\Program Files (x86)\THQ\Titan Quest Immortal Throne\Tqit.exe
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest\Read Me.lnk
+C:\Program Files (x86)\THQ\Titan Quest\ReadMe.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest\Titan Quest.lnk
+C:\Program Files (x86)\THQ\Titan Quest\Titan Quest.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest\Toolset\Art Manager.lnk
+C:\Program Files (x86)\THQ\Titan Quest\ArtManager.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest\Toolset\Editor.lnk
+C:\Program Files (x86)\THQ\Titan Quest\Editor.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest\Toolset\Modding Quick Start.txt.lnk
+C:\Program Files (x86)\THQ\Titan Quest\Toolset\Modding Quick Start.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest\Toolset\Quest Editor.lnk
+C:\Program Files (x86)\THQ\Titan Quest\DotNetLauncher.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest Immortal Throne\Read Me.lnk
+C:\Program Files (x86)\THQ\Titan Quest Immortal Throne\ReadMe.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest Immortal Throne\Titan Quest - Immortal Throne.lnk
+C:\Program Files (x86)\THQ\Titan Quest Immortal Throne\Tqit.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest Immortal Throne\Toolset\Art Manager.lnk
+C:\Program Files (x86)\THQ\Titan Quest Immortal Throne\ArtManager.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest Immortal Throne\Toolset\Editor.lnk
+C:\Program Files (x86)\THQ\Titan Quest Immortal Throne\Editor.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest Immortal Throne\Toolset\Modding Quick Start.txt.lnk
+C:\Program Files (x86)\THQ\Titan Quest Immortal Throne\Toolset\Modding Quick Start.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\THQ\Titan Quest Immortal Throne\Toolset\Quest Editor.lnk
+C:\Program Files (x86)\THQ\Titan Quest Immortal Throne\DotNetLauncher.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\Documents\My Games\Titan Quest\TQ.dhl - 4
+C:\Users\%USERNAME%\Documents\My Games\Titan Quest\Settings\keybindings.txt - 401
+C:\Users\%USERNAME%\Documents\My Games\Titan Quest\Settings\options.txt - 1010
+
+Install Folder Dump:
+C:\Program Files (x86)\THQ\Titan Quest\AnimationCompiler.exe - 53248
+C:\Program Files (x86)\THQ\Titan Quest\ArchiveTool.exe - 37888
+C:\Program Files (x86)\THQ\Titan Quest\ArtManager.exe - 786432
+C:\Program Files (x86)\THQ\Titan Quest\binkw32.dll - 193024
+C:\Program Files (x86)\THQ\Titan Quest\devil.dll - 269312
+C:\Program Files (x86)\THQ\Titan Quest\Direct3D.dll - 69632
+C:\Program Files (x86)\THQ\Titan Quest\dotnetfx.exe - 24265736
+C:\Program Files (x86)\THQ\Titan Quest\DotNetLauncher.exe - 53248
+C:\Program Files (x86)\THQ\Titan Quest\Editor.exe - 1212416
+C:\Program Files (x86)\THQ\Titan Quest\Engine.dll - 1929216
+C:\Program Files (x86)\THQ\Titan Quest\FontCompiler.exe - 53248
+C:\Program Files (x86)\THQ\Titan Quest\Game.dll - 2842624
+C:\Program Files (x86)\THQ\Titan Quest\libeay32.dll - 1028096
+C:\Program Files (x86)\THQ\Titan Quest\MapCompiler.exe - 40960
+C:\Program Files (x86)\THQ\Titan Quest\ModelCompiler.exe - 69632
+C:\Program Files (x86)\THQ\Titan Quest\mss32.dll - 374272
+C:\Program Files (x86)\THQ\Titan Quest\msvcr71.dll - 348160
+C:\Program Files (x86)\THQ\Titan Quest\pathengine.dll - 831488
+C:\Program Files (x86)\THQ\Titan Quest\QuestEditor.exe - 921600
+C:\Program Files (x86)\THQ\Titan Quest\ReadMe.txt - 32018
+C:\Program Files (x86)\THQ\Titan Quest\ShaderCompiler.exe - 69632
+C:\Program Files (x86)\THQ\Titan Quest\stlport_vc7146.dll - 581632
+C:\Program Files (x86)\THQ\Titan Quest\TextureCompiler.exe - 163840
+C:\Program Files (x86)\THQ\Titan Quest\Titan Quest.exe - 1019904
+C:\Program Files (x86)\THQ\Titan Quest\Titan Quest.exe.old - 1019904
+C:\Program Files (x86)\THQ\Titan Quest\zlib1.dll - 58880
+C:\Program Files (x86)\THQ\Titan Quest\Audio\Dialog.arc - 195116737
+C:\Program Files (x86)\THQ\Titan Quest\Audio\Music.arc - 363473079
+C:\Program Files (x86)\THQ\Titan Quest\Audio\Sounds.arc - 285731671
+C:\Program Files (x86)\THQ\Titan Quest\Database\database.arz - 27176872
+C:\Program Files (x86)\THQ\Titan Quest\EULA\TQ_EULA_English.txt - 23044
+C:\Program Files (x86)\THQ\Titan Quest\Manual\TQManual_US.pdf - 6563904
+C:\Program Files (x86)\THQ\Titan Quest\Manual\TQTechTree_US.pdf - 4985275
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\mssa3d.m3d - 72704
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\mssds3d.m3d - 56320
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\mssdsp.flt - 113664
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\mssdx7.m3d - 65536
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\msseax.m3d - 143872
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\mssmp3.asi - 149504
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\mssrsx.m3d - 372224
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\msssoft.m3d - 79360
+C:\Program Files (x86)\THQ\Titan Quest\MilesRedist\mssvoice.asi - 214528
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Creatures.arc - 338206104
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Effects.arc - 31937084
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Fonts.arc - 246966
+C:\Program Files (x86)\THQ\Titan Quest\Resources\InGameUI.arc - 33365262
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Items.arc - 307349476
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Levels.arc - 181541560
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Lights.arc - 191342
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Menu.arc - 22473021
+C:\Program Files (x86)\THQ\Titan Quest\Resources\OutGameElements.arc - 10410237
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Particles.arc - 21576
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Quests.arc - 156353
+C:\Program Files (x86)\THQ\Titan Quest\Resources\SceneryBabylon.arc - 25453918
+C:\Program Files (x86)\THQ\Titan Quest\Resources\SceneryEgypt.arc - 154838840
+C:\Program Files (x86)\THQ\Titan Quest\Resources\SceneryGreece.arc - 272569854
+C:\Program Files (x86)\THQ\Titan Quest\Resources\SceneryOlympus.arc - 32562039
+C:\Program Files (x86)\THQ\Titan Quest\Resources\SceneryOrient.arc - 153245288
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Shaders.arc - 424260
+C:\Program Files (x86)\THQ\Titan Quest\Resources\System.arc - 745700
+C:\Program Files (x86)\THQ\Titan Quest\Resources\TerrainTextures.arc - 175567800
+C:\Program Files (x86)\THQ\Titan Quest\Resources\UI.arc - 12517894
+C:\Program Files (x86)\THQ\Titan Quest\Resources\Underground.arc - 258632124
+C:\Program Files (x86)\THQ\Titan Quest\Settings\credits.txt - 7912
+C:\Program Files (x86)\THQ\Titan Quest\Settings\defaults.txt - 688
+C:\Program Files (x86)\THQ\Titan Quest\Text\Text_EN.arc - 192595
+C:\Program Files (x86)\THQ\Titan Quest\Toolset\Modding Quick Start.txt - 5850
+C:\Program Files (x86)\THQ\Titan Quest\Toolset\Templates.arc - 216788
+C:\Program Files (x86)\THQ\Titan Quest\Toolset\Titan Quest Modders Guide.pdf - 3350158
+C:\Program Files (x86)\THQ\Titan Quest\Toolset\Tutorials.arc - 3371579
+C:\Program Files (x86)\THQ\Titan Quest\Videos\TQCinematic.bik - 70686044
+C:\Program Files (x86)\THQ\Titan Quest\Videos\TQGameIntro.bik - 22092320
+C:\Program Files (x86)\THQ\Titan Quest\Videos\TQLegal.bik - 3677716
+C:\Program Files (x86)\THQ\Titan Quest\Videos\TQLogos.bik - 12925996
+C:\Program Files (x86)\THQ\Titan Quest\Videos\TQWarning.bik - 1856468
+
+UAC Disabled or not present
+
+Game Name: Titan Quest
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Games\Steam\steamapps\common\titan quest
+
+Save Path: 
+D:\My Dropbox\Users\Tom\Documents\My Games\Titan Quest
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 4540
+Value: InstallLocation
+Data: c:\games\steam\steamapps\common\titan quest
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 4550
+Value: InstallLocation
+Data: c:\games\steam\steamapps\common\titan quest immortal throne
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: D:\
+Drive Root: D:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+D:\My Dropbox\Users\Tom\Documents\My Games\Titan Quest\log.html - 143
+D:\My Dropbox\Users\Tom\Documents\My Games\Titan Quest\TQ.dhl - 4
+D:\My Dropbox\Users\Tom\Documents\My Games\Titan Quest\Settings\keybindings.txt - 401
+D:\My Dropbox\Users\Tom\Documents\My Games\Titan Quest\Settings\options.txt - 1009
+
+Install Folder Dump: 
+C:\Games\Steam\steamapps\common\titan quest\AnimationCompiler.exe - 53248
+C:\Games\Steam\steamapps\common\titan quest\ArchiveTool.exe - 37888
+C:\Games\Steam\steamapps\common\titan quest\ArtManager.exe - 790528
+C:\Games\Steam\steamapps\common\titan quest\binkw32.dll - 193024
+C:\Games\Steam\steamapps\common\titan quest\d3dx9_27.dll - 2319568
+C:\Games\Steam\steamapps\common\titan quest\devil.dll - 269312
+C:\Games\Steam\steamapps\common\titan quest\Direct3D.dll - 69632
+C:\Games\Steam\steamapps\common\titan quest\dotnetfx.exe - 24265736
+C:\Games\Steam\steamapps\common\titan quest\DotNetLauncher.exe - 53248
+C:\Games\Steam\steamapps\common\titan quest\Editor.exe - 1212416
+C:\Games\Steam\steamapps\common\titan quest\Engine.dll - 1929216
+C:\Games\Steam\steamapps\common\titan quest\FontCompiler.exe - 53248
+C:\Games\Steam\steamapps\common\titan quest\Game.dll - 2846720
+C:\Games\Steam\steamapps\common\titan quest\help.htm - 213
+C:\Games\Steam\steamapps\common\titan quest\instscript.vdf - 435
+C:\Games\Steam\steamapps\common\titan quest\libeay32.dll - 1028096
+C:\Games\Steam\steamapps\common\titan quest\MapCompiler.exe - 40960
+C:\Games\Steam\steamapps\common\titan quest\ModelCompiler.exe - 69632
+C:\Games\Steam\steamapps\common\titan quest\mss32.dll - 374272
+C:\Games\Steam\steamapps\common\titan quest\MSVCP71.dll - 503808
+C:\Games\Steam\steamapps\common\titan quest\msvcp71d.dll - 765952
+C:\Games\Steam\steamapps\common\titan quest\msvcr71.dll - 348160
+C:\Games\Steam\steamapps\common\titan quest\msvcr71d.dll - 544768
+C:\Games\Steam\steamapps\common\titan quest\pathengine.dll - 831488
+C:\Games\Steam\steamapps\common\titan quest\QuestEditor.exe - 921600
+C:\Games\Steam\steamapps\common\titan quest\ReadMe.txt - 32018
+C:\Games\Steam\steamapps\common\titan quest\ShaderCompiler.exe - 69632
+C:\Games\Steam\steamapps\common\titan quest\stlport_vc7146.dll - 581632
+C:\Games\Steam\steamapps\common\titan quest\testapp.exe - 1024000
+C:\Games\Steam\steamapps\common\titan quest\TextureCompiler.exe - 163840
+C:\Games\Steam\steamapps\common\titan quest\Titan Quest.exe - 1024000
+C:\Games\Steam\steamapps\common\titan quest\zlib1.dll - 58880
+C:\Games\Steam\steamapps\common\titan quest\Audio\Dialog.arc - 195116737
+C:\Games\Steam\steamapps\common\titan quest\Audio\Music.arc - 363473079
+C:\Games\Steam\steamapps\common\titan quest\Audio\Sounds.arc - 285731671
+C:\Games\Steam\steamapps\common\titan quest\Database\database.arz - 27176872
+C:\Games\Steam\steamapps\common\titan quest\EULA\TQ_EULA_English.txt - 23044
+C:\Games\Steam\steamapps\common\titan quest\Manual\TQManual_US.pdf - 6563904
+C:\Games\Steam\steamapps\common\titan quest\Manual\TQTechTree_US.pdf - 4985275
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\mssa3d.m3d - 72704
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\mssds3d.m3d - 56320
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\mssdsp.flt - 113664
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\mssdx7.m3d - 65536
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\msseax.m3d - 143872
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\mssmp3.asi - 149504
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\mssrsx.m3d - 372224
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\msssoft.m3d - 79360
+C:\Games\Steam\steamapps\common\titan quest\MilesRedist\mssvoice.asi - 214528
+C:\Games\Steam\steamapps\common\titan quest\Resources\Creatures.arc - 338206104
+C:\Games\Steam\steamapps\common\titan quest\Resources\Effects.arc - 31937084
+C:\Games\Steam\steamapps\common\titan quest\Resources\Fonts.arc - 246966
+C:\Games\Steam\steamapps\common\titan quest\Resources\InGameUI.arc - 33365262
+C:\Games\Steam\steamapps\common\titan quest\Resources\Items.arc - 307349476
+C:\Games\Steam\steamapps\common\titan quest\Resources\Levels.arc - 181541560
+C:\Games\Steam\steamapps\common\titan quest\Resources\Lights.arc - 191342
+C:\Games\Steam\steamapps\common\titan quest\Resources\Menu.arc - 22473021
+C:\Games\Steam\steamapps\common\titan quest\Resources\OutGameElements.arc - 10410237
+C:\Games\Steam\steamapps\common\titan quest\Resources\Particles.arc - 21576
+C:\Games\Steam\steamapps\common\titan quest\Resources\Quests.arc - 156353
+C:\Games\Steam\steamapps\common\titan quest\Resources\SceneryBabylon.arc - 25453918
+C:\Games\Steam\steamapps\common\titan quest\Resources\SceneryEgypt.arc - 154838840
+C:\Games\Steam\steamapps\common\titan quest\Resources\SceneryGreece.arc - 272569854
+C:\Games\Steam\steamapps\common\titan quest\Resources\SceneryOlympus.arc - 32562039
+C:\Games\Steam\steamapps\common\titan quest\Resources\SceneryOrient.arc - 153245288
+C:\Games\Steam\steamapps\common\titan quest\Resources\Shaders.arc - 424260
+C:\Games\Steam\steamapps\common\titan quest\Resources\System.arc - 745700
+C:\Games\Steam\steamapps\common\titan quest\Resources\TerrainTextures.arc - 175567800
+C:\Games\Steam\steamapps\common\titan quest\Resources\UI.arc - 12517894
+C:\Games\Steam\steamapps\common\titan quest\Resources\Underground.arc - 258632124
+C:\Games\Steam\steamapps\common\titan quest\Settings\credits.txt - 7912
+C:\Games\Steam\steamapps\common\titan quest\Settings\defaults.txt - 688
+C:\Games\Steam\steamapps\common\titan quest\Text\Text_EN.arc - 192595
+C:\Games\Steam\steamapps\common\titan quest\Toolset\Modding Quick Start.txt - 5850
+C:\Games\Steam\steamapps\common\titan quest\Toolset\Templates.arc - 216788
+C:\Games\Steam\steamapps\common\titan quest\Toolset\Titan Quest Modders Guide.pdf - 3350158
+C:\Games\Steam\steamapps\common\titan quest\Toolset\Tutorials.arc - 3371579
+C:\Games\Steam\steamapps\common\titan quest\Videos\TQCinematic.bik - 70686044
+C:\Games\Steam\steamapps\common\titan quest\Videos\TQGameIntro.bik - 22092320
+C:\Games\Steam\steamapps\common\titan quest\Videos\TQLegal.bik - 3677716
+C:\Games\Steam\steamapps\common\titan quest\Videos\TQLogos.bik - 12925996
+C:\Games\Steam\steamapps\common\titan quest\Videos\TQWarning.bik - 1856468
+
+UAC Enabled
+
+
+VirtualStore Folders: 

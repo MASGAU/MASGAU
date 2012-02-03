@@ -1,0 +1,122 @@
+Game Name: SAS: Secure Tomorrow
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN
+
+Save Path:
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\City Interactive\SAS Secure Tomorrow en
+Value:Path
+Data:C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\City Interactive\SAS Secure Tomorrow en
+Value:WorkingDir
+Data:C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SAS Secure Tomorrow_is1
+Value:Inno Setup: App Path
+Data:C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SAS Secure Tomorrow_is1
+Value:InstallLocation
+Data:C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\SAS Secure Tomorrow EN\Config.lnk
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Config.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\SAS Secure Tomorrow EN\License.lnk
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\license.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\SAS Secure Tomorrow EN\ReadMe.lnk
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\readme.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\SAS Secure Tomorrow EN\SAS Secure Tomorrow.lnk
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\game.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\City Interactive\SAS Secure Tomorrow EN\Uninstall SAS Secure Tomorrow.lnk
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\unins000.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\BanIPList.txt - 0
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\Game.ini - 44
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\MPMissions.Gamdb00p - 5044
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\settings.cfg - 248
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\Profiles\Profile000.gdb - 13952
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\Save\Profile000\SinglePlayer\Checkpoint.sav - 2323948
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\Save\Profile000\SinglePlayer\Kpalv.sav - 16960
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\Save\Profile000\SinglePlayer\Reload.sav - 1970067
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\Save\Profile000\SinglePlayer\Save1001.ini - 430
+C:\Users\Public\Documents\City Interactive\SAS Secure Tomorrow\Save\Profile000\SinglePlayer\Slot01\Slot01.sav - 2046762
+
+Install Folder Dump:
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\checkcd.txt - 90
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Config.exe - 106496
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Config.Strdb00p - 2192
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\data.Arch00 - 5005663341
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\dataA.Arch00 - 1305470208
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\dataL.Arch00 - 367854667
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\dbghelp.dll - 640000
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Default.archcfg - 45
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\eax.dll - 188416
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\enginemsg.txt - 3332
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\EngineServer.dll - 1216512
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\game.exe - 1966080
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\game.exe.old - 1966080
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\GameDatabase.dll - 86016
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\license.txt - 6768
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\LTMemory.dll - 49152
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Monolith.PropertyGrid.dll - 208896
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\readme.txt - 831
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\RunGameServer.exe - 266240
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\SndDrv.dll - 77824
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\StringEditRuntime.dll - 17408
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\unins000.dat - 23639
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\unins000.exe - 691545
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\ClientFx.fxd - 262144
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\GameClient.dll - 2420736
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\GameServer.dll - 3219456
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\Microsoft.VC80.CRT\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\Microsoft.VC80.CRT\msvcm80.dll - 479232
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\Microsoft.VC80.CRT\msvcp80.dll - 548864
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\Microsoft.VC80.CRT\msvcr80.dll - 626688
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\C7.mpg - 30128132
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\DirTypeTextures - 0
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\ESRB.mpg - 3139588
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\final.mpg - 90009604
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\Fireball_02.mpg - 466079
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\Fireball_03.mpg - 90079
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\Fireball_04.mpg - 82393
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\Fireball_05.mpg - 132904
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\Fireball_06.mpg - 85365
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\Fireball_07.mpg - 665979
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\Flame01.mpg - 161857
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\gamespy.mpg - 718629
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\intro.mpg - 11446276
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\intro_COH.mpeg - 6447970
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\intro_fabula.mpg - 76441604
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\jupiter.mpg - 724380
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\logo_city.mpg - 5933060
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Game\videos\Molotow.mpg - 720803
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.CRT\Microsoft.VC80.CRT.manifest - 1869
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.CRT\msvcm80.dll - 479232
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.CRT\msvcp80.dll - 548864
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.CRT\msvcr80.dll - 626688
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.MFC\mfc80.dll - 1101824
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.MFC\mfc80u.dll - 1093120
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.MFC\mfcm80.dll - 69632
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.MFC\mfcm80u.dll - 57856
+C:\Program Files (x86)\City Interactive\SAS Secure Tomorrow EN\Microsoft.VC80.MFC\Microsoft.VC80.MFC.manifest - 2371
+
+UAC Disabled or not present
+

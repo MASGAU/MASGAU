@@ -1,0 +1,842 @@
+Game Name: Age of Empires II
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files\Microsoft Games\Age of Empires II
+
+Save Path:
+C:\Program Files\Microsoft Games\Age of Empires II\SaveGame
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlay\Applications\Age of Empires II
+Value: Path
+Data: C:\Program Files\Microsoft Games\Age of Empires II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlay\Applications\Age of Empires II
+Value: CurrentDirectory
+Data: C:\Program Files\Microsoft Games\Age of Empires II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\Age of Empires\2.0
+Value: InstallationDirectory
+Data: C:\Program Files\Microsoft Games\Age of Empires II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\Age of Empires\2.0
+Value: EXE Path
+Data: C:\Program Files\Microsoft Games\Age of Empires II
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Games\Age of Empires II\Age of Empires II Readme.lnk
+C:\Program Files\Microsoft Games\Age of Empires II\Readme.rtf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Games\Age of Empires II\Age of Empires II.lnk
+C:\Program Files\Microsoft Games\Age of Empires II\empires2.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Games\Age of Empires II\Uninstall Age of Empires II.lnk
+C:\Program Files\Microsoft Games\Age of Empires II\UNINSTAL.EXE
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files\Microsoft Games\Age of Empires II\SaveGame\SaveGame.txt - 14
+C:\Program Files\Microsoft Games\Age of Empires II\SaveGame\Multi\Multi.txt - 11
+
+Install Folder Dump:
+C:\Program Files\Microsoft Games\Age of Empires II\00000409.016 - 153718
+C:\Program Files\Microsoft Games\Age of Empires II\00000409.256 - 308278
+C:\Program Files\Microsoft Games\Age of Empires II\clcd16.dll - 6784
+C:\Program Files\Microsoft Games\Age of Empires II\clcd32.dll - 30208
+C:\Program Files\Microsoft Games\Age of Empires II\clokspl.exe - 177152
+C:\Program Files\Microsoft Games\Age of Empires II\DPLAY61A.EXE - 485600
+C:\Program Files\Microsoft Games\Age of Empires II\dplayerx.dll - 138752
+C:\Program Files\Microsoft Games\Age of Empires II\drvmgt.dll - 34304
+C:\Program Files\Microsoft Games\Age of Empires II\EBUEula.dll - 53304
+C:\Program Files\Microsoft Games\Age of Empires II\empires2.exe - 344863
+C:\Program Files\Microsoft Games\Age of Empires II\EMPIRES2.ICD - 2555949
+C:\Program Files\Microsoft Games\Age of Empires II\EULA.RTF - 40507
+C:\Program Files\Microsoft Games\Age of Empires II\HA312W32.DLL - 365568
+C:\Program Files\Microsoft Games\Age of Empires II\language.dll - 499712
+C:\Program Files\Microsoft Games\Age of Empires II\mcp.dll - 67584
+C:\Program Files\Microsoft Games\Age of Empires II\Readme.rtf - 70218
+C:\Program Files\Microsoft Games\Age of Empires II\scenariobkg.bmp - 158902
+C:\Program Files\Microsoft Games\Age of Empires II\SETUPENU.DLL - 2211840
+C:\Program Files\Microsoft Games\Age of Empires II\SHW32.DLL - 112688
+C:\Program Files\Microsoft Games\Age of Empires II\UNINSTAL.EXE - 585790
+C:\Program Files\Microsoft Games\Age of Empires II\AI\AI.txt - 8
+C:\Program Files\Microsoft Games\Age of Empires II\Avi\AGE2.AVI - 40989396
+C:\Program Files\Microsoft Games\Age of Empires II\Avi\Avi.txt - 9
+C:\Program Files\Microsoft Games\Age of Empires II\Avi\ESLOGO.AVI - 6147050
+C:\Program Files\Microsoft Games\Age of Empires II\Avi\MSLOGO.AVI - 2177630
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\cam1.cpn - 368366
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\cam2.cpn - 263910
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\cam3.cpn - 327031
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\cam4.cpn - 372059
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\cam8.cpn - 162791
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd.slp - 478141
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd1.pal - 2929
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd1.sin - 702
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd1.SLP - 480132
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd2.pal - 2897
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd2.sin - 703
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd2.SLP - 485651
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd3.pal - 2812
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd3.sin - 704
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd3.SLP - 484033
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd4.pal - 2921
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd4.sin - 702
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd4.SLP - 485953
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd8.pal - 2714
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd8.sin - 693
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\backgrd8.SLP - 484713
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s1_beg.mm - 2497
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s1_beg.slp - 740164
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s1_end.mm - 1948
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s1_end.slp - 367324
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s2_beg.mm - 2993
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s2_beg.slp - 808280
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s2_end.mm - 1312
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s2_end.slp - 254108
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s3_beg.mm - 2678
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s3_beg.slp - 787370
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s3_end.mm - 1466
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s3_end.slp - 396840
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s4_beg.mm - 1794
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s4_beg.slp - 432115
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s4_end.mm - 1963
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s4_end.slp - 631363
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s5_beg.mm - 1375
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s5_beg.slp - 208410
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s5_end.mm - 1625
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C1s5_END.slp - 502855
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s6_beg.mm - 2225
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s6_beg.slp - 612702
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c1s6_end.mm - 2239
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C1s6_end.slp - 582040
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s1_beg.mm - 3628
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2s1_beg.slp - 987645
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s1_end.mm - 1274
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S1_END.SLP - 654964
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s2_beg.mm - 2215
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S2_BEG.SLP - 414247
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s2_end.mm - 1429
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S2_END.SLP - 604049
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s3_beg.mm - 2252
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S3_BEG.SLP - 718457
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s3_end.mm - 1510
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S3_END.SLP - 441376
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s4_beg.mm - 1236
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S4_BEG.SLP - 339992
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s4_end.mm - 1061
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S4_END.SLP - 339206
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s5_beg.mm - 1870
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S5_BEG.SLP - 681248
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s5_end.mm - 1487
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S5_END.SLP - 593450
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s6_beg.mm - 2488
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S6_BEG.SLP - 1010142
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c2s6_end.mm - 2567
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C2S6_END.SLP - 694958
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s1_beg.mm - 3111
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\C3s1_bEG.slp - 1094102
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s1_end.mm - 1481
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s1_end.SLP - 390120
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s2_beg.mm - 1504
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s2_beg.SLP - 372367
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s2_end.mm - 1370
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s2_end.SLP - 462281
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s3_beg.mm - 1972
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s3_beg.SLP - 410679
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s3_end.mm - 1671
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s3_end.SLP - 385058
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s4_beg.mm - 2162
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s4_beg.SLP - 590402
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s4_end.mm - 1913
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s4_end.SLP - 422890
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s5_beg.mm - 2872
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s5_beg.SLP - 819223
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s5_end.mm - 1622
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s5_end.SLP - 371018
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s6_beg.mm - 2221
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s6_beg.SLP - 513868
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s6_end.mm - 1840
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c3s6_end.SLP - 463668
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s1_beg.mm - 1842
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s1_beg.SLP - 574256
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s1_end.mm - 1329
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s1_end.SLP - 393556
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s2_beg.mm - 1959
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s2_beg.SLP - 827709
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s2_end.mm - 1324
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s2_end.SLP - 436728
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s3_beg.mm - 2121
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s3_beg.SLP - 788812
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s3_end.mm - 1325
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s3_end.SLP - 549047
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s4_beg.mm - 1651
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s4_beg.SLP - 548639
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s4_end.mm - 1869
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s4_end.SLP - 645570
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s5_beg.mm - 2450
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s5_beg.SLP - 944522
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s5_end.mm - 1471
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s5_end.SLP - 409095
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s6_beg.mm - 1645
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s6_beg.SLP - 765402
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s6_end.mm - 1894
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c4s6_end.SLP - 782721
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s1_beg.mm - 1548
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s1_beg.SLP - 565598
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s1_end.mm - 962
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s1_end.SLP - 385378
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s2_beg.mm - 1003
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s2_beg.SLP - 274134
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s2_end.mm - 1122
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s2_end.SLP - 282468
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s3_beg.mm - 1080
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s3_beg.SLP - 312308
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s3_end.mm - 995
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s3_end.SLP - 346458
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s4_beg.mm - 1030
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s4_beg.SLP - 250781
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s4_end.mm - 1103
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s4_end.SLP - 337943
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s5_beg.mm - 1239
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s5_beg.SLP - 567815
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s5_end.mm - 1636
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s5_end.SLP - 572718
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s6_beg.mm - 1289
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s6_beg.SLP - 504113
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s6_end.mm - 1302
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s6_end.SLP - 524788
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s7_beg.mm - 1284
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s7_beg.SLP - 458454
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s7_end.mm - 1953
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\c8s7_end.SLP - 685408
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\cam1.bln - 477820
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\cam2.bln - 506777
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\cam3.bln - 455550
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\cam4.bln - 505653
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\cam8.bln - 484514
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\intro.bln - 586617
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\intro.mm - 1325
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\intro.pal - 2884
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\intro.sin - 677
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\intro.slp - 2565455
+C:\Program Files\Microsoft Games\Age of Empires II\Campaign\Media\introbkg.SLP - 12792
+C:\Program Files\Microsoft Games\Age of Empires II\Data\blendomatic.dat - 329568
+C:\Program Files\Microsoft Games\Age of Empires II\Data\BlkEdge.Dat - 84471
+C:\Program Files\Microsoft Games\Age of Empires II\Data\closedpw.exe - 29184
+C:\Program Files\Microsoft Games\Age of Empires II\Data\empires2.dat - 659808
+C:\Program Files\Microsoft Games\Age of Empires II\Data\FilterMaps.dat - 300124
+C:\Program Files\Microsoft Games\Age of Empires II\Data\gamedata.drs - 531384
+C:\Program Files\Microsoft Games\Age of Empires II\Data\graphics.drs - 73566713
+C:\Program Files\Microsoft Games\Age of Empires II\Data\interfac.drs - 35591977
+C:\Program Files\Microsoft Games\Age of Empires II\Data\lightMaps.dat - 73800
+C:\Program Files\Microsoft Games\Age of Empires II\Data\list.cr - 11116
+C:\Program Files\Microsoft Games\Age of Empires II\Data\LoQMaps.dat - 124623
+C:\Program Files\Microsoft Games\Age of Empires II\Data\PatternMasks.dat - 164000
+C:\Program Files\Microsoft Games\Age of Empires II\Data\shadow.col - 1165
+C:\Program Files\Microsoft Games\Age of Empires II\Data\sounds.drs - 29678340
+C:\Program Files\Microsoft Games\Age of Empires II\Data\STemplet.dat - 7208
+C:\Program Files\Microsoft Games\Age of Empires II\Data\terrain.drs - 4810396
+C:\Program Files\Microsoft Games\Age of Empires II\Data\TileEdge.Dat - 209287
+C:\Program Files\Microsoft Games\Age of Empires II\Data\view_icm.dat - 294912
+C:\Program Files\Microsoft Games\Age of Empires II\Data\Load\Load.txt - 10
+C:\Program Files\Microsoft Games\Age of Empires II\History\Armies.txt - 1931
+C:\Program Files\Microsoft Games\Age of Empires II\History\ArmiesMongols.txt - 4274
+C:\Program Files\Microsoft Games\Age of Empires II\History\ArmiesOrg.txt - 5944
+C:\Program Files\Microsoft Games\Age of Empires II\History\ArmiesStrat.txt - 2139
+C:\Program Files\Microsoft Games\Age of Empires II\History\ArmiesTactics.txt - 11990
+C:\Program Files\Microsoft Games\Age of Empires II\History\barbarianinvaders.txt - 3045
+C:\Program Files\Microsoft Games\Age of Empires II\History\British original.txt - 3767
+C:\Program Files\Microsoft Games\Age of Empires II\History\british regular.txt - 3767
+C:\Program Files\Microsoft Games\Age of Empires II\History\british test.txt - 19213
+C:\Program Files\Microsoft Games\Age of Empires II\History\british.txt - 3768
+C:\Program Files\Microsoft Games\Age of Empires II\History\Byzantines.txt - 3977
+C:\Program Files\Microsoft Games\Age of Empires II\History\CastleDefenses.txt - 6349
+C:\Program Files\Microsoft Games\Age of Empires II\History\CastleEvolution.txt - 4856
+C:\Program Files\Microsoft Games\Age of Empires II\History\Castles.txt - 1110
+C:\Program Files\Microsoft Games\Age of Empires II\History\CastleSiege.txt - 13343
+C:\Program Files\Microsoft Games\Age of Empires II\History\Celts.txt - 2549
+C:\Program Files\Microsoft Games\Age of Empires II\History\charlemagne.txt - 2178
+C:\Program Files\Microsoft Games\Age of Empires II\History\Chinese.txt - 3782
+C:\Program Files\Microsoft Games\Age of Empires II\History\darkagereligion.txt - 3570
+C:\Program Files\Microsoft Games\Age of Empires II\History\darkages.txt - 369
+C:\Program Files\Microsoft Games\Age of Empires II\History\DarkArmies.txt - 4521
+C:\Program Files\Microsoft Games\Age of Empires II\History\economy.txt - 2654
+C:\Program Files\Microsoft Games\Age of Empires II\History\feudalcontract.txt - 2073
+C:\Program Files\Microsoft Games\Age of Empires II\History\feudalism.txt - 342
+C:\Program Files\Microsoft Games\Age of Empires II\History\feudalismdecline.txt - 4914
+C:\Program Files\Microsoft Games\Age of Empires II\History\Franks.txt - 3613
+C:\Program Files\Microsoft Games\Age of Empires II\History\Goths.txt - 3070
+C:\Program Files\Microsoft Games\Age of Empires II\History\Gunpowder.txt - 3117
+C:\Program Files\Microsoft Games\Age of Empires II\History\history.txt - 3171
+C:\Program Files\Microsoft Games\Age of Empires II\History\Japanese.txt - 3208
+C:\Program Files\Microsoft Games\Age of Empires II\History\Knights.txt - 11763
+C:\Program Files\Microsoft Games\Age of Empires II\History\latemiddleages.txt - 527
+C:\Program Files\Microsoft Games\Age of Empires II\History\middleages.txt - 1366
+C:\Program Files\Microsoft Games\Age of Empires II\History\Mongols.txt - 3433
+C:\Program Files\Microsoft Games\Age of Empires II\History\Naval.txt - 6580
+C:\Program Files\Microsoft Games\Age of Empires II\History\Persians.txt - 1570
+C:\Program Files\Microsoft Games\Age of Empires II\History\politics.txt - 2068
+C:\Program Files\Microsoft Games\Age of Empires II\History\religion.txt - 1671
+C:\Program Files\Microsoft Games\Age of Empires II\History\renaissance.txt - 2903
+C:\Program Files\Microsoft Games\Age of Empires II\History\Saracens.txt - 3606
+C:\Program Files\Microsoft Games\Age of Empires II\History\technology.txt - 1198
+C:\Program Files\Microsoft Games\Age of Empires II\History\Teutons.txt - 3584
+C:\Program Files\Microsoft Games\Age of Empires II\History\thecrusades.txt - 4793
+C:\Program Files\Microsoft Games\Age of Empires II\History\thefallofrome.txt - 3385
+C:\Program Files\Microsoft Games\Age of Empires II\History\themanor.txt - 2222
+C:\Program Files\Microsoft Games\Age of Empires II\History\thevikings.txt - 3141
+C:\Program Files\Microsoft Games\Age of Empires II\History\Turks.txt - 3037
+C:\Program Files\Microsoft Games\Age of Empires II\History\Vikings.txt - 3484
+C:\Program Files\Microsoft Games\Age of Empires II\History\Warfare.txt - 1862
+C:\Program Files\Microsoft Games\Age of Empires II\History\Weapons.txt - 971
+C:\Program Files\Microsoft Games\Age of Empires II\History\WeaponsCav.txt - 6306
+C:\Program Files\Microsoft Games\Age of Empires II\History\WeaponsHand.txt - 3558
+C:\Program Files\Microsoft Games\Age of Empires II\History\WeaponsMissile.txt - 4512
+C:\Program Files\Microsoft Games\Age of Empires II\Learn\Learn.txt - 11
+C:\Program Files\Microsoft Games\Age of Empires II\SaveGame\SaveGame.txt - 14
+C:\Program Files\Microsoft Games\Age of Empires II\SaveGame\Multi\Multi.txt - 11
+C:\Program Files\Microsoft Games\Age of Empires II\Scenario\scenario.inf - 4
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s1.mp3 - 1472052
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s1end.mp3 - 1012715
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s2.mp3 - 1635056
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s2end.mp3 - 661629
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s3.mp3 - 1210827
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s3end.mp3 - 794122
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s4.mp3 - 998504
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s4end.mp3 - 1061616
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s5.mp3 - 750236
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s5end.mp3 - 775732
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s6.mp3 - 1169867
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c1s6end.mp3 - 1127235
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s1.mp3 - 1819794
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s1end.mp3 - 674168
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s2.mp3 - 1165270
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s2end.mp3 - 708440
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s3.mp3 - 1146880
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s3end.mp3 - 658285
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s4.mp3 - 616071
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s4end.mp3 - 559229
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s5.mp3 - 831738
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s5end.mp3 - 832992
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s6.mp3 - 1225038
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c2s6end.mp3 - 1444048
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s1.mp3 - 1787611
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s1end.mp3 - 756506
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s2.mp3 - 819200
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s2end.mp3 - 634462
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s3.mp3 - 852218
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s3end.mp3 - 727666
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s4.mp3 - 893178
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s4end.mp3 - 1003102
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s5.mp3 - 1317825
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s5end.mp3 - 766119
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s6.mp3 - 1161926
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c3s6end.mp3 - 1072065
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s1.mp3 - 1147715
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s1end.mp3 - 562991
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s2.mp3 - 863921
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s2end.mp3 - 678347
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s3.mp3 - 1041972
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s3end.mp3 - 615653
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s4.mp3 - 825887
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s4end.mp3 - 903627
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s5.mp3 - 1151477
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s5end.mp3 - 822543
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s6.mp3 - 763611
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c4s6end.mp3 - 913658
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s1.mp3 - 815438
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s1end.mp3 - 381596
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s2.mp3 - 363624
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s2end.mp3 - 534569
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s3.mp3 - 535405
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s3end.mp3 - 401658
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s4.mp3 - 426318
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s4end.mp3 - 468114
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s5.mp3 - 461844
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s5end.mp3 - 767791
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s6.mp3 - 433841
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s6end.mp3 - 551706
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s7.mp3 - 497371
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\c8s7end.mp3 - 956290
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\campaign\intro.mp3 - 841351
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b1a.mp3 - 53707
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b1b.mp3 - 55170
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b1c.mp3 - 53289
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b1d.mp3 - 14628
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b2a.mp3 - 67709
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b2b.mp3 - 75232
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b2c.mp3 - 90279
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b3a.mp3 - 41168
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b3aa.mp3 - 40124
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b3b.mp3 - 28421
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b3c.mp3 - 39288
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b3d.mp3 - 43467
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b3e.mp3 - 98847
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b4b.mp3 - 25495
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b4c.mp3 - 37616
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b4d.mp3 - 39288
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b4e.mp3 - 47647
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b4f.mp3 - 75650
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5a.mp3 - 48901
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5b.mp3 - 81084
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5c.mp3 - 107833
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5d.mp3 - 67709
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5e.mp3 - 44303
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5f.mp3 - 55588
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5g.mp3 - 51826
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5h.mp3 - 14628
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5i.mp3 - 15046
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5j.mp3 - 17136
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5k.mp3 - 61022
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5l.mp3 - 20897
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5m.mp3 - 7523
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5n.mp3 - 70217
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5o.mp3 - 34690
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5p.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b5q.mp3 - 23823
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6a.mp3 - 91115
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6b.mp3 - 101355
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6c.mp3 - 72724
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6d.mp3 - 36362
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6e.mp3 - 16718
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6f.mp3 - 18390
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6g.mp3 - 40751
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6h.mp3 - 21733
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6i.mp3 - 23823
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6j.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6k.mp3 - 25495
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6l.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6m.mp3 - 23405
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\b6n.mp3 - 24659
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\d1a.mp3 - 35735
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\d1b.mp3 - 31973
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\d1c.mp3 - 50364
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1a.mp3 - 62275
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1b.mp3 - 77113
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1c.mp3 - 40124
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1d.mp3 - 36362
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1e.mp3 - 20480
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1f.mp3 - 44721
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1g.mp3 - 34899
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1h.mp3 - 114520
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1i.mp3 - 47229
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1j.mp3 - 104071
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1k.mp3 - 35108
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1l.mp3 - 94458
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1lold.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g1m.mp3 - 96548
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g2a.mp3 - 18390
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g2b.mp3 - 18808
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g2c.mp3 - 31137
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g2d.mp3 - 42213
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g2e.mp3 - 35108
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g2f.mp3 - 65201
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g2g.mp3 - 33436
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g2h.mp3 - 42422
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g3a.mp3 - 25495
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g3b.mp3 - 126641
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g3c.mp3 - 58932
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g3d.mp3 - 30928
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g3e.mp3 - 18808
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4a.mp3 - 17136
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4b.mp3 - 116192
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4c.mp3 - 54334
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4d.mp3 - 19644
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4e.mp3 - 66873
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4f.mp3 - 45139
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4g.mp3 - 16718
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4h.mp3 - 28003
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4i.mp3 - 38034
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g4j.mp3 - 47020
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5a.mp3 - 114102
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5b.mp3 - 71262
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5c.mp3 - 15464
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5d.mp3 - 34272
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5e.mp3 - 15464
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5f.mp3 - 18390
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5g.mp3 - 45975
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5h.mp3 - 62484
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5i.mp3 - 22151
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g5j.mp3 - 49737
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6a.mp3 - 60813
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6b.mp3 - 22987
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6c.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6d.mp3 - 34481
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6e.mp3 - 26749
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6f.mp3 - 7105
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6g.mp3 - 48901
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6h.mp3 - 59768
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\g6i.mp3 - 7105
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1a.mp3 - 31764
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1b.mp3 - 45139
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1c.mp3 - 39706
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1d.mp3 - 65201
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1e.mp3 - 52662
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1f.mp3 - 16300
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1g.mp3 - 13374
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1h.mp3 - 17554
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1i.mp3 - 21733
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1j.mp3 - 43049
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1k.mp3 - 15046
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1l.mp3 - 22569
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1m.mp3 - 22987
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1n.mp3 - 28421
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1o.mp3 - 61022
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1p.mp3 - 80248
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1q.mp3 - 38870
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1r.mp3 - 35108
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1t.mp3 - 50991
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1u.mp3 - 53916
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1v.mp3 - 27167
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1w.mp3 - 24241
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1x.mp3 - 34899
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1y.mp3 - 74814
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j1z.mp3 - 18390
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2a.mp3 - 54752
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2b.mp3 - 21733
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2c.mp3 - 24241
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2d.mp3 - 34272
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2e.mp3 - 38452
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2f.mp3 - 20897
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2g.mp3 - 13792
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2h.mp3 - 27585
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2i.mp3 - 21733
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2j.mp3 - 43676
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2k.mp3 - 63529
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2l.mp3 - 21524
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2m.mp3 - 21733
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2n.mp3 - 30511
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j2o.mp3 - 41795
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3a.mp3 - 44721
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3b.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3c.mp3 - 31764
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3d.mp3 - 64365
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3e.mp3 - 18808
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3f.mp3 - 36362
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3g.mp3 - 16300
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3h.mp3 - 30511
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3i.mp3 - 29257
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3j.mp3 - 19644
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3k.mp3 - 11702
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3l.mp3 - 13792
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3m.mp3 - 30511
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3n.mp3 - 31764
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3o.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j3p.mp3 - 27167
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4a.mp3 - 22151
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4b.mp3 - 14628
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4c.mp3 - 15464
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4c2.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4d.mp3 - 20062
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4e.mp3 - 22569
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4f.mp3 - 8359
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4h.mp3 - 16091
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4i.mp3 - 15882
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j4j.mp3 - 28003
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5a.mp3 - 40960
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5b.mp3 - 30928
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5c.mp3 - 20480
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5d.mp3 - 71471
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5e.mp3 - 56006
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5f.mp3 - 28212
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5g.mp3 - 35944
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5h.mp3 - 48065
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5i.mp3 - 49737
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5j.mp3 - 22987
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5k.mp3 - 50155
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j5l.mp3 - 37616
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6a.mp3 - 25913
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6a2.mp3 - 22569
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6b.mp3 - 19644
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6c.mp3 - 32182
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6d.mp3 - 28003
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6e.mp3 - 10448
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6f.mp3 - 17972
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6g.mp3 - 30928
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6i.mp3 - 24241
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6j.mp3 - 19017
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6k.mp3 - 15464
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6l.mp3 - 33018
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6m.mp3 - 49528
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6n.mp3 - 35108
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6o.mp3 - 20897
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\j6q.mp3 - 28003
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\S1a.mp3 - 88607
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1b.mp3 - 21315
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1c.mp3 - 40542
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1d.mp3 - 50991
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1e.mp3 - 84009
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1f.mp3 - 37198
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1g.mp3 - 12120
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1h.mp3 - 30093
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1i.mp3 - 15882
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s1j.mp3 - 34690
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2a.mp3 - 43049
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2b.mp3 - 33227
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2c.mp3 - 15464
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2d.mp3 - 16718
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2e.mp3 - 30928
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2f.mp3 - 25077
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2g.mp3 - 16718
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2i.mp3 - 14628
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2j.mp3 - 5851
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s2l.mp3 - 16718
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s3a.mp3 - 46811
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s3b.mp3 - 30928
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s3c.mp3 - 39288
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s3d.mp3 - 57678
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s3e.mp3 - 32809
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s3f.mp3 - 22987
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4a.mp3 - 51826
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4b.mp3 - 15882
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4c.mp3 - 45975
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4d.mp3 - 13792
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4e.mp3 - 14628
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4f.mp3 - 28003
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4g.mp3 - 20688
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4h.mp3 - 38870
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4i.mp3 - 45557
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4j.mp3 - 27167
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4k.mp3 - 26331
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4l.mp3 - 37616
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s4m.mp3 - 11493
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s5a.mp3 - 84009
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s5b.mp3 - 76486
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s5c.mp3 - 15255
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s5d.mp3 - 40124
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6a.mp3 - 44512
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6b.mp3 - 18808
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6c.mp3 - 14628
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6d.mp3 - 19226
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6e.mp3 - 15464
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6f.mp3 - 16718
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6g.mp3 - 8359
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6h.mp3 - 52662
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\s6i.mp3 - 29675
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1a.mp3 - 49737
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1b.mp3 - 49946
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1c.mp3 - 38034
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1d.mp3 - 33018
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1e.mp3 - 58932
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1f.mp3 - 46811
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1g.mp3 - 63111
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1h.mp3 - 44303
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1i.mp3 - 96966
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1j.mp3 - 15464
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1k.mp3 - 18808
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1l.mp3 - 42213
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1m.mp3 - 15046
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1n.mp3 - 8359
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1o.mp3 - 53498
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1p.mp3 - 88607
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1q.mp3 - 38034
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1r.mp3 - 91533
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1s.mp3 - 117655
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1t.mp3 - 35108
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1wa.mp3 - 45139
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1wb.mp3 - 22987
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w1wc.mp3 - 19644
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2a.mp3 - 29257
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2aa.mp3 - 42631
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2b.mp3 - 34272
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2c.mp3 - 35526
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2d.mp3 - 94458
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2e.mp3 - 16300
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2f.mp3 - 54334
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2g.mp3 - 36362
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2h.mp3 - 53498
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2i.mp3 - 19226
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2j.mp3 - 37198
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2k.mp3 - 98220
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w2wa.mp3 - 19226
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3a.mp3 - 34272
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3b.mp3 - 42213
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3c.mp3 - 71888
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3d.mp3 - 57678
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3e.mp3 - 51408
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3e2.mp3 - 54543
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3f.mp3 - 35526
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3g.mp3 - 24241
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3h.mp3 - 67709
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3i.mp3 - 74814
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3j.mp3 - 67709
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3k.mp3 - 63529
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3l.mp3 - 35108
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3m.mp3 - 49737
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3n.mp3 - 77322
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3o.mp3 - 55588
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w3wa.mp3 - 28003
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4a.mp3 - 49737
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4b.mp3 - 105743
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4c.mp3 - 76068
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4d.mp3 - 54752
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4e.mp3 - 66873
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4f.mp3 - 84427
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4g.mp3 - 66455
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4h.mp3 - 25495
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4i.mp3 - 53916
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4j.mp3 - 75232
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4k.mp3 - 48274
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4l.mp3 - 25077
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4m.mp3 - 47229
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4n.mp3 - 48901
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4o.mp3 - 45139
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4p.mp3 - 24241
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4q.mp3 - 88189
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4wa.mp3 - 52662
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4wb.mp3 - 20897
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w4wc.mp3 - 51617
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5a.mp3 - 96966
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5a2.mp3 - 40542
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5b.mp3 - 65410
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5c.mp3 - 75650
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5d.mp3 - 71053
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5e.mp3 - 29257
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5f.mp3 - 112013
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5g.mp3 - 92368
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5h.mp3 - 78576
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5i.mp3 - 33436
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5j.mp3 - 59350
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5k.mp3 - 85681
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5l.mp3 - 61857
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5m.mp3 - 64783
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5n.mp3 - 85263
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5o.mp3 - 62693
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5p.mp3 - 61857
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5q.mp3 - 43049
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5r.mp3 - 92786
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5s.mp3 - 65619
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5t.mp3 - 81084
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5u.mp3 - 41377
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5v.mp3 - 78994
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5w.mp3 - 60604
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5wa.mp3 - 93622
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5wd.mp3 - 28421
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5we.mp3 - 30928
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5wf.mp3 - 70217
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5wg.mp3 - 50991
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5wh.mp3 - 87771
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5x.mp3 - 58514
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5y.mp3 - 34272
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5z.mp3 - 65619
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5z2.mp3 - 25495
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5z3.mp3 - 64783
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w5z4.mp3 - 92577
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6a.mp3 - 51826
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6b.mp3 - 111595
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6c.mp3 - 129985
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6d.mp3 - 53080
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6e.mp3 - 92786
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6f.mp3 - 135209
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6g.mp3 - 110341
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6h.mp3 - 40960
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6i.mp3 - 40542
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6j.mp3 - 36989
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6k.mp3 - 83591
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6l.mp3 - 45139
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6m.mp3 - 43467
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6n.mp3 - 36571
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6o.mp3 - 31764
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6p.mp3 - 60604
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6q.mp3 - 119118
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6r.mp3 - 86099
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6s.mp3 - 79412
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6t.mp3 - 94458
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6u.mp3 - 124133
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6v.mp3 - 71053
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w6w.mp3 - 41377
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7a.mp3 - 84009
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7b.mp3 - 61022
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7c.mp3 - 10866
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7d.mp3 - 53916
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7e.mp3 - 61440
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7f.mp3 - 96966
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7g.mp3 - 42422
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7h.mp3 - 79412
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7i.mp3 - 96966
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7j.mp3 - 120372
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7k.mp3 - 66455
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7l.mp3 - 77531
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7m.mp3 - 131657
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7n.mp3 - 80666
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7o.mp3 - 103653
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7p.mp3 - 36780
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\scenario\w7q.mp3 - 71888
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\British.mp3 - 170318
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Byzantin.mp3 - 222563
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Celt.mp3 - 236146
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Chinese.mp3 - 132702
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Countdwn.mp3 - 215248
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\credits.mp3 - 8702955
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\French.mp3 - 195395
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Goth.mp3 - 294661
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Japanese.mp3 - 251820
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\lost.mp3 - 2478497
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Mongol.mp3 - 281077
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\open.mp3 - 2442971
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Persian.mp3 - 187036
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Random.mp3 - 217338
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Saracen.mp3 - 175542
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Teuton.mp3 - 178677
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\town.mp3 - 842605
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Turk.mp3 - 187036
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\Viking.mp3 - 195395
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\won1.mp3 - 1846334
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\stream\won2.mp3 - 3190073
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Cricket.wav - 222328
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\tf1.wav - 111738
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\tf2.wav - 138616
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\tf3.wav - 144504
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\tf4.wav - 163962
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\tf6.wav - 67190
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\tf7.wav - 66390
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\tf8.wav - 107638
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Wave1.wav - 183928
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Wave2.wav - 225402
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Wave3.wav - 189560
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Wave4.wav - 211064
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Wave5.wav - 182904
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Wind1.wav - 258166
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Wind2.wav - 240758
+C:\Program Files\Microsoft Games\Age of Empires II\Sound\terrain\Wind3.wav - 229512
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\01 Yes.mp3 - 5642
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\02 No.mp3 - 4806
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\03 Food, please.mp3 - 11493
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\04 Wood, please.mp3 - 10657
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\05 Gold, PLease.mp3 - 12329
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\06 Stone, please.mp3 - 11911
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\07 Ahh.mp3 - 14837
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\08 All hail.mp3 - 28630
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\09 Oooh.mp3 - 12747
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\10 Back to Age 1.mp3 - 20688
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\11 Herb laugh.mp3 - 39915
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\12 Being rushed.mp3 - 8568
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\13 Blame your isp.mp3 - 13165
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\14 Start the game.mp3 - 17345
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\15 Don't Point That Thing.mp3 - 14837
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\16 Enemy Sighted.mp3 - 8150
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\17 It Is Good.mp3 - 17763
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\18 I Need a Monk.mp3 - 14837
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\19 Long Time No Siege.mp3 - 11493
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\20 My granny.mp3 - 15673
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\21 Nice Town I'll Take It.mp3 - 14001
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\22 Quit Touchin.mp3 - 7732
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\23 Raiding Party.mp3 - 12747
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\24 Dadgum.mp3 - 14837
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\25 Smite Me.mp3 - 11075
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\26 The wonder.mp3 - 18181
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\27 You play 2 hours.mp3 - 23196
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\28 You Should See the Other Guy.mp3 - 21942
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\29 Roggan.mp3 - 4388
+C:\Program Files\Microsoft Games\Age of Empires II\Taunt\30 Wololo.mp3 - 12120
+
+UAC Disabled or not present

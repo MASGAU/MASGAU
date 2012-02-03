@@ -1,0 +1,102 @@
+Game Name: Dark Forces II: Jedi Knight
+
+Operating System:
+Microsoft Windows NT 5.1.2600 Service Pack 3
+
+Install Path:
+C:\Program Files\LucasArts\Jedi Knight
+
+Save Path:
+C:\Program Files\LucasArts\Jedi Knight\player
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\LucasArts Entertainment Company\JediKnight\v1.0
+Value: Executable
+Data: C:\Program Files\LucasArts\Jedi Knight\Jk.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\LucasArts Entertainment Company\JediKnight\v1.0
+Value: Install Path
+Data: C:\Program Files\LucasArts\Jedi Knight
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\LucasArts Entertainment Company\JediKnight\v1.0
+Value: Sound File
+Data: C:\Program Files\LucasArts\Jedi Knight\Resource\Res1hi.gob
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlay\Applications\Jedi Knight 1.0
+Value: Path
+Data: C:\Program Files\LucasArts\Jedi Knight
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlay\Applications\Jedi Knight 1.0
+Value: CurrentDirectory
+Data: C:\Program Files\LucasArts\Jedi Knight
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Jedi.EXE
+Value: Path
+Data: C:\Program Files\LucasArts\Jedi Knight
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Jedi.EXE
+Value:
+Data: C:\Program Files\LucasArts\Jedi Knight\Jedi.EXE
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\Documents and Settings\All Users\Start Menu\Programs\LucasArts\Jedi Knight\Jedi Knight.lnk
+C:\Program Files\LucasArts\Jedi Knight\Jedi.EXE
+C:\Documents and Settings\All Users\Start Menu\Programs\LucasArts\Jedi Knight\LEC Multiplayer Home Page.lnk
+C:\Program Files\LucasArts\Jedi Knight\Zone.exe
+C:\Documents and Settings\All Users\Start Menu\Programs\LucasArts\Jedi Knight\Register On-line.lnk
+C:\Program Files\LucasArts\Jedi Knight\Register.exe
+C:\Documents and Settings\All Users\Start Menu\Programs\LucasArts\Jedi Knight\Uninstall Jedi Knight.lnk
+C:\Program Files\LucasArts\Jedi Knight\Jedi.EXE
+C:\Documents and Settings\All Users\Start Menu\Programs\LucasArts\Jedi Knight\Visit www.lucasarts.com.lnk
+C:\Program Files\LucasArts\Jedi Knight\Website.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/7/2011 5:20:03 PM - C:\Program Files\LucasArts\Jedi Knight\player\SanMadJack\SanMadJack.plr - 1562
+11/7/2011 5:24:47 PM - C:\Program Files\LucasArts\Jedi Knight\player\SanMadJack\save0000.jks - 359799
+11/7/2011 5:20:14 PM - C:\Program Files\LucasArts\Jedi Knight\player\SanMadJack\_JKAUTO_01narshadda.jks - 360201
+
+Install Folder Dump:
+11/7/2011 5:17:09 PM - C:\Program Files\LucasArts\Jedi Knight\DeIsL1.isu - 5712
+11/7/2011 5:17:03 PM - C:\Program Files\LucasArts\Jedi Knight\Jedi Knight Readme.lnk - 559
+9/11/1997 6:46:16 AM - C:\Program Files\LucasArts\Jedi Knight\Jedi.doc - 214528
+9/11/1997 7:14:58 AM - C:\Program Files\LucasArts\Jedi Knight\Jedi.EXE - 309760
+9/11/1997 7:15:04 AM - C:\Program Files\LucasArts\Jedi Knight\Jedi.txt - 1736
+9/11/1997 6:46:24 AM - C:\Program Files\LucasArts\Jedi Knight\JK.EXE - 1387520
+9/11/1997 6:46:24 AM - C:\Program Files\LucasArts\Jedi Knight\README.TXT - 31319
+9/11/1997 6:51:14 AM - C:\Program Files\LucasArts\Jedi Knight\Register.exe - 16896
+9/11/1997 6:46:24 AM - C:\Program Files\LucasArts\Jedi Knight\SMACKW32.DLL - 71168
+11/7/2011 5:17:03 PM - C:\Program Files\LucasArts\Jedi Knight\Uninstall Jedi Knight.lnk - 761
+9/11/1997 6:51:22 AM - C:\Program Files\LucasArts\Jedi Knight\Website.exe - 16896
+9/11/1997 6:51:24 AM - C:\Program Files\LucasArts\Jedi Knight\Zone.exe - 16896
+9/2/1997 6:10:42 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\CH F-16 COMBAT STICK.CTL - 1535
+9/3/1997 1:36:04 PM - C:\Program Files\LucasArts\Jedi Knight\Controls\CH FLIGHTSTICK PRO OPTIMIZED WITH KEYBOARD.CTL - 1488
+9/2/1997 5:37:14 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\CH FLIGHTSTICK PRO.CTL - 1503
+9/4/1997 1:10:50 PM - C:\Program Files\LucasArts\Jedi Knight\Controls\FP GAMING ASSASSIN 3D WITH JOYSTICK.CTL - 1564
+9/8/1997 10:45:16 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\GRAVIS GAMEPAD PRO.CTL - 1453
+9/9/1997 9:19:56 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\LOGITECH CYBERMAN 2.CTL - 1560
+9/4/1997 12:25:22 PM - C:\Program Files\LucasArts\Jedi Knight\Controls\LOGITECH WINGMAN WARRIOR.CTL - 1540
+9/9/1997 10:01:10 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\MS SIDEWINDER 3D PRO.CTL - 1540
+9/6/1997 11:02:04 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\MS SIDEWINDER GAME PAD.CTL - 1453
+9/9/1997 10:13:40 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\MS SIDEWINDER PRECISION PRO OR FF.CTL - 1540
+9/9/1997 9:42:50 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\SPACETEC SPACEORB 360.CTL - 1543
+9/4/1997 9:32:56 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\THRUSTMASTER FCS OPTIMIZED WITH KEYBOARD.CTL - 1488
+9/2/1997 6:27:18 AM - C:\Program Files\LucasArts\Jedi Knight\Controls\THRUSTMASTER FCS.CTL - 1485
+9/11/1997 7:38:08 AM - C:\Program Files\LucasArts\Jedi Knight\Episode\JK1.GOB - 34861164
+9/11/1997 7:38:50 AM - C:\Program Files\LucasArts\Jedi Knight\Episode\JK1CTF.GOB - 5964087
+9/11/1997 7:38:26 AM - C:\Program Files\LucasArts\Jedi Knight\Episode\JK1MP.GOB - 3337481
+11/7/2011 5:20:03 PM - C:\Program Files\LucasArts\Jedi Knight\player\SanMadJack\SanMadJack.plr - 1562
+11/7/2011 5:24:47 PM - C:\Program Files\LucasArts\Jedi Knight\player\SanMadJack\save0000.jks - 359799
+11/7/2011 5:20:14 PM - C:\Program Files\LucasArts\Jedi Knight\player\SanMadJack\_JKAUTO_01narshadda.jks - 360201
+9/11/1997 7:45:22 AM - C:\Program Files\LucasArts\Jedi Knight\Resource\Res1hi.gob - 58703359
+9/11/1997 7:51:56 AM - C:\Program Files\LucasArts\Jedi Knight\Resource\Res2.gob - 56069075
+
+UAC Disabled or not present

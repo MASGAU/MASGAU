@@ -1,0 +1,8 @@
+﻿<Application x:Class="Updater.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="UpdaterWindow.xaml">
+    <!--<Application.Resources>
+        <ResourceDictionary Source="MASGAU.WPF;styles.xaml" />
+    </Application.Resources>-->
+</Application>

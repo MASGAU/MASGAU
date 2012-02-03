@@ -1,0 +1,427 @@
+Game Name: Sim City 2000
+
+Operating System:
+Microsoft Windows NT 5.1.2600 Service Pack 3
+
+Install Path:
+C:\Program Files\Maxis\SimCity 2000
+
+Save Path:
+C:\Program Files\Maxis\SimCity 2000\Cities
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SimCity2000.Document.City\DefaultIcon
+Value:
+Data: C:\Program Files\Maxis\SimCity 2000\SimCity.exe,1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SimCity2000.Document.City\shell\open\command
+Value:
+Data: C:\Program Files\Maxis\SimCity 2000\SimCity.exe %1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SimCity2000.Document.Scenario\DefaultIcon
+Value:
+Data: C:\Program Files\Maxis\SimCity 2000\SimCity.exe,2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SimCity2000.Document.Scenario\shell\open\command
+Value:
+Data: C:\Program Files\Maxis\SimCity 2000\SimCity.exe %1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SimCity2000.Document.TileSet\DefaultIcon
+Value:
+Data: C:\Program Files\Maxis\SimCity 2000\WinScurk.exe,1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SimCity2000.Document.TileSet\shell\open\command
+Value:
+Data: C:\Program Files\Maxis\SimCity 2000\WinScurk.exe %1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\SimCity.exe
+Value: Path
+Data: C:\Program Files\Maxis\SimCity 2000
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\SimCity.exe
+Value:
+Data: C:\Program Files\Maxis\SimCity 2000\SimCity.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WinScurk.exe
+Value:
+Data: C:\Program Files\Maxis\SimCity 2000\WinScurk.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WinScurk.exe
+Value: Path
+Data: C:\Program Files\Maxis\SimCity 2000
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Maxis\SimCity 2000\Paths
+Value: Home
+Data: C:\Program Files\Maxis\SimCity 2000
+
+Key:HKEY_CURRENT_USER\Software\Maxis\SimCity 2000\Paths
+Value: Graphics
+Data: C:\Program Files\Maxis\SimCity 2000\Bitmaps
+
+Key:HKEY_CURRENT_USER\Software\Maxis\SimCity 2000\Paths
+Value: Music
+Data: C:\Program Files\Maxis\SimCity 2000\Sounds
+
+Key:HKEY_CURRENT_USER\Software\Maxis\SimCity 2000\Paths
+Value: Data
+Data: C:\Program Files\Maxis\SimCity 2000\Data
+
+Key:HKEY_CURRENT_USER\Software\Maxis\SimCity 2000\Paths
+Value: Cities
+Data: C:\Program Files\Maxis\SimCity 2000\Cities
+
+Key:HKEY_CURRENT_USER\Software\Maxis\SimCity 2000\Paths
+Value: SaveGame
+Data: C:\Program Files\Maxis\SimCity 2000\Cities
+
+Key:HKEY_CURRENT_USER\Software\Maxis\SimCity 2000\Paths
+Value: TileSets
+Data: C:\Program Files\Maxis\SimCity 2000\ScurkArt
+
+Key:HKEY_CURRENT_USER\Software\Maxis\SimCity 2000\Paths
+Value: Scenarios
+Data: C:\Program Files\Maxis\SimCity 2000\Scenario
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\*
+Value: h
+Data: C:\Program Files\Maxis\SimCity 2000\Cities\New City.sc2
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU\sc2
+Value: a
+Data: C:\Program Files\Maxis\SimCity 2000\Cities\New City.sc2
+
+Detected Start Menu Shortcuts:
+C:\Documents and Settings\All Users\Start Menu\Programs\Maxis\SimCity 2000.lnk
+C:\Program Files\Maxis\SimCity 2000\SIMCITY.EXE
+C:\Documents and Settings\All Users\Start Menu\Programs\Maxis\SimCity Urban Renewal Kit.lnk
+C:\Program Files\Maxis\SimCity 2000\WINSCURK.EXE
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/1/1995 4:39:08 PM - C:\Program Files\Maxis\SimCity 2000\Cities\349ARCO.SC2 - 62010
+1/23/1996 2:05:24 PM - C:\Program Files\Maxis\SimCity 2000\Cities\AMAZINGC.SC2 - 113841
+1/15/1996 11:19:04 AM - C:\Program Files\Maxis\SimCity 2000\Cities\ARCOONE.SC2 - 100893
+8/8/1995 9:06:56 AM - C:\Program Files\Maxis\SimCity 2000\Cities\BABAR.SC2 - 63742
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\BAYVIEW.SC2 - 83993
+12/16/1995 6:36:02 PM - C:\Program Files\Maxis\SimCity 2000\Cities\BIGGESTC.SC2 - 60343
+2/6/1996 3:08:26 PM - C:\Program Files\Maxis\SimCity 2000\Cities\BRIDGEPO.SC2 - 101515
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\CAPE.SC2 - 92738
+2/6/1996 2:47:06 PM - C:\Program Files\Maxis\SimCity 2000\Cities\CAPEQUES.SC2 - 96757
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\CENTERVL.SC2 - 109548
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\CERES.SC2 - 108707
+4/23/1998 10:10:02 AM - C:\Program Files\Maxis\SimCity 2000\Cities\CITIES.WRI - 19037
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\EGYPTFAL.SC2 - 86436
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\EM.SC2 - 106838
+2/23/1996 9:41:04 AM - C:\Program Files\Maxis\SimCity 2000\Cities\FLARANGE.SC2 - 105614
+2/8/1996 5:16:12 PM - C:\Program Files\Maxis\SimCity 2000\Cities\FLOATING.SC2 - 99650
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\FOURCITI.SC2 - 114671
+2/2/1996 2:55:18 PM - C:\Program Files\Maxis\SimCity 2000\Cities\GREENLAN.SC2 - 94675
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HALENAPT.SC2 - 115279
+2/26/1996 10:43:20 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HAPPYGUY.SC2 - 91292
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HAPPYLND.SC2 - 70308
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HAWAII.SC2 - 59027
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HERMAN.SC2 - 55787
+2/6/1996 3:03:30 PM - C:\Program Files\Maxis\SimCity 2000\Cities\HILTON.SC2 - 123702
+1/1/1996 2:16:30 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HIPPIVIL.SC2 - 67554
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HI_LOH2O.SC2 - 111880
+2/11/1996 9:30:28 AM - C:\Program Files\Maxis\SimCity 2000\Cities\ISLAND.SC2 - 78357
+1/6/1996 3:35:04 PM - C:\Program Files\Maxis\SimCity 2000\Cities\JUNETOWN.SC2 - 70605
+1/3/1996 2:43:42 PM - C:\Program Files\Maxis\SimCity 2000\Cities\KATVILLE.SC2 - 74924
+10/19/1995 3:27:12 PM - C:\Program Files\Maxis\SimCity 2000\Cities\KEENLAND.SC2 - 117250
+11/30/1995 12:42:52 PM - C:\Program Files\Maxis\SimCity 2000\Cities\KEITH.SC2 - 117597
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LAKELAND.SC2 - 76009
+2/8/1996 9:35:14 PM - C:\Program Files\Maxis\SimCity 2000\Cities\LAKEVIEW.SC2 - 100644
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LASVEGAS.SC2 - 122210
+2/16/1996 10:30:42 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LINCOLN.SC2 - 96717
+1/13/1996 4:15:26 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LOKEVILL.SC2 - 70474
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LONDON.SC2 - 124705
+10/13/1995 11:49:46 AM - C:\Program Files\Maxis\SimCity 2000\Cities\MALTRON.SC2 - 111751
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\MAXISLND.SC2 - 53844
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\MUNS_ISL.SC2 - 75869
+2/6/1996 4:28:38 PM - C:\Program Files\Maxis\SimCity 2000\Cities\MXBURG.SC2 - 116625
+11/7/2011 3:28:29 AM - C:\Program Files\Maxis\SimCity 2000\Cities\new city.sc2 - 50294
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\NEWMONRO.SC2 - 109346
+1/1/1996 2:23:28 AM - C:\Program Files\Maxis\SimCity 2000\Cities\NEWORLEA.SC2 - 69497
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\NYC.SC2 - 92852
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\PARADE.SC2 - 72797
+3/16/1995 8:00:14 PM - C:\Program Files\Maxis\SimCity 2000\Cities\PARIS.SC2 - 115258
+2/6/1996 11:19:52 AM - C:\Program Files\Maxis\SimCity 2000\Cities\PETER2.SC2 - 118373
+2/6/1996 11:37:26 AM - C:\Program Files\Maxis\SimCity 2000\Cities\PETER3.SC2 - 118271
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\RETREAT.SC2 - 84663
+3/16/1995 8:02:20 PM - C:\Program Files\Maxis\SimCity 2000\Cities\RIO.SC2 - 91094
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\RIVER5.SC2 - 104973
+3/16/1995 8:01:18 PM - C:\Program Files\Maxis\SimCity 2000\Cities\ROME.SC2 - 116747
+2/16/1996 4:23:24 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SAM_STOW.SC2 - 59999
+2/20/1996 3:20:54 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SIMCITY.SC2 - 113661
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SPIRALOP.SC2 - 113047
+2/9/1996 4:44:14 PM - C:\Program Files\Maxis\SimCity 2000\Cities\STARTER.SC2 - 70278
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\STCHRISC.SC2 - 87771
+8/13/1995 8:12:38 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SYDNEY.SC2 - 105846
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SYMCITY.SC2 - 124494
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\THEBAHAM.SC2 - 85838
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOKYO.SC2 - 120231
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_B1.SC2 - 56922
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_B2.SC2 - 53190
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_B3.SC2 - 57224
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_B4.SC2 - 62339
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_C1.SC2 - 73004
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_C2.SC2 - 81338
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_C3.SC2 - 89152
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_C4.SC2 - 98563
+8/13/1995 8:16:28 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TORONTO.SC2 - 118720
+2/8/1996 8:46:42 AM - C:\Program Files\Maxis\SimCity 2000\Cities\UTOPIA.SC2 - 116886
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\VENICE.SC2 - 92768
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\VIRTUALV.SC2 - 113537
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\VOLCANO.SC2 - 67425
+2/1/1996 5:24:08 PM - C:\Program Files\Maxis\SimCity 2000\Cities\ZUTHERLA.SC2 - 77507
+
+Install Folder Dump:
+8/9/1994 6:56:00 AM - C:\Program Files\Maxis\SimCity 2000\D2HTOOLS.DLL - 44464
+3/2/1995 9:21:08 AM - C:\Program Files\Maxis\SimCity 2000\DEFAULT.SC2 - 45129
+11/7/2011 3:23:56 AM - C:\Program Files\Maxis\SimCity 2000\DeIsL1.isu - 20558
+4/23/1998 10:09:20 AM - C:\Program Files\Maxis\SimCity 2000\README.WRI - 4608
+7/13/1995 11:29:46 AM - C:\Program Files\Maxis\SimCity 2000\SC2USA.GID - 16826
+7/27/1995 9:28:28 AM - C:\Program Files\Maxis\SimCity 2000\SC2USA.HLP - 1012932
+3/17/1995 12:21:54 PM - C:\Program Files\Maxis\SimCity 2000\SCURK.HLP - 185820
+7/28/1995 6:33:28 AM - C:\Program Files\Maxis\SimCity 2000\SCURKUSA.DLL - 165237
+3/6/1996 3:13:20 PM - C:\Program Files\Maxis\SimCity 2000\SIMCITY.EXE - 1392128
+2/27/1996 3:17:18 PM - C:\Program Files\Maxis\SimCity 2000\SMACKW32.DLL - 60928
+8/14/1995 3:06:28 PM - C:\Program Files\Maxis\SimCity 2000\SVERSION.INF - 2557
+3/11/1995 2:47:04 PM - C:\Program Files\Maxis\SimCity 2000\TILES.DB - 951400
+8/14/1995 12:32:26 PM - C:\Program Files\Maxis\SimCity 2000\VERSION.INF - 78
+8/14/1995 6:36:04 PM - C:\Program Files\Maxis\SimCity 2000\WINSCURK.EXE - 2014870
+10/20/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\128.BMP - 6802
+2/14/1996 4:53:36 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\2000WIN.BMP - 124210
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\400.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\401.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\402.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\403.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\404.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\405.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\406.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\407.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\408.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\409.BMP - 16678
+8/30/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\410.BMP - 16678
+11/13/1994 6:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\411.BMP - 16678
+10/27/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\ABOUT.BMP - 144598
+7/13/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\ADVISBTN.BMP - 1398
+7/13/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\BOOKBTN.BMP - 2358
+6/19/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\NEIGHBOR.BMP - 58422
+6/7/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\PAL_LOAD.BMP - 11582
+6/7/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\PAL_MAC.BMP - 1910
+6/7/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\PAL_MSTR.BMP - 11582
+6/7/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\PAL_STTC.BMP - 11582
+8/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\PRESNTS.BMP - 48598
+7/21/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\TERRAIN.BMP - 7614
+10/26/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\TITLESCR.BMP - 312774
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL0D.BMP - 10878
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL0U.BMP - 10878
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL1D.BMP - 6118
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL1U.BMP - 6118
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL2D.BMP - 6118
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL2U.BMP - 6118
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL3D.BMP - 6118
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL3U.BMP - 6118
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL4D.BMP - 6118
+3/6/1996 3:22:06 AM - C:\Program Files\Maxis\SimCity 2000\Bitmaps\WILL4U.BMP - 6118
+11/1/1995 4:39:08 PM - C:\Program Files\Maxis\SimCity 2000\Cities\349ARCO.SC2 - 62010
+1/23/1996 2:05:24 PM - C:\Program Files\Maxis\SimCity 2000\Cities\AMAZINGC.SC2 - 113841
+1/15/1996 11:19:04 AM - C:\Program Files\Maxis\SimCity 2000\Cities\ARCOONE.SC2 - 100893
+8/8/1995 9:06:56 AM - C:\Program Files\Maxis\SimCity 2000\Cities\BABAR.SC2 - 63742
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\BAYVIEW.SC2 - 83993
+12/16/1995 6:36:02 PM - C:\Program Files\Maxis\SimCity 2000\Cities\BIGGESTC.SC2 - 60343
+2/6/1996 3:08:26 PM - C:\Program Files\Maxis\SimCity 2000\Cities\BRIDGEPO.SC2 - 101515
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\CAPE.SC2 - 92738
+2/6/1996 2:47:06 PM - C:\Program Files\Maxis\SimCity 2000\Cities\CAPEQUES.SC2 - 96757
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\CENTERVL.SC2 - 109548
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\CERES.SC2 - 108707
+4/23/1998 10:10:02 AM - C:\Program Files\Maxis\SimCity 2000\Cities\CITIES.WRI - 19037
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\EGYPTFAL.SC2 - 86436
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\EM.SC2 - 106838
+2/23/1996 9:41:04 AM - C:\Program Files\Maxis\SimCity 2000\Cities\FLARANGE.SC2 - 105614
+2/8/1996 5:16:12 PM - C:\Program Files\Maxis\SimCity 2000\Cities\FLOATING.SC2 - 99650
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\FOURCITI.SC2 - 114671
+2/2/1996 2:55:18 PM - C:\Program Files\Maxis\SimCity 2000\Cities\GREENLAN.SC2 - 94675
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HALENAPT.SC2 - 115279
+2/26/1996 10:43:20 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HAPPYGUY.SC2 - 91292
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HAPPYLND.SC2 - 70308
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HAWAII.SC2 - 59027
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HERMAN.SC2 - 55787
+2/6/1996 3:03:30 PM - C:\Program Files\Maxis\SimCity 2000\Cities\HILTON.SC2 - 123702
+1/1/1996 2:16:30 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HIPPIVIL.SC2 - 67554
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\HI_LOH2O.SC2 - 111880
+2/11/1996 9:30:28 AM - C:\Program Files\Maxis\SimCity 2000\Cities\ISLAND.SC2 - 78357
+1/6/1996 3:35:04 PM - C:\Program Files\Maxis\SimCity 2000\Cities\JUNETOWN.SC2 - 70605
+1/3/1996 2:43:42 PM - C:\Program Files\Maxis\SimCity 2000\Cities\KATVILLE.SC2 - 74924
+10/19/1995 3:27:12 PM - C:\Program Files\Maxis\SimCity 2000\Cities\KEENLAND.SC2 - 117250
+11/30/1995 12:42:52 PM - C:\Program Files\Maxis\SimCity 2000\Cities\KEITH.SC2 - 117597
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LAKELAND.SC2 - 76009
+2/8/1996 9:35:14 PM - C:\Program Files\Maxis\SimCity 2000\Cities\LAKEVIEW.SC2 - 100644
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LASVEGAS.SC2 - 122210
+2/16/1996 10:30:42 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LINCOLN.SC2 - 96717
+1/13/1996 4:15:26 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LOKEVILL.SC2 - 70474
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\LONDON.SC2 - 124705
+10/13/1995 11:49:46 AM - C:\Program Files\Maxis\SimCity 2000\Cities\MALTRON.SC2 - 111751
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\MAXISLND.SC2 - 53844
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\MUNS_ISL.SC2 - 75869
+2/6/1996 4:28:38 PM - C:\Program Files\Maxis\SimCity 2000\Cities\MXBURG.SC2 - 116625
+11/7/2011 3:28:29 AM - C:\Program Files\Maxis\SimCity 2000\Cities\new city.sc2 - 50294
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\NEWMONRO.SC2 - 109346
+1/1/1996 2:23:28 AM - C:\Program Files\Maxis\SimCity 2000\Cities\NEWORLEA.SC2 - 69497
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\NYC.SC2 - 92852
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\PARADE.SC2 - 72797
+3/16/1995 8:00:14 PM - C:\Program Files\Maxis\SimCity 2000\Cities\PARIS.SC2 - 115258
+2/6/1996 11:19:52 AM - C:\Program Files\Maxis\SimCity 2000\Cities\PETER2.SC2 - 118373
+2/6/1996 11:37:26 AM - C:\Program Files\Maxis\SimCity 2000\Cities\PETER3.SC2 - 118271
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\RETREAT.SC2 - 84663
+3/16/1995 8:02:20 PM - C:\Program Files\Maxis\SimCity 2000\Cities\RIO.SC2 - 91094
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\RIVER5.SC2 - 104973
+3/16/1995 8:01:18 PM - C:\Program Files\Maxis\SimCity 2000\Cities\ROME.SC2 - 116747
+2/16/1996 4:23:24 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SAM_STOW.SC2 - 59999
+2/20/1996 3:20:54 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SIMCITY.SC2 - 113661
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SPIRALOP.SC2 - 113047
+2/9/1996 4:44:14 PM - C:\Program Files\Maxis\SimCity 2000\Cities\STARTER.SC2 - 70278
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\STCHRISC.SC2 - 87771
+8/13/1995 8:12:38 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SYDNEY.SC2 - 105846
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\SYMCITY.SC2 - 124494
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\THEBAHAM.SC2 - 85838
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOKYO.SC2 - 120231
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_B1.SC2 - 56922
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_B2.SC2 - 53190
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_B3.SC2 - 57224
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_B4.SC2 - 62339
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_C1.SC2 - 73004
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_C2.SC2 - 81338
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_C3.SC2 - 89152
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TOMG_C4.SC2 - 98563
+8/13/1995 8:16:28 AM - C:\Program Files\Maxis\SimCity 2000\Cities\TORONTO.SC2 - 118720
+2/8/1996 8:46:42 AM - C:\Program Files\Maxis\SimCity 2000\Cities\UTOPIA.SC2 - 116886
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\VENICE.SC2 - 92768
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\VIRTUALV.SC2 - 113537
+3/16/1995 11:36:32 AM - C:\Program Files\Maxis\SimCity 2000\Cities\VOLCANO.SC2 - 67425
+2/1/1996 5:24:08 PM - C:\Program Files\Maxis\SimCity 2000\Cities\ZUTHERLA.SC2 - 77507
+1/30/1995 6:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Data\DATA_USA.DAT - 160547
+1/30/1995 6:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Data\DATA_USA.IDX - 48
+7/19/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Data\LARGE.DAT - 681180
+7/19/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Data\SMALLMED.DAT - 246572
+7/19/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Data\SPECIAL.DAT - 50376
+8/14/1995 12:22:58 PM - C:\Program Files\Maxis\SimCity 2000\Data\TEXT_USA.DAT - 47952
+8/14/1995 12:22:58 PM - C:\Program Files\Maxis\SimCity 2000\Data\TEXT_USA.IDX - 1352
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\ATLANTA.SCN - 132529
+3/15/1995 11:49:02 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\BARCELON.SCN - 119177
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\CHARLEST.SCN - 91003
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\CHICAGO.SCN - 117015
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\DAVENPOR.SCN - 113404
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\DULLSVIL.SCN - 66520
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\FLINT.SCN - 122758
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\HOLLYWOO.SCN - 119270
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\HOMESTEA.SCN - 104585
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\LASVEGAS.SCN - 127176
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\MALIBU.SCN - 81825
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\MANHATTA.SCN - 110994
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\OAKLAND.SCN - 112508
+3/15/1995 11:48:50 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\PARIS.SCN - 120088
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\PORTLAND.SCN - 124781
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\SANFRANC.SCN - 97989
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\SILICONV.SCN - 123991
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\Scenario\WASHINGT.SCN - 118084
+2/12/1996 4:32:22 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\1900.MIF - 278372
+2/12/1996 4:32:48 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\2050.MIF - 510286
+2/23/1996 5:21:42 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\ARCOLB1.MIF - 21928
+3/16/1995 3:56:02 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\BARCELON.MIF - 47290
+2/23/1996 6:07:12 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\BIGBEN.MIF - 27646
+2/5/1996 12:16:06 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\BIGBEN.PCX - 11955
+2/23/1996 6:07:36 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\CITYHAL.MIF - 20224
+2/23/1996 6:08:02 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\COLLEGE.MIF - 20690
+2/23/1996 5:22:12 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\CONTEST.MIF - 19864
+2/5/1996 2:55:14 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\CTYHALL.PCX - 7351
+2/23/1996 5:22:36 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\DINOPARK.MIF - 20378
+2/23/1996 5:22:58 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\EIFFLE.MIF - 24994
+2/23/1996 5:23:16 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\ELECLINE.MIF - 13766
+2/23/1996 5:23:34 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\FLAGCHOP.MIF - 20514
+3/7/1995 6:00:00 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\FUTURE.MIF - 681044
+2/23/1996 5:23:56 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\GOLFGOOD.MIF - 20888
+2/23/1996 6:08:24 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\HYDRO.MIF - 15410
+9/9/1995 12:48:12 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\HYDRO1.PCX - 2944
+9/9/1995 12:52:00 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\HYDRO2.PCX - 2977
+8/13/1995 8:02:14 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\LONDON.MIF - 36450
+2/23/1996 5:24:14 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\MCONDO1.MIF - 31672
+2/23/1996 5:24:32 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\MCONDO2.MIF - 18616
+3/7/1995 6:00:00 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\ORIGINAL.MIF - 649708
+8/13/1995 8:05:10 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\PARIS.MIF - 36174
+2/23/1996 5:24:52 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\POLICE2.MIF - 18952
+2/23/1996 5:25:10 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\PWRTREE.MIF - 14118
+3/15/1995 12:32:38 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\RIO.MIF - 35860
+8/13/1995 8:08:06 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\ROME.MIF - 33182
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\SAMPLE1.PCX - 27663
+12/16/1994 12:00:00 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\SAMPLE2.PCX - 38087
+9/3/1995 6:10:44 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\SMHOUSE.PCX - 3490
+8/13/1995 8:11:50 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\SYDNEY.MIF - 35008
+2/23/1996 5:25:28 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\THINGIG.MIF - 23212
+2/26/1996 11:41:18 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\TILESET1.MIF - 713012
+3/15/1995 12:37:00 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\TOKYO.MIF - 25750
+8/13/1995 8:14:54 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\TORONTO.MIF - 31816
+12/29/1995 4:05:56 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\UNVIR.PCX - 5367
+3/15/1995 12:39:54 PM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\VEGAS.MIF - 24860
+1/25/1996 9:20:00 AM - C:\Program Files\Maxis\SimCity 2000\ScurkArt\VENICE.MIF - 27954
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10000.MID - 4963
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10001.MID - 9393
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10002.MID - 1171
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10003.MID - 3847
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10004.MID - 9991
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10005.MID - 1632
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10006.MID - 2870
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10007.MID - 12349
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10008.MID - 12114
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10009.MID - 2196
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10010.MID - 2910
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10011.MID - 10372
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10012.MID - 7857
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10013.MID - 4569
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10014.MID - 3192
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10015.MID - 1162
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10016.MID - 1641
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10017.MID - 3956
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\10018.MID - 18638
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\500.WAV - 5424
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\501.WAV - 1678
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\502.WAV - 16366
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\503.WAV - 1416
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\504.WAV - 12738
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\505.WAV - 2426
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\506.WAV - 11720
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\507.WAV - 18268
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\508.WAV - 16640
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\509.WAV - 16656
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\510.WAV - 24956
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\511.WAV - 9780
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\512.WAV - 30490
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\513.WAV - 24282
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\514.WAV - 5210
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\515.WAV - 6882
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\516.WAV - 8614
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\517.WAV - 13480
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\518.WAV - 26944
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\519.WAV - 14418
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\520.WAV - 27202
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\521.WAV - 10696
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\522.WAV - 24188
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\523.WAV - 15586
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\524.WAV - 25776
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\525.WAV - 12836
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\526.WAV - 21352
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\527.WAV - 26006
+8/10/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\528.WAV - 16640
+10/26/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\529.WAV - 17774
+10/28/1994 7:00:00 PM - C:\Program Files\Maxis\SimCity 2000\Sounds\530.WAV - 2800
+
+UAC Disabled or not present

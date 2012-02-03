@@ -1,0 +1,116 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU", "MASGAU\MASGAU.csproj", "{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Monitor", "MASGAU.Monitor\MASGAU.Monitor.csproj", "{4232A9BF-FEB6-43CE-B1DA-FD9738179197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Main", "MASGAU.Main\MASGAU.Main.csproj", "{200C1855-FBC7-4133-A5DD-0B1C32B75121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Analyzer", "MASGAU.Analyzer\MASGAU.Analyzer.csproj", "{B01BFC57-F093-40C5-AE96-BF81B89176C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Updater", "MASGAU.Updater\MASGAU.Updater.csproj", "{589E0815-04F6-4DE2-9CAE-F330D66FFE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Analyzer.WPF", "MASGAU.Analyzer.WPF\MASGAU.Analyzer.WPF.csproj", "{35EC52BF-5C17-44ED-A3F7-D5D999EF8C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.WPF", "MASGAU.WPF\MASGAU.WPF.csproj", "{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Main.WPF", "MASGAU.Main.WPF\MASGAU.Main.WPF.csproj", "{296B239E-C406-4722-9546-98CC86F9FA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Windows", "MASGAU.Windows\MASGAU.Windows.csproj", "{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Updater.WPF", "MASGAU.Updater.WPF\MASGAU.Updater.WPF.csproj", "{FAB69D6D-5810-486A-998B-42B2296C0CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Monitor.WPF", "MASGAU.Monitor.WPF\MASGAU.Monitor.WPF.csproj", "{D2C4B8CB-CC0C-4215-8E3B-66717A0D080F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Restore.WPF", "MASGAU.Restore.WPF\MASGAU.Restore.WPF.csproj", "{9CD9FC1E-56D9-4ABE-B65C-9874CDD54D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console.Windows", "MASGAU.Console.Windows\MASGAU.Console.Windows.csproj", "{F5F22856-EF47-48E9-9A1D-2FACE3033CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console", "MASGAU.Console\MASGAU.Console.csproj", "{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01BFC57-F093-40C5-AE96-BF81B89176C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01BFC57-F093-40C5-AE96-BF81B89176C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01BFC57-F093-40C5-AE96-BF81B89176C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01BFC57-F093-40C5-AE96-BF81B89176C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589E0815-04F6-4DE2-9CAE-F330D66FFE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589E0815-04F6-4DE2-9CAE-F330D66FFE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589E0815-04F6-4DE2-9CAE-F330D66FFE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589E0815-04F6-4DE2-9CAE-F330D66FFE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EC52BF-5C17-44ED-A3F7-D5D999EF8C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EC52BF-5C17-44ED-A3F7-D5D999EF8C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EC52BF-5C17-44ED-A3F7-D5D999EF8C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EC52BF-5C17-44ED-A3F7-D5D999EF8C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296B239E-C406-4722-9546-98CC86F9FA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296B239E-C406-4722-9546-98CC86F9FA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296B239E-C406-4722-9546-98CC86F9FA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296B239E-C406-4722-9546-98CC86F9FA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB69D6D-5810-486A-998B-42B2296C0CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB69D6D-5810-486A-998B-42B2296C0CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB69D6D-5810-486A-998B-42B2296C0CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB69D6D-5810-486A-998B-42B2296C0CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C4B8CB-CC0C-4215-8E3B-66717A0D080F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C4B8CB-CC0C-4215-8E3B-66717A0D080F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C4B8CB-CC0C-4215-8E3B-66717A0D080F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C4B8CB-CC0C-4215-8E3B-66717A0D080F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD9FC1E-56D9-4ABE-B65C-9874CDD54D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD9FC1E-56D9-4ABE-B65C-9874CDD54D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD9FC1E-56D9-4ABE-B65C-9874CDD54D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD9FC1E-56D9-4ABE-B65C-9874CDD54D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F22856-EF47-48E9-9A1D-2FACE3033CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F22856-EF47-48E9-9A1D-2FACE3033CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F22856-EF47-48E9-9A1D-2FACE3033CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F22856-EF47-48E9-9A1D-2FACE3033CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MASGAU.Main.Gtk\MASGAU.Main.Gtk.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		version = 0.9
+	EndGlobalSection
+EndGlobal

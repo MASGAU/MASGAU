@@ -1,0 +1,97 @@
+Game Name: Scratches Director's Cut
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Scratches Directors Cut
+
+Save Path:
+C:\Users\Matthew\AppData\Roaming\Nucleosys\Scratches Director's Cut
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{980F858F-EA94-4AD0-9087-B430D67D350D}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{980F858F-EA94-4AD0-9087-B430D67D350D}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSCRECHES
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scream.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSCRECHES
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSCRECHES
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scream.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSCRECHES
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Scratches Director's Cut
+Value: UninstallString
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut\unins000.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Scratches Director's Cut_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Scratches Director's Cut_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut\
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Nucleosys\Scratches Director's Cut
+Value:
+Data: C:\Program Files (x86)\GOG.com\Scratches Directors Cut
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Scratches Director's Cut\Scratches Director's Cut.lnk
+C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scream.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Scratches Director's Cut\Uninstall Scratches Director's Cut.lnk
+C:\Program Files (x86)\GOG.com\Scratches Directors Cut\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Scratches Director's Cut\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Scratches Directors Cut\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+11/5/2011 10:09:30 AM - C:\Users\Matthew\AppData\Roaming\Nucleosys\Scratches Director's Cut\scream.000 - 382290
+11/5/2011 10:09:49 AM - C:\Users\Matthew\AppData\Roaming\Nucleosys\Scratches Director's Cut\scream.001 - 382304
+11/5/2011 10:10:21 AM - C:\Users\Matthew\AppData\Roaming\Nucleosys\Scratches Director's Cut\scream.004 - 382322
+11/5/2011 10:10:31 AM - C:\Users\Matthew\AppData\Roaming\Nucleosys\Scratches Director's Cut\scream.cfg - 201
+
+Install Folder Dump:
+10/14/2010 3:15:30 AM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\eula.txt - 9080
+7/25/2011 1:32:48 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\gfw_high.ico - 81598
+7/27/2011 4:21:02 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\goggame.dll - 166912
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\innosetup_license.txt - 1471
+7/25/2011 1:30:14 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\manual.pdf - 2026289
+5/12/2004 8:23:32 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scratches.ico - 2238
+11/9/2010 6:20:20 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scratches.res - 1016432304
+11/8/2010 8:11:48 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scratches.sc - 1121013
+11/8/2010 6:09:22 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scream.exe - 652288
+11/2/2006 3:35:34 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scream.res - 420343
+4/29/2007 8:56:22 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\scream.sc - 5889
+4/29/2007 8:05:40 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\sdc-intro.srt - 2135
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\Support.ico - 62895
+10/29/2011 12:55:57 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\unins000.dat - 56509
+10/29/2011 12:53:56 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\unins000.exe - 2142547
+10/29/2011 12:55:57 PM - C:\Program Files (x86)\GOG.com\Scratches Directors Cut\unins000.ini - 78
+
+UAC Enabled
+
+
+VirtualStore Folders:

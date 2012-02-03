@@ -1,0 +1,374 @@
+Game Name: Master of Magic
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files\GOG.com\Master Of Magic
+
+Save Path:
+C:\Program Files\GOG.com\Master Of Magic
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGMASTEROFMAGIC
+Value: EXE
+Data: C:\Program Files\GOG.com\Master Of Magic\magic.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGMASTEROFMAGIC
+Value: PATH
+Data: C:\Program Files\GOG.com\Master Of Magic\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGMASTEROFMAGIC
+Value: DOSBOXFOLDER
+Data: C:\Program Files\GOG.com\Master Of Magic\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGMASTEROFMAGIC
+Value: DOSBOXVERSION
+Data: C:\Program Files\GOG.com\Master Of Magic\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\GOGMASTEROFMAGIC
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files\GOG.com\Master Of Magic\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{97F11361-639F-4F5A-A260-2D87639D8ED2}
+Value: ConfigApplicationPath
+Data: C:\Program Files\GOG.com\Master Of Magic\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{97F11361-639F-4F5A-A260-2D87639D8ED2}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files\GOG.com\Master Of Magic\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Master Of Magic_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files\GOG.com\Master Of Magic
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Master Of Magic_is1
+Value: InstallLocation
+Data: C:\Program Files\GOG.com\Master Of Magic\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Master of Magic\Graphic mode setup.lnk
+C:\Program Files\GOG.com\Master Of Magic\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Master of Magic\Master of Magic.lnk
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Master of Magic\Uninstall Master Of Magic.lnk
+C:\Program Files\GOG.com\Master Of Magic\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Master of Magic\Documents\Manual.lnk
+C:\Program Files\GOG.com\Master Of Magic\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Master of Magic\Documents\Readme.lnk
+C:\Program Files\GOG.com\Master Of Magic\README.TXT
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Master of Magic\Documents\Spellbook.lnk
+C:\Program Files\GOG.com\Master Of Magic\spellbook.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Program Files\GOG.com\Master Of Magic\ARMYLIST.LBX - 127564
+C:\Program Files\GOG.com\Master Of Magic\BACKGRND.LBX - 166370
+C:\Program Files\GOG.com\Master Of Magic\BOOK.LBX - 94560
+C:\Program Files\GOG.com\Master Of Magic\BUILDDAT.LBX - 2420
+C:\Program Files\GOG.com\Master Of Magic\BUILDESC.LBX - 7748
+C:\Program Files\GOG.com\Master Of Magic\CHRIVER.LBX - 22748
+C:\Program Files\GOG.com\Master Of Magic\CITYNAME.LBX - 4468
+C:\Program Files\GOG.com\Master Of Magic\CITYSCAP.LBX - 244933
+C:\Program Files\GOG.com\Master Of Magic\CITYWALL.LBX - 48066
+C:\Program Files\GOG.com\Master Of Magic\CMBDESRC.LBX - 22880
+C:\Program Files\GOG.com\Master Of Magic\CMBDESRT.LBX - 22629
+C:\Program Files\GOG.com\Master Of Magic\CMBGRASC.LBX - 23339
+C:\Program Files\GOG.com\Master Of Magic\CMBGRASS.LBX - 23149
+C:\Program Files\GOG.com\Master Of Magic\CMBMAGIC.LBX - 81355
+C:\Program Files\GOG.com\Master Of Magic\CMBMOUNC.LBX - 23094
+C:\Program Files\GOG.com\Master Of Magic\CMBMOUNT.LBX - 22762
+C:\Program Files\GOG.com\Master Of Magic\CMBTCITY.LBX - 77736
+C:\Program Files\GOG.com\Master Of Magic\CMBTFX.LBX - 126932
+C:\Program Files\GOG.com\Master Of Magic\CMBTSND.LBX - 93504
+C:\Program Files\GOG.com\Master Of Magic\CMBTUNDC.LBX - 22998
+C:\Program Files\GOG.com\Master Of Magic\CMBTUNDR.LBX - 22992
+C:\Program Files\GOG.com\Master Of Magic\CMBTWALL.LBX - 172834
+C:\Program Files\GOG.com\Master Of Magic\COMBAT.LBX - 79963
+C:\Program Files\GOG.com\Master Of Magic\COMPIX.LBX - 91981
+C:\Program Files\GOG.com\Master Of Magic\CONFIG.MOM - 20
+C:\Program Files\GOG.com\Master Of Magic\CONQUEST.LBX - 509038
+C:\Program Files\GOG.com\Master Of Magic\DESC.LBX - 27058
+C:\Program Files\GOG.com\Master Of Magic\DESERT.LBX - 30586
+C:\Program Files\GOG.com\Master Of Magic\DIPLOMAC.LBX - 942221
+C:\Program Files\GOG.com\Master Of Magic\DIPLOMSG.LBX - 223028
+C:\Program Files\GOG.com\Master Of Magic\dosboxMOM.conf - 7091
+C:\Program Files\GOG.com\Master Of Magic\EVENTMSG.LBX - 25748
+C:\Program Files\GOG.com\Master Of Magic\EVENTS.LBX - 27267
+C:\Program Files\GOG.com\Master Of Magic\FAT-GEN.CAT - 11920
+C:\Program Files\GOG.com\Master Of Magic\FAT-OPL3.BNK - 20320
+C:\Program Files\GOG.com\Master Of Magic\FAT.AD - 3622
+C:\Program Files\GOG.com\Master Of Magic\FAT.CAT - 34826
+C:\Program Files\GOG.com\Master Of Magic\FAT.MT - 65026
+C:\Program Files\GOG.com\Master Of Magic\FAT.OPL - 5591
+C:\Program Files\GOG.com\Master Of Magic\FATV10.BNK - 10780
+C:\Program Files\GOG.com\Master Of Magic\FIGURE10.LBX - 109568
+C:\Program Files\GOG.com\Master Of Magic\FIGURE11.LBX - 166422
+C:\Program Files\GOG.com\Master Of Magic\FIGURE12.LBX - 123680
+C:\Program Files\GOG.com\Master Of Magic\FIGURE13.LBX - 153158
+C:\Program Files\GOG.com\Master Of Magic\FIGURE14.LBX - 38190
+C:\Program Files\GOG.com\Master Of Magic\FIGURE15.LBX - 144551
+C:\Program Files\GOG.com\Master Of Magic\FIGURE16.LBX - 46312
+C:\Program Files\GOG.com\Master Of Magic\FIGURES1.LBX - 143768
+C:\Program Files\GOG.com\Master Of Magic\FIGURES2.LBX - 148785
+C:\Program Files\GOG.com\Master Of Magic\FIGURES3.LBX - 140396
+C:\Program Files\GOG.com\Master Of Magic\FIGURES4.LBX - 99144
+C:\Program Files\GOG.com\Master Of Magic\FIGURES5.LBX - 135831
+C:\Program Files\GOG.com\Master Of Magic\FIGURES6.LBX - 118205
+C:\Program Files\GOG.com\Master Of Magic\FIGURES7.LBX - 104654
+C:\Program Files\GOG.com\Master Of Magic\FIGURES8.LBX - 103823
+C:\Program Files\GOG.com\Master Of Magic\FIGURES9.LBX - 110764
+C:\Program Files\GOG.com\Master Of Magic\FONTS.LBX - 57536
+C:\Program Files\GOG.com\Master Of Magic\gfw_high.ico - 129547
+C:\Program Files\GOG.com\Master Of Magic\goggame.dll - 250880
+C:\Program Files\GOG.com\Master Of Magic\Graphic mode setup.exe - 1279488
+C:\Program Files\GOG.com\Master Of Magic\HALOFAM.LBX - 83305
+C:\Program Files\GOG.com\Master Of Magic\HELP.LBX - 1728545
+C:\Program Files\GOG.com\Master Of Magic\HERODATA.LBX - 2048
+C:\Program Files\GOG.com\Master Of Magic\HIRE.LBX - 55648
+C:\Program Files\GOG.com\Master Of Magic\HLPENTRY.LBX - 7408
+C:\Program Files\GOG.com\Master Of Magic\innosetup_license.txt - 1471
+C:\Program Files\GOG.com\Master Of Magic\INSTALL.DAT - 13539
+C:\Program Files\GOG.com\Master Of Magic\INSTALL.EXE - 51072
+C:\Program Files\GOG.com\Master Of Magic\INSTALL.GIF - 40425
+C:\Program Files\GOG.com\Master Of Magic\INTRO.LBX - 2598921
+C:\Program Files\GOG.com\Master Of Magic\INTROSFX.LBX - 132764
+C:\Program Files\GOG.com\Master Of Magic\INTROSND.LBX - 7098
+C:\Program Files\GOG.com\Master Of Magic\ITEMDATA.LBX - 14548
+C:\Program Files\GOG.com\Master Of Magic\ITEMISC.LBX - 27859
+C:\Program Files\GOG.com\Master Of Magic\ITEMMAKE.EXE - 177226
+C:\Program Files\GOG.com\Master Of Magic\ITEMPOW.LBX - 2558
+C:\Program Files\GOG.com\Master Of Magic\ITEMS.LBX - 22638
+C:\Program Files\GOG.com\Master Of Magic\LILWIZ.LBX - 117330
+C:\Program Files\GOG.com\Master Of Magic\LISTDAT.LBX - 15548
+C:\Program Files\GOG.com\Master Of Magic\LOAD.LBX - 113025
+C:\Program Files\GOG.com\Master Of Magic\LOSE.LBX - 529910
+C:\Program Files\GOG.com\Master Of Magic\MAGIC.EXE - 303264
+C:\Program Files\GOG.com\Master Of Magic\MAGIC.LBX - 109495
+C:\Program Files\GOG.com\Master Of Magic\MAGIC.SET - 466
+C:\Program Files\GOG.com\Master Of Magic\MAIN.LBX - 68964
+C:\Program Files\GOG.com\Master Of Magic\MAINSCRN.LBX - 196511
+C:\Program Files\GOG.com\Master Of Magic\manual.pdf - 1821276
+C:\Program Files\GOG.com\Master Of Magic\MAPBACK.LBX - 26627
+C:\Program Files\GOG.com\Master Of Magic\MESSAGE.LBX - 15548
+C:\Program Files\GOG.com\Master Of Magic\MONSTER.LBX - 86665
+C:\Program Files\GOG.com\Master Of Magic\MOODWIZ.LBX - 154435
+C:\Program Files\GOG.com\Master Of Magic\MPSCOPY.EXE - 38620
+C:\Program Files\GOG.com\Master Of Magic\MUSIC.LBX - 606946
+C:\Program Files\GOG.com\Master Of Magic\NAMES.LBX - 3148
+C:\Program Files\GOG.com\Master Of Magic\NEWGAME.LBX - 271669
+C:\Program Files\GOG.com\Master Of Magic\NEWSOUND.LBX - 562022
+C:\Program Files\GOG.com\Master Of Magic\PKUNZJR.COM - 2750
+C:\Program Files\GOG.com\Master Of Magic\PORTRAIT.LBX - 42094
+C:\Program Files\GOG.com\Master Of Magic\README.TXT - 25755
+C:\Program Files\GOG.com\Master Of Magic\RELOAD.LBX - 390727
+C:\Program Files\GOG.com\Master Of Magic\RESOURCE.LBX - 253657
+C:\Program Files\GOG.com\Master Of Magic\SAVE1.GAM - 123300
+C:\Program Files\GOG.com\Master Of Magic\SAVE2.GAM - 123300
+C:\Program Files\GOG.com\Master Of Magic\SAVE8.GAM - 123300
+C:\Program Files\GOG.com\Master Of Magic\SAVE9.GAM - 123300
+C:\Program Files\GOG.com\Master Of Magic\SCROLL.LBX - 650536
+C:\Program Files\GOG.com\Master Of Magic\SNDDRV.LBX - 183011
+C:\Program Files\GOG.com\Master Of Magic\SOUNDFX.LBX - 2838117
+C:\Program Files\GOG.com\Master Of Magic\SPECFX.LBX - 557778
+C:\Program Files\GOG.com\Master Of Magic\SPECIAL.LBX - 40630
+C:\Program Files\GOG.com\Master Of Magic\SPECIAL2.LBX - 64795
+C:\Program Files\GOG.com\Master Of Magic\spellbook.pdf - 372736
+C:\Program Files\GOG.com\Master Of Magic\SPELLDAT.LBX - 8288
+C:\Program Files\GOG.com\Master Of Magic\SPELLOSE.LBX - 174525
+C:\Program Files\GOG.com\Master Of Magic\SPELLS.LBX - 52656
+C:\Program Files\GOG.com\Master Of Magic\SPELLSCR.LBX - 1247460
+C:\Program Files\GOG.com\Master Of Magic\SPLMASTR.LBX - 1572001
+C:\Program Files\GOG.com\Master Of Magic\stderr.txt - 0
+C:\Program Files\GOG.com\Master Of Magic\stdout.txt - 176
+C:\Program Files\GOG.com\Master Of Magic\Support.ico - 62895
+C:\Program Files\GOG.com\Master Of Magic\TERRAIN.LBX - 681564
+C:\Program Files\GOG.com\Master Of Magic\TERRSTAT.LBX - 5400
+C:\Program Files\GOG.com\Master Of Magic\TERRTYPE.LBX - 3108
+C:\Program Files\GOG.com\Master Of Magic\TUNDRA.LBX - 15549
+C:\Program Files\GOG.com\Master Of Magic\unins000.dat - 63493
+C:\Program Files\GOG.com\Master Of Magic\unins000.exe - 2142547
+C:\Program Files\GOG.com\Master Of Magic\unins000.ini - 80
+C:\Program Files\GOG.com\Master Of Magic\UNITS1.LBX - 28467
+C:\Program Files\GOG.com\Master Of Magic\UNITS2.LBX - 18373
+C:\Program Files\GOG.com\Master Of Magic\UNITVIEW.LBX - 138180
+C:\Program Files\GOG.com\Master Of Magic\VORTEX.LBX - 57098
+C:\Program Files\GOG.com\Master Of Magic\WALLRISE.LBX - 30427
+C:\Program Files\GOG.com\Master Of Magic\WIN.LBX - 1360287
+C:\Program Files\GOG.com\Master Of Magic\WIZARDS.EXE - 1001232
+C:\Program Files\GOG.com\Master Of Magic\WIZARDS.LBX - 130061
+C:\Program Files\GOG.com\Master Of Magic\WIZLAB.LBX - 212673
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox-0.73.tar.gz - 1279384
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox.exe - 3760640
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_AUTHORS.txt - 243
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_COPYING.txt - 18332
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_INSTALL.txt - 3937
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_NEWS.txt - 27704
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_README.txt - 52658
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_THANKS.txt - 960
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\SDL.dll - 448231
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\SDL_net.dll - 13312
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\zmbv\README.txt - 1608
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\zmbv\zmbv.dll - 94208
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\zmbv\zmbv.inf - 4043
+
+Install Folder Dump:
+C:\Program Files\GOG.com\Master Of Magic\ARMYLIST.LBX - 127564
+C:\Program Files\GOG.com\Master Of Magic\BACKGRND.LBX - 166370
+C:\Program Files\GOG.com\Master Of Magic\BOOK.LBX - 94560
+C:\Program Files\GOG.com\Master Of Magic\BUILDDAT.LBX - 2420
+C:\Program Files\GOG.com\Master Of Magic\BUILDESC.LBX - 7748
+C:\Program Files\GOG.com\Master Of Magic\CHRIVER.LBX - 22748
+C:\Program Files\GOG.com\Master Of Magic\CITYNAME.LBX - 4468
+C:\Program Files\GOG.com\Master Of Magic\CITYSCAP.LBX - 244933
+C:\Program Files\GOG.com\Master Of Magic\CITYWALL.LBX - 48066
+C:\Program Files\GOG.com\Master Of Magic\CMBDESRC.LBX - 22880
+C:\Program Files\GOG.com\Master Of Magic\CMBDESRT.LBX - 22629
+C:\Program Files\GOG.com\Master Of Magic\CMBGRASC.LBX - 23339
+C:\Program Files\GOG.com\Master Of Magic\CMBGRASS.LBX - 23149
+C:\Program Files\GOG.com\Master Of Magic\CMBMAGIC.LBX - 81355
+C:\Program Files\GOG.com\Master Of Magic\CMBMOUNC.LBX - 23094
+C:\Program Files\GOG.com\Master Of Magic\CMBMOUNT.LBX - 22762
+C:\Program Files\GOG.com\Master Of Magic\CMBTCITY.LBX - 77736
+C:\Program Files\GOG.com\Master Of Magic\CMBTFX.LBX - 126932
+C:\Program Files\GOG.com\Master Of Magic\CMBTSND.LBX - 93504
+C:\Program Files\GOG.com\Master Of Magic\CMBTUNDC.LBX - 22998
+C:\Program Files\GOG.com\Master Of Magic\CMBTUNDR.LBX - 22992
+C:\Program Files\GOG.com\Master Of Magic\CMBTWALL.LBX - 172834
+C:\Program Files\GOG.com\Master Of Magic\COMBAT.LBX - 79963
+C:\Program Files\GOG.com\Master Of Magic\COMPIX.LBX - 91981
+C:\Program Files\GOG.com\Master Of Magic\CONFIG.MOM - 20
+C:\Program Files\GOG.com\Master Of Magic\CONQUEST.LBX - 509038
+C:\Program Files\GOG.com\Master Of Magic\DESC.LBX - 27058
+C:\Program Files\GOG.com\Master Of Magic\DESERT.LBX - 30586
+C:\Program Files\GOG.com\Master Of Magic\DIPLOMAC.LBX - 942221
+C:\Program Files\GOG.com\Master Of Magic\DIPLOMSG.LBX - 223028
+C:\Program Files\GOG.com\Master Of Magic\dosboxMOM.conf - 7091
+C:\Program Files\GOG.com\Master Of Magic\EVENTMSG.LBX - 25748
+C:\Program Files\GOG.com\Master Of Magic\EVENTS.LBX - 27267
+C:\Program Files\GOG.com\Master Of Magic\FAT-GEN.CAT - 11920
+C:\Program Files\GOG.com\Master Of Magic\FAT-OPL3.BNK - 20320
+C:\Program Files\GOG.com\Master Of Magic\FAT.AD - 3622
+C:\Program Files\GOG.com\Master Of Magic\FAT.CAT - 34826
+C:\Program Files\GOG.com\Master Of Magic\FAT.MT - 65026
+C:\Program Files\GOG.com\Master Of Magic\FAT.OPL - 5591
+C:\Program Files\GOG.com\Master Of Magic\FATV10.BNK - 10780
+C:\Program Files\GOG.com\Master Of Magic\FIGURE10.LBX - 109568
+C:\Program Files\GOG.com\Master Of Magic\FIGURE11.LBX - 166422
+C:\Program Files\GOG.com\Master Of Magic\FIGURE12.LBX - 123680
+C:\Program Files\GOG.com\Master Of Magic\FIGURE13.LBX - 153158
+C:\Program Files\GOG.com\Master Of Magic\FIGURE14.LBX - 38190
+C:\Program Files\GOG.com\Master Of Magic\FIGURE15.LBX - 144551
+C:\Program Files\GOG.com\Master Of Magic\FIGURE16.LBX - 46312
+C:\Program Files\GOG.com\Master Of Magic\FIGURES1.LBX - 143768
+C:\Program Files\GOG.com\Master Of Magic\FIGURES2.LBX - 148785
+C:\Program Files\GOG.com\Master Of Magic\FIGURES3.LBX - 140396
+C:\Program Files\GOG.com\Master Of Magic\FIGURES4.LBX - 99144
+C:\Program Files\GOG.com\Master Of Magic\FIGURES5.LBX - 135831
+C:\Program Files\GOG.com\Master Of Magic\FIGURES6.LBX - 118205
+C:\Program Files\GOG.com\Master Of Magic\FIGURES7.LBX - 104654
+C:\Program Files\GOG.com\Master Of Magic\FIGURES8.LBX - 103823
+C:\Program Files\GOG.com\Master Of Magic\FIGURES9.LBX - 110764
+C:\Program Files\GOG.com\Master Of Magic\FONTS.LBX - 57536
+C:\Program Files\GOG.com\Master Of Magic\gfw_high.ico - 129547
+C:\Program Files\GOG.com\Master Of Magic\goggame.dll - 250880
+C:\Program Files\GOG.com\Master Of Magic\Graphic mode setup.exe - 1279488
+C:\Program Files\GOG.com\Master Of Magic\HALOFAM.LBX - 83305
+C:\Program Files\GOG.com\Master Of Magic\HELP.LBX - 1728545
+C:\Program Files\GOG.com\Master Of Magic\HERODATA.LBX - 2048
+C:\Program Files\GOG.com\Master Of Magic\HIRE.LBX - 55648
+C:\Program Files\GOG.com\Master Of Magic\HLPENTRY.LBX - 7408
+C:\Program Files\GOG.com\Master Of Magic\innosetup_license.txt - 1471
+C:\Program Files\GOG.com\Master Of Magic\INSTALL.DAT - 13539
+C:\Program Files\GOG.com\Master Of Magic\INSTALL.EXE - 51072
+C:\Program Files\GOG.com\Master Of Magic\INSTALL.GIF - 40425
+C:\Program Files\GOG.com\Master Of Magic\INTRO.LBX - 2598921
+C:\Program Files\GOG.com\Master Of Magic\INTROSFX.LBX - 132764
+C:\Program Files\GOG.com\Master Of Magic\INTROSND.LBX - 7098
+C:\Program Files\GOG.com\Master Of Magic\ITEMDATA.LBX - 14548
+C:\Program Files\GOG.com\Master Of Magic\ITEMISC.LBX - 27859
+C:\Program Files\GOG.com\Master Of Magic\ITEMMAKE.EXE - 177226
+C:\Program Files\GOG.com\Master Of Magic\ITEMPOW.LBX - 2558
+C:\Program Files\GOG.com\Master Of Magic\ITEMS.LBX - 22638
+C:\Program Files\GOG.com\Master Of Magic\LILWIZ.LBX - 117330
+C:\Program Files\GOG.com\Master Of Magic\LISTDAT.LBX - 15548
+C:\Program Files\GOG.com\Master Of Magic\LOAD.LBX - 113025
+C:\Program Files\GOG.com\Master Of Magic\LOSE.LBX - 529910
+C:\Program Files\GOG.com\Master Of Magic\MAGIC.EXE - 303264
+C:\Program Files\GOG.com\Master Of Magic\MAGIC.LBX - 109495
+C:\Program Files\GOG.com\Master Of Magic\MAGIC.SET - 466
+C:\Program Files\GOG.com\Master Of Magic\MAIN.LBX - 68964
+C:\Program Files\GOG.com\Master Of Magic\MAINSCRN.LBX - 196511
+C:\Program Files\GOG.com\Master Of Magic\manual.pdf - 1821276
+C:\Program Files\GOG.com\Master Of Magic\MAPBACK.LBX - 26627
+C:\Program Files\GOG.com\Master Of Magic\MESSAGE.LBX - 15548
+C:\Program Files\GOG.com\Master Of Magic\MONSTER.LBX - 86665
+C:\Program Files\GOG.com\Master Of Magic\MOODWIZ.LBX - 154435
+C:\Program Files\GOG.com\Master Of Magic\MPSCOPY.EXE - 38620
+C:\Program Files\GOG.com\Master Of Magic\MUSIC.LBX - 606946
+C:\Program Files\GOG.com\Master Of Magic\NAMES.LBX - 3148
+C:\Program Files\GOG.com\Master Of Magic\NEWGAME.LBX - 271669
+C:\Program Files\GOG.com\Master Of Magic\NEWSOUND.LBX - 562022
+C:\Program Files\GOG.com\Master Of Magic\PKUNZJR.COM - 2750
+C:\Program Files\GOG.com\Master Of Magic\PORTRAIT.LBX - 42094
+C:\Program Files\GOG.com\Master Of Magic\README.TXT - 25755
+C:\Program Files\GOG.com\Master Of Magic\RELOAD.LBX - 390727
+C:\Program Files\GOG.com\Master Of Magic\RESOURCE.LBX - 253657
+C:\Program Files\GOG.com\Master Of Magic\SAVE1.GAM - 123300
+C:\Program Files\GOG.com\Master Of Magic\SAVE2.GAM - 123300
+C:\Program Files\GOG.com\Master Of Magic\SAVE8.GAM - 123300
+C:\Program Files\GOG.com\Master Of Magic\SAVE9.GAM - 123300
+C:\Program Files\GOG.com\Master Of Magic\SCROLL.LBX - 650536
+C:\Program Files\GOG.com\Master Of Magic\SNDDRV.LBX - 183011
+C:\Program Files\GOG.com\Master Of Magic\SOUNDFX.LBX - 2838117
+C:\Program Files\GOG.com\Master Of Magic\SPECFX.LBX - 557778
+C:\Program Files\GOG.com\Master Of Magic\SPECIAL.LBX - 40630
+C:\Program Files\GOG.com\Master Of Magic\SPECIAL2.LBX - 64795
+C:\Program Files\GOG.com\Master Of Magic\spellbook.pdf - 372736
+C:\Program Files\GOG.com\Master Of Magic\SPELLDAT.LBX - 8288
+C:\Program Files\GOG.com\Master Of Magic\SPELLOSE.LBX - 174525
+C:\Program Files\GOG.com\Master Of Magic\SPELLS.LBX - 52656
+C:\Program Files\GOG.com\Master Of Magic\SPELLSCR.LBX - 1247460
+C:\Program Files\GOG.com\Master Of Magic\SPLMASTR.LBX - 1572001
+C:\Program Files\GOG.com\Master Of Magic\stderr.txt - 0
+C:\Program Files\GOG.com\Master Of Magic\stdout.txt - 176
+C:\Program Files\GOG.com\Master Of Magic\Support.ico - 62895
+C:\Program Files\GOG.com\Master Of Magic\TERRAIN.LBX - 681564
+C:\Program Files\GOG.com\Master Of Magic\TERRSTAT.LBX - 5400
+C:\Program Files\GOG.com\Master Of Magic\TERRTYPE.LBX - 3108
+C:\Program Files\GOG.com\Master Of Magic\TUNDRA.LBX - 15549
+C:\Program Files\GOG.com\Master Of Magic\unins000.dat - 63493
+C:\Program Files\GOG.com\Master Of Magic\unins000.exe - 2142547
+C:\Program Files\GOG.com\Master Of Magic\unins000.ini - 80
+C:\Program Files\GOG.com\Master Of Magic\UNITS1.LBX - 28467
+C:\Program Files\GOG.com\Master Of Magic\UNITS2.LBX - 18373
+C:\Program Files\GOG.com\Master Of Magic\UNITVIEW.LBX - 138180
+C:\Program Files\GOG.com\Master Of Magic\VORTEX.LBX - 57098
+C:\Program Files\GOG.com\Master Of Magic\WALLRISE.LBX - 30427
+C:\Program Files\GOG.com\Master Of Magic\WIN.LBX - 1360287
+C:\Program Files\GOG.com\Master Of Magic\WIZARDS.EXE - 1001232
+C:\Program Files\GOG.com\Master Of Magic\WIZARDS.LBX - 130061
+C:\Program Files\GOG.com\Master Of Magic\WIZLAB.LBX - 212673
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox-0.73.tar.gz - 1279384
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox.exe - 3760640
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_AUTHORS.txt - 243
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_COPYING.txt - 18332
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_INSTALL.txt - 3937
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_NEWS.txt - 27704
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_README.txt - 52658
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\dosbox_THANKS.txt - 960
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\SDL.dll - 448231
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\SDL_net.dll - 13312
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\zmbv\README.txt - 1608
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\zmbv\zmbv.dll - 94208
+C:\Program Files\GOG.com\Master Of Magic\DOSBOX\zmbv\zmbv.inf - 4043
+
+UAC Disabled or not present

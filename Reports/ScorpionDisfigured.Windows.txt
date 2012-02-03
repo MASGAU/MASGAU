@@ -1,0 +1,253 @@
+Game Name: Scorpion Disfigured
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Atari\Scorpion-Disfigured
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6D32BF39-6949-4F24-A572-0D1009AE5DBB}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Atari\Scorpion-Disfigured
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6D32BF39-6949-4F24-A572-0D1009AE5DBB}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Atari\Scorpion-Disfigured\
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Atari\Scorpion-Disfigured
+Value: install_path
+Data: C:\Program Files (x86)\Atari\Scorpion-Disfigured
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Atari\Scorpion-Disfigured\Scorpion-Disfigured.lnk
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\scorpion.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Atari\Scorpion-Disfigured\Uninstall Scorpion-Disfigured.lnk
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\default.cfg - 825
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\game.cfg - 741
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\scorpion.prop - 6538
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\Save\01_DISEASE_autosave.data - 1267576
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\Save\01_DISEASE_autosave.sav - 424
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\Save\01_DISEASE_autosave_NOTH.dds - 262272
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\Save\quick_save.data - 1278076
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\Save\quick_save.sav - 406
+C:\Users\%USERNAME%\Documents\My Games\Atari\Scorpion-Disfigured\1_1_1_En\Save\quick_save_NOTH.dds - 262272
+
+Install Folder Dump: 
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\ai.prop - 4950
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\default.cfg - 825
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\eax.dll.old - 98304
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\EaxMan.dll - 81920
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\editor.prop - 240
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\EULA_en.rtf - 74190
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\game.cfg - 825
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\gfw_reg.exe - 155648
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\minidump.dmp - 95817
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\NxCooking.dll - 390432
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\OpenAL32.dll.old - 114688
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\physics.prop - 3079
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\PhysXLoader.dll - 70944
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\scorpion.exe - 19264000
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\scorpion.prop - 6483
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\stack_trace.log - 1575
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\unins000.dat - 25211
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\unins000.exe - 695642
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\wrap_oal.dll.old - 409600
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\data.bzs - 401863709
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\data.bzs.cache - 1166127
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\levels.bzs - 1419343785
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\levels.bzs.cache - 2086118
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\save.bzs - 17012861
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\save.bzs.cache - 2196
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\sounds.bzs - 647647481
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\sounds.bzs.cache - 462751
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\textures.bzs - 896164116
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\textures.bzs.cache - 514073
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\ui_startlevel.bzs - 2275
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\ui_startlevel.bzs.cache - 435
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\cfg\default.cfg - 825
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\cfg\game.cfg - 825
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\22caliber256.avi - 1482752
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\bacteria256.avi - 3792896
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\bullet256.avi - 1060864
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\card_1_256.avi - 2840576
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\card_256.avi - 8310784
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\car_256.avi - 221184
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\catana256.avi - 595968
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\cometa256.avi - 419840
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\deserteagl256.avi - 897024
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\eart256.avi - 10268672
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\eart_from_space_256.avi - 6588416
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\electro256.avi - 1574912
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\HSEYKH_TALK.avi - 2345984
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\hz.avi - 64682
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\Intro.avi - 2810292
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\jasna_dead.avi - 1080404
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\Jasna_talk.avi - 192512
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\Jasna_talk_00.avi - 1265152
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\Jasna_tolk_02.avi - 555008
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\Jasna_tolk_03.avi - 528384
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\k2.avi - 20840874
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\laptop_fire_256.avi - 5888000
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\level_24_intro.avi - 5496832
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\McCleann.avi - 204800
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\minigun256.avi - 2029568
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\nanivaOS.avi - 14189320
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\NewBacteria256.avi - 4765696
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\NewBacteria2_256.avi - 8065024
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\nuclear256.avi - 4302848
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\OUTRO.avi - 78735360
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\plasma256.avi - 8570880
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\root256.avi - 16576512
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\sheikh_talk.avi - 577536
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\sheikh_talk256.avi - 591872
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\skill_256.avi - 5255168
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\trick_256.avi - 4528128
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\data\movies\woman_256.avi - 3766272
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\oalinst.exe - 782336
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\PhysX_9.09.0203_SystemSoftware.exe - 41161496
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\XviD-1.1.2-01112006.exe - 643144
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2005_d3dx9_25_x64.cab - 1347346
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2005_d3dx9_25_x86.cab - 1078954
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2006_d3dx9_30_x64.cab - 1397830
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2006_d3dx9_30_x86.cab - 1115221
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2006_MDX1_x86.cab - 916422
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2006_MDX1_x86_Archive.cab - 4162622
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2006_XACT_x64.cab - 179125
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2006_XACT_x86.cab - 133095
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2006_xinput_x64.cab - 87093
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Apr2006_xinput_x86.cab - 46002
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\APR2007_d3dx10_33_x64.cab - 698612
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\APR2007_d3dx10_33_x86.cab - 695857
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\APR2007_d3dx9_33_x64.cab - 1607358
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\APR2007_d3dx9_33_x86.cab - 1606039
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\APR2007_XACT_x64.cab - 195758
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\APR2007_XACT_x86.cab - 151225
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\APR2007_xinput_x64.cab - 96817
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2005_d3dx9_27_x64.cab - 1350534
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2005_d3dx9_27_x86.cab - 1077644
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2006_XACT_x64.cab - 182895
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2006_XACT_x86.cab - 137227
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2006_xinput_x64.cab - 87134
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2006_xinput_x86.cab - 46050
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2007_d3dx10_35_x64.cab - 852278
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2007_d3dx10_35_x86.cab - 796859
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2007_d3dx9_35_x64.cab - 1800152
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2007_d3dx9_35_x86.cab - 1708144
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2007_XACT_x64.cab - 198088
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\AUG2007_XACT_x86.cab - 153004
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2008_d3dx10_39_x64.cab - 867604
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2008_d3dx10_39_x86.cab - 849159
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2008_d3dx9_39_x64.cab - 1794076
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2008_d3dx9_39_x86.cab - 1464664
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2008_XACT_x64.cab - 121824
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2008_XACT_x86.cab - 93004
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2008_XAudio_x64.cab - 271360
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Aug2008_XAudio_x86.cab - 269842
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\BDANT.cab - 1155483
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\BDAXP.cab - 975148
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Dec2005_d3dx9_28_x64.cab - 1357976
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Dec2005_d3dx9_28_x86.cab - 1079456
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\DEC2006_d3dx10_00_x64.cab - 212799
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\DEC2006_d3dx10_00_x86.cab - 191720
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\DEC2006_d3dx9_32_x64.cab - 1571154
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\DEC2006_d3dx9_32_x86.cab - 1574376
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\DEC2006_XACT_x64.cab - 192475
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\DEC2006_XACT_x86.cab - 145591
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\DSETUP.dll - 94024
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\dsetup32.dll - 1691464
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\dxdllreg_x86.cab - 44444
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\dxnt.cab - 13264160
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\DXSETUP.exe - 525128
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\dxupdate.cab - 95296
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Feb2005_d3dx9_24_x64.cab - 1247499
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Feb2005_d3dx9_24_x86.cab - 1013217
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Feb2006_d3dx9_29_x64.cab - 1362788
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Feb2006_d3dx9_29_x86.cab - 1084712
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Feb2006_XACT_x64.cab - 178351
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Feb2006_XACT_x86.cab - 132409
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\FEB2007_XACT_x64.cab - 194675
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\FEB2007_XACT_x86.cab - 147975
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Jun2005_d3dx9_26_x64.cab - 1335994
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Jun2005_d3dx9_26_x86.cab - 1064917
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2006_XACT_x64.cab - 180777
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2006_XACT_x86.cab - 133663
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2007_d3dx10_34_x64.cab - 699036
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2007_d3dx10_34_x86.cab - 698472
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2007_d3dx9_34_x64.cab - 1607766
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2007_d3dx9_34_x86.cab - 1607286
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2007_XACT_x64.cab - 197122
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2007_XACT_x86.cab - 152909
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_d3dx10_38_x64.cab - 867828
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_d3dx10_38_x86.cab - 849919
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_d3dx9_38_x64.cab - 1792600
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_d3dx9_38_x86.cab - 1463878
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_X3DAudio_x64.cab - 55154
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_X3DAudio_x86.cab - 21897
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_XACT_x64.cab - 121046
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_XACT_x86.cab - 93120
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_XAudio_x64.cab - 269620
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\JUN2008_XAudio_x86.cab - 269016
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_d3dx10_37_x64.cab - 844884
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_d3dx10_37_x86.cab - 818252
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_d3dx9_37_x64.cab - 1769854
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_d3dx9_37_x86.cab - 1443282
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_X3DAudio_x64.cab - 55058
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_X3DAudio_x86.cab - 21867
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_XACT_x64.cab - 122328
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_XACT_x86.cab - 93726
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_XAudio_x64.cab - 251194
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2008_XAudio_x86.cab - 226242
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_d3dx10_41_x86.cab - 1040745
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_d3dx9_41_x64.cab - 1973694
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_X3DAudio_x64.cab - 54592
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_XACT_x64.cab - 121498
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_XACT_x86.cab - 92732
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_XAudio_x64.cab - 275036
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Mar2009_XAudio_x86.cab - 273010
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2007_d3dx10_36_x64.cab - 864592
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2007_d3dx10_36_x86.cab - 803884
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2007_d3dx9_36_x64.cab - 1802050
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2007_d3dx9_36_x86.cab - 1709352
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\NOV2007_X3DAudio_x64.cab - 46144
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\NOV2007_X3DAudio_x86.cab - 18488
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\NOV2007_XACT_x64.cab - 196754
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\NOV2007_XACT_x86.cab - 148264
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_d3dx10_40_x64.cab - 994146
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_d3dx10_40_x86.cab - 965413
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_d3dx9_40_x64.cab - 1906870
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_d3dx9_40_x86.cab - 1550796
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_X3DAudio_x64.cab - 55110
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_X3DAudio_x86.cab - 21836
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_XACT_x64.cab - 121746
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_XACT_x86.cab - 92688
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_XAudio_x64.cab - 273990
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Nov2008_XAudio_x86.cab - 273203
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Oct2005_xinput_x64.cab - 86029
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\Oct2005_xinput_x86.cab - 45359
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\OCT2006_d3dx9_31_x64.cab - 1412894
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\OCT2006_d3dx9_31_x86.cab - 1127209
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\OCT2006_XACT_x64.cab - 182361
+C:\Program Files (x86)\Atari\Scorpion-Disfigured\middle\dx_redist\OCT2006_XACT_x86.cab - 138017
+
+UAC Disabled or not present
+

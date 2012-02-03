@@ -1,0 +1,82 @@
+Game Name: Bionic Commando Rearmed
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+SteamCommon\bionic commando rearmed
+
+Save Path:
+SteamCommon\bionic commando rearmed\saves
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 21680
+Value: InstallLocation
+Data: SteamCommon\bionic commando rearmed
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: O:\
+Drive Root: O:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/07/2010 01:10:06 - SteamCommon\bionic commando rearmed\saves\save0.sav - 58849
+
+Install Folder Dump:
+10/07/2010 19:02:28 - SteamCommon\bionic commando rearmed\bcr.exe - 18479384
+10/07/2010 18:57:22 - SteamCommon\bionic commando rearmed\binkw32.dll - 176920
+10/07/2010 18:57:33 - SteamCommon\bionic commando rearmed\context.xml - 1515
+10/07/2010 18:58:07 - SteamCommon\bionic commando rearmed\dieselx.cfg - 253
+10/07/2010 18:57:19 - SteamCommon\bionic commando rearmed\game.ver - 5
+10/07/2010 18:58:04 - SteamCommon\bionic commando rearmed\installscript.vdf - 1000
+10/07/2010 18:57:41 - SteamCommon\bionic commando rearmed\NxCooking.dll - 390432
+10/07/2010 18:57:39 - SteamCommon\bionic commando rearmed\splash_screen.bmp - 880856
+10/07/2010 18:57:28 - SteamCommon\bionic commando rearmed\splash_screen_progress.bmp - 2456
+10/07/2010 18:57:23 - SteamCommon\bionic commando rearmed\steam_api.dll - 115960
+10/07/2010 19:05:31 - SteamCommon\bionic commando rearmed\bundles\quick.bundle - 226397318
+11/07/2010 22:27:13 - SteamCommon\bionic commando rearmed\data\eula.log - 75
+10/07/2010 18:57:19 - SteamCommon\bionic commando rearmed\data\static.dat - 10
+10/07/2010 19:01:57 - SteamCommon\bionic commando rearmed\data\movies\bc_trailer.bik - 78295212
+14/12/2011 10:14:50 - SteamCommon\bionic commando rearmed\data\settings\renderer_settings.xml - 160
+10/07/2010 18:57:28 - SteamCommon\bionic commando rearmed\reslists\precache.lst - 656
+10/07/2010 18:57:41 - SteamCommon\bionic commando rearmed\reslists\preload.lst - 656
+12/07/2010 01:10:06 - SteamCommon\bionic commando rearmed\saves\save0.sav - 58849
+10/07/2010 18:58:02 - SteamCommon\bionic commando rearmed\Support\DirectX\APR2007_xinput_x64.cab - 97833
+10/07/2010 18:57:27 - SteamCommon\bionic commando rearmed\Support\DirectX\APR2007_xinput_x86.cab - 54318
+10/07/2010 18:57:49 - SteamCommon\bionic commando rearmed\Support\DirectX\AUG2007_d3dx10_35_x64.cab - 855886
+10/07/2010 18:57:28 - SteamCommon\bionic commando rearmed\Support\DirectX\AUG2007_d3dx10_35_x86.cab - 800467
+10/07/2010 18:57:56 - SteamCommon\bionic commando rearmed\Support\DirectX\AUG2007_d3dx9_35_x64.cab - 1803760
+10/07/2010 18:57:39 - SteamCommon\bionic commando rearmed\Support\DirectX\AUG2007_d3dx9_35_x86.cab - 1711752
+10/07/2010 18:57:31 - SteamCommon\bionic commando rearmed\Support\DirectX\AUG2007_XACT_x64.cab - 201696
+10/07/2010 18:58:10 - SteamCommon\bionic commando rearmed\Support\DirectX\AUG2007_XACT_x86.cab - 156612
+10/07/2010 18:57:26 - SteamCommon\bionic commando rearmed\Support\DirectX\DSETUP.dll - 95056
+10/07/2010 18:58:02 - SteamCommon\bionic commando rearmed\Support\DirectX\dsetup32.dll - 1692496
+10/07/2010 18:57:28 - SteamCommon\bionic commando rearmed\Support\DirectX\dxdllreg_x86.cab - 45464
+10/07/2010 19:01:29 - SteamCommon\bionic commando rearmed\Support\DirectX\dxnt.cab - 13265184
+10/07/2010 18:58:02 - SteamCommon\bionic commando rearmed\Support\DirectX\DXSETUP.exe - 526160
+10/07/2010 18:57:23 - SteamCommon\bionic commando rearmed\Support\DirectX\dxupdate.cab - 96053
+10/07/2010 18:58:00 - SteamCommon\bionic commando rearmed\Support\DirectX\JUN2008_d3dx10_38_x64.cab - 868844
+10/07/2010 18:57:23 - SteamCommon\bionic commando rearmed\Support\DirectX\JUN2008_d3dx10_38_x86.cab - 850935
+10/07/2010 18:58:10 - SteamCommon\bionic commando rearmed\Support\DirectX\JUN2008_d3dx9_38_x64.cab - 1793624
+10/07/2010 18:57:26 - SteamCommon\bionic commando rearmed\Support\DirectX\JUN2008_d3dx9_38_x86.cab - 1464894
+10/07/2010 18:57:20 - SteamCommon\bionic commando rearmed\Support\DirectX\JUN2008_XACT_x64.cab - 122070
+10/07/2010 18:57:31 - SteamCommon\bionic commando rearmed\Support\DirectX\JUN2008_XACT_x86.cab - 94144
+10/07/2010 18:57:48 - SteamCommon\bionic commando rearmed\Support\DirectX\Nov2008_d3dx10_40_x64.cab - 995154
+10/07/2010 18:57:57 - SteamCommon\bionic commando rearmed\Support\DirectX\Nov2008_d3dx10_40_x86.cab - 966445
+10/07/2010 18:57:52 - SteamCommon\bionic commando rearmed\Support\DirectX\Nov2008_d3dx9_40_x64.cab - 1907944
+10/07/2010 18:57:27 - SteamCommon\bionic commando rearmed\Support\DirectX\Nov2008_d3dx9_40_x86.cab - 1551228
+10/07/2010 18:57:41 - SteamCommon\bionic commando rearmed\Support\DirectX\Nov2008_XACT_x64.cab - 122810
+10/07/2010 18:58:11 - SteamCommon\bionic commando rearmed\Support\DirectX\Nov2008_XACT_x86.cab - 93700
+10/07/2010 18:57:22 - SteamCommon\bionic commando rearmed\Support\OpenAL\oalinst.exe - 799424
+10/07/2010 18:57:19 - SteamCommon\bionic commando rearmed\Support\OpenAL\OpenAL_EULA.txt - 1899
+10/07/2010 19:04:07 - SteamCommon\bionic commando rearmed\Support\PhysX\PhysX_7.11.13_SystemSoftware.exe - 39242016
+
+UAC Enabled
+
+
+VirtualStore Folders:

@@ -1,0 +1,89 @@
+Comments:
+  <game name="Limbo" platform="Steam">
+    <title>Limbo</title>
+    <location_path environment_variable="steamuserdata" path="48000" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Limbo
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\limbo
+
+Save Path: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\48000
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 48000
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\limbo
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\48000\remotecache.vdf - 265
+C:\Program Files (x86)\Steam\userdata\%STEAMID%\48000\remote\savegame.txt - 112
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\limbo\installscript.vdf - 537
+C:\Program Files (x86)\Steam\steamapps\common\limbo\limbo.exe - 5642240
+C:\Program Files (x86)\Steam\steamapps\common\limbo\limbo_boot.pkg - 19107954
+C:\Program Files (x86)\Steam\steamapps\common\limbo\limbo_runtime.pkg - 12587673
+C:\Program Files (x86)\Steam\steamapps\common\limbo\settings.txt - 551
+C:\Program Files (x86)\Steam\steamapps\common\limbo\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\145441027.ogg - 165610
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\217485067.wav - 3661504
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\288041556.ogg - 236317
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\351312017.ogg - 416505
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\36509593.ogg - 210046
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\386678257.ogg - 452419
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\410947880.ogg - 290886
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\54189208.ogg - 244048
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\574929999.ogg - 242468
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\58923886.ogg - 167897
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\66327209.wav - 1246768
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\714585267.ogg - 290252
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\721828432.wav - 3853720
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\744911790.ogg - 281471
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\77911966.ogg - 167400
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\932068112.ogg - 236834
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\Init.bnk - 14183
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\l_default.bnk - 47759242
+C:\Program Files (x86)\Steam\steamapps\common\limbo\data\audio\pc\l_intro.bnk - 462125
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\AUG2006_xinput_x86.cab - 46058
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\DSETUP.dll - 89944
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\dsetup32.dll - 1801048
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\dxdllreg_x86.cab - 42410
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\DXSETUP.exe - 537432
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\dxupdate.cab - 94011
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\Jun2010_D3DCompiler_43_x86.cab - 931471
+C:\Program Files (x86)\Steam\steamapps\common\limbo\DirectX_Redist\Jun2010_d3dx9_43_x86.cab - 768036
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\dot.png - 166
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\limbo_title.png - 79273
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_de.png - 3628
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_es.png - 4410
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_fr.png - 4763
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_it.png - 4753
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_ja.png - 5048
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_ko.png - 4131
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_pt.png - 4169
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_uk.png - 4213
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\loading_zh.png - 4260
+C:\Program Files (x86)\Steam\steamapps\common\limbo\titledata\bootscreen\pc_logo.png - 77434
+
+UAC Disabled or not present
+

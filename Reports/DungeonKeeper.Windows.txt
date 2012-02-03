@@ -1,0 +1,404 @@
+Game Name: Dungeon Keeper
+
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+C:\Games\GOG.com\Dungeon Keeper
+
+Save Path: 
+C:\Games\GOG.com\Dungeon Keeper\SAVE
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{EA49D6B2-8D64-4C19-83CB-A1C0AB961BD1}
+Value: ConfigApplicationPath
+Data: C:\Games\GOG.com\Dungeon Keeper\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{EA49D6B2-8D64-4C19-83CB-A1C0AB961BD1}
+Value: ConfigGDFBinaryPath
+Data: C:\Games\GOG.com\Dungeon Keeper\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDUNGEONKEEPERDOS
+Value: EXE
+Data: C:\Games\GOG.com\Dungeon Keeper\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDUNGEONKEEPERDOS
+Value: PATH
+Data: C:\Games\GOG.com\Dungeon Keeper\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDUNGEONKEEPERDOS
+Value: DOSBOXFOLDER
+Data: C:\Games\GOG.com\Dungeon Keeper\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDUNGEONKEEPERDOS
+Value: DOSBOXVERSION
+Data: C:\Games\GOG.com\Dungeon Keeper\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDUNGEONKEEPERDOS
+Value: SAVEGAMEFOLDER
+Data: C:\Games\GOG.com\Dungeon Keeper\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Dungeon Keeper_is1
+Value: Inno Setup: App Path
+Data: C:\Games\GOG.com\Dungeon Keeper
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Dungeon Keeper_is1
+Value: InstallLocation
+Data: C:\Games\GOG.com\Dungeon Keeper\
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\IntelliType Pro\AppSpecific\DOSBox.exe
+Value: Path
+Data: C:\Games\GOG.com\Dungeon Keeper\DOSBOX\DOSBox.exe
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeon Keeper\Dungeon Keeper.lnk
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeon Keeper\Graphic mode setup.lnk
+C:\Games\GOG.com\Dungeon Keeper\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeon Keeper\Uninstall Dungeon Keeper.lnk
+C:\Games\GOG.com\Dungeon Keeper\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeon Keeper\Documents\Manual.lnk
+C:\Games\GOG.com\Dungeon Keeper\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeon Keeper\Network\Start CLIENT game.lnk
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeon Keeper\Network\Start HOST game.lnk
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\DOSBox.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Games\GOG.com\Dungeon Keeper\SAVE\GAME0000.SAV - 1382437
+C:\Games\GOG.com\Dungeon Keeper\SAVE\SAVE.CAT - 136
+C:\Games\GOG.com\Dungeon Keeper\SAVE\SETTINGS.DAT - 82
+
+Install Folder Dump: 
+C:\Games\GOG.com\Dungeon Keeper\CONNECT.BAT - 37
+C:\Games\GOG.com\Dungeon Keeper\DOS4GW.EXE - 265396
+C:\Games\GOG.com\Dungeon Keeper\dosboxDK.conf - 7295
+C:\Games\GOG.com\Dungeon Keeper\dosboxDK_client.conf - 7433
+C:\Games\GOG.com\Dungeon Keeper\dosboxDK_server.conf - 7315
+C:\Games\GOG.com\Dungeon Keeper\DPATCH.1 - 1923995
+C:\Games\GOG.com\Dungeon Keeper\GAME.GOG - 183086736
+C:\Games\GOG.com\Dungeon Keeper\GAME.INST - 480
+C:\Games\GOG.com\Dungeon Keeper\gfw_high.ico - 114937
+C:\Games\GOG.com\Dungeon Keeper\goggame.dll - 229888
+C:\Games\GOG.com\Dungeon Keeper\Graphic mode setup.exe - 980992
+C:\Games\GOG.com\Dungeon Keeper\innosetup_license.txt - 1471
+C:\Games\GOG.com\Dungeon Keeper\KEEPER.CFG - 57
+C:\Games\GOG.com\Dungeon Keeper\KEEPER.EXE - 1923995
+C:\Games\GOG.com\Dungeon Keeper\KEEPER.PTI - 11
+C:\Games\GOG.com\Dungeon Keeper\keeper02.ogg - 2746895
+C:\Games\GOG.com\Dungeon Keeper\keeper03.ogg - 3770267
+C:\Games\GOG.com\Dungeon Keeper\keeper04.ogg - 3309304
+C:\Games\GOG.com\Dungeon Keeper\keeper05.ogg - 3497951
+C:\Games\GOG.com\Dungeon Keeper\keeper06.ogg - 3100738
+C:\Games\GOG.com\Dungeon Keeper\keeper07.ogg - 2306545
+C:\Games\GOG.com\Dungeon Keeper\manual.pdf - 1508253
+C:\Games\GOG.com\Dungeon Keeper\PATCH.EXE - 53442
+C:\Games\GOG.com\Dungeon Keeper\stderr.txt - 0
+C:\Games\GOG.com\Dungeon Keeper\stdout.txt - 288
+C:\Games\GOG.com\Dungeon Keeper\Support.ico - 62895
+C:\Games\GOG.com\Dungeon Keeper\unins000.dat - 75772
+C:\Games\GOG.com\Dungeon Keeper\unins000.exe - 2142547
+C:\Games\GOG.com\Dungeon Keeper\unins000.ini - 94
+C:\Games\GOG.com\Dungeon Keeper\WPATCH.1 - 1420288
+C:\Games\GOG.com\Dungeon Keeper\DATA\ALPHA.COL - 10496
+C:\Games\GOG.com\Dungeon Keeper\DATA\ALPHA.DAT - 1641
+C:\Games\GOG.com\Dungeon Keeper\DATA\ALPHA.TAB - 36
+C:\Games\GOG.com\Dungeon Keeper\DATA\BLOCK.TAB - 722
+C:\Games\GOG.com\Dungeon Keeper\DATA\BLUEPAL.DAT - 518
+C:\Games\GOG.com\Dungeon Keeper\DATA\BLUEPALL.DAT - 518
+C:\Games\GOG.com\Dungeon Keeper\DATA\BORD0-0.DAT - 1008
+C:\Games\GOG.com\Dungeon Keeper\DATA\BORD0-0.TAB - 94
+C:\Games\GOG.com\Dungeon Keeper\DATA\BORD0-1.DAT - 1008
+C:\Games\GOG.com\Dungeon Keeper\DATA\BORD0-1.TAB - 94
+C:\Games\GOG.com\Dungeon Keeper\DATA\CEILING.TXT - 2880
+C:\Games\GOG.com\Dungeon Keeper\DATA\COLOURS.COL - 4096
+C:\Games\GOG.com\Dungeon Keeper\DATA\CREAT1.TAB - 771
+C:\Games\GOG.com\Dungeon Keeper\DATA\CREATURE.JTY - 13139560
+C:\Games\GOG.com\Dungeon Keeper\DATA\CREATURE.TAB - 146400
+C:\Games\GOG.com\Dungeon Keeper\DATA\CREATURE.TXT - 44048
+C:\Games\GOG.com\Dungeon Keeper\DATA\CRET0000.DAT - 385
+C:\Games\GOG.com\Dungeon Keeper\DATA\CUBE.DAT - 9220
+C:\Games\GOG.com\Dungeon Keeper\DATA\CUBEGRP.DAT - 192
+C:\Games\GOG.com\Dungeon Keeper\DATA\DD1CREAT.TXT - 44048
+C:\Games\GOG.com\Dungeon Keeper\DATA\DOGPAL.PAL - 768
+C:\Games\GOG.com\Dungeon Keeper\DATA\DP_PREFS - 324
+C:\Games\GOG.com\Dungeon Keeper\DATA\EDITICN1.DAT - 594
+C:\Games\GOG.com\Dungeon Keeper\DATA\EDITICN1.TAB - 83
+C:\Games\GOG.com\Dungeon Keeper\DATA\EDITICN2.DAT - 783
+C:\Games\GOG.com\Dungeon Keeper\DATA\EDITICN2.TAB - 79
+C:\Games\GOG.com\Dungeon Keeper\DATA\FONT0-0.DAT - 4867
+C:\Games\GOG.com\Dungeon Keeper\DATA\FONT0-0.TAB - 822
+C:\Games\GOG.com\Dungeon Keeper\DATA\FONT0-1.DAT - 13062
+C:\Games\GOG.com\Dungeon Keeper\DATA\FONT0-1.TAB - 594
+C:\Games\GOG.com\Dungeon Keeper\DATA\FONT2-0.DAT - 8642
+C:\Games\GOG.com\Dungeon Keeper\DATA\FONT2-0.TAB - 1338
+C:\Games\GOG.com\Dungeon Keeper\DATA\FONT2-1.DAT - 23364
+C:\Games\GOG.com\Dungeon Keeper\DATA\FONT2-1.TAB - 1338
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC00.DAT - 25955
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC01.DAT - 55840
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC02.DAT - 28223
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC03.DAT - 44925
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC04.DAT - 49585
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC05.DAT - 58016
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC06.DAT - 4129
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC07.DAT - 1520
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAC08.DAT - 48458
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAME0-0.DAT - 4470
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAME0-0.TAB - 136
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAME0-1.DAT - 4470
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRAME0-1.TAB - 136
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRONTEND.PAL - 768
+C:\Games\GOG.com\Dungeon Keeper\DATA\FRONTEND.RAW - 14289
+C:\Games\GOG.com\Dungeon Keeper\DATA\GMAP.RAW - 32336
+C:\Games\GOG.com\Dungeon Keeper\DATA\GMAPBUG.DAT - 7190
+C:\Games\GOG.com\Dungeon Keeper\DATA\GMAPBUG.TAB - 147
+C:\Games\GOG.com\Dungeon Keeper\DATA\GMAPHI.RAW - 138735
+C:\Games\GOG.com\Dungeon Keeper\DATA\GUI.DAT - 54961
+C:\Games\GOG.com\Dungeon Keeper\DATA\GUI.TAB - 1290
+C:\Games\GOG.com\Dungeon Keeper\DATA\GUI2-0-0.DAT - 125942
+C:\Games\GOG.com\Dungeon Keeper\DATA\GUI2-0-0.TAB - 3090
+C:\Games\GOG.com\Dungeon Keeper\DATA\GUI2-0-1.DAT - 426144
+C:\Games\GOG.com\Dungeon Keeper\DATA\GUI2-0-1.TAB - 3090
+C:\Games\GOG.com\Dungeon Keeper\DATA\GUIHI.DAT - 177104
+C:\Games\GOG.com\Dungeon Keeper\DATA\GUIHI.TAB - 1290
+C:\Games\GOG.com\Dungeon Keeper\DATA\HBUY0-0.DAT - 1427
+C:\Games\GOG.com\Dungeon Keeper\DATA\HBUY0-0.TAB - 100
+C:\Games\GOG.com\Dungeon Keeper\DATA\HBUYSCRN.DAT - 12812
+C:\Games\GOG.com\Dungeon Keeper\DATA\HIFONT.DAT - 807
+C:\Games\GOG.com\Dungeon Keeper\DATA\HIFONT.TAB - 311
+C:\Games\GOG.com\Dungeon Keeper\DATA\HISCORES.DAT - 720
+C:\Games\GOG.com\Dungeon Keeper\DATA\HITPALL.DAT - 375
+C:\Games\GOG.com\Dungeon Keeper\DATA\HPOINTER.DAT - 78701
+C:\Games\GOG.com\Dungeon Keeper\DATA\HPOINTER.TAB - 864
+C:\Games\GOG.com\Dungeon Keeper\DATA\HPOINTS.DAT - 25510
+C:\Games\GOG.com\Dungeon Keeper\DATA\HPOINTS.TAB - 318
+C:\Games\GOG.com\Dungeon Keeper\DATA\HUESHADE.TAB - 276
+C:\Games\GOG.com\Dungeon Keeper\DATA\ICONS0-0.DAT - 41771
+C:\Games\GOG.com\Dungeon Keeper\DATA\ICONS0-0.TAB - 867
+C:\Games\GOG.com\Dungeon Keeper\DATA\ICONS0-1.DAT - 38008
+C:\Games\GOG.com\Dungeon Keeper\DATA\ICONS0-1.TAB - 641
+C:\Games\GOG.com\Dungeon Keeper\DATA\KSEFFECT.JTY - 9232
+C:\Games\GOG.com\Dungeon Keeper\DATA\LEGAL.PAL - 768
+C:\Games\GOG.com\Dungeon Keeper\DATA\LEGAL.RAW - 307200
+C:\Games\GOG.com\Dungeon Keeper\DATA\LIGHTNG.PAL - 768
+C:\Games\GOG.com\Dungeon Keeper\DATA\LOADING.PAL - 768
+C:\Games\GOG.com\Dungeon Keeper\DATA\LOADING.RAW - 64000
+C:\Games\GOG.com\Dungeon Keeper\DATA\LOFONT.DAT - 477
+C:\Games\GOG.com\Dungeon Keeper\DATA\LOFONT.TAB - 265
+C:\Games\GOG.com\Dungeon Keeper\DATA\LPOINTER.DAT - 78701
+C:\Games\GOG.com\Dungeon Keeper\DATA\LPOINTER.TAB - 864
+C:\Games\GOG.com\Dungeon Keeper\DATA\LPOINTS.DAT - 25451
+C:\Games\GOG.com\Dungeon Keeper\DATA\LPOINTS.TAB - 318
+C:\Games\GOG.com\Dungeon Keeper\DATA\MAIN.PAL - 768
+C:\Games\GOG.com\Dungeon Keeper\DATA\MAP00000.ANM - 512
+C:\Games\GOG.com\Dungeon Keeper\DATA\MAP00000.CUB - 9220
+C:\Games\GOG.com\Dungeon Keeper\DATA\MAPFADEG.DAT - 24120
+C:\Games\GOG.com\Dungeon Keeper\DATA\MENUBLK1.DAT - 1781
+C:\Games\GOG.com\Dungeon Keeper\DATA\MENUBLK1.TAB - 166
+C:\Games\GOG.com\Dungeon Keeper\DATA\NOCD.PAL - 768
+C:\Games\GOG.com\Dungeon Keeper\DATA\NOCD.RAW - 64000
+C:\Games\GOG.com\Dungeon Keeper\DATA\PAL00000.DAT - 760
+C:\Games\GOG.com\Dungeon Keeper\DATA\PAL00001.DAT - 736
+C:\Games\GOG.com\Dungeon Keeper\DATA\PAL00002.DAT - 691
+C:\Games\GOG.com\Dungeon Keeper\DATA\PAL00003.DAT - 647
+C:\Games\GOG.com\Dungeon Keeper\DATA\PAL00004.DAT - 561
+C:\Games\GOG.com\Dungeon Keeper\DATA\PALETTE.DAT - 760
+C:\Games\GOG.com\Dungeon Keeper\DATA\POINTERS.DAT - 86
+C:\Games\GOG.com\Dungeon Keeper\DATA\POINTERS.TAB - 12
+C:\Games\GOG.com\Dungeon Keeper\DATA\PORT0-0.DAT - 24746
+C:\Games\GOG.com\Dungeon Keeper\DATA\PORT0-0.TAB - 109
+C:\Games\GOG.com\Dungeon Keeper\DATA\PORT0-1.DAT - 16191
+C:\Games\GOG.com\Dungeon Keeper\DATA\PORT0-1.TAB - 64
+C:\Games\GOG.com\Dungeon Keeper\DATA\REDPAL.COL - 256
+C:\Games\GOG.com\Dungeon Keeper\DATA\REDPALL.DAT - 595
+C:\Games\GOG.com\Dungeon Keeper\DATA\ROOM0-0.DAT - 6091
+C:\Games\GOG.com\Dungeon Keeper\DATA\ROOM0-0.TAB - 116
+C:\Games\GOG.com\Dungeon Keeper\DATA\ROOM0-1.DAT - 3355
+C:\Games\GOG.com\Dungeon Keeper\DATA\ROOM0-1.TAB - 80
+C:\Games\GOG.com\Dungeon Keeper\DATA\SAVE.CAT - 85
+C:\Games\GOG.com\Dungeon Keeper\DATA\SETTINGS.DAT - 26
+C:\Games\GOG.com\Dungeon Keeper\DATA\SHADE.TAB - 2801
+C:\Games\GOG.com\Dungeon Keeper\DATA\SLAB.DAT - 1795
+C:\Games\GOG.com\Dungeon Keeper\DATA\SLAB0-0.DAT - 1801
+C:\Games\GOG.com\Dungeon Keeper\DATA\SLAB0-1.DAT - 1801
+C:\Games\GOG.com\Dungeon Keeper\DATA\SLABS.CLM - 49156
+C:\Games\GOG.com\Dungeon Keeper\DATA\SLABS.DAT - 23474
+C:\Games\GOG.com\Dungeon Keeper\DATA\SLABS.OBJ - 7474
+C:\Games\GOG.com\Dungeon Keeper\DATA\SLABS.TNG - 9266
+C:\Games\GOG.com\Dungeon Keeper\DATA\STAT0-0.DAT - 9806
+C:\Games\GOG.com\Dungeon Keeper\DATA\STAT0-0.TAB - 98
+C:\Games\GOG.com\Dungeon Keeper\DATA\STATE.RST - 205
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWIPE1.DAT - 1854
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWIPE1.TAB - 54
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE00.DAT - 318
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE00.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE01.DAT - 428
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE01.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE02.DAT - 505
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE02.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE03.DAT - 517
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE03.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE04.DAT - 361
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE04.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE05.DAT - 242
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE05.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE06.DAT - 412
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE06.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE07.DAT - 436
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE07.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE08.DAT - 434
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE08.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE09.DAT - 315
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE09.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE10.DAT - 303
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE10.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE11.DAT - 372
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE11.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE12.DAT - 277
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE12.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE13.DAT - 236
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE13.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE14.DAT - 256
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE14.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE15.DAT - 81
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE15.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE16.DAT - 507
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE16.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE17.DAT - 536
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE17.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE18.DAT - 355
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE18.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE19.DAT - 302
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE19.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE20.DAT - 70
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE20.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE21.DAT - 481
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE21.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE22.DAT - 584
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE22.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE23.DAT - 338
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE23.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE24.DAT - 272
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE24.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE25.DAT - 373
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE25.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE26.DAT - 288
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE26.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE27.DAT - 448
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE27.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE28.DAT - 681
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE28.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE29.DAT - 388
+C:\Games\GOG.com\Dungeon Keeper\DATA\SWPE29.TAB - 42
+C:\Games\GOG.com\Dungeon Keeper\DATA\TABLES.DAT - 84224
+C:\Games\GOG.com\Dungeon Keeper\DATA\TEXT.DAT - 45894
+C:\Games\GOG.com\Dungeon Keeper\DATA\TICON0-0.DAT - 1484
+C:\Games\GOG.com\Dungeon Keeper\DATA\TICON0-0.TAB - 132
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPA000.DAT - 181845
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPA001.DAT - 188739
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPA002.DAT - 171599
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPA003.DAT - 557056
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPA004.DAT - 557056
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPA005.DAT - 557056
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPA006.DAT - 557056
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPA007.DAT - 557056
+C:\Games\GOG.com\Dungeon Keeper\DATA\TMAPANIM.DAT - 368
+C:\Games\GOG.com\Dungeon Keeper\DATA\VAMPAL.PAL - 768
+C:\Games\GOG.com\Dungeon Keeper\DATA\WHITEPAL.COL - 256
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\dosbox-0.74.tar.gz - 1265711
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\DOSBox.exe - 3727360
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\SDL.dll - 448231
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\SDL_net.dll - 13312
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Documentation\dosbox_README.txt - 63204
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Video Codec\Video Instructions.txt - 1608
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Video Codec\zmbv.dll - 94208
+C:\Games\GOG.com\Dungeon Keeper\DOSBOX\Video Codec\zmbv.inf - 4043
+C:\Games\GOG.com\Dungeon Keeper\SAVE\GAME0000.SAV - 1382437
+C:\Games\GOG.com\Dungeon Keeper\SAVE\SAVE.CAT - 136
+C:\Games\GOG.com\Dungeon Keeper\SAVE\SETTINGS.DAT - 82
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ADRV688.DIG - 11278
+C:\Games\GOG.com\Dungeon Keeper\SOUND\AILDRVR.LST - 17340
+C:\Games\GOG.com\Dungeon Keeper\SOUND\AILDRVRG.LST - 18343
+C:\Games\GOG.com\Dungeon Keeper\SOUND\AILDRVRI.LST - 17423
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATMOS1.SBK - 508146
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATMOS2.SBK - 506838
+C:\Games\GOG.com\Dungeon Keeper\SOUND\AUDIODRV.DIG - 11372
+C:\Games\GOG.com\Dungeon Keeper\SOUND\BULLFROG.SBK - 508142
+C:\Games\GOG.com\Dungeon Keeper\SOUND\DIG.INI - 208
+C:\Games\GOG.com\Dungeon Keeper\SOUND\IWAV.DIG - 2585
+C:\Games\GOG.com\Dungeon Keeper\SOUND\JAMMER.DIG - 3219
+C:\Games\GOG.com\Dungeon Keeper\SOUND\MSSDRVR.LST - 20446
+C:\Games\GOG.com\Dungeon Keeper\SOUND\MSSW95.EXE - 8039
+C:\Games\GOG.com\Dungeon Keeper\SOUND\MUSIC.DAT - 636
+C:\Games\GOG.com\Dungeon Keeper\SOUND\NVDIG.DIG - 1877
+C:\Games\GOG.com\Dungeon Keeper\SOUND\PROAUDIO.DIG - 2214
+C:\Games\GOG.com\Dungeon Keeper\SOUND\RAP10.DIG - 2936
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SB16.DIG - 2923
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SBAWE32.MDI - 36880
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SBLASTER.DIG - 3212
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SBPRO.DIG - 2871
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SETSOUND.EXE - 120721
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SNDSCAPE.DIG - 4171
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SNDSYS.DIG - 3419
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SOUND.DAT - 23618254
+C:\Games\GOG.com\Dungeon Keeper\SOUND\SPEECH.DAT - 11405582
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ULTRA.DIG - 9478
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD01.WAV - 141662
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD02.WAV - 164086
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD03.WAV - 183134
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD04.WAV - 157534
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD05.WAV - 174326
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD06.WAV - 186798
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD07.WAV - 189278
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD08.WAV - 167774
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD09.WAV - 150366
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD10.WAV - 191222
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD11.WAV - 170846
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD12.WAV - 151390
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD13.WAV - 171006
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD14.WAV - 175966
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD15.WAV - 218358
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD16.WAV - 180062
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD17.WAV - 193374
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD18.WAV - 151390
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD19.WAV - 180062
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\BAD20.WAV - 186614
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD01.WAV - 201054
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD02.WAV - 177582
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD03.WAV - 165214
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD04.WAV - 174430
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD05.WAV - 227678
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD06.WAV - 201054
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD07.WAV - 160094
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD08.WAV - 156078
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD09.WAV - 158046
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD10.WAV - 189358
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD11.WAV - 149934
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD12.WAV - 214878
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD13.WAV - 218462
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD14.WAV - 181086
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD15.WAV - 159070
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD16.WAV - 159582
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD17.WAV - 188766
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD18.WAV - 176990
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD19.WAV - 181598
+C:\Games\GOG.com\Dungeon Keeper\SOUND\ATLAS\GOOD20.WAV - 227678
+
+UAC Enabled
+
+
+VirtualStore Folders: 

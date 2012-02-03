@@ -1,0 +1,406 @@
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Eschalon Book I
+
+Save Path:
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Eschalon Book I_is1
+Value:Inno Setup: App Path
+Data:C:\Program Files (x86)\Eschalon Book I
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Eschalon Book I_is1
+Value:InstallLocation
+Data:C:\Program Files (x86)\Eschalon Book I\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Eschalon Book I\Eschalon Book I.lnk
+C:\Program Files (x86)\Eschalon Book I\Eschalon Book I.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Eschalon Book I\Eschalon Player's Manual.lnk
+C:\Program Files (x86)\Eschalon Book I\Eschalon Players Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Eschalon Book I\Uninstall Eschalon Book I.lnk
+C:\Program Files (x86)\Eschalon Book I\unins000.exe
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\eschalon.cfg - 213
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\slot2\35.ent - 593
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\slot2\35.map - 246489
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\slot2\35.opq - 69816
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\slot2\char - 11152
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\slot2\savename - 1710
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\tmp\35.ent - 593
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\tmp\35.map - 246489
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\tmp\35.opq - 69816
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\tmp\char - 11152
+C:\Users\%USERNAME%\Documents\Eschalon Book 1 Saved Games\tmp\savename - 1710
+
+Install Folder Dump:
+C:\Program Files (x86)\Eschalon Book I\Eschalon Book I.exe - 2151424
+C:\Program Files (x86)\Eschalon Book I\Eschalon Players Manual.pdf - 1953693
+C:\Program Files (x86)\Eschalon Book I\gfx.pak - 30345938
+C:\Program Files (x86)\Eschalon Book I\help.txt - 8247
+C:\Program Files (x86)\Eschalon Book I\license_full.txt - 7718
+C:\Program Files (x86)\Eschalon Book I\unins000.dat - 28301
+C:\Program Files (x86)\Eschalon Book I\unins000.exe - 731934
+C:\Program Files (x86)\Eschalon Book I\data\14.ent - 114
+C:\Program Files (x86)\Eschalon Book I\data\14.map - 143154
+C:\Program Files (x86)\Eschalon Book I\data\14_basement.map - 140617
+C:\Program Files (x86)\Eschalon Book I\data\15.ent - 252
+C:\Program Files (x86)\Eschalon Book I\data\15.map - 143212
+C:\Program Files (x86)\Eschalon Book I\data\22.ent - 381
+C:\Program Files (x86)\Eschalon Book I\data\22.map - 146532
+C:\Program Files (x86)\Eschalon Book I\data\23.ent - 192
+C:\Program Files (x86)\Eschalon Book I\data\23.map - 142486
+C:\Program Files (x86)\Eschalon Book I\data\24.ent - 171
+C:\Program Files (x86)\Eschalon Book I\data\24.map - 141560
+C:\Program Files (x86)\Eschalon Book I\data\25.ent - 192
+C:\Program Files (x86)\Eschalon Book I\data\25.map - 146898
+C:\Program Files (x86)\Eschalon Book I\data\25_basement.ent - 171
+C:\Program Files (x86)\Eschalon Book I\data\25_basement.map - 140398
+C:\Program Files (x86)\Eschalon Book I\data\25_crypt.ent - 138
+C:\Program Files (x86)\Eschalon Book I\data\25_crypt.map - 151132
+C:\Program Files (x86)\Eschalon Book I\data\32.ent - 445
+C:\Program Files (x86)\Eschalon Book I\data\32.map - 150002
+C:\Program Files (x86)\Eschalon Book I\data\33.ent - 108
+C:\Program Files (x86)\Eschalon Book I\data\33.map - 143725
+C:\Program Files (x86)\Eschalon Book I\data\34.ent - 268
+C:\Program Files (x86)\Eschalon Book I\data\34.map - 142652
+C:\Program Files (x86)\Eschalon Book I\data\34_cave.ent - 210
+C:\Program Files (x86)\Eschalon Book I\data\34_cave.map - 150035
+C:\Program Files (x86)\Eschalon Book I\data\35.ent - 271
+C:\Program Files (x86)\Eschalon Book I\data\35.map - 151604
+C:\Program Files (x86)\Eschalon Book I\data\35_cellar.ent - 78
+C:\Program Files (x86)\Eschalon Book I\data\35_cellar.map - 146163
+C:\Program Files (x86)\Eschalon Book I\data\35_L2.map - 140769
+C:\Program Files (x86)\Eschalon Book I\data\41.ent - 198
+C:\Program Files (x86)\Eschalon Book I\data\41.map - 141324
+C:\Program Files (x86)\Eschalon Book I\data\42.ent - 90
+C:\Program Files (x86)\Eschalon Book I\data\42.map - 141441
+C:\Program Files (x86)\Eschalon Book I\data\43.ent - 168
+C:\Program Files (x86)\Eschalon Book I\data\43.map - 141566
+C:\Program Files (x86)\Eschalon Book I\data\44.ent - 126
+C:\Program Files (x86)\Eschalon Book I\data\44.map - 142603
+C:\Program Files (x86)\Eschalon Book I\data\45.ent - 193
+C:\Program Files (x86)\Eschalon Book I\data\45.map - 142359
+C:\Program Files (x86)\Eschalon Book I\data\51.ent - 276
+C:\Program Files (x86)\Eschalon Book I\data\51.map - 143081
+C:\Program Files (x86)\Eschalon Book I\data\52.ent - 174
+C:\Program Files (x86)\Eschalon Book I\data\52.map - 140766
+C:\Program Files (x86)\Eschalon Book I\data\53.ent - 108
+C:\Program Files (x86)\Eschalon Book I\data\53.map - 144715
+C:\Program Files (x86)\Eschalon Book I\data\bs.ent - 33
+C:\Program Files (x86)\Eschalon Book I\data\bs.map - 140956
+C:\Program Files (x86)\Eschalon Book I\data\darkford.ent - 12
+C:\Program Files (x86)\Eschalon Book I\data\darkford.map - 141484
+C:\Program Files (x86)\Eschalon Book I\data\fighter - 10298
+C:\Program Files (x86)\Eschalon Book I\data\gloomful.ent - 120
+C:\Program Files (x86)\Eschalon Book I\data\gloomful.map - 140810
+C:\Program Files (x86)\Eschalon Book I\data\goblin_cit_l1.ent - 192
+C:\Program Files (x86)\Eschalon Book I\data\goblin_cit_l1.map - 147233
+C:\Program Files (x86)\Eschalon Book I\data\goblin_cit_l2.ent - 72
+C:\Program Files (x86)\Eschalon Book I\data\goblin_cit_l2.map - 142892
+C:\Program Files (x86)\Eschalon Book I\data\grimmhold.ent - 168
+C:\Program Files (x86)\Eschalon Book I\data\grimmhold.map - 145450
+C:\Program Files (x86)\Eschalon Book I\data\grimmhold_maint.ent - 274
+C:\Program Files (x86)\Eschalon Book I\data\grimmhold_maint.map - 147135
+C:\Program Files (x86)\Eschalon Book I\data\healer - 10297
+C:\Program Files (x86)\Eschalon Book I\data\lh_l2.map - 140262
+C:\Program Files (x86)\Eschalon Book I\data\lh_l3.map - 140365
+C:\Program Files (x86)\Eschalon Book I\data\lighthouse.map - 140296
+C:\Program Files (x86)\Eschalon Book I\data\magick - 10299
+C:\Program Files (x86)\Eschalon Book I\data\myst.ent - 36
+C:\Program Files (x86)\Eschalon Book I\data\myst.map - 142375
+C:\Program Files (x86)\Eschalon Book I\data\outpost.ent - 12
+C:\Program Files (x86)\Eschalon Book I\data\outpost.map - 143077
+C:\Program Files (x86)\Eschalon Book I\data\ranger - 10298
+C:\Program Files (x86)\Eschalon Book I\data\retmark.bin - 10
+C:\Program Files (x86)\Eschalon Book I\data\rogue - 10297
+C:\Program Files (x86)\Eschalon Book I\data\shadowmirk_l1.ent - 145
+C:\Program Files (x86)\Eschalon Book I\data\shadowmirk_l1.map - 145260
+C:\Program Files (x86)\Eschalon Book I\data\shadowmirk_l2.ent - 396
+C:\Program Files (x86)\Eschalon Book I\data\shadowmirk_l2.map - 145370
+C:\Program Files (x86)\Eschalon Book I\data\shadowmirk_l3.ent - 6
+C:\Program Files (x86)\Eschalon Book I\data\shadowmirk_l3.map - 140883
+C:\Program Files (x86)\Eschalon Book I\data\sinkhole.ent - 72
+C:\Program Files (x86)\Eschalon Book I\data\sinkhole.map - 140228
+C:\Program Files (x86)\Eschalon Book I\data\to.ent - 201
+C:\Program Files (x86)\Eschalon Book I\data\to.map - 146908
+C:\Program Files (x86)\Eschalon Book I\data\ug_reposit.ent - 71
+C:\Program Files (x86)\Eschalon Book I\data\ug_reposit.map - 158204
+C:\Program Files (x86)\Eschalon Book I\music\abyss.ogg - 3880348
+C:\Program Files (x86)\Eschalon Book I\music\air_prelude.ogg - 3669725
+C:\Program Files (x86)\Eschalon Book I\music\battle_loop.wav - 6283564
+C:\Program Files (x86)\Eschalon Book I\music\darkness.ogg - 2415247
+C:\Program Files (x86)\Eschalon Book I\music\death.ogg - 266442
+C:\Program Files (x86)\Eschalon Book I\music\desert.ogg - 2899205
+C:\Program Files (x86)\Eschalon Book I\music\eschalon_theme.ogg - 1878538
+C:\Program Files (x86)\Eschalon Book I\music\forge_thy_destiny.ogg - 2217550
+C:\Program Files (x86)\Eschalon Book I\music\hell_dungeon_1.ogg - 1713545
+C:\Program Files (x86)\Eschalon Book I\music\insanity.ogg - 3066535
+C:\Program Files (x86)\Eschalon Book I\music\overland_1.ogg - 2362640
+C:\Program Files (x86)\Eschalon Book I\music\overland_1.ogg.sfk - 50160
+C:\Program Files (x86)\Eschalon Book I\music\overland_2.ogg - 4553258
+C:\Program Files (x86)\Eschalon Book I\music\overland_3.ogg - 3647178
+C:\Program Files (x86)\Eschalon Book I\music\overland_4.ogg - 2251533
+C:\Program Files (x86)\Eschalon Book I\music\the_commonwealth.ogg - 1480025
+C:\Program Files (x86)\Eschalon Book I\music\title.ogg - 1671161
+C:\Program Files (x86)\Eschalon Book I\music\wizardtorium.ogg - 1939882
+C:\Program Files (x86)\Eschalon Book I\sound\atmos_birds.wav - 3315448
+C:\Program Files (x86)\Eschalon Book I\sound\atmos_desert.wav - 2164298
+C:\Program Files (x86)\Eschalon Book I\sound\atmos_drip_dungeon.wav - 408648
+C:\Program Files (x86)\Eschalon Book I\sound\atmos_dry_dungeon.wav - 2361478
+C:\Program Files (x86)\Eschalon Book I\sound\atmos_fog.wav - 1813252
+C:\Program Files (x86)\Eschalon Book I\sound\atmos_night.wav - 3601724
+C:\Program Files (x86)\Eschalon Book I\sound\atmos_sea.wav - 1991846
+C:\Program Files (x86)\Eschalon Book I\sound\cast_div.wav - 109790
+C:\Program Files (x86)\Eschalon Book I\sound\ched_skill.wav - 76736
+C:\Program Files (x86)\Eschalon Book I\sound\ched_stat.wav - 99836
+C:\Program Files (x86)\Eschalon Book I\sound\click2.wav - 12808
+C:\Program Files (x86)\Eschalon Book I\sound\combat_arrow_hit.wav - 18460
+C:\Program Files (x86)\Eschalon Book I\sound\combat_hit1.wav - 38538
+C:\Program Files (x86)\Eschalon Book I\sound\combat_hit2.wav - 31298
+C:\Program Files (x86)\Eschalon Book I\sound\combat_hit3.wav - 83128
+C:\Program Files (x86)\Eschalon Book I\sound\combat_hit5.wav - 17898
+C:\Program Files (x86)\Eschalon Book I\sound\combat_hit6.wav - 25354
+C:\Program Files (x86)\Eschalon Book I\sound\combat_miss.wav - 14212
+C:\Program Files (x86)\Eschalon Book I\sound\combat_range_miss.wav - 8294
+C:\Program Files (x86)\Eschalon Book I\sound\combat_sword_miss1.wav - 66084
+C:\Program Files (x86)\Eschalon Book I\sound\combat_sword_miss2.wav - 25170
+C:\Program Files (x86)\Eschalon Book I\sound\cursed.wav - 115914
+C:\Program Files (x86)\Eschalon Book I\sound\dehex.wav - 216276
+C:\Program Files (x86)\Eschalon Book I\sound\de_attack.wav - 62294
+C:\Program Files (x86)\Eschalon Book I\sound\de_die.wav - 66704
+C:\Program Files (x86)\Eschalon Book I\sound\de_hurt.wav - 28328
+C:\Program Files (x86)\Eschalon Book I\sound\de_idle.wav - 82194
+C:\Program Files (x86)\Eschalon Book I\sound\de_move.wav - 55912
+C:\Program Files (x86)\Eschalon Book I\sound\dramatic_cue.wav - 1221206
+C:\Program Files (x86)\Eschalon Book I\sound\eat.wav - 87616
+C:\Program Files (x86)\Eschalon Book I\sound\energy.wav - 79240
+C:\Program Files (x86)\Eschalon Book I\sound\enk.wav - 23368
+C:\Program Files (x86)\Eschalon Book I\sound\e_miss.wav - 7890
+C:\Program Files (x86)\Eschalon Book I\sound\fire_burst.wav - 91026
+C:\Program Files (x86)\Eschalon Book I\sound\ghost_laugh.wav - 122198
+C:\Program Files (x86)\Eschalon Book I\sound\gob_curse.wav - 141166
+C:\Program Files (x86)\Eschalon Book I\sound\gramport.wav - 109026
+C:\Program Files (x86)\Eschalon Book I\sound\heart.wav - 54928
+C:\Program Files (x86)\Eschalon Book I\sound\launch.wav - 732922
+C:\Program Files (x86)\Eschalon Book I\sound\local_blacksmith.wav - 339534
+C:\Program Files (x86)\Eschalon Book I\sound\local_gap_rumble.wav - 260794
+C:\Program Files (x86)\Eschalon Book I\sound\local_magick.wav - 390560
+C:\Program Files (x86)\Eschalon Book I\sound\local_river.wav - 112630
+C:\Program Files (x86)\Eschalon Book I\sound\local_swamp.wav - 617134
+C:\Program Files (x86)\Eschalon Book I\sound\local_tavern.wav - 425326
+C:\Program Files (x86)\Eschalon Book I\sound\local_temple.wav - 536158
+C:\Program Files (x86)\Eschalon Book I\sound\local_town.wav - 1165106
+C:\Program Files (x86)\Eschalon Book I\sound\local_waterfall.wav - 490082
+C:\Program Files (x86)\Eschalon Book I\sound\merc_att.wav - 26726
+C:\Program Files (x86)\Eschalon Book I\sound\mo10_attack.wav - 29508
+C:\Program Files (x86)\Eschalon Book I\sound\mo10_die.wav - 35660
+C:\Program Files (x86)\Eschalon Book I\sound\mo10_idle.wav - 92122
+C:\Program Files (x86)\Eschalon Book I\sound\mo10_weapon.wav - 19938
+C:\Program Files (x86)\Eschalon Book I\sound\mo11_attack.wav - 19426
+C:\Program Files (x86)\Eschalon Book I\sound\mo12_attack.wav - 32678
+C:\Program Files (x86)\Eschalon Book I\sound\mo12_die.wav - 49468
+C:\Program Files (x86)\Eschalon Book I\sound\mo12_idle.wav - 54400
+C:\Program Files (x86)\Eschalon Book I\sound\mo12_move.wav - 42990
+C:\Program Files (x86)\Eschalon Book I\sound\mo13_attack.wav - 35924
+C:\Program Files (x86)\Eschalon Book I\sound\mo13_move.wav - 64216
+C:\Program Files (x86)\Eschalon Book I\sound\mo16_attack.wav - 38072
+C:\Program Files (x86)\Eschalon Book I\sound\mo16_die.wav - 41978
+C:\Program Files (x86)\Eschalon Book I\sound\mo16_hurt.wav - 31670
+C:\Program Files (x86)\Eschalon Book I\sound\mo16_idle.wav - 26728
+C:\Program Files (x86)\Eschalon Book I\sound\mo16_move.wav - 49984
+C:\Program Files (x86)\Eschalon Book I\sound\mo18_attack.wav - 44822
+C:\Program Files (x86)\Eschalon Book I\sound\mo18_die.wav - 52104
+C:\Program Files (x86)\Eschalon Book I\sound\mo18_idle.wav - 110076
+C:\Program Files (x86)\Eschalon Book I\sound\mo18_move.wav - 109112
+C:\Program Files (x86)\Eschalon Book I\sound\mo19_attack.wav - 45196
+C:\Program Files (x86)\Eschalon Book I\sound\mo1_attack.wav - 22450
+C:\Program Files (x86)\Eschalon Book I\sound\mo1_die.wav - 23306
+C:\Program Files (x86)\Eschalon Book I\sound\mo1_idle.wav - 19420
+C:\Program Files (x86)\Eschalon Book I\sound\mo1_move.wav - 36928
+C:\Program Files (x86)\Eschalon Book I\sound\mo20_attack.wav - 241692
+C:\Program Files (x86)\Eschalon Book I\sound\mo20_die.wav - 195340
+C:\Program Files (x86)\Eschalon Book I\sound\mo20_hurt.wav - 81212
+C:\Program Files (x86)\Eschalon Book I\sound\mo20_idle.wav - 210986
+C:\Program Files (x86)\Eschalon Book I\sound\mo22_attack.wav - 33286
+C:\Program Files (x86)\Eschalon Book I\sound\mo22_die.wav - 47128
+C:\Program Files (x86)\Eschalon Book I\sound\mo22_hurt.wav - 22328
+C:\Program Files (x86)\Eschalon Book I\sound\mo22_idle.wav - 45004
+C:\Program Files (x86)\Eschalon Book I\sound\mo2_attack.wav - 35780
+C:\Program Files (x86)\Eschalon Book I\sound\mo2_die.wav - 35576
+C:\Program Files (x86)\Eschalon Book I\sound\mo2_idle.wav - 31614
+C:\Program Files (x86)\Eschalon Book I\sound\mo2_move.wav - 37238
+C:\Program Files (x86)\Eschalon Book I\sound\mo3_attack.wav - 30460
+C:\Program Files (x86)\Eschalon Book I\sound\mo3_die.wav - 20048
+C:\Program Files (x86)\Eschalon Book I\sound\mo3_idle.wav - 17452
+C:\Program Files (x86)\Eschalon Book I\sound\mo3_move.wav - 46048
+C:\Program Files (x86)\Eschalon Book I\sound\mo4_attack.wav - 37208
+C:\Program Files (x86)\Eschalon Book I\sound\mo4_idle.wav - 35714
+C:\Program Files (x86)\Eschalon Book I\sound\mo5_attack.wav - 28628
+C:\Program Files (x86)\Eschalon Book I\sound\mo5_die.wav - 27770
+C:\Program Files (x86)\Eschalon Book I\sound\mo5_idle.wav - 36786
+C:\Program Files (x86)\Eschalon Book I\sound\mo5_move.wav - 21388
+C:\Program Files (x86)\Eschalon Book I\sound\mo6_attack.wav - 36136
+C:\Program Files (x86)\Eschalon Book I\sound\mo6_die.wav - 29752
+C:\Program Files (x86)\Eschalon Book I\sound\mo6_idle.wav - 66308
+C:\Program Files (x86)\Eschalon Book I\sound\mo6_move.wav - 41290
+C:\Program Files (x86)\Eschalon Book I\sound\mo7_attack.wav - 58496
+C:\Program Files (x86)\Eschalon Book I\sound\mo7_idle.wav - 67184
+C:\Program Files (x86)\Eschalon Book I\sound\mo7_move.wav - 28142
+C:\Program Files (x86)\Eschalon Book I\sound\mo8_attack.wav - 31254
+C:\Program Files (x86)\Eschalon Book I\sound\mo8_die.wav - 33288
+C:\Program Files (x86)\Eschalon Book I\sound\mo8_idle.wav - 61720
+C:\Program Files (x86)\Eschalon Book I\sound\mo8_move.wav - 111806
+C:\Program Files (x86)\Eschalon Book I\sound\mo9_attack.wav - 24972
+C:\Program Files (x86)\Eschalon Book I\sound\mo9_die.wav - 27006
+C:\Program Files (x86)\Eschalon Book I\sound\mo9_idle.wav - 28846
+C:\Program Files (x86)\Eschalon Book I\sound\mo9_move.wav - 30906
+C:\Program Files (x86)\Eschalon Book I\sound\mouseclick.wav - 9928
+C:\Program Files (x86)\Eschalon Book I\sound\npc_cough.wav - 8468
+C:\Program Files (x86)\Eschalon Book I\sound\npc_hey.wav - 19066
+C:\Program Files (x86)\Eschalon Book I\sound\npc_step.wav - 45280
+C:\Program Files (x86)\Eschalon Book I\sound\proj_arrow.wav - 21948
+C:\Program Files (x86)\Eschalon Book I\sound\proj_fireball.wav - 33916
+C:\Program Files (x86)\Eschalon Book I\sound\proj_firedart.wav - 36616
+C:\Program Files (x86)\Eschalon Book I\sound\quest.wav - 154586
+C:\Program Files (x86)\Eschalon Book I\sound\quest_fin.wav - 288038
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_amulet.wav - 18140
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_arrow_release.wav - 18328
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_bash.wav - 14744
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_bash_break.wav - 71924
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_beaker.wav - 23498
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_bell.wav - 45764
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_bite.wav - 18670
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_blast1.wav - 49832
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_bless.wav - 108678
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_bowpull.wav - 35220
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_break.wav - 17704
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_bubble.wav - 34448
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_cast_elem.wav - 112880
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_chest_close.wav - 22858
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_chest_open.wav - 30528
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_chimes.wav - 160714
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_closewin.wav - 10520
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_coins.wav - 34304
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_compress.wav - 105124
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_container_close.wav - 12246
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_container_latch.wav - 7316
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_container_open.wav - 27396
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_deflect.wav - 7926
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_die_roll.wav - 71414
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_disarm.wav - 73690
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_disarm_fail.wav - 19524
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_disarm_success.wav - 40728
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_disease.wav - 32366
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_door_close.wav - 39266
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_door_open.wav - 69884
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_energize.wav - 39074
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_entangle.wav - 29784
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_eqp_arml.wav - 15384
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_eqp_armm.wav - 9270
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_eqp_ring.wav - 64016
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_fem_attack.wav - 12964
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_fem_die.wav - 53996
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_fem_hurt.wav - 27166
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_fire_rush.wav - 76488
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_fleshboil.wav - 52986
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_freeze.wav - 120172
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_gem.wav - 7370
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_glass.wav - 100980
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_haste.wav - 69116
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_heal.wav - 197040
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_hurt1.wav - 43142
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_hurt2.wav - 27796
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_hurt3.wav - 165888
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_invisible.wav - 34060
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_key.wav - 9976
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_key_punch.wav - 8646
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_level.wav - 243224
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_level2.wav - 70832
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_lever.wav - 21416
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_lockpick.wav - 7532
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_lock_open.wav - 27396
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_loot.wav - 18634
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_magic.wav - 126278
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_magic_activate.wav - 59310
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_man_attack.wav - 18870
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_man_die.wav - 35338
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_man_hurt.wav - 28244
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_mouse_hover.wav - 5538
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_narration.wav - 167624
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_negative.wav - 160006
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_notice.wav - 31772
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_npc_bow.wav - 33472
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_openwin.wav - 18184
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_pickup.wav - 10834
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_ping.wav - 106480
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_poison.wav - 61916
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_polthit.wav - 157576
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_portal.wav - 193096
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_port_down.wav - 117122
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_port_up.wav - 181214
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_positive.wav - 167624
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_pot.wav - 9900
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_potion.wav - 70604
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_power.wav - 28462
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_pullbow.wav - 49504
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_qt.wav - 80322
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_quaff.wav - 8156
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_restore.wav - 270106
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_scribble1.wav - 6280
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_scribble2.wav - 5712
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_slip.wav - 26654
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_spellfail.wav - 36396
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_stash.wav - 23828
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_stats_close.wav - 20044
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_stats_open.wav - 21882
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_torchoff.wav - 16408
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_torchon.wav - 21788
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_trap_dart.wav - 11458
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_tumbler_fall.wav - 9988
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_tumbler_jiggle.wav - 119946
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_weapon_eqp_pol.wav - 17530
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_weapon_eqp_swd.wav - 18236
+C:\Program Files (x86)\Eschalon Book I\sound\sfx_window.wav - 11886
+C:\Program Files (x86)\Eschalon Book I\sound\shuffle.wav - 32858
+C:\Program Files (x86)\Eschalon Book I\sound\slime_attack.wav - 38980
+C:\Program Files (x86)\Eschalon Book I\sound\sonicblast.wav - 131814
+C:\Program Files (x86)\Eschalon Book I\sound\spell_lore.wav - 92654
+C:\Program Files (x86)\Eschalon Book I\sound\stairs.wav - 130800
+C:\Program Files (x86)\Eschalon Book I\sound\step_armor1.wav - 21844
+C:\Program Files (x86)\Eschalon Book I\sound\step_armor2.wav - 17262
+C:\Program Files (x86)\Eschalon Book I\sound\step_dun1.wav - 33636
+C:\Program Files (x86)\Eschalon Book I\sound\step_dun2.wav - 31096
+C:\Program Files (x86)\Eschalon Book I\sound\step_hard1.wav - 11586
+C:\Program Files (x86)\Eschalon Book I\sound\step_hard2.wav - 9046
+C:\Program Files (x86)\Eschalon Book I\sound\step_soft1.wav - 33792
+C:\Program Files (x86)\Eschalon Book I\sound\step_soft2.wav - 38530
+C:\Program Files (x86)\Eschalon Book I\sound\step_water1.wav - 75560
+C:\Program Files (x86)\Eschalon Book I\sound\step_water2.wav - 87616
+C:\Program Files (x86)\Eschalon Book I\sound\stone_collapse.wav - 101994
+C:\Program Files (x86)\Eschalon Book I\sound\stone_slide.wav - 111106
+C:\Program Files (x86)\Eschalon Book I\sound\sword_hit.wav - 40198
+C:\Program Files (x86)\Eschalon Book I\sound\thunder.wav - 853218
+C:\Program Files (x86)\Eschalon Book I\sound\thunder2.wav - 1687562
+C:\Program Files (x86)\Eschalon Book I\sound\transmog.wav - 109002
+C:\Program Files (x86)\Eschalon Book I\sound\trap_click.wav - 12900
+C:\Program Files (x86)\Eschalon Book I\sound\war_horn.wav - 408478
+C:\Program Files (x86)\Eschalon Book I\sound\water_rush.wav - 90256
+C:\Program Files (x86)\Eschalon Book I\sound\wet_trap.wav - 45756
+C:\Program Files (x86)\Eschalon Book I\sound\woosh.wav - 250262
+
+UAC Disabled or not present
+

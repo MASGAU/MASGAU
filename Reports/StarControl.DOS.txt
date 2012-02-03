@@ -1,0 +1,79 @@
+Game Name: Star control
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{9AF06309-EDC1-4222-8566-3F2CED045792}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC1
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC1
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC1
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Star Control 1 and 2\Star Control\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+10/25/2011 12:02:20 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\SAVEGAME.1 - 2318
+10/25/2011 12:02:26 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\SAVEGAME.3 - 2318
+10/25/2011 12:01:39 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\stderr.txt - 0
+10/25/2011 12:02:31 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\stdout.txt - 176
+
+Install Folder Dump:
+6/20/1990 2:56:30 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\diskfree.exe - 3067
+2/9/2011 1:56:10 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\dosboxSC1.conf - 7267
+4/22/2011 10:39:42 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\dosboxSC1_setup.conf - 7264
+7/10/1990 2:13:18 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\edit.exe - 23610
+3/21/2011 2:29:34 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\gfw_high.ico - 124213
+4/22/2011 10:43:38 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\goggame.dll - 247296
+7/10/1990 1:46:52 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\keys.exe - 20783
+4/4/2011 9:53:08 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\manual.pdf - 358240
+7/9/1990 7:48:30 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.1 - 968
+7/10/1990 2:57:02 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.2 - 968
+7/10/1990 4:31:42 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.3 - 968
+7/10/1990 2:47:10 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.4 - 968
+7/10/1990 2:48:30 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.5 - 968
+7/9/1990 8:28:22 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.6 - 968
+7/9/1990 8:32:26 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.7 - 968
+7/9/1990 7:28:32 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.8 - 968
+7/10/1990 6:08:42 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\scenario.9 - 968
+7/7/1992 3:34:28 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\setup.pkg - 120509
+7/12/1990 10:20:50 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\starcon.exe - 95754
+1/6/1980 10:56:40 PM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\starcon.ovl - 56576
+7/10/1990 11:39:02 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\starcon.pkg - 1665
+7/10/1990 11:39:00 AM - C:\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\tactics.pkg - 358921
+
+UAC Enabled
+
+
+VirtualStore Folders:
+10/25/2011 12:02:20 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\SAVEGAME.1 - 2318
+10/25/2011 12:02:26 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\SAVEGAME.3 - 2318
+10/25/2011 12:01:39 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\stderr.txt - 0
+10/25/2011 12:02:31 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 1 and 2\Star Control 1\stdout.txt - 176

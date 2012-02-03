@@ -1,0 +1,485 @@
+Game Name: Empire Earth
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\EE-AOC.exe
+Value: Path
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\EE-AOC.exe
+Value:
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\EE-AOC.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Empire Earth.exe
+Value: Path
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Empire Earth.exe
+Value:
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Empire Earth.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{CB4082EE-10F3-4AB6-9F9C-7B989E0397F8}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{CB4082EE-10F3-4AB6-9F9C-7B989E0397F8}
+Value: AppExePath
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Empire Earth.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Empire Earth.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Empire Earth.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTH
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTHADDON
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\EE-AOC.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTHADDON
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTHADDON
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\EE-AOC.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGEMPIREEARTHADDON
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\GameUX\Games\{0E2D2351-B6DC-4629-B4A4-4CABDF27E254}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\GameUX\Games\{E4D010E8-9184-4508-AB20-26421606DDDB}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\EE-AOC.exe
+Value: Path
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\EE-AOC.exe
+Value:
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\EE-AOC.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\Empire Earth.exe
+Value: Path
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\Empire Earth.exe
+Value:
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Empire Earth.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Sierra OnLine\Setup\EEAOC
+Value: Directory
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Sierra OnLine\Setup\EEARTH
+Value: Directory
+Data: C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth\Empire Earth - The Art of Conquest.lnk
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\EE-AOC.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth\Empire Earth.lnk
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Empire Earth.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth\Documents\Manual (addon).lnk
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\manual_aoc.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth\Documents\Readme.lnk
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\readme.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth\Documents\Scenario Editor Manual.lnk
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\scenario_editor_manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth\Documents\Technology Tree (addon).lnk
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest\technology_tree_aoc.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Empire Earth\Documents\Technology Tree.lnk
+C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\technology_tree.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/12/2011 12:16:56 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\0_Error.log - 0
+12/12/2011 12:17:37 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\EEQuickSave.scn - 60617
+12/12/2011 12:18:40 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Campaigns\test campaign.ssa - 39079
+12/12/2011 11:09:42 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Saved Games\213213.ees - 115036
+12/12/2011 11:10:57 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Saved Games\AutoSave 2011.12.12 - 11h.10m.56s.ees - 118137
+12/12/2011 11:11:12 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Saved Games\temp.ees - 119292
+12/12/2011 12:17:59 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Scenarios\testscenario.scn - 60621
+12/12/2011 12:18:16 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Users\default\Civilizations\test civilization.civ - 25
+12/12/2011 12:19:12 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\_wonHTTPCache\cachemap.dat - 8
+
+Install Folder Dump:
+10/12/2001 4:18:38 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\binkw32.dll - 290816
+11/6/2001 3:38:06 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Default.dll - 118894
+11/6/2001 3:39:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\DX7HRDisplay.dll - 98432
+11/6/2001 3:48:06 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\DX7HRTnLDisplay.dll - 106630
+11/6/2001 6:29:56 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\EE1000-1040.exe - 794667
+7/9/2009 12:47:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Empire Earth.exe - 6321152
+6/1/2001 3:20:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\EULA.txt - 12547
+9/5/2002 11:49:38 AM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\EULA_DSML.txt - 11859
+6/29/2009 3:49:48 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\game.ico - 4286
+6/29/2009 3:49:34 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\gfw_high.ico - 130487
+7/13/2009 3:00:08 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\goggame.dll - 260608
+11/6/2001 3:49:06 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Language.dll - 200783
+9/11/2002 7:13:50 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Low-Level Engine.dll - 1118295
+7/7/2009 3:07:08 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Manual.pdf - 6637301
+11/6/2001 4:08:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Miles Sound System Mixer.dll - 28800
+10/12/2001 4:18:48 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Mss32.dll - 346624
+7/9/2009 1:19:50 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\readme.txt - 20313
+11/6/2001 3:49:40 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\rmvparse.exe - 86130
+7/2/2009 2:15:36 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\scenario_editor_manual.pdf - 221911
+11/6/2001 5:54:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\sierra.inf - 299
+10/12/2001 4:18:48 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\SierraCom.cfg - 99
+10/12/2001 4:28:40 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\sxlrt233.dll - 933888
+11/6/2001 3:50:44 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\TCP Protocol.dll - 36970
+7/2/2009 2:17:44 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\technology_tree.pdf - 484462
+9/13/2002 1:38:00 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\WONLobby.cfg - 636
+9/13/2002 1:38:00 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\zzWONVersion.cfg - 18
+10/12/2001 7:54:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\data.ssa - 163392213
+10/8/2001 3:43:06 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Campaigns\EELearningCampaign.ssa - 34443875
+10/8/2001 3:38:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Campaigns\EETheBritish.ssa - 35535233
+10/8/2001 12:33:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Campaigns\EETheFuture.ssa - 33219586
+10/8/2001 12:30:58 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Campaigns\EETheGermans.ssa - 24955798
+10/1/2001 8:48:58 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Campaigns\EETheGreeks.ssa - 36551061
+8/13/2001 4:34:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Models\amb_rock.cem - 24
+10/12/2001 4:19:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Movies\Empire Earth.bik - 13844920
+10/12/2001 4:19:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Movies\Sierra.bik - 1596912
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Movies\SSSI.bik - 2348212
+7/10/2001 6:53:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Balance.dls - 6852612
+7/10/2001 6:53:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Balance.sgt - 3608
+7/10/2001 6:53:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Balance.sty - 514470
+7/10/2001 6:07:54 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Enmity.dls - 5683814
+7/10/2001 6:07:50 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Enmity.sgt - 3682
+7/10/2001 6:07:50 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Enmity.sty - 363588
+6/6/2001 5:20:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Fallen.dls - 4514746
+6/6/2001 5:20:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Fallen.sgt - 3536
+6/6/2001 5:20:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Fallen.sty - 548202
+4/25/2001 6:16:04 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Honor.dls - 6020158
+4/25/2001 6:16:04 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Honor.sgt - 3542
+4/25/2001 6:16:02 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Honor.sty - 246724
+6/6/2001 5:20:00 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Pawn-Style.sty - 338148
+6/6/2001 5:20:00 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Pawns.sgt - 3268
+6/6/2001 5:20:00 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Pawns1.dls - 3952102
+4/25/2001 6:16:06 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Rivers DLS.dls - 5747910
+4/25/2001 6:16:06 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Rivers.sgt - 3472
+4/25/2001 6:16:08 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Rivers.sty - 240876
+7/10/2001 6:06:44 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Shadow2.sgt - 3718
+7/10/2001 6:06:44 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Shadows.dls - 6294140
+7/10/2001 6:06:44 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Shadows.sty - 325304
+4/25/2001 6:16:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Time DLS.dls - 5498198
+4/25/2001 6:16:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Time.sgt - 3338
+4/25/2001 6:16:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Music\Time.sty - 297330
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Continental.rmv - 6924
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Highlands.rmv - 6968
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Large Islands.rmv - 6886
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Mediterranean.rmv - 7050
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Plains.rmv - 6961
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Small Islands.rmv - 6968
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Tournament Islands.rmv - 7048
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Common\Common Conditions.rmv - 5796
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Common\Common Forests.rmv - 2499
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Common\Common Initial Units.rmv - 7270
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Common\Common Terrain Painting.rmv - 6909
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Common\Map Climate.rmv - 737
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Common\Tourney Common Initial Units.rmv - 7335
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Continental\Continental Gigantic.rmv - 51871
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Continental\Continental Huge.rmv - 52045
+10/12/2001 4:19:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Continental\Continental Large.rmv - 51503
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Continental\Continental Medium.rmv - 51299
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Continental\Continental Small.rmv - 51086
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Continental\Continental Tiny.rmv - 51202
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Highlands\Highlands Gigantic.rmv - 53184
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Highlands\Highlands Huge.rmv - 53458
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Highlands\Highlands Large.rmv - 53497
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Highlands\Highlands Medium.rmv - 53094
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Highlands\Highlands Small.rmv - 52729
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Highlands\Highlands Tiny.rmv - 51908
+10/12/2001 4:19:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Large Islands\Large Islands Gigantic.rmv - 52640
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Large Islands\Large Islands Huge.rmv - 52580
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Large Islands\Large Islands Large.rmv - 52525
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Large Islands\Large Islands Medium.rmv - 52515
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Large Islands\Large Islands Small.rmv - 52529
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Large Islands\Large Islands Tiny.rmv - 52394
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Mediterranean\Mediterranean Gigantic.rmv - 52485
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Mediterranean\Mediterranean Huge.rmv - 52635
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Mediterranean\Mediterranean Large.rmv - 52913
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Mediterranean\Mediterranean Medium.rmv - 52537
+10/12/2001 4:19:20 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Mediterranean\Mediterranean Small.rmv - 52414
+10/12/2001 4:19:22 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Mediterranean\Mediterranean Tiny.rmv - 51632
+11/2/2001 5:22:50 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Plains\Plains Gigantic.rmv - 55493
+11/2/2001 5:22:50 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Plains\Plains Huge.rmv - 51603
+10/12/2001 4:19:22 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Plains\Plains Large.rmv - 51129
+11/2/2001 5:22:50 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Plains\Plains Medium.rmv - 52048
+10/12/2001 4:19:22 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Plains\Plains Small.rmv - 51244
+10/12/2001 4:19:22 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Plains\Plains Tiny.rmv - 53420
+10/12/2001 4:19:22 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Small Islands\Small Islands Gigantic.rmv - 52918
+10/12/2001 4:19:22 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Small Islands\Small Islands Huge.rmv - 52658
+10/12/2001 4:19:22 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Small Islands\Small Islands Large.rmv - 52592
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Small Islands\Small Islands Medium.rmv - 52556
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Small Islands\Small Islands Small.rmv - 52605
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Small Islands\Small Islands Tiny.rmv - 52382
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Tournament Islands\Tournament Islands Gigantic.rmv - 51755
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Tournament Islands\Tournament Islands Huge.rmv - 51752
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Tournament Islands\Tournament Islands Large.rmv - 51702
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Tournament Islands\Tournament Islands Medium.rmv - 51703
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Tournament Islands\Tournament Islands Small.rmv - 51346
+10/12/2001 4:19:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Random Map Scripts\Tournament Islands\Tournament Islands Tiny.rmv - 51331
+9/13/2002 1:38:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\AddFriendDialog.cfg - 821
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\AdminActionDialog.cfg - 2457
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\BadUserDialog.cfg - 1514
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\ChatCtrl.cfg - 919
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\ChooseNetworkAdapterDialog.cfg - 1107
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\ColorScheme.cfg - 1008
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\CommonOptions.cfg - 6370
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\CreateAccountCtrl.cfg - 4363
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\CreateGameDialog.cfg - 2926
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\CreateRoomDialog.cfg - 1727
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\CreditsDialog.cfg - 1657
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\DirectConnectCtrl.cfg - 822
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\DirectConnectDialog.cfg - 1403
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\EELobbyConnectDialog.cfg - 719
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\EELobbyFileDialog.cfg - 1056
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\FriendsListCtrl.cfg - 1302
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\GameBrowserCtrl.cfg - 2362
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\GameOptionsCtrl.cfg - 5370
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\GameStagingCtrl.cfg - 2504
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\GameStagingTabs.cfg - 337
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\GameUserListCtrl.cfg - 886
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\GenericDialog.cfg - 1276
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\GettingStartedCtrl.cfg - 1958
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\InitFailedCtrl.cfg - 951
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\InternetGameStagingCtrl.cfg - 849
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\InternetOptions.cfg - 1693
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\InternetQuickPlay.cfg - 2458
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\InternetScreen.cfg - 2145
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LANNameDialog.cfg - 836
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LanOptions.cfg - 2544
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LANPortDialog.cfg - 1494
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LanScreen.cfg - 1886
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LoginCtrl.cfg - 2114
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LoginHelpCtrl.cfg - 95
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LoginScreen.cfg - 3020
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LoginStatusCtrl.cfg - 951
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LostPasswordCtrl.cfg - 1077
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\LostUserNameCtrl.cfg - 1037
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\MainInternetTab.cfg - 2705
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\MainLanTab.cfg - 293
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\MOTDCtrl.cfg - 1350
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\OkCancelDialog.cfg - 1823
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\PasswordDialog.cfg - 886
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\PlayerOptionsCtrl.cfg - 3736
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\RoomCtrl.cfg - 831
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\RoomDialog.cfg - 144
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\RoomLabelCtrl.cfg - 166
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\RootScreen.cfg - 1873
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\ServerListCtrl.cfg - 3425
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\ServerListCustomHeader.cfg - 238
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\StatusDialog.cfg - 1692
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\TOUDialog.cfg - 1163
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\UpdateAccountCtrl.cfg - 3671
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\UserListCtrl.cfg - 790
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\UserListTabCtrl.cfg - 389
+10/10/2002 3:01:52 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\vssver.scc - 128
+9/13/2002 1:38:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\_GameMaster.cfg - 162
+9/13/2002 1:38:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\_GameResource.cfg - 6754
+9/13/2002 1:38:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\_LobbyMaster.cfg - 2040
+9/13/2002 1:38:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\_LobbyResource.cfg - 39169
+9/13/2002 1:38:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\_LobbyResourceOrig.cfg - 35738
+9/13/2002 1:38:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\_LobbySkin.cfg - 10436
+9/13/2002 1:38:10 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\_WONStatus.cfg - 4662
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\Chat.html - 7837
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\CommunityTab.html - 1801
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\DirectTab.html - 1680
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\EntryRestrictions.html - 1889
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\Friends.html - 3483
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\GameBrowser.html - 6296
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\GamePlayHelp.html - 570
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\GamePorts.html - 1894
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\GameTab.html - 6664
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\HelpRoot.html - 2153
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\HelpTab.html - 1865
+9/13/2002 1:38:12 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\HostGame.html - 2421
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\Icons.html - 4965
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\Ignore.html - 1531
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\LanTab.html - 821
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\LobbyTab.html - 2977
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\loginhelp.html - 10092
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\OptionsTab.html - 9101
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\Overview.html - 1691
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\QuickPlayTab.html - 1211
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\Security.html - 4455
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\Troubleshooting.html - 4441
+10/10/2002 3:01:52 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Help\vssver.scc - 384
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Admin.png - 1327
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\AFK.png - 1232
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Ask2Join.png - 1298
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\blank.png - 212
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Blocked.png - 1302
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\BlueCheck.png - 1234
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Captain.png - 1281
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Firewall.png - 1221
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Flashlight.png - 1286
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\GameClosed.png - 1213
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\GameOpen.png - 1223
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Ignored.png - 1355
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Invited.png - 1267
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\InviteNot.png - 1240
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Joystick.png - 1299
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Moderator.png - 1375
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Muted.png - 1364
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Password.png - 1258
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\SkillAdvanced.png - 1266
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\SkillExpert.png - 1245
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\SkillIntermediate.png - 1244
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\SkillNovice.png - 1227
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\Tombstone.png - 1288
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Icons\vssver.scc - 400
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Images\bkg_german.jpg - 471739
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Images\DefaultBanner.jpg - 10207
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Images\Logo.jpg - 41291
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Images\MainBackgroundTile.jpg - 2251
+9/12/2002 12:06:24 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Images\main_menu_compilation.jpg - 526626
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Images\QuickPlayBottom.jpg - 26378
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Images\SierraLogo.png - 3210
+9/13/2002 2:01:38 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Images\vssver.scc - 144
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\ArrowCursor.png - 1440
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\Buttons.png - 466
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\Checkbox.png - 1782
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\CloseButton.png - 1485
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\ComboButton.png - 1458
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\Dialog2.png - 10197
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\GoldDialog.png - 3863
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\Header.png - 1552
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\MenuButtons.png - 466
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\OptionButtons.png - 1041
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\Radio.png - 1822
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\Scrollbar.png - 3448
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\SilverDialog.png - 3727
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\TabBorder.png - 162
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\Tabs.png - 439
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Skin\vssver.scc - 272
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\AllNotReady.wav - 49286
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\AllReady.wav - 106574
+9/13/2002 1:38:14 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\AskToJoinRecv.wav - 74024
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\ButtonClick.wav - 4168
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\Error.wav - 33928
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\FriendJoined.wav - 19012
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\FriendLeft.wav - 22896
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\InviteRecv.wav - 71440
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\LobbyMusic.wav - 70568
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\PlayerJoined.wav - 52850
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\SierraLogon.wav - 967044
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\vssver.scc - 224
+9/13/2002 1:38:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\WONLobby Resources\Sounds\WhisperRecv.wav - 88374
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Autopan.flt - 40960
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Bandpass.flt - 41472
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Capture.flt - 33792
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Chorus.flt - 41984
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Compress.flt - 40960
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Flange.flt - 41472
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Highpass.flt - 40960
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Laginter.flt - 45056
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Lowpass.flt - 40960
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mdelay.flt - 41472
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mp3dec.asi - 125952
+10/12/2001 4:19:28 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssa3d.m3d - 51200
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssa3d2.m3d - 60928
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssdolby.m3d - 64512
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssds3dh.m3d - 50688
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssds3ds.m3d - 50688
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssdx7sh.m3d - 50688
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssdx7sl.m3d - 50688
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssdx7sn.m3d - 50688
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Msseax.m3d - 53760
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Msseax2.m3d - 69120
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssfast.m3d - 62976
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssrsx.m3d - 352768
+10/12/2001 4:19:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssv12.asi - 142848
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssv24.asi - 134144
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Mssv29.asi - 161280
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Parmeq.flt - 41472
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Phaser.flt - 52224
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Reson.flt - 40960
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Reverb1.flt - 41984
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Reverb2.flt - 52736
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Reverb3.flt - 56832
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Ringmod.flt - 41472
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Sdelay.flt - 41472
+10/12/2001 4:19:32 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\redist\win32\Shelfeq.flt - 52736
+10/12/2001 8:28:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\EESkin.dll - 327680
+10/12/2001 8:28:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraPt.dll - 630784
+9/13/2002 1:43:30 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUp.cfg - 353
+8/27/2002 6:39:36 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUp.exe - 1658880
+10/12/2001 8:28:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SuDE.dll - 57344
+10/12/2001 8:28:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SuES.dll - 57344
+10/12/2001 8:28:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SuFR.dll - 57344
+10/12/2001 8:28:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SuIT.dll - 57344
+9/12/2002 2:00:54 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\vssver.scc - 48
+11/6/2001 5:54:42 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\zVersion.cfg - 24
+8/19/2002 6:04:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\1300.bmp - 308
+8/19/2002 6:04:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\1301.bmp - 66616
+8/19/2002 6:04:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\1302.bmp - 33568
+8/19/2002 6:04:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\1602.bmp - 96472
+8/19/2002 6:04:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\1902.bmp - 96472
+8/19/2002 6:04:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\2202.bmp - 96472
+8/19/2002 6:04:16 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\3402.bmp - 18424
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\3403.bmp - 96472
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\4302.bmp - 96472
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\AboutCtrl.cfg - 930
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\CommonCtrl.cfg - 1415
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\ConfigProxyCtrl.cfg - 1742
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\DownloadCtrl.cfg - 2440
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\LoginCtrl.cfg - 1981
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\MotdCtrl.cfg - 625
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\OptionalPatchCtrl.cfg - 1064
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\PatchDetailsCtrl.cfg - 594
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\SelectHostCtrl.cfg - 1679
+9/12/2002 12:25:00 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\SierraUp.ico - 2238
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\VersionCheckCtrl.cfg - 1173
+9/12/2002 2:02:50 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\vssver.scc - 432
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\WebLaunchCtrl.cfg - 591
+8/19/2002 6:04:18 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\WelcomeCtrl.cfg - 1062
+8/20/2002 3:31:40 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\_GameUpdateResource.cfg - 1254
+8/29/2002 10:23:54 AM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\_UpdateMaster.cfg - 1471
+8/21/2002 12:14:26 PM - C:\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Sierra Update\SierraUpRes\_UpdateResource.cfg - 21343
+
+UAC Enabled
+
+
+VirtualStore Folders:
+12/12/2011 12:16:56 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\0_Error.log - 0
+12/12/2011 12:17:37 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\EEQuickSave.scn - 60617
+12/12/2011 12:18:40 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Campaigns\test campaign.ssa - 39079
+12/12/2011 11:09:42 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Saved Games\213213.ees - 115036
+12/12/2011 11:10:57 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Saved Games\AutoSave 2011.12.12 - 11h.10m.56s.ees - 118137
+12/12/2011 11:11:12 AM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Saved Games\temp.ees - 119292
+12/12/2011 12:17:59 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Data\Scenarios\testscenario.scn - 60621
+12/12/2011 12:18:16 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\Users\default\Civilizations\test civilization.civ - 25
+12/12/2011 12:19:12 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Empire Earth Gold Edition\Empire Earth\_wonHTTPCache\cachemap.dat - 8

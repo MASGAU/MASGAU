@@ -1,0 +1,143 @@
+Game Name: Lost Horizon
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon
+
+Save Path:
+C:\Users\%USERNAME%\Documents\Lost Horizon
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Deep Silver\Lost Horizon
+Value:InstallPath
+Data:c:\program files (x86)\steam\steamapps\common\lost horizon
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Deep Silver\Lost Horizon
+Value:OPTIONS_CMD
+Data:c:\program files (x86)\steam\steamapps\common\lost horizon\ConfigTool.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Deep Silver\Lost Horizon
+Value:RUN_CMD
+Data:c:\program files (x86)\steam\steamapps\common\lost horizon\AutoStarter.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 40350
+Value:InstallLocation
+Data:c:\program files (x86)\steam\steamapps\common\lost horizon
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\Documents\Lost Horizon\2010-12-29_16-41_B2LV1.sav - 47552
+C:\Users\%USERNAME%\Documents\Lost Horizon\config.ini - 189
+C:\Users\%USERNAME%\Documents\Lost Horizon\reg.dat - 59
+C:\Users\%USERNAME%\Documents\Lost Horizon\settings.ini - 262
+C:\Users\%USERNAME%\Documents\Lost Horizon\_lastgame.sav - 47500
+
+Install Folder Dump:
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\40350_install.vdf - 1192
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\archives.ini - 328
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\autorun.inf - 2230
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\AutoStarter.exe - 206152
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\binkw32.dll - 176960
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\config.ini - 166
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\configtool.dat - 1470
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\ConfigTool.exe - 197952
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\data.spr - 1649126958
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\data_patch.spr - 2171719
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\errormsg.dat - 2062
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fsasgame-x86.dll - 1307776
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fsasgame.exe - 1507328
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fsassound.dll - 283968
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\GameuxInstallHelper.dll - 111960
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\granny2.dll - 539456
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\loca.spr - 575545561
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\loca_patch.spr - 824729
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\LostHorizonGDF.dll - 2991432
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\music.spr - 370217680
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\reg.dat - 0
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\settings.ini - 260
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\version.dat - 64
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\video.spr - 1432943204
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\autostarter\autostart.bmp - 578656
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\autostarter\autostart.en - 1388
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\autostarter\readme.txt - 303
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2005_d3dx9_25_x64.cab - 1348242
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2005_d3dx9_25_x86.cab - 1079850
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2006_d3dx9_30_x64.cab - 1398718
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2006_d3dx9_30_x86.cab - 1116109
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2006_MDX1_x86.cab - 917318
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2006_MDX1_x86_Archive.cab - 4163518
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2006_XACT_x64.cab - 180021
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2006_XACT_x86.cab - 133991
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2006_xinput_x64.cab - 87989
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Apr2006_xinput_x86.cab - 46898
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\APR2007_d3dx10_33_x64.cab - 702096
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\APR2007_d3dx10_33_x86.cab - 699466
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\APR2007_d3dx9_33_x64.cab - 1610998
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\APR2007_d3dx9_33_x86.cab - 1610311
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\APR2007_XACT_x64.cab - 199384
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\APR2007_XACT_x86.cab - 155350
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\APR2007_xinput_x64.cab - 100434
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\APR2007_xinput_x86.cab - 56902
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Aug2005_d3dx9_27_x64.cab - 1351430
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Aug2005_d3dx9_27_x86.cab - 1078532
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\AUG2006_XACT_x64.cab - 183863
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\AUG2006_XACT_x86.cab - 138195
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\AUG2006_xinput_x64.cab - 88102
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\AUG2006_xinput_x86.cab - 47018
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\BDANT.cab - 1156363
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\BDAXP.cab - 976020
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Dec2005_d3dx9_28_x64.cab - 1358864
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Dec2005_d3dx9_28_x86.cab - 1080344
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\DEC2006_d3dx10_00_x64.cab - 213767
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\DEC2006_d3dx10_00_x86.cab - 192680
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\DEC2006_d3dx9_32_x64.cab - 1572114
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\DEC2006_d3dx9_32_x86.cab - 1575336
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\DEC2006_XACT_x64.cab - 193435
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\DEC2006_XACT_x86.cab - 146559
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\DSETUP.dll - 77160
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\dsetup32.dll - 1673576
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\dxdllreg_x86.cab - 45302
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\dxnt.cab - 13265040
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\DXSETUP.exe - 503144
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\dxupdate.cab - 85883
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Feb2005_d3dx9_24_x64.cab - 1248387
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Feb2005_d3dx9_24_x86.cab - 1014113
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Feb2006_d3dx9_29_x64.cab - 1363684
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Feb2006_d3dx9_29_x86.cab - 1085608
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Feb2006_XACT_x64.cab - 179247
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Feb2006_XACT_x86.cab - 133297
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\FEB2007_XACT_x64.cab - 198275
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\FEB2007_XACT_x86.cab - 151583
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Jun2005_d3dx9_26_x64.cab - 1336890
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Jun2005_d3dx9_26_x86.cab - 1065813
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\JUN2006_XACT_x64.cab - 181745
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\JUN2006_XACT_x86.cab - 134631
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Oct2005_xinput_x64.cab - 86925
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\Oct2005_xinput_x86.cab - 46247
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\OCT2006_d3dx9_31_x64.cab - 1413862
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\OCT2006_d3dx9_31_x86.cab - 1128177
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\OCT2006_XACT_x64.cab - 183321
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\DirectX\OCT2006_XACT_x86.cab - 138977
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fonts\headlight.ttf - 64104
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fonts\jillican regular.ttf - 21648
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fonts\nesobrite no rg.ttf - 38488
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fonts\order reg.ttf - 30532
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fonts\sarasori.ttf - 28208
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fonts\steelfish.ttf - 45752
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fonts\teen.ttf - 67796
+C:\Program Files (x86)\Steam\steamapps\common\lost horizon\fonts\xenu regular.ttf - 28512
+
+UAC Disabled or not present
+

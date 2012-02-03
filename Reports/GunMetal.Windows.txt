@@ -1,0 +1,114 @@
+Comments:
+  <game name="GunMetal" platform="Windows">
+    <title>Gun Metal</title>
+    <location_path environment_variable="installlocation" path="Gunmetal" />
+    <location_registry root="local_machine" key="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\Gunmetal.exe" value="Path"/>
+    <location_shortcut shortcut="Programs\Yeti Studios\Gun Metal\Gun Metal.lnk"/>
+    <save path="data\SavedGames" />
+    <save path="data\SavedStates" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Gun Metal
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Yeti Studios\Gun Metal
+
+Save Path: 
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\SavedGames
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Gunmetal.exe
+Value: Path
+Data: C:\Program Files (x86)\Yeti Studios\Gun Metal
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Gunmetal.exe
+Value: 
+Data: C:\Program Files (x86)\Yeti Studios\Gun Metal\Gunmetal.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\Gunmetal.exe
+Value: Path
+Data: C:\Program Files (x86)\Yeti Studios\Gun Metal
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\Gunmetal.exe
+Value: 
+Data: C:\Program Files (x86)\Yeti Studios\Gun Metal\Gunmetal.exe
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Yeti Studios\Gun Metal\Gun Metal.lnk
+C:\Program Files (x86)\Yeti Studios\Gun Metal\Gunmetal.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Yeti Studios\Gun Metal\Manual.lnk
+C:\Program Files (x86)\Yeti Studios\Gun Metal\manual\GunMetal_English.pdf
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\SavedGames\0 - 262144
+
+Install Folder Dump: 
+C:\Program Files (x86)\Yeti Studios\Gun Metal\Gunmetal.exe - 2453504
+C:\Program Files (x86)\Yeti Studios\Gun Metal\gunmetal.log - 358
+C:\Program Files (x86)\Yeti Studios\Gun Metal\Readme.htm - 3641
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\comsenglish.pck - 108741254
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Init.ini - 160
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\init.pck - 28301
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\level.pck - 424739235
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\mainfe.pck - 59215211
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\persist.dat - 2391
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Attract_ps.wmv - 14918345
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Attract_ps_h.wmv - 27902345
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\CGPlayed_01.wmv - 6835373
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\CGPlayed_01_h.wmv - 6835373
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Intro1_ps.wmv - 2883189
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Intro1_ps_h.wmv - 4555173
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Intro2_ps.wmv - 19942847
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Intro2_ps_h.wmv - 39158847
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Outro_ps.wmv - 13502435
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Outro_ps_h.wmv - 14662783
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission01.wma - 365076
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission02.wma - 311310
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission03.wma - 371050
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission04.wma - 329232
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission05.wma - 215726
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission06.wma - 185856
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission07.wma - 371050
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission08.wma - 269492
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission09.wma - 377024
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission10.wma - 412868
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission11.wma - 436764
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission12.wma - 400920
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission13.wma - 454686
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\FrontEnd\Loading_FrontEnd\Languages\English\mission14.wma - 418842
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_01.wma - 1618106
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_02.wma - 1606811
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_03.wma - 1579703
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_04.wma - 1620365
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_05.wma - 1575185
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_06.wma - 1333472
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_07.wma - 1609070
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_08.wma - 1631660
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_09.wma - 1670063
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_10.wma - 1624883
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_11.wma - 1629401
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_12.wma - 1428350
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_13.wma - 1694912
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\mission_14.wma - 1539041
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\new_frontend.wma - 1152752
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\Music\Old_frontend.wma - 1116608
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\SavedGames\0 - 262144
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\SavedStates\c00m1.pst - 2784
+C:\Program Files (x86)\Yeti Studios\Gun Metal\data\SavedStates\c01m1.pst - 1368
+C:\Program Files (x86)\Yeti Studios\Gun Metal\manual\GunMetal_English.pdf - 668239
+
+UAC Disabled or not present
+

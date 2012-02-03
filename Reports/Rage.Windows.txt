@@ -1,0 +1,438 @@
+Comments:
+  <game name="Rage" platform="Steam">
+    <title>Rage</title>
+    <location_path environment_variable="savedgames" path="id Software\Rage" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+
+Game Name: Rage
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\rage
+
+Save Path: 
+C:\Users\%USERNAME%\Saved Games\id Software\Rage
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{9311F532-0670-48B7-8EE0-28143BE89F70}
+Value: ConfigApplicationPath
+Data: c:\program files (x86)\steam\steamapps\common\rage
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{9311F532-0670-48B7-8EE0-28143BE89F70}
+Value: ConfigGDFBinaryPath
+Data: c:\program files (x86)\steam\steamapps\common\rage\RageGDF_x86.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{9311F532-0670-48B7-8EE0-28143BE89F70}
+Value: AppExePath
+Data: c:\program files (x86)\steam\steamapps\common\rage\Rage.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 9200
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\rage
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Oct 12 9:01:10 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\video.cfg - 60
+Oct 12 8:38:25 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-AUTOSAVE\details.game - 404
+Oct 12 8:38:25 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-AUTOSAVE\game_small.png - 82922
+Oct 12 8:38:25 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-AUTOSAVE\inventory.rage - 60483
+Oct 12 8:55:41 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-quick\details.game - 404
+Oct 12 8:55:41 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-quick\game_small.png - 280159
+Oct 12 8:55:41 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-quick\instance3741.rage - 1068503
+Oct 12 8:55:41 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-quick\inventory.rage - 60483
+Oct 04 6:24:52 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_0\details.game - 404
+Oct 04 6:24:52 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_0\game_small.png - 113032
+Oct 04 6:24:52 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_0\instance9356.rage - 875091
+Oct 04 6:24:52 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_0\inventory.rage - 5536
+Oct 05 7:34:11 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_1\details.game - 404
+Oct 05 7:34:11 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_1\game_small.png - 178459
+Oct 05 7:34:11 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_1\instance6194.rage - 577098
+Oct 05 7:34:11 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_1\inventory.rage - 14709
+Oct 12 8:33:50 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_2\details.game - 404
+Oct 12 8:33:50 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_2\game_small.png - 285522
+Oct 12 8:33:51 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_2\instance0866.rage - 1896713
+Oct 12 8:33:50 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_2\inventory.rage - 59354
+Oct 10 3:32:26 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_3\details.game - 404
+Oct 10 3:32:26 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_3\game_small.png - 105594
+Oct 10 3:32:26 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_3\instance8876.rage - 1041478
+Oct 10 3:32:26 PM - C:\Users\%USERNAME%\Saved Games\id Software\Rage\base\savegame\GAMES-RAGE_3\inventory.rage - 50749
+
+Install Folder Dump: 
+Oct 04 4:57:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\binkw32.dll - 232776
+Oct 04 4:57:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\cg.dll - 4928840
+Oct 04 4:57:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\cgGL.dll - 312648
+Oct 04 4:57:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\cudart32_40_17.dll - 406344
+Oct 12 7:30:50 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\installscript.vdf - 773
+Oct 08 6:03:53 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\Rage.exe - 20253008
+Oct 04 4:57:50 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\RageGDF_x86.dll - 5661000
+Oct 11 9:27:50 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\steam.log - 72
+Oct 04 4:57:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\steam_api.dll - 124232
+Oct 04 4:16:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\360_1.cfg - 4184
+Oct 04 4:16:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\360_2.cfg - 4184
+Oct 04 4:16:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\360_3.cfg - 4183
+Oct 04 4:16:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\360_4.cfg - 4183
+Oct 04 4:58:22 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\default.cfg - 5119
+Oct 04 5:08:54 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\english.streamed - 263432864
+Oct 04 4:18:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\gameresources.resources - 1208179177
+Oct 08 6:04:46 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\gameresources_sp_01.patch - 54821338
+Oct 04 4:18:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\joystick.cfg - 7170
+Oct 08 9:58:44 AM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\rageconfig.cfg - 188
+Oct 07 6:41:22 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\rageconfig.cfg.new - 3592
+Oct 12 9:01:27 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\rendererPerformanceLogs.txt - 173813
+Oct 04 4:18:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\Southpaw_360_1.cfg - 4184
+Oct 04 4:18:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\Southpaw_360_2.cfg - 4184
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\streamed.resources - 904599568
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\vehicle_1.cfg - 1726
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\vehicle_2.cfg - 1725
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\vehicle_3.cfg - 1725
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\vehicle_4.cfg - 1776
+Oct 04 4:15:30 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\video\loadvideo.bik - 16385608
+Oct 04 4:15:36 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\video\loadvideo_french.bik - 16398400
+Oct 04 4:15:42 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\video\nip.bik - 45008536
+Oct 04 4:16:02 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\video\rage_intro.bik - 148911168
+Oct 04 4:16:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\base\video\rage_outro.bik - 71053972
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2005_d3dx9_25_x64.cab - 1347354
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2005_d3dx9_25_x86.cab - 1078962
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2006_d3dx9_30_x64.cab - 1397830
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2006_d3dx9_30_x86.cab - 1115221
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2006_MDX1_x86.cab - 916430
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2006_MDX1_x86_Archive.cab - 4162630
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2006_XACT_x64.cab - 179133
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2006_XACT_x86.cab - 133103
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2006_xinput_x64.cab - 87101
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Apr2006_xinput_x86.cab - 46010
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\APR2007_d3dx10_33_x64.cab - 698612
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\APR2007_d3dx10_33_x86.cab - 695865
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\APR2007_d3dx9_33_x64.cab - 1607358
+Oct 04 4:19:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\APR2007_d3dx9_33_x86.cab - 1606039
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\APR2007_XACT_x64.cab - 195766
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\APR2007_XACT_x86.cab - 151225
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\APR2007_xinput_x64.cab - 96817
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\APR2007_xinput_x86.cab - 53302
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2005_d3dx9_27_x64.cab - 1350542
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2005_d3dx9_27_x86.cab - 1077644
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2006_XACT_x64.cab - 182903
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2006_XACT_x86.cab - 137235
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2006_xinput_x64.cab - 87142
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2006_xinput_x86.cab - 46058
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2007_d3dx10_35_x64.cab - 852286
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2007_d3dx10_35_x86.cab - 796867
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2007_d3dx9_35_x64.cab - 1800160
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2007_d3dx9_35_x86.cab - 1708152
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2007_XACT_x64.cab - 198096
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\AUG2007_XACT_x86.cab - 153012
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2008_d3dx10_39_x64.cab - 867612
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2008_d3dx10_39_x86.cab - 849167
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2008_d3dx9_39_x64.cab - 1794084
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2008_d3dx9_39_x86.cab - 1464672
+Oct 04 4:19:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2008_XACT_x64.cab - 121772
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2008_XACT_x86.cab - 92996
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2008_XAudio_x64.cab - 271412
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2008_XAudio_x86.cab - 271038
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_D3DCompiler_42_x64.cab - 919044
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_D3DCompiler_42_x86.cab - 900598
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_d3dcsx_42_x64.cab - 3112111
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_d3dcsx_42_x86.cab - 3319740
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_d3dx10_42_x64.cab - 232635
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_d3dx10_42_x86.cab - 192131
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_d3dx11_42_x64.cab - 136301
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_d3dx11_42_x86.cab - 105044
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_d3dx9_42_x64.cab - 930116
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_d3dx9_42_x86.cab - 728456
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_XACT_x64.cab - 122408
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_XACT_x86.cab - 93106
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_XAudio_x64.cab - 273264
+Oct 04 4:19:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Aug2009_XAudio_x86.cab - 272642
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Dec2005_d3dx9_28_x64.cab - 1357976
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Dec2005_d3dx9_28_x86.cab - 1079456
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\DEC2006_d3dx10_00_x64.cab - 212807
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\DEC2006_d3dx10_00_x86.cab - 191720
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\DEC2006_d3dx9_32_x64.cab - 1571154
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\DEC2006_d3dx9_32_x86.cab - 1574376
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\DEC2006_XACT_x64.cab - 192475
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\DEC2006_XACT_x86.cab - 145599
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\DSETUP.dll - 89944
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\dsetup32.dll - 1801048
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\dxdllreg_x86.cab - 42410
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\DXSETUP.exe - 537432
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\dxupdate.cab - 94011
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2005_d3dx9_24_x64.cab - 1247499
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2005_d3dx9_24_x86.cab - 1013225
+Oct 04 4:19:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2006_d3dx9_29_x64.cab - 1362796
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2006_d3dx9_29_x86.cab - 1084720
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2006_XACT_x64.cab - 178359
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2006_XACT_x86.cab - 132409
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\FEB2007_XACT_x64.cab - 194675
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\FEB2007_XACT_x86.cab - 147983
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2010_X3DAudio_x64.cab - 54678
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2010_X3DAudio_x86.cab - 20713
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2010_XACT_x64.cab - 122446
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2010_XACT_x86.cab - 93180
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2010_XAudio_x64.cab - 276960
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Feb2010_XAudio_x86.cab - 277191
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2005_d3dx9_26_x64.cab - 1336002
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2005_d3dx9_26_x86.cab - 1064925
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2006_XACT_x64.cab - 180785
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2006_XACT_x86.cab - 133671
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2007_d3dx10_34_x64.cab - 699044
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2007_d3dx10_34_x86.cab - 698472
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2007_d3dx9_34_x64.cab - 1607774
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2007_d3dx9_34_x86.cab - 1607286
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2007_XACT_x64.cab - 197122
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2007_XACT_x86.cab - 152909
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_d3dx10_38_x64.cab - 867828
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_d3dx10_38_x86.cab - 849919
+Oct 04 4:19:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_d3dx9_38_x64.cab - 1792608
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_d3dx9_38_x86.cab - 1463878
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_X3DAudio_x64.cab - 55154
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_X3DAudio_x86.cab - 21905
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_XACT_x64.cab - 121054
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_XACT_x86.cab - 93128
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_XAudio_x64.cab - 269628
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\JUN2008_XAudio_x86.cab - 269024
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_D3DCompiler_43_x64.cab - 944460
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_D3DCompiler_43_x86.cab - 931471
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_d3dcsx_43_x64.cab - 752783
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_d3dcsx_43_x86.cab - 762188
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_d3dx10_43_x64.cab - 235955
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_d3dx10_43_x86.cab - 197283
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_d3dx11_43_x64.cab - 138205
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_d3dx11_43_x86.cab - 109445
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_d3dx9_43_x64.cab - 937246
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_d3dx9_43_x86.cab - 768036
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_XACT_x64.cab - 124596
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_XACT_x86.cab - 93686
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_XAudio_x64.cab - 277338
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Jun2010_XAudio_x86.cab - 278060
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_d3dx10_37_x64.cab - 844884
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_d3dx10_37_x86.cab - 818260
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_d3dx9_37_x64.cab - 1769862
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_d3dx9_37_x86.cab - 1443282
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_X3DAudio_x64.cab - 55058
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_X3DAudio_x86.cab - 21867
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_XACT_x64.cab - 122336
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_XACT_x86.cab - 93734
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_XAudio_x64.cab - 251194
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2008_XAudio_x86.cab - 226250
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_d3dx10_41_x64.cab - 1067160
+Oct 04 4:19:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_d3dx10_41_x86.cab - 1040745
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_d3dx9_41_x64.cab - 1973702
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_d3dx9_41_x86.cab - 1612446
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_X3DAudio_x64.cab - 54600
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_X3DAudio_x86.cab - 21298
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_XACT_x64.cab - 121506
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_XACT_x86.cab - 92740
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_XAudio_x64.cab - 275044
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Mar2009_XAudio_x86.cab - 273018
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2007_d3dx10_36_x64.cab - 864600
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2007_d3dx10_36_x86.cab - 803884
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2007_d3dx9_36_x64.cab - 1802058
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2007_d3dx9_36_x86.cab - 1709360
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\NOV2007_X3DAudio_x64.cab - 46144
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\NOV2007_X3DAudio_x86.cab - 18496
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\NOV2007_XACT_x64.cab - 196762
+Oct 04 4:19:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\NOV2007_XACT_x86.cab - 148264
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_d3dx10_40_x64.cab - 994154
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_d3dx10_40_x86.cab - 965421
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_d3dx9_40_x64.cab - 1906878
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_d3dx9_40_x86.cab - 1550796
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_X3DAudio_x64.cab - 54522
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_X3DAudio_x86.cab - 21851
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_XACT_x64.cab - 121794
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_XACT_x86.cab - 92684
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_XAudio_x64.cab - 273960
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Nov2008_XAudio_x86.cab - 272611
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Oct2005_xinput_x64.cab - 86037
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\Oct2005_xinput_x86.cab - 45359
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\OCT2006_d3dx9_31_x64.cab - 1412902
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\OCT2006_d3dx9_31_x86.cab - 1127217
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\OCT2006_XACT_x64.cab - 182361
+Oct 04 4:19:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\directx\OCT2006_XACT_x86.cab - 138017
+Oct 04 4:15:26 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc1\info.txt - 163
+Oct 04 4:58:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\info.txt - 163
+Oct 04 5:08:54 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_boneyard_export.pages - 342011992
+Oct 04 4:58:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_01.pages - 72
+Oct 04 4:58:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_02.pages - 72
+Oct 04 4:58:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_03.pages - 72
+Oct 04 5:08:54 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_04.pages - 72
+Oct 04 4:58:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_05.pages - 72
+Oct 04 4:57:35 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_06.pages - 72
+Oct 04 4:58:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_07.pages - 72
+Oct 04 4:15:29 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_08.pages - 72
+Oct 04 4:58:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\dlc\dlc2\virtualtextures\sewer_level_09.pages - 72
+Oct 04 4:19:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\360_1.cfg - 4184
+Oct 04 4:19:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\360_2.cfg - 4184
+Oct 04 4:19:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\360_3.cfg - 4183
+Oct 04 4:19:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\360_4.cfg - 4183
+Oct 04 4:58:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\default.cfg - 5119
+Oct 04 4:57:32 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\english.streamed - 50400672
+Oct 04 4:19:57 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\gameresources.resources - 558590555
+Oct 08 6:05:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\gameresources_mp_01.patch - 55842292
+Oct 04 4:19:57 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\joystick.cfg - 7170
+Oct 04 4:19:57 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\Southpaw_360_1.cfg - 4184
+Oct 04 4:19:57 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\Southpaw_360_2.cfg - 4184
+Oct 04 4:20:25 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\streamed.resources - 490098932
+Oct 04 4:20:25 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\vehicle_1.cfg - 1726
+Oct 04 4:20:25 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\vehicle_2.cfg - 1725
+Oct 04 4:20:25 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\vehicle_3.cfg - 1725
+Oct 04 4:20:25 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\vehicle_4.cfg - 1776
+Oct 04 4:19:13 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\video\loadvideo.bik - 16262620
+Oct 04 4:19:14 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\video\loadvideo_french.bik - 16275412
+Oct 04 4:19:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\base\video\nip.bik - 45008536
+Oct 04 4:21:41 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\bash_infest_coop.pageLines - 699050
+Oct 04 4:21:57 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\bash_infest_coop.pages - 258823038
+Oct 04 4:21:57 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\bash_tv_coop.pageLines - 174762
+Oct 04 4:22:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\bash_tv_coop.pages - 158640524
+Oct 04 4:22:06 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\bc_haggar_terrain.pageLines - 174762
+Oct 04 4:22:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\bc_haggar_terrain.pages - 20393600
+Oct 04 4:22:07 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\cj_haggar_terrain.pageLines - 174762
+Oct 04 4:22:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\cj_haggar_terrain.pages - 66918962
+Oct 04 4:22:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\dam_facility_coop.pageLines - 699050
+Oct 04 4:23:27 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\dam_facility_coop.pages - 237366834
+Oct 04 4:23:27 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\mutantcave_coop.pageLines - 699050
+Oct 04 4:24:48 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\mutantcave_coop.pages - 322531326
+Oct 04 4:24:48 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_abandoned.pageLines - 699050
+Oct 04 4:24:56 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_abandoned.pages - 147678874
+Oct 04 4:24:56 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_abandoned_terrain.pageLines - 699050
+Oct 04 4:25:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_abandoned_terrain.pages - 243284536
+Oct 04 4:25:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_gearhead_valley.pageLines - 699050
+Oct 04 4:25:22 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_gearhead_valley.pages - 161384834
+Oct 04 4:25:22 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_gv_terrain.pageLines - 2796202
+Oct 04 4:25:44 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_gv_terrain.pages - 367545182
+Oct 04 4:25:44 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_haggar.pageLines - 174762
+Oct 04 4:25:48 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_haggar.pages - 70019718
+Oct 04 4:25:48 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_meteor.pageLines - 174762
+Oct 04 4:25:51 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_meteor.pages - 32576710
+Oct 04 4:25:51 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_meteor_terrain.pageLines - 699050
+Oct 04 4:25:54 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_meteor_terrain.pages - 47087320
+Oct 04 4:25:54 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_prime.pageLines - 699050
+Oct 04 4:26:16 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_prime.pages - 297659822
+Oct 04 4:26:16 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_prime_terrain.pageLines - 699050
+Oct 04 4:26:29 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_prime_terrain.pages - 185024922
+Oct 04 4:26:29 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_triangleland.pageLines - 699050
+Oct 04 4:27:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\online_triangleland.pages - 553825498
+Oct 04 4:27:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\plaza_coop.pageLines - 699050
+Oct 04 4:27:47 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\plaza_coop.pages - 411700896
+Oct 04 4:27:47 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\prison_coop.pageLines - 699050
+Oct 04 4:28:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\prison_coop.pages - 272772552
+Oct 04 4:28:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\rcbb_coop.pageLines - 699050
+Oct 04 4:28:38 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\rcbb_coop.pages - 271809262
+Oct 04 4:28:38 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\sh_haggar_terrain.pageLines - 174762
+Oct 04 4:28:53 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\sh_haggar_terrain.pages - 148529878
+Oct 04 4:28:53 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\tv_haggar_terrain.pageLines - 174762
+Oct 04 4:29:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\tv_haggar_terrain.pages - 147769346
+Oct 04 4:29:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\wc_haggar_terrain.pageLines - 174762
+Oct 04 4:29:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\wc_haggar_terrain.pages - 94659676
+Oct 04 4:29:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\wellspring_coop.pageLines - 699050
+Oct 04 4:37:35 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\wellspring_coop.pages - 201425126
+Oct 04 4:37:35 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\wt_haggar_terrain.pageLines - 174762
+Oct 04 4:38:24 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\wt_haggar_terrain.pages - 161599488
+Oct 04 4:20:25 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\_vmtr.pageLines - 699050
+Oct 04 4:21:41 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\mp\virtualtextures\_vmtr.pages - 1181538742
+Oct 04 4:38:26 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\msvc2010\vcredist_x86.exe - 5073240
+Oct 04 4:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\as_terrain.pageLines - 699050
+Oct 04 4:41:36 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\as_terrain.pages - 61555856
+Oct 04 4:41:37 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\authority_base.pageLines - 2796202
+Oct 04 4:43:00 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\authority_base.pages - 1099680736
+Oct 04 4:43:00 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\bash_tv.pageLines - 174762
+Oct 04 4:43:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\bash_tv.pages - 178791162
+Oct 04 4:43:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\bash_tv_entrance.pageLines - 43690
+Oct 04 4:43:13 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\bash_tv_entrance.pages - 19468720
+Oct 04 4:43:13 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\bc_terrain.pageLines - 174762
+Oct 04 4:43:16 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\bc_terrain.pages - 50008940
+Oct 04 4:43:16 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\bh_terrain.pageLines - 174762
+Oct 04 4:43:20 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\bh_terrain.pages - 65250362
+Oct 04 4:43:20 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\cj_terrain.pageLines - 174762
+Oct 04 4:43:24 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\cj_terrain.pages - 63952434
+Oct 04 4:43:24 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\dam_facility.pageLines - 699050
+Oct 04 4:43:37 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\dam_facility.pages - 221109728
+Oct 04 4:43:37 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\deadcity1.pageLines - 699050
+Oct 04 4:43:51 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\deadcity1.pages - 235646732
+Oct 04 4:43:51 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\deadcity2.pageLines - 699050
+Oct 04 4:44:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\deadcity2.pages - 314619536
+Oct 04 4:44:08 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\dirttrack_terrain.pageLines - 699050
+Oct 04 4:44:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\dirttrack_terrain.pages - 78262552
+Oct 04 4:44:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\distillery.pageLines - 699050
+Oct 04 4:44:20 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\distillery.pages - 128015126
+Oct 04 4:44:20 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\dusty8.pageLines - 174762
+Oct 04 4:44:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\dusty8.pages - 34754768
+Oct 04 4:44:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\ghost_hideout.pageLines - 699050
+Oct 04 4:44:39 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\ghost_hideout.pages - 316487180
+Oct 04 4:44:39 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\gv_terrain.pageLines - 2796202
+Oct 04 4:45:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\gv_terrain.pages - 588277580
+Oct 04 4:45:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\hr_terrain.pageLines - 174762
+Oct 04 4:45:16 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\hr_terrain.pages - 72115096
+Oct 04 4:45:16 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\hs_terrain.pageLines - 174762
+Oct 04 4:45:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\hs_terrain.pages - 82389350
+Oct 04 4:45:21 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\jackalcanyon.pageLines - 2796202
+Oct 04 4:45:40 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\jackalcanyon.pages - 332044272
+Oct 04 4:45:40 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\mc_terrain.pageLines - 174762
+Oct 04 4:45:48 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\mc_terrain.pages - 47507370
+Oct 04 4:45:48 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\ms_terrain.pageLines - 699050
+Oct 04 4:45:54 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\ms_terrain.pages - 123236458
+Oct 04 4:45:54 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\mt_terrain.pageLines - 699050
+Oct 04 4:46:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\mt_terrain.pages - 249387392
+Oct 04 4:46:10 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\mutantcave.pageLines - 699050
+Oct 04 4:46:31 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\mutantcave.pages - 317171050
+Oct 04 4:46:31 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\nh_terrain.pageLines - 174762
+Oct 04 4:46:35 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\nh_terrain.pages - 65080380
+Oct 04 4:46:35 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\online_meteor.pageLines - 174762
+Oct 04 4:46:37 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\online_meteor.pages - 32576710
+Oct 04 4:46:37 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\online_meteor_terrain.pageLines - 699050
+Oct 04 4:46:40 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\online_meteor_terrain.pages - 47087320
+Oct 04 4:46:40 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\os_terrain.pageLines - 174762
+Oct 04 4:46:43 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\os_terrain.pages - 45995614
+Oct 04 4:46:43 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\pb_terrain.pageLines - 174762
+Oct 04 5:08:54 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\pb_terrain.pages - 76393250
+Oct 04 4:46:49 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\plaza.pageLines - 699050
+Oct 04 4:47:20 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\plaza.pages - 412047818
+Oct 04 4:47:20 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\power_surge.pageLines - 699050
+Oct 04 4:47:47 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\power_surge.pages - 379044964
+Oct 04 4:47:47 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\prison.pageLines - 699050
+Oct 04 4:48:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\prison.pages - 367997002
+Oct 04 4:48:18 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\rcbombbase.pageLines - 699050
+Oct 04 4:48:46 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\rcbombbase.pages - 321764918
+Oct 04 4:48:47 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\rd_terrain.pageLines - 2796202
+Oct 04 4:49:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\rd_terrain.pages - 264881680
+Oct 04 4:49:11 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\scientist.pageLines - 43690
+Oct 04 4:49:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\scientist.pages - 10012752
+Oct 04 4:49:12 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\se_terrain.pageLines - 2796202
+Oct 04 4:50:13 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\se_terrain.pages - 600799228
+Oct 04 4:50:13 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\sh_terrain.pageLines - 174762
+Oct 04 4:50:20 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\sh_terrain.pages - 62025206
+Oct 04 4:50:20 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\subway_town.pageLines - 699050
+Oct 04 4:53:17 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\subway_town.pages - 372723906
+Oct 04 4:53:17 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\tv_terrain.pageLines - 174762
+Oct 04 4:53:27 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\tv_terrain.pages - 85451172
+Oct 04 4:53:27 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wasteland1.pageLines - 2796202
+Oct 04 4:55:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wasteland1.pages - 1178559388
+Oct 04 4:55:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wasteland2.pageLines - 2796202
+Oct 04 4:56:01 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wasteland2.pages - 724562866
+Oct 04 4:56:01 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wc_terrain.pageLines - 174762
+Oct 04 4:56:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wc_terrain.pages - 92143528
+Oct 04 4:56:09 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\well.pageLines - 699050
+Oct 04 4:56:43 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\well.pages - 364275190
+Oct 04 4:56:43 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wellspring.pageLines - 699050
+Oct 04 4:57:00 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wellspring.pages - 190766562
+Oct 04 4:57:00 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wt_terrain.pageLines - 174762
+Oct 04 4:57:05 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\wt_terrain.pages - 52380888
+Oct 04 4:38:26 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\_vmtr.pageLines - 699050
+Oct 04 4:41:32 PM - C:\Program Files (x86)\Steam\steamapps\common\rage\virtualtextures\_vmtr.pages - 1789006284
+
+UAC Disabled or not present
+

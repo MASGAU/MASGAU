@@ -1,0 +1,214 @@
+Comments:
+ 	<game name="DrugWarsMOB">
+		<title>Drug Wars: Merchants of Brooklyn</title>
+		<location_path environment_variable="userdocuments" path="My Games\MOB" />
+    <save filename="game.cfg" />
+		<save path="Profiles" />
+		<save path="SaveGames" />
+	</game>
+
+Game Name: Drug Wars: Merchants of Brooklyn
+
+Operating System:
+Microsoft Windows NT 6.1.7600.0
+
+Install Path:
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn
+
+Save Path:
+C:\Users\%USERNAME%\Documents\My Games\MOB
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 26300
+Value:InstallLocation
+Data:c:\program files (x86)\steam\steamapps\common\merchants of brooklyn
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts:
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+C:\Users\%USERNAME%\Documents\My Games\MOB\game.cfg - 1156
+C:\Users\%USERNAME%\Documents\My Games\MOB\Profiles\%STEAMID%\actionmaps.xml - 12179
+C:\Users\%USERNAME%\Documents\My Games\MOB\Profiles\%STEAMID%\attributes.xml - 324
+C:\Users\%USERNAME%\Documents\My Games\MOB\Profiles\%STEAMID%\profile.xml - 28
+C:\Users\%USERNAME%\Documents\My Games\MOB\Profiles\default\actionmaps.xml - 12179
+C:\Users\%USERNAME%\Documents\My Games\MOB\Profiles\default\attributes.xml - 27
+C:\Users\%USERNAME%\Documents\My Games\MOB\Profiles\default\profile.xml - 27
+C:\Users\%USERNAME%\Documents\My Games\MOB\SaveGames\%STEAMID%_00_Bottom Dweller_03m_30s.MOBJMSF - 505977
+C:\Users\%USERNAME%\Documents\My Games\MOB\SaveGames\%STEAMID%_01_Bottom Dweller_07m_44s.MOBJMSF - 587889
+C:\Users\%USERNAME%\Documents\My Games\MOB\SaveGames\%STEAMID%_02_Bottom Dweller_16m_16s.MOBJMSF - 613682
+C:\Users\%USERNAME%\Documents\My Games\MOB\SaveGames\%STEAMID%_03_Bottom Dweller_24m_37s.MOBJMSF - 823420
+C:\Users\%USERNAME%\Documents\My Games\MOB\SaveGames\%STEAMID%_04_Bottom Dweller_28m_09s.MOBJMSF - 870604
+C:\Users\%USERNAME%\Documents\My Games\MOB\SaveGames\%STEAMID%_Bottom Dweller_merchantsofbrooklyn.MOBJMSF - 492366
+
+Install Folder Dump:
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\installscript.vdf - 708
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\atimgpud.dll - 40960
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CompressATI2.dll - 73728
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\Cry3DEngine.dll - 1802240
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryAction.dll - 3067904
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryAISystem.dll - 2072576
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryAnimation.dll - 1564672
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryEntitySystem.dll - 696320
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryFont.dll - 278528
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryGame.dll - 2887680
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryInput.dll - 81920
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryMovie.dll - 233472
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryNetwork.dll - 778240
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryPhysics.dll - 1806336
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryRenderD3D10.dll - 2314240
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryRenderD3D9.dll - 2310144
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryRenderNULL.dll - 843776
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CryScriptSystem.dll - 487424
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CrySoundSystem.dll - 483328
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\CrySystem.dll - 2043904
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\d3dcompiler_34.dll - 1124720
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\d3dx10_34.dll - 443752
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\d3dx9_34.dll - 3497832
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\DedicatedServer.exe - 32256
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\fmodex.dll - 823296
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\fmod_event.dll - 249856
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\fmod_event_net.dll - 286720
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\jpeg62.dll - 153966
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\Launcher.exe - 81920
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\libTIFF.dll - 438272
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\libtiff3.dll - 441498
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\SHAllocator.dll - 7680
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\steam_api.dll - 87288
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\steam_appid.txt - 5
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Bin32\zlib1.dll - 70656
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Animations.pak - 38818264
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\GameData.pak - 45663119
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Music.pak - 140426945
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Objects.pak - 576224242
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\ShaderCache.pak - 4922214
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Shaders.pak - 409477
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Sounds.pak - 188524857
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Textures.pak - 115836216
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\ZPatch1.pak - 43379717
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\ZPatch2.pak - 31218713
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\ZPatch3.pak - 15998195
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\AutoTestChain.cfg - 129
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\AutoTestTimeDemo.cfg - 129
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\benchmark_cpu.cfg - 229
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\benchmark_gpu.cfg - 228
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\config.dat - 65751
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\diff_bauer.cfg - 1325
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\diff_easy.cfg - 1313
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\diff_hard.cfg - 1315
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\diff_normal.cfg - 1314
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\Folders.ini - 28
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\FSAAProfiles.txt - 465
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\FSAAProfilesDX10.txt - 467
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\highspec.cfg - 17
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\levelrotation.xml - 308
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\lowspec.cfg - 50
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\medspec.cfg - 17
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\multiplayer.cfg - 78
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\recording.cfg - 1570
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\singleplayer.cfg - 78
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\sketch_off.cfg - 535
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\sketch_on.cfg - 547
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\StartRecording.cfg - 225
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\StopRecording.cfg - 122
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\veryhighspec.cfg - 19
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Full.cfg - 1134
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_GameEffects.cfg - 355
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_MotionBlur.cfg - 132
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_ObjectDetail.cfg - 2202
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Particles.cfg - 505
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Physics.cfg - 1141
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_PostProcessing.cfg - 467
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Quality.cfg - 944
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Shading.cfg - 1505
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Shadows.cfg - 951
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Sound.cfg - 653
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Texture.cfg - 1055
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_VolumetricEffects.cfg - 312
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\CVarGroups\sys_spec_Water.cfg - 1416
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\gpu\amd.txt - 8998
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Config\gpu\nvidia.txt - 5823
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\SP_Loading.dds - 524416
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Bottom_Dweller\Bottom_Dweller.cry - 4846035
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Bottom_Dweller\Bottom_Dweller.xml - 120
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Bottom_Dweller\filelist.xml - 227
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Bottom_Dweller\level.pak - 1982243
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Bottom_Dweller\tags.txt - 757
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Bottom_Dweller\terraintexture.pak - 1146036
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Brooklyn_Slums\Brooklyn_Slums.cry - 1454293
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Brooklyn_Slums\Brooklyn_Slums.xml - 120
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Brooklyn_Slums\level.pak - 2272837
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Brooklyn_Slums\tags.txt - 699
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Brooklyn_Slums\terraintexture.pak - 22
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Franks_Prison\Brooklyn_Slums.xml - 119
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Franks_Prison\Franks_Prison.cry - 801565
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Franks_Prison\Franks_Prison.xml - 119
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Franks_Prison\level.pak - 1297726
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Franks_Prison\tags.txt - 710
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\Rooftops\filelist.xml - 223
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\Rooftops\level.pak - 319613
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\Rooftops\Rooftops.cry - 117227
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\Rooftops\Rooftops.xml - 166
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\Rooftops\tags.txt - 232
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\Rooftops\terraintexture.pak - 22
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\UnderCity_Casino\level.pak - 270374
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\UnderCity_Casino\tags.txt - 691
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\UnderCity_Casino\terraintexture.pak - 22
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\UnderCity_Casino\UnderCity_Casino.cry - 76444
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dm\UnderCity_Casino\UnderCity_Casino.xml - 153
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars_Loading_Bike.dds - 524416
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars_Loading_Bum.dds - 524416
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars_Loading_Caddy.dds - 524416
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars_Loading_Instructions.dds - 1398232
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars_Loading_Security.dds - 524416
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Blitzed_Forest\Blitzed_Forest.cry - 4239229
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Blitzed_Forest\Blitzed_Forest.xml - 498
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Blitzed_Forest\Blitzed_Forest_Minimap.dds - 2796336
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Blitzed_Forest\level.pak - 5834853
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Blitzed_Forest\ScreenshotMap.Settings - 124
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Blitzed_Forest\terraintexture.pak - 1705068
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Daswamp\Daswamp.cry - 4637553
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Daswamp\DaSwamp.xml - 484
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Daswamp\daswamp_minimap.dds - 2796336
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Daswamp\level.pak - 6790893
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Daswamp\ScreenshotMap.Settings - 123
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Daswamp\tags.txt - 697
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Daswamp\terraintexture.pak - 1059583
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars\Drug_Wars.cry - 4625087
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars\Drug_Wars.xml - 488
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars\Drug_wars_Minimap.dds - 2796336
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars\level.pak - 48994854
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars\ScreenshotMap.Settings - 125
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars\tags.txt - 711
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\dw\Drug_Wars\terraintexture.pak - 13959217
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Prison\level.pak - 862341
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Prison\Prison.cry - 81679
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Prison\Prison.xml - 147
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Prison\terraintexture.pak - 22
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slums\level.pak - 401673
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slums\Slums.cry - 181651
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slums\Slums.xml - 146
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slums\tags.txt - 687
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slums\terraintexture.pak - 22
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slum_Bridges\level.pak - 349397
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slum_Bridges\Slum_Bridges.cry - 137921
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slum_Bridges\Slum_Bridges.xml - 153
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slum_Bridges\tags.txt - 686
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Levels\Multiplayer\tdm\Slum_Bridges\terraintexture.pak - 22
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Localized\Default.lng - 43
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Localized\English.lng - 41
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Game\Localized\English.pak - 9060720
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Installers\dxwebsetup.exe - 305672
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Installers\vcredist_x64.exe - 3200960
+C:\Program Files (x86)\Steam\steamapps\common\merchants of brooklyn\Installers\vcredist_x86.exe - 2723264
+
+UAC Disabled or not present
+

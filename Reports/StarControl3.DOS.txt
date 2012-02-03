@@ -1,0 +1,335 @@
+Game Name: Star control 3
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Star Control 3
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3E32F301-52A7-4D5A-A7D0-B38DBD96C58E}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Star Control 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3E32F301-52A7-4D5A-A7D0-B38DBD96C58E}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Star Control 3\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC3
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Star Control 3\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC3
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Star Control 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC3
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC3
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSC3
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Star Control 3\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Star Control 3_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Star Control 3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Star Control 3_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Star Control 3\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Star Control 3\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Star Control 3\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Star Control 3\Star Control 3.lnk
+C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Star Control 3\Uninstall Star Control 3.lnk
+C:\Program Files (x86)\GOG.com\Star Control 3\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Star Control 3\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Star Control 3\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+10/25/2011 12:09:40 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\stderr.txt - 0
+10/25/2011 12:11:16 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\stdout.txt - 176
+10/25/2011 12:08:26 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\FLEET000.SAV - 86
+10/25/2011 12:11:12 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\FLEET001.SAV - 86
+10/25/2011 12:11:15 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\LEGEND.INI - 177
+10/25/2011 12:09:51 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\RESTART.DAT - 22390
+10/25/2011 12:10:24 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR000.SAV - 22470
+10/25/2011 12:10:32 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR001.SAV - 22470
+
+Install Folder Dump:
+4/6/2011 10:58:06 AM - C:\Program Files (x86)\GOG.com\Star Control 3\dosboxSC3.conf - 7319
+8/12/2011 3:23:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\gfw_high.ico - 113967
+9/16/2011 10:07:52 AM - C:\Program Files (x86)\GOG.com\Star Control 3\goggame.dll - 227840
+2/25/2011 3:19:10 PM - C:\Program Files (x86)\GOG.com\Star Control 3\Graphic mode setup.exe - 980992
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\Star Control 3\innosetup_license.txt - 1471
+8/12/2011 1:21:08 PM - C:\Program Files (x86)\GOG.com\Star Control 3\manual.pdf - 349270
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Star Control 3\Support.ico - 62895
+10/25/2011 12:05:33 PM - C:\Program Files (x86)\GOG.com\Star Control 3\unins000.dat - 75061
+10/25/2011 12:04:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\unins000.exe - 2142547
+10/25/2011 12:05:33 PM - C:\Program Files (x86)\GOG.com\Star Control 3\unins000.ini - 68
+7/2/2010 1:00:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 11:55:40 AM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\SDL.dll - 448231
+4/9/2010 9:04:12 PM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\SDL_net.dll - 13312
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 11:52:52 AM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 9:08:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\DOSBOX\Video Codec\zmbv.inf - 4043
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\ADLIB.MDI - 15003
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\ADLIBG.MDI - 16394
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\ADRV688.DIG - 11278
+2/9/2011 1:53:18 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\AUTORUN.LOC - 0
+2/9/2011 1:53:06 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\DIG.INI - 189
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\ESFM.MDI - 15896
+8/8/2010 9:45:58 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\GAME.GOG - 763075824
+2/16/2011 1:55:06 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\GAME.INST - 72
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\GM.XMI - 208978
+2/9/2011 1:52:40 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\INMYSC3.ID - 16
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\IWAV.DIG - 2585
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\IWAV.MDI - 2149
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\JAMMER.DIG - 3219
+2/9/2011 1:52:40 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\LEGEND.01 - 49
+2/9/2011 1:52:40 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\LEGEND.INI - 52
+2/9/2011 1:53:02 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\MDI.INI - 198
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\MPU401.MDI - 1932
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\MSSDRVR.LST - 19800
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\MSSW95.EXE - 8029
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\MT32MPU.MDI - 6948
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\NVDIG.DIG - 1715
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\NVMPU.MDI - 1957
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\OPL3.MDI - 16404
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\PAS.MDI - 15442
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\PASPLUS.MDI - 16475
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\PROAUDIO.DIG - 2144
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\RAP10.DIG - 2866
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SAMPLE.AD - 3622
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SAMPLE.OPL - 3622
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SB16.DIG - 2853
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SBAWE32.MDI - 31326
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SBLASTER.DIG - 3142
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SBLASTER.MDI - 15135
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SBPRO.DIG - 2801
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SBPRO1.MDI - 15488
+2/9/2011 1:52:14 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SBPRO2.MDI - 16558
+2/9/2011 1:52:22 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SC3.EXE - 1189325
+2/9/2011 1:52:22 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SC3.ICO - 3310
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SC3STR.DAT - 316927
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SETSOUND.EXE - 119408
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SNDSCAPE.DIG - 4171
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SNDSCAPE.MDI - 2971
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\SNDSYS.DIG - 3349
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR000.FNT - 2418
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR000.PIC - 93686
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR001.FNT - 2418
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR001.PIC - 467031
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR002.FNT - 580
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR002.PIC - 194770
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR003.FNT - 2418
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR003.PIC - 211762
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR004.FNT - 2418
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR004.PIC - 459152
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR005.FNT - 2418
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR005.PIC - 249937
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR006.PIC - 78167
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR008.PIC - 152743
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR009.PIC - 146879
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR010.PIC - 166539
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR011.PIC - 138576
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR012.PIC - 114117
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR013.PIC - 94730
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR014.PIC - 63877
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR015.PIC - 200639
+2/9/2011 1:52:24 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR016.PIC - 221949
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR017.PIC - 278998
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR018.PIC - 197182
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR019.PIC - 219723
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR020.PIC - 124016
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR021.PIC - 120730
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR022.PIC - 189524
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR023.PIC - 28734
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR024.PIC - 208976
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR025.PIC - 217211
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR026.PIC - 228969
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR027.PIC - 100310
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR028.PIC - 210518
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR029.PIC - 121304
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR100.PIC - 32531
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR101.PIC - 444797
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR102.PIC - 90941
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR103.PIC - 126704
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR104.PIC - 440054
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR105.PIC - 129028
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR106.PIC - 42323
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR108.PIC - 85243
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR109.PIC - 151045
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR110.PIC - 83630
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR111.PIC - 90882
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR112.PIC - 59490
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR113.PIC - 84111
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR114.PIC - 29760
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR115.PIC - 123541
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR116.PIC - 155230
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR117.PIC - 222939
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR118.PIC - 139766
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR119.PIC - 153129
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR120.PIC - 96192
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR121.PIC - 111506
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR122.PIC - 142368
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR123.PIC - 23803
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR124.PIC - 142800
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR125.PIC - 131469
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR126.PIC - 109582
+2/9/2011 1:52:26 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR127.PIC - 97365
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR128.PIC - 166649
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR129.PIC - 127955
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR200.PIC - 103302
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR210.PIC - 554114
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR220.PIC - 12972
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR400.PIC - 557273
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR401.PIC - 272220
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR402.PIC - 312804
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR403.PIC - 341767
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR404.PIC - 324780
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR405.PIC - 417918
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR406.PIC - 340939
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR407.PIC - 339627
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR408.PIC - 398823
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR409.PIC - 366719
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR410.PIC - 363841
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR411.PIC - 341133
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR412.PIC - 349994
+2/9/2011 1:52:28 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR413.PIC - 349995
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR414.PIC - 301497
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR415.PIC - 334918
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR416.PIC - 371157
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR417.PIC - 294915
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR418.PIC - 384222
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR419.PIC - 302361
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR420.PIC - 331103
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR421.PIC - 267772
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR422.PIC - 373387
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR423.PIC - 422455
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR424.PIC - 299278
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR425.PIC - 357297
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR426.PIC - 362170
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR427.PIC - 314653
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR428.PIC - 318618
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR429.PIC - 282300
+2/9/2011 1:52:30 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR430.PIC - 347734
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR431.PIC - 365899
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR432.PIC - 379576
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR433.PIC - 255838
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR434.PIC - 231247
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR435.PIC - 282754
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR436.PIC - 317136
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR437.PIC - 256641
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR438.PIC - 329052
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR439.PIC - 324283
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR440.PIC - 338137
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR441.PIC - 366839
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR442.PIC - 274642
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR443.PIC - 369593
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR444.PIC - 307401
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR445.PIC - 341767
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR446.PIC - 244327
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR447.PIC - 281235
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR448.PIC - 291857
+2/9/2011 1:52:32 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR449.PIC - 265052
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR450.PIC - 326686
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR451.PIC - 313056
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR452.PIC - 369342
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR453.PIC - 337608
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR454.PIC - 366719
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR455.PIC - 356497
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR456.PIC - 329640
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR457.PIC - 377285
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR458.PIC - 281250
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR459.PIC - 392199
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR460.PIC - 286085
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR461.PIC - 273393
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR462.PIC - 364427
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR463.PIC - 364722
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR464.PIC - 328377
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR465.PIC - 275451
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR466.PIC - 320837
+2/9/2011 1:52:34 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR467.PIC - 358400
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR468.PIC - 341290
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR469.PIC - 360728
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR470.PIC - 364722
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR471.PIC - 372805
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR472.PIC - 347576
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR473.PIC - 448402
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR474.PIC - 373367
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR475.PIC - 346531
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR476.PIC - 327124
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR477.PIC - 378416
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR478.PIC - 379652
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR479.PIC - 299489
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR480.PIC - 298368
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR481.PIC - 291195
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR482.PIC - 349529
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR483.PIC - 327124
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR484.PIC - 325161
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR485.PIC - 337053
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR486.PIC - 314653
+2/9/2011 1:52:36 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR487.PIC - 368354
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR488.PIC - 322632
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR489.PIC - 376336
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR490.PIC - 394314
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR491.PIC - 374927
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR492.PIC - 291966
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR493.PIC - 381792
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR494.PIC - 337053
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR495.PIC - 374931
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR496.PIC - 359590
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR497.PIC - 397130
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR498.PIC - 362619
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR499.PIC - 392733
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR500.PIC - 364722
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR600.PIC - 4689
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR700.PIC - 210485
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR701.PIC - 206320
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR702.PIC - 210017
+2/9/2011 1:52:38 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR703.PIC - 317122
+2/9/2011 1:52:40 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR715.PIC - 9393362
+2/9/2011 1:52:40 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR720.PIC - 18733
+2/9/2011 1:52:40 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR800.PIC - 3593142
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\ULTRA.DIG - 9478
+2/9/2011 1:52:16 PM - C:\Program Files (x86)\GOG.com\Star Control 3\STARCON3\ULTRA.MDI - 49672
+
+UAC Enabled
+
+
+VirtualStore Folders:
+10/25/2011 12:09:40 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\stderr.txt - 0
+10/25/2011 12:11:16 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\stdout.txt - 176
+10/25/2011 12:08:26 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\FLEET000.SAV - 86
+10/25/2011 12:11:12 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\FLEET001.SAV - 86
+10/25/2011 12:11:15 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\LEGEND.INI - 177
+10/25/2011 12:09:51 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\RESTART.DAT - 22390
+10/25/2011 12:10:24 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR000.SAV - 22470
+10/25/2011 12:10:32 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Star Control 3\STARCON3\STAR001.SAV - 22470

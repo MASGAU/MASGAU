@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<files>
+  <program majorVersion="0" minorVersion="9" revisionVersion="0" url="http://sourceforge.net/projects/masgau/files/masgau/v.0.8/MASGAU-0.8-Setup.exe/download" />
+	<file name="data\games.xml" majorVersion="1" minorVersion="1" revisionVersion="0" url="http://masgau.sourceforge.net/games.xml" />
+	<file name="data\mods.xml" majorVersion="1" minorVersion="1" revisionVersion="0" url="http://masgau.sourceforge.net/mods.xml" />
+	<file name="data\ps1.xml" majorVersion="1" minorVersion="1" revisionVersion="0" url="http://masgau.sourceforge.net/ps1.xml" />
+	<file name="data\ps2.xml" majorVersion="1" minorVersion="1" revisionVersion="0" url="http://masgau.sourceforge.net/ps2.xml" />
+	<file name="data\ps3.xml" majorVersion="1" minorVersion="1" revisionVersion="0" url="http://masgau.sourceforge.net/ps3.xml" />
+	<file name="data\psp.xml" majorVersion="1" minorVersion="1" revisionVersion="0" url="http://masgau.sourceforge.net/psp.xml" />
+	<file name="data\system.xml" majorVersion="1" minorVersion="1" revisionVersion="0" url="http://masgau.sourceforge.net/system.xml" />
+	<file name="updates.xml" majorVersion="1" minorVersion="1" revisionVersion="0" url="http://masgau.sourceforge.net/updates.xml" />
+</files>

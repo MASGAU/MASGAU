@@ -1,0 +1,154 @@
+Game Name: Arx Fatalis
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Arx Fatalis
+
+Save Path:
+C:\Program Files (x86)\GOG.com\Arx Fatalis\Save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{102556BF-2D94-48E4-A45C-18CB49D76577}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{102556BF-2D94-48E4-A45C-18CB49D76577}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{FE653C8B-2375-4708-8285-F926C8C3574B}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{FE653C8B-2375-4708-8285-F926C8C3574B}
+Value: AppExePath
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\ARX.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Arkane Studios\Installed Apps\arx fatalis
+Value: Folder
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGARXFATALIS
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\Arx.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGARXFATALIS
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGARXFATALIS
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\Arx.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGARXFATALIS
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Arx Fatalis_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Arx Fatalis_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{96443F45-13E2-11D6-AC87-00D0B7A9E540}
+Value: UninstallString
+Data: C:\Program Files (x86)\GOG.com\Arx Fatalis\unins000.exe
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Arx Fatalis\Arx Fatalis.lnk
+C:\Program Files (x86)\GOG.com\Arx Fatalis\ARX.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Arx Fatalis\Uninstall Arx Fatalis.lnk
+C:\Program Files (x86)\GOG.com\Arx Fatalis\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Arx Fatalis\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Arx Fatalis\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Arx Fatalis\Documents\Map.lnk
+C:\Program Files (x86)\GOG.com\Arx Fatalis\map.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Arx Fatalis\Documents\Readme.lnk
+C:\Program Files (x86)\GOG.com\Arx Fatalis\readme.txt
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+10/25/2011 1:03:35 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Save\Cur0001\Gsave.sav - 363418
+10/25/2011 1:03:24 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Save\Save0001\GSAVE.BMP - 48054
+10/25/2011 1:03:35 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Save\Save0001\Gsave.sav - 363474
+
+Install Folder Dump:
+11/28/2008 5:02:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\ARX FAQ.txt - 7784
+12/8/2010 5:26:08 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Arx-patch_r1.21.txt - 8525
+12/5/2008 11:31:04 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Arx-patch_v1.19.txt - 7362
+12/8/2010 5:31:20 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\ARX.exe - 2116096
+11/24/2008 1:51:00 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\ARX_SCRIPT_DEBUGGER.dll - 524288
+12/8/2010 5:30:16 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Athena.dll - 315392
+10/25/2011 1:03:43 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\cfg_default.ini - 2121
+11/28/2008 5:04:10 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\data.pak - 244011475
+11/28/2008 5:04:10 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\data2.pak - 2215016
+12/3/2008 9:28:02 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\game.ico - 5694
+12/3/2008 9:26:54 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\gfw_high.ico - 100532
+1/18/2011 10:26:46 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\goggame.dll - 267776
+11/28/2008 9:32:10 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\innosetup_license.txt - 1471
+11/24/2008 3:49:00 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\instscript.vdf - 187
+11/28/2008 5:04:10 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\LOC.pak - 209865
+11/25/2008 8:54:28 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\manual.pdf - 974519
+10/10/2008 9:27:32 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\map.pdf - 175136
+11/25/2008 9:53:00 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\readme.txt - 5405
+11/28/2008 5:04:14 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\SFX.pak - 45192372
+11/28/2008 5:03:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\SPEECH.pak - 350412913
+4/20/2010 11:37:04 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Support.ico - 62895
+11/28/2008 5:03:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\unicows.dll - 246424
+9/21/2011 11:39:36 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\unins000.dat - 58262
+9/21/2011 11:38:18 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\unins000.exe - 2142547
+9/21/2011 11:39:35 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\unins000.ini - 74
+12/8/2010 10:30:22 AM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\interface\misc\Arkane.bmp - 921654
+11/24/2008 1:46:00 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\interface\misc\quit1.bmp - 921658
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\FIXINTER_BARREL.jpg - 8664
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\fixinter_bell.bmp - 98358
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\FIXINTER_METAL_DOOR.jpg - 7576
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\fixinter_public_notice.bmp - 49206
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\item_bread.bmp - 49206
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\ITEM_CLUB.jpg - 1842
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\ITEM_LONG_SWORD.jpg - 2171
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\ITEM_MAULDSWORD.jpg - 9223
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\ITEM_MAULD_SABRE.jpg - 9528
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\ITEM_MIRROR.jpg - 2341
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\item_ring_casting.BMP - 24630
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\item_rope.bmp - 49206
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\ITEM_SPELL_SHEET.jpg - 4900
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\ITEM_TORCH.jpg - 1751
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\ITEM_TORCH2.jpg - 2622
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\item_zohark.BMP - 24630
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\L7_DWARF_[WOOD]_BOARD08.jpg - 1327
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\L7_DWARF_[WOOD]_BOARD80.jpg - 1695
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\npc_dog.bmp - 196662
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\npc_pig.bmp - 196662
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\npc_pig_dirty.bmp - 196662
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\npc_rat_base.bmp - 196662
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\npc_rat_base_cm.bmp - 196662
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\NPC_WORM_BODY_PART1.jpg - 16338
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\npc_worm_body_part2.bmp - 196662
+11/28/2008 5:00:26 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\graph\obj3d\textures\[WOOD]_LIGHT_DOOR.jpg - 13040
+11/28/2008 5:02:20 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\misc\Arx.ttf - 36992
+11/24/2008 1:46:00 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\misc\arx_default.ttf - 36992
+11/24/2008 1:46:00 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\misc\arx_russian.ttf - 58988
+11/24/2008 1:48:00 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\misc\arx_taiwanese.ttf - 4279576
+11/24/2008 1:49:00 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\misc\logo.avi - 2460050
+11/24/2008 1:50:00 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\misc\Logo.bmp - 921654
+10/25/2011 1:03:35 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Save\Cur0001\Gsave.sav - 363418
+10/25/2011 1:03:24 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Save\Save0001\GSAVE.BMP - 48054
+10/25/2011 1:03:35 PM - C:\Program Files (x86)\GOG.com\Arx Fatalis\Save\Save0001\Gsave.sav - 363474
+
+UAC Enabled
+
+
+VirtualStore Folders:

@@ -1,0 +1,635 @@
+Game Name: Dawn of War II
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+SteamCommon\dawn of war 2
+
+Save Path: 
+UserDocuments\My Games\Dawn of War 2
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\b25099274a207264182f8181add555d0\SourceList\Net
+Value: 1
+Data: SteamCommon\dawn of war 2\Install
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3195D77E-DCDE-49A4-A57A-44195A9D2410}
+Value: ConfigApplicationPath
+Data: SteamCommon\dawn of war 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3195D77E-DCDE-49A4-A57A-44195A9D2410}
+Value: ConfigGDFBinaryPath
+Data: 07/12/2010 05:01:48 - SteamCommon\dawn of war 2\ChaosRisingGDF.dll - 5440896
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{8F40EF0A-A180-4CB6-951B-7FAA477AA486}
+Value: ConfigApplicationPath
+Data: SteamCommon\dawn of war 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{8F40EF0A-A180-4CB6-951B-7FAA477AA486}
+Value: ConfigGDFBinaryPath
+Data: 07/12/2010 05:02:08 - SteamCommon\dawn of war 2\dow2.exe - 17286528
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\b25099274a207264182f8181add555d0\InstallProperties
+Value: InstallSource
+Data: SteamCommon\dawn of war 2\Install
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\sphinx-soft\Vista-Wall\1.0\AppList\DOW2
+Value: File
+Data: 07/12/2010 05:02:08 - SteamCommon\dawn of war 2\dow2.exe - 17286528
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 20570
+Value: InstallLocation
+Data: SteamCommon\dawn of war 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{7299052b-02a4-4627-81f2-1818da5d550d}
+Value: InstallSource
+Data: SteamCommon\dawn of war 2\Install
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Media Center\Extensibility\Categories\More Programs\{92139273-6c74-4d60-a1da-d0cf5be769bf}
+Value: Run
+Data: 30/11/2009 07:09:01 - SteamCommon\dawn of war 2\appid_15620-MCE.lnk - 617
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Media Center\Extensibility\Categories\More Programs\{92139273-6c74-4d60-a1da-d0cf5be769bf}
+Value: ThumbnailUrl
+Data: 30/11/2009 07:09:01 - SteamCommon\dawn of war 2\appid_15620-MCE.png - 144723
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+27/08/2011 16:05:35 - UserDocuments\My Games\Dawn of War 2\Logfiles\AI-trace.txt - 0
+27/08/2011 16:05:35 - UserDocuments\My Games\Dawn of War 2\Logfiles\Campaign-trace.txt - 0
+18/10/2010 03:08:30 - UserDocuments\My Games\Dawn of War 2\Logfiles\datacrc.txt - 2669
+27/08/2011 18:01:18 - UserDocuments\My Games\Dawn of War 2\Logfiles\SCAR-trace.txt - 1302
+27/08/2011 16:05:35 - UserDocuments\My Games\Dawn of War 2\Logfiles\Wargear-trace.txt - 0
+27/07/2010 08:06:21 - UserDocuments\My Games\Dawn of War 2\Logfiles\warnings.1.txt - 748
+27/08/2011 18:04:00 - UserDocuments\My Games\Dawn of War 2\Logfiles\warnings.txt - 74505
+27/07/2010 10:09:13 - UserDocuments\My Games\Dawn of War 2\Playback\2p_hive_city.2010-07-27.10-09-09.rec - 396596
+27/08/2011 18:00:46 - UserDocuments\My Games\Dawn of War 2\Playback\temp.rec - 1734203
+12/12/2009 13:52:08 - UserDocuments\My Games\Dawn of War 2\Saved Games\Bill.sav - 139576
+12/12/2009 14:04:40 - UserDocuments\My Games\Dawn of War 2\Saved Games\Bill_(1).sav - 137536
+01/06/2010 05:27:54 - UserDocuments\My Games\Dawn of War 2\Saved Games\Bill_(2).sav - 54800
+01/06/2010 05:27:54 - UserDocuments\My Games\Dawn of War 2\Saved Games\Bill_xp1.sav - 58220
+05/06/2010 01:56:00 - UserDocuments\My Games\Dawn of War 2\Saved Games\bob.sav - 63034
+23/08/2011 07:50:31 - UserDocuments\My Games\Dawn of War 2\Saved Games\bob_(1).sav - 60637
+28/07/2011 12:18:08 - UserDocuments\My Games\Dawn of War 2\Saved Games\Broug.sav - 25811
+15/08/2011 04:32:48 - UserDocuments\My Games\Dawn of War 2\Saved Games\DTC.sav - 101558
+28/07/2011 09:52:46 - UserDocuments\My Games\Dawn of War 2\Saved Games\ktebeuh.sav - 13157
+16/08/2011 01:27:05 - UserDocuments\My Games\Dawn of War 2\Saved Games\ROFL.sav - 156882
+16/08/2011 01:27:05 - UserDocuments\My Games\Dawn of War 2\Saved Games\ROFL_(1).sav - 153792
+23/08/2011 09:15:00 - UserDocuments\My Games\Dawn of War 2\Saved Games\ROFL_(2).sav - 56846
+23/08/2011 09:15:00 - UserDocuments\My Games\Dawn of War 2\Saved Games\ROFL_xp1.sav - 59880
+08/12/2009 00:04:16 - UserDocuments\My Games\Dawn of War 2\Screenshots\relic00000.jpg - 572090
+16/08/2011 01:28:35 - UserDocuments\My Games\Dawn of War 2\Screenshots\relic00001.jpg - 786042
+27/08/2011 18:03:59 - UserDocuments\My Games\Dawn of War 2\Settings\configuration.lua - 2431
+27/08/2011 18:04:00 - UserDocuments\My Games\Dawn of War 2\Settings\Local.ini - 212
+27/08/2011 18:03:58 - UserDocuments\My Games\Dawn of War 2\Settings\playercfg.lua - 5015
+30/11/2009 08:17:51 - UserDocuments\My Games\Dawn of War 2\Settings\playername-UTF16.txt - 24
+10/08/2010 00:08:24 - UserDocuments\My Games\Dawn of War 2\Settings\_keydefaults.lua - 42833
+
+Install Folder Dump: 
+30/11/2009 07:09:01 - SteamCommon\dawn of war 2\appid_15620-MCE.lnk - 617
+30/11/2009 07:09:01 - SteamCommon\dawn of war 2\appid_15620-MCE.mcl - 1526
+30/11/2009 07:09:01 - SteamCommon\dawn of war 2\appid_15620-MCE.png - 144723
+30/11/2009 07:10:44 - SteamCommon\dawn of war 2\BakeConfig.xml - 3255
+30/11/2009 07:45:57 - SteamCommon\dawn of war 2\BsSndRpt.exe - 264328
+30/11/2009 07:09:53 - SteamCommon\dawn of war 2\BugSplat.dll - 229512
+30/11/2009 07:42:25 - SteamCommon\dawn of war 2\BugSplatHD.exe - 186504
+07/12/2010 05:01:36 - SteamCommon\dawn of war 2\BugSplatRC.dll - 71040
+13/03/2010 20:57:21 - SteamCommon\dawn of war 2\ChaosRising.ico - 367686
+07/12/2010 05:01:48 - SteamCommon\dawn of war 2\ChaosRisingGDF.dll - 5440896
+07/12/2010 05:01:37 - SteamCommon\dawn of war 2\content.bin - 9200
+07/12/2010 05:01:38 - SteamCommon\dawn of war 2\content.cat - 5861
+30/11/2009 07:42:12 - SteamCommon\dawn of war 2\dbgeng.dll - 3095552
+30/11/2009 07:14:18 - SteamCommon\dawn of war 2\dbghelp.dll - 986112
+07/12/2010 05:01:41 - SteamCommon\dawn of war 2\Debug.dll - 54656
+30/11/2009 07:10:40 - SteamCommon\dawn of war 2\dev_pipeline.ini - 551
+30/11/2009 07:40:01 - SteamCommon\dawn of war 2\DivxDecoder.dll - 413696
+30/11/2009 07:24:12 - SteamCommon\dawn of war 2\DivxMediaLib.dll - 86016
+07/12/2010 05:02:08 - SteamCommon\dawn of war 2\DOW2.exe - 17286528
+07/12/2010 05:01:38 - SteamCommon\dawn of war 2\DOW2.exe.cat - 108789
+07/12/2010 05:01:40 - SteamCommon\dawn of war 2\DOW2.exe.cfg - 281
+07/12/2010 05:01:38 - SteamCommon\dawn of war 2\DOW2.module - 8773
+30/11/2009 07:45:54 - SteamCommon\dawn of war 2\Essence.ini - 456
+30/11/2009 07:38:15 - SteamCommon\dawn of war 2\FileParser.dll - 86016
+07/12/2010 05:01:38 - SteamCommon\dawn of war 2\Filesystem.dll - 267648
+07/12/2010 05:01:39 - SteamCommon\dawn of war 2\fmodex.dll - 1054080
+30/11/2009 07:17:51 - SteamCommon\dawn of war 2\ijl15.dll - 352256
+13/03/2010 21:58:03 - SteamCommon\dawn of war 2\installscript.vdf - 1088
+13/03/2010 21:47:46 - SteamCommon\dawn of war 2\installscriptChaosRising.vdf - 1107
+30/11/2009 07:37:40 - SteamCommon\dawn of war 2\libacml_mp_dll.dll - 7475200
+30/11/2009 07:31:11 - SteamCommon\dawn of war 2\libexpat.dll - 151552
+30/11/2009 07:26:55 - SteamCommon\dawn of war 2\libguide40.dll - 200704
+30/11/2009 07:27:30 - SteamCommon\dawn of war 2\libifcoremd.dll - 655360
+30/11/2009 07:11:47 - SteamCommon\dawn of war 2\libmmd.dll - 2801756
+07/12/2010 05:01:41 - SteamCommon\dawn of war 2\Localizer.dll - 62848
+07/12/2010 05:01:43 - SteamCommon\dawn of war 2\LuaConfig.dll - 165248
+07/12/2010 05:01:36 - SteamCommon\dawn of war 2\MathBox.dll - 165248
+07/12/2010 05:01:41 - SteamCommon\dawn of war 2\Memory.dll - 75136
+30/11/2009 07:09:22 - SteamCommon\dawn of war 2\msdia80.dll - 625152
+07/12/2010 05:01:40 - SteamCommon\dawn of war 2\Platform.dll - 103808
+07/12/2010 05:01:37 - SteamCommon\dawn of war 2\Profiler.dll - 20864
+13/03/2010 20:32:45 - SteamCommon\dawn of war 2\readme_czech.txt - 104816
+13/03/2010 20:28:31 - SteamCommon\dawn of war 2\readme_english.txt - 50923
+13/03/2010 20:26:48 - SteamCommon\dawn of war 2\readme_french.txt - 44822
+13/03/2010 20:36:41 - SteamCommon\dawn of war 2\readme_german.txt - 45158
+13/03/2010 20:28:42 - SteamCommon\dawn of war 2\readme_italian.txt - 39364
+13/03/2010 20:28:54 - SteamCommon\dawn of war 2\readme_polish.txt - 114720
+13/03/2010 21:57:52 - SteamCommon\dawn of war 2\readme_russian.txt - 80850
+13/03/2010 20:26:41 - SteamCommon\dawn of war 2\readme_spanish.txt - 40140
+13/03/2010 20:27:23 - SteamCommon\dawn of war 2\readme_tchinese.txt - 47436
+07/12/2010 05:01:40 - SteamCommon\dawn of war 2\Shark.dll - 480640
+07/12/2010 05:01:42 - SteamCommon\dawn of war 2\SimEngine.dll - 603520
+07/12/2010 05:01:46 - SteamCommon\dawn of war 2\Spooge.dll - 677248
+03/11/2010 04:20:25 - SteamCommon\dawn of war 2\steam_api.dll - 124712
+07/12/2010 05:01:36 - SteamCommon\dawn of war 2\STLPort.dll - 521600
+07/12/2010 05:01:36 - SteamCommon\dawn of war 2\Util.dll - 329088
+07/12/2010 05:02:00 - SteamCommon\dawn of war 2\WorldBuilder.exe - 12641664
+30/11/2009 07:46:35 - SteamCommon\dawn of war 2\WorldBuilder.pdf - 1214010
+07/12/2010 05:01:44 - SteamCommon\dawn of war 2\XThread.dll - 32640
+30/11/2009 07:10:57 - SteamCommon\dawn of war 2\Assets\ArchiveDesign\4p_SmallDemo.sga_design - 539
+30/11/2009 07:26:07 - SteamCommon\dawn of war 2\Assets\Maps\Atmospheres\4P_SMALLDEMO.ATMOSPHEREPRESET - 2402384
+30/11/2009 07:41:58 - SteamCommon\dawn of war 2\Assets\Maps\PVP\4p_SmallDemo.info - 282
+30/11/2009 07:19:20 - SteamCommon\dawn of war 2\Assets\Maps\PVP\4p_SmallDemo.layers - 148
+30/11/2009 07:12:24 - SteamCommon\dawn of war 2\Assets\Maps\PVP\4p_SmallDemo.scenariomarker - 313
+30/11/2009 07:19:56 - SteamCommon\dawn of war 2\Assets\Maps\PVP\4p_SmallDemo.wb-scenario - 7538759
+30/11/2009 07:46:42 - SteamCommon\dawn of war 2\Assets\Maps\PVP\4p_SmallDemo.xml - 42002
+30/11/2009 07:32:59 - SteamCommon\dawn of war 2\Assets\Maps\PVP\4p_SmallDemo_ID.scar - 129
+30/11/2009 07:44:07 - SteamCommon\dawn of war 2\Drivers\ati.txt - 2439
+06/08/2010 04:47:04 - SteamCommon\dawn of war 2\Drivers\intel.txt - 1893
+30/11/2009 07:19:49 - SteamCommon\dawn of war 2\Drivers\nvidia.txt - 6592
+06/08/2010 04:47:17 - SteamCommon\dawn of war 2\Drivers\spdx9_config.txt - 2070
+13/03/2010 23:47:09 - SteamCommon\dawn of war 2\GameAssets\Archives\200_data.sga - 1065976155
+13/03/2010 23:25:15 - SteamCommon\dawn of war 2\GameAssets\Archives\200_sound.sga - 412566795
+13/03/2010 21:47:48 - SteamCommon\dawn of war 2\GameAssets\Archives\210_data.sga - 29036332
+13/03/2010 21:33:23 - SteamCommon\dawn of war 2\GameAssets\Archives\210_sound.sga - 3642839
+18/04/2010 15:52:36 - SteamCommon\dawn of war 2\GameAssets\Archives\220_data.sga - 20509413
+18/04/2010 15:52:20 - SteamCommon\dawn of war 2\GameAssets\Archives\220_sound.sga - 15513228
+07/12/2010 05:04:00 - SteamCommon\dawn of war 2\GameAssets\Archives\230_data.sga - 99804320
+06/08/2010 04:46:56 - SteamCommon\dawn of war 2\GameAssets\Archives\230_sound.sga - 89863
+30/11/2009 08:00:42 - SteamCommon\dawn of war 2\GameAssets\Archives\gameart.sga - 338489344
+30/11/2009 07:48:11 - SteamCommon\dawn of war 2\GameAssets\Archives\gameartenvironment.sga - 391293911
+30/11/2009 07:55:26 - SteamCommon\dawn of war 2\GameAssets\Archives\gameartenvironmenttextures.sga - 420695550
+30/11/2009 07:56:50 - SteamCommon\dawn of war 2\GameAssets\Archives\GameArtEnvironmentTextures_DELTA.sga - 139620353
+30/11/2009 07:11:00 - SteamCommon\dawn of war 2\GameAssets\Archives\GameArtEnvironment_DELTA.sga - 7953844
+30/11/2009 07:27:27 - SteamCommon\dawn of war 2\GameAssets\Archives\GameArt_DELTA.sga - 64283847
+07/12/2010 05:02:42 - SteamCommon\dawn of war 2\GameAssets\Archives\gameattrib.sga - 31781177
+30/11/2009 07:27:51 - SteamCommon\dawn of war 2\GameAssets\Archives\GameAttrib_DELTA.sga - 371
+30/11/2009 07:30:18 - SteamCommon\dawn of war 2\GameAssets\Archives\gamedefault.sga - 125681134
+30/11/2009 07:35:43 - SteamCommon\dawn of war 2\GameAssets\Archives\GameDefault_DELTA.sga - 30411181
+30/11/2009 08:01:10 - SteamCommon\dawn of war 2\GameAssets\Archives\gamemaps.sga - 218593483
+30/11/2009 07:41:47 - SteamCommon\dawn of war 2\GameAssets\Archives\GameMaps_DELTA.sga - 150247453
+30/11/2009 08:04:20 - SteamCommon\dawn of war 2\GameAssets\Archives\gamesound.sga - 507862380
+06/08/2010 04:47:30 - SteamCommon\dawn of war 2\GameAssets\Archives\gamesoundcontainers.sga - 1213952
+30/11/2009 07:10:26 - SteamCommon\dawn of war 2\GameAssets\Archives\GameSoundContainers_DELTA.sga - 371
+30/11/2009 07:33:08 - SteamCommon\dawn of war 2\GameAssets\Archives\GameSound_DELTA.sga - 34661158
+30/11/2009 07:16:50 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\act_2_intro.avi - 39908744
+13/03/2010 21:24:44 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\amd_intro.avi - 1570816
+13/03/2010 20:36:54 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\aurelia_lvl_00.avi - 9716256
+13/03/2010 22:03:09 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\aurelia_lvl_00_1280.avi - 26080664
+13/03/2010 21:26:12 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\aurelia_lvl_01.avi - 9732750
+13/03/2010 21:36:13 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\aurelia_lvl_01_1280.avi - 8663194
+13/03/2010 21:39:49 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\aurelia_lvl_02.avi - 12570616
+13/03/2010 22:05:39 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\aurelia_lvl_02_1280.avi - 12123408
+30/11/2009 07:47:40 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\calderis_lvl_00.avi - 6420466
+30/11/2009 07:20:43 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\calderis_lvl_00_1280.avi - 3965096
+30/11/2009 07:25:41 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\calderis_lvl_01.avi - 7203254
+30/11/2009 07:21:36 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\calderis_lvl_01_1280.avi - 4491984
+30/11/2009 07:50:03 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\calderis_lvl_02.avi - 7584488
+30/11/2009 07:10:02 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\calderis_lvl_02_1280.avi - 4714180
+30/11/2009 07:24:56 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\calderis_lvl_03.avi - 7582062
+30/11/2009 07:17:47 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\calderis_lvl_03_1280.avi - 4515480
+30/11/2009 07:18:53 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\credits.avi - 20825676
+30/11/2009 07:50:08 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\dowii_intro_final.avi - 72481662
+30/11/2009 07:41:53 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\eldar_intro_rough.avi - 1237344
+30/11/2009 07:42:48 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\eld_boss1_wraithlord.avi - 3659700
+30/11/2009 07:16:03 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\gfwl_logo.avi - 1304666
+30/11/2009 07:43:11 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\gw_logo_720p_divx1.avi - 527736
+30/11/2009 07:39:59 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_hd720_divx.avi - 2808512
+30/11/2009 07:44:48 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_lvl_00.avi - 9246632
+30/11/2009 07:31:02 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_lvl_00_1280.avi - 5483820
+30/11/2009 07:32:26 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_lvl_01.avi - 8041284
+30/11/2009 07:21:32 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_lvl_01_1280.avi - 4754964
+30/11/2009 07:49:00 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_lvl_02.avi - 8638184
+30/11/2009 07:19:12 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_lvl_02_1280.avi - 5044478
+30/11/2009 07:13:55 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_lvl_03.avi - 8774160
+30/11/2009 07:35:50 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_lvl_03_1280.avi - 5166274
+30/11/2009 07:44:39 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_ork_warboss_intro.avi - 2961118
+30/11/2009 07:26:32 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\meridian_planet_intro.avi - 7922074
+30/11/2009 07:47:36 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\mission_a_outro.avi - 3880714
+30/11/2009 07:09:47 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\mission_b_intro_rough.avi - 5097226
+30/11/2009 07:27:20 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\mission_c_intro.avi - 4583434
+30/11/2009 07:24:06 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\mission_d_intro_rough.avi - 19767596
+30/11/2009 07:20:41 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\mission_e_intro_rough.avi - 4543734
+30/11/2009 07:16:38 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\nvidia_logo.avi - 1257182
+30/11/2009 07:09:59 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\ork_boss2_deff_dread_rough.avi - 3035318
+30/11/2009 07:19:32 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\ork_outro_rough.avi - 1849042
+30/11/2009 07:48:04 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\relicintro_720p_divx.avi - 3384622
+30/11/2009 07:31:39 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\sm_boss1_dreadnought.avi - 4137234
+30/11/2009 07:41:47 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\sm_intro.avi - 11998952
+30/11/2009 07:12:16 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\sm_outro_rough.avi - 16836924
+30/11/2009 07:26:50 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\sm_warp_gate.avi - 2695486
+13/03/2010 21:57:10 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\space_hulk_planet_background.avi - 13147966
+30/11/2009 07:10:19 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\thq_logo_new_720p_divx.avi - 2102480
+30/11/2009 07:35:17 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_lvl_00.avi - 24027660
+30/11/2009 07:29:32 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_lvl_00_1280.avi - 10690834
+30/11/2009 07:30:20 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_lvl_01.avi - 25305700
+30/11/2009 07:14:56 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_lvl_01_1280.avi - 16792488
+30/11/2009 07:18:54 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_lvl_02.avi - 25298150
+30/11/2009 07:50:26 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_lvl_02_1280.avi - 16589932
+30/11/2009 07:38:04 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_lvl_03.avi - 24541298
+30/11/2009 07:51:34 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_lvl_03_1280.avi - 15517620
+30/11/2009 07:20:25 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\typhon_planet_intro.avi - 12253572
+30/11/2009 07:39:10 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\tyr_boss1_carnifex_rough.avi - 4784528
+30/11/2009 07:48:05 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\tyr_boss2_lictor.avi - 15837858
+30/11/2009 07:17:29 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\tyr_boss3_hive_tyrant.avi - 4950872
+30/11/2009 07:25:42 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\tyr_boss4_zoanthrope_rough.avi - 19825964
+30/11/2009 07:48:59 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\w5.avi - 11575748
+13/03/2010 21:45:41 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp_demo_end.avi - 4667032
+13/03/2010 20:29:21 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_araghast.avi - 474434
+13/03/2010 21:05:22 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_araghast.lua - 216
+13/03/2010 21:46:01 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_csm.avi - 582172
+13/03/2010 20:33:10 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_csm.lua - 118
+13/03/2010 21:38:14 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_eliphas.avi - 634010
+13/03/2010 20:32:38 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_eliphas.lua - 125
+13/03/2010 20:31:29 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_great_unclean_one.avi - 668344
+13/03/2010 21:44:02 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_great_unclean_one.lua - 132
+13/03/2010 21:20:52 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_sorceror.avi - 643178
+13/03/2010 20:39:55 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_chaos_sorceror.lua - 209
+30/11/2009 07:25:47 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_elothan.avi - 304136
+30/11/2009 07:22:04 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_elothan.lua - 111
+30/11/2009 07:43:17 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_farseer.avi - 268564
+30/11/2009 07:11:57 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_farseer.lua - 111
+30/11/2009 07:09:03 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_kaylith.avi - 244654
+30/11/2009 07:32:48 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_kaylith.lua - 111
+30/11/2009 07:18:11 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_ronahn.avi - 220076
+30/11/2009 07:43:49 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_ronahn.lua - 109
+30/11/2009 07:37:50 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_surian.avi - 21482
+30/11/2009 07:18:57 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_surian.lua - 109
+30/11/2009 07:24:09 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_tyrea.avi - 223002
+30/11/2009 07:10:23 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_tyrea.lua - 107
+30/11/2009 07:27:53 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_veldoran.avi - 231420
+30/11/2009 07:15:04 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_eldar_veldoran.lua - 113
+30/11/2009 07:28:14 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ig_elena.avi - 190064
+13/03/2010 21:20:42 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ig_elena.lua - 119
+13/03/2010 21:57:10 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ig_elena_xp1.lua - 201
+30/11/2009 07:42:58 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ig_guardsman.avi - 287032
+30/11/2009 07:47:45 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ig_guardsman.lua - 121
+30/11/2009 07:47:39 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ig_sergeant.avi - 446378
+30/11/2009 07:11:16 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ig_sergeant.lua - 121
+13/03/2010 21:44:53 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_apothecary_galan.lua - 212
+30/11/2009 07:21:57 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_avitus.avi - 280834
+13/03/2010 21:01:01 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_avitus.lua - 185
+30/11/2009 07:27:40 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_cyrus.avi - 237800
+13/03/2010 21:39:24 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_cyrus.lua - 180
+13/03/2010 20:34:55 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_diomedes.avi - 850928
+13/03/2010 21:41:29 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_diomedes.lua - 216
+30/11/2009 07:21:29 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_dreadnought.avi - 210660
+13/03/2010 20:27:48 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_dreadnought.lua - 189
+30/11/2009 07:31:46 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_force_commander.avi - 1256852
+30/11/2009 07:21:41 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_gabriel.avi - 429552
+13/03/2010 20:33:28 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_gabriel.lua - 177
+30/11/2009 07:19:41 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_gordian.avi - 259342
+30/11/2009 07:48:06 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_gordian.lua - 83
+13/03/2010 21:04:45 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_librarian.avi - 504564
+13/03/2010 20:27:09 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_librarian.lua - 206
+13/03/2010 20:28:22 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_scout.avi - 796672
+13/03/2010 20:55:26 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_scout.lua - 212
+13/03/2010 21:22:40 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_scout_priam.lua - 204
+13/03/2010 20:26:37 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_tactical.avi - 465326
+13/03/2010 20:29:22 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_tactical.lua - 212
+30/11/2009 07:42:22 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_tarkus.avi - 236278
+13/03/2010 21:57:42 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_tarkus.lua - 185
+30/11/2009 07:41:56 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_techmarine.avi - 325018
+13/03/2010 21:06:44 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_techmarine.lua - 206
+30/11/2009 07:17:48 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_thaddeus.avi - 974694
+13/03/2010 20:31:54 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_thaddeus.lua - 209
+30/11/2009 07:21:34 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_thule.avi - 500214
+30/11/2009 07:43:18 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_thule.lua - 116
+13/03/2010 21:55:08 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_marine_traitor.lua - 107
+30/11/2009 07:09:03 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_missing.avi - 89168
+30/11/2009 07:26:56 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_missing.lua - 47
+13/03/2010 20:44:27 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_boy.avi - 946176
+13/03/2010 21:25:32 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_boy.lua - 101
+30/11/2009 07:37:46 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_brakka.avi - 310356
+30/11/2009 07:33:10 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_brakka.lua - 107
+30/11/2009 07:09:01 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_krom.avi - 276098
+30/11/2009 07:27:56 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_krom.lua - 103
+30/11/2009 07:08:49 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_krusha.avi - 408420
+30/11/2009 07:19:16 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_krusha.lua - 114
+30/11/2009 07:40:07 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_maso.avi - 299444
+30/11/2009 07:36:36 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_maso.lua - 103
+30/11/2009 07:38:07 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_sliksnik.avi - 255322
+30/11/2009 07:25:44 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_sliksnik.lua - 79
+30/11/2009 07:19:21 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_warboss.avi - 688364
+30/11/2009 07:47:45 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_ork_warboss.lua - 80
+13/03/2010 20:45:16 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\speech_story_beat.lua - 110
+30/11/2009 07:27:48 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\standby.avi - 904604
+30/11/2009 07:26:59 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\portraits\standby.lua - 40
+13/03/2010 21:58:37 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\an2_act_2_intro.avi - 38000004
+13/03/2010 22:57:40 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\an3_act_3_intro.avi - 67834984
+13/03/2010 20:45:28 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\ano_campaign_outro.avi - 36522868
+13/03/2010 21:54:43 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\ano_campaign_outro_2.avi - 17607720
+13/03/2010 20:40:59 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\ano_campaign_outro_3.avi - 16117396
+13/03/2010 21:04:06 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\ano_campaign_outro_4.avi - 17074276
+13/03/2010 21:59:16 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\ans_space_hulk_intro.avi - 10154474
+13/03/2010 23:00:49 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\xp1_campaign_intro.avi - 58300252
+13/03/2010 23:00:52 - SteamCommon\dawn of war 2\GameAssets\Data\Movies\xp1\xp1_credits.avi - 73048192
+03/11/2010 04:20:21 - SteamCommon\dawn of war 2\GameAssets\Locale\French\DOW2.ucs - 4740086
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\font_mapping.ini - 311
+13/03/2010 23:10:03 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_200_speech.sga - 314627197
+18/04/2010 15:51:21 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_220_speech.sga - 371
+06/08/2010 04:46:56 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_230_speech.sga - 371
+13/03/2010 20:27:26 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_chaosmpspeech.sga - 371
+13/03/2010 20:29:41 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_ChaosMPSpeech_DELTA.sga - 371
+13/03/2010 22:59:27 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_eldarmpspeech.sga - 139397944
+13/03/2010 20:29:41 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_EldarMPSpeech_DELTA.sga - 371
+13/03/2010 22:54:54 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_gamespeech.sga - 199620814
+18/04/2010 15:51:52 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_gamespeechcontainers.sga - 12979542
+13/03/2010 20:29:55 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_GameSpeechContainers_DELTA.sga - 371
+13/03/2010 20:27:23 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_GameSpeech_DELTA.sga - 557328
+13/03/2010 22:03:54 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_orkmpspeech.sga - 134304866
+13/03/2010 20:28:32 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_OrkMPSpeech_DELTA.sga - 371
+13/03/2010 22:55:35 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_spacemarinempspeech.sga - 134830291
+13/03/2010 20:29:22 - SteamCommon\dawn of war 2\GameAssets\Locale\French\french_SpaceMarineMPSpeech_DELTA.sga - 31250
+13/03/2010 20:29:22 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\act_2_intro.lua - 2422
+13/03/2010 20:27:01 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\amd_intro.lua - 67
+13/03/2010 20:28:53 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\calderis_planet_background_lvl_00.lua - 80
+13/03/2010 20:28:41 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\calderis_planet_background_lvl_00_1280.lua - 85
+13/03/2010 20:26:50 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\calderis_planet_background_lvl_01.lua - 80
+13/03/2010 20:26:41 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\calderis_planet_background_lvl_01_1280.lua - 85
+13/03/2010 20:27:06 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\calderis_planet_background_lvl_02.lua - 80
+13/03/2010 20:28:37 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\calderis_planet_background_lvl_02_1280.lua - 85
+13/03/2010 20:27:42 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\calderis_planet_background_lvl_03.lua - 80
+13/03/2010 20:28:14 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\calderis_planet_background_lvl_03_1280.lua - 85
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\credits.lua - 72
+13/03/2010 20:29:14 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\dow2intro.lua - 1148
+13/03/2010 20:30:59 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\eldar_intro.lua - 81
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\eld_boss1_wraithlord.lua - 93
+13/03/2010 20:31:53 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\gfwl_logo.lua - 67
+13/03/2010 20:28:23 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\gw_logo.lua - 74
+13/03/2010 20:26:59 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_ork_warboss_intro.lua - 88
+13/03/2010 20:29:41 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_background_lvl_00.lua - 80
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_background_lvl_00_1280.lua - 85
+13/03/2010 20:31:18 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_background_lvl_01.lua - 80
+13/03/2010 20:26:52 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_background_lvl_01_1280.lua - 85
+13/03/2010 20:26:35 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_background_lvl_02.lua - 80
+13/03/2010 20:30:52 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_background_lvl_02_1280.lua - 85
+13/03/2010 20:28:14 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_background_lvl_03.lua - 80
+13/03/2010 20:28:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_background_lvl_03_1280.lua - 85
+13/03/2010 20:28:23 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\meridian_planet_intro.lua - 706
+13/03/2010 20:28:09 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\mission_a_outro.lua - 920
+13/03/2010 20:29:21 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\mission_b_intro.lua - 783
+13/03/2010 20:31:50 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\mission_c_intro.lua - 961
+13/03/2010 20:26:59 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\mission_d_intro.lua - 917
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\mission_e_intro.lua - 968
+13/03/2010 20:28:14 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\nvidia_logo.lua - 71
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\ork_boss2_deff_dread.lua - 95
+13/03/2010 20:26:50 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\ork_outro.lua - 73
+13/03/2010 20:31:54 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\relic_logo.lua - 79
+13/03/2010 20:26:59 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\sm_boss1_dreadnought.lua - 598
+13/03/2010 20:32:03 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\sm_intro.lua - 857
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\sm_outro.lua - 71
+13/03/2010 20:32:15 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\sm_outro1.lua - 1346
+13/03/2010 20:27:42 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\sm_outro2.lua - 1584
+13/03/2010 20:26:56 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\sm_outro3.lua - 1171
+13/03/2010 20:28:09 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\sm_warp_gate.lua - 73
+13/03/2010 20:28:54 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\snow_planet_planet_background_lvl_00.lua - 102
+13/03/2010 20:28:42 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\snow_planet_planet_background_lvl_00_1280.lua - 107
+13/03/2010 20:29:41 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\snow_planet_planet_background_lvl_01.lua - 102
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\snow_planet_planet_background_lvl_01_1280.lua - 107
+13/03/2010 20:27:34 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\snow_planet_planet_background_lvl_02.lua - 102
+13/03/2010 20:28:42 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\snow_planet_planet_background_lvl_02_1280.lua - 107
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\snow_planet_planet_background_lvl_03.lua - 102
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\snow_planet_planet_background_lvl_03_1280.lua - 107
+13/03/2010 20:29:55 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\space_hulk_planet_background_lvl_00.lua - 107
+13/03/2010 20:30:36 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\space_hulk_planet_background_lvl_00_1280.lua - 107
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\space_hulk_planet_background_lvl_01.lua - 107
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\space_hulk_planet_background_lvl_01_1280.lua - 107
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\space_hulk_planet_background_lvl_02.lua - 107
+13/03/2010 20:30:08 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\space_hulk_planet_background_lvl_02_1280.lua - 107
+13/03/2010 20:32:01 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\space_hulk_planet_background_lvl_03.lua - 107
+13/03/2010 20:26:46 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\space_hulk_planet_background_lvl_03_1280.lua - 107
+13/03/2010 20:26:45 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\thq_logo.lua - 79
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_background_lvl_00.lua - 76
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_background_lvl_00_1280.lua - 81
+13/03/2010 20:27:35 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_background_lvl_01.lua - 76
+13/03/2010 20:27:01 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_background_lvl_01_1280.lua - 81
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_background_lvl_02.lua - 76
+13/03/2010 20:28:54 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_background_lvl_02_1280.lua - 81
+13/03/2010 20:28:53 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_background_lvl_03.lua - 76
+13/03/2010 20:31:02 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_background_lvl_03_1280.lua - 81
+13/03/2010 20:27:41 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\typhon_planet_intro.lua - 817
+13/03/2010 20:32:35 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\tyr_boss1_carnifex.lua - 91
+13/03/2010 20:28:37 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\tyr_boss2_lictor.lua - 81
+13/03/2010 20:30:59 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\tyr_boss3_hive_tyrant.lua - 91
+13/03/2010 20:26:38 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\tyr_boss4_zoanthrope.lua - 95
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\w5.lua - 1641
+13/03/2010 20:27:01 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\an2_act_2_intro.lua - 1099
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\an3_act_3_intro.lua - 2290
+13/03/2010 20:28:30 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\ano_campaign_outro.lua - 3336
+13/03/2010 20:29:13 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\ano_campaign_outro_1.lua - 3317
+13/03/2010 20:27:20 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\ano_campaign_outro_2.lua - 3306
+13/03/2010 20:28:54 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\ano_campaign_outro_3.lua - 3083
+13/03/2010 20:31:32 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\ano_campaign_outro_4.lua - 2218
+13/03/2010 20:31:18 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\ans_space_hulk_intro.lua - 676
+13/03/2010 20:27:37 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\xp1_campaign_intro.lua - 4956
+13/03/2010 20:27:35 - SteamCommon\dawn of war 2\GameAssets\Locale\French\Movies\xp1\xp1_credits.lua - 83
+06/08/2010 04:47:10 - SteamCommon\dawn of war 2\GameAssets\ModSamples\4p_SmallDemo.sga - 885112
+30/11/2009 07:32:29 - SteamCommon\dawn of war 2\Install\5451082D0EC00000.cab - 20171
+13/03/2010 21:35:55 - SteamCommon\dawn of war 2\Install\5451082D0EC00009.cab - 2794994
+13/03/2010 20:40:48 - SteamCommon\dawn of war 2\Install\Apr2005_d3dx9_25_x64.cab - 1347354
+13/03/2010 20:46:33 - SteamCommon\dawn of war 2\Install\Apr2005_d3dx9_25_x86.cab - 1078954
+13/03/2010 21:28:05 - SteamCommon\dawn of war 2\Install\Apr2006_d3dx9_30_x64.cab - 1397822
+13/03/2010 21:24:21 - SteamCommon\dawn of war 2\Install\Apr2006_d3dx9_30_x86.cab - 1115221
+13/03/2010 20:37:16 - SteamCommon\dawn of war 2\Install\Apr2006_MDX1_x86.cab - 916430
+13/03/2010 21:33:55 - SteamCommon\dawn of war 2\Install\Apr2006_MDX1_x86_Archive.cab - 4162630
+13/03/2010 21:45:25 - SteamCommon\dawn of war 2\Install\Apr2006_XACT_x64.cab - 179125
+13/03/2010 20:32:46 - SteamCommon\dawn of war 2\Install\Apr2006_XACT_x86.cab - 133095
+13/03/2010 20:33:28 - SteamCommon\dawn of war 2\Install\Apr2006_xinput_x64.cab - 87101
+13/03/2010 21:22:11 - SteamCommon\dawn of war 2\Install\Apr2006_xinput_x86.cab - 46002
+13/03/2010 21:26:48 - SteamCommon\dawn of war 2\Install\APR2007_d3dx10_33_x64.cab - 698612
+13/03/2010 20:26:48 - SteamCommon\dawn of war 2\Install\APR2007_d3dx10_33_x86.cab - 695857
+13/03/2010 20:27:54 - SteamCommon\dawn of war 2\Install\APR2007_d3dx9_33_x64.cab - 1607358
+13/03/2010 20:37:46 - SteamCommon\dawn of war 2\Install\APR2007_d3dx9_33_x86.cab - 1606031
+13/03/2010 20:36:21 - SteamCommon\dawn of war 2\Install\APR2007_XACT_x64.cab - 195758
+13/03/2010 21:28:21 - SteamCommon\dawn of war 2\Install\APR2007_XACT_x86.cab - 151225
+13/03/2010 20:41:51 - SteamCommon\dawn of war 2\Install\APR2007_xinput_x64.cab - 96817
+13/03/2010 20:27:30 - SteamCommon\dawn of war 2\Install\APR2007_xinput_x86.cab - 53294
+13/03/2010 20:55:34 - SteamCommon\dawn of war 2\Install\Aug2005_d3dx9_27_x64.cab - 1350534
+13/03/2010 20:48:42 - SteamCommon\dawn of war 2\Install\Aug2005_d3dx9_27_x86.cab - 1077644
+13/03/2010 20:47:05 - SteamCommon\dawn of war 2\Install\AUG2006_XACT_x64.cab - 182903
+13/03/2010 20:27:01 - SteamCommon\dawn of war 2\Install\AUG2006_XACT_x86.cab - 137235
+13/03/2010 20:28:25 - SteamCommon\dawn of war 2\Install\AUG2006_xinput_x64.cab - 87142
+13/03/2010 20:36:32 - SteamCommon\dawn of war 2\Install\AUG2006_xinput_x86.cab - 46058
+13/03/2010 21:53:48 - SteamCommon\dawn of war 2\Install\AUG2007_d3dx10_35_x64.cab - 852286
+13/03/2010 21:55:02 - SteamCommon\dawn of war 2\Install\AUG2007_d3dx10_35_x86.cab - 796859
+13/03/2010 20:28:23 - SteamCommon\dawn of war 2\Install\AUG2007_d3dx9_35_x64.cab - 1800152
+13/03/2010 21:24:16 - SteamCommon\dawn of war 2\Install\AUG2007_d3dx9_35_x86.cab - 1708144
+13/03/2010 20:41:10 - SteamCommon\dawn of war 2\Install\AUG2007_XACT_x64.cab - 198088
+13/03/2010 21:40:22 - SteamCommon\dawn of war 2\Install\AUG2007_XACT_x86.cab - 153004
+13/03/2010 21:22:10 - SteamCommon\dawn of war 2\Install\Aug2008_d3dx10_39_x64.cab - 867604
+13/03/2010 20:41:34 - SteamCommon\dawn of war 2\Install\Aug2008_d3dx10_39_x86.cab - 849167
+13/03/2010 20:28:41 - SteamCommon\dawn of war 2\Install\Aug2008_d3dx9_39_x64.cab - 1794076
+13/03/2010 20:31:27 - SteamCommon\dawn of war 2\Install\Aug2008_d3dx9_39_x86.cab - 1464664
+13/03/2010 20:28:42 - SteamCommon\dawn of war 2\Install\Aug2008_XACT_x64.cab - 121764
+13/03/2010 21:51:53 - SteamCommon\dawn of war 2\Install\Aug2008_XACT_x86.cab - 92996
+13/03/2010 20:35:52 - SteamCommon\dawn of war 2\Install\Aug2008_XAudio_x64.cab - 271404
+13/03/2010 21:37:08 - SteamCommon\dawn of war 2\Install\Aug2008_XAudio_x86.cab - 271038
+13/03/2010 20:27:57 - SteamCommon\dawn of war 2\Install\Aug2009_D3DCompiler_42_x64.cab - 919036
+13/03/2010 22:52:32 - SteamCommon\dawn of war 2\Install\Aug2009_D3DCompiler_42_x86.cab - 900598
+13/03/2010 21:44:01 - SteamCommon\dawn of war 2\Install\Aug2009_d3dcsx_42_x64.cab - 3112103
+13/03/2010 21:43:35 - SteamCommon\dawn of war 2\Install\Aug2009_d3dcsx_42_x86.cab - 3319732
+13/03/2010 21:34:14 - SteamCommon\dawn of war 2\Install\Aug2009_d3dx10_42_x64.cab - 232635
+13/03/2010 21:19:25 - SteamCommon\dawn of war 2\Install\Aug2009_d3dx10_42_x86.cab - 192131
+13/03/2010 21:22:36 - SteamCommon\dawn of war 2\Install\Aug2009_d3dx11_42_x64.cab - 136301
+13/03/2010 20:31:55 - SteamCommon\dawn of war 2\Install\Aug2009_d3dx11_42_x86.cab - 105036
+13/03/2010 21:26:42 - SteamCommon\dawn of war 2\Install\Aug2009_d3dx9_42_x64.cab - 930108
+13/03/2010 21:27:47 - SteamCommon\dawn of war 2\Install\Aug2009_d3dx9_42_x86.cab - 728456
+13/03/2010 20:41:35 - SteamCommon\dawn of war 2\Install\Aug2009_XACT_x64.cab - 122408
+13/03/2010 21:50:44 - SteamCommon\dawn of war 2\Install\Aug2009_XACT_x86.cab - 93098
+13/03/2010 20:55:01 - SteamCommon\dawn of war 2\Install\Aug2009_XAudio_x64.cab - 273264
+13/03/2010 20:31:40 - SteamCommon\dawn of war 2\Install\Aug2009_XAudio_x86.cab - 272634
+13/03/2010 21:23:27 - SteamCommon\dawn of war 2\Install\aux_installer.exe - 488320
+13/03/2010 20:31:53 - SteamCommon\dawn of war 2\Install\aux_installer.ini - 3973
+13/03/2010 21:32:37 - SteamCommon\dawn of war 2\Install\BDANT.cab - 1155483
+13/03/2010 21:37:29 - SteamCommon\dawn of war 2\Install\BDAXP.cab - 975148
+18/04/2010 15:51:35 - SteamCommon\dawn of war 2\Install\chaosrising.ai - 3614
+13/03/2010 21:21:39 - SteamCommon\dawn of war 2\Install\Dec2005_d3dx9_28_x64.cab - 1357968
+13/03/2010 21:36:04 - SteamCommon\dawn of war 2\Install\Dec2005_d3dx9_28_x86.cab - 1079448
+13/03/2010 20:46:40 - SteamCommon\dawn of war 2\Install\DEC2006_d3dx10_00_x64.cab - 212799
+13/03/2010 20:27:01 - SteamCommon\dawn of war 2\Install\DEC2006_d3dx10_00_x86.cab - 191712
+13/03/2010 20:39:06 - SteamCommon\dawn of war 2\Install\DEC2006_d3dx9_32_x64.cab - 1571154
+13/03/2010 20:57:27 - SteamCommon\dawn of war 2\Install\DEC2006_d3dx9_32_x86.cab - 1574376
+13/03/2010 20:28:03 - SteamCommon\dawn of war 2\Install\DEC2006_XACT_x64.cab - 192467
+13/03/2010 20:53:25 - SteamCommon\dawn of war 2\Install\DEC2006_XACT_x86.cab - 145591
+13/03/2010 20:28:14 - SteamCommon\dawn of war 2\Install\dow2.ai - 3467
+13/03/2010 20:26:34 - SteamCommon\dawn of war 2\Install\DSETUP.dll - 94024
+13/03/2010 21:22:07 - SteamCommon\dawn of war 2\Install\dsetup32.dll - 1691464
+13/03/2010 20:35:41 - SteamCommon\dawn of war 2\Install\dxdllreg_x86.cab - 44440
+13/03/2010 22:10:17 - SteamCommon\dawn of war 2\Install\dxnt.cab - 13264168
+13/03/2010 20:51:33 - SteamCommon\dawn of war 2\Install\DXSETUP.exe - 525656
+13/03/2010 21:56:38 - SteamCommon\dawn of war 2\Install\dxupdate.cab - 95637
+13/03/2010 21:25:32 - SteamCommon\dawn of war 2\Install\Feb2005_d3dx9_24_x64.cab - 1247499
+13/03/2010 21:29:41 - SteamCommon\dawn of war 2\Install\Feb2005_d3dx9_24_x86.cab - 1013225
+13/03/2010 20:26:44 - SteamCommon\dawn of war 2\Install\Feb2006_d3dx9_29_x64.cab - 1362796
+13/03/2010 21:27:52 - SteamCommon\dawn of war 2\Install\Feb2006_d3dx9_29_x86.cab - 1084712
+13/03/2010 20:26:30 - SteamCommon\dawn of war 2\Install\Feb2006_XACT_x64.cab - 178359
+13/03/2010 20:32:37 - SteamCommon\dawn of war 2\Install\Feb2006_XACT_x86.cab - 132409
+13/03/2010 20:37:13 - SteamCommon\dawn of war 2\Install\FEB2007_XACT_x64.cab - 194667
+13/03/2010 20:47:07 - SteamCommon\dawn of war 2\Install\FEB2007_XACT_x86.cab - 147983
+13/03/2010 23:20:51 - SteamCommon\dawn of war 2\Install\gfwlivesetup.exe - 273203472
+13/03/2010 20:42:53 - SteamCommon\dawn of war 2\Install\Jun2005_d3dx9_26_x64.cab - 1336002
+13/03/2010 21:25:56 - SteamCommon\dawn of war 2\Install\Jun2005_d3dx9_26_x86.cab - 1064925
+13/03/2010 21:36:26 - SteamCommon\dawn of war 2\Install\JUN2006_XACT_x64.cab - 180777
+13/03/2010 21:28:23 - SteamCommon\dawn of war 2\Install\JUN2006_XACT_x86.cab - 133663
+13/03/2010 20:46:37 - SteamCommon\dawn of war 2\Install\JUN2007_d3dx10_34_x64.cab - 699044
+13/03/2010 20:34:03 - SteamCommon\dawn of war 2\Install\JUN2007_d3dx10_34_x86.cab - 698464
+13/03/2010 20:44:10 - SteamCommon\dawn of war 2\Install\JUN2007_d3dx9_34_x64.cab - 1607766
+13/03/2010 21:26:14 - SteamCommon\dawn of war 2\Install\JUN2007_d3dx9_34_x86.cab - 1607278
+13/03/2010 20:31:57 - SteamCommon\dawn of war 2\Install\JUN2007_XACT_x64.cab - 197114
+13/03/2010 20:26:55 - SteamCommon\dawn of war 2\Install\JUN2007_XACT_x86.cab - 152901
+13/03/2010 21:41:24 - SteamCommon\dawn of war 2\Install\JUN2008_d3dx10_38_x64.cab - 867828
+13/03/2010 20:31:29 - SteamCommon\dawn of war 2\Install\JUN2008_d3dx10_38_x86.cab - 849919
+13/03/2010 20:40:40 - SteamCommon\dawn of war 2\Install\JUN2008_d3dx9_38_x64.cab - 1792600
+13/03/2010 21:47:30 - SteamCommon\dawn of war 2\Install\JUN2008_d3dx9_38_x86.cab - 1463878
+13/03/2010 21:34:33 - SteamCommon\dawn of war 2\Install\JUN2008_X3DAudio_x64.cab - 55154
+13/03/2010 21:21:37 - SteamCommon\dawn of war 2\Install\JUN2008_X3DAudio_x86.cab - 21905
+13/03/2010 20:37:06 - SteamCommon\dawn of war 2\Install\JUN2008_XACT_x64.cab - 121054
+13/03/2010 21:39:49 - SteamCommon\dawn of war 2\Install\JUN2008_XACT_x86.cab - 93128
+13/03/2010 21:48:17 - SteamCommon\dawn of war 2\Install\JUN2008_XAudio_x64.cab - 269620
+13/03/2010 21:51:14 - SteamCommon\dawn of war 2\Install\JUN2008_XAudio_x86.cab - 269016
+13/03/2010 20:28:44 - SteamCommon\dawn of war 2\Install\Mar2008_d3dx10_37_x64.cab - 844884
+13/03/2010 21:44:49 - SteamCommon\dawn of war 2\Install\Mar2008_d3dx10_37_x86.cab - 818260
+13/03/2010 20:32:45 - SteamCommon\dawn of war 2\Install\Mar2008_d3dx9_37_x64.cab - 1769862
+13/03/2010 20:34:56 - SteamCommon\dawn of war 2\Install\Mar2008_d3dx9_37_x86.cab - 1443274
+13/03/2010 20:31:16 - SteamCommon\dawn of war 2\Install\Mar2008_X3DAudio_x64.cab - 55050
+13/03/2010 21:30:54 - SteamCommon\dawn of war 2\Install\Mar2008_X3DAudio_x86.cab - 21867
+13/03/2010 20:32:18 - SteamCommon\dawn of war 2\Install\Mar2008_XACT_x64.cab - 122336
+13/03/2010 20:28:32 - SteamCommon\dawn of war 2\Install\Mar2008_XACT_x86.cab - 93726
+13/03/2010 21:52:31 - SteamCommon\dawn of war 2\Install\Mar2008_XAudio_x64.cab - 251186
+13/03/2010 20:33:54 - SteamCommon\dawn of war 2\Install\Mar2008_XAudio_x86.cab - 226242
+13/03/2010 20:26:51 - SteamCommon\dawn of war 2\Install\Mar2009_d3dx10_41_x64.cab - 1067160
+13/03/2010 20:31:08 - SteamCommon\dawn of war 2\Install\Mar2009_d3dx10_41_x86.cab - 1040737
+13/03/2010 21:00:05 - SteamCommon\dawn of war 2\Install\Mar2009_d3dx9_41_x64.cab - 1973702
+13/03/2010 20:52:08 - SteamCommon\dawn of war 2\Install\Mar2009_d3dx9_41_x86.cab - 1612446
+13/03/2010 21:39:43 - SteamCommon\dawn of war 2\Install\Mar2009_X3DAudio_x64.cab - 54600
+13/03/2010 21:22:12 - SteamCommon\dawn of war 2\Install\Mar2009_X3DAudio_x86.cab - 21298
+13/03/2010 20:27:05 - SteamCommon\dawn of war 2\Install\Mar2009_XACT_x64.cab - 121506
+13/03/2010 21:22:40 - SteamCommon\dawn of war 2\Install\Mar2009_XACT_x86.cab - 92732
+13/03/2010 20:26:34 - SteamCommon\dawn of war 2\Install\Mar2009_XAudio_x64.cab - 275036
+13/03/2010 20:27:03 - SteamCommon\dawn of war 2\Install\Mar2009_XAudio_x86.cab - 273010
+13/03/2010 20:30:33 - SteamCommon\dawn of war 2\Install\Nov2007_d3dx10_36_x64.cab - 864600
+13/03/2010 20:35:40 - SteamCommon\dawn of war 2\Install\Nov2007_d3dx10_36_x86.cab - 803876
+13/03/2010 20:46:11 - SteamCommon\dawn of war 2\Install\Nov2007_d3dx9_36_x64.cab - 1802058
+13/03/2010 20:28:01 - SteamCommon\dawn of war 2\Install\Nov2007_d3dx9_36_x86.cab - 1709360
+13/03/2010 20:32:17 - SteamCommon\dawn of war 2\Install\NOV2007_X3DAudio_x64.cab - 46144
+13/03/2010 20:29:31 - SteamCommon\dawn of war 2\Install\NOV2007_X3DAudio_x86.cab - 18496
+13/03/2010 20:43:55 - SteamCommon\dawn of war 2\Install\NOV2007_XACT_x64.cab - 196754
+13/03/2010 21:57:27 - SteamCommon\dawn of war 2\Install\NOV2007_XACT_x86.cab - 148264
+13/03/2010 20:26:56 - SteamCommon\dawn of war 2\Install\Nov2008_d3dx10_40_x64.cab - 994154
+13/03/2010 20:35:56 - SteamCommon\dawn of war 2\Install\Nov2008_d3dx10_40_x86.cab - 965421
+13/03/2010 20:38:19 - SteamCommon\dawn of war 2\Install\Nov2008_d3dx9_40_x64.cab - 1906870
+13/03/2010 21:50:00 - SteamCommon\dawn of war 2\Install\Nov2008_d3dx9_40_x86.cab - 1550796
+13/03/2010 21:22:59 - SteamCommon\dawn of war 2\Install\Nov2008_X3DAudio_x64.cab - 54522
+13/03/2010 21:38:56 - SteamCommon\dawn of war 2\Install\Nov2008_X3DAudio_x86.cab - 21843
+13/03/2010 20:56:01 - SteamCommon\dawn of war 2\Install\Nov2008_XACT_x64.cab - 121786
+13/03/2010 21:28:47 - SteamCommon\dawn of war 2\Install\Nov2008_XACT_x86.cab - 92676
+13/03/2010 20:26:45 - SteamCommon\dawn of war 2\Install\Nov2008_XAudio_x64.cab - 273960
+13/03/2010 21:25:05 - SteamCommon\dawn of war 2\Install\Nov2008_XAudio_x86.cab - 272603
+13/03/2010 21:44:26 - SteamCommon\dawn of war 2\Install\Oct2005_xinput_x64.cab - 86029
+13/03/2010 20:38:00 - SteamCommon\dawn of war 2\Install\Oct2005_xinput_x86.cab - 45351
+13/03/2010 20:41:57 - SteamCommon\dawn of war 2\Install\OCT2006_d3dx9_31_x64.cab - 1412894
+13/03/2010 21:40:34 - SteamCommon\dawn of war 2\Install\OCT2006_d3dx9_31_x86.cab - 1127209
+13/03/2010 21:28:55 - SteamCommon\dawn of war 2\Install\OCT2006_XACT_x64.cab - 182361
+13/03/2010 21:24:23 - SteamCommon\dawn of war 2\Install\OCT2006_XACT_x86.cab - 138009
+30/11/2009 07:48:17 - SteamCommon\dawn of war 2\Install\vcredis1.cab - 252968
+30/11/2009 07:27:27 - SteamCommon\dawn of war 2\Install\vcredist.msi - 2818048
+13/03/2010 21:51:23 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_CN.pdf - 3158160
+13/03/2010 20:28:12 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_CZ.pdf - 2805316
+13/03/2010 21:48:47 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_DE.pdf - 3583144
+13/03/2010 21:40:57 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_EN.pdf - 3472225
+13/03/2010 21:23:50 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_ES.pdf - 3272287
+13/03/2010 20:26:59 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_FR.pdf - 3236674
+13/03/2010 21:37:26 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_IT.pdf - 3230009
+13/03/2010 21:19:53 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_PL.pdf - 3213266
+13/03/2010 20:46:29 - SteamCommon\dawn of war 2\Manual\Dawn of War II - Chaos Rising Manual_RU.pdf - 4023555
+30/11/2009 07:14:45 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_CN.pdf - 2792029
+30/11/2009 07:18:48 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_CZ.pdf - 5878763
+30/11/2009 07:15:14 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_DE.pdf - 2987118
+30/11/2009 07:30:33 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_EN.pdf - 2792029
+30/11/2009 07:36:25 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_ES.pdf - 2771295
+30/11/2009 07:48:41 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_FR.pdf - 2711707
+30/11/2009 07:28:07 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_IT.pdf - 2760972
+30/11/2009 07:21:29 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_PL.pdf - 6325548
+30/11/2009 07:46:14 - SteamCommon\dawn of war 2\Manual\Dawn of War II Manual_RU.pdf - 1542301
+13/03/2010 20:26:31 - SteamCommon\dawn of war 2\reslists\precache.lst - 656
+13/03/2010 20:27:01 - SteamCommon\dawn of war 2\reslists\preload.lst - 656
+07/12/2010 05:01:44 - SteamCommon\dawn of war 2\Tools\Bin\Archive.exe - 640384
+07/12/2010 05:01:40 - SteamCommon\dawn of war 2\Tools\Bin\Bake.exe - 42368
+30/11/2009 07:35:47 - SteamCommon\dawn of war 2\Tools\Bin\CreateArchive.bat - 391
+30/11/2009 07:27:52 - SteamCommon\dawn of war 2\Tools\Foreign\nvdxt.exe - 1048576
+30/11/2009 07:25:01 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\EntityOwnershipColors.lua - 734
+30/11/2009 07:28:00 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\HeightPresets.lua - 406
+30/11/2009 07:40:11 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\MarkerTypes.lua - 3327
+30/11/2009 07:42:23 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\RoadWidthPresets.lua - 153
+30/11/2009 07:39:43 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\SplineHeightPresets.lua - 76
+30/11/2009 07:42:41 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\Atmosphere\DEFAULT.atmospherepreset - 918
+30/11/2009 07:14:01 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Hedge.lua - 417
+30/11/2009 07:32:56 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Hedge_Small.lua - 417
+30/11/2009 07:27:32 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Hedge_Small_With_Cypress.lua - 589
+30/11/2009 07:35:45 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Tree_Clump.lua - 665
+30/11/2009 07:26:40 - SteamCommon\dawn of war 2\Tools\ToolsData\WorldBuilderData\ObjectSplineTemplates\Wooden_Fence.lua - 338
+
+UAC Enabled
+
+
+VirtualStore Folders: 

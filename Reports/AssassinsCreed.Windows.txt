@@ -1,0 +1,203 @@
+Game Name: Assassin's Creed
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+ProgramFilesX86\Steam\steamapps\common\assassins creed
+
+Save Path:
+AppData\Ubisoft\Assassin's Creed
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 15100
+Value: InstallLocation
+Data: ProgramFilesX86\Steam\steamapps\common\assassins creed
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8CFA9151-6404-409A-AF22-4632D04582FD}
+Value: InstallLocation
+Data: ProgramFilesX86\Steam\steamapps\common\assassins creed
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Ubisoft\Assassin's Creed
+Value: InstallDir
+Data: ProgramFilesX86\Steam\steamapps\common\assassins creed
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Ubisoft\Assassin's Creed\GameUpdate
+Value: ExecPath
+Data: 7/25/2010 3:06:52 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\AssassinsCreed_Game.exe - 438272
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Ubisoft\Assassin's Creed\GameUpdate
+Value: InstallDir
+Data: ProgramFilesX86\Steam\steamapps\common\assassins creed
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+12/21/2011 8:26:36 PM - AppData\Microsoft\Windows\Start Menu\Programs\Startup\Registration .LNK - 1638
+7/25/2010 3:46:59 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Register\RegistrationReminder.exe - 967304
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/21/2011 8:28:13 PM - AppData\Ubisoft\Assassin's Creed\Assassin.ini - 91
+12/21/2011 8:26:40 PM - AppData\Ubisoft\Assassin's Creed\DARE.INI - 155
+12/21/2011 8:27:29 PM - AppData\Ubisoft\Assassin's Creed\Saved Games\1324520846.hdr - 12
+12/21/2011 8:27:29 PM - AppData\Ubisoft\Assassin's Creed\Saved Games\1324520846.sav - 0
+
+Install Folder Dump:
+7/25/2010 3:33:16 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\AssassinsCreed_Dx10.exe - 24183432
+7/25/2010 3:29:55 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\AssassinsCreed_Dx9.exe - 24666760
+7/25/2010 3:06:52 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\AssassinsCreed_Game.exe - 438272
+7/25/2010 3:14:29 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\binkw32.dll - 193024
+7/25/2010 3:05:33 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\d3dx10_36.dll - 444776
+7/25/2010 3:40:33 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\d3dx9_36.dll - 3734536
+7/25/2010 6:22:40 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC.forge - 203259904
+7/25/2010 8:23:28 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Acre.forge - 848396288
+7/25/2010 6:32:16 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Arsuf.forge - 386433024
+7/25/2010 3:53:11 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Assassination_Talal.forge - 106168320
+7/25/2010 8:08:10 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Common.forge - 699138048
+7/25/2010 8:11:35 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Damascus.forge - 812744704
+7/25/2010 3:27:12 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Extra.forge - 25362432
+7/25/2010 6:27:48 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Flashback_Paradise.forge - 206340096
+7/25/2010 8:11:22 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Jerusalem.forge - 823623680
+7/25/2010 8:13:20 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Kingdom.forge - 735215616
+7/25/2010 3:09:45 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_LoadingRoom2.forge - 10780672
+7/25/2010 3:06:18 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Map_Menu.forge - 1605632
+7/25/2010 5:39:19 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Masyaf.forge - 753696768
+7/25/2010 3:52:46 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Memory_Corridor.forge - 150110208
+7/25/2010 5:54:46 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_Present_Room.forge - 300122112
+7/25/2010 5:58:22 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_SolomonTemple.forge - 257261568
+7/25/2010 7:33:23 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_StreamedSounds.forge - 472186880
+7/25/2010 4:42:52 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DataPC_StreamedSoundseng.forge - 130940928
+7/25/2010 3:17:57 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DefaultBindings.map - 13019
+7/25/2010 3:05:54 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\eax.dll - 192512
+7/25/2010 3:07:57 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\installscript.vdf - 2912
+7/25/2010 3:42:56 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\testapp.exe - 438272
+7/25/2010 3:32:25 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\Detection.exe - 225280
+7/25/2010 3:05:32 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\detectionapi_rd.dll - 167936
+7/25/2010 3:08:19 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\directx10tests_rd.dll - 155648
+7/25/2010 3:05:34 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\directx9tests_rd.dll - 26624
+7/25/2010 3:05:38 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\directxtests_rd.tst - 13824
+7/25/2010 3:13:49 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\gameinterpreters_rd.intr - 151552
+7/25/2010 3:27:54 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\local.dll - 5591040
+7/25/2010 3:26:12 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\MFC71.dll - 1060864
+7/25/2010 3:37:44 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\MFC71u.dll - 1047552
+7/25/2010 3:19:24 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\msvcp71.dll - 499712
+7/25/2010 3:10:28 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\msvcr71.dll - 348160
+7/25/2010 3:05:38 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\systemtests_rd.tst - 499712
+7/25/2010 3:44:18 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\localization\CZ\interpreter_local.ini - 8226
+7/25/2010 3:13:15 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\localization\DEU\interpreter_local.ini - 9064
+7/25/2010 3:15:13 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\localization\EN\interpreter_local.ini - 7718
+7/25/2010 3:31:09 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\localization\ESM\interpreter_local.ini - 8658
+7/25/2010 3:07:16 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\localization\FR\interpreter_local.ini - 8784
+7/25/2010 3:42:53 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\localization\ITA\interpreter_local.ini - 8474
+7/25/2010 3:06:11 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\localization\PO\interpreter_local.ini - 8584
+7/25/2010 3:08:48 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Detection\localization\RU\interpreter_local.ini - 7926
+7/25/2010 3:28:03 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2005_d3dx9_25_x64.cab - 1348242
+7/25/2010 3:16:40 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2005_d3dx9_25_x86.cab - 1079850
+7/25/2010 3:18:46 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2006_d3dx9_30_x64.cab - 1398718
+7/25/2010 3:06:30 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2006_d3dx9_30_x86.cab - 1116109
+7/25/2010 3:40:01 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2006_MDX1_x86.cab - 917318
+7/25/2010 3:43:41 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2006_MDX1_x86_Archive.cab - 4163518
+7/25/2010 3:44:40 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2006_XACT_x64.cab - 180021
+7/25/2010 3:23:45 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2006_XACT_x86.cab - 133991
+7/25/2010 3:11:30 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2006_xinput_x64.cab - 87989
+7/25/2010 3:20:06 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Apr2006_xinput_x86.cab - 46898
+7/25/2010 3:06:43 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\APR2007_d3dx10_33_x64.cab - 702212
+7/25/2010 3:10:49 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\APR2007_d3dx10_33_x86.cab - 699465
+7/25/2010 3:42:02 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\APR2007_d3dx9_33_x64.cab - 1610958
+7/25/2010 3:13:28 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\APR2007_d3dx9_33_x86.cab - 1609639
+7/25/2010 3:05:36 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\APR2007_XACT_x64.cab - 199366
+7/25/2010 3:44:49 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\APR2007_XACT_x86.cab - 154825
+7/25/2010 3:42:17 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\APR2007_xinput_x64.cab - 100417
+7/25/2010 3:24:35 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\APR2007_xinput_x86.cab - 56902
+7/25/2010 3:21:08 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Aug2005_d3dx9_27_x64.cab - 1351430
+7/25/2010 3:13:57 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Aug2005_d3dx9_27_x86.cab - 1078532
+7/25/2010 3:08:20 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2006_XACT_x64.cab - 183863
+7/25/2010 3:35:58 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2006_XACT_x86.cab - 138195
+7/25/2010 3:11:31 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2006_xinput_x64.cab - 88102
+7/25/2010 3:31:34 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2006_xinput_x86.cab - 47018
+7/25/2010 3:36:28 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2007_d3dx10_35_x64.cab - 855886
+7/25/2010 3:07:37 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2007_d3dx10_35_x86.cab - 800467
+7/25/2010 3:46:09 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2007_d3dx9_35_x64.cab - 1803760
+7/25/2010 3:34:59 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2007_d3dx9_35_x86.cab - 1711752
+7/25/2010 3:05:44 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2007_XACT_x64.cab - 201696
+7/25/2010 3:12:20 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\AUG2007_XACT_x86.cab - 156612
+7/25/2010 3:23:17 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\BDANT.cab - 1156363
+7/25/2010 3:06:58 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\BDAXP.cab - 976020
+7/25/2010 3:32:31 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Dec2005_d3dx9_28_x64.cab - 1358864
+7/25/2010 3:09:18 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Dec2005_d3dx9_28_x86.cab - 1080344
+7/25/2010 3:07:23 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\DEC2006_d3dx10_00_x64.cab - 213767
+7/25/2010 3:30:26 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\DEC2006_d3dx10_00_x86.cab - 192680
+7/25/2010 3:08:19 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\DEC2006_d3dx9_32_x64.cab - 1572114
+7/25/2010 3:31:53 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\DEC2006_d3dx9_32_x86.cab - 1575336
+7/25/2010 3:17:23 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\DEC2006_XACT_x64.cab - 193435
+7/25/2010 3:07:06 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\DEC2006_XACT_x86.cab - 146559
+7/25/2010 3:43:11 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\DSETUP.dll - 76808
+7/25/2010 3:11:07 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\dsetup32.dll - 1673224
+7/25/2010 3:10:14 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\dxdllreg_x86.cab - 44850
+7/25/2010 3:27:46 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\dxnt.cab - 13265040
+7/25/2010 3:09:14 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\DXSETUP.exe - 502792
+7/25/2010 3:22:10 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\dxupdate.cab - 86802
+7/25/2010 3:32:37 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Feb2005_d3dx9_24_x64.cab - 1248387
+7/25/2010 3:41:05 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Feb2005_d3dx9_24_x86.cab - 1014113
+7/25/2010 3:34:59 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Feb2006_d3dx9_29_x64.cab - 1363684
+7/25/2010 3:11:36 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Feb2006_d3dx9_29_x86.cab - 1085608
+7/25/2010 3:37:55 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Feb2006_XACT_x64.cab - 179247
+7/25/2010 3:21:34 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Feb2006_XACT_x86.cab - 133297
+7/25/2010 3:30:05 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\FEB2007_XACT_x64.cab - 198275
+7/25/2010 3:18:38 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\FEB2007_XACT_x86.cab - 151583
+7/25/2010 3:08:10 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Jun2005_d3dx9_26_x64.cab - 1336890
+7/25/2010 3:36:56 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Jun2005_d3dx9_26_x86.cab - 1065813
+7/25/2010 3:08:10 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\JUN2006_XACT_x64.cab - 181745
+7/25/2010 3:26:38 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\JUN2006_XACT_x86.cab - 134631
+7/25/2010 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\JUN2007_d3dx10_34_x64.cab - 702644
+7/25/2010 3:34:53 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\JUN2007_d3dx10_34_x86.cab - 702072
+7/25/2010 3:16:43 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\JUN2007_d3dx9_34_x64.cab - 1611374
+7/25/2010 3:41:58 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\JUN2007_d3dx9_34_x86.cab - 1610886
+7/25/2010 3:20:54 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\JUN2007_XACT_x64.cab - 200722
+7/25/2010 3:14:10 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\JUN2007_XACT_x86.cab - 156509
+7/25/2010 3:16:22 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\NOV2007_d3dx10_36_x64.cab - 867848
+7/25/2010 3:06:17 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\NOV2007_d3dx10_36_x86.cab - 807132
+7/25/2010 3:29:49 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\NOV2007_d3dx9_36_x64.cab - 1805306
+7/25/2010 3:44:30 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\NOV2007_d3dx9_36_x86.cab - 1712608
+7/25/2010 3:30:41 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\NOV2007_X3DAudio_x64.cab - 49392
+7/25/2010 3:05:32 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\NOV2007_X3DAudio_x86.cab - 21744
+7/25/2010 3:35:34 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\NOV2007_XACT_x64.cab - 200010
+7/25/2010 3:36:32 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\NOV2007_XACT_x86.cab - 151512
+7/25/2010 3:14:39 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Oct2005_xinput_x64.cab - 86925
+7/25/2010 3:25:07 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\Oct2005_xinput_x86.cab - 46247
+7/25/2010 3:29:40 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\OCT2006_d3dx9_31_x64.cab - 1413862
+7/25/2010 3:12:40 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\OCT2006_d3dx9_31_x86.cab - 1128177
+7/25/2010 3:05:35 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\OCT2006_XACT_x64.cab - 183321
+7/25/2010 3:07:44 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\DirectX\OCT2006_XACT_x86.cab - 138977
+7/25/2010 3:37:52 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Manual\English (UK)\AssassinsCreed.pdf - 3606650
+7/25/2010 3:35:48 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Manual\French (Canada)\AssassinsCreed.pdf - 692357
+7/25/2010 3:19:24 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Readme\Czech\ReadMe.txt - 9855
+7/25/2010 3:33:11 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Readme\English (UK)\ReadMe.txt - 9889
+7/25/2010 3:09:30 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Readme\French (Canada)\LisezMoi.txt - 9209
+7/25/2010 3:09:39 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Readme\Polish\CzytajTo.txt - 10814
+7/25/2010 3:08:30 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Readme\Russian\ReadMe.txt - 9323
+7/25/2010 3:46:59 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Register\RegistrationReminder.exe - 967304
+7/25/2010 3:37:25 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Resources\de\GameUpdate.de - 7201
+7/25/2010 3:24:10 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Resources\es\GameUpdate.es - 8105
+7/25/2010 3:08:48 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Resources\fr\GameUpdate.fr - 7968
+7/25/2010 3:06:21 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Resources\it\GameUpdate.it - 7371
+7/25/2010 3:10:52 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Resources\uk\GameUpdate.uk - 6294
+7/25/2010 3:44:38 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Resources\us\GameUpdate.us - 6303
+7/25/2010 3:08:22 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Support\Manual\AssassinsCreed.pdf - 3606650
+7/25/2010 3:05:30 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Support\Readme\ReadMe.txt - 10319
+7/25/2010 5:56:27 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Videos\DemoIntro.bik - 150164976
+7/25/2010 3:46:27 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Videos\LoadingScreen.bik - 1380832
+7/25/2010 3:05:30 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Videos\Ubisoft_Presents.bik - 12504
+7/25/2010 3:14:43 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Videos\UBI_LOGO.bik - 8674328
+7/25/2010 3:05:30 PM - ProgramFilesX86\Steam\steamapps\common\assassins creed\Videos\Warning_Disclaimer.bik - 40980
+
+UAC Enabled
+
+
+VirtualStore Folders:

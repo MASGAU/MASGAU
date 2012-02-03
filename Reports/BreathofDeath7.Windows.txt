@@ -1,0 +1,213 @@
+Comments:
+  <game name="BreathofDeathVII" platform="Windows">
+    <title>Breath of Death VII</title>
+    <location_path environment_variable="userdocuments" path="SavedGames\BoDVIIPC\Breath of Death VII" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Breath of Death VII
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Breath of Death VII
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\SavedGames\BoDVIIPC\Breath of Death VII
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{26460853-0B76-452F-B35D-8D60252EBE01}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Breath of Death VII
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{26460853-0B76-452F-B35D-8D60252EBE01}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Breath of Death VII\
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Breath of Death VII\Breath of Death VII.lnk
+C:\Program Files (x86)\Breath of Death VII\BoDVIIPC.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Breath of Death VII\Uninstall Breath of Death VII.lnk
+C:\Program Files (x86)\Breath of Death VII\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\SavedGames\BoDVIIPC\Breath of Death VII\AllPlayers\Epitaph - 164
+C:\Users\%USERNAME%\Documents\SavedGames\BoDVIIPC\Breath of Death VII\AllPlayers\Save1 - 23790
+C:\Users\%USERNAME%\Documents\SavedGames\BoDVIIPC\Breath of Death VII\AllPlayers\Settings - 84
+
+Install Folder Dump: 
+C:\Program Files (x86)\Breath of Death VII\BoD.vdf - 312
+C:\Program Files (x86)\Breath of Death VII\BoDVIIPC.application - 1893
+C:\Program Files (x86)\Breath of Death VII\BoDVIIPC.exe - 4151296
+C:\Program Files (x86)\Breath of Death VII\BoDVIIPC.exe.manifest - 68139
+C:\Program Files (x86)\Breath of Death VII\BoDVIIPC.pdb - 642560
+C:\Program Files (x86)\Breath of Death VII\dotNetFx40_Full_x86_x64.exe - 50449456
+C:\Program Files (x86)\Breath of Death VII\unins000.dat - 17781
+C:\Program Files (x86)\Breath of Death VII\unins000.exe - 715038
+C:\Program Files (x86)\Breath of Death VII\xnafx40_redist.msi - 7054336
+C:\Program Files (x86)\Breath of Death VII\Content\Alive Stuff\All_Enemies5.xnb - 1958499
+C:\Program Files (x86)\Breath of Death VII\Content\Alive Stuff\All_Enemies5_Errors_Fixed.xnb - 1975347
+C:\Program Files (x86)\Breath of Death VII\Content\Alive Stuff\BoDVII Final Boss.xnb - 71743
+C:\Program Files (x86)\Breath of Death VII\Content\Alive Stuff\Sprites.xnb - 491707
+C:\Program Files (x86)\Breath of Death VII\Content\Backgrounds\Battle\BoD BG.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\BODVII_title_no_pressstart.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\ButtonScreen.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\Credits11.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\endingcut1.xnb - 2304187
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\Epi3.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\introcut1.xnb - 2304187
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\Loading1.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\Loading2.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\Title11.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\Cutscenes\ZeboydLogo_1.xnb - 1637947
+C:\Program Files (x86)\Breath of Death VII\Content\Font\Debug font.xnb - 43995
+C:\Program Files (x86)\Breath of Death VII\Content\Font\PF Tempesta Seven Extended Bold.xnb - 142299
+C:\Program Files (x86)\Breath of Death VII\Content\Movies\BOD_intro-25.wmv - 6901793
+C:\Program Files (x86)\Breath of Death VII\Content\Movies\BOD_intro-25.xnb - 349
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Battle.wma - 6098567
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Battle.xnb - 124
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Castle.wma - 2948871
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Castle.xnb - 124
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Caverns.wma - 1526139
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Caverns.xnb - 125
+C:\Program Files (x86)\Breath of Death VII\Content\Music\cth_battleold3.wma - 6107515
+C:\Program Files (x86)\Breath of Death VII\Content\Music\cth_battleold3.xnb - 132
+C:\Program Files (x86)\Breath of Death VII\Content\Music\cth_CA_victory2.wma - 3512595
+C:\Program Files (x86)\Breath of Death VII\Content\Music\cth_CA_victory2.xnb - 133
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Final Dungeon.wma - 3879463
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Final Dungeon.xnb - 131
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Graveyard.wma - 4452135
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Graveyard.xnb - 127
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Overworld Wilderness.wma - 3700503
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Overworld Wilderness.xnb - 138
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Ruins.wma - 3798931
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Ruins.xnb - 123
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Steam.wma - 3888411
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Steam.xnb - 123
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Title.wma - 2420939
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Title.xnb - 123
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Town.wma - 1722995
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Town.xnb - 122
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Victory.wma - 989259
+C:\Program Files (x86)\Breath of Death VII\Content\Music\Victory.xnb - 125
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\Dem.xnb - 101311
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\Erik.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\Lita.xnb - 101311
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\Sara.xnb - 101311
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\dragonduck.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\femaleZomb.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\femaleZombb.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Ghost1m.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Ghost1n.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Imposter2.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\JunkMonster.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Ogre.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Reaper.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Researcher.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Skeleknight1.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Skullman1b.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Skullman1c.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Sushiman.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\TChief.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Troll1.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\turret.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\UltEvil.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Villager1b.xnb - 101311
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\Villager1c.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Portrait\NPC\zombiemerch.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\Attack.xnb - 11329
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\buystuff.xnb - 45969
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\equipstuff.xnb - 24469
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\Heal.xnb - 57703
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\OpenChest5.xnb - 18919
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\savejingle2.xnb - 63909
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\Spell.xnb - 53197
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\StairsDOWN.xnb - 88169
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\StairsUP.xnb - 101097
+C:\Program Files (x86)\Breath of Death VII\Content\Sound Effects\Tech.xnb - 38705
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\CastleSet2_Final.xnb - 819387
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\Castle_Town_Lower_Final.xnb - 153787
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\Castle_Town_Upper_Final.xnb - 153787
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\CaveSet2_brown.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\CaveSet5png.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\City_SewerTiles_Two_2.xnb - 512187
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\City_SewerTiles_Two_2_alphaORI.xnb - 512187
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\GraveSet_Polished.xnb - 102587
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\LabSet12.xnb - 358587
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\LabTiles.xnb - 358587
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\MtMazeSet1.xnb - 256187
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\SecretFinalDungeon.xnb - 307387
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\TinyPass.xnb - 51387
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\TownRuins_Lower.xnb - 512187
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\TownRuins_Upper.xnb - 512187
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\TownSet7.xnb - 153787
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\TownSet7_lower.xnb - 153787
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\TownSet7_upper.xnb - 153787
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\TownSetUpper.xnb - 153787
+C:\Program Files (x86)\Breath of Death VII\Content\TileMap\WorldTiles2b.xnb - 563387
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\160x60Name.xnb - 38587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\200x165Menu4Items.xnb - 132187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\200x200Menu5Items.xnb - 160187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\320x200Menu5Items.xnb - 256187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\380x60Name.xnb - 91387
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\540x200Description.xnb - 432187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\AlternateTextBox.xnb - 720187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Battles Left.xnb - 62587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\BelowBattlesLeft.xnb - 62587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\BelowGold.xnb - 48187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\BlackPixel.xnb - 191
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Black_Gradient.xnb - 971
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\BlueGradiant.xnb - 971
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\ButtonScreen.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Choose Slot to Load.xnb - 86187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Choose Slot to Save.xnb - 86187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\DeFeat1.xnb - 598587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\downarrow.xnb - 3267
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\GrayGradiant.xnb - 971
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Levelup.xnb - 630587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\menugraphic.xnb - 315455
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\MenuSelectArrow.xnb - 2235
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\QuickStats.xnb - 89787
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\reticle1a.xnb - 14111
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\reticle1b.xnb - 14111
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\scrollbar.xnb - 15955
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\ScrollbarDiamond.xnb - 1507
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\ScrollbarDownArrow.xnb - 3103
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\ScrollbarUpArrow.xnb - 3103
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\StatusBox.xnb - 990187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\StatusBoxDivider.xnb - 4587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\StatusBoxPictureBoundary.xnb - 2107
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title11.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Victory1.xnb - 688987
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\WhitePixel.xnb - 191
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\XLMenu5.xnb - 376187
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\ZeboydLogo4.xnb - 1637947
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\ContinueGame_TitleMen.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\Credits_TitleMen.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\Cu_Regains_power_Menu_Image.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\EasyMode2.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\ExtraModes.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\HardMode2.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\Highlander_mode.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\Necronom_TitleMen.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\NewGame_TitleMen.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\NormalMode2.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\QuitGame_TitleMen.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\ScoreAttack_mode.xnb - 690147
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\swordPointer.xnb - 6343
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\TitleMenuMainBG_TitleMen.xnb - 3686587
+C:\Program Files (x86)\Breath of Death VII\Content\User Interface\Title Menu\TitleScreen_image_BODVIIpc.xnb - 3686587
+
+UAC Disabled or not present
+

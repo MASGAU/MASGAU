@@ -1,0 +1,118 @@
+Comments:
+
+The US edition uses My Documents\atari\Indigo Prophecy Profile
+
+Game Name: Farenheit (Indigo Prophecy)
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Fahrenheit
+
+Save Path:
+C:\Users\Matthew\Documents\atari\Fahrenheit Profile
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{41F441FA-E9D1-4F72-B2A9-C3D95C7961DD}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{41F441FA-E9D1-4F72-B2A9-C3D95C7961DD}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGFAHRENHEIT
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit\Fahrenheit.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGFAHRENHEIT
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGFAHRENHEIT
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit\Fahrenheit.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGFAHRENHEIT
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Fahrenheit (Indigo Prophecy)_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Fahrenheit (Indigo Prophecy)_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BA10AC78-E687-4523-8B93-540428FC256F}
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BA10AC78-E687-4523-8B93-540428FC256F}
+Value: UninstallString
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit\unins000.exe
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Atari\Fahrenheit
+Value: InstallDirectory
+Data: C:\Program Files (x86)\GOG.com\Fahrenheit
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fahrenheit\Fahrenheit (Indigo Prophecy).lnk
+C:\Program Files (x86)\GOG.com\Fahrenheit\Fahrenheit.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fahrenheit\Uninstall Fahrenheit (Indigo Prophecy).lnk
+C:\Program Files (x86)\GOG.com\Fahrenheit\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Fahrenheit\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Fahrenheit\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/12/2011 2:27:47 PM - C:\Users\Matthew\Documents\atari\Fahrenheit Profile\FAHRENHEIT_FIRST_BOOT.dat - 2097152
+12/12/2011 2:27:47 PM - C:\Users\Matthew\Documents\atari\Fahrenheit Profile\FAHRENHEIT_FIRST_BOOT.idx - 98352
+12/12/2011 2:33:42 PM - C:\Users\Matthew\Documents\atari\Fahrenheit Profile\PPPP.dat - 2097152
+12/12/2011 2:33:42 PM - C:\Users\Matthew\Documents\atari\Fahrenheit Profile\PPPP.idx - 98352
+
+Install Folder Dump:
+8/24/2005 5:07:14 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\BigFile_PC.d01 - 1073671778
+8/24/2005 5:09:40 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\BigFile_PC.d02 - 1073387520
+8/24/2005 5:11:22 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\BigFile_PC.d03 - 428759137
+8/24/2005 5:12:10 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\BigFile_PC.dat - 1073346308
+8/24/2005 5:13:40 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\BigFile_PC.idm - 248304
+8/24/2005 5:13:44 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\binkw32.dll - 338944
+10/18/2011 3:41:56 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\Fahrenheit.exe - 7769844
+8/24/2005 5:13:44 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\Fahrenheit.ini - 418
+11/4/2011 12:50:10 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\gfw_high.ico - 105997
+11/4/2011 1:27:54 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\goggame.dll - 214528
+11/28/2008 10:32:10 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\innosetup_license.txt - 1471
+10/31/2011 5:05:46 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\manual.pdf - 3684431
+8/24/2005 5:13:44 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\mfc70.dll - 974848
+8/24/2005 5:13:46 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\msvcp70.dll - 487424
+8/24/2005 5:13:46 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\msvcr70.dll - 344064
+8/24/2005 5:13:46 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\stlport_vc745.dll - 581632
+4/20/2010 12:37:04 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\Support.ico - 62895
+12/12/2011 2:04:48 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\unins000.dat - 57292
+12/12/2011 2:02:46 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\unins000.exe - 2142547
+12/12/2011 2:04:47 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\unins000.ini - 82
+10/11/2005 3:36:00 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\obj\BYTECODE.BTC - 13341358
+8/24/2005 5:13:46 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\BONUS01.bik - 22442608
+8/24/2005 5:13:48 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\BONUS02.bik - 35643976
+8/24/2005 5:13:52 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\BONUS03.bik - 22967312
+8/24/2005 5:13:54 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\BONUS04.bik - 34199764
+8/24/2005 5:13:56 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\BONUS05.bik - 22432720
+8/24/2005 5:13:58 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\LOGOATAR.bik - 270000
+8/24/2005 5:13:58 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\LOGOQUAN.bik - 2242724
+8/24/2005 5:13:58 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\NVIDIA.bik - 2329736
+8/24/2005 5:14:00 PM - C:\Program Files (x86)\GOG.com\Fahrenheit\videos\uk\PC\ROLLDEMO.bik - 46338516
+
+UAC Enabled
+
+
+VirtualStore Folders:

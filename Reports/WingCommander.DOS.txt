@@ -1,0 +1,196 @@
+Game Name: Wing Commander
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC
+
+Save Path:
+C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{20A66AD2-82AD-42FF-95B2-F5781893AAA3}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{6214614A-287D-4198-A6EA-A4F04BBA78E3}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER2
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER2
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDER2
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander 1 and 2\Wing Commander\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander 1 and 2\Wing Commander II\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC2\manual.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+6/30/2011 3:39:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\dosboxWC.conf - 11005
+6/30/2011 2:13:48 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\gfw_high.ico - 126116
+9/15/2011 11:09:22 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\goggame.dll - 250880
+8/24/2011 11:01:14 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\manual.pdf - 2072898
+12/12/2011 12:27:49 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\stderr.txt - 0
+12/12/2011 12:28:18 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\stdout.txt - 175
+4/20/2010 1:37:04 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\Support.ico - 62895
+7/27/1998 12:18:00 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\WC.EXE - 304976
+7/27/1998 12:17:10 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\WINGCMDR.CFG - 11
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\ARROW.VGA - 513
+7/27/1998 12:14:40 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\BRIEFING.000 - 222366
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\BRIEFING.VGA - 516592
+7/27/1998 12:13:04 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\CAMP.000 - 651
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\COCKPIT.VGA - 50008
+7/27/1998 12:13:46 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\COMMUNIC.DAT - 12320
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\CONVERT.PAL - 256
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\DISK.001 - 48
+7/27/1998 12:13:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\DISK.002 - 48
+7/27/1998 12:14:24 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\DISK.003 - 48
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\FONTS.FNT - 7664
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\GAME.PAL - 1120
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\INSTALL.DAT - 928
+7/27/1998 12:14:24 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\INTRO.DAT - 630
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MIDGAME.V00 - 109608
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MIDGAME.V01 - 82001
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MIDGAME.V02 - 97523
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MIDGAME.V03 - 61438
+7/27/1998 12:13:04 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MODULE.000 - 22085
+7/27/1998 12:13:02 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MUSIC.MID - 139707
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\OBJECTS.VGA - 125960
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V00 - 139788
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V01 - 151825
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V02 - 123317
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V03 - 157968
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V04 - 27574
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PILOTANM.VGA - 139984
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PLANETS.VGA - 15583
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\RECROOM.VGA - 262789
+12/12/2011 12:27:23 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SAVEGAME.WLD - 6624
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SCRAMBLE.VGA - 301503
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V06 - 139615
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V07 - 131031
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V08 - 148101
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V15 - 154183
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V17 - 134941
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V18 - 132555
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V21 - 71664
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V00 - 64522
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V01 - 75274
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V02 - 60523
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V03 - 72291
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V09 - 66046
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V10 - 76725
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V11 - 75045
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V12 - 73145
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V13 - 65060
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V29 - 12754
+7/27/1998 12:13:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\STRAX.DRV - 4869
+7/27/1998 12:14:24 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SUPERTM.DRV - 65281
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\TALKING.VGA - 228237
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\TITLE.VGA - 271553
+7/27/1998 12:14:24 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\TM.DRV - 29779
+7/27/1998 12:13:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\WINGLDR.TIM - 5596
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\WINGMEN.VGA - 57211
+
+Install Folder Dump:
+6/30/2011 3:39:24 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\dosboxWC.conf - 11005
+6/30/2011 2:13:48 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\gfw_high.ico - 126116
+9/15/2011 11:09:22 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\goggame.dll - 250880
+8/24/2011 11:01:14 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\manual.pdf - 2072898
+12/12/2011 12:27:49 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\stderr.txt - 0
+12/12/2011 12:28:18 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\stdout.txt - 175
+4/20/2010 1:37:04 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\Support.ico - 62895
+7/27/1998 12:18:00 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\WC.EXE - 304976
+7/27/1998 12:17:10 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\WINGCMDR.CFG - 11
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\ARROW.VGA - 513
+7/27/1998 12:14:40 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\BRIEFING.000 - 222366
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\BRIEFING.VGA - 516592
+7/27/1998 12:13:04 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\CAMP.000 - 651
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\COCKPIT.VGA - 50008
+7/27/1998 12:13:46 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\COMMUNIC.DAT - 12320
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\CONVERT.PAL - 256
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\DISK.001 - 48
+7/27/1998 12:13:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\DISK.002 - 48
+7/27/1998 12:14:24 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\DISK.003 - 48
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\FONTS.FNT - 7664
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\GAME.PAL - 1120
+7/27/1998 12:12:44 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\INSTALL.DAT - 928
+7/27/1998 12:14:24 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\INTRO.DAT - 630
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MIDGAME.V00 - 109608
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MIDGAME.V01 - 82001
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MIDGAME.V02 - 97523
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MIDGAME.V03 - 61438
+7/27/1998 12:13:04 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MODULE.000 - 22085
+7/27/1998 12:13:02 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\MUSIC.MID - 139707
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\OBJECTS.VGA - 125960
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V00 - 139788
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V01 - 151825
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V02 - 123317
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V03 - 157968
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PCSHIP.V04 - 27574
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PILOTANM.VGA - 139984
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\PLANETS.VGA - 15583
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\RECROOM.VGA - 262789
+12/12/2011 12:27:23 PM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SAVEGAME.WLD - 6624
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SCRAMBLE.VGA - 301503
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V06 - 139615
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V07 - 131031
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V08 - 148101
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V15 - 154183
+7/27/1998 12:15:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V17 - 134941
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V18 - 132555
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIP.V21 - 71664
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V00 - 64522
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V01 - 75274
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V02 - 60523
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V03 - 72291
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V09 - 66046
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V10 - 76725
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V11 - 75045
+7/27/1998 12:15:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V12 - 73145
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V13 - 65060
+7/27/1998 12:15:28 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SHIPTYPE.V29 - 12754
+7/27/1998 12:13:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\STRAX.DRV - 4869
+7/27/1998 12:14:24 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\SUPERTM.DRV - 65281
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\TALKING.VGA - 228237
+7/27/1998 12:15:34 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\TITLE.VGA - 271553
+7/27/1998 12:14:24 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\TM.DRV - 29779
+7/27/1998 12:13:26 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\WINGLDR.TIM - 5596
+7/27/1998 12:15:32 AM - C:\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\GAMEDAT\WINGMEN.VGA - 57211
+
+UAC Enabled
+
+
+VirtualStore Folders:
+12/12/2011 12:21:39 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\stderr.txt - 0
+12/12/2011 12:24:23 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander 1 and 2\WC\stdout.txt - 280

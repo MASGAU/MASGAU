@@ -1,0 +1,594 @@
+Comments:
+  <game name="ShadowHarvest" platform="Windows">
+    <title>Shadow Harvest: Phantom Ops</title>
+    <location_path environment_variable="userdocuments" path="Shadow Harvest" />
+    <save path="SavedGames"/>
+	<save filename="*.ini" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Shadow Harvest: Phantom Ops
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\Shadow Harvest
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Black Lion Studios\Shadow Harvest: Phantom Ops
+Value: InstallPath
+Data: c:\program files (x86)\steam\steamapps\common\shadow harvest
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Black Lion Studios\Shadow Harvest: Phantom Ops
+Value: ExePath
+Data: c:\program files (x86)\steam\steamapps\common\shadow harvest\SH.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 92700
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\shadow harvest
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Controls.ini - 992
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Shadow Harvest.ini - 406
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Logs\AI.log - 473
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Logs\Console.log - 483
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Logs\DEBUG.log - 479
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Logs\Script.log - 481
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Logs\Shaders.log - 483
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Logs\Shadow Harvest.log - 619
+C:\Users\%USERNAME%\Documents\Shadow Harvest\Logs\Sound.log - 479
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\Characters.nif - 199494
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\Elevators.nif - 28446
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\Lights.nif - 9880
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\LinkNodes.nif - 12518
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\Objects.nif - 639578
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\SaveGame.Shadow HarvestSaveGame - 342854
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\Sounds.nif - 17979
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\SpawnPoints.nif - 6379
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_01\Triggers.nif - 121005
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\Characters.nif - 211091
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\Elevators.nif - 28446
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\Lights.nif - 9880
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\LinkNodes.nif - 12518
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\Objects.nif - 651706
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\SaveGame.Shadow HarvestSaveGame - 491520
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\Sounds.nif - 17979
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\SpawnPoints.nif - 6379
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_02\Triggers.nif - 121005
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\Characters.nif - 152979
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\Elevators.nif - 28446
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\Lights.nif - 9880
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\LinkNodes.nif - 12407
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\Objects.nif - 592702
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\SaveGame.Shadow HarvestSaveGame - 494792
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\Sounds.nif - 16817
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\SpawnPoints.nif - 1498
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_03\Triggers.nif - 120364
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\Characters.nif - 121811
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\Elevators.nif - 28446
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\Lights.nif - 9880
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\LinkNodes.nif - 12407
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\Objects.nif - 603468
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\SaveGame.Shadow HarvestSaveGame - 498484
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\Sounds.nif - 16819
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\SpawnPoints.nif - 1498
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_04\Triggers.nif - 120364
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\Characters.nif - 116156
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\Elevators.nif - 28446
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\Lights.nif - 9880
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\LinkNodes.nif - 12303
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\Objects.nif - 604602
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\SaveGame.Shadow HarvestSaveGame - 498973
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\Sounds.nif - 16819
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\SpawnPoints.nif - 1498
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_05\Triggers.nif - 120364
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\Characters.nif - 99999
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\Elevators.nif - 28446
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\Lights.nif - 9880
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\LinkNodes.nif - 12215
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\Objects.nif - 657510
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\SaveGame.Shadow HarvestSaveGame - 467582
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\Sounds.nif - 16819
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\SpawnPoints.nif - 1498
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_06\Triggers.nif - 120364
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\Characters.nif - 114551
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\Elevators.nif - 28446
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\Lights.nif - 9880
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\LinkNodes.nif - 12215
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\Objects.nif - 613411
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\SaveGame.Shadow HarvestSaveGame - 443954
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\Sounds.nif - 16767
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\SpawnPoints.nif - 1498
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_07\Triggers.nif - 119212
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\Characters.nif - 91849
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\Elevators.nif - 28446
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\Lights.nif - 9880
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\LinkNodes.nif - 12215
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\Objects.nif - 615738
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\SaveGame.Shadow HarvestSaveGame - 450644
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\Sounds.nif - 16767
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\SpawnPoints.nif - 1381
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C01_PART_08\Triggers.nif - 119212
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\Characters.nif - 55060
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\Elevators.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\Lights.nif - 63573
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\LinkNodes.nif - 2874
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\Objects.nif - 728595
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\SaveGame.Shadow HarvestSaveGame - 134611
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\Sounds.nif - 12757
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\SpawnPoints.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_01\Triggers.nif - 104955
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\Characters.nif - 56019
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\Elevators.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\Lights.nif - 63573
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\LinkNodes.nif - 2874
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\Objects.nif - 727009
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\SaveGame.Shadow HarvestSaveGame - 132106
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\Sounds.nif - 12757
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\SpawnPoints.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_02\Triggers.nif - 105007
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\Characters.nif - 57855
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\Elevators.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\Lights.nif - 63573
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\LinkNodes.nif - 2874
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\Objects.nif - 727009
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\SaveGame.Shadow HarvestSaveGame - 132106
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\Sounds.nif - 12757
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\SpawnPoints.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_03\Triggers.nif - 105007
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\Characters.nif - 56559
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\Elevators.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\Lights.nif - 63573
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\LinkNodes.nif - 2874
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\Objects.nif - 727443
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\SaveGame.Shadow HarvestSaveGame - 132527
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\Sounds.nif - 12757
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\SpawnPoints.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_04\Triggers.nif - 105007
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\Characters.nif - 51359
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\Elevators.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\Lights.nif - 63573
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\LinkNodes.nif - 2874
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\Objects.nif - 727058
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\SaveGame.Shadow HarvestSaveGame - 132575
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\Sounds.nif - 12757
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\SpawnPoints.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_05\Triggers.nif - 105007
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\Characters.nif - 55592
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\Elevators.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\Lights.nif - 63573
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\LinkNodes.nif - 2874
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\Objects.nif - 732181
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\SaveGame.Shadow HarvestSaveGame - 131252
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\Sounds.nif - 12757
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\SpawnPoints.nif - 61
+C:\Users\%USERNAME%\Documents\Shadow Harvest\SavedGames\C02_PART_06\Triggers.nif - 105007
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Character.xpf - 284818638
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\CharacterTextures.xpf - 151368216
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data.xpf - 1694603
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\DsPhysics.dll - 128512
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\fmodex.dll - 340480
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\installscript.vdf - 956
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\lang.ini - 33
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Level_1.xpf - 200739210
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Level_2.xpf - 167500178
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\libxml2.dll - 979968
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\LUA.dll - 131584
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\MissionSounds.xpf - 843681340
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\MissionTextures.xpf - 189512718
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Music.xpf - 370266916
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiAnimation12VC8.dll - 496128
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiCollision12VC8.dll - 238080
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiDevImageQuantizer12VC8.dll - 31232
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiDX9Renderer12VC8.dll - 414208
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiInput12VC8.dll - 93184
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiMain12VC8.dll - 594432
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiParticle12VC8.dll - 235520
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiPortal12VC8.dll - 43520
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiStripify12VC8.dll - 41984
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiSystem12VC8.dll - 24064
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NiTextureSwizzle12VC8.dll - 16896
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NxCharacter.dll - 124256
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\NxCooking.dll - 390424
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Objects.xpf - 217454990
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\ObjectSounds.xpf - 172713489
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\ObjectTextures.xpf - 275293881
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\PackFiles.ini - 264
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\PhysXLoader.dll - 71008
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\sh.exe - 1265664
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Shadow Harvest.dll - 1569792
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Shadow Harvest.ini - 58
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Steam.dll - 2925904
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\steamclient.dll - 4458280
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\steam_api.dll - 124712
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Textures.xpf - 614390411
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\tier0_s.dll - 284456
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\tolua.dll - 24064
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\VoicesEN.xpf - 574327906
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\vstdlib_s.dll - 440104
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpApplication.dll - 36352
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpBase.dll - 370176
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpGraphics.dll - 224768
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpMain.dll - 870912
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpPathfinding.dll - 103424
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpPhysics.dll - 514560
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpScaleform.dll - 1175040
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpScript.dll - 27136
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpShaderLibrary.nl9 - 265216
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpShaderRenderer.dll - 616448
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpSound.dll - 203264
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpVisuals.dll - 28672
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpWindowClasses.dll - 40448
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\XpXml.dll - 50688
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\ParticlesCluster.dds - 11184896
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\ParticlesCluster.XPC - 18332
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\Streaks.txt - 660
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\aitags.swf - 2278
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\CameraAnimationDisplay.swf - 234
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\characterInfo.swf - 612
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\crosshair.swf - 48615
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\defaultMedia.swf - 14451
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\fadeScreen.swf - 1013
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\gfxfontlib.swf - 33241
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\HudCountdown.swf - 742
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\HudItems_left.swf - 24277
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\HudItems_right.swf - 33553
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\Hud_UpperRight.swf - 7264
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\itemBar.swf - 28713
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\NPC_AwarenessBar.swf - 774
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\objectiveBox.swf - 34533
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\positionIndicator.swf - 2350
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\quickTimeEvent.swf - 1064
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\scope.swf - 23457
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\ScriptBox.swf - 1422
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\scriptTimer.swf - 832
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\smallHud.swf - 21538
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\statusBar.swf - 9141
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\tags.swf - 14038
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\textBox_Tutorial.swf - 876
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\textfield.swf - 3145
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\Transmission.swf - 53261
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\useBtn.swf - 33072
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\weaponHud.swf - 467787
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\GameUI\workInProgress.swf - 234
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\General\16x9Bars.swf - 547
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\General\components.swf - 1866
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\General\fonts_en.swf - 677329
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\General\gfxfontlib.swf - 534137
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\General\messageBox.swf - 1778
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\General\mouse.swf - 403
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\AniScreen_C05_Briefing.swf - 2077053
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\AniScreen_C05_Standard.swf - 143683
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\AniScreen_C08_Briefing.swf - 1086713
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\AniScreen_C08_Standard.swf - 145826
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\AniScreen_C10_Briefing.swf - 877326
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\AniScreen_C10_Standard.swf - 144001
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\AniScreen_Hacking.swf - 6786
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\AniScreen_Vlatkonov.swf - 212428
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\countdownTimer.swf - 778
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\CoverTriggerTutorial.swf - 3181
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\CoverTriggerTutorialLoader.swf - 8890
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\gfxfontlib.swf - 33241
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\hackingGame.swf - 8224
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\keyPad.swf - 25769
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\KeypadClean.swf - 2970
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\KeypadHackableLocked.swf - 2872
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\KeypadHackableOpen.swf - 2661
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\KeypadLocked.swf - 3975
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\KeypadOpen.swf - 3778
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\laser_disabled.swf - 117019
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\laser_enabled.swf - 117017
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\monitorJitter.swf - 14401
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\OS_Screen.swf - 9173
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\passiveDisplay.swf - 880016
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\passiveDisplay2.swf - 880007
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\QuicktimeEventTutorial.swf - 1188
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\QuickTimeEventTutorialLoader.swf - 8897
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\tableTop.swf - 833831
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\VirtualKeyboard.swf - 6713
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\VirtualMonitor.swf - 4780
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Ingame\walker_info.swf - 7329
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Intro\BL_Logo.swf - 138713
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Intro\IntroLoader.swf - 586
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Intro\SH_Logo3.swf - 1059158
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_00.swf - 192414
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_01.swf - 263358
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_02.swf - 270177
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_03.swf - 243493
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_04.swf - 232222
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_05.swf - 253458
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_06.swf - 238866
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_07.swf - 226177
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_08.swf - 253458
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_09.swf - 234697
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_10.swf - 253458
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_11.swf - 267110
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\BLANK_12.swf - 249804
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\centerLeftBackGround.swf - 6858
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\centerRightBackGround.swf - 6863
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\FullDefaultStretchableBackground.swf - 143683
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\gfxfontlib.swf - 33241
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\Intro.txt - 205
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_00.swf - 194631
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_01.swf - 386655
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_02.swf - 394475
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_03.swf - 476856
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_04.swf - 353020
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_05.swf - 256148
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_06.swf - 476141
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_07.swf - 347619
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_08.swf - 256199
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_09.swf - 358895
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_10.swf - 255918
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_11.swf - 392635
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_LONG_12.swf - 485788
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_00.swf - 194631
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_01.swf - 265996
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_02.swf - 272748
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_03.swf - 245920
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_04.swf - 234889
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_05.swf - 256148
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_06.swf - 241612
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_07.swf - 228844
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_08.swf - 256199
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_09.swf - 237368
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_10.swf - 255918
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_11.swf - 269003
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\LOADER_SHORT_12.swf - 252415
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\loadingScreen.swf - 2312
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\loadingScreenContent.swf - 621927
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MainMenu.swf - 1278527
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MainMenuScreenLoader.swf - 669
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_00.swf - 219543
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_01.swf - 290487
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_02.swf - 297306
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_03.swf - 270622
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_04.swf - 259351
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_05.swf - 280587
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_06.swf - 265995
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_07.swf - 253306
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_08.swf - 280587
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_09.swf - 261826
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_10.swf - 280587
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_11.swf - 294239
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\MM_START_12.swf - 276933
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\OptionControls.swf - 50697
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\Outro.txt - 51
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\SH_SplahScreen_720p.jpg - 91289
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\Splash01.jpg - 175327
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\Splash02.jpg - 346934
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\Splash03.jpg - 236062
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\Splash04.jpg - 336905
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_00.swf - 266760
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_01.swf - 346364
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_02.swf - 354409
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_03.swf - 324887
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_04.swf - 312052
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_05.swf - 341643
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_06.swf - 318713
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_07.swf - 306085
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_08.swf - 341643
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_09.swf - 315853
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_10.swf - 341643
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_11.swf - 352644
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_END_12.swf - 325265
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_00.swf - 266544
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_01.swf - 346148
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_02.swf - 354193
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_03.swf - 324671
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_04.swf - 311836
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_05.swf - 341427
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_06.swf - 318497
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_07.swf - 305869
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_08.swf - 341427
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_09.swf - 315637
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_10.swf - 341427
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_11.swf - 352428
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Menus\WINDOW_START_12.swf - 325049
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_agency_intro__0000.swf - 2691481
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_aron_observation_b__0000.swf - 21333
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_c04_intro__0000.swf - 10613
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_c08_intro__0000.swf - 2691481
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_c09_intro__0000.swf - 10802
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_c10_intro__0000.swf - 9951
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_c11_intro__0000.swf - 10215
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_c12_intro__0000.swf - 11314
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_extro_07__0000.swf - 253905
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_intro__0000.swf - 10909
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\camanim_start_humvee__0000.swf - 2719682
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\L00_Intro_Intro.swf - 459840
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\L00_Myra_Intro.swf - 10443
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\L01_Aron_Intro.swf - 10443
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\L01_City_Catmode_Tunnel.swf - 5172
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\L01_City_Intro.swf - 12994
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\L01_City_l01_cutscene_helis_crash.swf - 2822
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\L02_Palace_Catmode_Dance_Lounge.swf - 2185
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\MainMenuScreenLoader.swf - 669
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Overlay\StandardOverlay.swf - 114
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Tweaker\AmbientLightTweak.swf - 1802
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Tweaker\BloomTweak.swf - 1703
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Tweaker\CameraAnimationTool.swf - 5443
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Tweaker\ColorCorrectionTweak.swf - 1649
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Tweaker\SSAOTweak.swf - 1519
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\Data\flash\Tweaker\SunTweak.swf - 1807
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\PhysXSS.exe - 34013024
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\vcredist_x86.exe - 2723264
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2005_d3dx9_25_x64.cab - 1347354
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2005_d3dx9_25_x86.cab - 1078962
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2006_d3dx9_30_x64.cab - 1397830
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2006_d3dx9_30_x86.cab - 1115221
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2006_MDX1_x86.cab - 916430
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2006_MDX1_x86_Archive.cab - 4162630
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2006_XACT_x64.cab - 179133
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2006_XACT_x86.cab - 133103
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2006_xinput_x64.cab - 87101
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Apr2006_xinput_x86.cab - 46010
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\APR2007_d3dx10_33_x64.cab - 698612
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\APR2007_d3dx10_33_x86.cab - 695865
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\APR2007_d3dx9_33_x64.cab - 1607358
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\APR2007_d3dx9_33_x86.cab - 1606039
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\APR2007_XACT_x64.cab - 195766
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\APR2007_XACT_x86.cab - 151225
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\APR2007_xinput_x64.cab - 96817
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\APR2007_xinput_x86.cab - 53302
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2005_d3dx9_27_x64.cab - 1350542
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2005_d3dx9_27_x86.cab - 1077644
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2006_XACT_x64.cab - 182903
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2006_XACT_x86.cab - 137235
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2006_xinput_x64.cab - 87142
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2006_xinput_x86.cab - 46058
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2007_d3dx10_35_x64.cab - 852286
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2007_d3dx10_35_x86.cab - 796867
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2007_d3dx9_35_x64.cab - 1800160
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2007_d3dx9_35_x86.cab - 1708152
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2007_XACT_x64.cab - 198096
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\AUG2007_XACT_x86.cab - 153012
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2008_d3dx10_39_x64.cab - 867612
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2008_d3dx10_39_x86.cab - 849167
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2008_d3dx9_39_x64.cab - 1794084
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2008_d3dx9_39_x86.cab - 1464672
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2008_XACT_x64.cab - 121772
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2008_XACT_x86.cab - 92996
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2008_XAudio_x64.cab - 271412
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2008_XAudio_x86.cab - 271038
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_D3DCompiler_42_x64.cab - 919044
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_D3DCompiler_42_x86.cab - 900598
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_d3dcsx_42_x64.cab - 3112111
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_d3dcsx_42_x86.cab - 3319740
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_d3dx10_42_x64.cab - 232635
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_d3dx10_42_x86.cab - 192131
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_d3dx11_42_x64.cab - 136301
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_d3dx11_42_x86.cab - 105044
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_d3dx9_42_x64.cab - 930116
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_d3dx9_42_x86.cab - 728456
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_XACT_x64.cab - 122408
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_XACT_x86.cab - 93106
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_XAudio_x64.cab - 273264
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Aug2009_XAudio_x86.cab - 272642
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Dec2005_d3dx9_28_x64.cab - 1357976
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Dec2005_d3dx9_28_x86.cab - 1079456
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\DEC2006_d3dx10_00_x64.cab - 212807
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\DEC2006_d3dx10_00_x86.cab - 191720
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\DEC2006_d3dx9_32_x64.cab - 1571154
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\DEC2006_d3dx9_32_x86.cab - 1574376
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\DEC2006_XACT_x64.cab - 192475
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\DEC2006_XACT_x86.cab - 145599
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\DSETUP.dll - 89944
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\dsetup32.dll - 1801048
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\dxdllreg_x86.cab - 42410
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\DXSETUP.exe - 537432
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\dxupdate.cab - 94011
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2005_d3dx9_24_x64.cab - 1247499
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2005_d3dx9_24_x86.cab - 1013225
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2006_d3dx9_29_x64.cab - 1362796
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2006_d3dx9_29_x86.cab - 1084720
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2006_XACT_x64.cab - 178359
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2006_XACT_x86.cab - 132409
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\FEB2007_XACT_x64.cab - 194675
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\FEB2007_XACT_x86.cab - 147983
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2010_X3DAudio_x64.cab - 54678
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2010_X3DAudio_x86.cab - 20713
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2010_XACT_x64.cab - 122446
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2010_XACT_x86.cab - 93180
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2010_XAudio_x64.cab - 276960
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Feb2010_XAudio_x86.cab - 277191
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2005_d3dx9_26_x64.cab - 1336002
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2005_d3dx9_26_x86.cab - 1064925
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2006_XACT_x64.cab - 180785
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2006_XACT_x86.cab - 133671
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2007_d3dx10_34_x64.cab - 699044
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2007_d3dx10_34_x86.cab - 698472
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2007_d3dx9_34_x64.cab - 1607774
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2007_d3dx9_34_x86.cab - 1607286
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2007_XACT_x64.cab - 197122
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2007_XACT_x86.cab - 152909
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_d3dx10_38_x64.cab - 867828
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_d3dx10_38_x86.cab - 849919
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_d3dx9_38_x64.cab - 1792608
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_d3dx9_38_x86.cab - 1463878
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_X3DAudio_x64.cab - 55154
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_X3DAudio_x86.cab - 21905
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_XACT_x64.cab - 121054
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_XACT_x86.cab - 93128
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_XAudio_x64.cab - 269628
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\JUN2008_XAudio_x86.cab - 269024
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_D3DCompiler_43_x64.cab - 944460
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_D3DCompiler_43_x86.cab - 931471
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_d3dcsx_43_x64.cab - 752783
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_d3dcsx_43_x86.cab - 762188
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_d3dx10_43_x64.cab - 235955
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_d3dx10_43_x86.cab - 197283
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_d3dx11_43_x64.cab - 138205
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_d3dx11_43_x86.cab - 109445
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_d3dx9_43_x64.cab - 937246
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_d3dx9_43_x86.cab - 768036
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_XACT_x64.cab - 124596
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_XACT_x86.cab - 93686
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_XAudio_x64.cab - 277338
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Jun2010_XAudio_x86.cab - 278060
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_d3dx10_37_x64.cab - 844884
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_d3dx10_37_x86.cab - 818260
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_d3dx9_37_x64.cab - 1769862
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_d3dx9_37_x86.cab - 1443282
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_X3DAudio_x64.cab - 55058
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_X3DAudio_x86.cab - 21867
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_XACT_x64.cab - 122336
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_XACT_x86.cab - 93734
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_XAudio_x64.cab - 251194
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2008_XAudio_x86.cab - 226250
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_d3dx10_41_x64.cab - 1067160
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_d3dx10_41_x86.cab - 1040745
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_d3dx9_41_x64.cab - 1973702
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_d3dx9_41_x86.cab - 1612446
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_X3DAudio_x64.cab - 54600
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_X3DAudio_x86.cab - 21298
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_XACT_x64.cab - 121506
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_XACT_x86.cab - 92740
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_XAudio_x64.cab - 275044
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Mar2009_XAudio_x86.cab - 273018
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2007_d3dx10_36_x64.cab - 864600
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2007_d3dx10_36_x86.cab - 803884
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2007_d3dx9_36_x64.cab - 1802058
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2007_d3dx9_36_x86.cab - 1709360
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\NOV2007_X3DAudio_x64.cab - 46144
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\NOV2007_X3DAudio_x86.cab - 18496
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\NOV2007_XACT_x64.cab - 196762
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\NOV2007_XACT_x86.cab - 148264
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_d3dx10_40_x64.cab - 994154
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_d3dx10_40_x86.cab - 965421
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_d3dx9_40_x64.cab - 1906878
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_d3dx9_40_x86.cab - 1550796
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_X3DAudio_x64.cab - 54522
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_X3DAudio_x86.cab - 21851
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_XACT_x64.cab - 121794
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_XACT_x86.cab - 92684
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_XAudio_x64.cab - 273960
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Nov2008_XAudio_x86.cab - 272611
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Oct2005_xinput_x64.cab - 86037
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\Oct2005_xinput_x86.cab - 45359
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\OCT2006_d3dx9_31_x64.cab - 1412902
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\OCT2006_d3dx9_31_x86.cab - 1127217
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\OCT2006_XACT_x64.cab - 182361
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\redist\DX\OCT2006_XACT_x86.cab - 138017
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\reslists\precache.lst - 656
+C:\Program Files (x86)\Steam\steamapps\common\shadow harvest\reslists\preload.lst - 656
+
+UAC Disabled or not present
+

@@ -1,0 +1,295 @@
+Game Name: Spellforce
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition
+
+Save Path: 
+C:\Users\%USERNAME%\Documents\SpellForce
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\JoWood\Spellforce - Diamond Edition
+Value: InstallPath
+Data: c:\program files (x86)\steam\steamapps\common\spellforce platinum edition\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\JoWood\SpellForce Platinum
+Value: install
+Data: c:\program files (x86)\steam\steamapps\common\spellforce platinum edition\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\JoWood\SpellForce Platinum
+Value: Pak
+Data: c:\program files (x86)\steam\steamapps\common\spellforce platinum edition\pak\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\JoWood\SpellForce Platinum
+Value: RunCmd
+Data: c:\program files (x86)\steam\steamapps\common\spellforce platinum edition\spellforce.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\JoWood\SpellForce Platinum
+Value: language
+Data: c:\program files (x86)\steam\steamapps\common\spellforce platinum edition\sound\speech\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 39540
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\spellforce platinum edition
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\JoWooD\Spellforce - Diamond Edition
+Value: InstallPath
+Data: c:\program files (x86)\steam\steamapps\common\spellforce platinum edition\
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Documents\SpellForce\config.lua - 383
+C:\Users\%USERNAME%\Documents\SpellForce\Log.txt - 8249
+C:\Users\%USERNAME%\Documents\SpellForce\SAVE\Maximus~AUTOSAVE.sav - 1071468
+C:\Users\%USERNAME%\Documents\SpellForce\SAVE\Maximus~tutorial.sav - 1072180
+C:\Users\%USERNAME%\Documents\SpellForce\SAVE\TEMP\DB.sav - 15454
+C:\Users\%USERNAME%\Documents\SpellForce\SAVE\TEMP\tutorial.sav - 1006517
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\39540_install.vdf - 1210
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\ar.exe - 9150464
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\binkw32.dll - 350720
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\config.lua - 460
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\dbghelp.dll - 764928
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\gamespy.ico - 1078
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\INSTALL.LOG - 31118
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\LogChat.des - 184
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\LogConsole.des - 190
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\Mss32.dll - 349696
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\ReadMe.rtf - 35046
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\SpellForce.exe - 10715136
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\SpellForce_Addon.ico - 21630
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\SpellForce_addon2.ico - 21630
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\data\GameData.cff - 66859922
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\data\gold.sem - 16
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\data\platinum.sem - 16
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\Manual\SpellForce Platinum Edition Manual.pdf - 5926037
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\000_Greyfell.map - 239472
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\001_liannon.map - 111365
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\002_eloni.map - 282322
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\003_leafshade.map - 289752
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\004_the_shiel.map - 319666
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\005_wildland_pass.map - 213341
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\006_icegate_marsh.map - 363403
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\007_northern_windwalls.map - 396592
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\008NP_stoneblade_mountain.map - 376541
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\008_southern_windwalls.map - 453853
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\009_greydusk_vale.map - 333481
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\012_howling_mounds.map - 211647
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\013_whisper.map - 341215
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\014_the_godwall.map - 482267
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\016_mulandir.map - 342987
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\018_farlorns_hope.map - 347581
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\019_the_rift.map - 254762
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\021_southern_godmark.map - 427129
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\023_nightwhisper_dale.map - 259920
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\025_breathing_forest.map - 467454
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\027_sharrowdale.map - 345365
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign\tutorial.map - 266977
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P101_Mirraw_Thur.map - 429581
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P102_Stormcleaver_Rocks.map - 375162
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P103_Echo_Swamps.map - 278684
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P104_Frostfall.map - 390074
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P105_Tirganach.map - 377392
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P107_Winterdeep.map - 83353
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P108_Fastholme.map - 297188
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P109_Nevershade_Frontier.map - 433120
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P110_Shaldun.map - 453483
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P111_Firefangs.map - 300998
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P113_The_Abyss.map - 396244
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign2\P115_Frostweaver_Rift.map - 127334
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P200_Colosseum.map - 94492
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P201_Blackwater_Coast.map - 101347
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P202_City_Of_Souls.map - 278179
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P203_Onyx_Shores.map - 290212
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P204_Empyria.map - 168986
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P205_Dryad_Cove.map - 197148
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P206_Red_Wastes.map - 362664
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P207_Raven_Pass.map - 422773
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P208_Blazing_Stones.map - 445279
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P209_Kathai.map - 427210
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P210_The_Clockwork_Crypts.map - 353159
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P211_Darkwind_Keep.map - 330468
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P212_The_Gorge.map - 391176
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\campaign3\P213_The_Bone_Temple.map - 373484
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Ashvale.map - 348789
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Circle_Of_Fate.map - 404336
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Dunhan_Glades.map - 368808
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Glitter_Pass.map - 459037
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\High_Frontier.map - 155965
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Iron_Fields.map - 370585
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-Ankbrand.map - 117435
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-Bloodgate_Fortress.map - 153808
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-Carmannon_Hill.map - 111092
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-Desert_Cross.map - 143943
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-Emerald_Isle.map - 112601
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-Frozen_Wastes.map - 162975
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-Tearwater_Valley.map - 303442
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-The_Barrens.map - 133565
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-The_White_Kingdom.map - 259135
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\SotP-Wildfire_Shores.map - 146563
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\TBoW-Blistering_Vast.map - 135457
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\TBoW-Dwarven_Plateau.map - 161588
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\TBoW-Fallfire_Wastes.map - 140793
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\TBoW-Glacier_Alley.map - 144707
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\The_Green_Sea.map - 464028
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\The_Pit.map - 410192
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Whisperling_Swamps.map - 289892
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Winddancer_Hills.map - 460371
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Winterlight_Peak.map - 466175
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lan\Winterlight_Peak_Special.map - 476667
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_01_rpg.map - 141394
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_02_dark.map - 410461
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_02_light.map - 409814
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_03_dark.map - 228681
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_03_light.map - 228551
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_04_rpg.map - 342824
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_05_dark.map - 461205
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_05_light.map - 461183
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_06_dark.map - 397159
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_06_light.map - 397203
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_07_rpg.map - 284604
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_08_dark.map - 394369
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_08_light.map - 394312
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_09_dark.map - 348284
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_09_light.map - 348253
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_10_dark.map - 498557
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_10_light.map - 498487
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_11_dark.map - 367343
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_11_light.map - 367314
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_12_dark.map - 356823
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_12_light.map - 356811
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_13_dark.map - 309381
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_13_light.map - 309699
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_14_rpg.map - 391359
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_15_dark.map - 229268
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_15_light.map - 229267
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_16_dark.map - 358978
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_16_light.map - 358837
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_17_dark.map - 372704
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_17_light.map - 372295
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_18_dark.map - 459875
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_18_light.map - 459904
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_19_dark.map - 280020
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_19_light.map - 280386
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_20_dark.map - 368723
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_20_light.map - 368739
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_21_rpg.map - 271627
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_22_rpg.map - 461543
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_23_dark.map - 368732
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_23_light.map - 368721
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_24_dark.map - 290517
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_24_light.map - 290517
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_25_rpg.map - 370562
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_26_dark.map - 459704
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_26_light.map - 459708
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_27_dark.map - 331092
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_27_light.map - 331507
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_28_dark.map - 326774
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_28_light.map - 326430
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_29_dark.map - 412496
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_29_light.map - 412975
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_30_dark.map - 269464
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_30_light.map - 268972
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_31_dark_Laragh.map - 467718
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_31_light_Laragh.map - 467529
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_32_dark_ShalDun.map - 490004
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_32_light_ShalDun.map - 508418
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_33_rpg_Tirganach.map - 404330
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_34_dark_Norimar.map - 403219
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_34_light_Norimar.map - 403408
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_35_dark_Mirraw_Thur.map - 463400
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_35_light_Mirraw_Thur.map - 463371
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_36_dark_Erindar.map - 165800
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_36_light_Erindar.map - 165593
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_37_dark_DraughNar.map - 298261
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_37_light_DraughNar.map - 298222
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_38_rpg_Arundale.map - 419399
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_39_dark_Khalazhar.map - 322653
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_39_light_Khalazhar.map - 322715
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_40_dark_Orzach.map - 424640
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_40_light_Orzach.map - 424794
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_41_dark_Fastholme.map - 318543
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_41_light_Fastholme.map - 318153
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_42_rpg_Lordraine.map - 518856
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_43_dark_Kathai.map - 413210
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_43_light_Kathai.map - 412370
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_44_dark_Hazimar.map - 386528
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_44_light_Hazimar.map - 386247
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_45_rpg_Anaduine.map - 206365
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_Megamap_Illumi_dark.map - 650973
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_Megamap_Illumi_light.map - 651187
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Coop_Megamap_Illumi_rpg.map - 651569
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Marketplace.map - 128335
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\map\lanfreegame\Questplace.map - 106283
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\miles\Mssa3d.m3d - 83456
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\miles\mssds3d.m3d - 70656
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\miles\mssdsp.flt - 93696
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\miles\mssdx7.m3d - 80896
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\miles\Msseax.m3d - 103424
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\miles\mssmp3.asi - 125952
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\miles\msssoft.m3d - 67072
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\miles\mssvoice.asi - 197120
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf0.pak - 117358592
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf1.pak - 675942400
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf10.pak - 347140096
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf2.pak - 80605184
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf20.pak - 71475200
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf21.pak - 19251200
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf22.pak - 245239808
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf23.pak - 159612928
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf25.pak - 68411392
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf26.pak - 1994752
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf27.pak - 4096
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf3.pak - 120922112
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf30.pak - 150470656
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf32.pak - 395694080
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf33.pak - 551522304
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf34.pak - 26640384
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf35.pak - 68771840
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf36.pak - 1994752
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf4.pak - 73965568
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf5.pak - 48746496
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf6.pak - 1150976
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf8.pak - 91058176
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\pak\sf9.pak - 278528
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\ArcadeInstallSPELLFORCE13f.EXE - 5462989
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\BDA.cab - 703080
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\BDANT.cab - 1156363
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\BDAXP.cab - 976020
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\DirectX.cab - 15493481
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\DSETUP.dll - 62976
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\dsetup32.dll - 2242560
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\dxnt.cab - 13265040
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\dxsetup.exe - 472576
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\redist\DirectX9\ManagedDX.CAB - 3432656
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\Register\Bonus.exe - 188416
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\Register\Bonus.ini - 130
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\Register\hw.DLL - 2408448
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\Register\Startup.exe - 2215936
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\credits.bik - 70789500
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\extro.bik - 15614092
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\extro2.bik - 122590172
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\extro3.bik - 89549708
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\intro.bik - 98175228
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\intro2.bik - 17070836
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\intro3.bik - 14170408
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\prelude_0.bik - 17111076
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\prelude_1.bik - 1621372
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\prelude_2.bik - 1663472
+C:\Program Files (x86)\Steam\steamapps\common\spellforce platinum edition\videos\prelude_3.bik - 902456
+
+UAC Disabled or not present
+

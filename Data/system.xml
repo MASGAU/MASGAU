@@ -5,7 +5,7 @@
 	which is required in order to restore games like Arkham Asylum.
 -->
 <games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:noNamespaceSchemaLocation="games.xsd"
-	majorVersion="1" minorVersion="0" revisionVersion="0">
+	majorVersion="1" minorVersion="1" revisionVersion="0">
 
   <game name="MASGAUCustomXML">
     <!--
@@ -19,14 +19,21 @@
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="G4WAccountData">
+  <game name="G4WAccountData" platform="Windows">
     <title>Games for Windows Account Data</title>
     <location_path environment_variable="localappdata" path="Microsoft\XLive\Content" />
     <save />
     <contributer>SanMadJack</contributer>
   </game>
 
-  <game name="UPlayData">
+  <game name="RGSC" platform="Windows">
+    <title>Rockstar Games Social Club</title>
+    <location_path environment_variable="localappdata" path="Rockstar Games\RGSC"/>
+    <save />
+    <contributer>AvvA</contributer>
+  </game>
+  
+  <game name="UPlayData" platform="Windows">
     <title>UPlay Data</title>
     <location_path environment_variable="installlocation" path="Ubisoft\Ubisoft Game Launcher" />
     <location_registry root="local_machine" key="SOFTWARE\UbiSoft\Launcher" value="InstallDir"/>
@@ -35,7 +42,7 @@
     <contributer>Arc Angel</contributer>
   </game>
 
-  <game name="RaptrData">
+  <game name="RaptrData" platform="Windows">
     <title>Raptr Data</title>
     <location_path environment_variable="appdata" path="Raptr" />
     <save path="data" />
@@ -45,7 +52,14 @@
     <contributer>Arc Angel</contributer>
   </game>
 
-  <game name="XfireData">
+  <game name="Tomboy">
+    <title>Tomboy</title>
+    <location_path environment_variable="appdata" path="Tomboy"/>
+    <save path="notes"/>
+    <save path="config" type="Settings"/>
+  </game>
+  
+  <game name="XfireData" platform="Windows">
     <title>Xfire Data</title>
     <location_path environment_variable="allusersprofile" path="Xfire" />
     <save />

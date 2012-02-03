@@ -1,0 +1,1498 @@
+Game Name: Incoming
+
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming
+
+Save Path:
+C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\incoming.exe
+Value: Path
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\incoming.exe
+Value:
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\incoming.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{1EA5951E-1BB1-4471-828F-FA876F6A332D}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{98BD54D3-4720-4DFE-AAD2-9420CB0DD361}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGINCOMING
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\Incoming.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGINCOMING
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGINCOMING
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\Incoming.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGINCOMING
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGINCOMINGFORCES
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\forces.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGINCOMINGFORCES
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGINCOMINGFORCES
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\forces.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGINCOMINGFORCES
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\incoming.exe
+Value: Path
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\incoming.exe
+Value:
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\incoming.exe
+Current User Registry Entries:
+
+Key:HKEY_CURRENT_USER\Software\Rage\Incoming Forces
+Value: installpath
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\forces.exe
+
+Key:HKEY_CURRENT_USER\Software\Rage\Incoming Forces
+Value: uninstallpath
+Data: C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\unins000.exe
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Incoming and Incoming Forces\Incoming\Incoming.lnk
+C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\incoming.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Incoming and Incoming Forces\Incoming\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Incoming and Incoming Forces\Incoming\Documents\Readme.lnk
+C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\readme.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Incoming and Incoming Forces\Incoming Forces\Incoming Forces.lnk
+C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\forces.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Incoming and Incoming Forces\Incoming Forces\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Incoming and Incoming Forces\Incoming Forces\Documents\Readme.lnk
+C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming Forces\asc\language\manuals\English_readme.txt
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+9/21/2011 11:44:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file0.sav - 530992
+4/14/1998 3:29:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file1.sav - 530992
+9/21/2011 11:44:49 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file2.sav - 530992
+4/14/1998 10:55:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file3.sav - 530992
+3/26/1998 12:01:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file4.sav - 529220
+3/26/1998 12:02:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file5.sav - 529220
+3/26/1998 12:07:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file6.sav - 529220
+3/26/1998 12:10:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file7.sav - 529220
+3/26/1998 12:11:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file8.sav - 529220
+3/6/1998 6:02:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file9.sav - 725268
+9/21/2011 11:45:57 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\incoming.cfg - 10980
+3/31/1998 5:53:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\quicksave.sav - 528684
+9/21/2011 11:45:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\store.lev - 530980
+4/6/1998 1:22:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\testsave.xxx - 528688
+
+Install Folder Dump:
+2/13/2006 9:58:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\audiere.dll - 512000
+8/31/2009 4:37:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\game.ico - 4286
+8/31/2009 4:32:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\gfw_high.ico - 111322
+9/8/2009 1:01:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\goggame.dll - 222720
+9/6/2009 3:09:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\incoming.exe - 973824
+11/28/2008 4:13:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\license.txt - 25037
+9/7/2009 11:52:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\Manual.pdf - 45883091
+9/16/2008 11:13:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\msvcp90.dll - 568832
+9/4/2008 1:45:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\msvcr90.dll - 655872
+9/7/2009 3:22:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\readme.txt - 827
+9/6/2009 5:51:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\win32.dll - 23552
+4/8/1998 8:44:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\levels.txt - 11115
+3/30/1998 10:14:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\africa\africa.mdl - 77589
+4/4/1998 3:20:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\africa\africa.odl - 44929
+3/28/1998 4:09:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\africa\africa.wdl - 72041
+4/6/1998 4:36:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\africa\africa_action.mdl - 55033
+3/17/1998 12:39:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\africa\africa_virus.mdl - 4091
+4/3/1998 6:50:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\africa\africa_virus.odl - 21166
+3/20/1998 11:00:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\africa\city2tc.bin - 32768
+3/20/1998 11:00:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\africa\tland1.bin - 526338
+3/29/1998 1:08:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\Arcade\africa_arcade.mdl - 18273
+4/2/1998 8:20:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\Arcade\arctic_arcade.mdl - 17962
+4/2/1998 8:19:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\Arcade\canaveral_arcade.mdl - 17935
+3/29/1998 1:09:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\Arcade\egypt_arcade.mdl - 18360
+3/29/1998 1:09:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\Arcade\moon_arcade.mdl - 17977
+4/1/1998 11:28:20 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\Arcade\oceanic_arcade.mdl - 18785
+4/7/1998 1:09:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\arctic\arctic.mdl - 100494
+4/6/1998 9:30:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\arctic\arctic.odl - 56071
+4/8/1998 12:23:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\arctic\arctic.wdl - 26607
+4/6/1998 11:00:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\arctic\arctic_action.mdl - 62610
+3/19/1998 2:51:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\arctic\arctic_virus.mdl - 4584
+3/31/1998 6:22:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\arctic\arctic_virus.odl - 26424
+3/20/1998 3:22:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\arctic\city2tc.bin - 32768
+3/20/1998 3:22:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\arctic\tland1.bin - 526338
+4/2/1998 8:22:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\canaveral.mdl - 95747
+4/6/1998 1:33:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\canaveral.odl - 57406
+4/2/1998 4:59:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\canaveral.wdl - 56124
+4/2/1998 8:21:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\canaveral_action.mdl - 62321
+3/30/1998 6:18:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\canaveral_cows.mdl - 2805
+2/28/1998 7:32:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\canaveral_cows.wdl - 9491
+4/3/1998 3:57:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\canaveral_virus.mdl - 4794
+4/1/1998 7:20:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\canaveral_virus.odl - 28969
+3/20/1998 12:18:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\city2tc.bin - 32768
+3/20/1998 12:18:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\canaveral\tland.bin - 526338
+3/30/1998 6:03:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\egypt.bin - 526338
+4/8/1998 2:26:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\egypt.mdl - 99268
+4/6/1998 9:53:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\egypt.odl - 50929
+4/2/1998 7:19:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\egypt.wdl - 50940
+4/8/1998 2:26:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\egypt_action.mdl - 72732
+3/24/1998 9:42:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\egypt_victory.mdl - 4845
+3/24/1998 7:36:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\egypt_victory.odl - 5395
+3/23/1998 3:32:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\egypt_victory.wdl - 1143
+3/20/1998 3:09:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\egypt\level6.bin - 32768
+2/21/1998 10:16:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\generic.txt - 128
+2/24/1998 4:49:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\keychar.txt - 1425
+3/31/1998 3:44:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\langlocal.txt - 1960
+3/31/1998 3:42:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\langref.txt - 1475
+9/6/2009 3:10:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\menu.txt - 2739
+3/30/1998 9:22:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\phase.txt - 2649
+3/6/1998 1:04:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\sv_africa.txt - 1271
+3/23/1998 5:50:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\sv_arctic.txt - 773
+3/23/1998 5:49:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\sv_atlantic.txt - 760
+3/23/1998 5:48:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\sv_USA.txt - 948
+3/6/1998 8:46:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_africa.txt - 1253
+4/8/1998 5:54:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_africa_tactics.txt - 1483
+3/6/1998 9:00:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_alien.txt - 1627
+4/8/1998 5:54:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_alien_tactics.txt - 1770
+3/6/1998 8:49:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_arctic.txt - 1278
+4/8/1998 5:55:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_arctic_tactics.txt - 1539
+3/6/1998 8:52:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_atlantic.txt - 1306
+4/8/1998 5:55:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_atlantic_tactics.txt - 1539
+4/8/1998 5:55:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_moon.txt - 1364
+4/8/1998 5:55:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_moon_tactics.txt - 1613
+3/6/1998 8:55:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_USA.txt - 1374
+4/8/1998 5:56:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\language\s_USA_tactics.txt - 1670
+3/31/1998 7:09:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\misc\Aliens.odl - 12929
+3/31/1998 7:11:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\misc\Aliens2.odl - 11335
+3/31/1998 12:08:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\misc\ianextra.odl - 1518
+4/15/1998 9:15:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\misc\roy.odl - 1463
+3/10/1998 8:58:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\misc\standard.odl - 267
+3/31/1998 3:41:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\misc\weapons.odl - 8469
+3/20/1998 1:18:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\city2tc.bin - 32768
+4/7/1998 10:54:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon.mdl - 92640
+4/5/1998 6:22:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon.odl - 36582
+2/25/1998 5:53:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon.wdl - 30884
+4/7/1998 10:53:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon_action.mdl - 62116
+3/24/1998 9:31:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon_defeat.mdl - 2321
+3/24/1998 9:15:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon_defeat.odl - 4312
+3/24/1998 8:03:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon_defeat.wdl - 0
+3/24/1998 7:54:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon_intro.mdl - 5434
+3/1/1998 7:28:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon_intro.wdl - 2050
+3/19/1998 2:54:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon_race.mdl - 4440
+10/3/1997 1:33:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\moon_race.wdl - 1757
+3/25/1998 9:27:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\moon\tland1.bin - 526338
+4/7/1998 10:46:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\africa.mdl - 7189
+4/3/1998 1:58:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\africa_defence.mdl - 7210
+4/3/1998 6:13:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\arctic.mdl - 6946
+4/2/1998 2:55:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\arctic_defence.mdl - 7067
+4/3/1998 6:13:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\canaveral.mdl - 6945
+4/3/1998 2:11:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\canaveral_defence.mdl - 7108
+4/3/1998 6:13:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\egypt.mdl - 6993
+4/3/1998 2:34:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\egypt_defence.mdl - 7443
+4/3/1998 6:13:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\moon.mdl - 6974
+4/3/1998 2:23:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\moon_defence.mdl - 7131
+4/3/1998 6:13:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\oceanic.mdl - 7031
+4/3/1998 2:03:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\multi\oceanic_defence.mdl - 8125
+3/31/1998 10:48:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\oceanic\city2tc.bin - 32768
+4/15/1998 10:18:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\oceanic\oceanic.mdl - 99956
+4/5/1998 7:42:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\oceanic\oceanic.odl - 102709
+4/8/1998 5:56:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\oceanic\oceanic.wdl - 36438
+4/6/1998 12:08:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\oceanic\oceanic_action.mdl - 74460
+4/5/1998 11:19:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\oceanic\oceanic_virus.mdl - 3513
+4/1/1998 7:22:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\oceanic\oceanic_virus.odl - 79880
+3/23/1998 9:17:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\oceanic\tland.bin - 526338
+4/3/1998 11:42:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\PAD0.CTL - 76320
+4/3/1998 4:07:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\PAD1.CTL - 39872
+4/2/1998 11:55:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\PAD2.CTL - 48608
+4/2/1998 11:57:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\PAD3.CTL - 41680
+4/2/1998 11:58:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\PAD4.CTL - 28496
+4/2/1998 11:59:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\PAD5.CTL - 32448
+4/3/1998 4:17:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\Pad6.ctl - 49328
+4/3/1998 4:18:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\Pad7.ctl - 16896
+4/3/1998 4:20:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\Pad8.ctl - 48512
+4/3/1998 4:52:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\pads\Pad9.ctl - 17200
+3/31/1998 3:47:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\setup\city2tc.bin - 32768
+4/7/1998 2:14:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\setup\setup.mdl - 12603
+4/7/1998 1:43:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\setup\setup.odl - 30881
+2/4/1998 4:11:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\setup\setup.wdl - 0
+4/7/1998 5:25:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\setup\setupselect.mdl - 545
+3/31/1998 3:47:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\asc\setup\tland.bin - 526338
+9/25/1997 5:38:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\arrow.ian - 1119
+9/22/1997 3:24:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\bush.ian - 1373
+9/22/1997 3:29:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\busha.ian - 1373
+4/1/1998 8:06:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\hlaser.ian - 4306
+4/1/1998 8:06:20 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\laser.ian - 562
+2/24/1998 4:43:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pow01.ian - 2385
+9/23/1997 11:55:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\tree1.ian - 1377
+9/22/1997 3:04:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\tree2.ian - 1373
+9/22/1997 3:10:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\tree3.ian - 1373
+9/22/1997 3:19:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\tree3a.ian - 1373
+9/22/1997 4:28:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\tree6.ian - 1377
+9/22/1997 4:26:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\tree7.ian - 1438
+10/29/1997 9:16:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ammo\pcexport\shokwav2.ian - 4610
+9/3/1997 1:38:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ammo\pcexport\shokwave.ian - 7106
+2/27/1998 4:40:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alien-dome.ian - 17539
+2/27/1998 4:41:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alien-leg.ian - 8995
+2/27/1998 4:42:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alien-ring.ian - 10915
+9/1/1997 10:53:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnadubs.ian - 4107
+9/1/1997 10:53:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnadugn.ian - 13907
+12/19/1997 6:53:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnatbod.ian - 2515
+12/19/1997 6:52:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnatbse.ian - 3867
+12/19/1997 6:53:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnatgun.ian - 2114
+3/12/1998 11:21:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnbld1.ian - 12961
+3/12/1998 11:29:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnbld2.ian - 15683
+11/28/1997 12:29:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnbunkr.ian - 7171
+12/12/1997 3:06:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alncolo2.ian - 14138
+9/26/1997 1:52:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alncomc.ian - 25762
+11/28/1997 12:26:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alndiatm.ian - 4433
+9/24/1997 2:51:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnhub.ian - 30625
+9/24/1997 3:17:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnlandp.ian - 17967
+12/12/1997 7:57:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnmoor.ian - 10291
+11/28/1997 12:28:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnobtow.ian - 6617
+9/23/1997 4:56:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnportl.ian - 19187
+9/1/1997 10:52:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnradar.ian - 17955
+9/16/1997 8:10:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnsgen.ian - 18910
+11/28/1997 12:28:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level1\alnsphnx.ian - 7479
+2/27/1998 4:40:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alien-dome.ian - 16003
+2/27/1998 4:41:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alien-leg.ian - 7867
+2/27/1998 4:42:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alien-ring.ian - 11083
+3/12/1998 11:24:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnbld1.ian - 12961
+3/12/1998 11:28:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnbld2.ian - 15459
+11/28/1997 12:32:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnbunkr.ian - 7300
+12/12/1997 3:06:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alncolo2.ian - 5494
+9/1/1997 10:58:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alncomc.ian - 20370
+11/28/1997 12:31:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alndiatm.ian - 4433
+9/24/1997 3:17:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnhub.ian - 26361
+9/24/1997 3:17:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnlandp.ian - 16687
+12/12/1997 8:02:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnmoor.ian - 10099
+11/28/1997 12:32:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnobtow.ian - 3833
+9/24/1997 3:17:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnportl.ian - 17747
+9/1/1997 10:57:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnradar.ian - 13827
+9/16/1997 8:10:20 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnsgen.ian - 12110
+11/28/1997 12:31:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level2\alnsphnx.ian - 4919
+2/27/1998 4:40:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alien-dome.ian - 16003
+2/27/1998 4:41:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alien-leg.ian - 4907
+2/27/1998 4:42:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alien-ring.ian - 5691
+3/12/1998 11:27:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnbld1.ian - 7413
+3/12/1998 11:28:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnbld2.ian - 5923
+11/28/1997 12:34:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnbunkr.ian - 4588
+12/12/1997 3:05:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alncolo2.ian - 2162
+9/1/1997 11:37:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alncomc.ian - 6922
+11/28/1997 12:33:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alndiatm.ian - 1113
+9/24/1997 3:25:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnhub.ian - 14009
+9/24/1997 3:25:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnlandp.ian - 13943
+12/12/1997 8:04:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnmoor.ian - 2099
+11/28/1997 12:34:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnobtow.ian - 1593
+9/1/1997 11:38:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnportl.ian - 6787
+9/1/1997 11:38:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnradar.ian - 1675
+9/16/1997 8:10:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnsgen.ian - 1546
+11/28/1997 12:33:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\level3\alnsphnx.ian - 1151
+3/20/1998 12:30:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alien-dome.ian - 8355
+3/19/1998 4:05:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alien-leg.ian - 3475
+3/19/1998 10:26:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alien-ring.ian - 4675
+9/27/1996 5:02:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnbldg1.ian - 7073
+9/27/1996 4:33:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnbldg2.ian - 8579
+2/19/1998 2:48:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnbnkr.ian - 3059
+3/16/1998 2:20:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alncolo2.ian - 7494
+9/27/1996 4:04:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alncomc.ian - 13922
+2/19/1998 2:45:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alndiatm.ian - 2419
+9/27/1996 5:20:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alndubs.ian - 2427
+9/27/1996 5:59:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alndugn.ian - 11267
+9/27/1996 2:41:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnhub.ian - 16465
+10/1/1996 4:58:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnlandp.ian - 13687
+2/19/1998 2:48:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnobtow.ian - 3505
+10/1/1996 12:23:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnportl.ian - 13235
+9/27/1996 7:14:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnradar.ian - 14507
+3/19/1998 10:30:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnsgen.ian - 8354
+2/19/1998 2:46:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\alnsphnx.ian - 3489
+3/19/1998 12:22:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\at-at-base.ian - 2187
+3/19/1998 12:23:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\at-at-body.ian - 1115
+3/19/1998 12:23:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low\at-at-gun.ian - 1628
+3/20/1998 12:31:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low1\alien-dome.ian - 7734
+3/19/1998 4:06:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low1\alien-leg.ian - 3548
+3/19/1998 10:24:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low1\alien-ring.ian - 4819
+3/19/1998 10:30:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low1\alnsgen.ian - 5679
+3/20/1998 12:31:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low2\alien-dome.ian - 7998
+3/19/1998 4:06:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low2\alien-leg.ian - 2213
+3/19/1998 10:26:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\alien\low2\alien-ring.ian - 3763
+9/11/1997 4:45:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\apollobs.ian - 14673
+9/10/1997 12:35:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\apollofn.ian - 931
+9/10/1997 12:35:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\apollork.ian - 25145
+9/19/1997 4:05:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\beacon.ian - 4199
+12/10/1997 3:08:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\blue-trk.ian - 7074
+3/19/1998 3:41:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\building1.ian - 6519
+8/27/1997 2:19:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\building5.ian - 4599
+3/19/1998 4:04:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\building6.ian - 3258
+3/31/1998 12:38:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\c-17g.ian - 25418
+9/12/1997 12:18:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\c-lfightnw.ian - 22417
+9/12/1997 9:39:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\cargobox.ian - 8297
+9/24/1997 2:06:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\cargoldr.ian - 8867
+9/1/1997 11:42:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\chimney.ian - 8809
+12/12/1997 2:36:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\colosas2.ian - 17562
+12/12/1997 2:24:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\colossas.ian - 19298
+11/20/1997 1:45:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\column1.ian - 6240
+11/20/1997 1:46:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\column2.ian - 5120
+9/16/1997 4:07:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\conavral.ian - 12706
+9/11/1997 7:11:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\conout1.ian - 5912
+9/12/1997 9:39:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\conout2.ian - 8656
+9/8/1997 7:15:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\controlc.ian - 12620
+11/20/1997 1:57:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\eart1.ian - 3314
+11/20/1997 2:00:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\eart2.ian - 2954
+11/20/1997 2:01:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\eart3.ian - 1114
+9/1/1997 11:43:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\efence.ian - 1847
+2/5/1998 8:52:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\egyptss1.ian - 928
+2/5/1998 8:53:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\egyptss2.ian - 2584
+12/10/1997 3:07:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\esso-trk.ian - 10253
+3/19/1998 2:31:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\giraffe.ian - 14652
+9/1/1997 11:43:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\helipad.ian - 2180
+2/12/1998 4:43:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\hut.ian - 1540
+9/11/1997 7:18:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\kenbld1.ian - 2400
+9/11/1997 7:19:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\kenbld2.ian - 3872
+9/12/1997 1:33:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\lamp.ian - 2085
+9/5/1997 4:23:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\lanchbse.ian - 6077
+9/9/1997 12:55:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\lanchpad.ian - 22106
+9/8/1997 7:16:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\lightowr.ian - 17427
+9/1/1997 11:44:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\livingq.ian - 7996
+12/17/1997 2:33:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\m-fence.ian - 929
+9/16/1997 12:13:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\misncon.ian - 14239
+2/6/1998 2:30:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\mobcom2.ian - 4664
+9/1/1997 6:14:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\mobcom3.ian - 1112
+2/6/1998 2:55:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\mobcomp.ian - 10111
+9/1/1997 11:47:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\oildrum.ian - 2462
+3/19/1998 2:10:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\penguin.ian - 7961
+9/8/1997 7:18:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\pylon.ian - 11302
+12/18/1997 4:11:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\pyramid1.ian - 5769
+1/26/1998 10:51:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\pyramidn.ian - 2641
+2/13/1998 4:26:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rad-bd.ian - 5867
+2/13/1998 4:27:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rad-bd2.ian - 1848
+9/8/1997 7:19:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\radarstn.ian - 14865
+9/24/1997 4:55:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\radiobse.ian - 15334
+9/24/1997 3:55:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\radiodsh.ian - 17125
+9/8/1997 7:19:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\radtower.ian - 15827
+2/4/1998 4:51:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rcrate1.ian - 1296
+2/4/1998 4:52:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rcrate2.ian - 1728
+2/4/1998 4:52:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rcrate3.ian - 1480
+2/4/1998 4:53:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rcrate4.ian - 1912
+9/1/1997 11:51:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\reactor.ian - 8692
+9/19/1997 4:31:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\recpod2.ian - 8487
+12/10/1997 3:03:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\red-cab.ian - 9636
+9/23/1997 12:51:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rock1.ian - 2110
+9/23/1997 12:55:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rock2.ian - 2110
+9/23/1997 12:58:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rock3.ian - 2110
+9/1/1997 10:54:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\rockstd.ian - 8112
+3/4/1998 4:46:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\roof.ian - 1065
+9/8/1997 7:20:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\sat2base.ian - 3061
+9/8/1997 7:20:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\sat2dish.ian - 10118
+9/8/1997 4:07:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\shtboost.ian - 13297
+9/9/1997 11:33:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\shuttle.ian - 18960
+2/27/1998 3:13:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\skyscp01.ian - 3417
+2/27/1998 3:14:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\skyscp02.ian - 2809
+2/27/1998 3:14:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\skyscp03.ian - 4025
+2/27/1998 3:18:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\skyscp06.ian - 15041
+2/27/1998 3:17:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\skyscp07.ian - 5617
+2/27/1998 3:19:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\skyscp08.ian - 14793
+3/9/1998 9:47:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\skyscp09.ian - 2424
+3/9/1998 11:37:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\skyscp10.ian - 3552
+11/20/1997 1:46:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\slab.ian - 1293
+9/18/1997 4:19:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\spfacbld.ian - 12682
+2/6/1998 11:48:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\sphinx.ian - 24903
+9/1/1997 11:57:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\stack.ian - 10127
+2/12/1998 4:39:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\stand.ian - 2646
+2/12/1998 4:40:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\stand2.ian - 5379
+9/8/1997 7:22:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\stortank.ian - 5819
+9/8/1997 7:22:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\stortank2.ian - 6065
+11/20/1997 1:51:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple1.ian - 8056
+2/19/1998 2:05:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple2a.ian - 6762
+11/20/1997 1:58:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple2b.ian - 4114
+11/20/1997 1:59:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple2c.ian - 4114
+11/20/1997 1:59:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple2d.ian - 1666
+11/20/1997 1:59:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple2e.ian - 1666
+11/20/1997 2:00:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple3.ian - 5752
+11/20/1997 2:02:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple4.ian - 4800
+2/19/1998 1:30:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\temple5.ian - 7440
+11/20/1997 2:03:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\tmplramp.ian - 6331
+11/20/1997 2:04:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\tmplroof.ian - 7971
+11/20/1997 2:05:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\tmplwal2.ian - 1539
+11/20/1997 2:06:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\tmplwala.ian - 4803
+11/20/1997 2:07:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\tmplwalb.ian - 5347
+11/20/1997 2:07:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\tmplwalc.ian - 1667
+11/20/1997 2:07:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\tmplwald.ian - 1667
+9/9/1997 5:27:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\tower.ian - 11702
+3/31/1998 9:16:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\vent2.ian - 2304
+12/17/1997 2:32:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\w-fence.ian - 929
+2/19/1998 10:42:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\wall-big.ian - 1977
+9/1/1997 12:39:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\wcrate1.ian - 1295
+9/1/1997 12:39:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\wcrate2.ian - 1295
+9/12/1997 2:11:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\wndrotor.ian - 2739
+9/12/1997 2:11:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\wndshaft.ian - 2398
+12/10/1997 3:05:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level1\yel-cab.ian - 9700
+9/10/1997 12:40:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\apollobs.ian - 12301
+9/10/1997 12:40:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\apollofn.ian - 931
+9/10/1997 12:40:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\apollork.ian - 23505
+9/12/1997 5:32:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\bogman.ian - 14575
+3/19/1998 3:41:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\building1.ian - 6567
+8/7/1997 3:12:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\building5.ian - 5335
+3/19/1998 4:04:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\building6.ian - 1966
+3/31/1998 12:38:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\c-17g.ian - 23410
+9/12/1997 9:39:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\cargobox.ian - 5169
+9/1/1997 12:41:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\chimney.ian - 8593
+12/12/1997 2:36:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\colosas2.ian - 6934
+12/12/1997 2:09:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\colossas.ian - 11383
+11/21/1997 6:54:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\column1.ian - 3560
+11/21/1997 6:54:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\column2.ian - 2352
+9/16/1997 11:51:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\conavral.ian - 5238
+9/11/1997 7:11:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\conout1.ian - 3180
+9/12/1997 9:39:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\conout2.ian - 4424
+9/8/1997 7:34:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\controlc.ian - 9861
+9/1/1997 12:41:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\helipad.ian - 6005
+1/9/1998 3:52:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\hut.ian - 1164
+9/11/1997 7:18:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\kenbld1.ian - 2400
+9/11/1997 7:19:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\kenbld2.ian - 3872
+9/9/1997 11:01:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\lanchpad.ian - 17306
+9/1/1997 12:42:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\livingq.ian - 8061
+9/16/1997 12:20:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\misncon.ian - 10359
+1/9/1998 4:22:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\mobcom2.ian - 2828
+9/16/1997 6:24:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\mobcom3.ian - 3279
+9/8/1997 7:34:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\mobcomp.ian - 1424
+9/8/1997 7:18:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\pylon.ian - 11366
+12/18/1997 4:11:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\pyramid1.ian - 2825
+1/26/1998 10:51:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\pyramidn.ian - 1657
+2/13/1998 4:26:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\rad-bd.ian - 4235
+2/13/1998 4:27:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\rad-bd2.ian - 1048
+9/8/1997 7:34:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\radarstn.ian - 12770
+9/8/1997 7:34:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\radiotel.ian - 21661
+9/8/1997 7:19:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\radtower.ian - 6931
+9/1/1997 12:44:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\reactor.ian - 10293
+9/8/1997 7:35:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\sat2dish.ian - 11006
+2/27/1998 3:13:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\skyscp01.ian - 4377
+2/27/1998 3:14:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\skyscp02.ian - 4313
+2/27/1998 3:15:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\skyscp03.ian - 6361
+3/6/1998 3:43:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\skyscp04.ian - 5008
+3/6/1998 3:16:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\skyscp05.ian - 5952
+2/27/1998 3:18:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\skyscp07.ian - 6361
+9/18/1997 6:34:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\spfacbld.ian - 5547
+12/10/1997 8:23:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\sphinx.ian - 8887
+9/1/1997 12:45:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\stack.ian - 11400
+2/12/1998 4:40:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\stand.ian - 2082
+9/8/1997 7:35:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\stortank.ian - 5627
+9/8/1997 7:35:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\stortank2.ian - 6705
+11/21/1997 6:55:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple1.ian - 8076
+11/21/1997 6:56:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple2a.ian - 6826
+11/21/1997 6:56:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple2b.ian - 3810
+11/21/1997 6:56:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple2c.ian - 3506
+11/21/1997 6:57:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple2d.ian - 1762
+11/21/1997 6:57:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple2e.ian - 1730
+11/21/1997 6:57:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple3.ian - 3321
+11/21/1997 6:58:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple4.ian - 3640
+11/21/1997 6:58:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\temple5.ian - 4497
+11/21/1997 6:59:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\tmplramp.ian - 4875
+11/21/1997 6:59:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\tmplwal2.ian - 1603
+11/21/1997 7:03:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\tmplwala.ian - 4931
+11/21/1997 7:04:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\tmplwalb.ian - 3699
+11/21/1997 7:04:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\tmplwalc.ian - 1667
+11/21/1997 7:04:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\tmplwald.ian - 1667
+9/9/1997 5:27:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\tower.ian - 2262
+9/12/1997 2:12:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level2\wndshaft.ian - 2846
+9/10/1997 12:44:02 PM - C:\Program Files (x86)\GOG..com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\apollobs.ian - 7921
+9/10/1997 12:41:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\apollofn.ian - 747
+9/10/1997 12:41:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\apollork.ian - 15045
+3/19/1998 3:42:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\building1.ian - 5543
+8/7/1997 3:13:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\building5.ian - 2111
+3/19/1998 4:04:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\building6.ian - 1050
+3/31/1998 12:39:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\c-17g.ian - 17274
+9/12/1997 9:39:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\cargobox.ian - 1305
+9/1/1997 12:47:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\chimney.ian - 7753
+12/12/1997 2:37:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\colosas2.ian - 2578
+12/12/1997 2:09:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\colossas.ian - 4511
+11/21/1997 7:05:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\column1.ian - 1112
+11/21/1997 7:05:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\column2.ian - 1504
+9/16/1997 11:52:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\conavral.ian - 3674
+9/11/1997 7:11:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\conout1.ian - 2528
+9/12/1997 9:39:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\conout2.ian - 2556
+9/8/1997 7:36:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\controlc.ian - 7577
+9/11/1997 7:18:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\kenbld1.ian - 1240
+9/11/1997 7:19:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\kenbld2.ian - 1760
+9/9/1997 11:01:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\lanchpad.ian - 12210
+9/1/1997 12:47:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\livingq.ian - 6781
+9/16/1997 12:21:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\misncon.ian - 3647
+1/9/1998 4:23:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\mobcom2.ian - 988
+9/8/1997 7:36:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\mobcomp.ian - 1424
+9/8/1997 7:18:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\pylon.ian - 4302
+12/18/1997 4:11:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\pyramid1.ian - 1673
+1/26/1998 10:52:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\pyramidn.ian - 1177
+2/13/1998 4:26:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\rad-bd.ian - 1607
+9/8/1997 7:36:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\radarstn.ian - 10301
+9/8/1997 7:37:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\radiotel.ian - 23813
+9/8/1997 7:19:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\radtower.ian - 1059
+9/1/1997 1:12:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\reactor.ian - 7397
+9/8/1997 7:37:20 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\sat2base.ian - 3533
+2/27/1998 3:13:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\skyscp01.ian - 3385
+2/27/1998 3:14:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\skyscp02.ian - 3385
+2/27/1998 3:15:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\skyscp03.ian - 5617
+3/6/1998 3:43:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\skyscp04.ian - 3472
+3/6/1998 3:16:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\skyscp05.ian - 5112
+2/27/1998 3:18:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\skyscp07.ian - 3881
+9/11/1997 9:37:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\spfacbld.ian - 3395
+12/10/1997 8:23:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\sphinx.ian - 1911
+9/1/1997 1:13:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\stack.ian - 5496
+2/12/1998 4:40:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\stand.ian - 1618
+9/1/1997 1:13:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\stortank.ian - 1451
+11/21/1997 7:06:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple1.ian - 5820
+11/21/1997 7:06:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple2a.ian - 4002
+11/21/1997 7:07:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple2b.ian - 3266
+11/21/1997 7:07:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple2c.ian - 3202
+11/21/1997 7:07:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple2d.ian - 1698
+11/21/1997 7:07:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple2e.ian - 1666
+11/21/1997 7:08:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple3.ian - 3257
+11/21/1997 7:08:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple4.ian - 3952
+11/21/1997 7:09:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\temple5.ian - 2353
+11/21/1997 7:09:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\tmplramp.ian - 1431
+11/21/1997 7:10:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\tmplwal2.ian - 1539
+11/21/1997 7:10:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\tmplwala.ian - 2899
+11/21/1997 7:10:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\tmplwalb.ian - 3699
+11/21/1997 7:11:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\tmplwalc.ian - 1667
+11/21/1997 7:11:20 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\tmplwald.ian - 1667
+9/9/1997 5:27:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\tower.ian - 1526
+9/12/1997 2:13:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\level3\wndshaft.ian - 1455
+2/12/1998 10:41:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\apollobs.ian - 8265
+2/12/1998 10:41:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\apollofn.ian - 931
+2/12/1998 10:42:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\apollork.ian - 13281
+2/13/1998 9:30:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\blue-trk.ian - 4645
+9/18/1996 12:22:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\booster.ian - 9441
+3/21/1998 4:16:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\c-17g.ian - 17214
+9/30/1996 4:51:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\cargobox.ian - 4881
+9/30/1996 5:07:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\cargoldr.ian - 6979
+9/17/1996 11:01:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\chimney.ian - 4109
+2/9/1998 9:44:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\colosas2.ian - 13190
+2/9/1998 4:29:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\colossas.ian - 14622
+9/24/1996 1:47:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\conavral.ian - 8378
+9/19/1996 11:28:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\controlc.ian - 8344
+2/13/1998 9:29:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\esso-trk.ian - 5165
+9/24/1996 4:10:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\kenbld1.ian - 1664
+9/24/1996 4:30:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\kenbld2.ian - 2768
+2/17/1998 12:30:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\lanchbse.ian - 2397
+9/25/1996 3:14:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\launchpad.ian - 15722
+2/18/1998 9:58:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\lighttowr.ian - 8804
+9/19/1996 3:11:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\livingq.ian - 5002
+2/16/1998 12:03:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\misncon.ian - 7231
+9/17/1996 11:02:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\mobcom2.ian - 1904
+9/17/1996 11:02:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\mobcomp.ian - 4719
+2/4/1998 2:36:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\oildrum.ian - 1326
+2/10/1998 1:59:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\pylon.ian - 7553
+2/10/1998 5:01:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\radarstn.ian - 10951
+2/13/1998 5:07:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\radiobse.ian - 10149
+2/18/1998 3:53:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\radiodsh.ian - 8441
+9/20/1996 8:32:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\radtower.ian - 9667
+9/20/1996 4:36:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\reactor.ian - 6442
+2/16/1998 4:00:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\recpod2.ian - 6071
+2/13/1998 11:03:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\red-cab.ian - 4404
+2/17/1998 1:09:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\rockstd.ian - 3456
+2/17/1998 10:30:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\sat2base.ian - 2533
+9/20/1996 7:53:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\sat2dish.ian - 5650
+9/18/1996 12:20:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\shuttle.ian - 12128
+9/26/1996 10:58:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\spfacbld.ian - 8938
+2/6/1998 10:04:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\sphinx.ian - 13793
+9/17/1996 11:03:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\stack.ian - 5555
+2/16/1998 10:17:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\stand.ian - 1846
+2/16/1998 10:13:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\stand2.ian - 2767
+9/20/1996 6:54:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\stortank.ian - 4571
+2/16/1998 5:02:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\stortank2.ian - 3907
+2/26/1998 12:47:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\temple1.ian - 6556
+2/26/1998 1:41:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\temple3.ian - 3993
+2/16/1998 2:05:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\wndrotor.ian - 1328
+2/16/1998 2:07:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\wndshaft.ian - 2026
+2/13/1998 11:03:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low\yel-cab.ian - 4468
+3/21/1998 4:17:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low1\c-17g.ian - 16688
+2/10/1998 2:00:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low1\pylon.ian - 8046
+2/26/1998 12:48:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low1\temple1.ian - 6424
+2/26/1998 1:43:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low1\temple3.ian - 2473
+3/21/1998 4:17:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low2\c-17g.ian - 11482
+2/10/1998 2:00:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low2\pylon.ian - 8046
+2/26/1998 12:48:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low2\temple1.ian - 4620
+2/26/1998 1:43:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\backgrnd\pcexport\low2\temple3.ian - 2377
+3/28/1998 12:29:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cow\cow.ian - 29609
+3/13/1998 8:53:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\aircraft.ian - 32381
+3/13/1998 8:54:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\aircrft2.ian - 26657
+3/12/1998 10:38:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\airship.ian - 17785
+2/27/1998 4:21:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\battleship.ian - 25249
+3/13/1998 8:08:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\bomber.ian - 25727
+3/9/1998 2:39:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\capsule.ian - 15233
+9/25/1997 3:23:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\comhub.ian - 38084
+4/1/1998 10:13:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\comring1.ian - 35071
+9/25/1997 3:30:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\comring2.ian - 27639
+9/1/1997 7:51:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\facraft.ian - 18298
+3/13/1998 9:06:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\hbom-bd.ian - 20114
+3/13/1998 9:23:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\hbom-hd.ian - 14033
+3/20/1998 10:03:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\hfighter.ian - 20165
+3/13/1998 8:36:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\hovrtank.ian - 14738
+3/12/1998 1:47:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\lfight3.ian - 20817
+3/20/1998 10:04:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\lfighter.ian - 21497
+3/20/1998 10:05:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\med-figther.ian - 22848
+3/20/1998 12:14:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\med-figther2.ian - 20634
+2/27/1998 4:21:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\mtb.ian - 16632
+3/13/1998 8:54:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\skimmer.ian - 21073
+2/27/1998 4:23:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\sub.ian - 22496
+3/20/1998 10:06:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\wrknrobt.ian - 15237
+3/5/1998 5:05:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\a-mtb.ian - 9328
+3/5/1998 10:55:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\a-sub.ian - 12664
+3/9/1998 9:02:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\aircraft.ian - 17021
+3/13/1998 4:40:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\aircrft2.ian - 13369
+3/12/1998 11:04:20 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\airship.ian - 14809
+3/9/1998 4:53:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\battleship.ian - 14237
+9/2/1997 8:43:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\bomber.ian - 15787
+3/16/1998 3:13:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\capsule.ian - 10113
+9/2/1997 8:43:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\comhub.ian - 23708
+9/25/1997 4:10:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\comring1.ian - 17855
+9/2/1997 8:44:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\comring2.ian - 19191
+9/2/1997 8:44:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\facraft.ian - 11466
+9/2/1997 8:44:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\hbom-bd.ian - 14594
+9/2/1997 8:44:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\hbom-hd.ian - 7177
+9/2/1997 8:45:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\hfighter.ian - 15153
+9/1/1997 3:24:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\hovertank.ian - 9170
+3/10/1998 1:45:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\lfight3.ian - 11537
+9/11/1997 6:16:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\lfighter.ian - 13569
+3/11/1998 9:05:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\med-fighter2.ian - 11899
+3/15/1998 3:53:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\med-figther.ian - 11964
+9/2/1997 8:45:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\skimmer.ian - 13473
+9/2/1997 8:46:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\cweapons\pcexport\low\wrknrobt.ian - 10177
+4/1/1998 9:16:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\jet2.ian - 2396
+8/13/1997 2:24:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\pointer.ian - 6791
+3/17/1998 9:31:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\spark1.ian - 562
+3/17/1998 9:31:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\spark2.ian - 562
+3/17/1998 9:31:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\sparkan1.ian - 562
+3/17/1998 9:31:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\sparkan2.ian - 562
+3/17/1998 9:31:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\sparkan3.ian - 562
+3/17/1998 9:31:20 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\sparkan4.ian - 562
+3/17/1998 9:31:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\sparkan5.ian - 562
+3/17/1998 9:31:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\sparkan6.ian - 562
+9/25/1997 2:20:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\effects\pcexport\stars.ian - 441
+9/4/1997 1:32:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\menu\0.ian - 8778
+9/11/1997 3:45:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\menu\aaaaaaaa.ian - 19495
+9/11/1997 3:47:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\menu\eeeeeeee.ian - 20111
+9/11/1997 3:46:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\menu\gggggggg.ian - 25679
+9/11/1997 3:21:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\menu\rrrrrrrr.ian - 33991
+3/25/1998 11:30:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\a10.ian - 16948
+11/26/1997 10:17:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\aaaguns.ian - 1265
+11/10/1997 11:09:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\aaapod.ian - 4425
+11/10/1997 11:09:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\aaarack.ian - 9826
+3/18/1998 11:31:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\bomb.ian - 3909
+3/23/1998 3:24:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\c-17body.ian - 9837
+2/3/1998 1:37:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\C-17eng.ian - 2336
+1/30/1998 3:27:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\C-17eng01.ian - 2336
+1/30/1998 3:28:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\C-17eng02.ian - 2337
+1/30/1998 3:28:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\C-17eng03.ian - 2337
+1/30/1998 3:27:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\C-17eng04.ian - 2337
+1/30/1998 3:27:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\C-17landg.ian - 8439
+3/18/1998 4:08:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\cobra.ian - 20109
+12/22/1997 1:52:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\cobrmrot.ian - 858
+12/22/1997 1:53:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\cobrtrot.ian - 493
+11/12/1997 7:31:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\comanche.ian - 17282
+11/25/1997 11:18:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Comflflp.ian - 563
+11/12/1997 7:33:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Comflwhl.ian - 1227
+11/25/1997 11:18:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Comfrflp.ian - 563
+11/12/1997 7:33:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Comfrwhl.ian - 1227
+11/12/1997 7:32:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Commrotr.ian - 1770
+11/25/1997 11:19:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Comrlflp.ian - 379
+9/22/1997 4:19:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\comrpod.ian - 5146
+11/25/1997 11:19:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Comrrflp.ian - 379
+11/12/1997 7:34:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Comrrwhl.ian - 1226
+11/25/1997 11:17:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Comtrotr.ian - 1874
+9/12/1997 2:42:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\debris1.IAN - 2708
+9/12/1997 2:43:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\debris2.IAN - 4532
+9/12/1997 2:45:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\debris3.IAN - 1684
+9/12/1997 2:46:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\debris4.IAN - 4212
+9/12/1997 2:47:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\debris5.IAN - 3540
+9/12/1997 2:47:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\debris6.IAN - 1300
+9/12/1997 2:48:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\debris7.IAN - 1180
+9/12/1997 2:48:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\debris8.IAN - 1060
+3/18/1998 4:09:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\f-18.ian - 18789
+2/6/1998 1:59:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\F-18bwhl.ian - 3810
+2/6/1998 2:00:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\F-18fwhl.ian - 2946
+3/18/1998 4:10:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\f-22.ian - 16309
+9/1/1997 7:38:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\gunplat1.ian - 6993
+9/1/1997 7:38:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\gunplat2.ian - 6993
+12/22/1997 12:17:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Harbwhel.ian - 2434
+12/22/1997 12:18:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Harfwhel.ian - 2290
+11/25/1997 3:16:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\harirpod.ian - 10353
+11/25/1997 12:09:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\harjets.ian - 1982
+11/25/1997 12:09:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Harlgbl.ian - 378
+11/25/1997 12:08:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Harlgbr.ian - 379
+11/25/1997 12:08:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Harlgfl.ian - 378
+11/25/1997 12:08:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Harlgfr.ian - 379
+3/18/1998 4:11:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\harrier.ian - 18148
+12/22/1997 12:18:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Harwwhel.ian - 3699
+11/12/1997 9:40:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\helicptr.ian - 13731
+9/1/1997 7:39:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\helipivt.ian - 915
+9/1/1997 7:39:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\helirotr.ian - 747
+9/1/1997 7:40:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\helitrot.ian - 562
+3/18/1998 4:11:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\hovrcrft.ian - 16192
+11/26/1997 10:25:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\hovrcrgn.ian - 2251
+3/18/1998 4:12:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\hovrtank.ian - 17922
+11/26/1997 12:06:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\hovrtgun.ian - 1875
+9/12/1997 2:36:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\hsm.ian - 2726
+3/18/1998 4:12:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\lancfght.ian - 14069
+3/18/1998 4:13:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\lancfgt2.ian - 17481
+3/18/1998 4:13:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\lancfgt3.ian - 16308
+7/11/1997 2:32:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\laser.IAN - 484
+11/10/1997 11:13:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\laserbse.ian - 1392
+11/26/1997 12:05:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\lasergun.ian - 2354
+11/10/1997 11:13:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Lasertt.ian - 5626
+11/10/1997 11:11:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\lasertur.ian - 4482
+9/12/1997 2:40:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\msm.ian - 3302
+9/11/1997 12:48:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\newsheli.ian - 11715
+9/11/1997 12:48:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\newshelp.ian - 1523
+9/11/1997 12:49:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\newshels.ian - 1408
+3/24/1998 11:17:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\NEWTROTR.IAN - 747
+11/10/1997 11:16:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\rktrack.ian - 5019
+11/10/1997 11:15:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\rktrkbs.ian - 3809
+9/12/1997 2:41:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\rocket.ian - 1995
+3/23/1998 7:14:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\rotor2.ian - 747
+3/23/1998 7:14:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\rotor4.ian - 1115
+9/15/1997 6:41:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\sen2rack.ian - 3138
+9/15/1997 6:45:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\sen2ttabl.ian - 3543
+9/16/1997 5:42:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\senfly.ian - 16827
+11/12/1997 7:54:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\strbase.ian - 4827
+11/12/1997 7:55:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\Strbody.ian - 3075
+11/26/1997 10:45:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\strguns.ian - 4479
+11/12/1997 7:54:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\strtt.ian - 1393
+3/18/1998 4:15:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankbody.ian - 6441
+11/27/1997 7:57:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankcari.ian - 2035
+11/27/1997 7:58:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankcomp.ian - 6199
+12/10/1997 3:33:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankgun.ian - 1395
+11/27/1997 7:59:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankrada.ian - 2506
+3/19/1998 6:36:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankrbod.ian - 3643
+11/27/1997 8:00:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankrecg.ian - 1267
+11/27/1997 8:00:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankreco.ian - 2890
+3/26/1998 10:03:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tanktrk1.ian - 12415
+3/26/1998 10:03:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tanktrk2.ian - 12511
+3/26/1998 10:03:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tanktrk3.ian - 12479
+3/26/1998 10:04:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tanktrk4.ian - 12575
+11/27/1997 7:56:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tankturr.ian - 5595
+3/17/1998 8:15:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\tranheli.ian - 17349
+3/18/1998 4:16:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\vtol.ian - 17061
+3/25/1998 11:38:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\a10.ian - 10876
+11/26/1997 10:17:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\aaaguns.ian - 1265
+11/10/1997 11:10:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\aaapod.ian - 2217
+11/10/1997 11:10:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\aaarack.ian - 9826
+3/21/1998 4:14:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\c17.ian - 7307
+3/21/1998 4:15:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\c17landgr.ian - 8503
+12/23/1997 7:11:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\cobra.ian - 14997
+12/23/1997 7:12:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\cobrmrot.ian - 898
+12/23/1997 7:12:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\cobrtrot.ian - 373
+11/12/1997 7:47:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\comanche.ian - 12354
+9/22/1997 5:19:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\comrpod.ian - 4058
+3/12/1998 10:16:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\f-18.ian - 11445
+3/12/1998 9:54:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\f-22.ian - 10813
+11/25/1997 3:16:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\harirpod.ian - 5441
+11/25/1997 12:12:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\harjets.ian - 1406
+3/12/1998 10:10:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\harrier.ian - 9884
+3/20/1998 3:45:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\helicptr.ian - 8259
+11/12/1997 9:41:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\helipivt.ian - 675
+1/29/1998 7:04:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\hovrcrft.ian - 16192
+11/26/1997 10:25:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\hovrcrgn.ian - 2251
+9/18/1997 9:02:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\hovrtank.ian - 10585
+11/26/1997 12:06:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\hovrtgun.ian - 1875
+3/12/1998 10:30:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\lancfght.ian - 14517
+12/3/1997 9:27:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\lancfgt2.ian - 11539
+12/4/1997 2:24:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\lancfgt3.ian - 12011
+11/10/1997 11:15:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\laserbse.ian - 944
+11/26/1997 12:05:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\lasergun.ian - 2354
+11/10/1997 11:14:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\Lasertt.ian - 4090
+11/10/1997 11:14:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\lasertur.ian - 4066
+9/11/1997 12:49:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\newsheli.ian - 7235
+9/11/1997 12:49:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\newshelp.ian - 803
+9/11/1997 12:49:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\newshels.ian - 1048
+11/12/1997 7:20:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\rktrack.ian - 2586
+11/12/1997 7:20:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\rktrkbs.ian - 2163
+9/16/1997 5:43:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\senfly.ian - 10587
+9/16/1997 3:26:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\sn2lrck.ian - 3800
+9/16/1997 3:28:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\sn2ltbl.ian - 3764
+11/12/1997 7:53:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\strbase.ian - 2955
+11/12/1997 7:53:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\Strbody.ian - 2955
+11/26/1997 10:45:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\strguns.ian - 4479
+11/12/1997 7:53:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\strtt.ian - 705
+3/13/1998 2:50:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankbody.ian - 5081
+11/27/1997 8:03:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankcari.ian - 2035
+11/27/1997 8:05:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankcomp.ian - 4727
+12/10/1997 3:33:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankgun.ian - 1395
+11/27/1997 8:05:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankrada.ian - 1850
+11/27/1997 8:05:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankrbod.ian - 2839
+11/27/1997 8:07:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankrecg.ian - 1267
+11/27/1997 8:06:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankreco.ian - 2346
+2/18/1998 2:09:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tanktrk1.ian - 7715
+2/18/1998 2:09:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tanktrk2.ian - 7779
+2/18/1998 2:09:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tanktrk3.ian - 7715
+2/18/1998 2:09:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tanktrk4.ian - 7779
+11/27/1997 8:03:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tankturr.ian - 4563
+3/17/1998 8:16:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\tranheli.ian - 13813
+11/6/1997 10:16:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\pweapons\pcexport\low\vtol.ian - 11141
+3/13/1998 6:02:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\air-c-01.ian - 13613
+3/13/1998 6:04:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\air-c-bk.ian - 10989
+3/16/1998 10:48:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\air-c-brid.ian - 36281
+3/13/1998 6:10:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\air-c-ft.ian - 13654
+2/6/1998 3:26:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\anti-base.ian - 592
+2/6/1998 3:26:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\anti-body.ian - 8906
+2/18/1998 3:10:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\bat-bk.ian - 6375
+2/17/1998 10:03:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\bat-brd.ian - 33722
+2/17/1998 8:53:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\bat-ft.ian - 3924
+2/9/1998 3:43:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\bat-gun-bd.ian - 3075
+2/6/1998 5:05:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\bat-gun-brl.ian - 1154
+2/16/1998 10:21:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\buoy.ian - 5536
+3/5/1998 12:09:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\chair.ian - 926
+2/6/1998 3:27:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\ciws-bar1.ian - 2034
+2/6/1998 3:27:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\ciws-bar2.ian - 1602
+2/6/1998 3:26:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\ciws-base.ian - 1666
+2/6/1998 3:27:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\ciws-body.ian - 2522
+2/19/1998 9:43:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\con-block1.ian - 1666
+2/19/1998 9:43:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\con-block2.ian - 2770
+2/19/1998 9:44:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\con-blue.ian - 1114
+2/19/1998 9:44:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\con-green.ian - 1114
+2/19/1998 9:43:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\con-red.ian - 1114
+2/18/1998 5:17:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\con-ship.ian - 10590
+3/10/1998 1:39:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\cruiser-bck.ian - 22200
+2/18/1998 3:08:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\cruiser-frt.ian - 20853
+3/5/1998 12:09:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\d-chr-blk.ian - 3272
+3/5/1998 12:08:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\deck-chair.ian - 1241
+2/18/1998 3:03:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\dest-bck.ian - 18209
+2/17/1998 3:12:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\dest-frt.ian - 22177
+3/9/1998 3:07:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\dingy.ian - 10706
+2/6/1998 3:28:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\gun-barrel.ian - 4611
+2/6/1998 3:27:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\gun-base.ian - 1665
+2/6/1998 4:59:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\gun-body.ian - 6681
+3/17/1998 9:48:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\i-berg-l.ian - 7929
+3/17/1998 9:48:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\i-berg-m.ian - 8297
+3/4/1998 2:29:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\l-boat-std.ian - 3114
+3/4/1998 2:29:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\life-boat.ian - 8138
+3/4/1998 2:32:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\line-bd.ian - 11841
+3/4/1998 2:33:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\line-bk.ian - 11110
+3/4/1998 2:34:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\line-ft.ian - 14804
+3/4/1998 2:35:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\line-md01.ian - 23112
+3/4/1998 2:35:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\line-md02.ian - 10930
+3/4/1998 4:03:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\line-rad1.ian - 5562
+3/4/1998 4:03:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\line-rad2.ian - 3842
+3/4/1998 4:03:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\line-rad3.ian - 6690
+3/9/1998 3:10:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\navy-dingy.ian - 11026
+3/5/1998 12:51:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\navy-l-boat.ian - 5898
+3/5/1998 12:51:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\navy-lb-stand.ian - 3050
+3/31/1998 10:26:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-bd.ian - 17109
+3/12/1998 12:13:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-crane.ian - 7562
+2/18/1998 3:54:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-girder.ian - 931
+3/12/1998 12:32:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-gpipe.ian - 2466
+2/18/1998 3:49:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-hpad.ian - 2953
+2/18/1998 3:53:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-leg.ian - 3568
+3/10/1998 11:59:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-platform.ian - 3497
+2/18/1998 4:21:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-rad.ian - 3448
+3/11/1998 1:20:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\oil-tower.ian - 7418
+3/6/1998 10:19:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\pegasus.ian - 20908
+3/4/1998 4:45:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\pier-plat.ian - 7186
+3/6/1998 1:43:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\pier.ian - 4238
+3/6/1998 1:52:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\pier2.ian - 2766
+3/11/1998 12:57:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\pipe1.ian - 2206
+3/11/1998 12:58:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\pipe2.ian - 2142
+3/11/1998 12:59:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\pipe3.ian - 2142
+2/6/1998 3:30:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\s-rad-b.ian - 1115
+2/6/1998 3:29:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\s-radar.ian - 1848
+2/6/1998 4:21:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\s-radar2.ian - 6911
+2/6/1998 3:28:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\sdart-arm.ian - 3811
+2/6/1998 3:29:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\sdart-base.ian - 4371
+2/6/1998 3:28:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\sdart-body.ian - 1723
+2/6/1998 3:28:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\sdart-ram.ian - 2967
+2/16/1998 9:04:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\stealth-d-l.ian - 378
+2/16/1998 9:05:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\stealth-d-r.ian - 378
+2/16/1998 9:04:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\stealth.ian - 16680
+3/16/1998 11:01:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\sub.ian - 15457
+3/5/1998 12:09:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\table.ian - 1782
+2/18/1998 11:15:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\tank-bk.ian - 17580
+3/16/1998 11:29:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\tank-crane.ian - 4767
+3/16/1998 11:25:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\tank-ft.ian - 5686
+3/11/1998 1:16:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\tank-md.ian - 17744
+2/6/1998 5:16:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\twin-gun-bar.ian - 1857
+2/6/1998 5:16:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\twin-gun-bdy.ian - 5515
+3/18/1998 6:16:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\air-c-01.ian - 6945
+3/18/1998 8:05:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\air-c-bk.ian - 5597
+3/19/1998 3:34:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\air-c-brid.ian - 16473
+3/19/1998 10:09:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\air-c-ft.ian - 5310
+2/20/1998 4:10:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\bat-bk.ian - 3017
+2/23/1998 1:27:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\bat-brd.ian - 21982
+2/23/1998 3:12:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\bat-ft.ian - 1478
+3/15/1998 12:12:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\con-ship.ian - 2950
+2/27/1998 2:44:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\crus-bck.ian - 12245
+2/26/1998 3:37:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\crus-frt.ian - 13173
+3/17/1998 1:32:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\dest-bck.ian - 10040
+3/17/1998 3:29:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\dest-frt.ian - 13464
+3/21/1998 11:18:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\dingy.ian - 5320
+3/20/1998 6:02:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\l-boat-std.ian - 1266
+3/20/1998 6:03:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\life-baot.ian - 4442
+3/13/1998 1:31:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\line-bd.ian - 6821
+3/14/1998 8:47:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\line-bk.ian - 5776
+3/14/1998 10:01:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\line-ft.ian - 10820
+3/14/1998 2:28:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\line-md01.ian - 11185
+3/15/1998 9:55:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\line-md02.ian - 4582
+3/15/1998 10:25:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\line-rad1.ian - 2694
+3/15/1998 10:29:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\line-rad2.ian - 2198
+3/15/1998 10:37:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\line-rad3.ian - 3535
+3/21/1998 12:00:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\navy-dingy.ian - 6056
+3/20/1998 6:24:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\navy-l--boat.ian - 3290
+3/20/1998 6:23:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\navy-lb-std.ian - 1106
+3/31/1998 4:31:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\oil-bd.ian - 8839
+3/3/1998 4:42:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\oil-leg.ian - 1667
+3/4/1998 3:16:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\oil-plat.ian - 1849
+3/4/1998 11:32:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\oil-tower.ian - 4490
+3/20/1998 1:58:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\pegasus.ian - 12516
+3/20/1998 11:23:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\stealth.ian - 8888
+2/2/1998 9:40:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\sub.ian - 9317
+2/25/1998 10:11:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\tank-bk.ian - 9384
+2/25/1998 11:28:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\tank-ft.ian - 3018
+2/24/1998 4:56:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level1\low\tank-md.ian - 6096
+3/13/1998 6:02:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\air-c-01.ian - 14877
+3/13/1998 6:04:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\air-c-bk.ian - 11821
+3/16/1998 10:48:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\air-c-brid.ian - 30805
+3/13/1998 6:10:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\air-c-ft.ian - 15198
+2/17/1998 9:13:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\bat-bk.ian - 6175
+2/17/1998 10:03:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\bat-brd.ian - 25030
+2/17/1998 8:53:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\bat-frt.ian - 4252
+3/16/1998 3:35:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\con-ship.ian - 10945
+2/17/1998 5:06:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\cruiser-bck.ian - 15977
+2/17/1998 4:55:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\cruiser-frt.ian - 16201
+2/17/1998 3:13:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\dest-bck.ian - 13909
+2/17/1998 3:12:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\dest-frt.ian - 16081
+3/4/1998 2:33:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\line-bd.ian - 10301
+3/4/1998 2:33:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\line-bk.ian - 8900
+3/4/1998 2:34:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\line-ft.ian - 11960
+3/4/1998 2:35:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\line-md01.ian - 23616
+3/4/1998 2:35:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\line-md02.ian - 9334
+3/31/1998 10:26:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\oil-bd.ian - 12537
+3/12/1998 12:13:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\oil-crane.ian - 7162
+3/12/1998 12:32:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\oil-gpipe.ian - 2346
+3/2/1998 5:03:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\oil-hpad.ian - 3065
+3/10/1998 12:34:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\oil-leg.ian - 4296
+2/18/1998 4:22:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\oil-rad.ian - 1488
+3/11/1998 1:20:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\oil-tower.ian - 5778
+3/11/1998 5:03:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\pegasus.ian - 9500
+3/16/1998 12:46:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\pier-plat.ian - 7546
+3/9/1998 4:53:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\pier.ian - 3750
+3/6/1998 1:53:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\pier2.ian - 2766
+3/11/1998 12:58:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\pipe1.ian - 2766
+3/11/1998 12:58:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\pipe2.ian - 2878
+3/11/1998 12:59:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\pipe3.ian - 3086
+2/6/1998 3:30:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\s-rad-b.ian - 1435
+2/6/1998 3:30:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\s-radar.ian - 1952
+2/12/1998 4:04:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\sub.ian - 13125
+2/18/1998 11:16:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\tank-bk.ian - 9821
+3/11/1998 1:48:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\tank-crane.ian - 3626
+2/18/1998 11:22:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\tank-ft.ian - 4730
+3/11/1998 1:17:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\tank-md.ian - 18268
+3/18/1998 6:50:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\air-c-01.ian - 8265
+3/18/1998 8:18:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\air-c-bk.ian - 5879
+3/19/1998 4:22:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\air-c-brid.ian - 15117
+3/19/1998 11:17:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\air-c-ft.ian - 6894
+2/20/1998 4:37:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\bat-bk.ian - 2953
+2/23/1998 1:26:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\bat-brd.ian - 15966
+2/23/1998 3:13:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\bat-frt.ian - 1478
+2/27/1998 2:49:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\crus-bck.ian - 8177
+2/26/1998 3:52:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\crus-frt.ian - 10121
+3/17/1998 1:47:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\dest-bck.ian - 6952
+3/17/1998 3:26:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\dest-frt.ian - 8632
+3/13/1998 1:40:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\line-bd.ian - 6273
+3/14/1998 8:58:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\line-bk.ian - 4156
+3/14/1998 10:42:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\line-ft.ian - 8668
+3/14/1998 3:23:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\line-md01.ian - 11313
+3/15/1998 10:05:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\line-md02.ian - 4426
+3/31/1998 4:32:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\oil-bd.ian - 6825
+3/4/1998 11:32:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\oil-tower.ian - 3875
+3/20/1998 3:32:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\pegasus.ian - 5412
+2/2/1998 9:40:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\sub.ian - 8157
+2/25/1998 10:43:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\tank-bk.ian - 7177
+2/25/1998 11:41:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\tank-ft.ian - 2802
+2/24/1998 5:14:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level2\low\tank-md.ian - 6512
+3/13/1998 6:02:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\air-c-01.ian - 15389
+3/13/1998 6:04:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\air-c-bk.ian - 12781
+3/16/1998 10:48:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\air-c-brid.ian - 24665
+3/13/1998 6:10:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\air-c-ft.ian - 16806
+2/17/1998 9:13:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\bat-bk.ian - 5019
+2/17/1998 10:03:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\bat-brd.ian - 14342
+2/17/1998 8:53:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\bat-frt.ian - 4256
+3/16/1998 3:36:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\con-ship.ian - 11001
+2/17/1998 5:06:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\cruiser-bck.ian - 10773
+2/17/1998 4:55:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\cruiser-frt.ian - 9541
+2/17/1998 3:13:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\dest-bck.ian - 7645
+2/17/1998 3:12:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\dest-frt.ian - 8881
+3/4/1998 2:33:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\line-bd.ian - 5721
+3/4/1998 2:34:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\line-bk.ian - 7192
+3/4/1998 2:34:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\line-ft.ian - 6724
+3/4/1998 2:35:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\line-md01.ian - 21492
+3/4/1998 2:36:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\line-md02.ian - 5726
+3/31/1998 10:26:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\oil-bd.ian - 7633
+3/12/1998 12:14:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\oil-crane.ian - 3706
+3/12/1998 12:33:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\oil-gpipe.ian - 990
+3/2/1998 5:04:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\oil-hpad.ian - 2689
+3/10/1998 12:34:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\oil-leg.ian - 4420
+2/18/1998 4:22:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\oil-rad.ian - 1120
+3/11/1998 1:21:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\oil-tower.ian - 3578
+3/11/1998 5:03:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\pegasus.ian - 4956
+3/16/1998 12:47:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\pier-plat.ian - 7486
+3/9/1998 4:53:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\pier.ian - 3750
+3/6/1998 1:53:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\pier2.ian - 3038
+3/11/1998 12:58:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\pipe1.ian - 4558
+3/11/1998 12:58:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\pipe2.ian - 4110
+3/11/1998 12:59:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\pipe3.ian - 3478
+2/12/1998 4:04:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\sub.ian - 13001
+2/18/1998 11:16:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\tank-bk.ian - 5421
+3/11/1998 1:48:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\tank-crane.ian - 1110
+2/18/1998 11:22:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\tank-ft.ian - 4418
+3/11/1998 1:17:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\tank-md.ian - 16744
+3/18/1998 7:01:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\air-c-01.ian - 8545
+3/18/1998 8:33:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\air-c-bk.ian - 6497
+3/19/1998 4:45:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\air-c-brid.ian - 9661
+3/19/1998 11:33:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\air-c-ft.ian - 7502
+2/23/1998 10:37:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\bat-bk.ian - 2701
+2/23/1998 2:30:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\bat-brd.ian - 9170
+2/23/1998 3:13:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\bat-frt.ian - 2086
+2/27/1998 3:24:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\crus-bck.ian - 5849
+2/26/1998 4:44:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\crus-frt.ian - 5257
+3/17/1998 1:58:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\dest-bck.ian - 3840
+3/17/1998 3:51:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\dest-frt.ian - 4236
+3/13/1998 2:41:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\line-bd.ian - 3457
+3/14/1998 9:10:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\line-bk.ian - 3144
+3/14/1998 10:51:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\line-ft.ian - 3600
+3/14/1998 3:52:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\line-md01.ian - 10361
+3/15/1998 10:15:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\line-md02.ian - 2286
+3/3/1998 3:01:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\oil-bd.ian - 4127
+3/4/1998 11:31:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\oil-tower.ian - 1787
+3/20/1998 3:50:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\pegasus.ian - 2476
+2/25/1998 10:54:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\tank-bk.ian - 4105
+2/25/1998 11:49:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\tank-ft.ian - 2654
+2/25/1998 9:09:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\pcobject\ships\pcexport\level3\low\tank-md.ian - 6672
+4/2/1998 3:45:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\chain.ppm - 1577
+2/25/1998 11:10:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\chrome02.ppm - 12329
+7/18/1997 10:50:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\chrome2.ppm - 196651
+6/5/1997 10:16:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\fireglo1.ppm - 3113
+6/5/1997 10:16:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\fireglo2.ppm - 3113
+6/5/1997 10:16:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\fireglo3.ppm - 3113
+6/5/1997 10:16:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\fireglo4.ppm - 3113
+4/8/1997 8:11:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\flack1.ppm - 196651
+3/4/1997 11:04:38 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\flack2.ppm - 196651
+4/1/1998 8:09:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\laser1.ppm - 6185
+4/1/1998 8:09:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\laser4.ppm - 6185
+4/1/1998 8:09:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\laser5.ppm - 6185
+4/1/1998 8:08:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\laser6.ppm - 6185
+10/7/1997 7:01:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\lens02.ppm - 196651
+6/2/1997 3:21:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\rage.ppm - 24618
+3/22/1998 11:31:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\saturn.ppm - 196651
+3/18/1998 6:33:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\smoke.ppm - 196651
+3/24/1998 9:47:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\tree-t.ppm - 196651
+1/23/1998 4:22:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\tree-t1.ppm - 196651
+1/23/1998 4:22:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\tree-t3.ppm - 196651
+4/7/1997 3:16:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water16.ppm - 12329
+4/1/1998 5:19:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\white.ppm - 3113
+11/5/1997 11:32:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\africa\l0.ppm - 196651
+11/5/1997 11:32:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\africa\l1.ppm - 196651
+11/5/1997 11:32:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\africa\l2.ppm - 196651
+11/5/1997 11:31:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\africa\l3.ppm - 196651
+11/5/1997 11:31:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\africa\l4.ppm - 196651
+11/5/1997 11:31:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\africa\l5.ppm - 196651
+11/5/1997 11:31:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\africa\l6.ppm - 196651
+12/11/1997 11:22:46 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\africa\l7.ppm - 196651
+1/9/1998 3:08:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\arctic\l0.ppm - 196651
+1/8/1998 4:26:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\arctic\l1.ppm - 196651
+1/9/1998 11:06:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\arctic\l2.ppm - 196651
+9/6/1997 12:29:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\arctic\l3.ppm - 196651
+7/23/1997 4:28:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\arctic\l4.ppm - 196651
+7/23/1997 11:09:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\arctic\l5.ppm - 196651
+7/23/1997 11:08:56 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\arctic\l6.ppm - 196651
+1/9/1998 11:07:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\arctic\l7.ppm - 196651
+9/18/1997 3:57:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\clouds.ppm - 196651
+9/16/1997 12:28:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\conaveral.ppm - 196651
+9/18/1997 11:29:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\earth02.ppm - 196651
+2/24/1998 3:23:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\gold1.ppm - 196651
+11/26/1997 2:37:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\pyramid1.ppm - 196651
+12/15/1997 2:13:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\pyramid2.ppm - 196651
+11/26/1997 2:37:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\pyramid3.ppm - 196651
+4/3/1998 10:42:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\Rig.ppm - 196651
+7/14/1997 3:39:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\sandstne.ppm - 196651
+4/3/1998 10:42:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\shuttle.ppm - 196651
+4/3/1998 10:42:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\trucks.ppm - 196651
+4/3/1998 10:42:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\whites.ppm - 196651
+4/3/1998 10:42:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\backgrnd\whites2.ppm - 196651
+1/20/1998 2:03:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\canaveral\l0.ppm - 196651
+1/20/1998 2:03:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\canaveral\l1.ppm - 196651
+1/20/1998 2:10:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\canaveral\l2.ppm - 196651
+1/20/1998 2:03:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\canaveral\l3.ppm - 196651
+1/20/1998 2:03:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\canaveral\l4.ppm - 196651
+11/6/1997 2:23:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\canaveral\l5.ppm - 196651
+1/20/1998 2:04:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\canaveral\l6.ppm - 196651
+2/10/1998 1:14:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\canaveral\l7.ppm - 196651
+10/8/1997 5:14:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\clouds\flatcld5.ppm - 196651
+10/8/1997 5:14:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\clouds\flatcld51.ppm - 196651
+10/8/1997 5:14:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\clouds\flatcld52.ppm - 196651
+10/8/1997 5:15:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\clouds\flatcld54.ppm - 196651
+2/12/1998 10:03:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\clouds\flatcld55.ppm - 196651
+8/21/1997 5:22:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\cweapons\al-metal.ppm - 196651
+3/17/1998 10:00:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\cweapons\al-metal2.ppm - 196651
+3/12/1998 4:18:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\a10-shad.ppm - 12329
+3/19/1998 2:47:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\aircraft-shd.ppm - 12329
+3/19/1998 2:47:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\aircraft-shd01.ppm - 12329
+3/12/1998 4:19:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\airship-shad.ppm - 12329
+3/12/1998 4:20:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\al hovtank shd 1.ppm - 12329
+3/12/1998 4:19:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\bomber shd 1.ppm - 12329
+3/12/1998 4:19:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\c17 shd.ppm - 12329
+3/26/1998 2:45:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\cobra-shab.ppm - 12329
+3/26/1998 10:42:30 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\cobra-shad.ppm - 12329
+3/26/1998 3:39:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\cobra-shd.ppm - 12329
+3/26/1998 9:22:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\comanche shd 1.ppm - 12329
+3/12/1998 4:19:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\comhub shd 1.ppm - 12329
+3/30/1998 3:50:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\cow-shad.ppm - 12329
+3/30/1998 12:06:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\effects.ppm - 196651
+3/28/1998 8:55:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\f18-shd.ppm - 12329
+3/28/1998 8:55:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\f22-shd.ppm - 12329
+3/12/1998 4:18:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\harrier shd 1.ppm - 12329
+3/12/1998 4:18:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\hbom shd 1.ppm - 12329
+3/12/1998 4:18:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\hfighter shd 1.ppm - 12329
+3/12/1998 4:20:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\hovcft shd 1.ppm - 12329
+3/12/1998 4:20:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\hovtank shd 1.ppm - 12329
+3/12/1998 4:18:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\lancfght-shad.ppm - 12329
+3/12/1998 4:19:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\lancfgt2-shad.ppm - 12329
+3/12/1998 4:20:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\lancfgt3-shad.ppm - 12329
+3/12/1998 4:20:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\lfightnw shd 1.ppm - 12329
+3/12/1998 4:17:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\lfightr3-shad.ppm - 12329
+3/12/1998 4:21:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\med-fighter-shad.ppm - 12329
+3/12/1998 4:17:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\med-fighter2-shad.ppm - 12329
+3/26/1998 2:53:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\NewsHeli shd.ppm - 12329
+3/24/1998 8:54:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\rotor5.ppm - 12329
+3/30/1998 1:48:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\senfly-shad.ppm - 12329
+3/12/1998 4:20:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\tranheli shd.ppm - 12329
+3/26/1998 12:25:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\vtol shd.ppm - 12329
+3/12/1998 4:20:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\effects\wrknrobt shd.ppm - 12329
+10/23/1997 2:57:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\egypt\l0.ppm - 196651
+2/6/1998 10:07:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\egypt\l1.ppm - 196651
+11/4/1997 8:49:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\egypt\l2.ppm - 196651
+11/4/1997 8:49:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\egypt\l3.ppm - 196651
+3/5/1998 12:39:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\egypt\l4.ppm - 196651
+11/4/1997 11:09:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\egypt\l5.ppm - 196651
+11/4/1997 11:08:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\egypt\l6.ppm - 196651
+11/4/1997 8:50:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\egypt\l7.ppm - 196651
+9/25/1997 5:31:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\hud\HUDPAG1.ppm - 196651
+1/23/1998 3:48:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\hud\hudpag1k.ppm - 196651
+3/23/1998 11:26:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\hud\hudpag2.ppm - 196651
+3/26/1998 7:55:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\laser\laser1.ppm - 6185
+3/26/1998 7:54:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\laser\laser4.ppm - 6185
+3/26/1998 7:55:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\laser\laser5.ppm - 6185
+3/26/1998 7:54:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\laser\laser6.ppm - 6185
+3/23/1998 4:01:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading01.ppm - 196651
+3/23/1998 4:00:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading02.ppm - 196651
+3/23/1998 4:00:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading03.ppm - 196651
+3/23/1998 4:00:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading04.ppm - 196651
+3/23/1998 4:00:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading05.ppm - 196651
+3/23/1998 3:59:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading06.ppm - 196651
+3/23/1998 3:59:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading07.ppm - 196651
+3/23/1998 3:59:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading08.ppm - 196651
+3/23/1998 3:59:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\Loading09.ppm - 196651
+3/23/1998 3:58:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\load\loading10.ppm - 196651
+2/23/1998 9:14:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\menu\font16.ppm - 196651
+9/22/1997 11:38:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\menu\loading.ppm - 196651
+3/6/1998 9:28:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\menu\n_font.ppm - 196651
+3/24/1998 8:22:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\menu\ragelotp.ppm - 196651
+9/24/1997 12:18:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\l0.ppm - 196651
+9/24/1997 12:18:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\l1.ppm - 196651
+9/24/1997 12:17:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\l2.ppm - 196651
+9/24/1997 1:38:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\l3.ppm - 196651
+9/24/1997 1:39:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\l4.ppm - 196651
+9/24/1997 1:39:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\l5.ppm - 196651
+9/24/1997 1:55:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\l6.ppm - 196651
+9/25/1997 10:27:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\l7.ppm - 196651
+3/24/1998 3:29:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\moon\starcanopy01.ppm - 196651
+1/22/1998 9:22:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\oceanic\l3.ppm - 196651
+1/27/1998 11:12:00 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\oceanic\l4.ppm - 196651
+1/27/1998 11:26:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\oceanic\l5.ppm - 196651
+1/27/1998 11:12:32 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\oceanic\l6.ppm - 196651
+4/3/1998 10:39:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\pweapons\dsrtcam2.ppm - 196651
+4/3/1998 10:40:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\pweapons\grascam2.ppm - 196651
+4/3/1998 10:40:04 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\pweapons\misc.ppm - 196651
+4/3/1998 10:39:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\pweapons\mooncam2.ppm - 196651
+4/3/1998 10:39:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\pweapons\seacam2.ppm - 196651
+9/19/1997 2:11:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\pweapons\snowcam.ppm - 196651
+4/3/1998 10:40:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\pweapons\snowcam2.ppm - 196651
+3/24/1998 4:50:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\a10-s.ppm - 12329
+3/24/1998 4:50:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\cobra-s.ppm - 12329
+3/24/1998 4:50:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\comanche-s.ppm - 12329
+3/28/1998 1:25:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\cow-s.ppm - 12329
+3/28/1998 8:55:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\f18-s.ppm - 12329
+3/28/1998 8:55:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\f22-s.ppm - 12329
+3/24/1998 4:49:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\harrier-s.ppm - 12329
+3/25/1998 3:18:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\hfighter1-S.ppm - 12329
+3/24/1998 4:49:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\hover tank-s.ppm - 12329
+3/30/1998 2:52:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\hovrcrft-s.ppm - 12329
+3/24/1998 4:49:24 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\lance2-s.ppm - 12329
+3/24/1998 4:49:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\lancfght1-s.ppm - 12329
+3/24/1998 4:48:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\lancfgt3-s.ppm - 12329
+3/24/1998 4:51:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\lazer-s.ppm - 12329
+3/24/1998 4:48:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\lfighter-s.ppm - 12329
+3/25/1998 3:18:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\lfightr3-S.ppm - 12329
+3/25/1998 3:18:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\med-fighter1-S.ppm - 12329
+3/25/1998 3:18:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\med-fighter2-S.ppm - 12329
+3/30/1998 3:48:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\oldhel.ppm - 12329
+3/30/1998 2:52:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\senfly-s.ppm - 12329
+3/30/1998 3:48:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\tank1-s.ppm - 12329
+3/30/1998 3:47:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\tank2-s.ppm - 12329
+3/24/1998 4:48:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\vtol-s.ppm - 12329
+3/25/1998 3:19:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\schmatics\wrknrobot-S.ppm - 12329
+2/11/1998 10:27:12 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\setup\l0.ppm - 196651
+2/10/1998 4:07:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\setup\l1.ppm - 196651
+2/10/1998 4:35:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\setup\l2.ppm - 196651
+3/31/1998 7:20:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\setup\l3.ppm - 196651
+3/31/1998 3:44:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\setup\l4.ppm - 196651
+4/3/1998 11:39:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\ships\battle-tex.ppm - 196651
+4/3/1998 11:40:14 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\ships\carrier.ppm - 196651
+4/3/1998 11:39:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\ships\liner.ppm - 196651
+4/3/1998 11:39:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\ships\rig.ppm - 196651
+4/3/1998 11:39:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\ships\stealth.ppm - 196651
+4/3/1998 11:40:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\ships\weapons.ppm - 196651
+4/3/1998 11:31:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\sun\alien-moon05.ppm - 12329
+3/30/1998 2:14:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\sun\moon01.ppm - 12329
+2/12/1998 2:02:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\sun\moon02.ppm - 12329
+12/22/1997 2:51:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\sun\sun.ppm - 49195
+3/30/1998 4:14:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\sun\sun01.ppm - 12329
+3/30/1998 1:49:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\sun\sun02.ppm - 12329
+2/12/1998 2:03:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\sun\sun03.ppm - 12329
+2/12/1998 2:03:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\sun\sun04.ppm - 12329
+2/20/1998 9:52:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water1.ppm - 12329
+2/20/1998 9:53:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water10.ppm - 12329
+2/20/1998 9:53:52 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water11.ppm - 12329
+2/20/1998 9:54:02 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water12.ppm - 12329
+2/20/1998 9:54:10 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water13.ppm - 12329
+2/20/1998 9:54:18 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water14.ppm - 12329
+2/20/1998 9:54:28 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water15.ppm - 12329
+2/20/1998 9:54:36 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water16.ppm - 12329
+2/20/1998 9:52:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water2.ppm - 12329
+2/20/1998 9:52:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water3.ppm - 12329
+2/20/1998 9:52:48 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water4.ppm - 12329
+2/20/1998 9:52:58 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water5.ppm - 12329
+2/20/1998 9:53:08 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water6.ppm - 12329
+2/20/1998 9:53:16 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water7.ppm - 12329
+2/20/1998 9:53:24 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water8.ppm - 12329
+2/20/1998 9:53:34 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\ppm\water4\water9.ppm - 12329
+9/21/2011 11:44:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file0.sav - 530992
+4/14/1998 3:29:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file1.sav - 530992
+9/21/2011 11:44:49 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file2.sav - 530992
+4/14/1998 10:55:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file3.sav - 530992
+3/26/1998 12:01:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file4.sav - 529220
+3/26/1998 12:02:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file5.sav - 529220
+3/26/1998 12:07:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file6.sav - 529220
+3/26/1998 12:10:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file7.sav - 529220
+3/26/1998 12:11:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file8.sav - 529220
+3/6/1998 6:02:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\file9.sav - 725268
+9/21/2011 11:45:57 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\incoming.cfg - 10980
+3/31/1998 5:53:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\quicksave.sav - 528684
+9/21/2011 11:45:54 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\store.lev - 530980
+4/6/1998 1:22:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\save\testsave.xxx - 528688
+9/2/2009 12:57:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\10.mp3 - 6534021
+9/2/2009 12:57:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\11.mp3 - 4747251
+9/2/2009 12:57:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\12.mp3 - 404650
+9/2/2009 12:55:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\2.mp3 - 11991530
+9/2/2009 12:56:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\3.mp3 - 9008338
+9/2/2009 12:56:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\4.mp3 - 6830771
+9/2/2009 12:56:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\5.mp3 - 9579897
+9/2/2009 12:56:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\6.mp3 - 7120207
+9/2/2009 12:57:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\7.mp3 - 9575718
+9/2/2009 12:57:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\8.mp3 - 6612387
+9/2/2009 12:57:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\sound\9.mp3 - 6260256
+3/16/1998 3:10:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\aircarri.wav - 54970
+3/16/1998 4:02:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\airhorn.wav - 69880
+3/18/1998 2:36:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\bigmutha.wav - 72678
+3/18/1998 12:29:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\bomber.wav - 27822
+3/17/1998 8:12:50 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\catapult.wav - 102434
+3/18/1998 12:11:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\COLLIDE.wav - 30184
+3/17/1998 8:11:40 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\cutwaves.wav - 62854
+9/26/1997 11:24:44 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\engine5.wav - 54114
+3/18/1998 12:01:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\EXPLODE1.wav - 65790
+3/18/1998 12:02:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\EXPLODE2.wav - 80138
+3/18/1998 12:04:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\EXPLODE3.wav - 85476
+3/18/1998 12:06:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\EXPLODE4.wav - 144412
+3/18/1998 12:12:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\fire4.wav - 56896
+3/18/1998 12:12:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\foam.wav - 52140
+3/17/1998 3:43:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\greengy1.wav - 50342
+3/17/1998 2:10:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\gun1.wav - 22490
+3/18/1998 12:31:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\helicopt.wav - 32656
+3/18/1998 12:34:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\helicopt2.wav - 40940
+3/18/1998 3:35:30 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\hfighter2.wav - 65278
+9/2/1997 3:13:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\hovtank.wav - 19804
+3/18/1998 12:48:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\hovtank2.wav - 25260
+3/17/1998 4:08:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\laser1.wav - 7676
+3/17/1998 4:05:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\laser2.wav - 28106
+3/17/1998 4:05:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\laser3.wav - 28332
+3/18/1998 12:39:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\lbomber.wav - 29610
+9/26/1997 1:41:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\lfighter.wav - 17288
+3/16/1998 10:06:06 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\lightn2.wav - 51884
+3/18/1998 12:16:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\Moo.wav - 67474
+3/18/1998 12:52:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\m_move.wav - 7010
+3/18/1998 12:52:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\m_notok.wav - 44972
+3/18/1998 12:54:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\m_ok.wav - 28706
+3/18/1998 12:54:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\m_score.wav - 7010
+9/3/1997 4:48:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\m_tele.wav - 6540
+3/17/1998 1:57:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\plasma1.wav - 23390
+3/17/1998 3:48:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\plasma2.wav - 29750
+3/17/1998 3:49:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\plasma3.wav - 28542
+3/20/1998 1:46:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\plbomber.wav - 20942
+9/26/1997 1:43:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\plfight.wav - 19532
+3/19/1998 5:17:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\pltank.wav - 29508
+9/26/1997 1:43:28 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\pltank1.wav - 21940
+9/26/1997 1:43:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\plvtol.wav - 52618
+3/18/1998 12:46:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\port1.wav - 41708
+3/18/1998 10:05:22 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\radar1.wav - 42540
+3/17/1998 2:50:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\rocketlp.wav - 35262
+3/18/1998 12:18:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\satlaser.wav - 114238
+3/18/1998 12:17:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\shield2.wav - 87038
+3/16/1998 2:56:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\ship.wav - 46960
+3/16/1998 2:57:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\ship2.wav - 38628
+3/16/1998 5:07:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\ship3.wav - 62136
+3/19/1998 3:14:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\tank1.wav - 37258
+3/17/1998 8:10:26 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\wake.wav - 26312
+3/17/1998 8:10:42 AM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\wake2.wav - 30880
+3/18/1998 12:07:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\WARNING1.wav - 23510
+3/18/1998 12:27:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\WARNING2.wav - 29872
+3/18/1998 12:22:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\wind.wav - 155914
+3/5/1998 1:09:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\5-4-3-2-1.wav - 193202
+3/5/1998 1:09:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Alien installation destroyed.wav - 78738
+3/5/1998 1:09:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Alien unit destroyed.wav - 63198
+3/6/1998 5:07:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Aliens detected east.wav - 61602
+3/5/1998 1:09:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Aliens detected north.wav - 59826
+3/6/1998 5:07:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Aliens detected south.wav - 59206
+3/6/1998 5:08:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Aliens detected west.wav - 64080
+3/5/1998 1:09:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Aliens detected.wav - 44236
+3/5/1998 1:10:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Allied base under attack.wav - 76416
+3/5/1998 1:09:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Allied installation destroyed.wav - 80172
+3/5/1998 1:09:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Allied installation taking damage.wav - 70856
+3/5/1998 1:09:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Allied installation under attack.wav - 76180
+3/5/1998 1:09:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Allied objective complete.wav - 58256
+3/5/1998 1:09:52 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Allied objective needs assistance.wav - 76180
+3/5/1998 1:09:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Allied objective under attack.wav - 69258
+3/5/1998 1:09:50 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Allied unit destroyed.wav - 63246
+3/5/1998 1:09:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Battlescape activated.wav - 81446
+3/5/1998 1:09:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Battlescape phase complete.wav - 96744
+3/5/1998 1:10:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Bomb primed.wav - 55878
+3/5/1998 1:09:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Critical object destroyed.wav - 100010
+3/5/1998 1:09:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Damage critical.wav - 64970
+3/5/1998 1:09:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Damage mirror.wav - 44580
+3/5/1998 1:10:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Defend allied craft.wav - 63174
+3/5/1998 1:10:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Defend bomb.wav - 47776
+3/5/1998 1:10:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Defend installation.wav - 57938
+3/5/1998 1:10:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Defend oil rigs.wav - 57168
+3/5/1998 1:10:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Defend portal.wav - 47776
+3/5/1998 1:10:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Defend shuttle.wav - 42542
+3/5/1998 1:10:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy alien AT-AT guns.wav - 76216
+3/5/1998 1:09:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy alien installation.wav - 68134
+3/5/1998 1:10:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy alien mothership.wav - 66332
+3/5/1998 1:10:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy alien surface craft.wav - 75866
+3/5/1998 1:10:00 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy all alien craft.wav - 76086
+3/5/1998 1:09:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy allied installation.wav - 70102
+3/15/1998 4:25:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy icebergs.wav - 66370
+3/5/1998 1:09:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy shield generator.wav - 58794
+3/5/1998 1:09:58 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy way-point object.wav - 75644
+3/5/1998 1:09:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Destroy way-pointed object.wav - 74758
+3/5/1998 1:10:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Dilute oil spill.wav - 61172
+3/5/1998 1:10:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Engage and destroy alien craft.wav - 102746
+3/15/1998 4:23:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Entering war zone.wav - 70288
+3/5/1998 1:10:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Extinguish fire.wav - 55936
+3/5/1998 1:10:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Fire at will.wav - 48238
+3/5/1998 1:09:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Follow waypoint marker.wav - 63672
+3/5/1998 1:10:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Alien attack neutralised.wav - 61662
+3/5/1998 1:10:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Alien down!.wav - 35488
+3/5/1998 1:10:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Banzai.wav - 26966
+3/5/1998 1:10:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_By your command.wav - 44442
+3/5/1998 1:10:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Copy that.wav - 27240
+3/5/1998 1:10:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Damage levels critical.wav - 51176
+3/5/1998 1:10:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Help us out here.wav - 37036
+3/5/1998 1:10:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Help us out!.wav - 31226
+3/5/1998 1:10:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Let's do it!.wav - 34508
+3/5/1998 1:10:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_OK.wav - 20008
+3/5/1998 1:10:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_On my way.wav - 37004
+3/5/1998 1:10:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Orders understood.wav - 38132
+3/5/1998 1:10:22 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Refuelling complete.wav - 45570
+3/5/1998 1:10:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Refuelling.wav - 23038
+3/5/1998 1:10:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_That's a roger.wav - 34038
+3/5/1998 1:10:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\f_Will do.wav - 27088
+3/5/1998 1:10:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Get in there and fight.wav - 73646
+3/5/1998 1:09:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Human player destroyed.wav - 89640
+3/5/1998 1:09:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming alien bomber.wav - 57414
+3/5/1998 1:09:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming alien craft.wav - 54484
+3/5/1998 1:09:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming alien fighters.wav - 55788
+3/5/1998 1:09:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming alien mothership.wav - 64994
+3/5/1998 1:09:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming alien surface craft.wav - 69646
+3/5/1998 1:09:46 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming alien tanks.wav - 55364
+3/5/1998 1:09:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming aliens.wav - 45160
+3/5/1998 1:09:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming fire.wav - 41908
+3/5/1998 1:09:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming icebergs.wav - 45680
+3/5/1998 1:09:48 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming orders.wav - 37184
+3/5/1998 1:09:44 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Incoming.wav - 28814
+3/5/1998 1:09:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Invulnerability.wav - 55802
+3/5/1998 1:09:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Missile.wav - 28270
+3/15/1998 4:29:26 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Alien attack neutralised.wav - 69752
+3/15/1998 4:29:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Alien down!.wav - 48582
+3/5/1998 1:10:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Banzai.wav - 33582
+3/5/1998 1:10:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_By your command.wav - 47948
+3/5/1998 1:10:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Copy that.wav - 20896
+3/15/1998 4:29:32 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Course set on my way.wav - 60534
+3/5/1998 1:10:18 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Damage levels critical.wav - 53600
+3/5/1998 1:10:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Help us out here.wav - 40278
+3/5/1998 1:10:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Let's do it!.wav - 28158
+3/5/1998 1:10:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Lets jam!.wav - 46530
+3/15/1998 4:29:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Orders understood.wav - 50068
+3/5/1998 1:10:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Refuelling complete.wav - 40572
+3/5/1998 1:10:16 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Refuelling.wav - 28514
+3/5/1998 1:10:12 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_That's a roger.wav - 53020
+3/5/1998 1:10:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Were taking fire!.wav - 35336
+3/5/1998 1:10:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\m_Yes sir!.wav - 27152
+3/5/1998 1:09:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Phase complete.wav - 68532
+3/5/1998 1:10:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Phase incomplete.wav - 61018
+3/5/1998 1:09:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Player exits.wav - 69056
+3/5/1998 1:09:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Player joined.wav - 52632
+3/5/1998 1:09:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Power-up collected.wav - 63988
+3/5/1998 1:09:40 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Power-up generated.wav - 82014
+3/5/1998 1:10:10 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Prime bomb.wav - 50240
+3/5/1998 1:09:54 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Re-supply complete.wav - 52576
+3/5/1998 1:09:56 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Reinforcements arrived.wav - 57722
+3/5/1998 1:10:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Retrieve alien fighter.wav - 70718
+3/5/1998 1:10:06 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Retrieve cargo crate.wav - 65946
+3/5/1998 1:10:04 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Retrieve recon pod.wav - 66562
+3/5/1998 1:10:08 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Scenario complete.wav - 55936
+3/5/1998 1:09:38 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Scenario completed.wav - 73602
+3/5/1998 1:10:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Seek and destroy alien convoy.wav - 86732
+3/5/1998 1:10:02 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Seek and destroy alien submarine.wav - 92738
+3/5/1998 1:09:42 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Shield replenished.wav - 71124
+3/15/1998 4:23:20 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Shields low.wav - 75670
+3/15/1998 4:24:14 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Shields out.wav - 79832
+3/5/1998 1:09:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Time low.wav - 60334
+3/5/1998 1:09:34 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Time out.wav - 60780
+3/5/1998 1:09:36 PM - C:\Program Files (x86)\GOG.com\Incoming and Incoming Forces\Incoming\wavs\stream\Weapon depleted.wav - 64058
+
+UAC Enabled
+
+
+VirtualStore Folders:

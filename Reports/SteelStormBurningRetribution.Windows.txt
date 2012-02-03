@@ -1,0 +1,149 @@
+Comments:
+  <game name="SteelStormBurningRetribution" platform="Windows">
+    <title>Steel Storn: Burning Retribution</title>
+    <location_path environment_variable="savedgames" path="steelstorm" />
+    <save />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Steel Storm: Burning Retribution
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm
+
+Save Path: 
+C:\Users\%USERNAME%\Saved Games\steelstorm
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 96200
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\steelstorm
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\Saved Games\steelstorm\key_1.d0si - 401
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\config.cfg - 2735
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\darkplaces_history.txt - 0
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\ddstexturefailures.log - 242240
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\data\campaign\_episode_1%3a_ashes_to_ashes\_acquisition.scores - 183
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\data\campaign\_episode_1%3a_ashes_to_ashes\_into_the_lions_den.scores - 181
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\data\campaign\_episode_1%3a_ashes_to_ashes\_in_dismay.scores - 185
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\data\campaign\_episode_1%3a_ashes_to_ashes\_the_collector.scores - 186
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\data\profiles\_mobeeuz.cfg - 2735
+C:\Users\%USERNAME%\Saved Games\steelstorm\gamedata\data\profiles\_mobeeuz.profile - 281
+
+Install Folder Dump: 
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\engine_source.zip - 9112083
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gpl-2.txt - 18092
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\installscript.vdf - 571
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\key_0.d0pk - 280
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\key_1.d0pk - 279
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\launch_coop_server.bat - 41
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\launch_ctf_server.bat - 45
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\launch_dm_server.bat - 44
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\license.txt - 10875
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\SDL.dll - 324096
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\steelstorm - 5728055
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\steelstorm-dedicated - 4559456
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\steelstorm-dedicated.exe - 3592192
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\steelstorm-osx-dedicated - 10695728
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\steelstorm.exe - 4344320
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\steelstorm64 - 6697983
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\steelstorm64-dedicated - 5309130
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libcurl-4.dll - 266911
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libd0_blind_id-0.dll - 118932
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libd0_rijndael-0.dll - 43528
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libfreetype-6.dll - 537614
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libgmp-10.dll - 445657
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libjpeg.dll - 114688
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libmodplug-1.dll - 1610912
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libpng12.dll - 222244
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\libtheora.dll - 720543
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\ogg.dll - 441977
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\vorbis.dll - 568692
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\vorbisenc.dll - 1532974
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\vorbisfile.dll - 434851
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\bin32\zlib1.dll - 69120
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\server.cfg - 3130
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\server_ctf.cfg - 3101
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\server_dm.cfg - 3098
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000001.pk3 - 48393
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000002.pk3 - 2794
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000003.pk3 - 397731
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000004.pk3 - 2712
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000005.pk3 - 2724
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000006.pk3 - 2733
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000007.pk3 - 2749
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000008.pk3 - 5996
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamecfgs000009.pk3 - 8696
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamedata000001.pk3 - 386338361
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamedata000002.pk3 - 693172
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamedata000003.pk3 - 597500
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamedata000004.pk3 - 1157764
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamedata000005.pk3 - 4098971
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamedata000006.pk3 - 1111
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamedata000007.pk3 - 1173561
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamedata000008.pk3 - 119391
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000001.pk3 - 732552
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000002.pk3 - 444228
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000003.pk3 - 798496
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000004.pk3 - 656621
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000005.pk3 - 799808
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000006.pk3 - 798652
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000007.pk3 - 655702
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000008.pk3 - 655748
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000009.pk3 - 655764
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000010.pk3 - 339501
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000011.pk3 - 655957
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000012.pk3 - 700527
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelocalization000013.pk3 - 7748
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000001.pk3 - 649045
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000002.pk3 - 422374
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000003.pk3 - 422337
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000004.pk3 - 423298
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000005.pk3 - 426598
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000006.pk3 - 428617
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000007.pk3 - 428986
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000008.pk3 - 429338
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000009.pk3 - 429726
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000010.pk3 - 429576
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000011.pk3 - 430304
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000012.pk3 - 432078
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000013.pk3 - 435256
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000014.pk3 - 451791
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamelogic000015.pk3 - 435725
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemaps000001.pk3 - 242690325
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemaps000002.pk3 - 37925222
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemaps000003.pk3 - 16750824
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemaps000004.pk3 - 20799441
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemaps000005.pk3 - 9844287
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemaps000006.pk3 - 3928755
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemaps000007.pk3 - 33387513
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000001.pk3 - 279061
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000002.pk3 - 33555
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000003.pk3 - 277015
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000004.pk3 - 287975
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000005.pk3 - 277822
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000006.pk3 - 287706
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000007.pk3 - 287700
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000008.pk3 - 287700
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000009.pk3 - 287740
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000010.pk3 - 560
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000011.pk3 - 288002
+C:\Program Files (x86)\Steam\steamapps\common\steelstorm\gamedata\ssgamemissions000012.pk3 - 315674
+
+UAC Disabled or not present
+

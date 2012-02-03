@@ -1,0 +1,343 @@
+Game Name: CorsixTX
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Games\CorsixTH
+
+Save Path: 
+C:\Users\%USERNAME%\AppData\Roaming\CorsixTH\Saves
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\CorsixTH
+Value: UninstallString
+Data: C:\Games\CorsixTH\Uninstall.exe
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\IntelliType Pro\AppSpecific\CorsixTH_DirectX9.exe
+Value: Path
+Data: C:\Games\CorsixTH\CorsixTH_DirectX9.exe
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\IntelliType Pro\AppSpecific\CorsixTH_OpenGL.exe
+Value: Path
+Data: C:\Games\CorsixTH\CorsixTH_OpenGL.exe
+
+Key:HKEY_CURRENT_USER\Software\Microsoft\IntelliType Pro\AppSpecific\MapEdit.exe
+Value: Path
+Data: C:\Games\CorsixTH\MapEdit.exe
+
+Detected Start Menu Shortcuts: 
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CorsixTH\CorsixTH_DirectX9.lnk
+C:\Games\CorsixTH\CorsixTH_DirectX9.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CorsixTH\CorsixTH_OpenGL.lnk
+C:\Games\CorsixTH\CorsixTH_OpenGL.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CorsixTH\CorsixTH_SDL.lnk
+C:\Games\CorsixTH\CorsixTH_SDL.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CorsixTH\Map Editor.lnk
+C:\Games\CorsixTH\MapEdit.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CorsixTH\Uninstall.lnk
+C:\Games\CorsixTH\Uninstall.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Users\%USERNAME%\AppData\Roaming\CorsixTH\Saves\Test.sav - 205884
+
+Install Folder Dump: 
+C:\Games\CorsixTH\AnimView.exe - 3355648
+C:\Games\CorsixTH\changelog.txt - 7445
+C:\Games\CorsixTH\CorsixTH.lua - 3659
+C:\Games\CorsixTH\CorsixTH_DirectX9.exe - 254976
+C:\Games\CorsixTH\CorsixTH_OpenGL.exe - 250368
+C:\Games\CorsixTH\CorsixTH_SDL.exe - 250368
+C:\Games\CorsixTH\LICENSE.txt - 5943
+C:\Games\CorsixTH\lua5.1.dll - 207360
+C:\Games\CorsixTH\MapEdit.exe - 3891712
+C:\Games\CorsixTH\Microsoft.VC90.CRT.manifest - 1862
+C:\Games\CorsixTH\msvcp90.dll - 853312
+C:\Games\CorsixTH\msvcr90.dll - 624448
+C:\Games\CorsixTH\SDL.dll - 302080
+C:\Games\CorsixTH\SDL_mixer.dll - 249856
+C:\Games\CorsixTH\Uninstall.exe - 48997
+C:\Games\CorsixTH\Bitmap\aux_ui.dat - 4729
+C:\Games\CorsixTH\Bitmap\aux_ui.tab - 132
+C:\Games\CorsixTH\Bitmap\bootstrap_font.dat - 4968
+C:\Games\CorsixTH\Bitmap\bootstrap_font.pal - 768
+C:\Games\CorsixTH\Bitmap\bootstrap_font.tab - 1350
+C:\Games\CorsixTH\Bitmap\flags32.png - 342
+C:\Games\CorsixTH\Bitmap\mainmenu1024.dat - 786432
+C:\Games\CorsixTH\Bitmap\mainmenu1024.pal - 768
+C:\Games\CorsixTH\Bitmap\mainmenu1080.dat - 708664
+C:\Games\CorsixTH\Bitmap\mainmenu1080.pal - 768
+C:\Games\CorsixTH\Bitmap\mainmenu1280.dat - 1024000
+C:\Games\CorsixTH\Bitmap\mainmenu1280.pal - 768
+C:\Games\CorsixTH\Bitmap\mainmenu1440.dat - 1296000
+C:\Games\CorsixTH\Bitmap\mainmenu1440.pal - 768
+C:\Games\CorsixTH\Bitmap\mainmenu1680.dat - 1764000
+C:\Games\CorsixTH\Bitmap\mainmenu1680.pal - 768
+C:\Games\CorsixTH\Bitmap\mainmenu1920.dat - 2304000
+C:\Games\CorsixTH\Bitmap\mainmenu1920.pal - 768
+C:\Games\CorsixTH\Bitmap\mainmenu640.dat - 307200
+C:\Games\CorsixTH\Bitmap\mainmenu640.pal - 768
+C:\Games\CorsixTH\Bitmap\mainmenu800.dat - 480000
+C:\Games\CorsixTH\Bitmap\mainmenu800.pal - 768
+C:\Games\CorsixTH\Bitmap\new32.png - 1008
+C:\Games\CorsixTH\Bitmap\open32.png - 1550
+C:\Games\CorsixTH\Bitmap\parcels32.png - 413
+C:\Games\CorsixTH\Bitmap\save32.png - 890
+C:\Games\CorsixTH\Bitmap\transparent_walls32.png - 353
+C:\Games\CorsixTH\Bitmap\tree_ctrl.dat - 188
+C:\Games\CorsixTH\Bitmap\tree_ctrl.pal - 768
+C:\Games\CorsixTH\Bitmap\tree_ctrl.tab - 30
+C:\Games\CorsixTH\Levels\avatar.level - 10926
+C:\Games\CorsixTH\Levels\avatar.map - 163948
+C:\Games\CorsixTH\Levels\demo.level - 5070
+C:\Games\CorsixTH\Levels\example.level - 10796
+C:\Games\CorsixTH\Levels\Example.map - 163948
+C:\Games\CorsixTH\Levels\original05.level - 1700
+C:\Games\CorsixTH\Lua\api_version.lua - 1800
+C:\Games\CorsixTH\Lua\app.lua - 29217
+C:\Games\CorsixTH\Lua\audio.lua - 14837
+C:\Games\CorsixTH\Lua\base_config.lua - 20718
+C:\Games\CorsixTH\Lua\calls_dispatcher.lua - 17356
+C:\Games\CorsixTH\Lua\class.lua - 5348
+C:\Games\CorsixTH\Lua\config_finder.lua - 8700
+C:\Games\CorsixTH\Lua\entity.lua - 8728
+C:\Games\CorsixTH\Lua\filesystem.lua - 4745
+C:\Games\CorsixTH\Lua\game_ui.lua - 31683
+C:\Games\CorsixTH\Lua\graphics.lua - 14895
+C:\Games\CorsixTH\Lua\hospital.lua - 32848
+C:\Games\CorsixTH\Lua\key_mapping.lua - 1516
+C:\Games\CorsixTH\Lua\map.lua - 16690
+C:\Games\CorsixTH\Lua\persistance.lua - 7779
+C:\Games\CorsixTH\Lua\queue.lua - 7860
+C:\Games\CorsixTH\Lua\room.lua - 23291
+C:\Games\CorsixTH\Lua\sprite_viewer.lua - 4938
+C:\Games\CorsixTH\Lua\staff_profile.lua - 8253
+C:\Games\CorsixTH\Lua\strict.lua - 2956
+C:\Games\CorsixTH\Lua\strings.lua - 14671
+C:\Games\CorsixTH\Lua\ui.lua - 23520
+C:\Games\CorsixTH\Lua\utility.lua - 6588
+C:\Games\CorsixTH\Lua\window.lua - 49905
+C:\Games\CorsixTH\Lua\world.lua - 51313
+C:\Games\CorsixTH\Lua\diagnosis\diag_blood_machine.lua - 1295
+C:\Games\CorsixTH\Lua\diagnosis\diag_cardiogram.lua - 1290
+C:\Games\CorsixTH\Lua\diagnosis\diag_general_diag.lua - 1298
+C:\Games\CorsixTH\Lua\diagnosis\diag_gp.lua - 1283
+C:\Games\CorsixTH\Lua\diagnosis\diag_psych.lua - 1327
+C:\Games\CorsixTH\Lua\diagnosis\diag_scanner.lua - 1284
+C:\Games\CorsixTH\Lua\diagnosis\diag_ultrascan.lua - 1292
+C:\Games\CorsixTH\Lua\diagnosis\diag_ward.lua - 1277
+C:\Games\CorsixTH\Lua\diagnosis\diag_x_ray.lua - 1284
+C:\Games\CorsixTH\Lua\dialogs\adviser.lua - 5668
+C:\Games\CorsixTH\Lua\dialogs\annual_report.lua - 16886
+C:\Games\CorsixTH\Lua\dialogs\bank_manager.lua - 12811
+C:\Games\CorsixTH\Lua\dialogs\bottom_panel.lua - 16248
+C:\Games\CorsixTH\Lua\dialogs\build_room.lua - 7382
+C:\Games\CorsixTH\Lua\dialogs\calls_dispatcher.lua - 6612
+C:\Games\CorsixTH\Lua\dialogs\cheats.lua - 5191
+C:\Games\CorsixTH\Lua\dialogs\confirm_dialog.lua - 2495
+C:\Games\CorsixTH\Lua\dialogs\custom_game.lua - 3056
+C:\Games\CorsixTH\Lua\dialogs\directory_browser.lua - 6912
+C:\Games\CorsixTH\Lua\dialogs\drug_casebook.lua - 11433
+C:\Games\CorsixTH\Lua\dialogs\edit_room.lua - 44222
+C:\Games\CorsixTH\Lua\dialogs\fax.lua - 10617
+C:\Games\CorsixTH\Lua\dialogs\fullscreen.lua - 4474
+C:\Games\CorsixTH\Lua\dialogs\furnish_corridor.lua - 8472
+C:\Games\CorsixTH\Lua\dialogs\hire_staff.lua - 9793
+C:\Games\CorsixTH\Lua\dialogs\hospital_policy.lua - 8226
+C:\Games\CorsixTH\Lua\dialogs\information.lua - 4360
+C:\Games\CorsixTH\Lua\dialogs\jukebox.lua - 6003
+C:\Games\CorsixTH\Lua\dialogs\load_game.lua - 1965
+C:\Games\CorsixTH\Lua\dialogs\lua_console.lua - 3332
+C:\Games\CorsixTH\Lua\dialogs\machine_dialog.lua - 4044
+C:\Games\CorsixTH\Lua\dialogs\main_menu.lua - 4103
+C:\Games\CorsixTH\Lua\dialogs\make_debug_patient.lua - 2169
+C:\Games\CorsixTH\Lua\dialogs\map_editor.lua - 21427
+C:\Games\CorsixTH\Lua\dialogs\menu.lua - 22899
+C:\Games\CorsixTH\Lua\dialogs\menu_list_dialog.lua - 4575
+C:\Games\CorsixTH\Lua\dialogs\message.lua - 6442
+C:\Games\CorsixTH\Lua\dialogs\new_game.lua - 4876
+C:\Games\CorsixTH\Lua\dialogs\options.lua - 5461
+C:\Games\CorsixTH\Lua\dialogs\patient.lua - 10747
+C:\Games\CorsixTH\Lua\dialogs\place_objects.lua - 27882
+C:\Games\CorsixTH\Lua\dialogs\place_staff.lua - 4939
+C:\Games\CorsixTH\Lua\dialogs\progress_report.lua - 8176
+C:\Games\CorsixTH\Lua\dialogs\queue_dialog.lua - 10401
+C:\Games\CorsixTH\Lua\dialogs\research_policy.lua - 6520
+C:\Games\CorsixTH\Lua\dialogs\resizable.lua - 6933
+C:\Games\CorsixTH\Lua\dialogs\save_game.lua - 3902
+C:\Games\CorsixTH\Lua\dialogs\staff_dialog.lua - 13365
+C:\Games\CorsixTH\Lua\dialogs\staff_management.lua - 19526
+C:\Games\CorsixTH\Lua\dialogs\staff_rise.lua - 6703
+C:\Games\CorsixTH\Lua\dialogs\tip_of_the_day.lua - 2996
+C:\Games\CorsixTH\Lua\dialogs\town_map.lua - 10418
+C:\Games\CorsixTH\Lua\dialogs\tree_ctrl.lua - 11987
+C:\Games\CorsixTH\Lua\dialogs\watch.lua - 3566
+C:\Games\CorsixTH\Lua\diseases\baldness.lua - 2523
+C:\Games\CorsixTH\Lua\diseases\bloaty_head.lua - 2437
+C:\Games\CorsixTH\Lua\diseases\broken_heart.lua - 2522
+C:\Games\CorsixTH\Lua\diseases\broken_wind.lua - 2575
+C:\Games\CorsixTH\Lua\diseases\chronic_nosehair.lua - 2569
+C:\Games\CorsixTH\Lua\diseases\corrugated_ankles.lua - 2604
+C:\Games\CorsixTH\Lua\diseases\discrete_itching.lua - 2584
+C:\Games\CorsixTH\Lua\diseases\fake_blood.lua - 2487
+C:\Games\CorsixTH\Lua\diseases\fractured_bones.lua - 3334
+C:\Games\CorsixTH\Lua\diseases\gastric_ejections.lua - 2598
+C:\Games\CorsixTH\Lua\diseases\golf_stones.lua - 2508
+C:\Games\CorsixTH\Lua\diseases\gut_rot.lua - 2493
+C:\Games\CorsixTH\Lua\diseases\hairyitis.lua - 2591
+C:\Games\CorsixTH\Lua\diseases\heaped_piles.lua - 2588
+C:\Games\CorsixTH\Lua\diseases\infectious_laughter.lua - 2530
+C:\Games\CorsixTH\Lua\diseases\invisibility.lua - 2346
+C:\Games\CorsixTH\Lua\diseases\iron_lungs.lua - 2513
+C:\Games\CorsixTH\Lua\diseases\jellyitis.lua - 2689
+C:\Games\CorsixTH\Lua\diseases\kidney_beans.lua - 2526
+C:\Games\CorsixTH\Lua\diseases\king_complex.lua - 2254
+C:\Games\CorsixTH\Lua\diseases\ruptured_nodules.lua - 2542
+C:\Games\CorsixTH\Lua\diseases\serious_radiation.lua - 2673
+C:\Games\CorsixTH\Lua\diseases\slack_tongue.lua - 2530
+C:\Games\CorsixTH\Lua\diseases\sleeping_illness.lua - 2577
+C:\Games\CorsixTH\Lua\diseases\spare_ribs.lua - 2505
+C:\Games\CorsixTH\Lua\diseases\sweaty_palms.lua - 2505
+C:\Games\CorsixTH\Lua\diseases\the_squits.lua - 2562
+C:\Games\CorsixTH\Lua\diseases\third_degree_sideburns.lua - 2541
+C:\Games\CorsixTH\Lua\diseases\transparency.lua - 2469
+C:\Games\CorsixTH\Lua\diseases\tv_personalities.lua - 2513
+C:\Games\CorsixTH\Lua\diseases\uncommon_cold.lua - 2578
+C:\Games\CorsixTH\Lua\diseases\unexpected_swelling.lua - 2552
+C:\Games\CorsixTH\Lua\entities\humanoid.lua - 22011
+C:\Games\CorsixTH\Lua\entities\machine.lua - 8728
+C:\Games\CorsixTH\Lua\entities\object.lua - 22261
+C:\Games\CorsixTH\Lua\entities\patient.lua - 16383
+C:\Games\CorsixTH\Lua\entities\staff.lua - 19229
+C:\Games\CorsixTH\Lua\humanoid_actions\answer_call.lua - 1536
+C:\Games\CorsixTH\Lua\humanoid_actions\call_checkpoint.lua - 1306
+C:\Games\CorsixTH\Lua\humanoid_actions\die.lua - 3701
+C:\Games\CorsixTH\Lua\humanoid_actions\idle.lua - 2348
+C:\Games\CorsixTH\Lua\humanoid_actions\knock_door.lua - 2037
+C:\Games\CorsixTH\Lua\humanoid_actions\meander.lua - 3007
+C:\Games\CorsixTH\Lua\humanoid_actions\multi_use_object.lua - 12419
+C:\Games\CorsixTH\Lua\humanoid_actions\pickup.lua - 3076
+C:\Games\CorsixTH\Lua\humanoid_actions\queue.lua - 10031
+C:\Games\CorsixTH\Lua\humanoid_actions\seek_reception.lua - 3945
+C:\Games\CorsixTH\Lua\humanoid_actions\seek_room.lua - 13442
+C:\Games\CorsixTH\Lua\humanoid_actions\seek_staffroom.lua - 2231
+C:\Games\CorsixTH\Lua\humanoid_actions\seek_toilets.lua - 2556
+C:\Games\CorsixTH\Lua\humanoid_actions\spawn.lua - 3526
+C:\Games\CorsixTH\Lua\humanoid_actions\staff_reception.lua - 3845
+C:\Games\CorsixTH\Lua\humanoid_actions\use_object.lua - 11321
+C:\Games\CorsixTH\Lua\humanoid_actions\use_screen.lua - 5417
+C:\Games\CorsixTH\Lua\humanoid_actions\use_staffroom.lua - 6616
+C:\Games\CorsixTH\Lua\humanoid_actions\walk.lua - 13735
+C:\Games\CorsixTH\Lua\languages\danish.lua - 73445
+C:\Games\CorsixTH\Lua\languages\developer.lua - 1552
+C:\Games\CorsixTH\Lua\languages\dutch.lua - 131661
+C:\Games\CorsixTH\Lua\languages\english.lua - 17383
+C:\Games\CorsixTH\Lua\languages\finnish.lua - 161015
+C:\Games\CorsixTH\Lua\languages\french.lua - 51557
+C:\Games\CorsixTH\Lua\languages\german.lua - 20150
+C:\Games\CorsixTH\Lua\languages\italian.lua - 8687
+C:\Games\CorsixTH\Lua\languages\norwegian.lua - 141598
+C:\Games\CorsixTH\Lua\languages\original_strings.lua - 65415
+C:\Games\CorsixTH\Lua\languages\portuguese.lua - 8352
+C:\Games\CorsixTH\Lua\languages\simplified_chinese.lua - 126849
+C:\Games\CorsixTH\Lua\languages\spanish.lua - 20038
+C:\Games\CorsixTH\Lua\languages\swedish.lua - 18782
+C:\Games\CorsixTH\Lua\languages\traditional_chinese.lua - 127103
+C:\Games\CorsixTH\Lua\objects\analyser.lua - 1702
+C:\Games\CorsixTH\Lua\objects\autopsy.lua - 4142
+C:\Games\CorsixTH\Lua\objects\bed.lua - 3266
+C:\Games\CorsixTH\Lua\objects\bench.lua - 5064
+C:\Games\CorsixTH\Lua\objects\bin.lua - 1509
+C:\Games\CorsixTH\Lua\objects\bookcase.lua - 1957
+C:\Games\CorsixTH\Lua\objects\cabinet.lua - 2181
+C:\Games\CorsixTH\Lua\objects\chair.lua - 5645
+C:\Games\CorsixTH\Lua\objects\comfortable_chair.lua - 2097
+C:\Games\CorsixTH\Lua\objects\computer.lua - 1968
+C:\Games\CorsixTH\Lua\objects\console.lua - 2168
+C:\Games\CorsixTH\Lua\objects\couch.lua - 2274
+C:\Games\CorsixTH\Lua\objects\crash_trolley.lua - 2722
+C:\Games\CorsixTH\Lua\objects\desk.lua - 3728
+C:\Games\CorsixTH\Lua\objects\door.lua - 5453
+C:\Games\CorsixTH\Lua\objects\drinks_machine.lua - 3761
+C:\Games\CorsixTH\Lua\objects\fire_extinguisher.lua - 1680
+C:\Games\CorsixTH\Lua\objects\helicopter.lua - 3531
+C:\Games\CorsixTH\Lua\objects\lecture_chair.lua - 2315
+C:\Games\CorsixTH\Lua\objects\litter.lua - 2594
+C:\Games\CorsixTH\Lua\objects\loo.lua - 4896
+C:\Games\CorsixTH\Lua\objects\op_sink1.lua - 2204
+C:\Games\CorsixTH\Lua\objects\op_sink2.lua - 1585
+C:\Games\CorsixTH\Lua\objects\pharmacy_cabinet.lua - 3191
+C:\Games\CorsixTH\Lua\objects\plant.lua - 9638
+C:\Games\CorsixTH\Lua\objects\pool_table.lua - 3562
+C:\Games\CorsixTH\Lua\objects\projector.lua - 2601
+C:\Games\CorsixTH\Lua\objects\radiation_shield.lua - 2570
+C:\Games\CorsixTH\Lua\objects\radiation_shield_b.lua - 1728
+C:\Games\CorsixTH\Lua\objects\radiator.lua - 1642
+C:\Games\CorsixTH\Lua\objects\reception_desk.lua - 5749
+C:\Games\CorsixTH\Lua\objects\screen.lua - 1577
+C:\Games\CorsixTH\Lua\objects\sink.lua - 2490
+C:\Games\CorsixTH\Lua\objects\skeleton.lua - 1917
+C:\Games\CorsixTH\Lua\objects\sofa.lua - 3765
+C:\Games\CorsixTH\Lua\objects\surgeon_screen.lua - 1796
+C:\Games\CorsixTH\Lua\objects\tv.lua - 1719
+C:\Games\CorsixTH\Lua\objects\video_game.lua - 2293
+C:\Games\CorsixTH\Lua\objects\x_ray_viewer.lua - 1828
+C:\Games\CorsixTH\Lua\objects\doors\entrance_left_door.lua - 1430
+C:\Games\CorsixTH\Lua\objects\doors\entrance_right_door.lua - 5273
+C:\Games\CorsixTH\Lua\objects\doors\swing_door_left.lua - 1379
+C:\Games\CorsixTH\Lua\objects\doors\swing_door_right.lua - 5487
+C:\Games\CorsixTH\Lua\objects\machines\blood_machine.lua - 4667
+C:\Games\CorsixTH\Lua\objects\machines\cardio.lua - 3043
+C:\Games\CorsixTH\Lua\objects\machines\cast_remover.lua - 4161
+C:\Games\CorsixTH\Lua\objects\machines\electrolyser.lua - 3171
+C:\Games\CorsixTH\Lua\objects\machines\hair_restorer.lua - 2784
+C:\Games\CorsixTH\Lua\objects\machines\inflator.lua - 3107
+C:\Games\CorsixTH\Lua\objects\machines\jelly_moulder.lua - 4748
+C:\Games\CorsixTH\Lua\objects\machines\operating_table.lua - 3740
+C:\Games\CorsixTH\Lua\objects\machines\operating_table_b.lua - 1990
+C:\Games\CorsixTH\Lua\objects\machines\scanner.lua - 6649
+C:\Games\CorsixTH\Lua\objects\machines\shower.lua - 2613
+C:\Games\CorsixTH\Lua\objects\machines\slicer.lua - 2799
+C:\Games\CorsixTH\Lua\objects\machines\ultrascanner.lua - 3461
+C:\Games\CorsixTH\Lua\objects\machines\x_ray.lua - 3368
+C:\Games\CorsixTH\Lua\rooms\blood_machine_room.lua - 3263
+C:\Games\CorsixTH\Lua\rooms\cardiogram.lua - 5001
+C:\Games\CorsixTH\Lua\rooms\decontamination.lua - 4139
+C:\Games\CorsixTH\Lua\rooms\electrolysis.lua - 4813
+C:\Games\CorsixTH\Lua\rooms\fracture_clinic.lua - 2956
+C:\Games\CorsixTH\Lua\rooms\general_diag.lua - 4266
+C:\Games\CorsixTH\Lua\rooms\gp.lua - 7366
+C:\Games\CorsixTH\Lua\rooms\hair_restoration.lua - 3628
+C:\Games\CorsixTH\Lua\rooms\inflation.lua - 2951
+C:\Games\CorsixTH\Lua\rooms\jelly_vat.lua - 2946
+C:\Games\CorsixTH\Lua\rooms\operating_theatre.lua - 8569
+C:\Games\CorsixTH\Lua\rooms\pharmacy.lua - 3622
+C:\Games\CorsixTH\Lua\rooms\psych.lua - 4421
+C:\Games\CorsixTH\Lua\rooms\research.lua - 6372
+C:\Games\CorsixTH\Lua\rooms\scanner_room.lua - 6203
+C:\Games\CorsixTH\Lua\rooms\slack_tongue.lua - 3148
+C:\Games\CorsixTH\Lua\rooms\staff_room.lua - 2511
+C:\Games\CorsixTH\Lua\rooms\toilets.lua - 5465
+C:\Games\CorsixTH\Lua\rooms\training.lua - 6266
+C:\Games\CorsixTH\Lua\rooms\ultrascan.lua - 2919
+C:\Games\CorsixTH\Lua\rooms\ward.lua - 5580
+C:\Games\CorsixTH\Lua\rooms\x_ray_room.lua - 3539
+C:\Games\CorsixTH\Lua\walls\blue.lua - 1545
+C:\Games\CorsixTH\Lua\walls\external.lua - 1485
+C:\Games\CorsixTH\Lua\walls\green.lua - 1546
+C:\Games\CorsixTH\Lua\walls\white.lua - 1544
+C:\Games\CorsixTH\Lua\walls\yellow.lua - 1547
+
+UAC Enabled
+
+
+VirtualStore Folders: 

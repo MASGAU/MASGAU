@@ -1,0 +1,60 @@
+Comments:
+  <game name="GeminiRue" platform="Steam">
+    <title>Gemini Rue</title>
+    <location_path environment_variable="steamcommon" path="gemini rue" />
+	<save path="Saves"/>
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+
+Game Name: Gemini Rue
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Steam\steamapps\common\gemini rue
+
+Save Path: 
+C:\Program Files (x86)\Steam\steamapps\common\gemini rue\Saves
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 80310
+Value: InstallLocation
+Data: c:\program files (x86)\steam\steamapps\common\gemini rue
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Oct 29 3:16:13 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\Saves\agssave.999 - 505935
+
+Install Folder Dump: 
+Oct 29 3:17:53 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\acsetup.cfg - 324
+Oct 29 2:21:48 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\agsteam.dll - 16896
+Oct 29 2:21:51 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\ags_shell.dll - 40960
+Oct 29 2:21:50 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\ags_snowrain.dll - 65536
+Oct 29 2:25:28 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\audio.vox - 65882884
+Oct 29 2:21:48 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\Gemini Rue Manual.txt - 3963
+Oct 29 2:23:59 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\Gemini Rue.exe - 62005980
+Oct 29 2:21:48 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\German.tra - 591883
+Oct 29 2:21:48 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\precache.lst - 656
+Oct 29 2:21:48 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\preload.lst - 656
+Oct 29 2:29:34 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\speech.vox - 152149420
+Oct 29 2:21:51 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\steam_api.dll - 118368
+Oct 29 2:21:50 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\steam_appid.txt - 5
+Oct 29 2:21:48 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\winsetup.exe - 69659
+Oct 29 3:22:52 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\Saves\agssave.001 - 1095496
+Oct 29 3:18:00 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\reslists\Saves\agssave.999 - 759056
+Oct 29 3:16:13 PM - C:\Program Files (x86)\Steam\steamapps\common\gemini rue\Saves\agssave.999 - 505935
+
+UAC Disabled or not present
+

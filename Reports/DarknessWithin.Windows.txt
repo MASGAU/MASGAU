@@ -1,0 +1,100 @@
+Comments:
+  <game name="DarknessWithin" platform="Windows">
+    <title>Darkness Within</title>
+    <location_path environment_variable="installlocation" path="Iceberg Interactive\Darkness Within" />
+    <save path="save" />
+    <contributer>%USERNAME%</contributer>
+  </game>
+
+Game Name: Darkness Within
+
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within
+
+Save Path: 
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Darkness Within: In Pursuit of Loath Nolder_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Iceberg Interactive\Darkness Within
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Darkness Within: In Pursuit of Loath Nolder_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Iceberg Interactive\Darkness Within\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{4ACC3D54-C1DC-419A-B85B-097073B72DBA}_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{4ACC3D54-C1DC-419A-B85B-097073B72DBA}_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Darkness Within
+Value: Path
+Data: C:\Program Files (x86)\Iceberg Interactive\Darkness Within
+
+Detected Start Menu Shortcuts: 
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Darkness Within 2\Config.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\Config.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Darkness Within 2\Darkness Within 2.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\DarkLineage.exe
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Games\Darkness Within 2\Uninstall Darkness Within 2.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within 2\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Iceberg Interactive\Darkness Within\Darkness Within.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\DarknessWithin.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Iceberg Interactive\Darkness Within\readme.txt.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\readme.txt
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Iceberg Interactive\Darkness Within\Uninstall Darkness Within.lnk
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\unins000.exe
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\headers - 461
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\savegame1 - 9943
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\shot1.jpg - 67190
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\temp - 9943
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\temp.jpg - 67190
+
+Install Folder Dump: 
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\beneath.bin - 66599450
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\clark.bin - 194962157
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\common.bin - 44506801
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\Config.exe - 33838
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\config.txt - 639
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\DarknessWithin.exe - 1744963
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\ebraunbell.bin - 147363677
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\howard.bin - 97985091
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\images.bin - 29391296
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\items.bin - 18074366
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\ivar.bin - 151234657
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\lnolder.bin - 21220857
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\local.bin - 37508369
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\log.txt - 37431
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\main.bin - 2074803
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\readme.txt - 29681
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\unins000.dat - 4168
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\unins000.exe - 685849
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\unknown.bin - 173714979
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\videos.bin - 95453838
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\wos.bin - 24832184
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\headers - 461
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\savegame1 - 9943
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\shot1.jpg - 67190
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\temp - 9943
+C:\Program Files (x86)\Iceberg Interactive\Darkness Within\save\temp.jpg - 67190
+
+UAC Disabled or not present
+

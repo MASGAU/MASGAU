@@ -1,0 +1,131 @@
+Game Name: Wing Commander Privateer
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOG.com\Wing Commander Privateer
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{B5B98AED-DEAD-460A-844C-33DD965B9D4F}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{B5B98AED-DEAD-460A-844C-33DD965B9D4F}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDERPRIVATEER
+Value: EXE
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer\dosbox
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDERPRIVATEER
+Value: PATH
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDERPRIVATEER
+Value: DOSBOXFOLDER
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDERPRIVATEER
+Value: DOSBOXVERSION
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGWINGCOMMANDERPRIVATEER
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wing Commander Privateer_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wing Commander Privateer_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOG.com\Wing Commander Privateer\
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander Privateer\Graphic mode setup.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander Privateer\Graphic mode setup.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander Privateer\Uninstall Wing Commander Privateer.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander Privateer\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander Privateer\Wing Commander Privateer.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\DOSBox.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander Privateer\Documents\Manual.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander Privateer\manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Wing Commander Privateer\Documents\Reference Card.lnk
+C:\Program Files (x86)\GOG.com\Wing Commander Privateer\reference_guide.pdf
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/12/2011 12:48:03 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\DELTSECT.IFF - 44
+12/12/2011 12:48:03 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\PLAYSCOR.IFF - 64
+12/12/2011 12:52:23 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\PLAYTYPE.IFF - 371
+12/12/2011 12:46:33 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\stderr.txt - 0
+12/12/2011 12:52:40 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\stdout.txt - 177
+12/12/2011 12:52:18 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\TEST1.SAV - 841
+12/12/2011 12:52:23 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\TEST2.SAV - 841
+
+Install Folder Dump:
+12/12/2011 12:38:59 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DELTSECT.IFF - 44
+6/3/2011 12:52:36 AM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\dosboxPRIV.conf - 7296
+5/30/2011 1:39:06 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\GAME.GOG - 90269696
+5/2/2011 4:50:02 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\gfw_high.ico - 119517
+6/3/2011 12:52:46 AM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\goggame.dll - 241152
+2/25/2011 4:19:10 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\Graphic mode setup.exe - 980992
+2/2/2011 2:47:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\INITCFG.PAK - 841
+11/28/2008 11:32:10 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\innosetup_license.txt - 1471
+2/2/2011 2:47:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\INSTALL.EXE - 40000
+2/2/2011 2:47:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\JEMM.OVL - 17471
+6/3/2011 12:51:30 AM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\JOYA.DAT - 34
+5/2/2011 4:42:00 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\manual.pdf - 1124220
+12/12/2011 12:45:10 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\PLAYSCOR.IFF - 64
+12/12/2011 12:43:26 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\PLAYTYPE.IFF - 371
+2/2/2011 2:47:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\PRCD.EXE - 937760
+2/2/2011 2:47:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\PRIV.CFG - 13
+2/2/2011 2:47:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\PRIV.EXE - 8325
+5/2/2011 4:43:04 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\reference_guide.pdf - 499053
+12/12/2011 12:39:45 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\RNDM1.IFF - 377
+2/2/2011 3:07:38 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\SOUND.CFG - 35
+12/12/2011 12:38:37 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\stderr.txt - 0
+12/12/2011 12:45:21 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\stdout.txt - 177
+4/20/2010 1:37:04 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\Support.ico - 62895
+2/2/2011 2:47:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\TABTNE.VDA - 9843
+2/2/2011 2:47:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\TABTXE.NDA - 13519
+12/12/2011 12:16:29 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\unins000.dat - 59586
+12/12/2011 12:16:10 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\unins000.exe - 2142547
+12/12/2011 12:16:29 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\unins000.ini - 106
+7/2/2010 2:00:16 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\dosbox-0.74.tar.gz - 1265711
+5/12/2010 12:55:40 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\DOSBox.exe - 3727360
+4/9/2010 10:04:12 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\SDL.dll - 448231
+4/9/2010 10:04:12 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\SDL_net.dll - 13312
+5/12/2010 12:52:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Documentation\dosbox_AUTHORS.txt - 276
+5/12/2010 12:52:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Documentation\dosbox_COPYING.txt - 18332
+5/12/2010 12:52:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Documentation\dosbox_INSTALL.txt - 3937
+5/12/2010 12:52:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Documentation\dosbox_NEWS.txt - 32130
+5/12/2010 12:52:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Documentation\dosbox_README.txt - 63204
+5/12/2010 12:52:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Documentation\dosbox_THANKS.txt - 1001
+5/12/2010 12:52:52 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Video Codec\Video Instructions.txt - 1608
+4/9/2010 10:08:26 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Video Codec\zmbv.dll - 94208
+4/9/2010 10:08:26 PM - C:\Program Files (x86)\GOG.com\Wing Commander Privateer\DOSBOX\Video Codec\zmbv.inf - 4043
+
+UAC Enabled
+
+
+VirtualStore Folders:
+12/12/2011 12:48:03 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\DELTSECT.IFF - 44
+12/12/2011 12:48:03 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\PLAYSCOR.IFF - 64
+12/12/2011 12:52:23 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\PLAYTYPE.IFF - 371
+12/12/2011 12:46:33 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\stderr.txt - 0
+12/12/2011 12:52:40 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\stdout.txt - 177
+12/12/2011 12:52:18 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\TEST1.SAV - 841
+12/12/2011 12:52:23 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOG.com\Wing Commander Privateer\TEST2.SAV - 841

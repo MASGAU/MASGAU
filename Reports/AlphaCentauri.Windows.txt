@@ -1,0 +1,1286 @@
+Comments:
+
+Add types for:
+
+MAPS
+SCENARIOS
+Make sure to use a modified_after!
+
+Game Name: Sid Meier's Alpha Centauri
+Operating System:
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path:
+C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri
+
+Save Path:
+C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri
+
+Local Machine Registry Entries:
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\terran.exe
+Value: Path
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\terran.exe
+Value:
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\terran.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{8276888C-1CAB-4792-8937-BE8170ADE564}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{8276888C-1CAB-4792-8937-BE8170ADE564}
+Value: ConfigGDFBinaryPath
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\goggame.dll
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{6768694C-D1C4-45C9-AFFF-6A61B1A6A86D}
+Value: ConfigApplicationPath
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{6768694C-D1C4-45C9-AFFF-6A61B1A6A86D}
+Value: AppExePath
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\terran.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIDMAIERSALPHACENTAURI
+Value: EXE
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\terran.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIDMAIERSALPHACENTAURI
+Value: PATH
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIDMAIERSALPHACENTAURI
+Value: LAUNCHCOMMAND
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\terran.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGSIDMAIERSALPHACENTAURI
+Value: SAVEGAMEFOLDER
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DirectPlay\Applications\Sid Meier's Alpha Centauri
+Value: Path
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DirectPlay\Applications\Sid Meier's Alpha Centauri
+Value: CurrentDirectory
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Sid Meier's Alpha Centauri
+Value: UninstallString
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\unins000.exe
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Sid Meier's Alpha Centauri_is1
+Value: Inno Setup: App Path
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Sid Meier's Alpha Centauri_is1
+Value: InstallLocation
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\terran.exe
+Value: Path
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\terran.exe
+Value:
+Data: C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\terran.exe
+Current User Registry Entries:
+
+Detected Start Menu Shortcuts:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Sid Meier's Alpha Centauri\Sid Meier's Alpha Centauri.lnk
+C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\terran.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Sid Meier's Alpha Centauri\Uninstall Sid Meier's Alpha Centauri.lnk
+C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\unins000.exe
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Sid Meier's Alpha Centauri\Documents\Manual.lnk
+C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Manual.pdf
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GOG.com\Sid Meier's Alpha Centauri\Documents\Readme.lnk
+C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\readme.txt
+
+Root Drive Information:
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump:
+12/12/2011 1:00:30 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Alpha Centauri Autosave 1.SAV - 506538
+12/12/2011 1:02:58 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Alpha Centauri.Ini - 647
+12/12/2011 12:59:06 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\arialn.fot - 1409
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\armorgrads.tmp - 24576
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\armorgrads_trans.tmp - 6144
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\BELIEVE.tmp - 49408
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\BELIEVEvals.tmp - 12
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\bluetint.tmp - 256
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\bodygrads.tmp - 49152
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\colorvals.tmp - 1808
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions0.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions1.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions10.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions11.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions12.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions2.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions3.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions4.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions5.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions6.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions7.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions8.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions9.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fade.tmp - 2048
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\GAIANS.tmp - 49408
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\GAIANSvals.tmp - 12
+12/12/2011 1:00:30 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hallfame.jhh - 4900
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\HIVE.tmp - 49408
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\HIVEvals.tmp - 12
+12/12/2011 1:00:28 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hof_5_1.pcx - 2079
+12/12/2011 12:58:56 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\logfile.txt - 0
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\MORGAN.tmp - 49408
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\MORGANvals.tmp - 12
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\palcheck.tmp - 1024
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\PEACE.tmp - 49408
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\PEACEvals.tmp - 12
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\reddish.tmp - 256
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\shadow.tmp - 256
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\SPARTANS.tmp - 49408
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\SPARTANSvals.tmp - 12
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\spotlight.tmp - 256
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\territory.tmp - 2048
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\UNIV.tmp - 49408
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\UNIVvals.tmp - 12
+12/12/2011 1:02:58 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\maps\testmap.MP - 143667
+12/12/2011 1:00:02 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\saves\test.SAV - 506538
+12/12/2011 1:00:08 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\saves\test2.SAV - 506538
+12/12/2011 12:59:52 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\saves\auto\Alpha Centauri Autosave 1.SAV - 506538
+12/12/2011 1:02:33 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\test scenario.SC - 284388
+
+Install Folder Dump:
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\A.cvr - 72533
+12/10/1998 4:34:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\ADROPER.cvr - 19490
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Airdp_sm.pcx - 21758
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\air_sm.pcx - 19623
+2/21/2011 3:42:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Alpha Centauri.Ini - 83
+9/13/1999 10:56:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\alpha.txt - 53073
+8/18/1998 5:13:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\ALPHC___.TTF - 39048
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Apsid.cvr - 46528
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Apwall.cvr - 23943
+9/22/1998 9:27:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\arialn.ttf - 123976
+9/22/1998 9:27:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\arialnb.ttf - 127720
+9/22/1998 9:27:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\arialnbi.ttf - 126980
+9/22/1998 9:27:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\arialni.ttf - 130180
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox0.pcx - 23021
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox1.pcx - 18239
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox10.pcx - 15601
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox11.pcx - 23663
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox12.pcx - 19381
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox13.pcx - 24344
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox14.pcx - 17736
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox15.pcx - 22833
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox16.pcx - 59228
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox17.pcx - 23462
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox18.pcx - 38551
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox19.pcx - 27299
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox2.pcx - 22275
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox20.pcx - 16413
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox21.pcx - 18424
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox22.pcx - 16808
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox23.pcx - 29730
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox24.pcx - 16815
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox3.pcx - 16056
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox4.pcx - 23022
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox5.pcx - 18035
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox6.pcx - 14113
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox7.pcx - 20644
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox8.pcx - 16801
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artbox9.pcx - 20381
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\artstolen_sm.pcx - 16101
+1/3/1999 3:28:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\art_dis_sm.pcx - 16078
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Asas.cvr - 7914
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\asctran_sm.pcx - 9576
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Asgen.cvr - 84184
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\astm_sm.pcx - 19424
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\astp_sm.pcx - 22377
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\AVGMTGUN.cvr - 19503
+7/9/1998 5:11:46 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\AVHT-GunReposition.cvr - 19508
+7/9/1998 5:13:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\AVHT-LightsReposition.cvr - 19513
+6/24/1998 1:48:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\AVI-GunReposition.cvr - 19474
+11/24/1998 4:31:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\AVTCONST.cvr - 31129
+11/24/1998 4:38:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\AVTMANIP.cvr - 29427
+11/24/1998 4:40:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\AVTPLANT.cvr - 36157
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\bad_sm.pcx - 3607
+8/10/1999 6:22:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\basename.txt - 608
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\baseobl_sm.pcx - 23404
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\battlewin.pcx - 17286
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\battlewin2.pcx - 17117
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\batwon_sm.pcx - 17204
+1/3/1999 3:31:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\believe.flc - 257214
+9/14/1999 9:49:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\believe.pcx - 236452
+8/31/1999 1:12:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\BELIEVE.TXT - 4313
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\believe2.pcx - 20978
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\believe3.pcx - 283882
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\biohazd_sm.pcx - 20935
+1/11/1999 6:38:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Blurbs.txt - 55331
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\break_sm.pcx - 7082
+8/10/1999 6:22:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Btchi.pcx - 11244
+8/10/1999 6:22:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Btisl.pcx - 12325
+8/10/1999 6:22:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Btwrm.pcx - 10586
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Bump_sm.pcx - 19135
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\bureau_sm.pcx - 20329
+1/3/1999 3:31:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\buster.flc - 566711
+1/3/1999 3:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\capture_sm.pcx - 20588
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\chiron_sm.pcx - 29641
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\cloud_sm.pcx - 18429
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\colfoun_sm.pcx - 22297
+9/12/1999 1:58:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\concepts.txt - 40451
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\conq_sm.pcx - 20477
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\console.pcx - 40248
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\console2.pcx - 50449
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\console_x.pcx - 107782
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\console_x2.pcx - 122762
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\council_sm.pcx - 9325
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\credits.pcx - 230642
+1/11/1999 6:38:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\CREDITS.TXT - 4801
+1/3/1999 3:29:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\credits2.pcx - 362118
+8/10/1999 6:22:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Cursor.pcx - 31883
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\deswin.pcx - 22498
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\dipvic_sm.pcx - 22099
+1/3/1999 3:31:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\dip_f_0.flc - 71492
+1/3/1999 3:31:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\dip_f_1.flc - 76922
+1/3/1999 3:31:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\dip_f_2.flc - 75010
+1/3/1999 3:31:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\dip_m_0.flc - 100602
+1/3/1999 3:31:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\dip_m_1.flc - 90292
+1/3/1999 3:31:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\dip_m_2.flc - 101616
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Dot0.pcx - 937
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Dot1.pcx - 953
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Dot2.pcx - 953
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Dot3.pcx - 965
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\drone_sm.pcx - 5874
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Drop.cvr - 215482
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Droplet.cvr - 37153
+1/3/1999 3:31:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\drop_pod.flc - 359966
+1/3/1999 3:31:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\drop_smoke.flc - 400487
+1/2/1999 12:36:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\EA TECHNICAL SUPPORT HELP.HLP - 647941
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\econwin_sm.pcx - 8360
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\escpod_sm.pcx - 20037
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facblt_sm.pcx - 21373
+9/22/1999 3:13:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facedit.txt - 7616
+1/3/1999 3:31:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\faction.flc - 75473
+12/9/1998 5:40:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\faction.pcx - 213296
+1/11/1999 6:38:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\FACTION.TXT - 9284
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\faction3.pcx - 296738
+1/11/1999 6:38:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\flavor.txt - 8464
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\forgr_sm.pcx - 15983
+1/3/1999 3:29:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\frame.pcx - 330083
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fung_sm.pcx - 21462
+1/3/1999 3:31:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\gaians.flc - 257296
+9/14/1999 9:46:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Gaians.pcx - 216752
+1/11/1999 6:38:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\GAIANS.TXT - 3304
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\gaians2.pcx - 21048
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Gaians3.pcx - 296738
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Genwarning_sm.pcx - 17608
+5/2/2011 5:40:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\gfw_high.ico - 130375
+6/7/2011 12:39:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\goggame.dll - 260608
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hail_sm.pcx - 15638
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hasty_sm.pcx - 3839
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\heat_sm.pcx - 19673
+9/13/1999 10:57:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\help.txt - 52448
+1/3/1999 3:31:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hive.flc - 258756
+9/14/1999 9:45:36 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hive.pcx - 230063
+8/30/1999 10:56:56 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\HIVE.TXT - 4235
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hive2.pcx - 19074
+1/3/1999 3:29:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hive3.pcx - 314908
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hof.pcx - 59854
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hoficons.pcx - 15302
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Holobook.pcx - 48978
+1/11/1999 6:38:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\holobook.txt - 1925
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\huntsk_sm.pcx - 10033
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Icons.pcx - 32998
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\iface.pcx - 165548
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\iface_down.pcx - 9164
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\iface_down2.pcx - 16431
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\iface_up.pcx - 7876
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\iface_up2.pcx - 11931
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\indbm_sm.pcx - 19977
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\infil_sm.pcx - 16471
+11/28/2008 11:32:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\innosetup_license.txt - 1471
+8/31/1999 4:13:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\interface.pcx - 132059
+9/14/1999 4:41:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Interlude.txt - 39070
+1/7/1999 10:48:50 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\ip.cfg - 98
+1/7/1999 10:48:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Ip.exe - 832000
+1/3/1999 3:29:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\isle_sm.pcx - 29605
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Jackal.pcx - 3899
+5/4/2011 12:40:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\jackal.txt - 5752
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\kelp_sm.pcx - 16753
+9/16/1999 12:42:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\labels.txt - 18543
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\liberate_sm.pcx - 18041
+1/11/1999 5:56:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\logfile.txt - 0
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\logo.pcx - 59578
+4/13/2011 4:40:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Manual.pdf - 2042298
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\markbm_sm.pcx - 16399
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\menu.pcx - 9656
+1/11/1999 6:38:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\menu.txt - 4882
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\menu2.pcx - 8817
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\mindworm_sm.pcx - 29391
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig0.pcx - 197384
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig1.pcx - 181126
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig10.pcx - 175781
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig11.pcx - 79104
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig12.pcx - 181191
+1/3/1999 3:29:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig14.pcx - 83615
+1/3/1999 3:29:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig2.pcx - 210230
+1/3/1999 3:29:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig3.pcx - 118639
+1/3/1999 3:29:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig4.pcx - 178512
+1/3/1999 3:29:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig5.pcx - 180528
+1/3/1999 3:29:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig6.pcx - 163654
+1/3/1999 3:29:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig7.pcx - 156152
+1/3/1999 3:29:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig8.pcx - 143824
+1/3/1999 3:29:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monbig9.pcx - 163129
+1/3/1999 3:29:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monicons.pcx - 280043
+1/3/1999 3:29:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monolith_sm.pcx - 14074
+12/9/1998 11:15:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monument.flc - 1764936
+1/11/1999 6:38:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monument.txt - 6010
+1/3/1999 3:29:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monzoom1.pcx - 546126
+1/3/1999 3:29:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\monzoom2.pcx - 550731
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\moon1.pcx - 16787
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\moon1_800.pcx - 10218
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\moon2.pcx - 18147
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\moon2_800.pcx - 11156
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\moon3.pcx - 19416
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\moon3_800.pcx - 12001
+1/3/1999 3:31:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\morgan.flc - 263846
+9/14/1999 9:45:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\morgan.pcx - 238390
+1/11/1999 6:38:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\MORGAN.TXT - 3376
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\morgan2.pcx - 20022
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\morgan3.pcx - 320620
+1/11/1999 6:38:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movlist.txt - 11450
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\multi.pcx - 10182
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\nativdes_sm.pcx - 28907
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\native_sm.pcx - 20052
+1/3/1999 3:29:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Navun_sm.pcx - 17590
+1/3/1999 3:29:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\newicons.pcx - 125506
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Ni.cvr - 348808
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\nlc.cvr - 14845
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Nw.cvr - 134412
+1/3/1999 3:29:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\openinga.pcx - 410006
+1/3/1999 3:29:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\openingb.pcx - 262581
+1/3/1999 3:31:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\openitem.flc - 55651
+1/3/1999 3:29:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\palette.pcx - 78073
+1/3/1999 3:31:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\peace.flc - 268966
+9/14/1999 9:43:40 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\peace.pcx - 245379
+1/11/1999 6:38:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\PEACE.TXT - 3671
+1/3/1999 3:29:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\peace2.pcx - 21175
+1/3/1999 3:29:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\peace3.pcx - 294915
+7/18/1998 12:21:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\planets.txt - 5201
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\pop_sm.pcx - 16560
+1/3/1999 1:26:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Ptmod.cvr - 24968
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\quake_sm.pcx - 20067
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Rainfall.pcx - 32988
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdengldp_sm.pcx - 27388
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdengl_sm.pcx - 25873
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdengwdp_sm.pcx - 23987
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdengw_sm.pcx - 22969
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdminl_sm.pcx - 25723
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdminwdp_sm.pcx - 23873
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdminw_sm.pcx - 22477
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdneuldp_sm.pcx - 25238
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdneul_sm.pcx - 25858
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdneuwdp_sm.pcx - 24507
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\rdneuw_sm.pcx - 25098
+5/4/2011 11:38:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\readme.txt - 39590
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Report.pcx - 9942
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L1C1.pcx - 244175
+1/3/1999 3:29:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L1C2.pcx - 246531
+1/3/1999 3:29:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L1C3.pcx - 252412
+1/3/1999 3:29:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L2C1.pcx - 244209
+1/3/1999 3:29:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L2C2.pcx - 246815
+1/3/1999 3:29:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L2C3.pcx - 252589
+1/3/1999 3:29:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L3C1.pcx - 240593
+1/3/1999 3:29:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L3C2.pcx - 247394
+1/3/1999 3:29:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S1L3C3.pcx - 253024
+1/3/1999 3:29:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L1C1.pcx - 243141
+1/3/1999 3:29:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L1C2.pcx - 249163
+1/3/1999 3:29:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L1C3.pcx - 256080
+1/3/1999 3:29:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L2C1.pcx - 243190
+1/3/1999 3:29:26 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L2C2.pcx - 249396
+1/3/1999 3:29:26 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L2C3.pcx - 256220
+1/3/1999 3:29:26 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L3C1.pcx - 243774
+1/3/1999 3:29:26 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L3C2.pcx - 249470
+1/3/1999 3:29:26 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S2L3C3.pcx - 256543
+1/3/1999 3:29:26 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L1C1.pcx - 244252
+1/3/1999 3:29:28 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L1C2.pcx - 252644
+1/3/1999 3:29:28 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L1C3.pcx - 258545
+1/3/1999 3:29:28 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L2C1.pcx - 244350
+1/3/1999 3:29:28 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L2C2.pcx - 253018
+1/3/1999 3:29:28 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L2C3.pcx - 258722
+1/3/1999 3:29:28 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L3C1.pcx - 244734
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L3C2.pcx - 253410
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\S3L3C3.pcx - 259042
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Sags.cvr - 54462
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\sancimp_sm.pcx - 20308
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\sanclift_sm.pcx - 23056
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Sas.cvr - 8826
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\satbat_sm.pcx - 18946
+1/3/1999 3:31:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\satellite.flc - 565850
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Scd.cvr - 69043
+8/10/1999 6:22:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\SCENARIO.txt - 2275
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scen_sm.pcx - 11031
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Scj.cvr - 8892
+1/28/2000 9:01:38 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Script.txt - 275395
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Sdp.cvr - 62778
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\seabas_sm.pcx - 18882
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\seafal_sm.pcx - 20119
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\searis_sm.pcx - 18420
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\secproj_sm.pcx - 17565
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\seized_sm.pcx - 18347
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\select.cvr - 86712
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Sft.cvr - 44598
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Sht.cvr - 14352
+1/3/1999 3:29:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\socwin.pcx - 40547
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\solar_sm.pcx - 21569
+8/13/2002 11:43:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\sound.dll - 606208
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\space_sm.pcx - 12375
+1/3/1999 3:31:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\spartans.flc - 258036
+9/14/1999 9:41:56 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\spartans.pcx - 236142
+8/30/1999 10:57:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\SPARTANS.TXT - 3793
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\spartans2.pcx - 22476
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\spartans3.pcx - 305183
+1/4/1999 12:22:26 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Srb.cvr - 24419
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Ssf.cvr - 81072
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\stars_sm.pcx - 19331
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\starv_sm.pcx - 20031
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\subbase_sm.pcx - 19032
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\sun_sm.pcx - 31988
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\supply_sm.pcx - 14114
+4/20/2010 1:37:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Support.ico - 62895
+12/13/1998 5:08:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\system.txt - 5002
+1/3/1999 3:29:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\talent_sm.pcx - 9720
+1/11/1999 6:38:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\TECHLONGS.TXT - 31754
+1/11/1999 6:38:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\TECHSHORTS.txt - 5949
+9/9/1999 2:16:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\ter1.pcx - 108906
+2/4/2011 11:46:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\terran.exe - 3190840
+8/10/1999 6:22:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\text.pcx - 81545
+1/3/1999 3:29:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\texture.pcx - 354174
+1/3/1999 3:31:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\turn.flc - 4473
+9/14/1999 9:25:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\tutor.txt - 51035
+12/12/2011 12:51:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\unins000.dat - 152142
+12/12/2011 12:50:25 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\unins000.exe - 2142547
+12/12/2011 12:51:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\unins000.ini - 106
+1/3/1999 3:29:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Units.pcx - 116860
+1/3/1999 3:29:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\unit_sm.pcx - 12782
+1/3/1999 3:31:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\univ.flc - 267348
+9/14/1999 9:50:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\univ.pcx - 271855
+8/30/1999 10:57:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\UNIV.TXT - 3937
+1/3/1999 3:29:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\univ2.pcx - 22004
+1/3/1999 3:29:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\univ3.pcx - 327359
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VA01.cvr - 82538
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VB.cvr - 62036
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VBp.cvr - 44133
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCL.cvr - 108697
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCLT00.cvr - 100038
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCT.cvr - 42900
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCT00.cvr - 75562
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCT01.cvr - 75457
+1/3/1999 1:26:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCT02.cvr - 83371
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCTB.cvr - 79846
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCTp.cvr - 57730
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCU.cvr - 9345
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCUA00.cvr - 77432
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCUA01.cvr - 135794
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCUp.cvr - 129619
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VCUW.cvr - 154705
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VFL.cvr - 203549
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VGMC.cvr - 56521
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VGMCp.cvr - 11380
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VGMT.cvr - 104897
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VGMTp.cvr - 44759
+1/3/1999 1:26:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VGS.cvr - 46477
+1/4/1999 12:22:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VGSp.cvr - 87383
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHR.cvr - 61238
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHT-VBp.cvr - 16486
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHTA00.cvr - 147188
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHTA01.cvr - 138752
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHTp.cvr - 24915
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHTTA00.cvr - 52143
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHTTA01.cvr - 57096
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHTTAp.CVR - 25717
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VHTTp.cvr - 37636
+1/7/1999 11:12:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VI.cvr - 191315
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vipta00.cvr - 36203
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vipta01.cvr - 36194
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Viptapsi.cvr - 24892
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Viptasgn.cvr - 18703
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Viptawal.cvr - 19288
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Viptr00.cvr - 22739
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Viptr01.cvr - 24518
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Viptr02.cvr - 22397
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Viptr03.cvr - 23072
+1/3/1999 1:26:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VJT00.cvr - 189746
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VJT01.cvr - 187697
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VJTp.cvr - 64157
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VLIGHTS.cvr - 31158
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vm.cvr - 142651
+1/3/1999 3:29:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\volc_sm.pcx - 22231
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vpbr00.cvr - 77689
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vpbr01.cvr - 86863
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vpbr02.cvr - 77626
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vpbr03.cvr - 107239
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vpt.cvr - 274567
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\vr00.cvr - 43792
+1/3/1999 1:26:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\vr01.cvr - 40937
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\vr02.cvr - 35659
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\vr03.cvr - 38650
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VRCP00.cvr - 23889
+1/2/1999 5:31:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VRCP01.cvr - 75879
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VRCP02.cvr - 34194
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VRCP03.cvr - 32301
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VSP.cvr - 77408
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VSPA01.cvr - 78412
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VSPA02.cvr - 82651
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VSPTb.cvr - 51680
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VSPTf.cvr - 37187
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VT.cvr - 185105
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vw00.cvr - 15030
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VW01.cvr - 38614
+1/3/1999 4:43:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VW02.cvr - 96790
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vw03.cvr - 91545
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VW04.cvr - 53524
+1/3/1999 1:26:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VW05.cvr - 93206
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VW06.cvr - 42037
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VW07.cvr - 61468
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vw08.cvr - 100646
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vw09.cvr - 42628
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VW10.cvr - 58290
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VW11.cvr - 71112
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vw12.cvr - 61337
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vw13.cvr - 171374
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VWNAA.cvr - 73296
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VWNST.cvr - 63411
+1/3/1999 1:26:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\VWNTT.cvr - 113805
+1/4/1999 12:22:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Vwntu.cvr - 223733
+1/3/1999 3:29:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\XF.pcx - 278454
+1/3/1999 3:29:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\xi.pcx - 88637
+11/2/1998 8:06:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac000.pcx - 3317
+11/3/1998 5:55:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac001.pcx - 3317
+11/3/1998 5:55:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac002.pcx - 4136
+11/3/1998 5:55:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac003.pcx - 3574
+11/3/1998 5:55:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac004.pcx - 3903
+11/3/1998 5:55:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac005.pcx - 5824
+11/3/1998 5:55:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac006.pcx - 3940
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac007.pcx - 4619
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac008.pcx - 4739
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac009.pcx - 4337
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac010.pcx - 4513
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac011.pcx - 5449
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac012.pcx - 4900
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac013.pcx - 7312
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac014.pcx - 4199
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac015.pcx - 4985
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac016.pcx - 5022
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac017.pcx - 4660
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac018.pcx - 4800
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac019.pcx - 4269
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac020.pcx - 4154
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac021.pcx - 4318
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac022.pcx - 3812
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac023.pcx - 5612
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac024.pcx - 4224
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac025.pcx - 4324
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac026.pcx - 4204
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac027.pcx - 3334
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac028.pcx - 3416
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac029.pcx - 3186
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac030.pcx - 3442
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac031.pcx - 5040
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac032.pcx - 4787
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac033.pcx - 5657
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac034.pcx - 4942
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac035.pcx - 3667
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac036.pcx - 5021
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac037.pcx - 4537
+11/3/1998 5:55:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\facs\fac038.pcx - 4001
+11/10/1998 6:43:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\air loop2.wav - 196860
+10/7/1998 7:57:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\amenu2.wav - 52922
+10/1/1998 10:09:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\Angels b3.wav - 118958
+10/1/1998 10:09:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\angels Eb4.wav - 114894
+9/26/1998 1:15:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bamboo voice a#1.wav - 65454
+9/22/1998 9:27:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\battle1_.wav - 568182
+9/22/1998 9:28:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\battle2_.wav - 360566
+9/26/1998 1:15:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bboop Bb2.wav - 19384
+9/26/1998 1:15:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bboop d3.wav - 12146
+9/26/1998 1:15:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bboop d4.wav - 9154
+9/26/1998 1:15:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bboop g3.wav - 10974
+9/30/1998 4:22:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bell pad a3.wav - 231586
+9/30/1998 4:22:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bell pad Eb4.wav - 184506
+11/10/1998 6:43:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\big strings c2.wav - 158898
+9/26/1998 1:15:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\big strings Db2.wav - 65236
+11/10/1998 6:43:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\big strings eb2.wav - 104364
+9/26/1998 1:15:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\big strings f2.wav - 64956
+9/26/1998 1:15:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\big strings g1.wav - 84810
+9/22/1998 9:28:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bmarimba d4.wav - 36770
+12/11/1998 10:53:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\boom.wav - 98536
+10/18/1998 4:25:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bowed viola a5.wav - 65162
+10/18/1998 4:25:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bowed viola d5.wav - 65156
+10/18/1998 4:25:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bowed viola d6.wav - 64830
+12/8/1998 11:31:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bpad c3.wav - 304906
+12/8/1998 11:31:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bpad c4.wav - 233150
+12/9/1998 3:07:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\bset1.amb - 14238
+12/8/1998 11:31:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\chase oct c4.wav - 114006
+11/10/1998 6:43:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\chiff bb3.wav - 22048
+11/10/1998 6:43:06 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\chiff eb3.wav - 24912
+9/26/1998 1:15:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\chiffloots g3.wav - 24892
+12/12/1998 12:54:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu are you certain1.wav - 71366
+9/22/1998 9:28:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu artifact lost.wav - 44610
+12/12/1998 12:54:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu bad base site.wav - 76046
+12/12/1998 12:54:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu combat report.wav - 36562
+12/12/1998 12:54:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu combat units only.wav - 59536
+12/12/1998 12:54:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu data pod recovered.wav - 48294
+9/22/1998 9:28:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu drone riots over.wav - 52194
+12/11/1998 10:53:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu drone riots.wav - 38768
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU enemy project initiated.wav - 94982
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu enemy pt gone.wav - 79352
+12/11/1998 10:53:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU energy resources.wav - 60916
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu faction gone.wav - 52100
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu golden age begun.wav - 55806
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu golden age over.wav - 58536
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu improved already.wav - 90574
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu improvement destroyed.wav - 54778
+10/14/1998 8:25:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU indigenous lifeforms.wav - 117570
+9/22/1998 9:28:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu indigent act detected.wav - 67080
+11/5/1998 9:05:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU indigent lf detected.sfk - 984
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu indigent lf detected.wav - 76144
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu insufficient energy.wav - 53426
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu invalid base site.wav - 51820
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu invalid command.wav - 50712
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu invalid terraform.wav - 74244
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu lacks ability.wav - 70380
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu max population.wav - 78722
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu mind worm attack.wav - 40440
+12/12/1998 12:54:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU mineral resources.wav - 61548
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu mission aborted.wav - 46844
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu mission accomplished.wav - 62084
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu new data.wav - 57492
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu new orders.wav - 48376
+12/11/1998 10:53:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu nn already linked.wav - 131438
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu nocando.wav - 50156
+12/11/1998 10:53:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU nutrient resources.wav - 66326
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU please don't go.wav - 236148
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu pod recovered.wav - 37102
+9/22/1998 9:28:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu prod complete.wav - 48262
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU project complete.wav - 69024
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU project initiated.wav - 77432
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu pt compromised.wav - 66404
+12/11/1998 10:53:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu pt insufficient exp.wav - 110846
+12/12/1998 12:54:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu request confirmation.wav - 58332
+12/12/1998 12:54:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu resource shortfall.wav - 54412
+11/17/1998 9:43:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU review your options.wav - 156288
+12/12/1998 12:54:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu system error.wav - 38418
+12/12/1998 12:54:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU terraform complete.wav - 65086
+12/12/1998 12:54:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu time up.wav - 66486
+9/22/1998 9:28:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu turn complete.sfk - 408
+12/12/1998 12:54:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu turn complete.wav - 45666
+12/12/1998 12:54:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\CPU unit lost.wav - 65856
+12/12/1998 12:54:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cpu units engaged.wav - 54074
+12/11/1998 10:53:30 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\crash land.wav - 485432
+9/22/1998 9:28:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cvoyage a4.wav - 64156
+10/18/1998 4:25:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cvoyage b4.wav - 52622
+9/22/1998 9:28:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cvoyage b5.wav - 64434
+9/22/1998 9:28:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cvoyage e4.wav - 63904
+9/22/1998 9:28:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\cvoyage e5.wav - 63114
+11/23/1998 4:20:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\data.wav - 203964
+9/22/1998 9:28:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\dchoir a2.wav - 249588
+9/22/1998 9:28:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\dchoir e3.wav - 259158
+11/17/1998 9:43:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\dgtr a2 5th.wav - 177060
+11/17/1998 9:43:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\dgtr d3 5th.wav - 83576
+9/26/1998 1:15:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\dyno pno d5.wav - 18094
+9/26/1998 1:15:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\dyno pno d6.wav - 13334
+9/26/1998 1:15:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\dyno pno g4.wav - 17080
+9/26/1998 1:15:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\dyno pno g5.wav - 20762
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\east west a4.wav - 64176
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\east west b5.wav - 65194
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\east west e4.wav - 65464
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\east west e5.wav - 64672
+12/11/1998 10:53:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\energy1.wav - 123452
+11/10/1998 6:43:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\estrings b6.wav - 63246
+10/1/1998 10:09:50 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac1.wav - 1343584
+10/1/1998 10:09:50 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac10.wav - 917484
+10/1/1998 10:09:52 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac11.wav - 615910
+10/1/1998 10:09:52 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac12.wav - 1140370
+10/1/1998 10:09:54 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac13.wav - 835552
+10/1/1998 10:09:54 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac14.wav - 1460242
+10/1/1998 10:09:56 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac15.wav - 577962
+10/1/1998 10:09:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac16.wav - 1408846
+10/1/1998 10:09:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac18.wav - 1418848
+10/1/1998 10:10:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac19.wav - 844960
+10/1/1998 10:10:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac2.wav - 1343584
+10/1/1998 10:10:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac23.wav - 1438754
+10/1/1998 10:10:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac24.wav - 1091380
+10/1/1998 10:10:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac25.wav - 1403616
+10/1/1998 10:10:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac26.wav - 850602
+10/1/1998 10:10:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac27.wav - 825896
+10/1/1998 10:10:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac28.wav - 1422610
+10/1/1998 10:10:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac29.wav - 1719928
+10/1/1998 10:10:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac30.wav - 1643110
+10/1/1998 10:10:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac31.wav - 829718
+10/1/1998 10:10:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac33.wav - 1148234
+10/1/1998 10:10:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac34.wav - 1286320
+10/1/1998 10:10:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac37.wav - 799792
+10/1/1998 10:10:20 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac38.wav - 620942
+10/1/1998 10:10:20 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac4.wav - 1023712
+10/1/1998 10:10:22 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac40.wav - 836986
+10/1/1998 10:10:22 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac41.wav - 1046268
+10/1/1998 10:10:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac5.wav - 602232
+10/1/1998 10:10:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac6.wav - 1546550
+10/1/1998 10:10:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fac9.wav - 1301484
+11/17/1998 9:43:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fretless b2.wav - 142374
+11/17/1998 9:43:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\fretless f#3.wav - 213994
+9/26/1998 1:15:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gap c1.wav - 148792
+9/26/1998 1:15:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gap c2.wav - 281642
+9/26/1998 1:15:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gap c3.wav - 148884
+9/26/1998 1:15:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gap c4.wav - 108602
+9/26/1998 1:15:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gap c5.wav - 84132
+9/26/1998 1:15:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gap c6.wav - 106988
+10/1/1998 10:10:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gm kit 35.wav - 26808
+9/30/1998 4:22:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gm kit a2.wav - 38218
+9/30/1998 4:22:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gm kit b2.wav - 47050
+9/30/1998 4:22:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gm kit c2.wav - 3730
+9/30/1998 4:22:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gm kit d2.wav - 46162
+10/1/1998 10:10:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gm kit d4.wav - 32506
+12/14/1998 11:46:50 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\grav ship.wav - 162658
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gset1.amb - 16754
+12/9/1998 5:11:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\gset1.dmp - 0
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\hhat1.wav - 9666
+12/14/1998 11:46:50 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\hover.wav - 237308
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\in the air a4.wav - 51382
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\in the air d2.wav - 63704
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\in the air d3.wav - 63750
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\in the air d4.wav - 64668
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\in the air d5.wav - 60096
+10/1/1998 10:10:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\ind ring Eb5.wav - 65138
+11/10/1998 6:43:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\industry b4.wav - 289460
+11/10/1998 6:43:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\industry hit b3.wav - 65162
+11/10/1998 6:43:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\industry hit c4.wav - 63358
+11/10/1998 6:43:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\industry hit e4.wav - 46010
+11/10/1998 6:43:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\industry hit g3.wav - 60854
+12/12/1998 7:16:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\infantry.wav - 350314
+12/14/1998 11:46:54 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\jet.wav - 381082
+11/17/1998 9:43:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\low drone loop.wav - 96382
+9/30/1998 4:22:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\low omino Ab3.wav - 65480
+9/30/1998 4:22:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\low omino d4.wav - 65528
+9/30/1998 4:22:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\low omino up Ab3.wav - 154826
+9/30/1998 4:22:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\low omino up d4.wav - 107206
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato a#5.wav - 65290
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato a#6.wav - 65176
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato a#7.wav - 65170
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato b4.wav - 65190
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato e5.wav - 65154
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato e6.wav - 65198
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato e7.wav - 65962
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato lng a5.wav - 65202
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\marcato lng a6.wav - 65188
+10/1/1998 10:10:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\meditation b1.wav - 64860
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\menu down.wav - 64812
+11/22/1998 1:08:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\menu out.wav - 41394
+10/18/1998 4:25:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\menu up.wav - 27188
+10/12/1998 8:37:28 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\menu2.wav - 33900
+11/10/1998 6:43:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\metal hit 2 low.wav - 278294
+12/12/1998 7:16:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\military land.wav - 325938
+12/12/1998 7:16:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\military ship.wav - 350356
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\mindworms.wav - 370774
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\mmenu.wav - 16560
+12/10/1998 3:30:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\mset1.amb - 17142
+11/10/1998 6:43:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\mute disgtr c3.wav - 63270
+11/10/1998 6:43:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\mute disgtr c4.wav - 63616
+11/10/1998 6:43:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\mute disgtr c5.wav - 63402
+11/10/1998 6:43:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\mute disgtr g3.wav - 62662
+11/10/1998 6:43:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\mute disgtr g4.wav - 60034
+12/12/1998 7:16:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\non military land.wav - 279630
+9/22/1998 9:28:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\npiano a4.wav - 59460
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\npiano d4.wav - 56854
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\npiano e5.wav - 51860
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\npiano g4.wav - 59460
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\npiano g5.wav - 45306
+12/16/1998 12:15:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\ok.wav - 9016
+12/10/1998 3:30:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\opening menu.wav - 2131630
+12/8/1998 11:31:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\orc perc b3.wav - 33738
+12/8/1998 11:31:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\orc perc c3.wav - 65754
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\orch perc a2.wav - 65204
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\orch perc a3.wav - 65130
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\orch perc f#2.wav - 64134
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\orch perc f#3.wav - 64938
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\orch perc g2.wav - 65090
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\orch perc g3.wav - 65012
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\pad2.wav - 13966
+12/16/1998 12:15:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\passover.wav - 5272
+9/26/1998 1:15:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\pdown c4.wav - 252112
+11/23/1998 4:20:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\peace drone c4.wav - 425934
+11/23/1998 4:20:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\peace drone c5.wav - 576768
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\phew flange f#2.wav - 337192
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\phew.wav - 64062
+12/11/1998 10:53:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\planet buster lead.wav - 137412
+12/11/1998 10:53:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\planet buster.wav - 684228
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\plexi plus b3.wav - 62174
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\plexi plus e2.wav - 65244
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\plexi plus e3.wav - 65116
+10/18/1998 4:25:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\plexi plus e4.wav - 63158
+10/18/1998 4:25:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\plexi plus e6.wav - 52386
+10/18/1998 4:25:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\plexi plus e7.wav - 59702
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\pop1.wav - 71410
+12/11/1998 10:53:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\projectile1.wav - 105288
+12/11/1998 10:53:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\projectile2.wav - 45756
+11/23/1998 4:21:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\pset1.amb - 464
+11/25/1998 1:08:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\psi attack.wav - 130178
+12/11/1998 10:53:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\psi blow.wav - 135578
+9/26/1998 1:15:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\psource c2.wav - 93354
+10/18/1998 4:25:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rbass c4.wav - 64972
+10/18/1998 4:25:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rbass d2.wav - 27634
+10/18/1998 4:25:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rbass e2.wav - 21700
+10/18/1998 4:25:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rbass e4.wav - 63898
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit a#2.wav - 20830
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit c#4.wav - 21690
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit c2.wav - 62772
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit d#3.wav - 34022
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit d5.wav - 64034
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit d6.wav - 26332
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit e4.wav - 5878
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit f#2.wav - 27834
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit f#5.wav - 62880
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit f3.wav - 4244
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\rkit g4.wav - 12114
+12/16/1998 12:15:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\scoot.wav - 6710
+12/16/1998 12:15:32 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\ship.wav - 236538
+11/23/1998 4:20:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\simpleton c3.wav - 43278
+11/10/1998 6:43:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\simpleton eb4.wav - 54778
+9/26/1998 1:15:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\simpleton g2.wav - 64014
+12/18/1998 3:26:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\simpleton g3.wav - 47222
+11/10/1998 6:43:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\slo flange strings bb4.wav - 97200
+11/10/1998 6:43:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\slo flange strings eb4.wav - 80596
+9/26/1998 1:15:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\slo strings c5.wav - 136386
+9/26/1998 1:15:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\slo strings e6.wav - 63168
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\soft hit.wav - 2632
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\sol phaze b4.wav - 285306
+11/17/1998 9:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\sol phaze f#5.wav - 340154
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\spiano a4.wav - 64638
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\spiano b5.wav - 64672
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\spiano e4.wav - 64968
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\spiano e5.wav - 64930
+12/12/1998 7:16:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\sset1.amb - 13295
+9/30/1998 4:22:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\steel Bb3.wav - 185458
+9/30/1998 4:22:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\steel Eb4.wav - 164874
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\stike wind e4.wav - 65174
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\strike wind a4.wav - 64390
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\strike wind b5.wav - 65186
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\strike wind b6.wav - 64676
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\strike wind e5.wav - 64436
+9/22/1998 9:28:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\strike wind e6.wav - 65404
+10/18/1998 4:25:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\svoice a2.wav - 540274
+9/22/1998 9:28:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\svoice b3.wav - 530586
+9/22/1998 9:28:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\svoice b4.wav - 527696
+9/22/1998 9:28:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\svoice d2.wav - 654194
+10/18/1998 4:25:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\svoice d3.wav - 562788
+9/22/1998 9:28:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\svoice e4.wav - 833482
+9/22/1998 9:28:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\svoice g#2.wav - 559128
+9/22/1998 9:28:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\switch1.wav - 3552
+9/26/1998 1:15:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\tech kit a2.wav - 33546
+9/26/1998 1:15:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\tech kit a4.wav - 21118
+9/26/1998 1:15:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\tech kit c1.wav - 62228
+9/26/1998 1:15:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\tech kit c3.wav - 65052
+9/26/1998 1:15:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\tech kit g3.wav - 65058
+12/8/1998 11:31:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\timp g3.wav - 113102
+9/26/1998 1:15:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\uset2.amb - 3359
+9/22/1998 9:28:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\ustart.amb - 11543
+12/8/1998 11:31:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\voice C#4.wav - 109756
+12/8/1998 11:31:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\voice d4.wav - 203432
+12/8/1998 11:31:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\voice g#3.wav - 98276
+12/8/1998 11:31:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\voice g3.wav - 197346
+9/22/1998 9:28:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\voxmar g4.wav - 62346
+11/10/1998 6:43:12 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\waterphone c4.wav - 1698562
+11/10/1998 6:43:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\waterphone c5.wav - 747898
+11/10/1998 6:43:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\waterphone c6.wav - 648546
+11/10/1998 6:43:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\waterphone g5.wav - 773268
+11/17/1998 9:43:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\wind a3.wav - 471922
+11/17/1998 9:43:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fx\wind e4.wav - 1251462
+12/12/1998 7:16:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\maps\planet.MP - 143667
+12/12/1998 7:16:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\maps\planetx.MP - 363525
+11/30/1998 7:34:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\asceticVirtues.wve - 8160174
+12/8/1998 1:02:28 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\believe.wve - 1232148
+11/24/1998 11:09:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\bulkMatter.wve - 7867250
+11/24/1998 12:39:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\citizensDefense.wve - 8526686
+12/6/1998 1:10:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\clinical_Immortality.wve - 7356746
+12/2/1998 1:03:20 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\cloningVats.wve - 4880372
+11/24/1998 11:02:36 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\commandNexus.wve - 4756412
+12/2/1998 7:16:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\cyborgFactory.wve - 4611694
+12/2/1998 7:08:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\dreamTwister.wve - 6209688
+12/8/1998 1:13:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\empathGuild.wve - 6225360
+12/8/1998 1:00:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\gaians.wve - 1256260
+12/8/1998 1:01:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\hive.wve - 1230692
+12/8/1998 1:17:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\humanGenome.wve - 5704826
+11/30/1998 7:27:42 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\hunterSeeker.wve - 6161978
+11/24/1998 12:34:46 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\livingRefinery.wve - 8595108
+12/8/1998 1:18:46 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\longevityVaccine.wve - 6302916
+12/8/1998 1:19:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\loseman.wve - 1115512
+12/8/1998 1:20:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\losewoman.wve - 1093064
+11/24/1998 11:14:38 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\maritimeControl.wve - 7167302
+11/24/1998 12:31:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\merchantExchange.wve - 7053730
+12/8/1998 1:03:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\morgan.wve - 1251968
+12/11/1998 11:58:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\nanofactory.wve - 5246356
+12/8/1998 2:52:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\networkBackbone.wve - 8066974
+12/6/1998 1:04:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\neuralAmplifier.wve - 6256452
+12/13/1998 7:39:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\opening.wve - 30260454
+12/8/1998 1:04:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\peace.wve - 1267508
+11/30/1998 7:23:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\pholusMutagen.wve - 6629246
+12/2/1998 7:19:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\planetaryDatalinks.wve - 8271872
+12/2/1998 7:21:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\planetaryTransit.wve - 5641494
+7/29/1998 5:29:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\playuv15.exe - 159232
+12/8/1998 2:55:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\selfAwareColony.wve - 9102524
+11/30/1998 7:32:34 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\singularityInductor.wve - 4904850
+11/24/1998 11:13:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\spaceElevator.wve - 8122806
+12/8/1998 1:05:20 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\spartans.wve - 1235284
+12/6/1998 1:05:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\supercollider.wve - 2556084
+12/2/1998 7:22:46 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\telepathicMatrix.wve - 5931824
+12/2/1998 8:26:22 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\theoryOfEverything.wve - 5426246
+12/2/1998 8:27:30 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\theyTranscend.wve - 3728218
+12/8/1998 2:59:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\transcend.wve - 13220126
+12/8/1998 1:05:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\univ.wve - 1251392
+12/6/1998 1:07:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\universalTranslator.wve - 4635040
+11/24/1998 11:22:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\virtualWorld.wve - 6220392
+12/11/1998 11:59:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\voiceOfPlanet.wve - 8501278
+11/30/1998 7:39:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\weatherParadigm.wve - 4948068
+11/30/1998 7:30:18 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\movies\xenoempathyDome.wve - 6202072
+11/5/1998 10:55:44 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj000.pcx - 5250
+11/5/1998 10:55:46 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj001.pcx - 4039
+11/5/1998 10:55:46 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj002.pcx - 4028
+11/5/1998 10:55:46 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj003.pcx - 5286
+11/5/1998 10:55:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj004.pcx - 4701
+11/5/1998 10:55:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj005.pcx - 4267
+11/5/1998 10:55:48 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj006.pcx - 7217
+11/5/1998 10:55:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj007.pcx - 6028
+11/5/1998 10:55:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj008.pcx - 5038
+11/5/1998 10:55:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj009.pcx - 4592
+11/5/1998 10:55:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj010.pcx - 4962
+11/5/1998 10:55:50 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj011.pcx - 6436
+11/5/1998 10:55:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj012.pcx - 5660
+11/5/1998 10:55:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj013.pcx - 5317
+11/5/1998 10:55:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj014.pcx - 5400
+11/5/1998 10:55:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj015.pcx - 4403
+11/5/1998 10:55:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj016.pcx - 5400
+11/5/1998 10:55:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj017.pcx - 5466
+11/5/1998 10:55:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj018.pcx - 5631
+11/5/1998 10:55:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj019.pcx - 4825
+11/5/1998 10:55:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj020.pcx - 5284
+11/5/1998 10:55:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj021.pcx - 5822
+11/5/1998 10:55:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj022.pcx - 4885
+11/5/1998 10:55:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj023.pcx - 4764
+11/5/1998 10:55:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj024.pcx - 4918
+11/5/1998 10:55:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj025.pcx - 6051
+11/5/1998 10:55:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj026.pcx - 4745
+11/5/1998 10:55:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj027.pcx - 5140
+11/5/1998 10:55:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj028.pcx - 6213
+11/5/1998 10:55:58 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj029.pcx - 6361
+11/5/1998 10:56:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj030.pcx - 4660
+11/5/1998 10:56:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj031.pcx - 5783
+11/5/1998 10:56:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\projs\proj032.pcx - 6781
+12/14/1998 11:56:42 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\1Explore\Explore.SC - 195086
+12/14/1998 5:52:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\1Explore\scenario.txt - 2236
+12/10/1998 11:03:20 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\2Build\alpha.txt - 52186
+12/14/1998 11:57:42 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\2Build\Build.SC - 195866
+12/14/1998 12:17:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\2Build\scenario.txt - 3556
+12/10/1998 1:03:14 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\2Build\tutor.txt - 49114
+12/14/1998 11:58:42 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\3Conquer\conquer.SC - 196594
+12/14/1998 12:17:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\3Conquer\scenario.txt - 1958
+4/28/1999 2:22:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Borehole\Borehole.SC - 199286
+4/30/1999 5:14:16 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Borehole\Readme.txt - 2794
+4/15/1999 8:14:56 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Borehole\scenario.txt - 1953
+4/21/1999 5:48:24 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Borehole\ter1.pcx - 97017
+7/14/1999 7:07:26 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\borehole2\Boreho2p.SC - 286156
+6/9/1999 11:41:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\borehole2\Readme.txt - 2015
+6/22/1999 7:24:10 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\borehole2\scenario.txt - 1347
+12/14/1998 12:00:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Believers v University\Believers v University.sc - 203918
+12/1/1998 8:47:22 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Believers v University\BvU35.SC - 193774
+12/14/1998 12:17:54 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Believers v University\scenario.txt - 2305
+12/1/1998 8:47:22 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Gaians v Morgans\G v M42.SC - 197002
+12/14/1998 11:55:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Gaians v Morgans\Gaians v Morgans.SC - 206366
+12/14/1998 12:18:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Gaians v Morgans\scenario.txt - 2139
+12/14/1998 12:18:16 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Spartans v Peaceks\scenario.txt - 2339
+12/14/1998 11:55:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Spartans v Peaceks\Spartans v Peacekeepers.SC - 201686
+12/1/1998 8:47:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\Faction v Faction\Spartans v Peaceks\SvP11.SC - 191490
+12/14/1998 11:50:12 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\MP--2 PlayerA\Dogpile.sc - 243543
+12/14/1998 12:18:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\MP--2 PlayerA\scenario.txt - 1783
+12/14/1998 11:49:22 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\MP--4 PlayerA\Huckle Buckle.sc - 239487
+12/14/1998 12:18:40 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\MP--4 PlayerA\scenario.txt - 2245
+11/24/1998 2:38:08 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\MP--4 PlayerB\Base 13.SC - 187494
+12/14/1998 11:51:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\MP--4 PlayerB\Land Rush.sc - 197638
+12/14/1998 12:18:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\MP--4 PlayerB\scenario.txt - 1944
+12/14/1998 12:18:54 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\SP--7 PlayerA\scenario.txt - 1792
+12/14/1998 11:52:14 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\SP--7 PlayerA\Single Player Fun.SC - 239715
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech000.pcx - 6470
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech001.pcx - 3300
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech002.pcx - 3690
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech003.pcx - 4106
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech004.pcx - 3859
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech005.pcx - 4365
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech006.pcx - 4138
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech007.pcx - 4589
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech008.pcx - 5407
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech009.pcx - 5072
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech010.pcx - 4052
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech011.pcx - 3616
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech012.pcx - 4264
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech013.pcx - 3928
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech014.pcx - 10553
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech015.pcx - 4070
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech016.pcx - 4246
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech017.pcx - 3865
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech018.pcx - 3226
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech019.pcx - 5052
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech020.pcx - 5366
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech021.pcx - 6358
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech022.pcx - 4914
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech023.pcx - 6085
+10/19/1998 1:04:52 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech024.pcx - 4239
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech025.pcx - 3780
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech026.pcx - 4239
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech027.pcx - 5566
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech028.pcx - 3962
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech029.pcx - 4611
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech030.pcx - 3684
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech031.pcx - 4095
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech032.pcx - 3906
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech033.pcx - 4809
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech034.pcx - 4227
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech035.pcx - 3954
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech036.pcx - 4712
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech037.pcx - 3791
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech038.pcx - 4245
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech039.pcx - 3857
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech040.pcx - 4610
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech041.pcx - 3396
+10/14/1998 9:35:36 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech042.pcx - 4382
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech043.pcx - 3914
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech044.pcx - 3970
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech045.pcx - 6246
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech046.pcx - 3852
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech047.pcx - 4196
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech048.pcx - 3318
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech049.pcx - 5775
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech050.pcx - 7780
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech051.pcx - 5781
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech052.pcx - 3533
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech053.pcx - 4455
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech054.pcx - 4627
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech055.pcx - 3956
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech056.pcx - 4656
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech057.pcx - 4762
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech058.pcx - 3910
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech059.pcx - 5230
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech060.pcx - 4193
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech061.pcx - 4986
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech062.pcx - 3842
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech063.pcx - 4994
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech064.pcx - 4258
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech065.pcx - 5242
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech066.pcx - 3483
+10/14/1998 9:35:38 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech067.pcx - 3799
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech068.pcx - 3825
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech069.pcx - 4682
+10/19/1998 1:04:54 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech070.pcx - 5035
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech071.pcx - 4734
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech072.pcx - 3962
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech073.pcx - 4885
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech074.pcx - 5011
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech075.pcx - 5035
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech076.pcx - 4667
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech077.pcx - 4068
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech078.pcx - 3834
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech079.pcx - 3654
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech080.pcx - 3684
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech081.pcx - 3720
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech082.pcx - 3748
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech083.pcx - 3711
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech084.pcx - 3796
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech085.pcx - 3638
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech086.pcx - 3780
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech087.pcx - 3793
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech088.pcx - 3630
+10/14/1998 9:35:40 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\techs\tech089.pcx - 3432
+12/12/1998 7:17:00 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\believe.mp3 - 213368
+12/18/1998 8:57:54 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac1.mp3 - 251820
+11/30/1998 8:47:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac10.mp3 - 174497
+11/30/1998 8:47:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac11.mp3 - 279196
+12/18/1998 8:57:54 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac12.mp3 - 206471
+11/30/1998 8:47:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac13.mp3 - 159869
+11/30/1998 8:47:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac14.mp3 - 273136
+11/30/1998 8:47:18 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac15.mp3 - 112640
+11/30/1998 8:47:20 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac16.mp3 - 263732
+12/18/1998 8:57:54 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac17.mp3 - 198739
+12/18/1998 8:57:56 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac18.mp3 - 257253
+11/30/1998 8:47:20 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac19.mp3 - 161332
+11/30/1998 8:47:20 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac2.mp3 - 251820
+11/30/1998 8:47:20 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac20.mp3 - 236773
+12/18/1998 8:57:56 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac21.mp3 - 297795
+12/18/1998 8:57:56 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac22.mp3 - 269374
+12/18/1998 8:57:56 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac23.mp3 - 258925
+11/30/1998 8:47:22 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac24.mp3 - 206262
+11/30/1998 8:47:22 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac25.mp3 - 262687
+11/30/1998 8:47:22 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac26.mp3 - 162377
+12/18/1998 8:57:56 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac27.mp3 - 157152
+11/30/1998 8:47:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac28.mp3 - 266240
+12/11/1998 10:54:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac29.mp3 - 315350
+11/30/1998 8:47:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac3.mp3 - 107415
+11/30/1998 8:47:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac30.mp3 - 306155
+11/30/1998 8:47:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac31.mp3 - 216293
+11/30/1998 8:47:24 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac32.mp3 - 241371
+12/18/1998 8:57:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac33.mp3 - 146285
+12/18/1998 8:57:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac34.mp3 - 196231
+11/30/1998 8:47:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac35.mp3 - 120790
+11/30/1998 8:47:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac36.mp3 - 208770
+12/18/1998 8:57:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac37.mp3 - 158197
+11/30/1998 8:47:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac38.mp3 - 197903
+11/30/1998 8:47:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac4.mp3 - 193724
+12/18/1998 8:57:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac5.mp3 - 114311
+11/30/1998 8:47:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac6.mp3 - 288600
+11/30/1998 8:47:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac7.mp3 - 167392
+12/18/1998 8:57:58 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac8.mp3 - 159869
+11/30/1998 8:47:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\fac9.mp3 - 244297
+12/12/1998 7:17:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\gaians.mp3 - 159869
+12/12/1998 7:17:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\hive.mp3 - 291526
+12/12/1998 7:17:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\morgan.mp3 - 224235
+11/5/1998 9:05:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\openingf.mp3 - 151092
+11/5/1998 9:05:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\openingm.mp3 - 156525
+12/12/1998 7:17:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\peace.mp3 - 333113
+12/12/1998 7:17:02 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\spartans.mp3 - 157988
+11/30/1998 8:47:30 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech0.mp3 - 302184
+11/30/1998 8:47:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech1.mp3 - 194560
+11/30/1998 8:47:28 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech10.mp3 - 92995
+12/18/1998 8:58:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech11.mp3 - 129776
+12/18/1998 8:58:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech12.mp3 - 171572
+11/30/1998 8:47:30 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech13.mp3 - 188499
+11/30/1998 8:47:30 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech14.mp3 - 131448
+11/30/1998 8:47:30 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech15.mp3 - 169064
+12/18/1998 8:58:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech16.mp3 - 105743
+11/30/1998 8:47:30 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech17.mp3 - 140643
+11/30/1998 8:47:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech18.mp3 - 268747
+11/30/1998 8:47:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech19.mp3 - 200829
+11/30/1998 8:47:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech2.mp3 - 213368
+11/30/1998 8:47:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech20.mp3 - 136254
+11/30/1998 8:47:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech21.mp3 - 193724
+12/18/1998 8:58:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech22.mp3 - 262269
+11/30/1998 8:47:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech23.mp3 - 65828
+12/18/1998 8:58:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech24.mp3 - 169482
+12/18/1998 8:58:00 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech25.mp3 - 128940
+11/30/1998 8:47:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech26.mp3 - 144822
+11/30/1998 8:47:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech27.mp3 - 165302
+12/18/1998 8:58:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech28.mp3 - 136881
+11/30/1998 8:47:36 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech29.mp3 - 117028
+11/30/1998 8:47:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech3.mp3 - 167392
+11/30/1998 8:47:34 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech30.mp3 - 231758
+12/18/1998 8:58:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech31.mp3 - 163631
+12/18/1998 8:58:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech32.mp3 - 252865
+11/30/1998 8:47:36 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech33.mp3 - 249103
+11/5/1998 9:05:32 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech34.mp3 - 222981
+12/18/1998 8:58:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech35.mp3 - 147330
+12/18/1998 8:58:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech36.mp3 - 165720
+11/30/1998 8:47:36 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech37.mp3 - 290063
+11/30/1998 8:47:36 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech38.mp3 - 195813
+11/30/1998 8:47:36 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech39.mp3 - 101355
+12/18/1998 8:58:02 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech4.mp3 - 173035
+12/18/1998 8:58:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech40.mp3 - 192888
+12/18/1998 8:58:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech41.mp3 - 256208
+12/18/1998 8:58:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech42.mp3 - 175333
+12/18/1998 8:58:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech43.mp3 - 126223
+11/30/1998 8:47:38 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech44.mp3 - 152764
+11/30/1998 8:47:38 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech45.mp3 - 259343
+11/30/1998 8:47:40 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech46.mp3 - 217756
+11/30/1998 8:47:40 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech47.mp3 - 216293
+11/30/1998 8:47:40 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech48.mp3 - 163213
+11/30/1998 8:47:40 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech49.mp3 - 184737
+11/30/1998 8:47:40 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech5.mp3 - 166765
+12/18/1998 8:58:04 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech50.mp3 - 266866
+11/30/1998 8:47:40 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech51.mp3 - 132075
+12/18/1998 8:58:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech52.mp3 - 326635
+11/30/1998 8:47:42 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech53.mp3 - 109714
+11/30/1998 8:47:42 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech54.mp3 - 204800
+12/18/1998 8:58:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech55.mp3 - 302393
+11/30/1998 8:47:42 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech56.mp3 - 144822
+12/18/1998 8:58:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech57.mp3 - 128731
+11/30/1998 8:47:42 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech58.mp3 - 217756
+11/30/1998 8:47:42 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech59.mp3 - 89861
+11/30/1998 8:47:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech6.mp3 - 174080
+11/30/1998 8:47:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech60.mp3 - 293616
+11/30/1998 8:47:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech61.mp3 - 100101
+12/11/1998 10:54:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech62.mp3 - 155271
+12/18/1998 8:58:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech63.mp3 - 203755
+12/18/1998 8:58:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech64.mp3 - 111386
+12/18/1998 8:58:06 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech65.mp3 - 273345
+11/30/1998 8:47:44 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech66.mp3 - 198739
+11/30/1998 8:47:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech67.mp3 - 204173
+11/30/1998 8:47:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech68.mp3 - 108460
+11/30/1998 8:47:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech69.mp3 - 169064
+11/30/1998 8:47:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech7.mp3 - 140643
+11/30/1998 8:47:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech70.mp3 - 67082
+11/30/1998 8:47:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech71.mp3 - 184946
+11/30/1998 8:47:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech72.mp3 - 264777
+11/30/1998 8:47:46 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech73.mp3 - 279405
+11/30/1998 8:47:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech74.mp3 - 287346
+11/30/1998 8:47:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech75.mp3 - 214204
+12/18/1998 8:58:08 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech76.mp3 - 184528
+11/30/1998 8:47:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech77.mp3 - 283167
+11/30/1998 8:47:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech8.mp3 - 217129
+12/12/1998 12:54:26 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech88.mp3 - 115983
+11/30/1998 8:47:48 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech9.mp3 - 233430
+12/11/1998 10:54:10 AM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\tech92.mp3 - 115983
+12/12/1998 7:17:04 PM - C:\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\voices\univ.mp3 - 179722
+
+UAC Enabled
+
+
+VirtualStore Folders:
+12/12/2011 1:00:30 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Alpha Centauri Autosave 1.SAV - 506538
+12/12/2011 1:02:58 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\Alpha Centauri.Ini - 647
+12/12/2011 12:59:06 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\arialn.fot - 1409
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\armorgrads.tmp - 24576
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\armorgrads_trans.tmp - 6144
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\BELIEVE.tmp - 49408
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\BELIEVEvals.tmp - 12
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\bluetint.tmp - 256
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\bodygrads.tmp - 49152
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\colorvals.tmp - 1808
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions0.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions1.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions10.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions11.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions12.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions2.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions3.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions4.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions5.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions6.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions7.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions8.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\explosions9.tmp - 4096
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\fade.tmp - 2048
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\GAIANS.tmp - 49408
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\GAIANSvals.tmp - 12
+12/12/2011 1:00:30 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hallfame.jhh - 4900
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\HIVE.tmp - 49408
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\HIVEvals.tmp - 12
+12/12/2011 1:00:28 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\hof_5_1.pcx - 2079
+12/12/2011 12:58:56 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\logfile.txt - 0
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\MORGAN.tmp - 49408
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\MORGANvals.tmp - 12
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\palcheck.tmp - 1024
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\PEACE.tmp - 49408
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\PEACEvals.tmp - 12
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\reddish.tmp - 256
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\shadow.tmp - 256
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\SPARTANS.tmp - 49408
+12/12/2011 12:59:11 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\SPARTANSvals.tmp - 12
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\spotlight.tmp - 256
+12/12/2011 12:59:09 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\territory.tmp - 2048
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\UNIV.tmp - 49408
+12/12/2011 12:59:10 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\UNIVvals.tmp - 12
+12/12/2011 1:02:58 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\maps\testmap.MP - 143667
+12/12/2011 1:00:02 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\saves\test.SAV - 506538
+12/12/2011 1:00:08 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\saves\test2.SAV - 506538
+12/12/2011 12:59:52 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\saves\auto\Alpha Centauri Autosave 1.SAV - 506538
+12/12/2011 1:02:33 PM - C:\Users\Matthew\AppData\Local\VirtualStore\Program Files (x86)\GOGcom\Sid Meiers Alpha Centauri\scenarios\test scenario.SC - 284388
