@@ -10,12 +10,13 @@ namespace MASGAU
 		private global::Gtk.Label emailLabel;
 		private global::Gtk.Button buttonCancel;
 		private global::Gtk.Button buttonSave;
-        
+		
 		protected virtual void Build ()
 		{
 			global::Stetic.Gui.Initialize (this);
 			// Widget MASGAU.EmailDialog
 			this.Name = "MASGAU.EmailDialog";
+			this.Title = global::Mono.Unix.Catalog.GetString ("EmailRequest");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 			// Internal child MASGAU.EmailDialog.VBox
 			global::Gtk.VBox w1 = this.VBox;
@@ -39,7 +40,7 @@ namespace MASGAU
 			this.frame1.Add (this.GtkAlignment2);
 			this.emailLabel = new global::Gtk.Label ();
 			this.emailLabel.Name = "emailLabel";
-			this.emailLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("<b>GtkFrame</b>");
+			this.emailLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("ChangeLaterInSettings");
 			this.emailLabel.UseMarkup = true;
 			this.frame1.LabelWidget = this.emailLabel;
 			w1.Add (this.frame1);

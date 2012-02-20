@@ -14,7 +14,7 @@ namespace MASGAU
 		private global::Gtk.Button submitButton;
 		private global::Gtk.Button buttonCancel;
 		private global::Gtk.Button buttonOk;
-        
+		
 		protected virtual void Build ()
 		{
 			global::Stetic.Gui.Initialize (this);
@@ -68,7 +68,7 @@ namespace MASGAU
 			this.exceptionExpander.Add (this.GtkScrolledWindow);
 			this.exceptionLabel = new global::Gtk.Label ();
 			this.exceptionLabel.Name = "exceptionLabel";
-			this.exceptionLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("GtkExpander");
+			this.exceptionLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("ExceptionInformation");
 			this.exceptionLabel.UseUnderline = true;
 			this.exceptionExpander.LabelWidget = this.exceptionLabel;
 			w1.Add (this.exceptionExpander);

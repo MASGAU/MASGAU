@@ -1,43 +1,31 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Analyzer.Gtk/ReportDialog.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Translations/Strings.cs">
     <Files>
-      <File FileName="MASGAU.Analyzer.Gtk/ReportDialog.cs" Line="51" Column="38" />
-    </Files>
-    <Files>
-      <File FileName="build.py" Line="1" Column="1" />
+      <File FileName="Translations/Strings.cs" Line="98" Column="13" />
+      <File FileName="MASGAU.Main.Gtk/MainWindow.cs" Line="22" Column="38" />
+      <File FileName="MASGAU.Gtk/SettingsWidget.cs" Line="10" Column="18" />
+      <File FileName="MASGAU.Monitor.Gtk/MainWindow.cs" Line="12" Column="3" />
+      <File FileName="Translations/Strings/en.xml" Line="13" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-<<<<<<< .mine
-          <Node name="MASGAU.Analyzer.Gtk" expanded="True">
-            <Node name="References" expanded="True" selected="True" />
+          <Node name="Translations" expanded="True">
+            <Node name="Strings" expanded="True" />
+            <Node name="Strings.cs" selected="True" />
           </Node>
-=======
-          <Node name="MASGAU" selected="True" />
->>>>>>> .r368
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU.Gtk/Window.cs" line="35" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU.Main/MainProgramHandler.cs" line="30" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU/Masgau.cs" line="138" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU/Masgau.cs" line="136" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU.Main.Gtk/MainWindow.cs" line="42" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU/SettingsHandler.cs" line="43" />
-      <Breakpoint file="C:\Documents and Settings\tkmayn9\Desktop\MSGU\branches\0.10\MASGAU.Gtk\WrappedWidgets\WrapperHelper.cs" line="13" />
-      <Breakpoint file="C:\Documents and Settings\tkmayn9\Desktop\MSGU\branches\0.10\MASGAU.Analyzer.Gtk\SearchingDialog.cs" line="54" />
-      <Breakpoint file="C:\Documents and Settings\tkmayn9\Desktop\MSGU\branches\0.10\MASGAU.Analyzer.Gtk\SearchingDialog.cs" line="47" />
-      <Breakpoint file="c:\Documents and Settings\tkmayn9\Desktop\MSGU\branches\0.10\MASGAU.Gtk\GTKHelpers.cs" line="33" />
+      <Breakpoint file="/Users/tkmayn9/Documents/MASGAU/MASGAU.Gtk/GTKHelpers.cs" line="38" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="MASGAU.Gtk\Window.cs" line="31" offsetX="486" offsetY="510" expression="e" liveUpdate="False" />
-    <Watch file="MASGAU.Main.Gtk\MainWindow.cs" line="34" offsetX="569" offsetY="597" expression="e" liveUpdate="False" />
-    <Watch file="c:\Documents and Settings\tkmayn9\Desktop\MSGU\branches\0.10\MASGAU.Analyzer.Gtk\SearchingDialog.cs" line="27" offsetX="276" offsetY="416" expression="output" liveUpdate="False" />
+    <Watch file="MASGAU.Gtk/GTKHelpers.cs" line="37" offsetX="403" offsetY="540" expression="Label" liveUpdate="False" />
+    <Watch file="MASGAU.Gtk/GTKHelpers.cs" line="37" offsetX="407" offsetY="588" expression="string_title" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

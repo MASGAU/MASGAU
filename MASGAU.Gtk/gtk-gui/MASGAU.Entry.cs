@@ -5,7 +5,7 @@ namespace MASGAU
 	public partial class Entry
 	{
 		private global::Gtk.Entry entry1;
-        
+		
 		protected virtual void Build ()
 		{
 			global::Stetic.Gui.Initialize (this);

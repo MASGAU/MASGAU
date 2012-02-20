@@ -85,7 +85,7 @@
             <child>
               <widget class="Gtk.Label" id="exceptionLabel">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes">GtkExpander</property>
+                <property name="LabelProp" translatable="yes">ExceptionInformation</property>
                 <property name="UseUnderline">True</property>
               </widget>
               <packing>
@@ -163,6 +163,7 @@
   </widget>
   <widget class="Gtk.Dialog" id="MASGAU.EmailDialog" design-size="400 300">
     <property name="MemberName" />
+    <property name="Title" translatable="yes">EmailRequest</property>
     <property name="WindowPosition">CenterOnParent</property>
     <property name="Buttons">2</property>
     <property name="HelpButton">False</property>
@@ -194,7 +195,7 @@
             <child>
               <widget class="Gtk.Label" id="emailLabel">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes">&lt;b&gt;GtkFrame&lt;/b&gt;</property>
+                <property name="LabelProp" translatable="yes">ChangeLaterInSettings</property>
                 <property name="UseMarkup">True</property>
               </widget>
               <packing>
@@ -253,6 +254,13 @@
           </packing>
         </child>
       </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Bin" id="MASGAU.SettingsWidget" design-size="300 300">
+    <property name="MemberName" />
+    <property name="Visible">False</property>
+    <child>
+      <placeholder />
     </child>
   </widget>
 </stetic-interface>

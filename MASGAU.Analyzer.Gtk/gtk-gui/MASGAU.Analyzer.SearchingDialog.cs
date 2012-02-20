@@ -6,7 +6,7 @@ namespace MASGAU.Analyzer
 	{
 		private global::Gtk.ProgressBar progressbar1;
 		private global::Gtk.Button cancelButton;
-        
+		
 		protected virtual void Build ()
 		{
 			global::Stetic.Gui.Initialize (this);

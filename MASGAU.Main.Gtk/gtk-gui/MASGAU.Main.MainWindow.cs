@@ -114,7 +114,7 @@ namespace MASGAU.Main
 		private global::Gtk.ScrolledWindow GtkScrolledWindow3;
 		private global::Gtk.TreeView treeview2;
 		private global::Gtk.Label GtkLabel33;
-		private global::Gtk.Label label7;
+		private global::Gtk.Label siteUrlLabel;
 		private global::Gtk.Label label5;
 		private global::Gtk.Statusbar statusbar3;
 		private global::Gtk.ProgressBar progressbar1;
@@ -134,7 +134,7 @@ namespace MASGAU.Main
 			this.notebook1 = new global::Gtk.Notebook ();
 			this.notebook1.CanFocus = true;
 			this.notebook1.Name = "notebook1";
-			this.notebook1.CurrentPage = 0;
+			this.notebook1.CurrentPage = 4;
 			// Container child notebook1.Gtk.Notebook+NotebookChild
 			this.alignment2 = new global::Gtk.Alignment (0.5F, 0.5F, 1F, 1F);
 			this.alignment2.Name = "alignment2";
@@ -689,13 +689,13 @@ namespace MASGAU.Main
 			this.hbox8.Homogeneous = true;
 			this.hbox8.Spacing = 6;
 			// Container child hbox8.Gtk.Box+BoxChild
-			this.versioningFrequencySpin = new global::Gtk.SpinButton (1D, 100D, 1D);
+			this.versioningFrequencySpin = new global::Gtk.SpinButton (1, 100, 1);
 			this.versioningFrequencySpin.CanFocus = true;
 			this.versioningFrequencySpin.Name = "versioningFrequencySpin";
-			this.versioningFrequencySpin.Adjustment.PageIncrement = 10D;
-			this.versioningFrequencySpin.ClimbRate = 1D;
+			this.versioningFrequencySpin.Adjustment.PageIncrement = 10;
+			this.versioningFrequencySpin.ClimbRate = 1;
 			this.versioningFrequencySpin.Numeric = true;
-			this.versioningFrequencySpin.Value = 1D;
+			this.versioningFrequencySpin.Value = 1;
 			this.hbox8.Add (this.versioningFrequencySpin);
 			global::Gtk.Box.BoxChild w127 = ((global::Gtk.Box.BoxChild)(this.hbox8 [this.versioningFrequencySpin]));
 			w127.Position = 0;
@@ -727,11 +727,11 @@ namespace MASGAU.Main
 			this.GtkAlignment20.RightPadding = ((uint)(3));
 			this.GtkAlignment20.BottomPadding = ((uint)(3));
 			// Container child GtkAlignment20.Gtk.Container+ContainerChild
-			this.versioninMaxCopiesSpin = new global::Gtk.SpinButton (0D, 100D, 1D);
+			this.versioninMaxCopiesSpin = new global::Gtk.SpinButton (0, 100, 1);
 			this.versioninMaxCopiesSpin.CanFocus = true;
 			this.versioninMaxCopiesSpin.Name = "versioninMaxCopiesSpin";
-			this.versioninMaxCopiesSpin.Adjustment.PageIncrement = 10D;
-			this.versioninMaxCopiesSpin.ClimbRate = 1D;
+			this.versioninMaxCopiesSpin.Adjustment.PageIncrement = 10;
+			this.versioninMaxCopiesSpin.ClimbRate = 1;
 			this.versioninMaxCopiesSpin.Numeric = true;
 			this.GtkAlignment20.Add (this.versioninMaxCopiesSpin);
 			this.frame10.Add (this.GtkAlignment20);
@@ -910,11 +910,11 @@ namespace MASGAU.Main
 			this.GtkAlignment13.RightPadding = ((uint)(3));
 			this.GtkAlignment13.BottomPadding = ((uint)(3));
 			// Container child GtkAlignment13.Gtk.Container+ContainerChild
-			this.taskTimeOfDaySpin = new global::Gtk.SpinButton (0D, 100D, 1D);
+			this.taskTimeOfDaySpin = new global::Gtk.SpinButton (0, 100, 1);
 			this.taskTimeOfDaySpin.CanFocus = true;
 			this.taskTimeOfDaySpin.Name = "taskTimeOfDaySpin";
-			this.taskTimeOfDaySpin.Adjustment.PageIncrement = 10D;
-			this.taskTimeOfDaySpin.ClimbRate = 1D;
+			this.taskTimeOfDaySpin.Adjustment.PageIncrement = 10;
+			this.taskTimeOfDaySpin.ClimbRate = 1;
 			this.taskTimeOfDaySpin.Numeric = true;
 			this.GtkAlignment13.Add (this.taskTimeOfDaySpin);
 			this.frame13.Add (this.GtkAlignment13);
@@ -970,13 +970,13 @@ namespace MASGAU.Main
 			this.GtkAlignment15.RightPadding = ((uint)(3));
 			this.GtkAlignment15.BottomPadding = ((uint)(3));
 			// Container child GtkAlignment15.Gtk.Container+ContainerChild
-			this.dayOfTheMonthSpin = new global::Gtk.SpinButton (1D, 31D, 1D);
+			this.dayOfTheMonthSpin = new global::Gtk.SpinButton (1, 31, 1);
 			this.dayOfTheMonthSpin.CanFocus = true;
 			this.dayOfTheMonthSpin.Name = "dayOfTheMonthSpin";
-			this.dayOfTheMonthSpin.Adjustment.PageIncrement = 10D;
-			this.dayOfTheMonthSpin.ClimbRate = 1D;
+			this.dayOfTheMonthSpin.Adjustment.PageIncrement = 10;
+			this.dayOfTheMonthSpin.ClimbRate = 1;
 			this.dayOfTheMonthSpin.Numeric = true;
-			this.dayOfTheMonthSpin.Value = 1D;
+			this.dayOfTheMonthSpin.Value = 1;
 			this.GtkAlignment15.Add (this.dayOfTheMonthSpin);
 			this.frame16.Add (this.GtkAlignment15);
 			this.GtkLabel31 = new global::Gtk.Label ();
@@ -1124,7 +1124,7 @@ namespace MASGAU.Main
 			// Container child vbox8.Gtk.Box+BoxChild
 			this.label6 = new global::Gtk.Label ();
 			this.label6.Name = "label6";
-			this.label6.LabelProp = global::Mono.Unix.Catalog.GetString ("<b>MASGAU Automatic Save Game Archive Utility v.0.9</b>");
+			this.label6.LabelProp = global::Mono.Unix.Catalog.GetString ("MASGAU");
 			this.label6.UseMarkup = true;
 			this.vbox8.Add (this.label6);
 			global::Gtk.Box.BoxChild w204 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.label6]));
@@ -1160,12 +1160,12 @@ namespace MASGAU.Main
 			global::Gtk.Box.BoxChild w208 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.frame17]));
 			w208.Position = 2;
 			// Container child vbox8.Gtk.Box+BoxChild
-			this.label7 = new global::Gtk.Label ();
-			this.label7.Name = "label7";
-			this.label7.LabelProp = global::Mono.Unix.Catalog.GetString ("<u>http://masgau.sourceforge.net</u>");
-			this.label7.UseMarkup = true;
-			this.vbox8.Add (this.label7);
-			global::Gtk.Box.BoxChild w209 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.label7]));
+			this.siteUrlLabel = new global::Gtk.Label ();
+			this.siteUrlLabel.Name = "siteUrlLabel";
+			this.siteUrlLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("<u>http://masgau.sourceforge.net</u>");
+			this.siteUrlLabel.UseMarkup = true;
+			this.vbox8.Add (this.siteUrlLabel);
+			global::Gtk.Box.BoxChild w209 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.siteUrlLabel]));
 			w209.Position = 3;
 			w209.Expand = false;
 			w209.Fill = false;
