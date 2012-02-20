@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console.Linux", "MAS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations", "Translations\Translations.csproj", "{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Monitor.Gtk", "MASGAU.Monitor.Gtk\MASGAU.Monitor.Gtk.csproj", "{2F98BD41-5165-4A0D-865B-C6AF154D52B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2DCACDC2-8139-40AC-87C6-EB5AF73E7219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DCACDC2-8139-40AC-87C6-EB5AF73E7219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DCACDC2-8139-40AC-87C6-EB5AF73E7219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F98BD41-5165-4A0D-865B-C6AF154D52B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F98BD41-5165-4A0D-865B-C6AF154D52B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F98BD41-5165-4A0D-865B-C6AF154D52B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F98BD41-5165-4A0D-865B-C6AF154D52B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Release|Any CPU.ActiveCfg = Release|Any CPU
