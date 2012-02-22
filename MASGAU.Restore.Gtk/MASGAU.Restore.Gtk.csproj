@@ -5,11 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2F98BD41-5165-4A0D-865B-C6AF154D52B8}</ProjectGuid>
+    <ProjectGuid>{A5912FD5-AE33-4219-B30C-B782A4EBA5C4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MASGAU.Monitor.Gtk</RootNamespace>
-    <AssemblyName>MASGAU.Monitor.Gtk</AssemblyName>
-    <ReleaseVersion>0.10</ReleaseVersion>
+    <RootNamespace>MASGAU.Restore.Gtk</RootNamespace>
+    <AssemblyName>MASGAU.Restore.Gtk</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,17 +52,17 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\MASGAU.Monitor\MASGAU.Monitor.csproj">
-      <Project>{4232A9BF-FEB6-43CE-B1DA-FD9738179197}</Project>
-      <Name>MASGAU.Monitor</Name>
+    <ProjectReference Include="..\MASGAU\MASGAU.csproj">
+      <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
+      <Name>MASGAU</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.Gtk\MASGAU.Gtk.csproj">
       <Project>{C2F897BF-9BAC-4CA3-B4D0-2F9E57E2A519}</Project>
       <Name>MASGAU.Gtk</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU\MASGAU.csproj">
-      <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
-      <Name>MASGAU</Name>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
+      <Name>Translations</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

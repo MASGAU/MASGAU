@@ -1,19 +1,25 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Translations/Strings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Restore.Gtk/MainWindow.cs">
     <Files>
-      <File FileName="Translations/Strings.cs" Line="98" Column="13" />
-      <File FileName="MASGAU.Main.Gtk/MainWindow.cs" Line="22" Column="38" />
-      <File FileName="MASGAU.Gtk/SettingsWidget.cs" Line="10" Column="18" />
-      <File FileName="MASGAU.Monitor.Gtk/MainWindow.cs" Line="12" Column="3" />
-      <File FileName="Translations/Strings/en.xml" Line="13" Column="23" />
+      <File FileName="Translations/Strings.cs" Line="101" Column="1" />
+      <File FileName="MASGAU.Main.Gtk/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="MASGAU.Gtk/SettingsWidget.cs" Line="1" Column="1" />
+      <File FileName="MASGAU.Monitor.Gtk/MainWindow.cs" Line="31" Column="3" />
+      <File FileName="Translations/Strings/en.xml" Line="104" Column="29" />
+      <File FileName="MASGAU.Restore.Gtk/MainWindow.cs" Line="9" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
+          <Node name="MASGAU.Monitor" expanded="True" />
+          <Node name="MASGAU.Monitor.Gtk" expanded="True" />
+          <Node name="MASGAU.Restore.Gtk" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="MainWindow.cs" selected="True" />
+          </Node>
           <Node name="Translations" expanded="True">
             <Node name="Strings" expanded="True" />
-            <Node name="Strings.cs" selected="True" />
           </Node>
         </State>
       </Pad>
