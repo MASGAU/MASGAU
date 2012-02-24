@@ -79,15 +79,28 @@ namespace Translations {
 
         }
 
+        public static string get(string name)
+        {
+            if (name == null)
+                return "NULL STRING";
 
-        public static string get(string name) {
+            if (name == "")
+                return "EMPTY STRING";
+
             if (strings.ContainsKey(name))
                 return strings[name];
 
             if (strings.ContainsKey(name))
                 return strings[name];
 
-            throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
+
+            switch (name)
+            {
+                case "-":
+                    return name;
+                default:
+                    throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
+            }
         }
 
         // Event handler to take care of XML errors while reading game configs

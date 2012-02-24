@@ -53,7 +53,23 @@
   <string name="PlayStation">PlayStation</string>
   <string name="Steam">Steam</string>
   
-	<!-- MessageBox strings-->	
+  <!-- Location names - Most of these will NOT need to be translated, but are here to accomodate the auto-translate system -->
+  <string name="MyComputer">My Computer</string>
+  <string name="ProgramFiles">Program Files</string>
+  <string name="ProgramFilesX86">Program Files (x86)</string>
+  <string name="MyDocuments">My Documents</string>
+  <string name="SavedGames">Saved Games</string>
+  <string name="VirtualStore">VirtualStore</string>
+
+  <string name="LocalAppData">Local AppData</string>
+  <string name="AppData">(Roaming) AppData</string>
+  <string name="Steamapps">Steamapps</string>
+  <string name="PublicUser">Public User</string>
+  <string name="AllUsers">All Users/ProgramData</string>
+  
+  <!-- MessageBox strings-->
+  <string name="Label">Label</string>
+  <string name="MessageBox">Message Box</string>
 	<string name="ExceptionInformation">Exception Information</string>
 	
 	<!-- Email Button strings -->
@@ -104,6 +120,10 @@
   <string name="RestoreTitle">MASGAU Is Restoring</string>
   <string name="Restore">Restore</string>
   <string name="Restoring">Restoring</string>
+  <string name="Detecting">Detecting</string>
+  <string name="Choosing">Choosing</string>
+  <string name="Done">Done</string>
+  <string name="Files">Files</string>
   <string name="SelectFiles">Select Files</string>
 
   <string name="RestoreNoCandidatesFound">No Restore Candidates Found</string>
@@ -129,7 +149,6 @@
   <string name="RestoreSomeFailed">Some archives did not restore</string>
   
   
-  
   <!-- Windows 7 Jump List -->
   <string name="JumpMainProgram">%MainProgram%</string>
   <string name="JumpMainProgramDescription">%Open% %MASGAUPlural% %MainProgram%</string>
@@ -149,6 +168,7 @@
   <string name="GameInstallQuestion">Where Is The Game Installed?</string>
   <string name="GameSavesQuestion">Where Does The Game Keep Its Saves?</string>
   <string name="ScanButton">_Scan And Generate Report</string>
+  <string name="InstallFolder">Install Folder</string>
   <!-- Folder browser titles -->
   <string name="GameInstallPrompt">Select Install Folder</string>
   <string name="GameSavesPrompt">Select Save Location</string>
@@ -159,6 +179,7 @@
   <string name="PlayStationLocationPrompt">Select PlayStation Saves Folder</string>
 	<!-- Searching window -->
 	<string name="SearchingWindowTitle">Seaching For Game Information...</string>
+  <string name="SearchingHeader">Where To Look First...</string>
   <string name="DumpingSaveFolder">Dumping Save Folder...</string>
   <string name="DumpingInstallFolder">Dumping Install Folder...</string>
   <string name="DumpingVirtualStoreFolder">Dumping VirtualStore Folders...</string>
