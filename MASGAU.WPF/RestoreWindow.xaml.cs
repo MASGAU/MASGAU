@@ -76,7 +76,7 @@ namespace MASGAU.Restore
             choosePathButton.Visibility = System.Windows.Visibility.Visible;
 
             if(restore.game_data.restore_comment!=null) {
-                restoreDoneText.Text = restore.game_data.restore_comment + Environment.NewLine + Environment.NewLine + "Other than that, the restore is done!";
+                restoreDoneText.Text = restore.game_data.restore_comment + Environment.NewLine + Environment.NewLine + Strings.get("RestoreCompleteWithComment") ;
             }
 
             refreshPaths();

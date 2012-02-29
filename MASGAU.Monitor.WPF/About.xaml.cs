@@ -21,6 +21,7 @@ namespace MASGAU.Monitor
         public About(AWindow owner): base(owner)
         {
             InitializeComponent();
+            WPFHelpers.translateWindow(this);
             this.masgauLbl.Content += Core.version;
             siteLink.NavigateUri = new Uri(Core.site_url);
             siteLink.Inlines.Clear();

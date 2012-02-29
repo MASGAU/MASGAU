@@ -11,11 +11,14 @@
   
   <!-- Probably shouldn't translate this one -->
   <string name="MASGAU">MASGAU</string>
+  <string name="MASGAUFullTitle">MASGAU Automatic Save Game Archive Utility</string>
   <string name="MASGAUPlural">%MASGAU%'s</string>
   
   <!-- Common strings-->
   <string name="Loading">Loading</string>
-
+  <string name="Ready">Ready</string>
+  <string name="Progress">Progress</string>
+  
   <string name="Portable">Portable</string>
   <string name="MainProgram">Main Program</string>
   <string name="AllUsersMode">All Users Mode</string>
@@ -24,9 +27,14 @@
   <string name="Stop">Stop</string>
   <string name="Stopping">Stopping</string>
   <string name="Finished">All done</string>
+  <string name="Backup">Backup</string>
+  <string name="Open">Open</string>
 
+  <string name="About">About</string>
+  
   <!-- Button stuff (the underlines are for key combos, so choose letters wisely) -->
   <string name="SelectButton">_Select</string>
+  <string name="ApplyButton">_Apply</string>
   <string name="SubmitButton">_Submit</string>
   <string name="StopButton">_Stop</string>
   <string name="SaveButton">_Save</string>
@@ -72,7 +80,80 @@
   <string name="MessageBox">Message Box</string>
 	<string name="ExceptionInformation">Exception Information</string>
 	
-	<!-- Email Button strings -->
+  <!-- Main Window strings-->
+  <string name="MainWindow">Main Window</string>
+  
+  <!-- Backup tab -->
+  <string name="NoGamesDetected">No Games Detected</string>
+  
+  <string name="GameNameColumn">Secret Name (Don't Tell Anyone!)</string>
+  <string name="GameTitleColumn">Game</string>
+  <string name="GamePlatformColumn">Platform</string>
+  <string name="GameBackupColumn">Backup</string>
+  
+  <string name="RedetectGamesButton">_Redetect Games</string>
+  <string name="BackupNoGamesButton">Back Nothing Up</string>
+  <string name="BackupOneGameButton">_Back This Up</string>
+  <string name="BackupMultipleGamesButtonPrefix">_Back These</string> <!-- A number will be inserted between these two-->
+  <string name="BackupMultipleGamesButtonSuffix">Up</string>
+  <string name="BackupAllGamesButton">Back _Everything Up</string>
+  <string name="BackupOneGameMenu">Back This Up</string>
+  <string name="BackupMultipleGamesMenu">Back These Up</string>
+
+  <string name="DetectedGames">Detected Games</string>
+
+  <string name="BackupContextCreateCustomArchive">Create Custom Archive</string>
+  <string name="BackupContextBackupNoGames">Back Nothing Up</string>
+  <string name="BackupContextPurge">Purge</string>
+  <string name="BackupContextEnableBackup">Enable Backup</string>
+  
+  <!-- Restore tab -->
+  <string name="ArchiveNameColumn">Game</string>
+  <string name="ArchiveTypeColumn">Type</string>
+  <string name="ArchiveOwnerColumn">Owner</string>
+  <string name="ArchiveDateColumn">Date</string>
+  
+  <string name="ReloadArchivesButton">_Reload Archives</string>
+  <string name="RestoreOtherBackup">Restore _Other Archive(s)</string>
+  <string name="RestoreNoneButton">Restore Nothing</string>
+  <string name="RestoreOneButton">Restore _This</string>
+  <string name="RestoreMultipleButton">Restore _These</string>
+
+  <string name="NoArchivesFound">No Archives Found In Backup Folder</string>
+
+  <string name="BackupFolderNotSet">Backup Folder Has Not Been Set\nYou Can Set It From The Settings Tab</string>
+  
+  <string name="SelectArchive">Select Archive(s) To Restore</string>
+  <string name="FileNotArchiveTitle">File not archive</string>
+  <string name="FileNotArchiveMessage">This file is not a properly formatted MASGAU archive.</string>
+
+  <!-- Task tab-->
+  <string name="Schedule">Schedule</string>
+  <string name="EnterTaskCredentialsTitle">Pander To Me</string>
+  <string name="EnterTaskCredentialsMessage">You must enter a password for the user the task will be running as,\nwhich is shown in the little text box right there.</string>
+  <string name="UnableToCreateTaskTitle">What Did I Just Tell You</string>
+  <string name="UnableToCreateTaskMessage">Unable to create task. The task has been deleted.</string>
+
+  <string name="DeleteTaskButton">_Delete Task</string>
+
+  <string name="Frequency">Frequency</string>
+  <string name="TimeOfDay">Time Of Day</string>
+  <string name="DayOfTheWeek">Day Of The Week</string>
+  <string name="DayOfTheMonth">Day Of The Month</string>
+
+  <string name="TaskCredentials">User And Password To Run Task As</string>
+  
+  <!-- About tab-->
+  <string name="Contributor">Contributor</string>
+  <string name="Count">Count</string>
+  
+  <!-- Custom tab -->
+  <string name="Custom">Custom</string>
+  
+  <!-- Custom archive strings-->
+  <string name="WhereSaveArchive">And where would you like to put this backup?</string>
+  
+  <!-- Email Button strings -->
 	<string name="CheckingConnection">Checking Connection...</string>
 	<string name="SendReport">_Send Report</string>
 	<string name="CantSendReport">Can't Send Report</string>
@@ -117,7 +198,7 @@
   <string name="SelectSteamPathRejectedMessage">The selected folder does not contain Steam.exe, so it's probably not a Steam folder</string>
 
   <!-- Restore process -->
-  <string name="RestoreTitle">MASGAU Is Restoring</string>
+  <string name="RestoreTitle">%MASGAU% Is Restoring</string>
   <string name="Restore">Restore</string>
   <string name="Restoring">Restoring</string>
   <string name="Detecting">Detecting</string>
@@ -147,7 +228,8 @@
   <string name="RestoreMultipleArchivesMessage">You're restoring more than one archive,\nwould you like MASGAU to not prompt you for input unless absolutely necessary?</string>
   
   <string name="RestoreSomeFailed">Some archives did not restore</string>
-  
+
+  <string name="RestoreCompleteWithComment">Other than that, the restore is done!</string>
   
   <!-- Windows 7 Jump List -->
   <string name="JumpMainProgram">%MainProgram%</string>
@@ -156,12 +238,23 @@
   <string name="JumpMainProgramAllUsersDescription">Open %MASGAUPlural% %MainProgram% In %AllUsersMode%</string>
   <string name="JumpAnalyzer">%AnalyzerWindowTitle%</string>
   <string name="JumpAnalyzerDescription">%Open% %MASGAUPlural% %AnalyzerWindowTitle%</string>
-  <string name="JumpMonitor">%MonitorWindowTitle%</string>
-  <string name="JumpMonitorDescription">%Open% %MASGAUPlural% %MonitorWindowTitle%</string>
+  <string name="JumpMonitor">%MonitorTitle%</string>
+  <string name="JumpMonitorDescription">%Open% %MASGAUPlural% %MonitorTitle%</string>
 
   <!-- Monitor-specific strings -->
-  <string name="MonitorWindowTitle">Monitor</string>
-  
+  <string name="Monitor">Monitor</string>
+  <string name="MonitorTitle">%MASGAU% %Monitor%</string>
+  <string name="MonitorSettingUp">%MonitorTitle% is setting up...</string>
+  <string name="MonitorMenuRescanGames">Rescan Games</string>
+  <string name="MonitorMenuAbout">About</string>
+  <string name="MonitorMenuSettings">Settings...</string>
+  <string name="MonitorMenuExit">Exit</string>
+  <string name="MonitorNegativeGames">%MonitorTitle% is...WHAT!??!</string>
+  <string name="MonitorZeroGames">%MonitorTitle% isn't stalking any games</string>
+  <string name="MonitorOneGame">%MonitorTitle% is stalking a single game</string>
+  <string name="MonitorMultipleGamesPrefix">%MonitorTitle% is stalking"</string>
+  <string name="MonitorMultipleGamesSuffix">"games"</string>
+
   <!-- Analyzer-specific strings -->
   <string name="AnalyzerWindowTitle">Save Game Analyzer</string>
   <string name="GameNameQuestion">What Is The Game's Name?</string>
@@ -192,7 +285,9 @@
   <string name="AnalyzerDisclaimer">Submitted reports are published to a public server. No one involved with MASGAU can be held liable for any repurcusions from the publishing of sensitive information through these reports, so please carefully look over and edit the report for any information that you do not want to be made public. By submitting a report you are agreeing that it is free for public dispersal.</string>
 	
 	<!-- File types -->
-	<string name="TxtFileDescription">Text file</string>
+  <string name="Gb7FileDescription">MASGAU Save Archive</string>
+  <string name="Gb7FileDescriptionPlural">MASGAU Save Archives</string>
+  <string name="TxtFileDescription">Text file</string>
 	<string name="TxtFileDescriptionPlural">Text files</string>
 	<string name="AllFileDescription">All file</string>
 	<string name="AllFileDescriptionPlural">All files</string>
@@ -200,10 +295,13 @@
 	<!-- Error messages -->
   <string name="Error">Error</string>
   <string name="ReadWriteErrorTitle">Literacy %Error%</string>
+  <string name="UserLoadError">User Load %Error%</string>
   <!-- Permission errors -->
   <string name="ReadPermissionError">You don't have permission to read from</string>
   <string name="WritePermissionError">You don't have permission to write to</string>
-  
+  <string name="ProcessRestorePermissionError">Error while trying to change process restore permission for reading other users</string>
+  <string name="ProcessBackupPermissionError">Error while trying to change process backup permission for reading other users</string>
+
   <!-- Write errors-->
   <string name="WriteError">Error while trying to write</string>
 	<string name="WriteErrorPrompt">Pick somewhere else</string>
@@ -211,6 +309,20 @@
   <string name="SettingsLoadError">Something Went Wrong While Loading Settings.\nI Have No Idea What</string>
   <!-- Registry Errors -->
   <string name="RegistryKeyLoadError">Error While Loading Registry Key</string>
+  <string name="UserRegistryLoadError">Error while trying to load the registry file for user</string> <!-- A user name will immediately follow this string -->
+
+  <string name="NoFilesFound">No Files Found</string>
   
-	
+  <!-- Updater strings -->
+  <string name="UpdaterWindowTitle">%MASGAU% Feels Inferior</string>
+  <string name="CheckingForUpdates">Checking for updates...</string>
+  <string name="UpdatesAvailable">There Are Updates Available</string>
+  <string name="UpdateButton">_Update Them</string>
+  <string name="DontUpdateButton">_Don't Update Them</string>
+  <string name="UpdateCompleteButton">Update Complete! Click Here to Close!</string>
+  <string name="UpdateComplete">Update Complete!</string>
+  <string name="Updates">Updates</string>
+  <string name="Update">Update</string>
+  <string name="Current">Current</string>
+  <string name="Latest">Latest</string>
 </strings>

@@ -23,6 +23,7 @@ namespace MASGAU.Monitor
         public MonitorSettingsWindow()
         {
             InitializeComponent();
+            WPFHelpers.translateWindow(this);
             this.gamesLst.DataContext = Core.games;
 
             this.syncPathText.DataContext = Core.settings;

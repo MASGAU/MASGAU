@@ -26,7 +26,6 @@ namespace MASGAU
         public SettingsControl()
         {
             InitializeComponent();
-            WPFHelpers.translateControl(this);
         }
 
         public void bindSettingsControls() {

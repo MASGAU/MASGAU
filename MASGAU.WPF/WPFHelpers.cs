@@ -52,7 +52,9 @@ namespace MASGAU {
               obj is TextBox ||
                 obj is ProgressBar ||
                 obj is ComboBox ||
-                obj is Image) {
+                obj is Image ||
+                obj is TreeView ||
+              obj is PasswordBox) {
           } else            if (obj is Grid)
             {
                 Grid grid = obj as Grid;
@@ -87,34 +89,52 @@ namespace MASGAU {
                 translateHeader(head);
                 translateRecursively(head.Content as UIElement);
             }
-            else if (obj is Button || obj is Label)
+            else if (obj is Button || obj is Label || obj is CheckBox || obj is ToggleButton)
             {
                 translateContent(obj as ContentControl);
             }
             else if (obj is ListView)
             {
                 ListView list = obj as ListView;
-                GridView view = list.View as GridView;
-                foreach (GridViewColumn col in view.Columns)
+                if (list.View != null)
                 {
-                    translateColumnHeader(col);
+                    GridView view = list.View as GridView;
+                    if (view.Columns != null)
+                    {
+                        foreach (GridViewColumn col in view.Columns)
+                        {
+                            translateColumnHeader(col);
+                        }
+                    }
                 }
             }
-   
-            else
-            {
-                throw new Exception("Can't translate object");
-            }
+          else if (obj is TextBlock)
+          {
+              translateText(obj as TextBlock);
+          }
+          else if (obj is UserControl)
+          {
+              translateControl(obj as UserControl);
+          }
+          else
+          {
+              throw new Exception("Can't translate object");
+          }
         }
 
         private static void translateTitle(AWindow window) {
             string string_title = window.Title.ToString();
             window.Title = Strings.get(string_title);
         }
+
         private static void translateText(TextBlock text) {
             string string_title = text.Text.ToString();
-            text.Text = Strings.get(string_title);
+            if (string_title != "")
+            {
+                text.Text = Strings.get(string_title);
+            }
         }
+
         private static void translateContent(ContentControl control)
         {
             if (control.Content == null)
@@ -141,6 +161,11 @@ namespace MASGAU {
             control.Header = Strings.get(string_title);
         }
         private static void translateColumnHeader(GridViewColumn control) {
+            if (control.Header == null)
+            {
+                control.Header = Strings.get(null);
+                return;
+            }
             string string_title = control.Header.ToString();
             control.Header = Strings.get(string_title);
         }
