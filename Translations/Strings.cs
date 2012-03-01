@@ -15,8 +15,8 @@ namespace Translations {
 
         private static Dictionary<string, string> strings = new Dictionary<string, string>();
 
-
         private static XmlReaderSettings xml_settings;
+
         static Strings() {
             xml_settings = new XmlReaderSettings();
             xml_settings.ConformanceLevel = ConformanceLevel.Auto;
@@ -36,6 +36,7 @@ namespace Translations {
 
             loadRegion();
         }
+
         public static void overrideRegion(string new_language, string new_region) {
             language = new_language;
             region = new_region;

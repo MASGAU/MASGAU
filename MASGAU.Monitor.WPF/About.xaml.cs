@@ -22,7 +22,7 @@ namespace MASGAU.Monitor
         {
             InitializeComponent();
             WPFHelpers.translateWindow(this);
-            this.masgauLbl.Content += Core.version;
+            this.masgauLbl.Content += " v." + Core.version;
             siteLink.NavigateUri = new Uri(Core.site_url);
             siteLink.Inlines.Clear();
             siteLink.Inlines.Add(Core.site_url);

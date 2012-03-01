@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd" >
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd" lang="en">
   <!--  For some of these, there are pairs of strings that have the same name,
         but one will have Title at the end, and the other Message.
         These are for dialog boxes that are entirely translated, and should be
@@ -29,6 +29,9 @@
   <string name="Finished">All done</string>
   <string name="Backup">Backup</string>
   <string name="Open">Open</string>
+
+  <string name="Game">Game</string>
+  <string name="Games">Games</string>
 
   <string name="About">About</string>
   
@@ -90,6 +93,7 @@
   <string name="GameTitleColumn">Game</string>
   <string name="GamePlatformColumn">Platform</string>
   <string name="GameBackupColumn">Backup</string>
+
   
   <string name="RedetectGamesButton">_Redetect Games</string>
   <string name="BackupNoGamesButton">Back Nothing Up</string>
@@ -255,6 +259,17 @@
   <string name="MonitorMultipleGamesPrefix">%MonitorTitle% is stalking"</string>
   <string name="MonitorMultipleGamesSuffix">"games"</string>
 
+  <!-- Monitor settings window-->
+  <string name="MonitorSettingsTitle">%MASGAU% %Monitor% %Settings%</string>
+  <string name="SyncPath">Sync Path</string>
+  <string name="GameSyncColumn">Sync</string>
+  <string name="GameSyncLocationColumn">Sync Location</string>
+
+  <string name="StartMonitorOnLogin">Start Monitor On Login</string>
+  <string name="FullBackupOnMonitorStartup">Full Backup On Monitor Startup</string>
+
+  <string name="AboutWindowCloseButton">Um...Okay. _Thanks For That.</string>
+  
   <!-- Analyzer-specific strings -->
   <string name="AnalyzerWindowTitle">Save Game Analyzer</string>
   <string name="GameNameQuestion">What Is The Game's Name?</string>

@@ -48,6 +48,18 @@ namespace MASGAU {
         }
 
         private static void translateRecursively(UIElement obj) {
+            if (obj is FrameworkElement)
+            {
+                FrameworkElement fe = obj as FrameworkElement;
+                if (fe.ContextMenu != null)
+                {
+                    foreach (MenuItem item in fe.ContextMenu.Items)
+                    {
+                        translateMenuItem(item);
+                    }
+                }
+            }
+
           if (obj ==null||
               obj is TextBox ||
                 obj is ProgressBar ||
@@ -122,6 +134,7 @@ namespace MASGAU {
           }
         }
 
+
         private static void translateTitle(AWindow window) {
             string string_title = window.Title.ToString();
             window.Title = Strings.get(string_title);
@@ -132,6 +145,14 @@ namespace MASGAU {
             if (string_title != "")
             {
                 text.Text = Strings.get(string_title);
+            }
+        }
+        private static void translateMenuItem(MenuItem item)
+        {
+            string string_title = item.Header.ToString();
+            if (string_title != "")
+            {
+                item.Header = Strings.get(string_title);
             }
         }
 
