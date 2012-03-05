@@ -11,7 +11,7 @@
   </import>
   <widget class="Gtk.Window" id="AnalyzerWindow" design-size="645 315">
     <property name="MemberName" />
-    <property name="Title" translatable="yes">MASGAU Analyzer</property>
+    <property name="Title" translatable="yes">AnalyzerWindowTitle</property>
     <property name="WindowPosition">CenterOnParent</property>
     <property name="Resizable">False</property>
     <property name="AllowGrow">False</property>
@@ -43,6 +43,7 @@
             <child>
               <widget class="Gtk.Label" id="gameNameLbl">
                 <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">GameNameQuestion</property>
                 <property name="UseMarkup">True</property>
               </widget>
               <packing>
@@ -89,6 +90,7 @@
                     <child>
                       <widget class="Gtk.Label" id="gameLocationLbl">
                         <property name="MemberName" />
+                        <property name="LabelProp" translatable="yes">GameInstallQuestion</property>
                         <property name="UseMarkup">True</property>
                       </widget>
                       <packing>
@@ -127,6 +129,7 @@
                     <child>
                       <widget class="Gtk.Label" id="saveLocationLbl">
                         <property name="MemberName" />
+                        <property name="LabelProp" translatable="yes">GameSavesQuestion</property>
                         <property name="UseMarkup">True</property>
                       </widget>
                       <packing>
@@ -148,7 +151,7 @@
                     <property name="CanFocus">True</property>
                     <property name="Type">TextAndIcon</property>
                     <property name="Icon">stock:gtk-execute Menu</property>
-                    <property name="Label" translatable="yes" />
+                    <property name="Label" translatable="yes">ScanButton</property>
                     <property name="UseUnderline">True</property>
                     <signal name="Clicked" handler="OnScanBtnClicked" />
                   </widget>
@@ -164,7 +167,7 @@
             <child>
               <widget class="Gtk.Label" id="linuxLabel">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes">page1</property>
+                <property name="LabelProp" translatable="yes">Linux</property>
               </widget>
               <packing>
                 <property name="type">tab</property>
@@ -235,6 +238,7 @@
                     <child>
                       <widget class="Gtk.Label" id="codeLabel">
                         <property name="MemberName" />
+                        <property name="LabelProp" translatable="yes">PlayStationCodeQuestion</property>
                         <property name="UseMarkup">True</property>
                       </widget>
                       <packing>
@@ -272,6 +276,7 @@
                     <child>
                       <widget class="Gtk.Label" id="psLocationLabel">
                         <property name="MemberName" />
+                        <property name="LabelProp" translatable="yes">PlayStationLocationQuestion</property>
                         <property name="UseMarkup">True</property>
                       </widget>
                       <packing>
@@ -293,7 +298,7 @@
                     <property name="CanFocus">True</property>
                     <property name="Type">TextAndIcon</property>
                     <property name="Icon">stock:gtk-execute Menu</property>
-                    <property name="Label" translatable="yes">GtkButton</property>
+                    <property name="Label" translatable="yes">PlayStationScanButton</property>
                     <property name="UseUnderline">True</property>
                   </widget>
                   <packing>
@@ -311,7 +316,7 @@
             <child>
               <widget class="Gtk.Label" id="psLabel">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes">page2</property>
+                <property name="LabelProp" translatable="yes">PlayStation</property>
               </widget>
               <packing>
                 <property name="type">tab</property>
@@ -342,6 +347,7 @@
                     <child>
                       <widget class="Gtk.Label" id="emailLabel">
                         <property name="MemberName" />
+                        <property name="LabelProp" translatable="yes">EmailAddress</property>
                         <property name="UseMarkup">True</property>
                       </widget>
                       <packing>
@@ -370,7 +376,7 @@
             <child>
               <widget class="Gtk.Label" id="settingsLabel">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes">page3</property>
+                <property name="LabelProp" translatable="yes">Settings</property>
               </widget>
               <packing>
                 <property name="type">tab</property>

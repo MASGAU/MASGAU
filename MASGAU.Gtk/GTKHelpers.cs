@@ -8,6 +8,45 @@ namespace MASGAU
 {
 	public class GTKHelpers
 	{
+		#region translation helpers
+		public static void translateWindow(Gtk.Window window) {
+			string string_title = window.Title;
+			window.Title = Strings.get(string_title);
+			
+			translateContainer(window);
+		}
+		public static void translateContainer(Gtk.Container container) {
+			foreach(Gtk.Widget widget in container.Children) {
+				translateToolTipText(widget);
+				if(widget is Gtk.FileChooserButton) {
+					continue;
+				//} else if(widget is Gtk.Button) {
+				//	translateButton(widget as Gtk.Button);
+				} else if(widget is Gtk.Container) {
+					translateContainer(widget as Gtk.Container);
+				} else if(widget is Gtk.Label) {
+					translateLabel(widget as Gtk.Label);
+				}
+			}
+		}
+		public static void translateToolTipText(Gtk.Widget widget) {
+			string string_title = widget.TooltipText;
+			widget.TooltipText = Strings.get(string_title);
+		}
+		public static void translateButton(Gtk.Button button) {
+			string string_title = button.Label;
+			button.Label = Strings.get(string_title);
+		}
+		public static void translateLabel(Gtk.Label label) {
+			string string_title = label.Text;
+			label.Text = Strings.get(string_title);
+		}
+		public static void translateWidget(Gtk.Widget widget) {
+			string string_title = widget.TooltipText;
+			widget.TooltipText = Strings.get(string_title);
+		}
+
+		#endregion
 		
 		public static bool checkEmail(Window parent) {
             if(Core.settings.email==null||Core.settings.email=="") {

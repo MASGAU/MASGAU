@@ -21,7 +21,9 @@ namespace MASGAU
 			this.WindowPosition = WindowPosition.CenterOnParent;
 			this.SetIconFromFile("masgau.ico");
 			this.DeleteEvent += OnDeleteEvent;
+			this.WindowPosition = WindowPosition.Center;
 		}
+		
 		
 		private SynchronizationContext _context;
 		public SynchronizationContext context {

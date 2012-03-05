@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MASGAU.Main
 {
-    class ContributerListItem {
+    class ContributorListItem {
         public string name{ get; set; }
         public string count{ get; set; }
     }

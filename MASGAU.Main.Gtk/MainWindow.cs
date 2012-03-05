@@ -12,11 +12,14 @@ namespace MASGAU.Main {
 		{
 			Build();
 			
-            main = new MainProgramHandler(setupDone, Interface.Gtk);
+			GTKHelpers.translateWindow(this);
+			
+            main = new MainProgramHandler();
             this.Title = main.program_title;
             disableInterface();
             main.RunWorkerAsync();
 	
+			siteUrlLabel.Text = Core.site_url;
 		}
 	
 		protected void OnDeleteEvent (object sender, DeleteEventArgs a)
@@ -30,7 +33,7 @@ namespace MASGAU.Main {
 		}
 		
 		
-		protected override void disableInterface ()
+		public override void disableInterface ()
 		{
 			base.disableInterface ();
 			notebook1.Sensitive = false;
@@ -42,9 +45,8 @@ namespace MASGAU.Main {
 		}
 		
 		#region Communication Handler Event handlers
-		public override void updateProgress (ProgressChangedEventArgs e)
+		public override void updateProgress (MASGAU.Communication.Progress.ProgressUpdatedEventArgs e)
 		{
-            applyProgress(progressbar1,e);
 		}
 		#endregion
 		
