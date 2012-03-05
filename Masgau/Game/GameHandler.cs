@@ -316,7 +316,7 @@ namespace MASGAU.Game {
                     case "restore_comment":
                         restore_comment = element.InnerText;
                         break;
-                    case "contributer":
+                    case "contributor":
                         contributors.Add(element.InnerText);
                         break;
 					case "require_detection":

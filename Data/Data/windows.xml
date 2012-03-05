@@ -1044,17 +1044,19 @@
 	<game name="Cyberstorm" platform="Windows">
 		<title>Missionforce: Cyberstorm</title>
 		<location_path environment_variable="userdocuments" path="Cyberstorm"/>
+    <location_path environment_variable="altsavepaths" path=""/>
 		<identifier filename="*.cbs"/>
 		<save filename="*.cbs"/>
-		<comment>Checks for saves in My Documents\Cyberstorm</comment>
+		<comment>Checks for saves in Documents\Cyberstorm and Alt. Save Paths</comment>
 		<contributor>SanMadJack</contributor>
 	</game>
 	<game name="Cyberstorm2" platform="Windows">
 		<title>Cyberstorm 2: Corporate Wars</title>
 		<location_path environment_variable="userdocuments" path="Cyberstorm 2"/>
+    <location_path environment_variable="altsavepaths" path=""/>
 		<identifier filename="*.cbs"/>
 		<save filename="*.cbs"/>
-		<comment>Checks for saves in My Documents\Cyberstorm 2</comment>
+		<comment>Checks for saves in Documents\Cyberstorm 2 and Alt. Save Paths</comment>
 		<contributor>SanMadJack</contributor>
 	</game>
 	<game name="Daikatana" platform="Windows">
@@ -3017,9 +3019,10 @@
 	<game name="MystMasterpieceEdtition" platform="Windows">
 		<title>Myst: Masterpiece Edition</title>
 		<location_path environment_variable="userdocuments" path="Myst"/>
+    <location_path environment_variable="altsavepaths" path=""/>
 		<identifier filename="*.mys"/>
 		<save filename="*.mys"/>
-		<comment>Checks for saves in My Documents\Myst</comment>
+		<comment>Checks for saves in Documents\Myst and Alt. Save Paths</comment>
 		<contributor>SanMadJack</contributor>
 	</game>
 	<game name="MystUruCompleteChronicles" platform="Windows">
@@ -3718,9 +3721,10 @@
 	<game name="Riven" platform="Windows">
 		<title>Riven</title>
 		<location_path environment_variable="userdocuments" path="Riven"/>
-		<identifier filename="*.rvn"/>
+    <location_path environment_variable="altsavepaths" path=""/>
+    <identifier filename="*.rvn"/>
 		<save filename="*.rvn"/>
-		<comment>Checks for saves in My Documents\Riven</comment>
+		<comment>Checks for saves in My Documents\Riven and Alt. Save Paths</comment>
 		<contributor>SanMadJack</contributor>
 	</game>
 	<game name="RoboBlitz" platform="Windows">
