@@ -11,7 +11,7 @@
 
   <!-- Probably shouldn't translate this one -->
   <string name="MASGAU">MASGAU</string>
-  <string name="MASGAUFullTitle">MASGAU Automatic Save Game Archive Utility</string>
+  <string name="MASGAUFullTitle">MASGAU Automatisk savegames arkiveringsverktøy</string> <!-- We don't have a correct translation for Save Game in Norwegian -->
   <string name="MASGAUPlural">%MASGAU%'s</string>
 
   <!-- Common strings-->
@@ -34,7 +34,7 @@
 
   <!-- Button stuff (the underlines are for key combos, so choose letters wisely) -->
   <string name="SelectButton">_Velg</string>
-  <string name="ApplyButton">_Apply</string> <!-- don't know -->
+  <string name="ApplyButton">_Bruk</string>
   <string name="SubmitButton">_Send</string>
   <string name="StopButton">_Stopp</string>
   <string name="SaveButton">_Lagre</string>
@@ -43,7 +43,7 @@
   <string name="CancelButton">_Avbryt</string>
   <string name="YesButton">_Ja</string>
   <string name="NoButton">_Nei</string>
-  <string name="MaybeButton">_Kanskjee</string>
+  <string name="MaybeButton">_Kanskje</string>
   <string name="CloseButton">_Lukk</string>
   <string name="ChangeButton">_Endre</string>
   <string name="OpenButton">_Åpne</string>
@@ -115,7 +115,7 @@
   <string name="ArchiveDateColumn">Dato</string>
 
   <string name="ReloadArchivesButton">_Last inn Arkiv</string>
-  <string name="RestoreOtherBackup">Gjenopprett Andre Arkiv</string> <!-- Would also be Gjennopprett Annet Arkiv if it's only one -->
+  <string name="RestoreOtherBackup">Gjenopprett Annet Arkiv</string>
   <string name="RestoreNoneButton">Ingenting å gjenopprette</string>
   <string name="RestoreOneButton">_Gjenopprett dette</string>
   <string name="RestoreMultipleButton">Gjenopprett _disse</string>
@@ -130,7 +130,7 @@
 
   <!-- Task tab-->
   <string name="Schedule">Planlegg</string>
-  <string name="EnterTaskCredentialsTitle">Pander To Me</string> <!-- Can't translate, don't know what pander is-->
+  <string name="EnterTaskCredentialsTitle">Pander To Me</string> <!-- Can't translate, don't know what pander is, or is it a joke perhaps -->
   <string name="EnterTaskCredentialsMessage">Du må oppgi passordet for brukeren oppgaven vil kjøre for, som er vist i den lille tekstboksen.</string>
   <string name="UnableToCreateTaskTitle">Hva sa jeg nettopp til deg.</string>
   <string name="UnableToCreateTaskMessage">Klarte ikke å lage oppgaven. Oppgaven har blitt slettet.</string>
@@ -168,7 +168,7 @@
 
   <!-- Settings -->
   <string name="Settings">Instillinger</string>
-  <string name="EmailAddress">E postaddresse</string>
+  <string name="EmailAddress">E-postaddresse</string>
   <string name="AutoUpdate">Se etter oppdateringer _automatisk</string>
   <string name="IgnoreDates">_Ignorer datoer i løpet av sikkerhetskopieringen</string>
   <string name="BackupPath">Sikkerhetskopierings banen</string>
@@ -187,15 +187,15 @@
   <string name="SelectBackupPath">Velg hvor sikkerhetskopier skal bli lagret</string>
   <string name="SelectBackupPathReadError">%ReadPermissionError% den valgte sikkerhetskopi mappen</string>
   <string name="SelectBackupPathWriteError">%WritePermissionError% den valgte sikkerhetskopi mappen</string>
-  <string name="SelectSyncPath">Velg hvor ??(Saves) vil bli synkronisert</string> <!-- TODO: Find out what Saves is in norwegian-->
+  <string name="SelectSyncPath">Velg hvor saves vil bli synkronisert</string> <!-- no correct translation with the word saves, if translated would mean something else -->
   <string name="SelectSyncPathReadError">%ReadPermissionError% den valgte synkronisering smappen</string>
   <string name="SelectSyncPathWriteError">%WritePermissionError% den valgte synkronisering smappen</string>
   <string name="SelectAltPath">Velg en alternativ installasjons bane</string>
   <string name="SelectAltPathReadError">På grunn av tillatelse eller noe, kan MASGAU ikke lese den mappen du valgte</string>
-  <string name="SelectAltPathDuplicateTitle">Duplication</string> <!-- Do Not know -->
+  <string name="SelectAltPathDuplicateTitle">Nøyaktig Kopi</string>
   <string name="SelectAltPathDuplicateMessage">Banen du har valgt er allerede lagt til</string>
   <string name="SelectSteamPath">Velg hvor Steam er installert</string>
-  <string name="SelectSteamPathRejectedTitle">No Go</string> <!-- ??, could probably just be there. -->
+  <string name="SelectSteamPathRejectedTitle">Prøv igjen</string> <!-- Not a translation, just means try again -->
   <string name="SelectSteamPathRejectedMessage">Den valgte mappen har ikke Steam.exe, så den er muligens ikke en Steam mappe</string>
 
   <!-- Restore process -->
@@ -208,7 +208,7 @@
   <string name="Files">Filer</string>
   <string name="SelectFiles">Velg Filer</string>
 
-  <string name="RestoreNoCandidatesFound">Ingen gjenopprettings kandidater ble funnet</string>
+  <string name="RestoreNoCandidatesFound">Ingen gjenopprettelses kandidat ble funnet</string>
   <string name="RestoreNoLocationFound">Ingen steder funnet</string>
 
   <string name="RestoreRemovableDriveChoice">Velg den flyttbare stasjonen å gjenopprette til</string>
@@ -222,7 +222,7 @@
   <string name="RestoreSelectFiles">Velg filer som skal gjenopprettes.</string>
 
   <string name="RestoreNoFilesTitle">Ingenting å gjenopprette? Det er dumt.</string>
-  <string name="RestoreNoFilesMessage">Du har ikke valg noen filer å gjenopprette.\nTenk på det. You haven't selected any files to restore.\nThink about it.</string>
+  <string name="RestoreNoFilesMessage">Du har ikke valgt noen filer å gjenopprette.\nTenk på det du.</string>
 
   <string name="RestoreComplete">Gjenoppretting fullført.</string>
   <string name="RestoreMultipleArchivesTitle">Convenience?</string> <!-- Need more info, whether it is meant as it's "easier" or "more comfortable" etc... -->
@@ -242,7 +242,7 @@
   <string name="JumpMonitor">%MonitorTitle%</string>
   <string name="JumpMonitorDescription">%Open% %MASGAUPlural% %MonitorTitle%</string>
 
-  <!-- Monitor-specific strings --> <!-- Unsure if "forfølger"(Direct translation of Stalking) would be the correct word here, could also be følger(Translates to following) -->
+  <!-- Monitor-specific strings -->
   <string name="Monitor">Overvåker</string>
   <string name="MonitorTitle">%MASGAU% %Monitor%</string>
   <string name="MonitorSettingUp">%MonitorTitle%  setter opp..</string> <!-- Unsure -->
@@ -251,16 +251,17 @@
   <string name="MonitorMenuSettings">Installinger...</string>
   <string name="MonitorMenuExit">Lukk</string>
   <string name="MonitorNegativeGames">%MonitorTitle% er...HVA!??!</string>
+  <!-- Unsure if "forfølger"(Direct translation of Stalking) would be the correct word here, could also be følger(Translates to following) -->
   <string name="MonitorZeroGames">%MonitorTitle%  forfølger ingen spill</string>
   <string name="MonitorOneGame">%MonitorTitle% forfølger ett spill</string>
   <string name="MonitorMultipleGamesPrefix">%MonitorTitle% forfølger"</string>
   <string name="MonitorMultipleGamesSuffix">"spill"</string>
 
   <!-- Analyzer-specific strings -->
-  <string name="AnalyzerWindowTitle">Save Game Analyzer</string> <!-- Still not sure how to translate Save Game, a direct translation wouldn't be correct -->
+  <string name="AnalyzerWindowTitle">Savegame Analyserer</string>
   <string name="GameNameQuestion">Hva er spillets navn?</string>
   <string name="GameInstallQuestion">Hvor er spillet installert?</string>
-  <string name="GameSavesQuestion">Hvor has spillet dens (??SAVE)?</string> <!-- And the save again -->
+  <string name="GameSavesQuestion">Hvor er spillets savegames?</string>
   <string name="ScanButton">_Søk og lag en rapport </string>
   <string name="InstallFolder">Installasjons mappe</string>
   <!-- Folder browser titles -->
@@ -269,16 +270,17 @@
   <!-- Playstation tab -->
   <string name="PlayStationScanButton">Velg og lag en rapport</string>
   <string name="PlayStationCodeQuestion">Hva er dette spillets kode?</string>
-  <string name="PlayStationLocationQuestion">Hvor er Playstation (??SAVES)</string> <!-- Saves again -->
+  <string name="PlayStationLocationQuestion">Hvor er Playstation saves</string>
   <string name="PlayStationLocationPrompt">Velg PlayStations Lagrings mappe</string>
   <!-- Searching window -->
   <string name="SearchingWindowTitle">Søker etter Spill informasjon...</string>
   <string name="SearchingHeader">Hvor skal vi se først..</string>
+  <!-- This is the only valid place where saves can be translated -->
   <string name="DumpingSaveFolder">Dumper Lagrings mappe...</string>
   <string name="DumpingInstallFolder">Dumper installasjons mappe...</string>
   <string name="DumpingVirtualStoreFolder">Dumper VirtualStore mapper...</string>
   <string name="ScanningLocalMachineRegistry">Søker Lokal Maskin Registeret...</string>
-  <string name="ScanningCurrentUserRegistry">Søker Nåværende bruker Register...</string>
+  <string name="ScanningCurrentUserRegistry">Søker Pålogget brukers Register...</string>
   <string name="ScanningStartMenu">Søker startmenyen...</string>
   <!-- Analyzer report -->
   <string name="ReportWindowTitle">Her er rapporten (Føl deg fri til å redigere den))</string>
@@ -286,8 +288,8 @@
   <string name="AnalyzerDisclaimer">Innsendte rapporter er publisert til en offentlig server. Ingen involvert med MASGAU kan holdes ansvarlig for eventuelle ettervirkinger fra publiseringen av sensitiv informasjon gjennom disse rapportene, derfor se nøye over og redigere rapporten for informasjon som du ikke vil skal bli offentligjort. Ved å sende inn rapporten sier du deg enig i at det er gratis for offentlig spredning.</string>
 
   <!-- File types -->
-  <string name="Gb7FileDescription">MASGAU Save Archive</string> <!-- Don't know -->
-  <string name="Gb7FileDescriptionPlural">MASGAU Save Archives</string> <!-- Don't know -->
+  <string name="Gb7FileDescription">MASGAU Saves Arkiv</string> 
+  <string name="Gb7FileDescriptionPlural">MASGAU Save Arkiver</string> 
   <string name="TxtFileDescription">Tekst fil</string>
   <string name="TxtFileDescriptionPlural">Tekst filer</string>
   <string name="AllFileDescription">Alle filer</string>
@@ -298,7 +300,7 @@
   <string name="ReadWriteErrorTitle">Literacy %Error%</string> <!-- Don't know -->
   <string name="UserLoadError">User Load %Error%</string> <!-- Unknown, direct translation won't work here -->
   <!-- Permission errors -->
-  <string name="ReadPermissionError">Du har ikke rettigheter til å lese ifra</string>
+  <string name="ReadPermissionError">Du har ikke rettigheter til å lese fra</string>
   <string name="WritePermissionError">Du har ikke rettigheter til å skrive til</string>
   <string name="ProcessRestorePermissionError">Feil under førsøk til å forandre tillatelser til å lese andre brukere</string>
   <string name="ProcessBackupPermissionError">Error while trying to change process backup permission for reading other users</string> <!-- Unfortunately, every scenario I think of result in wrong translation -->
@@ -307,7 +309,7 @@
   <string name="WriteError">Feil under forsøk på å skrive</string>
   <string name="WriteErrorPrompt">Velg en annen plass</string>
   <!-- Settings errors-->
-  <string name="SettingsLoadError">Noe gikk feil mens lasting av innstillinger. Jeg har ingen idé om hva</string>
+  <string name="SettingsLoadError">Noe gikk feil under lasting av innstillinger. Jeg har ingen idé om hva</string>
   <!-- Registry Errors -->
   <string name="RegistryKeyLoadError">Feil ved lasting av register nøkkel</string>
   <string name="UserRegistryLoadError">Feil under lasting av register filen for bruker</string>
