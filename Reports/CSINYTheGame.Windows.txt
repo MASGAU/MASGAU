@@ -1,0 +1,177 @@
+Game Name: CSI: NY The Game
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+SteamCommon\csi new york
+
+Save Path: 
+AppData\Ubisoft\Legacy\CSI
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Ubisoft\CSINYUbisoft\GameUpdate
+Value: ExecPath
+Data: 02.11.2010 17:31:32 - SteamCommon\csi new york\csi.exe - 2936832
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Ubisoft\CSINYUbisoft\GameUpdate
+Value: installdir
+Data: SteamCommon\csi new york
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+01.03.2012 05:36:18 - AppData\Ubisoft\Legacy\CSI\csi.log - 1939
+01.03.2012 05:36:16 - AppData\Ubisoft\Legacy\CSI\csiconfig.dat - 188
+
+Install Folder Dump: 
+02.11.2010 17:31:23 - SteamCommon\csi new york\assets.dat - 10580719
+02.11.2010 17:31:23 - SteamCommon\csi new york\assets_2.dat - 11449867
+02.11.2010 17:31:23 - SteamCommon\csi new york\assets_3.dat - 7088778
+02.11.2010 17:31:23 - SteamCommon\csi new york\assets_4.dat - 6965222
+02.11.2010 17:31:24 - SteamCommon\csi new york\assets_5.dat - 13706094
+02.11.2010 17:31:25 - SteamCommon\csi new york\audio.dat - 15508262
+02.11.2010 17:31:26 - SteamCommon\csi new york\avcodec-51.dll - 7932416
+02.11.2010 17:31:26 - SteamCommon\csi new york\avformat-51.dll - 546304
+02.11.2010 17:31:27 - SteamCommon\csi new york\avutil-49.dll - 28160
+02.11.2010 17:31:27 - SteamCommon\csi new york\buy.ico - 90022
+02.11.2010 17:31:27 - SteamCommon\csi new york\common.dat - 4023032
+02.11.2010 17:31:32 - SteamCommon\csi new york\csi.exe - 2936832
+02.11.2010 17:31:36 - SteamCommon\csi new york\csiny.dll - 1711208
+02.11.2010 17:31:37 - SteamCommon\csi new york\game.ico - 90022
+02.11.2010 17:31:37 - SteamCommon\csi new york\gu.exe - 614400
+02.11.2010 17:31:37 - SteamCommon\csi new york\installscript.vdf - 922
+02.11.2010 17:31:37 - SteamCommon\csi new york\jpeg.dll - 113664
+02.11.2010 17:31:37 - SteamCommon\csi new york\lang_en.dat - 6226477
+02.11.2010 17:31:37 - SteamCommon\csi new york\libfreetype-6.dll - 426496
+02.11.2010 17:31:37 - SteamCommon\csi new york\libogg-0.dll - 15872
+02.11.2010 17:31:37 - SteamCommon\csi new york\libpng12-0.dll - 131072
+02.11.2010 17:31:37 - SteamCommon\csi new york\libpng12.dll - 126976
+02.11.2010 17:31:37 - SteamCommon\csi new york\libvorbis-0.dll - 157696
+02.11.2010 17:31:38 - SteamCommon\csi new york\libvorbisfile-3.dll - 28672
+02.11.2010 17:31:38 - SteamCommon\csi new york\manual.pdf - 637038
+02.11.2010 17:31:38 - SteamCommon\csi new york\msvcr71.dll - 348160
+02.11.2010 17:31:38 - SteamCommon\csi new york\music.dat - 19833040
+02.11.2010 17:31:38 - SteamCommon\csi new york\mystery.ico - 90022
+02.11.2010 17:31:38 - SteamCommon\csi new york\ogg.dll - 24576
+02.11.2010 17:31:38 - SteamCommon\csi new york\pthreadGC2.dll - 86683
+02.11.2010 17:31:38 - SteamCommon\csi new york\Readme.txt - 22838
+02.11.2010 17:31:38 - SteamCommon\csi new york\scripts.dat - 239539
+02.11.2010 17:31:38 - SteamCommon\csi new york\scripts_en.dat - 251575
+02.11.2010 17:31:38 - SteamCommon\csi new york\SDL.dll - 320512
+02.11.2010 17:31:38 - SteamCommon\csi new york\SDL_image.dll - 40448
+02.11.2010 17:31:38 - SteamCommon\csi new york\SDL_mixer.dll - 35328
+02.11.2010 17:31:38 - SteamCommon\csi new york\SDL_mixer_a.dll - 143360
+02.11.2010 17:31:38 - SteamCommon\csi new york\SDL_ttf.dll - 19456
+02.11.2010 17:31:38 - SteamCommon\csi new york\swscale-0.dll - 154624
+02.11.2010 17:31:39 - SteamCommon\csi new york\Uninstall.exe - 140696
+02.11.2010 17:31:42 - SteamCommon\csi new york\vorbis.dll - 1101824
+02.11.2010 17:31:42 - SteamCommon\csi new york\vorbisfile.dll - 28672
+02.11.2010 17:31:39 - SteamCommon\csi new york\vo_c1.dat - 28951550
+02.11.2010 17:31:40 - SteamCommon\csi new york\vo_c2.dat - 34083950
+02.11.2010 17:31:40 - SteamCommon\csi new york\vo_c3.dat - 25561548
+02.11.2010 17:31:40 - SteamCommon\csi new york\vo_c4.dat - 23040977
+02.11.2010 17:31:42 - SteamCommon\csi new york\vo_c5.dat - 23797359
+02.11.2010 17:31:42 - SteamCommon\csi new york\zlib1.dll - 77824
+02.11.2010 17:30:57 - SteamCommon\csi new york\cutscenes\c1_s03.avi - 3708866
+02.11.2010 17:30:57 - SteamCommon\csi new york\cutscenes\c1_s04.avi - 2366326
+02.11.2010 17:30:58 - SteamCommon\csi new york\cutscenes\c1_s08_financial_good.avi - 5056384
+02.11.2010 17:30:58 - SteamCommon\csi new york\cutscenes\c1_s11.avi - 4471052
+02.11.2010 17:30:58 - SteamCommon\csi new york\cutscenes\c1_s14_just_one.avi - 11970510
+02.11.2010 17:30:58 - SteamCommon\csi new york\cutscenes\c2_cutscene0.avi - 5049230
+02.11.2010 17:30:58 - SteamCommon\csi new york\cutscenes\c2_cutscene1.avi - 1174336
+02.11.2010 17:30:58 - SteamCommon\csi new york\cutscenes\c2_cutscene2.avi - 5435542
+02.11.2010 17:30:58 - SteamCommon\csi new york\cutscenes\c2_cutscene3.avi - 2688186
+02.11.2010 17:30:59 - SteamCommon\csi new york\cutscenes\c2_cutscene4.avi - 4803270
+02.11.2010 17:30:59 - SteamCommon\csi new york\cutscenes\c3_cutscene0.avi - 12568958
+02.11.2010 17:31:00 - SteamCommon\csi new york\cutscenes\c3_final.avi - 10751204
+02.11.2010 17:31:00 - SteamCommon\csi new york\cutscenes\c3_s02_woodpanel.avi - 2521914
+02.11.2010 17:31:00 - SteamCommon\csi new york\cutscenes\c3_s04_flashback.avi - 3348284
+02.11.2010 17:31:00 - SteamCommon\csi new york\cutscenes\c3_s08_flashback.avi - 1372662
+02.11.2010 17:31:01 - SteamCommon\csi new york\cutscenes\c3_s09_flashback.avi - 7200782
+02.11.2010 17:31:01 - SteamCommon\csi new york\cutscenes\c3_s13_flashback.avi - 14403486
+02.11.2010 17:31:02 - SteamCommon\csi new york\cutscenes\c3_s16_flashback.avi - 5365620
+02.11.2010 17:31:02 - SteamCommon\csi new york\cutscenes\c3_s19_flashback.avi - 7984624
+02.11.2010 17:31:02 - SteamCommon\csi new york\cutscenes\c4_intro.avi - 16741366
+02.11.2010 17:31:03 - SteamCommon\csi new york\cutscenes\c4_s03_flashback.avi - 6417192
+02.11.2010 17:31:03 - SteamCommon\csi new york\cutscenes\c4_s04_flashback.avi - 4437186
+02.11.2010 17:31:03 - SteamCommon\csi new york\cutscenes\c4_s10_flashback.avi - 2470984
+02.11.2010 17:31:03 - SteamCommon\csi new york\cutscenes\c4_s13_flashback.avi - 12008876
+02.11.2010 17:31:03 - SteamCommon\csi new york\cutscenes\cityscapes_0.avi - 1843564
+02.11.2010 17:31:03 - SteamCommon\csi new york\cutscenes\cityscapes_1.avi - 1385230
+02.11.2010 17:31:04 - SteamCommon\csi new york\cutscenes\csi_case01_intro.avi - 18955820
+02.11.2010 17:31:04 - SteamCommon\csi new york\cutscenes\csi_intro.avi - 9741746
+03.11.2010 01:41:19 - SteamCommon\csi new york\cutscenes\legacy.avi - 4744664
+02.11.2010 17:31:05 - SteamCommon\csi new york\cutscenes\SKYLINE_ZOOM3.avi - 1201088
+02.11.2010 17:31:05 - SteamCommon\csi new york\cutscenes\SKYLINE_ZOOM4.avi - 1178516
+02.11.2010 17:31:05 - SteamCommon\csi new york\cutscenes\SKYLINE_ZOOM5.avi - 1385230
+02.11.2010 17:31:05 - SteamCommon\csi new york\cutscenes\SKYLINE_ZOOM6.avi - 1222502
+02.11.2010 17:31:05 - SteamCommon\csi new york\cutscenes\ubi.avi - 2380800
+02.11.2010 17:31:05 - SteamCommon\csi new york\cutscenes_en\c1_s03.avi - 3708866
+02.11.2010 17:31:05 - SteamCommon\csi new york\cutscenes_en\c1_s04.avi - 2366326
+02.11.2010 17:31:05 - SteamCommon\csi new york\cutscenes_en\c1_s08_financial_good.avi - 5056384
+02.11.2010 17:31:06 - SteamCommon\csi new york\cutscenes_en\c1_s11.avi - 4471052
+02.11.2010 17:31:06 - SteamCommon\csi new york\cutscenes_en\c1_s14_just_one.avi - 11970510
+02.11.2010 17:31:06 - SteamCommon\csi new york\cutscenes_en\c2_cutscene0.avi - 5049230
+02.11.2010 17:31:06 - SteamCommon\csi new york\cutscenes_en\c2_cutscene1.avi - 1174336
+02.11.2010 17:31:06 - SteamCommon\csi new york\cutscenes_en\c2_cutscene2.avi - 5435542
+02.11.2010 17:31:06 - SteamCommon\csi new york\cutscenes_en\c2_cutscene3.avi - 2688186
+02.11.2010 17:31:07 - SteamCommon\csi new york\cutscenes_en\c2_cutscene4.avi - 4803270
+02.11.2010 17:31:07 - SteamCommon\csi new york\cutscenes_en\c3_cutscene0.avi - 12568958
+02.11.2010 17:31:09 - SteamCommon\csi new york\cutscenes_en\c3_final.avi - 10751204
+02.11.2010 17:31:09 - SteamCommon\csi new york\cutscenes_en\c3_s02_woodpanel.avi - 2521914
+02.11.2010 17:31:09 - SteamCommon\csi new york\cutscenes_en\c3_s04_flashback.avi - 3348284
+02.11.2010 17:31:09 - SteamCommon\csi new york\cutscenes_en\c3_s08_flashback.avi - 1372662
+02.11.2010 17:31:09 - SteamCommon\csi new york\cutscenes_en\c3_s09_flashback.avi - 7200782
+02.11.2010 17:31:09 - SteamCommon\csi new york\cutscenes_en\c3_s13_flashback.avi - 14403486
+02.11.2010 17:31:09 - SteamCommon\csi new york\cutscenes_en\c3_s16_flashback.avi - 5365620
+02.11.2010 17:31:10 - SteamCommon\csi new york\cutscenes_en\c3_s19_flashback.avi - 7984624
+02.11.2010 17:31:10 - SteamCommon\csi new york\cutscenes_en\c4_intro.avi - 16741366
+02.11.2010 17:31:11 - SteamCommon\csi new york\cutscenes_en\c4_s03_flashback.avi - 6417192
+02.11.2010 17:31:11 - SteamCommon\csi new york\cutscenes_en\c4_s04_flashback.avi - 4437186
+02.11.2010 17:31:11 - SteamCommon\csi new york\cutscenes_en\c4_s10_flashback.avi - 2470984
+02.11.2010 17:31:11 - SteamCommon\csi new york\cutscenes_en\c4_s13_flashback.avi - 12008876
+02.11.2010 17:31:11 - SteamCommon\csi new york\cutscenes_en\c5_cutscene0.avi - 7004672
+02.11.2010 17:31:11 - SteamCommon\csi new york\cutscenes_en\c5_cutscene1.avi - 2512896
+02.11.2010 17:31:12 - SteamCommon\csi new york\cutscenes_en\c5_cutscene2.avi - 2212864
+02.11.2010 17:31:12 - SteamCommon\csi new york\cutscenes_en\c5_cutscene3.avi - 3113472
+02.11.2010 17:31:12 - SteamCommon\csi new york\cutscenes_en\c5_cutscene4.avi - 9156608
+02.11.2010 17:31:12 - SteamCommon\csi new york\cutscenes_en\cityscapes_0.avi - 1843564
+02.11.2010 17:31:12 - SteamCommon\csi new york\cutscenes_en\cityscapes_1.avi - 1385230
+02.11.2010 17:31:12 - SteamCommon\csi new york\cutscenes_en\csi_case01_intro.avi - 18955820
+02.11.2010 17:31:13 - SteamCommon\csi new york\cutscenes_en\csi_intro.avi - 9741746
+02.11.2010 17:31:14 - SteamCommon\csi new york\cutscenes_en\legacy.avi - 4744664
+02.11.2010 17:31:14 - SteamCommon\csi new york\cutscenes_en\SKYLINE_ZOOM3.avi - 1201088
+02.11.2010 17:31:15 - SteamCommon\csi new york\cutscenes_en\SKYLINE_ZOOM4.avi - 1178516
+02.11.2010 17:31:15 - SteamCommon\csi new york\cutscenes_en\SKYLINE_ZOOM5.avi - 1385230
+02.11.2010 17:31:15 - SteamCommon\csi new york\cutscenes_en\SKYLINE_ZOOM6.avi - 1222502
+02.11.2010 17:31:15 - SteamCommon\csi new york\cutscenes_en\ubi.avi - 2380800
+02.11.2010 17:31:15 - SteamCommon\csi new york\directx\BDA.cab - 703080
+02.11.2010 17:31:15 - SteamCommon\csi new york\directx\BDANT.cab - 1156363
+02.11.2010 17:31:15 - SteamCommon\csi new york\directx\BDAXP.cab - 976020
+02.11.2010 17:31:15 - SteamCommon\csi new york\directx\DirectX.cab - 15493481
+02.11.2010 17:31:18 - SteamCommon\csi new york\directx\directx_aug2008_redist.exe - 472576
+02.11.2010 17:31:19 - SteamCommon\csi new york\directx\DSETUP.dll - 62976
+02.11.2010 17:31:19 - SteamCommon\csi new york\directx\dsetup32.dll - 2242560
+02.11.2010 17:31:19 - SteamCommon\csi new york\directx\dxnt.cab - 13265040
+02.11.2010 17:31:19 - SteamCommon\csi new york\directx\ManagedDX.CAB - 3432656
+02.11.2010 17:31:20 - SteamCommon\csi new york\extras\CarmineGiovinazzo.wmv - 25414954
+02.11.2010 17:31:20 - SteamCommon\csi new york\extras\EddieCahill.wmv - 31767220
+02.11.2010 17:31:21 - SteamCommon\csi new york\extras\GarySinise.wmv - 25430918
+02.11.2010 17:31:22 - SteamCommon\csi new york\extras\MelinaKanakaredes.wmv - 21286734
+16.09.2011 07:08:34 - SteamCommon\csi new york\extras\Thumbs.db - 6144
+02.11.2010 17:31:23 - SteamCommon\csi new york\register\register.url - 146
+02.11.2010 17:31:23 - SteamCommon\csi new york\resources\us\GameUpdate.us - 5016
+
+UAC Enabled
+
+
+VirtualStore Folders: 

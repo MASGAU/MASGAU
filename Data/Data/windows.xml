@@ -82,6 +82,13 @@
 		<save path="Save"/>
 		<contributor>SanMadJack</contributor>
 	</game>
+  <game name="AIMRacing" platform="Windows">
+    <title>A.I.M. Racing</title>
+    <location_path environment_variable="userdocuments" path="My Games\A.I.M. Racing" />
+    <save/>
+    <ignore path="My Music"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="Alice" platform="Windows">
 		<title>American McGee's Alice</title>
 		<location_path environment_variable="installlocation" path="EA GAMES\American McGee's Alice"/>
@@ -905,6 +912,20 @@
 		<save path="ModdedSaves"/>
 		<contributor>SanMadJack</contributor>
 	</game>
+  <game name="ClassicCarRacing" platform="Windows">
+    <title>Classic Car Racing</title>
+    <location_path environment_variable="steamcommon" path="classic car racing" />
+    <save path="Data\profiles"/>
+    <save path="Data" filename="AudioSettings.scr" type="Settings"/>
+    <save path="Data" filename="CoDrvReader.scr" type="Settings"/>
+    <save path="Data" filename="Controller.scr" type="Settings"/>
+    <save path="Data" filename="DefaultControllers.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettings.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI_MP.scr" type="Settings"/>
+    <save path="Replays" type="Replays"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="Clutch" platform="Windows">
 		<title>Clutch</title>
 		<location_path environment_variable="userdocuments" path="My Games\Clutch"/>
@@ -1026,6 +1047,22 @@
 		<save path="Profiles"/>
 		<contributor>slake_jones</contributor>
 	</game>
+  <game name="CSIHardEvidence">
+    <title>CSI: Hard Evidence</title>
+    <location_path environment_variable="steamcommon" path="csi hard evidence"/>
+    <location_registry root="local_machine" key="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\CSI4.exe" value="Install Location"/>
+    <save filename="*.prop"/>
+    <save filename="*.save"/>
+    <save filename="prefs.prop" type="Settings"/>
+    <ignore filename="prefs.prop"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
+  <game name="CSINYTheGame">
+    <title>CSI: NY The Game</title>
+    <location_path environment_variable="appdata" path="Ubisoft\Legacy"/>
+    <save filename="csiconfig.dat" />
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="CthulhuSavesTheWorld" platform="Windows">
 		<title>Cthulhu Saves The World</title>
 		<location_path environment_variable="userdocuments" path="SavedGames\CSTW\Cthulhu Saves the World"/>
@@ -1401,6 +1438,14 @@
     <save filename="Config.txt" type="Settings" />
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="Driver3" platform="Windows">
+    <title>Driv3r</title>
+    <location_path environment_variable="installlocation" path="Atari\DRIV3R" />
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{01DBF423-E27B-45DA-B7F3-F9D4DB39B1C9}" value="InstallLocation" />
+    <save path="Saves"/>
+    <save path="Configs" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="DriverParallelLines" platform="Windows">
 		<title>Driver: Parallel Lines</title>
 		<location_path environment_variable="userdocuments" path="My Games\Driver Parallel Lines"/>
@@ -1664,6 +1709,12 @@
 		<save filename="LSLOT*"/>
 		<contributor>SanMadJack</contributor>
 	</game>
+  <game name="FableTheLostChapters" platform="Windows">
+    <title>Fable - The Lost Chapters</title>
+    <location_path environment_variable="userdocuments" path="My Games\Fable"/>
+    <save path="Saves"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="Fable3" platform="Windows">
 		<title>Fable III</title>
 		<location_path environment_variable="savedgames" path="Lionhead Studios\Fable 3"/>
@@ -2048,6 +2099,20 @@
 		<save filename="gish.pla"/>
 		<contributor>slake_jones</contributor>
 	</game>
+  <game name="GMRally" platform="Windows">
+    <title>GM Rally</title>
+    <location_path environment_variable="steamcommon" path="gm rally"/>
+    <save path="Data\profiles"/>
+    <save path="Data" filename="AudioSettings.scr" type="Settings"/>
+    <save path="Data" filename="CoDrvReader.scr" type="Settings"/>
+    <save path="Data" filename="Controller.scr" type="Settings"/>
+    <save path="Data" filename="DefaultControllers.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettings.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI_MP.scr" type="Settings"/>
+    <save path="Replays" type="Replays"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="Godfather" platform="Windows">
 		<title>The Godfather</title>
 		<location_path environment_variable="userdocuments" path="corleone"/>
@@ -2139,6 +2204,20 @@
     <save path="SaveGames" />
     <save path="Settings" type="Settings" />
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="GTIRacing" platform="Windows">
+    <title>GTI Racing</title>
+    <location_path environment_variable="steamcommon" path="gti racing"/>
+    <save path="Data\profiles"/>
+    <save path="Data" filename="AudioSettings.scr" type="Settings"/>
+    <save path="Data" filename="CoDrvReader.scr" type="Settings"/>
+    <save path="Data" filename="Controller.scr" type="Settings"/>
+    <save path="Data" filename="DefaultControllers.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettings.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI_MP.scr" type="Settings"/>
+    <save path="Replays" type="Replays"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="GuildWars" platform="Windows">
 		<title>Guild Wars</title>
@@ -2398,6 +2477,19 @@
     <save path="DFGame\SaveData"/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="IcyTower15" platform="Windows">
+    <title>Icy Tower 1.5</title>
+    <location_path environment_variable="installlocation" path="games\icytower1.5" />
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Icy Tower v1.5_is1" value="App Path" />
+    <save path="profiles"/>
+    <save path="profiles\*\replays" type="Replays"/>
+    <save path="characters" type="Characters"/>
+    <ignore path="profiles" filename="dummy.txt"/>
+    <ignore path="profiles\*" filename="dummy.txt"/>
+    <ignore path="profiles\*\replays" />
+    <ignore path="profiles\*\replays" filename="dummy.txt" type="Replays"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="IFluid" platform="Windows">
 		<title>I-Fluid</title>
 		<location_path environment_variable="steamcommon" path="i-fluid"/>
@@ -2628,6 +2720,20 @@
 		<save/>
 		<contributor>Caleb Love</contributor>
 	</game>
+  <game name="LugaruHD" platform="Windows">
+    <title>Lugaru HD</title>
+    <location_path environment_variable="steamcommon" path="lugaru hd"/>
+    <save path="Data\profiles"/>
+    <save path="Data" filename="AudioSettings.scr" type="Settings"/>
+    <save path="Data" filename="CoDrvReader.scr" type="Settings"/>
+    <save path="Data" filename="Controller.scr" type="Settings"/>
+    <save path="Data" filename="DefaultControllers.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettings.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI_MP.scr" type="Settings"/>
+    <save path="Replays" type="Replays"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="Mafia" platform="Windows">
 		<title>Mafia</title>
 		<location_path environment_variable="installlocation" path="Mafia"/>
@@ -2954,6 +3060,14 @@
 		<save/>
 		<contributor>Arc Angel</contributor>
 	</game>
+  <game name="MishapAnAccidentalHaunting" platform="Windows">
+    <title>Mishap: An Accidental Haunting</title>
+    <location_path environment_variable="appdata" path="Virtual Prophecy\Mishap"/>
+    <save path="profiles"/>
+    <save path="Mishap.cs.dso"/>
+    <save path="preferences" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="MonkeyIsland2SpecialEditionLeChucksRevenge" platform="Windows">
 		<title>Monkey Island 2 Special Edition: LeChucks Revenge</title>
 		<location_path environment_variable="appdata" path=" LucasArts\Monkey Island 2 Special Edition "/>
@@ -3542,6 +3656,18 @@
 		<require_detection/>
 		<contributor>SanMadJack</contributor>
 	</game>
+  <game name="RACE07" platform="Windows">
+    <title>RACE 07</title>
+    <location_path environment_variable="userdocuments" path="SimBin\RACE 07"/>
+    <save path="UserData" />
+    <save path="REPLAYDATA" type="Replays"/>
+    <save filename="Config.ini" type="Settings"/>
+    <ignore path="UserData\LOG"/>
+    <ignore path="UserData\Music"/>
+    <ignore path="ReplayTempFiles"/>
+    <comment>This save is also for the STCC: The Game</comment>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="RaceDriverGrid" platform="Windows">
 		<title>Race Driver: Grid</title>
 		<location_path environment_variable="userdocuments" path="Codemasters\GRID"/>
@@ -4095,6 +4221,14 @@
 		<save filename="*.ini" type="Settings"/>
 		<contributor>Arc Angel</contributor>
 	</game>
+  <game name="Shaiya" platform="Windows">
+    <title>Shaiya</title>
+    <location_path environment_variable="installlocation" path="AeriaGames\Shaiya"/>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8A4D41F3-3EDA-4DAC-9403-839708EA0667}" value="InstallLocation"/>
+    <save filename="CONFIG.INI" type="Settings" />
+    <save filename="T_CONFIG.ini" type="Settings" />
+    <comment>AdmiringWorm</comment>
+  </game>
 	<game name="Shellshock2" platform="Windows">
 		<title>Shellshock 2</title>
 		<location_path environment_variable="userdocuments" path="Eidos\Shellshock2"/>
@@ -4102,6 +4236,14 @@
 		<save filename="*.sav"/>
 		<contributor>SanMadJack</contributor>
 	</game>
+  <game name="Ship" platform="Windows">
+    <title>The Ship</title>
+    <location_path environment_variable="steamuser" path="the ship single player"/>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3847469758-2658798015-2241647928-1000\{C9788A83-AC71-4221-AF38-9CF31AEF98B3}" value="ConfigApplicationPath"/>
+    <save path="ship\SAVE"/>
+    <save path="ship\cfg" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="ShogoMobileArmorDivision" platform="Windows">
 		<title>Shogo: Mobile Armor Division</title>
 		<location_path environment_variable="installlocation" path="GAMES\Shogo"/>
@@ -4442,6 +4584,15 @@
 		<save/>
 		<contributor>Arc Angel</contributor>
 	</game>
+  <game name="StreetsofMoscow" platform="Windows">
+    <title>Streets of Moscow</title>
+    <location_path environment_variable="userdocuments" path="My Games\Streets of Moscow" />
+    <save path="profiles"/>
+    <save filename="settings.blk" type="Settings"/>
+    <save path="config" type="Settings"/>
+    <save filename="settings.blk" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="StubbsTheZombieRebelWithoutAPulse" platform="Windows">
 		<title>Stubbs the Zombie: Rebel Without a Pulse</title>
 		<location_path environment_variable="userdocuments" path="Stubbs the Zombie"/>
@@ -5195,6 +5346,36 @@
 		<save path="SaveData"/>
 		<contributor>Arc Angel</contributor>
 	</game>
+  <game name="XpandRally" platform="Windows">
+    <title>Xpand Rally</title>
+    <location_path environment_variable="steamcommon" path="xpand rally"/>
+    <location_registry root="local_machine" key="SOFTWARE\Techland\XpandRally" value="DestinationDir"/>
+    <save path="Data\profiles"/>
+    <save path="Data" filename="AudioSettings.scr" type="Settings"/>
+    <save path="Data" filename="CoDrvReader.scr" type="Settings"/>
+    <save path="Data" filename="Controller.scr" type="Settings"/>
+    <save path="Data" filename="DefaultControllers.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettings.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI_MP.scr" type="Settings"/>
+    <save path="Replays" type="Replays"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
+  <game name="XpandRallyExtreme" platform="Windows">
+    <title>Xpand Rally Extreme</title>
+    <location_path environment_variable="steamcommon" path="xpand rally xtreme" />
+    <location_registry root="local_machine" key="SOFTWARE\Techland\XpandRallyXtreme" value="DestinationDir"/>
+    <save path="Data\profiles"/>
+    <save path="Data" filename="AudioSettings.scr" type="Settings"/>
+    <save path="Data" filename="CoDrvReader.scr" type="Settings"/>
+    <save path="Data" filename="Controller.scr" type="Settings"/>
+    <save path="Data" filename="DefaultControllers.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettings.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI.scr" type="Settings"/>
+    <save path="Data" filename="VideoSettingsGTI_MP.scr" type="Settings"/>
+    <save path="Replays" type="Replays"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
 	<game name="ZenoClash" platform="Windows">
 		<title>Zeno Clash</title>
 		<location_path environment_variable="steamcommon" path="zenoclash"/>

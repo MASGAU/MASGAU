@@ -10,6 +10,7 @@
   <game name="Machinarium" platform="Flash">
     <title>Machinarium</title>
     <location_path environment_variable="flashshared" path="localhost\steam\steamapps\common\machinarium"/>
+    <location_path environment_variable="flashshared" path="localhost\program files\steam\steamapps\common\machinarium"/>
     <save/>
     <contributor>AvvA</contributor>
   </game>
