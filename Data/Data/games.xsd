@@ -28,6 +28,7 @@
         <xs:enumeration value="steamuserdata"/>
         <xs:enumeration value="userprofile"/>
         <xs:enumeration value="userdocuments"/>
+        <xs:enumeration value="startmenu" />
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
@@ -181,6 +182,7 @@
 
   <xs:element name="location_shortcut">
     <xs:complexType>
+      <xs:attribute ref="environment_variable" use="required"/>
       <xs:attribute ref="shortcut" use="required"/>
       <xs:attributeGroup ref="location_attributes" />
     </xs:complexType>

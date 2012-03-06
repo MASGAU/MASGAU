@@ -1,6 +1,7 @@
 =0.10 - Beta in body=
 * Added support for translations
 * All e-mails sent from in-program
+* Added environment_variable attribute to location_shortcut tag so that shortcuts in other locations can be specified
 
 =0.9.2 - Portable Evolution=
 * Fixed a bug when restoring to a game in an Alt. Install Path

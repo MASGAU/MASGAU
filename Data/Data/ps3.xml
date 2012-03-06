@@ -61,6 +61,11 @@
     <ps_code prefix="MRTC" suffix="00003"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="FinalFantasy13-2" platform="PS3" region="EUR">
+    <title>Final Fantasy XIII-2</title>
+    <ps_code prefix="BLES" suffix="01269"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="Flow" platform="PS3" region="USA">
     <title>Flow</title>
     <ps_code prefix="NPUA" suffix="80001"/>
