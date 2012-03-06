@@ -28,13 +28,15 @@
         <xs:enumeration value="steamuserdata"/>
         <xs:enumeration value="userprofile"/>
         <xs:enumeration value="userdocuments"/>
+        <xs:enumeration value="startmenu" />
+        <xs:enumeration value="desktop" />
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
   <xs:attribute name="filename" type="xs:string"/>
   <xs:attribute name="game" type="xs:string"/>
   <xs:attribute name="key" type="xs:string"/>
-  
+
   <xs:attribute name="region">
     <xs:simpleType>
       <xs:restriction base="xs:string">
@@ -43,7 +45,7 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
-  
+
   <xs:attribute name="name">
     <xs:simpleType>
       <xs:restriction base="xs:string">
@@ -53,9 +55,9 @@
   </xs:attribute>
 
   <xs:attribute name="override" default="false" type="xs:boolean" />
-  
+
   <xs:attribute name="deprecated" type="xs:boolean" />
-  
+
   <xs:attribute name="path" type="xs:string"/>
   <xs:attribute name="root">
     <xs:simpleType>
@@ -130,7 +132,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    
+
     <xs:attribute name="suffix">
       <xs:simpleType>
         <xs:restriction base="xs:integer" >
@@ -145,7 +147,7 @@
     <xs:attribute ref="deprecated" use="optional"/>
     <xs:attributeGroup ref="append_detract" />
   </xs:attributeGroup>
-  
+
   <xs:attributeGroup name="append_detract">
     <xs:attribute name="append" type="xs:string"/>
     <xs:attribute name="detract" type="xs:string"/>
@@ -181,6 +183,7 @@
 
   <xs:element name="location_shortcut">
     <xs:complexType>
+      <xs:attribute ref="environment_variable" use="required"/>
       <xs:attribute ref="shortcut" use="required"/>
       <xs:attributeGroup ref="location_attributes" />
     </xs:complexType>
@@ -274,7 +277,7 @@
       <xs:attribute name="majorVersion" type="xs:integer" use="required"/>
       <xs:attribute name="minorVersion" type="xs:integer" use="required"/>
       <xs:attribute ref="date" use="required"/>
-            <xs:anyAttribute processContents="skip"/> 
+      <xs:anyAttribute processContents="skip"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>

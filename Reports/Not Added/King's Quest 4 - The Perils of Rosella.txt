@@ -1,0 +1,75 @@
+Game Name: King's Quest 4 - The Perils of Rosella
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{92E527CF-E5D3-4D13-BF50-C3DD7F647AEF}
+Value: ConfigGDFBinaryPath
+Data: 3/30/2010 3:18:52 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\goggame.dll - 237568
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ4
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ4
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ4
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+2/6/2012 8:58:34 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\KQ4SG.000 - 43435
+2/6/2012 8:58:38 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\KQ4SG.001 - 43458
+2/6/2012 8:58:38 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\KQ4SG.DIR - 29
+2/6/2012 8:57:18 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\stderr.txt - 0
+2/6/2012 8:58:44 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\stdout.txt - 301
+
+Install Folder Dump: 
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\ADL.DRV - 8896
+1/12/2010 4:22:44 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\dosboxKQ4.conf - 7385
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\EGA320.DRV - 1952
+11/20/2009 4:15:10 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\gfw_high.ico - 117513
+3/30/2010 3:18:52 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\goggame.dll - 237568
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\IBMKBD.DRV - 446
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\JOYSTICK.DRV - 500
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\MCGA320.DRV - 1626
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\MT32.DRV - 3056
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\RESOURCE.001 - 452523
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\RESOURCE.002 - 536573
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\RESOURCE.003 - 707591
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\RESOURCE.004 - 479562
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\RESOURCE.CFG - 211
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\RESOURCE.MAP - 7476
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\SCIV.EXE - 75075
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\SIERRA.COM - 538
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\STD.DRV - 2468
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\VIEW.653 - 1274
+11/28/2008 11:17:50 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 4\VIEW.997 - 66
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+2/6/2012 8:58:34 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\KQ4SG.000 - 43435
+2/6/2012 8:58:38 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\KQ4SG.001 - 43458
+2/6/2012 8:58:38 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\KQ4SG.DIR - 29
+2/6/2012 8:57:18 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\stderr.txt - 0
+2/6/2012 8:58:44 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 4\stdout.txt - 301

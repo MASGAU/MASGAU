@@ -1,0 +1,78 @@
+Game Name: King's Quest II - Romancing the Throne
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{CFE0EB6C-BBBE-4B6C-872E-74D1B5F14702}
+Value: ConfigGDFBinaryPath
+Data: 8/24/2010 11:20:34 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\goggame.dll - 262656
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ2
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ2
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ2
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest 2\Documents\Manual.lnk - 1388
+7/21/2010 12:40:22 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\Manual.pdf - 2010988
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+2/6/2012 8:31:50 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\KQ2SG.1 - 3021
+2/6/2012 8:30:57 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\stderr.txt - 0
+2/6/2012 8:31:53 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\stdout.txt - 404
+
+Install Folder Dump: 
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\AGI - 38400
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\AGIDATA.OVL - 7680
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\CGA_GRAF.OVL - 1024
+3/17/2010 5:15:44 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\dosboxKQ2.conf - 7381
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\EGA_GRAF.OVL - 1024
+5/14/2010 4:09:48 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\gfw_high.ico - 121321
+8/24/2010 11:20:34 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\goggame.dll - 262656
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_FONT - 3072
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_GRAF.OVL - 1536
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_OBJS.OVL - 1024
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\IBM_OBJS.OVL - 512
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\JR_GRAF.OVL - 512
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\KQ2.ICO - 766
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\LOGDIR - 543
+7/21/2010 12:40:22 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\Manual.pdf - 2010988
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\OBJECT - 601
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\PICDIR - 354
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\SIERRA.COM - 2928
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\SNDDIR - 135
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\Support.ico - 62895
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VIEWDIR - 705
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.0 - 47769
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.1 - 190481
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.2 - 247952
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\WORDS.TOK - 3516
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+2/6/2012 8:31:50 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\KQ2SG.1 - 3021
+2/6/2012 8:30:57 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\stderr.txt - 0
+2/6/2012 8:31:53 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\stdout.txt - 404

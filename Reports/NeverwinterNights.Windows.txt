@@ -1,0 +1,609 @@
+Game Name: Neverwinter Nights
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{8283B975-E904-4A7E-B9EE-9BB67604252B}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{8283B975-E904-4A7E-B9EE-9BB67604252B}
+Value: ConfigGDFBinaryPath
+Data: 10/28/2010 5:42:34 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\goggame.dll - 194560
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{272526AA-314E-4A1E-AAAC-B60711D576A8}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{272526AA-314E-4A1E-AAAC-B60711D576A8}
+Value: AppExePath
+Data: 1/14/2004 7:57:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwn.exe - 1521664
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{7747D15F-385C-40A2-A962-6C9C1C36A045}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{7747D15F-385C-40A2-A962-6C9C1C36A045}
+Value: AppExePath
+Data: 1/14/2004 7:57:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwn.exe - 1521664
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\BioWare\NWN\AddOns\Neverwinter Nights(TM) Kingmaker
+Value: Uninstall
+Data: 3/4/2012 2:10:55 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\BioWare\NWN\Neverwinter
+Value: Location
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\BioWare\NWN\Neverwinter
+Value: Path
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\BioWare\NWN\Underdark
+Value: Location
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\BioWare\NWN\Undrentide
+Value: Location
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGNWNDIAMOND
+Value: EXE
+Data: 1/14/2004 7:57:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwn.exe - 1521664
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGNWNDIAMOND
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGNWNDIAMOND
+Value: LAUNCHCOMMAND
+Data: 1/14/2004 7:57:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwn.exe - 1521664
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGNWNDIAMOND
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Neverwinter Nights Diamond Edition_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Neverwinter Nights Diamond Edition_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Neverwinter Nights(TM) Kingmaker
+Value: UninstallString
+Data: 3/4/2012 2:10:55 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C1583439-B034-4881-819C-D52A0587662B}
+Value: UninstallString
+Data: 3/4/2012 2:10:55 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\unins000.exe - 2142547
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWARE\Wow6432Node\BioWare\NWN\Neverwinter
+Value: Location
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Key:HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWARE\Wow6432Node\BioWare\NWN\Neverwinter
+Value: Path
+Data: ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition
+
+Detected Start Menu Shortcuts: 
+3/4/2012 2:24:42 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Neverwinter Nights Diamond Edition\Neverwinter Nights Diamond Edition.lnk - 2256
+1/14/2004 7:57:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwn.exe - 1521664
+3/4/2012 2:24:40 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Neverwinter Nights Diamond Edition\Uninstall Neverwinter Nights Diamond Edition.lnk - 1207
+3/4/2012 2:10:55 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\unins000.exe - 2142547
+3/4/2012 2:24:36 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Neverwinter Nights Diamond Edition\Documents\Manual (Hordes of the Underdark).lnk - 1387
+10/20/2003 11:19:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\NWNHordes_Manual.pdf - 3143526
+3/4/2012 2:24:36 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Neverwinter Nights Diamond Edition\Documents\Manual (Shadows of Undrentide).lnk - 1407
+5/15/2003 5:55:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\NWN_SoU_OnlineManual.pdf - 777296
+3/4/2012 2:24:36 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Neverwinter Nights Diamond Edition\Documents\Manual.lnk - 1387
+6/6/2002 11:52:00 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\NWN_OnlineManual.pdf - 2885108
+3/4/2012 2:24:36 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Neverwinter Nights Diamond Edition\Documents\Readme (Hordes of the Underdark).lnk - 1357
+1/13/2004 1:56:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\HotUreadme.txt - 39474
+3/4/2012 2:24:36 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Neverwinter Nights Diamond Edition\Documents\Readme (Shadows of Undrentide).lnk - 1352
+5/25/2003 2:11:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\SoUreadme.txt - 40290
+3/4/2012 2:24:36 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Neverwinter Nights Diamond Edition\Documents\Readme.lnk - 1335
+8/12/2004 1:59:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\readme.txt - 50106
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+3/5/2012 6:27:54 PM - VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition\nwconfig.ini - 1384
+3/5/2012 6:27:54 PM - VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition\nwn.ini - 1002
+3/5/2012 6:13:35 PM - VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition\nwtoolset.ini - 2842
+3/5/2012 6:10:33 PM - VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition\modules\module000.mod - 30935
+
+Install Folder Dump: 
+7/7/2008 8:33:40 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\2dasource.zip - 590752
+6/25/2002 6:50:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\binkw32.dll - 358963
+6/6/2002 2:09:02 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\chitin.key - 966016
+4/26/2008 2:39:52 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\dialog.tlk - 12764158
+10/25/2010 5:06:42 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\gfw_high.ico - 91683
+10/28/2010 5:42:34 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\goggame.dll - 194560
+1/13/2004 1:56:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\HotUreadme.txt - 39474
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\innosetup_license.txt - 1471
+7/9/2002 11:33:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\Mss32.dll - 349696
+2/28/2006 2:57:56 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwconfig.exe - 982528
+3/5/2012 6:28:53 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwconfig.ini - 705
+8/20/2002 1:03:34 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwloader.exe - 607232
+7/3/2008 7:30:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwmain.exe - 5661928
+1/14/2004 7:57:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwn.exe - 1521664
+3/5/2012 6:29:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwn.ini - 1101
+10/25/2010 5:29:26 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwncdkey.ini - 432
+10/20/2003 11:19:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\NWNHordes_Manual.pdf - 3143526
+9/14/2010 3:11:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwnpatch.ini - 9
+3/5/2012 6:30:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwnplayer.ini - 1481
+7/7/2008 8:42:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\NWNv169.txt - 192085
+6/6/2002 11:52:00 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\NWN_OnlineManual.pdf - 2885108
+5/15/2003 5:55:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\NWN_SoU_OnlineManual.pdf - 777296
+7/3/2008 7:30:20 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwserver.exe - 2557160
+5/6/2008 7:50:54 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwtoolset.exe - 7372288
+8/1/2002 4:27:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwtoolset.ini - 1979
+12/5/2007 10:31:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwupdate.exe - 1586424
+2/27/2002 6:50:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\Patchw32.dll - 197120
+8/12/2004 1:59:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\readme.txt - 50106
+12/3/2003 9:26:34 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\Safe2DALines.txt - 2036
+5/25/2003 2:11:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\SoUreadme.txt - 40290
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\Support.ico - 62895
+3/4/2012 2:24:42 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\unins000.dat - 107329
+3/4/2012 2:10:55 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\unins000.exe - 2142547
+3/4/2012 2:24:42 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\unins000.ini - 74
+5/27/2003 12:57:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\xp1.key - 319748
+11/11/2003 6:12:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\xp2.key - 565004
+5/15/2008 11:38:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\xp2patch.key - 148110
+5/15/2008 11:49:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\xp3.key - 276827
+5/31/2002 3:15:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_an_bughouse1.wav - 1378364
+5/31/2002 3:16:00 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_an_bughouse2.wav - 1243196
+5/31/2002 3:16:00 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_an_bugscave1.wav - 1230908
+5/31/2002 3:16:02 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_an_bugscave2.wav - 1683516
+5/31/2002 3:16:02 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_an_lizrdflk1.wav - 1329212
+5/31/2002 3:16:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_castleamb1.wav - 999572
+5/31/2002 3:16:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_castleamb2.wav - 1005628
+5/31/2002 3:16:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_castleamb3.wav - 1040444
+5/31/2002 3:16:06 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_caveamb1.wav - 962620
+5/31/2002 3:16:06 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_caveamb2.wav - 1148988
+5/31/2002 3:16:06 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_caveamb3.wav - 1093692
+5/31/2002 3:16:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_cryptamb1.wav - 1122364
+5/31/2002 3:16:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_cryptamb2.wav - 989244
+5/31/2002 3:16:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_cryptamb3.wav - 1144892
+5/31/2002 3:16:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_evldunamb1.wav - 1093692
+5/31/2002 3:16:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_evldunamb2.wav - 1030204
+5/31/2002 3:16:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_evldunamb3.wav - 1048636
+5/31/2002 3:16:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_hauntamb1.wav - 1044540
+5/31/2002 3:16:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_hauntamb2.wav - 1007676
+5/31/2002 3:16:14 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_hauntamb3.wav - 1089596
+5/31/2002 3:16:14 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_houseamb1.wav - 993340
+5/31/2002 3:16:14 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_houseamb2.wav - 1028156
+5/31/2002 3:16:16 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_houseamb3.wav - 987196
+5/31/2002 3:16:16 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_kitchamb1.wav - 1144892
+5/31/2002 3:16:18 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_kitchamb2.wav - 909372
+5/31/2002 3:16:18 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_mineamb1.wav - 1263676
+5/31/2002 3:16:18 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_mineamb2.wav - 1136700
+5/31/2002 3:16:20 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_mineamb3.wav - 1142844
+5/31/2002 3:16:20 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_seweramb1.wav - 1308732
+5/31/2002 3:16:22 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_cv_seweramb2.wav - 1210428
+11/29/2007 12:17:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_fanfare_horn.wav - 1294336
+11/29/2007 12:17:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_fanfare_trump.wav - 856064
+5/31/2002 3:16:22 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_airlab1.wav - 1261628
+5/31/2002 3:16:24 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_earthlab1.wav - 1296444
+5/31/2002 3:16:24 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_firelab1.wav - 1323068
+5/31/2002 3:16:26 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_magicint1.wav - 1157180
+5/31/2002 3:16:26 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_magicint2.wav - 1151036
+5/31/2002 3:16:28 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_magicint3.wav - 1030204
+5/31/2002 3:16:28 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_magicint4.wav - 1288252
+5/31/2002 3:16:30 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_pitcry1.wav - 1151036
+5/31/2002 3:16:30 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_waterlab1.wav - 1239100
+12/13/2002 12:36:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_x0rui1.wav - 1103976
+12/13/2002 12:36:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_x0rui2.wav - 1044584
+12/13/2002 12:36:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_x0rui3.wav - 1329256
+12/13/2002 12:36:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_x0ssan.wav - 1308776
+9/23/2003 5:03:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_x2evdrone.wav - 1902740
+9/23/2003 5:03:42 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_x2fireplan.wav - 3319956
+9/23/2003 5:03:42 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_mg_x2frznhell.wav - 3575956
+5/31/2002 3:16:32 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_frstdyamb1.wav - 972860
+5/31/2002 3:16:32 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_frstdyamb2.wav - 1151036
+5/31/2002 3:16:34 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_frstdyamb3.wav - 1251388
+5/31/2002 3:16:34 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_frstdyscr1.wav - 1218620
+5/31/2002 3:16:34 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_frstmagic1.wav - 956476
+5/31/2002 3:16:36 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_frstntamb1.wav - 1116220
+5/31/2002 3:16:36 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_frstntamb2.wav - 1308732
+5/31/2002 3:16:38 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_frstntscr1.wav - 1253436
+5/31/2002 3:16:38 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_lavalake1.wav - 712764
+11/29/2007 12:17:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_seawaves.wav - 5304168
+11/29/2007 12:17:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_seawaves2.wav - 5105304
+5/31/2002 3:16:40 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_sludglake1.wav - 856124
+12/13/2002 12:36:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x0des1.wav - 731240
+12/13/2002 12:36:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x0des2.wav - 933992
+12/13/2002 12:36:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x0snw1.wav - 1013864
+12/13/2002 12:36:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x0snw2.wav - 1247412
+12/13/2002 12:36:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x0sstm1.wav - 1743028
+12/13/2002 12:36:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x0sstm2.wav - 1214568
+9/23/2003 5:03:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x2evcavlrg.wav - 4784276
+9/23/2003 5:03:44 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x2evcavmed.wav - 2293820
+9/23/2003 5:03:44 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_na_x2evcavsml.wav - 1925180
+5/31/2002 3:16:40 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_blacksmith.wav - 946236
+5/31/2002 3:16:42 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_bordello1.wav - 1157180
+5/31/2002 3:16:42 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_bordello2.wav - 1200188
+5/31/2002 3:16:44 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_cityday1.wav - 1007676
+5/31/2002 3:16:44 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_cityday2.wav - 989244
+5/31/2002 3:16:44 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_citynite.wav - 968764
+5/31/2002 3:16:46 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_combat1.wav - 1048636
+5/31/2002 3:16:46 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_combat2.wav - 1013820
+5/31/2002 3:16:48 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_combatmuf1.wav - 1073212
+5/31/2002 3:16:48 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_combatmuf2.wav - 1071164
+5/31/2002 3:16:50 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_marketday.wav - 1044540
+5/31/2002 3:16:50 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_riot1.wav - 944188
+5/31/2002 3:16:52 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_riot2.wav - 991292
+5/31/2002 3:16:52 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_slumday1.wav - 1087548
+5/31/2002 3:16:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_slumday2.wav - 1058876
+5/31/2002 3:16:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_slumnite.wav - 1028156
+5/31/2002 3:16:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_talkinglrg.wav - 913468
+5/31/2002 3:16:56 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_talkingmed.wav - 938044
+5/31/2002 3:16:56 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_talkingsml.wav - 1097788
+5/31/2002 3:16:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_tavhubbub1.wav - 1062972
+5/31/2002 3:16:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_tavhubbub2.wav - 931900
+5/31/2002 3:16:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_templesday.wav - 1181756
+5/31/2002 3:17:00 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_townday1.wav - 897084
+5/31/2002 3:17:00 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_townday2.wav - 903228
+5/31/2002 3:17:02 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_townnite.wav - 952380
+5/31/2002 3:17:02 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_whispers.wav - 935996
+5/31/2002 3:17:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_whispersf.wav - 933948
+5/31/2002 3:17:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_whispersm.wav - 974908
+9/23/2003 5:03:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_pl_x2tavern.wav - 5359764
+5/31/2002 3:17:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_gustcavrn1.wav - 862268
+5/31/2002 3:17:06 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_gustchasm1.wav - 931900
+5/31/2002 3:17:06 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_gustdraft1.wav - 706620
+5/31/2002 3:17:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_gustgrass1.wav - 866364
+5/31/2002 3:17:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_rainhard1.wav - 284732
+5/31/2002 3:17:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_rainlight1.wav - 888892
+5/31/2002 3:17:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_stormlg1.wav - 1077308
+5/31/2002 3:17:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_stormsm1.wav - 931900
+11/29/2007 12:17:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_windcrows.wav - 5407960
+11/29/2007 12:17:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_windcrows2.wav - 4818076
+5/31/2002 3:17:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_windforst1.WAV - 1265724
+5/31/2002 3:17:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_windmed1.WAV - 620604
+11/29/2007 12:17:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_windowls.wav - 5407960
+11/29/2007 12:17:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_windowls2.wav - 4818076
+5/31/2002 3:17:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_windsoft1.WAV - 749628
+5/31/2002 3:17:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ambient\al_wt_windstrng1.WAV - 915516
+6/6/2002 1:47:46 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\2da.bif - 2115713
+6/6/2002 1:48:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_gui.bif - 72250447
+6/1/2002 3:10:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_tcn.bif - 33948746
+6/1/2002 3:10:24 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_tdc.bif - 15142645
+6/1/2002 3:10:36 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_tde.bif - 16035541
+6/1/2002 3:10:52 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_tdm.bif - 18504549
+6/1/2002 3:11:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_tds.bif - 18148437
+6/1/2002 3:11:18 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_tic.bif - 17353789
+6/1/2002 3:11:38 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_tin.bif - 29256352
+6/1/2002 3:11:44 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_tms.bif - 625214
+6/1/2002 3:11:56 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_ttf.bif - 14337275
+6/1/2002 3:12:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\aurora_ttr.bif - 18561957
+6/1/2002 3:24:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\convo.bif - 167345518
+6/1/2002 3:12:16 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\editor.bif - 393961
+6/6/2002 1:52:18 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\ini.bif - 281185
+6/1/2002 3:12:40 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\loadscreens.bif - 60351769
+6/6/2002 1:52:46 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\misc.bif - 115
+6/1/2002 3:13:42 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\models_01.bif - 72343110
+6/1/2002 3:15:52 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\models_02.bif - 82484368
+6/1/2002 3:16:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\music.bif - 17545032
+6/6/2002 1:58:26 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\scripts.bif - 10043061
+6/1/2002 3:17:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\sounds.bif - 39783704
+6/6/2002 1:59:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\templates.bif - 13331657
+6/1/2002 3:18:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\textures_01.bif - 63052761
+6/1/2002 3:21:14 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\textures_02.bif - 242498709
+6/1/2002 3:23:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\voicesets.bif - 208436357
+5/27/2003 12:50:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp1.bif - 5415061
+5/27/2003 12:51:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp1_models.bif - 35492258
+5/27/2003 12:52:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp1_scripts.bif - 18990529
+5/27/2003 12:53:20 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp1_sounds.bif - 91326887
+5/27/2003 12:54:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp1_templates.bif - 7975358
+5/27/2003 12:55:42 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp1_textures.bif - 126858146
+5/27/2003 12:56:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp1_tiles.bif - 71359930
+11/11/2003 6:04:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp2.bif - 9770957
+5/15/2008 11:37:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp2patch.bif - 368532654
+11/11/2003 6:05:26 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp2_models.bif - 86608497
+11/11/2003 6:06:38 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp2_scripts.bif - 29554237
+11/11/2003 6:08:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp2_sounds.bif - 192180174
+11/11/2003 6:09:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp2_templates.bif - 12074170
+11/11/2003 6:11:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp2_textures.bif - 286436936
+11/11/2003 6:12:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp2_tiles.bif - 76177224
+5/15/2008 11:46:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\data\xp3.bif - 642988626
+3/14/2003 12:31:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\database\database.txt - 36
+5/28/2002 4:20:40 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\dmvault\dungeonmaster.bic - 10742
+1/13/2004 1:56:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\docs\HotUreadme.txt - 39474
+10/31/2003 3:26:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\docs\NWN Hordes Install Guide.rtf - 41671
+10/20/2003 11:19:04 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\docs\NWNHordes_Manual.pdf - 3143526
+6/6/2002 11:52:00 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\docs\NWN_OnlineManual.pdf - 2885108
+5/15/2003 5:55:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\docs\NWN_SoU_OnlineManual.pdf - 777296
+8/12/2004 1:59:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\docs\readme.txt - 50106
+5/25/2003 2:11:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\docs\SoUreadme.txt - 40290
+11/12/2003 9:32:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\ereg\ATR1.EXE - 4947968
+2/10/2005 1:04:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\hak\kmvo.hak - 35869699
+2/10/2005 1:04:42 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\hak\Neverwinter Nights - Kingmaker.hak - 38778760
+12/10/2004 11:54:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\hak\Neverwinter Nights - ShadowGuard.hak - 35433216
+12/10/2004 11:59:48 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\hak\Neverwinter Nights - Witch's Wake.hak - 28301392
+12/10/2004 11:59:30 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\hak\ww1vo.hak - 30345320
+6/3/2002 10:31:48 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\aluviandarkstar.bic - 19915
+8/19/2003 6:48:48 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\barbarian.bic - 28074
+8/28/2003 8:07:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\bard.bic - 30752
+6/3/2002 10:32:42 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\claymanorin.bic - 12617
+9/23/2003 11:49:36 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\cleric.bic - 37335
+3/5/2012 6:25:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\customcharacter.bic - 5725
+3/5/2012 6:30:26 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\customcharacter1.bic - 20277
+3/5/2012 6:30:40 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\customcharacter2.bic - 22951
+6/3/2002 10:34:24 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\daeris.bic - 13008
+6/3/2002 10:36:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\daevaorn.bic - 19627
+6/3/2002 10:38:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\diadanlocke.bic - 19313
+9/2/2003 10:00:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\dragondis.bic - 30500
+6/7/2002 9:34:48 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\drax.bic - 14824
+9/5/2003 8:10:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\druid.bic - 34499
+10/2/2003 4:17:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\dwarfdefend.bic - 29538
+8/28/2003 8:08:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\fighter.bic - 26405
+6/7/2002 9:38:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\freddifurpo.bic - 15700
+6/3/2002 10:42:14 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\frederickgarvin.bic - 12876
+6/7/2002 9:51:42 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\jaindvarkvasirso.bic - 14931
+6/3/2002 10:44:22 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\jinn.bic - 12651
+6/3/2002 10:45:42 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\jolenaleider.bic - 13517
+6/3/2002 10:46:40 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\junoboram.bic - 14624
+6/7/2002 9:41:40 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\kerith.bic - 20800
+6/7/2002 9:55:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\kheldaraambarhin.bic - 14589
+6/3/2002 10:52:30 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\laureencelest.bic - 13038
+6/3/2002 10:53:28 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\merrickdupelade.bic - 14413
+8/15/2003 5:29:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\monk.bic - 27762
+6/3/2002 10:54:24 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\ownka.bic - 12611
+8/21/2003 2:40:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\paladin.bic - 27950
+10/31/2003 2:48:48 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\palemaster.bic - 44226
+8/28/2003 6:58:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\ranger.bic - 32111
+6/3/2002 10:55:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\raptrethanlis.bic - 14363
+8/21/2003 6:44:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\rogue.bic - 27727
+10/31/2003 2:37:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\shifter.bic - 33210
+8/21/2003 7:10:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\sorcerer.bic - 33856
+10/31/2003 2:12:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\torm.bic - 32124
+6/3/2002 10:56:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\torutaramoku.bic - 12679
+9/5/2003 4:32:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\weaponmaster.bic - 28001
+9/9/2003 9:52:52 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\wizard.bic - 35919
+6/7/2002 9:44:48 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\xandraloxdeteste.bic - 14452
+6/7/2002 9:48:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\xavierwoo.bic - 21413
+6/3/2002 11:01:22 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\localvault\zanzinabru.bic - 19476
+3/5/2012 6:29:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\logs\nwclientError1.txt - 0
+3/5/2012 6:30:51 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\logs\nwclientLog1.txt - 909
+7/9/2002 3:33:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\Mss32.dll - 349696
+7/9/2002 3:33:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\Mssa3d.m3d - 83456
+7/9/2002 3:33:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\mssds3d.m3d - 70656
+7/9/2002 3:34:20 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\mssdsp.flt - 93696
+7/9/2002 3:34:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\mssdx7.m3d - 80896
+7/9/2002 3:34:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\Msseax.m3d - 103424
+7/9/2002 3:34:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\mssmp3.asi - 125952
+7/9/2002 3:33:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\Mssrsx.m3d - 354816
+7/9/2002 3:34:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\msssoft.m3d - 67072
+7/9/2002 3:34:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\miles\mssvoice.asi - 197120
+6/18/2002 5:59:26 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\modules\Contest Of Champions 0492.mod - 4559098
+7/29/2004 3:25:54 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\modules\The Dark Ranger's Treasure.mod - 594030
+7/2/2002 11:04:02 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\modules\The Winds of Eremor.mod - 1502880
+7/29/2004 3:43:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\modules\To Heir is Human.mod - 899075
+9/5/2003 12:31:44 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\AtariLogo.bik - 241984
+4/25/2002 6:39:26 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\BiowareLogo.bik - 1544536
+5/29/2002 2:23:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\Chap1_Chap2.bik - 11727696
+5/29/2002 2:23:28 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\Chap2_Chap3.bik - 10627540
+5/29/2002 2:18:34 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\Chap3_Chap4.bik - 10819012
+5/31/2002 4:52:34 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\credits.bik - 23046328
+10/15/2004 3:25:46 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\dd_km_credits.bik - 21804072
+10/15/2004 7:36:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\dd_sg_credits.bik - 20972288
+10/15/2004 7:52:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\dd_ww_credits.bik - 22504056
+5/29/2002 7:27:28 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\ending.bik - 12359088
+5/20/2003 1:19:48 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\fge_logo_black.bik - 2421856
+5/29/2002 7:53:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\NWNintro.bik - 38050888
+5/29/2002 6:36:36 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\prelude.bik - 16498900
+5/29/2002 6:43:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\prelude_chap1.bik - 9596780
+10/15/2004 12:21:52 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\premiumdemo.bik - 3641680
+4/25/2002 7:43:26 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\WOTCLogo.bik - 1246244
+5/19/2003 4:55:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\XP1_Chap1_Chap2.bik - 18157004
+5/19/2003 4:06:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\XP1_Chap2_Chap3.bik - 27557824
+5/19/2003 4:52:42 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\XP1_Closing.bik - 40866944
+5/19/2003 3:34:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\XP1_Intro.bik - 36104940
+11/6/2003 4:02:44 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\movies\XP2_Intro.bik - 42709428
+5/23/2002 4:05:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_autorun.wav - 4172220
+11/12/2003 12:32:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_autorun2.wav - 6258
+5/28/2002 7:25:22 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_aribeth.bmu - 10043695
+5/28/2002 7:25:26 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_citboss.bmu - 9018023
+5/28/2002 7:25:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_city1.bmu - 10138477
+5/28/2002 7:25:44 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_city2.bmu - 9748198
+5/28/2002 7:25:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_city3.bmu - 9326059
+5/28/2002 7:25:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_dragon.bmu - 10291545
+5/28/2002 7:25:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_dung1.bmu - 10711176
+5/28/2002 7:26:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_dung2.bmu - 12593769
+5/28/2002 7:26:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_dung3.bmu - 8401951
+5/28/2002 7:26:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_endboss.bmu - 9623228
+5/28/2002 7:26:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_forboss.bmu - 9465657
+5/28/2002 7:26:22 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_forest1.bmu - 9945056
+5/28/2002 7:26:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_forest2.bmu - 9281337
+5/28/2002 7:26:30 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_lizboss.bmu - 9601494
+5/28/2002 7:26:34 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_rural1.bmu - 11264553
+4/20/2006 6:58:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_wcbattle.bmu - 2707872
+4/20/2006 6:58:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_wcchase.bmu - 980446
+1/13/2003 12:36:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_x0desert.bmu - 8640648
+12/15/2002 11:41:14 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_x0winter.bmu - 9771144
+10/15/2003 11:02:20 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_x2boss1.bmu - 5969011
+10/15/2003 11:02:22 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_x2boss2.bmu - 5927633
+10/15/2003 11:02:24 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_x2hell.bmu - 5774242
+10/15/2003 11:02:28 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_x2large.bmu - 6182588
+10/17/2003 3:20:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_x2med.bmu - 5893778
+10/17/2003 3:20:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_bat_x2small.bmu - 5800155
+5/31/2002 2:04:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_castle.bmu - 1160997
+5/31/2002 2:04:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_citydockday.bmu - 1470704
+5/31/2002 2:04:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_citydocknite.bmu - 1540504
+5/31/2002 2:05:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_citymarket.bmu - 1136337
+5/31/2002 2:05:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_citynite.bmu - 1702672
+5/31/2002 2:05:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_cityslumday.bmu - 1525457
+5/31/2002 2:05:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_cityslumnite.bmu - 1705598
+5/31/2002 2:05:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_citywealthy.bmu - 1489931
+5/31/2002 2:05:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_crypt1.bmu - 1894097
+5/31/2002 2:05:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_crypt2.bmu - 1119619
+11/15/2005 10:32:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_dd_infdun.bmu - 1853563
+12/3/2004 6:50:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_dd_islands.bmu - 1580574
+10/7/2004 1:08:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_dd_kingmaker.bmu - 2563026
+10/4/2005 1:47:46 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_dd_pirates.bmu - 2037445
+10/5/2004 7:54:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_dd_shadowgua.bmu - 2296980
+10/8/2004 1:45:28 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_dd_witchwake.bmu - 1704840
+5/31/2002 2:05:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_evildungeon1.bmu - 1606123
+5/31/2002 2:05:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_evildungeon2.bmu - 1078659
+5/31/2002 2:05:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_forestday1.bmu - 1559312
+5/31/2002 2:05:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_forestday2.bmu - 1594002
+5/31/2002 2:05:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_forestnite.bmu - 1953865
+5/31/2002 2:05:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_gendungeon1.bmu - 1642486
+5/31/2002 2:05:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_mines1.bmu - 1931296
+5/31/2002 2:05:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_mines2.bmu - 1303939
+5/31/2002 2:05:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_richhouse.bmu - 1142607
+5/31/2002 2:05:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_ruralday1.bmu - 1608213
+5/31/2002 2:05:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_ruralday2.bmu - 1223273
+5/31/2002 2:05:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_ruralnite.bmu - 1683446
+5/31/2002 2:05:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_sewer.bmu - 1511664
+5/31/2002 2:05:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_store.bmu - 1078241
+5/31/2002 2:05:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_tavern1.bmu - 1778740
+5/31/2002 2:05:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_tavern2.bmu - 1354094
+5/31/2002 2:05:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_tavern3.bmu - 1583136
+5/31/2002 2:05:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_tavern4.bmu - 1581882
+5/31/2002 2:05:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_templeevil.bmu - 1496200
+5/31/2002 2:05:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_templegood.bmu - 1105408
+5/31/2002 2:05:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_templegood2.bmu - 1055253
+5/31/2002 2:05:20 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_argend.bmu - 613052
+5/31/2002 2:05:20 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_aribev.bmu - 518176
+5/31/2002 2:05:20 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_aribgd.bmu - 612216
+5/31/2002 3:14:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_chap1.bmu - 498113
+5/31/2002 3:14:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_chap2.bmu - 623710
+5/31/2002 3:14:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_chap3.bmu - 634368
+5/31/2002 3:14:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_chap4.bmu - 548269
+5/31/2002 2:05:20 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_main.bmu - 2392304
+5/31/2002 2:05:22 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_maugrm.bmu - 610962
+5/31/2002 2:05:22 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_morag.bmu - 639384
+5/31/2002 3:14:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_theme_nwn.bmu - 997575
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_armchair.bmu - 1317739
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_knighted.bmu - 309621
+5/30/2006 5:13:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_morfen.bmu - 1313362
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_ogma.bmu - 2094725
+5/30/2006 5:13:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_opening.bmu - 1502033
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_openroad.bmu - 1844368
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_rural.bmu - 1539675
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_ruralg.bmu - 754748
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_smokeash.bmu - 1819708
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_solace.bmu - 3046419
+4/20/2006 6:30:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_tears.bmu - 1861086
+6/19/2006 6:43:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_wc_theme.bmu - 2167253
+12/10/2002 9:41:26 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x0desertday.bmu - 1820808
+3/18/2003 4:01:44 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x0desertngt.bmu - 1461321
+12/10/2002 9:41:26 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x0winterday.bmu - 1480840
+10/15/2003 11:02:28 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x2draco.bmu - 2105584
+10/15/2003 11:02:30 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x2fireplane.bmu - 2053340
+10/15/2003 11:02:30 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x2frozenhell.bmu - 2113944
+10/15/2003 11:02:30 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x2queen.bmu - 1968912
+10/15/2003 11:02:32 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x2rebelcamp.bmu - 2092210
+10/15/2003 11:02:32 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x2theme.bmu - 1494946
+10/15/2003 11:02:32 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x2undermtn.bmu - 2148634
+10/15/2003 11:02:34 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\music\mus_x2waterdeep.bmu - 2159501
+1/15/2008 8:21:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Chapter1.nwm - 20724087
+5/13/2005 1:50:34 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Chapter1E.nwm - 2354266
+1/8/2008 8:25:38 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Chapter2.nwm - 32662243
+10/16/2006 5:36:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Chapter2E.nwm - 17174044
+1/9/2008 11:05:28 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Chapter3.nwm - 15546154
+1/15/2008 7:39:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Chapter4.nwm - 6678067
+2/10/2005 1:03:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Neverwinter Nights - Kingmaker.nwm - 6131
+12/10/2004 11:53:38 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Neverwinter Nights - ShadowGuard.nwm - 6147
+12/10/2004 11:59:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Neverwinter Nights - Witch's Wake.nwm - 6244
+10/16/2006 5:54:18 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\Prelude.nwm - 2795139
+1/8/2008 8:49:32 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\XP1-Chapter 1.nwm - 25301252
+10/25/2007 9:03:34 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\XP1-Chapter 2.nwm - 13500739
+1/8/2008 9:12:36 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\XP1-Interlude.nwm - 15621448
+1/8/2008 10:38:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\XP2_Chapter1.nwm - 19857989
+1/8/2008 11:15:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\XP2_Chapter2.nwm - 32152033
+1/8/2008 11:44:20 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\nwm\XP2_Chapter3.nwm - 23851648
+5/7/2008 1:01:56 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\iit_midmisc_029.tga - 7498
+2/13/2008 7:18:54 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\ls_car_01.dds - 174796
+2/13/2008 7:19:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\ls_car_01.tga - 786476
+2/13/2008 7:19:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\ls_car_01s.dds - 5500
+2/13/2008 7:19:04 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\ls_car_01s.tga - 24620
+2/13/2008 7:19:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\ls_car_03.dds - 174796
+2/13/2008 7:19:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\ls_car_03.tga - 786476
+2/13/2008 7:19:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\ls_car_03s.dds - 5500
+2/13/2008 7:19:12 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\override\ls_car_03s.tga - 24620
+11/5/2004 4:01:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\How Do I Play.txt - 2565
+10/26/2010 1:05:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Neverwinter Nights - Kingmaker.dat - 1024
+10/26/2010 12:20:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Neverwinter Nights - Kingmaker.url - 78
+10/26/2010 1:05:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Neverwinter Nights - ShadowGuard.dat - 1024
+10/26/2010 12:20:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Neverwinter Nights - ShadowGuard.url - 80
+10/26/2010 1:05:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Neverwinter Nights - Witch's Wake.dat - 1024
+10/26/2010 12:20:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Neverwinter Nights - Witch's Wake.url - 78
+10/26/2010 12:20:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Neverwinter Nights(TM) Kingmaker.url - 57
+10/26/2010 12:20:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Store.url - 51
+10/26/2010 12:20:56 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\Support.url - 53
+10/7/2005 1:35:24 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\premium\uninst Neverwinter Nights(TM) Kingmaker.exe - 35343
+3/5/2012 6:30:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\saves\000002 - Save1\player.bic - 23650
+3/5/2012 6:30:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\saves\000002 - Save1\portrait.tga - 24620
+3/5/2012 6:30:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\saves\000002 - Save1\savenfo.txt - 15
+3/5/2012 6:30:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\saves\000002 - Save1\screen.tga - 196626
+3/5/2012 6:30:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\saves\000002 - Save1\The Prelude.sav - 1580045
+3/19/2003 12:32:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\bard10.ini - 126
+3/19/2003 12:32:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\cleric_evil_10.ini - 247
+3/19/2003 12:32:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\cleric_evil_15.ini - 390
+3/19/2003 12:32:16 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\cleric_evil_20.ini - 441
+3/19/2003 12:32:36 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\cleric_good_20.ini - 462
+2/28/2002 10:11:58 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\custom on spawn in.txt - 4575
+2/7/2003 6:53:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\Custom OnSpawn script nocomments.txt - 1985
+2/7/2003 6:53:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\Custom OnSpawn script.txt - 9241
+1/30/2003 10:54:12 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\Custom OnUserDefinedEvent script.txt - 828
+6/12/2003 3:05:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\default_ai.ini - 386
+10/1/2001 10:59:40 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\fileheader.txt - 321
+10/1/2001 10:59:36 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\functionheader.txt - 306
+3/19/2003 12:33:02 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\paladin 15.ini - 105
+3/19/2003 12:33:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\ranger 15.ini - 72
+1/30/2003 10:47:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\set_xp1_henchmen.ini - 395
+6/5/2003 2:20:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\set_xp2_henchmen.ini - 389
+1/30/2002 10:45:50 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\user defined events.txt - 858
+3/19/2003 12:33:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\scripttemplates\wizard_melee_20.ini - 161
+6/6/2002 12:42:08 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\GUI_32bit.erf - 16485920
+6/6/2002 12:40:06 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\Textures_Tpa.erf - 124950972
+6/6/2002 12:40:10 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\Textures_Tpc.erf - 31358448
+6/6/2002 12:40:36 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\Tiles_Tpa.erf - 75736088
+6/6/2002 12:40:52 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\Tiles_Tpb.erf - 46097432
+6/6/2002 12:41:02 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\Tiles_Tpc.erf - 18960856
+5/27/2003 12:27:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\XP1_GUI.erf - 17435728
+5/27/2003 12:27:40 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\xp1_tex_tpa.erf - 44010562
+5/27/2003 12:27:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\xp1_tex_tpb.erf - 11731394
+5/27/2003 12:27:50 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\xp1_tex_tpc.erf - 2965516
+11/11/2003 5:39:46 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\xp2_gui.erf - 21278668
+11/12/2003 1:40:02 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\xp2_tex_tpa.erf - 46018932
+11/11/2003 5:40:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\xp2_tex_tpb.erf - 11543264
+11/11/2003 5:40:14 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\texturepacks\xp2_tex_tpc.erf - 2908112
+2/28/2005 4:28:30 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\clcompile.exe - 2060365
+11/12/2002 4:41:52 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\DataPack.exe - 253952
+12/6/2002 4:53:22 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\DebugServer.exe - 811008
+2/3/2004 3:43:24 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\nwcontbuild.exe - 479232
+5/23/2003 7:05:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\nwcontbuild.txt - 8815
+2/3/2004 1:03:58 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\nwcontinst.exe - 53248
+8/6/2003 11:02:54 AM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\nwhak.exe - 733696
+2/3/2004 3:36:06 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\nwsfx.exe - 122880
+9/14/2010 1:54:08 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\nwstub.exe - 40960
+9/21/2004 12:01:22 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\TalkTableViewer.exe - 587776
+4/20/2005 4:39:00 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\TalkTableViewer.ini - 50
+9/14/2010 1:54:10 PM - ProgramFilesX86\GOG.com\Neverwinter Nights Diamond Edition\utils\updaterconfig.txt - 84
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+3/5/2012 6:27:54 PM - VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition\nwconfig.ini - 1384
+3/5/2012 6:27:54 PM - VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition\nwn.ini - 1002
+3/5/2012 6:13:35 PM - VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition\nwtoolset.ini - 2842
+3/5/2012 6:10:33 PM - VirtualStore\Program Files (x86)\GOG.com\Neverwinter Nights Diamond Edition\modules\module000.mod - 30935

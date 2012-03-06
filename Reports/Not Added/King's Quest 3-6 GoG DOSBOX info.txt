@@ -1,0 +1,86 @@
+Game Name: King's Quest 3-6 GoG DOSBOX info
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX
+
+Save Path: 
+ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ4
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ4
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ5
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ5
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ6
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ6
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+2/6/2012 7:57:19 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 4-5-6\King's Quest 4 - The Perils of Rosella\King's Quest 4 - The Perils of Rosella.lnk - 2369
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox.exe - 3760640
+2/6/2012 7:57:19 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 4-5-6\King's Quest 5 - Absence Makes the Heart Go Yonder\King's Quest 5 - Absence Makes the Heart Go Yonder.lnk - 2369
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox.exe - 3760640
+2/6/2012 7:57:19 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 4-5-6\King's Quest 6 - Heir Today, Gone Tomorrow\King's Quest 6 - Heir Today, Gone Tomorrow.lnk - 2369
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox.exe - 3760640
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+7/1/2009 10:22:14 AM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox-0.73.tar.gz - 1279384
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox.exe - 3760640
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_AUTHORS.txt - 243
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_COPYING.txt - 18332
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_INSTALL.txt - 3937
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_NEWS.txt - 27704
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_README.txt - 52658
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_THANKS.txt - 960
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\SDL.dll - 448231
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\SDL_net.dll - 13312
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\zmbv\README.txt - 1608
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\zmbv\zmbv.dll - 94208
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\zmbv\zmbv.inf - 4043
+
+Install Folder Dump: 
+7/1/2009 10:22:14 AM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox-0.73.tar.gz - 1279384
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox.exe - 3760640
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_AUTHORS.txt - 243
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_COPYING.txt - 18332
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_INSTALL.txt - 3937
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_NEWS.txt - 27704
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_README.txt - 52658
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\dosbox_THANKS.txt - 960
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\SDL.dll - 448231
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\SDL_net.dll - 13312
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\zmbv\README.txt - 1608
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\zmbv\zmbv.dll - 94208
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\DOSBOX\zmbv\zmbv.inf - 4043
+
+UAC Enabled
+
+
+VirtualStore Folders: 
