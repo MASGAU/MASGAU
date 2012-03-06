@@ -1,0 +1,1121 @@
+Game Name: Baldurs Gate
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Baldurs Gate
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: Install
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: Path
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: 
+Data: 8/4/2010 3:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\BGMain.exe - 7839790
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: BG2UninstallPath
+Data: 3/5/2012 6:15:29 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: BG25UninstallPath
+Data: 3/5/2012 6:15:29 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BGMain.exe
+Value: Path
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BGMain.exe
+Value: 
+Data: 4/28/1999 9:28:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\BGMain.exe - 1331262
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3DBF8C66-01E9-4E53-A29F-853B8F654F3E}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{3DBF8C66-01E9-4E53-A29F-853B8F654F3E}
+Value: ConfigGDFBinaryPath
+Data: 11/15/2010 10:03:18 AM - ProgramFilesX86\GOG.com\Baldurs Gate II\goggame.dll - 281600
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{4E8A180D-F987-4E67-BFAD-C61A3B05A121}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{4E8A180D-F987-4E67-BFAD-C61A3B05A121}
+Value: ConfigGDFBinaryPath
+Data: 9/24/2010 1:29:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\goggame.dll - 267264
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{63FBEDA2-3FDF-4A1F-A7E0-ABC9EFA95DE5}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{63FBEDA2-3FDF-4A1F-A7E0-ABC9EFA95DE5}
+Value: ConfigGDFBinaryPath
+Data: 11/15/2010 10:03:18 AM - ProgramFilesX86\GOG.com\Baldurs Gate II\goggame.dll - 281600
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{F59F3A4C-A798-4DB1-96C4-8480A258AD55}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{F59F3A4C-A798-4DB1-96C4-8480A258AD55}
+Value: AppExePath
+Data: 4/21/1999 4:35:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Baldur.exe - 2185728
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE1
+Value: EXE
+Data: 4/21/1999 4:35:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Baldur.exe - 2185728
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE1
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE1
+Value: LAUNCHCOMMAND
+Data: 4/21/1999 4:35:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Baldur.exe - 2185728
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE1
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE1ADDON
+Value: EXE
+Data: 4/21/1999 4:35:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Baldur.exe - 2185728
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE1ADDON
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE1ADDON
+Value: LAUNCHCOMMAND
+Data: 4/21/1999 4:35:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Baldur.exe - 2185728
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE1ADDON
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE2
+Value: EXE
+Data: 8/4/2010 3:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\BGMain.exe - 7839790
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE2
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE2
+Value: LAUNCHCOMMAND
+Data: 8/4/2010 3:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\BGMain.exe - 7839790
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE2
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE2ADDON
+Value: EXE
+Data: 8/4/2010 3:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\BGMain.exe - 7839790
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE2ADDON
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE2ADDON
+Value: LAUNCHCOMMAND
+Data: 8/4/2010 3:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\BGMain.exe - 7839790
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGBALDURSGATE2ADDON
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DirectPlay\Applications\Baldur's Gate
+Value: CurrentDirectory
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DirectPlay\Applications\Baldur's Gate
+Value: Path
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DirectPlay\Applications\Baldur's Gate2
+Value: CurrentDirectory
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DirectPlay\Applications\Baldur's Gate2
+Value: Path
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Baldur's Gate
+Value: UninstallString
+Data: 3/5/2012 6:08:45 PM - ProgramFilesX86\GOG.com\Baldurs Gate\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Baldur's Gate II_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Baldur's Gate II_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Baldur's Gate_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Baldur's Gate_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8DAE4336-2B71-11D4-9A6C-006067325E47}
+Value: UninstallString
+Data: 3/5/2012 6:15:29 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B8C3B479-1716-11D5-968A-0050BA84F5F7}
+Value: UninstallString
+Data: 3/5/2012 6:15:29 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: Install
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: Path
+Data: ProgramFilesX86\GOG.com\Baldurs Gate II
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: 
+Data: 8/4/2010 3:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\BGMain.exe - 7839790
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: BG2UninstallPath
+Data: 3/5/2012 6:15:29 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe
+Value: BG25UninstallPath
+Data: 3/5/2012 6:15:29 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\unins000.exe - 2142547
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\BGMain.exe
+Value: Path
+Data: ProgramFilesX86\GOG.com\Baldurs Gate
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\BGMain.exe
+Value: 
+Data: 4/28/1999 9:28:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\BGMain.exe - 1331262
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+3/5/2012 6:14:32 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate\Baldur's Gate.lnk - 2077
+4/21/1999 4:35:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Baldur.exe - 2185728
+3/5/2012 6:14:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate\Config.lnk - 1175
+4/21/1999 3:07:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Config.exe - 701952
+3/5/2012 6:14:32 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate\Uninstall Baldur's Gate.lnk - 1097
+3/5/2012 6:08:45 PM - ProgramFilesX86\GOG.com\Baldurs Gate\unins000.exe - 2142547
+3/5/2012 6:14:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate\Documents\Manual Addon.lnk - 1213
+9/13/2001 5:14:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MANUAL_addon.PDF - 1201601
+3/5/2012 6:14:30 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate\Documents\Manual.lnk - 1181
+9/13/2001 5:14:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MANUAL.PDF - 4053991
+3/5/2012 6:14:30 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate\Documents\Map.lnk - 1162
+9/13/2001 5:30:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MAP.pdf - 1392777
+3/5/2012 6:14:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate\Documents\Readme Addon.lnk - 1213
+4/29/1999 10:15:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Readme_totsc.txt - 15758
+3/5/2012 6:14:30 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate\Documents\Readme.lnk - 1181
+3/1/1999 3:40:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Readme.txt - 45793
+3/5/2012 6:21:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate II\Baldur's Gate II.lnk - 2104
+8/4/2010 3:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\BGMain.exe - 7839790
+3/5/2012 6:21:31 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate II\Character Viewer.lnk - 1208
+6/28/2001 2:09:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\CharView.exe - 859648
+3/5/2012 6:21:30 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate II\Config.lnk - 1208
+7/30/2001 2:21:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\BGConfig.exe - 1439744
+3/5/2012 6:21:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate II\Uninstall Baldur's Gate II.lnk - 1112
+3/5/2012 6:15:29 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\unins000.exe - 2142547
+3/5/2012 6:21:30 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate II\Documents\Manual.lnk - 1202
+8/23/2000 6:28:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\manual.pdf - 1637277
+3/5/2012 6:21:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate II\Documents\Readme Addon.lnk - 1008
+3/5/2012 6:21:30 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Baldur's Gate II\Documents\Readme.lnk - 1202
+9/12/2000 3:22:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate II\Readme.txt - 54210
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+3/5/2012 7:08:26 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Baldur.ini - 1351
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\BALDUR.BMP - 23462
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\BALDUR.GAM - 52652
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\BALDUR.SAV - 8069
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\PORTRT0.BMP - 1854
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\WORLDMAP.WMP - 53552
+
+Install Folder Dump: 
+4/21/1999 4:35:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Baldur.exe - 2185728
+3/5/2012 6:14:33 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Baldur.ini - 945
+4/28/1999 9:28:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\BGMain.exe - 1331262
+3/1/2010 5:14:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\BGMain2.exe - 4923392
+4/19/1999 3:43:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Chitin.key - 238496
+4/21/1999 3:07:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Config.exe - 701952
+6/22/1999 4:44:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\dialog.tlk - 3407262
+8/25/2010 6:34:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\gfw_high.ico - 133015
+9/24/2010 1:29:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\goggame.dll - 267264
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\innosetup_license.txt - 1471
+12/7/1998 10:21:30 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Keymap.ini - 4277
+12/11/1998 12:50:04 AM - ProgramFilesX86\GOG.com\Baldurs Gate\luaAuto.cfg - 63
+9/13/2001 5:14:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MANUAL.PDF - 4053991
+9/13/2001 5:14:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MANUAL_addon.PDF - 1201601
+9/13/2001 5:30:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MAP.pdf - 1392777
+2/3/1999 1:07:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MConvert.exe - 1372211
+3/1/1999 3:40:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Readme.txt - 45793
+10/5/2001 4:16:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\readme_patch.txt - 79681
+4/29/1999 10:15:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Readme_totsc.txt - 15758
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Support.ico - 62895
+3/5/2012 6:14:33 PM - ProgramFilesX86\GOG.com\Baldurs Gate\unins000.dat - 127842
+3/5/2012 6:08:45 PM - ProgramFilesX86\GOG.com\Baldurs Gate\unins000.exe - 2142547
+3/5/2012 6:14:33 PM - ProgramFilesX86\GOG.com\Baldurs Gate\unins000.ini - 148
+10/12/1998 4:13:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Characters\cleric.chr - 1324
+10/12/1998 3:55:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Characters\fighter.chr - 1180
+10/12/1998 4:21:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Characters\mage.chr - 1216
+10/12/1998 4:41:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Characters\multi.chr - 1240
+10/12/1998 4:28:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Characters\thief.chr - 1180
+12/6/1998 7:59:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA000A.BIF - 8062554
+11/29/1998 10:54:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA000B.BIF - 7784364
+11/29/1998 10:53:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA000C.BIF - 7947826
+11/29/1998 9:58:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA000D.BIF - 21438060
+11/29/1998 9:59:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA000E.BIF - 19253690
+12/6/1998 6:59:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA000F.BIF - 11038220
+11/29/1998 10:00:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA000G.BIF - 25187918
+11/29/1998 10:00:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA000H.BIF - 2409218
+11/29/1998 9:40:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0100.BIF - 35303294
+11/29/1998 10:54:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA010A.BIF - 8059674
+11/29/1998 10:54:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA010B.BIF - 3081740
+11/29/1998 10:27:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0200.BIF - 36621168
+12/6/1998 7:59:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA020A.BIF - 9053478
+11/29/1998 10:55:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA020B.BIF - 7928622
+11/29/1998 10:26:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0300.BIF - 36085058
+11/29/1998 10:55:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA030A.BIF - 4970746
+11/29/1998 9:55:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA030B.BIF - 6252022
+11/29/1998 8:39:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0400.BIF - 25102578
+12/6/1998 8:15:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA040X.BIF - 524496
+3/31/1999 5:35:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0500.bif - 24846404
+3/10/1999 4:07:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA050A.bif - 7772040
+3/24/1999 5:33:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA050B.bif - 11794654
+3/31/1999 5:36:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA050C.bif - 21528826
+4/9/1999 5:43:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA050D.bif - 42675778
+11/29/1998 10:30:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0600.BIF - 36409204
+11/29/1998 10:55:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA060A.BIF - 7214312
+12/6/1998 7:43:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0700.BIF - 37882874
+11/29/1998 10:55:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA070A.BIF - 1331698
+11/29/1998 10:31:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0800.BIF - 37968696
+11/29/1998 10:56:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA080A.BIF - 8739854
+11/29/1998 9:56:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA080B.BIF - 14397210
+12/6/1998 5:57:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA0900.BIF - 25380704
+12/6/1998 6:43:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA090X.BIF - 629498
+3/31/1999 5:35:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1000.bif - 7261726
+3/24/1999 5:34:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA100A.bif - 21337622
+11/29/1998 9:43:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1100.BIF - 38211222
+11/29/1998 10:56:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA110A.BIF - 1704460
+11/29/1998 10:56:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA110B.BIF - 6421490
+11/29/1998 10:57:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA110C.BIF - 5050420
+11/29/1998 9:37:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1200.BIF - 39324522
+11/29/1998 10:57:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA120A.BIF - 7698086
+11/29/1998 10:57:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA120B.BIF - 10994514
+11/29/1998 9:41:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1300.BIF - 39396418
+11/29/1998 11:02:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA130A.BIF - 886374
+11/29/1998 8:44:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1400.BIF - 25245408
+11/29/1998 9:32:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA140A.BIF - 1719528
+11/29/1998 9:40:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA140B.BIF - 5899030
+4/7/1999 3:18:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1500.bif - 24944762
+3/19/1999 7:03:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA150A.bif - 3422862
+11/29/1998 8:05:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1600.BIF - 25319942
+11/29/1998 8:32:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA160X.BIF - 1049956
+11/29/1998 8:12:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1700.BIF - 25300442
+11/29/1998 8:35:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1800.BIF - 25435418
+11/29/1998 8:32:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA180A.BIF - 1692588
+11/29/1998 9:39:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA180B.BIF - 6563986
+11/29/1998 9:39:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA180C.BIF - 14851436
+11/29/1998 9:40:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA180D.BIF - 5533754
+11/29/1998 9:40:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA180E.BIF - 5423386
+11/29/1998 8:16:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA1900.BIF - 25249992
+11/29/1998 9:32:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA190X.BIF - 1886236
+4/7/1999 3:17:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2000.bif - 25167528
+2/8/1999 2:56:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA200A.bif - 2001956
+3/31/1999 5:32:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA200B.bif - 5841884
+11/29/1998 8:29:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2100.BIF - 25143780
+11/29/1998 9:31:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA210x.BIF - 1070178
+11/29/1998 8:32:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2200.BIF - 25370282
+11/29/1998 8:32:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA220X.BIF - 464184
+11/29/1998 9:31:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2300.BIF - 25219382
+11/29/1998 9:36:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA230A.BIF - 7137728
+12/6/1998 7:45:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA230B.BIF - 1877336
+12/6/1998 5:49:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2400.BIF - 25169600
+11/29/1998 7:47:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2600.BIF - 25281544
+12/6/1998 6:45:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA260A.BIF - 7702485
+11/29/1998 9:12:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA260B.BIF - 27066896
+12/6/1998 7:44:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA260C.BIF - 27325778
+11/29/1998 8:04:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2700.BIF - 25204536
+11/29/1998 8:30:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2800.BIF - 25172096
+11/29/1998 9:17:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA2900.BIF - 25315980
+11/29/1998 10:34:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3000.BIF - 25191462
+11/29/1998 9:15:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3100.BIF - 25115618
+11/29/1998 9:14:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3200.BIF - 25307814
+11/29/1998 9:37:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA320X.BIF - 1324532
+11/29/1998 9:13:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3300.BIF - 25614608
+11/29/1998 9:36:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA330A.BIF - 3753842
+11/29/1998 10:38:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA330B.BIF - 4999984
+11/29/1998 10:38:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA330C.BIF - 4267158
+11/29/1998 10:39:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA330D.BIF - 5075638
+11/29/1998 9:11:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3400.BIF - 25083904
+11/29/1998 10:33:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA340X.BIF - 1886214
+11/29/1998 9:08:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3500.BIF - 25152676
+11/29/1998 9:01:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3600.BIF - 25224348
+11/29/1998 10:33:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA360X.BIF - 1925880
+11/29/1998 9:02:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3700.BIF - 25173268
+11/29/1998 9:01:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3800.BIF - 25210846
+11/29/1998 10:32:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA380X.BIF - 419788
+11/29/1998 9:34:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA3900.BIF - 25097384
+11/29/1998 9:32:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA390X.BIF - 5033004
+11/29/1998 9:06:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4000.BIF - 25249632
+11/29/1998 9:33:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA400X.BIF - 2411940
+12/6/1998 6:46:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4100.BIF - 25224696
+11/29/1998 10:33:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA410X.BIF - 1328662
+11/29/1998 8:50:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4200.BIF - 25207926
+11/29/1998 10:34:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA420X.BIF - 519232
+11/29/1998 9:07:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4300.BIF - 25154240
+11/29/1998 8:52:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4400.BIF - 25123978
+11/29/1998 10:33:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA440X.BIF - 419788
+12/6/1998 6:55:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4500.BIF - 25103948
+11/29/1998 9:33:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA450X.BIF - 1615572
+11/29/1998 8:53:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4600.BIF - 25159638
+11/29/1998 9:09:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4700.BIF - 25223800
+11/29/1998 10:33:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA470X.BIF - 420146
+11/29/1998 10:32:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4800.BIF - 25389758
+11/29/1998 8:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA480X.BIF - 7045682
+11/29/1998 8:48:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA4900.BIF - 25194324
+11/29/1998 9:32:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA490X.BIF - 2703882
+11/29/1998 8:51:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA5000.BIF - 25097302
+11/29/1998 10:32:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA500X.BIF - 1007314
+11/29/1998 8:55:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA5100.BIF - 25100810
+11/29/1998 10:33:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA510X.BIF - 1946628
+11/29/1998 8:56:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA5200.BIF - 25548884
+11/29/1998 9:33:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA520X.BIF - 5611936
+12/6/1998 6:48:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA5300.BIF - 25241294
+11/29/1998 8:57:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA5400.BIF - 25161920
+11/29/1998 9:03:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA540A.BIF - 8535268
+11/29/1998 10:37:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA540B.BIF - 15642744
+11/29/1998 10:38:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA540C.BIF - 15234780
+11/29/1998 10:38:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA540D.BIF - 10992878
+11/29/1998 8:58:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA5500.BIF - 25108964
+11/29/1998 9:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\AREA550X.BIF - 5337048
+3/19/1999 7:02:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\Areas.bif - 2325252
+3/1/1999 2:11:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\ARMisc.bif - 2380682
+11/29/1998 6:23:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\CHAANIM.bif - 65903156
+3/24/1999 5:03:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\CHASound.bif - 37021390
+3/24/1999 4:58:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\CREAnim.bif - 27908813
+4/13/1999 1:21:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\Creature.bif - 2027726
+12/7/1998 11:33:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\CRESound.BIF - 8250469
+4/9/1999 5:36:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\Default.bif - 451093
+4/13/1999 1:22:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\Dialog.bif - 933941
+11/29/1998 6:00:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\EFFECTS.bif - 1711857
+3/10/1999 4:12:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\ExArMaps.bif - 1806480
+4/13/1999 1:22:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\ExPAreas.bif - 308952
+4/13/1999 1:20:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\Gui.bif - 56616018
+4/13/1999 1:17:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\Items.bif - 1529003
+3/19/1999 7:57:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\MPCREANM.bif - 9143146
+3/19/1999 7:43:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\MPGUI.bif - 738174
+3/31/1999 8:37:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\MPSounds.bif - 6730534
+3/24/1999 5:22:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\NPCSound.bif - 51002156
+11/29/1998 6:28:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\OBJANIM.bif - 11539863
+11/29/1998 9:34:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\RndEncnt.BIF - 9424468
+4/13/1999 1:18:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\scripts.bif - 920621
+3/24/1999 5:39:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\SFXSound.bif - 48628181
+4/9/1999 5:38:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\data\Spells.bif - 165862
+12/8/1998 1:47:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\movies\MOVIECD1.BIF - 77656592
+11/29/1998 10:53:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\movies\MOVIECD2.BIF - 14995202
+11/29/1998 11:18:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\movies\MOVIECD3.BIF - 12103426
+12/6/1998 7:04:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\movies\MOVIECD4.BIF - 89154212
+12/6/1998 8:00:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\movies\MOVIECD5.BIF - 28885936
+3/24/1999 5:35:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\movies\MovieCD6.bif - 18858824
+11/29/1998 10:00:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\movies\MOVIES.BIF - 9410264
+4/13/1999 8:47:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Baldur.bmp - 23462
+4/13/1999 8:47:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Baldur.gam - 79452
+4/13/1999 8:46:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Baldur.sav - 482106
+4/13/1999 8:46:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Portrt0.bmp - 1854
+4/13/1999 8:46:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Portrt1.bmp - 1854
+4/13/1999 8:46:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Portrt2.bmp - 1854
+4/13/1999 8:46:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Portrt3.bmp - 1854
+4/13/1999 8:46:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Portrt4.bmp - 1854
+4/13/1999 8:46:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Portrt5.bmp - 1854
+4/13/1999 8:46:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\MPSave\888888888-Mission-Pack-Save\Worldmap.wmp - 49784
+11/10/1998 7:20:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BC1.mus - 855
+11/10/1998 7:20:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BC2.mus - 879
+11/10/1998 7:20:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BD1.mus - 750
+11/10/1998 7:20:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BD2.mus - 717
+11/10/1998 7:20:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BF1.mus - 721
+11/10/1998 7:20:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BF2.mus - 859
+11/10/1998 7:20:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BL1.mus - 805
+11/10/1998 7:20:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BL2.mus - 721
+11/10/1998 7:20:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BP1.mus - 327
+11/10/1998 7:20:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BP2.mus - 829
+11/10/1998 7:20:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\BW1.mus - 691
+11/6/1998 10:36:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\CDay1.mus - 30
+11/6/1998 10:36:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\CDay2.mus - 30
+11/26/1998 2:58:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Chants.mus - 31
+11/6/1998 10:36:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Chapter.mus - 30
+11/6/1998 10:36:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\CNite.mus - 30
+11/6/1998 10:36:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Dream.mus - 30
+11/5/1998 4:48:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Dung1.mus - 29
+11/5/1998 4:48:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Dung2.mus - 29
+11/5/1998 4:49:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Dung3.mus - 29
+11/6/1998 10:37:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\FDay.mus - 29
+11/10/1998 5:10:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\FNite.mus - 30
+11/6/1998 10:37:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Fort.mus - 29
+11/6/1998 10:37:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\PDay.mus - 29
+11/6/1998 10:37:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Pnite.mus - 30
+11/5/1998 4:51:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Tav1.mus - 27
+11/5/1998 4:51:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Tav2.mus - 27
+11/5/1998 4:52:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Tav3.mus - 27
+11/5/1998 4:52:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Tav4.mus - 27
+11/6/1998 10:37:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\TDay1.mus - 30
+11/6/1998 10:37:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\TDay2.mus - 30
+11/5/1998 4:52:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Temple.mus - 31
+11/5/1998 4:53:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Theme.mus - 29
+11/6/1998 10:38:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\TNite.mus - 30
+11/21/1998 4:38:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1a1.ACM - 64807
+11/21/1998 4:38:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1a2.ACM - 61421
+11/21/1998 4:38:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1a3.ACM - 64781
+11/21/1998 4:38:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1a4.ACM - 63160
+11/21/1998 4:38:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1b1.ACM - 62400
+11/21/1998 4:38:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1b2.ACM - 64130
+11/21/1998 4:39:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1b3.ACM - 65744
+11/21/1998 4:39:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1c1.ACM - 70672
+11/21/1998 4:39:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1d1.ACM - 34602
+11/21/1998 4:39:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1d1a.ACM - 34602
+11/21/1998 4:39:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1d2.ACM - 30453
+11/21/1998 4:39:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1d2a.ACM - 30453
+11/21/1998 4:39:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1d3.ACM - 59245
+11/21/1998 4:39:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1d4.ACM - 63342
+11/21/1998 4:39:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1e1.ACM - 34641
+11/21/1998 4:39:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1e2.ACM - 56741
+11/21/1998 4:39:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1e3.ACM - 41996
+11/21/1998 4:39:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1e4.ACM - 30565
+11/21/1998 4:39:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1enda1.ACM - 69574
+11/21/1998 4:39:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1enda4.ACM - 69257
+11/21/1998 4:39:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endb1.ACM - 75181
+11/21/1998 4:39:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endb2.ACM - 63383
+11/21/1998 4:39:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endb3.ACM - 68572
+11/21/1998 4:39:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endc1.ACM - 69609
+11/21/1998 4:39:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endd1.ACM - 114280
+11/21/1998 4:40:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endd2.ACM - 131098
+11/21/1998 4:40:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endd4.ACM - 137476
+11/21/1998 4:40:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1ende1.ACM - 77629
+11/21/1998 4:40:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1ende2.ACM - 58325
+11/21/1998 4:40:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1ende4.ACM - 141756
+11/21/1998 4:40:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endf2.ACM - 61142
+11/21/1998 4:40:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endf4.ACM - 105144
+11/21/1998 4:40:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endg2.ACM - 102225
+11/21/1998 4:40:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endg3.ACM - 102432
+11/21/1998 4:40:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endh2.ACM - 68507
+11/21/1998 4:40:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endh3.ACM - 93945
+11/21/1998 4:40:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1endh4.ACM - 126646
+11/21/1998 4:40:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1f1.ACM - 42676
+11/21/1998 4:40:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1f2.ACM - 85290
+11/21/1998 4:41:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1f3.ACM - 50935
+11/21/1998 4:41:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1f4.ACM - 66326
+11/21/1998 4:41:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1g1.ACM - 61593
+11/21/1998 4:41:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1g2.ACM - 64087
+11/21/1998 4:41:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1g3.ACM - 46877
+11/21/1998 4:41:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1h1.ACM - 64796
+11/21/1998 4:41:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1h2.ACM - 46946
+11/21/1998 4:41:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1h3.ACM - 64177
+11/21/1998 4:41:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1h4.ACM - 46811
+11/21/1998 4:41:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc1\Bc1i1.ACM - 64156
+11/21/1998 4:41:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2a1.ACM - 27907
+11/21/1998 4:41:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2a2.ACM - 27064
+11/21/1998 4:41:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2a3.ACM - 54137
+11/21/1998 4:41:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2b1.ACM - 54361
+11/21/1998 4:41:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2b2.ACM - 54394
+11/21/1998 4:41:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2c1.ACM - 52866
+11/21/1998 4:41:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2c2.ACM - 54371
+11/21/1998 4:41:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2d1.ACM - 53610
+11/21/1998 4:41:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2d2.ACM - 54323
+11/21/1998 4:41:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2e1.ACM - 53658
+11/21/1998 4:41:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2e2.ACM - 53623
+11/21/1998 4:42:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2enda.ACM - 114280
+11/21/1998 4:42:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2endb.ACM - 112988
+11/21/1998 4:42:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2endc.ACM - 112215
+11/21/1998 4:42:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2f1.ACM - 53761
+11/21/1998 4:42:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2f2.ACM - 53735
+11/21/1998 4:42:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2g1.ACM - 53465
+11/21/1998 4:42:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2g2.ACM - 53565
+11/21/1998 4:42:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2g3.ACM - 53400
+11/21/1998 4:42:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2h1.ACM - 54188
+11/21/1998 4:42:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2h2.ACM - 53427
+11/21/1998 4:42:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2h3.ACM - 41109
+11/21/1998 4:42:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2h4.ACM - 40389
+11/21/1998 4:42:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2i1.ACM - 54418
+11/21/1998 4:42:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2i2.ACM - 54439
+11/21/1998 4:42:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2i3.ACM - 54453
+11/21/1998 4:42:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2i4.ACM - 54330
+11/21/1998 4:42:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2j1.ACM - 52738
+11/21/1998 4:42:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2j2.ACM - 52775
+11/21/1998 4:42:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2j3.ACM - 54394
+11/21/1998 4:43:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2j4.ACM - 52774
+11/21/1998 4:43:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2k1.ACM - 53681
+11/21/1998 4:43:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2k2.ACM - 52853
+11/21/1998 4:43:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2k3.ACM - 28082
+11/21/1998 4:43:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bc2\Bc2xa1.ACM - 27924
+11/21/1998 4:43:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1a1.ACM - 42571
+11/21/1998 4:43:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1a2.ACM - 42659
+11/21/1998 4:43:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1b1.ACM - 43548
+11/21/1998 4:43:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1b2.ACM - 42710
+11/21/1998 4:43:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1b3.ACM - 42773
+11/21/1998 4:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1b4.ACM - 42729
+11/21/1998 4:43:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1c1.ACM - 42741
+11/21/1998 4:43:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1c2.ACM - 34482
+11/21/1998 4:43:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1d1.ACM - 43487
+11/21/1998 4:43:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1d2.ACM - 71487
+11/21/1998 4:43:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1d3.ACM - 71459
+11/21/1998 4:43:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1e1.ACM - 42807
+11/21/1998 4:43:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1e2.ACM - 42825
+11/21/1998 4:43:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1e3.ACM - 41940
+11/21/1998 4:43:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1e4.ACM - 42806
+11/21/1998 4:43:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1enda.ACM - 106858
+11/21/1998 4:43:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1endb.ACM - 105633
+11/21/1998 4:44:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1endc.ACM - 104720
+11/21/1998 4:44:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1f1.ACM - 42736
+11/21/1998 4:44:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1f2.ACM - 42728
+11/21/1998 4:44:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1f3.ACM - 42758
+11/21/1998 4:44:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1g1.ACM - 42786
+11/21/1998 4:44:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1g2.ACM - 34556
+11/21/1998 4:44:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1g3a.ACM - 42738
+11/21/1998 4:44:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1g4a.ACM - 29620
+11/21/1998 4:44:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1h1.ACM - 42764
+11/21/1998 4:44:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1h2.ACM - 36198
+11/21/1998 4:44:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1h3.ACM - 36235
+11/21/1998 4:44:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1i12.ACM - 42830
+11/21/1998 4:44:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd1\Bd1xa1.ACM - 42620
+11/21/1998 4:44:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2a1.ACM - 83381
+11/21/1998 4:44:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2a2.ACM - 39995
+11/21/1998 4:44:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2a3.ACM - 39249
+11/21/1998 4:44:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2b1.ACM - 39268
+11/21/1998 4:44:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2b2.ACM - 78777
+11/21/1998 4:44:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2b2b.ACM - 39455
+11/21/1998 4:44:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2c1.ACM - 59136
+11/21/1998 4:44:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2c2.ACM - 78957
+11/21/1998 4:44:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2c3.ACM - 40206
+11/21/1998 4:44:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2c4.ACM - 39356
+11/21/1998 4:45:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2d1.ACM - 40269
+11/21/1998 4:45:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2d2.ACM - 38708
+11/21/1998 4:45:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2d3.ACM - 39362
+11/21/1998 4:45:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2d4.ACM - 88620
+11/21/1998 4:45:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2e1.ACM - 39395
+11/21/1998 4:45:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2e2.ACM - 40166
+11/21/1998 4:45:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2e3.ACM - 39385
+11/21/1998 4:45:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2e4.ACM - 78961
+11/21/1998 4:45:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2enda1.ACM - 69227
+11/21/1998 4:45:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2enda2.ACM - 69205
+11/21/1998 4:45:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2endb1.ACM - 69215
+11/21/1998 4:45:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2endb2.ACM - 141469
+11/21/1998 4:45:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2endd1.ACM - 69224
+11/21/1998 4:45:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2ende1.ACM - 69241
+11/21/1998 4:45:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2endg3.ACM - 155294
+11/21/1998 4:45:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2f1.ACM - 39389
+11/21/1998 4:45:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2f2.ACM - 39376
+11/21/1998 4:45:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2f3.ACM - 39421
+11/21/1998 4:45:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2f4.ACM - 39456
+11/21/1998 4:46:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2g1a.ACM - 78936
+11/21/1998 4:46:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2g2b.ACM - 39418
+11/21/1998 4:46:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bd2\Bd2g3.ACM - 78909
+11/21/1998 4:46:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1a1.ACM - 38982
+11/21/1998 4:46:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1a2.ACM - 61440
+11/21/1998 4:46:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1a3.ACM - 31100
+11/21/1998 4:46:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1b1.ACM - 93388
+11/21/1998 4:46:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1b2.ACM - 47526
+11/21/1998 4:46:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1c1.ACM - 110266
+11/21/1998 4:46:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1d1.ACM - 42712
+11/21/1998 4:46:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1d2.ACM - 31217
+11/21/1998 4:46:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1e1.ACM - 51886
+11/21/1998 4:46:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1e2.ACM - 41380
+11/21/1998 4:46:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\BF1endA.ACM - 157346
+11/21/1998 4:46:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\BF1endB.ACM - 146859
+11/21/1998 4:46:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\BF1endC.ACM - 104115
+11/21/1998 4:47:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\BF1endD.ACM - 106361
+11/21/1998 4:47:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\BF1endE.ACM - 104900
+11/21/1998 4:47:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\BF1endF.ACM - 154438
+11/21/1998 4:47:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\BF1endG.ACM - 139638
+11/21/1998 4:47:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1f1.ACM - 31221
+11/21/1998 4:47:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1f2.ACM - 51885
+11/21/1998 4:47:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1f3.ACM - 41195
+11/21/1998 4:47:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1g1.ACM - 41112
+11/21/1998 4:47:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1g2.ACM - 31215
+11/21/1998 4:47:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1g3.ACM - 51971
+11/21/1998 4:47:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1h1.ACM - 41150
+11/21/1998 4:47:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1h2.ACM - 31252
+11/21/1998 4:47:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1i1.ACM - 41263
+11/21/1998 4:47:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1i2.ACM - 51876
+11/21/1998 4:47:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1i3.ACM - 41117
+11/21/1998 4:47:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1j1.ACM - 61832
+11/21/1998 4:47:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1j2.ACM - 41990
+11/21/1998 4:47:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1j3.ACM - 76475
+11/21/1998 4:47:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1j4.ACM - 15612
+11/21/1998 4:47:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf1\Bf1j5.ACM - 42735
+11/21/1998 4:48:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2a1.ACM - 48080
+11/21/1998 4:48:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2a2.ACM - 47331
+11/21/1998 4:48:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2a3.ACM - 47422
+11/21/1998 4:48:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2a4.ACM - 47630
+11/21/1998 4:48:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2b1.ACM - 47624
+11/21/1998 4:48:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2b2.ACM - 47689
+11/21/1998 4:48:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2b3.ACM - 47570
+11/21/1998 4:48:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2b4.ACM - 47822
+11/21/1998 4:48:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2c1.ACM - 47754
+11/21/1998 4:48:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2c2.ACM - 47804
+11/21/1998 4:48:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2c3.ACM - 47758
+11/21/1998 4:48:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2c4.ACM - 47647
+11/21/1998 4:48:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2d1.ACM - 47720
+11/21/1998 4:48:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2d2.ACM - 47705
+11/21/1998 4:48:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2d3.ACM - 47745
+11/21/1998 4:48:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2d4.ACM - 47639
+11/21/1998 4:48:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2e1.ACM - 47759
+11/21/1998 4:48:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2e2.ACM - 47599
+11/21/1998 4:48:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2enda1.ACM - 75181
+11/21/1998 4:48:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2enda2.ACM - 69205
+11/21/1998 4:48:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2enda3.ACM - 69215
+11/21/1998 4:48:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2enda4.ACM - 56228
+11/21/1998 4:49:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endc1.ACM - 55992
+11/21/1998 4:49:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endd1.ACM - 166097
+11/21/1998 4:49:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endd2.ACM - 126646
+11/21/1998 4:49:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endd4.ACM - 141469
+11/21/1998 4:49:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endf1.ACM - 148926
+11/21/1998 4:49:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endf2.ACM - 148760
+11/21/1998 4:49:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endf3.ACM - 106858
+11/21/1998 4:49:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endg3.ACM - 105633
+11/21/1998 4:49:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2endg4.ACM - 215543
+11/21/1998 4:49:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2f1.ACM - 47658
+11/21/1998 4:50:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2f2.ACM - 47715
+11/21/1998 4:50:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2f3.ACM - 47671
+11/21/1998 4:50:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2f4.ACM - 47756
+11/21/1998 4:50:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2g1.ACM - 48537
+11/21/1998 4:50:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2g2.ACM - 46844
+11/21/1998 4:50:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2g3.ACM - 47662
+11/21/1998 4:50:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2g4.ACM - 47719
+11/21/1998 4:50:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2h1.ACM - 47700
+11/21/1998 4:50:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2h2.ACM - 47703
+11/21/1998 4:50:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2h3.ACM - 47543
+11/21/1998 4:50:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bf2\Bf2h4.ACM - 47624
+11/21/1998 4:50:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1a1.ACM - 38599
+11/21/1998 4:50:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1a3.ACM - 28841
+11/21/1998 4:50:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1a4.ACM - 28809
+11/21/1998 4:50:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1b1.ACM - 28818
+11/21/1998 4:50:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1b2.ACM - 28803
+11/21/1998 4:50:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1b3.ACM - 28778
+11/21/1998 4:50:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1b4.ACM - 28852
+11/21/1998 4:50:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1c1.ACM - 28871
+11/21/1998 4:50:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1c2.ACM - 28812
+11/21/1998 4:50:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1c3.ACM - 28816
+11/21/1998 4:50:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1c4.ACM - 28807
+11/21/1998 4:50:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1d1.ACM - 28821
+11/21/1998 4:50:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1d2.ACM - 28811
+11/21/1998 4:50:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1d3.ACM - 28887
+11/21/1998 4:50:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1e1.ACM - 56926
+11/21/1998 4:50:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1e2.ACM - 42890
+11/21/1998 4:51:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1e3.ACM - 57848
+11/21/1998 4:51:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1e4a.ACM - 35502
+11/21/1998 4:51:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1enda1.ACM - 55885
+11/21/1998 4:51:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1enda4.ACM - 105633
+11/21/1998 4:51:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1endb1.ACM - 106819
+11/21/1998 4:51:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1endb2.ACM - 107733
+11/21/1998 4:51:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1endb3.ACM - 108400
+11/21/1998 4:51:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1endc1.ACM - 109025
+11/21/1998 4:51:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1ende4.ACM - 137476
+11/21/1998 4:51:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1f1a.ACM - 86731
+11/21/1998 4:51:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1f2.ACM - 28882
+11/21/1998 4:51:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1f3.ACM - 28884
+11/21/1998 4:51:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1f4.ACM - 28867
+11/21/1998 4:51:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1g1.ACM - 28903
+11/21/1998 4:51:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1g2.ACM - 28908
+11/21/1998 4:51:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1g3.ACM - 28833
+11/21/1998 4:51:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1h1.ACM - 85725
+11/21/1998 4:51:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1h2.ACM - 28899
+11/21/1998 4:52:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl1\Bl1xa4.ACM - 56828
+11/21/1998 4:52:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2a1.ACM - 44762
+11/21/1998 4:52:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2a2.ACM - 49776
+11/21/1998 4:52:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2a3.ACM - 53248
+11/21/1998 4:52:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2a4.ACM - 51685
+11/21/1998 4:52:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2b1.ACM - 53326
+11/21/1998 4:52:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2b2.ACM - 51629
+11/21/1998 4:52:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2b3.ACM - 52356
+11/21/1998 4:52:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2b4.ACM - 39327
+11/21/1998 4:52:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2c1.ACM - 40391
+11/21/1998 4:52:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2c2.ACM - 66061
+11/21/1998 4:52:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2c3.ACM - 65118
+11/21/1998 4:52:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2c4.ACM - 65123
+11/21/1998 4:52:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2d1.ACM - 38671
+11/21/1998 4:52:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2d2.ACM - 64972
+11/21/1998 4:52:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2e1.ACM - 79765
+11/21/1998 4:52:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\BL2endA.ACM - 62813
+11/21/1998 4:52:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\BL2endB.ACM - 62254
+11/21/1998 4:52:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\BL2endC.ACM - 70445
+11/21/1998 4:52:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\BL2endD.ACM - 74979
+11/21/1998 4:53:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\BL2endE.ACM - 76417
+11/21/1998 4:53:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2f1.ACM - 33844
+11/21/1998 4:53:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2f2.ACM - 66033
+11/21/1998 4:53:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2g1.ACM - 57796
+11/21/1998 4:53:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2g2.ACM - 38861
+11/21/1998 4:53:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2g3.ACM - 26483
+11/21/1998 4:53:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2h1.ACM - 46187
+11/21/1998 4:53:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2h2.ACM - 32693
+11/21/1998 4:53:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2h3.ACM - 32955
+11/21/1998 4:53:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2h4.ACM - 46951
+11/21/1998 4:53:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2h5.ACM - 33936
+11/21/1998 4:53:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bl2\Bl2h6.ACM - 40470
+11/21/1998 4:53:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1a1.ACM - 68999
+11/21/1998 4:53:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1a2.ACM - 94632
+11/21/1998 4:53:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1a3.ACM - 64215
+11/21/1998 4:53:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1b1.ACM - 56855
+11/21/1998 4:53:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1b2.ACM - 49369
+11/21/1998 4:53:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1b3.ACM - 56814
+11/21/1998 4:53:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1c1.ACM - 50157
+11/21/1998 4:53:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1c2.ACM - 70691
+11/21/1998 4:53:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1d1.ACM - 78897
+11/21/1998 4:54:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1d2.ACM - 66750
+11/21/1998 4:54:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1d3.ACM - 56072
+11/21/1998 4:54:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1enda1.ACM - 29157
+11/21/1998 4:54:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1enda2.ACM - 77399
+11/21/1998 4:54:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1endb1.ACM - 77282
+11/21/1998 4:54:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1endb2.ACM - 76896
+11/21/1998 4:54:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1endc2.ACM - 77433
+11/21/1998 4:54:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1endd1.ACM - 77246
+11/21/1998 4:54:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1endd2.ACM - 77380
+11/21/1998 4:54:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp1\Bp1endz1.ACM - 77399
+11/21/1998 4:54:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2a1.ACM - 56925
+11/21/1998 4:54:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2a2.ACM - 77367
+11/21/1998 4:54:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2a3.ACM - 77044
+11/21/1998 4:54:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2b1.ACM - 38564
+11/21/1998 4:54:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2b2.ACM - 50811
+11/21/1998 4:54:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2c1.ACM - 63868
+11/21/1998 4:54:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2c2.ACM - 63973
+11/21/1998 4:54:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2d1.ACM - 45154
+11/21/1998 4:54:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2d2.ACM - 64268
+11/21/1998 4:55:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2d3.ACM - 76621
+11/21/1998 4:55:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2d4.ACM - 51723
+11/21/1998 4:55:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2e1.ACM - 50912
+11/21/1998 4:55:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2e2.ACM - 57510
+11/21/1998 4:55:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2e3.ACM - 32785
+11/21/1998 4:55:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2e4.ACM - 31955
+11/21/1998 4:55:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2e5.ACM - 32072
+11/21/1998 4:55:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2enda1.ACM - 76822
+11/21/1998 4:55:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endc1.ACM - 77476
+11/21/1998 4:55:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endc2.ACM - 77140
+11/21/1998 4:55:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endd1.ACM - 76985
+11/21/1998 4:55:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endd2.ACM - 106819
+11/21/1998 4:55:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endd3.ACM - 57332
+11/21/1998 4:55:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endf1.ACM - 57450
+11/21/1998 4:55:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endf4.ACM - 57570
+11/21/1998 4:55:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endg4.ACM - 57382
+11/21/1998 4:55:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endh1.ACM - 56935
+11/21/1998 4:56:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endh3.ACM - 141020
+11/21/1998 4:56:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2endz1.ACM - 57378
+11/21/1998 4:56:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2f1.ACM - 32951
+11/21/1998 4:56:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2f2.ACM - 45234
+11/21/1998 4:56:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2f3.ACM - 57614
+11/21/1998 4:56:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2f4.ACM - 45329
+11/21/1998 4:56:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2g1.ACM - 57623
+11/21/1998 4:56:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2g2.ACM - 51670
+11/21/1998 4:56:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2g3.ACM - 51879
+11/21/1998 4:56:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2g4.ACM - 70749
+11/21/1998 4:56:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2h1.ACM - 37857
+11/21/1998 4:56:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2h2.ACM - 46110
+11/21/1998 4:56:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2h3.ACM - 50199
+11/21/1998 4:56:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2xa1.ACM - 51891
+11/21/1998 4:56:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bp2\Bp2z1.ACM - 83785
+11/21/1998 4:56:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1a1.ACM - 53388
+11/21/1998 4:56:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1a3.ACM - 42655
+11/21/1998 4:56:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1a4.ACM - 42700
+11/21/1998 4:56:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1b1.ACM - 42683
+11/21/1998 4:56:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1b2.ACM - 42670
+11/21/1998 4:56:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1b3.ACM - 42733
+11/21/1998 4:56:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1b4.ACM - 42795
+11/21/1998 4:56:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1c1.ACM - 42698
+11/21/1998 4:57:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1c2.ACM - 42736
+11/21/1998 4:57:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1c3.ACM - 42799
+11/21/1998 4:57:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1c4.ACM - 42811
+11/21/1998 4:57:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1d1.ACM - 42700
+11/21/1998 4:57:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1d2.ACM - 42710
+11/21/1998 4:57:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1d3.ACM - 42727
+11/21/1998 4:57:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1d4.ACM - 42788
+11/21/1998 4:57:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1e1.ACM - 42751
+11/21/1998 4:57:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1e2.ACM - 42748
+11/21/1998 4:57:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1e3.ACM - 42772
+11/21/1998 4:57:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1e4.ACM - 42831
+11/21/1998 4:57:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1enda1.ACM - 69257
+11/21/1998 4:57:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1enda3.ACM - 104720
+11/21/1998 4:57:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1endb1.ACM - 69227
+11/21/1998 4:57:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1endb2.ACM - 68507
+11/21/1998 4:57:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1endb4.ACM - 56833
+11/21/1998 4:57:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1endd3.ACM - 105633
+11/21/1998 4:57:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1endd4.ACM - 106858
+11/21/1998 4:57:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1ende1.ACM - 76636
+11/21/1998 4:58:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1ende2.ACM - 77075
+11/21/1998 4:58:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1endf1.ACM - 74697
+11/21/1998 4:58:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1endf2.ACM - 195662
+11/21/1998 4:58:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1f1.ACM - 51872
+11/21/1998 4:58:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1f2.ACM - 51822
+11/21/1998 4:58:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1g12.ACM - 85491
+11/21/1998 4:58:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1h1.ACM - 59931
+11/21/1998 4:58:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Bw1\Bw1h2.ACM - 68208
+12/5/1998 4:07:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\CDay1\CDay1a.ACM - 2463317
+11/21/1998 5:01:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\CDay2\CDay2a.ACM - 1603692
+11/21/1998 5:02:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Chants\Chantsa.ACM - 798582
+11/21/1998 5:03:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\CNite\CNitea.ACM - 2205600
+11/21/1998 5:05:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Dream\Dreama.ACM - 2143795
+11/21/1998 5:07:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Dung1\Dung1a.ACM - 3115779
+11/21/1998 5:09:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Dung2\Dung2a.ACM - 3108626
+11/21/1998 5:10:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Dung3\Dung3a.ACM - 1964740
+11/21/1998 5:12:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\FDay\FDaya.ACM - 1879166
+11/21/1998 5:13:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\FNite\FNitea.ACM - 1438902
+11/21/1998 5:14:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Fort\Forta.ACM - 1586283
+11/21/1998 5:15:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\PDay\PDaya.ACM - 1505445
+11/21/1998 5:16:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\PNite\PNitea.ACM - 2233903
+12/5/1998 3:50:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Tav1\Tav1a.acm - 1618906
+12/5/1998 3:51:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Tav2\Tav2a.acm - 1353880
+12/5/1998 3:52:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Tav3\Tav3a.acm - 1781122
+12/5/1998 3:54:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Tav4\Tav4a.acm - 1434605
+11/21/1998 5:18:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\TDay1\TDay1a.ACM - 1660948
+11/21/1998 5:19:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\TDay2\TDay2a.ACM - 1552035
+11/21/1998 5:19:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Temple\Templea.ACM - 1005934
+11/21/1998 5:21:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\Theme\Themea.ACM - 1648385
+11/21/1998 5:22:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Music\TNite\TNitea.ACM - 1550499
+1/12/1999 12:38:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0109.ARE - 2984
+3/30/1999 1:49:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0110.ARE - 4204
+6/17/1999 7:10:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0111.ARE - 2776
+4/27/1999 7:42:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0123.bcs - 2343
+4/27/1999 7:42:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0125.bcs - 3391
+12/11/1998 2:12:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0145.ARE - 2844
+1/18/1999 2:04:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0146.ARE - 10988
+3/22/1999 3:45:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0154.ARE - 3192
+3/3/1999 11:21:26 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0300.ARE - 27116
+3/22/1999 3:59:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0307.ARE - 2948
+3/22/1999 4:02:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0308.ARE - 1924
+3/1/1999 3:18:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0400.WED - 83892
+3/1/1999 3:09:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0400sr.bmp - 51318
+5/27/1999 4:15:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0502.bcs - 1824
+4/19/1999 2:19:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar0504.ARE - 6408
+4/19/1999 1:33:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0600.bcs - 1897
+12/9/1998 1:27:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0700n.WED - 107540
+3/1/1999 3:08:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar0900sr.BMP - 51318
+4/29/1999 10:41:52 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar1000.bcs - 4406
+4/19/1999 3:27:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar1801.ARE - 11280
+4/19/1999 3:24:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar1801a.are - 11280
+12/13/1998 8:48:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar2600.ARE - 21664
+12/11/1998 7:23:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar2608.ARE - 10340
+12/11/1998 7:23:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar2609.ARE - 9712
+12/11/1998 7:23:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar2610.ARE - 6204
+12/11/1998 7:24:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar2611.ARE - 6408
+12/11/1998 7:24:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar2612.ARE - 4884
+12/11/1998 7:24:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ar2614.ARE - 4152
+9/15/1998 1:52:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar5406.MOS - 3932
+3/26/1999 6:05:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ar7200.WED - 774
+4/21/1999 12:11:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\arealink.2da - 8677
+4/19/1999 11:43:36 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\baresh.CRE - 1136
+4/19/1999 11:34:50 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\blun06.itm - 314
+4/19/1999 11:35:06 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\blun07.itm - 314
+4/19/1999 11:35:28 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\blun09.itm - 410
+5/27/1999 4:31:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\blun10.itm - 602
+4/21/1999 12:21:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\cachvald.2da - 3657
+4/14/1999 12:37:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ClairD.dlg - 3111
+5/27/1999 3:34:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\DAGG10.itm - 314
+4/15/1999 4:51:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\DEATHKNI.bcs - 6133
+4/19/1999 2:43:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\delain.CRE - 1236
+4/19/1999 1:34:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\dplayer3.bcs - 4416
+4/19/1999 2:42:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\durlyl.CRE - 1236
+4/14/1999 3:06:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\galkin.CRE - 1096
+5/11/1999 11:53:02 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\garric.dlg - 1736
+4/14/1999 3:08:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\gretek.dlg - 619
+4/19/1999 2:35:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Halbaz.dlg - 1127
+4/14/1999 2:58:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\HAMM04.itm - 410
+4/23/1999 5:33:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\helm14.itm - 498
+4/19/1999 11:49:16 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Ike.dlg - 1139
+5/10/1999 3:12:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\initinv2.bcs - 212
+5/27/1999 5:43:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5A.bam - 2721
+5/27/1999 5:43:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5B.bam - 2721
+5/27/1999 5:43:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5C.bam - 2721
+5/27/1999 5:43:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5D.bam - 2721
+5/27/1999 5:43:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5E.bam - 2721
+5/27/1999 5:43:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5F.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5G.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5H.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5I.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5J.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5K.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5L.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5M.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5N.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5O.bam - 2721
+5/27/1999 5:43:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5P.bam - 2721
+5/27/1999 5:43:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ISCRL5Q.bam - 2721
+4/13/1999 7:49:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Isloff.2da - 360
+4/13/1999 7:35:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Islon.2da - 377
+5/26/1999 11:42:46 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\karoug.CRE - 1136
+4/19/1999 2:30:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\kirinh.CRE - 1156
+4/21/1999 12:11:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\MastArea.2DA - 1353
+4/19/1999 2:28:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\menda1.dlg - 4480
+4/7/1999 1:24:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\MGnlInv.BAM - 5180
+6/2/1999 3:41:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\misc1H.itm - 114
+5/27/1999 4:17:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\misc73.itm - 1034
+6/2/1999 3:40:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\misc94.itm - 114
+6/2/1999 3:39:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\misc95.itm - 114
+4/7/1999 1:23:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\MOgrInv.BAM - 6424
+4/7/1999 4:04:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\MSli2Inv.BAM - 5931
+4/7/1999 4:10:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\MSpi3Inv.BAM - 5619
+6/15/1999 12:18:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\Rndscrol.2da - 744
+5/3/1999 8:16:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\scrl07.itm - 1034
+4/17/1999 6:25:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\shandal.bcs - 4780
+5/27/1999 3:32:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\shld19.itm - 354
+5/11/1999 11:57:00 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\silke.dlg - 3354
+5/10/1999 10:47:38 AM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\SkillBrd.2DA - 374
+4/14/1999 1:01:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi118.spl - 2362
+4/20/1999 1:17:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi924.spl - 298
+4/20/1999 1:17:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi925.spl - 298
+4/20/1999 1:16:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi944.spl - 298
+4/20/1999 1:14:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi945.spl - 298
+4/20/1999 1:14:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi946.spl - 298
+4/20/1999 1:13:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi947.spl - 298
+4/20/1999 1:13:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi948.spl - 250
+4/20/1999 1:10:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\spwi949.spl - 298
+4/15/1999 5:10:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\SpWi959.spl - 298
+4/15/1999 5:20:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\SpWi960.spl - 250
+4/19/1999 2:41:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\sw1h18.itm - 410
+5/26/1999 6:15:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\sw1h19.itm - 458
+5/10/1999 12:18:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\sw1h20.itm - 314
+4/14/1999 2:56:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\SW1H22.itm - 314
+5/27/1999 3:37:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\sw1h23.itm - 410
+4/20/1999 5:35:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\tanar.CRE - 1116
+4/16/1999 4:32:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\TRAPDIS.bcs - 1258
+6/17/1999 1:53:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ulgoth.STO - 2008
+4/13/1999 12:06:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\WorldMap.WMP - 53552
+3/20/1998 6:00:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ws2helpa.dll - 5120
+3/20/1998 6:00:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\ws2_32a.dll - 55808
+6/15/1999 12:33:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Override\xan6.CRE - 1160
+4/13/1999 8:47:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Baldur.bmp - 23462
+4/13/1999 8:47:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Baldur.gam - 79452
+4/13/1999 8:46:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Baldur.sav - 482106
+4/13/1999 8:46:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Portrt0.bmp - 1854
+4/13/1999 8:46:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Portrt1.bmp - 1854
+4/13/1999 8:46:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Portrt2.bmp - 1854
+4/13/1999 8:46:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Portrt3.bmp - 1854
+4/13/1999 8:46:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Portrt4.bmp - 1854
+4/13/1999 8:46:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Portrt5.bmp - 1854
+4/13/1999 8:46:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Save\888888888-Mission-Pack-Save\Worldmap.wmp - 49784
+11/4/1998 5:36:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\cleric1.bs - 2626
+11/4/1998 5:36:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\cleric2.bs - 2021
+11/4/1998 5:36:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\cleric3.bs - 1157
+11/4/1998 5:36:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\cleric4.bs - 1485
+11/6/1998 12:32:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\default.bs - 531
+11/4/1998 5:36:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\fighter1.bs - 594
+11/4/1998 5:36:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\fighter2.bs - 1483
+11/4/1998 5:36:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\fighter3.bs - 1157
+11/4/1998 5:36:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\fighter4.bs - 1485
+11/4/1998 5:36:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\mage1.bs - 4247
+11/30/1998 9:54:40 AM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\mage2.bs - 5084
+11/4/1998 5:37:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\mage3.bs - 1157
+11/4/1998 5:37:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\mage4.bs - 3798
+9/23/1998 2:16:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\None.bs - 0
+12/4/1998 6:00:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\thief1.bs - 802
+11/4/1998 5:37:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\thief2.bs - 2076
+11/4/1998 5:37:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\thief3.bs - 1157
+11/4/1998 5:37:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\scripts\thief4.bs - 1485
+10/22/1998 7:36:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1a.wav - 61648
+10/22/1998 7:36:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1b.wav - 95760
+10/22/1998 7:36:40 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1c.wav - 159390
+10/22/1998 7:36:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1d.wav - 127084
+10/22/1998 7:36:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1e.wav - 112520
+10/22/1998 7:36:28 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1f.wav - 17432
+10/22/1998 7:36:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1g.wav - 19052
+10/22/1998 7:36:30 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1h.wav - 28468
+10/22/1998 7:36:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1i.wav - 66200
+10/22/1998 7:36:32 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1j.wav - 32036
+10/22/1998 7:36:34 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1k.wav - 26164
+10/22/1998 7:36:36 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1l.wav - 14914
+10/22/1998 7:36:38 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female1m.wav - 57116
+10/22/1998 7:37:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2a.wav - 77186
+10/22/1998 7:37:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2b.wav - 63534
+10/22/1998 7:37:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2c.wav - 158416
+10/22/1998 7:37:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2d.wav - 86610
+10/22/1998 7:37:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2e.wav - 82098
+10/22/1998 7:37:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2f.wav - 19476
+10/22/1998 7:37:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2g.wav - 26828
+10/22/1998 7:37:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2h.wav - 39752
+10/22/1998 7:37:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2i.wav - 33520
+10/22/1998 7:37:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2j.wav - 66042
+10/22/1998 7:37:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2k.wav - 48388
+10/22/1998 7:37:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2l.wav - 28086
+10/22/1998 7:37:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Female2m.wav - 68836
+11/6/1998 2:05:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3a.wav - 107428
+11/6/1998 2:05:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3b.wav - 107128
+11/6/1998 2:05:26 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3c.wav - 218872
+11/6/1998 2:05:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3d.wav - 138972
+11/6/1998 2:05:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3e.wav - 171114
+11/6/1998 2:05:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3f.wav - 49596
+11/6/1998 2:05:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3g.wav - 58282
+11/6/1998 2:05:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3h.wav - 27974
+11/6/1998 2:05:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3i.wav - 57458
+11/6/1998 2:05:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3j.wav - 45194
+11/6/1998 2:05:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3k.wav - 41532
+11/6/1998 2:05:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3l.wav - 24826
+11/6/1998 2:05:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\female3m.wav - 51836
+10/22/1998 7:36:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1a.wav - 78806
+10/22/1998 7:36:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1b.wav - 52360
+10/22/1998 7:36:06 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1c.wav - 84814
+10/22/1998 7:35:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1d.wav - 90478
+10/22/1998 7:35:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1e.wav - 158442
+10/22/1998 7:35:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1f.wav - 18446
+10/22/1998 7:35:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1g.wav - 39100
+10/22/1998 7:35:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1h.wav - 26208
+10/22/1998 7:35:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1i.wav - 79744
+10/22/1998 7:35:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1j.wav - 31500
+10/22/1998 7:36:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1k.wav - 71596
+10/22/1998 7:36:02 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1l.wav - 19534
+10/22/1998 7:36:04 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male1m.wav - 102124
+10/22/1998 7:36:18 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2a.wav - 93740
+10/22/1998 7:36:22 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2b.wav - 65906
+10/22/1998 7:36:24 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2c.wav - 189228
+10/22/1998 7:36:08 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2d.wav - 87902
+10/22/1998 7:36:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2e.wav - 140790
+10/22/1998 7:36:10 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2f.wav - 54778
+10/22/1998 7:36:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2g.wav - 32674
+10/22/1998 7:36:12 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2h.wav - 32070
+10/22/1998 7:36:14 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2i.wav - 51404
+10/22/1998 7:36:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2j.wav - 28910
+10/22/1998 7:36:16 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2k.wav - 51970
+10/22/1998 7:36:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2l.wav - 17728
+10/22/1998 7:36:20 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male2m.wav - 62446
+10/22/1998 7:36:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3a.wav - 140096
+10/22/1998 7:36:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3b.wav - 114244
+10/22/1998 7:36:58 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3c.wav - 81396
+10/22/1998 7:36:42 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3d.wav - 135020
+10/22/1998 7:36:44 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3e.wav - 222208
+10/22/1998 7:36:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3f.wav - 20402
+10/22/1998 7:36:46 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3g.wav - 65106
+10/22/1998 7:36:48 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3h.wav - 42958
+10/22/1998 7:36:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3i.wav - 68260
+10/22/1998 7:36:50 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3j.wav - 67840
+10/22/1998 7:36:52 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3k.wav - 54722
+10/22/1998 7:36:54 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3l.wav - 20548
+10/22/1998 7:36:56 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\Male3m.wav - 89856
+10/26/1998 6:24:00 PM - ProgramFilesX86\GOG.com\Baldurs Gate\Sounds\sndlist.txt - 1048
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+3/5/2012 7:08:26 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Baldur.ini - 1351
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\BALDUR.BMP - 23462
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\BALDUR.GAM - 52652
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\BALDUR.SAV - 8069
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\PORTRT0.BMP - 1854
+3/5/2012 7:08:18 PM - VirtualStore\Program Files (x86)\GOG.com\Baldurs Gate\Save\888888889-0123123\WORLDMAP.WMP - 53552

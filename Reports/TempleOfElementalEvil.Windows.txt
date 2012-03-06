@@ -1,0 +1,481 @@
+Game Name: Temple Of Elemental Evil
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Temple of Elemental Evil
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{011D16A7-5B99-465E-9277-53DF6D6D2563}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Temple of Elemental Evil
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{011D16A7-5B99-465E-9277-53DF6D6D2563}
+Value: ConfigGDFBinaryPath
+Data: 10/21/2010 12:55:40 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\goggame.dll - 252928
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTEMPLEOFELEMENTAEVIL
+Value: EXE
+Data: 10/14/2010 4:33:10 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE.exe - 51253
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTEMPLEOFELEMENTAEVIL
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Temple of Elemental Evil
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTEMPLEOFELEMENTAEVIL
+Value: LAUNCHCOMMAND
+Data: 10/14/2010 4:33:10 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE.exe - 51253
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGTEMPLEOFELEMENTAEVIL
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Temple of Elemental Evil
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Temple of Elemental Evil_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Temple of Elemental Evil
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Temple of Elemental Evil_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Temple of Elemental Evil
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+3/5/2012 6:29:52 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Temple of Elemental Evil\Temple of Elemental Evil.lnk - 2173
+10/14/2010 4:33:10 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE.exe - 51253
+3/5/2012 6:29:52 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Temple of Elemental Evil\Uninstall Temple of Elemental Evil.lnk - 1157
+3/5/2012 6:27:20 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\unins000.exe - 2142547
+3/5/2012 6:29:49 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Temple of Elemental Evil\Documents\Manual.lnk - 1265
+7/30/2003 2:25:10 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\Manual.pdf - 1137172
+3/5/2012 6:29:49 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Temple of Elemental Evil\Documents\Readme.lnk - 1265
+8/12/2010 1:30:08 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\Readme.txt - 17295
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+3/5/2012 7:52:04 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\ToEE.cfg - 852
+3/5/2012 7:51:38 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\data\scr\pc_start.pyc - 7738
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\data\scr\py00192hrudek.pyc - 1342
+3/5/2012 7:51:44 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\data\scr\random_encounter.pyc - 22082
+3/5/2012 6:32:17 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\data\scr\utilities.pyc - 15752
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\1 enZ ynvgdijI - 4242
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\1-yrkry-cdrtcjq-ryezri-21enZ - 251888
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\131-zddg-1-yrkry-cdrtcjq-ryezri-21enZ - 16
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\1rhjduindZ-dzrQ - 10036
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\2 enZ ynvgdijI - 1777
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\20-yrkry-cdrtcjq-31enZ - 206904
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\3 enZ ynvgdijI - 11019
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\40-yrkry-cdrtcjq-51enZ - 127728
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cdhnz-rcdih-92icv-1enz - 977
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cdrtcjQ-rhjduindZ-8-enZ - 82913
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cgno-cnzhqgru-52icv-1enz - 3334
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cgnOhgrqngI-4-enZ - 1602
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cjG-hqngrzV-6-nrgN-enZ - 9458
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cnzindO-gdvgricV-oyjC-9-enZ - 20238
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZ 01 rcdihryvZ - 8777
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZ 7 rcdiHryvZ - 4486
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZ 8 rcdiHryvZ - 15902
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZ 9 rcdihryvZ - 16356
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZeduH - 8267
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\eznlH-zdqcnG - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gddyS-cvnZ-5-enZ - 4137
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gddyS-greeJ-5-enZ - 4844
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gddyS-grldY-5-enZ - 1399
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricV ryezrI-dzrQ - 9185
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricV-irengnE-6-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricV-rknP-rgtD-9-nrgN-enZ - 5776
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricv-ryezri-11-enz - 6319
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricv_grldI-7-enZ - 1845
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricV_rhjduindZ-7-enZ - 14966
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricv_ryezrI-iduhcrrgph - 3270
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgrimR-iryzzdU-2-enZ - 71436
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgrimR-oyjC-9-enZ - 34093
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgrimR-rknP-rgtD-9-nrgN-enZ - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdyvni-11icv-1enz - 7178
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gnyyrP-6-enZ - 16
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gnyyrPccV-3-enZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\greej_30-yrkry-cdrtcjq-41enZ - 5827
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gricregnp-82icv-1enz - 2400
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grihznri-41icv-1enz - 2852
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\griide-71icv-1enz - 1591
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\griijpqddl-30icv-1enz - 1956
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\griijpqddl-30icv-1enz sd nedP - 1956
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grknrl-01icv-1enz - 3647
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grldI-ryezrI-24-enZ - 1459
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grldy_30-yrkry-cdrtcjq-41enZ - 98446
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grqyr-rtnyyvk-72icv-1enz - 1439
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grtcnupnrcdZ-51icv-1enz - 9712
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grxgdlgruinry-60icv-1enz - 6672
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grxnz-ircvonp-61icv-1enz - 3135
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grxnzrhrrup-12icv-1enz - 1464
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grzgns-hjdgrehdge-10icv-1enz - 2991
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grzgns-rkvhjyprg-32icv-1enz - 2568
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grzgns-tcveengih-21icv-1enz - 2753
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hcvjG-grldI-01-enZ - 36581
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-grknrl-01icv-1enz - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-grqyr-rtnyyvk-72icv-1enz - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-grxnz-ircvonp-61icv-1enz - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-grzgns-hjdgrehdge-10icv-1enz - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-zgns-ierx-yyrl-40icv-1enz - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hldqnrZ-nqvgzR-5-nrgN-enZ - 29587
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihgvSccV-3-enZ - 17566
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihrgdS-zdqcnG - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihri - 527
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\IHRI-EVYP - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihri_grinl - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihrI_rkriH - 2084
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\iryzzdU-dzrQ - 53299
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\iutvglcvnl-62icv-1enz - 1334
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\nuivzH-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ojgpH-zdqcnG - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\oyjC-pvgrcrT-gdvgricV-oyjC-9-enZ - 230
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\pvidnuP-riirctvK - 2989
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qcdprHccV-3-enZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qddT-pvidnuP-riirctvK - 12289
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qddT-riirctvK - 1994
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qddT-yjslnY-riirctvK - 5902
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qndG-eznlH-zdqcnG - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qndG-ihrgdS-zdqcnG - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qndG-ojgpH-zdqcnG - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qndG-rqvhgrkvG-zdqcnG - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rgdiHhgrqngI-4-enZ - 18763
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rgvs-2 cdrtcjQ ryezrI-dzrQ - 19015
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjdu-cnzhqgru-52icv-1enz - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjdU-ryezrI-14-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjduindz-rui-sd-hcvjG-7-enZ - 17817
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjdulrgo-81icv-1enz - 5955
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjduzgns-hjdgrehdge-50icv-1enz - 3908
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjduzgns-ihrqdz-20icv-1enz - 3716
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rkdgT-dyxprQ-01-nrgN-enZ - 3088
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rkdgt-rui-42icv-1enz - 4238
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rpcngicR-ryezrI-04-enZ - 16
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdC gvN-dzrQ - 18335
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdc-grinl-91enZ - 42692
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdc-gvn-61enZ - 17933
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdc-rgvs-81enZ - 18342
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdc-uignr-71enZ - 22232
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqvhgrkvG-zdqcnG - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rtniidp-ihrqdz-91icv-1enz - 3382
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ryozjG qnrqcJ-dzrQ - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\tcvqyvjo-lrc-90icv-1enz - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\uivzhxpnyo-80icv-1enz - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yjslnY-riirctvK - 6882
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yngijrC-riirctvK - 3574
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yrccji-ivmr-rhjduindZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yrccji-renphr-ryezrI - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yrkrY-grldY-6-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yrkrY-irengnE-6-enZ - 3280
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-ih1-eduH-ogrU-tcrgpH-gruidZ-gdvgricV-oyjC-9-enZ - 5979
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-ih1-yrihdU-grinL-ruI-gdvgricV-oyjC-9-enZ - 15931
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-ih1-yruidgO-rxncH-gdvgricV-oyjC-9-enZ - 499
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qc2-eduH-ogrU-tcrgpH-gruidZ-gdvgricV-oyjC-9-enZ - 2496
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qc2-oyjC-pvgrcrT-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qc2-yrihdU-grinL-ruI-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qc2-yruidgO-rxncH-gdvgricV-oyjC-9-enZ - 2451
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qg3-eduH-ogrU-tcrgpH-gruidZ-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qg3-oyjC-pvgrcrT-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qg3-yruidgO-rxncH-gdvgricV-oyjC-9-enZ - 491
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-ui4-oyjC-pvgrcrT-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yvkR-pvidnuP-riirctvK - 4771
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yvkR-riirctvK - 2153
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yvkR-yjslnY-riirctvK - 4248
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yynU-cvnZ-6-enZ - 19010
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yynU-greeJ-6-enZ - 1745
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yyvz-22icv-1enz - 3572
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\zgns-ierx-yyrl-40icv-1enz - 1206
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\zgns-qrigrhrq-ryezrI - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\zjrhhdydP-94-enZ - 16
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\zriv - 131
+3/5/2012 7:51:36 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\players\test.ToEEPC - 531
+3/5/2012 7:51:58 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001.tfaf - 310374
+3/5/2012 7:51:58 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001.tfai - 743
+3/5/2012 7:51:58 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001Emptydscvxcv.gsi - 69
+3/5/2012 7:51:53 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001l.jpg - 27263
+3/5/2012 7:51:52 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001s.jpg - 2429
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAuto.tfaf - 291550
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAuto.tfai - 647
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAutoAuto-Save.gsi - 66
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAutol.jpg - 1431
+3/5/2012 7:51:44 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAutos.jpg - 711
+3/5/2012 7:52:02 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\templ.jpg - 27231
+3/5/2012 7:52:01 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\temps.jpg - 2427
+
+Install Folder Dump: 
+8/26/2003 3:21:56 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\binkw32.dll - 358963
+11/3/2004 4:33:06 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\dbghelp.dll - 940032
+10/12/2010 5:34:58 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\gfw_high.ico - 127261
+10/21/2010 12:55:40 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\goggame.dll - 252928
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\innosetup_license.txt - 1471
+7/30/2003 2:25:10 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\Manual.pdf - 1137172
+8/26/2003 3:21:58 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\Mss32.dll - 370688
+8/26/2003 3:21:58 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\msvcr70.dll - 344064
+10/19/2004 1:40:06 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\msvcr71.dll - 348160
+1/12/2004 6:05:00 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\mt19937ar.txt - 1912
+8/3/2003 11:52:30 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\python22.dll - 860160
+11/22/2004 9:10:12 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\pyToEE22.dll - 856064
+8/12/2010 1:30:08 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\Readme.txt - 17295
+11/3/2003 2:09:22 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\RT_ToEE4.dat - 1512863
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\Support.ico - 62895
+9/26/2004 4:14:58 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\temple.dll - 3440640
+8/26/2003 3:24:24 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\tig.dat - 64573
+10/12/2004 11:28:14 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\tio.dll - 106496
+1/30/2010 12:52:18 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE.cfg - 843
+10/14/2010 4:33:10 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE.exe - 51253
+5/22/2003 1:27:16 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE.ico - 2998
+8/26/2003 5:09:16 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE1.dat - 176586711
+8/26/2003 5:10:44 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE2.dat - 224718083
+8/26/2003 5:12:08 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE3.dat - 172085805
+3/4/2004 8:15:56 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\ToEE4.dat - 1833028
+3/5/2012 6:29:52 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\unins000.dat - 64462
+3/5/2012 6:27:20 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\unins000.exe - 2142547
+3/5/2012 6:29:52 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\unins000.ini - 94
+10/5/2004 2:59:32 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\zlib-1.2.1.dll - 110592
+8/3/2003 11:49:26 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\_sre.pyd - 27136
+8/3/2003 11:49:26 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\_sre_d.pyd - 52224
+9/24/2004 8:38:54 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\mes\bonus.mes - 11633
+10/17/2004 6:19:10 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\mes\combat.mes - 15848
+9/25/2004 5:47:58 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\mes\feat.mes - 187593
+10/13/2004 4:30:26 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\mes\help.tab - 618955
+10/13/2004 2:17:18 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\mes\item_creation.mes - 2657
+10/18/2004 1:12:52 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\mes\spell.mes - 57801
+8/26/2003 5:34:36 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\AtariLogo.bik - 420124
+8/26/2003 5:34:42 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Death-Movie.bik - 5484332
+8/26/2003 5:34:50 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-CE.bik - 7184244
+8/26/2003 5:34:56 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-CG.bik - 7232040
+8/26/2003 5:35:04 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-CN.bik - 7177856
+8/26/2003 5:35:10 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-LE.bik - 7176352
+8/26/2003 5:35:14 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-LG.bik - 7213520
+8/26/2003 5:35:18 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-LN.bik - 7160016
+8/26/2003 5:35:22 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-NE.bik - 7184312
+8/26/2003 5:35:24 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-NG.bik - 7236684
+8/26/2003 5:35:26 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Hommlet-TN.bik - 7157852
+8/26/2003 5:35:38 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\introcinematic.bik - 32524676
+8/23/2003 1:46:44 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Legal.bik - 7944
+8/26/2003 5:35:40 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_CE-intro.bik - 6079400
+8/26/2003 5:35:40 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_CG_Final_0.bik - 5786744
+8/26/2003 5:35:44 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_CN_Final_0.bik - 8557784
+8/26/2003 5:35:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_LE_Final_0.bik - 9076924
+8/26/2003 5:35:48 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_LG_Final_0.bik - 7136136
+8/26/2003 5:35:50 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_LN_Final_0.bik - 5041296
+8/26/2003 5:35:52 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_NE_FInal0.bik - 6972960
+8/26/2003 5:35:54 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_NG_Final_0.bik - 9426472
+8/26/2003 5:35:56 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\New_NN_Final_0.bik - 6212228
+8/26/2003 5:36:00 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Temple_Entrance.bik - 7352100
+8/26/2003 5:36:02 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Throne_Elevator.bik - 9095076
+8/26/2003 5:36:02 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\TroikaLogo.bik - 1000204
+8/26/2003 5:36:04 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\TUT-entrance.bik - 3390608
+8/26/2003 5:36:08 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\TUT-without_Ariel.bik - 6807348
+8/26/2003 5:36:06 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\TUT-with_Ariel.bik - 6805028
+8/23/2003 1:47:26 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\vssver.scc - 528
+8/26/2003 5:36:10 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\WotCLogo.bik - 1614584
+8/26/2003 5:36:14 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Zuggtmoy_Banishment.bik - 13348216
+8/26/2003 5:36:18 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\movies\Zuggtmoy_Death.bik - 14793608
+10/13/2004 2:18:36 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\item_creation.mes - 39213
+9/21/2004 2:41:28 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\partsys1.tab - 549833
+9/20/2004 5:19:46 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\spell_enum.mes - 64156
+9/22/2004 2:00:08 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\spells\051 - Chain Lightning.txt - 559
+9/22/2004 2:19:36 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\spells\223 - Heat Metal.txt - 540
+9/22/2004 2:19:24 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\spells\288 - Magic Missile.txt - 455
+9/22/2004 2:19:40 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\spells\547 - Rage.txt - 522
+10/14/2004 3:51:04 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\spells\558 - Greater Heroism.txt - 466
+9/22/2004 2:19:30 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\rules\spells\733 - Scorching Ray.txt - 495
+10/14/2004 3:52:42 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\scr\Spell558 - Greater Heroism.py - 1443
+9/20/2004 4:22:04 PM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\scr\Spell733 - Scorching Ray.py - 1884
+8/26/2003 5:36:18 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\combatintro.mp3 - 141061
+8/26/2003 5:36:22 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\combatmusic.mp3 - 11940049
+8/26/2003 5:36:26 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\elemental_air_loop.mp3 - 12543164
+8/26/2003 5:36:26 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\elemental_combat_intro.mp3 - 186827
+8/26/2003 5:36:30 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Elemental_combat_loop.mp3 - 11523134
+8/26/2003 5:36:32 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\elemental_earth_loop.mp3 - 11600248
+8/26/2003 5:36:36 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\elemental_fire_loop.mp3 - 11819676
+8/26/2003 5:36:40 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Elemental_Water_loop.mp3 - 11370788
+8/26/2003 5:36:42 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Evil_vignette_loop.mp3 - 7815417
+8/26/2003 5:36:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\good_vignette.mp3 - 8492511
+8/26/2003 5:36:48 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\hommlet_combat_Rev1_loop.mp3 - 6599156
+8/26/2003 5:36:52 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Hommlet_Level_loop.mp3 - 12316212
+8/26/2003 5:36:56 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Hommlet_temple.mp3 - 11731905
+8/26/2003 5:36:58 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Moathouse_Combat_Loop.mp3 - 6910954
+8/26/2003 5:36:58 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Moathouse_combat_R3.mp3 - 1049078
+8/26/2003 5:37:02 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Moathouse_exterior_level.mp3 - 11555735
+8/26/2003 5:37:06 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\moathouse_first_exterior.mp3 - 11773283
+8/26/2003 5:37:08 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\neutral_vignette_loop.mp3 - 7994304
+8/26/2003 5:37:08 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\nulb_combat_intro.mp3 - 141061
+8/26/2003 5:37:12 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\nulb_combat_loop.mp3 - 11940049
+8/26/2003 5:37:16 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\nulb_level_looped.mp3 - 11526269
+8/26/2003 5:37:18 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\pregame_credits_loop.mp3 - 11736293
+8/26/2003 5:37:22 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\temple_topside_combat.mp3 - 9360822
+8/26/2003 5:37:24 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\temple_topside_level_loop.mp3 - 10348878
+8/26/2003 5:37:18 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\temple_top_combat_intro.mp3 - 186200
+8/23/2003 1:48:36 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\vssver.scc - 464
+8/26/2003 5:37:28 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Zuggtmoy_Combat.mp3 - 9297501
+8/26/2003 5:37:30 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\data\sound\music\Zuggtmoy_Level.mp3 - 8590314
+5/20/2003 10:47:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\mssa3d.m3d - 98816
+5/20/2003 10:47:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\mssds3d.m3d - 81408
+5/20/2003 10:47:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\mssdsp.flt - 115200
+5/20/2003 10:47:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\mssdx7.m3d - 90112
+5/20/2003 10:47:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\msseax.m3d - 115712
+5/20/2003 10:47:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\mssmp3.asi - 137216
+5/20/2003 10:47:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\mssrsx.m3d - 369664
+5/20/2003 10:47:48 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\msssoft.m3d - 77824
+5/20/2003 10:47:48 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\mssvoice.asi - 212992
+5/21/2003 10:48:18 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\miles\vssver.scc - 176
+8/26/2003 5:32:46 AM - ProgramFilesX86\GOG.com\Temple of Elemental Evil\modules\ToEE.dat - 290490196
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+3/5/2012 7:52:04 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\ToEE.cfg - 852
+3/5/2012 7:51:38 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\data\scr\pc_start.pyc - 7738
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\data\scr\py00192hrudek.pyc - 1342
+3/5/2012 7:51:44 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\data\scr\random_encounter.pyc - 22082
+3/5/2012 6:32:17 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\data\scr\utilities.pyc - 15752
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\1 enZ ynvgdijI - 4242
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\1-yrkry-cdrtcjq-ryezri-21enZ - 251888
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\131-zddg-1-yrkry-cdrtcjq-ryezri-21enZ - 16
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\1rhjduindZ-dzrQ - 10036
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\2 enZ ynvgdijI - 1777
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\20-yrkry-cdrtcjq-31enZ - 206904
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\3 enZ ynvgdijI - 11019
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\40-yrkry-cdrtcjq-51enZ - 127728
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cdhnz-rcdih-92icv-1enz - 977
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cdrtcjQ-rhjduindZ-8-enZ - 82913
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cgno-cnzhqgru-52icv-1enz - 3334
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cgnOhgrqngI-4-enZ - 1602
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cjG-hqngrzV-6-nrgN-enZ - 9458
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\cnzindO-gdvgricV-oyjC-9-enZ - 20238
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZ 01 rcdihryvZ - 8777
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZ 7 rcdiHryvZ - 4486
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZ 8 rcdiHryvZ - 15902
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZ 9 rcdihryvZ - 16356
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\enZeduH - 8267
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\eznlH-zdqcnG - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gddyS-cvnZ-5-enZ - 4137
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gddyS-greeJ-5-enZ - 4844
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gddyS-grldY-5-enZ - 1399
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricV ryezrI-dzrQ - 9185
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricV-irengnE-6-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricV-rknP-rgtD-9-nrgN-enZ - 5776
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricv-ryezri-11-enz - 6319
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricv_grldI-7-enZ - 1845
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricV_rhjduindZ-7-enZ - 14966
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgricv_ryezrI-iduhcrrgph - 3270
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgrimR-iryzzdU-2-enZ - 71436
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgrimR-oyjC-9-enZ - 34093
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdvgrimR-rknP-rgtD-9-nrgN-enZ - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gdyvni-11icv-1enz - 7178
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gnyyrP-6-enZ - 16
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gnyyrPccV-3-enZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\greej_30-yrkry-cdrtcjq-41enZ - 5827
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\gricregnp-82icv-1enz - 2400
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grihznri-41icv-1enz - 2852
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\griide-71icv-1enz - 1591
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\griijpqddl-30icv-1enz - 1956
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\griijpqddl-30icv-1enz sd nedP - 1956
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grknrl-01icv-1enz - 3647
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grldI-ryezrI-24-enZ - 1459
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grldy_30-yrkry-cdrtcjq-41enZ - 98446
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grqyr-rtnyyvk-72icv-1enz - 1439
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grtcnupnrcdZ-51icv-1enz - 9712
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grxgdlgruinry-60icv-1enz - 6672
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grxnz-ircvonp-61icv-1enz - 3135
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grxnzrhrrup-12icv-1enz - 1464
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grzgns-hjdgrehdge-10icv-1enz - 2991
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grzgns-rkvhjyprg-32icv-1enz - 2568
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\grzgns-tcveengih-21icv-1enz - 2753
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hcvjG-grldI-01-enZ - 36581
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-grknrl-01icv-1enz - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-grqyr-rtnyyvk-72icv-1enz - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-grxnz-ircvonp-61icv-1enz - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-grzgns-hjdgrehdge-10icv-1enz - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hgvnihej-zgns-ierx-yyrl-40icv-1enz - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\hldqnrZ-nqvgzR-5-nrgN-enZ - 29587
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihgvSccV-3-enZ - 17566
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihrgdS-zdqcnG - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihri - 527
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\IHRI-EVYP - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihri_grinl - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ihrI_rkriH - 2084
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\iryzzdU-dzrQ - 53299
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\iutvglcvnl-62icv-1enz - 1334
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\nuivzH-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ojgpH-zdqcnG - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\oyjC-pvgrcrT-gdvgricV-oyjC-9-enZ - 230
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\pvidnuP-riirctvK - 2989
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qcdprHccV-3-enZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qddT-pvidnuP-riirctvK - 12289
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qddT-riirctvK - 1994
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qddT-yjslnY-riirctvK - 5902
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qndG-eznlH-zdqcnG - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qndG-ihrgdS-zdqcnG - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qndG-ojgpH-zdqcnG - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\qndG-rqvhgrkvG-zdqcnG - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rgdiHhgrqngI-4-enZ - 18763
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rgvs-2 cdrtcjQ ryezrI-dzrQ - 19015
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjdu-cnzhqgru-52icv-1enz - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjdU-ryezrI-14-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjduindz-rui-sd-hcvjG-7-enZ - 17817
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjdulrgo-81icv-1enz - 5955
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjduzgns-hjdgrehdge-50icv-1enz - 3908
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rhjduzgns-ihrqdz-20icv-1enz - 3716
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rkdgT-dyxprQ-01-nrgN-enZ - 3088
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rkdgt-rui-42icv-1enz - 4238
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rpcngicR-ryezrI-04-enZ - 16
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdC gvN-dzrQ - 18335
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdc-grinl-91enZ - 42692
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdc-gvn-61enZ - 17933
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdc-rgvs-81enZ - 18342
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqdc-uignr-71enZ - 22232
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rqvhgrkvG-zdqcnG - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\rtniidp-ihrqdz-91icv-1enz - 3382
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ryozjG qnrqcJ-dzrQ - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\tcvqyvjo-lrc-90icv-1enz - 16
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\uivzhxpnyo-80icv-1enz - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yjslnY-riirctvK - 6882
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yngijrC-riirctvK - 3574
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yrccji-ivmr-rhjduindZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yrccji-renphr-ryezrI - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yrkrY-grldY-6-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yrkrY-irengnE-6-enZ - 3280
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-ih1-eduH-ogrU-tcrgpH-gruidZ-gdvgricV-oyjC-9-enZ - 5979
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-ih1-yrihdU-grinL-ruI-gdvgricV-oyjC-9-enZ - 15931
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-ih1-yruidgO-rxncH-gdvgricV-oyjC-9-enZ - 499
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qc2-eduH-ogrU-tcrgpH-gruidZ-gdvgricV-oyjC-9-enZ - 2496
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qc2-oyjC-pvgrcrT-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qc2-yrihdU-grinL-ruI-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qc2-yruidgO-rxncH-gdvgricV-oyjC-9-enZ - 2451
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qg3-eduH-ogrU-tcrgpH-gruidZ-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qg3-oyjC-pvgrcrT-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-qg3-yruidgO-rxncH-gdvgricV-oyjC-9-enZ - 491
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\ys-ui4-oyjC-pvgrcrT-gdvgricV-oyjC-9-enZ - 16
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yvkR-pvidnuP-riirctvK - 4771
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yvkR-riirctvK - 2153
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yvkR-yjslnY-riirctvK - 4248
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yynU-cvnZ-6-enZ - 19010
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yynU-greeJ-6-enZ - 1745
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\yyvz-22icv-1enz - 3572
+3/5/2012 6:32:25 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\zgns-ierx-yyrl-40icv-1enz - 1206
+3/5/2012 6:32:26 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\zgns-qrigrhrq-ryezrI - 16
+3/5/2012 6:32:24 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\zjrhhdydP-94-enZ - 16
+3/5/2012 6:32:23 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\maps\zriv - 131
+3/5/2012 7:51:36 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\players\test.ToEEPC - 531
+3/5/2012 7:51:58 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001.tfaf - 310374
+3/5/2012 7:51:58 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001.tfai - 743
+3/5/2012 7:51:58 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001Emptydscvxcv.gsi - 69
+3/5/2012 7:51:53 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001l.jpg - 27263
+3/5/2012 7:51:52 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\slot0001s.jpg - 2429
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAuto.tfaf - 291550
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAuto.tfai - 647
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAutoAuto-Save.gsi - 66
+3/5/2012 7:51:45 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAutol.jpg - 1431
+3/5/2012 7:51:44 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\SlotAutos.jpg - 711
+3/5/2012 7:52:02 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\templ.jpg - 27231
+3/5/2012 7:52:01 PM - VirtualStore\Program Files (x86)\GOG.com\Temple of Elemental Evil\modules\ToEE\Save\temps.jpg - 2427

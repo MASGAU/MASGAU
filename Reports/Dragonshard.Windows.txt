@@ -1,0 +1,404 @@
+Game Name: Dragonshard
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Dragonshard
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Dragonshard
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{5EFDECF5-07E2-4403-8F7D-41F74F1AE4E9}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Dragonshard
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{5EFDECF5-07E2-4403-8F7D-41F74F1AE4E9}
+Value: ConfigGDFBinaryPath
+Data: 4/20/2011 1:56:46 PM - ProgramFilesX86\GOG.com\Dragonshard\goggame.dll - 269312
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{B769B274-B78A-4FC8-BA99-6F8AEE565BB9}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Dragonshard
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1787639591-3866173500-3526810946-1001\{B769B274-B78A-4FC8-BA99-6F8AEE565BB9}
+Value: AppExePath
+Data: 12/16/2005 2:40:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Dragonshard.exe - 7319552
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDNDDRAGONSHARD
+Value: EXE
+Data: 12/16/2005 2:40:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Dragonshard.exe - 7319552
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDNDDRAGONSHARD
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Dragonshard
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDNDDRAGONSHARD
+Value: LAUNCHCOMMAND
+Data: 12/16/2005 2:40:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Dragonshard.exe - 7319552
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGDNDDRAGONSHARD
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Dragonshard
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Liquid Entertainment\Dragonshard
+Value: Install Path
+Data: ProgramFilesX86\GOG.com\Dragonshard
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Dungeons and Dragons - Dragonshard_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Dragonshard
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Dungeons and Dragons - Dragonshard_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Dragonshard
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{85DF2C7E-183B-4153-9B89-36D0E239E2CB}
+Value: UninstallString
+Data: 3/5/2012 6:43:31 PM - ProgramFilesX86\GOG.com\Dragonshard\unins000.exe - 2142547
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+3/5/2012 6:45:39 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeons and Dragons - Dragonshard\Dungeons and Dragons - Dragonshard.lnk - 2095
+12/16/2005 2:40:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Dragonshard.exe - 7319552
+3/5/2012 6:45:36 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeons and Dragons - Dragonshard\Editor.lnk - 1185
+7/8/2005 5:51:20 PM - ProgramFilesX86\GOG.com\Dragonshard\DNDEditor.exe - 7159808
+3/5/2012 6:45:37 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeons and Dragons - Dragonshard\Uninstall Dungeons and Dragons - Dragonshard.lnk - 1092
+3/5/2012 6:43:31 PM - ProgramFilesX86\GOG.com\Dragonshard\unins000.exe - 2142547
+3/5/2012 6:45:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeons and Dragons - Dragonshard\Documents\Manual.lnk - 1174
+4/5/2011 12:28:58 PM - ProgramFilesX86\GOG.com\Dragonshard\manual.pdf - 2969685
+3/5/2012 6:45:33 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\Dungeons and Dragons - Dragonshard\Documents\Readme.lnk - 1174
+4/5/2011 12:30:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Readme.txt - 78631
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+3/5/2012 7:33:06 PM - VirtualStore\Program Files (x86)\GOG.com\Dragonshard\DND.ini - 420
+3/5/2012 7:34:44 PM - VirtualStore\Program Files (x86)\GOG.com\Dragonshard\TriangleMeshes\Lizard_Campaign_Mission_010.bin - 2000824
+3/5/2012 7:34:44 PM - VirtualStore\Program Files (x86)\GOG.com\Dragonshard\TriangleMeshes\Lizard_Campaign_Mission_011.bin - 2000824
+
+Install Folder Dump: 
+3/17/2005 4:45:42 PM - ProgramFilesX86\GOG.com\Dragonshard\binkw32.dll - 339456
+5/6/2005 6:03:24 PM - ProgramFilesX86\GOG.com\Dragonshard\cscheck.dll - 409600
+2/17/2011 3:01:14 PM - ProgramFilesX86\GOG.com\Dragonshard\DND.ini - 420
+7/8/2005 5:51:20 PM - ProgramFilesX86\GOG.com\Dragonshard\DNDEditor.exe - 7159808
+12/16/2005 2:40:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Dragonshard.exe - 7319552
+5/6/2005 6:03:26 PM - ProgramFilesX86\GOG.com\Dragonshard\fpupdate.exe - 224768
+3/21/2011 3:43:32 PM - ProgramFilesX86\GOG.com\Dragonshard\gfw_high.ico - 135225
+4/20/2011 1:56:46 PM - ProgramFilesX86\GOG.com\Dragonshard\goggame.dll - 269312
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Dragonshard\innosetup_license.txt - 1471
+4/5/2011 12:28:58 PM - ProgramFilesX86\GOG.com\Dragonshard\manual.pdf - 2969685
+10/18/2005 10:59:14 AM - ProgramFilesX86\GOG.com\Dragonshard\NxCharacter.dll - 102400
+10/18/2005 10:59:14 AM - ProgramFilesX86\GOG.com\Dragonshard\NxCooking.dll - 471040
+10/18/2005 10:59:14 AM - ProgramFilesX86\GOG.com\Dragonshard\NxExtensionsDLL.dll - 303104
+5/6/2005 6:03:26 PM - ProgramFilesX86\GOG.com\Dragonshard\NxFoundation.dll - 172032
+10/18/2005 2:25:44 PM - ProgramFilesX86\GOG.com\Dragonshard\NxPhysics.dll - 872448
+4/5/2011 12:30:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Readme.txt - 78631
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Dragonshard\Support.ico - 62895
+3/5/2012 6:45:39 PM - ProgramFilesX86\GOG.com\Dragonshard\unins000.dat - 81807
+3/5/2012 6:43:31 PM - ProgramFilesX86\GOG.com\Dragonshard\unins000.exe - 2142547
+3/5/2012 6:45:39 PM - ProgramFilesX86\GOG.com\Dragonshard\unins000.ini - 82
+8/6/2005 5:11:30 PM - ProgramFilesX86\GOG.com\Dragonshard\AIPlayers\Easy.dai - 1270
+8/6/2005 5:11:30 PM - ProgramFilesX86\GOG.com\Dragonshard\AIPlayers\Hard.dai - 1275
+8/6/2005 5:11:30 PM - ProgramFilesX86\GOG.com\Dragonshard\AIPlayers\Medium.dai - 1275
+12/13/2005 7:23:30 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Cloths.H2O - 147113
+12/13/2005 7:19:50 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Cursors.H2O - 8497
+6/28/2005 2:42:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Cursors_Installer.H2O - 6181
+12/13/2005 7:13:04 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Dialogue.H2O - 52783999
+12/13/2005 7:04:26 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Effects.H2O - 1451039
+8/15/2005 4:49:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Effects_Installer.H2O - 121669
+12/13/2005 7:19:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Fonts.H2O - 234498
+6/28/2005 2:42:18 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Fonts_Installer.H2O - 132002
+12/13/2005 7:21:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Levels.H2O - 98090872
+12/13/2005 6:54:26 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Materials.H2O - 18783
+6/28/2005 2:39:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Materials_Installer.H2O - 18570
+12/13/2005 7:02:38 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Meshes.H2O - 70494639
+8/17/2005 4:37:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Meshes_Installer.H2O - 5050534
+12/13/2005 7:23:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\MeshPathLookups.H2O - 287454
+12/13/2005 6:57:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Models.H2O - 1242109
+9/16/2005 12:10:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Models_Installer.H2O - 186998
+12/13/2005 7:25:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Movies.H2O - 38786113
+12/13/2005 7:11:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Music.H2O - 90635108
+12/13/2005 7:24:40 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\PMeshes.H2O - 760767
+12/13/2005 7:19:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Projectiles.H2O - 23914
+12/13/2005 7:19:48 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Screens.H2O - 135040
+8/15/2005 8:48:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Screens_Installer.H2O - 8536
+12/13/2005 7:24:42 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\ShaderEffects.H2O - 71303
+6/28/2005 2:43:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\ShaderEffects_Installer.H2O - 59264
+12/13/2005 6:57:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Skeletons.H2O - 36544844
+8/15/2005 1:16:40 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Skeletons_Installer.H2O - 341243
+12/13/2005 7:08:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\SoundEffects.H2O - 265157485
+8/30/2005 1:51:22 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\SoundEffects_Installer.H2O - 156225
+12/13/2005 7:24:38 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\SoundEvents.H2O - 298507
+8/30/2005 9:16:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\SoundEvents_Installer.H2O - 298507
+12/13/2005 7:17:24 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\SpeechFX.H2O - 251396558
+12/13/2005 7:24:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\SpeechFXEventSets.H2O - 13178
+12/13/2005 7:19:58 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\TerrainSets.H2O - 10519503
+12/13/2005 7:19:52 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Text.H2O - 394058
+12/13/2005 7:23:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\TextureAnimations.H2O - 3062
+6/28/2005 2:42:30 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\TextureAnimations_Installer.H2O - 1559
+12/13/2005 6:52:24 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Textures.H2O - 173880946
+8/10/2005 3:39:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Textures_Installer.H2O - 115626
+12/13/2005 7:19:52 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Text_Installer.H2O - 394058
+12/13/2005 7:23:28 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\UVAs.H2O - 170828
+8/10/2005 3:32:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\UVAs_Installer.H2O - 71490
+12/13/2005 7:03:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Weights.H2O - 850302
+8/4/2005 7:12:28 PM - ProgramFilesX86\GOG.com\Dragonshard\Archives\Weights_Installer.H2O - 25293
+8/12/2005 10:37:42 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Actors.lqr - 20850
+7/7/2005 2:22:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AIBuildingClasses.lqr - 552
+7/7/2005 2:22:18 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AIPlaceOfPowerModifierClasses.lqr - 304
+7/7/2005 2:22:56 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AITownGridTemplates.lqr - 6863
+7/7/2005 2:22:18 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AIUnitDescriptorModifiers.lqr - 662
+7/7/2005 2:22:18 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AIUnitDescriptors.lqr - 1852
+7/28/2005 12:31:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AIWarParties.lqr - 7680
+7/19/2005 11:08:00 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\AIWarPartyCombos.lqr - 4554
+7/7/2005 2:22:18 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AIWarPartyMemberClasses.lqr - 6114
+7/7/2005 2:22:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AIWarPartyMemberClassToUnitDescriptors.lqr - 3129
+7/7/2005 2:20:04 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AmbientLife.lqr - 16804
+7/7/2005 2:22:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AnimationStates.lqr - 10858
+7/7/2005 2:22:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ASCIICharacters.lqr - 22482
+8/6/2005 12:52:02 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AutoCastSpellAndEvents.lqr - 100927
+7/7/2005 2:23:28 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AutoCastSpellEvents.lqr - 1520
+10/13/2005 10:27:44 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\AutoCastSpellRequirements.lqr - 192004
+7/7/2005 2:23:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\AutoCastSpellTargets.lqr - 9891
+8/30/2005 12:43:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BattleGear.lqr - 57656
+7/7/2005 2:23:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BattleGearContextTargets.lqr - 1269
+9/16/2005 12:34:48 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BattleGearInfo.lqr - 121374
+11/16/2005 4:55:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BattleGearParameters.lqr - 991134
+7/7/2005 2:23:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BBoxAxisGroups.lqr - 845
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BBoxes.lqr - 4552
+7/11/2005 8:54:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BloodEffects.lqr - 1583
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BuildingAnimationLookups.lqr - 2480
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BuildingBBoxes.lqr - 1103
+7/29/2005 7:42:42 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BuildingDefenses.lqr - 7026
+10/13/2005 2:15:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Buildings.lqr - 67410
+7/7/2005 2:22:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\BuildingStatuses.lqr - 397
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\CampaignGlobals.lqr - 309
+8/4/2005 6:59:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ChampionArtifacts.lqr - 10142
+7/7/2005 2:22:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ClanBuildingLists.lqr - 2447
+8/10/2005 9:20:26 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ClanChampions.lqr - 4212
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ClanGatherPoints.lqr - 587
+7/25/2005 4:24:42 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Clans.lqr - 6386
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ClanTownGrids.lqr - 7838
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ClanWalls.lqr - 6189
+8/7/2005 12:39:50 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Cloths.lqr - 16729
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\CollisionGeometry.lqr - 797
+7/7/2005 2:22:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\CompositionEffects.lqr - 39362
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Compositions.lqr - 1558
+7/7/2005 2:22:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\CompositionSoundEvents.lqr - 43406
+7/7/2005 2:22:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Consoles.lqr - 2149
+7/7/2005 2:22:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ContextActions.lqr - 11249
+7/7/2005 2:21:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\CriticalKills.lqr - 669
+7/25/2005 3:38:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\CursorModes.lqr - 3683
+8/7/2005 12:39:50 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Cursors.lqr - 10485
+7/27/2005 11:43:22 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\DamageTypes.lqr - 865
+7/7/2005 2:22:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DecalLayers.lqr - 736
+8/10/2005 3:21:26 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Decals.lqr - 27480
+8/11/2005 7:30:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Dialogue.lqr - 171471
+7/7/2005 2:22:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DifficultyLevels.lqr - 795
+8/4/2005 4:32:40 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DIKeys.lqr - 7615
+7/7/2005 2:22:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DIModifiers.lqr - 1284
+8/25/2005 4:54:10 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DND.lrp - 9357
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DungeonCapObjects.lqr - 3470
+7/7/2005 2:22:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DungeonEntrances.lqr - 836
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DungeonRoomObjects.lqr - 906
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DungeonRoomVariants.lqr - 8782
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DungeonStyles.lqr - 484
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\DungeonStyleVariants.lqr - 1126
+7/7/2005 2:21:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Editor_BuildingHierarchies.lqr - 2146
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Editor_Marker_CreatureSpawnProperties.lqr - 1880
+7/7/2005 2:21:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Editor_Marker_DefensiveObjectiveProperties.lqr - 1612
+7/7/2005 2:21:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Editor_Marker_ScriptWaypointProperties.lqr - 1445
+7/7/2005 2:23:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Editor_Marker_ShardFallHotSpots.lqr - 855
+7/7/2005 2:22:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Editor_Marker_WaterRippleProperties.lqr - 974
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Editor_ObjectHierarchies.lqr - 9342
+7/7/2005 2:21:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Editor_UnitHierarchies.lqr - 2656
+7/12/2005 7:18:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\EffectDetails.lqr - 1510
+7/7/2005 2:23:38 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\EffectFogBehaviors.lqr - 820
+9/16/2005 1:47:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Effects.lqr - 513279
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\EnvironmentMaps.lqr - 1384
+8/7/2005 12:39:52 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Fonts.lqr - 1090
+7/29/2005 3:46:48 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\GameCameraSettings.lqr - 8456
+8/9/2005 1:00:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\GameMessages.lqr - 8955
+7/7/2005 2:22:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\GameResources.lqr - 481
+7/7/2005 2:21:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\GrassUVAs.lqr - 856
+7/7/2005 2:22:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\HintPriorities.lqr - 594
+9/16/2005 2:18:10 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Hints.lqr - 16770
+7/25/2005 7:27:02 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\HotKeyGroups.lqr - 1055
+9/13/2005 6:52:10 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Hotkeys.lqr - 25471
+7/7/2005 2:22:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\HyperTerrainLODLevels.lqr - 842
+7/7/2005 2:22:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\HyperTerrainTypes.lqr - 4980
+8/10/2005 11:32:32 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\InteractiveGameMessages.lqr - 14353
+7/7/2005 2:22:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\InvisibilityTypes.lqr - 417
+7/7/2005 2:21:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\JointConnectorGroups.lqr - 809
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\JointFlags.lqr - 6042
+11/16/2005 3:45:42 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Levels.lqr - 8928
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\LOD.lqr - 816
+7/7/2005 2:22:52 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\LODMaterials.lqr - 590
+7/23/2005 5:27:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\LODMeshes.lqr - 640
+7/7/2005 2:23:40 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\LODShaders.lqr - 616
+7/7/2005 2:22:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\LODTextures.lqr - 664
+8/11/2005 2:42:10 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\LoreEntries.lqr - 13247
+7/7/2005 2:20:24 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MagicSpells.lqr - 285
+8/11/2005 2:27:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MainStoryArcs.lqr - 4591
+7/7/2005 2:22:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MaskSets.lqr - 575
+7/7/2005 2:22:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MaskSetVariantData.lqr - 4708
+7/7/2005 2:22:56 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MaterialFallbacks.lqr - 2000
+8/7/2005 12:39:50 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Materials.lqr - 10574
+8/15/2005 1:49:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Meshes.lqr - 1188699
+7/7/2005 2:21:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MeshPathingCategories.lqr - 628
+8/7/2005 12:37:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MeshPathLookups.lqr - 23811
+7/7/2005 2:22:42 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MessageActivityFunctions.lqr - 775
+8/17/2005 8:16:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MissionItems.lqr - 34136
+10/27/2005 1:39:30 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MissionObjectives.lqr - 57835
+8/15/2005 5:26:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Missions.lqr - 10479
+7/7/2005 2:21:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ModelClasses.lqr - 2430
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ModelEventMarkers.lqr - 614
+9/15/2005 2:41:38 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ModelEvents.lqr - 186268
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ModelFlags.lqr - 4726
+7/7/2005 2:21:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ModelMaster_Toolscripts.lqr - 7271
+8/30/2005 4:41:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Models.lqr - 968051
+7/7/2005 2:21:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ModelSizes.lqr - 662
+8/3/2005 10:27:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Movies.lqr - 1348
+7/7/2005 2:22:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MultiplayerGameModes.lqr - 542
+8/14/2005 5:39:30 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MultiplayerHints.lqr - 2300
+8/6/2005 12:09:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Music.lqr - 10260
+7/7/2005 2:21:02 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MusicThemes.lqr - 351
+7/7/2005 2:21:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\MusicTracks.lqr - 4838
+7/7/2005 2:22:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\NexusEffects.lqr - 2256
+8/6/2005 5:34:22 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\NexusTerrainSetTextures.lqr - 7452
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ObjectAnimationLookups.lqr - 930
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ObjectBBoxes.lqr - 1219
+8/12/2005 8:01:38 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ObjectDrops.lqr - 34083
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Objectives.lqr - 633
+10/27/2005 12:01:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Objects.lqr - 945573
+7/7/2005 2:19:50 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\PathingCategories.lqr - 1868
+7/7/2005 2:22:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\PlaceOfPowerModifiers.lqr - 9172
+8/8/2005 7:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\PlacesOfPower.lqr - 23686
+7/7/2005 2:22:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\PlateSets.lqr - 6875
+7/20/2005 4:27:48 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\PlayerHandicaps.lqr - 1088
+7/7/2005 2:22:48 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\PMeshes.lqr - 4604
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Precipitation.lqr - 4729
+7/7/2005 2:21:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ProjectileMaster_Toolscripts.lqr - 896
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ProjectileResults.lqr - 461
+8/12/2005 7:48:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Projectiles.lqr - 26798
+7/7/2005 2:22:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\RadialActions.lqr - 1922
+7/7/2005 2:22:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\RadialActionTypes.lqr - 495
+7/7/2005 2:22:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\RadialItems.lqr - 805
+7/7/2005 2:22:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\RenderStates.lqr - 3016
+8/8/2005 4:21:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ResourceLevels.lqr - 1818
+9/12/2005 6:26:42 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Screens.lqr - 10711
+7/7/2005 2:22:42 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SelectFlags.lqr - 455
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SelectHighlights.lqr - 2446
+7/14/2005 12:36:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SelectionRings.lqr - 2515
+8/11/2005 10:17:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ShaderEffects.lqr - 5738
+7/7/2005 2:23:40 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ShardStormStates.lqr - 6269
+8/7/2005 12:39:18 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Skeletons.lqr - 142809
+7/7/2005 2:22:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SkyBoxes.lqr - 2204
+7/7/2005 2:22:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SkyDomes.lqr - 562
+8/30/2005 12:48:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SoundEffects.lqr - 773479
+7/7/2005 2:22:52 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SoundEnvironments.lqr - 2896
+8/30/2005 7:22:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SoundEvents.lqr - 593936
+8/29/2005 5:46:48 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpeechFX.lqr - 847429
+8/12/2005 9:59:22 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpeechFXEventSets.lqr - 14910
+7/7/2005 2:22:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpeechFXEventTypes.lqr - 15260
+7/7/2005 2:23:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpeechFXSpeakerTypes.lqr - 424
+7/7/2005 2:21:22 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellActions.lqr - 35392
+10/13/2005 5:09:40 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellAndEventAndActions.lqr - 1523316
+10/13/2005 10:34:52 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellAndEvents.lqr - 295682
+8/10/2005 5:59:22 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellEvents.lqr - 9892
+7/7/2005 2:22:22 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellIDs.lqr - 421
+7/26/2005 5:45:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellRanges.lqr - 1646
+9/8/2005 3:19:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Spells.lqr - 180882
+7/7/2005 2:21:22 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellSpecialCaseUnitFlags.lqr - 341
+7/7/2005 2:22:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellUsageTypes.lqr - 1398
+10/13/2005 12:48:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SpellValidTargets.lqr - 153007
+7/7/2005 2:22:18 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\StackableTypes.lqr - 838
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\StaticAnimationLookups.lqr - 533
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\StaticBBoxes.lqr - 876
+7/7/2005 2:20:24 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\StaticObjects.lqr - 297
+7/7/2005 2:22:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\StatScreenMultipliers.lqr - 362
+7/7/2005 2:22:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\StatsScreenAwards.lqr - 754
+7/7/2005 2:22:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\StatTypes.lqr - 222
+7/7/2005 2:22:48 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\SubMetaObjects.lqr - 44656
+8/3/2005 11:43:12 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\SyncDatas.lqr - 95045
+7/7/2005 2:19:50 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TeamColors.lqr - 1294
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TechniqueModifiers.lqr - 2193
+9/9/2005 4:04:28 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Techniques.lqr - 264893
+7/7/2005 2:22:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TechniqueUnitModifiers.lqr - 652
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TerrainCompositions.lqr - 1240
+7/7/2005 2:22:52 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TerrainLayers.lqr - 423
+8/7/2005 12:39:50 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TerrainSets.lqr - 2265
+7/7/2005 2:22:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TerrainTiles.lqr - 8176
+8/7/2005 12:39:56 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Text.lqr - 1547
+9/16/2005 12:52:50 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TextEntries.lqr - 656764
+8/7/2005 12:39:56 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TextureAnimations.lqr - 7156
+8/29/2005 7:34:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Textures.lqr - 643575
+7/7/2005 2:22:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TileSets.lqr - 3020
+7/7/2005 2:21:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ToolScriptCommands.lqr - 13816
+7/7/2005 2:21:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\ToolScriptCommandUserTypes.lqr - 4532
+7/7/2005 2:22:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TownGridNexuses.lqr - 11223
+7/7/2005 2:22:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TownGridNodes.lqr - 13019
+11/28/2005 3:37:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Traps.lqr - 8816
+7/7/2005 2:21:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\TriangleFlags.lqr - 2302
+7/7/2005 2:22:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitAnimationLookups.lqr - 9001
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitBBoxes.lqr - 968
+7/7/2005 2:23:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitClasses.lqr - 886
+9/27/2005 4:25:30 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitLevels.lqr - 123784
+8/18/2005 11:46:28 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitObjectDrops.lqr - 26674
+9/15/2005 3:11:30 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitOverrideParameters.lqr - 150384
+10/18/2005 4:02:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Units.lqr - 250843
+7/7/2005 2:22:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitStatuses.lqr - 476
+8/30/2005 3:24:28 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitTerrainEffects.lqr - 16805
+7/7/2005 2:22:14 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitToUnitModifiers.lqr - 775
+7/7/2005 2:22:18 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UnitUniqueGroups.lqr - 1007
+9/13/2005 5:52:22 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\UVAs.lqr - 494578
+8/15/2005 7:38:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\VideoCards.lqr - 34821
+8/6/2005 4:27:48 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\VideoSettingDefaults.lqr - 3888
+7/7/2005 2:21:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\WeaponClasses.lqr - 359
+8/4/2005 11:34:18 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\WeaponEffects.lqr - 42599
+7/7/2005 2:21:06 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\WeaponImpact.lqr - 2952
+7/20/2005 4:04:28 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\WeaponImpactTypes.lqr - 3272
+10/13/2005 11:49:42 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\Weapons.lqr - 371878
+8/7/2005 12:39:34 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Weights.lqr - 112554
+8/6/2005 7:59:26 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\Wind.lqr - 2539
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\WorldEditorMarkerTypes.lqr - 4914
+7/7/2005 2:21:12 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\WorldEditorObjectTypes.lqr - 1546
+7/7/2005 2:21:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Database\WorldEditorParameters.lqr - 573
+8/12/2005 11:51:16 AM - ProgramFilesX86\GOG.com\Dragonshard\Database\WorldVariables.lqr - 37463
+10/18/2005 6:02:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Human_Mission_1.dll - 176128
+10/18/2005 6:02:30 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Human_Mission_2.dll - 167936
+10/18/2005 6:02:38 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Human_Mission_3.dll - 139264
+10/18/2005 6:02:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Human_Mission_4.dll - 180224
+10/18/2005 6:02:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Human_Mission_5.dll - 163840
+10/18/2005 6:03:02 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Human_Mission_6.dll - 135168
+10/18/2005 6:03:10 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Human_Mission_7.dll - 122880
+10/18/2005 6:03:20 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Lizard_Kin_Mission_1.dll - 147456
+10/18/2005 6:03:28 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Lizard_Kin_Mission_2.dll - 135168
+10/18/2005 6:03:36 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Lizard_Kin_Mission_3.dll - 151552
+10/18/2005 6:03:44 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Lizard_Kin_Mission_4.dll - 139264
+10/18/2005 6:03:52 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Lizard_Kin_Mission_5.dll - 151552
+10/18/2005 6:04:00 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Lizard_Kin_Mission_6.dll - 180224
+10/18/2005 6:04:08 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Lizard_Kin_Mission_7.dll - 126976
+10/18/2005 6:04:16 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Tutorial_Mission_1.dll - 77824
+10/18/2005 6:04:24 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Tutorial_Mission_2.dll - 81920
+10/18/2005 6:04:32 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Tutorial_Mission_3.dll - 81920
+10/18/2005 6:04:38 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Tutorial_Mission_4.dll - 81920
+10/18/2005 6:04:46 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Tutorial_Mission_5.dll - 86016
+10/18/2005 6:04:54 PM - ProgramFilesX86\GOG.com\Dragonshard\Scripts\Tutorial_Mission_6.dll - 81920
+2/17/2011 3:02:00 PM - ProgramFilesX86\GOG.com\Dragonshard\TriangleMeshes\Human_Campaign_Mission_010.bin - 5118136
+2/17/2011 3:02:02 PM - ProgramFilesX86\GOG.com\Dragonshard\TriangleMeshes\Human_Campaign_Mission_011.bin - 5118136
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+3/5/2012 7:33:06 PM - VirtualStore\Program Files (x86)\GOG.com\Dragonshard\DND.ini - 420
+3/5/2012 7:34:44 PM - VirtualStore\Program Files (x86)\GOG.com\Dragonshard\TriangleMeshes\Lizard_Campaign_Mission_010.bin - 2000824
+3/5/2012 7:34:44 PM - VirtualStore\Program Files (x86)\GOG.com\Dragonshard\TriangleMeshes\Lizard_Campaign_Mission_011.bin - 2000824
