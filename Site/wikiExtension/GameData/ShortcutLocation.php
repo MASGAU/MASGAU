@@ -4,6 +4,7 @@ require_once 'Location.php';
 class ShortcutLocation extends Location {
     //put your code here
     
+    public $ev;
     public $shortcut;
     
     public function loadFromDb($id) {
@@ -11,6 +12,7 @@ class ShortcutLocation extends Location {
         $result = mysql_query($sql);
         
         if($row = mysql_fetch_assoc($result)) {
+            $this->ev = $row['ev'];
             $this->shortcut = $row['shortcut'];
         }        
         parent::loadFromDb($id);
@@ -26,6 +28,9 @@ class ShortcutLocation extends Location {
                 case 'read_only':
                 case 'deprecated':
                     break;
+                case 'environment_variable':
+                    $this->ev = $attribute->value;
+                    break;
                 case 'shortcut':
                     $this->shortcut = $attribute->value;
                     break;
@@ -35,16 +40,16 @@ class ShortcutLocation extends Location {
         }
         
         $wgOut->addHTML('<tr><td>');
-        $wgOut->addHTML($this->shortcut.'|');
+        $wgOut->addHTML($this->ev.'|'.$this->shortcut.'|');
         parent::loadFromXml($node);
         $wgOut->addHTML('</td></tr>');
     }
 
     public function writeToDb($id) {
         global $wgOut;
-        $wgOut->addWikiText('*** Writing shortcut ' . $this->shortcut.' to database');
+        $wgOut->addWikiText('*** Writing shortcut ' . $this->ev. '\\'.$this->shortcut.' to database');
 
-        $insert = array('shortcut'=>$this->shortcut);
+        $insert = array('ev'=>$this->ev,'shortcut'=>$this->shortcut);
         
         $this->writeAllToDb($id,'masgau_game_data.game_shortcuts', $insert);
 

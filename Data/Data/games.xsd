@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <!--simple elements-->
@@ -29,6 +29,7 @@
         <xs:enumeration value="userprofile"/>
         <xs:enumeration value="userdocuments"/>
         <xs:enumeration value="startmenu" />
+        <xs:enumeration value="desktop" />
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
