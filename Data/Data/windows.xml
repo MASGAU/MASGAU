@@ -1075,10 +1075,8 @@
     <title>CSI: Hard Evidence</title>
     <location_path environment_variable="steamcommon" path="csi hard evidence"/>
     <location_registry root="local_machine" key="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\CSI4.exe" value="Install Location"/>
-    <save filename="*.prop"/>
-    <save filename="*.save"/>
+    <save filename="CSISaveGame*"/>
     <save filename="prefs.prop" type="Settings"/>
-    <ignore filename="prefs.prop"/>
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="CSINYTheGame">
@@ -1483,7 +1481,6 @@
   <game name="Driver3" platform="Windows">
     <title>Driv3r</title>
     <location_path environment_variable="installlocation" path="Atari\DRIV3R" />
-    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{01DBF423-E27B-45DA-B7F3-F9D4DB39B1C9}" value="InstallLocation" />
     <save path="Saves"/>
     <save path="Configs" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
@@ -1755,6 +1752,7 @@
     <title>Fable - The Lost Chapters</title>
     <location_path environment_variable="userdocuments" path="My Games\Fable"/>
     <save path="Saves"/>
+    <save path="Tattoos" type="Tattos"/>
     <contributor>AdmiringWorm</contributor>
   </game>
 	<game name="Fable3" platform="Windows">
@@ -2545,7 +2543,7 @@
   <game name="IcyTower15" platform="Windows">
     <title>Icy Tower 1.5</title>
     <location_path environment_variable="installlocation" path="games\icytower1.5" />
-    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Icy Tower v1.5_is1" value="App Path" />
+    <location_registry root="local_machine" key="SOFTWARE\Conduit\AppPaths\icytower15.exe" value="AppPath" detract="\icytower15.exe"/>
     <save path="profiles"/>
     <save path="profiles\*\replays" type="Replays"/>
     <save path="characters" type="Characters"/>
@@ -4292,9 +4290,8 @@
   <game name="Shaiya" platform="Windows">
     <title>Shaiya</title>
     <location_path environment_variable="installlocation" path="AeriaGames\Shaiya"/>
-    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8A4D41F3-3EDA-4DAC-9403-839708EA0667}" value="InstallLocation"/>
-    <save filename="CONFIG.INI" type="Settings" />
-    <save filename="T_CONFIG.ini" type="Settings" />
+    <location_registry root="local_machine" key="SOFTWARE\SONOV\Shaiya" value="Path"/>
+    <save filename="*CONFIG.INI" type="Settings" />
     <comment>AdmiringWorm</comment>
   </game>
 	<game name="Shellshock2" platform="Windows">
@@ -4307,7 +4304,6 @@
   <game name="Ship" platform="Windows">
     <title>The Ship</title>
     <location_path environment_variable="steamuser" path="the ship single player"/>
-    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3847469758-2658798015-2241647928-1000\{C9788A83-AC71-4221-AF38-9CF31AEF98B3}" value="ConfigApplicationPath"/>
     <save path="ship\SAVE"/>
     <save path="ship\cfg" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
@@ -4652,13 +4648,12 @@
 		<save/>
 		<contributor>Arc Angel</contributor>
 	</game>
-  <game name="StreetsofMoscow" platform="Windows">
+  <game name="StreetsOfMoscow" platform="Windows">
     <title>Streets of Moscow</title>
     <location_path environment_variable="userdocuments" path="My Games\Streets of Moscow" />
     <save path="profiles"/>
     <save filename="settings.blk" type="Settings"/>
     <save path="config" type="Settings"/>
-    <save filename="settings.blk" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
   </game>
 	<game name="StubbsTheZombieRebelWithoutAPulse" platform="Windows">
