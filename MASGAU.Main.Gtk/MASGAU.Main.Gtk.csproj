@@ -69,6 +69,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="gtk-gui\MASGAU.Main.MainWindow.cs" />
+    <Compile Include="MainProgramHandler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -87,6 +88,10 @@
     <ProjectReference Include="..\Translations\Translations.csproj">
       <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
       <Name>Translations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MASGAU.Linux\MASGAU.Linux.csproj">
+      <Project>{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}</Project>
+      <Name>MASGAU.Linux</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -52,4 +52,10 @@
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\MASGAU.Gtk\MASGAU.Gtk.csproj">
+      <Project>{C2F897BF-9BAC-4CA3-B4D0-2F9E57E2A519}</Project>
+      <Name>MASGAU.Gtk</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

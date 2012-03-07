@@ -26,26 +26,6 @@ namespace MASGAU
         public SettingsControl()
         {
             InitializeComponent();
-            WPFHelpers.translateContent(changeBackupPathBtn);
-            WPFHelpers.translateContent(changeSteamPathBtn);
-            WPFHelpers.translateContent(openBackupPathBtn);
-            WPFHelpers.translateContent(resetSteamPathBtn);
-
-            WPFHelpers.translateContent(autoUpdateChk);
-            WPFHelpers.translateContent(ignoreDatesChk);
-            WPFHelpers.translateContent(updateBtn);
-
-            WPFHelpers.translateContent(removeAltPathBtn);
-            WPFHelpers.translateContent(addAltPathBtn);
-
-            WPFHelpers.translateContent(extraBackupsTgl);
-            WPFHelpers.translateHeader(versionCountGrp);
-            WPFHelpers.translateHeader(versionTimeGrp);
-
-            WPFHelpers.translateHeader(altPathsGrp);
-            WPFHelpers.translateHeader(emailGroup);
-            WPFHelpers.translateHeader(backupGrp);
-            WPFHelpers.translateHeader(steamGrp);
         }
 
         public void bindSettingsControls() {

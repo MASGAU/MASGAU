@@ -29,6 +29,7 @@ namespace MASGAU.Analyzer
         {
             this.analyzer = analyzer;
 			InitializeComponent();
+            WPFHelpers.translateWindow(this);
 			game_path = new_game_path;
 			save_path = new_save_path;
             game_name = new_game_name;

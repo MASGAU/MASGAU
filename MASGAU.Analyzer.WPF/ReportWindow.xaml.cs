@@ -18,9 +18,7 @@ namespace MASGAU.Analyzer
 			InitializeComponent();
 			report = new_report;
             name = new_name;
-            this.Title = Strings.get("ReportWindowTitle");
-            disclaimerText.Text = Strings.get("AnalyzerDisclaimer");
-            
+            WPFHelpers.translateWindow(this);
         }
 
 

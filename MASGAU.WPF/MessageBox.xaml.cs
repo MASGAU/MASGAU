@@ -26,10 +26,7 @@ namespace MASGAU
 
         public MessageBox(string title, string message, AWindow owner): base(owner) {
             InitializeComponent();
-            WPFHelpers.translateContent(submitButton);
-            WPFHelpers.translateContent(cancelButton);
-            WPFHelpers.translateContent(okButton);
-            WPFHelpers.translateHeader(exceptionExpander);
+            WPFHelpers.translateWindow(this);
             this.Title = title;
             messageLabel.Content = message;
         }

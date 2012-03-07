@@ -7,6 +7,7 @@ using System.Xml.Schema;
 using System.IO;
 using System.Globalization;
 using System.Threading;
+using System.Text.RegularExpressions;
 namespace Translations {
     public class Strings {
         private static string language = "en";
@@ -14,8 +15,8 @@ namespace Translations {
 
         private static Dictionary<string, string> strings = new Dictionary<string, string>();
 
-
         private static XmlReaderSettings xml_settings;
+
         static Strings() {
             xml_settings = new XmlReaderSettings();
             xml_settings.ConformanceLevel = ConformanceLevel.Auto;
@@ -35,6 +36,7 @@ namespace Translations {
 
             loadRegion();
         }
+
         public static void overrideRegion(string new_language, string new_region) {
             language = new_language;
             region = new_region;
@@ -76,18 +78,60 @@ namespace Translations {
                     strings.Add(node.Attributes["name"].InnerText, node.InnerText);
                 }
             }
+       
 
+            
         }
 
+        public static string get(string name)
+        {
+            StringBuilder return_me = null;
 
-        public static string get(string name) {
+            if (name == null)
+                return "NULL STRING";
+
+            if (name == "")
+                return "EMPTY STRING";
+
             if (strings.ContainsKey(name))
-                return strings[name];
+                return_me = new StringBuilder(strings[name]);
 
             if (strings.ContainsKey(name))
-                return strings[name];
+                return_me = new StringBuilder(strings[name]);
 
-            throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
+            if (return_me == null)
+            {
+                switch (name)
+                {
+                    case "-":
+                    case ":":
+                        return name;
+                    default:
+                        throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
+                }
+
+            }
+
+            Regex r = new Regex(@"%[A-za-z]*%", RegexOptions.IgnoreCase);
+
+            Match m = r.Match(return_me.ToString());
+            int offset = 0;
+            while (m.Success) {
+                foreach (Group g in m.Groups)
+                {
+                    foreach (Capture c in g.Captures)
+                    {
+                        string key = c.Value.Trim('%');
+                        string line = get(key);
+                        return_me.Remove(c.Index + offset, c.Length);
+                        return_me.Insert(c.Index + offset, line);
+                        offset += line.Length - c.Length;
+                    }
+                }
+                m = m.NextMatch();
+            }
+
+            return return_me.ToString();
         }
 
         // Event handler to take care of XML errors while reading game configs

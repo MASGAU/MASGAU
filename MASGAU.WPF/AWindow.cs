@@ -372,9 +372,25 @@ namespace MASGAU
             return showWarning(Strings.get(string_name + "Title"),
                 Strings.get(string_name + "Message"));
         }
-        public bool showTranslatedError(String string_name) {
+        public bool showTranslatedError(String string_name)
+        {
             return showError(Strings.get(string_name + "Title"),
                 Strings.get(string_name + "Message"));
+        }
+        public bool showTranslatedError(String string_name, object append)
+        {
+            return showError(Strings.get(string_name + "Title"),
+                Strings.get(string_name + "Message") + Environment.NewLine + append);
+        }
+        public bool showTranslatedError(String string_name, string append, Exception ex)
+        {
+            return showError(Strings.get(string_name + "Title"),
+                Strings.get(string_name + "Message") + Environment.NewLine + append, ex);
+        }
+        public bool showTranslatedError(String string_name, Exception ex)
+        {
+            return showError(Strings.get(string_name + "Title"),
+                Strings.get(string_name + "Message"),ex);
         }
         #endregion
 

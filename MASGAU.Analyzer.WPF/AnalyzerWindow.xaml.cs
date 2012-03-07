@@ -14,11 +14,13 @@ namespace MASGAU.Analyzer
     public partial class AnalyzerWindow : AProgramWindow
     {
         private AnalyzerProgramHandler analyzer;
-
+        private string _title;
         public AnalyzerWindow(): base(new AnalyzerProgramHandler())
         {
             this.analyzer = (AnalyzerProgramHandler)program_handler;
             InitializeComponent();
+            WPFHelpers.translateWindow(this);
+            _title = this.Title;
         }
 
         protected override void loadTranslations() {
@@ -31,9 +33,9 @@ namespace MASGAU.Analyzer
 		public override void updateProgress (MASGAU.Communication.Progress.ProgressUpdatedEventArgs e)
 		{
 			if(e.message==null)
-				this.Title = Strings.get("AnalyzerWindowTitle");
-			else 
-				this.Title = Strings.get("AnalyzerWindowTitle") + " - " + e.message;
+                this.Title = _title;
+			else
+                this.Title = _title + " - " + e.message;
 		}	
 		
         protected override void WindowLoaded(object sender, RoutedEventArgs e)

@@ -58,7 +58,7 @@
                     <TextBox Height="23" IsReadOnly="True" Margin="1" MaxLines="10" Name="steamPathTxt" Text="{Binding steam_path, Converter={StaticResource pathValueConverter}}" />
                 </Grid>
             </GroupBox>
-        <GroupBox Grid.Column="1" Grid.Row="5" Header="AltInstallPaths" Margin="1" Name="altPathsGrp">
+        <GroupBox Grid.Column="1" Grid.Row="5" Header="AltPaths" Margin="1" Name="altPathsGrp">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />

@@ -48,14 +48,14 @@ namespace MASGAU.Analyzer
             else
                 save.SelectFilename(System.IO.Path.Combine(AnalyzerProgramHandler.last_save_path,name + ".txt"));
 
-			if(save.Run()!= Gtk.ResponseType.Cancel) {
+			if(save.Run()!= (int)Gtk.ResponseType.Cancel) {
                 AnalyzerProgramHandler.last_save_path = System.IO.Path.GetDirectoryName(save.Filename);
 				try {
 					StreamWriter writer = File.CreateText(save.Filename);
 					writer.Write(reportText.Buffer.Text);
 					writer.Close();
 				} catch {
-                    showError(Strings.get("WriteErrorPrompt"), Strings.get("WriteError") + " " + save.Filename);
+					GTKHelpers.showError(this,Strings.get("WriteErrorPrompt"), Strings.get("WriteError") + " " + save.Filename);
 				}
 			}
 		}
@@ -78,7 +78,7 @@ namespace MASGAU.Analyzer
         {
             if(e.Error!=null) {
                 uploadButton.Label = Strings.get("CantSendReport");
-                showError("Error time",e.Error.Message);
+                GTKHelpers.showError(this, "Error time",e.Error.Message);
             } else {
                 uploadButton.Label = Strings.get("ReportSent");
             }

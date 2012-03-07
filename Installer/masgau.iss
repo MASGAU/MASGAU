@@ -1,26 +1,23 @@
-[_ISTool]
-EnableISX=true
-
 [Setup]
 AppMutex=MASGAU
 AppName=MASGAU
-<<<<<<< HEAD
-AppVerName=MASGAU 0.10.0
-=======
+//<<<<<<< HEAD
+//AppVerName=MASGAU 0.10.0
+//=======
 AppVerName=MASGAU 0.9.2
->>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
-MinVersion=4.1,4.0
+//>>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
+MinVersion=4.1,5.0
 DefaultDirName={pf}\MASGAU
 DefaultGroupName=MASGAU
 Compression=lzma/Ultra64
 SolidCompression=true
-<<<<<<< HEAD
-OutputBaseFilename=MASGAU-0.10-Setup
-AppCopyright=2011
-=======
+//<<<<<<< HEAD
+//OutputBaseFilename=MASGAU-0.10-Setup
+//AppCopyright=2011
+//=======
 OutputBaseFilename=MASGAU-0.9.2-Setup
 AppCopyright=2012
->>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
+//>>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
 ChangesAssociations=true
 WizardImageFile=..\Graphics\installer_logo.bmp
 WizardSmallImageFile=..\Graphics\installer_logo_small.bmp
@@ -28,15 +25,15 @@ WizardImageStretch=true
 SetupIconFile=..\Graphics\masgau.ico
 AllowRootDirectory=true
 DirExistsWarning=no
-<<<<<<< HEAD
-VersionInfoVersion=0.10
-VersionInfoProductName=MASGAU
-VersionInfoProductVersion=0.10
-=======
+//<<<<<<< HEAD
+//VersionInfoVersion=0.10
+//VersionInfoProductName=MASGAU
+//VersionInfoProductVersion=0.10
+//=======
 VersionInfoVersion=0.9.2
 VersionInfoProductName=MASGAU
 VersionInfoProductVersion=0.9.2
->>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
+//>>>>>>> a227a9bca5203098cb8160c153efcf3aa9df9649
 LicenseFile=..\Docs\gpl-2.0.txt
 InternalCompressLevel=Ultra64
 ArchitecturesInstallIn64BitMode=x64
@@ -44,7 +41,8 @@ UninstallDisplayIcon={app}\masgau.ico
 VersionInfoCompany=Matthew Barbour
 
 [Files]
-Source: c:\ISSI\include\isxdl\isxdl.dll; Flags: dontcopy
+//Source: c:\ISSI\include\isxdl\isxdl.dll; Flags: dontcopy
+Source: F:\InstallDetections\products\ISSI\isxdl\isxdl.dll; Flags: dontcopy
 
 // MASGAU Component
 Source: ..\Dependencies\7-Zip\7z32.exe; DestDir: {app}; DestName: 7z.exe; Check: ThirtyTwoCheck(); Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
@@ -112,6 +110,7 @@ Source: ..\Data\Data\system.xml; DestDir: {app}\Data; Components: DataFiles\SysD
 // Translations
 Source: ..\Translations\Strings\strings.xsd; DestDir: {app}\Strings; Components: Langs\EN; 
 Source: ..\Translations\Strings\en.xml; DestDir: {app}\Strings; Components: Langs\EN; 
+Source: ..\Translations\Strings\nb-NO.xml; DestDir: {app}\Strings; Components: Langs\NO;
 
 
 [Registry]
@@ -129,13 +128,45 @@ Root: HKLM; SubKey: Software\MASGAU; ValueType: string; ValueName: Version; Valu
 WinVersionTooLowError=MASGAU requires Windows NT4, Windows 98 or later.
 
 [Icons]
-Name: {group}\MASGAU (Single User Mode); Filename: {app}\MASGAU.Main.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Core; 
-Name: {group}\MASGAU (All Users Mode); Filename: {app}\MASGAU.Main.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Parameters: -allusers; Components: MASGAU\Core; 
-Name: {group}\Analyzer; Filename: {app}\MASGAU.Analyzer.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Analyzer; 
-Name: {group}\Monitor; Filename: {app}\MASGAU.Monitor.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Monitor; 
-Name: {group}\Uninstall MASGAU; Filename: {uninstallexe}; Components: MASGAU\Core; 
+Name: {group}\{cm:singleUser,MASGAU}; Filename: {app}\MASGAU.Main.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Core; 
+Name: {group}\{cm:allUser,MASGAU}; Filename: {app}\MASGAU.Main.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Parameters: -allusers; Components: MASGAU\Core; 
+Name: {group}\{cm:analyzer}; Filename: {app}\MASGAU.Analyzer.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Analyzer; 
+Name: {group}\{cm:monitor}; Filename: {app}\MASGAU.Monitor.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Monitor; 
+Name: {group}\{cm:uninstall,MASGAU}; Filename: {uninstallexe}; Components: MASGAU\Core; 
 Name: {group}\GPL v2; Filename: {app}\gpl-2.0.txt; Components: MASGAU\Core; 
-Name: {group}\Changelog; Filename: {app}\changelog.txt; Components: MASGAU\Core; 
+Name: {group}\{cm:changelog}; Filename: {app}\changelog.txt; Components: MASGAU\Core; 
+
+[Languages]
+Name: "en"; MessagesFile: "compiler:Default.isl"
+
+[CustomMessages]
+adminNeeded=MASGAU needs the Microsoft .NET 4.0 Client Profile to be installed by an Administrator
+downloading_Title=Downloading Microsoft .NET 4.0 Framework
+downloading_Description=MASGAU needs to install the Microsoft .NET 4.0 Framework. Please wait while Setup is downloading extra files to your computer.
+dependencies_Title=Dependencies to install:
+singleUser=%1 (Single User Mode)
+allUser=%1 (All Users Mode)
+analyzer=Analyzer
+monitor=Monitor
+uninstall=Uninstall %1
+changelog=Changelog
+core=Core
+debug=Debug Files
+backupTask=Backup Task
+dataFiles=Data Files
+pcData=PC Games
+psData=PlayStation Games
+sysData=System Files
+deprecated=Deprecated
+language=Language Files
+english=English
+norwegian=Norwegian
+full=The Whole Shebang
+compact=The Bare Essentials
+custom=Your Way
+
+[ThirdPartySettings]
+CompileLogMethod=append
 
 [Code]
 var
@@ -144,11 +175,11 @@ var
   dotNetNeeded: boolean;
   memoDependenciesNeeded: string;
 
-procedure isxdl_AddFile(URL, Filename: PChar);
+procedure isxdl_AddFile(URL, Filename: PAnsiChar);
 external 'isxdl_AddFile@files:isxdl.dll stdcall';
 function isxdl_DownloadFiles(hWnd: Integer): Integer;
 external 'isxdl_DownloadFiles@files:isxdl.dll stdcall';
-function isxdl_SetOption(Option, Value: PChar): Integer;
+function isxdl_SetOption(Option, Value: PAnsiChar): Integer;
 external 'isxdl_SetOption@files:isxdl.dll stdcall';
 
 
@@ -170,7 +201,7 @@ begin
   if (not RegKeyExists(HKLM, 'Software\Microsoft\.NETFramework\policy\v4.0')) then begin
     dotNetNeeded := true;
     if (not IsAdminLoggedOn()) then begin
-      MsgBox('MASGAU needs the Microsoft .NET 4.0 Client Profile to be installed by an Administrator', mbInformation, MB_OK);
+      MsgBox(CustomMessage('adminNeeded'), mbInformation, MB_OK);
       Result := false;
     end else begin
       memoDependenciesNeeded := memoDependenciesNeeded + '      .NET 4.0 Client Profile' #13;
@@ -203,8 +234,8 @@ begin
     // don't try to init isxdl if it's not needed because it will error on < ie 3
     if downloadNeeded then begin
 
-      isxdl_SetOption('label', 'Downloading Microsoft .NET 4.0 Framework');
-      isxdl_SetOption('description', 'MASGAU needs to install the Microsoft .NET 4.0 Framework. Please wait while Setup is downloading extra files to your computer.');
+      isxdl_SetOption('label', CustomMessage('downloading_Title'));
+      isxdl_SetOption('description', CustomMessage('downloading_Description'));
       if isxdl_DownloadFiles(hWnd) = 0 then Result := false;
     end;
     if (Result = true) and (dotNetNeeded = true) then begin
@@ -229,7 +260,7 @@ var
   s: string;
 
 begin
-  if memoDependenciesNeeded <> '' then s := s + 'Dependencies to install:' + NewLine + memoDependenciesNeeded + NewLine;
+  if memoDependenciesNeeded <> '' then s := s + CustomMessage('dependencies_Title') + NewLine + memoDependenciesNeeded + NewLine;
   s := s + MemoDirInfo + NewLine + NewLine;
 
   Result := s
@@ -260,22 +291,24 @@ LogFileOverwrite=false
 [Dirs]
 
 [Components]
-Name: MASGAU; Description: MASGAU; 
-Name: MASGAU\Core; Description: Core; Flags: fixed; Types: full compact custom; 
-Name: MASGAU\Analyzer; Description: Analyzer; Types: full; 
-Name: MASGAU\Monitor; Description: Monitor; Types: full; 
-Name: MASGAU\Backup; Description: Backup Task; Types: full; 
-Name: MASGAU\Debug; Description: Debug Files; Types: full; 
-Name: DataFiles; Description: Data Files;
-Name: DataFiles\PCData; Description: PC Games; Types: full compact; 
-Name: DataFiles\PSData; Description: PlayStation Games; Types: full; 
-Name: DataFiles\SysData; Description: System Files; Types: full; 
-Name: DataFiles\DeprecatedData; Description: Deprecated; Types: full; 
-Name: Langs; Description: Language Files;
-Name: Langs\EN; Description: English; Flags: fixed; Types: full compact custom; 
-
+Name: "MASGAU"; Description: "MASGAU"
+Name: "MASGAU\Core"; Description: "{cm:core}"; Types: full compact custom; Flags: fixed
+Name: "MASGAU\Analyzer"; Description: "{cm:analyzer}"; Types: full
+Name: "MASGAU\Monitor"; Description: "{cm:monitor}"; Types: full
+Name: "MASGAU\Backup"; Description: "{cm:backupTask}"; Types: full
+Name: "MASGAU\Debug"; Description: "{cm:debug}"; Types: full
+Name: "DataFiles"; Description: "{cm:dataFiles}"
+Name: "DataFiles\PCData"; Description: "{cm:pcData}"; Types: full compact
+Name: "DataFiles\PSData"; Description: "{cm:psData}"; Types: full
+Name: "DataFiles\SysData"; Description: "{cm:sysData}"; Types: full
+Name: "DataFiles\DeprecatedData"; Description: "{cm:deprecated}"; Types: full
+Name: "Langs"; Description: "{cm:language}"
+Name: "Langs\EN"; Description: "{cm:english}"; Types: full compact custom; Flags: fixed
+Name: "Langs\NO"; Description: "{cm:norwegian}"; Types: full
 
 [Types]
-Name: full; Description: The Whole Shebang;
-Name: compact; Description: The Bare Essentials;
-Name: custom; Description: Your Way; Flags: IsCustom;
+Name: full; Description: {cm:full};
+Name: compact; Description: {cm:compact};
+Name: custom; Description: {cm:custom}; Flags: IsCustom;
+
+#include "no.iss"

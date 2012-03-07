@@ -4,22 +4,22 @@
             xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
             xmlns:upd="clr-namespace:MASGAU.Updater"
             DataContext="{Binding RelativeSource={RelativeSource Self}}" 
-        Title="MASGAU Feels Inferior" ResizeMode="NoResize" SizeToContent="WidthAndHeight" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="149" d:DesignWidth="518">
+        Title="UpdaterWindowTitle" ResizeMode="NoResize" SizeToContent="WidthAndHeight" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="149" d:DesignWidth="518">
     <Window.Resources>
         <upd:UpdateColorConverter x:Key="colorConverter"/>
     </Window.Resources>
     <Grid>
         <TabControl Name="tabControl1" Padding="0" Margin="0,-23,0,0" Focusable="False" IsTabStop="False">
-            <TabItem Header="progress" Name="progressTab" IsTabStop="False">
+            <TabItem Header="Progress" Name="progressTab" IsTabStop="False">
                 <Grid>
-                    <GroupBox Header="Checking for updates..." Name="progressBox" Margin="5">
+                    <GroupBox Header="CheckingForUpdates" Name="progressBox" Margin="5">
                         <Grid>
                             <ProgressBar Name="progressBar1" Margin="2" MinHeight="23" MinWidth="200" />
                         </Grid>
                     </GroupBox>
                 </Grid>
             </TabItem>
-            <TabItem Header="updates" Name="updatesTab" IsTabStop="False">
+            <TabItem Header="Updates" Name="updatesTab" IsTabStop="False">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
@@ -28,7 +28,7 @@
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto " />
                     </Grid.RowDefinitions>
-                    <GroupBox Header="Checking For Updates..." Name="groupBox1" Grid.Row="0 " Margin="5">
+                    <GroupBox Header="CheckingForUpdates" Name="groupBox1" Grid.Row="0 " Margin="5">
                         <ListView Name="updateLst" SelectionMode="Single" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="1" Focusable="False">
                             <ListView.ItemContainerStyle>
                                 <Style TargetType="ListViewItem">
@@ -62,18 +62,18 @@
                     </GroupBox>
                     <StatusBar Grid.Row="1" Name="statusBar1" HorizontalContentAlignment="Right" FlowDirection="RightToLeft" BorderBrush="{StaticResource {x:Static SystemColors.AppWorkspaceBrushKey}}" BorderThickness="0,1,0,0">
                         <StatusBarItem Padding="0">
-                            <Button Content="Don't Update Them" Grid.Column="1" Grid.Row="1" Height="23" Name="cancelBtn" Margin="1" Click="cancelBtn_Click" TabIndex="2" HorizontalAlignment="Right" />
+                            <Button Content="DontUpdateButton" Grid.Column="1" Grid.Row="1" Height="23" Name="cancelBtn" Margin="1" Click="cancelBtn_Click" TabIndex="2" HorizontalAlignment="Right" />
                         </StatusBarItem>
                         <StatusBarItem Padding="0">
-                            <Button Content="Update Them" Grid.Row="1" Height="23" Name="okBtn" Margin="1" Click="okBtn_Click" TabIndex="1" HorizontalAlignment="Right" />
+                            <Button Content="UpdateButton" Grid.Row="1" Height="23" Name="okBtn" Margin="1" Click="okBtn_Click" TabIndex="1" HorizontalAlignment="Right" />
                         </StatusBarItem>
                         <StatusBarItem Padding="0">
-                            <Button Content="!Update Complete! Click Here to Close" Grid.Row="1" Height="23" Name="donBtn" Margin="1" TabIndex="1" HorizontalAlignment="Right" Click="donBtn_Click" Visibility="Collapsed" />
+                            <Button Content="UpdateCompleteButton" Grid.Row="1" Height="23" Name="donBtn" Margin="1" TabIndex="1" HorizontalAlignment="Right" Click="donBtn_Click" Visibility="Collapsed" />
                         </StatusBarItem>
                     </StatusBar>
                 </Grid>
             </TabItem>
-            <TabItem Header="done" Name="closeTab">
+            <TabItem Header="Done" Name="closeTab">
                 <Grid>
                     <Grid Margin="10,10,-15,-10">
                         <Grid.ColumnDefinitions>
@@ -87,11 +87,11 @@
                         </Grid.RowDefinitions>
                         <StatusBar BorderBrush="{StaticResource {x:Static SystemColors.AppWorkspaceBrushKey}}" BorderThickness="0,1,0,0" FlowDirection="RightToLeft" Grid.Row="1" HorizontalContentAlignment="Right" Name="statusBar2">
                             <StatusBarItem Padding="0">
-                                <Button Click="cancelBtn_Click" Content="!Close" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Right" Margin="1" Name="closeButton" TabIndex="2" />
+                                <Button Click="cancelBtn_Click" Content="CloseButton" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Right" Margin="1" Name="closeButton" TabIndex="2" />
                             </StatusBarItem>
                             <StatusBarItem Padding="0"></StatusBarItem>
                         </StatusBar>
-                        <Label Content="Update Complete!" Name="label1" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" />
+                        <Label Content="UpdateComplete" Name="label1" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" />
                     </Grid>
                 </Grid>
             </TabItem>
