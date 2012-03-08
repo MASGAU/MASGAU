@@ -27,7 +27,7 @@
   </game>
   <game name="NamelessMod" platform="Windows">
     <title>The Nameless Mod (Deus Ex Mod)</title>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\The Nameless Mod\The Nameless Mod.lnk" append="TNM" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\The Nameless Mod\The Nameless Mod.lnk" append="TNM" detract="System"/>
     <location_game name="DeusEx" platform="Windows" append="TNM"/>
     <save path="System" filename="*.ini" type="Settings"/>
     <save path="Save"/>

@@ -72,7 +72,6 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
-  <xs:attribute name="shortcut" type="xs:string"/>
   <xs:attribute name="value" type="xs:string"/>
 
   <xs:attribute name="platform_version">
@@ -184,7 +183,7 @@
   <xs:element name="location_shortcut">
     <xs:complexType>
       <xs:attribute ref="environment_variable" use="required"/>
-      <xs:attribute ref="shortcut" use="required"/>
+      <xs:attribute ref="path" use="required"/>
       <xs:attributeGroup ref="location_attributes" />
     </xs:complexType>
   </xs:element>

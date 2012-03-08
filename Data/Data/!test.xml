@@ -151,7 +151,7 @@
 
   <game name="A013ShortcutTest" platform="Windows">
     <title>13 - Shortcut Test</title>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Accessories\Notepad.lnk" />
+    <location_shortcut environment_variable="startmenu" path="Programs\Accessories\Notepad.lnk" />
     <save filename="notepad.exe" />
   </game>
 

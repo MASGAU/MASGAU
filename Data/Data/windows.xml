@@ -27,7 +27,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Advent Rising"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Advent" value="UninstallString"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGADVENTRISING" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Advent Rising\Advent Rising.lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Advent Rising\Advent Rising.lnk" detract="System"/>
     <save path="System" filename="My*.ini" type="Settings"/>
     <save path="System\Saves"/>
     <contributor>SanMadJack</contributor>
@@ -44,7 +44,7 @@
     <title>Age of Empires II</title>
     <location_path environment_variable="installlocation" path="Microsoft Games\Age of Empires II"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Age of Empires\2.0" value="InstallationDirectory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Microsoft Games\Age of Empires II\Age of Empires II.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Microsoft Games\Age of Empires II\Age of Empires II.lnk"/>
     <save path="SaveGame"/>
     <contributor>Samuel Barbour</contributor>
   </game>
@@ -59,7 +59,7 @@
     <title>Age of Mythology</title>
     <location_path environment_variable="installlocation" path="Microsoft Games\Age of Mythology"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Age of Mythology\1.0" value="AppPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Microsoft Games\Age of Mythology\Age of Mythology.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Microsoft Games\Age of Mythology\Age of Mythology.lnk"/>
     <save path="savegame" filename="*.sav"/>
     <save path="savegame" filename="*.rec"/>
     <contributor>SanMadJack</contributor>
@@ -77,8 +77,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Age of Wonders"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGAOM1" value="PATH"/>
     <location_registry root="current_user" key="Software\Triumph Studios\Age of Wonders\General" value="Root Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Age of Wonders\Age of Wonders.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Age of Wonders\Age of Wonders.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Age of Wonders\Age of Wonders.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Age of Wonders\Age of Wonders.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -142,7 +142,7 @@
     <location_path environment_variable="installlocation" path="Fox\Aliens vs. Predator 2"/>
     <location_registry root="local_machine" key="SOFTWARE\Monolith Productions\Aliens vs. Predator 2\1.0" value="InstallDir"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\AVP2" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Fox Interactive\Aliens vs. Predator 2\Aliens vs. Predator 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Fox Interactive\Aliens vs. Predator 2\Aliens vs. Predator 2.lnk"/>
     <save path="Save"/>
     <save path="Profiles"/>
     <contributor>SanMadJack</contributor>
@@ -158,7 +158,7 @@
     <location_path environment_variable="installlocation" path="Fox\Aliens versus Predator 2 - Primal Hunt"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\AVP2X" value="Directory"/>
     <location_registry root="local_machine" key="SOFTWARE\Third Law Interactive\Aliens versus Predator 2: Primal Hunt\1.0" value="InstallDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Fox Interactive\Aliens versus Predator 2 - Primal Hunt\Aliens versus Predator 2 - Primal Hunt.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Fox Interactive\Aliens versus Predator 2 - Primal Hunt\Aliens versus Predator 2 - Primal Hunt.lnk"/>
     <save path="Save"/>
     <save path="Profiles"/>
     <contributor>SanMadJack</contributor>
@@ -167,7 +167,7 @@
     <title>Alone in the Dark: The New Nightmare</title>
     <location_path environment_variable="installlocation" path="GOG.com\Alone in the Dark - The New Nightmare"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGALONEINTHEDARK" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Alone in the Dark - The New Nightmare\Alone in the Dark - The New Nightmare.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Alone in the Dark - The New Nightmare\Alone in the Dark - The New Nightmare.lnk"/>
     <save filename="*.sav"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -178,7 +178,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Sid Meiers Alpha Centauri"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Sid Meier's Alpha Centauri" value="Path"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIDMAIERSALPHACENTAURI" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Sid Meier's Alpha Centauri\Sid Meier's Alpha Centauri.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Sid Meier's Alpha Centauri\Sid Meier's Alpha Centauri.lnk"/>
     <save filename="*.SAV"/>
     <save path="saves"/>
     <save path="scenarios" type="Scenarios" modified_after="2000-01-01T00:00:00"/>
@@ -200,7 +200,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGAMERZONE" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Microfolie's\L'Amerzone\1.0" value="res"/>
     <location_registry root="local_machine" key="SOFTWARE\Microfolie's\L'Amerzone\1.0" value="source"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\AmerZone - The Explorer's Legacy\AmerZone - The Explorer's Legacy.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\AmerZone - The Explorer's Legacy\AmerZone - The Explorer's Legacy.lnk"/>
     <save filename="Saved_*.bin"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -215,7 +215,7 @@
     <title>Anachronox</title>
     <location_path environment_variable="installlocation" path="Anachronox"/>
     <location_registry root="local_machine" key="SOFTWARE\Eidos Interactive\Anachronox" value="SourcePath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Eidos Interactive\Anachronox\Anachronox.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Eidos Interactive\Anachronox\Anachronox.lnk"/>
     <save/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -223,7 +223,7 @@
     <title>Angels Online</title>
     <location_path environment_variable="installlocation" path="Angels Online"/>
     <location_registry root="local_machine" key="SOFTWARE\IGG Games\Angels Online\Settings" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Angels Online\Angels Online.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Angels Online\Angels Online.lnk"/>
     <save path="save\cfg" type="Settings"/>
     <comment>Settings only</comment>
     <contributor>AdmiringWorm</contributor>
@@ -252,7 +252,7 @@
     <location_path environment_variable="installlocation" path="Aquaria"/>
     <location_path environment_variable="steamcommon" path="aquaria"/>
     <location_registry root="local_machine" key="SOFTWARE\BITBLOT_Aquaria" value="Install_Dir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Aquaria\Aquaria.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Aquaria\Aquaria.lnk"/>
     <save path="save"/>
     <contributor>Dwight Holman</contributor>
     <contributor>slake_jones</contributor>
@@ -263,7 +263,7 @@
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGARCANUM" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\AR_USENG" value="Directory"/>
     <location_registry root="local_machine" key="SOFTWARE\Troika\Arcanum" value="installed_to"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Arcanum Of Steamworks and Magick Obscura\Arcanum Of Steamworks and Magick Obscura.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Arcanum Of Steamworks and Magick Obscura\Arcanum Of Steamworks and Magick Obscura.lnk"/>
     <save path="modules\Arcanum\Save" filename="*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -298,7 +298,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Arx Fatalis"/>
     <location_registry root="local_machine" key="SOFTWARE\Arkane Studios\Installed Apps\arx fatalis" value="Folder"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGARXFATALIS" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Arx Fatalis\Arx Fatalis.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Arx Fatalis\Arx Fatalis.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -343,7 +343,7 @@
     <title>Avencast: Rise of the Mage</title>
     <location_path environment_variable="installlocation" path="Avencast"/>
     <location_registry root="local_machine" key="SOFTWARE\ClockStone\Avencast" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Avencast\Avencast.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Avencast\Avencast.lnk"/>
     <save path="save"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -351,7 +351,7 @@
     <title>Axis &amp; Allies</title>
     <location_path environment_variable="installlocation" path="Hasbro Interactive\Axis and Allies"/>
     <location_registry root="local_machine" key="SOFTWARE\Hasbro Interactive\Axis and Allies" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Axis &amp; Allies\Axis &amp; Allies.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Axis &amp; Allies\Axis &amp; Allies.lnk"/>
     <save path="SaveGames"/>
     <contributor>David Barbour</contributor>
   </game>
@@ -390,7 +390,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Baldurs Gate"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBALDURSGATE1" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Baldur's Gate" value="CurrentDirectory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Baldur's Gate\Baldur's Gate.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Baldur's Gate\Baldur's Gate.lnk"/>
     <save path="Save"/>
     <save filename="Baldur.ini" type="Settings"/>
     <save path="Characters" type="Characters"/>
@@ -402,7 +402,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Baldurs Gate II"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBALDURSGATE2" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Baldur's Gate2" value="CurrentDirectory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Baldur's Gate II\Baldur's Gate II.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Baldur's Gate II\Baldur's Gate II.lnk"/>
     <save path="save"/>
     <save filename="baldur.ini" type="Settings"/>
     <save path="characters" type="Characters"/>
@@ -464,7 +464,7 @@
     <title>Beach Life</title>
     <location_path environment_variable="installlocation" path="Beach Life"/>
     <location_registry root="local_machine" key="SOFTWARE\Eidos Interactive\Beach Life" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Eidos Interactive\Beach Life\Beach Life.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Eidos Interactive\Beach Life\Beach Life.lnk"/>
     <save path="SaveGames"/>
     <contributor>slake_jones</contributor>
   </game>
@@ -491,7 +491,7 @@
     <location_path environment_variable="installlocation" path="Ben There Dan That"/>
     <location_path environment_variable="steamcommon" path="ben there, dan that!"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3CD921DC-FE10-404C-99DB-FA57A6FCB32E}_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Ben There Dan That\Ben There Dan That.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Ben There Dan That\Ben There Dan That.lnk"/>
     <save filename="agssave.*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -499,7 +499,7 @@
     <title>Bet on Soldier: Blood Sport</title>
     <location_path environment_variable="installlocation" path="Bet on Soldier"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Bet on Soldier_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Bet on Soldier\Bet on Soldier.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Bet on Soldier\Bet on Soldier.lnk"/>
     <save path="Mods\Bos\Saves"/>
     <save path="Mods\Bos\Settings" type="Settings"/>
     <contributor>Arc Angel</contributor>
@@ -511,8 +511,8 @@
     <location_path environment_variable="steamcommon" path="beyond good and evil"/>
     <location_registry root="local_machine" key="SOFTWARE\Ubisoft\Beyond Good &amp; Evil" value="Install path"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBEYONDGOODANDEVIL" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Ubisoft\Beyond Good &amp; Evil\Play Beyond Good &amp; Evil.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Beyond Good and Evil\Beyond Good and Evil.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Ubisoft\Beyond Good &amp; Evil\Play Beyond Good &amp; Evil.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Beyond Good and Evil\Beyond Good and Evil.lnk"/>
     <save filename="*.sav"/>
     <contributor>duncans_pumpkin</contributor>
     <contributor>SanMadJack</contributor>
@@ -576,7 +576,7 @@
   <game name="BladeRunner" platform="Windows">
     <title>Blade Runner</title>
     <location_path environment_variable="installlocation" path="WESTWOOD\BLADE"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Westwood\Blade Runner\Blade Runner.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Westwood\Blade Runner\Blade Runner.lnk"/>
     <save path="SAVE"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -585,7 +585,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Blood II"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBLOOD2" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Monolith Productions\Blood2\1.0" value="WorkingDirectory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Blood II - The Chosen\Blood II - The Chosen.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Blood II - The Chosen\Blood II - The Chosen.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -633,7 +633,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\BloodRayne 1"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBLOODRAYNE1" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Terminal Reality\BloodRayne" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\BloodRayne 1\BloodRayne 1.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\BloodRayne 1\BloodRayne 1.lnk"/>
     <save path="savegame"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -641,7 +641,7 @@
     <title>BloodRayne 2</title>
     <location_path environment_variable="installlocation" path="GOG.com\BloodRayne 2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBLOODRAYNE2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\BloodRayne 2\BloodRayne 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\BloodRayne 2\BloodRayne 2.lnk"/>
     <save path="savegame"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -690,7 +690,7 @@
     <title>Broken Sword: The Sleeping Dragon</title>
     <location_path environment_variable="installlocation" path="GOG.com\Broken Sword - The Sleeping Dragon"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD3" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Broken Sword - The Sleeping Dragon\Broken Sword - The Sleeping Dragon.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Broken Sword - The Sleeping Dragon\Broken Sword - The Sleeping Dragon.lnk"/>
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -750,7 +750,7 @@
     <location_path environment_variable="installlocation" path="Activision\Call of Duty 4 - Modern Warfare"/>
     <location_path environment_variable="steamcommon" path="call of duty 4"/>
     <location_registry root="local_machine" key="SOFTWARE\Activision\Call of Duty 4" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Activision\Call of Duty(R) 4 - Modern Warfare(TM)\Call of Duty(R) 4 - Modern Warfare(TM) Singleplayer.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Activision\Call of Duty(R) 4 - Modern Warfare(TM)\Call of Duty(R) 4 - Modern Warfare(TM) Singleplayer.lnk"/>
     <save path="players\profiles"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -759,7 +759,7 @@
     <location_path environment_variable="steamcommon" path="call of duty black ops"/>
     <location_path environment_variable="installlocation" path="Call of Duty - Black Ops"/>
     <location_registry root="local_machine" key="SOFTWARE\Activision\Call of Duty Black Ops" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Activision\Call of Duty - Black Ops\Call of Duty - Black Ops.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Activision\Call of Duty - Black Ops\Call of Duty - Black Ops.lnk"/>
     <save path="players"/>
     <contributor>Arc Angel</contributor>
     <contributor>javier.ark</contributor>
@@ -807,7 +807,7 @@
     <title>Carnivores: Cityscape</title>
     <location_path environment_variable="installlocation" path="Infogrames\Carnivores Cityscape"/>
     <location_registry root="local_machine" key="SOFTWARE\Sunstorm Interactive\Carnivores Cityscape" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Carnivores Cityscape\Carnivores Cityscape.lnk" detract="bin"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Carnivores Cityscape\Carnivores Cityscape.lnk" detract="bin"/>
     <save path="Players"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -823,7 +823,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Chaser"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGCHASER" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Cauldron\Chaser" value="InstallDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Chaser\Chaser.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Chaser\Chaser.lnk"/>
     <save path="Save"/>
     <contributor>Arc Angel</contributor>
     <contributor>SanMadJack</contributor>
@@ -861,21 +861,21 @@
   <game name="Civilization" platform="Windows">
     <title>Sid Meier's Civilization</title>
     <location_path environment_variable="installlocation" path="Sid Meier's Civilization Chronicles\Sid Meier's Civilization"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Sid Meier's Civilization.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Sid Meier's Civilization.lnk"/>
     <save filename="*.sav"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="Civilization2Gold" platform="Windows">
     <title>Sid Meier's Civilization II: Multiplayer Gold</title>
     <location_path environment_variable="installlocation" path="Sid Meier's Civilization Chronicles\Sid Meier's Civilization II Multiplayer Gold"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Sid Meier's Civilization II - Multiplayer Gold.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Sid Meier's Civilization II - Multiplayer Gold.lnk"/>
     <save filename="*.sav"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="Civilization2TestOfTime" platform="Windows">
     <title>Sid Meier's Civilization II: Test of Time</title>
     <location_path environment_variable="installlocation" path="Sid Meier's Civilization Chronicles\Civilization II Test of Time"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Civilization II - Test of Time.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Civilization II - Test of Time.lnk"/>
     <save filename="*.sav"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -891,7 +891,7 @@
     <title>Sid Meier's Civilization III: Conquests</title>
     <location_path environment_variable="installlocation" path="Firaxis Games\Civilization III Complete\Conquests"/>
     <location_registry root="local_machine" key="SOFTWARE\Infogrames\Conquests" value="Install_Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Firaxis Games\Civilization III Complete Edition\Civilization III Complete Edition.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Firaxis Games\Civilization III Complete Edition\Civilization III Complete Edition.lnk"/>
     <save filename="conquests.ini" type="Settings"/>
     <save path="Saves"/>
     <contributor>SanMadJack</contributor>
@@ -1136,7 +1136,7 @@
     <title>Darkest Of Days</title>
     <location_path environment_variable="installlocation" path="Darkest of Days"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3D6293F2-53DA-45A1-B7F4-1843CA3B2658}" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Games\Darkest of Days\Play Darkest of Days.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Games\Darkest of Days\Play Darkest of Days.lnk"/>
     <save path="base\save"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -1156,7 +1156,7 @@
     <title>Dark Horizon</title>
     <location_path environment_variable="installlocation" path="Paradox Interactive\Dark Horizon"/>
     <location_registry root="local_machine" key="SOFTWARE\Paradox Interactive\Dark Horizon" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Paradox Interactive\Dark Horizon\Dark Horizon.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Paradox Interactive\Dark Horizon\Dark Horizon.lnk"/>
     <save path="data\profiles"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -1172,7 +1172,7 @@
     <title>Darkness Within</title>
     <location_path environment_variable="installlocation" path="Iceberg Interactive\Darkness Within"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Darkness Within: In Pursuit of Loath Nolder_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Iceberg Interactive\Darkness Within\Darkness Within.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Iceberg Interactive\Darkness Within\Darkness Within.lnk"/>
     <save path="save"/>
     <save filename="config.txt" type="Settings"/>
     <contributor>Arc Angel</contributor>
@@ -1181,7 +1181,7 @@
     <title>Darkness Within 2</title>
     <location_path environment_variable="installlocation" path="Iceberg Interactive\Darkness Within 2"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Darkness Within 2: The Dark Lineage_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Iceberg Interactive\Darkness Within 2\Darkness Within 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Iceberg Interactive\Darkness Within 2\Darkness Within 2.lnk"/>
     <save path="save"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -1214,7 +1214,7 @@
     <title>Darkstone</title>
     <location_path environment_variable="installlocation" path="Delphine Software\Darkstone"/>
     <location_registry root="local_machine" key="SOFTWARE\DelphineSoft\Darkstone\CurrentVersion\Darkstone" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Darkstone\Darkstone.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Darkstone\Darkstone.lnk"/>
     <save path="save"/>
     <contributor>David Barbour</contributor>
   </game>
@@ -1269,7 +1269,7 @@
     <title>Demon Stone</title>
     <location_path environment_variable="installlocation" path="GOG.com\Demon Stone"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDEMONSTONE" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Demon Stone\Demon Stone.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Demon Stone\Demon Stone.lnk"/>
     <save filename="*.sav"/>
     <save filename="*.cfg" type="Settings"/>
     <contributor>SanMadJack</contributor>
@@ -1280,8 +1280,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Descent and Descent 2\Descent 2"/>
     <location_registry root="local_machine" key="SOFTWARE\PARALLAX\DESCENT II\1.1\INSTALL" value="WINPATH"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDESCENT2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Games\Descent II Win95.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Descent and Descent 2\Descent 2\Documents\Readme.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Games\Descent II Win95.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Descent and Descent 2\Descent 2\Documents\Readme.lnk"/>
     <save filename="*.PLR"/>
     <save filename="*.SG*"/>
     <save path="DEMOS" type="Replays"/>
@@ -1294,7 +1294,7 @@
     <location_path environment_variable="installlocation" path="Games\Descent3"/>
     <location_path environment_variable="installlocation" path="GOG.com\Descent 3"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDESCENT3" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Descent 3\Descent 3.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Descent 3\Descent 3.lnk"/>
     <save filename="*.plt" type="Pilots"/>
     <save path="savegame"/>
     <save path="demo" filename="*.dem" type="Replays"/>
@@ -1305,7 +1305,7 @@
     <location_path environment_variable="installlocation" path="Games\FreeSpace"/>
     <location_path environment_variable="installlocation" path="GOG.com\Freespace"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGFREESPACE" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Freespace\Freespace.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Freespace\Freespace.lnk"/>
     <save path="Players"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -1329,8 +1329,8 @@
     <location_path environment_variable="steamcommon" path="deus ex"/>
     <location_registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Deus Ex" value="Folder"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDEUSX" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Deus Ex\Play Deus Ex.lnk" detract="System"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Deus Ex GOTY\Deus Ex GOTY.lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Deus Ex\Play Deus Ex.lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Deus Ex GOTY\Deus Ex GOTY.lnk" detract="System"/>
     <identifier path="Save"/>
     <save path="System" filename="*.ini" type="Settings"/>
     <save path="Save"/>
@@ -1348,7 +1348,7 @@
     <location_path environment_variable="installlocation" path="Diablo"/>
     <location_registry root="local_machine" key="SOFTWARE\Blizzard Entertainment\Archives" value="DiabloInstall"/>
     <location_registry root="local_machine" key="SOFTWARE\Blizzard Entertainment\Diablo\DelOpt0" value="Path0"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Diablo\Diablo.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Diablo\Diablo.lnk"/>
     <save filename="*.sv"/>
     <contributor>Mark Barbour</contributor>
   </game>
@@ -1363,7 +1363,7 @@
     <title>Diablo: Hellfire</title>
     <location_path environment_variable="installlocation" path="SIERRA\HELLFIRE"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HELLFIRE" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Sierra\Hellfire.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Sierra\Hellfire.lnk"/>
     <save filename="*.hsv"/>
     <contributor>Mark Barbour</contributor>
   </game>
@@ -1451,7 +1451,7 @@
     <title>Dragonshard</title>
     <location_path environment_variable="installlocation" path="GOG.com\Dragonshard"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDNDDRAGONSHARD" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Dungeons and Dragons - Dragonshard\Dungeons and Dragons - Dragonshard.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Dungeons and Dragons - Dragonshard\Dungeons and Dragons - Dragonshard.lnk"/>
     <save path="TriangleMeshes"/>
     <save filename="DND.ini" type="Settings"/>
     <contributor>SanMadJack</contributor>
@@ -1463,8 +1463,8 @@
     <location_path environment_variable="steamcommon" path="dreamfall the longest journey"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D751B34C-058F-42EF-BE95-14EBB0D2C585}" value="InstallLocation"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Dreamfall the Longest Journey_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Dreamfall the Longest Journey\Dreamfall the Longest Journey.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Dreamfall the Longest Journey\Dreamfall the Longest Journey.lnk"/>
     <save path="saves"/>
     <save filename="prefs.dat" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
@@ -1511,8 +1511,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Dungeon Keeper"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Keeper" value="Path"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDUNGEONKEEPERDOS" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Dungeon Keeper\Dungeon Keeper.lnk" detract="DOSBOX"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Bullfrog\Dungeon Keeper Gold\Play Dungeon Keeper.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Dungeon Keeper\Dungeon Keeper.lnk" detract="DOSBOX"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Bullfrog\Dungeon Keeper Gold\Play Dungeon Keeper.lnk"/>
     <save path="Save" filename="*.DAT" type="Settings"/>
     <save path="Save"/>
     <ignore path="Save" filename="*.DAT"/>
@@ -1539,7 +1539,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Earth 2140"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEARTH2140" value="PATH"/>
     <location_registry root="current_user" key="Software\Reality Pump\Earth 2140" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Earth 2140\Earth 2140.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Earth 2140\Earth 2140.lnk"/>
     <save path="save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -1548,7 +1548,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Earth 2150 Trilogy\Escape from the Blue Planet"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEARTH2150ESCAPE" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Topware\Earth 2150\BaseGame\FileSystem" value="OutputDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Earth 2150 Trilogy\Escape from the Blue Planet\Escape from the Blue Planet.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Earth 2150 Trilogy\Escape from the Blue Planet\Escape from the Blue Planet.lnk"/>
     <save path="Players"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -1557,7 +1557,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Earth 2150 Trilogy\Lost Souls"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEARTH2150LOSTSOULS" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Reality Pump\LostSouls\BaseGame\FileSystem" value="OutputDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Earth 2150 Trilogy\Lost Souls\Lost Souls.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Earth 2150 Trilogy\Lost Souls\Lost Souls.lnk"/>
     <save path="Players"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -1566,7 +1566,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Earth 2150 Trilogy\The Moon Project"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEARTH2150MOONPROJECT" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Topware\TheMoonProject\BaseGame\FileSystem" value="OutputDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Earth 2150 Trilogy\The Moon Project\The Moon Project.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Earth 2150 Trilogy\The Moon Project\The Moon Project.lnk"/>
     <save path="Players"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -1581,7 +1581,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Earthworm Jim 3D"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEARTHWORMJIM3D" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Vis Interactive\Earthworm Jim 3D" value="ExecutableLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Earthworm Jim 3D\Earthworm Jim 3D.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Earthworm Jim 3D\Earthworm Jim 3D.lnk"/>
     <save filename="*.SAV"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -1596,7 +1596,7 @@
     <location_path environment_variable="installlocation" path="Bethesda Softworks\Morrowind"/>
     <location_path environment_variable="steamcommon" path="morrowind"/>
     <location_registry root="local_machine" key="SOFTWARE\Bethesda Softworks\Morrowind" value="Installed Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Bethesda Softworks\Morrowind\Morrowind.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Bethesda Softworks\Morrowind\Morrowind.lnk"/>
     <save path="Saves"/>
     <contributor>duncans_pumpkin</contributor>
   </game>
@@ -1619,7 +1619,7 @@
     <title>Elite Forces: WWII Iwo Jima</title>
     <location_path environment_variable="installlocation" path="Games\IwoJima"/>
     <location_registry root="current_user" key="Software\3LV Games\IwoJima Launcher\1.0" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Games\WWII IwoJima\WWII IwoJima.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Games\WWII IwoJima\WWII IwoJima.lnk"/>
     <save path="save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -1628,7 +1628,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Empire Earth Gold Edition\Empire Earth"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEMPIREEARTH" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\EEARTH" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Empire Earth\Empire Earth.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Empire Earth\Empire Earth.lnk"/>
     <save path="Data\Saved Games"/>
     <save path="Data\Campaigns" type="Campaigns" modified_after="2001-10-09T00:00:00"/>
     <save path="Data\Scenarios" type="Scenarios"/>
@@ -1640,7 +1640,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEMPIREEARTHADDON" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\EEAOC" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Empire Earth\Empire Earth - The Art of Conquest.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Empire Earth\Empire Earth - The Art of Conquest.lnk"/>
     <save path="Data\Saved Games"/>
     <save path="Data\Campaigns" type="Campaigns" modified_after="2002-08-21T00:00:00"/>
     <save path="Data\Scenarios" type="Scenarios"/>
@@ -1711,8 +1711,8 @@
     <location_path environment_variable="installlocation" path="Evil Genius"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEVILGENIUS" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\VUGames\Evil Genius\1.0.0.0" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
     <save path="DynamicResources\Layouts"/>
     <save path="DynamicResources\CodeGeneratedData"/>
     <contributor>duncans_pumpkin</contributor>
@@ -1724,7 +1724,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Evolva"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEVOLVA" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Computer Artworks\Evolva\1.0" value="InstallDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Evolva\Evolva.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Evolva\Evolva.lnk"/>
     <save path="SaveGames"/>
     <save path="Genohunters"/>
     <contributor>SanMadJack</contributor>
@@ -1744,7 +1744,7 @@
   <game name="F22Lightning3" platform="Windows">
     <title>F-22 Lightning 3</title>
     <location_path environment_variable="installlocation" path="NovaLogic\F-22 Lightning 3"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\NovaLogic\F-22 Lightning 3\F-22 Lightning 3.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\NovaLogic\F-22 Lightning 3\F-22 Lightning 3.lnk"/>
     <save filename="LSLOT*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -1780,7 +1780,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Fallout"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\falloutw.exe" value="Path"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\falloutw.exe" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Fallout\Fallout.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Fallout\Fallout.lnk"/>
     <save path="DATA\SAVEGAME"/>
     <contributor>SanMadJack</contributor>
     <contributor>slake_jones</contributor>
@@ -1791,7 +1791,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Fallout 2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGFALLOUT2" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\fallout2.exe" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Fallout 2\Fallout 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Fallout 2\Fallout 2.lnk"/>
     <save path="data\SAVEGAME"/>
     <contributor>SanMadJack</contributor>
     <contributor>slake_jones</contributor>
@@ -1814,7 +1814,7 @@
     <title>Fallout Tactics</title>
     <location_path environment_variable="installlocation" path="GOG.com\Fallout Tactics"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGFALLOUTTACTICS" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Fallout Tactics\Fallout Tactics.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Fallout Tactics\Fallout Tactics.lnk"/>
     <save path="core\user"/>
     <contributor>slake_jones</contributor>
   </game>
@@ -1921,7 +1921,7 @@
     <title>Final Fantasy VII</title>
     <location_path environment_variable="installlocation" path="Final Fantasy VII"/>
     <location_registry root="local_machine" key="SOFTWARE\Square Soft, Inc.\Final Fantasy VII" value="AppPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Final Fantasy VII\Play Final Fantasy VII.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Final Fantasy VII\Play Final Fantasy VII.lnk"/>
     <save path="save"/>
     <contributor>Caleb Love</contributor>
   </game>
@@ -1981,7 +1981,7 @@
     <location_path environment_variable="installlocation" path="Games\FreeSpace2"/>
     <location_path environment_variable="installlocation" path="GOG.com\Freespace 2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGFREESPACE2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Freespace 2\Freespace 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Freespace 2\Freespace 2.lnk"/>
     <save path="data\players\Multi" filename="*.plr"/>
     <save path="data\players\Single" filename="*.plr"/>
     <contributor>SanMadJack</contributor>
@@ -1990,7 +1990,7 @@
     <title>Frogger 2</title>
     <location_path environment_variable="installlocation" path="Hasbro Interactive\Frogger2"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Frogger2 - Swampy's Revenge" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Hasbro Interactive\Frogger2\Frogger2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Hasbro Interactive\Frogger2\Frogger2.lnk"/>
     <save path="savedata"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2017,7 +2017,7 @@
     <title>Gabriel Knight: Sins of the Fathers</title>
     <location_path environment_variable="installlocation" path="GOG.com\Gabriel Knight"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGABRIELKNIGHT1" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Gabriel Knight - Sins of the Fathers\Gabriel Knight - Sins of the Fathers.lnk" detract="DOSBOX"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Gabriel Knight - Sins of the Fathers\Gabriel Knight - Sins of the Fathers.lnk" detract="DOSBOX"/>
     <save filename="GKSG.*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2025,7 +2025,7 @@
     <title>Gabriel Knight 3: Blood of the Sacred, Blood of the Damned</title>
     <location_path environment_variable="installlocation" path="GOG.com\Gabriel Knight 3"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGABRIELKNIGHT3" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned\Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned\Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned.lnk"/>
     <save path="Save Games"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2128,7 +2128,7 @@
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\giants.exe" value="Path"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGIANTS" value="PATH"/>
     <location_registry root="current_user" key="Software\PlanetMoon\Giants" value="DestDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Giants  Citizen Kabuto\Giants  Citizen Kabuto.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Giants  Citizen Kabuto\Giants  Citizen Kabuto.lnk"/>
     <save path="savegame"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2264,7 +2264,7 @@
     <location_path environment_variable="installlocation" path="Guild Wars" platform_version="XP"/>
     <location_path environment_variable="userdocuments" path="Guild Wars" platform_version="Vista"/>
     <location_registry root="local_machine" key="SOFTWARE\ArenaNet\Guild Wars" value="Path" platform_version="XP"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Guild Wars\Guild Wars.lnk" platform_version="XP"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Guild Wars\Guild Wars.lnk" platform_version="XP"/>
     <save path="Templates" type="SkillSets"/>
     <comment>Backs up skill and weapon templates only</comment>
     <contributor>SanMadJack</contributor>
@@ -2291,7 +2291,7 @@
     <title>Gun Metal</title>
     <location_path environment_variable="installlocation" path="Yeti Studios\Gun Metal"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Gunmetal.exe" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Yeti Studios\Gun Metal\Gun Metal.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Yeti Studios\Gun Metal\Gun Metal.lnk"/>
     <save path="data\SavedGames"/>
     <save path="data\SavedStates"/>
     <contributor>Arc Angel</contributor>
@@ -2323,7 +2323,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Haegemonia Gold Edition\Haegemonia - Legions of Iron"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGHAEGEMONIALOI" value="PATH"/>
     <location_registry root="local_machine" key="Software\Digital Reality\Haegemonia" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Haegemonia - Legions of Iron\Haegemonia - Legions of Iron.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Haegemonia - Legions of Iron\Haegemonia - Legions of Iron.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2332,7 +2332,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Haegemonia Gold Edition\Haegemonia - The Solon Heritage"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGHAEGEMONIATSH" value="PATH"/>
     <location_registry root="current_user" key="Software\Digital Reality\HaegemoniaAddOn" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Haegemonia - Legions of Iron\Haegemonia - The Solon Heritage.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Haegemonia - Legions of Iron\Haegemonia - The Solon Heritage.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2410,7 +2410,7 @@
     <title>Hardwar</title>
     <location_path environment_variable="installlocation" path="Interplay\Hardwar"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Hardwar" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Hardwar.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Hardwar.lnk"/>
     <save filename="*sav"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2418,7 +2418,7 @@
     <title>Hearts of Iron II</title>
     <location_path environment_variable="installlocation" path="Paradox Interactive\Hearts of Iron 2"/>
     <location_registry root="local_machine" key="SOFTWARE\Paradox Interactive\Hearts of Iron 2" value="path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Paradox Interactive\Hearts of Iron 2\Hearts of Iron 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Paradox Interactive\Hearts of Iron 2\Hearts of Iron 2.lnk"/>
     <save filename="settings.cfg" type="Settings"/>
     <save filename="config.eu" type="Settings"/>
     <save path="scenarios\save games"/>
@@ -2428,7 +2428,7 @@
     <title>Hearts of Iron II: Doomsday</title>
     <location_path environment_variable="installlocation" path="Paradox Interactive\Doomsday"/>
     <location_registry root="local_machine" key="SOFTWARE\Paradox Interactive\Doomsday" value="path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Paradox Interactive\Hearts of Iron 2 Doomsday\Hearts of Iron 2 Doomsday.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Paradox Interactive\Hearts of Iron 2 Doomsday\Hearts of Iron 2 Doomsday.lnk"/>
     <save filename="settings.cfg" type="Settings"/>
     <save filename="config.eu" type="Settings"/>
     <save path="scenarios\save games"/>
@@ -2445,7 +2445,7 @@
     <title>Hellforces</title>
     <location_path environment_variable="installlocation" path="Buka\Hellforces"/>
     <location_registry root="local_machine" key="SOFTWARE\Buka\Hellforces" detract="hell.exe"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Buka\Hellforces\Hellforces.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Buka\Hellforces\Hellforces.lnk"/>
     <save path="SAVES" filename="*.cfg" type="Settings"/>
     <save path="SAVES\save*"/>
     <contributor>Arc Angel</contributor>
@@ -2455,7 +2455,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Heroes of Might and Magic 3 Complete"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGHOMM3COMPLETE" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\New World Computing\Heroes of Might and Magic® III\1.0" value="AppPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Heroes of Might and Magic 3 Complete\Heroes of Might and Magic 3 Complete.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Heroes of Might and Magic 3 Complete\Heroes of Might and Magic 3 Complete.lnk"/>
     <save path="games"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2495,7 +2495,7 @@
     <location_path environment_variable="installlocation" path="SIERRA\Homeworld"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra On-Line\Homeworld" value="HW_Data"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HW_USENG" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Sierra\Homeworld\Homeworld.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Sierra\Homeworld\Homeworld.lnk"/>
     <save path="SavedGames"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2504,7 +2504,7 @@
     <location_path environment_variable="installlocation" path="Sierra\Homeworld2"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Homeworld2" value="UninstallString" detract="uninstall.exe"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3098754084-4185171617-473594350-1001\{0BAF4666-90BC-40F3-B9E1-0784F10089F4}" value="ConfigApplicationPath" detract="\Bin\Release"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Sierra\Homeworld2\Homeworld2.lnk" detract="\Bin\Release"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Sierra\Homeworld2\Homeworld2.lnk" detract="\Bin\Release"/>
     <save path="Bin\Profiles"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2513,7 +2513,7 @@
     <location_path environment_variable="installlocation" path="SIERRA\Cataclysm"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra On-Line\Cataclysm" value="HW_Data"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HC_USENG" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Sierra\Cataclysm\Cataclysm.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Sierra\Cataclysm\Cataclysm.lnk"/>
     <save path="SavedGames"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2529,7 +2529,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Icewind Dale Complete"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGICEWINDDALE1" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Black Isle\Icewind Dale - Heart of Winter" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Icewind Dale Complete\Icewind Dale Complete.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Icewind Dale Complete\Icewind Dale Complete.lnk"/>
     <save path="mpsave"/>
     <save filename="icewind.ini" type="Settings"/>
     <save path="Characters" type="Characters"/>
@@ -2540,7 +2540,7 @@
     <title>Icewind Dale II</title>
     <location_path environment_variable="installlocation" path="GOG.com\Icewind Dale II"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGICEWINDDALE2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Icewind Dale II\Icewind Dale II.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Icewind Dale II\Icewind Dale II.lnk"/>
     <save path="mpsave"/>
     <save filename="icewind2.ini" type="Settings"/>
     <save path="Characters" type="Characters"/>
@@ -2570,7 +2570,7 @@
     <title>Incoming</title>
     <location_path environment_variable="installlocation" path="GOG.com\Incoming and Incoming Forces\Incoming"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGINCOMING" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Incoming and Incoming Forces\Incoming\Incoming.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Incoming and Incoming Forces\Incoming\Incoming.lnk"/>
     <save path="save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2585,7 +2585,7 @@
     <title>The Incredible Machine: Even More Contraptions</title>
     <location_path environment_variable="installlocation" path="GOG.com\The Incredible Machine Series\The Incredible Machine - Even More Contraptions"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEVENMORE2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\The Incredible Machine Series\The Incredible Machine - Even More Contraptions\The Incredible Machine - Even More Contraptions.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\The Incredible Machine Series\The Incredible Machine - Even More Contraptions\The Incredible Machine - Even More Contraptions.lnk"/>
     <save path="Saved Games"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2595,8 +2595,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Independence War Deluxe"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IWar.exe" value="Path"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGIWAR" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Independence War\Independence War.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Independence War Deluxe\Independence War.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Independence War\Independence War.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Independence War Deluxe\Independence War.lnk"/>
     <save path="psg" filename="*.sav"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2606,8 +2606,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Independence War 2 - Edge of Chaos"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3098754084-4185171617-473594350-1001\{78195E7A-960D-4D09-95F6-E4DF5FF739CB}" value="ConfigApplicationPath"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGIWAR2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Infogrames\Independence War 2 - Edge of Chaos\Independence War 2 - Edge of Chaos.lnk" detract="bin\release"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Independence War 2 - Edge of Chaos\Independence War 2 - Edge of Chaos.lnk" detract="bin\release"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Infogrames\Independence War 2 - Edge of Chaos\Independence War 2 - Edge of Chaos.lnk" detract="bin\release"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Independence War 2 - Edge of Chaos\Independence War 2 - Edge of Chaos.lnk" detract="bin\release"/>
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2640,7 +2640,7 @@
   <game name="InsecticidePart1" platform="Windows">
     <title>Insecticide Part 1</title>
     <location_path environment_variable="installlocation" path="Crackpot Entertainment\Insecticide Part 1"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Crackpot Entertainment\Insecticide Part 1\Play Insecticide Episode 1.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Crackpot Entertainment\Insecticide Part 1\Play Insecticide Episode 1.lnk"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B01722D3-75CC-461E-B41F-BB4BE30CE9E4}" value="InstallLocation" />
     <save path="profiles" />
     <contributor>Arc Angel</contributor>
@@ -2675,7 +2675,7 @@
     <title>Joint Task Force</title>
     <location_path environment_variable="installlocation" path="HD Publishing\Joint Task Force"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BCB9DF93-537D-433D-AF3B-36025DEF5798}" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\HD Publishing\Joint Task Force\Launch Joint Task Force.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\HD Publishing\Joint Task Force\Launch Joint Task Force.lnk"/>
     <save path="Profiles"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2685,7 +2685,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Judge Dredd - Dredd vs Death"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGJUDGEDREDD" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Rebellion\Dredd" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Judge Dredd - Dredd vs Death\Judge Dredd - Dredd vs Death.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Judge Dredd - Dredd vs Death\Judge Dredd - Dredd vs Death.lnk"/>
     <save filename="save*"/>
     <save path="save*"/>
     <contributor>Arc Angel</contributor>
@@ -2841,7 +2841,7 @@
     <title>Mark Leung: Revenge of the Bitch</title>
     <location_path environment_variable="installlocation" path="Uglysoft\MarkLeung"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Mark Leung - Revenge of the Bitchv1.3" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Mark Leung - Revenge of the Bitch\MarkLeung.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Mark Leung - Revenge of the Bitch\MarkLeung.lnk"/>
     <save path="save"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -2866,8 +2866,8 @@
     <location_path environment_variable="installlocation" path="Microprose\Orion2"/>
     <location_path environment_variable="installlocation" path="GOG.com\Master of Orion 1 and 2\Master of Orion 2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMASTEROFORION2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Microprose\Master of Orion II\Master of Orion II.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Master of Orion 1 and 2\Master of Orion 2\Documents\Readme.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Microprose\Master of Orion II\Master of Orion II.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Master of Orion 1 and 2\Master of Orion 2\Documents\Readme.lnk"/>
     <save filename="SAVE*.GAM"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2875,7 +2875,7 @@
     <title>The Matrix: Path of Neo</title>
     <location_path environment_variable="installlocation" path="Atari\The Matrix - Path of Neo"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E571E8B1-9771-465D-9DE0-3BA2D1BDAE99}" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Atari\The Matrix - Path of Neo\The Matrix - Path of Neo.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Atari\The Matrix - Path of Neo\The Matrix - Path of Neo.lnk"/>
     <save path="saved"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2895,7 +2895,7 @@
     <title>MDK</title>
     <location_path environment_variable="installlocation" path="GOG.com\MDK"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMDK" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\MDK\MDK.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\MDK\MDK.lnk"/>
     <save path="SAVES"/>
     <save filename="MDK.CFG" type="Settings"/>
     <contributor>SanMadJack</contributor>
@@ -2904,7 +2904,7 @@
     <title>MDK 2</title>
     <location_path environment_variable="installlocation" path="GOG.com\MDK2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMDK2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\MDK2\MDK 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\MDK2\MDK 2.lnk"/>
     <save path="save" filename="*.sav"/>
     <save path="save" filename="*.lua" type="Settings"/>
     <contributor>SanMadJack</contributor>
@@ -2913,7 +2913,7 @@
     <title>MechCommander</title>
     <location_path environment_variable="installlocation" path="FasaInteractive\MechCmdr"/>
     <location_registry root="local_machine" key="SOFTWARE\FASA Interactive\MechCommander" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Microprose\MechCommander\Mech Commander.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Microprose\MechCommander\Mech Commander.lnk"/>
     <save path="data\savegame"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -2921,7 +2921,7 @@
     <title>MechCommander 2</title>
     <location_path environment_variable="installlocation" path="Microsoft Games\MechCommander2"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\MechCommander2\1.0" value="EXE Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Microsoft Games\MechCommander 2\MechCommander 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Microsoft Games\MechCommander 2\MechCommander 2.lnk"/>
     <save filename="*.cfg" type="Settings"/>
     <save path="data\savegame"/>
     <contributor>SanMadJack</contributor>
@@ -2929,7 +2929,7 @@
   <game name="MechWarrior2" platform="Windows">
     <title>MechWarrior 2: 31st Century Combat</title>
     <location_path environment_variable="installlocation" path="Activision\BattlePack\MW2"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\BattlePack\MechWarrior 2\MechWarrior 2 Uninstall.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\BattlePack\MechWarrior 2\MechWarrior 2 Uninstall.lnk"/>
     <save path="mek" type="Mechs"/>
     <save filename="userstar.bwd"/>
     <save filename="MW2PRM.CFG" type="Settings"/>
@@ -2939,7 +2939,7 @@
   <game name="MechWarrior2GhostBearsLegacy" platform="Windows">
     <title>MechWarrior 2: Ghost Bear's Legacy</title>
     <location_path environment_variable="installlocation" path="Activision\Ghost Bear"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Ghost Bear's Legacy\Ghost Bear's Legacy.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Ghost Bear's Legacy\Ghost Bear's Legacy.lnk"/>
     <save path="mek" type="Mechs"/>
     <save filename="userstar.bwd"/>
     <save filename="MW2PRM.CFG" type="Settings"/>
@@ -2950,7 +2950,7 @@
     <title>MechWarrior 2: Ghost Bear's Legacy: Titanium Edition</title>
     <location_path environment_variable="installlocation" path="Activision\Titanium\GhostBearsLegacy"/>
     <location_path environment_variable="installlocation" path="MechVM\games\mw2-gbl-tt"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Titanium\GhostBearsLegacy\Play Ghost Bear's Legacy.lnk" detract="splash"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Titanium\GhostBearsLegacy\Play Ghost Bear's Legacy.lnk" detract="splash"/>
     <save path="mek" type="Mechs"/>
     <save filename="userstar.bwd"/>
     <save filename="MW2PRM.CFG" type="Settings"/>
@@ -2960,7 +2960,7 @@
   <game name="MechWarrior2Mercenaries" platform="Windows">
     <title>MechWarrior 2: Mercenaries</title>
     <location_path environment_variable="installlocation" path="Activision\Mercenaries"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Mercenaries\Mercenaries.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Mercenaries\Mercenaries.lnk"/>
     <save path="mek" type="Mechs"/>
     <save filename="userstar.bwd"/>
     <save filename="MW2PRM.CFG" type="Settings"/>
@@ -2972,7 +2972,7 @@
     <location_path environment_variable="installlocation" path="Activision\Titanium\Mercenaries"/>
     <location_path environment_variable="installlocation" path="MechVM\games\mw2-mercs-tt"/>
     <location_registry root="local_machine" key="SOFTWARE\Activision\Activenet\Applications\1060.2.1" value="Cwd"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Titanium\Mercenaries\Play Mercenaries.lnk" detract="splash"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Titanium\Mercenaries\Play Mercenaries.lnk" detract="splash"/>
     <save path="mek" type="Mechs"/>
     <save filename="userstar.bwd"/>
     <save filename="MW2PRM.CFG" type="Settings"/>
@@ -2984,7 +2984,7 @@
     <location_path environment_variable="installlocation" path="Activision\Titanium\Mechwarrior2"/>
     <location_path environment_variable="installlocation" path="MechVM\games\mw2-31stcc-tt"/>
     <location_registry root="local_machine" key="SOFTWARE\Activision\Activenet\Applications\1020.2.1" value="Cwd"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Titanium\Mechwarrior2\Play MechWarrior2.lnk" detract="splash"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Titanium\Mechwarrior2\Play MechWarrior2.lnk" detract="splash"/>
     <save path="mek" type="Mechs"/>
     <save filename="userstar.bwd"/>
     <save filename="MW2PRM.CFG" type="Settings"/>
@@ -3047,7 +3047,7 @@
     <location_path environment_variable="installlocation" path="SEGA\Medieval II Total War"/>
     <location_path environment_variable="steamcommon" path="medieval ii total war"/>
     <location_registry root="local_machine" key="SOFTWARE\SEGA\Medieval II Total War" value="AppPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\SEGA\Medieval II Total War\Launch Medieval II Total War.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\SEGA\Medieval II Total War\Launch Medieval II Total War.lnk"/>
     <save path="preferences" type="Settings"/>
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
@@ -3084,7 +3084,7 @@
     <title>Megarace 3</title>
     <location_path environment_variable="installlocation" path="GOG.com\Megarace 3"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMEGARACE3" value="SAVEGAMEFOLDER"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Megarace 3\Megarace 3.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Megarace 3\Megarace 3.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3092,7 +3092,7 @@
     <title>Messiah</title>
     <location_path environment_variable="installlocation" path="GOG.com\Messiah"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMESSIAH" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Messiah\Messiah.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Messiah\Messiah.lnk"/>
     <save path="SAVE"/>
     <save filename="Messiah.cfg" type="Settings"/>
     <contributor>SanMadJack</contributor>
@@ -3107,7 +3107,7 @@
     <title>MiG-29 Fulcrum</title>
     <location_path environment_variable="installlocation" path="NovaLogic\MiG-29 Fulcrum"/>
     <location_registry root="local_machine" key="SOFTWARE\NovaLogic\MiG-29 Fulcrum\1.00.000" value="ExecPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\NovaLogic\MiG-29 Fulcrum\MiG-29 Fulcrum.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\NovaLogic\MiG-29 Fulcrum\MiG-29 Fulcrum.lnk"/>
     <save filename="mslot*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3154,7 +3154,7 @@
     <title>Mortyr 2093-1944</title>
     <location_path environment_variable="installlocation" path="Mortyr"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Mortyr_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Mortyr\Mortyr.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Mortyr\Mortyr.lnk"/>
     <save path="data" filename="*.sav"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -3162,7 +3162,7 @@
     <title>Motocross Madness</title>
     <location_path environment_variable="installlocation" path="Microsoft Games\Motocross Madness"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Motocross Madness" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Microsoft Games\Motocross Madness\Play Motocross Madness.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Microsoft Games\Motocross Madness\Play Motocross Madness.lnk"/>
     <save path="ui\profile"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3214,7 +3214,7 @@
     <location_path environment_variable="installlocation" path="Ubi Soft\Cyan Worlds\Myst Uru Complete Chronicles"/>
     <location_path environment_variable="installlocation" path="GOG.com\Myst Uru Complete Chronicles"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGURUCC" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Myst Uru Complete Chronicles\Myst Uru Complete Chronicles.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Myst Uru Complete Chronicles\Myst Uru Complete Chronicles.lnk"/>
     <save path="sav"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3258,7 +3258,7 @@
     <title>Neuro Hunter</title>
     <location_path environment_variable="installlocation" path="Deep Silver\Neuro Hunter"/>
     <location_registry root="local_machine" key="SOFTWARE\Deep Silver\Neuro Hunter" value="INSTALL_DIR"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Deep Silver\Neuro Hunter\Play Neuro Hunter.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Deep Silver\Neuro Hunter\Play Neuro Hunter.lnk"/>
     <save path="saves"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -3268,7 +3268,7 @@
     <location_registry root="local_machine" key="SOFTWARE\BioWare\NWN\Neverwinter" value="Location"/>
     <location_path environment_variable="installlocation" path="GOG.com\Neverwinter Nights Diamond Edition"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGNWNDIAMOND" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Neverwinter Nights Diamond Edition\Neverwinter Nights Diamond Edition.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Neverwinter Nights Diamond Edition\Neverwinter Nights Diamond Edition.lnk"/>
     <save path="NWN" filename="nwn.ini" type="Settings"/>
     <save path="NWN" filename="nwnplayer.ini" type="Settings"/>
     <save path="NWN\dmvault" type="Characters"/>
@@ -3308,8 +3308,8 @@
     <title>No One Lives Forever</title>
     <location_path environment_variable="installlocation" path="Fox\No One Lives Forever"/>
     <location_registry root="local_machine" key="SOFTWARE\Monolith Productions\No One Lives Forever\1.0" value="WorkingDirectory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Fox Interactive\No One Lives Forever\No One Lives Forever - Game of the Year Edition.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Fox Interactive\No One Lives Forever\No One Lives Forever.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Fox Interactive\No One Lives Forever\No One Lives Forever - Game of the Year Edition.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Fox Interactive\No One Lives Forever\No One Lives Forever.lnk"/>
     <save filename="autoexec.cfg" type="Settings"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
@@ -3318,7 +3318,7 @@
     <title>No One Lives Forever 2: A Spy In H.A.R.M.'s Way</title>
     <location_path environment_variable="installlocation" path="Fox\No One Lives Forever 2"/>
     <location_registry root="local_machine" key="SOFTWARE\Monolith Productions\No One Lives Forever 2\1.0" value="InstallDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Fox Interactive\No One Lives Forever 2\No One Lives Forever 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Fox Interactive\No One Lives Forever 2\No One Lives Forever 2.lnk"/>
     <save filename="autoexec.cfg" type="Settings"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
@@ -3328,7 +3328,7 @@
     <location_path environment_variable="steamcommon" path="oddworld abes exoddus"/>
     <location_path environment_variable="installlocation" path="GOG.com\Abe's Exoddus"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGABESEXODDUS" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Abe's Exoddus\Abe's Exoddus.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Abe's Exoddus\Abe's Exoddus.lnk"/>
     <save filename="*.sav"/>
     <contributor>SanMadJack</contributor>
     <contributor>slake_jones</contributor>
@@ -3338,7 +3338,7 @@
     <location_path environment_variable="steamcommon" path="oddworld abes oddysee"/>
     <location_path environment_variable="installlocation" path="GOG.com\Abe's Oddysee"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGABESODDYSEE" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Abe's Oddysee\Abe's Oddysee.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Abe's Oddysee\Abe's Oddysee.lnk"/>
     <save filename="*.sav"/>
     <contributor>SanMadJack</contributor>
     <contributor>slake_jones</contributor>
@@ -3361,7 +3361,7 @@
   <game name="OmikronTheNomadSoul" platform="Windows">
     <title>Omikron: The Nomad Soul</title>
     <location_path environment_variable="installlocation" path="Eidos Interactive\Quantic Dream\Omikron The Nomad Soul"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Eidos Interactive\Quantic Dream\Omikron The Nomad Soul\Omikron The Nomad Soul.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Eidos Interactive\Quantic Dream\Omikron The Nomad Soul\Omikron The Nomad Soul.lnk"/>
     <save path="IAM" filename="GAMES"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3399,7 +3399,7 @@
     <title>Outcast</title>
     <location_path environment_variable="installlocation" path="GOG.com\Outcast"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGOUTCAST" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Outcast\Outcast.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Outcast\Outcast.lnk"/>
     <save path="savegames"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3407,7 +3407,7 @@
     <title>Outpost 2: Divided Destiny</title>
     <location_path environment_variable="installlocation" path="SIERRA\Outpost2"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\Outpost2" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Sierra\Outpost 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Sierra\Outpost 2.lnk"/>
     <save filename="*.OP2"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3431,8 +3431,8 @@
     <location_registry root="local_machine" key="SOFTWARE\PeopleCanFly\Painkiller" value="AddonPath"/>
     <location_registry root="local_machine" key="SOFTWARE\PeopleCanFly\Painkiller" value="EXEpath" detract="Bin\Painkiller.exe"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPAINKILLERBLACK" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\DreamCatcher\Painkiller Gold Edition\Painkiller.lnk" detract="Bin"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Painkiller Black\Painkiller Black.lnk" detract="Bin"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\DreamCatcher\Painkiller Gold Edition\Painkiller.lnk" detract="Bin"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Painkiller Black\Painkiller Black.lnk" detract="Bin"/>
     <save path="SaveGames"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3452,7 +3452,7 @@
     <title>Pathologic</title>
     <location_path environment_variable="installlocation" path="Pathologic"/>
     <location_registry root="local_machine" key="SOFTWARE\Ice-pick Lodge\Mor. Utopia" detract="bin\Final\Game.exe"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Buka\Pathologic\Pathologic.lnk" detract="bin\Final"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Buka\Pathologic\Pathologic.lnk" detract="bin\Final"/>
     <save path="saves"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -3489,7 +3489,7 @@
     <location_path environment_variable="allusersprofile" path="PopCap Games\PeggleWoW" platform_version="Vista"/>
     <location_path environment_variable="installlocation" path="PopCap Games\Peggle World of Warcraft Edition" platform_version="XP"/>
     <location_registry root="local_machine" key="SOFTWARE\PopCap\PeggleWoW" value="InstallPath" platform_version="XP"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\PopCap Games\Peggle World of Warcraft Edition\Play Peggle World of Warcraft Edition.lnk" platform_version="XP"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\PopCap Games\Peggle World of Warcraft Edition\Play Peggle World of Warcraft Edition.lnk" platform_version="XP"/>
     <identifier path="userdata"/>
     <save path="userdata"/>
     <contributor>SanMadJack</contributor>
@@ -3541,7 +3541,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Planescape Torment"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\torment.exe" value="Path"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPLANESCAPETOURMENT" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Planescape Torment\Planescape Torment.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Planescape Torment\Planescape Torment.lnk"/>
     <save path="save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3582,7 +3582,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Port Royale"/>
     <location_registry root="local_machine" key="SOFTWARE\Ascaron\Port Royale" value="InstalledTo"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPORTROYALE" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Port Royale\Port Royale.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Port Royale\Port Royale.lnk"/>
     <save path="Save"/>
     <contributor>David Barbour</contributor>
   </game>
@@ -3591,7 +3591,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Postal Classic and Uncut"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPOSTAL1CU" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Running With Scissors\Postal Classic &amp; Uncut" value="InstallDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="GOG.com\Postal Classic and Uncut\Postal Classic and Uncut.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="GOG.com\Postal Classic and Uncut\Postal Classic and Uncut.lnk"/>
     <save path="res\SaveGame"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3601,14 +3601,14 @@
     <location_path environment_variable="installlocation" path="GOG.com\Postal 2 Share The Pain"/>
     <location_registry root="local_machine" key="SOFTWARE\Running With Scissors\Postal2STP\Full\US" value="InstallDir"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPOSTAL2STP" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Postal 2 Share The Pain\Postal 2 Share The Pain.lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Postal 2 Share The Pain\Postal 2 Share The Pain.lnk" detract="System"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="Postal2ApocalypseWeekend" platform="Windows">
     <title>Postal 2: Apocalypse Weekend</title>
     <location_registry root="local_machine" key="SOFTWARE\Running With Scissors\Postal2AW" value="InstallDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Postal 2 Share The Pain\Postal 2 Apocalypse Weekend Expansion Pack.lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Postal 2 Share The Pain\Postal 2 Apocalypse Weekend Expansion Pack.lnk" detract="System"/>
     <location_game name="Postal2" platform="Windows" append="ApocalypseWeekend"/>
     <save path="AWSave"/>
     <contributor>SanMadJack</contributor>
@@ -3637,7 +3637,7 @@
     <title>Primal Prey</title>
     <location_path environment_variable="installlocation" path="Primal Prey"/>
     <location_registry root="local_machine" key="SOFTWARE\ARUSH\Primal Prey\1.0.0.1" value="EXE" detract="PrimalPrey.exe"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Primal Prey\Play Primal.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Primal Prey\Play Primal.lnk"/>
     <save filename="config.cfg" type="Settings"/>
     <save filename="trophies.txt" type="Trophies"/>
     <contributor>SanMadJack</contributor>
@@ -3655,8 +3655,8 @@
     <location_path environment_variable="steamcommon" path="prince of persia the sands of time"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPOP1" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\UBISOFT\Prince of Persia The Sands of Time\1.00.181" value="Product_Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Ubisoft\Prince of Persia The Sands of Time\Play Prince of Persia The Sands of Time.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Prince of Persia The Sands of Time\Prince of Persia The Sands of Time.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Ubisoft\Prince of Persia The Sands of Time\Play Prince of Persia The Sands of Time.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Prince of Persia The Sands of Time\Prince of Persia The Sands of Time.lnk"/>
     <save path="Profiles"/>
     <contributor>Caleb Love</contributor>
     <contributor>duncans_pumpkin</contributor>
@@ -3687,7 +3687,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Psychonauts"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A129D1F2-CAC4-4AD7-B26D-3C6411B87DCC}" value="InstallLocation"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPSYCHONAUTS" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Psychonauts\Psychonauts.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Psychonauts\Psychonauts.lnk"/>
     <save path="Profiles"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3723,7 +3723,7 @@
     <location_path environment_variable="steamcommon" path="Quake 4"/>
     <location_path environment_variable="installlocation" path="id Software\Quake 4"/>
     <location_registry root="local_machine" key="SOFTWARE\id\Quake 4" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Quake 4\Quake 4 single player.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Quake 4\Quake 4 single player.lnk"/>
     <save path="q4base\savegames"/>
     <virtualstore override="true"/>
     <require_detection/>
@@ -3797,7 +3797,7 @@
     <title>Raptor: Call of the Shadows</title>
     <location_path environment_variable="installlocation" path="GOG.com\Raptor - Call of the Shadows"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGRAPTOR" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Raptor - Call of the Shadows\Raptor - Call of the Shadows.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Raptor - Call of the Shadows\Raptor - Call of the Shadows.lnk"/>
     <save filename="*.FIL"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3805,7 +3805,7 @@
     <title>Rat Hunter</title>
     <location_path environment_variable="installlocation" path="GFI\Rat Hunter"/>
     <location_registry root="local_machine" key="Software\GFI\RatHunter_Release\InstallPath" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GFI\Rat Hunter\Rat Hunter.lnk" detract="bin"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GFI\Rat Hunter\Rat Hunter.lnk" detract="bin"/>
     <save path="Data\SavedGames" filename="*.sav"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -3813,7 +3813,7 @@
     <title>Rayman 2: The Great Escape</title>
     <location_path environment_variable="installlocation" path="GOG.com\Rayman 2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGRAYMAN2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Rayman 2\Rayman 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Rayman 2\Rayman 2.lnk"/>
     <save path="Data\Options" type="Settings"/>
     <save path="Data\SaveGame"/>
     <contributor>SanMadJack</contributor>
@@ -3823,7 +3823,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Rayman 3"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGRAYMAN3" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Ubi Soft\RAYMAN 3" value="InstallDir"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Rayman 3\Rayman 3.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Rayman 3\Rayman 3.lnk"/>
     <save path="GAMEDATA\SaveGame"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3831,7 +3831,7 @@
     <title>realMyst</title>
     <location_path environment_variable="installlocation" path="GOG.com\realMyst"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGREALMYST" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\realMyst\realMyst.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\realMyst\realMyst.lnk"/>
     <save path="SAV"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3875,7 +3875,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\The Incredible Machine Series\Return of the Incredible Machine Contraptions"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGRETURN" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\CONTRAP" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\The Incredible Machine Series\Return of the Incredible Machine Contraptions\Return of the Incredible Machine Contraptions.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\The Incredible Machine Series\Return of the Incredible Machine Contraptions\Return of the Incredible Machine Contraptions.lnk"/>
     <save path="Saved Games"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3943,7 +3943,7 @@
     <title>RollerCoaster Tycoon 2</title>
     <location_path environment_variable="installlocation" path="RollerCoaster Tycoon 2"/>
     <location_registry root="local_machine" key="SOFTWARE\Infogrames\RollerCoaster Tycoon 2 Setup" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Infogrames\RollerCoaster Tycoon 2\RollerCoaster Tycoon 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Infogrames\RollerCoaster Tycoon 2\RollerCoaster Tycoon 2.lnk"/>
     <save path="Saved Games"/>
     <contributor>slake_jones</contributor>
   </game>
@@ -3989,8 +3989,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Runaway - A Road Adventure"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Runaway_is1" value="InstallLocation"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGRUNAWAY" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Pendulo Studios\Runaway - A road adventure\Runaway.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Runaway - A Road Adventure\Runaway - A Road Adventure.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Pendulo Studios\Runaway - A road adventure\Runaway.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Runaway - A Road Adventure\Runaway - A Road Adventure.lnk"/>
     <save path="SAVEGAME"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -4024,7 +4024,7 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 101 - Culture Shock"/>
     <location_path environment_variable="steamcommon" path="sam and max episode 1"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax101.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 1 - Culture Shock.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 1 - Culture Shock.lnk"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4036,7 +4036,7 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 102 - Situation Comedy"/>
     <location_path environment_variable="steamcommon" path="sam and max episode 2"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax102.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy.lnk"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4048,7 +4048,7 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 103 - The Mole, the Mob, and the Meatball"/>
     <location_path environment_variable="steamcommon" path="sam and max episode 3"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax103.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball.lnk"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4060,7 +4060,7 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 104 - Abe Lincoln Must Die"/>
     <location_path environment_variable="steamcommon" path="sam and max episode 4"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax104.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die!.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die!.lnk"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4072,7 +4072,7 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 105 - Reality 2.0"/>
     <location_path environment_variable="steamcommon" path="sam and max episode 5"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax105.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0.lnk"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4084,7 +4084,7 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 106 - Bright Side of the Moon"/>
     <location_path environment_variable="steamcommon" path="sam and max episode 6"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax106.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4095,8 +4095,8 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 201 - Ice Station Santa"/>
     <location_path environment_variable="steamcommon" path="sam and max season 2 episode 1"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax201.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 201 - Ice Station Santa.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 201 - Ice Station Santa" detract="autorun"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Episode 201 - Ice Station Santa.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 201 - Ice Station Santa" detract="autorun"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4107,8 +4107,8 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 202 - Moai Better Blues"/>
     <location_path environment_variable="steamcommon" path="sam and max season 2 episode 2"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax202.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 202 - Moai Better Blues.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 202 - Moai Better Blues" detract="autorun"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Episode 202 - Moai Better Blues.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 202 - Moai Better Blues" detract="autorun"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4119,8 +4119,8 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead"/>
     <location_path environment_variable="steamcommon" path="sam and max season 2 episode 3"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax203.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 203 - Night of the Raving Dead" detract="autorun"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 203 - Night of the Raving Dead" detract="autorun"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4131,8 +4131,8 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 204 - Chariots of the Dogs"/>
     <location_path environment_variable="steamcommon" path="sam and max season 2 episode 4"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax204.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 204 - Chariots of the Dogs.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 204 - Chariots of the Dogs" detract="autorun"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Episode 204 - Chariots of the Dogs.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 204 - Chariots of the Dogs" detract="autorun"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4143,8 +4143,8 @@
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 205 - What's New, Beelzebub"/>
     <location_path environment_variable="steamcommon" path="sam and max season 2 episode 5"/>
     <location_registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax205.exe" value="Install Location"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Episode 205 - What's New, Beelzebub.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 205 - What's New, Beelzebub" detract="autorun"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Episode 205 - What's New, Beelzebub.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Telltale Games\Sam and Max - Season Two\Sam and Max - Season Two.lnk" append="Episode 205 - What's New, Beelzebub" detract="autorun"/>
     <save filename="prefs.prop" type="Settings"/>
     <save filename="*.save"/>
     <contributor>duncans_pumpkin</contributor>
@@ -4196,8 +4196,8 @@
     <location_path environment_variable="installlocation" path="ASC Games\Sanitarium"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSANITARIUM" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Sntrm.exe" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Sanitarium\Sanitarium.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\ASC Games\Sanitarium\Sanitarium.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Sanitarium\Sanitarium.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\ASC Games\Sanitarium\Sanitarium.lnk"/>
     <save path="SAVES"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4238,7 +4238,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Second Sight"/>
     <location_registry root="local_machine" key="SOFTWARE\Codemasters\Second Sight\Install Location" value="Location"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSECONDSIGHT" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Second Sight\Second Sight.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Second Sight\Second Sight.lnk"/>
     <save path="profiles"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4268,8 +4268,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Septerra Core"/>
     <location_registry root="local_machine" key="SOFTWARE\Valkyrie Studios\Septerra Core" value="InstallPath"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSEPTERRACORE" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Valkyrie Studios\Septerra Core\Septerra Core.lnk"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Septerra Core\Septerra Core.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Valkyrie Studios\Septerra Core\Septerra Core.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Septerra Core\Septerra Core.lnk"/>
     <save path="savedata"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4322,14 +4322,14 @@
     <location_path environment_variable="installlocation" path="GAMES\Shogo"/>
     <location_registry root="local_machine" key="SOFTWARE\Monolith Productions\Shogo\1.0" value="WorkingDirectory"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Shogo" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Monolith Games\Shogo\Shogo.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Monolith Games\Shogo\Shogo.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="ShogunTotalWar" platform="Windows">
     <title>Shogun: Total War</title>
     <location_path environment_variable="installlocation" path="Total War\Shogun - Total War - Warlord Edition"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Total War\Shogun - Total War - Warlord Edition\Shogun - Total War - Warlord Edition.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Total War\Shogun - Total War - Warlord Edition\Shogun - Total War - Warlord Edition.lnk"/>
     <save path="savegames"/>
     <contributor>Mark Barbour</contributor>
   </game>
@@ -4343,7 +4343,7 @@
     <title>Sim City 2000</title>
     <location_path environment_variable="installlocation" path="Maxis\SimCity 2000"/>
     <location_registry root="current_user" key="Software\Maxis\SimCity 2000\Paths" value="Home"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Maxis\SimCity 2000.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Maxis\SimCity 2000.lnk"/>
     <save path="Cities" modified_after="1998-04-23T00:00:00"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4351,7 +4351,7 @@
     <title>Simon the Sorceror 3D</title>
     <location_path environment_variable="installlocation" path="GOG.com\Simon the Sorcerer 3D"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIMON3D" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Simon the Sorcerer 3D\Simon the Sorcerer 3D.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Simon the Sorcerer 3D\Simon the Sorcerer 3D.lnk"/>
     <save path="Data" filename="SimonSaveGame*"/>
     <save path="Data" filename="SaveGamesNew.txt"/>
     <contributor>SanMadJack</contributor>
@@ -4397,7 +4397,7 @@
   <game name="Snajper" platform="Windows">
     <title>Snajper (Sniper: Path of Vengeance)</title>
     <location_path environment_variable="installlocation" path="Cenega\Sniper"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Cenega\Sniper\Sniper.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Cenega\Sniper\Sniper.lnk"/>
     <save path="save"/>
     <save filename="autoexec.cfg" type="Settings"/>
     <contributor>Arc Angel</contributor>
@@ -4426,7 +4426,7 @@
     <location_path environment_variable="steamcommon" path="space rangers"/>
     <location_path environment_variable="installlocation" path="GOG.com\Space Rangers"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSPACERANGERS" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Space Rangers\Space Rangers.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Rangers\Space Rangers.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
     <contributor>slake_jones</contributor>
@@ -4435,7 +4435,7 @@
     <title>Space Rangers 2: Dominators</title>
     <location_path environment_variable="installlocation" path="GOG.com\Space Rangers 2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSPACERANGERS2" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Space Rangers 2 - Dominators\Space Rangers 2 - Dominators.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Rangers 2 - Dominators\Space Rangers 2 - Dominators.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4544,7 +4544,7 @@
     <location_path environment_variable="installlocation" path="Microsoft Games\StarLancer"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\StarLancer\1.0" value="InstallationDirectory"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\StarLancer" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Microsoft Games\StarLancer\StarLancer.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Microsoft Games\StarLancer\StarLancer.lnk"/>
     <save path="SAVES"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4552,7 +4552,7 @@
     <title>StarTopia</title>
     <location_path environment_variable="installlocation" path="StarTopia"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Startopia" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Eidos Interactive\Mucky Foot\StarTopia\StarTopia.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Eidos Interactive\Mucky Foot\StarTopia\StarTopia.lnk"/>
     <save path="Profiles"/>
     <contributor>slake_jones</contributor>
   </game>
@@ -4579,7 +4579,7 @@
     <location_path environment_variable="installlocation" path="LucasArts\Jedi Knight"/>
     <location_path environment_variable="steamcommon" path="star wars jedi knight"/>
     <location_registry root="local_machine" key="SOFTWARE\LucasArts Entertainment Company\JediKnight\v1.0" value="Install Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\LucasArts\Jedi Knight\Jedi Knight.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\LucasArts\Jedi Knight\Jedi Knight.lnk"/>
     <save path="player"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4600,7 +4600,7 @@
     <location_path environment_variable="steamcommon" path="swkotor"/>
     <location_path environment_variable="installlocation" path="LucasArts\SWKotOR"/>
     <location_registry root="local_machine" key="SOFTWARE\BioWare\SW\KOTOR" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\LucasArts\Star Wars Knights of the Old Republic\ Star Wars Knights of the Old Republic.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\LucasArts\Star Wars Knights of the Old Republic\ Star Wars Knights of the Old Republic.lnk"/>
     <save path="saves"/>
     <contributor>David Barbour</contributor>
     <contributor>SanMadJack</contributor>
@@ -4609,7 +4609,7 @@
     <title>Star Wars: Knights of the Old Republic II: The Sith Lords</title>
     <location_path environment_variable="installlocation" path="LucasArts\SWKotOR2"/>
     <location_registry root="local_machine" key="SOFTWARE\LucasArts\KotOR2" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\LucasArts\Star Wars Knights of the Old Republic II - The Sith Lords\ Star Wars Knights of the Old Republic II - The Sith Lords.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\LucasArts\Star Wars Knights of the Old Republic II - The Sith Lords\ Star Wars Knights of the Old Republic II - The Sith Lords.lnk"/>
     <save path="Saves"/>
     <contributor>David Barbour</contributor>
   </game>
@@ -4630,7 +4630,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Star Wolves"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARWOLVES" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Cenega\Star Wolves\1.0" value="directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Star Wolves\Star Wolves.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Star Wolves\Star Wolves.lnk"/>
     <save path="Profiles"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4647,7 +4647,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Still Life"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTILLLIFE" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Microids\StillLife" value="CurrentPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Still Life\Still Life.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Still Life\Still Life.lnk"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4727,7 +4727,7 @@
     <location_path environment_variable="steamcommon" path="tachyon the fringe"/>
     <location_path environment_variable="installlocation" path="NovaLogic\Tachyon"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\tachyon.exe" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\NovaLogic\Tachyon\Tachyon.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\NovaLogic\Tachyon\Tachyon.lnk"/>
     <save filename="*.dat"/>
     <save filename="*.sav"/>
     <save filename="Tachyon.cfg" type="Settings"/>
@@ -4786,7 +4786,7 @@
     <location_path environment_variable="installlocation" path="Tarr Chronicles"/>
     <location_registry root="local_machine" key="SOFTWARE\Akella\Tarr Chronicles" value="Path"/>
     <location_registry root="local_machine" key="SOFTWARE\Quazar\Tarr" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Tarr Chronicles\Tarr Chronicles.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Tarr Chronicles\Tarr Chronicles.lnk"/>
     <save path="data\profiles"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -4794,7 +4794,7 @@
     <title>TECNO: the Base</title>
     <location_path environment_variable="installlocation" path="TECNO_theBase"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\[TECNO - the Base]_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Games\TECNO\Play TECNO.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Games\TECNO\Play TECNO.lnk"/>
     <save path="Saved"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -4802,7 +4802,7 @@
     <title>Temple of Elemental Evil</title>
     <location_path environment_variable="installlocation" path="GOG.com\Temple of Elemental Evil"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTEMPLEOFELEMENTAEVIL" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Temple of Elemental Evil\Temple of Elemental Evil.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Temple of Elemental Evil\Temple of Elemental Evil.lnk"/>
     <save path="modules\*\Save"/>
     <save filename="ToEE.cfg" type="Settings"/>
     <save path="modules\*\players" type="Characters"/>
@@ -4831,7 +4831,7 @@
     <title>Terrorist Takedown: Covert Operations</title>
     <location_path environment_variable="installlocation" path="City Interactive\Terrorist Takedown - Covert Operations"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\TTCO_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\City Interactive\Terrorist Takedown - Covert Operations\Terrorist Takedown - Covert Operations.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\City Interactive\Terrorist Takedown - Covert Operations\Terrorist Takedown - Covert Operations.lnk"/>
     <save path="Save"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -4845,7 +4845,7 @@
     <title>Tex Murphy: Overseer</title>
     <location_path environment_variable="installlocation" path="GOG.com\Overseer"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTEX5" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Overseer\Overseer.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Overseer\Overseer.lnk"/>
     <save path="games"/>
     <save path="players"/>
     <contributor>SanMadJack</contributor>
@@ -4854,7 +4854,7 @@
     <title>They're Alive!</title>
     <location_path environment_variable="installlocation" path="GFI\They_re_alive"/>
     <location_registry root="current_user" key="Software\GFI\They're alive!" value="path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GFI\They're alive!\They're alive!.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GFI\They're alive!\They're alive!.lnk"/>
     <save path="SAVES"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -4878,14 +4878,14 @@
   <game name="ThiefGold" platform="Windows">
     <title>Thief Gold</title>
     <location_path environment_variable="installlocation" path="ThiefG"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Thief Gold\Thief.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Thief Gold\Thief.lnk"/>
     <save path="SAVES"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="ThiefTheDarkProject" platform="Windows">
     <title>Thief: The Dark Project</title>
     <location_path environment_variable="installlocation" path="Thief"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Thief\Thief.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Thief\Thief.lnk"/>
     <save path="SAVES"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4912,7 +4912,7 @@
     <title>Tomb Raider II</title>
     <location_path environment_variable="installlocation" path="Core Design\Tomb Raider II"/>
     <location_registry root="current_user" key="Software\core design\Tomb Raider II" value="AppPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Core Design\Tomb Raider 2\ Tomb Raider II.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Core Design\Tomb Raider 2\ Tomb Raider II.lnk"/>
     <save filename="savegame.*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4921,7 +4921,7 @@
     <location_path environment_variable="installlocation" path="Core Design\Tomb Raider II Gold"/>
     <location_registry root="current_user" key="Software\core design\Tomb Raider II Gold" value="GoldPath"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\t2gold.exe" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Core Design\Tomb Raider II Gold\Tomb Raider II Gold.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Core Design\Tomb Raider II Gold\Tomb Raider II Gold.lnk"/>
     <save filename="savegame.*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -5037,7 +5037,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Tropico Reloaded\Tropico 1"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTROPICO1" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Kalypso Media\Tropico Reloaded\Tropico" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Tropico Reloaded\Tropico 1\Tropico 1.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Tropico Reloaded\Tropico 1\Tropico 1.lnk"/>
     <save path="games"/>
     <contributor>slake_jones</contributor>
   </game>
@@ -5046,7 +5046,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Tropico Reloaded\Tropico 2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTROPICO2" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Kalypso Media\Tropico Reloaded\Tropico2" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Tropico Reloaded\Tropico 2\Tropico 2.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Tropico Reloaded\Tropico 2\Tropico 2.lnk"/>
     <save path="Save"/>
     <save path="Campaign"/>
     <contributor>slake_jones</contributor>
@@ -5061,7 +5061,7 @@
     <title>True Crime: Streets of LA</title>
     <location_path environment_variable="installlocation" path="Activision\True Crime"/>
     <location_registry root="local_machine" key="SOFTWARE\Activision\True Crime" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\True Crime - Streets of LA\True Crime - Streets of LA.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\True Crime - Streets of LA\True Crime - Streets of LA.lnk"/>
     <save path="Saves"/>
     <save filename="TrueCrime.ini" type="Settings"/>
     <contributor>SanMadJack</contributor>
@@ -5089,7 +5089,7 @@
     <title>Clive Barker's Undying</title>
     <location_path environment_variable="installlocation" path="EA Games\Clive Barker's Undying"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\undying.exe" value="Path" detract="System"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\EA Games\Clive Barker's Undying\Clive Barker's Undying(tm).lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\EA Games\Clive Barker's Undying\Clive Barker's Undying(tm).lnk" detract="System"/>
     <save path="System" filename="*.ini" type="Settings"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
@@ -5107,8 +5107,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Unreal Gold"/>
     <location_registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Unreal Gold" value="Folder"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGUNREAL" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Unreal Gold\Play Unreal Gold.lnk" detract="System"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Unreal Gold\Unreal Gold.lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Unreal Gold\Play Unreal Gold.lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Unreal Gold\Unreal Gold.lnk" detract="System"/>
     <save path="System" filename="*.ini" type="Settings"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
@@ -5121,7 +5121,7 @@
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{626F32D6-007C-41D5-8157-9509AB1428BE}" value="InstallLocation"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGUNREAL2" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\U2XMP" value="Folder"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Unreal 2  The Awakening SE\Unreal 2  The Awakening.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Unreal 2  The Awakening SE\Unreal 2  The Awakening.lnk"/>
     <save path="System" filename="*.ini" type="Settings"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
@@ -5132,7 +5132,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Unreal Tournament GOTY"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGUT" value="PATH"/>
     <location_registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\UnrealTournament" value="Folder"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Unreal Tournament GOTY\Unreal Tournament GOTY.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Unreal Tournament GOTY\Unreal Tournament GOTY.lnk"/>
     <save path="System" filename="*.ini" type="Settings"/>
     <ignore path="System" filename="User.ini"/>
     <save path="System" filename="User.ini"/>
@@ -5145,7 +5145,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Unreal Tournament 2004"/>
     <location_registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\UT2004" value="Folder"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGUT2004" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Unreal Tournament 2004\Unreal Tournament 2004.lnk" detract="System"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Unreal Tournament 2004\Unreal Tournament 2004.lnk" detract="System"/>
     <save path="System" filename="*.ini" type="Settings"/>
     <save path="Saves"/>
     <contributor>SanMadJack</contributor>
@@ -5171,7 +5171,7 @@
     <location_path environment_variable="installlocation" path="Activision\Vampire - Bloodlines"/>
     <location_path environment_variable="steamcommon" path="vampire the masquerade - bloodlines"/>
     <location_registry root="local_machine" key="SOFTWARE\Activision\Vampire - Bloodlines" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Vampire - The Masquerade Bloodlines\Vampire - The Masquerade Bloodlines.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Vampire - The Masquerade Bloodlines\Vampire - The Masquerade Bloodlines.lnk"/>
     <save path="Vampire\SAVE"/>
     <contributor>Samuel Barbour</contributor>
     <contributor>SanMadJack</contributor>
@@ -5180,7 +5180,7 @@
     <title>Vampire: The Masquerade - Redemption</title>
     <location_path environment_variable="installlocation" path="GOG.com\Vampire The Masquerade - Redemption"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGVAMPIRE" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\Vampire - The Masquerade - Redemption\Vampire - The Masquerade - Redemption.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Vampire - The Masquerade - Redemption\Vampire - The Masquerade - Redemption.lnk"/>
     <save path="SaveGames"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -5200,7 +5200,7 @@
   <game name="VietnamBlackOps" platform="Windows">
     <title>Vietnam: Black Ops</title>
     <location_path environment_variable="installlocation" path="BlackOps"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Fused Software\BlackOps.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Fused Software\BlackOps.lnk"/>
     <identifier filename="Data.rez"/>
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
@@ -5209,7 +5209,7 @@
     <title>Vigil: Blood Bitterness</title>
     <location_path environment_variable="installlocation" path="Vigil Blood Bitterness"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Vigil Blood Bitterness_is1" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Vigil Blood Bitterness\Vigil Blood Bitterness.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Vigil Blood Bitterness\Vigil Blood Bitterness.lnk"/>
     <save path="Vigil\Profiles"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -5217,7 +5217,7 @@
     <title>Vivisector: Beast Within</title>
     <location_path environment_variable="installlocation" path="CENEGA\Vivisector"/>
     <location_registry root="current_user" key="Software\CENEGA\Vivisector" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\CENEGA\Vivisector\Vivisector.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\CENEGA\Vivisector\Vivisector.lnk"/>
     <save path="DATA\Save"/>
     <save filename="config.cfg" type="Settings"/>
     <contributor>Arc Angel</contributor>
@@ -5262,7 +5262,7 @@
     <title>Warcraft III</title>
     <location_path environment_variable="installlocation" path="Warcraft III"/>
     <location_registry root="current_user" key="Software\Blizzard Entertainment\Warcraft III" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Warcraft III\Warcraft III.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Warcraft III\Warcraft III.lnk"/>
     <save path="save"/>
     <contributor>Mark Barbour</contributor>
   </game>
@@ -5291,7 +5291,7 @@
     <title>Warhammer 40,000: Dawn of War: Dark Crusade</title>
     <location_path environment_variable="installlocation" path="THQ\DarkCrusade"/>
     <location_registry root="local_machine" key="SOFTWARE\THQ\Dawn of War - Dark Crusade" value="InstallLocation"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\THQ\Dark Crusade\Dawn of War - Dark Crusade.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\THQ\Dark Crusade\Dawn of War - Dark Crusade.lnk"/>
     <save path="Profiles"/>
     <contributor>Michael Lamere</contributor>
   </game>
@@ -5368,7 +5368,7 @@
     <title>World of Warcraft</title>
     <location_path environment_variable="installlocation" path="World of Warcraft"/>
     <location_registry root="local_machine" key="SOFTWARE\Blizzard Entertainment\World of Warcraft" value="InstallPath"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\World of Warcraft\World of Warcraft.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\World of Warcraft\World of Warcraft.lnk"/>
     <save path="WTF"/>
     <contributor>Caleb Love</contributor>
   </game>
@@ -5376,7 +5376,7 @@
     <title>Worms 2</title>
     <location_path environment_variable="installlocation" path="MicroProse\Worms2"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\worms2" value="Path"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\MicroProse\Worms2\Sound Bank Editor.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\MicroProse\Worms2\Sound Bank Editor.lnk"/>
     <save path="Saves"/>
     <save path="Teams" type="Teams"/>
     <contributor>SanMadJack</contributor>
@@ -5430,7 +5430,7 @@
     <title>XIII</title>
     <location_path environment_variable="installlocation" path="GOG.com\XIII"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGXIII" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\GOG.com\XIII\XIII.lnk" detract="system"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\XIII\XIII.lnk" detract="system"/>
     <save path="Save"/>
     <save path="system" filename="XIII.ini" type="Settings"/>
     <contributor>SanMadJack</contributor>
@@ -5499,7 +5499,7 @@
     <title>Zork Grand Inquisitor</title>
     <location_path environment_variable="installlocation" path="GOG.com\Zork Grand Inquisitor"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGZORKDARKINQUISITOR" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="GOG.com\Zork Grand Inquisitor\Zork Grand Inquisitor.lnk"/>
+    <location_shortcut environment_variable="startmenu" path="GOG.com\Zork Grand Inquisitor\Zork Grand Inquisitor.lnk"/>
     <save filename="inqsav*.sav"/>
     <contributor>SanMadJack</contributor>
   </game>
