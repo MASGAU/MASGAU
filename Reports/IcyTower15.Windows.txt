@@ -1,0 +1,132 @@
+Game Name: Icy Tower 1.5
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+Drive\games\icytower1.5
+
+Save Path: 
+Drive\games\icytower1.5\profiles
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\IT15Profile\DefaultIcon
+Value: 
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\IT15replay\DefaultIcon
+Value: 
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Conduit\AppPaths\icytower15.exe
+Value: AppPath
+Data: 06.12.2011 16:09:46 - Drive\games\icytower1.5\icytower15.exe - 3753885
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Icy Tower v1.5_is1
+Value: Inno Setup: App Path
+Data: Drive\games\icytower1.5
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Icy Tower v1.5_is1
+Value: InstallLocation
+Data: Drive\games\icytower1.5
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\Conduit\AppPaths\icytower15.exe
+Value: AppPath
+Data: 06.12.2011 16:09:46 - Drive\games\icytower1.5\icytower15.exe - 3753885
+
+Detected Start Menu Shortcuts: 
+11.02.2012 19:58:19 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Games\Icy Tower 1.5\ Play Icy Tower v1.5.lnk - 666
+06.12.2011 16:09:46 - Drive\games\icytower1.5\icytower15.exe - 3753885
+11.02.2012 19:58:19 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Games\Icy Tower 1.5\Icy Tower Instructions.lnk - 652
+21.11.2011 09:48:10 - Drive\games\icytower1.5\readme.txt - 15372
+14.02.2012 14:41:39 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Games\Icy Tower 1.5\Icy Tower on the Web.lnk - 479
+11.02.2012 19:58:19 - Drive\games\icytower1.5\icytower.url - 69
+11.02.2012 19:58:19 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Games\Icy Tower 1.5\Uninstall Icy Tower.lnk - 660
+11.02.2012 19:57:50 - Drive\games\icytower1.5\unins000.exe - 715038
+
+Root Drive Information: 
+Drive Name: E:\
+Drive Root: E:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+11.01.2011 13:54:52 - Drive\games\icytower1.5\profiles\dummy.txt - 40
+11.01.2011 13:54:50 - Drive\games\icytower1.5\profiles\guest\dummy.txt - 40
+21.11.2011 09:47:46 - Drive\games\icytower1.5\profiles\guest\guest.itp - 1396
+21.11.2011 09:47:46 - Drive\games\icytower1.5\profiles\guest\guest_stats.txt - 535
+11.01.2011 13:54:50 - Drive\games\icytower1.5\profiles\guest\replays\dummy.txt - 40
+01.03.2012 02:18:48 - Drive\games\icytower1.5\profiles\Kim\Kim.itp - 1396
+01.03.2012 02:18:48 - Drive\games\icytower1.5\profiles\Kim\Kim_stats.txt - 1020
+01.03.2012 02:18:42 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_cc1_73.itr - 2972
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_combo_19.itr - 2772
+01.03.2012 02:18:42 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_floor_73.itr - 2972
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj1_4.itr - 2772
+01.03.2012 02:18:42 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj2_2.itr - 2972
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj3_2.itr - 2772
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj4_3.itr - 2772
+01.03.2012 02:17:26 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj5_2.itr - 2322
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_lost_combo_13.itr - 2772
+01.03.2012 02:18:06 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_no_combo_12.itr - 2317
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_score_1301.itr - 2772
+01.03.2012 02:18:42 - Drive\games\icytower1.5\profiles\Kim\replays\last_game.itr - 2972
+
+Install Folder Dump: 
+11.01.2011 13:54:54 - Drive\games\icytower1.5\gamepad.txt - 773
+11.02.2012 19:58:19 - Drive\games\icytower1.5\icytower.url - 69
+06.12.2011 16:09:46 - Drive\games\icytower1.5\icytower15.exe - 3753885
+12.01.2011 09:37:06 - Drive\games\icytower1.5\itrcheck.txt - 5040
+11.01.2011 13:54:54 - Drive\games\icytower1.5\libpng3.dll - 127488
+01.03.2012 02:18:49 - Drive\games\icytower1.5\log.txt - 6545
+11.01.2011 13:54:54 - Drive\games\icytower1.5\ogg_license.txt - 1608
+11.01.2011 13:54:54 - Drive\games\icytower1.5\pthreadGC2.dll - 47822
+21.11.2011 09:48:10 - Drive\games\icytower1.5\readme.txt - 15372
+01.03.2012 02:18:48 - Drive\games\icytower1.5\tower.cfg - 908
+11.02.2012 19:58:19 - Drive\games\icytower1.5\unins000.dat - 24103
+11.02.2012 19:57:50 - Drive\games\icytower1.5\unins000.exe - 715038
+11.01.2011 13:54:54 - Drive\games\icytower1.5\zlib1.dll - 75264
+01.03.2012 02:15:52 - Drive\games\icytower1.5\cache\ads.csv - 546
+01.03.2012 02:15:52 - Drive\games\icytower1.5\cache\icytower_fb.png - 41089
+01.03.2012 02:15:50 - Drive\games\icytower1.5\cache\icytower_hh.png - 20941
+01.03.2012 02:15:44 - Drive\games\icytower1.5\cache\icytower_jane.png - 34672
+01.03.2012 02:15:46 - Drive\games\icytower1.5\cache\icytower_jane_2.png - 53643
+01.03.2012 02:15:48 - Drive\games\icytower1.5\cache\warp_dash_2.png - 103810
+11.01.2011 13:54:48 - Drive\games\icytower1.5\characters\characters.txt - 8428
+11.01.2011 13:54:42 - Drive\games\icytower1.5\characters\disco_dave\dave.dat - 378097
+11.01.2011 13:54:42 - Drive\games\icytower1.5\characters\disco_dave\disco_dave.txt - 212
+11.01.2011 13:54:48 - Drive\games\icytower1.5\characters\harold_the_homeboy\harold.dat - 116313
+11.01.2011 13:54:48 - Drive\games\icytower1.5\characters\harold_the_homeboy\harold_the_homeboy.txt - 247
+03.11.2011 11:31:00 - Drive\games\icytower1.5\characters\jungle_jane\jane.dat - 355952
+03.11.2011 11:05:20 - Drive\games\icytower1.5\characters\jungle_jane\jungle_jane.txt - 238
+11.01.2011 13:54:48 - Drive\games\icytower1.5\characters\wild_wendy\wendy.dat - 411958
+11.01.2011 13:54:48 - Drive\games\icytower1.5\characters\wild_wendy\wild_wendy.txt - 238
+11.01.2011 13:54:48 - Drive\games\icytower1.5\characters\_template\_template.png - 6768
+11.01.2011 13:54:48 - Drive\games\icytower1.5\characters\_template\_template.txt - 386
+11.01.2011 13:54:54 - Drive\games\icytower1.5\data\data.dat - 872669
+11.01.2011 13:54:54 - Drive\games\icytower1.5\data\loading.dat - 16139
+11.01.2011 13:54:54 - Drive\games\icytower1.5\data\sfx15.dat - 1177195
+11.01.2011 13:54:52 - Drive\games\icytower1.5\profiles\dummy.txt - 40
+11.01.2011 13:54:50 - Drive\games\icytower1.5\profiles\guest\dummy.txt - 40
+21.11.2011 09:47:46 - Drive\games\icytower1.5\profiles\guest\guest.itp - 1396
+21.11.2011 09:47:46 - Drive\games\icytower1.5\profiles\guest\guest_stats.txt - 535
+11.01.2011 13:54:50 - Drive\games\icytower1.5\profiles\guest\replays\dummy.txt - 40
+01.03.2012 02:18:48 - Drive\games\icytower1.5\profiles\Kim\Kim.itp - 1396
+01.03.2012 02:18:48 - Drive\games\icytower1.5\profiles\Kim\Kim_stats.txt - 1020
+01.03.2012 02:18:42 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_cc1_73.itr - 2972
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_combo_19.itr - 2772
+01.03.2012 02:18:42 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_floor_73.itr - 2972
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj1_4.itr - 2772
+01.03.2012 02:18:42 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj2_2.itr - 2972
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj3_2.itr - 2772
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj4_3.itr - 2772
+01.03.2012 02:17:26 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_jj5_2.itr - 2322
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_lost_combo_13.itr - 2772
+01.03.2012 02:18:06 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_no_combo_12.itr - 2317
+01.03.2012 02:17:57 - Drive\games\icytower1.5\profiles\Kim\replays\Kim_best_score_1301.itr - 2772
+01.03.2012 02:18:42 - Drive\games\icytower1.5\profiles\Kim\replays\last_game.itr - 2972
+12.03.2009 10:40:30 - Drive\games\icytower1.5\screenshots\screenshots.txt - 107
+
+UAC Enabled
+
+
+VirtualStore Folders: 
