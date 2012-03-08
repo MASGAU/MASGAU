@@ -8,7 +8,7 @@
   <game name="TestGame" platform="Windows" region="EUR" deprecated="true">
     <title>Test Game 4</title>
     <location_registry root="local_machine" key="SOFTWARE\Activision\Activenet\Applications\1060.2.1" value="Cwd" append="BLAH"/>
-    <location_shortcut environment_variable="startmenu" shortcut="Programs\Titanium\Mercenaries\Play Mercenaries.lnk" detract="splash" deprecated="true"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Titanium\Mercenaries\Play Mercenaries.lnk" detract="splash" deprecated="true"/>
     <location_path environment_variable="installlocation" path="Activision\Titanium\Mercenaries" platform_version="Vista" />
     <location_path environment_variable="installlocation" path="MechVM\games\mw2-mercs-tt" platform_version="XP"/>
     <location_game name="TesPSGame" platform="PS2"/>

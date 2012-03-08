@@ -24,6 +24,8 @@ namespace MASGAU.Location {
         AppData,
         LocalAppData,
         SavedGames,
+        Desktop,
+        StartMenu,
 
         FlashShared,
 

@@ -101,6 +101,10 @@ namespace MASGAU.Game {
                     return EnvironmentVariable.UserDocuments;
                 case "flashshared":
                     return EnvironmentVariable.FlashShared;
+                case "startmenu":
+                    return EnvironmentVariable.StartMenu;
+                case "desktop":
+                    return EnvironmentVariable.Desktop;
             }
             throw new NotImplementedException("Unrecognized environment variable: " + parse_me);
         }
@@ -336,7 +340,8 @@ namespace MASGAU.Game {
                         break;
                     case "location_shortcut":
                         LocationShortcutHolder new_shortcut_location = new LocationShortcutHolder();
-                        new_shortcut_location.shortcut = element.GetAttribute("shortcut");
+                        new_shortcut_location.ev = parseEnvironmentVariable(element.GetAttribute("environment_variable"));
+                        new_shortcut_location.path = element.GetAttribute("path");
                         location = new_shortcut_location;
                         break;
                     case "location_game":
