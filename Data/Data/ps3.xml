@@ -6,6 +6,16 @@
     <ps_code prefix="BLUS" suffix="30089"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="AssassinsCreedBrotherhood" platform="PS3" region="EUR">
+    <title>Assassin's Creed: Brotherhood</title>
+    <ps_code prefix="BLES" suffix="00909" />
+    <contributor>AdmiringWorm</contributor>
+  </game>
+  <game name="AssassinsCreedRevelations" platform="PS3" region="EUR">
+    <title>Assassin's Creed: Revelations</title>
+    <ps_code prefix="BLES" suffix="01384"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="BattlefieldBadcompany" platform="PS3" region="USA">
     <title>Battlefield: Bad Company</title>
     <ps_code prefix="BLUS" suffix="30118"/>
@@ -76,6 +86,11 @@
     <ps_code prefix="NPUA" suffix="80083"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="Flower" platform="PS3" region="EUR">
+    <title>Flower</title>
+    <ps_code prefix="NPEA" suffix="00094"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="Folklore" platform="PS3" region="USA">
     <title>Folklore</title>
     <ps_code prefix="BCUS" suffix="98147"/>
@@ -90,6 +105,11 @@
     <title>inFamous</title>
     <ps_code prefix="BCUS" suffix="98119"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="InFamous" platform="PS3" region="EUR">
+    <title>inFamous</title>
+    <ps_code prefix="BCES" suffix="00609"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="Jeopardy" platform="PS3" region="USA">
     <title>Jeopardy!</title>
@@ -186,6 +206,11 @@
     <ps_code prefix="BCUS" suffix="98103"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="UnchartedDrakesFortune" platform="PS3" region="EUR">
+    <title>Uncharted: Drake's Fortune</title>
+    <ps_code prefix="BCES" suffix="00065"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="UnrealTournament3" platform="PS3" region="USA">
     <title>Unreal Tournament III</title>
     <ps_code prefix="BLUS" suffix="30086"/>
@@ -195,6 +220,11 @@
     <title>Valkyria Chronicles</title>
     <ps_code prefix="BLUS" suffix="30196"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="ValkyriaChronicles" platform="PS3" region="EUR">
+    <title>Valkyria Chronicles</title>
+    <ps_code prefix="BLES" suffix="00372"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="WheelOfFortune" platform="PS3" region="USA">
     <title>Wheel of Fortune</title>
