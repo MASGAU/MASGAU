@@ -71,6 +71,7 @@
     </Content>
     <Content Include="Data\ps3.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Data\psp.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

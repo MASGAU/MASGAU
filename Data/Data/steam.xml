@@ -153,6 +153,12 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="RevengeOfTheTitans" platform="Steam">
+    <title>Revenge of the Titans</title>
+    <location_path environment_variable="steamuserdata" path="93200\remote\.revenge_of_the_titans_1.80"/>
+    <save/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="RunespellOverture" platform="Steam">
     <title>Runespell: Overture</title>
     <location_path environment_variable="steamuserdata" path="102200"/>
