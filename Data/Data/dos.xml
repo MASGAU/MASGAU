@@ -117,6 +117,62 @@
     <save filename="SAVE?.ITD"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="KingsQuest" platform="DOS">
+    <title>King's Quest</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 1"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ1" value="PATH" />
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest\King's Quest.lnk" append="Kings Quest 1" detract="DOSBOX"/>
+    <save filename="KQ1SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest2" platform="DOS">
+    <title>King's Quest II: Romancing the Throne</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ2" value="PATH" />
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest 2\King's Quest II - Romancing the Throne.lnk" append="Kings Quest 2" detract="DOSBOX"/>
+    <save filename="KQ2SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest3" platform="DOS">
+    <title>King's Quest III: To Heir is Human</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 3"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ3" value="PATH" />
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest 3\King's Quest III - To Heir is Human.lnk" append="Kings Quest 3" detract="DOSBOX"/>
+    <save filename="KQ3SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest4" platform="DOS">
+    <title>King's Quest 4: The Perils of Rosella</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 4"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ4" value="PATH" />
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 4 - The Perils of Rosella\King's Quest 4 - The Perils of Rosella.lnk" append="Kings Quest 4" detract="DOSBOX"/>
+    <save filename="KQ4SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest5" platform="DOS">
+    <title>King's Quest 5: Absence Makes the Heart Go Yonder</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 5"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ5" value="PATH" />
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 5 - Absence Makes the Heart Go Yonder\King's Quest 5 - Absence Makes the Heart Go Yonder.lnk" append="Kings Quest 5" detract="DOSBOX"/>
+    <save filename="KQ5SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest6" platform="DOS">
+    <title>King's Quest 6: Heir Today, Gone Tomorrow</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 6"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ6" value="PATH" />
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 6 - Heir Today, Gone Tomorrow\King's Quest 6 - Heir Today, Gone Tomorrow.lnk" append="Kings Quest 6" detract="DOSBOX"/>
+    <save filename="KQ6SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest7" platform="DOS">
+    <title>King's Quest 7: The Princeless Bride</title>
+    <location_path environment_variable="installlocation" path="GOG.com\KQ78\KQ7"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ7" value="PATH" />
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 7-8\King's Quest 7 - The Princeless Bride\King's Quest 7 - The Princeless Bride.lnk" append="KQ7" detract="DOSBOX"/>
+    <save filename="KQ7CDSG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="LastExpress" platform="DOS">
     <title>The Last Express</title>
     <location_path environment_variable="installlocation" path="GOG.com\The Last Express"/>

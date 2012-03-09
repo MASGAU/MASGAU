@@ -1,0 +1,346 @@
+Game Name: King's Quest 1-3 GoG DOSBOX info
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Kings Quest 1-2-3
+
+Save Path: 
+ProgramFilesX86\GOG.com\Kings Quest 1-2-3
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{151D9364-D93B-4C1D-A464-39236561375C}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{151D9364-D93B-4C1D-A464-39236561375C}
+Value: ConfigGDFBinaryPath
+Data: 8/24/2010 11:20:30 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\goggame.dll - 259584
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{7CEC9F1E-5D54-4526-ABF3-16961C96392F}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{7CEC9F1E-5D54-4526-ABF3-16961C96392F}
+Value: ConfigGDFBinaryPath
+Data: 8/24/2010 11:20:38 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\goggame.dll - 256000
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{CFE0EB6C-BBBE-4B6C-872E-74D1B5F14702}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{CFE0EB6C-BBBE-4B6C-872E-74D1B5F14702}
+Value: ConfigGDFBinaryPath
+Data: 8/24/2010 11:20:34 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\goggame.dll - 262656
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ1
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ1
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ1
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ1
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ1
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ2
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ2
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ2
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ2
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ2
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ3
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ3
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ3
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ3
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ3
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\King's Quest 1+2+3_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\King's Quest 1+2+3_is1
+Value: InstallLocation
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\Uninstall King's Quest 1 2 3.lnk - 1122
+2/6/2012 7:43:56 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\unins000.exe - 2142547
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\Documents\Customer Support.lnk - 1168
+1/12/2010 12:28:46 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Customer_support.htm - 73373
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\Documents\Readme.lnk - 1116
+7/21/2010 12:44:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\README.txt - 19088
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest\Graphic mode setup.lnk - 2252
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Graphic mode setup.exe - 1279488
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest\King's Quest.lnk - 2369
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox.exe - 3760640
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest\Documents\Manual.lnk - 1388
+7/21/2010 12:40:38 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\Manual.pdf - 2038442
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest 2\Graphic mode setup.lnk - 2252
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Graphic mode setup.exe - 1279488
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest 2\King's Quest II - Romancing the Throne.lnk - 2369
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox.exe - 3760640
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest 2\Documents\Manual.lnk - 1388
+7/21/2010 12:40:22 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\Manual.pdf - 2010988
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest 3\Graphic mode setup.lnk - 2252
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Graphic mode setup.exe - 1279488
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest 3\King's Quest III - To Heir is Human.lnk - 2369
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox.exe - 3760640
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest 3\Documents\Manual.lnk - 1388
+7/21/2010 12:40:42 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\Manual.pdf - 2175266
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+1/12/2010 12:28:46 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Customer_support.htm - 73373
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Graphic mode setup.exe - 1279488
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\innosetup_license.txt - 1471
+7/21/2010 12:44:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\README.txt - 19088
+2/6/2012 7:44:06 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\unins000.dat - 71867
+2/6/2012 7:43:56 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\unins000.exe - 2142547
+2/6/2012 7:44:06 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\unins000.ini - 144
+7/1/2009 10:22:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox-0.73.tar.gz - 1279384
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox.exe - 3760640
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_AUTHORS.txt - 243
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_COPYING.txt - 18332
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_INSTALL.txt - 3937
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_NEWS.txt - 27704
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_README.txt - 52658
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_THANKS.txt - 960
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\SDL.dll - 448231
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\SDL_net.dll - 13312
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\zmbv\README.txt - 1608
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\zmbv\zmbv.dll - 94208
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\zmbv\zmbv.inf - 4043
+12/1/1987 12:12:14 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\AGI - 39424
+12/1/1987 8:49:20 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\AGIDATA.OVL - 8192
+12/1/1987 8:48:44 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\CGA_GRAF.OVL - 1024
+5/18/2010 12:01:06 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\dosboxKQ1.conf - 7378
+12/1/1987 8:48:46 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\EGA_GRAF.OVL - 1024
+5/14/2010 4:06:20 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\gfw_high.ico - 119738
+8/24/2010 11:20:30 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\goggame.dll - 259584
+1/26/1987 3:47:26 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_FONT - 3072
+12/1/1987 8:48:48 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_GRAF.OVL - 1536
+12/1/1987 8:48:52 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_OBJS.OVL - 1024
+12/1/1987 8:48:50 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\IBM_OBJS.OVL - 512
+12/1/1987 8:48:46 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\JR_GRAF.OVL - 512
+5/17/2010 3:27:36 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\KQ1.COM - 3121
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\LOGDIR - 315
+7/21/2010 12:40:38 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\Manual.pdf - 2038442
+4/10/1987 12:45:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\OBJECT - 331
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\PICDIR - 255
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\SNDDIR - 144
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\Support.ico - 62895
+12/1/1987 8:48:50 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VG_GRAF.OVL - 512
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VIEWDIR - 432
+5/5/1987 10:01:00 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.0 - 48472
+5/5/1987 10:01:48 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.1 - 200630
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.2 - 90891
+3/27/1987 11:15:28 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\WORDS.TOK - 3144
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\AGI - 38400
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\AGIDATA.OVL - 7680
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\CGA_GRAF.OVL - 1024
+3/17/2010 5:15:44 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\dosboxKQ2.conf - 7381
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\EGA_GRAF.OVL - 1024
+5/14/2010 4:09:48 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\gfw_high.ico - 121321
+8/24/2010 11:20:34 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\goggame.dll - 262656
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_FONT - 3072
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_GRAF.OVL - 1536
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_OBJS.OVL - 1024
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\IBM_OBJS.OVL - 512
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\JR_GRAF.OVL - 512
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\KQ2.ICO - 766
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\LOGDIR - 543
+7/21/2010 12:40:22 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\Manual.pdf - 2010988
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\OBJECT - 601
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\PICDIR - 354
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\SIERRA.COM - 2928
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\SNDDIR - 135
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\Support.ico - 62895
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VIEWDIR - 705
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.0 - 47769
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.1 - 190481
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.2 - 247952
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\WORDS.TOK - 3516
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\AGI - 39424
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\AGIDATA.OVL - 8192
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\CGA_GRAF.OVL - 1024
+3/17/2010 5:15:46 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\dosboxKQ3.conf - 7381
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\EGA_GRAF.OVL - 1024
+5/14/2010 4:11:32 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\gfw_high.ico - 117977
+8/24/2010 11:20:38 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\goggame.dll - 256000
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_FONT - 3072
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_GRAF.OVL - 1536
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_OBJS.OVL - 1024
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\IBM_OBJS.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\JR_GRAF.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\KQ303238.QA - 10
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\LOGDIR - 390
+7/21/2010 12:40:42 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\Manual.pdf - 2175266
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\OBJECT - 778
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\PICDIR - 531
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\SIERRA.COM - 3121
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\SNDDIR - 120
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\Support.ico - 62895
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VG_GRAF.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VIEWDIR - 756
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.0 - 78782
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.1 - 365256
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.2 - 206032
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.3 - 13
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\WORDS.TOK - 5670
+
+Install Folder Dump: 
+1/12/2010 12:28:46 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Customer_support.htm - 73373
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Graphic mode setup.exe - 1279488
+11/28/2008 11:32:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\innosetup_license.txt - 1471
+7/21/2010 12:44:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\README.txt - 19088
+2/6/2012 7:44:06 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\unins000.dat - 71867
+2/6/2012 7:43:56 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\unins000.exe - 2142547
+2/6/2012 7:44:06 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\unins000.ini - 144
+7/1/2009 10:22:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox-0.73.tar.gz - 1279384
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox.exe - 3760640
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_AUTHORS.txt - 243
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_COPYING.txt - 18332
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_INSTALL.txt - 3937
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_NEWS.txt - 27704
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_README.txt - 52658
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\dosbox_THANKS.txt - 960
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\SDL.dll - 448231
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\SDL_net.dll - 13312
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\zmbv\README.txt - 1608
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\zmbv\zmbv.dll - 94208
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\DOSBOX\zmbv\zmbv.inf - 4043
+12/1/1987 12:12:14 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\AGI - 39424
+12/1/1987 8:49:20 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\AGIDATA.OVL - 8192
+12/1/1987 8:48:44 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\CGA_GRAF.OVL - 1024
+5/18/2010 12:01:06 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\dosboxKQ1.conf - 7378
+12/1/1987 8:48:46 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\EGA_GRAF.OVL - 1024
+5/14/2010 4:06:20 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\gfw_high.ico - 119738
+8/24/2010 11:20:30 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\goggame.dll - 259584
+1/26/1987 3:47:26 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_FONT - 3072
+12/1/1987 8:48:48 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_GRAF.OVL - 1536
+12/1/1987 8:48:52 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_OBJS.OVL - 1024
+12/1/1987 8:48:50 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\IBM_OBJS.OVL - 512
+12/1/1987 8:48:46 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\JR_GRAF.OVL - 512
+5/17/2010 3:27:36 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\KQ1.COM - 3121
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\LOGDIR - 315
+7/21/2010 12:40:38 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\Manual.pdf - 2038442
+4/10/1987 12:45:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\OBJECT - 331
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\PICDIR - 255
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\SNDDIR - 144
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\Support.ico - 62895
+12/1/1987 8:48:50 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VG_GRAF.OVL - 512
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VIEWDIR - 432
+5/5/1987 10:01:00 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.0 - 48472
+5/5/1987 10:01:48 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.1 - 200630
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.2 - 90891
+3/27/1987 11:15:28 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\WORDS.TOK - 3144
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\AGI - 38400
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\AGIDATA.OVL - 7680
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\CGA_GRAF.OVL - 1024
+3/17/2010 5:15:44 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\dosboxKQ2.conf - 7381
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\EGA_GRAF.OVL - 1024
+5/14/2010 4:09:48 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\gfw_high.ico - 121321
+8/24/2010 11:20:34 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\goggame.dll - 262656
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_FONT - 3072
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_GRAF.OVL - 1536
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\HGC_OBJS.OVL - 1024
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\IBM_OBJS.OVL - 512
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\JR_GRAF.OVL - 512
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\KQ2.ICO - 766
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\LOGDIR - 543
+7/21/2010 12:40:22 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\Manual.pdf - 2010988
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\OBJECT - 601
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\PICDIR - 354
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\SIERRA.COM - 2928
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\SNDDIR - 135
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\Support.ico - 62895
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VIEWDIR - 705
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.0 - 47769
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.1 - 190481
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\VOL.2 - 247952
+11/28/2008 11:24:08 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 2\WORDS.TOK - 3516
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\AGI - 39424
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\AGIDATA.OVL - 8192
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\CGA_GRAF.OVL - 1024
+3/17/2010 5:15:46 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\dosboxKQ3.conf - 7381
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\EGA_GRAF.OVL - 1024
+5/14/2010 4:11:32 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\gfw_high.ico - 117977
+8/24/2010 11:20:38 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\goggame.dll - 256000
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_FONT - 3072
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_GRAF.OVL - 1536
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_OBJS.OVL - 1024
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\IBM_OBJS.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\JR_GRAF.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\KQ303238.QA - 10
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\LOGDIR - 390
+7/21/2010 12:40:42 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\Manual.pdf - 2175266
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\OBJECT - 778
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\PICDIR - 531
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\SIERRA.COM - 3121
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\SNDDIR - 120
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\Support.ico - 62895
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VG_GRAF.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VIEWDIR - 756
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.0 - 78782
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.1 - 365256
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.2 - 206032
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.3 - 13
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\WORDS.TOK - 5670
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+2/6/2012 8:15:25 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\KQ1SG.1 - 2872
+2/6/2012 8:14:43 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\stderr.txt - 0
+2/6/2012 8:15:30 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\stdout.txt - 511
+2/6/2012 8:31:50 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\KQ2SG.1 - 3021
+2/6/2012 8:30:57 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\stderr.txt - 0
+2/6/2012 8:31:53 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 2\stdout.txt - 404
+2/6/2012 8:35:31 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\KQ3SG.1 - 3338
+2/6/2012 8:35:16 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\stderr.txt - 0
+2/6/2012 8:35:37 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\stdout.txt - 404

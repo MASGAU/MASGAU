@@ -1,0 +1,160 @@
+Game Name: King's Quest 7 - The Princeless Bride
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\KQ78\KQ7
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{827B2159-220C-4C67-8C4C-9AA4D8E3EAC1}
+Value: ConfigGDFBinaryPath
+Data: 9/6/2010 12:36:26 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\goggame.dll - 262144
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ7
+Value: EXE
+Data: 8/8/1995 4:29:06 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\sierra.exe - 942697
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ7
+Value: PATH
+Data: ProgramFilesX86\GOG.com\KQ78\KQ7
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ7
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\KQ78\KQ7
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+2/6/2012 8:06:11 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 7-8\King's Quest 7 - The Princeless Bride\Documents\Manual.lnk - 1217
+2/18/2010 5:44:16 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\Manual.pdf - 10893241
+2/6/2012 8:06:11 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 7-8\King's Quest 7 - The Princeless Bride\Documents\Readme.lnk - 1217
+2/18/2010 2:10:40 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\Readme.txt - 17416
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+2/6/2012 9:04:55 PM - VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7\KQ7CDSG.000 - 36033
+2/6/2012 9:04:55 PM - VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7\KQ7CDSG.CAT - 40
+2/6/2012 9:02:19 PM - VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7\stderr.txt - 0
+2/6/2012 9:04:59 PM - VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7\stdout.txt - 404
+
+Install Folder Dump: 
+5/26/1995 3:18:24 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\0.CHK - 144978
+5/26/1995 5:16:40 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\ALTRES.000 - 130909
+5/26/1995 5:16:40 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\ALTRES.MAP - 466
+5/26/1995 5:16:40 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\ALTRES.MDT - 466
+11/24/2009 2:15:54 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\DACBLAST.DRV - 4404
+11/26/2009 1:32:36 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\dosboxKQ7.conf - 7423
+10/28/2009 12:04:32 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\GENMIDI.DRV - 3388
+2/26/2010 12:03:44 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\gfw_high.ico - 132085
+9/6/2010 12:36:26 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\goggame.dll - 262144
+2/18/2010 5:44:16 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\Manual.pdf - 10893241
+10/27/2009 2:02:44 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\MT32.DRV - 3098
+2/18/2010 2:10:40 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\Readme.txt - 17416
+5/26/1995 5:16:16 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\RESOURCE.000 - 200764100
+11/23/1994 2:48:16 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\RESOURCE.AUD - 217716879
+11/26/2009 1:26:12 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\RESOURCE.CFG - 356
+5/26/1995 5:16:16 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\RESOURCE.MAP - 18709
+5/26/1995 5:16:16 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\RESOURCE.MDT - 18709
+11/23/1994 3:02:50 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\RESOURCE.SFX - 50930358
+8/13/1994 12:57:18 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\SIERRA.ERR - 8475
+8/8/1995 4:29:06 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\SIERRA.EXE - 942697
+10/21/1995 4:11:12 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\VERSION - 11
+11/24/2009 2:16:06 PM - ProgramFilesX86\GOG.com\KQ78\KQ7\VESA.DRV - 35
+7/26/1995 5:27:16 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\AVI\91.RBT - 24701699
+7/27/1995 4:28:30 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\AVI\911.RBT - 8781594
+8/23/1995 4:13:56 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\AVI\912.RBT - 1373456
+9/22/1995 6:07:00 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\PATCHES\30.HEP - 1174
+9/22/1995 6:07:00 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\PATCHES\30.SCR - 1682
+7/26/1995 3:29:24 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\PATCHES\34.HEP - 378
+7/26/1995 3:29:24 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\PATCHES\34.SCR - 792
+8/15/1995 6:00:58 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\PATCHES\5200.HEP - 3610
+8/15/1995 6:00:58 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\PATCHES\5200.SCR - 22966
+8/24/1995 5:19:50 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\PATCHES\5300.HEP - 7116
+8/24/1995 5:19:50 AM - ProgramFilesX86\GOG.com\KQ78\KQ7\PATCHES\5300.SCR - 20670
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+2/6/2012 9:04:55 PM - VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7\KQ7CDSG.000 - 36033
+2/6/2012 9:04:55 PM - VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7\KQ7CDSG.CAT - 40
+2/6/2012 9:02:19 PM - VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7\stderr.txt - 0
+2/6/2012 9:04:59 PM - VirtualStore\Program Files (x86)\GOG.com\KQ78\KQ7\stdout.txt - 404
+
+
+Game Name: King's Quest 7 GoG DOSBOX info
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\KQ78\DOSBOX
+
+Save Path: 
+ProgramFilesX86\GOG.com\KQ78\DOSBOX
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ7
+Value: DOSBOXFOLDER
+Data: ProgramFilesX86\GOG.com\KQ78\DOSBOX
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ7
+Value: DOSBOXVERSION
+Data: ProgramFilesX86\GOG.com\KQ78\DOSBOX
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+2/6/2012 8:06:12 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 7-8\King's Quest 7 - The Princeless Bride\King's Quest 7 - The Princeless Bride.lnk - 2208
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox.exe - 3760640
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+7/1/2009 10:22:14 AM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox-0.73.tar.gz - 1279384
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox.exe - 3760640
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_AUTHORS.txt - 243
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_COPYING.txt - 18332
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_INSTALL.txt - 3937
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_NEWS.txt - 27704
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_README.txt - 52658
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_THANKS.txt - 960
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\SDL.dll - 448231
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\SDL_net.dll - 13312
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\zmbv\README.txt - 1608
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\zmbv\zmbv.dll - 94208
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\zmbv\zmbv.inf - 4043
+
+Install Folder Dump: 
+7/1/2009 10:22:14 AM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox-0.73.tar.gz - 1279384
+5/27/2009 12:50:36 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox.exe - 3760640
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_AUTHORS.txt - 243
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_COPYING.txt - 18332
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_INSTALL.txt - 3937
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_NEWS.txt - 27704
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_README.txt - 52658
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\dosbox_THANKS.txt - 960
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\SDL.dll - 448231
+5/27/2009 12:48:18 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\SDL_net.dll - 13312
+5/27/2009 7:11:24 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\zmbv\README.txt - 1608
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\zmbv\zmbv.dll - 94208
+5/27/2009 12:48:08 PM - ProgramFilesX86\GOG.com\KQ78\DOSBOX\zmbv\zmbv.inf - 4043
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+

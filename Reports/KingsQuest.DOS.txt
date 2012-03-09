@@ -1,0 +1,78 @@
+Game Name: King's Quest
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{151D9364-D93B-4C1D-A464-39236561375C}
+Value: ConfigGDFBinaryPath
+Data: 8/24/2010 11:20:30 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\goggame.dll - 259584
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ1
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ1
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ1
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest\Documents\Manual.lnk - 1388
+7/21/2010 12:40:38 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\Manual.pdf - 2038442
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+2/6/2012 8:15:25 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\KQ1SG.1 - 2872
+2/6/2012 8:14:43 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\stderr.txt - 0
+2/6/2012 8:15:30 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\stdout.txt - 511
+
+Install Folder Dump: 
+12/1/1987 12:12:14 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\AGI - 39424
+12/1/1987 8:49:20 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\AGIDATA.OVL - 8192
+12/1/1987 8:48:44 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\CGA_GRAF.OVL - 1024
+5/18/2010 12:01:06 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\dosboxKQ1.conf - 7378
+12/1/1987 8:48:46 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\EGA_GRAF.OVL - 1024
+5/14/2010 4:06:20 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\gfw_high.ico - 119738
+8/24/2010 11:20:30 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\goggame.dll - 259584
+1/26/1987 3:47:26 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_FONT - 3072
+12/1/1987 8:48:48 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_GRAF.OVL - 1536
+12/1/1987 8:48:52 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\HGC_OBJS.OVL - 1024
+12/1/1987 8:48:50 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\IBM_OBJS.OVL - 512
+12/1/1987 8:48:46 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\JR_GRAF.OVL - 512
+5/17/2010 3:27:36 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\KQ1.COM - 3121
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\LOGDIR - 315
+7/21/2010 12:40:38 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\Manual.pdf - 2038442
+4/10/1987 12:45:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\OBJECT - 331
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\PICDIR - 255
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\SNDDIR - 144
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\Support.ico - 62895
+12/1/1987 8:48:50 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VG_GRAF.OVL - 512
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VIEWDIR - 432
+5/5/1987 10:01:00 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.0 - 48472
+5/5/1987 10:01:48 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.1 - 200630
+5/5/1987 10:02:14 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\VOL.2 - 90891
+3/27/1987 11:15:28 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 1\WORDS.TOK - 3144
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+2/6/2012 8:15:25 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\KQ1SG.1 - 2872
+2/6/2012 8:14:43 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\stderr.txt - 0
+2/6/2012 8:15:30 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 1\stdout.txt - 511

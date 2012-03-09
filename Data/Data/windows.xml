@@ -1748,8 +1748,8 @@
     <save filename="LSLOT*"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="FableTheLostChapters" platform="Windows">
-    <title>Fable - The Lost Chapters</title>
+  <game name="Fable" platform="Windows">
+    <title>Fable: The Lost Chapters</title>
     <location_path environment_variable="userdocuments" path="My Games\Fable"/>
     <save path="Saves"/>
     <save path="Tattoos" type="Tattos"/>
@@ -2727,6 +2727,14 @@
     <location_path environment_variable="userdocuments" path="My Games\Kings Bounty"/>
     <save/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="KingsQuest8" platform="Windows">
+    <title>King's Quest: Mask of Eternity</title>
+    <location_path environment_variable="installlocation" path="GOG.com\KQ78\KQ8"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ8" value="PATH" />
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 7-8\King's Quest - Mask of Eternity\King's Quest - Mask of Eternity.lnk" />
+    <save path="save"/>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="LANoire" platform="Windows">
     <title>L.A. Noire</title>

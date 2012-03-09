@@ -1,0 +1,80 @@
+Game Name: King's Quest III - To Heir is Human
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{7CEC9F1E-5D54-4526-ABF3-16961C96392F}
+Value: ConfigGDFBinaryPath
+Data: 8/24/2010 11:20:38 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\goggame.dll - 256000
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ3
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ3
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ3
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+2/6/2012 7:44:06 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\GOG.com\King's Quest 1 2 3\King's Quest 3\Documents\Manual.lnk - 1388
+7/21/2010 12:40:42 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\Manual.pdf - 2175266
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+2/6/2012 8:35:31 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\KQ3SG.1 - 3338
+2/6/2012 8:35:16 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\stderr.txt - 0
+2/6/2012 8:35:37 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\stdout.txt - 404
+
+Install Folder Dump: 
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\AGI - 39424
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\AGIDATA.OVL - 8192
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\CGA_GRAF.OVL - 1024
+3/17/2010 5:15:46 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\dosboxKQ3.conf - 7381
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\EGA_GRAF.OVL - 1024
+5/14/2010 4:11:32 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\gfw_high.ico - 117977
+8/24/2010 11:20:38 AM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\goggame.dll - 256000
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_FONT - 3072
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_GRAF.OVL - 1536
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\HGC_OBJS.OVL - 1024
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\IBM_OBJS.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\JR_GRAF.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\KQ303238.QA - 10
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\LOGDIR - 390
+7/21/2010 12:40:42 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\Manual.pdf - 2175266
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\OBJECT - 778
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\PICDIR - 531
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\SIERRA.COM - 3121
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\SNDDIR - 120
+4/20/2010 1:37:04 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\Support.ico - 62895
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VG_GRAF.OVL - 512
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VIEWDIR - 756
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.0 - 78782
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.1 - 365256
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.2 - 206032
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\VOL.3 - 13
+11/28/2008 11:24:10 PM - ProgramFilesX86\GOG.com\Kings Quest 1-2-3\Kings Quest 3\WORDS.TOK - 5670
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+2/6/2012 8:35:31 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\KQ3SG.1 - 3338
+2/6/2012 8:35:16 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\stderr.txt - 0
+2/6/2012 8:35:37 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 1-2-3\Kings Quest 3\stdout.txt - 404

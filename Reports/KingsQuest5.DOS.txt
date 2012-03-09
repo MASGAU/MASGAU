@@ -1,0 +1,109 @@
+Game Name: King's Quest 5 - Absence Makes the Heart Go Yonder
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5
+
+Save Path: 
+VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{E3884FF1-F202-43F7-B9F9-01D014B20469}
+Value: ConfigGDFBinaryPath
+Data: 3/30/2010 3:19:00 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\goggame.dll - 261120
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ5
+Value: EXE
+Data: 
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ5
+Value: PATH
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\GOG.com\GOGKQ5
+Value: SAVEGAMEFOLDER
+Data: ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+2/6/2012 9:00:33 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\KQ5SG.000 - 18356
+2/6/2012 9:00:40 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\KQ5SG.001 - 18359
+2/6/2012 9:00:40 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\KQ5SG.DIR - 17
+2/6/2012 8:59:49 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\stderr.txt - 0
+2/6/2012 9:00:44 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\stdout.txt - 301
+
+Install Folder Dump: 
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\0.SCR - 9960
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\0.TEX - 50
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\1.SCR - 6726
+11/28/2008 11:18:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\10125.SYN - 1229
+11/28/2008 11:18:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\10126.SYN - 73
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\119.SCR - 2204
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\119.TEX - 54
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\124.SCR - 12288
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\1699.SND - 62596
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\1799.SND - 138
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\1849.SND - 834
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\203.SCR - 6340
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\205.SCR - 5012
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\36.SCR - 3640
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\47.SCR - 9232
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\610.SCR - 10970
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\610.TEX - 226
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\611.SCR - 10924
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\612.SCR - 10552
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\66.SCR - 8232
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\769.SCR - 302
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\99.SCR - 978
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\ADL.DRV - 8070
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\AUDBLAST.DRV - 3027
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\AUDDISNY.DRV - 2284
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\AUDIO001.002 - 97103872
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\AUDIO001.MAP - 16850
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\AUDPRO.DRV - 2618
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\AUDPS1.DRV - 1852
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\AUDTANDY.DRV - 1914
+3/30/2010 3:13:04 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\dosboxKQ5.conf - 7401
+11/20/2009 4:17:26 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\gfw_high.ico - 131577
+3/30/2010 3:19:00 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\goggame.dll - 261120
+11/28/2008 11:18:24 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\IBMKBD.DRV - 537
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\INTERP.TXT - 2372
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\JOYSTICK.DRV - 607
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\MCGA320.DRV - 4357
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\MCGA320M.DRV - 910
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\METER.DLL - 15537
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\MMAWARE.DLL - 6442
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\MT32.DRV - 1976
+1/28/2010 2:20:52 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\RESOURCE.000 - 571368
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\RESOURCE.001 - 16800210
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\RESOURCE.CFG - 226
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\RESOURCE.MAP - 13122
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\SCIDLL.DLL - 13312
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\SCIKQ5.EXE - 140288
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\SIERRA.EXE - 138499
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\STD.DRV - 1461
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\TANDY3V.DRV - 3950
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\VERSION - 11
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\VGA320.DRV - 5846
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\VGA320BW.DRV - 5909
+11/28/2008 11:18:32 PM - ProgramFilesX86\GOG.com\Kings Quest 4-5-6\Kings Quest 5\WINRES.CFG - 203
+
+UAC Enabled
+
+
+VirtualStore Folders: 
+2/6/2012 9:00:33 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\KQ5SG.000 - 18356
+2/6/2012 9:00:40 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\KQ5SG.001 - 18359
+2/6/2012 9:00:40 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\KQ5SG.DIR - 17
+2/6/2012 8:59:49 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\stderr.txt - 0
+2/6/2012 9:00:44 PM - VirtualStore\Program Files (x86)\GOG.com\Kings Quest 4-5-6\Kings Quest 5\stdout.txt - 301
