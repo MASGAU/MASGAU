@@ -2304,7 +2304,9 @@
   </game>
   <game name="HackerEvolution" platform="Windows">
     <title>Hacker Evolution</title>
+    <location_path environment_variable="installlocation" path="Hacker Evolution"/>
     <location_registry root="local_machine" key="SOFTWARE\Stardock\Drengin.net\hev" value="Path"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Games\Hacker Evolution.lnk"/>
     <save path="he-savegames" filename="*.profile"/>
     <save path="he-data" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
