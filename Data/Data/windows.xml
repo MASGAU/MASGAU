@@ -3272,17 +3272,17 @@
   </game>
   <game name="NeverwinterNights" platform="Windows">
     <title>Neverwinter Nights</title>
-    <location_path environment_variable="installlocation" path="NeverwinterNights"/>
+    <location_path environment_variable="installlocation" path="NeverwinterNights\NWN"/>
     <location_registry root="local_machine" key="SOFTWARE\BioWare\NWN\Neverwinter" value="Location"/>
     <location_path environment_variable="installlocation" path="GOG.com\Neverwinter Nights Diamond Edition"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGNWNDIAMOND" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Neverwinter Nights Diamond Edition\Neverwinter Nights Diamond Edition.lnk"/>
-    <save path="NWN" filename="nwn.ini" type="Settings"/>
-    <save path="NWN" filename="nwnplayer.ini" type="Settings"/>
-    <save path="NWN\dmvault" type="Characters"/>
-    <save path="NWN\localvault" type="Characters"/>
-    <save path="NWN\saves"/>
-    <save path="NWN\servervault" type="Characters"/>
+    <save filename="nwn.ini" type="Settings"/>
+    <save filename="nwnplayer.ini" type="Settings"/>
+    <save path="dmvault" type="Characters"/>
+    <save path="localvault" type="Characters"/>
+    <save path="saves"/>
+    <save path="servervault" type="Characters"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="NeverwinterNights2" platform="Windows">
