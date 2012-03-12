@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2011-12-25T00:00:00">
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-03-12T08:48:46">
   <!--This file contains game for Microsoft Windows-->
   <game name="25ToLife" platform="Windows">
     <title>25 to Life</title>
@@ -34,7 +34,7 @@
   </game>
   <game name="AfterfallInsanity" platform="Windows">
     <title>Afterfall: Insanity</title>
-    <location_path environment_variable="userdocuments" path="My Games\Afterfall InSanity" />
+    <location_path environment_variable="userdocuments" path="My Games\Afterfall InSanity"/>
     <save path="Binaries\SaveData"/>
     <save path="RascalGame\SaveData"/>
     <save path="RascalGame\Config" type="Settings"/>
@@ -84,7 +84,7 @@
   </game>
   <game name="AIMRacing" platform="Windows">
     <title>A.I.M. Racing</title>
-    <location_path environment_variable="userdocuments" path="My Games\A.I.M. Racing" />
+    <location_path environment_variable="userdocuments" path="My Games\A.I.M. Racing"/>
     <save/>
     <ignore path="My Music"/>
     <contributor>AdmiringWorm</contributor>
@@ -329,8 +329,8 @@
   </game>
   <game name="AvadonTheBlackFortress" platform="Windows">
     <title>Avadon: The Black Fortress</title>
-    <location_path environment_variable="userdocuments" path="Spiderweb Software" />
-    <save path="Avadon Saved Games" />
+    <location_path environment_variable="userdocuments" path="Spiderweb Software"/>
+    <save path="Avadon Saved Games"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="AvatarTheGame" platform="Windows">
@@ -557,19 +557,19 @@
   </game>
   <game name="BlackwellConvergenceRemastered" platform="Windows">
     <title>Blackwell Trilogy Remastered: Blackwell Convergence</title>
-    <location_path environment_variable="steamcommon" path="blackwell convergence" />
+    <location_path environment_variable="steamcommon" path="blackwell convergence"/>
     <save path="Saves"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="BlackwellLegacyRemastered" platform="Windows">
     <title>Blackwell Trilogy Remastered: The Blackwell Legacy</title>
-    <location_path environment_variable="steamcommon" path="blackwell legacy" />
+    <location_path environment_variable="steamcommon" path="blackwell legacy"/>
     <save path="Saves"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="BlackwellUnboundRemastered" platform="Windows">
     <title>Blackwell Trilogy Remastered: Blackwell Unbound</title>
-    <location_path environment_variable="steamcommon" path="blackwell unbound" />
+    <location_path environment_variable="steamcommon" path="blackwell unbound"/>
     <save path="Saves"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -772,9 +772,9 @@
   </game>
   <game name="CallOfDutyModernWarfare3" platform="Windows">
     <title>Call of Duty: Modern Warfare 3</title>
-    <location_path environment_variable="steamcommon" path="call of duty modern warfare 3" />
-    <save path="players2\save" />
-    <save path="players2" filename="*" type="Settings" />
+    <location_path environment_variable="steamcommon" path="call of duty modern warfare 3"/>
+    <save path="players2\save"/>
+    <save path="players2" filename="*" type="Settings"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="CallOfDutyUnitedOffensive" platform="Windows">
@@ -938,7 +938,7 @@
   </game>
   <game name="ClassicCarRacing" platform="Windows">
     <title>Classic Car Racing</title>
-    <location_path environment_variable="steamcommon" path="classic car racing" />
+    <location_path environment_variable="steamcommon" path="classic car racing"/>
     <save path="Data\profiles"/>
     <save path="Data" filename="AudioSettings.scr" type="Settings"/>
     <save path="Data" filename="CoDrvReader.scr" type="Settings"/>
@@ -1082,7 +1082,7 @@
   <game name="CSINYTheGame" platform="Windows">
     <title>CSI: NY The Game</title>
     <location_path environment_variable="appdata" path="Ubisoft\Legacy"/>
-    <save filename="csiconfig.dat" />
+    <save filename="csiconfig.dat"/>
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="CthulhuSavesTheWorld" platform="Windows">
@@ -1220,10 +1220,10 @@
   </game>
   <game name="DarkVoid" platform="Windows">
     <title>Dark Void</title>
-    <location_path environment_variable="userdocuments" path="My Games\Airtight\Dark Void" />
+    <location_path environment_variable="userdocuments" path="My Games\Airtight\Dark Void"/>
     <save path="SavedGames"/>
     <save path="SkyGame\Config" type="Settings"/>
-    <save filename="profile.dvp" />
+    <save filename="profile.dvp"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="Darwinia" platform="Windows">
@@ -1400,7 +1400,7 @@
     <contributor>Arc Angel</contributor>
   </game>
   <game name="DocClockTheToastedSandwichOfTime" platform="Windows">
-    <title>Doc Clock: The Toasted Sandwich of Time (Settings)</title>
+    <title>Doc Clock: The Toasted Sandwich of Time</title>
     <location_path environment_variable="appdata" path="DocClockGame"/>
     <save type="Settings"/>
     <contributor>AvvA</contributor>
@@ -1432,6 +1432,13 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="DragonAge2" platform="Windows">
+    <title>Dragon Age II</title>
+    <location_path environment_variable="userdocuments" path="BioWare\Dragon Age 2"/>
+    <save path="Settings" type="Settings"/>
+    <save path="Characters"/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="DragonAgeOrigins" platform="Windows">
     <title>Dragon Age: Origins</title>
     <location_path environment_variable="userdocuments" path="BioWare\Dragon Age"/>
@@ -1439,13 +1446,6 @@
     <save path="Settings" filename="KeyBindings.ini" type="Settings"/>
     <save path="Characters"/>
     <contributor>SanMadJack</contributor>
-  </game>
-  <game name="DragonAge2" platform="Windows">
-    <title>Dragon Age II</title>
-    <location_path environment_variable="userdocuments" path="BioWare\Dragon Age 2" />
-    <save path="Settings" type="Settings" />
-    <save path="Characters" />
-    <contributor>Arc Angel</contributor>
   </game>
   <game name="Dragonshard" platform="Windows">
     <title>Dragonshard</title>
@@ -1473,14 +1473,14 @@
   </game>
   <game name="Dreamkiller" platform="Windows">
     <title>Dreamkiller</title>
-    <location_path environment_variable="userdocuments" path="Aspyr\Dreamkiller" />
-    <save path="Saves" />
-    <save filename="Config.txt" type="Settings" />
+    <location_path environment_variable="userdocuments" path="Aspyr\Dreamkiller"/>
+    <save path="Saves"/>
+    <save filename="Config.txt" type="Settings"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="Driver3" platform="Windows">
     <title>Driv3r</title>
-    <location_path environment_variable="installlocation" path="Atari\DRIV3R" />
+    <location_path environment_variable="installlocation" path="Atari\DRIV3R"/>
     <save path="Saves"/>
     <save path="Configs" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
@@ -1496,13 +1496,6 @@
     <title>Drug Wars: Merchants of Brooklyn</title>
     <location_path environment_variable="userdocuments" path="My Games\MOB"/>
     <save/>
-    <contributor>Arc Angel</contributor>
-  </game>
-  <game name="DungeonsAndDragonsDaggerdale" platform="Windows">
-    <title>Dungeons &amp; Dragons: Daggerdale</title>
-    <location_path environment_variable="userdocuments" path="My Games\Daggerdale\DnDGame" />
-    <save path="Config" type="Settings"/>
-    <save path="SaveData"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="DungeonKeeper" platform="Windows">
@@ -1523,6 +1516,13 @@
     <location_path environment_variable="installlocation" path="Bullfrog\Dungeon Keeper II"/>
     <save path="Data\Save"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="DungeonsAndDragonsDaggerdale" platform="Windows">
+    <title>Dungeons &amp; Dragons: Daggerdale</title>
+    <location_path environment_variable="userdocuments" path="My Games\Daggerdale\DnDGame"/>
+    <save path="Config" type="Settings"/>
+    <save path="SaveData"/>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="DungeonsOfDredmor" platform="Windows">
     <title>Dungeons of Dredmor</title>
@@ -1635,6 +1635,35 @@
     <save path="Users\*\Civilizations" type="Civilizations"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="EmpireEarth2" platform="Windows">
+    <title>Empire Earth II</title>
+    <location_path environment_variable="userdocuments" path="Empire Earth II"/>
+    <save path="savegame*"/>
+    <save path="CustomCivs" type="Civs"/>
+    <save path="CustomForces" type="Forces"/>
+    <save path="maps" type="Maps"/>
+    <save path="scenario" type="Scenarios"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="EmpireEarth2TheArtOfSupremacy" platform="Windows">
+    <title>Empire Earth II: The Art of Supremacy</title>
+    <location_path environment_variable="userdocuments" path="Empire Earth II The Art of Supremacy"/>
+    <save path="savegame*"/>
+    <save path="CustomCivs" type="Civs"/>
+    <save path="CustomForces" type="Forces"/>
+    <save path="maps" type="Maps"/>
+    <save path="scenario*" type="Scenarios"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="EmpireEarth3" platform="Windows">
+    <title>Empire Earth III</title>
+    <location_path environment_variable="userdocuments" path="Empire Earth III"/>
+    <save path="profiles\*\savegame*"/>
+    <save path="profiles\*\CustomCivs" type="Civs"/>
+    <save path="profiles\*\maps" type="Maps"/>
+    <save path="scenario" type="Scenarios"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="EmpireEarthTheArtOfConquest" platform="Windows">
     <title>Empire Earth: The Art of Conquest</title>
     <location_path environment_variable="installlocation" path="GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest"/>
@@ -1645,35 +1674,6 @@
     <save path="Data\Campaigns" type="Campaigns" modified_after="2002-08-21T00:00:00"/>
     <save path="Data\Scenarios" type="Scenarios"/>
     <save path="Users\*\Civilizations" type="Civilizations"/>
-    <contributor>SanMadJack</contributor>
-  </game>
-  <game name="EmpireEarth2" platform="Windows">
-    <title>Empire Earth II</title>
-    <location_path environment_variable="userdocuments" path="Empire Earth II" />
-    <save path="savegame*" />
-    <save path="CustomCivs" type="Civs" />
-    <save path="CustomForces" type="Forces" />
-    <save path="maps" type="Maps" />
-    <save path="scenario" type="Scenarios" />
-    <contributor>SanMadJack</contributor>
-  </game>
-  <game name="EmpireEarth2TheArtOfSupremacy" platform="Windows">
-    <title>Empire Earth II: The Art of Supremacy</title>
-    <location_path environment_variable="userdocuments" path="Empire Earth II The Art of Supremacy" />
-    <save path="savegame*" />
-    <save path="CustomCivs" type="Civs" />
-    <save path="CustomForces" type="Forces" />
-    <save path="maps" type="Maps" />
-    <save path="scenario*" type="Scenarios" />
-    <contributor>SanMadJack</contributor>
-  </game>
-  <game name="EmpireEarth3" platform="Windows">
-    <title>Empire Earth III</title>
-    <location_path environment_variable="userdocuments" path="Empire Earth III" />
-    <save path="profiles\*\savegame*" />
-    <save path="profiles\*\CustomCivs" type="Civs" />
-    <save path="profiles\*\maps" type="Maps" />
-    <save path="scenario" type="Scenarios" />
     <contributor>SanMadJack</contributor>
   </game>
   <game name="EschalonBook1" platform="Windows">
@@ -2231,18 +2231,18 @@
     <require_detection/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="GrotesqueTactics2" platform="Windows">
+    <title>Grotesque Tactics 2: Dungeons and Donuts</title>
+    <location_path environment_variable="userdocuments" path="Grotesque-Tactics2"/>
+    <save path="SaveGames"/>
+    <save path="Settings" type="Settings"/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="GrotesqueTacticsEvilHeroes" platform="Windows">
     <title>Grotesque Tactics: Evil Heroes</title>
     <location_path environment_variable="userdocuments" path="Grotesque-Tactics"/>
     <save path="SaveGames"/>
     <save path="Settings" type="Settings"/>
-    <contributor>Arc Angel</contributor>
-  </game>
-  <game name="GrotesqueTactics2" platform="Windows">
-    <title>Grotesque Tactics 2: Dungeons and Donuts</title>
-    <location_path environment_variable="userdocuments" path="Grotesque-Tactics2" />
-    <save path="SaveGames" />
-    <save path="Settings" type="Settings" />
     <contributor>Arc Angel</contributor>
   </game>
   <game name="GTIRacing" platform="Windows">
@@ -2403,9 +2403,9 @@
   </game>
   <game name="HardReset" platform="Windows">
     <title>Hard Reset</title>
-    <location_path environment_variable="userdocuments" path="Hard Reset" />
-    <save filename="profiles.cfg" />
-    <save path="profiles" />
+    <location_path environment_variable="userdocuments" path="Hard Reset"/>
+    <save filename="profiles.cfg"/>
+    <save path="profiles"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="Hardwar" platform="Windows">
@@ -2521,7 +2521,7 @@
   </game>
   <game name="HuntedTheDemonsForge" platform="Windows">
     <title>Hunted: The Demon's Forge</title>
-    <location_path environment_variable="userdocuments" path="My Games\Hunted" />
+    <location_path environment_variable="userdocuments" path="My Games\Hunted"/>
     <save path="DFGame\Config" type="Settings"/>
     <save path="DFGame\SaveData"/>
     <contributor>Arc Angel</contributor>
@@ -2551,14 +2551,14 @@
   </game>
   <game name="IcyTower15" platform="Windows">
     <title>Icy Tower 1.5</title>
-    <location_path environment_variable="installlocation" path="games\icytower1.5" />
+    <location_path environment_variable="installlocation" path="games\icytower1.5"/>
     <location_registry root="local_machine" key="SOFTWARE\Conduit\AppPaths\icytower15.exe" value="AppPath" detract="\icytower15.exe"/>
     <save path="profiles"/>
     <save path="profiles\*\replays" type="Replays"/>
     <save path="characters" type="Characters"/>
     <ignore path="profiles" filename="dummy.txt"/>
     <ignore path="profiles\*" filename="dummy.txt"/>
-    <ignore path="profiles\*\replays" />
+    <ignore path="profiles\*\replays"/>
     <ignore path="profiles\*\replays" filename="dummy.txt" type="Replays"/>
     <contributor>AdmiringWorm</contributor>
   </game>
@@ -2642,9 +2642,9 @@
   <game name="InsecticidePart1" platform="Windows">
     <title>Insecticide Part 1</title>
     <location_path environment_variable="installlocation" path="Crackpot Entertainment\Insecticide Part 1"/>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B01722D3-75CC-461E-B41F-BB4BE30CE9E4}" value="InstallLocation"/>
     <location_shortcut environment_variable="startmenu" path="Programs\Crackpot Entertainment\Insecticide Part 1\Play Insecticide Episode 1.lnk"/>
-    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B01722D3-75CC-461E-B41F-BB4BE30CE9E4}" value="InstallLocation" />
-    <save path="profiles" />
+    <save path="profiles"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="JackKeane" platform="Windows">
@@ -2733,8 +2733,8 @@
   <game name="KingsQuest8" platform="Windows">
     <title>King's Quest: Mask of Eternity</title>
     <location_path environment_variable="installlocation" path="GOG.com\KQ78\KQ8"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ8" value="PATH" />
-    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 7-8\King's Quest - Mask of Eternity\King's Quest - Mask of Eternity.lnk" />
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ8" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 7-8\King's Quest - Mask of Eternity\King's Quest - Mask of Eternity.lnk"/>
     <save path="save"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -3149,7 +3149,7 @@
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="MonkeyIsland2SpecialEditionLeChucksRevenge" platform="Windows">
-    <title>Monkey Island 2 Special Edition: LeChucks Revenge</title>
+    <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
     <location_path environment_variable="appdata" path=" LucasArts\Monkey Island 2 Special Edition "/>
     <save/>
     <contributor>slake_jones</contributor>
@@ -3183,7 +3183,7 @@
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="MountAndBladeWarband" platform="Windows">
-    <title>Mount&amp;Blade: Warband</title>
+    <title>Mount &amp; Blade: Warband</title>
     <location_path environment_variable="userdocuments" path="Mount&amp;Blade Warband Savegames"/>
     <save/>
     <contributor>Arc Angel</contributor>
@@ -3236,8 +3236,8 @@
   </game>
   <game name="NavalWarfare" platform="Windows">
     <title>Naval Warfare</title>
-    <location_path environment_variable="appdata" path="Naval Warfare" />
-    <save />
+    <location_path environment_variable="appdata" path="Naval Warfare"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="NecrovisioNLostCompany" platform="Windows">
@@ -3275,8 +3275,8 @@
   <game name="NeverwinterNights" platform="Windows">
     <title>Neverwinter Nights</title>
     <location_path environment_variable="installlocation" path="NeverwinterNights\NWN"/>
-    <location_registry root="local_machine" key="SOFTWARE\BioWare\NWN\Neverwinter" value="Location"/>
     <location_path environment_variable="installlocation" path="GOG.com\Neverwinter Nights Diamond Edition"/>
+    <location_registry root="local_machine" key="SOFTWARE\BioWare\NWN\Neverwinter" value="Location"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGNWNDIAMOND" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Neverwinter Nights Diamond Edition\Neverwinter Nights Diamond Edition.lnk"/>
     <save filename="nwn.ini" type="Settings"/>
@@ -3674,9 +3674,9 @@
   </game>
   <game name="ProjectBlackSun" platform="Windows">
     <title>Project Black Sun</title>
-    <location_path environment_variable="userdocuments" path="ProjectBlackSun" />
-    <save filename="config.xml" type="Settings" />
-    <save filename="savedata.xml" />
+    <location_path environment_variable="userdocuments" path="ProjectBlackSun"/>
+    <save filename="config.xml" type="Settings"/>
+    <save filename="savedata.xml"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="ProjectSnowblind" platform="Windows">
@@ -3742,7 +3742,7 @@
   <game name="RACE07" platform="Windows">
     <title>RACE 07</title>
     <location_path environment_variable="userdocuments" path="SimBin\RACE 07"/>
-    <save path="UserData" />
+    <save path="UserData"/>
     <save path="REPLAYDATA" type="Replays"/>
     <save filename="Config.ini" type="Settings"/>
     <ignore path="UserData\LOG"/>
@@ -4253,7 +4253,7 @@
     <contributor>SanMadJack</contributor>
   </game>
   <game name="SecretOfMonkeyIslandSpecialEdition" platform="Windows">
-    <title>The Secret of Monkey Island Special Edition</title>
+    <title>The Secret of Monkey Island™ Special Edition</title>
     <location_path environment_variable="appdata" path="LucasArts\The Secret of Monkey Island Special Edition"/>
     <identifier filename="monkey1.bin"/>
     <save filename="Settings.ini" type="Settings"/>
@@ -4310,7 +4310,7 @@
     <title>Shaiya</title>
     <location_path environment_variable="installlocation" path="AeriaGames\Shaiya"/>
     <location_registry root="local_machine" key="SOFTWARE\SONOV\Shaiya" value="Path"/>
-    <save filename="*CONFIG.INI" type="Settings" />
+    <save filename="*CONFIG.INI" type="Settings"/>
     <comment>AdmiringWorm</comment>
   </game>
   <game name="Shellshock2" platform="Windows">
@@ -4669,7 +4669,7 @@
   </game>
   <game name="StreetsOfMoscow" platform="Windows">
     <title>Streets of Moscow</title>
-    <location_path environment_variable="userdocuments" path="My Games\Streets of Moscow" />
+    <location_path environment_variable="userdocuments" path="My Games\Streets of Moscow"/>
     <save path="profiles"/>
     <save filename="settings.blk" type="Settings"/>
     <save path="config" type="Settings"/>
@@ -4749,8 +4749,8 @@
     <location_path environment_variable="userdocuments" path="Telltale Games\tales of monkey island - chapter 1"/>
     <save filename="*.save"/>
     <save filename="prefs.prop" type="Settings"/>
-    <contributor>SanMadJack</contributor>
     <contributor>AdmiringWorm</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="TalesOfMonkeyIsland2" platform="Windows">
     <title>Tales of Monkey Island Chapter 2: The Siege of Spinner Cay</title>
@@ -4758,32 +4758,32 @@
     <location_path environment_variable="userdocuments" path="Telltale Games\tales of monkey island - chapter 2"/>
     <save filename="*.save"/>
     <save filename="prefs.prop" type="Settings"/>
-    <contributor>SanMadJack</contributor>
     <contributor>AdmiringWorm</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="TalesOfMonkeyIsland3" platform="Windows">
     <title>Tales of Monkey Island Chapter 3: Lair of the Leviathan</title>
     <location_path environment_variable="userdocuments" path="Telltale Games\Lair of the Leviathan"/>
     <save filename="*.save"/>
     <save filename="prefs.prop" type="Settings"/>
-    <contributor>SanMadJack</contributor>
     <contributor>AdmiringWorm</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="TalesOfMonkeyIsland4" platform="Windows">
     <title>Tales of Monkey Island Chapter 4: The Trial and Execution of Guybrush Threepwood</title>
     <location_path environment_variable="userdocuments" path="Telltale Games\The Trial and Execution of Guybrush Threepwood"/>
     <save filename="*.save"/>
     <save filename="prefs.prop" type="Settings"/>
-    <contributor>SanMadJack</contributor>
     <contributor>AdmiringWorm</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="TalesOfMonkeyIsland5" platform="Windows">
     <title>Tales of Monkey Island Chapter 5: Rise of the Pirate God</title>
     <location_path environment_variable="userdocuments" path="Telltale Games\Rise of the Pirate God"/>
     <save filename="*.save"/>
     <save filename="prefs.prop" type="Settings"/>
-    <contributor>SanMadJack</contributor>
     <contributor>AdmiringWorm</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="TankUniversal" platform="Windows">
     <title>Tank Universal</title>
@@ -5202,8 +5202,8 @@
   </game>
   <game name="VenusHostage" platform="Windows">
     <title>Venus Hostage</title>
-    <location_path environment_variable="appdata" path="VenusHostage" />
-    <save filename="VenusHostage.*" />
+    <location_path environment_variable="appdata" path="VenusHostage"/>
+    <save filename="VenusHostage.*"/>
     <save filename="config.ini" type="Settings"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -5332,7 +5332,7 @@
   </game>
   <game name="WhisperedWorld" platform="Windows">
     <title>The Whispered World</title>
-    <location_path environment_variable="steamcommon" path="whispered world" />
+    <location_path environment_variable="steamcommon" path="whispered world"/>
     <save path="savegames"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -5400,8 +5400,8 @@
   </game>
   <game name="X3AlbionPrelude" platform="Windows">
     <title>X3: Albion Prelude</title>
-    <location_path environment_variable="userdocuments" path="Egosoft\X3AP" />
-    <save path="save" />
+    <location_path environment_variable="userdocuments" path="Egosoft\X3AP"/>
+    <save path="save"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="X3Reunion" platform="Windows">
@@ -5468,7 +5468,7 @@
   </game>
   <game name="XpandRallyExtreme" platform="Windows">
     <title>Xpand Rally Extreme</title>
-    <location_path environment_variable="steamcommon" path="xpand rally xtreme" />
+    <location_path environment_variable="steamcommon" path="xpand rally xtreme"/>
     <location_registry root="local_machine" key="SOFTWARE\Techland\XpandRallyXtreme" value="DestinationDir"/>
     <save path="Data\profiles"/>
     <save path="Data" filename="AudioSettings.scr" type="Settings"/>
