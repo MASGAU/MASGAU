@@ -11,13 +11,13 @@
 
   <!-- Probably shouldn't translate this one -->
   <string name="MASGAU">MASGAU</string>
-  <string name="MASGAUFullTitle">MASGAU Automatisk savegames arkiveringsverktøy</string> <!-- We don't have a correct translation for Save Game in Norwegian -->
+  <string name="MASGAUFullTitle">MASGAU Automatisk arkiveringsverktøy for lagringsfiler</string>
   <string name="MASGAUPlural">%MASGAU%'s</string>
 
   <!-- Common strings-->
   <string name="Loading">Laster</string>
   <string name="Ready">Klar</string>
-  <string name="Progress">Fremdrift</string> <!-- unsure what it will be -->
+  <string name="Progress">Fremdrift</string>
 
   <string name="Portable">Portabel</string>
   <string name="MainProgram">Hovedprogram</string>
@@ -125,7 +125,7 @@
   <string name="BackupFolderNotSet">Sikkerhetskopi mappen har ikke blitt satt\nDu kan sette denne under instillinger fanen</string>
 
   <string name="SelectArchive">Velg Arkiv å gjenopprette</string>
-  <string name="FileNotArchiveTitle">Filen er inget arkiv</string> <!-- I'm guessing this is for when the file isn't an archive -->
+  <string name="FileNotArchiveTitle">Filen er inget arkiv</string>
   <string name="FileNotArchiveMessage">Denne filen er ikke ett riktig formatert MASGAU arkiv</string>
 
   <!-- Task tab-->
@@ -187,7 +187,7 @@
   <string name="SelectBackupPath">Velg hvor sikkerhetskopier skal bli lagret</string>
   <string name="SelectBackupPathReadError">%ReadPermissionError% den valgte sikkerhetskopi mappen</string>
   <string name="SelectBackupPathWriteError">%WritePermissionError% den valgte sikkerhetskopi mappen</string>
-  <string name="SelectSyncPath">Velg hvor saves vil bli synkronisert</string> <!-- no correct translation with the word saves, if translated would mean something else -->
+  <string name="SelectSyncPath">Velg hvor lagringsfiler skal bli synkronisert</string>
   <string name="SelectSyncPathReadError">%ReadPermissionError% den valgte synkronisering smappen</string>
   <string name="SelectSyncPathWriteError">%WritePermissionError% den valgte synkronisering smappen</string>
   <string name="SelectAltPath">Velg en alternativ installasjons bane</string>
@@ -195,7 +195,7 @@
   <string name="SelectAltPathDuplicateTitle">Nøyaktig Kopi</string>
   <string name="SelectAltPathDuplicateMessage">Banen du har valgt er allerede lagt til</string>
   <string name="SelectSteamPath">Velg hvor Steam er installert</string>
-  <string name="SelectSteamPathRejectedTitle">Prøv igjen</string> <!-- Not a translation, just means try again -->
+  <string name="SelectSteamPathRejectedTitle">Prøv igjen</string>
   <string name="SelectSteamPathRejectedMessage">Den valgte mappen har ikke Steam.exe, så den er muligens ikke en Steam mappe</string>
 
   <!-- Restore process -->
@@ -232,7 +232,7 @@
 
   <string name="RestoreCompleteWithComment">Annet enn det, gjenopprettingen er fullført!</string>
 
-  <!-- Windows 7 Jump List --> <!-- Most of these aren't really necessary do translate are they? -->
+  <!-- Windows 7 Jump List -->
   <string name="JumpMainProgram">%MainProgram%</string>
   <string name="JumpMainProgramDescription">%Open% %MASGAUPlural% %MainProgram%</string>
   <string name="JumpMainProgramAllUsers">%JumpMainProgram% (%AllUsersMode%)</string>
@@ -251,7 +251,6 @@
   <string name="MonitorMenuSettings">Installinger...</string>
   <string name="MonitorMenuExit">Lukk</string>
   <string name="MonitorNegativeGames">%MonitorTitle% er...HVA!??!</string>
-  <!-- Unsure if "forfølger"(Direct translation of Stalking) would be the correct word here, could also be følger(Translates to following) -->
   <string name="MonitorZeroGames">%MonitorTitle%  forfølger ingen spill</string>
   <string name="MonitorOneGame">%MonitorTitle% forfølger ett spill</string>
   <string name="MonitorMultipleGamesPrefix">%MonitorTitle% forfølger"</string>
@@ -261,7 +260,7 @@
   <string name="AnalyzerWindowTitle">Savegame Analyserer</string>
   <string name="GameNameQuestion">Hva er spillets navn?</string>
   <string name="GameInstallQuestion">Hvor er spillet installert?</string>
-  <string name="GameSavesQuestion">Hvor er spillets savegames?</string>
+  <string name="GameSavesQuestion">Hvor er spillets lagringsfiler?</string>
   <string name="ScanButton">_Søk og lag en rapport </string>
   <string name="InstallFolder">Installasjons mappe</string>
   <!-- Folder browser titles -->
@@ -270,7 +269,7 @@
   <!-- Playstation tab -->
   <string name="PlayStationScanButton">Velg og lag en rapport</string>
   <string name="PlayStationCodeQuestion">Hva er dette spillets kode?</string>
-  <string name="PlayStationLocationQuestion">Hvor er Playstation saves</string>
+  <string name="PlayStationLocationQuestion">Hvor er Playstations lagringsfiler</string>
   <string name="PlayStationLocationPrompt">Velg PlayStations Lagrings mappe</string>
   <!-- Searching window -->
   <string name="SearchingWindowTitle">Søker etter Spill informasjon...</string>
