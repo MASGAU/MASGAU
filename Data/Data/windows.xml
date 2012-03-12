@@ -234,6 +234,14 @@
     <save path="Savegames"/>
     <contributor>Caleb Love</contributor>
   </game>
+  <game name="APBReloaded" platform="Windows">
+    <title>APB Reloaded</title>
+    <location_path environment_variable="steamcommon" path="apb reloaded"/>
+    <save path="APBGame\Config\Account" type="Settings"/>
+    <save path="Engine\Config" type="Settings"/>
+    <save path="Engine\Stats" type="Statistics"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="Aquanox" platform="Windows">
     <title>Aquanox</title>
     <location_path environment_variable="appdata" path="AquaNox"/>
@@ -2870,6 +2878,13 @@
     <save path="BIOGame\Profile"/>
     <save path="Save"/>
     <contributor>Christian Hamann</contributor>
+  </game>
+  <game name="MassEffect3" platform="Windows">
+    <title>Mass Effect 3</title>
+    <location_path environment_variable="userdocuments" path="BioWare\Mass Effect 3"/>
+    <save path="BIOGame\Config" type="Settings"/>
+    <save path="Save"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="MasterOfOrion2" platform="Windows">
     <title>Master of Orion 2: Battle at Antares</title>
