@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2011-12-25T00:00:00">
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-03-12T08:48:46">
   <!--This file contains PlayStation 3 games-->
   <game name="AssassinsCreed" platform="PS3" region="USA">
     <title>Assassin's Creed</title>
@@ -8,7 +8,7 @@
   </game>
   <game name="AssassinsCreedBrotherhood" platform="PS3" region="EUR">
     <title>Assassin's Creed: Brotherhood</title>
-    <ps_code prefix="BLES" suffix="00909" />
+    <ps_code prefix="BLES" suffix="00909"/>
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="AssassinsCreedRevelations" platform="PS3" region="EUR">

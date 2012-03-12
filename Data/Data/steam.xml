@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2011-12-25T00:00:00">
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
   <!--This file contains games whose saves are only compatible with Steam releases of the game-->
   <game name="AlienSwarm" platform="Steam">
     <title>Alien Swarm</title>
@@ -9,8 +9,8 @@
   </game>
   <game name="AnomalyWarzoneEarth" platform="Steam">
     <title>Anomaly: Warzone Earth</title>
-    <location_path environment_variable="steamuserdata" path="91200" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="91200"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="Bastion" platform="Steam">
@@ -33,8 +33,8 @@
   </game>
   <game name="CallOfJuarezTheCartel" platform="Steam">
     <title>Call of Juarez: The Cartel</title>
-    <location_path environment_variable="steamuserdata" path="33420\remote\out" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="33420\remote\out"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="Civilization5" platform="Steam">
@@ -124,7 +124,7 @@
     <contributor>Arc Angel</contributor>
   </game>
   <game name="MonkeyIsland2SpecialEditionLeChucksRevenge" platform="Steam">
-    <title>Monkey Island 2 Special Edition: LeChucks Revenge</title>
+    <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
     <location_path environment_variable="steamuserdata" path="32460"/>
     <save/>
     <contributor>slake_jones</contributor>
@@ -165,6 +165,12 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="SeriousSam3BFE" platform="Steam">
+    <title>Serious Sam 3: BFE</title>
+    <location_path environment_variable="steamuserdata" path="41070\local"/>
+    <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="SeriousSamHD1" platform="Steam">
     <title>Serious Sam HD: The First Encounter</title>
     <location_path environment_variable="steamuserdata" path="41000\local\SeriousSamHD"/>
@@ -175,12 +181,6 @@
     <title>Serious Sam HD: The Second Encounter</title>
     <location_path environment_variable="steamuserdata" path="41010\local\SeriousSamHD_TSE"/>
     <save/>
-    <contributor>Arc Angel</contributor>
-  </game>
-  <game name="SeriousSam3BFE" platform="Steam">
-    <title>Serious Sam 3: BFE</title>
-    <location_path environment_variable="steamuserdata" path="41070\local" />
-    <save />
     <contributor>Arc Angel</contributor>
   </game>
   <game name="Shank" platform="Steam">
@@ -197,14 +197,14 @@
   </game>
   <game name="Warhammer40kDawnOfWar2Retribution" platform="Steam">
     <title>Warhammer 40,000: Dawn of War II - Retribution</title>
-    <location_path environment_variable="steamuserdata" path="56400" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="56400"/>
+    <save/>
     <contributor>AvvA</contributor>
   </game>
   <game name="Warhammer40kSpaceMarine" platform="Steam">
     <title>Warhammer 40,000: Space Marine</title>
-    <location_path environment_variable="steamuserdata" path="55150\remote" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="55150\remote"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
 </games>

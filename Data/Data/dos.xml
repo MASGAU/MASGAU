@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2011-12-25T00:00:00">
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
   <!--This file contains games that are for the DOS platform. Most of these make use of DOSBOX for their installs.-->
   <game name="AloneInTheDark" platform="DOS">
     <title>Alone in the Dark</title>
@@ -120,7 +120,7 @@
   <game name="KingsQuest" platform="DOS">
     <title>King's Quest</title>
     <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 1"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ1" value="PATH" />
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ1" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest\King's Quest.lnk" append="Kings Quest 1" detract="DOSBOX"/>
     <save filename="KQ1SG.*"/>
     <contributor>SanMadJack</contributor>
@@ -128,7 +128,7 @@
   <game name="KingsQuest2" platform="DOS">
     <title>King's Quest II: Romancing the Throne</title>
     <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 2"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ2" value="PATH" />
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ2" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest 2\King's Quest II - Romancing the Throne.lnk" append="Kings Quest 2" detract="DOSBOX"/>
     <save filename="KQ2SG.*"/>
     <contributor>SanMadJack</contributor>
@@ -136,7 +136,7 @@
   <game name="KingsQuest3" platform="DOS">
     <title>King's Quest III: To Heir is Human</title>
     <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 3"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ3" value="PATH" />
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ3" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest 3\King's Quest III - To Heir is Human.lnk" append="Kings Quest 3" detract="DOSBOX"/>
     <save filename="KQ3SG.*"/>
     <contributor>SanMadJack</contributor>
@@ -144,7 +144,7 @@
   <game name="KingsQuest4" platform="DOS">
     <title>King's Quest 4: The Perils of Rosella</title>
     <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 4"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ4" value="PATH" />
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ4" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 4 - The Perils of Rosella\King's Quest 4 - The Perils of Rosella.lnk" append="Kings Quest 4" detract="DOSBOX"/>
     <save filename="KQ4SG.*"/>
     <contributor>SanMadJack</contributor>
@@ -152,7 +152,7 @@
   <game name="KingsQuest5" platform="DOS">
     <title>King's Quest 5: Absence Makes the Heart Go Yonder</title>
     <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 5"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ5" value="PATH" />
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ5" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 5 - Absence Makes the Heart Go Yonder\King's Quest 5 - Absence Makes the Heart Go Yonder.lnk" append="Kings Quest 5" detract="DOSBOX"/>
     <save filename="KQ5SG.*"/>
     <contributor>SanMadJack</contributor>
@@ -160,7 +160,7 @@
   <game name="KingsQuest6" platform="DOS">
     <title>King's Quest 6: Heir Today, Gone Tomorrow</title>
     <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 6"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ6" value="PATH" />
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ6" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 6 - Heir Today, Gone Tomorrow\King's Quest 6 - Heir Today, Gone Tomorrow.lnk" append="Kings Quest 6" detract="DOSBOX"/>
     <save filename="KQ6SG.*"/>
     <contributor>SanMadJack</contributor>
@@ -168,7 +168,7 @@
   <game name="KingsQuest7" platform="DOS">
     <title>King's Quest 7: The Princeless Bride</title>
     <location_path environment_variable="installlocation" path="GOG.com\KQ78\KQ7"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ7" value="PATH" />
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ7" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 7-8\King's Quest 7 - The Princeless Bride\King's Quest 7 - The Princeless Bride.lnk" append="KQ7" detract="DOSBOX"/>
     <save filename="KQ7CDSG.*"/>
     <contributor>SanMadJack</contributor>
@@ -423,25 +423,6 @@
     <save filename="SAVEGAME.*"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Starflight" platform="DOS">
-    <title>Starflight</title>
-    <location_path environment_variable="installlocation" path="GOG.com\Starflight 1 and 2\Starflight 1\STARFLT"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARFLIGHT1" value="PATH" append="STARFLT" />
-    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Starflight 1 and 2\Starflight 1\Starflight 1.lnk" append="Starflight 1\STARFLT" detract="DOSBOX"/>
-    <save path="PLAY" filename="STAR?.COM"/>
-    <contributor>SanMadJack</contributor>
-  </game>
-  <game name="Starflight2" platform="DOS">
-    <title>Starflight 2</title>
-    <location_path environment_variable="installlocation" path="GOG.com\Starflight 1 and 2\Starflight 2"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARFLIGHT2" value="PATH" />
-    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Starflight 1 and 2\Starflight 2\Starflight 2.lnk" append="Starflight 2" detract="DOSBOX"/>
-    <save filename="STAR*.COM"/>
-    <save filename="GAME.*"/>
-    <save filename="LASTSAVE.*"/>
-    <save filename="ORIGINAL.*"/>
-    <contributor>SanMadJack</contributor>
-  </game>
   <game name="StarControl3" platform="DOS">
     <title>Star Control 3</title>
     <location_path environment_variable="installlocation" path="GOG.com\Star Control 3\STARCON3"/>
@@ -450,6 +431,25 @@
     <save filename="STAR*.SAV"/>
     <save filename="FLEET*.SAV" type="Fleets"/>
     <save filename="LEGEND.INI" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Starflight" platform="DOS">
+    <title>Starflight</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Starflight 1 and 2\Starflight 1\STARFLT"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARFLIGHT1" value="PATH" append="STARFLT"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Starflight 1 and 2\Starflight 1\Starflight 1.lnk" append="Starflight 1\STARFLT" detract="DOSBOX"/>
+    <save path="PLAY" filename="STAR?.COM"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Starflight2" platform="DOS">
+    <title>Starflight 2</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Starflight 1 and 2\Starflight 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARFLIGHT2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Starflight 1 and 2\Starflight 2\Starflight 2.lnk" append="Starflight 2" detract="DOSBOX"/>
+    <save filename="STAR*.COM"/>
+    <save filename="GAME.*"/>
+    <save filename="LASTSAVE.*"/>
+    <save filename="ORIGINAL.*"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="StarWarsDarkForces" platform="DOS">
