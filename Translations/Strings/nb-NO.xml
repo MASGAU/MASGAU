@@ -187,7 +187,7 @@
   <string name="SelectBackupPath">Velg hvor sikkerhetskopier skal bli lagret</string>
   <string name="SelectBackupPathReadError">%ReadPermissionError% den valgte sikkerhetskopi mappen</string>
   <string name="SelectBackupPathWriteError">%WritePermissionError% den valgte sikkerhetskopi mappen</string>
-  <string name="SelectSyncPath">Velg hvor lagringsfiler skal bli synkronisert</string>
+  <string name="SelectSyncPath">Velg hvor lagringsfilene skal bli synkronisert</string>
   <string name="SelectSyncPathReadError">%ReadPermissionError% den valgte synkronisering smappen</string>
   <string name="SelectSyncPathWriteError">%WritePermissionError% den valgte synkronisering smappen</string>
   <string name="SelectAltPath">Velg en alternativ installasjons bane</string>
