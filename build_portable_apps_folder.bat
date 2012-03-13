@@ -1,6 +1,5 @@
 mkdir MASGAU.Portable\App\MASGAU
 mkdir MASGAU.Portable\App\MASGAU\Data
-mkdir MASGAU.Portable\Data
 
 copy MASGAU.Main.WPF\bin\Release\* MASGAU.Portable\App\MASGAU
 del MASGAU.Portable\App\MASGAU\*.vshost.*

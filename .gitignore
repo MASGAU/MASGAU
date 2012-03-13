@@ -27,3 +27,7 @@ MASGAU.*.dll
 ehthumbs.db
 Icon?
 Thumbs.db
+._*
+
+# gedit backup files
+*~
