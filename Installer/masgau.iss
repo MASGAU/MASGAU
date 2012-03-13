@@ -10,7 +10,7 @@ AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
-MinVersion=4.1,5.0
+MinVersion=4.1,5.01
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 Compression=lzma/Ultra64
@@ -34,8 +34,7 @@ UninstallDisplayIcon={app}\masgau.ico
 VersionInfoCompany={#MyAppPublisher}
 
 [Files]
-Source: c:\ISSI\include\isxdl\isxdl.dll; Flags: dontcopy
-//Source: F:\InstallDetections\products\ISSI\isxdl\isxdl.dll; Flags: dontcopy
+Source: ..\Dependencies\isxdl.dll; Flags: dontcopy
 
 // MASGAU Component
 Source: ..\Dependencies\7-Zip\7z32.exe; DestDir: {app}; DestName: 7z.exe; Check: ThirtyTwoCheck(); Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
@@ -43,7 +42,7 @@ Source: ..\Dependencies\7-Zip\7z64.exe; DestDir: {app}; DestName: 7z.exe; Check:
 Source: ..\Dependencies\7-Zip\7z32.dll; DestDir: {app}; DestName: 7z.dll; Check: ThirtyTwoCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion;
 Source: ..\Dependencies\7-Zip\7z64.dll; DestDir: {app}; DestName: 7z.dll; Check: SixtyFourCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion;
 Source: ..\MASGAU.Updater\updates.xml; DestDir: {app};  Components: MASGAU\Core;
-Source: ..\gpl-2.0.txt; DestDir: {app}; Components: MASGAU\Core;
+Source: ..\Docs\gpl-2.0.txt; DestDir: {app}; Components: MASGAU\Core;
 Source: ..\Data\Data\games.xsd; DestDir: {app}\Data; Components: MASGAU\Core; 
 Source: ..\Graphics\masgau.ico; DestDir: {app};  Components: MASGAU\Core;
 // Main DLLs
@@ -108,10 +107,10 @@ Source: ..\Translations\Strings\nb-NO.xml; DestDir: {app}\Strings; Components: L
 
 [Registry]
 // File association
-Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}rchive; Flags:  UninsDeleteKey ; 
+Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}Archive; Flags:  UninsDeleteKey ; 
 Root: HKCR; SubKey: {#MyAppName}Archive; ValueType: string; ValueData: "{#MyAppName} Save Archive"; Flags: UninsDeleteKey  ; 
 Root: HKCR; SubKey: {#MyAppName}Archive\DefaultIcon; ValueType: string; ValueData: {app}\masgau.ico,0; Flags:  UninsDeleteKey ; 
-Root: HKCR; SubKey: {#MyAppName}rchive\shell\open\command; ValueType: string; ValueData: "{app}\MASGAU.Restore.WPF.exe"" ""%1"; Flags:  UninsDeleteKey ; 
+Root: HKCR; SubKey: {#MyAppName}Archive\shell\open\command; ValueType: string; ValueData: "{app}\MASGAU.Restore.WPF.exe"" ""%1"; Flags:  UninsDeleteKey ; 
 // Installation folder key
 Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueName: InstallPath; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteValue; 
 Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteKey  ; 
