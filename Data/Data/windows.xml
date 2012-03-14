@@ -15,6 +15,15 @@
     <save path="Data\profiles"/>
     <contributor>AdmiringWorm</contributor>
   </game>
+  <game name="7554" platform="Windows">
+    <title>7554</title>
+    <location_path environment_variable="installlocation" path="7554"/>
+    <location_registry root="current_user" key="Software\7554" value="BASE_PATH_7554"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\7554\7554.lnk"/>
+    <save path="SaveGames"/>
+    <save filename="setting.xml" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="AaaaaAAaaaAAAaaAAAAaAAAAA" platform="Windows">
     <title>AaaaaAAaaaAAAaaAAAAaAAAAA!!!</title>
     <location_path environment_variable="localappdata" path="AaaaaRecklessDisregard"/>
@@ -1271,6 +1280,13 @@
     <location_path environment_variable="userdocuments" path="Skyfallen Entertaiment\DeathTrack"/>
     <save path="Profile*"/>
     <save path="Config" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
+  <game name="DeepBlackReloaded" platform="Windows">
+    <title>Deep Black Reloaded</title>
+    <location_path environment_variable="userdocuments" path="DeepBlackReloaded"/>
+    <save filename="default"/>
+    <save filename="userrender.ini" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="DemonStone" platform="Windows">
@@ -4037,9 +4053,15 @@
     <save/>
     <contributor>slake_jones</contributor>
   </game>
+  <game name="Sacred2FallenAngel" platform="Windows">
+    <title>Sacred 2: Fallen Angel</title>
+    <location_path environment_variable="savedgames" path="Ascaron Entertainment\Sacred 2"/>
+    <save/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="SaintsRow3" platform="Windows">
     <title>Saint's Row: The Third</title>
-    <location_path environment_variable="localappdata" path="SKIDROW"/>
+    <location_path environment_variable="localappdata" path="SKIDROW\55230"/>
     <save/>
     <contributor>Christian Hamann</contributor>
   </game>
@@ -4524,6 +4546,12 @@
     <save/>
     <contributor>duncans_pumpkin</contributor>
   </game>
+  <game name="Stacking" platform="Windows">
+    <title>Stacking</title>
+    <location_path environment_variable="localappdata" path="SKIDROW\115110"/>
+    <save/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="StalkerCallofPripyat" platform="Windows">
     <title>S.T.A.L.K.E.R.: Call of Pripyat</title>
     <location_path environment_variable="public" path="Documents\S.T.A.L.K.E.R. - Call of Pripyat" platform_version="Vista"/>
@@ -4852,6 +4880,16 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="TerroristTakedown3" platform="Windows">
+    <title>Terrorist Takedown 3</title>
+    <location_path environment_variable="public" path="Documents\City Interactive\Terrorist Takedown 3"/>
+    <save path="Profiles"/>
+    <save path="Save"/>
+    <save filename="BanIPList.txt" type="Settings"/>
+    <save filename="Game.ini" type="Settings"/>
+    <save filename="settings.cfg" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="TerroristTakedownCovertOperations" platform="Windows">
     <title>Terrorist Takedown: Covert Operations</title>
     <location_path environment_variable="installlocation" path="City Interactive\Terrorist Takedown - Covert Operations"/>
@@ -4913,6 +4951,14 @@
     <location_shortcut environment_variable="startmenu" path="Programs\Thief\Thief.lnk"/>
     <save path="SAVES"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="ThrillvilleOffTheRails" platform="Windows">
+    <title>ThrillvilleOffTheRails</title>
+    <location_path environment_variable="localappdata" path="LucasArts\Thrillville 07"/>
+    <save path="Save"/>
+    <save filename="KeyMouse.cfg" type="Settings"/>
+    <save filename="options.txt" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="TimeGentlemenPlease" platform="Windows">
     <title>Time Gentlemen, Please!</title>

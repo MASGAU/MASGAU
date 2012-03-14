@@ -1,0 +1,116 @@
+Game Name: 7554
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+Drive\7554
+
+Save Path: 
+Drive\7554\SaveGames
+
+Local Machine Registry Entries: 
+Current User Registry Entries: 
+
+Key:HKEY_CURRENT_USER\Software\7554
+Value: BASE_PATH_7554
+Data: Drive\7554
+
+Detected Start Menu Shortcuts: 
+14.03.2012 20:15:07 - AppData\Microsoft\Windows\Start Menu\Programs\7554\7554.lnk - 540
+16.02.2012 16:55:17 - Drive\7554\7554_Launcher.exe - 57344
+14.03.2012 20:15:07 - AppData\Microsoft\Windows\Start Menu\Programs\7554\Uninstall.lnk - 528
+14.03.2012 20:12:10 - Drive\7554\Uninstall.exe - 83768
+14.03.2012 20:15:07 - AppData\Microsoft\Windows\Start Menu\Programs\7554\User guide.lnk - 552
+21.11.2011 10:38:00 - Drive\7554\huong_dan_su_dung.pdf - 9232882
+
+Root Drive Information: 
+Drive Name: E:\
+Drive Root: E:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+14.03.2012 20:18:02 - Drive\7554\SaveGames\profile.list - 73
+14.03.2012 20:36:49 - Drive\7554\SaveGames\quicksave.aisav - 686
+14.03.2012 20:36:49 - Drive\7554\SaveGames\quicksave.con - 40422
+14.03.2012 20:36:49 - Drive\7554\SaveGames\quicksave.sav - 83
+14.03.2012 20:23:01 - Drive\7554\SaveGames\Default\control.list - 504
+
+Install Folder Dump: 
+16.02.2012 16:55:16 - Drive\7554\7554.dll - 131072
+16.02.2012 16:55:17 - Drive\7554\7554.exe - 1121280
+16.02.2012 16:55:17 - Drive\7554\7554_Launcher.exe - 57344
+09.01.2012 08:17:24 - Drive\7554\AgentManagerPlugin.vPlugin - 271872
+10.01.2012 03:25:44 - Drive\7554\AIPlugin.vPlugin - 1242112
+14.12.2011 13:54:06 - Drive\7554\AssetsData.v - 625387663
+09.01.2012 08:17:24 - Drive\7554\CommonPlugin.vPlugin - 145920
+07.07.2011 12:15:32 - Drive\7554\cudart32_30_9.dll - 290408
+28.09.2011 10:31:38 - Drive\7554\DataConfig.xml - 45
+11.01.2012 09:31:46 - Drive\7554\DLCData.v - 186471142
+10.01.2012 03:25:44 - Drive\7554\ePhysXPlugin.vPlugin - 283648
+06.04.2011 15:19:56 - Drive\7554\fmodex.dll - 843776
+16.02.2012 16:55:17 - Drive\7554\FPSPlayerPlugin.vPlugin - 419328
+09.01.2012 08:17:24 - Drive\7554\HUDPlugin.vPlugin - 48640
+21.11.2011 10:38:00 - Drive\7554\huong_dan_su_dung.pdf - 9232882
+17.06.2011 11:30:50 - Drive\7554\lua90.dll - 155136
+26.09.2011 19:31:18 - Drive\7554\Microsoft.Licensing.Permutation_10b8a_2.0.dll - 873984
+26.09.2011 12:15:14 - Drive\7554\Microsoft.Licensing.Runtime2.0.dll - 90112
+26.09.2011 12:15:14 - Drive\7554\Microsoft.Licensing.Utils2.0.dll - 143360
+13.10.2011 10:53:56 - Drive\7554\NxCharacterCHECKED.dll - 111968
+13.10.2011 12:54:28 - Drive\7554\PhysXCooking.dll - 584544
+13.10.2011 10:53:56 - Drive\7554\PhysXCore.dll - 3684704
+13.06.2011 10:57:00 - Drive\7554\PhysXDevice.dll - 65536
+13.10.2011 10:53:56 - Drive\7554\PhysXLoaderCHECKED.dll - 64352
+14.12.2011 13:54:40 - Drive\7554\ProgrammingData.v - 1170434298
+11.01.2012 09:31:44 - Drive\7554\ScenesData.v - 105562684
+14.03.2012 20:23:20 - Drive\7554\setting.xml - 335
+14.03.2012 20:15:07 - Drive\7554\Slps.Runtime.Installer.InstallLog - 914
+14.03.2012 20:15:07 - Drive\7554\Slps.Runtime.Installer.InstallState - 2012
+22.11.2011 18:48:20 - Drive\7554\SoundEnginePlugin.vPlugin - 81408
+14.12.2011 13:55:24 - Drive\7554\SoundsData.v - 1276921986
+14.12.2011 13:55:48 - Drive\7554\TerrainsData.v - 986244661
+14.12.2011 13:56:16 - Drive\7554\TexturesData.v - 912437276
+14.03.2012 20:12:10 - Drive\7554\Uninstall.exe - 83768
+01.10.2011 15:59:18 - Drive\7554\vBase90.dll - 1198592
+27.05.2011 06:05:04 - Drive\7554\VBaseUI90.dll - 124928
+21.10.2011 01:21:40 - Drive\7554\Vision90.dll - 1375744
+13.10.2011 19:30:06 - Drive\7554\VisionEditorPlugin.EditorPlugin.dll - 503808
+22.11.2011 18:48:20 - Drive\7554\VisionEnginePlugin.vPlugin - 1478144
+13.10.2011 19:30:06 - Drive\7554\VisionManaged.dll - 328192
+22.11.2011 18:48:20 - Drive\7554\vPhysX.vplugin - 427520
+01.10.2011 15:59:18 - Drive\7554\vResourceViewerBase.dll - 110592
+09.01.2012 08:17:24 - Drive\7554\vXaitMapEnginePlugin.vPlugin - 112640
+09.01.2012 08:17:24 - Drive\7554\vXaitMove2.vPlugin - 80384
+09.01.2012 08:17:24 - Drive\7554\WeaponsPlugin.vPlugin - 271872
+08.08.2011 11:54:28 - Drive\7554\xaitcommon-win32S-vc90shared.dll - 1225216
+08.08.2011 11:54:28 - Drive\7554\xaitcontrol-win32S-vc90shared.dll - 555008
+08.08.2011 11:54:28 - Drive\7554\xaitmap-win32S-vc90shared.dll - 453632
+08.08.2011 11:54:28 - Drive\7554\xaitmove2-win32S-vc90shared.dll - 315392
+11.01.2012 08:25:10 - Drive\7554\DLC_Data\Videos\DLC_CT.avi - 34851152
+11.01.2012 04:43:42 - Drive\7554\DLC_Data\Videos\DLC_Intro_DK.avi - 48043620
+11.01.2012 04:43:42 - Drive\7554\DLC_Data\Videos\DLC_Intro_GL.avi - 47402626
+14.03.2012 20:18:02 - Drive\7554\SaveGames\profile.list - 73
+14.03.2012 20:36:49 - Drive\7554\SaveGames\quicksave.aisav - 686
+14.03.2012 20:36:49 - Drive\7554\SaveGames\quicksave.con - 40422
+14.03.2012 20:36:49 - Drive\7554\SaveGames\quicksave.sav - 83
+14.03.2012 20:23:01 - Drive\7554\SaveGames\Default\control.list - 504
+14.12.2011 13:52:50 - Drive\7554\Videos\credit_wmv2.avi - 67283268
+14.12.2011 13:53:04 - Drive\7554\Videos\default.avi - 89636938
+14.12.2011 13:53:16 - Drive\7554\Videos\Intro10.avi - 75909364
+14.12.2011 13:53:18 - Drive\7554\Videos\Intro11.avi - 51014666
+14.12.2011 13:53:20 - Drive\7554\Videos\Intro12.avi - 81720598
+14.12.2011 13:53:22 - Drive\7554\Videos\Intro2.avi - 109448520
+14.12.2011 13:53:24 - Drive\7554\Videos\Intro3.avi - 84562104
+14.12.2011 13:53:26 - Drive\7554\Videos\Intro4.avi - 111046680
+14.12.2011 13:53:36 - Drive\7554\Videos\Intro5.avi - 314520134
+14.12.2011 13:53:38 - Drive\7554\Videos\Intro6.avi - 66001042
+14.12.2011 13:53:40 - Drive\7554\Videos\Intro7.avi - 63511666
+14.12.2011 13:53:44 - Drive\7554\Videos\Intro8.avi - 111803372
+14.12.2011 13:53:46 - Drive\7554\Videos\Intro9.avi - 72348624
+14.12.2011 13:53:46 - Drive\7554\Videos\outtro_wmv.avi - 10105022
+
+UAC Enabled
+
+
+VirtualStore Folders: 
