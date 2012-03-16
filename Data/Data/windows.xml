@@ -246,7 +246,7 @@
   <game name="APBReloaded" platform="Windows">
     <title>APB Reloaded</title>
     <location_path environment_variable="steamcommon" path="apb reloaded"/>
-    <save path="APBGame\Config\Account" type="Settings"/>
+    <save path="APBGame\Config\Account" type="Accounts"/>
     <save path="Engine\Config" type="Settings"/>
     <save path="Engine\Stats" type="Statistics"/>
     <contributor>AdmiringWorm</contributor>
@@ -4059,12 +4059,6 @@
     <save/>
     <contributor>AdmiringWorm</contributor>
   </game>
-  <game name="SaintsRow3" platform="Windows">
-    <title>Saint's Row: The Third</title>
-    <location_path environment_variable="localappdata" path="SKIDROW\55230"/>
-    <save/>
-    <contributor>Christian Hamann</contributor>
-  </game>
   <game name="SamAndMaxSeason1Episode1" platform="Windows">
     <title>Sam &amp; Max Season One Episode 1 - Culture Shock</title>
     <location_path environment_variable="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 1 - Culture Shock Data"/>
@@ -4545,12 +4539,6 @@
     <location_path environment_variable="userdocuments" path="My Spore Creations"/>
     <save/>
     <contributor>duncans_pumpkin</contributor>
-  </game>
-  <game name="Stacking" platform="Windows">
-    <title>Stacking</title>
-    <location_path environment_variable="localappdata" path="SKIDROW\115110"/>
-    <save/>
-    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="StalkerCallofPripyat" platform="Windows">
     <title>S.T.A.L.K.E.R.: Call of Pripyat</title>
