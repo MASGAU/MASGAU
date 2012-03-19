@@ -117,7 +117,7 @@
   <string name="ReloadArchivesButton">_Last inn Arkiv</string>
   <string name="RestoreOtherBackup">Gjenopprett Annet Arkiv</string>
   <string name="RestoreNoneButton">Ingenting å gjenopprette</string>
-  <string name="RestoreOneButton">_Gjenopprett dette</string>
+  <string name="RestoreOneButton">_Gjenopprett denne</string>
   <string name="RestoreMultipleButton">Gjenopprett _disse</string>
 
   <string name="NoArchivesFound">Ingen arkiv funnet i sikkerhetskopi mappen</string>
