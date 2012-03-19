@@ -93,12 +93,12 @@
 
   <string name="RedetectGamesButton">_Gjenoppdag Spill</string>
   <string name="BackupNoGamesButton">Ingenting å sikkerhetskopiere</string>
-  <string name="BackupOneGameButton">_Sikkerhetskopier dette</string>
+  <string name="BackupOneGameButton">_Sikkerhetskopier denne</string>
   <string name="BackupMultipleGamesButtonPrefix">_Sikkerhetskopier disse</string>
   <!-- A number will be inserted between these two-->
-  <string name="BackupMultipleGamesButtonSuffix">Opp</string>
+  <string name="BackupMultipleGamesButtonSuffix"></string>
   <string name="BackupAllGamesButton">Sikkerhetskopier _Alt</string>
-  <string name="BackupOneGameMenu">Sikkerhetskopier dette</string>
+  <string name="BackupOneGameMenu">Sikkerhetskopier denne</string>
   <string name="BackupMultipleGamesMenu">Sikkerhetskopier disse</string>
 
   <string name="DetectedGames">Oppdagede Spill</string>
@@ -176,7 +176,7 @@
   <string name="CheckForUpdates">Se etter _oppdateringer</string>
   <string name="VersioningEnable">Lag _ekstra kopier</string>
   <string name="VersioningTime">Minst dette imellom kopier</string>
-  <string name="VersioningCount">På det meste så mange kopier</string>
+  <string name="VersioningCount">Antall kopier på det meste</string>
   <string name="AltPaths">Alternativ lagrings baner</string>
   <string name="AddAltPath">Legg til ny bane</string>
   <string name="RemoveNoAltPaths">Fjern Ingenting</string>
