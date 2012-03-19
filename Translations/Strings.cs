@@ -31,8 +31,10 @@ namespace Translations {
             xml_settings.ValidationEventHandler += new ValidationEventHandler(validationHandler);
 
             CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
+            RegionInfo currentRegion = new RegionInfo(currentCulture.LCID);
 
             language = currentCulture.TwoLetterISOLanguageName;
+            region = currentRegion.TwoLetterISORegionName;
 
             loadRegion();
         }
@@ -49,6 +51,9 @@ namespace Translations {
             }
             else if (File.Exists(Path.Combine("Strings", language + ".xml"))) {
                 file = Path.Combine("Strings", language + ".xml");
+            }
+            else if (File.Exists(@"Strings\en.xml")) {
+                file = @"Strings\en.xml";
             }
             else {
                 throw new Exception("Strings not found for " + language + "-" + region);
