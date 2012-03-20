@@ -195,7 +195,7 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="Stacking" platform="Windows">
+  <game name="Stacking" platform="Steam">
     <title>Stacking</title>
     <location_path environment_variable="steamuserdata" path="115110"/>
     <save/>
