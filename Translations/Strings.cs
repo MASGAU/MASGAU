@@ -17,7 +17,22 @@ namespace Translations {
 
         private static XmlReaderSettings xml_settings;
 
+        private static bool translation_mode = false;
+
         static Strings() {
+            // Checks if the command line indicates we should be running in translation mode
+            string[] args = Environment.GetCommandLineArgs();
+            for (int i = 0; i < args.Length; i++)
+            {
+                switch (args[i])
+                {
+                    case "-translate":
+                        translation_mode = true;
+                        break;
+                }
+            }
+
+
             xml_settings = new XmlReaderSettings();
             xml_settings.ConformanceLevel = ConformanceLevel.Auto;
             xml_settings.IgnoreWhitespace = true;
@@ -45,20 +60,30 @@ namespace Translations {
         }
 
         private static void loadRegion() {
-            string file;
+
+            // Load the English file first, so that if there are any strings missing from a translation,
+            // at least the user will still see something they can punch in to babelfish
+            // If we're in translate mode, this is skipped, so that untranslated strings will
+            // Show up as the string name rather than the translated string itself
+            if (!translation_mode&&File.Exists(Path.Combine("Strings","en.xml")))
+            {
+                loadFile(Path.Combine("Strings","en.xml"));
+            }
+
+            // We start by checking for (and loading) a general string file for the current language
+            if (File.Exists(Path.Combine("Strings", language + ".xml")))
+            {
+                loadFile(Path.Combine("Strings", language + ".xml"));
+
+            }
+
+            // We then load a region-specific string file, so that if several regions use the same translation
+            // for a string, we just put them in the common language file, then put only the region-specific
+            // strings in this file
             if (File.Exists(Path.Combine("Strings", language + "-" + region + ".xml"))) {
-                file = Path.Combine("Strings", language + "-" + region + ".xml");
+                loadFile(Path.Combine("Strings", language + "-" + region + ".xml"));
             }
-            else if (File.Exists(Path.Combine("Strings", language + ".xml"))) {
-                file = Path.Combine("Strings", language + ".xml");
-            }
-            else if (File.Exists(@"Strings\en.xml")) {
-                file = @"Strings\en.xml";
-            }
-            else {
-                throw new Exception("Strings not found for " + language + "-" + region);
-            }
-            loadFile(file);
+
         }
 
         private static void loadFile(string file) {
@@ -80,7 +105,15 @@ namespace Translations {
             XmlNode nodes = strings_xml.GetElementsByTagName("strings")[0];
             foreach (XmlNode node in nodes.ChildNodes) {
                 if (node.Name == "string") {
-                    strings.Add(node.Attributes["name"].InnerText, node.InnerText);
+                    // If the string is already present, then we assume that the new string supercedes the previous one
+                    if (strings.ContainsKey(node.Attributes["name"].InnerText))
+                    {
+                        strings[node.Attributes["name"].InnerText] = node.InnerText;
+                    }
+                    else
+                    {
+                        strings.Add(node.Attributes["name"].InnerText, node.InnerText);
+                    }
                 }
             }
        
@@ -112,7 +145,22 @@ namespace Translations {
                     case ":":
                         return name;
                     default:
-                        throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
+                        // If running in translate mode, then we'll throw an exception when a string is missing.
+                        if (translation_mode)
+                        {
+                            // This behavior will probably not stick, as most of the time this code occurs during GUI drawing,
+                            // So Windows wraps this exception in a WPF exception, which effectively hides this info
+                            // from the average user. When breaking into debug in Visual Studio though, this allows us
+                            // to see exactly which string is missing.
+                            throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
+                            
+                        }
+                        else
+                        {
+                            // This will eventually become the only behavior when a string isn't found,
+                            // so that the main interface will just display the name of a string
+                            return name;
+                        }
                 }
 
             }
