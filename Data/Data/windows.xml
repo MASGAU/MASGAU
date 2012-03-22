@@ -246,9 +246,12 @@
   <game name="APBReloaded" platform="Windows">
     <title>APB Reloaded</title>
     <location_path environment_variable="steamcommon" path="apb reloaded"/>
+    <location_path environment_variable="installlocation" path="GamersFirst\APB Reloaded"/>
+    <location_registry root="local_machine" key="SOFTWARE\GamersFirst\APB\APB Reloaded" value="Installation Path"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GamersFirst\APB Reloaded\APB Reloaded.lnk" detract="Launcher"/>
     <save path="APBGame\Config\Account" type="Accounts"/>
-    <save path="Engine\Config" type="Settings"/>
-    <save path="Engine\Stats" type="Statistics"/>
+    <save path="APBGame\Config\Linux" type="Settings"/>
+    <save path="APBGame\Config" filename="*.ini" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="Aquanox" platform="Windows">
@@ -5222,7 +5225,9 @@
     <save path="users"/>
     <save path="usersold"/>
     <save path="userstmp"/>
+    <save path="users" filename="options" type="Settings"/>
     <ignore path="users" filename="debug.log"/>
+    <ignore path="users" filename="options"/>
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="VampireTheMasqueradeBloodlines" platform="Windows">
