@@ -14,7 +14,6 @@
     <StartArguments>-allusers</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <StartArguments>
-    </StartArguments>
+    <StartArguments>-translate</StartArguments>
   </PropertyGroup>
 </Project>
