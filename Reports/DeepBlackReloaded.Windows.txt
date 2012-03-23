@@ -1,0 +1,359 @@
+Game Name: Deep Black Reloaded
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+Drive\Biart\Deep Black Reloaded
+
+Save Path: 
+UserDocuments\DeepBlackReloaded
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Deep Black : Reloaded_is1
+Value: Inno Setup: App Path
+Data: Drive\Biart\Deep Black Reloaded
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Deep Black : Reloaded_is1
+Value: InstallLocation
+Data: Drive\Biart\Deep Black Reloaded
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Deep Black : Reloaded_is1
+Value: UninstallDataFile
+Data: 14.03.2012 21:47:35 - Drive\Biart\Deep Black Reloaded\unins000.dat - 36230
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+14.03.2012 21:47:34 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Deep Black Reloaded\Deep Black Reloaded.lnk - 698
+04.03.2012 15:27:28 - Drive\Biart\Deep Black Reloaded\Launcher.exe - 277504
+14.03.2012 21:47:35 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Deep Black Reloaded\Uninstall Deep Black Reloaded.lnk - 698
+14.03.2012 21:41:24 - Drive\Biart\Deep Black Reloaded\unins000.exe - 933662
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+15.03.2012 16:15:59 - UserDocuments\DeepBlackReloaded\default - 30142
+15.03.2012 16:15:59 - UserDocuments\DeepBlackReloaded\userrender.ini - 170
+15.03.2012 16:15:33 - UserDocuments\DeepBlackReloaded\Logs\render.txt - 6086
+
+Install Folder Dump: 
+08.10.2011 16:44:30 - Drive\Biart\Deep Black Reloaded\cudart32_30_9.dll - 290408
+04.03.2012 15:29:13 - Drive\Biart\Deep Black Reloaded\DeepBlack.exe - 7053312
+21.02.2012 20:53:40 - Drive\Biart\Deep Black Reloaded\defaultrender.ini - 2106
+08.10.2011 16:44:32 - Drive\Biart\Deep Black Reloaded\DeviceDLL.dll - 43520
+04.03.2012 15:27:28 - Drive\Biart\Deep Black Reloaded\files - 48284
+08.10.2011 16:44:30 - Drive\Biart\Deep Black Reloaded\fmodex.dll - 798720
+08.10.2011 16:44:34 - Drive\Biart\Deep Black Reloaded\fmodexL.dll - 880722
+08.10.2011 16:44:32 - Drive\Biart\Deep Black Reloaded\fmod_event.dll - 327680
+08.10.2011 16:44:34 - Drive\Biart\Deep Black Reloaded\fmod_eventL.dll - 397419
+08.10.2011 16:44:32 - Drive\Biart\Deep Black Reloaded\fmod_event_net.dll - 364544
+08.10.2011 16:44:26 - Drive\Biart\Deep Black Reloaded\fmod_event_netL.dll - 438387
+04.03.2012 15:27:28 - Drive\Biart\Deep Black Reloaded\installed_updates - 81
+27.12.2011 13:20:18 - Drive\Biart\Deep Black Reloaded\IntelGfx.cfg - 4542
+04.03.2012 15:27:28 - Drive\Biart\Deep Black Reloaded\Launcher.exe - 277504
+27.02.2012 20:12:48 - Drive\Biart\Deep Black Reloaded\launcher.ini - 1836
+24.01.2012 19:29:28 - Drive\Biart\Deep Black Reloaded\LauncherUpdater.exe - 18432
+04.03.2012 15:29:13 - Drive\Biart\Deep Black Reloaded\levels_db.lua - 28805
+08.10.2011 16:44:32 - Drive\Biart\Deep Black Reloaded\libcurl.dll - 217088
+08.10.2011 16:44:34 - Drive\Biart\Deep Black Reloaded\libmysql.dll - 2492416
+08.10.2011 16:44:28 - Drive\Biart\Deep Black Reloaded\materials.bmtr - 16558992
+08.10.2011 16:44:26 - Drive\Biart\Deep Black Reloaded\msvcp100.dll - 421200
+08.10.2011 16:44:28 - Drive\Biart\Deep Black Reloaded\msvcr100.dll - 770384
+08.10.2011 16:44:30 - Drive\Biart\Deep Black Reloaded\mtrlib.bmtr - 2329240
+08.10.2011 16:44:32 - Drive\Biart\Deep Black Reloaded\PhysXCooking.dll - 406880
+08.10.2011 16:44:32 - Drive\Biart\Deep Black Reloaded\PhysXCore.dll - 3597664
+08.10.2011 16:44:34 - Drive\Biart\Deep Black Reloaded\PhysXLoader.dll - 75104
+08.10.2011 16:44:28 - Drive\Biart\Deep Black Reloaded\sixense.dll - 326656
+08.10.2011 16:44:34 - Drive\Biart\Deep Black Reloaded\sixense_utils.dll - 114176
+04.03.2012 15:29:13 - Drive\Biart\Deep Black Reloaded\Skid Row.exe - 572928
+04.03.2012 15:29:13 - Drive\Biart\Deep Black Reloaded\SKiDROW.dll - 115712
+04.03.2012 15:29:13 - Drive\Biart\Deep Black Reloaded\table - 376
+04.03.2012 15:29:13 - Drive\Biart\Deep Black Reloaded\table_db - 724
+14.03.2012 21:47:35 - Drive\Biart\Deep Black Reloaded\unins000.dat - 36230
+14.03.2012 21:41:24 - Drive\Biart\Deep Black Reloaded\unins000.exe - 933662
+08.10.2011 16:44:26 - Drive\Biart\Deep Black Reloaded\winusb.dll - 16896
+03.08.2010 09:41:16 - Drive\Biart\Deep Black Reloaded\xvidcore.dll - 819200
+03.08.2010 09:41:16 - Drive\Biart\Deep Black Reloaded\xvidvfw.dll - 180224
+27.02.2012 20:09:50 - Drive\Biart\Deep Black Reloaded\bin\Launcher.bmp - 921656
+25.02.2012 17:25:00 - Drive\Biart\Deep Black Reloaded\globals\CommonGuiSceneSet.pack - 28036007
+04.03.2012 15:27:28 - Drive\Biart\Deep Black Reloaded\globals\global.pack - 14446047
+25.02.2012 17:25:00 - Drive\Biart\Deep Black Reloaded\globals\InitGuiSceneSet.pack - 5593562
+25.02.2012 17:25:08 - Drive\Biart\Deep Black Reloaded\globals\MainMenuGuiSceneSet.pack - 16139509
+29.07.2011 13:21:38 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\ambient.fsb - 49285664
+29.07.2011 13:21:38 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\cs.fsb - 3864800
+29.06.2011 17:31:24 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\dialog_eng.fev - 92710
+28.04.2011 18:52:52 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\music.fev - 6455
+28.04.2011 18:53:18 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\music.fsb - 47805600
+04.08.2011 14:55:14 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\scripts_eng.fev - 334758
+29.07.2011 13:21:28 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\sounds.fev - 436273
+29.07.2011 13:21:34 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\sounds.fsb - 74779328
+29.06.2011 17:37:58 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\voices_eng_d.fsb - 52322304
+04.08.2011 14:57:30 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\voices_eng_s.fsb - 34875552
+29.07.2011 13:21:38 - Drive\Biart\Deep Black Reloaded\globals\sounds_pc\weapons.fsb - 5101504
+31.10.2011 21:05:50 - Drive\Biart\Deep Black Reloaded\levels\a1c1.pack - 71545719
+31.10.2011 21:05:58 - Drive\Biart\Deep Black Reloaded\levels\a1c2_1.pack - 66969412
+31.10.2011 21:06:04 - Drive\Biart\Deep Black Reloaded\levels\a1c2_2.pack - 44524256
+31.10.2011 21:06:08 - Drive\Biart\Deep Black Reloaded\levels\a1c3_1.pack - 59627681
+31.10.2011 21:06:12 - Drive\Biart\Deep Black Reloaded\levels\a1c3_2.pack - 44738779
+31.10.2011 21:06:20 - Drive\Biart\Deep Black Reloaded\levels\a1c4_1.pack - 69646000
+31.10.2011 21:06:22 - Drive\Biart\Deep Black Reloaded\levels\a1c4_2.pack - 39568822
+31.10.2011 21:06:28 - Drive\Biart\Deep Black Reloaded\levels\a1c5.pack - 66290663
+31.10.2011 21:06:32 - Drive\Biart\Deep Black Reloaded\levels\a1c6.pack - 59791353
+31.10.2011 21:06:38 - Drive\Biart\Deep Black Reloaded\levels\a1c7.pack - 46128466
+31.10.2011 21:06:42 - Drive\Biart\Deep Black Reloaded\levels\a1c8.pack - 41543133
+31.10.2011 21:10:46 - Drive\Biart\Deep Black Reloaded\levels\a2c1.pack - 51425839
+31.10.2011 21:11:20 - Drive\Biart\Deep Black Reloaded\levels\a2c2.pack - 60554870
+31.10.2011 21:11:40 - Drive\Biart\Deep Black Reloaded\levels\a2c3.pack - 83284878
+31.10.2011 21:11:56 - Drive\Biart\Deep Black Reloaded\levels\a2c4.pack - 57231887
+31.10.2011 21:12:16 - Drive\Biart\Deep Black Reloaded\levels\a2c5.pack - 40854932
+31.10.2011 21:12:42 - Drive\Biart\Deep Black Reloaded\levels\a2c6.pack - 48450731
+31.10.2011 21:18:52 - Drive\Biart\Deep Black Reloaded\levels\a3c1.pack - 61052367
+31.10.2011 21:19:24 - Drive\Biart\Deep Black Reloaded\levels\a3c2.pack - 59133733
+31.10.2011 21:20:14 - Drive\Biart\Deep Black Reloaded\levels\a3c3.pack - 105088133
+31.10.2011 21:20:58 - Drive\Biart\Deep Black Reloaded\levels\a3c4.pack - 58902270
+31.10.2011 21:21:44 - Drive\Biart\Deep Black Reloaded\levels\a3c5.pack - 69960201
+31.10.2011 21:22:24 - Drive\Biart\Deep Black Reloaded\levels\a3c6.pack - 94366060
+31.10.2011 21:40:28 - Drive\Biart\Deep Black Reloaded\levels\a3c6_koumori_room.pack - 39743608
+31.10.2011 21:22:36 - Drive\Biart\Deep Black Reloaded\levels\a3c7.pack - 43382064
+31.10.2011 21:22:50 - Drive\Biart\Deep Black Reloaded\levels\a3c8.pack - 58217244
+31.10.2011 21:29:48 - Drive\Biart\Deep Black Reloaded\levels\a4c1.pack - 101679696
+31.10.2011 21:29:58 - Drive\Biart\Deep Black Reloaded\levels\a4c2.pack - 95844901
+31.10.2011 21:30:06 - Drive\Biart\Deep Black Reloaded\levels\a4c3.pack - 56924170
+31.10.2011 21:30:12 - Drive\Biart\Deep Black Reloaded\levels\a4c4.pack - 74541143
+31.10.2011 21:30:12 - Drive\Biart\Deep Black Reloaded\levels\a4c5.pack - 15655918
+31.10.2011 21:30:20 - Drive\Biart\Deep Black Reloaded\levels\a4c6.pack - 72828660
+31.10.2011 21:40:56 - Drive\Biart\Deep Black Reloaded\levels\a4c6_koumori_room.pack - 43724924
+31.10.2011 21:30:24 - Drive\Biart\Deep Black Reloaded\levels\a4c7.pack - 96299762
+31.10.2011 21:30:32 - Drive\Biart\Deep Black Reloaded\levels\a4c8.pack - 106587696
+31.10.2011 21:30:36 - Drive\Biart\Deep Black Reloaded\levels\a4c9.pack - 67156245
+31.10.2011 21:41:28 - Drive\Biart\Deep Black Reloaded\levels\a5c0.pack - 91906250
+31.10.2011 21:33:28 - Drive\Biart\Deep Black Reloaded\levels\a5c1.pack - 45932481
+31.10.2011 21:33:36 - Drive\Biart\Deep Black Reloaded\levels\a5c2.pack - 88364394
+31.10.2011 21:33:44 - Drive\Biart\Deep Black Reloaded\levels\a5c3.pack - 76156389
+31.10.2011 21:33:48 - Drive\Biart\Deep Black Reloaded\levels\a5c4.pack - 74541635
+31.10.2011 21:33:52 - Drive\Biart\Deep Black Reloaded\levels\a5c5.pack - 70892801
+31.10.2011 21:33:58 - Drive\Biart\Deep Black Reloaded\levels\a5c6.pack - 84566423
+31.10.2011 21:41:52 - Drive\Biart\Deep Black Reloaded\levels\a5c6_koumori_room.pack - 43066538
+31.10.2011 21:34:08 - Drive\Biart\Deep Black Reloaded\levels\a5c7.pack - 93638072
+31.10.2011 21:34:16 - Drive\Biart\Deep Black Reloaded\levels\a5c8.pack - 100148213
+31.10.2011 21:34:18 - Drive\Biart\Deep Black Reloaded\levels\a5c8_game_ending.pack - 41158421
+31.10.2011 21:07:14 - Drive\Biart\Deep Black Reloaded\levels\common_act1.pack - 99813862
+31.10.2011 21:13:54 - Drive\Biart\Deep Black Reloaded\levels\common_act2.pack - 86673446
+31.10.2011 21:23:48 - Drive\Biart\Deep Black Reloaded\levels\common_act3.pack - 83238644
+31.10.2011 21:30:58 - Drive\Biart\Deep Black Reloaded\levels\common_act4.pack - 81294344
+31.10.2011 21:34:36 - Drive\Biart\Deep Black Reloaded\levels\common_act5.pack - 68976670
+31.10.2011 21:36:02 - Drive\Biart\Deep Black Reloaded\levels\common_dm.pack - 87963595
+31.10.2011 21:36:08 - Drive\Biart\Deep Black Reloaded\levels\dm_1.pack - 71742000
+31.10.2011 21:36:10 - Drive\Biart\Deep Black Reloaded\levels\dm_2.pack - 26504341
+31.10.2011 21:36:12 - Drive\Biart\Deep Black Reloaded\levels\dm_3.pack - 59298237
+31.10.2011 21:36:18 - Drive\Biart\Deep Black Reloaded\levels\dm_4.pack - 37693717
+31.10.2011 21:36:20 - Drive\Biart\Deep Black Reloaded\levels\dm_5.pack - 41723896
+31.10.2011 21:39:24 - Drive\Biart\Deep Black Reloaded\levels\main_menu_screen.pack - 44146175
+31.10.2011 21:42:20 - Drive\Biart\Deep Black Reloaded\levels\sterling_room_night.pack - 51003315
+31.10.2011 21:39:56 - Drive\Biart\Deep Black Reloaded\levels\submarine_intro.pack - 68462854
+31.10.2011 21:38:58 - Drive\Biart\Deep Black Reloaded\levels\tut_uw_01.pack - 143679632
+15.10.2011 16:40:06 - Drive\Biart\Deep Black Reloaded\patch\a1c1.fx - 3042246
+15.10.2011 16:40:06 - Drive\Biart\Deep Black Reloaded\patch\a1c1.scn - 586290
+15.10.2011 16:41:34 - Drive\Biart\Deep Black Reloaded\patch\a1c1_script.lua - 2099
+15.10.2011 16:41:34 - Drive\Biart\Deep Black Reloaded\patch\a1c1_triggers.lua - 26212
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c2_1.fx - 2997361
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c2_1.scn - 673492
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c2_1_script.lua - 660
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c2_1_triggers.lua - 20673
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c2_2.fx - 2495161
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c2_2.scn - 454168
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c2_2_triggers.lua - 14596
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c3_1.fx - 2934179
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c3_1.scn - 457934
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c3_1_triggers.lua - 13997
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c3_2.fx - 2942583
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c3_2.scn - 274040
+15.10.2011 16:40:08 - Drive\Biart\Deep Black Reloaded\patch\a1c3_2_triggers.lua - 8026
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c4_1.fx - 2731162
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c4_1.scn - 693091
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c4_1_triggers.lua - 26626
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c4_2.fx - 2630688
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c4_2.scn - 290932
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c4_2_script.lua - 480
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c4_2_triggers.lua - 7275
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c5.fx - 2980589
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c5.scn - 558029
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c5_triggers.lua - 22428
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c6.fx - 2793728
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c6.scn - 359693
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c6_script.lua - 832
+15.10.2011 16:40:10 - Drive\Biart\Deep Black Reloaded\patch\a1c6_triggers.lua - 11825
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a1c7.fx - 3042925
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a1c7.scn - 443840
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a1c7_triggers.lua - 25292
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a1c8.fx - 2980156
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a1c8.scn - 448113
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a1c8_triggers.lua - 21126
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a2c1.fx - 2983282
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a2c1.scn - 495640
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a2c1_script.lua - 468
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a2c1_triggers.lua - 6267
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a2c2.fx - 2591090
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a2c2.scn - 232599
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a2c2_script.lua - 648
+15.10.2011 16:40:12 - Drive\Biart\Deep Black Reloaded\patch\a2c2_triggers.lua - 10273
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c3.fx - 2739754
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c3.scn - 184368
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c3_script.lua - 1460
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c3_triggers.lua - 11232
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c4.fx - 2718411
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c4.scn - 144988
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c4_triggers.lua - 10528
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c5.fx - 2646821
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c5.scn - 381111
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c5_script.lua - 502
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c5_triggers.lua - 10414
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c6.fx - 2687653
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c6.scn - 279088
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c6_script.lua - 1926
+15.10.2011 16:40:14 - Drive\Biart\Deep Black Reloaded\patch\a2c6_triggers.lua - 9111
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c1.fx - 2761898
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c1.scn - 246390
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c1_script.lua - 357
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c1_triggers.lua - 4680
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c2.fx - 2762103
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c2.scn - 313246
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c2_triggers.lua - 9833
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c3.fx - 3113480
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c3.scn - 296236
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c3_triggers.lua - 10042
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c4.fx - 2773580
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c4.scn - 204893
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c4_triggers.lua - 5251
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c5.fx - 2994418
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c5.scn - 123867
+15.10.2011 16:40:16 - Drive\Biart\Deep Black Reloaded\patch\a3c5_triggers.lua - 6051
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c6.fx - 2745171
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c6.scn - 275147
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c6_koumori_room.fx - 151114
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c6_koumori_room.scn - 115132
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c6_koumori_room_script.lua - 153
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c6_koumori_room_triggers.lua - 675
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c6_triggers.lua - 8251
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c7.fx - 2741428
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c7.scn - 269652
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c7_triggers.lua - 2649
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c8.fx - 2847061
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c8.scn - 171940
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a3c8_triggers.lua - 9147
+15.10.2011 16:40:18 - Drive\Biart\Deep Black Reloaded\patch\a4c1.fx - 2994483
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c1.scn - 438912
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c1_triggers.lua - 15962
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c2.fx - 2733807
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c2.scn - 453205
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c2_triggers.lua - 9203
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c3.fx - 3230906
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c3.scn - 349614
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c3_script.lua - 1515
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c3_triggers.lua - 8655
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c4.fx - 2823237
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c4.scn - 273185
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c4_triggers.lua - 6831
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c5.fx - 2516896
+15.10.2011 16:40:20 - Drive\Biart\Deep Black Reloaded\patch\a4c5.scn - 134474
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c5_triggers.lua - 7097
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c6.fx - 2601448
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c6.scn - 401270
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c6_koumori_room.fx - 159219
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c6_koumori_room.scn - 119031
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c6_koumori_room_script.lua - 153
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c6_koumori_room_triggers.lua - 661
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c6_triggers.lua - 8608
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c7.fx - 2910529
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c7.scn - 327098
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c7_script.lua - 468
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c7_triggers.lua - 7923
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c8.fx - 2744870
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c8.scn - 330219
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c8_script.lua - 153
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c8_triggers.lua - 7072
+15.10.2011 16:40:22 - Drive\Biart\Deep Black Reloaded\patch\a4c9.fx - 2836902
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a4c9.scn - 77428
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a4c9_script.lua - 153
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a4c9_triggers.lua - 6063
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c0.fx - 289706
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c0.scn - 526279
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c0_script.lua - 454
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c0_triggers.lua - 1118
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c1.fx - 2840349
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c1.scn - 287435
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c1_triggers.lua - 7246
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c2.fx - 3374957
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c2.scn - 476856
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c2_script.lua - 301
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c2_triggers.lua - 10476
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c3.fx - 2592785
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c3.scn - 454831
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c3_script.lua - 203
+15.10.2011 16:40:24 - Drive\Biart\Deep Black Reloaded\patch\a5c3_triggers.lua - 10971
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c4.fx - 2883087
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c4.scn - 314829
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c4_script.lua - 1170
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c4_triggers.lua - 10772
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c5.fx - 2693332
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c5.scn - 469441
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c5_script.lua - 919
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c5_triggers.lua - 9327
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c6.fx - 3197643
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c6.scn - 461902
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c6_koumori_room.fx - 159219
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c6_koumori_room.scn - 115159
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c6_koumori_room_script.lua - 153
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c6_koumori_room_triggers.lua - 721
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c6_script.lua - 498
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c6_triggers.lua - 15802
+15.10.2011 16:40:26 - Drive\Biart\Deep Black Reloaded\patch\a5c7.fx - 2933400
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c7.scn - 478388
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c7_triggers.lua - 22597
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c8.fx - 3016154
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c8.scn - 416786
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c8_game_ending.fx - 645742
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c8_game_ending.scn - 116342
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c8_game_ending_script.lua - 271
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c8_game_ending_triggers.lua - 1130
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c8_script.lua - 2461
+15.10.2011 16:40:28 - Drive\Biart\Deep Black Reloaded\patch\a5c8_triggers.lua - 6200
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_1.fx - 2554927
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_1.scn - 272629
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_2.fx - 2563363
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_2.scn - 201076
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_2_triggers.lua - 348
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_3.fx - 2546983
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_3.scn - 136181
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_4.fx - 2538135
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_4.scn - 315221
+15.10.2011 16:40:30 - Drive\Biart\Deep Black Reloaded\patch\dm_5.fx - 2536815
+15.10.2011 16:40:32 - Drive\Biart\Deep Black Reloaded\patch\dm_5.scn - 348845
+15.10.2011 16:40:32 - Drive\Biart\Deep Black Reloaded\patch\dm_5_triggers.lua - 257
+15.10.2011 16:40:34 - Drive\Biart\Deep Black Reloaded\patch\main_menu_screen.fx - 162187
+15.10.2011 16:40:34 - Drive\Biart\Deep Black Reloaded\patch\main_menu_screen.scn - 188960
+15.10.2011 16:40:34 - Drive\Biart\Deep Black Reloaded\patch\main_menu_screen_e2.fx - 187276
+15.10.2011 16:40:34 - Drive\Biart\Deep Black Reloaded\patch\main_menu_screen_e2.scn - 124774
+15.10.2011 16:40:34 - Drive\Biart\Deep Black Reloaded\patch\main_menu_screen_e2_triggers.lua - 352
+15.10.2011 16:40:34 - Drive\Biart\Deep Black Reloaded\patch\main_menu_screen_triggers.lua - 349
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\submarine_intro.fx - 537488
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\submarine_intro.scn - 86618
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\submarine_intro_script.lua - 403
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\submarine_intro_triggers.lua - 679
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\tut_uw_01.fx - 2823948
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\tut_uw_01.scn - 197762
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\tut_uw_01_triggers.lua - 11034
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\tut_uw_02.fx - 2823948
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\tut_uw_02.scn - 197762
+15.10.2011 16:40:36 - Drive\Biart\Deep Black Reloaded\patch\tut_uw_02_triggers.lua - 11034
+06.09.2011 17:28:04 - Drive\Biart\Deep Black Reloaded\video\intro_pc.avi - 173474406
+
+UAC Enabled
+
+
+VirtualStore Folders: 
