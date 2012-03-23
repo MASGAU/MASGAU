@@ -1,0 +1,242 @@
+Game Name: Stacking
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+Drive\Double Fine Productions\Stacking
+
+Save Path: 
+LocalAppData\SKIDROW\115110
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Stacking_is1
+Value: Inno Setup: App Path
+Data: Drive\Double Fine Productions\Stacking
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Stacking_is1
+Value: InstallLocation
+Data: Drive\Double Fine Productions\Stacking
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Stacking_is1
+Value: DisplayIcon
+Data: 08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Stack.exe - 6734336
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+14.03.2012 21:53:16 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Double Fine Productions\Stacking\Uninstall Vessel.lnk - 737
+14.03.2012 21:52:31 - Drive\Double Fine Productions\Stacking\unins000.exe - 715038
+14.03.2012 21:53:16 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Double Fine Productions\Stacking\Vessel.lnk - 816
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Stack.exe - 6734336
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+15.03.2012 17:48:47 - LocalAppData\SKIDROW\115110\Storage\st_percents - 24
+15.03.2012 17:48:47 - LocalAppData\SKIDROW\115110\Storage\st_save_0 - 817
+15.03.2012 17:48:47 - LocalAppData\SKIDROW\115110\Storage\st_save_names - 384
+
+Install Folder Dump: 
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\DFCONFIG - 7
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\fmodex.dll - 370688
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\fmod_event.dll - 282624
+14.03.2012 21:54:18 - Drive\Double Fine Productions\Stacking\SKIDROW.ini - 276
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Stack.exe - 6734336
+15.03.2012 17:48:52 - Drive\Double Fine Productions\Stacking\stackd.txt - 6956
+09.03.2012 01:06:54 - Drive\Double Fine Productions\Stacking\Steamclient.dll - 356864
+09.03.2012 01:06:54 - Drive\Double Fine Productions\Stacking\steam_api.dll - 118784
+14.03.2012 21:53:16 - Drive\Double Fine Productions\Stacking\unins000.dat - 19400
+14.03.2012 21:52:31 - Drive\Double Fine Productions\Stacking\unins000.exe - 715038
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Config\boot.lua - 1466
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Config\Buddha.cfg - 421
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Config\BuddhaDefault.cfg - 15089
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Config\hotkeys.lua - 6046
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Config\input.lua - 14869
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Config\Language.cfg - 19
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Config\user.lua - 0
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Fonts\arial.ttf - 367112
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Data\Fonts\slkscr.ttf - 18336
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\vcredist_x86.exe - 4216840
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Apr2005_d3dx9_25_x86.cab - 1078962
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Apr2006_MDX1_x86.cab - 916430
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162630
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Apr2006_XACT_x86.cab - 133103
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Apr2006_xinput_x86.cab - 46010
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\APR2007_d3dx10_33_x86.cab - 695865
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\APR2007_d3dx9_33_x86.cab - 1606039
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\APR2007_XACT_x86.cab - 151225
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\APR2007_xinput_x86.cab - 53302
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\AUG2006_XACT_x86.cab - 137235
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\AUG2006_xinput_x86.cab - 46058
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\AUG2007_d3dx10_35_x86.cab - 796867
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\AUG2007_d3dx9_35_x86.cab - 1708152
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\AUG2007_XACT_x86.cab - 153012
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2008_d3dx10_39_x86.cab - 849167
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2008_d3dx9_39_x86.cab - 1464672
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2008_XACT_x86.cab - 92996
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2008_XAudio_x86.cab - 271038
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2009_D3DCompiler_42_x86.cab - 900598
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2009_d3dcsx_42_x86.cab - 3319740
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2009_d3dx10_42_x86.cab - 192131
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2009_d3dx11_42_x86.cab - 105044
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2009_d3dx9_42_x86.cab - 728456
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2009_XACT_x86.cab - 93106
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Aug2009_XAudio_x86.cab - 272642
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\cmp.bat - 781
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Dec2005_d3dx9_28_x86.cab - 1079456
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\DEC2006_d3dx10_00_x86.cab - 191720
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\DEC2006_XACT_x86.cab - 145599
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\DSETUP.dll - 95576
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\dsetup32.dll - 1566040
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\dxdllreg_x86.cab - 44624
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\DXSETUP.exe - 517976
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\dxupdate.cab - 97152
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Feb2005_d3dx9_24_x86.cab - 1013225
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Feb2006_d3dx9_29_x86.cab - 1084720
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Feb2006_XACT_x86.cab - 132409
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\FEB2007_XACT_x86.cab - 147983
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Feb2010_X3DAudio_x86.cab - 20713
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Feb2010_XACT_x86.cab - 93180
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Feb2010_XAudio_x86.cab - 277191
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Jun2005_d3dx9_26_x86.cab - 1064925
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2006_XACT_x86.cab - 133671
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2007_d3dx10_34_x86.cab - 698472
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2007_d3dx9_34_x86.cab - 1607286
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2007_XACT_x86.cab - 152909
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2008_X3DAudio_x86.cab - 21905
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2008_XACT_x86.cab - 93128
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\JUN2008_XAudio_x86.cab - 269024
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Jun2010_D3DCompiler_43_x86.cab - 931471
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Jun2010_d3dcsx_43_x86.cab - 762188
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Jun2010_d3dx10_43_x86.cab - 197283
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Jun2010_d3dx11_43_x86.cab - 109445
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Jun2010_d3dx9_43_x86.cab - 768036
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Jun2010_XACT_x86.cab - 93686
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Jun2010_XAudio_x86.cab - 278060
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2008_d3dx10_37_x86.cab - 818260
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2008_d3dx9_37_x86.cab - 1443282
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2008_XACT_x86.cab - 93734
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2008_XAudio_x86.cab - 226250
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2009_XACT_x86.cab - 92740
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Mar2009_XAudio_x86.cab - 273018
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Nov2007_d3dx10_36_x86.cab - 803884
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Nov2007_d3dx9_36_x86.cab - 1709360
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\NOV2007_X3DAudio_x86.cab - 18496
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\NOV2007_XACT_x86.cab - 148264
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Nov2008_d3dx10_40_x86.cab - 965421
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Nov2008_X3DAudio_x86.cab - 21851
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Nov2008_XACT_x86.cab - 92684
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Nov2008_XAudio_x86.cab - 272611
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\Oct2005_xinput_x86.cab - 45359
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\OCT2006_d3dx9_31_x86.cab - 1127217
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Redist\DirectX\OCT2006_XACT_x86.cab - 138017
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\reslists\precache.lst - 656
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\reslists\preload.lst - 656
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Ambience\Ambience.fev - 32566
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Ambience\Ambience_FinalChallenge.fsb - 7302496
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Ambience\Ambience_SteamShip.fsb - 46261024
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Ambience\Ambience_TrainStation.fsb - 47552992
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Ambience\Ambience_TripleDecker.fsb - 20424864
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Ambience\Ambience_Zeppelin.fsb - 18660352
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Ambience_DLC1\Ambience_DLC1.fev - 4928
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Ambience_DLC1\Ambience_DLC1.fsb - 21193248
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes\Cutscenes.fev - 73972
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes\Cutscenes_FinalChallenge.fsb - 6337152
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes\Cutscenes_GildedSteamShip.fsb - 9940288
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes\Cutscenes_RoyalTrainstation.fsb - 31168512
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes\Cutscenes_Shorts.fsb - 19532128
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes\Cutscenes_TripleDecker.fsb - 16858496
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes\Cutscenes_Zep.fsb - 13445568
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes_DLC1\Cutscenes_DLC1.fev - 6594
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Cutscenes_DLC1\Cutscenes_DLC1.fsb - 4793312
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls\Dolls.fev - 173721
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls\Dolls_Common.fsb - 45188768
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls\Dolls_FinalChallenge.fsb - 304800
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls\Dolls_RoyalTrainStation.fsb - 3867616
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls\Dolls_SteamShip.fsb - 6973152
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls\Dolls_TripleDecker.fsb - 4127808
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls\Dolls_Zeppelin.fsb - 3765760
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls_DLC1\Dolls_DLC1.fev - 20813
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Dolls_DLC1\Dolls_DLC1.fsb - 10601888
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Music\Music.fev - 2156
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Music\Music.fsb - 5617920
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted\MusicScripted.fev - 7067
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted\MusicScripted_Final.fsb - 3092608
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted\MusicScripted_FrontEnd.fsb - 16833344
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted\MusicScripted_RoyalTrainStation.fsb - 20929440
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted\MusicScripted_SteamShip.fsb - 8181888
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted\MusicScripted_TripleDecker.fsb - 6030784
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted\MusicScripted_Zeppelin.fsb - 29270080
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted_DLC1\MusicScripted_DLC1.fev - 9526
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\MusicScripted_DLC1\MusicScripted_DLC1.fsb - 43107680
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Reverbs\Reverbs.fev - 2029
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted\Scripted.fev - 90776
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted\Scripted_FinalChallenge.fsb - 155200
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted\Scripted_SteamShip.fsb - 7210208
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted\Scripted_TrainStation.fsb - 8931392
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted\Scripted_TripleDecker.fsb - 2104864
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted\Scripted_Walla.fsb - 41207808
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted\Scripted_Zeppelin.fsb - 2058688
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted_DLC1\Scripted_DLC1.fev - 6526
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Scripted_DLC1\Scripted_DLC1.fsb - 1719008
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\SFX\SFX.fev - 6900
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\SFX\SFX.fsb - 1257120
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\SFX_DLC1\SFX_DLC1.fev - 661
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\SFX_DLC1\SFX_DLC1.fsb - 25728
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\UI\UI.fev - 9769
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\UI\UI.fsb - 808768
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Audio\Voice\Voice.fev - 492
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\00Startup.~h - 2554
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\00Startup.~p - 1179648
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\DLC1_Stuff.~h - 313720
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\DLC1_Stuff.~p - 150405120
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_deDE.~h - 8200
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_deDE.~p - 9240576
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_enUS.~h - 7360
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_enUS.~p - 9109504
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_esES.~h - 8200
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_esES.~p - 9240576
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_frFR.~h - 8200
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_frFR.~p - 9240576
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_itIT.~h - 8200
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Loc_itIT.~p - 9240576
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Audio.~h - 3770
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Audio.~p - 131072
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Gfx.~h - 52874
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Gfx.~p - 50266112
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Other.~h - 2530
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Other.~p - 1441792
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Script.~h - 17444
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Script.~p - 720896
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Tests.~h - 3160
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Tests.~p - 131072
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Trivial.~h - 375564
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Man_Trivial.~p - 6160384
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\RgB_Stuff.~h - 508424
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\RgB_Stuff.~p - 20774912
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\RgS_Stuff.~h - 450484
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\RgS_Stuff.~p - 490536960
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Rg_Chars.~h - 146276
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\Rg_Chars.~p - 86179840
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\_Unused.~h - 210070
+08.03.2012 19:05:56 - Drive\Double Fine Productions\Stacking\Win\Packs\_Unused.~p - 119734272
+
+UAC Enabled
+
+
+VirtualStore Folders: 

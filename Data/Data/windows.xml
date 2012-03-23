@@ -15,6 +15,15 @@
     <save path="Data\profiles"/>
     <contributor>AdmiringWorm</contributor>
   </game>
+  <game name="7554" platform="Windows">
+    <title>7554</title>
+    <location_path environment_variable="installlocation" path="7554"/>
+    <location_registry root="current_user" key="Software\7554" value="BASE_PATH_7554"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\7554\7554.lnk"/>
+    <save path="SaveGames"/>
+    <save filename="setting.xml" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="AaaaaAAaaaAAAaaAAAAaAAAAA" platform="Windows">
     <title>AaaaaAAaaaAAAaaAAAAaAAAAA!!!</title>
     <location_path environment_variable="localappdata" path="AaaaaRecklessDisregard"/>
@@ -233,6 +242,17 @@
     <location_path environment_variable="userdocuments" path="Anno 1404"/>
     <save path="Savegames"/>
     <contributor>Caleb Love</contributor>
+  </game>
+  <game name="APBReloaded" platform="Windows">
+    <title>APB Reloaded</title>
+    <location_path environment_variable="steamcommon" path="apb reloaded"/>
+    <location_path environment_variable="installlocation" path="GamersFirst\APB Reloaded"/>
+    <location_registry root="local_machine" key="SOFTWARE\GamersFirst\APB\APB Reloaded" value="Installation Path"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GamersFirst\APB Reloaded\APB Reloaded.lnk" detract="Launcher"/>
+    <save path="APBGame\Config\Account" type="Accounts"/>
+    <save path="APBGame\Config\Linux" type="Settings"/>
+    <save path="APBGame\Config" filename="*.ini" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="Aquanox" platform="Windows">
     <title>Aquanox</title>
@@ -1263,6 +1283,13 @@
     <location_path environment_variable="userdocuments" path="Skyfallen Entertaiment\DeathTrack"/>
     <save path="Profile*"/>
     <save path="Config" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
+  <game name="DeepBlackReloaded" platform="Windows">
+    <title>Deep Black Reloaded</title>
+    <location_path environment_variable="userdocuments" path="DeepBlackReloaded"/>
+    <save filename="default"/>
+    <save filename="userrender.ini" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="DemonStone" platform="Windows">
@@ -2304,7 +2331,9 @@
   </game>
   <game name="HackerEvolution" platform="Windows">
     <title>Hacker Evolution</title>
+    <location_path environment_variable="installlocation" path="Hacker Evolution"/>
     <location_registry root="local_machine" key="SOFTWARE\Stardock\Drengin.net\hev" value="Path"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Games\Hacker Evolution.lnk"/>
     <save path="he-savegames" filename="*.profile"/>
     <save path="he-data" type="Settings"/>
     <contributor>AdmiringWorm</contributor>
@@ -2868,6 +2897,13 @@
     <save path="BIOGame\Profile"/>
     <save path="Save"/>
     <contributor>Christian Hamann</contributor>
+  </game>
+  <game name="MassEffect3" platform="Windows">
+    <title>Mass Effect 3</title>
+    <location_path environment_variable="userdocuments" path="BioWare\Mass Effect 3"/>
+    <save path="BIOGame\Config" type="Settings"/>
+    <save path="Save"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="MasterOfOrion2" platform="Windows">
     <title>Master of Orion 2: Battle at Antares</title>
@@ -4020,11 +4056,11 @@
     <save/>
     <contributor>slake_jones</contributor>
   </game>
-  <game name="SaintsRow3" platform="Windows">
-    <title>Saint's Row: The Third</title>
-    <location_path environment_variable="localappdata" path="SKIDROW"/>
+  <game name="Sacred2FallenAngel" platform="Windows">
+    <title>Sacred 2: Fallen Angel</title>
+    <location_path environment_variable="savedgames" path="Ascaron Entertainment\Sacred 2"/>
     <save/>
-    <contributor>Christian Hamann</contributor>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="SamAndMaxSeason1Episode1" platform="Windows">
     <title>Sam &amp; Max Season One Episode 1 - Culture Shock</title>
@@ -4835,6 +4871,16 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="TerroristTakedown3" platform="Windows">
+    <title>Terrorist Takedown 3</title>
+    <location_path environment_variable="public" path="Documents\City Interactive\Terrorist Takedown 3"/>
+    <save path="Profiles"/>
+    <save path="Save"/>
+    <save filename="BanIPList.txt" type="Settings"/>
+    <save filename="Game.ini" type="Settings"/>
+    <save filename="settings.cfg" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="TerroristTakedownCovertOperations" platform="Windows">
     <title>Terrorist Takedown: Covert Operations</title>
     <location_path environment_variable="installlocation" path="City Interactive\Terrorist Takedown - Covert Operations"/>
@@ -4896,6 +4942,14 @@
     <location_shortcut environment_variable="startmenu" path="Programs\Thief\Thief.lnk"/>
     <save path="SAVES"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="ThrillvilleOffTheRails" platform="Windows">
+    <title>ThrillvilleOffTheRails</title>
+    <location_path environment_variable="localappdata" path="LucasArts\Thrillville 07"/>
+    <save path="Save"/>
+    <save filename="KeyMouse.cfg" type="Settings"/>
+    <save filename="options.txt" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="TimeGentlemenPlease" platform="Windows">
     <title>Time Gentlemen, Please!</title>
@@ -5171,7 +5225,9 @@
     <save path="users"/>
     <save path="usersold"/>
     <save path="userstmp"/>
+    <save path="users" filename="options" type="Settings"/>
     <ignore path="users" filename="debug.log"/>
+    <ignore path="users" filename="options"/>
     <contributor>AdmiringWorm</contributor>
   </game>
   <game name="VampireTheMasqueradeBloodlines" platform="Windows">
