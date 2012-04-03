@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContributerListItem.cs" />
     <Compile Include="CustomGameHandler.cs" />
     <Compile Include="CustomGamesHandler.cs" />
     <Compile Include="GameListItem.cs" />
@@ -56,6 +55,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ContributorListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MASGAU\MASGAU.csproj">

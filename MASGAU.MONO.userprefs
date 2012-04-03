@@ -1,20 +1,22 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Translations/Strings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Gtk/WrappedWidgets/WrappedWidget.cs">
     <Files>
-      <File FileName="Translations/Strings.cs" Line="22" Column="38" />
+      <File FileName="MASGAU.Analyzer.Gtk/AnalyzerWindow.cs" Line="23" Column="5" />
+      <File FileName="MASGAU.Analyzer.Gtk/SearchingDialog.cs" Line="21" Column="4" />
+      <File FileName="MASGAU.Gtk/WrappedWidgets/Entry.cs" Line="21" Column="55" />
+      <File FileName="MASGAU.Gtk/WrappedWidgets/WrappedWidget.cs" Line="13" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="MASGAU.Updater" expanded="True" selected="True">
-            <Node name="References" expanded="True" />
+        <State expanded="True" selected="True">
+          <Node name="MASGAU.Analyzer.Gtk" expanded="True" />
+          <Node name="MASGAU.Gtk" expanded="True">
+            <Node name="WrappedWidgets" expanded="True" />
           </Node>
-          <Node name="MASGAU.Updater.Gtk" expanded="True">
-            <Node name="References" expanded="True" />
-          </Node>
+          <Node name="MASGAU.Main" expanded="True" />
           <Node name="Translations" expanded="True">
-            <Node name="References" expanded="True" />
+            <Node name="Strings" expanded="True" />
           </Node>
         </State>
       </Pad>
