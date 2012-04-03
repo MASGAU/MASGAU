@@ -98,7 +98,7 @@ public partial class AnalyzerWindow
 		this.GtkAlignment1.Name = "GtkAlignment1";
 		this.GtkAlignment1.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment1.Gtk.Container+ContainerChild
-		this.installLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select A File"), ((global::Gtk.FileChooserAction)(2)));
+		this.installLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select a File"), ((global::Gtk.FileChooserAction)(2)));
 		this.installLocation.Name = "installLocation";
 		this.installLocation.LocalOnly = false;
 		this.installLocation.ShowHidden = true;
@@ -239,7 +239,7 @@ public partial class AnalyzerWindow
 		this.GtkAlignment5.Name = "GtkAlignment5";
 		this.GtkAlignment5.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment5.Gtk.Container+ContainerChild
-		this.psLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select A File"), ((global::Gtk.FileChooserAction)(2)));
+		this.psLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select a File"), ((global::Gtk.FileChooserAction)(2)));
 		this.psLocation.Name = "psLocation";
 		this.psLocation.LocalOnly = false;
 		this.psLocation.ShowHidden = true;

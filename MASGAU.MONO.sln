@@ -21,11 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Analyzer.Gtk", "MASG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Gtk", "MASGAU.Gtk\MASGAU.Gtk.csproj", "{C2F897BF-9BAC-4CA3-B4D0-2F9E57E2A519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Linux", "MASGAU.Linux\MASGAU.Linux.csproj", "{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Mono", "MASGAU.MONO\MASGAU.Mono.csproj", "{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console", "MASGAU.Console\MASGAU.Console.csproj", "{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console.Linux", "MASGAU.Console.Linux\MASGAU.Console.Linux.csproj", "{EC344FB5-3AD4-48F4-8698-C154145DA731}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console.Posix", "MASGAU.Console.Posix\MASGAU.Console.Posix.csproj", "{EC344FB5-3AD4-48F4-8698-C154145DA731}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations", "Translations\Translations.csproj", "{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}"
 EndProject
@@ -105,7 +105,7 @@ Global
 		{EC344FB5-3AD4-48F4-8698-C154145DA731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MASGAU.Restore.Gtk\MASGAU.Restore.Gtk.csproj
+		StartupItem = MASGAU.Analyzer.Gtk\MASGAU.Analyzer.Gtk.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = null
