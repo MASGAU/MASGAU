@@ -12,6 +12,7 @@ namespace MASGAU.Analyzer
 			global::Stetic.Gui.Initialize (this);
 			// Widget MASGAU.Analyzer.SearchingDialog
 			this.Name = "MASGAU.Analyzer.SearchingDialog";
+			this.Title = global::Mono.Unix.Catalog.GetString ("SearchingWindowTitle");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 			this.Resizable = false;
 			this.AllowGrow = false;
@@ -35,7 +36,7 @@ namespace MASGAU.Analyzer
 			this.cancelButton.CanFocus = true;
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.UseUnderline = true;
-			this.cancelButton.Label = global::Mono.Unix.Catalog.GetString ("GtkButton");
+			this.cancelButton.Label = global::Mono.Unix.Catalog.GetString ("CancelButton");
 			this.AddActionWidget (this.cancelButton, 0);
 			global::Gtk.ButtonBox.ButtonBoxChild w4 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w3 [this.cancelButton]));
 			w4.Expand = false;

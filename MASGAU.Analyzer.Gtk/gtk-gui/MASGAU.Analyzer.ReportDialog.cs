@@ -16,6 +16,7 @@ namespace MASGAU.Analyzer
 			global::Stetic.Gui.Initialize (this);
 			// Widget MASGAU.Analyzer.ReportDialog
 			this.Name = "MASGAU.Analyzer.ReportDialog";
+			this.Title = global::Mono.Unix.Catalog.GetString ("ReportWindowTitle");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 			// Internal child MASGAU.Analyzer.ReportDialog.VBox
 			global::Gtk.VBox w1 = this.VBox;
@@ -38,7 +39,7 @@ namespace MASGAU.Analyzer
 			// Container child dialog1_VBox.Gtk.Box+BoxChild
 			this.disclaimerLabel = new global::Gtk.Label ();
 			this.disclaimerLabel.Name = "disclaimerLabel";
-			this.disclaimerLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("label1");
+			this.disclaimerLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("AnalyzerDisclaimer");
 			this.disclaimerLabel.Wrap = true;
 			w1.Add (this.disclaimerLabel);
 			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(w1 [this.disclaimerLabel]));

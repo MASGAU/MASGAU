@@ -12,10 +12,7 @@ namespace MASGAU.Analyzer
 		{
 			this.Build ();
 			this.name = name;
-			disclaimerLabel.Text = Strings.get("AnalyzerDisclaimer");
 			this.reportText.Buffer.Text = report;
-			this.Title = Strings.get("ReportWindowTitle");
-			this.uploadButton.Label = Strings.get("Upload");
             email.checkAvailability(checkAvailabilityDone);
             uploadButton.Label = Strings.get("CheckingConnection");
 		}

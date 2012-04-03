@@ -16,8 +16,9 @@ namespace MASGAU.Analyzer
 			this.save_path = save_path;
             this.analyzer = analyzer;
 			this.Build ();
-			this.Title = Strings.get("SearchingWindowTitle");
-			cancelButton.Label = Strings.get("Cancel");
+			
+			GTKHelpers.translateWindow(this);
+			
 			analyzer.runAnalyzer(HandleAnalyzerRunWorkerCompleted,game_name,game_path,save_path);
 		}
 		

@@ -16,14 +16,7 @@ public partial class AnalyzerWindow : MASGAU.AWindow
 		Build ();
 		
 		GTKHelpers.translateWindow(this);
-				
-		/*
-		installLocation.Title = Strings.get("GameInstallPrompt");
-		saveLocation.Title = Strings.get("GameSavesPrompt");
-		psLocation.Title = Strings.get("PlayStationLocationPrompt");
-				
-		*/
-		
+
 		window_title = this.Title;
 		
 		psLocation.SelectFilename("/");

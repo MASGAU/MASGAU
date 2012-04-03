@@ -47,7 +47,6 @@
     <Compile Include="gtk-gui\generated.cs" />
     <Compile Include="WrappedWidgets\Entry.cs" />
     <Compile Include="gtk-gui\MASGAU.Entry.cs" />
-    <Compile Include="WrappedWidgets\WrapperHelper.cs" />
     <Compile Include="AWindow.cs" />
     <Compile Include="ADialog.cs" />
     <Compile Include="GTKHelpers.cs" />
@@ -58,6 +57,7 @@
     <Compile Include="AProgramWindow.cs" />
     <Compile Include="SettingsWidget.cs" />
     <Compile Include="gtk-gui\MASGAU.SettingsWidget.cs" />
+    <Compile Include="WrappedWidgets\WrappedWidget.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
