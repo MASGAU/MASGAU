@@ -3,7 +3,7 @@ using System;
 namespace MASGAU
 {
 	[System.ComponentModel.ToolboxItem(true)]
-	public partial class Entry : Gtk.Bin, IView
+	public partial class Entry : WrappedWidget
 	{
 		public Entry ()
 		{
@@ -13,32 +13,14 @@ namespace MASGAU
 
 		void HandleEntry1Changed (object sender, EventArgs e)
 		{
-			WrapperHelper.updateValue(modelItem,modelItemProperty,entry1.Text);
+			updateValue(modelItem,modelItemProperty,entry1.Text);
 		}
 		
-		private AModelItem modelItem = null;
-		private string modelItemProperty = null;
-		public void attachModelItem(AModelItem source, String name) {
-			if(modelItem!=null)
-				this.detachModelItem();
-			
-			entry1.Text = WrapperHelper.getString(source,name);
-			
-			modelItemProperty = name;
-			modelItem = source;
-			source.PropertyChanged += HandleSourcePropertyChanged;
+		protected override void propertyChanged (string propertyName)
+		{
+			entry1.Text = getString(modelItem,modelItemProperty);
 		}
 
-		void HandleSourcePropertyChanged (object sender, System.ComponentModel.PropertyChangedEventArgs e)
-		{
-			if(e.PropertyName==modelItemProperty) {
-				
-			}
-		}
-		public void detachModelItem() {
-			modelItemProperty = null;
-			modelItem = null;
-		}
 	}
 }
 
