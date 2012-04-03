@@ -9,7 +9,7 @@ using MASGAU.Game;
 using MASGAU.Communication.Message;
 
 namespace MASGAU {
-    public abstract class AProgramHandler<L> : Core where L : ALocationsHandler {
+    public abstract class AProgramHandler<L> : Core, INotifyPropertyChanged where L : ALocationsHandler {
 
         // The title of the program's window
         public String program_title {

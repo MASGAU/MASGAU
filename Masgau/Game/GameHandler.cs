@@ -629,7 +629,7 @@ namespace MASGAU.Game {
                 if(file.DirectoryName.Length==add_me.abs_root.Length)
                     add_me.path = "";
                 else 
-                    add_me.path = file.DirectoryName.Substring(add_me.abs_root.Trim(Path.DirectorySeparatorChar).Length+1);
+                    add_me.path = file.DirectoryName.Substring(add_me.abs_root.TrimEnd(Path.DirectorySeparatorChar).Length+1);
 
                 add_me.name = file.Name;
 

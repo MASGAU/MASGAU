@@ -1,5 +1,6 @@
 using System;
 using System.Reflection;
+using System.ComponentModel;
 
 namespace MASGAU
 {
@@ -9,10 +10,10 @@ namespace MASGAU
 		{
 		}
 		
-		protected AModelItem modelItem = null;
+		protected INotifyPropertyChanged modelItem = null;
 		protected string modelItemProperty = null;
 		
-		public void attachModelItem(AModelItem source, String name) {
+		public void attachModelItem(INotifyPropertyChanged source, String name) {
 			if(modelItem!=null)
 				this.detachModelItem();
 			
@@ -37,7 +38,7 @@ namespace MASGAU
 			modelItem = null;
 		}
 		
-		protected static void updateValue(AModelItem item, String name, object value) {
+		protected static void updateValue(INotifyPropertyChanged item, String name, object value) {
 			if(item!=null) {
 				Type type = item.GetType();
 				PropertyInfo info = type.GetProperty(name);
@@ -45,7 +46,7 @@ namespace MASGAU
 				info.SetValue(item,value,null);
 			}
 		}
-		protected static bool getBoolean(AModelItem item, String name) {
+		protected static bool getBoolean(INotifyPropertyChanged item, String name) {
 			object value = getValue(item,name);
 			if(value==null)
 				throw new Exception(name + " is not boolable!");
@@ -53,7 +54,7 @@ namespace MASGAU
 			return (bool)value;
 		}
 		
-		protected static string getString(AModelItem item, String name) {
+		protected static string getString(INotifyPropertyChanged item, String name) {
 			object value = getValue(item,name);
 			if(value==null)
 				return null;
@@ -61,7 +62,7 @@ namespace MASGAU
 			return value.ToString();
 		}
 		
-		protected static object getValue(AModelItem item, String name) {
+		protected static object getValue(INotifyPropertyChanged item, String name) {
 			if(item!=null) {
 				Type type = item.GetType();
 				PropertyInfo info = type.GetProperty(name);

@@ -80,9 +80,12 @@ public partial class AnalyzerWindow : MASGAU.AWindow
 	{
 		this.Hide();
 		SearchingDialog search = new SearchingDialog(analyzer,nameEntry.Text,installLocation.Filename,saveLocation.Filename,this);
-		search.Run();
-		ReportDialog report = new ReportDialog(search.output,nameEntry.Text,this);
-		report.Run();
+		switch((Gtk.ResponseType)search.Run()) {
+		case Gtk.ResponseType.Ok:
+			ReportDialog report = new ReportDialog(search.output,nameEntry.Text,this);
+			report.Run();
+			break;
+		}
 		this.Show();
 	}
 }

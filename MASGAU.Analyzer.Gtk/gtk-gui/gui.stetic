@@ -397,6 +397,7 @@
     <property name="WindowPosition">CenterOnParent</property>
     <property name="Resizable">False</property>
     <property name="AllowGrow">False</property>
+    <property name="DefaultWidth">500</property>
     <property name="Buttons">1</property>
     <property name="HelpButton">False</property>
     <signal name="Close" handler="OnClose" />
@@ -442,6 +443,8 @@
     <property name="MemberName" />
     <property name="Title" translatable="yes">ReportWindowTitle</property>
     <property name="WindowPosition">CenterOnParent</property>
+    <property name="DefaultWidth">600</property>
+    <property name="DefaultHeight">400</property>
     <property name="Buttons">3</property>
     <property name="HelpButton">False</property>
     <child internal-child="VBox">
@@ -476,7 +479,7 @@
           </widget>
           <packing>
             <property name="Position">1</property>
-            <property name="AutoSize">False</property>
+            <property name="AutoSize">True</property>
             <property name="Expand">False</property>
             <property name="Fill">False</property>
           </packing>
@@ -495,12 +498,12 @@
             <property name="MemberName" />
             <property name="CanDefault">True</property>
             <property name="CanFocus">True</property>
-            <property name="UseStock">True</property>
-            <property name="Type">StockItem</property>
-            <property name="StockId">gtk-save</property>
-            <property name="ResponseId">0</property>
+            <property name="Type">TextAndIcon</property>
+            <property name="Icon">stock:gtk-save Menu</property>
+            <property name="Label" translatable="yes">SaveButton</property>
+            <property name="UseUnderline">True</property>
+            <property name="ResponseId">-1</property>
             <signal name="Clicked" handler="OnSaveButtonClicked" />
-            <property name="label">gtk-save</property>
           </widget>
           <packing>
             <property name="Expand">False</property>
@@ -515,9 +518,9 @@
             <property name="CanFocus">True</property>
             <property name="Type">TextAndIcon</property>
             <property name="Icon">stock:gtk-go-up Menu</property>
-            <property name="Label">_Upload</property>
+            <property name="Label">UploadButton</property>
             <property name="UseUnderline">True</property>
-            <property name="ResponseId">-5</property>
+            <property name="ResponseId">-1</property>
             <signal name="Clicked" handler="OnUploadButtonClicked" />
           </widget>
           <packing>
@@ -530,11 +533,11 @@
           <widget class="Gtk.Button" id="closebutton">
             <property name="MemberName" />
             <property name="CanFocus">True</property>
-            <property name="UseStock">True</property>
-            <property name="Type">StockItem</property>
-            <property name="StockId">gtk-close</property>
+            <property name="Type">TextAndIcon</property>
+            <property name="Icon">stock:gtk-close Menu</property>
+            <property name="Label" translatable="yes">CloseButton</property>
+            <property name="UseUnderline">True</property>
             <property name="ResponseId">-7</property>
-            <property name="label">gtk-close</property>
           </widget>
           <packing>
             <property name="Position">2</property>

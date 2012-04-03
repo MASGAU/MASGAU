@@ -46,6 +46,7 @@
     <Compile Include="IView.cs" />
     <Compile Include="gtk-gui\generated.cs" />
     <Compile Include="WrappedWidgets\Entry.cs" />
+    <Compile Include="WrappedWidgets\Button.cs" />
     <Compile Include="gtk-gui\MASGAU.Entry.cs" />
     <Compile Include="AWindow.cs" />
     <Compile Include="ADialog.cs" />

@@ -13,7 +13,6 @@ namespace MASGAU.Analyzer
 {
     public abstract class AAnalyzerProgramHandler<L> : AProgramHandler<L> where L : ALocationsHandler
     {
-
         protected BackgroundWorker analyzer;
 		public StringBuilder output {get; protected set;}
 		protected string game_path, save_path;
@@ -163,7 +162,7 @@ namespace MASGAU.Analyzer
                 recordException(e.InnerException);
         }
         protected string prepareDirectory(DirectoryInfo dir) {
-            List<DetectedLocationPathHolder> paths = Core.locations.interpretPath(dir.FullName.Trim(Path.DirectorySeparatorChar));
+            List<DetectedLocationPathHolder> paths = Core.locations.interpretPath(dir.FullName.TrimEnd(Path.DirectorySeparatorChar));
             if (paths.Count == 0)
                 return dir.FullName;
 

@@ -5,14 +5,15 @@ namespace MASGAU
 	[System.ComponentModel.ToolboxItem(true)]
 	public partial class Button : WrappedWidget
 	{
+
 		public Button ()
 		{
-			this.Build ();
+			//this.Build ();
 		}
 		
 		protected override void propertyChanged (string propertyName)
 		{
-			entry1.en = getString(source,name);
+			//entry1.Text = getString(modelItem,modelItemProperty);
 		}
 
 	}

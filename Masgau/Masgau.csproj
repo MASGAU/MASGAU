@@ -152,6 +152,7 @@
     <Compile Include="Update\UpdateHandler.cs" />
     <Compile Include="Update\UpdatesHandler.cs" />
     <Compile Include="Update\UpdateVersion.cs" />
+    <Compile Include="IModelItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="masgau.snk" />

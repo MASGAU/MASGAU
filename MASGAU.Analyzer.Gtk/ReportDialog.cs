@@ -11,8 +11,10 @@ namespace MASGAU.Analyzer
 		public ReportDialog (string report, string name, AWindow parent): base(parent)
 		{
 			this.Build ();
+			GTKHelpers.translateWindow(this);
 			this.name = name;
 			this.reportText.Buffer.Text = report;
+			email = new EmailHandler();
             email.checkAvailability(checkAvailabilityDone);
             uploadButton.Label = Strings.get("CheckingConnection");
 		}
@@ -30,7 +32,8 @@ namespace MASGAU.Analyzer
 
 		protected void OnSaveButtonClicked (object sender, System.EventArgs e)
 		{
-			Gtk.FileChooserDialog save = new Gtk.FileChooserDialog(Strings.get("SaveReportQuestion"),this,Gtk.FileChooserAction.Save,null);
+			this.disableInterface();
+			Gtk.FileChooserDialog save = new Gtk.FileChooserDialog(Strings.get("SaveReportQuestion"),this,Gtk.FileChooserAction.Save,Strings.get("CancelButton"),Gtk.ResponseType.Cancel,Strings.get("SaveButton"),Gtk.ResponseType.Ok);
 			Gtk.FileFilter filter = new Gtk.FileFilter();
 			filter.Name = Strings.get("TxtFileDescriptionPlural");
 			filter.AddPattern("*.txt");
@@ -55,6 +58,8 @@ namespace MASGAU.Analyzer
 					GTKHelpers.showError(this,Strings.get("WriteErrorPrompt"), Strings.get("WriteError") + " " + save.Filename);
 				}
 			}
+			
+			this.enableInterface();
 		}
 
 		protected void OnUploadButtonClicked (object sender, System.EventArgs e)
