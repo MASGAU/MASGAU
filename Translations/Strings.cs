@@ -88,10 +88,10 @@ namespace Translations {
             StringBuilder return_me = null;
 
             if (name == null)
-                return "NULL STRING";
+                return "";
 
             if (name == "")
-                return "EMPTY STRING";
+                return "";
 
             if (strings.ContainsKey(name))
                 return_me = new StringBuilder(strings[name]);

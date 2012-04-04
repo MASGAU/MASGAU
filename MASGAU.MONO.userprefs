@@ -1,32 +1,32 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Analyzer.Gtk/ReportDialog.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Gtk/WrapperFileChooserButton.cs">
     <Files>
-      <File FileName="MASGAU/Location/ALocationsHandler.cs" Line="148" Column="1" />
-      <File FileName="MASGAU.Analyzer/AAnalyzerProgramHandler.cs" Line="16" Column="1" />
-      <File FileName="MASGAU/Location/Holders/ALocationHolder.cs" Line="45" Column="32" />
-      <File FileName="MASGAU/Game/GameHandler.cs" Line="625" Column="5" />
-      <File FileName="MASGAU.Analyzer.Gtk/ReportDialog.cs" Line="43" Column="27" />
-      <File FileName="MASGAU.Analyzer.Gtk/AnalyzerProgramHandler.cs" Line="1" Column="1" />
-      <File FileName="MASGAU.Analyzer.Gtk/SearchingDialog.cs" Line="29" Column="17" />
-      <File FileName="MASGAU.Analyzer.Gtk/AnalyzerWindow.cs" Line="72" Column="3" />
+      <File FileName="MASGAU.Gtk/WrappedEntry.cs" Line="8" Column="3" />
+      <File FileName="MASGAU.Gtk/WrappedButton.cs" Line="8" Column="18" />
+      <File FileName="MASGAU.Analyzer.Gtk/AnalyzerWindow.cs" Line="26" Column="1" />
+      <File FileName="MASGAU.Analyzer/AAnalyzerProgramHandler.cs" Line="89" Column="1" />
+      <File FileName="MASGAU.Gtk/WrappedWidget.cs" Line="79" Column="1" />
+      <File FileName="MASGAU.Analyzer.Gtk/SearchingDialog.cs" Line="14" Column="1" />
+      <File FileName="MASGAU.Gtk/WrapperFileChooserButton.cs" Line="41" Column="4" />
+      <File FileName="Disassembly" />
+      <File FileName="MASGAU.Analyzer.Gtk/AnalyzerProgramHandler.cs" Line="8" Column="66" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MASGAU" expanded="True">
-            <Node name="Game" expanded="True" />
-          </Node>
+          <Node name="MASGAU" expanded="True" />
           <Node name="MASGAU.Analyzer" expanded="True" />
-          <Node name="MASGAU.Analyzer.Gtk" expanded="True">
-            <Node name="ReportDialog.cs" selected="True" />
-          </Node>
+          <Node name="MASGAU.Analyzer.Gtk" expanded="True" />
           <Node name="MASGAU.Gtk" expanded="True">
-            <Node name="WrappedWidgets" expanded="True" />
+            <Node name="WrapperFileChooserButton.cs" selected="True" />
           </Node>
-          <Node name="MASGAU.Main" expanded="True" />
+          <Node name="MASGAU.Main.Gtk" expanded="True" />
+          <Node name="MASGAU.Monitor.Gtk" expanded="True" />
+          <Node name="MASGAU.Restore.Gtk" expanded="True" />
+          <Node name="MASGAU.Updater.Gtk" expanded="True" />
           <Node name="Translations" expanded="True">
-            <Node name="Strings" expanded="True" />
+            <Node name="References" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -35,10 +35,15 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/tkmayn9/Documents/MASGAU/MASGAU.Gtk/GTKHelpers.cs" line="38" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Gtk/AProgramWindow.cs" line="31" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Gtk/AProgramWindow.cs" line="37" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU/BackgroundWorker.cs" line="21" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Analyzer/AAnalyzerProgramHandler.cs" line="38" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Analyzer/AAnalyzerProgramHandler.cs" line="49" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="MASGAU.Gtk/GTKHelpers.cs" line="37" offsetX="403" offsetY="540" expression="Label" liveUpdate="False" />
-    <Watch file="MASGAU.Gtk/GTKHelpers.cs" line="37" offsetX="407" offsetY="588" expression="string_title" liveUpdate="False" />
+    <Watch file="MASGAU.Gtk/GTKHelpers.cs" line="37" offsetX="558" offsetY="548" expression="string_title" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

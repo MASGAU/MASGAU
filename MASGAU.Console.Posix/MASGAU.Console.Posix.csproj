@@ -46,7 +46,7 @@
       <Project>{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}</Project>
       <Name>MASGAU.Console</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.MONO\MASGAU.Mono.csproj">
+    <ProjectReference Include="..\MASGAU.Mono\MASGAU.Mono.csproj">
       <Project>{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}</Project>
       <Name>MASGAU.Mono</Name>
     </ProjectReference>

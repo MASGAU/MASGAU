@@ -12,7 +12,7 @@ namespace MASGAU
 
         public AProgramWindow() {}
 
-        protected AProgramWindow(AProgramHandler<Location.LocationsHandler>  program_handler, AWindow parent): base(parent) {
+        protected AProgramWindow(AProgramHandler<Location.LocationsHandler> program_handler, AWindow parent): base(parent) {
             this.program_handler = program_handler;
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);
             if(program_handler!=null)

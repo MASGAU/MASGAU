@@ -111,6 +111,8 @@
   <string name="BackupContextEnableBackup">Enable Backup</string>
   
   <!-- Restore tab -->
+  <string name="ArchiveListHeader">Double-click a backup to restore it</string>
+
   <string name="ArchiveNameColumn">Game</string>
   <string name="ArchiveTypeColumn">Type</string>
   <string name="ArchiveOwnerColumn">Owner</string>
@@ -147,6 +149,7 @@
   <string name="TaskCredentials">User And Password To Run Task As</string>
   
   <!-- About tab-->
+  <string name="Contributors">Contributors</string>
   <string name="Contributor">Contributor</string>
   <string name="Count">Count</string>
   

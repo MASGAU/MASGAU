@@ -30,12 +30,9 @@
                 <property name="Yalign">0</property>
                 <property name="LeftPadding">12</property>
                 <child>
-                  <widget class="Gtk.Entry" id="nameEntry">
+                  <widget class="MASGAU.Gtk.WrappedEntry" id="nameEntry">
                     <property name="MemberName" />
-                    <property name="CanFocus">True</property>
-                    <property name="IsEditable">True</property>
-                    <property name="InvisibleChar">●</property>
-                    <signal name="Changed" handler="EntryChanged" />
+                    <property name="Events">ButtonPressMask</property>
                   </widget>
                 </child>
               </widget>
@@ -78,11 +75,9 @@
                         <property name="Yalign">0</property>
                         <property name="LeftPadding">12</property>
                         <child>
-                          <widget class="Gtk.FileChooserButton" id="installLocation">
+                          <widget class="MASGAU.Gtk.WrapperFileChooserButton" id="installLocation">
                             <property name="MemberName" />
-                            <property name="Action">SelectFolder</property>
-                            <property name="LocalOnly">False</property>
-                            <property name="ShowHidden">True</property>
+                            <property name="Events">ButtonPressMask</property>
                           </widget>
                         </child>
                       </widget>
@@ -116,12 +111,9 @@
                         <property name="Yalign">0</property>
                         <property name="LeftPadding">12</property>
                         <child>
-                          <widget class="Gtk.FileChooserButton" id="saveLocation">
+                          <widget class="MASGAU.Gtk.WrapperFileChooserButton" id="saveLocation">
                             <property name="MemberName" />
-                            <property name="Title" translatable="yes" />
-                            <property name="Action">SelectFolder</property>
-                            <property name="LocalOnly">False</property>
-                            <property name="ShowHidden">True</property>
+                            <property name="Events">ButtonPressMask</property>
                           </widget>
                         </child>
                       </widget>
@@ -145,15 +137,10 @@
                   </packing>
                 </child>
                 <child>
-                  <widget class="Gtk.Button" id="scanBtn">
+                  <widget class="MASGAU.Gtk.WrappedButton" id="scanBtn">
                     <property name="MemberName" />
-                    <property name="Sensitive">False</property>
-                    <property name="CanFocus">True</property>
-                    <property name="Type">TextAndIcon</property>
-                    <property name="Icon">stock:gtk-execute Menu</property>
-                    <property name="Label" translatable="yes">ScanButton</property>
-                    <property name="UseUnderline">True</property>
-                    <signal name="Clicked" handler="OnScanBtnClicked" />
+                    <property name="Events">ButtonPressMask</property>
+                    <property name="Label">ScanButton</property>
                   </widget>
                   <packing>
                     <property name="Position">2</property>
@@ -192,13 +179,9 @@
                             <property name="MemberName" />
                             <property name="Spacing">6</property>
                             <child>
-                              <widget class="Gtk.Entry" id="prefixEntry">
+                              <widget class="MASGAU.Gtk.WrappedEntry" id="prefixEntry">
                                 <property name="MemberName" />
-                                <property name="CanFocus">True</property>
-                                <property name="IsEditable">True</property>
-                                <property name="MaxLength">4</property>
-                                <property name="InvisibleChar">●</property>
-                                <signal name="Changed" handler="EntryChanged" />
+                                <property name="Events">ButtonPressMask</property>
                               </widget>
                               <packing>
                                 <property name="Position">0</property>
@@ -218,13 +201,9 @@
                               </packing>
                             </child>
                             <child>
-                              <widget class="Gtk.Entry" id="suffixEntry">
+                              <widget class="MASGAU.Gtk.WrappedEntry" id="suffixEntry">
                                 <property name="MemberName" />
-                                <property name="CanFocus">True</property>
-                                <property name="IsEditable">True</property>
-                                <property name="MaxLength">5</property>
-                                <property name="InvisibleChar">●</property>
-                                <signal name="Changed" handler="EntryChanged" />
+                                <property name="Events">ButtonPressMask</property>
                               </widget>
                               <packing>
                                 <property name="Position">2</property>
@@ -264,11 +243,9 @@
                         <property name="Yalign">0</property>
                         <property name="LeftPadding">12</property>
                         <child>
-                          <widget class="Gtk.FileChooserButton" id="psLocation">
+                          <widget class="MASGAU.Gtk.WrapperFileChooserButton" id="psLocation">
                             <property name="MemberName" />
-                            <property name="Action">SelectFolder</property>
-                            <property name="LocalOnly">False</property>
-                            <property name="ShowHidden">True</property>
+                            <property name="Events">ButtonPressMask</property>
                           </widget>
                         </child>
                       </widget>
@@ -292,14 +269,10 @@
                   </packing>
                 </child>
                 <child>
-                  <widget class="Gtk.Button" id="psScanBtn">
+                  <widget class="MASGAU.Gtk.WrappedButton" id="psScanBtn">
                     <property name="MemberName" />
-                    <property name="Sensitive">False</property>
-                    <property name="CanFocus">True</property>
-                    <property name="Type">TextAndIcon</property>
-                    <property name="Icon">stock:gtk-execute Menu</property>
-                    <property name="Label" translatable="yes">PlayStationScanButton</property>
-                    <property name="UseUnderline">True</property>
+                    <property name="Events">ButtonPressMask</property>
+                    <property name="Label">PlayStationScanButton</property>
                   </widget>
                   <packing>
                     <property name="Position">2</property>
@@ -337,7 +310,7 @@
                         <property name="Yalign">0</property>
                         <property name="LeftPadding">12</property>
                         <child>
-                          <widget class="MASGAU.Entry" id="emailEntry">
+                          <widget class="MASGAU.Gtk.WrappedEntry" id="emailEntry">
                             <property name="MemberName" />
                             <property name="Events">ButtonPressMask</property>
                           </widget>

@@ -38,14 +38,14 @@ namespace MASGAU.Main
 		private global::Gtk.CheckButton autoUpdateCheck;
 		private global::Gtk.Button checkUpdatesBtn;
 		private global::Gtk.Frame frame5;
-		private global::Gtk.Alignment GtkAlignment5;
+		private global::Gtk.Alignment GtkAlignment7;
 		private global::Gtk.HBox hbox4;
 		private global::Gtk.Entry backupPathEntry;
 		private global::Gtk.Button changeBackupPathBtn;
 		private global::Gtk.Button openBackupPathBtn;
 		private global::Gtk.Label GtkLabel12;
 		private global::Gtk.Frame frame6;
-		private global::Gtk.Alignment GtkAlignment8;
+		private global::Gtk.Alignment GtkAlignment11;
 		private global::Gtk.HBox hbox5;
 		private global::Gtk.Entry steamPathEntry;
 		private global::Gtk.Button changeSteamPathBtn;
@@ -80,23 +80,23 @@ namespace MASGAU.Main
 		private global::Gtk.Alignment alignment4;
 		private global::Gtk.VBox vbox7;
 		private global::Gtk.Frame frame12;
-		private global::Gtk.Alignment GtkAlignment12;
+		private global::Gtk.Alignment GtkAlignment17;
 		private global::Gtk.ComboBox taskFrequencyCombo;
 		private global::Gtk.Label GtkLabel22;
 		private global::Gtk.Frame frame13;
-		private global::Gtk.Alignment GtkAlignment13;
+		private global::Gtk.Alignment GtkAlignment22;
 		private global::Gtk.SpinButton taskTimeOfDaySpin;
 		private global::Gtk.Label GtkLabel26;
 		private global::Gtk.Frame frame14;
-		private global::Gtk.Alignment GtkAlignment14;
+		private global::Gtk.Alignment GtkAlignment23;
 		private global::Gtk.ComboBox taskDayOfWeekCombo;
 		private global::Gtk.Label GtkLabel27;
 		private global::Gtk.Frame frame16;
-		private global::Gtk.Alignment GtkAlignment15;
+		private global::Gtk.Alignment GtkAlignment24;
 		private global::Gtk.SpinButton dayOfTheMonthSpin;
 		private global::Gtk.Label GtkLabel31;
 		private global::Gtk.Frame frame15;
-		private global::Gtk.Alignment GtkAlignment16;
+		private global::Gtk.Alignment GtkAlignment25;
 		private global::Gtk.HBox hbox11;
 		private global::Gtk.Entry taskUserEntry;
 		private global::Gtk.Entry taskPasswordEntry;
@@ -108,11 +108,11 @@ namespace MASGAU.Main
 		private global::Gtk.Alignment alignment5;
 		private global::Gtk.VBox vbox8;
 		private global::Gtk.Image image31;
-		private global::Gtk.Label label6;
+		private global::Gtk.Label versionLabel;
 		private global::Gtk.Frame frame17;
-		private global::Gtk.Alignment GtkAlignment17;
+		private global::Gtk.Alignment GtkAlignment28;
 		private global::Gtk.ScrolledWindow GtkScrolledWindow3;
-		private global::Gtk.TreeView treeview2;
+		private global::Gtk.TreeView contribTree;
 		private global::Gtk.Label GtkLabel33;
 		private global::Gtk.Label siteUrlLabel;
 		private global::Gtk.Label label5;
@@ -168,7 +168,7 @@ namespace MASGAU.Main
 			this.frame1.Add (this.GtkAlignment);
 			this.GtkLabel23 = new global::Gtk.Label ();
 			this.GtkLabel23.Name = "GtkLabel23";
-			this.GtkLabel23.LabelProp = global::Mono.Unix.Catalog.GetString ("Detected Games");
+			this.GtkLabel23.LabelProp = global::Mono.Unix.Catalog.GetString ("DetectedGames");
 			this.GtkLabel23.UseMarkup = true;
 			this.frame1.LabelWidget = this.GtkLabel23;
 			this.vbox2.Add (this.frame1);
@@ -195,7 +195,7 @@ namespace MASGAU.Main
 			w6.Add (w7);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w9 = new global::Gtk.Label ();
-			w9.LabelProp = global::Mono.Unix.Catalog.GetString ("_Redetect Games");
+			w9.LabelProp = global::Mono.Unix.Catalog.GetString ("RedetectGamesButton");
 			w9.UseUnderline = true;
 			w6.Add (w9);
 			w5.Add (w6);
@@ -219,7 +219,7 @@ namespace MASGAU.Main
 			w15.Add (w16);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w18 = new global::Gtk.Label ();
-			w18.LabelProp = global::Mono.Unix.Catalog.GetString ("_Back Nothing Up");
+			w18.LabelProp = global::Mono.Unix.Catalog.GetString ("BackupNoGamesButton");
 			w18.UseUnderline = true;
 			w15.Add (w18);
 			w14.Add (w15);
@@ -243,7 +243,7 @@ namespace MASGAU.Main
 			w24.Add (w25);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w27 = new global::Gtk.Label ();
-			w27.LabelProp = global::Mono.Unix.Catalog.GetString ("Back _Everything Up");
+			w27.LabelProp = global::Mono.Unix.Catalog.GetString ("BackupAllGamesButton");
 			w27.UseUnderline = true;
 			w24.Add (w27);
 			w23.Add (w24);
@@ -297,7 +297,7 @@ namespace MASGAU.Main
 			this.frame11.Add (this.GtkAlignment10);
 			this.GtkLabel24 = new global::Gtk.Label ();
 			this.GtkLabel24.Name = "GtkLabel24";
-			this.GtkLabel24.LabelProp = global::Mono.Unix.Catalog.GetString ("Double-click a backup to restore it");
+			this.GtkLabel24.LabelProp = global::Mono.Unix.Catalog.GetString ("ArchiveListHeader");
 			this.GtkLabel24.UseMarkup = true;
 			this.frame11.LabelWidget = this.GtkLabel24;
 			this.vbox6.Add (this.frame11);
@@ -324,7 +324,7 @@ namespace MASGAU.Main
 			w40.Add (w41);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w43 = new global::Gtk.Label ();
-			w43.LabelProp = global::Mono.Unix.Catalog.GetString ("Reload Archives");
+			w43.LabelProp = global::Mono.Unix.Catalog.GetString ("ReloadArchivesButton");
 			w43.UseUnderline = true;
 			w40.Add (w43);
 			w39.Add (w40);
@@ -348,7 +348,7 @@ namespace MASGAU.Main
 			w49.Add (w50);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w52 = new global::Gtk.Label ();
-			w52.LabelProp = global::Mono.Unix.Catalog.GetString ("Restore Other Save(s)");
+			w52.LabelProp = global::Mono.Unix.Catalog.GetString ("RestoreOtherBackup");
 			w52.UseUnderline = true;
 			w49.Add (w52);
 			w48.Add (w49);
@@ -391,7 +391,7 @@ namespace MASGAU.Main
 			this.ignoreDatesCheck = new global::Gtk.CheckButton ();
 			this.ignoreDatesCheck.CanFocus = true;
 			this.ignoreDatesCheck.Name = "ignoreDatesCheck";
-			this.ignoreDatesCheck.Label = global::Mono.Unix.Catalog.GetString ("Ignore Dates During Backup");
+			this.ignoreDatesCheck.Label = global::Mono.Unix.Catalog.GetString ("IgnoreDates");
 			this.ignoreDatesCheck.DrawIndicator = true;
 			this.ignoreDatesCheck.UseUnderline = true;
 			this.hbox1.Add (this.ignoreDatesCheck);
@@ -401,7 +401,7 @@ namespace MASGAU.Main
 			this.startMonitorCheck = new global::Gtk.CheckButton ();
 			this.startMonitorCheck.CanFocus = true;
 			this.startMonitorCheck.Name = "startMonitorCheck";
-			this.startMonitorCheck.Label = global::Mono.Unix.Catalog.GetString ("Start Monitor On Login");
+			this.startMonitorCheck.Label = global::Mono.Unix.Catalog.GetString ("StartMonitorOnLogin");
 			this.startMonitorCheck.DrawIndicator = true;
 			this.startMonitorCheck.UseUnderline = true;
 			this.hbox1.Add (this.startMonitorCheck);
@@ -421,7 +421,7 @@ namespace MASGAU.Main
 			this.autoUpdateCheck = new global::Gtk.CheckButton ();
 			this.autoUpdateCheck.CanFocus = true;
 			this.autoUpdateCheck.Name = "autoUpdateCheck";
-			this.autoUpdateCheck.Label = global::Mono.Unix.Catalog.GetString ("Auto-Check For Updates");
+			this.autoUpdateCheck.Label = global::Mono.Unix.Catalog.GetString ("AutoUpdate");
 			this.autoUpdateCheck.DrawIndicator = true;
 			this.autoUpdateCheck.UseUnderline = true;
 			this.hbox3.Add (this.autoUpdateCheck);
@@ -443,7 +443,7 @@ namespace MASGAU.Main
 			w65.Add (w66);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w68 = new global::Gtk.Label ();
-			w68.LabelProp = global::Mono.Unix.Catalog.GetString ("Check For Updates");
+			w68.LabelProp = global::Mono.Unix.Catalog.GetString ("CheckForUpdates");
 			w68.UseUnderline = true;
 			w65.Add (w68);
 			w64.Add (w65);
@@ -460,12 +460,12 @@ namespace MASGAU.Main
 			this.frame5 = new global::Gtk.Frame ();
 			this.frame5.Name = "frame5";
 			// Container child frame5.Gtk.Container+ContainerChild
-			this.GtkAlignment5 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
-			this.GtkAlignment5.Name = "GtkAlignment5";
-			this.GtkAlignment5.LeftPadding = ((uint)(3));
-			this.GtkAlignment5.RightPadding = ((uint)(3));
-			this.GtkAlignment5.BottomPadding = ((uint)(3));
-			// Container child GtkAlignment5.Gtk.Container+ContainerChild
+			this.GtkAlignment7 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
+			this.GtkAlignment7.Name = "GtkAlignment7";
+			this.GtkAlignment7.LeftPadding = ((uint)(3));
+			this.GtkAlignment7.RightPadding = ((uint)(3));
+			this.GtkAlignment7.BottomPadding = ((uint)(3));
+			// Container child GtkAlignment7.Gtk.Container+ContainerChild
 			this.hbox4 = new global::Gtk.HBox ();
 			this.hbox4.Name = "hbox4";
 			this.hbox4.Spacing = 6;
@@ -495,7 +495,7 @@ namespace MASGAU.Main
 			w76.Add (w77);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w79 = new global::Gtk.Label ();
-			w79.LabelProp = global::Mono.Unix.Catalog.GetString ("Change");
+			w79.LabelProp = global::Mono.Unix.Catalog.GetString ("ChangeButton");
 			w79.UseUnderline = true;
 			w76.Add (w79);
 			w75.Add (w76);
@@ -521,7 +521,7 @@ namespace MASGAU.Main
 			w85.Add (w86);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w88 = new global::Gtk.Label ();
-			w88.LabelProp = global::Mono.Unix.Catalog.GetString ("Open");
+			w88.LabelProp = global::Mono.Unix.Catalog.GetString ("OpenButton");
 			w88.UseUnderline = true;
 			w85.Add (w88);
 			w84.Add (w85);
@@ -531,11 +531,11 @@ namespace MASGAU.Main
 			w92.Position = 2;
 			w92.Expand = false;
 			w92.Fill = false;
-			this.GtkAlignment5.Add (this.hbox4);
-			this.frame5.Add (this.GtkAlignment5);
+			this.GtkAlignment7.Add (this.hbox4);
+			this.frame5.Add (this.GtkAlignment7);
 			this.GtkLabel12 = new global::Gtk.Label ();
 			this.GtkLabel12.Name = "GtkLabel12";
-			this.GtkLabel12.LabelProp = global::Mono.Unix.Catalog.GetString ("Backup Path");
+			this.GtkLabel12.LabelProp = global::Mono.Unix.Catalog.GetString ("BackupPath");
 			this.GtkLabel12.UseMarkup = true;
 			this.frame5.LabelWidget = this.GtkLabel12;
 			this.vbox3.Add (this.frame5);
@@ -547,12 +547,12 @@ namespace MASGAU.Main
 			this.frame6 = new global::Gtk.Frame ();
 			this.frame6.Name = "frame6";
 			// Container child frame6.Gtk.Container+ContainerChild
-			this.GtkAlignment8 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
-			this.GtkAlignment8.Name = "GtkAlignment8";
-			this.GtkAlignment8.LeftPadding = ((uint)(3));
-			this.GtkAlignment8.RightPadding = ((uint)(3));
-			this.GtkAlignment8.BottomPadding = ((uint)(3));
-			// Container child GtkAlignment8.Gtk.Container+ContainerChild
+			this.GtkAlignment11 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
+			this.GtkAlignment11.Name = "GtkAlignment11";
+			this.GtkAlignment11.LeftPadding = ((uint)(3));
+			this.GtkAlignment11.RightPadding = ((uint)(3));
+			this.GtkAlignment11.BottomPadding = ((uint)(3));
+			// Container child GtkAlignment11.Gtk.Container+ContainerChild
 			this.hbox5 = new global::Gtk.HBox ();
 			this.hbox5.Name = "hbox5";
 			this.hbox5.Spacing = 6;
@@ -582,7 +582,7 @@ namespace MASGAU.Main
 			w98.Add (w99);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w101 = new global::Gtk.Label ();
-			w101.LabelProp = global::Mono.Unix.Catalog.GetString ("Change");
+			w101.LabelProp = global::Mono.Unix.Catalog.GetString ("ChangeButton");
 			w101.UseUnderline = true;
 			w98.Add (w101);
 			w97.Add (w98);
@@ -608,7 +608,7 @@ namespace MASGAU.Main
 			w107.Add (w108);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w110 = new global::Gtk.Label ();
-			w110.LabelProp = global::Mono.Unix.Catalog.GetString ("Reset");
+			w110.LabelProp = global::Mono.Unix.Catalog.GetString ("ResetButton");
 			w110.UseUnderline = true;
 			w107.Add (w110);
 			w106.Add (w107);
@@ -618,11 +618,11 @@ namespace MASGAU.Main
 			w114.Position = 2;
 			w114.Expand = false;
 			w114.Fill = false;
-			this.GtkAlignment8.Add (this.hbox5);
-			this.frame6.Add (this.GtkAlignment8);
+			this.GtkAlignment11.Add (this.hbox5);
+			this.frame6.Add (this.GtkAlignment11);
 			this.GtkLabel15 = new global::Gtk.Label ();
 			this.GtkLabel15.Name = "GtkLabel15";
-			this.GtkLabel15.LabelProp = global::Mono.Unix.Catalog.GetString ("Steam Path");
+			this.GtkLabel15.LabelProp = global::Mono.Unix.Catalog.GetString ("SteamPath");
 			this.GtkLabel15.UseMarkup = true;
 			this.frame6.LabelWidget = this.GtkLabel15;
 			this.vbox3.Add (this.frame6);
@@ -664,7 +664,7 @@ namespace MASGAU.Main
 			w119.Add (w120);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w122 = new global::Gtk.Label ();
-			w122.LabelProp = global::Mono.Unix.Catalog.GetString ("Make Extra Backups");
+			w122.LabelProp = global::Mono.Unix.Catalog.GetString ("VersioningEnable");
 			w122.UseUnderline = true;
 			w119.Add (w122);
 			w118.Add (w119);
@@ -709,7 +709,7 @@ namespace MASGAU.Main
 			this.frame9.Add (this.GtkAlignment19);
 			this.GtkLabel17 = new global::Gtk.Label ();
 			this.GtkLabel17.Name = "GtkLabel17";
-			this.GtkLabel17.LabelProp = global::Mono.Unix.Catalog.GetString ("At Least This Long Between Copies");
+			this.GtkLabel17.LabelProp = global::Mono.Unix.Catalog.GetString ("VersioningTime");
 			this.GtkLabel17.UseMarkup = true;
 			this.frame9.LabelWidget = this.GtkLabel17;
 			this.vbox4.Add (this.frame9);
@@ -737,7 +737,7 @@ namespace MASGAU.Main
 			this.frame10.Add (this.GtkAlignment20);
 			this.GtkLabel18 = new global::Gtk.Label ();
 			this.GtkLabel18.Name = "GtkLabel18";
-			this.GtkLabel18.LabelProp = global::Mono.Unix.Catalog.GetString ("At Most This Many Copies");
+			this.GtkLabel18.LabelProp = global::Mono.Unix.Catalog.GetString ("VersioningCount");
 			this.GtkLabel18.UseMarkup = true;
 			this.frame10.LabelWidget = this.GtkLabel18;
 			this.vbox4.Add (this.frame10);
@@ -801,7 +801,7 @@ namespace MASGAU.Main
 			w141.Add (w142);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w144 = new global::Gtk.Label ();
-			w144.LabelProp = global::Mono.Unix.Catalog.GetString ("Remove Nothing");
+			w144.LabelProp = global::Mono.Unix.Catalog.GetString ("RemoveNoAltPaths");
 			w144.UseUnderline = true;
 			w141.Add (w144);
 			w140.Add (w141);
@@ -825,7 +825,7 @@ namespace MASGAU.Main
 			w150.Add (w151);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w153 = new global::Gtk.Label ();
-			w153.LabelProp = global::Mono.Unix.Catalog.GetString ("Add New Path!");
+			w153.LabelProp = global::Mono.Unix.Catalog.GetString ("AddAltPath");
 			w153.UseUnderline = true;
 			w150.Add (w153);
 			w149.Add (w150);
@@ -842,7 +842,7 @@ namespace MASGAU.Main
 			this.frame7.Add (this.GtkAlignment21);
 			this.GtkLabel32 = new global::Gtk.Label ();
 			this.GtkLabel32.Name = "GtkLabel32";
-			this.GtkLabel32.LabelProp = global::Mono.Unix.Catalog.GetString ("Alternate Install Paths");
+			this.GtkLabel32.LabelProp = global::Mono.Unix.Catalog.GetString ("AltPaths");
 			this.GtkLabel32.UseMarkup = true;
 			this.frame7.LabelWidget = this.GtkLabel32;
 			this.hbox2.Add (this.frame7);
@@ -876,20 +876,20 @@ namespace MASGAU.Main
 			this.frame12 = new global::Gtk.Frame ();
 			this.frame12.Name = "frame12";
 			// Container child frame12.Gtk.Container+ContainerChild
-			this.GtkAlignment12 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
-			this.GtkAlignment12.Name = "GtkAlignment12";
-			this.GtkAlignment12.LeftPadding = ((uint)(3));
-			this.GtkAlignment12.RightPadding = ((uint)(3));
-			this.GtkAlignment12.BottomPadding = ((uint)(3));
-			// Container child GtkAlignment12.Gtk.Container+ContainerChild
+			this.GtkAlignment17 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
+			this.GtkAlignment17.Name = "GtkAlignment17";
+			this.GtkAlignment17.LeftPadding = ((uint)(3));
+			this.GtkAlignment17.RightPadding = ((uint)(3));
+			this.GtkAlignment17.BottomPadding = ((uint)(3));
+			// Container child GtkAlignment17.Gtk.Container+ContainerChild
 			this.taskFrequencyCombo = global::Gtk.ComboBox.NewText ();
 			this.taskFrequencyCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Daily"));
 			this.taskFrequencyCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Weekly"));
 			this.taskFrequencyCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Monthly"));
 			this.taskFrequencyCombo.Name = "taskFrequencyCombo";
 			this.taskFrequencyCombo.Active = 0;
-			this.GtkAlignment12.Add (this.taskFrequencyCombo);
-			this.frame12.Add (this.GtkAlignment12);
+			this.GtkAlignment17.Add (this.taskFrequencyCombo);
+			this.frame12.Add (this.GtkAlignment17);
 			this.GtkLabel22 = new global::Gtk.Label ();
 			this.GtkLabel22.Name = "GtkLabel22";
 			this.GtkLabel22.LabelProp = global::Mono.Unix.Catalog.GetString ("Frequency");
@@ -904,23 +904,23 @@ namespace MASGAU.Main
 			this.frame13 = new global::Gtk.Frame ();
 			this.frame13.Name = "frame13";
 			// Container child frame13.Gtk.Container+ContainerChild
-			this.GtkAlignment13 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
-			this.GtkAlignment13.Name = "GtkAlignment13";
-			this.GtkAlignment13.LeftPadding = ((uint)(3));
-			this.GtkAlignment13.RightPadding = ((uint)(3));
-			this.GtkAlignment13.BottomPadding = ((uint)(3));
-			// Container child GtkAlignment13.Gtk.Container+ContainerChild
+			this.GtkAlignment22 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
+			this.GtkAlignment22.Name = "GtkAlignment22";
+			this.GtkAlignment22.LeftPadding = ((uint)(3));
+			this.GtkAlignment22.RightPadding = ((uint)(3));
+			this.GtkAlignment22.BottomPadding = ((uint)(3));
+			// Container child GtkAlignment22.Gtk.Container+ContainerChild
 			this.taskTimeOfDaySpin = new global::Gtk.SpinButton (0, 100, 1);
 			this.taskTimeOfDaySpin.CanFocus = true;
 			this.taskTimeOfDaySpin.Name = "taskTimeOfDaySpin";
 			this.taskTimeOfDaySpin.Adjustment.PageIncrement = 10;
 			this.taskTimeOfDaySpin.ClimbRate = 1;
 			this.taskTimeOfDaySpin.Numeric = true;
-			this.GtkAlignment13.Add (this.taskTimeOfDaySpin);
-			this.frame13.Add (this.GtkAlignment13);
+			this.GtkAlignment22.Add (this.taskTimeOfDaySpin);
+			this.frame13.Add (this.GtkAlignment22);
 			this.GtkLabel26 = new global::Gtk.Label ();
 			this.GtkLabel26.Name = "GtkLabel26";
-			this.GtkLabel26.LabelProp = global::Mono.Unix.Catalog.GetString ("Time of Day");
+			this.GtkLabel26.LabelProp = global::Mono.Unix.Catalog.GetString ("TimeOfDay");
 			this.GtkLabel26.UseMarkup = true;
 			this.frame13.LabelWidget = this.GtkLabel26;
 			this.vbox7.Add (this.frame13);
@@ -932,12 +932,12 @@ namespace MASGAU.Main
 			this.frame14 = new global::Gtk.Frame ();
 			this.frame14.Name = "frame14";
 			// Container child frame14.Gtk.Container+ContainerChild
-			this.GtkAlignment14 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
-			this.GtkAlignment14.Name = "GtkAlignment14";
-			this.GtkAlignment14.LeftPadding = ((uint)(3));
-			this.GtkAlignment14.RightPadding = ((uint)(3));
-			this.GtkAlignment14.BottomPadding = ((uint)(3));
-			// Container child GtkAlignment14.Gtk.Container+ContainerChild
+			this.GtkAlignment23 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
+			this.GtkAlignment23.Name = "GtkAlignment23";
+			this.GtkAlignment23.LeftPadding = ((uint)(3));
+			this.GtkAlignment23.RightPadding = ((uint)(3));
+			this.GtkAlignment23.BottomPadding = ((uint)(3));
+			// Container child GtkAlignment23.Gtk.Container+ContainerChild
 			this.taskDayOfWeekCombo = global::Gtk.ComboBox.NewText ();
 			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Sunday"));
 			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Monday"));
@@ -948,11 +948,11 @@ namespace MASGAU.Main
 			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Saturday"));
 			this.taskDayOfWeekCombo.Name = "taskDayOfWeekCombo";
 			this.taskDayOfWeekCombo.Active = 0;
-			this.GtkAlignment14.Add (this.taskDayOfWeekCombo);
-			this.frame14.Add (this.GtkAlignment14);
+			this.GtkAlignment23.Add (this.taskDayOfWeekCombo);
+			this.frame14.Add (this.GtkAlignment23);
 			this.GtkLabel27 = new global::Gtk.Label ();
 			this.GtkLabel27.Name = "GtkLabel27";
-			this.GtkLabel27.LabelProp = global::Mono.Unix.Catalog.GetString ("Day of the Week");
+			this.GtkLabel27.LabelProp = global::Mono.Unix.Catalog.GetString ("DayOfTheWeek");
 			this.GtkLabel27.UseMarkup = true;
 			this.frame14.LabelWidget = this.GtkLabel27;
 			this.vbox7.Add (this.frame14);
@@ -964,12 +964,12 @@ namespace MASGAU.Main
 			this.frame16 = new global::Gtk.Frame ();
 			this.frame16.Name = "frame16";
 			// Container child frame16.Gtk.Container+ContainerChild
-			this.GtkAlignment15 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
-			this.GtkAlignment15.Name = "GtkAlignment15";
-			this.GtkAlignment15.LeftPadding = ((uint)(3));
-			this.GtkAlignment15.RightPadding = ((uint)(3));
-			this.GtkAlignment15.BottomPadding = ((uint)(3));
-			// Container child GtkAlignment15.Gtk.Container+ContainerChild
+			this.GtkAlignment24 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
+			this.GtkAlignment24.Name = "GtkAlignment24";
+			this.GtkAlignment24.LeftPadding = ((uint)(3));
+			this.GtkAlignment24.RightPadding = ((uint)(3));
+			this.GtkAlignment24.BottomPadding = ((uint)(3));
+			// Container child GtkAlignment24.Gtk.Container+ContainerChild
 			this.dayOfTheMonthSpin = new global::Gtk.SpinButton (1, 31, 1);
 			this.dayOfTheMonthSpin.CanFocus = true;
 			this.dayOfTheMonthSpin.Name = "dayOfTheMonthSpin";
@@ -977,11 +977,11 @@ namespace MASGAU.Main
 			this.dayOfTheMonthSpin.ClimbRate = 1;
 			this.dayOfTheMonthSpin.Numeric = true;
 			this.dayOfTheMonthSpin.Value = 1;
-			this.GtkAlignment15.Add (this.dayOfTheMonthSpin);
-			this.frame16.Add (this.GtkAlignment15);
+			this.GtkAlignment24.Add (this.dayOfTheMonthSpin);
+			this.frame16.Add (this.GtkAlignment24);
 			this.GtkLabel31 = new global::Gtk.Label ();
 			this.GtkLabel31.Name = "GtkLabel31";
-			this.GtkLabel31.LabelProp = global::Mono.Unix.Catalog.GetString ("Day of the Month");
+			this.GtkLabel31.LabelProp = global::Mono.Unix.Catalog.GetString ("DayOfTheMonth");
 			this.GtkLabel31.UseMarkup = true;
 			this.frame16.LabelWidget = this.GtkLabel31;
 			this.vbox7.Add (this.frame16);
@@ -993,12 +993,12 @@ namespace MASGAU.Main
 			this.frame15 = new global::Gtk.Frame ();
 			this.frame15.Name = "frame15";
 			// Container child frame15.Gtk.Container+ContainerChild
-			this.GtkAlignment16 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
-			this.GtkAlignment16.Name = "GtkAlignment16";
-			this.GtkAlignment16.LeftPadding = ((uint)(3));
-			this.GtkAlignment16.RightPadding = ((uint)(3));
-			this.GtkAlignment16.BottomPadding = ((uint)(3));
-			// Container child GtkAlignment16.Gtk.Container+ContainerChild
+			this.GtkAlignment25 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
+			this.GtkAlignment25.Name = "GtkAlignment25";
+			this.GtkAlignment25.LeftPadding = ((uint)(3));
+			this.GtkAlignment25.RightPadding = ((uint)(3));
+			this.GtkAlignment25.BottomPadding = ((uint)(3));
+			// Container child GtkAlignment25.Gtk.Container+ContainerChild
 			this.hbox11 = new global::Gtk.HBox ();
 			this.hbox11.Name = "hbox11";
 			this.hbox11.Spacing = 6;
@@ -1022,11 +1022,11 @@ namespace MASGAU.Main
 			this.hbox11.Add (this.taskPasswordEntry);
 			global::Gtk.Box.BoxChild w178 = ((global::Gtk.Box.BoxChild)(this.hbox11 [this.taskPasswordEntry]));
 			w178.Position = 1;
-			this.GtkAlignment16.Add (this.hbox11);
-			this.frame15.Add (this.GtkAlignment16);
+			this.GtkAlignment25.Add (this.hbox11);
+			this.frame15.Add (this.GtkAlignment25);
 			this.GtkLabel28 = new global::Gtk.Label ();
 			this.GtkLabel28.Name = "GtkLabel28";
-			this.GtkLabel28.LabelProp = global::Mono.Unix.Catalog.GetString ("User And Password To Run Task As");
+			this.GtkLabel28.LabelProp = global::Mono.Unix.Catalog.GetString ("TaskCredentials");
 			this.GtkLabel28.UseMarkup = true;
 			this.frame15.LabelWidget = this.GtkLabel28;
 			this.vbox7.Add (this.frame15);
@@ -1055,7 +1055,7 @@ namespace MASGAU.Main
 			w183.Add (w184);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w186 = new global::Gtk.Label ();
-			w186.LabelProp = global::Mono.Unix.Catalog.GetString ("Delete Task");
+			w186.LabelProp = global::Mono.Unix.Catalog.GetString ("DeleteTaskButton");
 			w186.UseUnderline = true;
 			w183.Add (w186);
 			w182.Add (w183);
@@ -1079,7 +1079,7 @@ namespace MASGAU.Main
 			w192.Add (w193);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
 			global::Gtk.Label w195 = new global::Gtk.Label ();
-			w195.LabelProp = global::Mono.Unix.Catalog.GetString ("Apply");
+			w195.LabelProp = global::Mono.Unix.Catalog.GetString ("ApplyButton");
 			w195.UseUnderline = true;
 			w192.Add (w195);
 			w191.Add (w192);
@@ -1122,12 +1122,12 @@ namespace MASGAU.Main
 			w203.Expand = false;
 			w203.Fill = false;
 			// Container child vbox8.Gtk.Box+BoxChild
-			this.label6 = new global::Gtk.Label ();
-			this.label6.Name = "label6";
-			this.label6.LabelProp = global::Mono.Unix.Catalog.GetString ("MASGAU");
-			this.label6.UseMarkup = true;
-			this.vbox8.Add (this.label6);
-			global::Gtk.Box.BoxChild w204 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.label6]));
+			this.versionLabel = new global::Gtk.Label ();
+			this.versionLabel.Name = "versionLabel";
+			this.versionLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("MASGAU");
+			this.versionLabel.UseMarkup = true;
+			this.vbox8.Add (this.versionLabel);
+			global::Gtk.Box.BoxChild w204 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.versionLabel]));
 			w204.Position = 1;
 			w204.Expand = false;
 			w204.Fill = false;
@@ -1135,22 +1135,22 @@ namespace MASGAU.Main
 			this.frame17 = new global::Gtk.Frame ();
 			this.frame17.Name = "frame17";
 			// Container child frame17.Gtk.Container+ContainerChild
-			this.GtkAlignment17 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
-			this.GtkAlignment17.Name = "GtkAlignment17";
-			this.GtkAlignment17.LeftPadding = ((uint)(3));
-			this.GtkAlignment17.RightPadding = ((uint)(3));
-			this.GtkAlignment17.BottomPadding = ((uint)(3));
-			// Container child GtkAlignment17.Gtk.Container+ContainerChild
+			this.GtkAlignment28 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
+			this.GtkAlignment28.Name = "GtkAlignment28";
+			this.GtkAlignment28.LeftPadding = ((uint)(3));
+			this.GtkAlignment28.RightPadding = ((uint)(3));
+			this.GtkAlignment28.BottomPadding = ((uint)(3));
+			// Container child GtkAlignment28.Gtk.Container+ContainerChild
 			this.GtkScrolledWindow3 = new global::Gtk.ScrolledWindow ();
 			this.GtkScrolledWindow3.Name = "GtkScrolledWindow3";
 			this.GtkScrolledWindow3.ShadowType = ((global::Gtk.ShadowType)(1));
 			// Container child GtkScrolledWindow3.Gtk.Container+ContainerChild
-			this.treeview2 = new global::Gtk.TreeView ();
-			this.treeview2.CanFocus = true;
-			this.treeview2.Name = "treeview2";
-			this.GtkScrolledWindow3.Add (this.treeview2);
-			this.GtkAlignment17.Add (this.GtkScrolledWindow3);
-			this.frame17.Add (this.GtkAlignment17);
+			this.contribTree = new global::Gtk.TreeView ();
+			this.contribTree.CanFocus = true;
+			this.contribTree.Name = "contribTree";
+			this.GtkScrolledWindow3.Add (this.contribTree);
+			this.GtkAlignment28.Add (this.GtkScrolledWindow3);
+			this.frame17.Add (this.GtkAlignment28);
 			this.GtkLabel33 = new global::Gtk.Label ();
 			this.GtkLabel33.Name = "GtkLabel33";
 			this.GtkLabel33.LabelProp = global::Mono.Unix.Catalog.GetString ("Contributors");
@@ -1190,6 +1190,7 @@ namespace MASGAU.Main
 			// Container child statusbar3.Gtk.Box+BoxChild
 			this.progressbar1 = new global::Gtk.ProgressBar ();
 			this.progressbar1.Name = "progressbar1";
+			this.progressbar1.Text = global::Mono.Unix.Catalog.GetString ("It can have text?");
 			this.statusbar3.Add (this.progressbar1);
 			global::Gtk.Box.BoxChild w213 = ((global::Gtk.Box.BoxChild)(this.statusbar3 [this.progressbar1]));
 			w213.Position = 1;
@@ -1202,8 +1203,8 @@ namespace MASGAU.Main
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.DefaultWidth = 602;
-			this.DefaultHeight = 452;
+			this.DefaultWidth = 614;
+			this.DefaultHeight = 391;
 			this.Show ();
 			this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
 		}
