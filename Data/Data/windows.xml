@@ -886,6 +886,14 @@
     <save/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="CitiesInMotion" platform="Windows">
+    <title>Cities in Motion</title>
+    <location_path environment_variable="userdocuments" path="Cities In Motion"/>
+    <save path="saves"/>
+    <save filename="*" type="Settings"/>
+    <ignore filename="*.txt" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="Civilization" platform="Windows">
     <title>Sid Meier's Civilization</title>
     <location_path environment_variable="installlocation" path="Sid Meier's Civilization Chronicles\Sid Meier's Civilization"/>
@@ -4420,13 +4428,19 @@
     <location_path environment_variable="userdocuments" path="EA Games\The Sims 2"/>
     <save path="LotCatalog"/>
     <save path="Neighborhoods"/>
+    <save path="Config" type="Settings"/>
     <contributor>Samuel Barbour</contributor>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="Sims3" platform="Windows">
     <title>The Sims 3</title>
     <location_path environment_variable="userdocuments" path="Electronic Arts\The Sims 3"/>
     <save path="Saves"/>
+    <save path="SavedSims" type="Characters"/>
+    <save path="SavedOutfits" type="Outfits"/>
+    <save filename="Options.ini" type="Settings"/>
     <contributor>Caleb Love</contributor>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="Sin" platform="Windows">
     <title>Sin</title>
