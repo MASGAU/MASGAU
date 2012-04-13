@@ -7,14 +7,18 @@ namespace MASGAU.Gtk
 	public abstract partial class WrappedWidget : global::Gtk.Bin
 	{
 		
-		private Dictionary<string,string> properties = new Dictionary<string, string>();
-		private Dictionary<string,INotifyPropertyChanged> models = new Dictionary<string, INotifyPropertyChanged>();
+		protected Dictionary<string,string> properties = new Dictionary<string, string>();
+		protected Dictionary<string,INotifyPropertyChanged> models = new Dictionary<string, INotifyPropertyChanged>();
 		
 		protected object wrapped_object;
 		
 		public WrappedWidget() {
 		}
-
+	
+		protected Boolean propertyTest(INotifyPropertyChanged model, string model_property, string object_property) {
+			return models[object_property]==model && properties[object_property]==model_property;
+		}
+			
 		public void attachModelItem (string object_property, INotifyPropertyChanged model, string model_property)
 		{
 			if(models.ContainsKey(object_property)) {
@@ -41,19 +45,19 @@ namespace MASGAU.Gtk
 			propertyChanged(sender as INotifyPropertyChanged, e.PropertyName);
 		}
 		
-		protected void widgetChanged(string widget_property) {
+		protected virtual void widgetChanged(string widget_property) {
 			if(models.ContainsKey(widget_property)&&properties.ContainsKey(widget_property)) {
 				updateProperty(models[widget_property],properties[widget_property],wrapped_object,widget_property);	
 			}
 		}
 		
-		protected virtual void propertyChanged(INotifyPropertyChanged model, string object_property) {
-			if(models.ContainsValue(model)&&properties.ContainsValue(object_property)) {
+		protected virtual void propertyChanged(INotifyPropertyChanged model, string model_property) {
+			if(models.ContainsValue(model)&&properties.ContainsValue(model_property)) {
 				foreach(string key in models.Keys) {
 					if(models[key]==model) {
 						foreach(string prop in properties.Keys) {
-							if(properties[prop]==object_property) {
-								updateProperty(wrapped_object, prop,model,object_property);
+							if(properties[prop]==model_property) {
+								updateProperty(wrapped_object, prop,model,model_property);
 							}
 						}
 					}
@@ -63,19 +67,33 @@ namespace MASGAU.Gtk
 			}
 		}
 		
-		protected void updateProperty(object dest, string dest_property, object source, string source_property) {
+		protected virtual void updateProperty(object dest, string dest_property, object source, string source_property) {
 			if(source!=null) {
 				Type source_type = source.GetType();
-				Type dest_type = dest.GetType(); 
 					
 				PropertyInfo source_info = source_type.GetProperty(source_property);
-				PropertyInfo dest_info = dest_type.GetProperty(dest_property);
+				
+				if(source_info==null) {
+					throw new MException("What happen","This property doesn't exist on the source, I guess",false);
+				}
 				
 				object value = source_info.GetValue(source,null);
 				
-				dest_info.SetValue (dest,value,null);
+				updateProperty(dest,dest_property,value);
 			}
 		}
+		protected void updateProperty(object dest, string dest_property, object value) {
+				Type dest_type = dest.GetType(); 
+			
+				PropertyInfo dest_info = dest_type.GetProperty(dest_property);
+		
+				if(dest_info==null) {
+					throw new MException("What happen","This property doesn't exist on the destination, I guess",false);
+				}
+		
+				dest_info.SetValue (dest,value,null);
+		}
+		
 		
 		public void detachModelItem(string object_property) {
 			if(models.ContainsKey(object_property)) {

@@ -1,33 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Gtk/WrapperFileChooserButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Analyzer/AAnalyzerProgramHandler.cs">
     <Files>
-      <File FileName="MASGAU.Gtk/WrappedEntry.cs" Line="8" Column="3" />
-      <File FileName="MASGAU.Gtk/WrappedButton.cs" Line="8" Column="18" />
-      <File FileName="MASGAU.Analyzer.Gtk/AnalyzerWindow.cs" Line="26" Column="1" />
-      <File FileName="MASGAU.Analyzer/AAnalyzerProgramHandler.cs" Line="89" Column="1" />
-      <File FileName="MASGAU.Gtk/WrappedWidget.cs" Line="79" Column="1" />
-      <File FileName="MASGAU.Analyzer.Gtk/SearchingDialog.cs" Line="14" Column="1" />
-      <File FileName="MASGAU.Gtk/WrapperFileChooserButton.cs" Line="41" Column="4" />
-      <File FileName="Disassembly" />
-      <File FileName="MASGAU.Analyzer.Gtk/AnalyzerProgramHandler.cs" Line="8" Column="66" />
+      <File FileName="MASGAU.Gtk/WrappedWidget.cs" Line="94" Column="42" />
+      <File FileName="MASGAU.Gtk/WrapperFileChooserButton.cs" Line="43" Column="48" />
+      <File FileName="MASGAU.Analyzer/AAnalyzerProgramHandler.cs" Line="63" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MASGAU" expanded="True" />
-          <Node name="MASGAU.Analyzer" expanded="True" />
+          <Node name="MASGAU.Analyzer" expanded="True">
+            <Node name="AAnalyzerProgramHandler.cs" selected="True" />
+          </Node>
           <Node name="MASGAU.Analyzer.Gtk" expanded="True" />
-          <Node name="MASGAU.Gtk" expanded="True">
-            <Node name="WrapperFileChooserButton.cs" selected="True" />
-          </Node>
-          <Node name="MASGAU.Main.Gtk" expanded="True" />
-          <Node name="MASGAU.Monitor.Gtk" expanded="True" />
-          <Node name="MASGAU.Restore.Gtk" expanded="True" />
-          <Node name="MASGAU.Updater.Gtk" expanded="True" />
-          <Node name="Translations" expanded="True">
-            <Node name="References" expanded="True" />
-          </Node>
+          <Node name="MASGAU.Gtk" expanded="True" />
         </State>
       </Pad>
     </Pads>
@@ -38,8 +24,11 @@
       <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Gtk/AProgramWindow.cs" line="31" />
       <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Gtk/AProgramWindow.cs" line="37" />
       <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU/BackgroundWorker.cs" line="21" />
-      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Analyzer/AAnalyzerProgramHandler.cs" line="38" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Gtk/WrappedWidget.cs" line="77" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Gtk/WrappedWidget.cs" line="91" />
       <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Analyzer/AAnalyzerProgramHandler.cs" line="49" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Analyzer/AAnalyzerProgramHandler.cs" line="38" />
+      <Breakpoint file="/Users/tkmayn9/Desktop/Projects/MASGAU/MASGAU.Analyzer/AAnalyzerProgramHandler.cs" line="25" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

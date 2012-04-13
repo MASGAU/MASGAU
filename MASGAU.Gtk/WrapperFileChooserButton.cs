@@ -9,6 +9,9 @@ namespace MASGAU.Gtk
 			get {
 				return filechooserbutton1.Filename;
 			}
+			set {
+				filechooserbutton1.SelectFilename(value);
+			}
 		}
 		
 		public global::Gtk.FileChooserAction Action {
@@ -19,6 +22,7 @@ namespace MASGAU.Gtk
 				filechooserbutton1.Action = value;
 			}
 		}
+		
 		
 		public bool SelectFilename(String name) {
 			return filechooserbutton1.SelectFilename(name);
@@ -36,11 +40,22 @@ namespace MASGAU.Gtk
 			widgetChanged("FileName");
 		}
 		
-		protected override void propertyChanged (System.ComponentModel.INotifyPropertyChanged model, string object_property)
+		protected override void widgetChanged (string widget_property)
 		{
-			
-			
-			base.propertyChanged (model, object_property);
+			if(widget_property=="FileName") {
+				this.updateProperty(models["FileName"],properties["FileName"],filechooserbutton1.Filename);
+			} else {
+				base.widgetChanged (widget_property);
+			}
+		}
+		
+		protected override void propertyChanged (System.ComponentModel.INotifyPropertyChanged model, string model_property)
+		{
+			if(propertyTest(model, model_property,"FileName")) {
+				this.FileName = getValue(model,model_property).ToString();
+			} else {
+				base.propertyChanged (model, model_property);
+			}
 		}
 	}
 }
