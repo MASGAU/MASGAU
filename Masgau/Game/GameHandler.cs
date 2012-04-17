@@ -404,22 +404,29 @@ namespace MASGAU.Game {
                 if(ps_id!=null) {
                     ps_id.prefix = element.GetAttribute("prefix");
                     ps_id.suffix = element.GetAttribute("suffix");
+
+                    if(element.HasAttribute("append"))
+                        ps_id.append = element.GetAttribute("append");
+                    if(element.HasAttribute("type"))
+                        ps_id.type = element.GetAttribute("type");
+
                     SaveHolder save = new SaveHolder();
 
                     if(ps_id.GetType()==typeof(PlayStationPortableID)||
                         ps_id.GetType()==typeof(PlayStation3ID)) {
-                        save.path = ps_id.prefix + ps_id.suffix + "*";
+                        save.path = ps_id.ToString();
                         save.name = null;
                     }
                     
                     if(ps_id.GetType()==typeof(PlayStation2ID)||ps_id.GetType()==typeof(PlayStation1ID)) {
                         save.path = null;
-                        save.name = "BA" + ps_id.prefix + "-" + ps_id.suffix + "*";
+                        save.name = ps_id.ToString();
                         saves.Add(save);
-                        save = new SaveHolder();
-                        save.path = null;
-                        save.name = "BA" + ps_id.prefix + "P" + ps_id.suffix + "*";                        
                     }
+
+                    if(ps_id.type!=null)
+                        save.type = ps_id.type;
+
                     saves.Add(save);
 
                     locations.Add(ps_id);

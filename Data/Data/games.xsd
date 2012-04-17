@@ -139,6 +139,14 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
+  
+    <xs:attribute name="append">
+      <xs:simpleType>
+        <xs:restriction base="xs:string" />
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="type" type="xs:string"/>
+
   </xs:attributeGroup>
 
   <xs:attributeGroup name="location_attributes">
