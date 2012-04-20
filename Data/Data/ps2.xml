@@ -307,6 +307,7 @@
   <game name="Xenosaga2" platform="PS2" region="USA">
     <title>Xenosaga Episode II: Jenseits von Gut und Böse</title>
     <ps_code prefix="SLUS" suffix="20892"/>
+    <ps_code prefix="SLUS" suffix="21133"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="Xenosaga3" platform="PS2" region="USA">
