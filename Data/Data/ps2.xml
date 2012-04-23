@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
   <!--This file contains PlayStation 2 games-->
+  <game name="AlterEcho" platform="PS2" region="USA">
+    <title>Alter Echo</title>
+    <ps_code prefix="SLUS" suffix="20465"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="BeyondGoodAndEvil" platform="PS2" region="USA">
     <title>Beyond Good &amp; Evil</title>
     <ps_code prefix="SLUS" suffix="20763"/>
@@ -238,6 +243,11 @@
     <ps_code prefix="SCUS" suffix="97472"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="SilentHillShatteredMemories" platform="PS2" region="USA">
+    <title>Silent Hill: Shattered Memories</title>
+    <ps_code prefix="SLUS" suffix="21899"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="SilentHill2GreatestHits" platform="PS2" region="USA">
     <title>Silent Hill 2: Greatest Hits Edition</title>
     <ps_code prefix="SLUS" suffix="20228"/>
@@ -287,6 +297,23 @@
   <game name="UnrealTournament" platform="PS2" region="USA">
     <title>Unreal Tournament</title>
     <ps_code prefix="SLUS" suffix="20034"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Xenosaga" platform="PS2" region="USA">
+    <title>Xenosaga Episode I: Der Wille zur Macht</title>
+    <ps_code prefix="SLUS" suffix="20469"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Xenosaga2" platform="PS2" region="USA">
+    <title>Xenosaga Episode II: Jenseits von Gut und Böse</title>
+    <ps_code prefix="SLUS" suffix="20892"/>
+    <ps_code prefix="SLUS" suffix="21133"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Xenosaga3" platform="PS2" region="USA">
+    <title>Xenosaga Episode III: Also sprach Zarathustra</title>
+    <ps_code prefix="SLUS" suffix="21389"/>
+    <ps_code prefix="SLUS" suffix="21417"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="XFilesResistOrServe" platform="PS2" region="USA">
