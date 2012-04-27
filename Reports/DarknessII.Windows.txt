@@ -1,0 +1,363 @@
+Comments:
+  <game name="DarknessII" platform="Windows">
+    <title>The Darkness II</title>
+    <location_path environment_variable="appdata" path="DarknessII" />
+    <save />
+    <contributer>Arc Angel</contributer>
+  </game>
+
+  
+Game Name: The Darkness II
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Steam\steamapps\common\darkness ii
+
+Save Path: 
+AppData\DarknessII
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 67370
+Value: InstallLocation
+Data: ProgramFilesX86\Steam\steamapps\common\darkness ii
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Feb 07 8:09:56 PM - AppData\DarknessII\Editor.cfg - 512
+Feb 07 8:09:56 PM - AppData\DarknessII\EE.cfg - 8211
+Feb 07 8:09:28 PM - AppData\DarknessII\xxxxxxxxxxxxxxxxx\CONTINUE.SAV - 46889
+Feb 07 8:09:28 PM - AppData\DarknessII\xxxxxxxxxxxxxxxxx\settings - 2560
+
+Install Folder Dump: 
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\DarknessII.exe - 14289048
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\eula.rtf - 59012
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\eula_french.rtf - 72999
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\eula_german.rtf - 63212
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\eula_italian.rtf - 65583
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\eula_japanese.rtf - 217243
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\eula_russian.rtf - 176386
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\eula_spanish.rtf - 69396
+Feb 07 6:24:43 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\installscript.vdf - 1017
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\readme.txt - 2468
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\readme_french.txt - 2947
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\readme_german.txt - 4060
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\readme_italian.txt - 2543
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\readme_japanese.txt - 2132
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\readme_russian.txt - 5609
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\readme_spanish.txt - 2672
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\steam_appid.txt - 7
+Feb 07 3:38:12 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\TheDarknessII-Silvestri.pdf - 61886205
+Feb 07 3:23:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Header.dat - 52
+Feb 07 3:36:11 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.AnimRetarget.cache - 51728084
+Feb 07 3:34:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.AnimRetarget.toc - 71720
+Feb 07 3:34:53 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Font.cache - 428348
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Font.toc - 3272
+Feb 07 3:34:38 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc.cache - 12036
+Feb 07 3:36:11 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc.toc - 2024
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_de.cache - 285095
+Feb 07 3:34:38 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_de.toc - 5768
+Feb 07 3:34:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_en.cache - 276988
+Feb 07 3:34:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_en.toc - 5768
+Feb 07 3:34:41 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_es.cache - 295217
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_es.toc - 5768
+Feb 07 3:34:41 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_fr.cache - 272485
+Feb 07 3:34:44 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_fr.toc - 5768
+Feb 07 3:34:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_it.cache - 318726
+Feb 07 3:34:52 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_it.toc - 5768
+Feb 07 3:34:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_jp.cache - 276988
+Feb 07 3:34:41 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_jp.toc - 5768
+Feb 07 3:34:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_ru.cache - 272224
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Misc_ru.toc - 5768
+Feb 07 3:34:46 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Script.cache - 874238
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Script.toc - 4904
+Feb 07 3:34:54 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_de.cache - 32
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_de.toc - 488
+Feb 07 3:23:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_en.cache - 32
+Feb 07 3:34:38 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_en.toc - 488
+Feb 07 3:34:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_es.cache - 32
+Feb 07 3:34:47 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_es.toc - 488
+Feb 07 3:34:41 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_fr.cache - 32
+Feb 07 3:34:44 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_fr.toc - 488
+Feb 07 3:34:54 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_it.cache - 32
+Feb 07 3:34:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_it.toc - 488
+Feb 07 3:34:47 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_jp.cache - 1115420
+Feb 07 3:34:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_jp.toc - 488
+Feb 07 3:34:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_ru.cache - 32
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\B.Texture_ru.toc - 488
+Feb 07 3:34:45 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_de.cache - 985881
+Feb 07 3:34:47 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_de.toc - 5288
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_en.cache - 926401
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_en.toc - 5288
+Feb 07 3:34:58 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_es.cache - 957628
+Feb 07 3:34:39 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_es.toc - 5288
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_fr.cache - 905583
+Feb 07 3:34:41 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_fr.toc - 5288
+Feb 07 3:34:50 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_it.cache - 914505
+Feb 07 3:34:41 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_it.toc - 5288
+Feb 07 3:34:37 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_jp.cache - 926401
+Feb 07 3:34:52 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_jp.toc - 5288
+Feb 07 3:34:39 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_ru.cache - 878817
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\F.Misc_ru.toc - 5288
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.AnimRetarget.cache - 4249713
+Feb 07 3:34:52 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.AnimRetarget.toc - 71624
+Feb 07 3:34:39 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Font.cache - 18309
+Feb 07 3:34:54 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Font.toc - 3272
+Feb 07 3:34:57 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc.cache - 6618051
+Feb 07 3:34:49 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc.toc - 4136
+Feb 07 3:34:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_de.cache - 8609
+Feb 07 3:34:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_de.toc - 5768
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_en.cache - 10767
+Feb 07 3:34:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_en.toc - 5768
+Feb 07 3:34:45 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_es.cache - 8477
+Feb 07 3:34:37 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_es.toc - 5768
+Feb 07 3:34:47 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_fr.cache - 8492
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_fr.toc - 5768
+Feb 07 3:34:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_it.cache - 8469
+Feb 07 3:34:48 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_it.toc - 5768
+Feb 07 3:34:44 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_jp.cache - 10767
+Feb 07 3:34:39 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_jp.toc - 5768
+Feb 07 3:34:22 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_ru.cache - 8547
+Feb 07 3:34:51 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Misc_ru.toc - 5864
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Script.cache - 355400
+Feb 07 3:34:49 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Script.toc - 4904
+Feb 07 3:34:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_de.cache - 277
+Feb 07 3:34:51 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_de.toc - 488
+Feb 07 3:34:45 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_en.cache - 353
+Feb 07 3:34:54 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_en.toc - 488
+Feb 07 3:34:41 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_es.cache - 277
+Feb 07 3:34:49 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_es.toc - 488
+Feb 07 3:34:50 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_fr.cache - 277
+Feb 07 3:34:37 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_fr.toc - 488
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_it.cache - 277
+Feb 07 3:34:48 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_it.toc - 488
+Feb 07 3:34:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_jp.cache - 304
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_jp.toc - 488
+Feb 07 3:34:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_ru.cache - 277
+Feb 07 3:34:46 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.DLC\PCPatchManifests\Cache.Windows\H.Texture_ru.toc - 488
+Feb 07 3:23:49 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.AnimRetarget.cache - 60893070
+Feb 07 3:23:49 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.AnimRetarget.toc - 97256
+Feb 07 3:23:51 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Font.cache - 14763166
+Feb 07 3:34:40 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Font.toc - 114728
+Feb 07 3:25:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Misc.cache - 1029879078
+Feb 07 3:25:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Misc.toc - 1901864
+Feb 07 3:33:38 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Misc_en.cache - 26942732
+Feb 07 3:33:38 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Misc_en.toc - 953288
+Feb 07 3:25:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Script.cache - 1757436
+Feb 07 3:25:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Script.toc - 50024
+Feb 07 3:25:53 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Texture.cache - 246668228
+Feb 07 3:25:53 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Texture.toc - 987560
+Feb 07 3:33:38 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Texture_en.cache - 235320
+Feb 07 3:33:38 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.Texture_en.toc - 3368
+Feb 07 3:25:55 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.VideoTexture.cache - 20300800
+Feb 07 3:25:55 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\B.VideoTexture.toc - 872
+Feb 07 3:29:09 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.Misc.cache - 2581251187
+Feb 07 3:29:09 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.Misc.toc - 78536
+Feb 07 3:33:59 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.Misc_en.cache - 216493056
+Feb 07 3:33:59 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.Misc_en.toc - 926408
+Feb 07 3:32:51 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.Texture.cache - 2289478197
+Feb 07 3:32:51 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.Texture.toc - 724808
+Feb 07 3:33:06 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.VideoTexture.cache - 185776936
+Feb 07 3:33:06 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.VideoTexture.toc - 2120
+Feb 07 3:33:25 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.VideoTextureSlow.cache - 218444400
+Feb 07 3:33:25 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.VideoTextureSlow.toc - 6344
+Feb 07 3:34:16 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.VideoTexture_en.cache - 169269268
+Feb 07 3:34:20 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\F.VideoTexture_en.toc - 680
+Feb 07 3:33:26 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.AnimRetarget.cache - 7488991
+Feb 07 3:33:26 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.AnimRetarget.toc - 109064
+Feb 07 3:34:41 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Font.cache - 308306
+Feb 07 3:34:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Font.toc - 114920
+Feb 07 3:35:56 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Misc.cache - 30611206
+Feb 07 3:34:54 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Misc.toc - 2754344
+Feb 07 3:34:16 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Misc_en.cache - 2396378
+Feb 07 3:34:16 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Misc_en.toc - 953288
+Feb 07 3:33:26 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Script.cache - 835614
+Feb 07 3:33:26 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Script.toc - 57608
+Feb 07 3:33:26 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Texture.cache - 1966378
+Feb 07 3:33:26 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Texture.toc - 987560
+Feb 07 3:34:16 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Texture_en.cache - 5115
+Feb 07 3:34:16 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.Texture_en.toc - 3368
+Feb 07 3:33:26 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.VideoTexture.cache - 2579
+Feb 07 3:33:26 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.VideoTexture.toc - 2696
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.VideoTextureSlow.cache - 6163
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.VideoTextureSlow.toc - 6344
+Feb 07 3:34:16 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.VideoTexture_en.cache - 261
+Feb 07 3:34:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Cache.Windows\H.VideoTexture_en.toc - 680
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2005_d3dx9_25_x64.cab - 1347354
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2005_d3dx9_25_x86.cab - 1078962
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2006_d3dx9_30_x64.cab - 1397830
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2006_d3dx9_30_x86.cab - 1115221
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2006_MDX1_x86.cab - 916430
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2006_MDX1_x86_Archive.cab - 4162630
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2006_XACT_x64.cab - 179133
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2006_XACT_x86.cab - 133103
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2006_xinput_x64.cab - 87101
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Apr2006_xinput_x86.cab - 46010
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\APR2007_d3dx10_33_x64.cab - 698612
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\APR2007_d3dx10_33_x86.cab - 695865
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\APR2007_d3dx9_33_x64.cab - 1607358
+Feb 07 3:33:27 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\APR2007_d3dx9_33_x86.cab - 1606039
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\APR2007_XACT_x64.cab - 195766
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\APR2007_XACT_x86.cab - 151225
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\APR2007_xinput_x64.cab - 96817
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\APR2007_xinput_x86.cab - 53302
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2005_d3dx9_27_x64.cab - 1350542
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2005_d3dx9_27_x86.cab - 1077644
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2006_XACT_x64.cab - 182903
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2006_XACT_x86.cab - 137235
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2006_xinput_x64.cab - 87142
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2006_xinput_x86.cab - 46058
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2007_d3dx10_35_x64.cab - 852286
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2007_d3dx10_35_x86.cab - 796867
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2007_d3dx9_35_x64.cab - 1800160
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2007_d3dx9_35_x86.cab - 1708152
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2007_XACT_x64.cab - 198096
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\AUG2007_XACT_x86.cab - 153012
+Feb 07 3:33:28 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2008_d3dx10_39_x64.cab - 867612
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2008_d3dx10_39_x86.cab - 849167
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2008_d3dx9_39_x64.cab - 1794084
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2008_d3dx9_39_x86.cab - 1464672
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2008_XACT_x64.cab - 121772
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2008_XACT_x86.cab - 92996
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2008_XAudio_x64.cab - 271412
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2008_XAudio_x86.cab - 271038
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_D3DCompiler_42_x64.cab - 919044
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_D3DCompiler_42_x86.cab - 900598
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_d3dcsx_42_x64.cab - 3112111
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_d3dcsx_42_x86.cab - 3319740
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_d3dx10_42_x64.cab - 232635
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_d3dx10_42_x86.cab - 192131
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_d3dx11_42_x64.cab - 136301
+Feb 07 3:33:29 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_d3dx11_42_x86.cab - 105044
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_d3dx9_42_x64.cab - 930116
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_d3dx9_42_x86.cab - 728456
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_XACT_x64.cab - 122408
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_XACT_x86.cab - 93106
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_XAudio_x64.cab - 273264
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Aug2009_XAudio_x86.cab - 272642
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Dec2005_d3dx9_28_x64.cab - 1357976
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Dec2005_d3dx9_28_x86.cab - 1079456
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\DEC2006_d3dx10_00_x64.cab - 212807
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\DEC2006_d3dx10_00_x86.cab - 191720
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\DEC2006_d3dx9_32_x64.cab - 1571154
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\DEC2006_d3dx9_32_x86.cab - 1574376
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\DEC2006_XACT_x64.cab - 192475
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\DEC2006_XACT_x86.cab - 145599
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\DSETUP.dll - 89944
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\dsetup32.dll - 1801048
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\dxdllreg_x86.cab - 42410
+Feb 07 3:33:30 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\DXSETUP.exe - 537432
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\dxupdate.cab - 94011
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2005_d3dx9_24_x64.cab - 1247499
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2005_d3dx9_24_x86.cab - 1013225
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2006_d3dx9_29_x64.cab - 1362796
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2006_d3dx9_29_x86.cab - 1084720
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2006_XACT_x64.cab - 178359
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2006_XACT_x86.cab - 132409
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\FEB2007_XACT_x64.cab - 194675
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\FEB2007_XACT_x86.cab - 147983
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2010_X3DAudio_x64.cab - 54678
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2010_X3DAudio_x86.cab - 20713
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2010_XACT_x64.cab - 122446
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2010_XACT_x86.cab - 93180
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2010_XAudio_x64.cab - 276960
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Feb2010_XAudio_x86.cab - 277191
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2005_d3dx9_26_x64.cab - 1336002
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2005_d3dx9_26_x86.cab - 1064925
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2006_XACT_x64.cab - 180785
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2006_XACT_x86.cab - 133671
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2007_d3dx10_34_x64.cab - 699044
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2007_d3dx10_34_x86.cab - 698472
+Feb 07 3:33:31 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2007_d3dx9_34_x64.cab - 1607774
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2007_d3dx9_34_x86.cab - 1607286
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2007_XACT_x64.cab - 197122
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2007_XACT_x86.cab - 152909
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_d3dx10_38_x64.cab - 867828
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_d3dx10_38_x86.cab - 849919
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_d3dx9_38_x64.cab - 1792608
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_d3dx9_38_x86.cab - 1463878
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_X3DAudio_x64.cab - 55154
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_X3DAudio_x86.cab - 21905
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_XACT_x64.cab - 121054
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_XACT_x86.cab - 93128
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_XAudio_x64.cab - 269628
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\JUN2008_XAudio_x86.cab - 269024
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_D3DCompiler_43_x64.cab - 944460
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_D3DCompiler_43_x86.cab - 931471
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_d3dcsx_43_x64.cab - 752783
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_d3dcsx_43_x86.cab - 762188
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_d3dx10_43_x64.cab - 235955
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_d3dx10_43_x86.cab - 197283
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_d3dx11_43_x64.cab - 138205
+Feb 07 3:33:32 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_d3dx11_43_x86.cab - 109445
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_d3dx9_43_x64.cab - 937246
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_d3dx9_43_x86.cab - 768036
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_XACT_x64.cab - 124596
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_XACT_x86.cab - 93686
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_XAudio_x64.cab - 277338
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Jun2010_XAudio_x86.cab - 278060
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_d3dx10_37_x64.cab - 844884
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_d3dx10_37_x86.cab - 818260
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_d3dx9_37_x64.cab - 1769862
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_d3dx9_37_x86.cab - 1443282
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_X3DAudio_x64.cab - 55058
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_X3DAudio_x86.cab - 21867
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_XACT_x64.cab - 122336
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_XACT_x86.cab - 93734
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_XAudio_x64.cab - 251194
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2008_XAudio_x86.cab - 226250
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_d3dx10_41_x64.cab - 1067160
+Feb 07 3:33:33 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_d3dx10_41_x86.cab - 1040745
+Feb 07 3:38:12 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_d3dx9_41_x64.cab - 1973702
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_d3dx9_41_x86.cab - 1612446
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_X3DAudio_x64.cab - 54600
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_X3DAudio_x86.cab - 21298
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_XACT_x64.cab - 121506
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_XACT_x86.cab - 92740
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_XAudio_x64.cab - 275044
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Mar2009_XAudio_x86.cab - 273018
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2007_d3dx10_36_x64.cab - 864600
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2007_d3dx10_36_x86.cab - 803884
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2007_d3dx9_36_x64.cab - 1802058
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2007_d3dx9_36_x86.cab - 1709360
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\NOV2007_X3DAudio_x64.cab - 46144
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\NOV2007_X3DAudio_x86.cab - 18496
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\NOV2007_XACT_x64.cab - 196762
+Feb 07 3:33:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\NOV2007_XACT_x86.cab - 148264
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_d3dx10_40_x64.cab - 994154
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_d3dx10_40_x86.cab - 965421
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_d3dx9_40_x64.cab - 1906878
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_d3dx9_40_x86.cab - 1550796
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_X3DAudio_x64.cab - 54522
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_X3DAudio_x86.cab - 21851
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_XACT_x64.cab - 121794
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_XACT_x86.cab - 92684
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_XAudio_x64.cab - 273960
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Nov2008_XAudio_x86.cab - 272611
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Oct2005_xinput_x64.cab - 86037
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\Oct2005_xinput_x86.cab - 45359
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\OCT2006_d3dx9_31_x64.cab - 1412902
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\OCT2006_d3dx9_31_x86.cab - 1127217
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\OCT2006_XACT_x64.cab - 182361
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\DirectX9\OCT2006_XACT_x86.cab - 138017
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Drivers\VCRedist2008\vcredist_x86.exe - 1821192
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Tools\BinkW32.dll - 226304
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Tools\steam_api.dll - 124712
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Tools\Physx\x86\cudart32_30_9.dll - 290408
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Tools\Physx\x86\NxCharacter.dll - 102400
+Feb 07 3:33:35 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Tools\Physx\x86\PhysXCooking.dll - 377856
+Feb 07 3:33:36 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Tools\Physx\x86\PhysXCore.dll - 3559424
+Feb 07 3:34:34 PM - ProgramFilesX86\Steam\steamapps\common\darkness ii\Tools\Physx\x86\PhysXLoader.dll - 58368
+
+UAC Disabled or not present
+

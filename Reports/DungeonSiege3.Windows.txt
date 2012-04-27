@@ -1,0 +1,300 @@
+Comments:
+	<game name="DungeonSiegeIII" platform="Steam">
+		<title>Dungeon Siege III</title>
+		<location_path environment_variable="userdocuments" path="My Games\Dungeon Siege III" />
+		<save />
+		<contributer>Arc Angel</contributer>
+	</game>
+
+	
+Game Name: Dungeon Siege III
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Steam\steamapps\common\dungeon siege iii
+
+Save Path: 
+UserDocuments\My Games\Dungeon Siege III
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{B0D6643C-39DD-4A9B-B9F0-1BAFA852EFA5}
+Value: ConfigApplicationPath
+Data: ProgramFilesX86\Steam\steamapps\common\dungeon siege iii
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{B0D6643C-39DD-4A9B-B9F0-1BAFA852EFA5}
+Value: ConfigGDFBinaryPath
+Data: Feb 03 8:25:16 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\DSIIIGDF.dll - 407552
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\Games\{B0D6643C-39DD-4A9B-B9F0-1BAFA852EFA5}
+Value: AppExePath
+Data: Feb 03 8:21:13 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\Dungeon Siege III.exe - 12580864
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 39160
+Value: InstallLocation
+Data: ProgramFilesX86\Steam\steamapps\common\dungeon siege iii
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Obsidian Entertainment\Dungeon Siege III
+Value: Installed Path
+Data: ProgramFilesX86\Steam\steamapps\common\dungeon siege iii
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Obsidian Entertainment\Dungeon Siege III
+Value: Exe_Path
+Data: Feb 03 8:21:13 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\Dungeon Siege III.exe - 12580864
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Feb 04 4:14:44 PM - UserDocuments\My Games\Dungeon Siege III\user.ini - 773
+Feb 04 3:43:09 PM - UserDocuments\My Games\Dungeon Siege III\save\Autosave 1.sav - 522432
+Feb 04 3:56:13 PM - UserDocuments\My Games\Dungeon Siege III\save\EOptions.opt - 1184
+Feb 04 3:56:13 PM - UserDocuments\My Games\Dungeon Siege III\save\GOptions.opt - 12888
+Feb 04 4:14:36 PM - UserDocuments\My Games\Dungeon Siege III\save\Save Slot 001.sav - 549199
+
+Install Folder Dump: 
+Feb 03 8:32:33 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\base_item_init.oaf - 456902
+Feb 03 8:26:54 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\binkw32.dll - 224256
+Feb 03 8:38:52 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\config.ini - 367
+Feb 03 8:48:41 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\cudart32_30_9.dll - 290408
+Feb 03 10:22:06 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data_archive.oaf - 2681304377
+Feb 03 8:56:07 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data_archive_2.oaf - 34653140
+Feb 03 8:17:06 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data_localized_en.oaf - 707144
+Feb 03 9:10:32 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data_localized_vo_en.oaf - 464337014
+Feb 03 8:50:40 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\dbghelp.dll - 1080656
+Feb 03 8:25:16 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\DSIIIGDF.dll - 407552
+Feb 03 8:21:13 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\Dungeon Siege III.exe - 12580864
+Feb 03 8:42:22 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\engine.ini - 1303
+Feb 03 8:32:21 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\engine.oaf - 7836614
+Feb 03 8:49:02 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\gfxlicense.dat - 1152
+Feb 04 3:35:13 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\InstallScript.vdf - 1308
+Feb 03 8:49:18 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\NxCharacter.dll - 97280
+Feb 03 8:54:57 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\PhysXCooking.dll - 345088
+Feb 03 8:42:22 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\PhysXCore.dll - 3860480
+Feb 03 8:52:34 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\physxcudart_20.dll - 197912
+Feb 03 8:32:37 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\PhysXDevice.dll - 23320
+Feb 03 8:18:21 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\PhysXLoader.dll - 57856
+Feb 03 8:49:05 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\steam_api.dll - 124712
+Feb 03 8:21:05 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\steam_appid.txt - 7
+Feb 03 8:22:17 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\video_autodetect.xml - 23044
+Feb 03 8:17:10 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\world_graph.oaf - 1025659
+Feb 03 8:17:04 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\game.oeisku - 653
+Feb 03 8:27:37 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\000_obsidian.bik - 3071676
+Feb 03 8:49:34 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\000_square.bik - 480596
+Feb 03 8:40:41 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_ch_anjali.bik - 46449840
+Feb 03 8:26:09 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_ch_katarina.bik - 46450256
+Feb 03 8:32:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_ch_lucas.bik - 46473044
+Feb 03 8:42:27 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_ch_reinhart.bik - 46472732
+Feb 03 8:59:03 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_intro.bik - 53583692
+Feb 03 8:36:15 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_ps_anjali.bik - 59725188
+Feb 03 8:26:51 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_ps_katarina.bik - 67589280
+Feb 03 8:49:04 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_ps_lucas.bik - 53852996
+Feb 03 8:41:24 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_ps_reinhart.bik - 58844312
+Feb 03 8:48:24 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_rajani_1.bik - 41126196
+Feb 03 8:37:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\001_rajani_2.bik - 34692864
+Feb 03 8:23:10 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\003_dog_1.bik - 38533860
+Feb 03 8:38:41 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\003_dog_2.bik - 33193672
+Feb 03 8:29:37 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\004_warbeast.bik - 44048028
+Feb 03 8:58:47 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\005_spire.bik - 52656548
+Feb 03 8:52:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_1.bik - 18422144
+Feb 03 8:34:47 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_10.bik - 28355688
+Feb 03 8:25:04 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_1f.bik - 18425332
+Feb 03 8:50:36 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_2a.bik - 16580500
+Feb 03 8:52:22 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_2b.bik - 16384640
+Feb 03 8:53:01 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_3a.bik - 19252564
+Feb 03 8:48:37 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_3b.bik - 25248620
+Feb 03 8:42:18 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_4a.bik - 16218416
+Feb 03 8:20:45 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_4b.bik - 11384756
+Feb 03 8:55:31 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_4c.bik - 11394132
+Feb 03 8:27:11 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_4d.bik - 14198524
+Feb 03 8:50:11 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_5a.bik - 17043672
+Feb 03 8:31:40 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_5b.bik - 25976676
+Feb 03 8:22:23 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_6.bik - 28848796
+Feb 03 8:27:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_7.bik - 27914892
+Feb 03 8:33:19 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_8.bik - 14240580
+Feb 03 8:36:09 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_9a.bik - 29144756
+Feb 03 8:30:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_9b.bik - 27780808
+Feb 03 8:46:04 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_9c.bik - 27230324
+Feb 03 8:49:00 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_9d.bik - 24325792
+Feb 03 8:40:57 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_9e.bik - 18407468
+Feb 03 8:54:27 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_9f.bik - 40198660
+Feb 03 8:46:51 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_9g.bik - 42856296
+Feb 03 8:25:50 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\data\movies\009_9h.bik - 28060552
+Feb 03 9:03:39 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\dlc\dlc_1\data_dlc6_archive.oaf - 369001553
+Feb 03 9:35:54 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\dlc\dlc_1\data_dlc6_localized_en.oaf - 58187654
+Feb 03 8:25:39 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\dlc\dlc_1\data_dlc6_localized_vo_en.oaf - 58133342
+Feb 03 8:17:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\dlc\dlc_1\dlc_6.std - 187
+Feb 03 8:17:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\dlc\dlc_1\manifest.xml - 301
+Feb 03 9:29:42 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\dlc\dlc_1\en\dlc_6.std - 187
+Feb 03 8:53:46 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\vcredist_x86.exe - 4216840
+Feb 03 8:42:35 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2005_d3dx9_25_x64.cab - 1347354
+Feb 03 8:32:30 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2005_d3dx9_25_x86.cab - 1078962
+Feb 03 8:38:17 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2006_d3dx9_30_x64.cab - 1397830
+Feb 03 8:22:27 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2006_d3dx9_30_x86.cab - 1115221
+Feb 03 8:27:02 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2006_MDX1_x86.cab - 916430
+Feb 03 8:28:24 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2006_MDX1_x86_Archive.cab - 4162630
+Feb 03 8:54:31 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2006_XACT_x64.cab - 179133
+Feb 03 8:28:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2006_XACT_x86.cab - 133103
+Feb 03 8:26:55 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2006_xinput_x64.cab - 87101
+Feb 03 8:21:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Apr2006_xinput_x86.cab - 46010
+Feb 03 8:26:37 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\APR2007_d3dx10_33_x64.cab - 698612
+Feb 03 8:36:50 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\APR2007_d3dx10_33_x86.cab - 695865
+Feb 03 8:50:25 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\APR2007_d3dx9_33_x64.cab - 1607358
+Feb 03 8:28:30 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\APR2007_d3dx9_33_x86.cab - 1606039
+Feb 03 8:54:22 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\APR2007_XACT_x64.cab - 195766
+Feb 03 8:32:30 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\APR2007_XACT_x86.cab - 151225
+Feb 03 8:17:06 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\APR2007_xinput_x64.cab - 96817
+Feb 03 8:54:31 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\APR2007_xinput_x86.cab - 53302
+Feb 03 8:54:10 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2005_d3dx9_27_x64.cab - 1350542
+Feb 03 8:27:11 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2005_d3dx9_27_x86.cab - 1077644
+Feb 03 8:33:26 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2006_XACT_x64.cab - 182903
+Feb 03 8:18:30 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2006_XACT_x86.cab - 137235
+Feb 03 8:48:53 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2006_xinput_x64.cab - 87142
+Feb 03 8:49:02 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2006_xinput_x86.cab - 46058
+Feb 03 8:17:09 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2007_d3dx10_35_x64.cab - 852286
+Feb 03 8:25:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2007_d3dx10_35_x86.cab - 796867
+Feb 03 8:43:02 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2007_d3dx9_35_x64.cab - 1800160
+Feb 03 8:28:10 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2007_d3dx9_35_x86.cab - 1708152
+Feb 03 8:51:09 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2007_XACT_x64.cab - 198096
+Feb 03 8:54:35 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\AUG2007_XACT_x86.cab - 153012
+Feb 03 8:32:20 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2008_d3dx10_39_x64.cab - 867612
+Feb 03 8:52:25 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2008_d3dx10_39_x86.cab - 849167
+Feb 03 8:17:19 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2008_d3dx9_39_x64.cab - 1794084
+Feb 03 8:33:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2008_d3dx9_39_x86.cab - 1464672
+Feb 03 8:52:08 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2008_XACT_x64.cab - 121772
+Feb 03 8:52:17 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2008_XACT_x86.cab - 92996
+Feb 03 8:17:13 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2008_XAudio_x64.cab - 271412
+Feb 03 8:17:09 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2008_XAudio_x86.cab - 271038
+Feb 03 8:27:26 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_D3DCompiler_42_x64.cab - 919044
+Feb 03 8:52:46 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_D3DCompiler_42_x86.cab - 900598
+Feb 03 8:27:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_d3dcsx_42_x64.cab - 3112111
+Feb 03 8:41:10 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_d3dcsx_42_x86.cab - 3319740
+Feb 03 8:34:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_d3dx10_42_x64.cab - 232635
+Feb 03 8:36:24 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_d3dx10_42_x86.cab - 192131
+Feb 03 8:49:55 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_d3dx11_42_x64.cab - 136301
+Feb 03 8:41:04 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_d3dx11_42_x86.cab - 105044
+Feb 03 8:21:47 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_d3dx9_42_x64.cab - 930116
+Feb 03 8:51:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_d3dx9_42_x86.cab - 728456
+Feb 03 8:54:44 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_XACT_x64.cab - 122408
+Feb 03 8:47:31 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_XACT_x86.cab - 93106
+Feb 03 8:27:15 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_XAudio_x64.cab - 273264
+Feb 03 8:22:25 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Aug2009_XAudio_x86.cab - 272642
+Feb 03 8:17:19 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\BDANT.cab - 1155483
+Feb 03 8:27:17 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\BDAXP.cab - 975148
+Feb 03 8:25:53 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Dec2005_d3dx9_28_x64.cab - 1357976
+Feb 03 8:17:26 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Dec2005_d3dx9_28_x86.cab - 1079456
+Feb 03 8:21:21 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\DEC2006_d3dx10_00_x64.cab - 212807
+Feb 03 8:54:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\DEC2006_d3dx10_00_x86.cab - 191720
+Feb 03 8:51:40 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\DEC2006_d3dx9_32_x64.cab - 1571154
+Feb 03 8:43:53 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\DEC2006_d3dx9_32_x86.cab - 1574376
+Feb 03 8:46:08 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\DEC2006_XACT_x64.cab - 192475
+Feb 03 8:41:30 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\DEC2006_XACT_x86.cab - 145599
+Feb 03 8:18:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\DSETUP.dll - 89944
+Feb 03 8:55:07 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\dsetup32.dll - 1801048
+Feb 03 8:18:26 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\dxdllreg_x86.cab - 42410
+Feb 03 8:22:03 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\dxnt.cab - 13264168
+Feb 03 8:18:27 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\DXSETUP.exe - 537432
+Feb 03 8:27:20 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\dxupdate.cab - 94011
+Feb 03 8:52:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2005_d3dx9_24_x64.cab - 1247499
+Feb 03 8:42:37 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2005_d3dx9_24_x86.cab - 1013225
+Feb 03 8:26:51 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2006_d3dx9_29_x64.cab - 1362796
+Feb 03 8:32:56 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2006_d3dx9_29_x86.cab - 1084720
+Feb 03 8:34:26 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2006_XACT_x64.cab - 178359
+Feb 03 8:54:55 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2006_XACT_x86.cab - 132409
+Feb 03 8:23:15 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\FEB2007_XACT_x64.cab - 194675
+Feb 03 8:17:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\FEB2007_XACT_x86.cab - 147983
+Feb 03 8:27:17 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2010_X3DAudio_x64.cab - 54678
+Feb 03 8:20:55 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2010_X3DAudio_x86.cab - 20713
+Feb 03 8:17:10 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2010_XACT_x64.cab - 122446
+Feb 03 8:26:40 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2010_XACT_x86.cab - 93180
+Feb 03 8:17:45 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2010_XAudio_x64.cab - 276960
+Feb 03 8:54:26 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Feb2010_XAudio_x86.cab - 277191
+Feb 03 8:49:02 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2005_d3dx9_26_x64.cab - 1336002
+Feb 03 8:18:09 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2005_d3dx9_26_x86.cab - 1064925
+Feb 03 8:52:38 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2006_XACT_x64.cab - 180785
+Feb 03 8:52:41 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2006_XACT_x86.cab - 133671
+Feb 03 8:27:03 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2007_d3dx10_34_x64.cab - 699044
+Feb 03 8:53:19 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2007_d3dx10_34_x86.cab - 698472
+Feb 03 8:46:41 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2007_d3dx9_34_x64.cab - 1607774
+Feb 03 8:35:28 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2007_d3dx9_34_x86.cab - 1607286
+Feb 03 8:23:22 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2007_XACT_x64.cab - 197122
+Feb 03 8:50:04 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2007_XACT_x86.cab - 152909
+Feb 03 8:17:19 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_d3dx10_38_x64.cab - 867828
+Feb 03 8:17:17 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_d3dx10_38_x86.cab - 849919
+Feb 03 8:37:34 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_d3dx9_38_x64.cab - 1792608
+Feb 03 8:39:27 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_d3dx9_38_x86.cab - 1463878
+Feb 03 8:54:44 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_X3DAudio_x64.cab - 55154
+Feb 03 8:27:29 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_X3DAudio_x86.cab - 21905
+Feb 03 8:17:23 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_XACT_x64.cab - 121054
+Feb 03 8:33:28 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_XACT_x86.cab - 93128
+Feb 03 8:53:57 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_XAudio_x64.cab - 269628
+Feb 03 8:34:35 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\JUN2008_XAudio_x86.cab - 269024
+Feb 03 8:30:00 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_D3DCompiler_43_x64.cab - 944460
+Feb 03 8:52:17 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_D3DCompiler_43_x86.cab - 931471
+Feb 03 8:41:22 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_d3dcsx_43_x64.cab - 752783
+Feb 03 8:21:22 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_d3dcsx_43_x86.cab - 762188
+Feb 03 8:33:40 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_d3dx10_43_x64.cab - 235955
+Feb 03 8:42:49 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_d3dx10_43_x86.cab - 197283
+Feb 03 8:26:13 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_d3dx11_43_x64.cab - 138205
+Feb 03 8:17:11 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_d3dx11_43_x86.cab - 109445
+Feb 03 8:48:44 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_d3dx9_43_x64.cab - 937246
+Feb 03 8:51:01 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_d3dx9_43_x86.cab - 768036
+Feb 03 8:18:37 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_XACT_x64.cab - 124596
+Feb 03 8:50:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_XACT_x86.cab - 93686
+Feb 03 8:38:46 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_XAudio_x64.cab - 277338
+Feb 03 8:17:30 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Jun2010_XAudio_x86.cab - 278060
+Feb 03 8:54:51 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_d3dx10_37_x64.cab - 844884
+Feb 03 8:48:50 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_d3dx10_37_x86.cab - 818260
+Feb 03 8:49:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_d3dx9_37_x64.cab - 1769862
+Feb 03 8:30:17 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_d3dx9_37_x86.cab - 1443282
+Feb 03 8:49:25 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_X3DAudio_x64.cab - 55058
+Feb 03 8:49:12 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_X3DAudio_x86.cab - 21867
+Feb 03 8:50:10 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_XACT_x64.cab - 122336
+Feb 03 8:53:45 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_XACT_x86.cab - 93734
+Feb 03 8:28:35 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_XAudio_x64.cab - 251194
+Feb 03 8:22:07 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2008_XAudio_x86.cab - 226250
+Feb 03 8:43:22 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_d3dx10_41_x64.cab - 1067160
+Feb 03 8:17:23 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_d3dx10_41_x86.cab - 1040745
+Feb 03 8:26:42 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_d3dx9_41_x64.cab - 1973702
+Feb 03 8:42:39 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_d3dx9_41_x86.cab - 1612446
+Feb 03 8:17:26 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_X3DAudio_x64.cab - 54600
+Feb 03 8:54:23 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_X3DAudio_x86.cab - 21298
+Feb 03 8:54:53 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_XACT_x64.cab - 121506
+Feb 03 8:22:03 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_XACT_x86.cab - 92740
+Feb 03 8:32:33 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_XAudio_x64.cab - 275044
+Feb 03 8:17:08 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Mar2009_XAudio_x86.cab - 273018
+Feb 03 8:54:10 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2007_d3dx10_36_x64.cab - 864600
+Feb 03 8:52:35 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2007_d3dx10_36_x86.cab - 803884
+Feb 03 8:47:12 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2007_d3dx9_36_x64.cab - 1802058
+Feb 03 8:18:21 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2007_d3dx9_36_x86.cab - 1709360
+Feb 03 8:55:05 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\NOV2007_X3DAudio_x64.cab - 46144
+Feb 03 8:54:18 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\NOV2007_X3DAudio_x86.cab - 18496
+Feb 03 8:49:44 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\NOV2007_XACT_x64.cab - 196762
+Feb 03 8:54:27 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\NOV2007_XACT_x86.cab - 148264
+Feb 03 8:54:40 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_d3dx10_40_x64.cab - 994154
+Feb 03 8:17:49 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_d3dx10_40_x86.cab - 965421
+Feb 03 8:47:19 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_d3dx9_40_x64.cab - 1906878
+Feb 03 8:17:12 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_d3dx9_40_x86.cab - 1550796
+Feb 03 8:53:34 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_X3DAudio_x64.cab - 54522
+Feb 03 8:41:28 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_X3DAudio_x86.cab - 21851
+Feb 03 8:17:58 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_XACT_x64.cab - 121794
+Feb 03 8:54:18 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_XACT_x86.cab - 92684
+Feb 03 8:23:35 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_XAudio_x64.cab - 273960
+Feb 03 8:54:14 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Nov2008_XAudio_x86.cab - 272611
+Feb 03 8:53:28 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Oct2005_xinput_x64.cab - 86037
+Feb 03 8:17:35 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\Oct2005_xinput_x86.cab - 45359
+Feb 03 8:19:08 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\OCT2006_d3dx9_31_x64.cab - 1412902
+Feb 03 8:34:02 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\OCT2006_d3dx9_31_x86.cab - 1127217
+Feb 03 8:17:15 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\OCT2006_XACT_x64.cab - 182361
+Feb 03 8:34:13 PM - ProgramFilesX86\Steam\steamapps\common\dungeon siege iii\redist\DirectX\OCT2006_XACT_x86.cab - 138017
+
+UAC Disabled or not present
+

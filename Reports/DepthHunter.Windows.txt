@@ -1,0 +1,109 @@
+Comments:
+	<game name="DepthHunter" platform="Windows">
+		<title>Depth Hunter</title>
+		<location_path environment_variable="userdocuments" path="DepthHunter" />
+		<save />
+		<contributer>Arc Angel</contributer>
+	</game>
+
+	
+Game Name: Depth Hunter
+Operating System: 
+Microsoft Windows NT 6.1.7600.0
+
+Install Path: 
+ProgramFilesX86\Biart\Depth Hunter
+
+Save Path: 
+UserDocuments\DepthHunter
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Depth Hunter_is1
+Value: Inno Setup: App Path
+Data: ProgramFilesX86\Biart\Depth Hunter
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Depth Hunter_is1
+Value: InstallLocation
+Data: ProgramFilesX86\Biart\Depth Hunter
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Depth Hunter_is1
+Value: UninstallDataFile
+Data: Feb 18 6:33:13 PM - ProgramFilesX86\Biart\Depth Hunter\unins000.dat - 18819
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+Feb 18 6:33:13 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Depth Hunter\Depth Hunter.lnk - 1159
+Jan 20 9:29:40 PM - ProgramFilesX86\Biart\Depth Hunter\Launcher.exe - 269312
+Feb 18 6:33:13 PM - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\Depth Hunter\Uninstall Depth Hunter.lnk - 1159
+Feb 18 6:30:00 PM - ProgramFilesX86\Biart\Depth Hunter\unins000.exe - 933662
+
+Root Drive Information: 
+Drive Name: C:\
+Drive Root: C:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+Feb 18 7:11:45 PM - UserDocuments\DepthHunter\default - 16418
+Feb 18 7:11:45 PM - UserDocuments\DepthHunter\userrender.ini - 152
+Feb 18 6:59:31 PM - UserDocuments\DepthHunter\Logs\render.txt - 6153
+Feb 12 11:08:18 AM - UserDocuments\DepthHunter\Photos\photo_0000.bmp - 3907676
+Feb 12 11:08:17 AM - UserDocuments\DepthHunter\Photos\small\photo_t_0000.bmp - 214856
+
+Install Folder Dump: 
+Apr 15 2:02:06 PM - ProgramFilesX86\Biart\Depth Hunter\cudart32_30_9.dll - 290408
+Feb 03 7:37:14 PM - ProgramFilesX86\Biart\Depth Hunter\defaultrender.ini - 2100
+Feb 13 6:19:38 PM - ProgramFilesX86\Biart\Depth Hunter\depthhunter.exe - 7234048
+Aug 19 10:24:16 PM - ProgramFilesX86\Biart\Depth Hunter\DeviceDLL.dll - 43520
+Feb 13 7:20:50 PM - ProgramFilesX86\Biart\Depth Hunter\files - 6676
+Aug 17 11:14:36 PM - ProgramFilesX86\Biart\Depth Hunter\fmodex.dll - 798720
+Aug 17 11:14:36 PM - ProgramFilesX86\Biart\Depth Hunter\fmodexL.dll - 880722
+Aug 17 11:14:36 PM - ProgramFilesX86\Biart\Depth Hunter\fmod_event.dll - 327680
+Aug 17 11:14:36 PM - ProgramFilesX86\Biart\Depth Hunter\fmod_eventL.dll - 397419
+Aug 17 11:14:36 PM - ProgramFilesX86\Biart\Depth Hunter\fmod_event_net.dll - 364544
+Aug 17 11:14:36 PM - ProgramFilesX86\Biart\Depth Hunter\fmod_event_netL.dll - 438387
+Feb 18 6:58:23 PM - ProgramFilesX86\Biart\Depth Hunter\installed_updates - 81
+Dec 27 1:20:18 PM - ProgramFilesX86\Biart\Depth Hunter\IntelGfx.cfg - 4542
+Jan 20 9:29:40 PM - ProgramFilesX86\Biart\Depth Hunter\Launcher.exe - 269312
+Feb 10 9:44:00 PM - ProgramFilesX86\Biart\Depth Hunter\launcher.ini - 1840
+Jan 24 7:29:28 PM - ProgramFilesX86\Biart\Depth Hunter\LauncherUpdater.exe - 18432
+Sep 06 1:53:34 PM - ProgramFilesX86\Biart\Depth Hunter\libcurl.dll - 217088
+Sep 30 1:59:46 PM - ProgramFilesX86\Biart\Depth Hunter\libmysql.dll - 2492416
+Feb 10 10:29:40 PM - ProgramFilesX86\Biart\Depth Hunter\materials.bmtr - 11887184
+Aug 19 10:24:16 PM - ProgramFilesX86\Biart\Depth Hunter\msvcp100.dll - 421200
+Aug 19 10:24:16 PM - ProgramFilesX86\Biart\Depth Hunter\msvcr100.dll - 770384
+Feb 10 10:29:40 PM - ProgramFilesX86\Biart\Depth Hunter\mtrlib.bmtr - 1506664
+Apr 14 6:41:58 PM - ProgramFilesX86\Biart\Depth Hunter\PhysXCooking.dll - 406880
+Apr 14 6:42:00 PM - ProgramFilesX86\Biart\Depth Hunter\PhysXCore.dll - 3597664
+Apr 14 6:41:58 PM - ProgramFilesX86\Biart\Depth Hunter\PhysXLoader.dll - 75104
+Aug 19 10:24:16 PM - ProgramFilesX86\Biart\Depth Hunter\sixense.dll - 326656
+Aug 19 10:24:16 PM - ProgramFilesX86\Biart\Depth Hunter\sixense_utils.dll - 114176
+Feb 13 7:20:54 PM - ProgramFilesX86\Biart\Depth Hunter\table - 44
+Feb 18 6:33:13 PM - ProgramFilesX86\Biart\Depth Hunter\unins000.dat - 18819
+Feb 18 6:30:00 PM - ProgramFilesX86\Biart\Depth Hunter\unins000.exe - 933662
+Aug 19 10:24:16 PM - ProgramFilesX86\Biart\Depth Hunter\winusb.dll - 16896
+Aug 03 9:41:16 AM - ProgramFilesX86\Biart\Depth Hunter\xvidcore.dll - 819200
+Aug 03 9:41:16 AM - ProgramFilesX86\Biart\Depth Hunter\xvidvfw.dll - 180224
+Dec 19 9:26:24 PM - ProgramFilesX86\Biart\Depth Hunter\bin\Launcher.bmp - 921656
+Feb 10 10:30:24 PM - ProgramFilesX86\Biart\Depth Hunter\globals\global.pack - 2886883
+Feb 10 10:29:52 PM - ProgramFilesX86\Biart\Depth Hunter\globals\InitGuiSceneSet.pack - 3204098
+Feb 10 10:29:54 PM - ProgramFilesX86\Biart\Depth Hunter\globals\SpearGuiSet.pack - 36465838
+Feb 10 10:29:54 PM - ProgramFilesX86\Biart\Depth Hunter\globals\SpearMainMenuSet.pack - 10296600
+Jul 29 1:21:38 PM - ProgramFilesX86\Biart\Depth Hunter\globals\sounds_pc\ambient.fsb - 49285664
+Jul 29 1:21:38 PM - ProgramFilesX86\Biart\Depth Hunter\globals\sounds_pc\cs.fsb - 3864800
+Dec 20 11:33:50 PM - ProgramFilesX86\Biart\Depth Hunter\globals\sounds_pc\dh_music.fsb - 10512832
+Dec 20 11:33:46 PM - ProgramFilesX86\Biart\Depth Hunter\globals\sounds_pc\sf_music.fev - 5741
+Jul 29 1:21:28 PM - ProgramFilesX86\Biart\Depth Hunter\globals\sounds_pc\sounds.fev - 436273
+Jul 29 1:21:34 PM - ProgramFilesX86\Biart\Depth Hunter\globals\sounds_pc\sounds.fsb - 74779328
+Jul 29 1:21:38 PM - ProgramFilesX86\Biart\Depth Hunter\globals\sounds_pc\weapons.fsb - 5101504
+Jan 21 12:33:16 AM - ProgramFilesX86\Biart\Depth Hunter\levels\dh_01.pack - 126459781
+Jan 21 12:34:18 AM - ProgramFilesX86\Biart\Depth Hunter\levels\dh_01f.pack - 108878808
+Jan 21 12:33:48 AM - ProgramFilesX86\Biart\Depth Hunter\levels\dh_02.pack - 176832476
+Jan 21 12:34:36 AM - ProgramFilesX86\Biart\Depth Hunter\levels\dh_02f.pack - 152403134
+Jan 21 12:34:56 AM - ProgramFilesX86\Biart\Depth Hunter\levels\dh_03f.pack - 121451200
+Jan 21 12:34:00 AM - ProgramFilesX86\Biart\Depth Hunter\levels\dh_mm.pack - 52268374
+
+UAC Disabled or not present
+
