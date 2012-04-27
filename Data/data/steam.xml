@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
   <!--This file contains games whose saves are only compatible with Steam releases of the game-->
-  <game name="AlienSwarm" platform="Steam">
+  <game name="AlanWake" platform="Steam">
+    <title>Alan Wake</title>
+    <location_path environment_variable="steamuserdata" path="108710" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>  
+	<game name="AlienSwarm" platform="Steam">
     <title>Alien Swarm</title>
     <location_path environment_variable="steamuserdata" path="630"/>
     <save/>
@@ -109,6 +115,12 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+	<game name="KingdomsOfAmalurReckoning" platform="Steam">
+    <title>Kingdoms of Amalur: Reckoning</title>
+    <location_path environment_variable="steamuserdata" path="102500" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="LaraCroftAndTheGuardianOfLight" platform="Steam">
     <title>Lara Croft and the Guardian of Light</title>
     <location_path environment_variable="steamuserdata" path="35130" deprecated="true"/>
@@ -128,6 +140,12 @@
     <location_path environment_variable="steamuserdata" path="32460"/>
     <save/>
     <contributor>slake_jones</contributor>
+  </game>
+  <game name="PaydayTheHeist" platform="Steam">
+    <title>Payday: The Heist</title>
+    <location_path environment_variable="steamuserdata" path="24240\remote" />
+    <save />
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="PoundOfGround" platform="Steam">
     <title>Pound of Ground</title>
@@ -212,6 +230,12 @@
     <location_path environment_variable="steamuserdata" path="35700"/>
     <save/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Trine2" platform="Steam">
+    <title>Trine 2</title>
+    <location_path environment_variable="steamuserdata" path="35720" />
+    <save />
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="Warhammer40kDawnOfWar2Retribution" platform="Steam">
     <title>Warhammer 40,000: Dawn of War II - Retribution</title>
