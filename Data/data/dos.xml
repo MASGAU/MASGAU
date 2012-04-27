@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
+  <!--This file contains games that are for the DOS platform. Most of these make use of DOSBOX for their installs.-->
+  <game name="AloneInTheDark" platform="DOS">
+    <title>Alone in the Dark</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Alone in the Dark\INDARK"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGALONE1" value="PATH" append="INDARK"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Alone in the Dark\Alone in the Dark.lnk" append="INDARK" detract="DOSBOX"/>
+    <save filename="SAVE?.ITD"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="AloneInTheDark2" platform="DOS">
+    <title>Alone in the Dark 2</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Alone in the Dark 2\INDARK2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGALONE2" value="PATH" append="INDARK2"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Alone in the Dark 2\Alone in the Dark 2.lnk" append="INDARK2" detract="DOSBOX"/>
+    <save filename="SAVE?.ITD"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="AloneInTheDark3" platform="DOS">
+    <title>Alone in the Dark 3</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Alone in the Dark 3\INDARK3"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGALONE3" value="PATH" append="INDARK3"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Alone in the Dark 3\Alone in the Dark 3.lnk" append="INDARK3" detract="DOSBOX"/>
+    <save path="SAVE??" filename="SAVE?.ITD"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="BeyondZork" platform="DOS">
+    <title>Beyond Zork: The Coconut of Quendor</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Zork Anthology\Beyond Zork"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBEOYNDZORK1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Zork Anthology\Beyond Zork - The Coconut of Quendor\Beyond Zork - The Coconut of Quendor.lnk" append="Beyond Zork" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Colonization" platform="DOS">
+    <title>Sid Meier's Colonization</title>
+    <location_path environment_variable="installlocation" path="MPS\COLONIZE"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Colonization\Colonization.lnk"/>
+    <save filename="*.SAV"/>
+    <comment>Will probably require an Alternate Install Path</comment>
+    <contributor>David Barbour</contributor>
+  </game>
+  <game name="CrystalsOfArborea" platform="DOS">
+    <title>Crystals of Arborea</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Ishar Compilation\Crystals of Arborea"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGISHAR0" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Ishar Compilation\Crystals of Arborea\Crystals of Arborea.lnk" append="Crystals of Arborea" detract="DOSBOX"/>
+    <save filename="*.DAT"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Descent" platform="DOS">
+    <title>Descent</title>
+    <location_path environment_variable="installlocation" path="GAMES\DESCENT"/>
+    <location_path environment_variable="installlocation" path="GOG.com\Descent and Descent 2\Descent"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDESCENT" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Descent and Descent 2\Descent\Documents\Readme.lnk"/>
+    <save filename="*.PLR"/>
+    <save filename="*.SG*"/>
+    <save filename="DESCENT.CFG" type="Settings"/>
+    <save filename="*.DEM" type="Replays"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Deus" platform="DOS">
+    <title>Deus</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Robinson's Requiem Collection\Deus"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDEUS" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Robinson's Requiem Collection\Deus\Deus.lnk" append="Deus" detract="DOSBOX"/>
+    <save filename="*.dat"/>
+    <save filename="SAVE*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Dragonsphere" platform="DOS">
+    <title>Dragonsphere</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Dragonsphere\DRAGON"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGDRAGONSPHERE" value="PATH" append="DRAGON"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Dragonsphere\Dragonsphere.lnk" append="DRAGON" detract="DOSBOX"/>
+    <save filename="DRAG*.SAV"/>
+    <save filename="SAVES.DIR"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="ElderScrolls2Daggerfall" platform="DOS">
+    <title>The Elder Scrolls II: Daggerfall</title>
+    <location_path environment_variable="installlocation" path="DAGGER"/>
+    <save path="SAVE*"/>
+    <contributor>Jetsetlemming</contributor>
+  </game>
+  <game name="Ishar" platform="DOS">
+    <title>Ishar: Legend of the Fortress</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Ishar Compilation\Ishar - Legend of the Fortress"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGISHAR1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Ishar Compilation\Ishar - Legend of the Fortress\Ishar - Legend of the Fortress.lnk" append="Ishar - Legend of the Fortress" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Ishar2" platform="DOS">
+    <title>Ishar 2: Messengers of Doom</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Ishar Compilation\Ishar 2 - Messengers of Doom"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGISHAR2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Ishar Compilation\Ishar 2 - Messengers of Doom\Ishar 2 - Messengers of Doom.lnk" append="Ishar 2 - Messengers of Doom" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Ishar3" platform="DOS">
+    <title>Ishar 3: The Seven Gates of Infinity</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Ishar Compilation\Ishar 3 - The Seven Gates of Infinity"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGISHAR3" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Ishar Compilation\Ishar 3 - The Seven Gates of Infinity\Ishar 3 - The Seven Gates of Infinity.lnk" append="Ishar 3 - The Seven Gates of Infinity" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="JackInTheDark" platform="DOS">
+    <title>Jack in the Dark</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Alone in the Dark\JACK"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGALONE1" value="PATH" append="JACK"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Alone in the Dark\Jack in the Dark.lnk" append="JACK" detract="DOSBOX"/>
+    <save filename="SAVE?.ITD"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest" platform="DOS">
+    <title>King's Quest</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 1"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest\King's Quest.lnk" append="Kings Quest 1" detract="DOSBOX"/>
+    <save filename="KQ1SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest2" platform="DOS">
+    <title>King's Quest II: Romancing the Throne</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest 2\King's Quest II - Romancing the Throne.lnk" append="Kings Quest 2" detract="DOSBOX"/>
+    <save filename="KQ2SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest3" platform="DOS">
+    <title>King's Quest III: To Heir is Human</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 3"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ3" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 1 2 3\King's Quest 3\King's Quest III - To Heir is Human.lnk" append="Kings Quest 3" detract="DOSBOX"/>
+    <save filename="KQ3SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest4" platform="DOS">
+    <title>King's Quest 4: The Perils of Rosella</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 4"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ4" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 4 - The Perils of Rosella\King's Quest 4 - The Perils of Rosella.lnk" append="Kings Quest 4" detract="DOSBOX"/>
+    <save filename="KQ4SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest5" platform="DOS">
+    <title>King's Quest 5: Absence Makes the Heart Go Yonder</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 5"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ5" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 5 - Absence Makes the Heart Go Yonder\King's Quest 5 - Absence Makes the Heart Go Yonder.lnk" append="Kings Quest 5" detract="DOSBOX"/>
+    <save filename="KQ5SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest6" platform="DOS">
+    <title>King's Quest 6: Heir Today, Gone Tomorrow</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 6"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ6" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 4-5-6\King's Quest 6 - Heir Today, Gone Tomorrow\King's Quest 6 - Heir Today, Gone Tomorrow.lnk" append="Kings Quest 6" detract="DOSBOX"/>
+    <save filename="KQ6SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="KingsQuest7" platform="DOS">
+    <title>King's Quest 7: The Princeless Bride</title>
+    <location_path environment_variable="installlocation" path="GOG.com\KQ78\KQ7"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGKQ7" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\King's Quest 7-8\King's Quest 7 - The Princeless Bride\King's Quest 7 - The Princeless Bride.lnk" append="KQ7" detract="DOSBOX"/>
+    <save filename="KQ7CDSG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="LastExpress" platform="DOS">
+    <title>The Last Express</title>
+    <location_path environment_variable="installlocation" path="GOG.com\The Last Express"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHELASTEXPRESS" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\The Last Express\The Last Express.lnk" detract="DOSBOX"/>
+    <save filename="BLUE.EGG"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="LittleBigAdventure" platform="DOS">
+    <title>Little Big Adventure</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Little Big Adventure"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGLBA" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Little Big Adventure\Little Big Adventure.lnk" detract="DOSBOX"/>
+    <save filename="*.LBA"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="LittleBigAdventure2" platform="DOS">
+    <title>Little Big Adventure 2</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Little Big Adventure 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGLBA2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Little Big Adventure 2\Little Big Adventure.lnk 2" detract="DOSBOX"/>
+    <save path="SAVE"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="MartianMemorandum" platform="DOS">
+    <title>Martian Memorandum</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Tex Murphy 1 and 2\Martian Memorandum"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTEX2" value="SAVEGAMEFOLDER"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Tex Murphy 1 and 2\Martian Memorandum\Martian Memorandum.lnk" append="Martian Memorandum" detract="DOSBOX"/>
+    <save filename="*.GAM"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="MasterOfMagic" platform="DOS">
+    <title>Master of Magic</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Master Of Magic"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMASTEROFMAGIC" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Master of Magic\Master of Magic.lnk" detract="DOSBOX"/>
+    <save filename="SAVE*.GAM"/>
+    <contributor>Mark Barbour</contributor>
+  </game>
+  <game name="MasterOfOrion" platform="DOS">
+    <title>Master of Orion</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Master of Orion 1 and 2\Master of Orion 1"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMASTEROFORION1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Master of Orion 1 and 2\Master of Orion\Documents\Readme.lnk"/>
+    <save filename="SAVE*.GAM"/>
+    <save filename="CONFIG.MOO" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="MeanStreets" platform="DOS">
+    <title>Mean Streets</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Tex Murphy 1 and 2\Mean Streets"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTEX1" value="SAVEGAMEFOLDER"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Tex Murphy 1 and 2\Mean Streets\Mean Streets.lnk" append="Mean Streets" detract="DOSBOX"/>
+    <save filename="*.GAM"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Megarace" platform="DOS">
+    <title>Megarace</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Megarace\Megarace"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMEGARACE" value="SAVEGAMEFOLDER"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Megarace\Megarace\Megarace.lnk" append="Megarace" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Megarace2" platform="DOS">
+    <title>Megarace 2</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Megarace\Megarace 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGMEGARACE2" value="SAVEGAMEFOLDER"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Megarace\Megarace 2\Megarace 2.lnk" append="Megarace 2" detract="DOSBOX"/>
+    <save path="TEXTE" filename="*.SAV"/>
+    <save filename="HALL.DAT" type="Statistics"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="OneUnitWholeBlood" platform="DOS">
+    <title>One Unit: Whole Blood</title>
+    <location_path environment_variable="installlocation" path="GOG.com\One Unit Whole Blood"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGONEUNITONEBLOOD" value="SAVEGAMEFOLDER"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\One Unit Whole Blood\One Unit Whole Blood.lnk" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <save filename="BLOOD.CFG" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="PandoraDirective" platform="DOS">
+    <title>The Pandora Directive</title>
+    <location_path environment_variable="installlocation" path="GOG.com\The Pandora Directive"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTEX4" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\The Pandora Directive\The Pandora Directive.lnk" detract="DOSBOX"/>
+    <save path="GAMES"/>
+    <save path="PLAYERS"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Phantasmagoria" platform="DOS">
+    <title>Phantasmagoria</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Phantasmagoria"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPHANTASMAGORIA" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Roberta Williams Phantasmagoria\Roberta Williams Phantasmagoria.lnk" detract="DOSBOX"/>
+    <save filename="PHANTSG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Phantasmagoria2APuzzleOfFlesh" platform="DOS">
+    <title>Phantasmagoria 2: A Puzzle of Flesh</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Phantasmagoria 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPHANTASMAGORIA2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Phantasmagoria 2 A Puzzle of Flesh\Phantasmagoria 2 A Puzzle of Flesh.lnk" detract="DOSBOX"/>
+    <save filename="P2SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Planetfall" platform="DOS">
+    <title>Planetfall</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Zork Anthology\Planetfall"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPLANETFALL" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Zork Anthology\Planetfall\Planetfall.lnk" append="Planetfall" detract="DOSBOX"/>
+    <save path="SAVE" filename="*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="RaymanByHisFans" platform="DOS">
+    <title>Rayman By His Fans</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Rayman Forever\RayFan"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGRAYMANFAN" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Rayman Forever\Rayman by his Fans\Rayman by his Fans.lnk" append="RayFan" detract="DOSBOX"/>
+    <save filename="RAYFAN*.SAV"/>
+    <save filename="RAYFAN.CFG" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="RaymanForever" platform="DOS">
+    <title>Rayman Forever</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Rayman Forever\Rayman"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGRAYMAN1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Rayman Forever\Rayman\Rayman.lnk" append="Rayman" detract="DOSBOX"/>
+    <save filename="RAYMAN*.SAV"/>
+    <save filename="RAYMAN.CFG" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="RealmsOfTheHaunting" platform="DOS">
+    <title>Realms of the Haunting</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Realms of the Haunting\ROTH"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGROTH" value="PATH" append="ROTH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Realms of the Haunting\Realms of the Haunting.lnk" append="ROTH" detract="DOSBOX"/>
+    <save path="SAVEGAME"/>
+    <save filename="ROTH.INI" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="RedneckRampage" platform="DOS">
+    <title>Redneck Rampage</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Redneck Rampage Collection\Redneck Rampage"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGREDNECKRAMPAGE" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Redneck Rampage Collection\Redneck Rampage\Redneck Rampage.lnk" append="Redneck Rampage" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <save filename="*.CFG" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="RedneckRampageRidesAgain" platform="DOS">
+    <title>Redneck Rampage Rides Again</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Redneck Rampage Collection\Redneck Rides Again"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGCREDNECKRIDESAGAIN" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Redneck Rampage Collection\Redneck Rampage Rides Again - Arkansas\Redneck Rides Again.lnk" append="Redneck Rides Again" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <save filename="*.CFG" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="ReturnToZork" platform="DOS">
+    <title>Return To Zork</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Return To Zork"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGRETURNTOZORK" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Return To Zork\Return To Zork.lnk" detract="DOSBOX"/>
+    <save filename="GAME.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="RobinsonsRequiem" platform="DOS">
+    <title>Robinson's Requiem</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Robinson's Requiem Collection\Robinsons Requiem"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGROSINSONSREQUIEM" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Robinson's Requiem Collection\Robinson's Requiem\Robinson's Requiem.lnk" append="Robinsons Requiem" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="ShatteredSteel" platform="DOS">
+    <title>Shattered Steel</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Shattered Steel"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSHATTEREDSTEEL" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Shattered Steel\Shattered Steel.lnk" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <save filename="*.CFG" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SpaceQuest" platform="DOS">
+    <title>Space Quest: The Sarien Encounter</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Space Quest 1-2-3\Space Quest 1"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSQ1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Quest 1 2 3\Space Quest 1\Documents\Manual.lnk"/>
+    <save filename="SQSG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SpaceQuest2" platform="DOS">
+    <title>Space Quest II: Vohaul's Revenge and Space Quest</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Space Quest 1-2-3\Space Quest 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSQ2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Quest 1 2 3\Space Quest 2\Documents\Manual.lnk"/>
+    <save filename="SQ2SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SpaceQuest3" platform="DOS">
+    <title>Space Quest III: The Pirates of Pestulon</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Space Quest 1-2-3\Space Quest 3"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSQ3" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Quest 1 2 3\Space Quest 3\Documents\Manual.lnk"/>
+    <save filename="SQ3SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SpaceQuest4" platform="DOS">
+    <title>Space Quest IV: Roger Wilco and the Time Rippers</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Space Quest Collection\Space Quest 4"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSQ4" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Quest Collection\Space Quest 4\Space Quest 4.lnk" append="Space Quest 4" detract="DOSBOX"/>
+    <save filename="SQ4SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SpaceQuest5" platform="DOS">
+    <title>Space Quest V: The Next Mutation</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Space Quest Collection\Space Quest 5"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSQ5" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Quest Collection\Space Quest 5\Space Quest 5.lnk" append="Space Quest 5" detract="DOSBOX"/>
+    <save filename="SQ5SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SpaceQuest6" platform="DOS">
+    <title>Space Quest 6: The Spinal Frontier</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Space Quest Collection\Space Quest 6"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSQ6" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Quest Collection\Space Quest 6\Space Quest 6.lnk" append="Space Quest 6" detract="DOSBOX"/>
+    <save filename="SQ6SG.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="StarControl" platform="DOS">
+    <title>Star Control</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Star Control 1 and 2\Star Control 1"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSC1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Star Control 1 and 2\Star Control\Star Control.lnk" append="Star Control 1" detract="DOSBOX"/>
+    <save filename="SAVEGAME.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="StarControl2" platform="DOS">
+    <title>Star Control II: The Ur-Quan Masters</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Star Control 1 and 2\Star Control 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSC2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Star Control 1 and 2\Star Control 2\Star Control 2.lnk" append="Star Control 2" detract="DOSBOX"/>
+    <save filename="SAVEGAME.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="StarControl3" platform="DOS">
+    <title>Star Control 3</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Star Control 3\STARCON3"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSC3" value="PATH" append="STARCON3"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Star Control 3\Star Control 3.lnk" append="STARCON3" detract="DOSBOX"/>
+    <save filename="STAR*.SAV"/>
+    <save filename="FLEET*.SAV" type="Fleets"/>
+    <save filename="LEGEND.INI" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Starflight" platform="DOS">
+    <title>Starflight</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Starflight 1 and 2\Starflight 1\STARFLT"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARFLIGHT1" value="PATH" append="STARFLT"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Starflight 1 and 2\Starflight 1\Starflight 1.lnk" append="Starflight 1\STARFLT" detract="DOSBOX"/>
+    <save path="PLAY" filename="STAR?.COM"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Starflight2" platform="DOS">
+    <title>Starflight 2</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Starflight 1 and 2\Starflight 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARFLIGHT2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Starflight 1 and 2\Starflight 2\Starflight 2.lnk" append="Starflight 2" detract="DOSBOX"/>
+    <save filename="STAR*.COM"/>
+    <save filename="GAME.*"/>
+    <save filename="LASTSAVE.*"/>
+    <save filename="ORIGINAL.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="StarWarsDarkForces" platform="DOS">
+    <title>Star Wars: Dark Forces</title>
+    <location_path environment_variable="steamcommon" path="dark forces\Game"/>
+    <save filename="DARKPILO.CFG"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="TombRaider" platform="DOS">
+    <title>Tomb Raider</title>
+    <location_path environment_variable="installlocation" path="TOMBRAID"/>
+    <identifier filename="SAVEGAME.*"/>
+    <save filename="SAVEGAME.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="TombRaiderUnfinishedBusiness" platform="DOS">
+    <title>Tomb Raider: Unfinished Business</title>
+    <location_game name="TombRaider" platform="DOS"/>
+    <identifier filename="SAVEUB.*"/>
+    <save filename="SAVEUB.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Tyrian2000" platform="DOS">
+    <title>Tyrian 2000</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Tyrian 2000"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTYRIAN2000" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Tyrian 2000\Tyrian 2000.lnk" detract="DOSBOX"/>
+    <save filename="TYRIAN.CFG" type="Settings"/>
+    <save filename="TYRIAN.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="UnderAKillingMoon" platform="DOS">
+    <title>Under A Killing Moon</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Under a Killing Moon"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGTEX3" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Under a Killing Moon\Under a Killing Moon.lnk" detract="DOSBOX"/>
+    <save path="GAMES"/>
+    <save path="PLAYERS"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="WingCommander" platform="DOS">
+    <title>Wing Commander</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Wing Commander 1 and 2\WC"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGWINGCOMMANDER" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="GOG.com\Wing Commander 1 and 2\Wing Commander\Wing Commander.lnk" append="WC" detract="DOSBOX"/>
+    <save path="GAMEDAT" filename="SAVEGAME.WLD"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="WingCommander2" platform="DOS">
+    <title>Wing Commander II: Vengeance of the Kilrathi</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Wing Commander 1 and 2\WC2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGWINGCOMMANDER2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Wing Commander 1 and 2\Wing Commander II\Wing Commander II.lnk" append="WC2" detract="DOSBOX"/>
+    <save path="GAMEDAT" filename="SAVEGAME.WC2"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="WingCommander3" platform="DOS">
+    <title>Wing Commander III</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Wing Commander 3"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGWINGCOMMANDER3" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Wing Commander III\Wing Commander III.lnk" detract="DOSBOX"/>
+    <save filename="*.WSG"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="WingCommanderPrivateer" platform="DOS">
+    <title>Wing Commander: Privateer</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Wing Commander Privateer"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGWINGCOMMANDERPRIVATEER" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Wing Commander Privateer\Wing Commander Privateer.lnk" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Zork0" platform="DOS">
+    <title>Zero Zork: The Revenge of Megaboz</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Zork Anthology\Zero Zork"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGZEROZORK" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Zork Anthology\Zero Zork - The Revenge of Megaboz\Zero Zork - The Revenge of Megaboz.lnk" append="Zero Zork" detract="DOSBOX"/>
+    <save filename="*.SAV"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Zork1" platform="DOS">
+    <title>Zork: The Great Underground Empire</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Zork Anthology\Zork"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGZORK1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Zork Anthology\Zork - The Great Underground Empire\Zork - The Great Underground Empire.lnk" append="Zork" detract="DOSBOX"/>
+    <save path="SAVE" filename="*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Zork2" platform="DOS">
+    <title>Zork II: The Wizard Of Frobozz</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Zork Anthology\Zork 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGZORK2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Zork Anthology\Zork II - The Wizard of Frobozz\Zork II - The Wizard of Frobozz.lnk" append="Zork 2" detract="DOSBOX"/>
+    <save path="SAVE" filename="*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Zork3" platform="DOS">
+    <title>Zork III: The Dungeon Master</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Zork Anthology\Zork 3"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGZORK3" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Zork Anthology\Zork III - The Dungeon Master\Zork III - The Dungeon Master.lnk" append="Zork 3" detract="DOSBOX"/>
+    <save path="SAVE" filename="*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="ZorkNemesisTheForbiddenLands" platform="DOS">
+    <title>Zork Nemesis: The Forbidden Lands</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Zork Nemesis - The Forbidden Lands"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGZORKNEMESIS" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Zork Nemesis - The Forbidden Lands\Zork Nemesis - The Forbidden Lands.lnk" detract="DOSBOX"/>
+    <save filename="NEMSAV*.SAV"/>
+    <contributor>slake_jones</contributor>
+  </game>
+</games>
