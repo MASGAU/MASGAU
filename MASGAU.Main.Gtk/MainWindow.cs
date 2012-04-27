@@ -3,7 +3,7 @@ using System.ComponentModel;
 using Gtk;
 
 namespace MASGAU.Main {
-	public partial class MainWindow : MASGAU.Window
+	public partial class MainWindow : MASGAU.AWindow
 	{
 	
 	    MASGAU.Main.MainProgramHandler main;
@@ -11,13 +11,15 @@ namespace MASGAU.Main {
 		public MainWindow () : base(WindowType.Toplevel)
 		{
 			Build();
-	
 			
-            main = new MainProgramHandler(setupDone, Interface.Gtk);
+			GTKHelpers.translateWindow(this);
+			
+            main = new MainProgramHandler();
             this.Title = main.program_title;
             disableInterface();
             main.RunWorkerAsync();
 	
+			siteUrlLabel.Text = Core.site_url;
 		}
 	
 		protected void OnDeleteEvent (object sender, DeleteEventArgs a)
@@ -31,7 +33,7 @@ namespace MASGAU.Main {
 		}
 		
 		
-		protected override void disableInterface ()
+		public override void disableInterface ()
 		{
 			base.disableInterface ();
 			notebook1.Sensitive = false;
@@ -43,9 +45,8 @@ namespace MASGAU.Main {
 		}
 		
 		#region Communication Handler Event handlers
-		public override void updateProgress (ProgressChangedEventArgs e)
+		public override void updateProgress (MASGAU.Communication.Progress.ProgressUpdatedEventArgs e)
 		{
-            applyProgress(progressbar1,e);
 		}
 		#endregion
 		

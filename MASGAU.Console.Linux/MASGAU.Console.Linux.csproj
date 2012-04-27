@@ -9,8 +9,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MASGAU.Console</RootNamespace>
     <AssemblyName>MASGAU.Console.Linux</AssemblyName>
-    <ReleaseVersion>0.9</ReleaseVersion>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ReleaseVersion>0.10</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

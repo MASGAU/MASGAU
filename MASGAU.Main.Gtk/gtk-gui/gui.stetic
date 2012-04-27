@@ -6,6 +6,7 @@
   </configuration>
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../../MASGAU.Gtk/bin/Debug/MASGAU.Gtk.dll" />
     <widget-library name="../bin/Debug/MASGAU.Main.Gtk.exe" internal="true" />
   </import>
   <widget class="Gtk.Window" id="MASGAU.Main.MainWindow" design-size="602 452">
@@ -21,7 +22,7 @@
           <widget class="Gtk.Notebook" id="notebook1">
             <property name="MemberName" />
             <property name="CanFocus">True</property>
-            <property name="CurrentPage">0</property>
+            <property name="CurrentPage">4</property>
             <child>
               <widget class="Gtk.Alignment" id="alignment2">
                 <property name="MemberName" />
@@ -1117,7 +1118,7 @@ Saturday</property>
                     <child>
                       <widget class="Gtk.Label" id="label6">
                         <property name="MemberName" />
-                        <property name="LabelProp" translatable="yes">&lt;b&gt;MASGAU Automatic Save Game Archive Utility v.0.9&lt;/b&gt;</property>
+                        <property name="LabelProp" translatable="yes">MASGAU</property>
                         <property name="UseMarkup">True</property>
                       </widget>
                       <packing>
@@ -1170,7 +1171,7 @@ Saturday</property>
                       </packing>
                     </child>
                     <child>
-                      <widget class="Gtk.Label" id="label7">
+                      <widget class="Gtk.Label" id="siteUrlLabel">
                         <property name="MemberName" />
                         <property name="LabelProp" translatable="yes">&lt;u&gt;http://masgau.sourceforge.net&lt;/u&gt;</property>
                         <property name="UseMarkup">True</property>

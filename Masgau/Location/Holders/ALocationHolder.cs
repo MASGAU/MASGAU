@@ -21,13 +21,13 @@ namespace MASGAU.Location.Holders {
                 return _detract_path;
             }
         }
-        private bool _read_only = false;
-        public bool read_only {
+        private bool _deprecated = false;
+        public bool deprecated {
             set {
-                _read_only = value;
+                _deprecated = value;
             }
             get {
-                return _read_only;
+                return _deprecated;
             }
         }
 

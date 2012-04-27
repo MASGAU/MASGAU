@@ -84,23 +84,23 @@ namespace MASGAU.Game
                     }
                     String name = element.GetAttribute("name");
                     GamePlatform platform;
-                    String country;
+                    String region;
 
                     if(element.HasAttribute("platform"))
                         platform = GameHandler.parseGamePlatform(element.GetAttribute("platform"));
                     else
                         platform = GamePlatform.Multiple;
 
-                    if(element.HasAttribute("country"))
-                        country = element.GetAttribute("country");
+                    if (element.HasAttribute("region"))
+                        region = element.GetAttribute("region");
                     else
-                        country = null;
+                        region = null;
 
                     bool deprecated = false;
                     if(element.HasAttribute("deprecated"))
                         deprecated = Boolean.Parse(element.GetAttribute("deprecated"));
 
-                    add_me = new GameXMLHolder(new GameID(name,platform,country, deprecated),element);
+                    add_me = new GameXMLHolder(new GameID(name,platform,region, deprecated),element);
 
                     game_profiles.Add(add_me);
                 }

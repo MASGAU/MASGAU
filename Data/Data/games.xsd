@@ -3,20 +3,12 @@
 
   <!--simple elements-->
   <xs:element name="title" type="xs:string"/>
-  <xs:element name="contributer" type="xs:string"/>
+  <xs:element name="contributor" type="xs:string"/>
   <xs:element name="comment" type="xs:string"/>
   <xs:element name="restore_comment" type="xs:string"/>
   <xs:element name="require_detection" />
 
   <!--attributes-->
-
-  <xs:attribute name="date">
-    <xs:simpleType>
-      <xs:restriction base="xs:string" >
-        <xs:pattern value="\d{4}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[0-2])T([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
 
   <xs:attribute name="environment_variable">
     <xs:simpleType>
@@ -42,8 +34,8 @@
   <xs:attribute name="filename" type="xs:string"/>
   <xs:attribute name="game" type="xs:string"/>
   <xs:attribute name="key" type="xs:string"/>
-  
-  <xs:attribute name="country">
+
+  <xs:attribute name="region">
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="USA"/>
@@ -51,7 +43,7 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
-  
+
   <xs:attribute name="name">
     <xs:simpleType>
       <xs:restriction base="xs:string">
@@ -60,22 +52,10 @@
     </xs:simpleType>
   </xs:attribute>
 
-  <xs:attribute name="override" default="no">
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-        <xs:enumeration value="yes"/>
-        <xs:enumeration value="no"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
-  
-  <xs:attribute name="read_only">
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-        <xs:enumeration value="true"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
+  <xs:attribute name="override" default="false" type="xs:boolean" />
+
+  <xs:attribute name="deprecated" type="xs:boolean" />
+
   <xs:attribute name="path" type="xs:string"/>
   <xs:attribute name="root">
     <xs:simpleType>
@@ -92,13 +72,20 @@
   </xs:attribute>
   <xs:attribute name="shortcut" type="xs:string"/>
   <xs:attribute name="value" type="xs:string"/>
-  <xs:attribute name="deprecated" type="xs:boolean"/>
 
   <xs:attribute name="platform_version">
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="XP"/>
         <xs:enumeration value="Vista"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="date">
+    <xs:simpleType>
+      <xs:restriction base="xs:string" >
+        <xs:pattern value="\d{4}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[0-2])T([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
@@ -143,7 +130,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    
+
     <xs:attribute name="suffix">
       <xs:simpleType>
         <xs:restriction base="xs:integer" >
@@ -155,10 +142,10 @@
 
   <xs:attributeGroup name="location_attributes">
     <xs:attribute ref="platform_version" use="optional"/>
-    <xs:attribute ref="read_only" use="optional"/>
+    <xs:attribute ref="deprecated" use="optional"/>
     <xs:attributeGroup ref="append_detract" />
   </xs:attributeGroup>
-  
+
   <xs:attributeGroup name="append_detract">
     <xs:attribute name="append" type="xs:string"/>
     <xs:attribute name="detract" type="xs:string"/>
@@ -181,6 +168,7 @@
     <xs:attribute name="type" type="xs:string"/>
   </xs:attributeGroup>
 
+
   <!--complex elements-->
   <xs:element name="location_registry">
     <xs:complexType>
@@ -202,7 +190,7 @@
     <xs:complexType>
       <xs:attribute ref="name" use="required"/>
       <xs:attribute ref="platform" use="optional"/>
-      <xs:attribute ref="country" use="optional"/>
+      <xs:attribute ref="region" use="optional"/>
       <xs:attributeGroup ref="location_attributes" />
     </xs:complexType>
   </xs:element>
@@ -235,7 +223,7 @@
 
   <xs:element name="virtualstore">
     <xs:complexType>
-      <xs:attribute ref="override" use="optional"/>
+      <xs:attribute ref="override" use="optional" />
     </xs:complexType>
   </xs:element>
 
@@ -269,11 +257,11 @@
         </xs:choice>
         <xs:element ref="comment" minOccurs="0" maxOccurs="1"/>
         <xs:element ref="restore_comment" minOccurs="0" maxOccurs="1"/>
-        <xs:element ref="contributer" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="contributor" minOccurs="0" maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attribute ref="name" use="required"/>
       <xs:attribute ref="platform" use="optional"/>
-      <xs:attribute ref="country" use="optional"/>
+      <xs:attribute ref="region" use="optional"/>
       <xs:attribute ref="deprecated" use="optional"/>
     </xs:complexType>
   </xs:element>
@@ -286,7 +274,7 @@
       <xs:attribute name="majorVersion" type="xs:integer" use="required"/>
       <xs:attribute name="minorVersion" type="xs:integer" use="required"/>
       <xs:attribute ref="date" use="required"/>
-	  <xs:anyAttribute processContents="skip"/> 
+      <xs:anyAttribute processContents="skip"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>

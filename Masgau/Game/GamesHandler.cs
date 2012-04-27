@@ -108,7 +108,7 @@ namespace MASGAU.Game
 
                     if(game_profile.id.platform== GamePlatform.PS1) {
                         GameXMLHolder psp_game = game_profile;
-                        psp_game = new GameXMLHolder(new GameID(psp_game.id.name,GamePlatform.PSP,psp_game.id.country),psp_game.xml);
+                        psp_game = new GameXMLHolder(new GameID(psp_game.id.name,GamePlatform.PSP,psp_game.id.region),psp_game.xml);
                         createGameObject(psp_game);
                     }
                 }
@@ -124,8 +124,8 @@ namespace MASGAU.Game
                 StringBuilder message = new StringBuilder("There is a duplicate game with the name " + game_profile.id.name);
                 if(game_profile.id.platform!= GamePlatform.Multiple)
                     message.Append(" for the " + game_profile.id.platform.ToString() + " platform");
-                if(game_profile.id.country!=null)
-                    message.Append(" for the country " + game_profile.id.country);
+                if(game_profile.id.region!=null)
+                    message.Append(" for the region " + game_profile.id.region);
                 message.Append(".");
                 MessageHandler.SendWarning("Game Load Error",message.ToString());
             }

@@ -5,233 +5,120 @@ namespace MASGAU.Main
 	public partial class MainWindow
 	{
 		private global::Gtk.VBox vbox1;
-
 		private global::Gtk.Notebook notebook1;
-
 		private global::Gtk.Alignment alignment2;
-
 		private global::Gtk.VBox vbox2;
-
 		private global::Gtk.Frame frame1;
-
 		private global::Gtk.Alignment GtkAlignment;
-
 		private global::Gtk.ScrolledWindow GtkScrolledWindow;
-
 		private global::Gtk.NodeView detectedGamesNode;
-
 		private global::Gtk.Label GtkLabel23;
-
 		private global::Gtk.HBox hbox6;
-
 		private global::Gtk.Button redetectGamesBtn;
-
 		private global::Gtk.Button backupSelectedBtn;
-
 		private global::Gtk.Button backupAllBtn;
-
 		private global::Gtk.Label label1;
-
 		private global::Gtk.Alignment alignment3;
-
 		private global::Gtk.VBox vbox6;
-
 		private global::Gtk.Frame frame11;
-
 		private global::Gtk.Alignment GtkAlignment10;
-
 		private global::Gtk.ScrolledWindow GtkScrolledWindow2;
-
 		private global::Gtk.TreeView restoreTree;
-
 		private global::Gtk.Label GtkLabel24;
-
 		private global::Gtk.HBox hbox9;
-
 		private global::Gtk.Button reloadArchivesBtn;
-
 		private global::Gtk.Button restoreOtherSaveBtn;
-
 		private global::Gtk.Label label3;
-
 		private global::Gtk.Alignment alignment1;
-
 		private global::Gtk.VBox vbox3;
-
 		private global::Gtk.HBox hbox1;
-
 		private global::Gtk.CheckButton ignoreDatesCheck;
-
 		private global::Gtk.CheckButton startMonitorCheck;
-
 		private global::Gtk.HBox hbox3;
-
 		private global::Gtk.CheckButton autoUpdateCheck;
-
 		private global::Gtk.Button checkUpdatesBtn;
-
 		private global::Gtk.Frame frame5;
-
 		private global::Gtk.Alignment GtkAlignment5;
-
 		private global::Gtk.HBox hbox4;
-
 		private global::Gtk.Entry backupPathEntry;
-
 		private global::Gtk.Button changeBackupPathBtn;
-
 		private global::Gtk.Button openBackupPathBtn;
-
 		private global::Gtk.Label GtkLabel12;
-
 		private global::Gtk.Frame frame6;
-
 		private global::Gtk.Alignment GtkAlignment8;
-
 		private global::Gtk.HBox hbox5;
-
 		private global::Gtk.Entry steamPathEntry;
-
 		private global::Gtk.Button changeSteamPathBtn;
-
 		private global::Gtk.Button resetSteamPathBtn;
-
 		private global::Gtk.Label GtkLabel15;
-
 		private global::Gtk.HBox hbox2;
-
 		private global::Gtk.Frame frame8;
-
 		private global::Gtk.Alignment GtkAlignment18;
-
 		private global::Gtk.VBox vbox4;
-
 		private global::Gtk.ToggleButton versioningToggle;
-
 		private global::Gtk.Frame frame9;
-
 		private global::Gtk.Alignment GtkAlignment19;
-
 		private global::Gtk.HBox hbox8;
-
 		private global::Gtk.SpinButton versioningFrequencySpin;
-
 		private global::Gtk.ComboBox versioningFrequencyUnitCombo;
-
 		private global::Gtk.Label GtkLabel17;
-
 		private global::Gtk.Frame frame10;
-
 		private global::Gtk.Alignment GtkAlignment20;
-
 		private global::Gtk.SpinButton versioninMaxCopiesSpin;
-
 		private global::Gtk.Label GtkLabel18;
-
 		private global::Gtk.Label GtkLabel19;
-
 		private global::Gtk.Frame frame7;
-
 		private global::Gtk.Alignment GtkAlignment21;
-
 		private global::Gtk.VBox vbox5;
-
 		private global::Gtk.ScrolledWindow GtkScrolledWindow1;
-
 		private global::Gtk.NodeView altInstallPathNode;
-
 		private global::Gtk.HBox hbox7;
-
 		private global::Gtk.Button removeAltPathBtn;
-
 		private global::Gtk.Button addAltPathBtn;
-
 		private global::Gtk.Label GtkLabel32;
-
 		private global::Gtk.Label label2;
-
 		private global::Gtk.Alignment alignment4;
-
 		private global::Gtk.VBox vbox7;
-
 		private global::Gtk.Frame frame12;
-
 		private global::Gtk.Alignment GtkAlignment12;
-
 		private global::Gtk.ComboBox taskFrequencyCombo;
-
 		private global::Gtk.Label GtkLabel22;
-
 		private global::Gtk.Frame frame13;
-
 		private global::Gtk.Alignment GtkAlignment13;
-
 		private global::Gtk.SpinButton taskTimeOfDaySpin;
-
 		private global::Gtk.Label GtkLabel26;
-
 		private global::Gtk.Frame frame14;
-
 		private global::Gtk.Alignment GtkAlignment14;
-
 		private global::Gtk.ComboBox taskDayOfWeekCombo;
-
 		private global::Gtk.Label GtkLabel27;
-
 		private global::Gtk.Frame frame16;
-
 		private global::Gtk.Alignment GtkAlignment15;
-
 		private global::Gtk.SpinButton dayOfTheMonthSpin;
-
 		private global::Gtk.Label GtkLabel31;
-
 		private global::Gtk.Frame frame15;
-
 		private global::Gtk.Alignment GtkAlignment16;
-
 		private global::Gtk.HBox hbox11;
-
 		private global::Gtk.Entry taskUserEntry;
-
 		private global::Gtk.Entry taskPasswordEntry;
-
 		private global::Gtk.Label GtkLabel28;
-
 		private global::Gtk.HBox hbox10;
-
 		private global::Gtk.Button deleteTaskBtn;
-
 		private global::Gtk.Button applyTaskBtn;
-
 		private global::Gtk.Label label4;
-
 		private global::Gtk.Alignment alignment5;
-
 		private global::Gtk.VBox vbox8;
-
 		private global::Gtk.Image image31;
-
 		private global::Gtk.Label label6;
-
 		private global::Gtk.Frame frame17;
-
 		private global::Gtk.Alignment GtkAlignment17;
-
 		private global::Gtk.ScrolledWindow GtkScrolledWindow3;
-
 		private global::Gtk.TreeView treeview2;
-
 		private global::Gtk.Label GtkLabel33;
-
-		private global::Gtk.Label label7;
-
+		private global::Gtk.Label siteUrlLabel;
 		private global::Gtk.Label label5;
-
 		private global::Gtk.Statusbar statusbar3;
-
 		private global::Gtk.ProgressBar progressbar1;
-
+		
 		protected virtual void Build ()
 		{
 			global::Stetic.Gui.Initialize (this);
@@ -247,9 +134,9 @@ namespace MASGAU.Main
 			this.notebook1 = new global::Gtk.Notebook ();
 			this.notebook1.CanFocus = true;
 			this.notebook1.Name = "notebook1";
-			this.notebook1.CurrentPage = 0;
+			this.notebook1.CurrentPage = 4;
 			// Container child notebook1.Gtk.Notebook+NotebookChild
-			this.alignment2 = new global::Gtk.Alignment (0.5f, 0.5f, 1f, 1f);
+			this.alignment2 = new global::Gtk.Alignment (0.5F, 0.5F, 1F, 1F);
 			this.alignment2.Name = "alignment2";
 			this.alignment2.LeftPadding = ((uint)(3));
 			this.alignment2.TopPadding = ((uint)(3));
@@ -263,7 +150,7 @@ namespace MASGAU.Main
 			this.frame1 = new global::Gtk.Frame ();
 			this.frame1.Name = "frame1";
 			// Container child frame1.Gtk.Container+ContainerChild
-			this.GtkAlignment = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment.Name = "GtkAlignment";
 			this.GtkAlignment.LeftPadding = ((uint)(3));
 			this.GtkAlignment.RightPadding = ((uint)(3));
@@ -285,7 +172,7 @@ namespace MASGAU.Main
 			this.GtkLabel23.UseMarkup = true;
 			this.frame1.LabelWidget = this.GtkLabel23;
 			this.vbox2.Add (this.frame1);
-			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.frame1]));
+			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.frame1]));
 			w4.Position = 0;
 			// Container child vbox2.Gtk.Box+BoxChild
 			this.hbox6 = new global::Gtk.HBox ();
@@ -298,7 +185,7 @@ namespace MASGAU.Main
 			this.redetectGamesBtn.Name = "redetectGamesBtn";
 			this.redetectGamesBtn.UseUnderline = true;
 			// Container child redetectGamesBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w5 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w5 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w6 = new global::Gtk.HBox ();
 			w6.Spacing = 2;
@@ -314,7 +201,7 @@ namespace MASGAU.Main
 			w5.Add (w6);
 			this.redetectGamesBtn.Add (w5);
 			this.hbox6.Add (this.redetectGamesBtn);
-			global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.hbox6[this.redetectGamesBtn]));
+			global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.hbox6 [this.redetectGamesBtn]));
 			w13.Position = 0;
 			// Container child hbox6.Gtk.Box+BoxChild
 			this.backupSelectedBtn = new global::Gtk.Button ();
@@ -322,7 +209,7 @@ namespace MASGAU.Main
 			this.backupSelectedBtn.Name = "backupSelectedBtn";
 			this.backupSelectedBtn.UseUnderline = true;
 			// Container child backupSelectedBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w14 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w14 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w15 = new global::Gtk.HBox ();
 			w15.Spacing = 2;
@@ -338,7 +225,7 @@ namespace MASGAU.Main
 			w14.Add (w15);
 			this.backupSelectedBtn.Add (w14);
 			this.hbox6.Add (this.backupSelectedBtn);
-			global::Gtk.Box.BoxChild w22 = ((global::Gtk.Box.BoxChild)(this.hbox6[this.backupSelectedBtn]));
+			global::Gtk.Box.BoxChild w22 = ((global::Gtk.Box.BoxChild)(this.hbox6 [this.backupSelectedBtn]));
 			w22.Position = 1;
 			// Container child hbox6.Gtk.Box+BoxChild
 			this.backupAllBtn = new global::Gtk.Button ();
@@ -346,7 +233,7 @@ namespace MASGAU.Main
 			this.backupAllBtn.Name = "backupAllBtn";
 			this.backupAllBtn.UseUnderline = true;
 			// Container child backupAllBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w23 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w23 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w24 = new global::Gtk.HBox ();
 			w24.Spacing = 2;
@@ -362,10 +249,10 @@ namespace MASGAU.Main
 			w23.Add (w24);
 			this.backupAllBtn.Add (w23);
 			this.hbox6.Add (this.backupAllBtn);
-			global::Gtk.Box.BoxChild w31 = ((global::Gtk.Box.BoxChild)(this.hbox6[this.backupAllBtn]));
+			global::Gtk.Box.BoxChild w31 = ((global::Gtk.Box.BoxChild)(this.hbox6 [this.backupAllBtn]));
 			w31.Position = 2;
 			this.vbox2.Add (this.hbox6);
-			global::Gtk.Box.BoxChild w32 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.hbox6]));
+			global::Gtk.Box.BoxChild w32 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.hbox6]));
 			w32.Position = 1;
 			w32.Expand = false;
 			w32.Fill = false;
@@ -378,7 +265,7 @@ namespace MASGAU.Main
 			this.notebook1.SetTabLabel (this.alignment2, this.label1);
 			this.label1.ShowAll ();
 			// Container child notebook1.Gtk.Notebook+NotebookChild
-			this.alignment3 = new global::Gtk.Alignment (0.5f, 0.5f, 1f, 1f);
+			this.alignment3 = new global::Gtk.Alignment (0.5F, 0.5F, 1F, 1F);
 			this.alignment3.Name = "alignment3";
 			this.alignment3.LeftPadding = ((uint)(3));
 			this.alignment3.TopPadding = ((uint)(3));
@@ -392,7 +279,7 @@ namespace MASGAU.Main
 			this.frame11 = new global::Gtk.Frame ();
 			this.frame11.Name = "frame11";
 			// Container child frame11.Gtk.Container+ContainerChild
-			this.GtkAlignment10 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment10 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment10.Name = "GtkAlignment10";
 			this.GtkAlignment10.LeftPadding = ((uint)(3));
 			this.GtkAlignment10.RightPadding = ((uint)(3));
@@ -414,7 +301,7 @@ namespace MASGAU.Main
 			this.GtkLabel24.UseMarkup = true;
 			this.frame11.LabelWidget = this.GtkLabel24;
 			this.vbox6.Add (this.frame11);
-			global::Gtk.Box.BoxChild w38 = ((global::Gtk.Box.BoxChild)(this.vbox6[this.frame11]));
+			global::Gtk.Box.BoxChild w38 = ((global::Gtk.Box.BoxChild)(this.vbox6 [this.frame11]));
 			w38.Position = 0;
 			// Container child vbox6.Gtk.Box+BoxChild
 			this.hbox9 = new global::Gtk.HBox ();
@@ -427,7 +314,7 @@ namespace MASGAU.Main
 			this.reloadArchivesBtn.Name = "reloadArchivesBtn";
 			this.reloadArchivesBtn.UseUnderline = true;
 			// Container child reloadArchivesBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w39 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w39 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w40 = new global::Gtk.HBox ();
 			w40.Spacing = 2;
@@ -443,7 +330,7 @@ namespace MASGAU.Main
 			w39.Add (w40);
 			this.reloadArchivesBtn.Add (w39);
 			this.hbox9.Add (this.reloadArchivesBtn);
-			global::Gtk.Box.BoxChild w47 = ((global::Gtk.Box.BoxChild)(this.hbox9[this.reloadArchivesBtn]));
+			global::Gtk.Box.BoxChild w47 = ((global::Gtk.Box.BoxChild)(this.hbox9 [this.reloadArchivesBtn]));
 			w47.Position = 0;
 			// Container child hbox9.Gtk.Box+BoxChild
 			this.restoreOtherSaveBtn = new global::Gtk.Button ();
@@ -451,7 +338,7 @@ namespace MASGAU.Main
 			this.restoreOtherSaveBtn.Name = "restoreOtherSaveBtn";
 			this.restoreOtherSaveBtn.UseUnderline = true;
 			// Container child restoreOtherSaveBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w48 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w48 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w49 = new global::Gtk.HBox ();
 			w49.Spacing = 2;
@@ -467,16 +354,16 @@ namespace MASGAU.Main
 			w48.Add (w49);
 			this.restoreOtherSaveBtn.Add (w48);
 			this.hbox9.Add (this.restoreOtherSaveBtn);
-			global::Gtk.Box.BoxChild w56 = ((global::Gtk.Box.BoxChild)(this.hbox9[this.restoreOtherSaveBtn]));
+			global::Gtk.Box.BoxChild w56 = ((global::Gtk.Box.BoxChild)(this.hbox9 [this.restoreOtherSaveBtn]));
 			w56.Position = 1;
 			this.vbox6.Add (this.hbox9);
-			global::Gtk.Box.BoxChild w57 = ((global::Gtk.Box.BoxChild)(this.vbox6[this.hbox9]));
+			global::Gtk.Box.BoxChild w57 = ((global::Gtk.Box.BoxChild)(this.vbox6 [this.hbox9]));
 			w57.Position = 1;
 			w57.Expand = false;
 			w57.Fill = false;
 			this.alignment3.Add (this.vbox6);
 			this.notebook1.Add (this.alignment3);
-			global::Gtk.Notebook.NotebookChild w59 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1[this.alignment3]));
+			global::Gtk.Notebook.NotebookChild w59 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1 [this.alignment3]));
 			w59.Position = 1;
 			// Notebook tab
 			this.label3 = new global::Gtk.Label ();
@@ -485,7 +372,7 @@ namespace MASGAU.Main
 			this.notebook1.SetTabLabel (this.alignment3, this.label3);
 			this.label3.ShowAll ();
 			// Container child notebook1.Gtk.Notebook+NotebookChild
-			this.alignment1 = new global::Gtk.Alignment (0.5f, 0.5f, 1f, 1f);
+			this.alignment1 = new global::Gtk.Alignment (0.5F, 0.5F, 1F, 1F);
 			this.alignment1.Name = "alignment1";
 			this.alignment1.LeftPadding = ((uint)(3));
 			this.alignment1.TopPadding = ((uint)(3));
@@ -508,7 +395,7 @@ namespace MASGAU.Main
 			this.ignoreDatesCheck.DrawIndicator = true;
 			this.ignoreDatesCheck.UseUnderline = true;
 			this.hbox1.Add (this.ignoreDatesCheck);
-			global::Gtk.Box.BoxChild w60 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.ignoreDatesCheck]));
+			global::Gtk.Box.BoxChild w60 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.ignoreDatesCheck]));
 			w60.Position = 0;
 			// Container child hbox1.Gtk.Box+BoxChild
 			this.startMonitorCheck = new global::Gtk.CheckButton ();
@@ -518,10 +405,10 @@ namespace MASGAU.Main
 			this.startMonitorCheck.DrawIndicator = true;
 			this.startMonitorCheck.UseUnderline = true;
 			this.hbox1.Add (this.startMonitorCheck);
-			global::Gtk.Box.BoxChild w61 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.startMonitorCheck]));
+			global::Gtk.Box.BoxChild w61 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.startMonitorCheck]));
 			w61.Position = 1;
 			this.vbox3.Add (this.hbox1);
-			global::Gtk.Box.BoxChild w62 = ((global::Gtk.Box.BoxChild)(this.vbox3[this.hbox1]));
+			global::Gtk.Box.BoxChild w62 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.hbox1]));
 			w62.Position = 0;
 			w62.Expand = false;
 			w62.Fill = false;
@@ -538,7 +425,7 @@ namespace MASGAU.Main
 			this.autoUpdateCheck.DrawIndicator = true;
 			this.autoUpdateCheck.UseUnderline = true;
 			this.hbox3.Add (this.autoUpdateCheck);
-			global::Gtk.Box.BoxChild w63 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.autoUpdateCheck]));
+			global::Gtk.Box.BoxChild w63 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.autoUpdateCheck]));
 			w63.Position = 0;
 			// Container child hbox3.Gtk.Box+BoxChild
 			this.checkUpdatesBtn = new global::Gtk.Button ();
@@ -546,7 +433,7 @@ namespace MASGAU.Main
 			this.checkUpdatesBtn.Name = "checkUpdatesBtn";
 			this.checkUpdatesBtn.UseUnderline = true;
 			// Container child checkUpdatesBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w64 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w64 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w65 = new global::Gtk.HBox ();
 			w65.Spacing = 2;
@@ -562,10 +449,10 @@ namespace MASGAU.Main
 			w64.Add (w65);
 			this.checkUpdatesBtn.Add (w64);
 			this.hbox3.Add (this.checkUpdatesBtn);
-			global::Gtk.Box.BoxChild w72 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.checkUpdatesBtn]));
+			global::Gtk.Box.BoxChild w72 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.checkUpdatesBtn]));
 			w72.Position = 1;
 			this.vbox3.Add (this.hbox3);
-			global::Gtk.Box.BoxChild w73 = ((global::Gtk.Box.BoxChild)(this.vbox3[this.hbox3]));
+			global::Gtk.Box.BoxChild w73 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.hbox3]));
 			w73.Position = 1;
 			w73.Expand = false;
 			w73.Fill = false;
@@ -573,7 +460,7 @@ namespace MASGAU.Main
 			this.frame5 = new global::Gtk.Frame ();
 			this.frame5.Name = "frame5";
 			// Container child frame5.Gtk.Container+ContainerChild
-			this.GtkAlignment5 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment5 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment5.Name = "GtkAlignment5";
 			this.GtkAlignment5.LeftPadding = ((uint)(3));
 			this.GtkAlignment5.RightPadding = ((uint)(3));
@@ -590,7 +477,7 @@ namespace MASGAU.Main
 			this.backupPathEntry.IsEditable = true;
 			this.backupPathEntry.InvisibleChar = '●';
 			this.hbox4.Add (this.backupPathEntry);
-			global::Gtk.Box.BoxChild w74 = ((global::Gtk.Box.BoxChild)(this.hbox4[this.backupPathEntry]));
+			global::Gtk.Box.BoxChild w74 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.backupPathEntry]));
 			w74.Position = 0;
 			// Container child hbox4.Gtk.Box+BoxChild
 			this.changeBackupPathBtn = new global::Gtk.Button ();
@@ -598,7 +485,7 @@ namespace MASGAU.Main
 			this.changeBackupPathBtn.Name = "changeBackupPathBtn";
 			this.changeBackupPathBtn.UseUnderline = true;
 			// Container child changeBackupPathBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w75 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w75 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w76 = new global::Gtk.HBox ();
 			w76.Spacing = 2;
@@ -614,7 +501,7 @@ namespace MASGAU.Main
 			w75.Add (w76);
 			this.changeBackupPathBtn.Add (w75);
 			this.hbox4.Add (this.changeBackupPathBtn);
-			global::Gtk.Box.BoxChild w83 = ((global::Gtk.Box.BoxChild)(this.hbox4[this.changeBackupPathBtn]));
+			global::Gtk.Box.BoxChild w83 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.changeBackupPathBtn]));
 			w83.Position = 1;
 			w83.Expand = false;
 			w83.Fill = false;
@@ -624,7 +511,7 @@ namespace MASGAU.Main
 			this.openBackupPathBtn.Name = "openBackupPathBtn";
 			this.openBackupPathBtn.UseUnderline = true;
 			// Container child openBackupPathBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w84 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w84 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w85 = new global::Gtk.HBox ();
 			w85.Spacing = 2;
@@ -640,7 +527,7 @@ namespace MASGAU.Main
 			w84.Add (w85);
 			this.openBackupPathBtn.Add (w84);
 			this.hbox4.Add (this.openBackupPathBtn);
-			global::Gtk.Box.BoxChild w92 = ((global::Gtk.Box.BoxChild)(this.hbox4[this.openBackupPathBtn]));
+			global::Gtk.Box.BoxChild w92 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.openBackupPathBtn]));
 			w92.Position = 2;
 			w92.Expand = false;
 			w92.Fill = false;
@@ -652,7 +539,7 @@ namespace MASGAU.Main
 			this.GtkLabel12.UseMarkup = true;
 			this.frame5.LabelWidget = this.GtkLabel12;
 			this.vbox3.Add (this.frame5);
-			global::Gtk.Box.BoxChild w95 = ((global::Gtk.Box.BoxChild)(this.vbox3[this.frame5]));
+			global::Gtk.Box.BoxChild w95 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.frame5]));
 			w95.Position = 2;
 			w95.Expand = false;
 			w95.Fill = false;
@@ -660,7 +547,7 @@ namespace MASGAU.Main
 			this.frame6 = new global::Gtk.Frame ();
 			this.frame6.Name = "frame6";
 			// Container child frame6.Gtk.Container+ContainerChild
-			this.GtkAlignment8 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment8 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment8.Name = "GtkAlignment8";
 			this.GtkAlignment8.LeftPadding = ((uint)(3));
 			this.GtkAlignment8.RightPadding = ((uint)(3));
@@ -677,7 +564,7 @@ namespace MASGAU.Main
 			this.steamPathEntry.IsEditable = true;
 			this.steamPathEntry.InvisibleChar = '●';
 			this.hbox5.Add (this.steamPathEntry);
-			global::Gtk.Box.BoxChild w96 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.steamPathEntry]));
+			global::Gtk.Box.BoxChild w96 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.steamPathEntry]));
 			w96.Position = 0;
 			// Container child hbox5.Gtk.Box+BoxChild
 			this.changeSteamPathBtn = new global::Gtk.Button ();
@@ -685,7 +572,7 @@ namespace MASGAU.Main
 			this.changeSteamPathBtn.Name = "changeSteamPathBtn";
 			this.changeSteamPathBtn.UseUnderline = true;
 			// Container child changeSteamPathBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w97 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w97 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w98 = new global::Gtk.HBox ();
 			w98.Spacing = 2;
@@ -701,7 +588,7 @@ namespace MASGAU.Main
 			w97.Add (w98);
 			this.changeSteamPathBtn.Add (w97);
 			this.hbox5.Add (this.changeSteamPathBtn);
-			global::Gtk.Box.BoxChild w105 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.changeSteamPathBtn]));
+			global::Gtk.Box.BoxChild w105 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.changeSteamPathBtn]));
 			w105.Position = 1;
 			w105.Expand = false;
 			w105.Fill = false;
@@ -711,7 +598,7 @@ namespace MASGAU.Main
 			this.resetSteamPathBtn.Name = "resetSteamPathBtn";
 			this.resetSteamPathBtn.UseUnderline = true;
 			// Container child resetSteamPathBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w106 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w106 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w107 = new global::Gtk.HBox ();
 			w107.Spacing = 2;
@@ -727,7 +614,7 @@ namespace MASGAU.Main
 			w106.Add (w107);
 			this.resetSteamPathBtn.Add (w106);
 			this.hbox5.Add (this.resetSteamPathBtn);
-			global::Gtk.Box.BoxChild w114 = ((global::Gtk.Box.BoxChild)(this.hbox5[this.resetSteamPathBtn]));
+			global::Gtk.Box.BoxChild w114 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.resetSteamPathBtn]));
 			w114.Position = 2;
 			w114.Expand = false;
 			w114.Fill = false;
@@ -739,7 +626,7 @@ namespace MASGAU.Main
 			this.GtkLabel15.UseMarkup = true;
 			this.frame6.LabelWidget = this.GtkLabel15;
 			this.vbox3.Add (this.frame6);
-			global::Gtk.Box.BoxChild w117 = ((global::Gtk.Box.BoxChild)(this.vbox3[this.frame6]));
+			global::Gtk.Box.BoxChild w117 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.frame6]));
 			w117.Position = 3;
 			w117.Expand = false;
 			w117.Fill = false;
@@ -752,7 +639,7 @@ namespace MASGAU.Main
 			this.frame8 = new global::Gtk.Frame ();
 			this.frame8.Name = "frame8";
 			// Container child frame8.Gtk.Container+ContainerChild
-			this.GtkAlignment18 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment18 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment18.Name = "GtkAlignment18";
 			this.GtkAlignment18.LeftPadding = ((uint)(3));
 			this.GtkAlignment18.RightPadding = ((uint)(3));
@@ -767,7 +654,7 @@ namespace MASGAU.Main
 			this.versioningToggle.Name = "versioningToggle";
 			this.versioningToggle.UseUnderline = true;
 			// Container child versioningToggle.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w118 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w118 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w119 = new global::Gtk.HBox ();
 			w119.Spacing = 2;
@@ -783,7 +670,7 @@ namespace MASGAU.Main
 			w118.Add (w119);
 			this.versioningToggle.Add (w118);
 			this.vbox4.Add (this.versioningToggle);
-			global::Gtk.Box.BoxChild w126 = ((global::Gtk.Box.BoxChild)(this.vbox4[this.versioningToggle]));
+			global::Gtk.Box.BoxChild w126 = ((global::Gtk.Box.BoxChild)(this.vbox4 [this.versioningToggle]));
 			w126.Position = 0;
 			w126.Expand = false;
 			w126.Fill = false;
@@ -791,7 +678,7 @@ namespace MASGAU.Main
 			this.frame9 = new global::Gtk.Frame ();
 			this.frame9.Name = "frame9";
 			// Container child frame9.Gtk.Container+ContainerChild
-			this.GtkAlignment19 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment19 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment19.Name = "GtkAlignment19";
 			this.GtkAlignment19.LeftPadding = ((uint)(3));
 			this.GtkAlignment19.RightPadding = ((uint)(3));
@@ -810,13 +697,13 @@ namespace MASGAU.Main
 			this.versioningFrequencySpin.Numeric = true;
 			this.versioningFrequencySpin.Value = 1;
 			this.hbox8.Add (this.versioningFrequencySpin);
-			global::Gtk.Box.BoxChild w127 = ((global::Gtk.Box.BoxChild)(this.hbox8[this.versioningFrequencySpin]));
+			global::Gtk.Box.BoxChild w127 = ((global::Gtk.Box.BoxChild)(this.hbox8 [this.versioningFrequencySpin]));
 			w127.Position = 0;
 			// Container child hbox8.Gtk.Box+BoxChild
 			this.versioningFrequencyUnitCombo = global::Gtk.ComboBox.NewText ();
 			this.versioningFrequencyUnitCombo.Name = "versioningFrequencyUnitCombo";
 			this.hbox8.Add (this.versioningFrequencyUnitCombo);
-			global::Gtk.Box.BoxChild w128 = ((global::Gtk.Box.BoxChild)(this.hbox8[this.versioningFrequencyUnitCombo]));
+			global::Gtk.Box.BoxChild w128 = ((global::Gtk.Box.BoxChild)(this.hbox8 [this.versioningFrequencyUnitCombo]));
 			w128.Position = 1;
 			this.GtkAlignment19.Add (this.hbox8);
 			this.frame9.Add (this.GtkAlignment19);
@@ -826,7 +713,7 @@ namespace MASGAU.Main
 			this.GtkLabel17.UseMarkup = true;
 			this.frame9.LabelWidget = this.GtkLabel17;
 			this.vbox4.Add (this.frame9);
-			global::Gtk.Box.BoxChild w131 = ((global::Gtk.Box.BoxChild)(this.vbox4[this.frame9]));
+			global::Gtk.Box.BoxChild w131 = ((global::Gtk.Box.BoxChild)(this.vbox4 [this.frame9]));
 			w131.Position = 1;
 			w131.Expand = false;
 			w131.Fill = false;
@@ -834,7 +721,7 @@ namespace MASGAU.Main
 			this.frame10 = new global::Gtk.Frame ();
 			this.frame10.Name = "frame10";
 			// Container child frame10.Gtk.Container+ContainerChild
-			this.GtkAlignment20 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment20 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment20.Name = "GtkAlignment20";
 			this.GtkAlignment20.LeftPadding = ((uint)(3));
 			this.GtkAlignment20.RightPadding = ((uint)(3));
@@ -854,7 +741,7 @@ namespace MASGAU.Main
 			this.GtkLabel18.UseMarkup = true;
 			this.frame10.LabelWidget = this.GtkLabel18;
 			this.vbox4.Add (this.frame10);
-			global::Gtk.Box.BoxChild w134 = ((global::Gtk.Box.BoxChild)(this.vbox4[this.frame10]));
+			global::Gtk.Box.BoxChild w134 = ((global::Gtk.Box.BoxChild)(this.vbox4 [this.frame10]));
 			w134.Position = 2;
 			w134.Expand = false;
 			w134.Fill = false;
@@ -865,13 +752,13 @@ namespace MASGAU.Main
 			this.GtkLabel19.UseMarkup = true;
 			this.frame8.LabelWidget = this.GtkLabel19;
 			this.hbox2.Add (this.frame8);
-			global::Gtk.Box.BoxChild w137 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.frame8]));
+			global::Gtk.Box.BoxChild w137 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.frame8]));
 			w137.Position = 0;
 			// Container child hbox2.Gtk.Box+BoxChild
 			this.frame7 = new global::Gtk.Frame ();
 			this.frame7.Name = "frame7";
 			// Container child frame7.Gtk.Container+ContainerChild
-			this.GtkAlignment21 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment21 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment21.Name = "GtkAlignment21";
 			this.GtkAlignment21.LeftPadding = ((uint)(3));
 			this.GtkAlignment21.RightPadding = ((uint)(3));
@@ -890,7 +777,7 @@ namespace MASGAU.Main
 			this.altInstallPathNode.Name = "altInstallPathNode";
 			this.GtkScrolledWindow1.Add (this.altInstallPathNode);
 			this.vbox5.Add (this.GtkScrolledWindow1);
-			global::Gtk.Box.BoxChild w139 = ((global::Gtk.Box.BoxChild)(this.vbox5[this.GtkScrolledWindow1]));
+			global::Gtk.Box.BoxChild w139 = ((global::Gtk.Box.BoxChild)(this.vbox5 [this.GtkScrolledWindow1]));
 			w139.Position = 0;
 			// Container child vbox5.Gtk.Box+BoxChild
 			this.hbox7 = new global::Gtk.HBox ();
@@ -904,7 +791,7 @@ namespace MASGAU.Main
 			this.removeAltPathBtn.Name = "removeAltPathBtn";
 			this.removeAltPathBtn.UseUnderline = true;
 			// Container child removeAltPathBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w140 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w140 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w141 = new global::Gtk.HBox ();
 			w141.Spacing = 2;
@@ -920,7 +807,7 @@ namespace MASGAU.Main
 			w140.Add (w141);
 			this.removeAltPathBtn.Add (w140);
 			this.hbox7.Add (this.removeAltPathBtn);
-			global::Gtk.Box.BoxChild w148 = ((global::Gtk.Box.BoxChild)(this.hbox7[this.removeAltPathBtn]));
+			global::Gtk.Box.BoxChild w148 = ((global::Gtk.Box.BoxChild)(this.hbox7 [this.removeAltPathBtn]));
 			w148.Position = 0;
 			// Container child hbox7.Gtk.Box+BoxChild
 			this.addAltPathBtn = new global::Gtk.Button ();
@@ -928,7 +815,7 @@ namespace MASGAU.Main
 			this.addAltPathBtn.Name = "addAltPathBtn";
 			this.addAltPathBtn.UseUnderline = true;
 			// Container child addAltPathBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w149 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w149 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w150 = new global::Gtk.HBox ();
 			w150.Spacing = 2;
@@ -944,10 +831,10 @@ namespace MASGAU.Main
 			w149.Add (w150);
 			this.addAltPathBtn.Add (w149);
 			this.hbox7.Add (this.addAltPathBtn);
-			global::Gtk.Box.BoxChild w157 = ((global::Gtk.Box.BoxChild)(this.hbox7[this.addAltPathBtn]));
+			global::Gtk.Box.BoxChild w157 = ((global::Gtk.Box.BoxChild)(this.hbox7 [this.addAltPathBtn]));
 			w157.Position = 1;
 			this.vbox5.Add (this.hbox7);
-			global::Gtk.Box.BoxChild w158 = ((global::Gtk.Box.BoxChild)(this.vbox5[this.hbox7]));
+			global::Gtk.Box.BoxChild w158 = ((global::Gtk.Box.BoxChild)(this.vbox5 [this.hbox7]));
 			w158.Position = 1;
 			w158.Expand = false;
 			w158.Fill = false;
@@ -959,14 +846,14 @@ namespace MASGAU.Main
 			this.GtkLabel32.UseMarkup = true;
 			this.frame7.LabelWidget = this.GtkLabel32;
 			this.hbox2.Add (this.frame7);
-			global::Gtk.Box.BoxChild w161 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.frame7]));
+			global::Gtk.Box.BoxChild w161 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.frame7]));
 			w161.Position = 1;
 			this.vbox3.Add (this.hbox2);
-			global::Gtk.Box.BoxChild w162 = ((global::Gtk.Box.BoxChild)(this.vbox3[this.hbox2]));
+			global::Gtk.Box.BoxChild w162 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.hbox2]));
 			w162.Position = 4;
 			this.alignment1.Add (this.vbox3);
 			this.notebook1.Add (this.alignment1);
-			global::Gtk.Notebook.NotebookChild w164 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1[this.alignment1]));
+			global::Gtk.Notebook.NotebookChild w164 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1 [this.alignment1]));
 			w164.Position = 2;
 			// Notebook tab
 			this.label2 = new global::Gtk.Label ();
@@ -975,7 +862,7 @@ namespace MASGAU.Main
 			this.notebook1.SetTabLabel (this.alignment1, this.label2);
 			this.label2.ShowAll ();
 			// Container child notebook1.Gtk.Notebook+NotebookChild
-			this.alignment4 = new global::Gtk.Alignment (0.5f, 0.5f, 1f, 1f);
+			this.alignment4 = new global::Gtk.Alignment (0.5F, 0.5F, 1F, 1F);
 			this.alignment4.Name = "alignment4";
 			this.alignment4.LeftPadding = ((uint)(3));
 			this.alignment4.TopPadding = ((uint)(3));
@@ -989,15 +876,15 @@ namespace MASGAU.Main
 			this.frame12 = new global::Gtk.Frame ();
 			this.frame12.Name = "frame12";
 			// Container child frame12.Gtk.Container+ContainerChild
-			this.GtkAlignment12 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment12 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment12.Name = "GtkAlignment12";
 			this.GtkAlignment12.LeftPadding = ((uint)(3));
 			this.GtkAlignment12.RightPadding = ((uint)(3));
 			this.GtkAlignment12.BottomPadding = ((uint)(3));
 			// Container child GtkAlignment12.Gtk.Container+ContainerChild
 			this.taskFrequencyCombo = global::Gtk.ComboBox.NewText ();
-			this.taskFrequencyCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Daily\r"));
-			this.taskFrequencyCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Weekly\r"));
+			this.taskFrequencyCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Daily"));
+			this.taskFrequencyCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Weekly"));
 			this.taskFrequencyCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Monthly"));
 			this.taskFrequencyCombo.Name = "taskFrequencyCombo";
 			this.taskFrequencyCombo.Active = 0;
@@ -1009,7 +896,7 @@ namespace MASGAU.Main
 			this.GtkLabel22.UseMarkup = true;
 			this.frame12.LabelWidget = this.GtkLabel22;
 			this.vbox7.Add (this.frame12);
-			global::Gtk.Box.BoxChild w167 = ((global::Gtk.Box.BoxChild)(this.vbox7[this.frame12]));
+			global::Gtk.Box.BoxChild w167 = ((global::Gtk.Box.BoxChild)(this.vbox7 [this.frame12]));
 			w167.Position = 0;
 			w167.Expand = false;
 			w167.Fill = false;
@@ -1017,7 +904,7 @@ namespace MASGAU.Main
 			this.frame13 = new global::Gtk.Frame ();
 			this.frame13.Name = "frame13";
 			// Container child frame13.Gtk.Container+ContainerChild
-			this.GtkAlignment13 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment13 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment13.Name = "GtkAlignment13";
 			this.GtkAlignment13.LeftPadding = ((uint)(3));
 			this.GtkAlignment13.RightPadding = ((uint)(3));
@@ -1037,7 +924,7 @@ namespace MASGAU.Main
 			this.GtkLabel26.UseMarkup = true;
 			this.frame13.LabelWidget = this.GtkLabel26;
 			this.vbox7.Add (this.frame13);
-			global::Gtk.Box.BoxChild w170 = ((global::Gtk.Box.BoxChild)(this.vbox7[this.frame13]));
+			global::Gtk.Box.BoxChild w170 = ((global::Gtk.Box.BoxChild)(this.vbox7 [this.frame13]));
 			w170.Position = 1;
 			w170.Expand = false;
 			w170.Fill = false;
@@ -1045,19 +932,19 @@ namespace MASGAU.Main
 			this.frame14 = new global::Gtk.Frame ();
 			this.frame14.Name = "frame14";
 			// Container child frame14.Gtk.Container+ContainerChild
-			this.GtkAlignment14 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment14 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment14.Name = "GtkAlignment14";
 			this.GtkAlignment14.LeftPadding = ((uint)(3));
 			this.GtkAlignment14.RightPadding = ((uint)(3));
 			this.GtkAlignment14.BottomPadding = ((uint)(3));
 			// Container child GtkAlignment14.Gtk.Container+ContainerChild
 			this.taskDayOfWeekCombo = global::Gtk.ComboBox.NewText ();
-			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Sunday\r"));
-			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Monday\r"));
-			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Tuesday\r"));
-			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Wednesday\r"));
-			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Thursday\r"));
-			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Friday\r"));
+			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Sunday"));
+			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Monday"));
+			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Tuesday"));
+			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Wednesday"));
+			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Thursday"));
+			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Friday"));
 			this.taskDayOfWeekCombo.AppendText (global::Mono.Unix.Catalog.GetString ("Saturday"));
 			this.taskDayOfWeekCombo.Name = "taskDayOfWeekCombo";
 			this.taskDayOfWeekCombo.Active = 0;
@@ -1069,7 +956,7 @@ namespace MASGAU.Main
 			this.GtkLabel27.UseMarkup = true;
 			this.frame14.LabelWidget = this.GtkLabel27;
 			this.vbox7.Add (this.frame14);
-			global::Gtk.Box.BoxChild w173 = ((global::Gtk.Box.BoxChild)(this.vbox7[this.frame14]));
+			global::Gtk.Box.BoxChild w173 = ((global::Gtk.Box.BoxChild)(this.vbox7 [this.frame14]));
 			w173.Position = 2;
 			w173.Expand = false;
 			w173.Fill = false;
@@ -1077,7 +964,7 @@ namespace MASGAU.Main
 			this.frame16 = new global::Gtk.Frame ();
 			this.frame16.Name = "frame16";
 			// Container child frame16.Gtk.Container+ContainerChild
-			this.GtkAlignment15 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment15 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment15.Name = "GtkAlignment15";
 			this.GtkAlignment15.LeftPadding = ((uint)(3));
 			this.GtkAlignment15.RightPadding = ((uint)(3));
@@ -1098,7 +985,7 @@ namespace MASGAU.Main
 			this.GtkLabel31.UseMarkup = true;
 			this.frame16.LabelWidget = this.GtkLabel31;
 			this.vbox7.Add (this.frame16);
-			global::Gtk.Box.BoxChild w176 = ((global::Gtk.Box.BoxChild)(this.vbox7[this.frame16]));
+			global::Gtk.Box.BoxChild w176 = ((global::Gtk.Box.BoxChild)(this.vbox7 [this.frame16]));
 			w176.Position = 3;
 			w176.Expand = false;
 			w176.Fill = false;
@@ -1106,7 +993,7 @@ namespace MASGAU.Main
 			this.frame15 = new global::Gtk.Frame ();
 			this.frame15.Name = "frame15";
 			// Container child frame15.Gtk.Container+ContainerChild
-			this.GtkAlignment16 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment16 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment16.Name = "GtkAlignment16";
 			this.GtkAlignment16.LeftPadding = ((uint)(3));
 			this.GtkAlignment16.RightPadding = ((uint)(3));
@@ -1123,7 +1010,7 @@ namespace MASGAU.Main
 			this.taskUserEntry.IsEditable = true;
 			this.taskUserEntry.InvisibleChar = '●';
 			this.hbox11.Add (this.taskUserEntry);
-			global::Gtk.Box.BoxChild w177 = ((global::Gtk.Box.BoxChild)(this.hbox11[this.taskUserEntry]));
+			global::Gtk.Box.BoxChild w177 = ((global::Gtk.Box.BoxChild)(this.hbox11 [this.taskUserEntry]));
 			w177.Position = 0;
 			// Container child hbox11.Gtk.Box+BoxChild
 			this.taskPasswordEntry = new global::Gtk.Entry ();
@@ -1133,7 +1020,7 @@ namespace MASGAU.Main
 			this.taskPasswordEntry.Visibility = false;
 			this.taskPasswordEntry.InvisibleChar = '●';
 			this.hbox11.Add (this.taskPasswordEntry);
-			global::Gtk.Box.BoxChild w178 = ((global::Gtk.Box.BoxChild)(this.hbox11[this.taskPasswordEntry]));
+			global::Gtk.Box.BoxChild w178 = ((global::Gtk.Box.BoxChild)(this.hbox11 [this.taskPasswordEntry]));
 			w178.Position = 1;
 			this.GtkAlignment16.Add (this.hbox11);
 			this.frame15.Add (this.GtkAlignment16);
@@ -1143,7 +1030,7 @@ namespace MASGAU.Main
 			this.GtkLabel28.UseMarkup = true;
 			this.frame15.LabelWidget = this.GtkLabel28;
 			this.vbox7.Add (this.frame15);
-			global::Gtk.Box.BoxChild w181 = ((global::Gtk.Box.BoxChild)(this.vbox7[this.frame15]));
+			global::Gtk.Box.BoxChild w181 = ((global::Gtk.Box.BoxChild)(this.vbox7 [this.frame15]));
 			w181.Position = 4;
 			w181.Expand = false;
 			w181.Fill = false;
@@ -1158,7 +1045,7 @@ namespace MASGAU.Main
 			this.deleteTaskBtn.Name = "deleteTaskBtn";
 			this.deleteTaskBtn.UseUnderline = true;
 			// Container child deleteTaskBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w182 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w182 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w183 = new global::Gtk.HBox ();
 			w183.Spacing = 2;
@@ -1174,7 +1061,7 @@ namespace MASGAU.Main
 			w182.Add (w183);
 			this.deleteTaskBtn.Add (w182);
 			this.hbox10.Add (this.deleteTaskBtn);
-			global::Gtk.Box.BoxChild w190 = ((global::Gtk.Box.BoxChild)(this.hbox10[this.deleteTaskBtn]));
+			global::Gtk.Box.BoxChild w190 = ((global::Gtk.Box.BoxChild)(this.hbox10 [this.deleteTaskBtn]));
 			w190.Position = 0;
 			// Container child hbox10.Gtk.Box+BoxChild
 			this.applyTaskBtn = new global::Gtk.Button ();
@@ -1182,7 +1069,7 @@ namespace MASGAU.Main
 			this.applyTaskBtn.Name = "applyTaskBtn";
 			this.applyTaskBtn.UseUnderline = true;
 			// Container child applyTaskBtn.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w191 = new global::Gtk.Alignment (0.5f, 0.5f, 0f, 0f);
+			global::Gtk.Alignment w191 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
 			global::Gtk.HBox w192 = new global::Gtk.HBox ();
 			w192.Spacing = 2;
@@ -1198,16 +1085,16 @@ namespace MASGAU.Main
 			w191.Add (w192);
 			this.applyTaskBtn.Add (w191);
 			this.hbox10.Add (this.applyTaskBtn);
-			global::Gtk.Box.BoxChild w199 = ((global::Gtk.Box.BoxChild)(this.hbox10[this.applyTaskBtn]));
+			global::Gtk.Box.BoxChild w199 = ((global::Gtk.Box.BoxChild)(this.hbox10 [this.applyTaskBtn]));
 			w199.Position = 1;
 			this.vbox7.Add (this.hbox10);
-			global::Gtk.Box.BoxChild w200 = ((global::Gtk.Box.BoxChild)(this.vbox7[this.hbox10]));
+			global::Gtk.Box.BoxChild w200 = ((global::Gtk.Box.BoxChild)(this.vbox7 [this.hbox10]));
 			w200.Position = 5;
 			w200.Expand = false;
 			w200.Fill = false;
 			this.alignment4.Add (this.vbox7);
 			this.notebook1.Add (this.alignment4);
-			global::Gtk.Notebook.NotebookChild w202 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1[this.alignment4]));
+			global::Gtk.Notebook.NotebookChild w202 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1 [this.alignment4]));
 			w202.Position = 3;
 			// Notebook tab
 			this.label4 = new global::Gtk.Label ();
@@ -1216,7 +1103,7 @@ namespace MASGAU.Main
 			this.notebook1.SetTabLabel (this.alignment4, this.label4);
 			this.label4.ShowAll ();
 			// Container child notebook1.Gtk.Notebook+NotebookChild
-			this.alignment5 = new global::Gtk.Alignment (0.5f, 0.5f, 1f, 1f);
+			this.alignment5 = new global::Gtk.Alignment (0.5F, 0.5F, 1F, 1F);
 			this.alignment5.Name = "alignment5";
 			this.alignment5.LeftPadding = ((uint)(3));
 			this.alignment5.TopPadding = ((uint)(3));
@@ -1230,17 +1117,17 @@ namespace MASGAU.Main
 			this.image31 = new global::Gtk.Image ();
 			this.image31.Name = "image31";
 			this.vbox8.Add (this.image31);
-			global::Gtk.Box.BoxChild w203 = ((global::Gtk.Box.BoxChild)(this.vbox8[this.image31]));
+			global::Gtk.Box.BoxChild w203 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.image31]));
 			w203.Position = 0;
 			w203.Expand = false;
 			w203.Fill = false;
 			// Container child vbox8.Gtk.Box+BoxChild
 			this.label6 = new global::Gtk.Label ();
 			this.label6.Name = "label6";
-			this.label6.LabelProp = global::Mono.Unix.Catalog.GetString ("<b>MASGAU Automatic Save Game Archive Utility v.0.9</b>");
+			this.label6.LabelProp = global::Mono.Unix.Catalog.GetString ("MASGAU");
 			this.label6.UseMarkup = true;
 			this.vbox8.Add (this.label6);
-			global::Gtk.Box.BoxChild w204 = ((global::Gtk.Box.BoxChild)(this.vbox8[this.label6]));
+			global::Gtk.Box.BoxChild w204 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.label6]));
 			w204.Position = 1;
 			w204.Expand = false;
 			w204.Fill = false;
@@ -1248,7 +1135,7 @@ namespace MASGAU.Main
 			this.frame17 = new global::Gtk.Frame ();
 			this.frame17.Name = "frame17";
 			// Container child frame17.Gtk.Container+ContainerChild
-			this.GtkAlignment17 = new global::Gtk.Alignment (0f, 0f, 1f, 1f);
+			this.GtkAlignment17 = new global::Gtk.Alignment (0F, 0F, 1F, 1F);
 			this.GtkAlignment17.Name = "GtkAlignment17";
 			this.GtkAlignment17.LeftPadding = ((uint)(3));
 			this.GtkAlignment17.RightPadding = ((uint)(3));
@@ -1270,21 +1157,21 @@ namespace MASGAU.Main
 			this.GtkLabel33.UseMarkup = true;
 			this.frame17.LabelWidget = this.GtkLabel33;
 			this.vbox8.Add (this.frame17);
-			global::Gtk.Box.BoxChild w208 = ((global::Gtk.Box.BoxChild)(this.vbox8[this.frame17]));
+			global::Gtk.Box.BoxChild w208 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.frame17]));
 			w208.Position = 2;
 			// Container child vbox8.Gtk.Box+BoxChild
-			this.label7 = new global::Gtk.Label ();
-			this.label7.Name = "label7";
-			this.label7.LabelProp = global::Mono.Unix.Catalog.GetString ("<u>http://masgau.sourceforge.net</u>");
-			this.label7.UseMarkup = true;
-			this.vbox8.Add (this.label7);
-			global::Gtk.Box.BoxChild w209 = ((global::Gtk.Box.BoxChild)(this.vbox8[this.label7]));
+			this.siteUrlLabel = new global::Gtk.Label ();
+			this.siteUrlLabel.Name = "siteUrlLabel";
+			this.siteUrlLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("<u>http://masgau.sourceforge.net</u>");
+			this.siteUrlLabel.UseMarkup = true;
+			this.vbox8.Add (this.siteUrlLabel);
+			global::Gtk.Box.BoxChild w209 = ((global::Gtk.Box.BoxChild)(this.vbox8 [this.siteUrlLabel]));
 			w209.Position = 3;
 			w209.Expand = false;
 			w209.Fill = false;
 			this.alignment5.Add (this.vbox8);
 			this.notebook1.Add (this.alignment5);
-			global::Gtk.Notebook.NotebookChild w211 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1[this.alignment5]));
+			global::Gtk.Notebook.NotebookChild w211 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1 [this.alignment5]));
 			w211.Position = 4;
 			// Notebook tab
 			this.label5 = new global::Gtk.Label ();
@@ -1293,7 +1180,7 @@ namespace MASGAU.Main
 			this.notebook1.SetTabLabel (this.alignment5, this.label5);
 			this.label5.ShowAll ();
 			this.vbox1.Add (this.notebook1);
-			global::Gtk.Box.BoxChild w212 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.notebook1]));
+			global::Gtk.Box.BoxChild w212 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.notebook1]));
 			w212.Position = 0;
 			// Container child vbox1.Gtk.Box+BoxChild
 			this.statusbar3 = new global::Gtk.Statusbar ();
@@ -1304,10 +1191,10 @@ namespace MASGAU.Main
 			this.progressbar1 = new global::Gtk.ProgressBar ();
 			this.progressbar1.Name = "progressbar1";
 			this.statusbar3.Add (this.progressbar1);
-			global::Gtk.Box.BoxChild w213 = ((global::Gtk.Box.BoxChild)(this.statusbar3[this.progressbar1]));
+			global::Gtk.Box.BoxChild w213 = ((global::Gtk.Box.BoxChild)(this.statusbar3 [this.progressbar1]));
 			w213.Position = 1;
 			this.vbox1.Add (this.statusbar3);
-			global::Gtk.Box.BoxChild w214 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.statusbar3]));
+			global::Gtk.Box.BoxChild w214 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.statusbar3]));
 			w214.Position = 1;
 			w214.Expand = false;
 			w214.Fill = false;

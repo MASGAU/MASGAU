@@ -1,50 +1,37 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Console/AConsole.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Restore.Gtk/MainWindow.cs">
     <Files>
-      <File FileName="MASGAU.Main.Gtk/MainWindow.cs" Line="31" Column="4" />
-      <File FileName="MASGAU.Gtk/Window.cs" Line="7" Column="28" />
-      <File FileName="MASGAU/SettingsHandler.cs" Line="41" Column="1" />
-      <File FileName="MASGAU.Linux/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="MASGAU.Linux/Location/LocationsHandler.cs" Line="21" Column="38" />
-      <File FileName="MASGAU.Linux/Location/PlaystationLocationHandler.cs" Line="6" Column="38" />
-      <File FileName="MASGAU.Linux/Location/SystemLocationHandler.cs" Line="13" Column="41" />
-      <File FileName="MASGAU.Linux/Location/SteamLocationHandler.cs" Line="13" Column="6" />
-      <File FileName="MASGAU.Console.Linux/Main.cs" Line="6" Column="3" />
-      <File FileName="MASGAU/Location/ALocationsHandler.cs" Line="35" Column="1" />
-      <File FileName="MASGAU.Console/AConsole.cs" Line="85" Column="12" />
-      <File FileName="MASGAU/Communication/Message/MessageHandler.cs" Line="76" Column="1" />
+      <File FileName="Translations/Strings.cs" Line="101" Column="1" />
+      <File FileName="MASGAU.Main.Gtk/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="MASGAU.Gtk/SettingsWidget.cs" Line="1" Column="1" />
+      <File FileName="MASGAU.Monitor.Gtk/MainWindow.cs" Line="31" Column="3" />
+      <File FileName="Translations/Strings/en.xml" Line="104" Column="29" />
+      <File FileName="MASGAU.Restore.Gtk/MainWindow.cs" Line="9" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MASGAU.Console" expanded="True" />
-          <Node name="MASGAU.Console.Linux" expanded="True" selected="True">
+          <Node name="MASGAU.Monitor" expanded="True" />
+          <Node name="MASGAU.Monitor.Gtk" expanded="True" />
+          <Node name="MASGAU.Restore.Gtk" expanded="True">
             <Node name="References" expanded="True" />
+            <Node name="MainWindow.cs" selected="True" />
           </Node>
-          <Node name="MASGAU.Gtk" expanded="True" />
-          <Node name="MASGAU.Linux" expanded="True">
-            <Node name="MASGAU.Linux" expanded="True">
-              <Node name="Location" expanded="True" />
-            </Node>
+          <Node name="Translations" expanded="True">
+            <Node name="Strings" expanded="True" />
           </Node>
-          <Node name="MASGAU.Main" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU.Gtk/Window.cs" line="35" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU.Main/MainProgramHandler.cs" line="30" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU/Masgau.cs" line="138" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU/Masgau.cs" line="136" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU.Main.Gtk/MainWindow.cs" line="42" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/masgau/MASGAU/SettingsHandler.cs" line="43" />
+      <Breakpoint file="/Users/tkmayn9/Documents/MASGAU/MASGAU.Gtk/GTKHelpers.cs" line="38" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="MASGAU.Gtk/Window.cs" line="31" offsetX="486" offsetY="510" expression="e" liveUpdate="False" />
-    <Watch file="MASGAU.Main.Gtk/MainWindow.cs" line="34" offsetX="569" offsetY="597" expression="e" liveUpdate="False" />
+    <Watch file="MASGAU.Gtk/GTKHelpers.cs" line="37" offsetX="403" offsetY="540" expression="Label" liveUpdate="False" />
+    <Watch file="MASGAU.Gtk/GTKHelpers.cs" line="37" offsetX="407" offsetY="588" expression="string_title" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

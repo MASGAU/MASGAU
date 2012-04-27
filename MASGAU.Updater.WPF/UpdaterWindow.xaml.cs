@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
 using MASGAU.Update;
-
+using Translations;
 namespace MASGAU.Updater
 {
     /// <summary>
@@ -31,10 +31,9 @@ namespace MASGAU.Updater
         public UpdaterWindow(): base(null)
         {
             InitializeComponent();
+            WPFHelpers.translateWindow(this);
             this.Loaded +=new RoutedEventHandler(Window_Loaded);
             //updateLst.ItemsSource = UpdateCollection;
-            if(Core.portable_mode)
-                this.Title = "MASGAU Portable Feels Inferior";
         }
 
         public override void updateProgress(Communication.Progress.ProgressUpdatedEventArgs e)
@@ -65,7 +64,7 @@ namespace MASGAU.Updater
             this.tabControl1.SelectedIndex = 1;
             updateLst.ItemsSource = updater.updater;
 
-            groupBox1.Header = "There Are Updates Available";
+            groupBox1.Header = Strings.get("UpdatesAvailable");
             okBtn.IsEnabled = true;
             cancelBtn.IsEnabled = true;
         }

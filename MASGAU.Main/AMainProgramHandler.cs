@@ -60,12 +60,13 @@ namespace MASGAU.Main
         #region Methods for preparing data about the games
 
         public Dictionary<string,int> contributions;
-        
-        private void addContribution(string contributer) {
-            if(!contributions.ContainsKey(contributer))
-                contributions.Add(contributer,1);
+
+        private void addContribution(string contributor)
+        {
+            if (!contributions.ContainsKey(contributor))
+                contributions.Add(contributor, 1);
             else
-                contributions[contributer]++;
+                contributions[contributor]++;
         }
 
         #endregion

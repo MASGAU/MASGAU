@@ -8,8 +8,7 @@
     <ProjectGuid>{2DCACDC2-8139-40AC-87C6-EB5AF73E7219}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MASGAU.Main</RootNamespace>
-    <ReleaseVersion>0.9</ReleaseVersion>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ReleaseVersion>0.10</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,30 +39,22 @@
     <AssemblyName>Main.Gtk</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System">
-    </Reference>
-    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
-      <Package>gtk-sharp-2.0</Package>
-    </Reference>
+    <Reference Include="System" />
+    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <Package>gtk-sharp-2.0</Package>
     </Reference>
     <Reference Include="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <Package>glade-sharp-2.0</Package>
     </Reference>
     <Reference Include="pango-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <Package>gtk-sharp-2.0</Package>
     </Reference>
     <Reference Include="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <Package>gtk-sharp-2.0</Package>
     </Reference>
     <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <Package>glib-sharp-2.0</Package>
     </Reference>
     <Reference Include="Mono.Posix" />
   </ItemGroup>
@@ -78,6 +69,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="gtk-gui\MASGAU.Main.MainWindow.cs" />
+    <Compile Include="MainProgramHandler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -92,6 +84,14 @@
     <ProjectReference Include="..\MASGAU.Gtk\MASGAU.Gtk.csproj">
       <Project>{C2F897BF-9BAC-4CA3-B4D0-2F9E57E2A519}</Project>
       <Name>MASGAU.Gtk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MASGAU.Linux\MASGAU.Linux.csproj">
+      <Project>{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}</Project>
+      <Name>MASGAU.Linux</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

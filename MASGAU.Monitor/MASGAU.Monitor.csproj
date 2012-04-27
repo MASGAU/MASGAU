@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,10 +9,8 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MASGAU.Monitor</RootNamespace>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <ReleaseVersion>0.9</ReleaseVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <ReleaseVersion>0.10</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,22 +39,14 @@
     <AssemblyName>Monitor.Common</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System">
-    </Reference>
-    <Reference Include="System.Core">
-    </Reference>
-    <Reference Include="System.Drawing">
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-    </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
-    </Reference>
-    <Reference Include="Microsoft.CSharp">
-    </Reference>
-    <Reference Include="System.Data">
-    </Reference>
-    <Reference Include="System.Xml">
-    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MonitorDir.cs" />
