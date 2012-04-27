@@ -165,6 +165,12 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="RUSE" platform="Steam">
+    <title>R.U.S.E.</title>
+    <location_path environment_variable="steamuserdata" path="21970"/>
+    <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="SaintsRow3" platform="Steam">
     <title>Saint's Row: The Third</title>
     <location_path environment_variable="steamuserdata" path="55230"/>
