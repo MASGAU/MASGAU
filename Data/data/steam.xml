@@ -67,12 +67,6 @@
     <save/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DeusExHumanRevolutionTheMissingLink" platform="Steam">
-    <title>Deus Ex: Human Revolution - The Missing Link</title>
-    <location_path environment_variable="steamuserdata" path="201280"/>
-    <save/>
-    <contributor>SanMadJack</contributor>
-  </game>
   <game name="DocClockTheToastedSandwichOfTime" platform="Steam">
     <title>Doc Clock: The Toasted Sandwich of Time</title>
     <location_path environment_variable="steamuserdata" path="57800"/>

@@ -325,15 +325,6 @@
     <save filename="*.CFG" type="Settings"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RedneckRampageRidesAgain" platform="DOS">
-    <title>Redneck Rampage Rides Again</title>
-    <location_path environment_variable="installlocation" path="GOG.com\Redneck Rampage Collection\Redneck Rides Again"/>
-    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGCREDNECKRIDESAGAIN" value="PATH"/>
-    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Redneck Rampage Collection\Redneck Rampage Rides Again - Arkansas\Redneck Rides Again.lnk" append="Redneck Rides Again" detract="DOSBOX"/>
-    <save filename="*.SAV"/>
-    <save filename="*.CFG" type="Settings"/>
-    <contributor>SanMadJack</contributor>
-  </game>
   <game name="ReturnToZork" platform="DOS">
     <title>Return To Zork</title>
     <location_path environment_variable="installlocation" path="GOG.com\Return To Zork"/>
@@ -463,13 +454,6 @@
     <location_path environment_variable="installlocation" path="TOMBRAID"/>
     <identifier filename="SAVEGAME.*"/>
     <save filename="SAVEGAME.*"/>
-    <contributor>SanMadJack</contributor>
-  </game>
-  <game name="TombRaiderUnfinishedBusiness" platform="DOS">
-    <title>Tomb Raider: Unfinished Business</title>
-    <location_game name="TombRaider" platform="DOS"/>
-    <identifier filename="SAVEUB.*"/>
-    <save filename="SAVEUB.*"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="Tyrian2000" platform="DOS">
