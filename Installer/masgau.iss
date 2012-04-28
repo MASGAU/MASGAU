@@ -18,10 +18,10 @@ SolidCompression=true
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-Setup
 AppCopyright=2012
 ChangesAssociations=true
-WizardImageFile=..\Graphics\installer_logo.bmp
-WizardSmallImageFile=..\Graphics\installer_logo_small.bmp
+WizardImageFile=installer_logo.bmp
+WizardSmallImageFile=installer_logo_small.bmp
 WizardImageStretch=true
-SetupIconFile=..\Graphics\masgau.ico
+SetupIconFile=..\MASGAU\masgau.ico
 AllowRootDirectory=true
 DirExistsWarning=no
 VersionInfoVersion={#MyAppVersion}
@@ -44,7 +44,7 @@ Source: ..\Dependencies\7-Zip\7z64.dll; DestDir: {app}; DestName: 7z.dll; Check:
 Source: ..\MASGAU.Updater\updates.xml; DestDir: {app};  Components: MASGAU\Core;
 Source: ..\Docs\gpl-2.0.txt; DestDir: {app}; Components: MASGAU\Core;
 Source: ..\Data\Data\games.xsd; DestDir: {app}\Data; Components: MASGAU\Core; 
-Source: ..\Graphics\masgau.ico; DestDir: {app};  Components: MASGAU\Core;
+Source: ..\MASGAU\masgau.ico; DestDir: {app};  Components: MASGAU\Core;
 // Main DLLs
 Source: ..\MASGAU\bin\Release\MASGAU.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\MASGAU\bin\Release\MASGAU.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
