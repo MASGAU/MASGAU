@@ -10,13 +10,13 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Button Content="Um...Okay. Thanks For That." Grid.Row="3" Height="23" Name="button1" Margin="1" Click="button1_Click" />
+        <Button Content="AboutWindowCloseButton" Grid.Row="3" Height="23" Name="button1" Margin="1" Click="button1_Click" />
         <TextBlock HorizontalAlignment="Center" Grid.Row="2" Margin="5">
             <Hyperlink NavigateUri="http://masgau.sourceforge.net/" Name="siteLink" RequestNavigate="openHyperlink">
                 http://masgau.sourceforge.net/
             </Hyperlink>
         </TextBlock>
-        <Label Content="MASGAU Monitor v." Grid.Row="1" Name="masgauLbl" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
+        <Label Content="MonitorTitle" Grid.Row="1" Name="masgauLbl" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
         <Image Name="image1" Stretch="Uniform" Source="/MASGAU;Component/Images/flag.png" MaxWidth="500" MaxHeight="250" />
     </Grid>
 </src:AWindow>

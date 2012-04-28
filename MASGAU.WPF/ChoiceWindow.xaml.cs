@@ -22,8 +22,7 @@ namespace MASGAU
         public ChoiceWindow(string title, string message, List<string> options, string default_option, AWindow owner): base(owner)
         {
             InitializeComponent();
-            WPFHelpers.translateContent(cancelBtn);
-            WPFHelpers.translateContent(selectBtn);
+            WPFHelpers.translateWindow(this);
             int selected = 0;
             this.Title = title;
             messageGrp.Header = message;

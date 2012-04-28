@@ -30,17 +30,17 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Button Content="Redetect Games" Grid.Row="1" Height="23" Name="redetectGamesBtn" Margin="1" Click="redetectGamesBtn_Click" TabIndex="4" />
-                    <Button Content="Back Nothing Up" Grid.Column="1" Grid.Row="1" Height="23" Name="backupSelectedBtn" Margin="1" Click="backupSelectedBtn_Click" TabIndex="5" IsEnabled="False" />
-                    <Button Content="Back Everything Up" Grid.Column="2" Grid.Row="1" Height="23" Name="backupEverythingBtn" Margin="1" Click="backupEverythingBtn_Click" TabIndex="6" IsEnabled="{Binding games_detected}" />
-                    <GroupBox Grid.ColumnSpan="3" Header="Detected Games" Name="groupBox1">
+                    <Button Content="RedetectGamesButton" Grid.Row="1" Height="23" Name="redetectGamesBtn" Margin="1" Click="redetectGamesBtn_Click" TabIndex="4" />
+                    <Button Content="BackupNoGamesButton" Grid.Column="1" Grid.Row="1" Height="23" Name="backupSelectedBtn" Margin="1" Click="backupSelectedBtn_Click" TabIndex="5" IsEnabled="False" />
+                    <Button Content="BackupAllGamesButton" Grid.Column="2" Grid.Row="1" Height="23" Name="backupEverythingBtn" Margin="1" Click="backupEverythingBtn_Click" TabIndex="6" IsEnabled="{Binding games_detected}" />
+                    <GroupBox Grid.ColumnSpan="3" Header="DetectedGames" Name="groupBox1">
                         <ListView Name="gamesLst" ItemsSource="{Binding}" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SizeChanged="gamesLst_SizeChanged" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding games_detected}">
                             <ListView.ContextMenu>
                                 <ContextMenu Opened="ContextMenu_Opened" Name="gamesMenu">
-                                    <MenuItem Header="Create Custom Archive" Name="createCustomArchiveMenu" Click="createCustomArchiveMenu_Click" />
-                                    <MenuItem Header="Back Nothing Up" Name="backupMenuItem" Click="backupMenuItem_Click" />
-                                    <MenuItem Header="Purge" Name="purgeMenu" Click="purgeMenu_Click" />
-                                    <MenuItem Header="Enable Backup" IsCheckable="True" Name="enableBackupMenu" Click="disableMenu_Click" />
+                                    <MenuItem Header="BackupContextCreateCustomArchive" Name="createCustomArchiveMenu" Click="createCustomArchiveMenu_Click" />
+                                    <MenuItem Header="BackupContextBackupNoGames" Name="backupMenuItem" Click="backupMenuItem_Click" />
+                                    <MenuItem Header="BackupContextPurge" Name="purgeMenu" Click="purgeMenu_Click" />
+                                    <MenuItem Header="BackupContextEnableBackup" IsCheckable="True" Name="enableBackupMenu" Click="disableMenu_Click" />
                                 </ContextMenu>
                             </ListView.ContextMenu>
                             <ListView.ItemContainerStyle>
@@ -61,28 +61,28 @@
                             </ListView.Resources>
                             <ListView.View>
                                 <GridView AllowsColumnReorder="False">
-                                    <GridViewColumn Header="Secret Name (Don't Tell Anyone!)" Width="0" x:Name="gameNameColumn">
+                                    <GridViewColumn Header="GameNameColumn" Width="0" x:Name="gameNameColumn">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock Text="{Binding name}"/>
                                             </DataTemplate>
                                         </GridViewColumn.CellTemplate>
                                     </GridViewColumn>
-                                    <GridViewColumn Header="Game" Width="100" x:Name="gameTitleColumn">
+                                    <GridViewColumn Header="GameTitleColumn" Width="100" x:Name="gameTitleColumn">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock Text="{Binding title}"/>
                                             </DataTemplate>
                                         </GridViewColumn.CellTemplate>
                                     </GridViewColumn>
-                                    <GridViewColumn Header="Platform" Width="80" x:Name="gamePlatformColumn" >
+                                    <GridViewColumn Header="GamePlatformColumn" Width="80" x:Name="gamePlatformColumn" >
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock Text="{Binding platform}" HorizontalAlignment="Center"/>
                                             </DataTemplate>
                                         </GridViewColumn.CellTemplate>
                                     </GridViewColumn>
-                                    <GridViewColumn Header="Backup" Width="50" x:Name="backupColumn">
+                                    <GridViewColumn Header="GameBackupColumn" Width="50" x:Name="backupColumn">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <CheckBox IsChecked="{Binding backup_enabled, Mode=TwoWay}" HorizontalAlignment="Center" Style="{StaticResource DataGridCheckBox}" />
@@ -98,7 +98,7 @@
                             </ListView.ItemTemplate>
                         </ListView>
                     </GroupBox>
-                    <Label Content="No Games Detected" Name="noGamesDetectedLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Visibility="{Binding no_games_detected, Converter={StaticResource visibleConverter}}" />
+                    <Label Content="NoGamesDetected" Name="noGamesDetectedLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Visibility="{Binding no_games_detected, Converter={StaticResource visibleConverter}}" />
                 </Grid>
             </TabItem>
             <TabItem Header="Restore" Name="restoreTab" TabIndex="2" Padding="6,2">
@@ -112,10 +112,10 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Button Content="Reload Archives" Grid.Row="1" Height="23" Name="reloadArchivesBtn" Margin="1" Click="reloadArchivesBtn_Click" TabIndex="4"  IsEnabled="{Binding backup_path_set}" />
-                    <Button Content="Restore Other Save(s)" Grid.Column="2" Grid.Row="1" Height="23" Name="restoreOtherBtn" Margin="1" Click="restoreOtherBtn_Click" TabIndex="6" />
-                    <Button Content="Restore " Grid.Column="1" Grid.Row="1" Height="23" Name="restoreSaveBtn" Margin="1" TabIndex="5" Click="restoreSaveBtn_Click" IsEnabled="False" />
-                    <GroupBox Grid.ColumnSpan="3" Header="Select Archive(s) To Restore" Name="groupBox2">
+                    <Button Content="ReloadArchivesButton" Grid.Row="1" Height="23" Name="reloadArchivesBtn" Margin="1" Click="reloadArchivesBtn_Click" TabIndex="4"  IsEnabled="{Binding backup_path_set}" />
+                    <Button Content="RestoreOtherBackup" Grid.Column="2" Grid.Row="1" Height="23" Name="restoreOtherBtn" Margin="1" Click="restoreOtherBtn_Click" TabIndex="6" />
+                    <Button Content="RestoreNoneButton" Grid.Column="1" Grid.Row="1" Height="23" Name="restoreSaveBtn" Margin="1" TabIndex="5" Click="restoreSaveBtn_Click" IsEnabled="False" />
+                    <GroupBox Grid.ColumnSpan="3" Header="SelectArchive" Name="groupBox2">
                         <ListView ItemsSource="{Binding}" Name="restoreLst" ScrollViewer.HorizontalScrollBarVisibility="Disabled" TabIndex="3" SelectionChanged="restoreLst_SelectionChanged" SizeChanged="restoreLst_SizeChanged">
                             <ListView.ItemContainerStyle>
                                 <Style TargetType="ListViewItem">
@@ -130,28 +130,28 @@
                             </ListView.ItemTemplate>
                             <ListView.View>
                                 <GridView AllowsColumnReorder="False">
-                                    <GridViewColumn x:Name="archiveNameColumn" Header="Game" Width="100">
+                                    <GridViewColumn x:Name="archiveNameColumn" Header="ArchiveNameColumn" Width="100">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock Text="{Binding title}" />
                                             </DataTemplate>
                                         </GridViewColumn.CellTemplate>
                                     </GridViewColumn>
-                                    <GridViewColumn x:Name="archiveTypeColumn" Header="Type" Width="60">
+                                    <GridViewColumn x:Name="archiveTypeColumn" Header="ArchiveTypeColumn" Width="60">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock HorizontalAlignment="Center" Text="{Binding type}" />
                                             </DataTemplate>
                                         </GridViewColumn.CellTemplate>
                                     </GridViewColumn>
-                                    <GridViewColumn x:Name="archiveOwnerColumn" Header="Owner" Width="80">
+                                    <GridViewColumn x:Name="archiveOwnerColumn" Header="ArchiveOwnerColumn" Width="80">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock HorizontalAlignment="Center" Text="{Binding owner}" />
                                             </DataTemplate>
                                         </GridViewColumn.CellTemplate>
                                     </GridViewColumn>
-                                    <GridViewColumn x:Name="archiveDateColumn" Header="Date" Width="140">
+                                    <GridViewColumn x:Name="archiveDateColumn" Header="ArchiveDateColumn" Width="140">
                                         <GridViewColumn.CellTemplate>
                                             <DataTemplate>
                                                 <TextBlock HorizontalAlignment="Center" Text="{Binding file_date}" />
@@ -162,9 +162,9 @@
                             </ListView.View>
                         </ListView>
                     </GroupBox>
-                    <Label Content="No Archives Found In Backup Folder" Grid.ColumnSpan="3" Name="noArchivesLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="{Binding no_archives_detected, Converter={StaticResource visibleConverter}}" />
+                    <Label Content="NoArchivesFound" Grid.ColumnSpan="3" Name="noArchivesLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="{Binding no_archives_detected, Converter={StaticResource visibleConverter}}" />
                     <Label Grid.ColumnSpan="3" Name="backupPathNotSetLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Visibility="{Binding backup_path_not_set, Converter={StaticResource visibleConverter}}">
-                        <TextBlock TextAlignment="Center">Backup Folder Has Not Been Set<LineBreak/>You Can Set It From The Settings Tab</TextBlock>
+                        <TextBlock TextAlignment="Center">BackupFolderNotSet</TextBlock>
                     </Label>
                 </Grid>
             </TabItem>
@@ -181,12 +181,12 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Button IsEnabled="{Binding exists}" Content="Delete Task" Grid.Row="4" Height="23" Name="deleteTaskBtn" Click="deleteTaskBtn_Click" TabIndex="10" Margin="1" />
-                    <Button Content="Apply" Grid.Column="1" Grid.Row="4" Height="23" Name="applyTaskBtn" TabIndex="11" Click="applyTaskBtn_Click" Margin="1" />
+                    <Button IsEnabled="{Binding exists}" Content="DeleteTaskButton" Grid.Row="4" Height="23" Name="deleteTaskBtn" Click="deleteTaskBtn_Click" TabIndex="10" Margin="1" />
+                    <Button Content="ApplyButton" Grid.Column="1" Grid.Row="4" Height="23" Name="applyTaskBtn" TabIndex="11" Click="applyTaskBtn_Click" Margin="1" />
                     <GroupBox Header="Frequency" Margin="1">
                         <ComboBox ItemsSource="{Binding frequencies}" SelectedItem="{Binding frequency, Mode=TwoWay}" Height="23" Name="frequencyCombo" TabIndex="3" SelectionChanged="frequencyCombo_SelectionChanged" />
                     </GroupBox>
-                    <GroupBox Header="Time Of Day" Grid.Column="1" Margin="1">
+                    <GroupBox Header="TimeOfDay" Grid.Column="1" Margin="1">
                         <Grid Name="grid1">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition />
@@ -200,14 +200,14 @@
                             </ComboBox>
                         </Grid>
                     </GroupBox>
-                    <GroupBox Header="Day Of The Week" Grid.Row="1" Margin="1">
+                    <GroupBox Header="DayOfTheWeek" Grid.Row="1" Margin="1">
                         <ComboBox ItemsSource="{Binding weekdays}" SelectedItem="{Binding day_of_week, Mode=TwoWay}" Height="23" Name="dayOfWeekCombo" TabIndex="6">
                         </ComboBox>
                     </GroupBox>
-                    <GroupBox Header="Day Of The Month" Grid.Row="1" Grid.Column="1" Margin="1">
+                    <GroupBox Header="DayOfTheMonth" Grid.Row="1" Grid.Column="1" Margin="1">
                         <ComboBox ItemsSource="{Binding days}" SelectedItem="{Binding day_of_month, Mode=TwoWay}" Height="23" Name="dayOfMonthCombo" TabIndex="7" />
                     </GroupBox>
-                    <GroupBox Header="User And Password To Run Task As" Name="groupBox7" Grid.ColumnSpan="2" Grid.Row="2" Margin="1">
+                    <GroupBox Header="TaskCredentials" Name="groupBox7" Grid.ColumnSpan="2" Grid.Row="2" Margin="1">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition />
@@ -237,12 +237,12 @@
                     <TreeView Grid.Row="1" Grid.Column="1" Name="treeView1" Grid.RowSpan="2" Grid.ColumnSpan="2" />
                     <ListView Name="listView1" Grid.Row="1" />
                     <TabControl Grid.Row="2" Name="tabControl1">
-                        <TabItem Header="tabItem1" Name="tabItem1">
+                        <TabItem Header="Custom" Name="tabItem1">
                             <Grid />
                         </TabItem>
                     </TabControl>
                     <ComboBox Name="customGamesCombo" Height="23" Grid.ColumnSpan="2" />
-                    <Button Content="Button" Grid.Column="2" Height="23" Name="button1" Width="75" />
+                    <Button Content="SaveButton" Grid.Column="2" Height="23" Name="button1" Width="75" />
                 </Grid>
             </TabItem>
             <TabItem Header="About" Name="aboutTab" TabIndex="2" Padding="6,2">
@@ -257,12 +257,12 @@
                     <ListView Grid.Row="2" ItemsSource="{Binding}" Name="contributersLst" ScrollViewer.HorizontalScrollBarVisibility="Disabled" TabIndex="5" SizeChanged="contributersLst_SizeChanged">
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn Header="Contributer" Width="200" DisplayMemberBinding="{Binding name}" x:Name="contributorNameClm" />
+                                <GridViewColumn Header="Contributor" Width="200" DisplayMemberBinding="{Binding name}" x:Name="contributorNameClm" />
                                 <GridViewColumn Header="Count" Width="200" DisplayMemberBinding="{Binding count}" x:Name="contributorCountClm" />
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <Label Content="MASGAU Automatic Save Game Archive Utility v." Grid.Row="1" Name="versionLabel" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" />
+                    <Label Content="MASGAUFullTitle" Grid.Row="1" Name="versionLabel" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" />
                     <TextBlock HorizontalAlignment="Center" Grid.Row="3" Margin="5">
                         <Hyperlink NavigateUri="http://masgau.sourceforge.net/" Name="siteLink" RequestNavigate="openHyperlink">
                             http://masgau.sourceforge.net/

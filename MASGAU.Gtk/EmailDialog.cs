@@ -7,10 +7,8 @@ namespace MASGAU
 		public EmailDialog (Gtk.Window parent):base(parent)
 		{
 			this.Build ();
-            buttonCancel.Label = Strings.get("Cancel");
-            buttonSave.Label = Strings.get("Save");
-            this.Title = Strings.get("EmailRequest");
-            emailLabel.Text = Strings.get("ChangeLaterInSettings");
+
+			GTKHelpers.translateWindow(this);
 		}
 		public string email {
             get {

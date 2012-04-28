@@ -9,35 +9,29 @@ public partial class AnalyzerWindow : MASGAU.AWindow
 {
 	private AnalyzerProgramHandler analyzer;
 	
+	private string window_title;
+	
 	public AnalyzerWindow () : base(Gtk.WindowType.Toplevel)
 	{
 		Build ();
-		this.Title = Strings.get("AnalyzerWindowTitle");
 		
-		linuxLabel.LabelProp = Strings.get("Linux");
-		gameNameLbl.LabelProp = GTKHelpers.getHeaderString("GameNameQuestion");
-		gameLocationLbl.LabelProp= GTKHelpers.getHeaderString("GameInstallQuestion");
+		GTKHelpers.translateWindow(this);
+				
+		/*
 		installLocation.Title = Strings.get("GameInstallPrompt");
-		saveLocationLbl.LabelProp = GTKHelpers.getHeaderString("GameSavesQuestion");
 		saveLocation.Title = Strings.get("GameSavesPrompt");
-		scanBtn.Label = Strings.get("ScanButton");
-		
-		
-		psLabel.LabelProp = Strings.get("Windows");
-		codeLabel.LabelProp = GTKHelpers.getHeaderString("PlayStationCodeQuestion");
 		psLocation.Title = Strings.get("PlayStationLocationPrompt");
-		psLocationLabel.LabelProp = GTKHelpers.getHeaderString("PlayStationLocationQuestion");
+				
+		*/
 		
-		psScanBtn.Label = Strings.get("PlayStationScanButton");
-		
-		settingsLabel.LabelProp = Strings.get("Settings");
-		emailLabel.LabelProp = GTKHelpers.getHeaderString("EmailAddress");
+		window_title = this.Title;
 		
 		psLocation.SelectFilename("/");
 		installLocation.SelectFilename(Environment.GetEnvironmentVariable("PROGRAMFILES"));
 		saveLocation.SelectFilename(Environment.GetEnvironmentVariable("USERPROFILE"));
 		
-		analyzer = new AnalyzerProgramHandler(setup);
+		
+		analyzer = new AnalyzerProgramHandler();
 		analyzer.RunWorkerAsync();
 	}
 	
@@ -63,9 +57,9 @@ public partial class AnalyzerWindow : MASGAU.AWindow
 	public override void updateProgress (MASGAU.Communication.Progress.ProgressUpdatedEventArgs e)
 	{
 		if(e.message==null)
-			this.Title = Strings.get("AnalyzerWindowTitle");
+			this.Title = window_title;
 		else 
-			this.Title = Strings.get("AnalyzerWindowTitle") + " - " + e.message;
+			this.Title = window_title + " - " + e.message;
 	}	
 	
 		

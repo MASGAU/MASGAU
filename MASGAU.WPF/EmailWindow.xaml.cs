@@ -22,10 +22,7 @@ namespace MASGAU
         public EmailWindow(AWindow owner): base(owner)
         {
             InitializeComponent();
-            WPFHelpers.translateContent(cancelBtn);
-            WPFHelpers.translateContent(saveBtn);
-            WPFHelpers.translateHeader(groupBox1);
-            WPFHelpers.translateTitle(this);
+            WPFHelpers.translateWindow(this);
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

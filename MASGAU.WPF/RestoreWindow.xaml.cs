@@ -33,25 +33,7 @@ namespace MASGAU.Restore
 
         public RestoreWindow(ArchiveHandler archive, AWindow owner): base(new RestoreProgramHandler(archive), owner) {
             InitializeComponent();
-            WPFHelpers.translateContent(cancelButton);
-            WPFHelpers.translateContent(restoreButton);
-            WPFHelpers.translateContent(selectFilesButton);
-            WPFHelpers.translateContent(otherUserButton);
-            WPFHelpers.translateContent(choosePathButton);
-            WPFHelpers.translateContent(selectAllBtn);
-            WPFHelpers.translateContent(selectNoneBtn);
-
-            WPFHelpers.translateHeader(pathBox);
-            WPFHelpers.translateHeader(userBox);
-            WPFHelpers.translateHeader(singlePathBox);
-            WPFHelpers.translateHeader(singleUserBox);
-            
-            WPFHelpers.translateColumnHeader(restoreColumn);
-            WPFHelpers.translateColumnHeader(fileColumn);
-
-            WPFHelpers.translateHeader(selectFilesGroup);
-
-            WPFHelpers.translateText(restoreDoneText);
+            WPFHelpers.translateWindow(this);
             
             default_progress_color = restoreProgress.Foreground;
             this.archive = archive;
@@ -59,6 +41,7 @@ namespace MASGAU.Restore
 
         public RestoreWindow(AWindow owner): base(new RestoreProgramHandler(null), owner) {
             InitializeComponent();
+            WPFHelpers.translateWindow(this);
             default_progress_color = restoreProgress.Foreground;
         }
 
@@ -93,7 +76,7 @@ namespace MASGAU.Restore
             choosePathButton.Visibility = System.Windows.Visibility.Visible;
 
             if(restore.game_data.restore_comment!=null) {
-                restoreDoneText.Text = restore.game_data.restore_comment + Environment.NewLine + Environment.NewLine + "Other than that, the restore is done!";
+                restoreDoneText.Text = restore.game_data.restore_comment + Environment.NewLine + Environment.NewLine + Strings.get("RestoreCompleteWithComment") ;
             }
 
             refreshPaths();
