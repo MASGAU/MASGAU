@@ -18,22 +18,15 @@ namespace MASGAU.Analyzer
     /// </summary>
     public partial class SearchingWindow : AWindow
     {
-		private string game_path, save_path, game_name;
-
         private AnalyzerProgramHandler analyzer;
 
-        private bool playstation_search;
         private bool cancelled = false;
 
-        public SearchingWindow(AnalyzerProgramHandler analyzer, string new_game_path, string new_save_path, string new_game_name, bool search_playstation, AWindow owner): base(owner)
+        public SearchingWindow(AnalyzerProgramHandler analyzer, AWindow owner): base(owner)
         {
             this.analyzer = analyzer;
 			InitializeComponent();
             WPFHelpers.translateWindow(this);
-			game_path = new_game_path;
-			save_path = new_save_path;
-            game_name = new_game_name;
-            playstation_search = search_playstation;
         }
 
         public override void updateProgress(Communication.Progress.ProgressUpdatedEventArgs e) {
@@ -86,7 +79,7 @@ namespace MASGAU.Analyzer
         public string output { get; protected set; }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            analyzer.runAnalyzer(backgroundWorker1_RunWorkerCompleted,game_name, game_path, save_path);
+            analyzer.runAnalyzer(backgroundWorker1_RunWorkerCompleted);
         }
 
         #endregion

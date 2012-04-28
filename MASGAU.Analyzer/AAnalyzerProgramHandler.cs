@@ -185,7 +185,7 @@ namespace MASGAU.Analyzer
 
         protected virtual void parseInstallFolder() {
             output.AppendLine(Environment.NewLine + "Install Folder Dump: ");
-            travelSaveFolder(_savePath);
+            travelSaveFolder(_gamePath);
 			
 		}
 

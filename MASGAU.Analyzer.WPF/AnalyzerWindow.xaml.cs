@@ -141,7 +141,10 @@ namespace MASGAU.Analyzer
 				showError("I'm not omniscient","You need to specify the folder that contains the game's saves.");
 				return;
 			}
-            SearchingWindow searcher = new SearchingWindow(analyzer,null, psGameSavePathTxt.Text, gameNameTxt.Text, true, this);
+            analyzer.gameTitle = this.gameNameTxt.Text;
+            analyzer.gamePath = this.psGameSavePathTxt.Text;
+            analyzer.savePath = null;
+            SearchingWindow searcher = new SearchingWindow(analyzer, this);
 			if((bool)searcher.ShowDialog()) {
 				ReportWindow report = new ReportWindow(searcher.output + Environment.NewLine + "Playstation Code: " + psPrefixTxt.Text + "-" + psSuffixTxt.Text,psGameSavePathTxt.Text,this);
 				report.ShowDialog();
@@ -169,7 +172,11 @@ namespace MASGAU.Analyzer
 				showError("I'm not clairvoyant","You need to specify the folder that contains the game's saves.");
 				return;
 			}
-			SearchingWindow searcher = new SearchingWindow(analyzer, gamePathTxt.Text,gameSaveTxt.Text,gameNameTxt.Text,false,this);
+            analyzer.gameTitle = this.gameNameTxt.Text;
+            analyzer.gamePath = this.gamePathTxt.Text;
+            analyzer.savePath = this.gameSaveTxt.Text;
+
+			SearchingWindow searcher = new SearchingWindow(analyzer,this);
             searcher.ShowInTaskbar = true;
             this.Visibility = System.Windows.Visibility.Hidden;
 			if((bool)searcher.ShowDialog()) {

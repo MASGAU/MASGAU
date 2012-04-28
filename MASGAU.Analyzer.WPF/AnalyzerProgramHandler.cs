@@ -17,7 +17,7 @@ namespace MASGAU.Analyzer {
 
         protected override void HandleAnalyzerDoWork(object sender, DoWorkEventArgs e) {
             ProgressHandler.progress_max = 6;
-            if (game_path != null) {
+            if (gamePath != null) {
                 try {
                     searchRegistry();
                 }
@@ -55,7 +55,7 @@ namespace MASGAU.Analyzer {
                     virtual_path = Path.Combine(Core.locations.getAbsoluteRoot(parse_me, user), "VirtualStore");
 
                     analyzer.ReportProgress(6, "VirtualStore for user " + user + ": " + virtual_path);
-                    virtual_path = Path.Combine(virtual_path, game_path.Substring(3));
+                    virtual_path = Path.Combine(virtual_path, gamePath.Substring(3));
                     if (Directory.Exists(virtual_path))
                         travelSaveFolder(virtual_path);
 
@@ -98,7 +98,7 @@ namespace MASGAU.Analyzer {
                     value.value = check_me;
                     if (look_here.GetValue(check_me) != null) {
                         value.data = look_here.GetValue(check_me).ToString();
-                        if (value.data.Length >= game_path.Length && game_path.ToLower() == value.data.Substring(0, game_path.Length).ToLower()) {
+                        if (value.data.Length >= gamePath.Length && gamePath.ToLower() == value.data.Substring(0, gamePath.Length).ToLower()) {
                             output.AppendLine(Environment.NewLine + "Key:" + value.key);
                             output.AppendLine("Value: " + value.value);
                             output.Append("Data: ");
@@ -155,7 +155,7 @@ namespace MASGAU.Analyzer {
                 foreach (FileInfo shortcut in new DirectoryInfo(look_here).GetFiles("*.lnk")) {
                     try {
                         link = (IWshRuntimeLibrary.IWshShortcut)shell.CreateShortcut(shortcut.FullName);
-                        if (link.TargetPath.Length >= game_path.Length && game_path.ToLower() == link.TargetPath.Substring(0, game_path.Length).ToLower()) {
+                        if (link.TargetPath.Length >= gamePath.Length && gamePath.ToLower() == link.TargetPath.Substring(0, gamePath.Length).ToLower()) {
                             this.outputFile(shortcut.FullName);
                             this.outputFileSystemPath(link.TargetPath);
                         }
