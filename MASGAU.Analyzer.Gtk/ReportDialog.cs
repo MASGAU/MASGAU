@@ -2,20 +2,20 @@ using System;
 using System.Text;
 using System.IO;
 using Translations;
+using MASGAU.Gtk;
 namespace MASGAU.Analyzer
 {
-	public partial class ReportDialog : MASGAU.ADialog
+	public partial class ReportDialog : MASGAU.Gtk.ADialog
 	{
 		private string name;
 		private EmailHandler email;
 		public ReportDialog (string report, string name, AWindow parent): base(parent)
 		{
 			this.Build ();
+			GTKHelpers.translateWindow(this);
 			this.name = name;
-			disclaimerLabel.Text = Strings.get("AnalyzerDisclaimer");
 			this.reportText.Buffer.Text = report;
-			this.Title = Strings.get("ReportWindowTitle");
-			this.uploadButton.Label = Strings.get("Upload");
+			email = new EmailHandler();
             email.checkAvailability(checkAvailabilityDone);
             uploadButton.Label = Strings.get("CheckingConnection");
 		}
@@ -33,12 +33,13 @@ namespace MASGAU.Analyzer
 
 		protected void OnSaveButtonClicked (object sender, System.EventArgs e)
 		{
-			Gtk.FileChooserDialog save = new Gtk.FileChooserDialog(Strings.get("SaveReportQuestion"),this,Gtk.FileChooserAction.Save,null);
-			Gtk.FileFilter filter = new Gtk.FileFilter();
+			this.disableInterface();
+			global::Gtk.FileChooserDialog save = new global::Gtk.FileChooserDialog(Strings.get("SaveReportQuestion"),this,global::Gtk.FileChooserAction.Save,Strings.get("CancelButton"),global::Gtk.ResponseType.Cancel,Strings.get("SaveButton"),global::Gtk.ResponseType.Ok);
+			global::Gtk.FileFilter filter = new global::Gtk.FileFilter();
 			filter.Name = Strings.get("TxtFileDescriptionPlural");
 			filter.AddPattern("*.txt");
 			save.AddFilter(filter);
-			filter = new Gtk.FileFilter();
+			filter = new global::Gtk.FileFilter();
 			filter.Name = Strings.get("AllFileDescriptionPlural");
 			filter.AddPattern("*");
 			save.AddFilter(filter);
@@ -48,7 +49,7 @@ namespace MASGAU.Analyzer
             else
                 save.SelectFilename(System.IO.Path.Combine(AnalyzerProgramHandler.last_save_path,name + ".txt"));
 
-			if(save.Run()!= (int)Gtk.ResponseType.Cancel) {
+			if(save.Run()!= (int)global::Gtk.ResponseType.Cancel) {
                 AnalyzerProgramHandler.last_save_path = System.IO.Path.GetDirectoryName(save.Filename);
 				try {
 					StreamWriter writer = File.CreateText(save.Filename);
@@ -58,6 +59,8 @@ namespace MASGAU.Analyzer
 					GTKHelpers.showError(this,Strings.get("WriteErrorPrompt"), Strings.get("WriteError") + " " + save.Filename);
 				}
 			}
+			
+			this.enableInterface();
 		}
 
 		protected void OnUploadButtonClicked (object sender, System.EventArgs e)

@@ -1,10 +1,10 @@
 using System;
 using Translations;
-namespace MASGAU
+namespace MASGAU.Gtk
 {
 	public partial class EmailDialog : ADialog
 	{
-		public EmailDialog (Gtk.Window parent):base(parent)
+		public EmailDialog (global::Gtk.Window parent):base(parent)
 		{
 			this.Build ();
 

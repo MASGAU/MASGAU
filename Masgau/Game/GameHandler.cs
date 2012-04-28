@@ -101,6 +101,10 @@ namespace MASGAU.Game {
                     return EnvironmentVariable.UserDocuments;
                 case "flashshared":
                     return EnvironmentVariable.FlashShared;
+                case "startmenu":
+                    return EnvironmentVariable.StartMenu;
+                case "desktop":
+                    return EnvironmentVariable.Desktop;
             }
             throw new NotImplementedException("Unrecognized environment variable: " + parse_me);
         }
@@ -336,7 +340,8 @@ namespace MASGAU.Game {
                         break;
                     case "location_shortcut":
                         LocationShortcutHolder new_shortcut_location = new LocationShortcutHolder();
-                        new_shortcut_location.shortcut = element.GetAttribute("shortcut");
+                        new_shortcut_location.ev = parseEnvironmentVariable(element.GetAttribute("environment_variable"));
+                        new_shortcut_location.path = element.GetAttribute("path");
                         location = new_shortcut_location;
                         break;
                     case "location_game":
@@ -399,22 +404,29 @@ namespace MASGAU.Game {
                 if(ps_id!=null) {
                     ps_id.prefix = element.GetAttribute("prefix");
                     ps_id.suffix = element.GetAttribute("suffix");
+
+                    if(element.HasAttribute("append"))
+                        ps_id.append = element.GetAttribute("append");
+                    if(element.HasAttribute("type"))
+                        ps_id.type = element.GetAttribute("type");
+
                     SaveHolder save = new SaveHolder();
 
                     if(ps_id.GetType()==typeof(PlayStationPortableID)||
                         ps_id.GetType()==typeof(PlayStation3ID)) {
-                        save.path = ps_id.prefix + ps_id.suffix + "*";
+                        save.path = ps_id.ToString();
                         save.name = null;
                     }
                     
                     if(ps_id.GetType()==typeof(PlayStation2ID)||ps_id.GetType()==typeof(PlayStation1ID)) {
                         save.path = null;
-                        save.name = "BA" + ps_id.prefix + "-" + ps_id.suffix + "*";
+                        save.name = ps_id.ToString();
                         saves.Add(save);
-                        save = new SaveHolder();
-                        save.path = null;
-                        save.name = "BA" + ps_id.prefix + "P" + ps_id.suffix + "*";                        
                     }
+
+                    if(ps_id.type!=null)
+                        save.type = ps_id.type;
+
                     saves.Add(save);
 
                     locations.Add(ps_id);
@@ -629,7 +641,7 @@ namespace MASGAU.Game {
                 if(file.DirectoryName.Length==add_me.abs_root.Length)
                     add_me.path = "";
                 else 
-                    add_me.path = file.DirectoryName.Substring(add_me.abs_root.Trim(Path.DirectorySeparatorChar).Length+1);
+                    add_me.path = file.DirectoryName.Substring(add_me.abs_root.TrimEnd(Path.DirectorySeparatorChar).Length+1);
 
                 add_me.name = file.Name;
 

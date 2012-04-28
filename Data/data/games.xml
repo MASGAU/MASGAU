@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
+  <!--This file contains games that have saves that are compatible with more than one platform-->
+  <game name="Altitude">
+    <title>Altitude</title>
+    <location_path environment_variable="steamcommon" path="Altitude"/>
+    <save path="config" type="Settings"/>
+    <contributor>AvvA</contributor>
+  </game>
+	<game name="BattleForWesnoth">
+		<title>Battle For Wesnoth</title>
+		<location_path environment_variable="userprofile" path=".wesnoth" />
+		<save />
+		<contributor>SanMadJack</contributor>
+	</game>
+  <game name="DontTakeItPersonallyBabeItJustAintYourStory">
+    <title>don't take it personally, babe, it just ain't your story</title>
+    <location_path environment_variable="appdata" path="RenPy\digital2-1298756237"/>
+    <save/>
+		<contributor>SanMadJack</contributor>
+  </game>
+  <game name="fs2_open">
+    <title>fs2_open</title>
+    <location_path environment_variable="installlocation" path="fs2_open"/>
+    <location_game name="FreeSpace2" platform="Windows"/>
+    <identifier filename="fs2_open*"/>
+    <save path="data\players"/>
+    <comment>Doesn't have a default install folder, so might require an Alt. Install Path.</comment>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="UrQuanMasters">
+    <title>The Ur-Quan Masters</title>
+    <location_path environment_variable="appdata" path="uqm"/>
+    <location_path environment_variable="userprofile" path=".uqm"/>
+    <save path="save"/>
+    <save filename="*.cfg" type="Settings"/>
+    <contributor>Scandalon</contributor>
+  </game>
+</games>

@@ -16,7 +16,10 @@ namespace MASGAU.Analyzer
 			global::Stetic.Gui.Initialize (this);
 			// Widget MASGAU.Analyzer.ReportDialog
 			this.Name = "MASGAU.Analyzer.ReportDialog";
+			this.Title = global::Mono.Unix.Catalog.GetString ("ReportWindowTitle");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(4));
+			this.DefaultWidth = 600;
+			this.DefaultHeight = 400;
 			// Internal child MASGAU.Analyzer.ReportDialog.VBox
 			global::Gtk.VBox w1 = this.VBox;
 			w1.Name = "dialog1_VBox";
@@ -38,7 +41,7 @@ namespace MASGAU.Analyzer
 			// Container child dialog1_VBox.Gtk.Box+BoxChild
 			this.disclaimerLabel = new global::Gtk.Label ();
 			this.disclaimerLabel.Name = "disclaimerLabel";
-			this.disclaimerLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("label1");
+			this.disclaimerLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("AnalyzerDisclaimer");
 			this.disclaimerLabel.Wrap = true;
 			w1.Add (this.disclaimerLabel);
 			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(w1 [this.disclaimerLabel]));
@@ -56,13 +59,27 @@ namespace MASGAU.Analyzer
 			this.saveButton.CanDefault = true;
 			this.saveButton.CanFocus = true;
 			this.saveButton.Name = "saveButton";
-			this.saveButton.UseStock = true;
 			this.saveButton.UseUnderline = true;
-			this.saveButton.Label = "gtk-save";
-			this.AddActionWidget (this.saveButton, 0);
-			global::Gtk.ButtonBox.ButtonBoxChild w6 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w5 [this.saveButton]));
-			w6.Expand = false;
-			w6.Fill = false;
+			// Container child saveButton.Gtk.Container+ContainerChild
+			global::Gtk.Alignment w6 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+			// Container child GtkAlignment.Gtk.Container+ContainerChild
+			global::Gtk.HBox w7 = new global::Gtk.HBox ();
+			w7.Spacing = 2;
+			// Container child GtkHBox.Gtk.Container+ContainerChild
+			global::Gtk.Image w8 = new global::Gtk.Image ();
+			w8.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-save", global::Gtk.IconSize.Menu);
+			w7.Add (w8);
+			// Container child GtkHBox.Gtk.Container+ContainerChild
+			global::Gtk.Label w10 = new global::Gtk.Label ();
+			w10.LabelProp = global::Mono.Unix.Catalog.GetString ("SaveButton");
+			w10.UseUnderline = true;
+			w7.Add (w10);
+			w6.Add (w7);
+			this.saveButton.Add (w6);
+			w5.Add (this.saveButton);
+			global::Gtk.ButtonBox.ButtonBoxChild w14 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w5 [this.saveButton]));
+			w14.Expand = false;
+			w14.Fill = false;
 			// Container child dialog1_ActionArea.Gtk.ButtonBox+ButtonBoxChild
 			this.uploadButton = new global::Gtk.Button ();
 			this.uploadButton.Sensitive = false;
@@ -71,43 +88,55 @@ namespace MASGAU.Analyzer
 			this.uploadButton.Name = "uploadButton";
 			this.uploadButton.UseUnderline = true;
 			// Container child uploadButton.Gtk.Container+ContainerChild
-			global::Gtk.Alignment w7 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+			global::Gtk.Alignment w15 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
-			global::Gtk.HBox w8 = new global::Gtk.HBox ();
-			w8.Spacing = 2;
+			global::Gtk.HBox w16 = new global::Gtk.HBox ();
+			w16.Spacing = 2;
 			// Container child GtkHBox.Gtk.Container+ContainerChild
-			global::Gtk.Image w9 = new global::Gtk.Image ();
-			w9.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-go-up", global::Gtk.IconSize.Menu);
-			w8.Add (w9);
+			global::Gtk.Image w17 = new global::Gtk.Image ();
+			w17.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-go-up", global::Gtk.IconSize.Menu);
+			w16.Add (w17);
 			// Container child GtkHBox.Gtk.Container+ContainerChild
-			global::Gtk.Label w11 = new global::Gtk.Label ();
-			w11.LabelProp = global::Mono.Unix.Catalog.GetString ("_Upload");
-			w11.UseUnderline = true;
-			w8.Add (w11);
-			w7.Add (w8);
-			this.uploadButton.Add (w7);
-			this.AddActionWidget (this.uploadButton, -5);
-			global::Gtk.ButtonBox.ButtonBoxChild w15 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w5 [this.uploadButton]));
-			w15.Position = 1;
-			w15.Expand = false;
-			w15.Fill = false;
+			global::Gtk.Label w19 = new global::Gtk.Label ();
+			w19.LabelProp = global::Mono.Unix.Catalog.GetString ("UploadButton");
+			w19.UseUnderline = true;
+			w16.Add (w19);
+			w15.Add (w16);
+			this.uploadButton.Add (w15);
+			w5.Add (this.uploadButton);
+			global::Gtk.ButtonBox.ButtonBoxChild w23 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w5 [this.uploadButton]));
+			w23.Position = 1;
+			w23.Expand = false;
+			w23.Fill = false;
 			// Container child dialog1_ActionArea.Gtk.ButtonBox+ButtonBoxChild
 			this.closebutton = new global::Gtk.Button ();
 			this.closebutton.CanFocus = true;
 			this.closebutton.Name = "closebutton";
-			this.closebutton.UseStock = true;
 			this.closebutton.UseUnderline = true;
-			this.closebutton.Label = "gtk-close";
+			// Container child closebutton.Gtk.Container+ContainerChild
+			global::Gtk.Alignment w24 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+			// Container child GtkAlignment.Gtk.Container+ContainerChild
+			global::Gtk.HBox w25 = new global::Gtk.HBox ();
+			w25.Spacing = 2;
+			// Container child GtkHBox.Gtk.Container+ContainerChild
+			global::Gtk.Image w26 = new global::Gtk.Image ();
+			w26.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-close", global::Gtk.IconSize.Menu);
+			w25.Add (w26);
+			// Container child GtkHBox.Gtk.Container+ContainerChild
+			global::Gtk.Label w28 = new global::Gtk.Label ();
+			w28.LabelProp = global::Mono.Unix.Catalog.GetString ("CloseButton");
+			w28.UseUnderline = true;
+			w25.Add (w28);
+			w24.Add (w25);
+			this.closebutton.Add (w24);
 			this.AddActionWidget (this.closebutton, -7);
-			global::Gtk.ButtonBox.ButtonBoxChild w16 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w5 [this.closebutton]));
-			w16.Position = 2;
-			w16.Expand = false;
-			w16.Fill = false;
+			global::Gtk.ButtonBox.ButtonBoxChild w32 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w5 [this.closebutton]));
+			w32.Position = 2;
+			w32.Expand = false;
+			w32.Fill = false;
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.DefaultWidth = 399;
-			this.DefaultHeight = 310;
 			this.Show ();
 			this.saveButton.Clicked += new global::System.EventHandler (this.OnSaveButtonClicked);
 			this.uploadButton.Clicked += new global::System.EventHandler (this.OnUploadButtonClicked);

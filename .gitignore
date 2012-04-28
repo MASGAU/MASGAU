@@ -6,7 +6,9 @@ obj/
 *.pidb
 
 # Mac files 
+._*
 .DS_Store
+._*
 
 # Installer output #
 Installer/Output

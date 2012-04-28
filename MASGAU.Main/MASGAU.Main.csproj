@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContributorListItem.cs" />
     <Compile Include="CustomGameHandler.cs" />
     <Compile Include="CustomGamesHandler.cs" />
     <Compile Include="GameListItem.cs" />

@@ -89,9 +89,13 @@
       <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
       <Name>Translations</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Linux\MASGAU.Linux.csproj">
+    <ProjectReference Include="..\MASGAU.Mono\MASGAU.Mono.csproj">
       <Project>{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}</Project>
-      <Name>MASGAU.Linux</Name>
+      <Name>MASGAU.Mono</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}</Project>
+      <Name>Data</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

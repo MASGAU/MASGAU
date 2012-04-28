@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
+  <!--This file contains PSP (PlayStation Portable) games-->
+  <game name="BraveStoryNewTraveler" platform="PSP" region="USA">
+    <title>Brave Story: New Traveler</title>
+    <ps_code prefix="ULUS" suffix="10279"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="CrisisCoreFinalFantasy7" platform="PSP" region="USA">
+    <title>Crisis Core: Final Fantasy VII</title>
+    <ps_code prefix="ULUS" suffix="10336"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Daxter" platform="PSP" region="USA">
+    <title>Daxter</title>
+    <ps_code prefix="UCUS" suffix="98618"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="DissidiaFinalFantasy" platform="PSP" region="USA">
+    <title>Dissidia: Final Fantasy</title>
+    <ps_code prefix="ULUS" suffix="10437"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Echochrome" platform="PSP" region="USA">
+    <title>Echochrome</title>
+    <ps_code prefix="NPUG" suffix="80135"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="FinalFantasy" platform="PSP" region="USA">
+    <title>Final Fantasy</title>
+    <ps_code prefix="ULUS" suffix="10251"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="FinalFantasy2" platform="PSP" region="USA">
+    <title>Final Fantasy II</title>
+    <ps_code prefix="ULUS" suffix="10263"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="FinalFantasyTacticsWarOfTheLions" platform="PSP" region="USA">
+    <title>Final Fantasy Tactics: War of the Lions</title>
+    <ps_code prefix="ULUS" suffix="10297"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="GodOfWarChainsOfOlympus" platform="PSP" region="USA">
+    <title>God of War: Chains of Olympus</title>
+    <ps_code prefix="UCUS" suffix="98653"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="GrandTheftAutoChinatownWars" platform="PSP" region="EUR">
+    <title>Grand Theft Auto: Chinatown Wars</title>
+    <ps_code prefix="ULES" suffix="01347"/>
+    <contributor>duncans_pumpkin</contributor>
+  </game>
+  <game name="GrandTheftAutoLibertyCityStories" platform="PSP" region="EUR">
+    <title>Grand Theft Auto: Liberty City Stories</title>
+    <ps_code prefix="ULES" suffix="00151"/>
+    <contributor>duncans_pumpkin</contributor>
+  </game>
+  <game name="GrandTheftAutoViceCityStories" platform="PSP" region="USA">
+    <title>Grand Theft Auto: Vice City Stories</title>
+    <ps_code prefix="ULUS" suffix="10160"/>
+    <contributor>duncans_pumpkin</contributor>
+  </game>
+  <game name="JeanneDArc" platform="PSP" region="USA">
+    <title>Jeanne D'Arc</title>
+    <ps_code prefix="UCUS" suffix="98700"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Lumines" platform="PSP" region="EUR">
+    <title>Lumines</title>
+    <ps_code prefix="ULES" suffix="00043"/>
+    <contributor>duncans_pumpkin</contributor>
+  </game>
+  <game name="MetalGearAcid" platform="PSP" region="USA">
+    <title>Metal Gear Ac!d</title>
+    <ps_code prefix="ULUS" suffix="10006"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="MetalGearAcid" platform="PSP" region="EUR">
+    <title>Metal Gear Ac!d</title>
+    <ps_code prefix="ULES" suffix="00008"/>
+    <contributor>duncans_pumpkin</contributor>
+  </game>
+  <game name="MetalGearAcid2" platform="PSP" region="EUR">
+    <title>Metal Gear Ac!d 2</title>
+    <ps_code prefix="ULES" suffix="00284"/>
+    <contributor>duncans_pumpkin</contributor>
+  </game>
+  <game name="MetalGearSolidPortableOps" platform="PSP" region="USA">
+    <title>Metal Gear Solid: Portable Ops</title>
+    <ps_code prefix="ULUS" suffix="10202"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="NoGravity" platform="PSP" region="USA">
+    <title>No Gravity</title>
+    <ps_code prefix="NPUH" suffix="10007"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Patapon" platform="PSP" region="USA">
+    <title>Patapon</title>
+    <ps_code prefix="UCUS" suffix="98711"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="RatchetClankSizeMatters" platform="PSP" region="USA">
+    <title>Ratchet &amp; Clank: Size Matters</title>
+    <ps_code prefix="UCUS" suffix="98633"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SilentHill0rigins" platform="PSP" region="USA">
+    <title>Silent Hill: 0rigins</title>
+    <ps_code prefix="ULUS" suffix="10285"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="StarOceanFirstDeparture" platform="PSP" region="USA">
+    <title>Star Ocean: First Departure</title>
+    <ps_code prefix="ULUS" suffix="10374"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SuperStardustPortable" platform="PSP" region="USA">
+    <title>Super Stardust Portable</title>
+    <ps_code prefix="NPUG" suffix="80221"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="TombRaiderLegend" platform="PSP" region="EUR">
+    <title>Tomb Raider: Legend</title>
+    <ps_code prefix="ULES" suffix="00283"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="WipeoutPure" platform="PSP" region="EUR">
+    <title>Wipeout Pure</title>
+    <ps_code prefix="UCES" suffix="00001"/>
+    <contributor>duncans_pumpkin</contributor>
+  </game>
+</games>

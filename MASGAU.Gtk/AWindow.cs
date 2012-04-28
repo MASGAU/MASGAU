@@ -10,7 +10,7 @@ using MASGAU.Communication.Request;
 using MASGAU.Communication.Progress;
 using Translations;
 
-namespace MASGAU
+namespace MASGAU.Gtk
 {
 	public abstract class AWindow: global::Gtk.Window, ICommunicationReceiver
 	{
