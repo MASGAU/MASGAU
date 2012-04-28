@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
+  <!--Contains profiles for backing up system-related files-->
+  <game name="G4WAccountData" platform="Windows">
+    <title>Games for Windows Account Data</title>
+    <location_path environment_variable="localappdata" path="Microsoft\XLive\Content"/>
+    <save/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="MASGAUCustomXML">
+    <title>MASGAU Custom XML</title>
+    <location_path environment_variable="installlocation" path="MASGAU"/>
+    <location_registry root="local_machine" key="SOFTWARE\MASGAU" value="InstallPath"/>
+    <identifier filename="custom.xml"/>
+    <save filename="custom.xml"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="RaptrData" platform="Windows">
+    <title>Raptr Data</title>
+    <location_path environment_variable="appdata" path="Raptr"/>
+    <save path="data"/>
+    <save path="Unknown"/>
+    <save filename="raptr*"/>
+    <ignore filename="*.exe"/>
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="RGSC" platform="Windows">
+    <title>Rockstar Games Social Club</title>
+    <location_path environment_variable="localappdata" path="Rockstar Games\RGSC"/>
+    <save/>
+    <contributor>AvvA</contributor>
+  </game>
+  <game name="Tomboy">
+    <title>Tomboy</title>
+    <location_path environment_variable="appdata" path="Tomboy"/>
+    <save path="notes"/>
+    <save path="config" type="Settings"/>
+  </game>
+  <game name="UPlayData" platform="Windows">
+    <title>UPlay Data</title>
+    <location_path environment_variable="installlocation" path="Ubisoft\Ubisoft Game Launcher"/>
+    <location_registry root="local_machine" key="SOFTWARE\UbiSoft\Launcher" value="InstallDir"/>
+    <save path="storage"/>
+    <ignore path="storage\temp"/>
+    <contributor>Arc Angel</contributor>
+  </game>
+</games>

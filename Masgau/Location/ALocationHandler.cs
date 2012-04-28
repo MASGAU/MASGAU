@@ -103,7 +103,23 @@ namespace MASGAU.Location
         protected virtual List<DetectedLocationPathHolder> getPaths(PlayStationID get_me) {
             return new List<DetectedLocationPathHolder>();
         }
-		
+
+        public List<string> getPaths(EnvironmentVariable for_me)
+        {
+            List<string> return_me = new List<string>();
+
+            if(global.hasFolderFor(for_me)) {
+                return_me.Add(global.getFolder(for_me));
+            }
+            foreach (UserData user in this)
+            {
+                if (user.hasFolderFor(for_me))
+                    return_me.Add(user.getFolder(for_me));
+            }
+            
+            return return_me;
+        }
+
 		// Return a list of users associated with the specified environment variable
 		public List<string> getUsers(EnvironmentVariable for_me) {
             List<string> return_me = new List<string>();

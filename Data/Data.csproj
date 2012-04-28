@@ -54,6 +54,7 @@
     <Content Include="Data\dos.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\expansions.xml" />
     <Content Include="Data\flash.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -71,6 +72,7 @@
     </Content>
     <Content Include="Data\ps3.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Data\psp.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-03-12T08:48:46">
+  <!--This file contains games that are based on Flash-->
+  <game name="CodenameGordon" platform="Flash">
+    <title>Codename: Gordon</title>
+    <location_path environment_variable="appdata" path="Macromedia\Flash Player\localhost"/>
+    <save filename="hl2d_settings.sol" type="Settings"/>
+    <contributor>AvvA</contributor>
+  </game>
+  <game name="Machinarium" platform="Flash">
+    <title>Machinarium</title>
+    <location_path environment_variable="flashshared" path="localhost\steam\steamapps\common\machinarium"/>
+    <location_path environment_variable="flashshared" path="localhost\program files\steam\steamapps\common\machinarium"/>
+    <save/>
+    <contributor>AvvA</contributor>
+  </game>
+  <game name="VVVVVV" platform="Flash">
+    <title>VVVVVV</title>
+    <location_path environment_variable="flashshared" path="localhost\steam\steamapps\common\VVVVVV"/>
+    <save/>
+    <contributor>AvvA</contributor>
+  </game>
+</games>
