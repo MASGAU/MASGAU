@@ -44,4 +44,10 @@
     <ignore path="storage\temp"/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="XfireData" platform="Windows">
+    <title>Xfire Data</title>
+    <location_path environment_variable="allusersprofile" path="Xfire"/>
+    <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
 </games>

@@ -358,7 +358,7 @@
     <save path="SaveGames"/>
     <contributor>David Barbour</contributor>
   </game>
-  <game name="BackToTheFutureEpisode1ItfutTime" platform="Windows">
+  <game name="BackToTheFutureEpisode1ItsAboutTime" platform="Windows">
     <title>Back to the Future: Episode 1: It's About Time</title>
     <location_path environment_variable="userdocuments" path="Telltale Games\Episode 1"/>
     <save/>
@@ -962,13 +962,6 @@
     <save/>
     <contributor>Håvard Krüger</contributor>
   </game>
-  <game name="CommandAndConquerGeneralsZeroHour" platform="Windows">
-    <title>Command &amp; Conquer: Generals - Zero Hour</title>
-    <location_path environment_variable="userdocuments" path="Command and Conquer Generals Zero Hour Data"/>
-    <save path="Save"/>
-    <save filename="SkirmishStats.ini" type="Statistics"/>
-    <contributor>duncans_pumpkin</contributor>
-  </game>
   <game name="CommandAndConquerRedAlert3" platform="Windows">
     <title>Command &amp; Conquer: Red Alert 3</title>
     <location_path environment_variable="savedgames" path="Red Alert 3" platform_version="Vista"/>
@@ -1351,14 +1344,6 @@
     <location_registry root="local_machine" key="SOFTWARE\Blizzard Entertainment\Diablo II" value="InstallPath"/>
     <save path="save"/>
     <contributor>SanMadJack</contributor>
-  </game>
-  <game name="DiabloHellfire" platform="Windows">
-    <title>Diablo: Hellfire</title>
-    <location_path environment_variable="installlocation" path="SIERRA\HELLFIRE"/>
-    <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HELLFIRE" value="Directory"/>
-    <location_shortcut environment_variable="startmenu" path="Programs\Sierra\Hellfire.lnk"/>
-    <save filename="*.hsv"/>
-    <contributor>Mark Barbour</contributor>
   </game>
   <game name="DiRT" platform="Windows">
     <title>DiRT</title>
@@ -1745,12 +1730,6 @@
     <save filename="*.fsav"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="Fahrenheit" platform="Windows">
-    <title>Fahrenheit</title>
-    <location_path environment_variable="userdocuments" path="atari\Fahrenheit Profile"/>
-    <save/>
-    <contributor>slake_jones</contributor>
-  </game>
   <game name="Fallout" platform="Windows">
     <title>Fallout</title>
     <location_path environment_variable="installlocation" path="Interplay\Fallout"/>
@@ -1818,11 +1797,11 @@
     <contributor>Arc Angel</contributor>
     <contributor>AvvA</contributor>
   </game>
-  <game name="Farenheit" platform="Windows">
-    <title>Farenheit</title>
+  <game name="Fahrenheit" platform="Windows">
+    <title>Fahrenheit</title>
     <location_path environment_variable="userdocuments" path="atari\Fahrenheit Profile"/>
     <save/>
-    <contributor>SanMadJack</contributor>
+    <contributor>slake_jones</contributor>
   </game>
   <game name="FarmFrenzy" platform="Windows">
     <title>Farm Frenzy</title>
@@ -1997,8 +1976,8 @@
     <save path="Save Games"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="GalacticCivilizations2DarkLords" platform="Windows">
-    <title>Galactic Civilizations II: Dark Lords</title>
+  <game name="GalacticCivilizations2DreadLords" platform="Windows">
+    <title>Galactic Civilizations II: Dread Lords</title>
     <location_path environment_variable="userdocuments" path="My Games\GalCiv2"/>
     <save/>
     <contributor>Mark Barbour</contributor>
@@ -4382,12 +4361,6 @@
     <save/>
     <contributor>AvvA</contributor>
   </game>
-  <game name="StarWarsEmpireAtWarForcesOfCorruption" platform="Windows">
-    <title>Star Wars: Empire at War - Forces of Corruption</title>
-    <location_path environment_variable="savedgames" path="Petroglyph\Empire At War - Forces of Corruption"/>
-    <save/>
-    <contributor>AvvA</contributor>
-  </game>
   <game name="StarWarsJediKnight2JediOutcast" platform="Windows">
     <title>Star Wars: Jedi Knight II: Jedi Outcast</title>
     <location_path environment_variable="steamcommon" path="jedi outcast"/>
@@ -4408,12 +4381,6 @@
     <location_path environment_variable="steamcommon" path="jedi academy"/>
     <save path="GameData\base\saves"/>
     <contributor>duncans_pumpkin</contributor>
-  </game>
-  <game name="StarWarsJediKnightMysteriesOfTheSith" platform="Windows">
-    <title>Star Wars: Jedi Knight: Mysteries of the Sith</title>
-    <location_path environment_variable="steamcommon" path="jedi knight mysteries of the sith"/>
-    <save path="player"/>
-    <contributor>SanMadJack</contributor>
   </game>
   <game name="StarWarsKnightsOfTheOldRepublic" platform="Windows">
     <title>Star Wars: Knights of the Old Republic</title>
@@ -4737,12 +4704,6 @@
   <game name="TitanQuest" platform="Windows">
     <title>Titan Quest</title>
     <location_path environment_variable="userdocuments" path="My Games\Titan Quest"/>
-    <save/>
-    <contributor>slake_jones</contributor>
-  </game>
-  <game name="TitanQuestImmortalThrone" platform="Windows">
-    <title>Titan Quest: Immortal Throne</title>
-    <location_path environment_variable="userdocuments" path="My Games\Titan Quest - Immortal Throne"/>
     <save/>
     <contributor>slake_jones</contributor>
   </game>
@@ -5256,12 +5217,6 @@
     <location_path environment_variable="installlocation" path="Fox\The X-Files"/>
     <save filename="*.x"/>
     <contributor>SanMadJack</contributor>
-  </game>
-  <game name="XfireData" platform="Windows">
-    <title>Xfire Data</title>
-    <location_path environment_variable="allusersprofile" path="Xfire"/>
-    <save/>
-    <contributor>Arc Angel</contributor>
   </game>
   <game name="XIII" platform="Windows">
     <title>XIII</title>

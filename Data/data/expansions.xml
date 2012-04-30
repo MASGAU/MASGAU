@@ -53,6 +53,13 @@
     <save/>
     <contributor>Paul Taylor</contributor>
   </game>
+  <game name="CommandAndConquerGeneralsZeroHour" platform="Windows">
+    <title>Command &amp; Conquer: Generals - Zero Hour</title>
+    <location_path environment_variable="userdocuments" path="Command and Conquer Generals Zero Hour Data"/>
+    <save path="Save"/>
+    <save filename="SkirmishStats.ini" type="Statistics"/>
+    <contributor>duncans_pumpkin</contributor>
+  </game>
   <game name="CounterStrikeConditionZeroDeletedScenes" platform="Windows">
     <title>Counter-Strike: Condition Zero: Deleted Scenes</title>
     <location_path environment_variable="steamuser" path="condition zero deleted scenes\czeror"/>
@@ -65,6 +72,14 @@
     <location_path environment_variable="steamuserdata" path="201280"/>
     <save/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="DiabloHellfire" platform="Windows">
+    <title>Diablo: Hellfire</title>
+    <location_path environment_variable="installlocation" path="SIERRA\HELLFIRE"/>
+    <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HELLFIRE" value="Directory"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Sierra\Hellfire.lnk"/>
+    <save filename="*.hsv"/>
+    <contributor>Mark Barbour</contributor>
   </game>
   <game name="EmpireEarth2TheArtOfSupremacy" platform="Windows">
     <title>Empire Earth II: The Art of Supremacy</title>
@@ -290,6 +305,18 @@
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="StarWarsEmpireAtWarForcesOfCorruption" platform="Windows">
+    <title>Star Wars: Empire at War - Forces of Corruption</title>
+    <location_path environment_variable="savedgames" path="Petroglyph\Empire At War - Forces of Corruption"/>
+    <save/>
+    <contributor>AvvA</contributor>
+  </game>
+  <game name="StarWarsJediKnightMysteriesOfTheSith" platform="Windows">
+    <title>Star Wars: Jedi Knight: Mysteries of the Sith</title>
+    <location_path environment_variable="steamcommon" path="jedi knight mysteries of the sith"/>
+    <save path="player"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="TombRaiderUnfinishedBusiness" platform="DOS">
     <title>Tomb Raider: Unfinished Business</title>
     <location_game name="TombRaider" platform="DOS"/>
@@ -303,6 +330,12 @@
     <location_shortcut environment_variable="startmenu" path="Programs\Thief Gold\Thief.lnk"/>
     <save path="SAVES"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="TitanQuestImmortalThrone" platform="Windows">
+    <title>Titan Quest: Immortal Throne</title>
+    <location_path environment_variable="userdocuments" path="My Games\Titan Quest - Immortal Throne"/>
+    <save/>
+    <contributor>slake_jones</contributor>
   </game>
   <game name="TombRaider2TheGoldenMask" platform="Windows">
     <title>Tomb Raider II: The Golden Mask</title>
