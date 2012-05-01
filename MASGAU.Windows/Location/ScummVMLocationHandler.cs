@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using MASGAU.Location.Holders;
 namespace MASGAU.Location
 {
     public class ScummVMLocationHandler: AScummVMLocationHandler
@@ -25,5 +26,57 @@ namespace MASGAU.Location
             }
             return files;
         }
+
+        protected override string findInstallPath()
+        {
+            Registry.RegistryHandler reg = new Registry.RegistryHandler( Registry.RegRoot.local_machine,@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\ScummVM_is1",false);
+            if (reg.key_found && reg.hasValue("InstallLocation")&&
+                File.Exists(Path.Combine(reg.getValue("InstallLocation"),"scummvm.exe")))
+            {
+                return reg.getValue("InstallLocation");
+            } else {
+                string file_path = Path.Combine("ScummVM","scummvm.exe");
+                if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), file_path)))
+                {
+                    return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "ScummVM");
+                }
+                else if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), file_path)))
+                {
+                    return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), "ScummVM");
+                }
+            }
+            return null;
+        }
+
+        protected override List<DetectedLocationPathHolder> getPaths(LocationScummVMHolder get_me)
+        {
+            List <DetectedLocationPathHolder>  locs = base.getPaths(get_me);
+
+            if (install_path != null)
+            {
+                LocationPathHolder loc = SystemLocationHandler.translateToVirtualStore(install_path);
+                List<DetectedLocationPathHolder> vlocs = Core.locations.getPaths(loc);
+
+                for (int i = 0; i < vlocs.Count; i++)
+                {
+
+                    if (!filterLocation(vlocs[i], get_me, vlocs[i].owner))
+                    {
+                        locs.RemoveAt(i);
+                        i--;
+                    }
+
+                }
+
+
+                locs.AddRange(locs);
+            }
+            
+
+
+            return locs;
+        }
+
+
     }
 }

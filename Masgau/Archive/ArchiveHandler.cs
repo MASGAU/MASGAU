@@ -19,7 +19,7 @@ namespace MASGAU.Archive
     public class ArchiveHandler: AModelItem<ArchiveID>
     {
         #region Archive identification stuff
-
+        private string original_path = null;
         public string title {
             get {
                 GameHandler game = Core.games.all_games.get(this.id.game);
@@ -168,6 +168,9 @@ namespace MASGAU.Archive
                 while (load_me.Read()) {
     			    if(load_me.NodeType==XmlNodeType.Element) {
 				        switch (load_me.Name) {
+                            case "original_path":
+                                this.original_path = load_me.ReadInnerXml();
+                                break;
                             case "game":
                                 while(load_me.MoveToNextAttribute()) {
                                     switch(load_me.Name) {
@@ -258,9 +261,11 @@ namespace MASGAU.Archive
                 attribute = write_me.CreateAttribute("name");
                 attribute.Value = id.game.name;
                 node.SetAttributeNode(attribute);
+
                 attribute = write_me.CreateAttribute("platform");
                 attribute.Value = id.game.platform.ToString();
                 node.SetAttributeNode(attribute);
+
                 if(id.game.region!=null ) {
                     attribute = write_me.CreateAttribute("region");
                     attribute.Value = id.game.region;
@@ -285,6 +290,12 @@ namespace MASGAU.Archive
                     write_me.DocumentElement.InsertAfter(node, write_me.DocumentElement.LastChild);
                 }
 
+                if(this.original_path!=null) {
+                    node = write_me.CreateElement("original_path");
+                    node.InnerText = this.original_path;
+                    write_me.DocumentElement.InsertAfter(node, write_me.DocumentElement.LastChild);
+                }
+                
                 FileStream this_file = new FileStream(Path.Combine(temp_folder,"masgau.xml"), FileMode.Truncate, FileAccess.Write, FileShare.ReadWrite);
 
                 write_me.Save(this_file);

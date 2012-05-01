@@ -7,38 +7,41 @@ using System.Text.RegularExpressions;
 using MASGAU.Collections;
 namespace MASGAU
 {
-    class IniFileHandler
+    class IniFileHandler:  TwoKeyDictionary<String,String,String> 
     {
-        private TwoKeyDictionary<String,String,String> values = new TwoKeyDictionary<String,String,String>();
 
         public String getValue(String section, String value) {
             try {
-                return values.Get(section, value);
+                return this.Get(section, value);
             } catch (KeyNotFoundException ex) {
                 throw new Exception("Could not find value in INI file",ex);
             }
+
         }
 
         private Regex header_regex = new Regex("^\\[.*\\]");
         private Regex value_regex = new Regex(".*=.*");
 
         public IniFileHandler(FileInfo file) {
-            using (StreamReader sr = new StreamReader(file.FullName)) {
+            using (StreamReader sr = new StreamReader(file.FullName))
+            {
                 String line;
                 String section = null;
-               while ((line = sr.ReadLine()) != null)
+                while ((line = sr.ReadLine()) != null)
                 {
-                   if(header_regex.IsMatch(line)) {
-                       char[] brackets = {'[',']'};
-                       section = line.Trim(brackets);
-                   }
-                   if(value_regex.IsMatch(line)) {
-                       char[] equals = {'='};
-                       string[] pair = line.Split(equals, 2);
-                       values.Add(section,pair[0],pair[1]);
-                   }
+                    if (header_regex.IsMatch(line))
+                    {
+                        char[] brackets = { '[', ']' };
+                        section = line.Trim(brackets);
+                    }
+                    if (value_regex.IsMatch(line))
+                    {
+                        char[] equals = { '=' };
+                        string[] pair = line.Split(equals, 2);
+                        this.Add(section, pair[0], pair[1]);
+                    }
 
-                } 
+                }
             }
         }
     }

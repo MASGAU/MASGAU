@@ -151,7 +151,7 @@ namespace MASGAU.Location
         }
 
         protected static string correctPath(string correct_me) {
-            string[] sections = correct_me.Split(Path.DirectorySeparatorChar);
+            string[] sections = correct_me.TrimEnd(Path.DirectorySeparatorChar).Split(Path.DirectorySeparatorChar);
             DirectoryInfo dir = new DirectoryInfo(sections[0] + Path.DirectorySeparatorChar);
             for(int i = 1;i<sections.Length;i++) {
                 DirectoryInfo[] sub_dir = dir.GetDirectories(sections[i]);
