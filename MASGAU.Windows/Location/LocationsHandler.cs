@@ -18,5 +18,10 @@ namespace MASGAU.Location {
         protected override ASystemLocationHandler setupSystemHandler() {
             return new SystemLocationHandler();
         }
+
+        protected override AScummVMLocationHandler setupScummVMHandler()
+        {
+            return new ScummVMLocationHandler();
+        }
     }
 }

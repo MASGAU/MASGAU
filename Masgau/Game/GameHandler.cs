@@ -327,6 +327,9 @@ namespace MASGAU.Game {
 						detection_required = true;
 						break;
                         // Location loaders
+                    case "location_scummvm":
+                        location = new LocationScummVMHolder(element);
+                        break;
                     case "location_registry":
                         // Blanking out the new registry location
                         LocationRegistryHolder new_registry_location = new LocationRegistryHolder();
