@@ -61,6 +61,7 @@
     <Compile Include="Location\FlashLocationHandler.cs" />
     <Compile Include="Location\LocationsHandler.cs" />
     <Compile Include="Location\PlaystationLocationHandler.cs" />
+    <Compile Include="Location\ScummVMLocationHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Location\SteamLocationHandler.cs" />
     <Compile Include="Location\SystemLocationHandler.cs" />

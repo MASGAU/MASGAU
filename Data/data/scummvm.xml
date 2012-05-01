@@ -6,6 +6,8 @@
     <location_path environment_variable="installlocation" path="GOG.com\Beneath a Steel Sky"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBENEATH" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Beneath a Steel Sky\Beneath a Steel Sky.lnk" detract="ScummVM"/>
+    <location_scummvm name="sky" />
+    <identifier filename="SKY-VM.*"/>
     <save filename="SKY-VM.*"/>
     <contributor>SanMadJack</contributor>
   </game>
