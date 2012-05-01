@@ -48,7 +48,7 @@ namespace MASGAU.Location
             return null;
         }
 
-        protected override List<DetectedLocationPathHolder> getPaths(LocationScummVMHolder get_me)
+        protected override List<DetectedLocationPathHolder> getPaths(ScummVMName get_me)
         {
             List <DetectedLocationPathHolder>  locs = base.getPaths(get_me);
 

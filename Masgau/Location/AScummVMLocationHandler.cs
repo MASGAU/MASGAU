@@ -47,7 +47,7 @@ namespace MASGAU.Location
             install_path = findInstallPath();
         }
 
-        protected override List<DetectedLocationPathHolder> getPaths(LocationScummVMHolder get_me)
+        protected override List<DetectedLocationPathHolder> getPaths(ScummVMName get_me)
         {
 
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
@@ -71,7 +71,7 @@ namespace MASGAU.Location
             return return_me;
         }
 
-        protected List<DetectedLocationPathHolder> loadLocations(String path, LocationScummVMHolder scumm, string user)
+        protected List<DetectedLocationPathHolder> loadLocations(String path, ScummVMName scumm, string user)
         {
             List<DetectedLocationPathHolder> locs = Core.locations.interpretPath(path);
 
@@ -80,7 +80,7 @@ namespace MASGAU.Location
             return locs;
         }
 
-        protected List<DetectedLocationPathHolder> filterLocations(List<DetectedLocationPathHolder> locs, LocationScummVMHolder scumm, string user)
+        protected List<DetectedLocationPathHolder> filterLocations(List<DetectedLocationPathHolder> locs, ScummVMName scumm, string user)
         {
             for (int i = 0; i < locs.Count; i++)
             {
@@ -96,7 +96,7 @@ namespace MASGAU.Location
             return locs;
         }
 
-        protected bool filterLocation(DetectedLocationPathHolder loc, LocationScummVMHolder scumm, string user) {
+        protected bool filterLocation(DetectedLocationPathHolder loc, ScummVMName scumm, string user) {
                 DirectoryInfo dir = new DirectoryInfo(loc.full_dir_path);
                 string pattern = scumm.name + "*";
                 if(dir.GetFiles(pattern).Length > 0)

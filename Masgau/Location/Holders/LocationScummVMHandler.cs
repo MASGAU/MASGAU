@@ -6,11 +6,11 @@ using System.Xml;
 
 namespace MASGAU.Location.Holders
 {
-    public class LocationScummVMHolder: ALocationHolder
+    public class ScummVMName: ALocationHolder
     {
 
         public String name { get; protected set; }
-        public LocationScummVMHolder(XmlElement element) {
+        public ScummVMName(XmlElement element) {
             name = element.GetAttribute("name");
         }
     }
