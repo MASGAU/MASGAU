@@ -86,7 +86,7 @@ namespace MASGAU.Analyzer
         public string output { get; protected set; }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            analyzer.runAnalyzer(backgroundWorker1_RunWorkerCompleted,game_name, game_path, save_path);
+            analyzer.runAnalyzer(backgroundWorker1_RunWorkerCompleted);
         }
 
         #endregion
