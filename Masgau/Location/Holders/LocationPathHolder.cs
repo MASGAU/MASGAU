@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
-
+using System.Xml;
 namespace MASGAU.Location.Holders {
     public class LocationPathHolder : ALocationHolder {
         // Used when dealing with a path
@@ -13,8 +13,13 @@ namespace MASGAU.Location.Holders {
         // Holds only the relative path from the root
         public string path;
 
-        public LocationPathHolder()
-        { }
+        public LocationPathHolder() : base() { }
+
+        public LocationPathHolder(XmlElement element): base(element)
+        {
+            this.rel_root = parseEnvironmentVariable(element.GetAttribute("environment_variable"));
+            this.path = element.GetAttribute("path");        
+        }
 
         public LocationPathHolder(LocationPathHolder copy_me)
             : base(copy_me) {

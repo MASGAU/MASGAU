@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using System.Xml;
 using MASGAU.Location.Holders;
 
 namespace MASGAU.Location
@@ -56,6 +57,8 @@ namespace MASGAU.Location
                 return getPaths(get_me as LocationRegistryHolder);
             } else if(check.Equals(typeof(LocationShortcutHolder))) {
                 return getPaths(get_me as LocationShortcutHolder);
+            } else if(check.Equals(typeof(ScummVMName))) {
+                return getPaths(get_me as ScummVMName);
             } else if(check.Equals(typeof(PlayStationID))||
                 check.Equals(typeof(PlayStation1ID))||
                 check.Equals(typeof(PlayStation2ID))||
@@ -104,6 +107,9 @@ namespace MASGAU.Location
             return new List<DetectedLocationPathHolder>();
         }
 
+        protected virtual List<DetectedLocationPathHolder> getPaths(ScummVMName get_me) {
+            return new List<DetectedLocationPathHolder>();
+        }
         public List<string> getPaths(EnvironmentVariable for_me)
         {
             List<string> return_me = new List<string>();

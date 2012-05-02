@@ -12,6 +12,10 @@ namespace MASGAU.Location
     public abstract class ALocationsHandler: ILocationsHandler 
     {
         
+        public ALocationHandler getHandler(HandlerType type) {
+            return handlers[type];
+        }
+
         public string getFolder(EnvironmentVariable ev, string path){
             LocationPathHolder parse_me = new LocationPathHolder();
             parse_me.path = path;
@@ -42,11 +46,16 @@ namespace MASGAU.Location
             ProgressHandler.progress_message = "Detecting PlayStation Paths...";
             APlaystationLocationHandler playstation_handler = this.setupPlaystationHandler();
             handlers.Add(HandlerType.PlayStation, playstation_handler);
+
+            ProgressHandler.progress_message = "Detecting ScummVM Paths...";
+            AScummVMLocationHandler scummvm_handler = this.setupScummVMHandler();
+            handlers.Add(HandlerType.ScummVM, scummvm_handler);
         }
 
         protected abstract APlaystationLocationHandler setupPlaystationHandler();
         protected abstract ASteamLocationHandler setupSteamHandler();
         protected abstract ASystemLocationHandler setupSystemHandler();
+        protected abstract AScummVMLocationHandler setupScummVMHandler();
 
         protected void addNewHandler(ALocationHandler handler) {
             handlers.Add(handler.type, handler);
@@ -142,7 +151,7 @@ namespace MASGAU.Location
         }
 
         protected static string correctPath(string correct_me) {
-            string[] sections = correct_me.Split(Path.DirectorySeparatorChar);
+            string[] sections = correct_me.TrimEnd(Path.DirectorySeparatorChar).Split(Path.DirectorySeparatorChar);
             DirectoryInfo dir = new DirectoryInfo(sections[0] + Path.DirectorySeparatorChar);
             for(int i = 1;i<sections.Length;i++) {
                 DirectoryInfo[] sub_dir = dir.GetDirectories(sections[i]);

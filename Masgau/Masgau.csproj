@@ -64,6 +64,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Collections\DictionaryList.cs" />
+    <Compile Include="Collections\TwoKeyDictionary.cs" />
     <Compile Include="Communication\CommunicationHandler.cs" />
     <Compile Include="Communication\ICommunicationReceiver.cs" />
     <Compile Include="Communication\Interface\InterfaceHandler.cs" />
@@ -82,6 +83,9 @@
     <Compile Include="Comparers\FileInfoComparer.cs" />
     <Compile Include="Comparers\ReversableComparer.cs" />
     <Compile Include="Config\ConfigFileHandler.cs" />
+    <Compile Include="IniFileHandler.cs" />
+    <Compile Include="Location\AScummVMLocationHandler.cs" />
+    <Compile Include="Location\Holders\LocationScummVMHandler.cs" />
     <Compile Include="SubmitHandler.cs">
       <SubType>Component</SubType>
     </Compile>

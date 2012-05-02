@@ -196,6 +196,12 @@
     </xs:complexType>
   </xs:element>
 
+  <xs:element name="location_scummvm">
+    <xs:complexType>
+      <xs:attribute ref="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
   <xs:element name="location_game">
     <xs:complexType>
       <xs:attribute ref="name" use="required"/>
@@ -254,6 +260,7 @@
               <xs:element ref="location_shortcut" minOccurs="1" maxOccurs="unbounded" />
               <xs:element ref="location_game" minOccurs="1" maxOccurs="unbounded" />
               <xs:element ref="location_path" minOccurs="1" maxOccurs="unbounded" />
+              <xs:element ref="location_scummvm" minOccurs="1" maxOccurs="unbounded" />
             </xs:choice>
             <xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded"/>
             <xs:choice minOccurs="1" maxOccurs="unbounded">
