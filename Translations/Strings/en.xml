@@ -109,6 +109,11 @@
   <string name="BackupContextBackupNoGames">Back Nothing Up</string>
   <string name="BackupContextPurge">Purge</string>
   <string name="BackupContextEnableBackup">Enable Backup</string>
+
+  <!-- Manual Archive -->
+  <string name="ManualArchiveTitle">Create Custom Archive</string>
+  <string name="ManualArchiveSource">Where Do You Want To Get Saves From?</string>
+  <string name="ManualArchiveFiles">Which Files Will Go Into The Backup?</string>
   
   <!-- Restore tab -->
   <string name="ArchiveListHeader">Double-click a backup to restore it</string>
