@@ -16,11 +16,11 @@ namespace MASGAU.Analyzer {
         }
 
         protected override void HandleAnalyzerDoWork(object sender, DoWorkEventArgs e) {
-            ProgressHandler.progress_max += 3;
+            ProgressHandler.max += 3;
             if (gamePath != null)
             {
                 try {
-                    ProgressHandler.progress++;
+                    ProgressHandler.value++;
                     searchRegistry();
                 }
                 catch (Exception ex) {
@@ -29,7 +29,7 @@ namespace MASGAU.Analyzer {
                 }
 
                 try {
-                    ProgressHandler.progress++;
+                    ProgressHandler.value++;
                     searchStartMenu();
                 }
                 catch (Exception ex) {
@@ -43,7 +43,7 @@ namespace MASGAU.Analyzer {
         protected override void parseInstallFolder() {
             base.parseInstallFolder();
             
-            ProgressHandler.progress_message = Strings.get("DumpingVirtualStoreFolder");
+            ProgressHandler.message = Strings.get("DumpingVirtualStoreFolder");
             if (Core.locations.uac_enabled) {
                 output.AppendLine(Environment.NewLine + "UAC Enabled" + Environment.NewLine);
                 output.AppendLine(Environment.NewLine + "VirtualStore Folders: ");
@@ -75,7 +75,7 @@ namespace MASGAU.Analyzer {
             if (analyzer.CancellationPending)
                 return;
 
-            ProgressHandler.progress_message = Strings.get("ScanningLocalMachineRegistry");
+            ProgressHandler.message = Strings.get("ScanningLocalMachineRegistry");
             output.AppendLine("Local Machine Registry Entries: ");
             RegistryKey look_here = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE");
             registryTraveller(look_here);
@@ -83,8 +83,8 @@ namespace MASGAU.Analyzer {
             if (analyzer.CancellationPending)
                 return;
             output.AppendLine("Current User Registry Entries: ");
-            ProgressHandler.progress++;
-            ProgressHandler.progress_message = Strings.get("ScanningCurrentUserRegistry");
+            ProgressHandler.value++;
+            ProgressHandler.message = Strings.get("ScanningCurrentUserRegistry");
             look_here = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("Software");
             registryTraveller(look_here);
         }
@@ -128,7 +128,7 @@ namespace MASGAU.Analyzer {
 
             if (analyzer.CancellationPending)
                 return;
-            ProgressHandler.progress_message = Strings.get("ScanningStartMenu");
+            ProgressHandler.message = Strings.get("ScanningStartMenu");
             output.AppendLine(Environment.NewLine + "Detected Start Menu Shortcuts: ");
 
             string start_menu = Environment.GetFolderPath(Environment.SpecialFolder.StartMenu);

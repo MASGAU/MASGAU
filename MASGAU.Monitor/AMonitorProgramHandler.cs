@@ -106,11 +106,11 @@ namespace MASGAU.Monitor
                 }
             }
 
-            ProgressHandler.progress_message = "MASGAU Monitor Is Detecting Save Paths...";
+            ProgressHandler.message = "MASGAU Monitor Is Detecting Save Paths...";
 
             Core.games.detectGames();
 
-            ProgressHandler.progress_message = "MASGAU Monitor Is Detecting Save Paths...";
+            ProgressHandler.message = "MASGAU Monitor Is Detecting Save Paths...";
 
 		    lock(watchmen) {
                 foreach(KeyValuePair<string,FileSystemWatcher> dispose_me in watchmen) {
@@ -178,12 +178,12 @@ namespace MASGAU.Monitor
         }
 
         private void synchronize() {
-            ProgressHandler.progress_message = "Synchronizing Saves...";
+            ProgressHandler.message = "Synchronizing Saves...";
             DirectoryInfo dir = new DirectoryInfo(Core.settings.sync_path);
             DirectoryInfo[] dirs = dir.GetDirectories();
             int count = dirs.Length;
-            ProgressHandler.progress_max = Core.games.enabled_games_count + count;
-            ProgressHandler.progress = 0;
+            ProgressHandler.max = Core.games.enabled_games_count + count;
+            ProgressHandler.value = 0;
             foreach (GameHandler game in Core.games)
 			{
                 // Make sure this doesn't pick up PSP paths!
@@ -202,13 +202,13 @@ namespace MASGAU.Monitor
                     continue;
                 }
 
-                ProgressHandler.progress++;
+                ProgressHandler.value++;
                 foreach (DetectedFile save in game.getSaves().Flatten()) {
                     copyFile(save.abs_root, sync.FullName, Path.Combine(save.path, save.name));
                 }
             }
             foreach(DirectoryInfo sync_dir in new DirectoryInfo(Core.settings.sync_path).GetDirectories()) {
-                ProgressHandler.progress++;
+                ProgressHandler.value++;
                 GameHandler game = getGameHandler(sync_dir.FullName);
                 if(game==null||!game.backup_enabled||!sync_paths.ContainsKey(game.id))
                     continue;

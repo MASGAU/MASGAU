@@ -34,7 +34,7 @@ namespace MASGAU.Communication.Message
             return SendError(title,message,null as Exception);
         }
         public static ResponseType SendError(string title, string message, Exception e) {
-            ProgressHandler.progress_state = ProgressState.Error;
+            ProgressHandler.state = ProgressState.Error;
             return SendMessage(title,message,MessageTypes.Error,e);
         }
         public static ResponseType SendWarning(string title, string message, string stack_trace) {
@@ -44,11 +44,11 @@ namespace MASGAU.Communication.Message
                 return SendWarning(title,message);
         }
         public static ResponseType SendWarning(string title, string message) {
-            ProgressHandler.progress_state = ProgressState.Error;
+            ProgressHandler.state = ProgressState.Error;
             return SendMessage(title,message,MessageTypes.Warning,null);
         }
         public static ResponseType SendInfo(string title, string message) {
-            ProgressHandler.progress_state = ProgressState.Wait;
+            ProgressHandler.state = ProgressState.Wait;
             return SendMessage(title,message,MessageTypes.Info,null);
         }
         public static ResponseType SendMessage(string title, string message, MessageTypes type, Exception ex) {
@@ -78,7 +78,7 @@ namespace MASGAU.Communication.Message
 
             waitForResponse(e);
 
-            ProgressHandler.progress_state = ProgressState.Normal;
+            ProgressHandler.state = ProgressState.Normal;
             return e.response;
 
         }

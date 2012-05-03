@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using Translations;
 namespace MASGAU.Communication.Progress
 {
     #region Progress Definitions
@@ -11,75 +12,82 @@ namespace MASGAU.Communication.Progress
 
     public class ProgressHandler: CommunicationHandler
     {
-        private static string _progress_message = null;
-        public static string progress_message {
+        private static string _message = null;
+        public static string message {
             get { 
-                return _progress_message;
+                return _message;
             }
-            set {
-                _progress_message = value;
+            protected set {
+                _message = value;
                 setProgress();
             }
         }
-        private static int _progress = 0;
-        public static int progress {
-            set{
-                _progress = value;
-                _progress_state = ProgressState.Normal;
-                setProgress();
-            }
-            get {
-                return _progress;
-            }
+
+        public static void setTranslatedMessage(string name, params string[] variables)
+        {
+            message = Strings.get(name, variables);
         }
-        private static int _progress_max = 0; 
-        public static int progress_max {
+
+
+        private static int _value = 0;
+        public static int value {
             set{
-                _progress_max = value;
+                _value = value;
+                _state = ProgressState.Normal;
                 setProgress();
             }
             get {
-                return _progress_max;
+                return _value;
             }
         }
-        private static ProgressState _progress_state = ProgressState.Normal;
-        public static ProgressState progress_state {
+        private static int _max = 0; 
+        public static int max {
             set{
-                _progress_state = value;
+                _max = value;
                 setProgress();
             }
             get {
-                return _progress_state;
+                return _max;
             }
         }
-        private static int _sub_progress = 0;
-        public static int sub_progress {
+        private static ProgressState _state = ProgressState.Normal;
+        public static ProgressState state {
             set{
-                _sub_progress = value;
+                _state = value;
+                setProgress();
+            }
+            get {
+                return _state;
+            }
+        }
+        private static int _sub_value = 0;
+        public static int sub_value {
+            set{
+                _sub_value = value;
                 setSubProgress();
             }
             get {
-                return _sub_progress;
+                return _sub_value;
             }
         }
-        private static int _sub_progress_max = 0;
-        public static int sub_progress_max {
+        private static int _sub_max = 0;
+        public static int sub_max {
             set{
-                _sub_progress_max = value;
+                _sub_max = value;
                 setSubProgress();
             }
             get {
-                return _sub_progress_max;
+                return _sub_max;
             }
         }
-        private static ProgressState _sub_progress_state = ProgressState.Normal;
-        public static ProgressState sub_progress_state {
+        private static ProgressState _sub_state = ProgressState.Normal;
+        public static ProgressState sub_state {
             set{
-                _sub_progress_state = value;
+                _sub_state = value;
                 setSubProgress();
             }
             get {
-                return _sub_progress_state;
+                return _sub_state;
             }
         }
 
@@ -88,7 +96,7 @@ namespace MASGAU.Communication.Progress
         //protected static event ProgressChangedEventHandler SubProgressChanged;
 
         private static void setProgress() {
-            setProgress(_progress,_progress_max,_progress_message,_progress_state);
+            setProgress(_value,_max,_message,_state);
         }
 
         private static void setProgress(int value, int max, string message, ProgressState progstate) {
@@ -114,7 +122,7 @@ namespace MASGAU.Communication.Progress
         }
 
         private static void setSubProgress() {
-            setSubProgress(_sub_progress,_sub_progress_max,_sub_progress_state);
+            setSubProgress(_sub_value,_sub_max,_sub_state);
         }
 
         private static void setSubProgress(int value, int max, ProgressState progstate) {

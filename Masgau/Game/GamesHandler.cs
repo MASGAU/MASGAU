@@ -99,7 +99,7 @@ namespace MASGAU.Game
             all_games.Clear();
 
             if(xml.game_profiles.Count>0) {
-                ProgressHandler.progress_message = "Loading Games Data...";
+                ProgressHandler.message = "Loading Games Data...";
                 foreach(GameXMLHolder game_profile in xml.game_profiles) {
                     if(_cancelling)
                         break;
@@ -140,7 +140,7 @@ namespace MASGAU.Game
             detectGames(null,false);
         }
         public void detectGames(List<GameID> these_games, bool force_redetect) {
-            ProgressHandler.progress_state = ProgressState.Normal;
+            ProgressHandler.state = ProgressState.Normal;
 
             int game_count;
             game_count = all_games.Count;
@@ -148,13 +148,13 @@ namespace MASGAU.Game
             this.Clear();
 
             if(these_games!=null)
-                ProgressHandler.progress_max = these_games.Count;
+                ProgressHandler.max = these_games.Count;
             else
-                ProgressHandler.progress_max = game_count;
+                ProgressHandler.max = game_count;
 
 
-            ProgressHandler.progress = 1;
-            ProgressHandler.progress_message = "Detecting Games";
+            ProgressHandler.value = 1;
+            ProgressHandler.message = "Detecting Games";
 
             Dictionary<string,int> contribs = new Dictionary<string,int>();
 
@@ -166,7 +166,7 @@ namespace MASGAU.Game
                     continue;
 
 
-                ProgressHandler.progress_message = "Detecting Games (" + ProgressHandler.progress + "/" + ProgressHandler.progress_max + ")";
+                ProgressHandler.message = "Detecting Games (" + ProgressHandler.value + "/" + ProgressHandler.max + ")";
 
                 // If a game has a game root and thus forced a game to detect early, then this will skip re-detecting
                 if(!game.detection_completed)
@@ -183,25 +183,25 @@ namespace MASGAU.Game
                 if(!force_redetect&&game.detected&&!game.id.deprecated) 
                     this.AddWithSort(game);
 
-                ProgressHandler.progress++;
+                ProgressHandler.value++;
             }
 
             foreach(KeyValuePair<string,int> pair in contribs) {
                 contributors.AddWithSort(new ContributorHandler(pair.Key,pair.Value));
             }
 
-            ProgressHandler.progress_state = ProgressState.None;
-            ProgressHandler.progress = 0;
+            ProgressHandler.state = ProgressState.None;
+            ProgressHandler.value = 0;
 
             game_count = detected_games_count;
 
             IsEnabled = true;
             if(game_count>1){
-                ProgressHandler.progress_message = detected_games_count + " Games Detected";
+                ProgressHandler.message = detected_games_count + " Games Detected";
             } else if(game_count>0) {
-                ProgressHandler.progress_message = detected_games_count + " Game Detected";
+                ProgressHandler.message = detected_games_count + " Game Detected";
             } else {
-                ProgressHandler.progress_message = "No Games Detected";
+                ProgressHandler.message = "No Games Detected";
                 GameHandler no_games = new GameHandler(new GameID("No Games Detected", GamePlatform.Multiple, null));
                 no_games.title = "No Games Detected";
                 IsEnabled = false;

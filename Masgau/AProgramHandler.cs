@@ -33,9 +33,9 @@ namespace MASGAU {
         protected virtual void workCompleted(object sender, RunWorkerCompletedEventArgs e) { }
 
         protected virtual void doWork(object sender, DoWorkEventArgs e) {
-            ProgressHandler.progress_state = ProgressState.Indeterminate;
+            ProgressHandler.state = ProgressState.Indeterminate;
             if (!initialized) {
-                ProgressHandler.progress_message = "Loading Settings...";
+                ProgressHandler.message = "Loading Settings...";
 
                 if (!settings.IsReady) {
                     initialized = false;
@@ -51,7 +51,7 @@ namespace MASGAU {
 
                 archives = new Archive.ArchivesHandler();
 
-                ProgressHandler.progress_message = "Validating Backup Path...";
+                ProgressHandler.message = "Validating Backup Path...";
                 if (settings.backup_path_set && (!PermissionsHelper.isReadable(settings.backup_path) || !PermissionsHelper.isWritable(settings.backup_path)))
                     settings.clearBackupPath();
 

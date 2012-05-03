@@ -34,7 +34,7 @@ namespace MASGAU.Main
                 return;
 
             if(Core.settings.auto_update&&!Core.settings.already_updated) {
-                ProgressHandler.progress_message = "Checking For Updates...";
+                ProgressHandler.message = "Checking For Updates...";
                 Core.updater.checkUpdates(false,true);
             } 
             if(Core.updater.redetect_required) {
@@ -52,8 +52,8 @@ namespace MASGAU.Main
 
             Core.games.detectGames();
 
-            string temp = ProgressHandler.progress_message;
-            ProgressHandler.progress_message = temp;
+            string temp = ProgressHandler.message;
+            ProgressHandler.message = temp;
         }
 
 

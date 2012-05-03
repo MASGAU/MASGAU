@@ -124,8 +124,8 @@ namespace MASGAU.Analyzer
 			analyzer.RunWorkerCompleted += HandleAnalyzerRunWorkerCompleted;
 			if(when_done!=null)
 				analyzer.RunWorkerCompleted += when_done;
-			ProgressHandler.progress_max = 3;
-            ProgressHandler.progress = 0;
+			ProgressHandler.max = 3;
+            ProgressHandler.value = 0;
             analyzer.RunWorkerAsync();
 		}
 		
@@ -142,8 +142,8 @@ namespace MASGAU.Analyzer
 		protected virtual void HandleAnalyzerDoWork (object sender, DoWorkEventArgs e)
 		{
             try {
-				ProgressHandler.progress++;
-				ProgressHandler.progress_message = Strings.get("DumpingSaveFolder");
+				ProgressHandler.value++;
+				ProgressHandler.message = Strings.get("DumpingSaveFolder");
                 parseSaveFolder();
             }
             catch (Exception ex) {
@@ -153,8 +153,8 @@ namespace MASGAU.Analyzer
 			
             if (_gamePath!=null) {
                 try {
-					ProgressHandler.progress++;
-					ProgressHandler.progress_message = Strings.get("DumpingInstallFolder");
+					ProgressHandler.value++;
+					ProgressHandler.message = Strings.get("DumpingInstallFolder");
                     parseInstallFolder();
                 }
                 catch (Exception ex) {
@@ -226,9 +226,9 @@ namespace MASGAU.Analyzer
         public static string last_save_path = null;
 		protected override void doWork (object sender, DoWorkEventArgs e)
 		{
-            ProgressHandler.progress_message = Strings.get("LoadingSettings");
+            ProgressHandler.message = Strings.get("LoadingSettings");
 			base.doWork (sender, e);
-			ProgressHandler.progress_message = null;
+			ProgressHandler.message = null;
 		}
 		
 		#region Helpers

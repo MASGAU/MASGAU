@@ -22,7 +22,7 @@ namespace MASGAU.Game
         
         public bool ready = false;
         public void loadXml() {
-            ProgressHandler.progress_message = "Loading Game XMLs";
+            ProgressHandler.message = "Loading Game XMLs";
             game_profiles = new List<GameXMLHolder>();
             xml_file_versions = new List<UpdateHandler>();
             string game_configs = Path.Combine(Core.app_path,"data");

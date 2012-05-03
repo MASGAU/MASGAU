@@ -60,7 +60,7 @@ namespace MASGAU.Restore
                 return;
 
             this.archive = restore.archive;
-            ProgressHandler.progress_state = ProgressState.None;
+            ProgressHandler.state = ProgressState.None;
 
             tabControl1.SelectedIndex = 1;
             this.Title = Strings.get("RestoreConfirmPath");
@@ -160,7 +160,7 @@ namespace MASGAU.Restore
 
         private void shutDownWindow() {
             restore.cancel();
-            ProgressHandler.progress_message = Strings.get("Stopping") + "...";
+            ProgressHandler.message = Strings.get("Stopping") + "...";
             if(tabControl1.SelectedIndex != 3)
                 Restore.RestoreProgramHandler.overall_stop = true;
             

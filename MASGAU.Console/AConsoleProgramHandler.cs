@@ -37,8 +37,8 @@ namespace MASGAU.Console
 
             Core.games.detectGames();
 
-            string temp = ProgressHandler.progress_message;
-            ProgressHandler.progress_message = temp;
+            string temp = ProgressHandler.message;
+            ProgressHandler.message = temp;
         }
 
 

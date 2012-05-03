@@ -48,7 +48,7 @@ namespace MASGAU.Analyzer
         {
             base.setup(sender, e);
 
-            ProgressHandler.progress_state = ProgressState.None;
+            ProgressHandler.state = ProgressState.None;
 
             emailTxt.DataContext = Core.settings;
 

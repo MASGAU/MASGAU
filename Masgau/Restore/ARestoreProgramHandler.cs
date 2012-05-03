@@ -58,7 +58,7 @@ namespace MASGAU.Restore
             path_candidates = new ObservableCollection<LocationPathHolder>();
             user_candidates = new ObservableCollection<string>();
 
-            ProgressHandler.progress_state = ProgressState.Indeterminate;
+            ProgressHandler.state = ProgressState.Indeterminate;
 
             if(archive==null) {
                 string[] args = Environment.GetCommandLineArgs();
@@ -74,7 +74,7 @@ namespace MASGAU.Restore
             if(archive==null)
                 throw new MException("Nothing To Do","No File Was Selected To Restore",false);
 
-            ProgressHandler.progress_message = "Detecting game for restoration...";
+            ProgressHandler.message = "Detecting game for restoration...";
 
             if (!File.Exists(archive.file_name))
                 throw new MException("Not there","The specified backup doesn't exist:" + Environment.NewLine + archive.file_name,false);
@@ -299,7 +299,7 @@ namespace MASGAU.Restore
 
         void restore_worker_DoWork(object sender, DoWorkEventArgs e)
         {
-            ProgressHandler.progress_state = ProgressState.Normal;
+            ProgressHandler.state = ProgressState.Normal;
             archive.restore(new DirectoryInfo(restore_path),file_list);
         }
     }

@@ -222,7 +222,7 @@ namespace MASGAU
             this.suppress_message = suppress_message;
             BackgroundWorker update = new BackgroundWorker();
             Core.updater = new Update.UpdatesHandler();
-            old_progress = ProgressHandler.progress_message;
+            old_progress = ProgressHandler.message;
             update.DoWork += new DoWorkEventHandler(update_DoWork);
             update.RunWorkerCompleted += new RunWorkerCompletedEventHandler(update_RunWorkerCompleted);
             update.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
@@ -282,7 +282,7 @@ namespace MASGAU
 
         protected void redetectArchives() {
             disableInterface();
-            old_progress = ProgressHandler.progress_message;
+            old_progress = ProgressHandler.message;
             BackgroundWorker redetect = new BackgroundWorker();
             redetect.DoWork += new DoWorkEventHandler(redetectArchives);
             redetect.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
@@ -334,7 +334,7 @@ namespace MASGAU
             startBackup(when_done);
         }
         private void startBackup(RunWorkerCompletedEventHandler when_done) {
-            old_progress = ProgressHandler.progress_message;
+            old_progress = ProgressHandler.message;
             backup.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(resetStatus);
             backup.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
             disableInterface();
@@ -343,8 +343,8 @@ namespace MASGAU
 
         void resetStatus(object sender, RunWorkerCompletedEventArgs e)
         {
-            ProgressHandler.progress = 0;
-            ProgressHandler.progress_message = old_progress ;
+            ProgressHandler.value = 0;
+            ProgressHandler.message = old_progress ;
         }
 
         private void ApplyEffect(AWindow win) 

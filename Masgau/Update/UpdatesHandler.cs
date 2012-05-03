@@ -43,7 +43,7 @@ namespace MASGAU.Update
         #endregion
 
         public void checkUpdates(bool updater_program, bool suppress_no_update_message) {
-            ProgressHandler.progress_state = ProgressState.Indeterminate;
+            ProgressHandler.state = ProgressState.Indeterminate;
 
             if(Core.settings!=null)
                 Core.settings.already_updated = true;
@@ -60,7 +60,7 @@ namespace MASGAU.Update
                 }
 
             }
-            ProgressHandler.progress_message = "Checking for updates...";
+            ProgressHandler.message = "Checking for updates...";
 
             foreach(UpdateHandler check_me in xml.xml_file_versions) {
                 this.Add(check_me);

@@ -182,6 +182,10 @@
       <Project>{CD1B810F-38EC-41CE-974F-7B0EE5CD8B87}</Project>
       <Name>Logger</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

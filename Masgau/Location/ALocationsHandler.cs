@@ -35,19 +35,19 @@ namespace MASGAU.Location
         protected ALocationsHandler() {
             handlers = new Dictionary<HandlerType,ALocationHandler>();
 
-            ProgressHandler.progress_message = "Detecting System Paths...";
+            ProgressHandler.message = "Detecting System Paths...";
             ASystemLocationHandler system_handler = this.setupSystemHandler();
             handlers.Add(HandlerType.System, system_handler);
 
-            ProgressHandler.progress_message = "Checking For Steam...";
+            ProgressHandler.message = "Checking For Steam...";
             ASteamLocationHandler steam_handler = this.setupSteamHandler();
             handlers.Add(HandlerType.Steam, steam_handler);
 
-            ProgressHandler.progress_message = "Detecting PlayStation Paths...";
+            ProgressHandler.message = "Detecting PlayStation Paths...";
             APlaystationLocationHandler playstation_handler = this.setupPlaystationHandler();
             handlers.Add(HandlerType.PlayStation, playstation_handler);
 
-            ProgressHandler.progress_message = "Detecting ScummVM Paths...";
+            ProgressHandler.message = "Detecting ScummVM Paths...";
             AScummVMLocationHandler scummvm_handler = this.setupScummVMHandler();
             handlers.Add(HandlerType.ScummVM, scummvm_handler);
         }

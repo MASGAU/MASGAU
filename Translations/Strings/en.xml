@@ -114,6 +114,10 @@
   <string name="BackupContextPurge">Purge</string>
   <string name="BackupContextEnableBackup">Enable Backup</string>
 
+  
+  <!-- Backup progress -->
+  
+  
   <!-- Manual Archive -->
   <string name="ManualArchiveTitle">Create Custom Archive</string>
   <string name="ManualArchiveSource">Where Do You Want To Get Saves From?</string>

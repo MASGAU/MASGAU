@@ -367,7 +367,7 @@ namespace MASGAU.Archive
         public bool cancel_restore = false;
         public void restore(DirectoryInfo destination, List<string> only_these) {
             cancel_restore = false;
-            ProgressHandler.progress_message = "Checking Destination...";
+            ProgressHandler.message = "Checking Destination...";
             // The files get extracted to the temp folder, so this sets up our ability to read them
             DirectoryInfo from_here = new DirectoryInfo(temp_folder);
 
@@ -395,17 +395,17 @@ namespace MASGAU.Archive
             if(cancel_restore)
                 return;
 
-            ProgressHandler.progress_message = "Extracting Archive...";
-            ProgressHandler.progress_state = ProgressState.Indeterminate;
+            ProgressHandler.message = "Extracting Archive...";
+            ProgressHandler.state = ProgressState.Indeterminate;
             if(only_these==null) {
-                ProgressHandler.progress_max = file_count;
+                ProgressHandler.max = file_count;
                 extract(true);
             } else {
-                ProgressHandler.progress_max = only_these.Count;
+                ProgressHandler.max = only_these.Count;
                 extract(only_these,true);
             }
-            ProgressHandler.progress = 0;
-            ProgressHandler.progress_state = ProgressState.Normal;
+            ProgressHandler.value = 0;
+            ProgressHandler.state = ProgressState.Normal;
 
             // Clean up the masgau archive ID
             if(File.Exists(Path.Combine(temp_folder,"masgau.xml")))
@@ -414,7 +414,7 @@ namespace MASGAU.Archive
             if(cancel_restore)
                 return;
 
-            ProgressHandler.progress_message = "Copying Files To Destination...";
+            ProgressHandler.message = "Copying Files To Destination...";
             if(!canWrite(destination)) {
 	            Directory.Delete(temp_folder, true);
                 restoreElevation(destination.FullName);
@@ -428,7 +428,7 @@ namespace MASGAU.Archive
             if(cancel_restore)
                 return;
 
-            ProgressHandler.progress_state = ProgressState.None;
+            ProgressHandler.state = ProgressState.None;
         }
         private bool restoreElevation(string destination) {
             try {
@@ -486,10 +486,10 @@ namespace MASGAU.Archive
         }
         private void run7z(bool send_progress) {
             if(this.exists) {
-                string status = ProgressHandler.progress_message;
+                string status = ProgressHandler.message;
                 int wait_max = 30;
                 for(int count = 0; !canRead(file_name); count++) {
-                    ProgressHandler.progress_message = status.TrimEnd('.') + " - Archive In Use, Waiting (" + (count+1) + "/" + wait_max + ")";
+                    ProgressHandler.message = status.TrimEnd('.') + " - Archive In Use, Waiting (" + (count+1) + "/" + wait_max + ")";
                     Thread.Sleep(1000);
                     if(count==wait_max-1)
                         throw new MException("Tired of waiting!","The archive " + file_name + Environment.NewLine + "has been unaccessible for 30 seconds, it will be skipped.",false);
@@ -501,7 +501,7 @@ namespace MASGAU.Archive
                 while(output != null){
                     if(send_progress) {
                         if(output.StartsWith("Extracting")||output.StartsWith("Compressing"))
-                            ProgressHandler.progress++;
+                            ProgressHandler.value++;
                     }
                     output = zipper.StandardOutput.ReadLine();
                 }
@@ -644,14 +644,14 @@ namespace MASGAU.Archive
         private void extract(List<string> files, bool send_progress) {
             prepTemp();
             if(send_progress) {
-                ProgressHandler.progress_max = files.Count;
-                ProgressHandler.progress = 0;
+                ProgressHandler.max = files.Count;
+                ProgressHandler.value = 0;
             }
             foreach(string file in files) {
                 zipper.StartInfo.Arguments = extract_switches + " \"" + this.file_name + "\" \"" + file + "\"";
                 run7z(false);
                 if(send_progress)
-                    ProgressHandler.progress++;
+                    ProgressHandler.value++;
             }
         }
         #endregion
@@ -674,7 +674,7 @@ namespace MASGAU.Archive
                 if(cancel_restore)
                     break;
                 if(send_progress)
-                    ProgressHandler.progress++;
+                    ProgressHandler.value++;
 				try {
 					File.Copy(copy_me.FullName,Path.Combine(to_here.FullName,copy_me.Name),true);
                     if ((File.GetAttributes(Path.Combine(to_here.FullName,copy_me.Name)) & FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
