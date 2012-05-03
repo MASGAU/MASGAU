@@ -137,14 +137,14 @@ namespace MASGAU {
 
         private static void translateTitle(AWindow window) {
             string string_title = window.Title.ToString();
-            window.Title = Strings.get(string_title);
+            window.Title = Strings.getInterfaceString(string_title);
         }
 
         private static void translateText(TextBlock text) {
             string string_title = text.Text.ToString();
             if (string_title != "")
             {
-                text.Text = Strings.get(string_title);
+                text.Text = Strings.getInterfaceString(string_title);
             }
         }
         private static void translateMenuItem(MenuItem item)
@@ -152,7 +152,7 @@ namespace MASGAU {
             string string_title = item.Header.ToString();
             if (string_title != "")
             {
-                item.Header = Strings.get(string_title);
+                item.Header = Strings.getInterfaceString(string_title);
             }
         }
 
@@ -160,7 +160,7 @@ namespace MASGAU {
         {
             if (control.Content == null)
             {
-                control.Content = Strings.get(null);
+                control.Content = Strings.getInterfaceString(null);
             } else if (control.Content is TextBlock)
             {
                 translateText(control.Content as TextBlock);
@@ -168,27 +168,27 @@ namespace MASGAU {
             else
             {
                 string string_title = control.Content.ToString();
-                control.Content = Strings.get(string_title);
+                control.Content = Strings.getInterfaceString(string_title);
 
             }
         }
         private static void translateHeader(HeaderedContentControl control) {
             if (control.Header == null)
             {
-                control.Header = Strings.get(null);
+                control.Header = Strings.getInterfaceString(null);
                 return;
             }
             string string_title = control.Header.ToString();
-            control.Header = Strings.get(string_title);
+            control.Header = Strings.getInterfaceString(string_title);
         }
         private static void translateColumnHeader(GridViewColumn control) {
             if (control.Header == null)
             {
-                control.Header = Strings.get(null);
+                control.Header = Strings.getInterfaceString(null);
                 return;
             }
             string string_title = control.Header.ToString();
-            control.Header = Strings.get(string_title);
+            control.Header = Strings.getInterfaceString(string_title);
         }
 
         public static bool checkEmail(AWindow parent) {

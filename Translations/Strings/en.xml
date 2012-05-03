@@ -57,6 +57,8 @@
   <string name="OtherLocationButton">Other _Location...</string>
   <string name="OtherUserButton">Other _User...</string>
 
+  <string name="ChoiceTitle">You Must Make A Choice</string>
+  <string name="ComboTitle">Choose One</string>
   <!-- Platform names -->	
   <string name="Linux">Linux</string>
   <string name="Windows">Windows</string>

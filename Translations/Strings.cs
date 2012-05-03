@@ -9,6 +9,7 @@ using System.Globalization;
 using System.Threading;
 using System.Text.RegularExpressions;
 using Logger;
+
 namespace Translations {
     public class Strings {
         private static string language = "en";
@@ -20,9 +21,6 @@ namespace Translations {
 
         private static XmlReaderSettings xml_settings;
 
-        private static bool translation_mode = false;
-
-
         static Strings() {
             // Checks if the command line indicates we should be running in translation mode
             string[] args = Environment.GetCommandLineArgs();
@@ -31,7 +29,6 @@ namespace Translations {
                 switch (args[i])
                 {
                     case "-language_file":
-                        translation_mode = true;
                         if (args.Length > i + 1 && !args[i + 1].StartsWith("-"))
                         {
                             i++;
@@ -75,10 +72,13 @@ namespace Translations {
         private static void loadRegion() {
             if (language_override != null)
             {
-                if (!translation_mode && File.Exists(Path.Combine("Strings", language_override + ".xml")))
+                if (File.Exists(Path.Combine("Strings", language_override)))
                 {
-                    loadFile(Path.Combine("Strings", "en.xml"));
+                    loadFile(Path.Combine("Strings", language_override));
+                } else {
+                    Logger.Logger.log("ERROR: CHOSEN STRINGS FILE " + language_override + " IS NOT PRESENT IN Strings FOLDER");
                 }
+                  return;
             }
 
 
@@ -86,7 +86,7 @@ namespace Translations {
             // at least the user will still see something they can punch in to babelfish
             // If we're in translate mode, this is skipped, so that untranslated strings will
             // Show up as the string name rather than the translated string itself
-            if (!translation_mode && File.Exists(Path.Combine("Strings", "en.xml")))
+            if (File.Exists(Path.Combine("Strings", "en.xml")))
             {
                 loadFile(Path.Combine("Strings", "en.xml"));
             }
@@ -110,6 +110,9 @@ namespace Translations {
             }
 
         }
+
+
+
 
         private static void loadFile(string file) {
             XmlDocument strings_xml = new XmlDocument();
@@ -147,6 +150,20 @@ namespace Translations {
             
         }
 
+        public static string getInterfaceString(string name) {
+            if(name.StartsWith("$")) {
+                name = name.TrimStart('$');
+                return get(name);
+            } else {
+                switch(name) {
+                    case "-":
+                        return name;
+                    default :
+                        return name;
+                }
+            }
+        }
+
         public static string get(string name)
         {
             StringBuilder return_me = null;
@@ -155,66 +172,53 @@ namespace Translations {
                 return "";
             // So, all interface translation strings are going to start with a hash sign.
             // That way we can leave some interface elements alone
-            if (name.StartsWith("#"))
+
+            if (strings.ContainsKey(name))
+                return_me = new StringBuilder(strings[name]);
+
+            if (return_me == null)
             {
-                name = name.TrimEnd('#');
-
-                if (strings.ContainsKey(name))
-                    return_me = new StringBuilder(strings[name]);
-
-                if (return_me == null)
+                // If running in translate mode, then we'll throw an exception when a string is missing.
+                Logger.Logger.log("STRING " + name + " NOT FOUND");
+                if (language_override != null)
                 {
-                    // If running in translate mode, then we'll throw an exception when a string is missing.
-                    Logger.Logger.log("STRING " + name + " NOT FOUND");
-                    if (translation_mode)
-                    {
-                        // This behavior will probably not stick, as most of the time this code occurs during GUI drawing,
-                        // So Windows wraps this exception in a WPF exception, which effectively hides this info
-                        // from the average user. When breaking into debug in Visual Studio though, this allows us
-                        // to see exactly which string is missing.
-                        return "STRING " + name + " NOT FOUND";
-                        //                            throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
-                    }
-                    else
-                    {
-                        // This will eventually become the only behavior when a string isn't found,
-                        // so that the main interface will just display the name of a string
-                        return name;
-                    }
-
+                    // This behavior will probably not stick, as most of the time this code occurs during GUI drawing,
+                    // So Windows wraps this exception in a WPF exception, which effectively hides this info
+                    // from the average user. When breaking into debug in Visual Studio though, this allows us
+                    // to see exactly which string is missing.
+                    return "STRING " + name + " NOT FOUND";
+                    //                            throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
+                }
+                else
+                {
+                    // This will eventually become the only behavior when a string isn't found,
+                    // so that the main interface will just display the name of a string
+                    return name;
                 }
 
-                Regex r = new Regex(@"%[A-za-z]*%", RegexOptions.IgnoreCase);
-
-                Match m = r.Match(return_me.ToString());
-                int offset = 0;
-                while (m.Success)
-                {
-                    foreach (Group g in m.Groups)
-                    {
-                        foreach (Capture c in g.Captures)
-                        {
-                            string key = c.Value.Trim('%');
-                            string line = get(key);
-                            return_me.Remove(c.Index + offset, c.Length);
-                            return_me.Insert(c.Index + offset, line);
-                            offset += line.Length - c.Length;
-                        }
-                    }
-                    m = m.NextMatch();
-                }
-
-                return return_me.ToString();
-
-
             }
-            else
+
+            Regex r = new Regex(@"%[A-za-z]*%", RegexOptions.IgnoreCase);
+
+            Match m = r.Match(return_me.ToString());
+            int offset = 0;
+            while (m.Success)
             {
-                return name;
+                foreach (Group g in m.Groups)
+                {
+                    foreach (Capture c in g.Captures)
+                    {
+                        string key = c.Value.Trim('%');
+                        string line = get(key);
+                        return_me.Remove(c.Index + offset, c.Length);
+                        return_me.Insert(c.Index + offset, line);
+                        offset += line.Length - c.Length;
+                    }
+                }
+                m = m.NextMatch();
             }
 
-
-
+            return return_me.ToString();
 
         }
 
