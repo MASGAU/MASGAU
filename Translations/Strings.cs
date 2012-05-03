@@ -168,6 +168,15 @@ namespace Translations {
             }
         }
 
+        public static StringCollection getTitleMessagePair(string name, params string[] variables)
+        {
+            StringCollection returnme = new StringCollection();
+            returnme.Add(StringType.Title, get(name + "Title", variables));
+            returnme.Add(StringType.Message, get(name + "Message", variables));
+
+            return returnme;
+        }
+
         public static string get(string name, params string[] substitution_variables)
         {
             StringBuilder return_me = null;

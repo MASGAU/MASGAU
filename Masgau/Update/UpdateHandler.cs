@@ -5,8 +5,8 @@ using System.Xml.Schema;
 using System.IO;
 using System.Net;
 using System.ComponentModel;
-using MASGAU.Communication.Message;
-
+using Communication.Message;
+using MVC;
 using System.Diagnostics;
 
 namespace MASGAU.Update
@@ -81,7 +81,7 @@ namespace MASGAU.Update
             if(element.HasAttribute("url")) {
                 latest_version_url = element.GetAttribute("url");
             } else {
-                throw new MException("Update XML Error","url attribute missing in " + name,true);
+                throw new CommunicatableException("Update XML Error","url attribute missing in " + name,true);
             }
 
             if (latest_version.CompareTo(test) < 0) {

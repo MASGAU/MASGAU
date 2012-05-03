@@ -6,8 +6,9 @@ using System.IO;
 using System.Xml;
 using System.Xml.Schema;
 using MASGAU.Update;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
+using Communication;
+using Communication.Progress;
+using Communication.Message;
 
 namespace MASGAU.Game
 {
@@ -27,7 +28,7 @@ namespace MASGAU.Game
             xml_file_versions = new List<UpdateHandler>();
             string game_configs = Path.Combine(Core.app_path,"data");
             if(!Directory.Exists(game_configs))
-                throw new MException("Trashy Talk, Yes?","Could not find game profiles folder",false);
+                throw new CommunicatableException("Trashy Talk, Yes?","Could not find game profiles folder",false);
 
             List<FileInfo> read_us;
 	        DirectoryInfo read_me = new DirectoryInfo(game_configs);
@@ -41,7 +42,7 @@ namespace MASGAU.Game
             }
 
             if(read_us.Count==0)
-                throw new MException("What the heck?","There are no XML files in the Data folder.",false);
+                throw new CommunicatableException("What the heck?","There are no XML files in the Data folder.",false);
 
             int i = 1;
             foreach(FileInfo me_me in read_us) {

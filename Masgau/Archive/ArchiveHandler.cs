@@ -10,9 +10,10 @@ using System.Security.AccessControl;
 using MASGAU.Location;
 using MASGAU.Game;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
-using MASGAU.Communication.Request;
+using Communication;
+using Communication.Progress;
+using Communication.Message;
+using Communication.Request;
 
 namespace MASGAU.Archive
 {
@@ -102,7 +103,7 @@ namespace MASGAU.Archive
                 ready = true;
             } else {
                 ready = false;
-                throw new MException("Archiver Error","7z.exe Not Found In Program Folder.\nYou Will Probably Need To Reinstall.",false);
+                throw new CommunicatableException("Archiver Error","7z.exe Not Found In Program Folder.\nYou Will Probably Need To Reinstall.",false);
             }
             zipper.StartInfo.UseShellExecute = false;
             zipper.StartInfo.RedirectStandardOutput = true;
@@ -122,7 +123,7 @@ namespace MASGAU.Archive
                 }
                 Directory.CreateDirectory(temp_folder);
             } catch(Exception e) {
-                throw new MException("Look Out!","An error occured while trying to prep " + temp_folder, e, false);
+                throw new CommunicatableException("Look Out!","An error occured while trying to prep " + temp_folder, e, false);
             }
         }
         #endregion
@@ -140,7 +141,7 @@ namespace MASGAU.Archive
 
         public ArchiveHandler(FileInfo archive): base() {
             if(!ready)
-                throw new MException("Not Found","This 7-zip executable could not be found. You probably need to re-install.", false);
+                throw new CommunicatableException("Not Found","This 7-zip executable could not be found. You probably need to re-install.", false);
 
             _file_name = archive.FullName;
             String owner = null;
@@ -211,7 +212,7 @@ namespace MASGAU.Archive
                 load_me.Close();
                 File.Delete(Path.Combine(temp_folder, "masgau.xml"));
             } else {
-                throw new MException("Lack Of Data Is Bad","The file " + file_name + " doesn't contain any MASGAU data.\nThis probably means it's a corrupted archive, or not an archive at all.\nPlease move it out of the backup folder or delete it.",false);
+                throw new CommunicatableException("Lack Of Data Is Bad","The file " + file_name + " doesn't contain any MASGAU data.\nThis probably means it's a corrupted archive, or not an archive at all.\nPlease move it out of the backup folder or delete it.",false);
                 // This is a fallback for really old ASGAU archives - One day I will be able to just delete this.
                 // I'm going to delete this actually
                 // Goodbye, legacy!!!!
@@ -237,10 +238,10 @@ namespace MASGAU.Archive
 
             if(exists) {
                 if(!canWrite(new FileInfo(file_name)))
-                    throw new MException("Gadzooks!","The file " + file_name + " is not writable", false);
+                    throw new CommunicatableException("Gadzooks!","The file " + file_name + " is not writable", false);
             } else {
                 if(!canWrite(new DirectoryInfo(Path.GetDirectoryName(file_name))))
-                    throw new MException("Gadzooks!","The folder " + Path.GetDirectoryName(file_name) + " is not writable", false);
+                    throw new CommunicatableException("Gadzooks!","The folder " + Path.GetDirectoryName(file_name) + " is not writable", false);
 
                 // If this is the first time writing to the archive, we create the identifying XML
                 XmlDocument write_me = new XmlDocument();
@@ -388,7 +389,7 @@ namespace MASGAU.Archive
                         restoreElevation(destination.FullName);
                         cancel_restore = true;
 				    } else {
-                        throw new MException("And that's how it is","Unable to create output folder:" + Environment.NewLine + destination.FullName,false);
+                        throw new CommunicatableException("And that's how it is","Unable to create output folder:" + Environment.NewLine + destination.FullName,false);
 				    }
 				}
 			}
@@ -444,7 +445,7 @@ namespace MASGAU.Archive
                         return true;
 				    }
 				    catch (Exception e){
-                        throw new MException("People people people get up get up",Core.programs.restore + "can't be found.\nYou probably need to reinstall.",e, false);
+                        throw new CommunicatableException("People people people get up get up",Core.programs.restore + "can't be found.\nYou probably need to reinstall.",e, false);
 				    }
 			    } else {
                     return false;
@@ -492,7 +493,7 @@ namespace MASGAU.Archive
                     ProgressHandler.message = status.TrimEnd('.') + " - Archive In Use, Waiting (" + (count+1) + "/" + wait_max + ")";
                     Thread.Sleep(1000);
                     if(count==wait_max-1)
-                        throw new MException("Tired of waiting!","The archive " + file_name + Environment.NewLine + "has been unaccessible for 30 seconds, it will be skipped.",false);
+                        throw new CommunicatableException("Tired of waiting!","The archive " + file_name + Environment.NewLine + "has been unaccessible for 30 seconds, it will be skipped.",false);
                 }
             }
             try {
@@ -506,7 +507,7 @@ namespace MASGAU.Archive
                     output = zipper.StandardOutput.ReadLine();
                 }
             } catch(Exception e) {
-                throw new MException("Running is for wimps","An error occured while trying to run 7-zip with the arguments:\n" + zipper.StartInfo.Arguments,e, true);
+                throw new CommunicatableException("Running is for wimps","An error occured while trying to run 7-zip with the arguments:\n" + zipper.StartInfo.Arguments,e, true);
             } finally {
                 try {
                     zipper.Close();
@@ -541,7 +542,7 @@ namespace MASGAU.Archive
                                 File.Move(file_name, new_path);
                                 //File.SetCreationTime(temp_file_name,right_now);
                             } catch(Exception ex) {
-                                throw new MException("Versioning is for wusses anyway","An error occured while trying to make a revision copy of " + original_file.FullName, ex,false);
+                                throw new CommunicatableException("Versioning is for wusses anyway","An error occured while trying to make a revision copy of " + original_file.FullName, ex,false);
                             }
                         } else {
                             // This is if it hasn't been long enough for a new file
@@ -667,7 +668,7 @@ namespace MASGAU.Archive
 	            try {
 		            Directory.CreateDirectory(to_here.FullName);
 				} catch (Exception e) {
-                    throw new MException("My genetics are repressed","Error while creating " + to_here.FullName,e,false);
+                    throw new CommunicatableException("My genetics are repressed","Error while creating " + to_here.FullName,e,false);
 				}
 			}
             foreach(FileInfo copy_me in from_here.GetFiles()) {
@@ -680,7 +681,7 @@ namespace MASGAU.Archive
                     if ((File.GetAttributes(Path.Combine(to_here.FullName,copy_me.Name)) & FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
                         File.SetAttributes(Path.Combine(to_here.FullName,copy_me.Name), FileAttributes.Normal);
 				} catch (Exception e) {
-                    throw new MException("We started this Op'ra","Error while copying " + copy_me.FullName + "\nto " + to_here.FullName, e, false);
+                    throw new CommunicatableException("We started this Op'ra","Error while copying " + copy_me.FullName + "\nto " + to_here.FullName, e, false);
 				}
             }
             foreach(DirectoryInfo check_me in from_here.GetDirectories()) {

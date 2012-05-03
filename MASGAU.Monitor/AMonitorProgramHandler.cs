@@ -72,7 +72,7 @@ namespace MASGAU.Monitor
         protected override void doWork(object sender, DoWorkEventArgs e)
         {
             if (!mutex_acquired&&!monitor_mutex.WaitOne(100)) {
-                throw new MException("Silly Wicket", "Only one instance of Monitor can be run at a time.", false);
+                throw new CommunicatableException("Silly Wicket", "Only one instance of Monitor can be run at a time.", false);
             }
             mutex_acquired = true;
 
@@ -86,7 +86,7 @@ namespace MASGAU.Monitor
             while(!Core.settings.backup_path_set) {
                 RequestReply reply = RequestHandler.Request(RequestType.BackupFolder);
                 if(reply.cancelled) {
-                    throw new MException("Not Acceptable","Monitor cannot function without a backup path.",false);
+                    throw new CommunicatableException("Not Acceptable","Monitor cannot function without a backup path.",false);
                 }
             }
 

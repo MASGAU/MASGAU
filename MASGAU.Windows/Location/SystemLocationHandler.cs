@@ -166,7 +166,7 @@ namespace MASGAU.Location {
 			    TP.Privileges.luid = RestoreLuid;
 			    retval = AdjustTokenPrivileges(token, 0, ref TP, TP.Size(),ref oldPriveleges,ref return_length);
                 if(retval==0)
-                    throw new MException(Strings.get("UserLoadError"), Strings.get("ProcessRestorePermissionError"), "Error code " + retval, true);
+                    throw new CommunicatableException(Strings.get("UserLoadError"), Strings.get("ProcessRestorePermissionError"), "Error code " + retval, true);
 
 			    retval = LookupPrivilegeValue(null, SE_BACKUP_NAME, ref BackupLuid);
 			    TP2.PrivilegeCount = 1;
@@ -174,7 +174,7 @@ namespace MASGAU.Location {
 			    TP2.Privileges.luid = BackupLuid;
 			    retval = AdjustTokenPrivileges(token, 0, ref TP2, TP2.Size(),ref oldPriveleges,ref return_length);
                 if(retval==0)
-                    throw new MException(Strings.get("UserLoadError"), Strings.get("ProcessBackupPermissionError"), "Error code " + retval, true);
+                    throw new CommunicatableException(Strings.get("UserLoadError"), Strings.get("ProcessBackupPermissionError"), "Error code " + retval, true);
 			
 			
                 Console.WriteLine(retval);
@@ -199,7 +199,7 @@ namespace MASGAU.Location {
                         continue;
 
                     if(h!=0)
-                        throw new MException(Strings.get("UserLoadError"), Strings.get("UserRegistryLoadError") + " " + user_folder.Name, "Error code " + h, true);
+                        throw new CommunicatableException(Strings.get("UserLoadError"), Strings.get("UserRegistryLoadError") + " " + user_folder.Name, "Error code " + h, true);
 
                     //sub_key = new RegistryHandler(hKey);
                     //sub_key = new RegistryHandler(RegRoot.users,user_folder.Name,false);
@@ -427,7 +427,7 @@ namespace MASGAU.Location {
                             }
 						}
 					} catch (Exception e) {
-                        throw new MException(Strings.get("RegistryKeyLoadError"), e.Message, e, false);
+                        throw new CommunicatableException(Strings.get("RegistryKeyLoadError"), e.Message, e, false);
 					}
 				}
 			}

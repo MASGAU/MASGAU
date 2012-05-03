@@ -10,13 +10,13 @@ using System.ComponentModel;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Archive;
-using MASGAU.Communication;
-using MASGAU.Communication.Request;
-using MASGAU.Communication.Message;
+using Communication;
+using Communication.Request;
+using Communication.Message;
 using MASGAU.Registry;
 using System.Collections.ObjectModel;
 using System.Globalization;
-using MASGAU.Collections;
+using Collections;
 
 namespace MASGAU.Game {
     public class GameHandler: AModelItem<GameID>
@@ -317,7 +317,7 @@ namespace MASGAU.Game {
                                 ps_id = new PlayStationPortableID(element);
                                 break;
                             default:
-                                throw new MException("XML Error","ps_code tag used for game that isn't on a PlayStation platform",false);
+                                throw new CommunicatableException("XML Error","ps_code tag used for game that isn't on a PlayStation platform",false);
                         }
                         break;
                     case "virtualstore":

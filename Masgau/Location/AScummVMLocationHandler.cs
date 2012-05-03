@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using MASGAU.Location.Holders;
-using MASGAU.Collections;
+using Collections;
 namespace MASGAU.Location
 {
 

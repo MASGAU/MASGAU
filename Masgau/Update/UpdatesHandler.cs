@@ -8,9 +8,10 @@ using System.ComponentModel;
 
 using System.Diagnostics;
 using MASGAU.Game;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
-using MASGAU.Communication.Request;
+using Communication;
+using Communication.Progress;
+using Communication.Message;
+using Communication.Request;
 
 namespace MASGAU.Update
 {
@@ -60,7 +61,7 @@ namespace MASGAU.Update
                 }
 
             }
-            ProgressHandler.message = "Checking for updates...";
+            ProgressHandler.setTranslatedMessage("CheckingForUpdates");
 
             foreach(UpdateHandler check_me in xml.xml_file_versions) {
                 this.Add(check_me);
@@ -73,7 +74,7 @@ namespace MASGAU.Update
  
             if(!File.Exists(updates_file)) {
                 shutdown_required = true;
-                throw new MException("Not cool","The updates.xml file couldn't be found. You probably need to re-install.",false);
+                throw new CommunicatableException("Not cool","The updates.xml file couldn't be found. You probably need to re-install.",false);
             }
 
             XmlReaderSettings xml_settings = new XmlReaderSettings();
@@ -87,7 +88,7 @@ namespace MASGAU.Update
             try {
                 document.Load(reader);
             } catch (XmlException e) {
-                throw new MException("Update File XML Error","XML Error while reading updates.xml.", e,false);
+                throw new CommunicatableException("Update File XML Error","XML Error while reading updates.xml.", e,false);
             } finally {
                 reader.Close();
                 stream.Close();
@@ -101,7 +102,7 @@ namespace MASGAU.Update
             }
 
             if(updates_node==null) {
-                throw new MException("Update XML Error","Couldn't find the updates tag in updates.xml", false);
+                throw new CommunicatableException("Update XML Error","Couldn't find the updates tag in updates.xml", false);
             }
 
             //this.Add(new UpdateHandler(updates_node,"updates.xml",updates_file));
@@ -239,7 +240,7 @@ namespace MASGAU.Update
                 }
             } else {
                 Core.settings.auto_update = false;
-                throw new MException("How could you let this happen?","The updater executable is missing." + Environment.NewLine + "You'll probably have to reinstall MASGAU before updating will work again",false);
+                throw new CommunicatableException("How could you let this happen?","The updater executable is missing." + Environment.NewLine + "You'll probably have to reinstall MASGAU before updating will work again",false);
             }
         
         }

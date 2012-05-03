@@ -7,10 +7,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shell;
 using System.ComponentModel;
 using MASGAU.Location.Holders;
-using MASGAU.Communication;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
-using MASGAU.Communication.Request;
+using Communication;
+using Communication.Progress;
+using Communication.Message;
+using Communication.Request;
+using Communication.WPF;
 using MASGAU.Archive;
 using MASGAU.Game;
 using System.Threading;
@@ -21,29 +22,15 @@ using Translations;
 namespace MASGAU
 {
 
-    public abstract class AWindow: System.Windows.Window, ICommunicationReceiver
+    public abstract class AWindow: ACommunicationWindow
     {
-        protected Brush default_progress_color;
         protected ProgressBar overall_progress;
         
-        protected bool _available = true;
-        public bool available {
-            get {
-                return _available;
-            }
-        }
-
-        private SynchronizationContext _context;
-        public SynchronizationContext context {
-            get {
-                return _context;
-            }
-        }
 
         public AWindow(): this(null) {
         }
 
-        public AWindow(AWindow owner): base() {
+        public AWindow(AWindow owner): base(owner) {
             TabItem from_me = new TabItem();
             from_me.BeginInit();
             from_me.EndInit();
@@ -54,7 +41,9 @@ namespace MASGAU
             // Taskbar progress setup
             TaskbarItemInfo = new TaskbarItemInfo();
             var uriSource = new Uri(System.IO.Path.Combine(Core.app_path,"masgau.ico"), UriKind.Relative);
+            
             this.Icon = new BitmapImage(uriSource);
+
             if(owner!=null) {
                 this.Owner = owner;
                 this.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterOwner;
@@ -113,61 +102,11 @@ namespace MASGAU
 
             masgau_jump_list.Apply();
 
-            //These intitialize the contexts of the CommunicationHandlers
-            if(SynchronizationContext.Current == null)
-                SynchronizationContext.SetSynchronizationContext(new DispatcherSynchronizationContext(this.Dispatcher));
-            _context = SynchronizationContext.Current;
-
-            CommunicationHandler.addReceiver(this);
-
-            this.Closing += new CancelEventHandler(Window_Closing);
-            this.Loaded += new System.Windows.RoutedEventHandler(AWindow_Loaded);
-            
-        }
-
-        void AWindow_Loaded(object sender, System.Windows.RoutedEventArgs e) {
-            loadTranslations();
-        }
-
-        protected virtual void loadTranslations() {
-            //throw new NotImplementedException();
-        }
-
-        void Window_Closing(object sender, CancelEventArgs e)
-        {
-            _available = false;
-        }
-
-        protected Boolean disable_close = false;
-        public virtual void disableInterface() {
-            disable_close = true;
-        }
-        public virtual void enableInterface() {
-            disable_close = false;
-        }
-        protected void enableInterface(object sender, RunWorkerCompletedEventArgs e) {
-            this.enableInterface();
-        }
-        public void closeInterface() {
-            this.Close();
-        }
-
-        protected override void OnClosing(CancelEventArgs e)
-        {
-            if(disable_close) {
-                e.Cancel = true;
-            } else {
-                base.OnClosing(e);
-            }
 
         }
 
-        public void hideInterface() {
-            this.Visibility = System.Windows.Visibility.Hidden;
-        }
-        public void showInterface() {
-            this.Visibility = System.Windows.Visibility.Visible;
-        }
+
+
 
         // Stuff to purge games
         protected void purgeGames(System.Collections.IEnumerable games) {
@@ -341,11 +280,6 @@ namespace MASGAU
             backup.RunWorkerAsync();
         }
 
-        void resetStatus(object sender, RunWorkerCompletedEventArgs e)
-        {
-            ProgressHandler.value = 0;
-            ProgressHandler.message = old_progress ;
-        }
 
         private void ApplyEffect(AWindow win) 
         { 
@@ -363,87 +297,11 @@ namespace MASGAU
             win.Effect = null; 
         }
 
-        #region TranslatedMessageBoxes
-        public bool askTranslatedQuestion(String string_name) {
-            return askQuestion(Strings.get(string_name + "Title"),
-                Strings.get(string_name + "Message"));
-        }
-        public bool showTranslatedWarning(String string_name) {
-            return showWarning(Strings.get(string_name + "Title"),
-                Strings.get(string_name + "Message"));
-        }
-        public bool showTranslatedError(String string_name)
-        {
-            return showError(Strings.get(string_name + "Title"),
-                Strings.get(string_name + "Message"));
-        }
-        public bool showTranslatedError(String string_name, object append)
-        {
-            return showError(Strings.get(string_name + "Title"),
-                Strings.get(string_name + "Message") + Environment.NewLine + append);
-        }
-        public bool showTranslatedError(String string_name, string append, Exception ex)
-        {
-            return showError(Strings.get(string_name + "Title"),
-                Strings.get(string_name + "Message") + Environment.NewLine + append, ex);
-        }
-        public bool showTranslatedError(String string_name, Exception ex)
-        {
-            return showError(Strings.get(string_name + "Title"),
-                Strings.get(string_name + "Message"),ex);
-        }
-        #endregion
 
-        #region MessageBox showing things
-        protected bool askQuestion(string title, string message) {
-            MessageBox box = new MessageBox(title,message, RequestType.Question, this);
-            return (bool)box.ShowDialog();
-        }
-        public bool showError(string title, string message) {
-            return showError(title,message,null);
-        }
-        protected bool showError(string title, string message, Exception e) {
-            return displayMessage(title,message, MessageTypes.Error, e);
-        }
-        protected bool showWarning(string title, string message) {
-            return displayMessage(title,message, MessageTypes.Warning,null);
-        }
-        protected bool showInfo(string title, string message) {
-            return displayMessage(title,message, MessageTypes.Info,null);
-        }
-        protected bool displayMessage(string title, string message, MessageTypes type, Exception e) {
-            MessageBox box = new MessageBox(title,message, e,type, this);
-            return (bool)box.ShowDialog();
-        }
-        #endregion
 
-        #region Progress stuff
-        public virtual void updateProgress(ProgressUpdatedEventArgs e) {
-        }
-        protected void applyProgress(ProgressBar progress, ProgressUpdatedEventArgs e) {
-            progress.IsEnabled = e.state!= ProgressState.None;
-            progress.IsIndeterminate = e.state== ProgressState.Indeterminate;
-            switch(e.state) {
-                case ProgressState.Normal:
-                    progress.Foreground = default_progress_color;
-                    break;
-                case ProgressState.Error:
-                    progress.Foreground = Brushes.Red;
-                    break;
-                case ProgressState.Wait:
-                    progress.Foreground = Brushes.Yellow;
-                    break;
-            }
 
-            progress.Visibility = System.Windows.Visibility.Visible;
-            if(e.max==0)
-                progress.Value = 0;
-            else {
-                progress.Maximum = e.max;
-                progress.Value = e.value;
-            }
-        }
-        #endregion
+
+
 
         #region Path choosing stuff
         public bool overrideSteamPath() {
@@ -594,21 +452,6 @@ namespace MASGAU
             }
         }
         
-        public void sendMessage(MessageEventArgs e) {
-            bool response = false;
-            switch(e.type) {
-                case MessageTypes.Error:
-                    response = showError(e.title,e.message,e.exception);
-                    break;
-                case MessageTypes.Info:
-                    response = showInfo(e.title,e.message);
-                    break;
-                case MessageTypes.Warning:
-                    response = showWarning(e.title,e.message);
-                    break;
-            }
-            e.response = ResponseType.OK;
-        }
 
 
         protected void openHyperlink(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
@@ -617,28 +460,8 @@ namespace MASGAU
             e.Handled = true;
         }
         
-        public void requestInformation(RequestEventArgs e) {
+        public override void requestInformation(RequestEventArgs e) {
             switch(e.info_type) {
-                case RequestType.Question:
-                    if(askQuestion(e.title,e.message)) {
-                        e.result.selected_option = "Yes";
-                        e.result.selected_index = 1;
-                        e.response = ResponseType.OK;
-                    } else {
-                        e.response = ResponseType.Cancel;
-                    }
-                    return;
-                case RequestType.Choice:
-                    ChoiceWindow choice = new ChoiceWindow(e.title,e.message,e.options,e.default_option, this);
-                    if((bool)choice.ShowDialog()) {
-                        choice.Close();
-                        e.result.selected_index = choice.selected_index;
-                        e.result.selected_option = choice.selected_item;
-                        e.response = ResponseType.OK;
-                    } else {
-                        e.response = ResponseType.Cancel;
-                    }
-                    return;
                 case RequestType.BackupFolder:
                     if(changeBackupPath()) {
                         e.result.cancelled = false;
@@ -658,36 +481,12 @@ namespace MASGAU
                     }
                     return;
                 default:
-                    throw new NotImplementedException("The specified request type " + e.info_type.ToString() + " is not supported in this GUI toolkit.");
+                    base.requestInformation(e);
+                    return;
             }
         }
         #endregion
 
-        #region stuff for interacting with windows.forms controls
-        // Ruthlessly stolen from http://stackoverflow.com/questions/315164/how-to-use-a-folderbrowserdialog-from-a-wpf-application
-        public System.Windows.Forms.IWin32Window GetIWin32Window()
-        {
-            var source = System.Windows.PresentationSource.FromVisual(this) as System.Windows.Interop.HwndSource;
-            System.Windows.Forms.IWin32Window win = new OldWindow(source.Handle);
-            return win;
-        }
-
-        private class OldWindow : System.Windows.Forms.IWin32Window
-        {
-            private readonly System.IntPtr _handle;
-            public OldWindow(System.IntPtr handle)
-            {
-                _handle = handle;
-            }
-
-            #region IWin32Window Members
-            System.IntPtr System.Windows.Forms.IWin32Window.Handle
-            {
-                get { return _handle; }
-            }
-            #endregion
-        }
-        #endregion
         protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e)
         {
             TextBox txt_box = (TextBox)sender;

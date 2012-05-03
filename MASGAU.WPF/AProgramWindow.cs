@@ -41,7 +41,7 @@ namespace MASGAU
             if(!Core.initialized) {
                 this.enableInterface();
                 this.Close();
-                throw new MException(Strings.get("Error"),Strings.get("SettingsLoadError"),false);
+                throw new CommunicatableException(Strings.get("Error"),Strings.get("SettingsLoadError"),false);
             }
             this.Title = program_handler.program_title;
         }

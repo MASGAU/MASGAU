@@ -57,7 +57,7 @@ namespace MASGAU.Update
             else if (element.HasAttribute("last_updated"))
                 return_me.date = DateTime.Parse(element.GetAttribute("last_updated"));
             else
-                throw new MException("Version Read Error","Could not find date attribute", true);
+                throw new CommunicatableException("Version Read Error","Could not find date attribute", true);
             return return_me;
         }
 

@@ -80,14 +80,8 @@
     <Compile Include="AProgramWindow.cs" />
     <Compile Include="CheckedTreeViewItem.cs" />
     <Compile Include="CheckedTreeViewModel.cs" />
-    <Compile Include="ChoiceWindow.xaml.cs">
-      <DependentUpon>ChoiceWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="EmailWindow.xaml.cs">
       <DependentUpon>EmailWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MessageBox.xaml.cs">
-      <DependentUpon>MessageBox.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -107,15 +101,7 @@
     <Compile Include="WPFHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="ChoiceWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="EmailWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="MessageBox.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -136,6 +122,14 @@
     <Resource Include="Images\dialog-error.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Communication.WPF\Communication.WPF.csproj">
+      <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
+      <Name>Communication.WPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communication\Communication.csproj">
+      <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MASGAU.Main\MASGAU.Main.csproj">
       <Project>{200C1855-FBC7-4133-A5DD-0B1C32B75121}</Project>
       <Name>MASGAU.Main</Name>

@@ -178,18 +178,6 @@ namespace MASGAU
         }
         #endregion
 		
-        public static string recurseExceptions(Exception e) {
-            StringBuilder return_me = new StringBuilder(e.Message);
-            return_me.AppendLine();
-            return_me.AppendLine();
-            
-            return_me.AppendLine(e.StackTrace);
-            if (e.InnerException != null) {
-                return_me.AppendLine(recurseExceptions(e.InnerException));
-                return_me.AppendLine();
-            }
-            return return_me.ToString(); ;
-        }
 
         // Event handler to take care of XML errors while reading game configs
         private static void validationHandler(object sender, ValidationEventArgs args){

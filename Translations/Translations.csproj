@@ -53,7 +53,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StringCollection.cs" />
+    <Compile Include="StringType.cs" />
     <Compile Include="Strings.cs" />
+    <Compile Include="TranslateableException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="masgau.snk" />

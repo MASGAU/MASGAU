@@ -2,11 +2,12 @@
 using System.ComponentModel;
 using System.Text;
 using MASGAU.Location;
-using MASGAU.Communication.Progress;
+using Communication.Progress;
 using MASGAU.Config;
 using MASGAU.Monitor;
 using MASGAU.Game;
-using MASGAU.Communication.Message;
+using Communication;
+using Communication.Message;
 
 namespace MASGAU {
     public abstract class AProgramHandler<L> : Core, INotifyPropertyChanged where L : ALocationsHandler {
@@ -35,7 +36,7 @@ namespace MASGAU {
         protected virtual void doWork(object sender, DoWorkEventArgs e) {
             ProgressHandler.state = ProgressState.Indeterminate;
             if (!initialized) {
-                ProgressHandler.message = "Loading Settings...";
+                ProgressHandler.setTranslatedMessage("LoadingSettings");
 
                 if (!settings.IsReady) {
                     initialized = false;
@@ -51,7 +52,7 @@ namespace MASGAU {
 
                 archives = new Archive.ArchivesHandler();
 
-                ProgressHandler.message = "Validating Backup Path...";
+                ProgressHandler.setTranslatedMessage("ValidatingBackupPath");
                 if (settings.backup_path_set && (!PermissionsHelper.isReadable(settings.backup_path) || !PermissionsHelper.isWritable(settings.backup_path)))
                     settings.clearBackupPath();
 

@@ -7,9 +7,10 @@ using System.Xml;
 using System.Xml.Schema;
 using System.ComponentModel;
 using System.Data;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
-using MASGAU.Communication.Request;
+using Communication;
+using Communication.Progress;
+using Communication.Message;
+using Communication.Request;
 
 namespace MASGAU.Game
 {

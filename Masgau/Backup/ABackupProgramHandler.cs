@@ -9,9 +9,10 @@ using MASGAU.Game;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Archive;
-using MASGAU.Communication.Message;
-using MASGAU.Communication.Progress;
-using MASGAU.Collections;
+using Communication;
+using Communication.Message;
+using Communication.Progress;
+using Collections;
 
 namespace MASGAU.Backup
 {
@@ -80,7 +81,7 @@ namespace MASGAU.Backup
                 if (games.Count> 0) {
                     ProgressHandler.value = 1;
                     ProgressHandler.max = games.Count;
-                    ProgressHandler.message = games.Count + " Games To Be Backed Up";
+                    ProgressHandler.setTranslatedMessage("GamesToBeBackedUpCount", games.Count.ToString());
 
 
                     foreach(GameHandler game in games) {
@@ -91,9 +92,9 @@ namespace MASGAU.Backup
                             //all_users_archive = new ArchiveHandler(new FileInfo(archive_name_override),game.id);
 
                         if(games.Count==1) {
-                            ProgressHandler.message = "Backing up " + game.title;
+                            ProgressHandler.setTranslatedMessage("BackingUpSingleGame", game.title);
                         } else {
-                            ProgressHandler.message = "(" + ProgressHandler.value.ToString() + "/" + games.Count + ") Backing up " + game.title + "...";
+                            ProgressHandler.setTranslatedMessage("BackingUpMultipleGames", ProgressHandler.value.ToString(),games.Count.ToString(), game.title);
                         }
 
                         List<DetectedFile> files;

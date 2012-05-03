@@ -6,8 +6,9 @@ using System.IO;
 using System.ComponentModel;
 using MASGAU.Location;
 using MASGAU.Game;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
+using Communication;
+using Communication.Progress;
+using Communication.Message;
 
 namespace MASGAU.Archive
 {

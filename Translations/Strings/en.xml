@@ -18,7 +18,6 @@
   <string name="Loading">Loading</string>
   <string name="Ready">Ready</string>
   <string name="Progress">Progress</string>
-  <string name="LoadingSettings">Loading Settings...</string>
   
   <string name="Portable">Portable</string>
   <string name="MainProgram">Main Program</string>
@@ -115,9 +114,14 @@
   <string name="BackupContextEnableBackup">Enable Backup</string>
 
   
-  <!-- Backup progress -->
-  
-  
+  <!-- Backup process -->
+  <string name="GamesToBeBackedUpCount">%0 Games To Be Backed Up</string>
+  <string name="BackingUpSingleGame">Backing Up %0</string>
+  <!--  %0: The name of the current game being processed
+        %1: The nth game being processed
+        %2: The total games being processed -->
+  <string name="BackingUpMultipleGames">(%1/%2) Backing Up %0...</string>
+
   <!-- Manual Archive -->
   <string name="ManualArchiveTitle">Create Custom Archive</string>
   <string name="ManualArchiveSource">Where Do You Want To Get Saves From?</string>
@@ -358,4 +362,40 @@
   <string name="Update">Update</string>
   <string name="Current">Current</string>
   <string name="Latest">Latest</string>
+  
+  
+  <!-- Inner core message strings -->
+  <string name="DetectingSystemPaths">Detecting System Paths...</string>
+  <string name="DetectingSteam">Detecting Steam...</string>
+  <string name="DetectingPlayStation">Detecting PlayStation Paths...</string>
+  <string name="DetectingScummVM">Detecting ScummVM Paths...</string>
+
+  <!-- Program Handler -->
+  <string name="ValidatingBackupPath">Validating Backup Path...</string>
+  <string name="LoadingSettings">Loading Settings...</string>
+
+  <!-- Archive Handler -->
+  <string name="ArchiveInUserWaiting"></string>
+  
+  <!-- Updates handler -->
+  <string name="CheckingForUpdates">Checking for updates...</string>
+
+  <!-- Request Handler -->
+  <string name="NoRequestChoicesTitle">Request Error</string>
+  <string name="NoRequestChoicesMessage">A choice was requested, but no options provided</string>
+
+  
+  <!-- Config handler -->
+  <string name="ConfigFileError">Config File Error</string>
+  <string name="ConfigOpenErrorTitle">%ConfigFileError%</string>
+  <string name="ConfigOpenErrorMessage">Unable to open config file for writing</string>
+  
+  <string name="ConfigXMLErrorTitle">%ConfigFileError%</string>
+  <string name="ConfigXMLErrorMessage">XML Error while reading config file</string>
+
+  <string name="ConfigWatcherErrorTitle">%ConfigFileError%</string>
+  <string name="ConfigWatcherErrorMessage">Error while auto-updating settings</string>
+
+  <string name="ConfigPurgeErrorTitle">%ConfigFileError%</string>
+  <string name="ConfigPurgeErrorMessage">Error while trying to purge config file</string>
 </strings>

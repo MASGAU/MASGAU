@@ -309,7 +309,7 @@ namespace MASGAU.Console {
 
         private void checkExceptions(object sender, RunWorkerCompletedEventArgs e) {
             if (e.Error != null) {
-                MException ex = e.Error as MException;
+                CommunicatableException ex = e.Error as CommunicatableException;
                 string message = ex.Message;
                 if (debug) {
                     message = message + Environment.NewLine + Environment.NewLine + e.Error.StackTrace;

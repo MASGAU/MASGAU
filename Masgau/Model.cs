@@ -7,7 +7,7 @@ using System.ComponentModel;
 using System.Threading;
 using System.Windows.Threading;
 using System.Collections.Specialized;
-using MASGAU.Communication.Message;
+using Communication.Message;
 
 namespace MASGAU
 {

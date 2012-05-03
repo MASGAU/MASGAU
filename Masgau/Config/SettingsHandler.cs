@@ -7,13 +7,14 @@ using System.IO;
 using MASGAU.Game;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Message;
+using Communication.Message;
 using System.ComponentModel;
+using Email;
 namespace MASGAU.Config
 
 {
 
-    public class SettingsHandler: ConfigFileHandler
+    public class SettingsHandler: AEmailConfig
     {
         // This file contains methods for getting and manipulating all of MASGAU's settings
         // It acts as a worker layer between the program and the config file
@@ -44,11 +45,10 @@ namespace MASGAU.Config
                 // Load the settings from the XML file
                 loadSettings();
             } else {
-                throw new MException("Config File Error","Could not determine an acceptable path for the config file.",false);
+                throw new CommunicatableException("Config File Error","Could not determine an acceptable path for the config file.",false);
             }
 
 
-            shared_settings.Add("email");
             shared_settings.Add("backup_path");
             shared_settings.Add("backup_path_set");
             shared_settings.Add("steam_path");
@@ -121,20 +121,6 @@ namespace MASGAU.Config
         public bool IsReady {
             get {
                 return ready;
-            }
-        }
-
-        public string email {
-            get {
-                return getNodeAttribute("address","email");
-            }
-            set {
-                if(value!=null&&value.Contains("@")) {
-                    int loc = value.IndexOf('@');
-                    if(value.Substring(loc+1).Contains("."))
-                        setNodeAttribute("address",value,"email");
-                }
-                NotifyPropertyChanged("email");
             }
         }
 

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Communication.WPF</RootNamespace>
+    <AssemblyName>Communication.WPF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACommunicationWindow.cs" />
+    <Compile Include="ChoiceWindow.xaml.cs">
+      <DependentUpon>ChoiceWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmailWindow.xaml.cs">
+      <DependentUpon>EmailWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox.xaml.cs">
+      <DependentUpon>MessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Communication\Communication.csproj">
+      <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Email\Email.csproj">
+      <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
+      <Name>Email</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVC\MVC.csproj">
+      <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translations.WPF\Translations.WPF.csproj">
+      <Project>{9DD8A502-1632-4F99-9964-7F45FD1AEEE6}</Project>
+      <Name>Translations.WPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="EmailWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MessageBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ChoiceWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
