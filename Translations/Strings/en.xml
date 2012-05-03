@@ -18,6 +18,7 @@
   <string name="Loading">Loading</string>
   <string name="Ready">Ready</string>
   <string name="Progress">Progress</string>
+  <string name="LoadingSettings">Loading Settings...</string>
   
   <string name="Portable">Portable</string>
   <string name="MainProgram">Main Program</string>
@@ -99,8 +100,8 @@
   <string name="RedetectGamesButton">_Redetect Games</string>
   <string name="BackupNoGamesButton">Back Nothing Up</string>
   <string name="BackupOneGameButton">_Back This Up</string>
-  <string name="BackupMultipleGamesButtonPrefix">_Back These</string> <!-- A number will be inserted between these two-->
-  <string name="BackupMultipleGamesButtonSuffix">Up</string>
+  <string name="BackupMultipleGamesButton">_Back These %0 Up</string> <!-- This is an example of a string that will have a variable inserted 
+                                                                            They take the form of %0, %1, %2, etc.-->
   <string name="BackupAllGamesButton">Back _Everything Up</string>
   <string name="BackupOneGameMenu">Back This Up</string>
   <string name="BackupMultipleGamesMenu">Back These Up</string>
@@ -265,8 +266,7 @@
   <string name="MonitorNegativeGames">%MonitorTitle% is...WHAT!??!</string>
   <string name="MonitorZeroGames">%MonitorTitle% isn't stalking any games</string>
   <string name="MonitorOneGame">%MonitorTitle% is stalking a single game</string>
-  <string name="MonitorMultipleGamesPrefix">%MonitorTitle% is stalking"</string>
-  <string name="MonitorMultipleGamesSuffix">"games"</string>
+  <string name="MonitorMultipleGames">%MonitorTitle% is stalking %0 games</string>
 
   <!-- Monitor settings window-->
   <string name="MonitorSettingsTitle">%MASGAU% %Monitor% %Settings%</string>

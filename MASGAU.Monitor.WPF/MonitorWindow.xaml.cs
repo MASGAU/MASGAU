@@ -227,7 +227,7 @@ namespace MASGAU.Monitor
             else if(count==1)
                 monitorNotifier.Text = Strings.get("MonitorOneGame");
             else
-                monitorNotifier.Text = Strings.get("MonitorMultipleGamesPrefix") + " " + count + " " + Strings.get("MonitorMultipleGamesSuffix");
+                monitorNotifier.Text = Strings.get("MonitorMultipleGames",count.ToString());
         }
 
         #region Notify icon event handlers

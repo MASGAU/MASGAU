@@ -164,7 +164,7 @@ namespace Translations {
             }
         }
 
-        public static string get(string name)
+        public static string get(string name, params string[] substitution_variables)
         {
             StringBuilder return_me = null;
 
@@ -198,9 +198,11 @@ namespace Translations {
 
             }
 
-            Regex r = new Regex(@"%[A-za-z]*%", RegexOptions.IgnoreCase);
+            Regex r1 = new Regex(@"%[A-za-z]*%", RegexOptions.IgnoreCase);
 
-            Match m = r.Match(return_me.ToString());
+            Regex r2 = new Regex(@"%[0-9]*", RegexOptions.IgnoreCase);
+
+            Match m = r1.Match(return_me.ToString());
             int offset = 0;
             while (m.Success)
             {
@@ -210,6 +212,35 @@ namespace Translations {
                     {
                         string key = c.Value.Trim('%');
                         string line = get(key);
+                        return_me.Remove(c.Index + offset, c.Length);
+                        return_me.Insert(c.Index + offset, line);
+                        offset += line.Length - c.Length;
+                    }
+                }
+                m = m.NextMatch();
+            }
+
+            m = r2.Match(return_me.ToString());
+            offset = 0;
+            while (m.Success)
+            {
+                if (substitution_variables.Length != m.Groups.Count)
+                {
+                    Logger.Logger.log("String " + name + " has  " + m.Groups.Count.ToString() + " variable slots, but " 
+                        + substitution_variables.Length.ToString() + " are being provided. Please adjust the translation file to accomodate this number of variables, which are as follows:");
+                    foreach (string var in substitution_variables)
+                    {
+                        Logger.Logger.log(var);
+                    }
+                }
+
+
+                foreach (Group g in m.Groups)
+                {
+                    foreach (Capture c in g.Captures)
+                    {
+                        Int64 key = Int64.Parse(c.Value.TrimStart('%'));
+                        string line = substitution_variables[key];
                         return_me.Remove(c.Index + offset, c.Length);
                         return_me.Insert(c.Index + offset, line);
                         offset += line.Length - c.Length;
