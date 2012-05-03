@@ -125,7 +125,8 @@ namespace MASGAU.Analyzer
 			if(when_done!=null)
 				analyzer.RunWorkerCompleted += when_done;
 			ProgressHandler.progress_max = 3;
-			analyzer.RunWorkerAsync();
+            ProgressHandler.progress = 0;
+            analyzer.RunWorkerAsync();
 		}
 		
 		public void cancelAnalyzer() {
@@ -140,7 +141,6 @@ namespace MASGAU.Analyzer
 
 		protected virtual void HandleAnalyzerDoWork (object sender, DoWorkEventArgs e)
 		{
-			ProgressHandler.progress = 0;
             try {
 				ProgressHandler.progress++;
 				ProgressHandler.progress_message = Strings.get("DumpingSaveFolder");
@@ -226,7 +226,7 @@ namespace MASGAU.Analyzer
         public static string last_save_path = null;
 		protected override void doWork (object sender, DoWorkEventArgs e)
 		{
-			ProgressHandler.progress_message = Strings.get("Loading") + " " + Strings.get("Settings") + "...";
+            ProgressHandler.progress_message = Strings.get("LoadingSettings");
 			base.doWork (sender, e);
 			ProgressHandler.progress_message = null;
 		}

@@ -16,10 +16,11 @@ namespace MASGAU.Analyzer {
         }
 
         protected override void HandleAnalyzerDoWork(object sender, DoWorkEventArgs e) {
-            ProgressHandler.progress_max = 6;
+            ProgressHandler.progress_max += 3;
             if (gamePath != null)
             {
                 try {
+                    ProgressHandler.progress++;
                     searchRegistry();
                 }
                 catch (Exception ex) {
@@ -28,6 +29,7 @@ namespace MASGAU.Analyzer {
                 }
 
                 try {
+                    ProgressHandler.progress++;
                     searchStartMenu();
                 }
                 catch (Exception ex) {
@@ -40,9 +42,7 @@ namespace MASGAU.Analyzer {
 
         protected override void parseInstallFolder() {
             base.parseInstallFolder();
-
             
-            ProgressHandler.progress++;
             ProgressHandler.progress_message = Strings.get("DumpingVirtualStoreFolder");
             if (Core.locations.uac_enabled) {
                 output.AppendLine(Environment.NewLine + "UAC Enabled" + Environment.NewLine);
@@ -75,7 +75,6 @@ namespace MASGAU.Analyzer {
             if (analyzer.CancellationPending)
                 return;
 
-            ProgressHandler.progress++;
             ProgressHandler.progress_message = Strings.get("ScanningLocalMachineRegistry");
             output.AppendLine("Local Machine Registry Entries: ");
             RegistryKey look_here = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE");
@@ -129,7 +128,6 @@ namespace MASGAU.Analyzer {
 
             if (analyzer.CancellationPending)
                 return;
-            ProgressHandler.progress++;
             ProgressHandler.progress_message = Strings.get("ScanningStartMenu");
             output.AppendLine(Environment.NewLine + "Detected Start Menu Shortcuts: ");
 
