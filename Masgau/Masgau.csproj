@@ -12,7 +12,6 @@
     <AssemblyName>MASGAU</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ReleaseVersion>0.10</ReleaseVersion>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,20 +41,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp">
-    </Reference>
-    <Reference Include="System">
-    </Reference>
-    <Reference Include="System.Core">
-    </Reference>
-    <Reference Include="System.Drawing">
-    </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
-    </Reference>
-    <Reference Include="System.Data">
-    </Reference>
-    <Reference Include="System.Xml">
-    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +64,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Collections\DictionaryList.cs" />
+    <Compile Include="Collections\TwoKeyDictionary.cs" />
     <Compile Include="Communication\CommunicationHandler.cs" />
     <Compile Include="Communication\ICommunicationReceiver.cs" />
     <Compile Include="Communication\Interface\InterfaceHandler.cs" />
@@ -90,6 +83,9 @@
     <Compile Include="Comparers\FileInfoComparer.cs" />
     <Compile Include="Comparers\ReversableComparer.cs" />
     <Compile Include="Config\ConfigFileHandler.cs" />
+    <Compile Include="IniFileHandler.cs" />
+    <Compile Include="Location\AScummVMLocationHandler.cs" />
+    <Compile Include="Location\Holders\LocationScummVMHandler.cs" />
     <Compile Include="SubmitHandler.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -176,9 +172,8 @@
       <Link>7z.exe</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\Graphics\masgau.ico">
-      <Link>masgau.ico</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="masgau.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

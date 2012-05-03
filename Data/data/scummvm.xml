@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
+  <!--This file contains games that are run through the ScummVM project-->
+  <game name="BeneathASteelSky" platform="ScummVM">
+    <title>Beneath a Steel Sky</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Beneath a Steel Sky"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBENEATH" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Beneath a Steel Sky\Beneath a Steel Sky.lnk" detract="ScummVM"/>
+    <identifier filename="SKY-VM.*"/>
+    <save filename="SKY-VM.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="BrokenSword1" platform="ScummVM">
+    <title>Broken Sword: The Shadow of the Templars</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Broken Sword - The Shadow of the Templars"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD1" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Broken Sword - The Shadow of the Templars\Broken Sword - The Shadow of the Templars\Broken Sword - The Shadow of the Templars.lnk" detract="ScummVM"/>
+    <save filename="sword1.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="BrokenSword2" platform="ScummVM">
+    <title>Broken Sword II: The Smoking Mirror</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Broken Sword II - The Smoking Mirror"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Broken Sword II - The Smoking Mirror\Broken Sword II - The Smoking Mirror.lnk" detract="ScummVM"/>
+    <save filename="bsword2.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="FeebleFiles" platform="ScummVM">
+    <title>The Feeble Files</title>
+    <location_path environment_variable="installlocation" path="GOG.com\The Feeble Files"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGFEBBLEFILES" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\The Feeble Files\The Feeble Files.lnk" detract="ScummVM"/>
+    <save filename="feeble.0??"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Gobliins2" platform="ScummVM">
+    <title>Gobliins 2</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Gobliiins Pack\Gobliins2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGOBLINS2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Gobliiins Pack\Gobliiins\Gobliiins.lnk" append="Gobliins2" detract="ScummVM"/>
+    <save filename="gobliins2.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="Gobliins2Floppy" platform="ScummVM">
+    <title>Gobliins 2 Floppy</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Gobliiins Pack\Gobliins2 Floppy"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGOBLINS2FDD" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Gobliiins Pack\Gobliiins\Gobliiins (Floppy Verion).lnk" append="Gobliins2 Floppy" detract="ScummVM"/>
+    <save filename="gobliins2FDD.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="GoblinsQuest3" platform="ScummVM">
+    <title>Goblins Quest 3</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Gobliiins Pack\Goblins3"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGOBLINS3" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Gobliiins Pack\Goblins Quest 3\Goblins Quest 3.lnk" append="Goblins3" detract="ScummVM"/>
+    <save filename="goblins3.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="GoblinsQuest3Floppy" platform="ScummVM">
+    <title>Goblins Quest 3 Floppy</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Gobliiins Pack\Goblins3 Floppy"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGGOBLINS3FDD" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Gobliiins Pack\Goblins Quest 3\Goblins Quest 3 (Floppy Verion).lnk" append="Goblins3 Floppy" detract="ScummVM"/>
+    <save filename="goblins3FDD.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="LureOfTheTemptress" platform="ScummVM">
+    <title>Lure of the Temptress</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Lure of the Temptress"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGLURE" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Lure of the Temptress\Lure of the Temptress.lnk"/>
+    <location_scummvm name="lure" />
+    <save filename="lure.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SimonTheSorcerer" platform="ScummVM">
+    <title>Simon the Sorcerer</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Simon the Sorcerer"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIMON" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Simon the Sorcerer\Simon the Sorcerer.lnk" detract="ScummVM"/>
+    <save filename="simon1.0*"/>
+    <save filename="simon1.ini" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SimonTheSorcerer2" platform="ScummVM">
+    <title>Simon the Sorcerer 2</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Simon the Sorcerer 2"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIMON2" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Simon the Sorcerer 2\Simon the Sorcerer 2.lnk" detract="ScummVM"/>
+    <save filename="simon2.0*"/>
+    <save filename="simon2.ini" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+</games>

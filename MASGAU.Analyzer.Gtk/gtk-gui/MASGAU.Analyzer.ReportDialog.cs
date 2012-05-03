@@ -10,7 +10,7 @@ namespace MASGAU.Analyzer
 		private global::Gtk.Button saveButton;
 		private global::Gtk.Button uploadButton;
 		private global::Gtk.Button closebutton;
-        
+		
 		protected virtual void Build ()
 		{
 			global::Stetic.Gui.Initialize (this);

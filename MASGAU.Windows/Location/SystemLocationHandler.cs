@@ -166,7 +166,7 @@ namespace MASGAU.Location {
 			    TP.Privileges.luid = RestoreLuid;
 			    retval = AdjustTokenPrivileges(token, 0, ref TP, TP.Size(),ref oldPriveleges,ref return_length);
                 if(retval==0)
-                    throw new MException("User Load Error","Error while trying to change process restore permission for reading other users", "Error code " + retval, true);
+                    throw new MException(Strings.get("UserLoadError"), Strings.get("ProcessRestorePermissionError"), "Error code " + retval, true);
 
 			    retval = LookupPrivilegeValue(null, SE_BACKUP_NAME, ref BackupLuid);
 			    TP2.PrivilegeCount = 1;
@@ -174,7 +174,7 @@ namespace MASGAU.Location {
 			    TP2.Privileges.luid = BackupLuid;
 			    retval = AdjustTokenPrivileges(token, 0, ref TP2, TP2.Size(),ref oldPriveleges,ref return_length);
                 if(retval==0)
-                    throw new MException("User Load Error","Error while trying to change process backup permission for reading other users","Error code " + retval, true);
+                    throw new MException(Strings.get("UserLoadError"), Strings.get("ProcessBackupPermissionError"), "Error code " + retval, true);
 			
 			
                 Console.WriteLine(retval);
@@ -199,7 +199,7 @@ namespace MASGAU.Location {
                         continue;
 
                     if(h!=0)
-                        throw new MException("User Load Error","Error while trying to load the registry file for user " + user_folder.Name,"Error code " + h, true);
+                        throw new MException(Strings.get("UserLoadError"), Strings.get("UserRegistryLoadError") + " " + user_folder.Name, "Error code " + h, true);
 
                     //sub_key = new RegistryHandler(hKey);
                     //sub_key = new RegistryHandler(RegRoot.users,user_folder.Name,false);
@@ -315,6 +315,17 @@ namespace MASGAU.Location {
             }
         }
 
+        public static LocationPathHolder translateToVirtualStore(string path)
+        {
+            LocationPathHolder virtualstore_info = new LocationPathHolder();
+            virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
+
+
+            virtualstore_info.path = Path.Combine("VirtualStore", path.Substring(2).Trim(Path.DirectorySeparatorChar));
+
+            return virtualstore_info;
+        }
+
         protected override List<DetectedLocationPathHolder> getPaths(LocationPathHolder get_me) {
             //if(get_me.rel_root!= EnvironmentVariable.Public)
                // return new List<DetectedLocationPathHolder>();
@@ -342,8 +353,8 @@ namespace MASGAU.Location {
                     // that may or may not use the VirtualStore
                     if(!get_me.override_virtual_store&&platform_version== PlatformVersion.Vista) {
                         LocationPathHolder virtualstore_info = new LocationPathHolder(get_me);
-
                         virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
+
                         if(x64) {
                             virtualstore_info.path = Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFilesX86).Substring(3), virtualstore_info.path);
                             return_me.AddRange(getPaths(virtualstore_info));

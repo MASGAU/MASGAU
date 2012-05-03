@@ -19,7 +19,7 @@
         </Grid.RowDefinitions>
         <TabControl Grid.ColumnSpan="3" IsHitTestVisible="True" Margin="0,-23,0,0" Name="tabControl1" Padding="0">
             <TabItem Header="Detecting" IsTabStop="False" Name="tabItem1">
-                <GroupBox Header="groupBox1" Margin="5" Name="groupBox1">
+                <GroupBox Margin="5" Name="groupBox1">
                     <ProgressBar Height="23" Name="restoreProgress" />
                 </GroupBox>
             </TabItem>

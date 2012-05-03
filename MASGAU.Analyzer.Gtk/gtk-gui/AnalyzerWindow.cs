@@ -40,13 +40,13 @@ public partial class AnalyzerWindow
 	private global::MASGAU.Entry emailEntry;
 	private global::Gtk.Label emailLabel;
 	private global::Gtk.Label settingsLabel;
-    
+	
 	protected virtual void Build ()
 	{
 		global::Stetic.Gui.Initialize (this);
 		// Widget AnalyzerWindow
 		this.Name = "AnalyzerWindow";
-		this.Title = global::Mono.Unix.Catalog.GetString ("MASGAU Analyzer");
+		this.Title = global::Mono.Unix.Catalog.GetString ("AnalyzerWindowTitle");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 		this.Resizable = false;
 		this.AllowGrow = false;
@@ -72,6 +72,7 @@ public partial class AnalyzerWindow
 		this.frame2.Add (this.GtkAlignment);
 		this.gameNameLbl = new global::Gtk.Label ();
 		this.gameNameLbl.Name = "gameNameLbl";
+		this.gameNameLbl.LabelProp = global::Mono.Unix.Catalog.GetString ("GameNameQuestion");
 		this.gameNameLbl.UseMarkup = true;
 		this.frame2.LabelWidget = this.gameNameLbl;
 		this.vbox1.Add (this.frame2);
@@ -97,7 +98,7 @@ public partial class AnalyzerWindow
 		this.GtkAlignment1.Name = "GtkAlignment1";
 		this.GtkAlignment1.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment1.Gtk.Container+ContainerChild
-		this.installLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select a File"), ((global::Gtk.FileChooserAction)(2)));
+		this.installLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select A File"), ((global::Gtk.FileChooserAction)(2)));
 		this.installLocation.Name = "installLocation";
 		this.installLocation.LocalOnly = false;
 		this.installLocation.ShowHidden = true;
@@ -105,6 +106,7 @@ public partial class AnalyzerWindow
 		this.frame3.Add (this.GtkAlignment1);
 		this.gameLocationLbl = new global::Gtk.Label ();
 		this.gameLocationLbl.Name = "gameLocationLbl";
+		this.gameLocationLbl.LabelProp = global::Mono.Unix.Catalog.GetString ("GameInstallQuestion");
 		this.gameLocationLbl.UseMarkup = true;
 		this.frame3.LabelWidget = this.gameLocationLbl;
 		this.vbox3.Add (this.frame3);
@@ -129,6 +131,7 @@ public partial class AnalyzerWindow
 		this.frame4.Add (this.GtkAlignment2);
 		this.saveLocationLbl = new global::Gtk.Label ();
 		this.saveLocationLbl.Name = "saveLocationLbl";
+		this.saveLocationLbl.LabelProp = global::Mono.Unix.Catalog.GetString ("GameSavesQuestion");
 		this.saveLocationLbl.UseMarkup = true;
 		this.frame4.LabelWidget = this.saveLocationLbl;
 		this.vbox3.Add (this.frame4);
@@ -153,6 +156,8 @@ public partial class AnalyzerWindow
 		w11.Add (w12);
 		// Container child GtkHBox.Gtk.Container+ContainerChild
 		global::Gtk.Label w14 = new global::Gtk.Label ();
+		w14.LabelProp = global::Mono.Unix.Catalog.GetString ("ScanButton");
+		w14.UseUnderline = true;
 		w11.Add (w14);
 		w10.Add (w11);
 		this.scanBtn.Add (w10);
@@ -165,7 +170,7 @@ public partial class AnalyzerWindow
 		// Notebook tab
 		this.linuxLabel = new global::Gtk.Label ();
 		this.linuxLabel.Name = "linuxLabel";
-		this.linuxLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("page1");
+		this.linuxLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("Linux");
 		this.notebook1.SetTabLabel (this.vbox3, this.linuxLabel);
 		this.linuxLabel.ShowAll ();
 		// Container child notebook1.Gtk.Notebook+NotebookChild
@@ -217,6 +222,7 @@ public partial class AnalyzerWindow
 		this.frame1.Add (this.GtkAlignment4);
 		this.codeLabel = new global::Gtk.Label ();
 		this.codeLabel.Name = "codeLabel";
+		this.codeLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("PlayStationCodeQuestion");
 		this.codeLabel.UseMarkup = true;
 		this.frame1.LabelWidget = this.codeLabel;
 		this.vbox2.Add (this.frame1);
@@ -233,7 +239,7 @@ public partial class AnalyzerWindow
 		this.GtkAlignment5.Name = "GtkAlignment5";
 		this.GtkAlignment5.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment5.Gtk.Container+ContainerChild
-		this.psLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select a File"), ((global::Gtk.FileChooserAction)(2)));
+		this.psLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select A File"), ((global::Gtk.FileChooserAction)(2)));
 		this.psLocation.Name = "psLocation";
 		this.psLocation.LocalOnly = false;
 		this.psLocation.ShowHidden = true;
@@ -241,6 +247,7 @@ public partial class AnalyzerWindow
 		this.frame5.Add (this.GtkAlignment5);
 		this.psLocationLabel = new global::Gtk.Label ();
 		this.psLocationLabel.Name = "psLocationLabel";
+		this.psLocationLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("PlayStationLocationQuestion");
 		this.psLocationLabel.UseMarkup = true;
 		this.frame5.LabelWidget = this.psLocationLabel;
 		this.vbox2.Add (this.frame5);
@@ -265,7 +272,7 @@ public partial class AnalyzerWindow
 		w30.Add (w31);
 		// Container child GtkHBox.Gtk.Container+ContainerChild
 		global::Gtk.Label w33 = new global::Gtk.Label ();
-		w33.LabelProp = global::Mono.Unix.Catalog.GetString ("GtkButton");
+		w33.LabelProp = global::Mono.Unix.Catalog.GetString ("PlayStationScanButton");
 		w33.UseUnderline = true;
 		w30.Add (w33);
 		w29.Add (w30);
@@ -281,7 +288,7 @@ public partial class AnalyzerWindow
 		// Notebook tab
 		this.psLabel = new global::Gtk.Label ();
 		this.psLabel.Name = "psLabel";
-		this.psLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("page2");
+		this.psLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("PlayStation");
 		this.notebook1.SetTabLabel (this.vbox2, this.psLabel);
 		this.psLabel.ShowAll ();
 		// Container child notebook1.Gtk.Notebook+NotebookChild
@@ -304,6 +311,7 @@ public partial class AnalyzerWindow
 		this.frame6.Add (this.GtkAlignment7);
 		this.emailLabel = new global::Gtk.Label ();
 		this.emailLabel.Name = "emailLabel";
+		this.emailLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("EmailAddress");
 		this.emailLabel.UseMarkup = true;
 		this.frame6.LabelWidget = this.emailLabel;
 		this.vbox6.Add (this.frame6);
@@ -317,7 +325,7 @@ public partial class AnalyzerWindow
 		// Notebook tab
 		this.settingsLabel = new global::Gtk.Label ();
 		this.settingsLabel.Name = "settingsLabel";
-		this.settingsLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("page3");
+		this.settingsLabel.LabelProp = global::Mono.Unix.Catalog.GetString ("Settings");
 		this.notebook1.SetTabLabel (this.vbox6, this.settingsLabel);
 		this.settingsLabel.ShowAll ();
 		this.vbox1.Add (this.notebook1);

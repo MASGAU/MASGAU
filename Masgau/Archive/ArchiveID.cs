@@ -7,6 +7,7 @@ namespace MASGAU.Archive {
         public readonly String owner;
         public readonly GameID game;
         public readonly String type;
+        public readonly String original_path = null;
 
         public ArchiveID(GameID game, String owner, String type) {
             this.game = game;

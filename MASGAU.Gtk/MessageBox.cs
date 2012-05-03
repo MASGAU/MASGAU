@@ -12,8 +12,8 @@ namespace MASGAU
         private EmailHandler email;
         public MessageBox(string title, string message, AWindow owner): base(owner) {
 			this.Build ();
-			this.submitButton.Label = Strings.get("Submit");
-			exceptionLabel.Text = Strings.get("ExceptionInformation");
+			GTKHelpers.translateWindow(this);
+
             this.Title = title;
 			messageLabel.Text = message;
 			

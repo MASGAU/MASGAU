@@ -1,0 +1,32 @@
+[scummvm]
+mute=false
+speech_volume=192
+native_mt32=false
+midi_gain=100
+talkspeed=60
+mt32_device=null
+subtitles=false
+multi_midi=false
+fullscreen=false
+gm_device=null
+sfx_volume=192
+music_volume=192
+speech_mute=false
+lastselectedgame=lure
+music_driver=auto
+disable_dithering=false
+opl_driver=auto
+aspect_ratio=false
+versioninfo=1.4.1
+autosave_period=300
+enable_gs=false
+
+[lure]
+platform=pc
+gameid=lure
+description=Lure of the Temptress (VGA/DOS/English)
+language=en
+extra=VGA
+path=/Users/tkmayn9/Downloads/lure
+guioptions=sndNoSpeech lang_English
+
