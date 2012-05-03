@@ -151,12 +151,16 @@ namespace Translations {
         }
 
         public static string getInterfaceString(string name) {
+            if (name == null)
+                return "";
+
             if(name.StartsWith("$")) {
                 name = name.TrimStart('$');
                 return get(name);
             } else {
                 switch(name) {
                     case "-":
+                    case ":":
                         return name;
                     default :
                         return name;

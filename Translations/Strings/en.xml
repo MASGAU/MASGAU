@@ -34,6 +34,7 @@
   <string name="Games">Games</string>
 
   <string name="About">About</string>
+  <string name="Other">Other</string>
   
   <!-- Button stuff (the underlines are for key combos, so choose letters wisely) -->
   <string name="SelectButton">_Select</string>
@@ -278,6 +279,10 @@
   <string name="FullBackupOnMonitorStartup">Full Backup On Monitor Startup</string>
 
   <string name="AboutWindowCloseButton">Um...Okay. _Thanks For That.</string>
+
+  <string name="EnableBackup">Enable Backup</string>
+  <string name="EnableSync">Enable Sync</string>
+  
   
   <!-- Analyzer-specific strings -->
   <string name="AnalyzerWindowTitle">Save Game Analyzer</string>
