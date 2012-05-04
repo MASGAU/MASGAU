@@ -92,7 +92,7 @@ namespace MASGAU.Location.Holders {
                 }
             }
             catch (Exception e) {
-                throw new Translations.TranslateableException("DeleteError", e, full_dir_path);
+                throw new Translator.TranslateableException("DeleteError", e, full_dir_path);
             }
         }
     }

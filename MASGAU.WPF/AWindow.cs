@@ -18,7 +18,8 @@ using System.Threading;
 using System.Windows.Threading;
 using System.IO;
 using MASGAU.Backup;
-using Translations;
+using Translator;
+using Translator.WPF;
 namespace MASGAU
 {
 
@@ -50,7 +51,7 @@ namespace MASGAU
             } else {
                 this.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             }
-
+            #region Jumplist stuff
             // Jumplist setup
             JumpList masgau_jump_list = JumpList.GetJumpList(Application.Current);
             if(masgau_jump_list==null) {
@@ -67,8 +68,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Main.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = Strings.get("JumpMainProgram");
-            masgau_jump.Description = Strings.get("JumpMainProgramDescription");
+            masgau_jump.Title = Strings.getGeneralString("JumpMainProgram");
+            masgau_jump.Description = Strings.getGeneralString("JumpMainProgramDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
 
@@ -76,8 +77,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Main.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = Strings.get("JumpMainProgramAllUsers");
-            masgau_jump.Description = Strings.get("JumpMainProgramAllUsersDescription");
+            masgau_jump.Title = Strings.getGeneralString("JumpMainProgramAllUsers");
+            masgau_jump.Description = Strings.getGeneralString("JumpMainProgramAllUsersDescription");
             masgau_jump.Arguments = "-allusers";
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
@@ -86,8 +87,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Analyzer.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = Strings.get("JumpAnalyzer");
-            masgau_jump.Description = Strings.get("JumpAnalyzerDescription");
+            masgau_jump.Title = Strings.getGeneralString("JumpAnalyzer");
+            masgau_jump.Description = Strings.getGeneralString("JumpAnalyzerDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
             
@@ -95,13 +96,13 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Monitor.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = Strings.get("JumpMonitor");
-            masgau_jump.Description = Strings.get("JumpMonitorDescription");
+            masgau_jump.Title = Strings.getGeneralString("JumpMonitor");
+            masgau_jump.Description = Strings.getGeneralString("JumpMonitorDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
 
             masgau_jump_list.Apply();
-
+            #endregion
 
         }
 
@@ -161,7 +162,7 @@ namespace MASGAU
             this.suppress_message = suppress_message;
             BackgroundWorker update = new BackgroundWorker();
             Core.updater = new Update.UpdatesHandler();
-            old_progress = ProgressHandler.message;
+            ProgressHandler.saveMessage();
             update.DoWork += new DoWorkEventHandler(update_DoWork);
             update.RunWorkerCompleted += new RunWorkerCompletedEventHandler(update_RunWorkerCompleted);
             update.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
@@ -169,7 +170,11 @@ namespace MASGAU
             disableInterface();
             update.RunWorkerAsync();
         }
-
+        void resetStatus(object sender, RunWorkerCompletedEventArgs e)
+        {
+            ProgressHandler.value = 0;
+            ProgressHandler.restoreMessage();
+        }
         protected virtual void update_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             if(Core.updater.shutdown_required) {
@@ -193,7 +198,7 @@ namespace MASGAU
         protected void beginRestore(List<ArchiveHandler> archives) {
             this.Visibility = System.Windows.Visibility.Hidden;
 
-            if(archives.Count>1&&this.askTranslatedQuestion("RestoreMultipleArchives")) {
+            if(archives.Count>1&&TranslationHelpers.askTranslatedQuestion(this,"RestoreMultipleArchives")) {
                 Restore.RestoreProgramHandler.use_defaults = true;
             }
 
@@ -213,7 +218,7 @@ namespace MASGAU
                 foreach(string failed in Restore.RestoreProgramHandler.unsuccesfull_restores) {
                     fail_list.AppendLine(failed);
                 }
-                this.showError(Strings.get("RestoreSomeFailed"),fail_list.ToString());
+                this.showError(Strings.getGeneralString("RestoreSomeFailed"),fail_list.ToString());
             }
             this.Visibility = System.Windows.Visibility.Visible;
 
@@ -221,7 +226,7 @@ namespace MASGAU
 
         protected void redetectArchives() {
             disableInterface();
-            old_progress = ProgressHandler.message;
+            ProgressHandler.saveMessage();
             BackgroundWorker redetect = new BackgroundWorker();
             redetect.DoWork += new DoWorkEventHandler(redetectArchives);
             redetect.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
@@ -255,7 +260,6 @@ namespace MASGAU
         }
 
         private BackupProgramHandler backup;
-        private string old_progress;
         protected void cancelBackup() {
             if(backup!=null&&backup.IsBusy)
                 backup.CancelAsync();
@@ -273,7 +277,7 @@ namespace MASGAU
             startBackup(when_done);
         }
         private void startBackup(RunWorkerCompletedEventHandler when_done) {
-            old_progress = ProgressHandler.message;
+            ProgressHandler.saveMessage();
             backup.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(resetStatus);
             backup.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
             disableInterface();
@@ -308,7 +312,7 @@ namespace MASGAU
             string old_path = Core.settings.steam_path;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = false;
-            folderBrowser.Description = Strings.get("SelectSteamPath");
+            folderBrowser.Description = Strings.getGeneralString("SelectSteamPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -317,7 +321,7 @@ namespace MASGAU
                     if(Core.settings.steam_path==folderBrowser.SelectedPath||Core.settings.steam_path!=old_path)
                         return true;
                     else 
-                        showTranslatedWarning("SelectSteamPathRejected");
+                        TranslationHelpers.showTranslatedWarning(this,"SelectSteamPathRejected");
                 } else {
                     try_again = false;
                 }
@@ -330,7 +334,7 @@ namespace MASGAU
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = Strings.get("SelectBackupPath");
+            folderBrowser.Description = Strings.getGeneralString("SelectBackupPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -341,11 +345,11 @@ namespace MASGAU
                             Core.settings.backup_path = new_path;
                             return new_path!=old_path;
                         } else {
-                            showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectBackupPathWriteError") + ":" + Environment.NewLine + new_path);
+                            TranslationHelpers.showTranslatedError(this, "SelectBackupPathWriteError");
                             try_again = true;
                         }
                     } else {
-                        showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectBackupPathReadError") + ":" + Environment.NewLine + new_path);
+                        TranslationHelpers.showTranslatedError(this, "SelectBackupPathReadError");
                         try_again = true;
                     }
                 } else {
@@ -359,7 +363,7 @@ namespace MASGAU
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = Strings.get("SelectSyncPath");
+            folderBrowser.Description = Strings.getGeneralString("SelectSyncPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -372,11 +376,11 @@ namespace MASGAU
                                 Core.rebuild_sync = true;
                             return new_path!=old_path;
                         } else {
-                            showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectSyncPathWriteError") + ":" + Environment.NewLine + new_path);
+                            TranslationHelpers.showTranslatedError(this,"SelectSyncPathWriteError");
                             try_again = true;
                         }
                     } else {
-                        showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectSyncPathReadError") + ":" + Environment.NewLine + new_path);
+                            TranslationHelpers.showTranslatedError(this,"SelectSyncPathReadError");
                         try_again = true;
                     }
                 } else {

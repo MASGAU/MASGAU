@@ -6,9 +6,9 @@ using System.ComponentModel;
 using System.IO;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Progress;
-using Translations;
-
+using Communication.Progress;
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Analyzer
 {
     public abstract class AAnalyzerProgramHandler<L> : AProgramHandler<L> where L : ALocationsHandler
@@ -84,7 +84,7 @@ namespace MASGAU.Analyzer
 		}
 		
         public AAnalyzerProgramHandler(Interface iface):base(iface)  {
-            _program_title.Append(" " + Strings.get("AnalyzerWindowTitle"));
+            _program_title += " " + Strings.get("AnalyzerWindowTitle");
 			
 			switch(iface) {
 			case Interface.WPF:
@@ -143,7 +143,7 @@ namespace MASGAU.Analyzer
 		{
             try {
 				ProgressHandler.value++;
-				ProgressHandler.message = Strings.get("DumpingSaveFolder");
+                TranslatingProgressHandler.setTranslatedMessage("DumpingSaveFolder");
                 parseSaveFolder();
             }
             catch (Exception ex) {
@@ -154,7 +154,7 @@ namespace MASGAU.Analyzer
             if (_gamePath!=null) {
                 try {
 					ProgressHandler.value++;
-					ProgressHandler.message = Strings.get("DumpingInstallFolder");
+                    TranslatingProgressHandler.setTranslatedMessage("DumpingInstallFolder");
                     parseInstallFolder();
                 }
                 catch (Exception ex) {
@@ -226,9 +226,9 @@ namespace MASGAU.Analyzer
         public static string last_save_path = null;
 		protected override void doWork (object sender, DoWorkEventArgs e)
 		{
-            ProgressHandler.message = Strings.get("LoadingSettings");
+            TranslatingProgressHandler.setTranslatedMessage("LoadingSettings");
 			base.doWork (sender, e);
-			ProgressHandler.message = null;
+			ProgressHandler.clearMessage();
 		}
 		
 		#region Helpers

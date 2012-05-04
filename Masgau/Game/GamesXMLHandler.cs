@@ -10,7 +10,7 @@ using Communication;
 using Communication.Progress;
 using Communication.Message;
 using Communication.Translator;
-using Translations;
+using Translator;
 namespace MASGAU.Game
 {
     public class GamesXMLHandler

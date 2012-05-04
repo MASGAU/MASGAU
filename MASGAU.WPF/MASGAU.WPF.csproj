@@ -78,11 +78,6 @@
   <ItemGroup>
     <Compile Include="Application.cs" />
     <Compile Include="AProgramWindow.cs" />
-    <Compile Include="CheckedTreeViewItem.cs" />
-    <Compile Include="CheckedTreeViewModel.cs" />
-    <Compile Include="EmailWindow.xaml.cs">
-      <DependentUpon>EmailWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -101,10 +96,6 @@
     <Compile Include="WPFHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="EmailWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="RestoreWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -122,6 +113,10 @@
     <Resource Include="Images\dialog-error.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Communication.Translator\Communication.Translator.csproj">
+      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
+      <Name>Communication.Translator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Communication.WPF\Communication.WPF.csproj">
       <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
       <Name>Communication.WPF</Name>
@@ -129,6 +124,14 @@
     <ProjectReference Include="..\Communication\Communication.csproj">
       <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
       <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Email\Email.csproj">
+      <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
+      <Name>Email</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.Main\MASGAU.Main.csproj">
       <Project>{200C1855-FBC7-4133-A5DD-0B1C32B75121}</Project>
@@ -146,9 +149,17 @@
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Translations\Translations.csproj">
-      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
-      <Name>Translations</Name>
+    <ProjectReference Include="..\MVC\MVC.csproj">
+      <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translator.WPF\Translator.WPF.csproj">
+      <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
+      <Name>Translator.WPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

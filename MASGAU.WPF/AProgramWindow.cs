@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel;
-using Translations;
+using Translator;
 namespace MASGAU
 {
     public abstract class AProgramWindow: AWindow
@@ -41,7 +41,7 @@ namespace MASGAU
             if(!Core.initialized) {
                 this.enableInterface();
                 this.Close();
-                throw new CommunicatableException(Strings.get("Error"),Strings.get("SettingsLoadError"),false);
+                throw new TranslateableException("SettingsLoadError");
             }
             this.Title = program_handler.program_title;
         }

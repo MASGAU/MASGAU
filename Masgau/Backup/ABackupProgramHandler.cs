@@ -13,7 +13,7 @@ using Communication;
 using Communication.Message;
 using Communication.Progress;
 using Collections;
-
+using Communication.Translator;
 namespace MASGAU.Backup
 {
     public class ABackupProgramHandler<L> : AProgramHandler<L> where L : ALocationsHandler
@@ -53,7 +53,8 @@ namespace MASGAU.Backup
                 try {    
                     delete_me.Delete();
                 } catch(Exception ex) {
-                    MessageHandler.SendError("DeleteError",ex, delete_me.Name);
+
+                    TranslatingMessageHandler.SendError("DeleteError", ex, delete_me.Name);
                 }
             }
         }
@@ -81,7 +82,7 @@ namespace MASGAU.Backup
                 if (games.Count> 0) {
                     ProgressHandler.value = 1;
                     ProgressHandler.max = games.Count;
-                    ProgressHandler.setTranslatedMessage("GamesToBeBackedUpCount", games.Count.ToString());
+                    TranslatingProgressHandler.setTranslatedMessage("GamesToBeBackedUpCount", games.Count.ToString());
 
 
                     foreach(GameHandler game in games) {
@@ -92,9 +93,9 @@ namespace MASGAU.Backup
                             //all_users_archive = new ArchiveHandler(new FileInfo(archive_name_override),game.id);
 
                         if(games.Count==1) {
-                            ProgressHandler.setTranslatedMessage("BackingUpSingleGame", game.title);
+                            TranslatingProgressHandler.setTranslatedMessage("BackingUpSingleGame", game.title);
                         } else {
-                            ProgressHandler.setTranslatedMessage("BackingUpMultipleGames", ProgressHandler.value.ToString(),games.Count.ToString(), game.title);
+                            TranslatingProgressHandler.setTranslatedMessage("BackingUpMultipleGames", ProgressHandler.value.ToString(), games.Count.ToString(), game.title);
                         }
 
                         List<DetectedFile> files;
@@ -151,10 +152,10 @@ namespace MASGAU.Backup
                         }
                     }
                 } else {
-                    MessageHandler.SendError("It feels like there's","Nothing at all to back up");
+                    TranslatingMessageHandler.SendError("NothingToBackup");
                 }
             } else {
-                MessageHandler.SendError("Can't continue","Backup path not set. Please set it from the main program.");
+                TranslatingMessageHandler.SendError("BackupPathNotSet");
             }
         }
 

@@ -7,10 +7,11 @@ using System.Threading;
 using Microsoft.Win32;
 using System.Diagnostics;
 using MASGAU.Location;
-using MASGAU.Communication.Progress;
+using Communication.Progress;
+using Communication.Translator;
 using MASGAU.Game;
 using System.ComponentModel;
-
+using Translator;
 namespace MASGAU.Main
 {
     public class AMainProgramHandler<L> : AProgramHandler<L> where L : ALocationsHandler
@@ -18,12 +19,12 @@ namespace MASGAU.Main
         public bool         disable_resize = false;
        
         public AMainProgramHandler(Interface new_iface): base(new_iface) {
-            _program_title.Append(" v." + Core.version);
+            _program_title += " v." + Core.version.ToString();
 
             if (all_users_mode)
-                _program_title.Append(" - All Users Mode");
+                _program_title += " - " + Strings.getGeneralString("AllUsersMode");
             else
-                _program_title.Append(" - Single User Mode");
+                _program_title += " - " + Strings.getGeneralString("SingleUserMode");
 
         }
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e)
@@ -34,7 +35,7 @@ namespace MASGAU.Main
                 return;
 
             if(Core.settings.auto_update&&!Core.settings.already_updated) {
-                ProgressHandler.message = "Checking For Updates...";
+                TranslatingProgressHandler.setTranslatedMessage("CheckingForUpdates");
                 Core.updater.checkUpdates(false,true);
             } 
             if(Core.updater.redetect_required) {
@@ -52,8 +53,6 @@ namespace MASGAU.Main
 
             Core.games.detectGames();
 
-            string temp = ProgressHandler.message;
-            ProgressHandler.message = temp;
         }
 
 

@@ -11,10 +11,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MASGAU.Communication.Message;
+using Communication.Message;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using Translations;
+using Translator;
 
 namespace MASGAU
 {

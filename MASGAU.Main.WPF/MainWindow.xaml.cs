@@ -16,7 +16,7 @@ using MASGAU.Archive;
 using MASGAU.Game;
 using MASGAU.Communication.Progress;
 using MASGAU.Communication.Message;
-using Translations;
+using Translator;
 namespace MASGAU.Main
 {
     /// <summary>

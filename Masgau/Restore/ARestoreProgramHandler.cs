@@ -12,7 +12,7 @@ using MASGAU.Game;
 using Communication;
 using Communication.Progress;
 using Communication.Translator;
-using Translations;
+using Translator;
 namespace MASGAU.Restore
 {
     public class ARestoreProgramHandler<L>: AProgramHandler<L> where L: ALocationsHandler
@@ -31,7 +31,8 @@ namespace MASGAU.Restore
         }
 
         public ARestoreProgramHandler(Interface new_interface, ArchiveHandler archive): base(new_interface) {
-            this._program_title.Append(Strings.getGeneralString("IsRestoring"));
+            this._program_title = Strings.getGeneralString("IsRestoring",
+                this._program_title.ToString());
             this.archive = archive;
         }
 
@@ -155,7 +156,7 @@ namespace MASGAU.Restore
             } else if(path_candidates.Count>1) {
                 multiple_paths = true;
             } else {
-                throw new CommunicatableException("Can't Restore If We Can't Find It","No restore paths detected for " + this.archive.id.ToString(),false);
+                throw new TranslateableException("NoRestorePathsDetected",this.archive.id.ToString());
             }
         }
         public bool _user_needed = false;
@@ -250,7 +251,7 @@ namespace MASGAU.Restore
                         user_needed = false;
                         break;
                     default:
-                        throw new CommunicatableException("User Error","The environment variable " + location.rel_root + " requires a user to restore to, but none was detected for it. Try creating a save with a game that you know uses the folder.",false);
+                        throw new TranslateableException("NoUsersForEV", location.rel_root.ToString() );
                 }
 
             }

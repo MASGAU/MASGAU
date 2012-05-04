@@ -8,8 +8,9 @@ using Microsoft.Win32;
 using MASGAU.Registry;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Progress;
-using Translations;
+using Communication.Progress;
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Analyzer {
     public class AnalyzerProgramHandler: AAnalyzerProgramHandler<Location.LocationsHandler> {
         public AnalyzerProgramHandler():base(MASGAU.Interface.WPF)  {
@@ -42,8 +43,7 @@ namespace MASGAU.Analyzer {
 
         protected override void parseInstallFolder() {
             base.parseInstallFolder();
-            
-            ProgressHandler.message = Strings.get("DumpingVirtualStoreFolder");
+            TranslatingProgressHandler.setTranslatedMessage("DumpingVirtualStoreFolder");
             if (Core.locations.uac_enabled) {
                 output.AppendLine(Environment.NewLine + "UAC Enabled" + Environment.NewLine);
                 output.AppendLine(Environment.NewLine + "VirtualStore Folders: ");
@@ -75,7 +75,7 @@ namespace MASGAU.Analyzer {
             if (analyzer.CancellationPending)
                 return;
 
-            ProgressHandler.message = Strings.get("ScanningLocalMachineRegistry");
+            TranslatingProgressHandler.setTranslatedMessage("ScanningLocalMachineRegistry");
             output.AppendLine("Local Machine Registry Entries: ");
             RegistryKey look_here = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE");
             registryTraveller(look_here);
@@ -84,7 +84,7 @@ namespace MASGAU.Analyzer {
                 return;
             output.AppendLine("Current User Registry Entries: ");
             ProgressHandler.value++;
-            ProgressHandler.message = Strings.get("ScanningCurrentUserRegistry");
+            TranslatingProgressHandler.setTranslatedMessage("ScanningCurrentUserRegistry");
             look_here = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("Software");
             registryTraveller(look_here);
         }
@@ -128,7 +128,7 @@ namespace MASGAU.Analyzer {
 
             if (analyzer.CancellationPending)
                 return;
-            ProgressHandler.message = Strings.get("ScanningStartMenu");
+            TranslatingProgressHandler.setTranslatedMessage("ScanningStartMenu");
             output.AppendLine(Environment.NewLine + "Detected Start Menu Shortcuts: ");
 
             string start_menu = Environment.GetFolderPath(Environment.SpecialFolder.StartMenu);

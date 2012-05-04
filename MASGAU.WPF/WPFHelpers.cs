@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Translations;
+using Translator;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows;
+using Translator.WPF;
 namespace MASGAU {
     public class WPFHelpers {
         public static bool addAltPath(AWindow window) {
             string new_path;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = Strings.get("SelectAltPath");
+            folderBrowser.Description = Strings.getGeneralString("SelectAltPath");
             bool try_again = false;
             do {
                 if(folderBrowser.ShowDialog(window.GetIWin32Window())== System.Windows.Forms.DialogResult.OK) {
@@ -22,11 +23,11 @@ namespace MASGAU {
                             try_again = false;
                             return true;
                         }else {
-                            window.showTranslatedError("SelectAltPathDuplicate");
+                            TranslationHelpers.showTranslatedError(window, "SelectAltPathDuplicate");
                             try_again = true;
                         }
                     } else {
-                        window.showError(Strings.get("ReadWriteErrorTitle"),Strings.get("SelectAltPathReadError") + ":" + Environment.NewLine + new_path);
+                        TranslationHelpers.showTranslatedError(window, "SelectAltPathDuplicate");
                         try_again = true;
                     }
                 } else {

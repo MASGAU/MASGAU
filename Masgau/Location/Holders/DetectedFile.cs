@@ -56,7 +56,7 @@ namespace MASGAU.Location.Holders {
                 Directory.Delete(full_file_path, true);
             }
             catch (Exception e) {
-                throw new Translations.TranslateableException("DeleteError", e, full_file_path);
+                throw new Translator.TranslateableException("DeleteError", e, full_file_path);
             }
         }
     }

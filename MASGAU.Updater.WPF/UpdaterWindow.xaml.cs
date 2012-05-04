@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
 using MASGAU.Update;
-using Translations;
+using Translator;
 namespace MASGAU.Updater
 {
     /// <summary>

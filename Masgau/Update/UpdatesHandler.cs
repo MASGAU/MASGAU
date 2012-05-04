@@ -13,7 +13,8 @@ using Communication.Progress;
 using Communication.Message;
 using Communication.Request;
 using MVC;
-using Translations;
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Update
 {
 
@@ -62,7 +63,7 @@ namespace MASGAU.Update
                 }
 
             }
-            ProgressHandler.setTranslatedMessage("CheckingForUpdates");
+            TranslatingProgressHandler.setTranslatedMessage("CheckingForUpdates");
 
             foreach(UpdateHandler check_me in xml.xml_file_versions) {
                 this.Add(check_me);
@@ -137,7 +138,7 @@ namespace MASGAU.Update
                     }
                     continue;
                 } catch (XmlException e) {
-                    MessageHandler.SendWarning("UpdatesXmlFormatError", e);
+                    TranslatingMessageHandler.SendWarning("UpdatesXmlFormatError", e);
                     continue;
                 } finally {
                     reader.Close();
@@ -151,7 +152,7 @@ namespace MASGAU.Update
                 }
 
                 if(files_node==null) {
-                    MessageHandler.SendWarning("UpdatesXmlNoFilesTag",update_source);
+                    TranslatingMessageHandler.SendWarning("UpdatesXmlNoFilesTag",update_source);
                     continue;
                 }
 
@@ -165,7 +166,7 @@ namespace MASGAU.Update
                             if(element.HasAttribute("name")) {
                                 name = element.GetAttribute("name");
                             } else {
-                                MessageHandler.SendWarning("UpdatesXmlNoNameAttribute", update_source);
+                                TranslatingMessageHandler.SendWarning("UpdatesXmlNoNameAttribute", update_source);
                                 continue;
                             }
 
@@ -188,7 +189,7 @@ namespace MASGAU.Update
             }
 
             if(program.needs_update) {
-                if (!RequestHandler.Request(RequestType.Question, "ProgramUpdateAvailable", program.latest_version_urls[0]).cancelled)
+                if (!TranslatingRequestHandler.Request(RequestType.Question, "ProgramUpdateAvailable", program.latest_version_urls[0]).cancelled)
                 {
                     System.Diagnostics.Process.Start(program.latest_version_urls[0]);
                     shutdown_required = true;
@@ -212,7 +213,7 @@ namespace MASGAU.Update
 
             if(!update_available) {
                 if(!suppress_no_update_message) {
-                    MessageHandler.SendInfo("Not A Thing","No Updates Found");
+                    TranslatingMessageHandler.SendInfo("NoUpdatesFound");
                 }
                 return;
             }
@@ -222,7 +223,7 @@ namespace MASGAU.Update
             }
 
             if(File.Exists(Core.programs.updater)) {
-                if(!RequestHandler.Request(RequestType.Question,"MASGAU wishes to evolve","There are data updates available." + Environment.NewLine + "Would you like to update?").cancelled) {
+                if(!TranslatingRequestHandler.Request(RequestType.Question,"DataUpdatesAvailable").cancelled) {
                     ProcessStartInfo updater = new ProcessStartInfo();
                     updater.FileName = Core.programs.updater;
                     if(Core.portable_mode)

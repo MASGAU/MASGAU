@@ -2,7 +2,9 @@
 using System.Windows;
 using System.IO;
 using System.Text;
-using Translations;
+using Translator;
+using Email;
+using Translator.WPF;
 namespace MASGAU.Analyzer
 {
     /// <summary>
@@ -18,7 +20,7 @@ namespace MASGAU.Analyzer
 			InitializeComponent();
 			report = new_report;
             name = new_name;
-            WPFHelpers.translateWindow(this);
+            TranslationHelpers.translateWindow(this);
         }
 
 
@@ -36,7 +38,7 @@ namespace MASGAU.Analyzer
             //publishPermissionCheck.DataContext = Core.settings;
 
             email.checkAvailability(checkAvailabilityDone);
-            uploadBtn.Content = Strings.get("CheckingConnection");
+            uploadBtn.Content = Strings.getGeneralString("CheckingConnection");
         }
 
         private void checkAvailabilityDone(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
@@ -55,8 +57,8 @@ namespace MASGAU.Analyzer
         {
             System.Windows.Forms.SaveFileDialog save = new System.Windows.Forms.SaveFileDialog();
             save.DefaultExt = "txt";
-            save.Filter = Strings.get("TxtFileDescriptionPlural") + "|*.txt|" + Strings.get("AllFileDescriptionPlural") +"|*";
-            save.Title = Strings.get("SaveReportQuestion");
+            save.Filter = Strings.getGeneralString("TxtFileDescriptionPlural") + "|*.txt|" + Strings.getGeneralString("AllFileDescriptionPlural") + "|*";
+            save.Title = Strings.getGeneralString("SaveReportQuestion");
             if(AnalyzerProgramHandler.last_save_path==null)
                 save.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             else
@@ -70,7 +72,7 @@ namespace MASGAU.Analyzer
 					writer.Write(reportTxt.Text);
 					writer.Close();
 				} catch {
-                    showError(Strings.get("WriteErrorPrompt"), Strings.get("WriteError") + " " + save.FileName);
+                    TranslationHelpers.showTranslatedError(this,"WriteError",save.FileName);
 				}
 			}
 
@@ -78,7 +80,7 @@ namespace MASGAU.Analyzer
 
         private void uploadBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (!WPFHelpers.checkEmail(this))
+            if (!this.checkEmail())
                 return;
 
             StringBuilder body = new StringBuilder();

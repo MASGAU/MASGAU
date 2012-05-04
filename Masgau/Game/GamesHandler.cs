@@ -12,7 +12,8 @@ using Communication.Progress;
 using Communication.Message;
 using Communication.Request;
 using MVC;
-
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Game
 {
 
@@ -101,7 +102,7 @@ namespace MASGAU.Game
             all_games.Clear();
 
             if(xml.game_profiles.Count>0) {
-                ProgressHandler.message = "Loading Games Data...";
+                TranslatingProgressHandler.setTranslatedMessage("LoadingGamesData");
                 foreach(GameXMLHolder game_profile in xml.game_profiles) {
                     if(_cancelling)
                         break;
@@ -123,13 +124,7 @@ namespace MASGAU.Game
                 GameHandler add_me = new GameHandler(game_profile);
                 all_games.Add(add_me);
             } else {
-                StringBuilder message = new StringBuilder("There is a duplicate game with the name " + game_profile.id.name);
-                if(game_profile.id.platform!= GamePlatform.Multiple)
-                    message.Append(" for the " + game_profile.id.platform.ToString() + " platform");
-                if(game_profile.id.region!=null)
-                    message.Append(" for the region " + game_profile.id.region);
-                message.Append(".");
-                MessageHandler.SendWarning("Game Load Error",message.ToString());
+                TranslatingMessageHandler.SendWarning("DuplicateGame", game_profile.id.ToString());
             }
 
         }
@@ -156,7 +151,7 @@ namespace MASGAU.Game
 
 
             ProgressHandler.value = 1;
-            ProgressHandler.message = "Detecting Games";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingGames");
 
             Dictionary<string,int> contribs = new Dictionary<string,int>();
 
@@ -167,8 +162,7 @@ namespace MASGAU.Game
                 if(these_games!=null&&!these_games.Contains(game.id))
                     continue;
 
-
-                ProgressHandler.message = "Detecting Games (" + ProgressHandler.value + "/" + ProgressHandler.max + ")";
+                TranslatingProgressHandler.setTranslatedMessage("DetectingGamesProgress", ProgressHandler.value.ToString(), ProgressHandler.max.ToString() );
 
                 // If a game has a game root and thus forced a game to detect early, then this will skip re-detecting
                 if(!game.detection_completed)
@@ -199,13 +193,13 @@ namespace MASGAU.Game
 
             IsEnabled = true;
             if(game_count>1){
-                ProgressHandler.message = detected_games_count + " Games Detected";
+                TranslatingProgressHandler.setTranslatedMessage("GameDetected");
             } else if(game_count>0) {
-                ProgressHandler.message = detected_games_count + " Game Detected";
+                TranslatingProgressHandler.setTranslatedMessage("GamesDetected",detected_games_count.ToString());
             } else {
-                ProgressHandler.message = "No Games Detected";
-                GameHandler no_games = new GameHandler(new GameID("No Games Detected", GamePlatform.Multiple, null));
-                no_games.title = "No Games Detected";
+                TranslatingProgressHandler.setTranslatedMessage("NoGamesDetected");
+                GameHandler no_games = new GameHandler(new GameID(Strings.getGeneralString("NoGamesDetected"), GamePlatform.Multiple, null));
+                no_games.title = Strings.getGeneralString("NoGamesDetected");
                 IsEnabled = false;
             }
             this.NotifyPropertyChanged("games_detected");
@@ -220,7 +214,7 @@ namespace MASGAU.Game
         }
 
         private static void purgeRoots(object sender, DoWorkEventArgs e) {
-            if(RequestHandler.Request(RequestType.Question,"This could hurt.","Purging erases all detected save paths for the specified game\nAre you sure you want to continue?").cancelled) {
+            if(TranslatingRequestHandler.Request(RequestType.Question,"PurgeConfirmation").cancelled) {
                 e.Cancel = true;
                 return;
             }
@@ -231,7 +225,7 @@ namespace MASGAU.Game
                     if(!game.purgeRoot())
                         break;
                 } catch (Exception ex) {
-                    MessageHandler.SendError("Error While Puring Root",ex.Message,ex);
+                    TranslatingMessageHandler.SendError("PurgeError", ex);
                 }
             }
         }

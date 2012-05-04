@@ -11,7 +11,8 @@ using Communication.Message;
 using System.ComponentModel;
 using Email;
 using MVC;
-using Translations;
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Config
 
 {
@@ -75,7 +76,7 @@ namespace MASGAU.Config
                     alt_paths.refresh();
                     NotifyPropertyChanged("alt_paths");
                 } catch (Exception e) {
-                    MessageHandler.SendError("Error","Error while auto-refreshing alt paths",e);
+                    TranslatingMessageHandler.SendError("ErrorRefreshingAltPaths");
                 }
             }
 

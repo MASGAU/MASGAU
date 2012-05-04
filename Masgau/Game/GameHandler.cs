@@ -18,7 +18,8 @@ using System.Collections.ObjectModel;
 using System.Globalization;
 using Collections;
 using MVC;
-
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Game {
     public class GameHandler: AModelItem<GameID>
     {
@@ -318,7 +319,7 @@ namespace MASGAU.Game {
                                 ps_id = new PlayStationPortableID(element);
                                 break;
                             default:
-                                throw new CommunicatableException("XML Error","ps_code tag used for game that isn't on a PlayStation platform",false);
+                                throw new TranslateableException("ImproperPsCodeUse", this.id.ToString());
                         }
                         break;
                     case "virtualstore":
@@ -421,7 +422,7 @@ namespace MASGAU.Game {
                         }
                         else
                         {
-                            MessageHandler.SendError("Wasting my gorramn time", "The specified parent game " + game.game.name + " for " + game.game.platform + " for " + title + " is not present in the profiles xml. You either spelled it wrong, or this is a chain effect from another error.");
+                            TranslatingMessageHandler.SendError("ParentGameDoesntExist", game.game.ToString());
                         }
                     }
                     else
@@ -489,7 +490,7 @@ namespace MASGAU.Game {
                     }
                 }
             } catch (Exception e) {
-                MessageHandler.SendError("Read Error","Can't read the designated folder " + root, e);
+                TranslatingMessageHandler.SendError("ReadError",e, root);
             }
             return return_me;
         }
@@ -506,7 +507,7 @@ namespace MASGAU.Game {
             } catch (UnauthorizedAccessException e) {
                 throw e;
             } catch (Exception e) {
-                MessageHandler.SendError("Unanticipated error!","An error occured while trying to gather save files",e);
+                TranslatingMessageHandler.SendError("FileGatherError", e, root);
             }
             return return_me;
         }
@@ -614,7 +615,7 @@ namespace MASGAU.Game {
             }
 
             if(options.Count>2) {
-                RequestReply info =  RequestHandler.Request(RequestType.Choice,"Multiple Roots Detected","Choose The Root To Purge",options,options[0]);
+                RequestReply info = TranslatingRequestHandler.Request(RequestType.Choice, "PurgeRootChoice", options[0], options);
                 if(info.cancelled) {
                     return false;
                 } 

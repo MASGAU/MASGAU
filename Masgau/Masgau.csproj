@@ -179,9 +179,9 @@
       <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
       <Name>MVC</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Translations\Translations.csproj">
-      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
-      <Name>Translations</Name>
+    <ProjectReference Include="..\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

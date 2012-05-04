@@ -3,9 +3,10 @@ using System.Windows;
 using System.Windows.Controls;
 using MASGAU.Location;
 using System.ComponentModel;
-using MASGAU.Communication.Progress;
+using Communication.Progress;
 using MASGAU.Location.Holders;
-using Translations;
+using Translator;
+using Translator.WPF;
 namespace MASGAU.Analyzer
 {
     /// <summary>
@@ -19,18 +20,11 @@ namespace MASGAU.Analyzer
         {
             this.analyzer = (AnalyzerProgramHandler)program_handler;
             InitializeComponent();
-            WPFHelpers.translateWindow(this);
+            TranslationHelpers.translateWindow(this);
             _title = this.Title;
         }
 
-        protected override void loadTranslations() {
-            this.Title = Strings.get("AnalyzerWindowTitle");
-            this.windowsScanBtn.Content = Strings.get("ScanButton");
-            this.playstationScanButton.Content = Strings.get("ScanButton");
-
-        }
-
-		public override void updateProgress (MASGAU.Communication.Progress.ProgressUpdatedEventArgs e)
+		public override void updateProgress(Communication.Progress.ProgressUpdatedEventArgs e)
 		{
 			if(e.message==null)
                 this.Title = _title;
@@ -40,7 +34,8 @@ namespace MASGAU.Analyzer
 		
         protected override void WindowLoaded(object sender, RoutedEventArgs e)
         {
-            this.Title += " - Loading Settings...";
+            
+            this.Title += " - " + Strings.getGeneralString("LoadingSettings");
             base.WindowLoaded(sender, e);
         }
 
@@ -101,7 +96,7 @@ namespace MASGAU.Analyzer
 
 
             if(description==null)
-                pathBrowser.Description = Strings.get("GameInstallPrompt");
+                pathBrowser.Description = Strings.getGeneralString("GameInstallPrompt");
             else
                 pathBrowser.Description = description;
 
@@ -113,14 +108,14 @@ namespace MASGAU.Analyzer
         }
 
         private void getGamePath(string path, Environment.SpecialFolder look_here) {
-            string path_result = getPath(path, Strings.get("GameInstallPrompt"), look_here);
+            string path_result = getPath(path, Strings.getGeneralString("GameInstallPrompt"), look_here);
             if (path_result!=null) {
                 gamePathTxt.Text = path_result;
             }
         }
 
         private void getSavePath(string path, Environment.SpecialFolder look_here) {
-            string path_result = getPath(path,Strings.get("GameSavesPrompt"),look_here);
+            string path_result = getPath(path, Strings.getGeneralString("GameSavesPrompt"), look_here);
             if (path_result!=null) {
                 gameSaveTxt.Text = path_result;
             }

@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Matthew Barbour")]
 [assembly: AssemblyProduct("Translations")]
-[assembly: AssemblyCopyright("Copyright © Kohls Department Stores Inc 2012")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

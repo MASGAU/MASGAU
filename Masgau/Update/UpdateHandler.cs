@@ -8,7 +8,7 @@ using System.ComponentModel;
 using Communication.Message;
 using MVC;
 using System.Diagnostics;
-
+using Communication.Translator;
 namespace MASGAU.Update
 {
     public class UpdateHandler: AModelItem {
@@ -81,7 +81,7 @@ namespace MASGAU.Update
             if(element.HasAttribute("url")) {
                 latest_version_url = element.GetAttribute("url");
             } else {
-                throw new Translations.TranslateableException("UpdatesXmlNoUrlAttribute", name);
+                throw new Translator.TranslateableException("UpdatesXmlNoUrlAttribute", name);
             }
 
             if (latest_version.CompareTo(test) < 0) {
@@ -143,11 +143,11 @@ namespace MASGAU.Update
                     try {
                         game_config = Core.readXmlFile(tmp_name);
                     } catch (InvalidOperationException ex) {
-                        MessageHandler.SendError("Error Downloading",latest_version_url + " is producing bad data.\nYou really should click Send Report so I can fix it.",ex);
+                        TranslatingMessageHandler.SendError("BadUpdateData", ex, latest_version_url);
                         File.Delete(tmp_name);
                         continue;
                     } catch (XmlException ex) {
-                        MessageHandler.SendError("Error Downloading",latest_version_url + " is producing bad data.\nYou really should click Send Report so I can fix it.",ex);
+                        TranslatingMessageHandler.SendError("BadUpdateData", ex, latest_version_url);
                         File.Delete(tmp_name);
                         continue;
                     }
@@ -161,7 +161,7 @@ namespace MASGAU.Update
                     break;
                 } catch(WebException exception)  {
                     File.Delete(tmp_name);
-                    MessageHandler.SendError("Getting Old",name + " failed to download. Here's why:" + Environment.NewLine + latest_version_url,exception);
+                    TranslatingMessageHandler.SendError("UpdateDownloadFailure",exception,name,latest_version_url);
                 }
             }
             updating = false;

@@ -9,7 +9,8 @@ using Microsoft.Win32;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Registry;
-
+using Translator;
+using Translator.WPF;
 namespace MASGAU.Analyzer
 {
  
@@ -29,7 +30,7 @@ namespace MASGAU.Analyzer
         {
             this.analyzer = analyzer;
 			InitializeComponent();
-            WPFHelpers.translateWindow(this);
+            TranslationHelpers.translateWindow(this);
 			game_path = new_game_path;
 			save_path = new_save_path;
             game_name = new_game_name;
@@ -40,7 +41,7 @@ namespace MASGAU.Analyzer
             if (e.message != null)
                 groupBox1.Header = e.message;
 
-            this.applyProgress(progressBar1, e);
+            applyProgress(progressBar1, e);
         }
 
         #region BackgroundWorker Event Handlers

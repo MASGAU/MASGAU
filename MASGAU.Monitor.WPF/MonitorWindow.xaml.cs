@@ -3,7 +3,7 @@ using System.Windows;
 using System.ComponentModel;
 using System.Collections.Generic;
 using MASGAU.Communication.Progress;
-using Translations;
+using Translator;
 namespace MASGAU.Monitor
 {
     /// <summary>

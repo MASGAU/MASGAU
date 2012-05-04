@@ -3,7 +3,7 @@ using System;
 using MASGAU.Registry;
 using MVC;
 using Communication;
-using Translations;
+using Translator;
 namespace MASGAU.Monitor
 {
     public class MonitorHandler: AModelItem

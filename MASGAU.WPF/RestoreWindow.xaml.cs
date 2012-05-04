@@ -16,8 +16,10 @@ using System.ComponentModel;
 using MASGAU.Archive;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Progress;
-using Translations;
+using Communication.Progress;
+using Communication.Translator;
+using Translator;
+using MVC;
 namespace MASGAU.Restore
 {
     /// <summary>
@@ -33,7 +35,7 @@ namespace MASGAU.Restore
 
         public RestoreWindow(ArchiveHandler archive, AWindow owner): base(new RestoreProgramHandler(archive), owner) {
             InitializeComponent();
-            WPFHelpers.translateWindow(this);
+            Translator.WPF.TranslationHelpers.translateWindow(this);
             
             default_progress_color = restoreProgress.Foreground;
             this.archive = archive;
@@ -41,7 +43,7 @@ namespace MASGAU.Restore
 
         public RestoreWindow(AWindow owner): base(new RestoreProgramHandler(null), owner) {
             InitializeComponent();
-            WPFHelpers.translateWindow(this);
+            Translator.WPF.TranslationHelpers.translateWindow(this);
             default_progress_color = restoreProgress.Foreground;
         }
 
@@ -63,7 +65,7 @@ namespace MASGAU.Restore
             ProgressHandler.state = ProgressState.None;
 
             tabControl1.SelectedIndex = 1;
-            this.Title = Strings.get("RestoreConfirmPath");
+            this.Title = Strings.getGeneralString("RestoreConfirmPath");
 
             pathCombo.ItemsSource = restore.path_candidates;
             userCombo.ItemsSource = restore.user_candidates;
@@ -85,7 +87,7 @@ namespace MASGAU.Restore
 
         }
 
-        public override void updateProgress(MASGAU.Communication.Progress.ProgressUpdatedEventArgs e) {
+        public override void updateProgress(Communication.Progress.ProgressUpdatedEventArgs e) {
             if(e.message!=null)
                 groupBox1.Header = e.message;
             applyProgress(restoreProgress,e);
@@ -160,7 +162,7 @@ namespace MASGAU.Restore
 
         private void shutDownWindow() {
             restore.cancel();
-            ProgressHandler.message = Strings.get("Stopping") + "...";
+            TranslatingProgressHandler.setTranslatedMessage("Stopping") ;
             if(tabControl1.SelectedIndex != 3)
                 Restore.RestoreProgramHandler.overall_stop = true;
             
@@ -210,12 +212,12 @@ namespace MASGAU.Restore
         private void beginRestoration() {
             if(tabControl1.SelectedIndex == 2) {
                 if(files.SelectedItems.Count==0) {
-                    showTranslatedError("RestoreNoFiles");
+                    TranslatingMessageHandler.SendError("RestoreNoFiles");
                     return;
                 }
             }
 
-            this.Title = Strings.get("Restoring") + " " + restore.archive.id.ToString();
+            this.Title = Strings.getGeneralString("RestoringFile", restore.archive.id.ToString());
             restoreButton.Visibility = System.Windows.Visibility.Collapsed;
             choosePathButton.Visibility = System.Windows.Visibility.Collapsed;
             selectFilesButton.Visibility = System.Windows.Visibility.Collapsed;
@@ -242,7 +244,7 @@ namespace MASGAU.Restore
         void restoreComplete(object sender, RunWorkerCompletedEventArgs e)
         {
             cancelButton.Content = Strings.get("CloseButton");
-            this.Title = Strings.get("Finished");
+            this.Title = Strings.getGeneralString("Finished");
             tabControl1.SelectedIndex = 3;
             if(close_when_done)
                 this.Close();
@@ -261,7 +263,7 @@ namespace MASGAU.Restore
 
         private void choosePathButton_Click(object sender, RoutedEventArgs e)
         {
-            string target = promptForPath(Strings.get("RestoreLocationChoice"));
+            string target = promptForPath(Strings.getGeneralString("RestoreLocationChoice"));
             if(target!=null) {
                 restore.addPathCandidate(new ManualLocationPathHolder(target));
                 refreshPaths();
@@ -272,7 +274,7 @@ namespace MASGAU.Restore
 
         private void selectFilesButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Title = Strings.get("SelectFiles");
+            this.Title = Strings.getGeneralString("SelectFiles");
             tabControl1.SelectedIndex = 2;
             choosePathButton.Visibility = System.Windows.Visibility.Collapsed;
             selectFilesButton.Visibility = System.Windows.Visibility.Collapsed;
