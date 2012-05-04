@@ -4,3 +4,6 @@
 [submodule "Logger"]
 	path = Logger
 	url = https://sanmadjack@github.com/sanmadjack/Logger.git
+[submodule "Config"]
+	path = Config
+	url = https://sanmadjack@github.com/sanmadjack/Config.git
