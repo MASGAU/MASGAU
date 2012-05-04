@@ -17,7 +17,8 @@ namespace Translations {
 
         private static string language_override = null;
 
-        private static Dictionary<string, string> strings = new Dictionary<string, string>();
+        private static Dictionary<string, StringCollection> strings = 
+            new Dictionary<string, StringCollection>();
 
         private static XmlReaderSettings xml_settings;
 
@@ -134,14 +135,30 @@ namespace Translations {
             XmlNode nodes = strings_xml.GetElementsByTagName("strings")[0];
             foreach (XmlNode node in nodes.ChildNodes) {
                 if (node.Name == "string") {
-                    // If the string is already present, then we assume that the new string supercedes the previous one
-                    if (strings.ContainsKey(node.Attributes["name"].InnerText))
+                    string name = node.Attributes["name"].InnerText;
+                    StringType type = StringType.General;
+                    if (node.Attributes["type"] != null)
                     {
-                        strings[node.Attributes["name"].InnerText] = node.InnerText;
+                        type = ParseStringType(node.Attributes["type"].InnerText);
+                    }
+                    StringCollection col;
+                    // If the string is already present, then we assume that the new string supercedes the previous one
+                    if (strings.ContainsKey(name))
+                    {
+                        col = strings[name];
                     }
                     else
                     {
-                        strings.Add(node.Attributes["name"].InnerText, node.InnerText);
+                        col = new StringCollection(name);
+                        strings.Add(name,col);
+                    }
+                    if (col.ContainsKey(type))
+                    {
+                        col[type] = node.InnerText;
+                    }
+                    else
+                    {
+                        col.Add(type, node.InnerText);
                     }
                 }
             }
@@ -153,10 +170,12 @@ namespace Translations {
         public static string getInterfaceString(string name) {
             if (name == null)
                 return "";
+            // So, all interface translation strings are going to start with a dollar sign.
+            // That way we can leave some interface elements alone
 
             if(name.StartsWith("$")) {
                 name = name.TrimStart('$');
-                return get(name);
+                return getGeneralString(name);
             } else {
                 switch(name) {
                     case "-":
@@ -168,28 +187,28 @@ namespace Translations {
             }
         }
 
-        public static StringCollection getTitleMessagePair(string name, params string[] variables)
+        public static string getGeneralString(string name, params string[] variables)
         {
-            StringCollection returnme = new StringCollection();
-            returnme.Add(StringType.Title, get(name + "Title", variables));
-            returnme.Add(StringType.Message, get(name + "Message", variables));
-
-            return returnme;
+            return getString(StringType.General, name, variables);
         }
 
-        public static string get(string name, params string[] substitution_variables)
+        public static string getString(StringType type, string name, params string[] variables)
         {
-            StringBuilder return_me = null;
+            return get(name, variables)[type];
+        }
+
+        public static StringCollection get(string name, params string[] substitution_variables)
+        {
+
+            StringCollection return_me = new StringCollection(name);
+            return_me.Add(StringType.General, "");
 
             if (name == null)
-                return "";
-            // So, all interface translation strings are going to start with a hash sign.
-            // That way we can leave some interface elements alone
+                return return_me;
 
-            if (strings.ContainsKey(name))
-                return_me = new StringBuilder(strings[name]);
 
-            if (return_me == null)
+
+            if (!strings.ContainsKey(name))
             {
                 // If running in translate mode, then we'll throw an exception when a string is missing.
                 Logger.Logger.log("STRING " + name + " NOT FOUND");
@@ -199,76 +218,103 @@ namespace Translations {
                     // So Windows wraps this exception in a WPF exception, which effectively hides this info
                     // from the average user. When breaking into debug in Visual Studio though, this allows us
                     // to see exactly which string is missing.
-                    return "STRING " + name + " NOT FOUND";
+                    return_me[StringType.General] = "STRING " + name + " NOT FOUND";
                     //                            throw new Exception("Could not find string \"" + name + "\" in either the current language " + language + "-" + region + " or in the default string library");
                 }
                 else
                 {
                     // This will eventually become the only behavior when a string isn't found,
                     // so that the main interface will just display the name of a string
-                    return name;
+                    return_me[StringType.General] = name;
                 }
-
             }
-
-            Regex r1 = new Regex(@"%[A-za-z]*%", RegexOptions.IgnoreCase);
-
-            Regex r2 = new Regex(@"%[0-9]*", RegexOptions.IgnoreCase);
-
-            Match m = r1.Match(return_me.ToString());
-            int offset = 0;
-            while (m.Success)
+            else
             {
-                foreach (Group g in m.Groups)
+                // Makes a copy of the collection so that we don't have to worry about the original substitution points being lost
+                return_me =  strings[name].copyInto(return_me);
+
+                foreach (StringType type in return_me.Keys)
                 {
-                    foreach (Capture c in g.Captures)
+                    StringBuilder builder = new StringBuilder(return_me[type]);
+
+                    Regex r1 = new Regex(@"%[A-za-z]*%", RegexOptions.IgnoreCase);
+
+                    Regex r2 = new Regex(@"%[0-9]*", RegexOptions.IgnoreCase);
+
+                    Match m = r1.Match(return_me.ToString());
+                    int offset = 0;
+                    while (m.Success)
                     {
-                        string key = c.Value.Trim('%');
-                        string line = get(key);
-                        return_me.Remove(c.Index + offset, c.Length);
-                        return_me.Insert(c.Index + offset, line);
-                        offset += line.Length - c.Length;
+                        foreach (Group g in m.Groups)
+                        {
+                            foreach (Capture c in g.Captures)
+                            {
+                                string key = c.Value.Trim('%');
+                                string line = getGeneralString(key);
+                                builder.Remove(c.Index + offset, c.Length);
+                                builder.Insert(c.Index + offset, line);
+                                offset += line.Length - c.Length;
+                            }
+                        }
+                        m = m.NextMatch();
                     }
+
+                    m = r2.Match(return_me.ToString());
+                    offset = 0;
+                    while (m.Success)
+                    {
+                        foreach (Group g in m.Groups)
+                        {
+                            foreach (Capture c in g.Captures)
+                            {
+                                Int64 key = Int64.Parse(c.Value.TrimStart('%'));
+                                if (substitution_variables[key] != null)
+                                {
+                                    string line = substitution_variables[key];
+                                    builder.Remove(c.Index + offset, c.Length);
+                                    builder.Insert(c.Index + offset, line);
+                                    offset += line.Length - c.Length;
+                                }
+                                else
+                                {
+                                    Logger.Logger.log("String " + name + " has  " + m.Groups.Count.ToString() + " variable slots, but "
+                                        + substitution_variables.Length.ToString() + " are being provided. Please adjust the translation file to accomodate this number of variables, which are as follows:");
+                                    foreach (string var in substitution_variables)
+                                    {
+                                        Logger.Logger.log(var);
+                                    }
+                                }
+                            }
+                        }
+                        m = m.NextMatch();
+
+                    }
+                    return_me[type] = builder.ToString();
                 }
-                m = m.NextMatch();
             }
-
-            m = r2.Match(return_me.ToString());
-            offset = 0;
-            while (m.Success)
-            {
-                if (substitution_variables.Length != m.Groups.Count)
-                {
-                    Logger.Logger.log("String " + name + " has  " + m.Groups.Count.ToString() + " variable slots, but " 
-                        + substitution_variables.Length.ToString() + " are being provided. Please adjust the translation file to accomodate this number of variables, which are as follows:");
-                    foreach (string var in substitution_variables)
-                    {
-                        Logger.Logger.log(var);
-                    }
-                }
-
-
-                foreach (Group g in m.Groups)
-                {
-                    foreach (Capture c in g.Captures)
-                    {
-                        Int64 key = Int64.Parse(c.Value.TrimStart('%'));
-                        string line = substitution_variables[key];
-                        return_me.Remove(c.Index + offset, c.Length);
-                        return_me.Insert(c.Index + offset, line);
-                        offset += line.Length - c.Length;
-                    }
-                }
-                m = m.NextMatch();
-            }
-
-            return return_me.ToString();
+            return return_me;
 
         }
 
         // Event handler to take care of XML errors while reading game configs
         private static void validationHandler(object sender, ValidationEventArgs args) {
             throw new XmlException(args.Message);
+        }
+
+
+        private static StringType ParseStringType(string type)
+        {
+            switch (type)
+            {
+                case "title":
+                    return StringType.Title;
+                case "message":
+                    return StringType.Message;
+                case "general":
+                    return StringType.General;
+                default:
+                    throw new Exception("The string type " + type + " is not known");
+            }
         }
     }
 }

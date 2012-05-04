@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Xml;
+using MVC;
+
 namespace MASGAU.Location.Holders {
     public class LocationPathHolder : ALocationHolder {
         // Used when dealing with a path

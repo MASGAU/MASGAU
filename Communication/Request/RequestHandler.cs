@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using Translations;
 namespace Communication.Request
 {
 
@@ -13,26 +12,25 @@ namespace Communication.Request
     {
         //protected static event RequestEventHandler RequestSent;
 
-        public static RequestReply Request(RequestType type) {
+        protected static RequestReply Request(RequestType type) {
             return Request(type,null,null,null);
         }
-        public static RequestReply Request(RequestType type, string name) {
-            return Request(type, name, null, null);
+        protected static RequestReply Request(RequestType type, string title, string message) {
+            return Request(type, title, message, null, null);
         }
-        public static RequestReply Request(RequestType type, string name, List<string> choices)
+        protected static RequestReply Request(RequestType type, string title, string message, List<string> choices)
         {
-            return Request(type, name, choices, null);
+            return Request(type, title, message, choices, null);
         }
-        public static RequestReply Request(RequestType type, string name, List<string> choices, string default_choice)
+        protected static RequestReply Request(RequestType type, string title, string message, List<string> choices, string default_choice)
         {
             RequestReply request = new RequestReply();
             
             if(type== RequestType.Choice&&choices==null)
-                throw new CommunicatableException("NoRequestChoices", true);
+                throw new CommunicatableException("Request Error", "A choice was requested, but no options provided");
 
-            StringCollection mes = Strings.getTitleMessagePair(name);
 
-            RequestEventArgs e = new RequestEventArgs(type,mes[StringType.Title],mes[StringType.Message],choices,default_choice,request);
+            RequestEventArgs e = new RequestEventArgs(type,title,message,choices,default_choice,request);
 
             ICommunicationReceiver receiver = getReceiver();
 

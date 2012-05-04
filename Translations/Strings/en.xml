@@ -11,7 +11,7 @@
   
   <!-- Probably shouldn't translate this one -->
   <string name="MASGAU">MASGAU</string>
-  <string name="MASGAUFullTitle">MASGAU Automatic Save Game Archive Utility</string>
+  <string name="MASGAUFull" type="title">MASGAU Automatic Save Game Archive Utility</string>
   <string name="MASGAUPlural">%MASGAU%'s</string>
   
   <!-- Common strings-->
@@ -146,15 +146,14 @@
   <string name="BackupFolderNotSet">Backup Folder Has Not Been Set\nYou Can Set It From The Settings Tab</string>
   
   <string name="SelectArchive">Select Archive(s) To Restore</string>
-  <string name="FileNotArchiveTitle">File not archive</string>
-  <string name="FileNotArchiveMessage">This file is not a properly formatted MASGAU archive.</string>
+  
 
   <!-- Task tab-->
   <string name="Schedule">Schedule</string>
-  <string name="EnterTaskCredentialsTitle">Pander To Me</string>
-  <string name="EnterTaskCredentialsMessage">You must enter a password for the user the task will be running as,\nwhich is shown in the little text box right there.</string>
-  <string name="UnableToCreateTaskTitle">What Did I Just Tell You</string>
-  <string name="UnableToCreateTaskMessage">Unable to create task. The task has been deleted.</string>
+  <string name="EnterTaskCredentials" type="title">Pander To Me</string>
+  <string name="EnterTaskCredentials" type="message">You must enter a password for the user the task will be running as,\nwhich is shown in the little text box right there.</string>
+  <string name="UnableToCreateTask" type="title">What Did I Just Tell You</string>
+  <string name="UnableToCreateTask" type="message">Unable to create task. The task has been deleted.</string>
 
   <string name="DeleteTaskButton">_Delete Task</string>
 
@@ -214,14 +213,14 @@
   <string name="SelectSyncPathWriteError">%WritePermissionError% the selected sync folder</string>
   <string name="SelectAltPath">Choose a new Alternative Install Path</string>
   <string name="SelectAltPathReadError">Due to permissions or something, MASGAU can't read the folder you selected</string>
-  <string name="SelectAltPathDuplicateTitle">Duplication</string>
-  <string name="SelectAltPathDuplicateMessage">The path you selected has already been added</string>
+  <string name="SelectAltPathDuplicate" type="title">Duplication</string>
+  <string name="SelectAltPathDuplicate" type="message">The path you selected has already been added</string>
   <string name="SelectSteamPath">Choose where Steam is located</string>
-  <string name="SelectSteamPathRejectedTitle">No Go</string>
-  <string name="SelectSteamPathRejectedMessage">The selected folder does not contain Steam.exe, so it's probably not a Steam folder</string>
+  <string name="SelectSteamPathRejected" type="title">No Go</string>
+  <string name="SelectSteamPathRejected" type="message">The selected folder does not contain Steam.exe, so it's probably not a Steam folder</string>
 
   <!-- Restore process -->
-  <string name="RestoreTitle">%MASGAU% Is Restoring</string>
+  <string name="RestoreTitle">%MASGAU% Is Restoring %0</string>
   <string name="Restore">Restore</string>
   <string name="Restoring">Restoring</string>
   <string name="Detecting">Detecting</string>
@@ -243,12 +242,12 @@
   <string name="RestoreUser">This user will be used</string>
   <string name="RestoreSelectFiles">Select Files To Restore</string>
 
-  <string name="RestoreNoFilesTitle">Restore Nothing? That's Stupid.</string>
-  <string name="RestoreNoFilesMessage">You haven't selected any files to restore.\nThink about it.</string>
+  <string name="RestoreNoFiles" type="title">Restore Nothing? That's Stupid.</string>
+  <string name="RestoreNoFiles" type="message">You haven't selected any files to restore.\nThink about it.</string>
 
   <string name="RestoreComplete">Restore Complete</string>
-  <string name="RestoreMultipleArchivesTitle">Convenience?</string>
-  <string name="RestoreMultipleArchivesMessage">You're restoring more than one archive,\nwould you like MASGAU to not prompt you for input unless absolutely necessary?</string>
+  <string name="RestoreMultipleArchives" type="title">Convenience?</string>
+  <string name="RestoreMultipleArchives" type="message">You're restoring more than one archive,\nwould you like MASGAU to not prompt you for input unless absolutely necessary?</string>
   
   <string name="RestoreSomeFailed">Some archives did not restore</string>
 
@@ -362,8 +361,18 @@
   <string name="Update">Update</string>
   <string name="Current">Current</string>
   <string name="Latest">Latest</string>
-  
-  
+
+  <!-- More general error messages -->
+  <string name="DeleteError" type="title">Cleanup</string>
+  <string name="DeleteError" type="message">An error occured while trying to delete %0</string>
+  <string name="FolderPrepError" type="title">Look Out!</string>
+  <string name="FolderPrepError" type="message">An error occured while trying to prep %0</string>
+  <string name="FileDoesntExist" type="title">Not there</string>
+  <string name="FileDoesntExist" type="message">The specified backup doesn't exist:/n/n%0</string>
+  <string name="UnknownGame" type="title">Unknown</string>
+  <string name="UnknownGame" type="message">MASGAU doesn't have information for the game %0</string>
+
+
   <!-- Inner core message strings -->
   <string name="DetectingSystemPaths">Detecting System Paths...</string>
   <string name="DetectingSteam">Detecting Steam...</string>
@@ -375,27 +384,87 @@
   <string name="LoadingSettings">Loading Settings...</string>
 
   <!-- Archive Handler -->
-  <string name="ArchiveInUserWaiting"></string>
-  
+  <string name="ArchiveInUseWaiting"></string>
+
+  <string name="SevenZipNotFound" type="title">Archiver Error</string>
+  <string name="SevenZipNotFound" type="message">7z.exe Not Found In Install Folder\nYou Will Probably Need To Reinstall MASGAU</string>
+  <string name="RestoreProgramNotFound" type="title">People people people get up get up</string>
+  <string name="RestoreProgramNotFound" type="message">%0 can't be found.\nYou probably need to reinstall MASGAU</string>
+
+  <string name="ScanningBackups">Scanning Backups (%0/%1)</string>
+
   <!-- Updates handler -->
   <string name="CheckingForUpdates">Checking for updates...</string>
-
-  <!-- Request Handler -->
-  <string name="NoRequestChoicesTitle">Request Error</string>
-  <string name="NoRequestChoicesMessage">A choice was requested, but no options provided</string>
 
   
   <!-- Config handler -->
   <string name="ConfigFileError">Config File Error</string>
-  <string name="ConfigOpenErrorTitle">%ConfigFileError%</string>
-  <string name="ConfigOpenErrorMessage">Unable to open config file for writing</string>
   
-  <string name="ConfigXMLErrorTitle">%ConfigFileError%</string>
-  <string name="ConfigXMLErrorMessage">XML Error while reading config file</string>
+  <string name="ConfigOpenError" type="title">%ConfigFileError%</string>
+  <string name="ConfigOpenError" type="message">Unable to open config file for writing</string>
+  
+  <string name="ConfigXMLError" type="title">%ConfigFileError%</string>
+  <string name="ConfigXMLError" type="message">XML Error while reading config file</string>
 
-  <string name="ConfigWatcherErrorTitle">%ConfigFileError%</string>
-  <string name="ConfigWatcherErrorMessage">Error while auto-updating settings</string>
+  <string name="ConfigWatcherError" type="title">%ConfigFileError%</string>
+  <string name="ConfigWatcherError" type="message">Error while auto-updating settings</string>
 
-  <string name="ConfigPurgeErrorTitle">%ConfigFileError%</string>
-  <string name="ConfigPurgeErrorMessage">Error while trying to purge config file</string>
+  <string name="ConfigPurgeError" type="title">%ConfigFileError%</string>
+  <string name="ConfigPurgeError" type="message">Error while trying to purge config file</string>
+
+  <!-- SettingsHandler -->
+  <string name="CouldNotDetermineConfigFilePath" type="title">%ConfigFileError%</string>
+  <string name="CouldNotDetermineConfigFilePath" type="message">Could not determine an acceptable path for the config file</string>
+
+  <!-- Monitor Handler -->
+  <string name="MonitorNotFound" type="title">This should NEVER HAPPEN</string>
+  <string name="MonitorNotFound" type="message">Monitor was attempted to enable when it was not found</string>
+  
+  <!-- Restore Handler -->
+  <string name="IsRestoring"> Is Restoring</string>
+  <string name="NoRestoreFileSelected" type="title">Nothing To Do</string>
+  <string name="NoRestoreFileSelected" type="message">No File Was Selected To Restore</string>
+  <string name="FileNotArchive" type="title">File not archive</string>
+  <string name="FileNotArchive" type="message">This file is not a properly formatted MASGAU archive</string>
+
+  <string name="DetectingGameForRestoration">Detecting game for restoration...</string>
+
+  <!-- Update handler -->
+  <string name="UpdatesXmlError">Update File XML Error</string>
+  <string name="UpdatesXmlNotFound" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNotFound" type="message">The updates.xml file couldn't be found\nYou probably need to re-install</string>
+  <string name="UpdatesXmlFormatError" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlFormatError" type="message">XML Error while reading updates.xml</string>
+  <string name="UpdatesXmlNoUpdatesTag" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNoUpdatesTag" type="message">Couldn't find the updates tag in updates.xml</string>
+  <string name="UpdatesXmlNoFilesTag" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNoFilesTag" type="message">Couldn't find the files tag in the fileversions.xml downloaded from %0</string>
+  <string name="UpdatesXmlNoNameAttribute" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNoNameAttribute" type="message">name attribute missing from the file tag in fileversions.xml downloaded from %0</string>
+  <string name="UpdatesXmlNoUrlAttribute" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNoUrlAttribute" type="message">url attribute missing in %0</string>
+
+  <string name="UpdateExecutableMissing" type="title">How could you let this happen?</string>
+  <string name="UpdateExecutableMissing" type="message">The updater executable is missing\nYou'll probably have to reinstall MASGAU before updating will work again</string>
+
+  <string name="ProgramUpdateAvailable" type="title">There is a program update for MASGAU</string>
+  <string name="ProgramUpdateAvailable" type="message">Would you like to download it from this address?\n%0</string>
+  
+  
+  <!-- Games XML Handler-->
+  <string name="LoadingGameXmls">Loading Game XMLs</string>
+
+  <string name="CouldNotFindGameProfilesFolder" type="title">Trashy Talk, Yes?</string>
+  <string name="CouldNotFindGameProfilesFolder" type="message">Could not find game profiles folder</string>
+  <string name="NoXmlFilesInDataFolder" type="title">What the heck?</string>
+  <string name="NoXmlFilesInDataFolder" type="message">There are no XML files in the Data folder</string>
+
+  <string name="GameXmlError">Game XML Error</string>
+  <string name="GameXmlNoGamesTag" type="title">%GameXmlError%</string>
+  <string name="GameXmlNoGamesTag" type="message">Couldn't find the games tag in %0</string>
+  <string name="SpaceInGameName" type="title">%GameXmlError%</string>
+  <string name="SpaceInGameName" type="message">There's a space in the game name %0</string>
+  <string name="GameXmlParseError" type="title">%GameXmlError%</string>
+  <string name="GameXmlParseError" type="message">An error occured while parsing the game XML %0</string>
+
 </strings>

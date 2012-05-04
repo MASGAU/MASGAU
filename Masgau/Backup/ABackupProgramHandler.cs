@@ -53,7 +53,7 @@ namespace MASGAU.Backup
                 try {    
                     delete_me.Delete();
                 } catch(Exception ex) {
-                    MessageHandler.SendError("Final Cleanup","An error occured while trying to delete " + delete_me.Name, ex);
+                    MessageHandler.SendError("DeleteError",ex, delete_me.Name);
                 }
             }
         }

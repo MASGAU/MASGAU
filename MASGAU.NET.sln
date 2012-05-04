@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations.WPF", "Transla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email", "Email\Email.csproj", "{4B1E68FF-639F-4C26-98FC-59409D584BE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication.Translator", "Communication.Translator\Communication.Translator.csproj", "{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -301,6 +303,16 @@ Global
 		{4B1E68FF-639F-4C26-98FC-59409D584BE2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{4B1E68FF-639F-4C26-98FC-59409D584BE2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{4B1E68FF-639F-4C26-98FC-59409D584BE2}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

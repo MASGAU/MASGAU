@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Communication.Progress;
 using Translations;
+using Translations.WPF;
 using Email;
 namespace Communication.WPF
 {
@@ -23,7 +24,7 @@ namespace Communication.WPF
         public EmailWindow(ACommunicationWindow owner): base(owner)
         {
             InitializeComponent();
-            translateThisWindow();
+            TranslationHelpers.translateWindow(this);
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

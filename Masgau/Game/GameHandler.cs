@@ -17,6 +17,7 @@ using MASGAU.Registry;
 using System.Collections.ObjectModel;
 using System.Globalization;
 using Collections;
+using MVC;
 
 namespace MASGAU.Game {
     public class GameHandler: AModelItem<GameID>

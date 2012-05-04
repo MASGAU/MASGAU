@@ -7,6 +7,7 @@ namespace Translations
 {
     public enum StringType
     {
+        General,
         Title,
         Message
     }

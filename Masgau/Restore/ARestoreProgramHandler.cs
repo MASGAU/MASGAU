@@ -11,7 +11,8 @@ using MASGAU.Location.Holders;
 using MASGAU.Game;
 using Communication;
 using Communication.Progress;
-
+using Communication.Translator;
+using Translations;
 namespace MASGAU.Restore
 {
     public class ARestoreProgramHandler<L>: AProgramHandler<L> where L: ALocationsHandler
@@ -30,7 +31,7 @@ namespace MASGAU.Restore
         }
 
         public ARestoreProgramHandler(Interface new_interface, ArchiveHandler archive): base(new_interface) {
-            this._program_title.Append(" Is Restoring");
+            this._program_title.Append(Strings.getGeneralString("IsRestoring"));
             this.archive = archive;
         }
 
@@ -72,20 +73,20 @@ namespace MASGAU.Restore
                 }
             }
 
-            if(archive==null)
-                throw new CommunicatableException("Nothing To Do","No File Was Selected To Restore",false);
+            if (archive == null)
+                throw new TranslateableException("NoRestoreFileSelected");
 
-            ProgressHandler.message = "Detecting game for restoration...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingGameForRestoration");
 
             if (!File.Exists(archive.file_name))
-                throw new CommunicatableException("Not there","The specified backup doesn't exist:" + Environment.NewLine + archive.file_name,false);
+                throw new TranslateableException("FileDoesntExist",archive.file_name);
                 
             GameID selected_game = archive.id.game;
             string backup_owner = archive.id.owner;
             string archive_type = archive.id.type;
 
             if(!Core.games.all_games.containsId(selected_game))
-                throw new CommunicatableException("Unknown","MASGAU doesn't have information for the game: " + selected_game.ToString(),true);
+                throw new TranslateableException("UnknownGame", selected_game.ToString());
 
             game_data = Core.games.all_games.get(selected_game);
             game_data.detect();

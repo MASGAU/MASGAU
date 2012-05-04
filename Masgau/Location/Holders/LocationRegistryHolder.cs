@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using MASGAU.Registry;
+using MVC;
 
 namespace MASGAU.Location.Holders {
     public class LocationRegistryHolder : ALocationHolder {

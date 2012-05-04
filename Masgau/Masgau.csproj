@@ -95,7 +95,6 @@
     <Compile Include="Location\IDs\ALocationID.cs" />
     <Compile Include="Location\ILocationsHandler.cs" />
     <Compile Include="Location\UserData.cs" />
-    <Compile Include="Model.cs" />
     <Compile Include="OperatingSystem.cs" />
     <Compile Include="PermissionsHelper.cs" />
     <Compile Include="ProgramNames.cs" />
@@ -156,9 +155,17 @@
       <Project>{88E4E120-9C45-4EAC-887B-B77474B799B4}</Project>
       <Name>Collections</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Communication.Translator\Communication.Translator.csproj">
+      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
+      <Name>Communication.Translator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Communication\Communication.csproj">
       <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
       <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
     </ProjectReference>
     <ProjectReference Include="..\Email\Email.csproj">
       <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>

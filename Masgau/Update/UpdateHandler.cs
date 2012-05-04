@@ -81,7 +81,7 @@ namespace MASGAU.Update
             if(element.HasAttribute("url")) {
                 latest_version_url = element.GetAttribute("url");
             } else {
-                throw new CommunicatableException("Update XML Error","url attribute missing in " + name,true);
+                throw new Translations.TranslateableException("UpdatesXmlNoUrlAttribute", name);
             }
 
             if (latest_version.CompareTo(test) < 0) {

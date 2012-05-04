@@ -14,7 +14,8 @@ using Communication;
 using Communication.Progress;
 using Communication.Message;
 using Communication.Request;
-
+using MVC;
+using Translations;
 namespace MASGAU.Archive
 {
     public class ArchiveHandler: AModelItem<ArchiveID>
@@ -103,7 +104,7 @@ namespace MASGAU.Archive
                 ready = true;
             } else {
                 ready = false;
-                throw new CommunicatableException("Archiver Error","7z.exe Not Found In Program Folder.\nYou Will Probably Need To Reinstall.",false);
+                throw new TranslateableException("SevenZipNotFound");
             }
             zipper.StartInfo.UseShellExecute = false;
             zipper.StartInfo.RedirectStandardOutput = true;
@@ -123,7 +124,7 @@ namespace MASGAU.Archive
                 }
                 Directory.CreateDirectory(temp_folder);
             } catch(Exception e) {
-                throw new CommunicatableException("Look Out!","An error occured while trying to prep " + temp_folder, e, false);
+                throw new TranslateableException("FolderPrepError", e, temp_folder);
             }
         }
         #endregion
@@ -445,7 +446,7 @@ namespace MASGAU.Archive
                         return true;
 				    }
 				    catch (Exception e){
-                        throw new CommunicatableException("People people people get up get up",Core.programs.restore + "can't be found.\nYou probably need to reinstall.",e, false);
+                        throw new TranslateableException("RestoreProgramNotFound", e, Core.programs.restore);
 				    }
 			    } else {
                     return false;

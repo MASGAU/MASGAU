@@ -56,7 +56,7 @@ namespace MASGAU.Location.Holders {
                 Directory.Delete(full_file_path, true);
             }
             catch (Exception e) {
-                throw new CommunicatableException("Delete Error", "Error while trying to delete this:\n" + full_file_path + "\nYou probably don't have permission to do that.", e, false);
+                throw new Translations.TranslateableException("DeleteError", e, full_file_path);
             }
         }
     }

@@ -9,7 +9,8 @@ using MASGAU.Game;
 using Communication;
 using Communication.Progress;
 using Communication.Message;
-
+using MVC;
+using Communication.Translator;
 namespace MASGAU.Archive
 {
     public class ArchivesHandler: Model<ArchiveID,ArchiveHandler> {
@@ -44,7 +45,7 @@ namespace MASGAU.Archive
                 ProgressHandler.max = read_us.Length;
                 foreach(FileInfo read_me in read_us) {
                     ProgressHandler.value++;
-                    ProgressHandler.message = "Scanning Backups (" + ProgressHandler.value + "/" + read_us.Length + ")";
+                    TranslatingProgressHandler.setTranslatedMessage("ScanningBackups",ProgressHandler.value.ToString() , read_us.Length.ToString());
                             
                     try {
                         ArchiveHandler add_me = new ArchiveHandler(read_me);

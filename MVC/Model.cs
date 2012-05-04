@@ -7,9 +7,7 @@ using System.ComponentModel;
 using System.Threading;
 using System.Windows.Threading;
 using System.Collections.Specialized;
-using Communication.Message;
-
-namespace MASGAU
+namespace MVC
 {
 
     public class Model<T>: Model<StringID,T> where T: AModelItem<StringID> {
@@ -85,7 +83,7 @@ namespace MASGAU
            try {
                 this.OnCollectionChanged(e);
            } catch (Exception ex) {
-               MessageHandler.SendError("Error While Refreshing List","You heard me",ex);
+               throw new Exception("Error While Refreshing List",ex);
            }
         }
 

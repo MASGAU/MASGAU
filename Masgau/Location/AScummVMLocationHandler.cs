@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using MASGAU.Location.Holders;
 using Collections;
+using Config;
 namespace MASGAU.Location
 {
 

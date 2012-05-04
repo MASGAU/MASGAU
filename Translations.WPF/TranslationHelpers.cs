@@ -2,23 +2,41 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Translations;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
 namespace Translations.WPF
 {
-    public abstract class ATranslateableWindow : System.Windows.Window
+    public class TranslationHelpers
     {
-        protected ATranslateableWindow(Window owner): base()
+        #region TranslatedMessageBoxes
+        public static bool askTranslatedQuestion(ITranslateableWindow window, String string_name, params string[] variables)
         {
+            StringCollection mes = Strings.get(string_name,variables);
+            return window.askQuestion(mes[StringType.Title],
+                mes[StringType.Message]);
         }
+        public static bool showTranslatedWarning(ITranslateableWindow window, String string_name, params string[] variables)
+        {
+            StringCollection mes = Strings.get(string_name, variables);
+            return window.showWarning(mes[StringType.Title],
+                mes[StringType.Message]);
+        }
+        public static bool showTranslatedError(ITranslateableWindow window, String string_name, params string[] variables)
+        {
+            StringCollection mes = Strings.get(string_name, variables);
+            return window.showError(mes[StringType.Title],
+                mes[StringType.Message]);
+        }
+        public static bool showTranslatedInfo(ITranslateableWindow window, String string_name, params string[] variables)
+        {
+            StringCollection mes = Strings.get(string_name, variables);
+            return window.showInfo(mes[StringType.Title],
+                mes[StringType.Message]);
+        }
+        #endregion
 
-        protected void translateThisWindow()
-        {
-            translateWindow(this);
-        }
 
         #region Translating methods
         public static void translateWindow(Window window)
@@ -183,39 +201,6 @@ namespace Translations.WPF
             }
             string string_title = control.Header.ToString();
             control.Header = Strings.getInterfaceString(string_title);
-        }
-        #endregion
-
-
-        protected abstract bool askQuestion(string title, string message);
-        protected abstract bool showError(string title, string message);
-        protected abstract bool showWarning(string title, string message);
-        protected abstract bool showInfo(string title, string message);
-
-        #region TranslatedMessageBoxes
-        public bool askTranslatedQuestion(String string_name, params string[] variables)
-        {
-            StringCollection mes = Strings.getTitleMessagePair(string_name);
-            return askQuestion(mes[StringType.Title],
-                mes[StringType.Message]);
-        }
-        public bool showTranslatedWarning(String string_name, params string[] variables)
-        {
-            StringCollection mes = Strings.getTitleMessagePair(string_name);
-            return showWarning(mes[StringType.Title],
-                mes[StringType.Message]);
-        }
-        public bool showTranslatedError(String string_name, params string[] variables)
-        {
-            StringCollection mes = Strings.getTitleMessagePair(string_name);
-            return showError(mes[StringType.Title],
-                mes[StringType.Message]);
-        }
-        public bool showTranslatedInfo(String string_name, params string[] variables)
-        {
-            StringCollection mes = Strings.getTitleMessagePair(string_name);
-            return showInfo(mes[StringType.Title],
-                mes[StringType.Message]);
         }
         #endregion
     }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 using MASGAU.Game;
-
+using MVC;
 namespace MASGAU.Archive {
     public class ArchiveID : AIdentifier {
         public readonly String owner;

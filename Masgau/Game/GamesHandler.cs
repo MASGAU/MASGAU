@@ -11,6 +11,7 @@ using Communication;
 using Communication.Progress;
 using Communication.Message;
 using Communication.Request;
+using MVC;
 
 namespace MASGAU.Game
 {

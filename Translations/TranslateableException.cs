@@ -7,13 +7,16 @@ namespace Translations
 {
     public class TranslateableException: Exception
     {
-        public TranslateableException(string name, Exception inner): 
+        string[] variables;
+        public TranslateableException(string name, Exception inner, params string[] variables): 
             base(name,inner)
         {
-
+            this.variables = variables;
         }
-        public TranslateableException(string name) :
+        public TranslateableException(string name, params string[] variables) :
             base(name)
-        { }
+        {
+            this.variables = variables;
+        }
     }
 }

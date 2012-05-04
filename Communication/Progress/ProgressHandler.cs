@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using Translations;
 namespace Communication.Progress
 {
     #region Progress Definitions
@@ -22,12 +21,6 @@ namespace Communication.Progress
                 setProgress();
             }
         }
-
-        public static void setTranslatedMessage(string name, params string[] variables)
-        {
-            message = Strings.get(name, variables);
-        }
-
 
         private static int _value = 0;
         public static int value {

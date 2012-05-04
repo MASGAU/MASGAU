@@ -9,7 +9,8 @@ using MASGAU.Update;
 using Communication;
 using Communication.Progress;
 using Communication.Message;
-
+using Communication.Translator;
+using Translations;
 namespace MASGAU.Game
 {
     public class GamesXMLHandler
@@ -19,16 +20,17 @@ namespace MASGAU.Game
         public List<UpdateHandler>    xml_file_versions;
 
         public GamesXMLHandler() {
+
         }
         
         public bool ready = false;
         public void loadXml() {
-            ProgressHandler.message = "Loading Game XMLs";
+            TranslatingProgressHandler.setTranslatedMessage("LoadingGameXmls");
             game_profiles = new List<GameXMLHolder>();
             xml_file_versions = new List<UpdateHandler>();
             string game_configs = Path.Combine(Core.app_path,"data");
-            if(!Directory.Exists(game_configs))
-                throw new CommunicatableException("Trashy Talk, Yes?","Could not find game profiles folder",false);
+            if (!Directory.Exists(game_configs))
+                throw new TranslateableException("CouldNotFindGameProfilesFolder");
 
             List<FileInfo> read_us;
 	        DirectoryInfo read_me = new DirectoryInfo(game_configs);
@@ -41,8 +43,8 @@ namespace MASGAU.Game
                     read_us.Add(custom_xml);
             }
 
-            if(read_us.Count==0)
-                throw new CommunicatableException("What the heck?","There are no XML files in the Data folder.",false);
+            if (read_us.Count == 0)
+                throw new TranslateableException("NoXmlFilesInDataFolder");
 
             int i = 1;
             foreach(FileInfo me_me in read_us) {
@@ -52,7 +54,7 @@ namespace MASGAU.Game
                 try {
                     game_config = Core.readXmlFile(me_me.FullName);
                 } catch (XmlException ex) {
-                    MessageHandler.SendError("What A Duketastrophe",ex.Message);
+                    TranslatingMessageHandler.SendError("GameXmlParseError", ex, me_me.FullName);
                     continue;
                 }
 
@@ -67,7 +69,7 @@ namespace MASGAU.Game
                 }
 
                 if(games_node==null) {
-                    MessageHandler.SendWarning("Game XMl Error","Couldn't find the games tag in " + me_me.Name);
+                    TranslatingMessageHandler.SendWarning("GameXmlNoGamesTag", me_me.Name);
                     continue;
                 }
 
@@ -80,7 +82,7 @@ namespace MASGAU.Game
 
                     GameXMLHolder add_me;
                     if(element.GetAttribute("name").Contains(" ")) {
-                        MessageHandler.SendWarning("No spaces!","There's a space in the game name " + hold_this);
+                        TranslatingMessageHandler.SendWarning("SpaceInGameName",hold_this);
                         continue;
                     }
                     String name = element.GetAttribute("name");

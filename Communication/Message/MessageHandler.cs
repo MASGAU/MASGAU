@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using Communication.Progress;
-using Translations;
 namespace Communication.Message
 {
     public delegate void MessageEventHandler(MessageEventArgs e);
@@ -27,32 +26,31 @@ namespace Communication.Message
 
         }
 
-        public static ResponseType SendError(string name, params string[] variables) {
-            return SendError(name, null as Exception, variables);
+        protected static ResponseType SendError(string name, string title)
+        {
+            return SendError(name, title, null as Exception);
         }
-        public static ResponseType SendError(string name, Exception e, params string[] variables)
+        protected static ResponseType SendError(string name, string title, Exception e)
         {
             ProgressHandler.state = ProgressState.Error;
-            return SendMessage(name, MessageTypes.Error, e);
+            return SendMessage(name, title, MessageTypes.Error, e);
         }
-        public static ResponseType SendWarning(string name, params string[] variables)
+        protected static ResponseType SendWarning(string name, string title)
+        {
+            return SendWarning(name, title, null);
+        }
+        protected static ResponseType SendWarning(string name, string title, Exception e)
         {
             ProgressHandler.state = ProgressState.Error;
-            return SendMessage(name, MessageTypes.Warning, null);
+            return SendMessage(name, title, MessageTypes.Warning, e);
         }
-        public static ResponseType SendInfo(string name, params string[] variables)
+        protected static ResponseType SendInfo(string name, string title)
         {
             ProgressHandler.state = ProgressState.Wait;
-            return SendMessage(name,MessageTypes.Info,null);
+            return SendMessage(name, title, MessageTypes.Info, null);
         }
 
-        // The translateable version of all this. OH YEAH!
-        public static ResponseType SendMessage(string name, MessageTypes type, Exception ex)
-        {
-            StringCollection mes = Strings.getTitleMessagePair(name);
-            return SendMessage(mes[StringType.Title], mes[StringType.Message], type, ex);
-        }
-        public static ResponseType SendMessage(string title, string message, MessageTypes type, Exception ex)
+        protected static ResponseType SendMessage(string title, string message, MessageTypes type, Exception ex)
         {
             MessageEventArgs e = new MessageEventArgs();
             e.type = type;

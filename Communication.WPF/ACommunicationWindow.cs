@@ -14,10 +14,10 @@ using System.Windows.Media.Imaging;
 using System.ComponentModel;
 using System.Threading;
 using System.Windows.Threading;
-
+using Translations.WPF;
 namespace Communication.WPF
 {
-    public abstract class ACommunicationWindow : ATranslateableWindow, ICommunicationReceiver
+    public abstract class ACommunicationWindow : System.Windows.Window, ICommunicationReceiver, ITranslateableWindow
     {
         protected static Brush default_progress_color;
         protected Email.AEmailConfig email_config;
@@ -42,7 +42,7 @@ namespace Communication.WPF
 
 
         protected ACommunicationWindow(ACommunicationWindow owner)
-            : base(owner)
+            : base()
         {
             this.email_config = owner.email_config;
             this.Closing += new CancelEventHandler(Window_Closing);
@@ -208,28 +208,28 @@ namespace Communication.WPF
         }
 
         #region MessageBox showing things
-        protected override bool askQuestion(string title, string message)
+        public bool askQuestion(string title, string message)
         {
             MessageBox box = new MessageBox(title, message, RequestType.Question, this);
             return (bool)box.ShowDialog();
         }
-        protected override bool showError(string title, string message)
+        public bool showError(string title, string message)
         {
             return showError(title, message, null);
         }
-        protected bool showError(string title, string message, Exception e)
+        public bool showError(string title, string message, Exception e)
         {
             return displayMessage(title, message, MessageTypes.Error, e);
         }
-        protected override bool showWarning(string title, string message)
+        public bool showWarning(string title, string message)
         {
             return displayMessage(title, message, MessageTypes.Warning, null);
         }
-        protected override bool showInfo(string title, string message)
+        public bool showInfo(string title, string message)
         {
             return displayMessage(title, message, MessageTypes.Info, null);
         }
-        protected bool displayMessage(string title, string message, MessageTypes type, Exception e)
+        public bool displayMessage(string title, string message, MessageTypes type, Exception e)
         {
             MessageBox box = new MessageBox(title, message, e, type, this);
             return (bool)box.ShowDialog();

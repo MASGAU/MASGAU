@@ -15,6 +15,7 @@ using Communication.Message;
 using Communication.Request;
 using Communication;
 using Translations;
+using Translations.WPF;
 using Email;
 namespace Communication.WPF
 {
@@ -26,7 +27,7 @@ namespace Communication.WPF
 
         public MessageBox(string title, string message, ACommunicationWindow owner): base(owner) {
             InitializeComponent();
-            this.translateThisWindow();
+            TranslationHelpers.translateWindow(this);
             this.Title = title;
             messageLabel.Content = message;
         }
@@ -54,10 +55,9 @@ namespace Communication.WPF
                         exceptionExpander.Visibility = System.Windows.Visibility.Visible;
                         exceptionText.Text = recurseExceptions(e);
                         if(e.GetType()==typeof(CommunicatableException)) {
-                            if(((CommunicatableException)e).submittable)
-                                submitButton.Visibility = System.Windows.Visibility.Visible;
-                            else
-                                submitButton.Visibility = System.Windows.Visibility.Collapsed;
+                            submitButton.Visibility = System.Windows.Visibility.Visible;
+//                            if(!((CommunicatableException)e).submittable)
+  //                              submitButton.Visibility = System.Windows.Visibility.Collapsed;
                         } else {
                             submitButton.Visibility = System.Windows.Visibility.Visible;
                         }

@@ -92,7 +92,7 @@ namespace MASGAU.Location.Holders {
                 }
             }
             catch (Exception e) {
-                throw new CommunicatableException("Delete Error", "Error while trying to delete this:\n" + full_dir_path + "\nYou probably don't have permission to do that.", e, false);
+                throw new Translations.TranslateableException("DeleteError", e, full_dir_path);
             }
         }
     }

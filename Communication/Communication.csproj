@@ -30,6 +30,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>communication.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="CommunicatableException.cs" />
     <Compile Include="CommunicationHandler.cs" />
@@ -54,13 +60,12 @@
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Translations\Translations.csproj">
-      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
-      <Name>Translations</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="communication.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

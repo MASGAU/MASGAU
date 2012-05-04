@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Communication")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Kohls Department Stores Inc")]
+[assembly: AssemblyCompany("Matthew Barbour")]
 [assembly: AssemblyProduct("Communication")]
-[assembly: AssemblyCopyright("Copyright © Kohls Department Stores Inc 2012")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

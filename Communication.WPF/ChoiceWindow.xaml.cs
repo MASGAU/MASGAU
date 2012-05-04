@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Communication.Progress;
 using Translations;
+using Translations.WPF;
 namespace Communication.WPF
 {
     /// <summary>
@@ -22,7 +23,7 @@ namespace Communication.WPF
         public ChoiceWindow(string title, string message, List<string> options, string default_option, ACommunicationWindow owner): base(owner)
         {
             InitializeComponent();
-            translateThisWindow();
+            TranslationHelpers.translateWindow(this);
             int selected = 0;
             this.Title = title;
             messageGrp.Header = message;

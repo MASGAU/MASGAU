@@ -10,6 +10,8 @@ using MASGAU.Location.Holders;
 using Communication.Message;
 using System.ComponentModel;
 using Email;
+using MVC;
+using Translations;
 namespace MASGAU.Config
 
 {
@@ -45,7 +47,7 @@ namespace MASGAU.Config
                 // Load the settings from the XML file
                 loadSettings();
             } else {
-                throw new CommunicatableException("Config File Error","Could not determine an acceptable path for the config file.",false);
+                throw new TranslateableException("CouldNotDetermineConfigFilePath");
             }
 
 
