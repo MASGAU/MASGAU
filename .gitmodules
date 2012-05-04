@@ -7,3 +7,6 @@
 [submodule "Config"]
 	path = Config
 	url = https://sanmadjack@github.com/sanmadjack/Config.git
+[submodule "MVC"]
+	path = MVC
+	url = https://sanmadjack@github.com/sanmadjack/MVC.git
