@@ -1,3 +1,6 @@
 [submodule "Collections"]
 	path = Collections
 	url = https://sanmadjack@github.com/sanmadjack/Collections.git
+[submodule "Logger"]
+	path = Logger
+	url = https://sanmadjack@github.com/sanmadjack/Logger.git
