@@ -25,3 +25,6 @@
 [submodule "Translator.WPF"]
 	path = Translator.WPF
 	url = https://sanmadjack@github.com/sanmadjack/Translator.git
+[submodule "Email"]
+	path = Email
+	url = https://sanmadjack@github.com/sanmadjack/Email.git
