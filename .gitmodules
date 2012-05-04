@@ -19,3 +19,9 @@
 [submodule "Communication.Translator"]
 	path = Communication.Translator
 	url = https://sanmadjack@github.com/sanmadjack/Communication.git
+[submodule "Translator"]
+	path = Translator
+	url = https://sanmadjack@github.com/sanmadjack/Translator.git
+[submodule "Translator.WPF"]
+	path = Translator.WPF
+	url = https://sanmadjack@github.com/sanmadjack/Translator.git
