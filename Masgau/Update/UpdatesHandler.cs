@@ -8,10 +8,13 @@ using System.ComponentModel;
 
 using System.Diagnostics;
 using MASGAU.Game;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
-using MASGAU.Communication.Request;
-
+using Communication;
+using Communication.Progress;
+using Communication.Message;
+using Communication.Request;
+using MVC;
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Update
 {
 
@@ -43,7 +46,7 @@ namespace MASGAU.Update
         #endregion
 
         public void checkUpdates(bool updater_program, bool suppress_no_update_message) {
-            ProgressHandler.progress_state = ProgressState.Indeterminate;
+            ProgressHandler.state = ProgressState.Indeterminate;
 
             if(Core.settings!=null)
                 Core.settings.already_updated = true;
@@ -60,7 +63,7 @@ namespace MASGAU.Update
                 }
 
             }
-            ProgressHandler.progress_message = "Checking for updates...";
+            TranslatingProgressHandler.setTranslatedMessage("CheckingForUpdates");
 
             foreach(UpdateHandler check_me in xml.xml_file_versions) {
                 this.Add(check_me);
@@ -73,7 +76,7 @@ namespace MASGAU.Update
  
             if(!File.Exists(updates_file)) {
                 shutdown_required = true;
-                throw new MException("Not cool","The updates.xml file couldn't be found. You probably need to re-install.",false);
+                throw new TranslateableException("UpdatesXmlNotFound");
             }
 
             XmlReaderSettings xml_settings = new XmlReaderSettings();
@@ -87,7 +90,7 @@ namespace MASGAU.Update
             try {
                 document.Load(reader);
             } catch (XmlException e) {
-                throw new MException("Update File XML Error","XML Error while reading updates.xml.", e,false);
+                throw new TranslateableException("UpdatesXmlFormatError", e);
             } finally {
                 reader.Close();
                 stream.Close();
@@ -101,7 +104,7 @@ namespace MASGAU.Update
             }
 
             if(updates_node==null) {
-                throw new MException("Update XML Error","Couldn't find the updates tag in updates.xml", false);
+                throw new TranslateableException("UpdatesXmlNoUpdatesTag");
             }
 
             //this.Add(new UpdateHandler(updates_node,"updates.xml",updates_file));
@@ -135,7 +138,7 @@ namespace MASGAU.Update
                     }
                     continue;
                 } catch (XmlException e) {
-                    MessageHandler.SendWarning("Update File XML Error","XML Error while reading updates.xml:", e.Message);
+                    TranslatingMessageHandler.SendWarning("UpdatesXmlFormatError", e);
                     continue;
                 } finally {
                     reader.Close();
@@ -149,7 +152,7 @@ namespace MASGAU.Update
                 }
 
                 if(files_node==null) {
-                    MessageHandler.SendWarning("Update XML Error","Couldn't find the files tag in the fileversions.xml downloaded from " + update_source);
+                    TranslatingMessageHandler.SendWarning("UpdatesXmlNoFilesTag",update_source);
                     continue;
                 }
 
@@ -163,7 +166,7 @@ namespace MASGAU.Update
                             if(element.HasAttribute("name")) {
                                 name = element.GetAttribute("name");
                             } else {
-                                MessageHandler.SendWarning("Update XML Error","name attribute missing from the file tag in fileversions.xml downloaded from " + update_source);
+                                TranslatingMessageHandler.SendWarning("UpdatesXmlNoNameAttribute", update_source);
                                 continue;
                             }
 
@@ -186,7 +189,8 @@ namespace MASGAU.Update
             }
 
             if(program.needs_update) {
-                if(!RequestHandler.Request(RequestType.Question,"There is a program update for MASGAU","Would you like to download it from this address?" + Environment.NewLine + Environment.NewLine + program.latest_version_urls[0]).cancelled) {
+                if (!TranslatingRequestHandler.Request(RequestType.Question, "ProgramUpdateAvailable", program.latest_version_urls[0]).cancelled)
+                {
                     System.Diagnostics.Process.Start(program.latest_version_urls[0]);
                     shutdown_required = true;
                     return;
@@ -209,7 +213,7 @@ namespace MASGAU.Update
 
             if(!update_available) {
                 if(!suppress_no_update_message) {
-                    MessageHandler.SendInfo("Not A Thing","No Updates Found");
+                    TranslatingMessageHandler.SendInfo("NoUpdatesFound");
                 }
                 return;
             }
@@ -219,7 +223,7 @@ namespace MASGAU.Update
             }
 
             if(File.Exists(Core.programs.updater)) {
-                if(!RequestHandler.Request(RequestType.Question,"MASGAU wishes to evolve","There are data updates available." + Environment.NewLine + "Would you like to update?").cancelled) {
+                if(!TranslatingRequestHandler.Request(RequestType.Question,"DataUpdatesAvailable").cancelled) {
                     ProcessStartInfo updater = new ProcessStartInfo();
                     updater.FileName = Core.programs.updater;
                     if(Core.portable_mode)
@@ -239,7 +243,7 @@ namespace MASGAU.Update
                 }
             } else {
                 Core.settings.auto_update = false;
-                throw new MException("How could you let this happen?","The updater executable is missing." + Environment.NewLine + "You'll probably have to reinstall MASGAU before updating will work again",false);
+                throw new TranslateableException("UpdateExecutableMissing");
             }
         
         }

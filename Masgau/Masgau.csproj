@@ -51,8 +51,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AIdentifier.cs" />
-    <Compile Include="AModelItem.cs" />
     <Compile Include="AProgramHandler.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -63,27 +61,8 @@
     <Compile Include="BackgroundWorker.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Collections\DictionaryList.cs" />
-    <Compile Include="Collections\TwoKeyDictionary.cs" />
-    <Compile Include="Communication\CommunicationHandler.cs" />
-    <Compile Include="Communication\ICommunicationReceiver.cs" />
-    <Compile Include="Communication\Interface\InterfaceHandler.cs" />
-    <Compile Include="Communication\Message\MessageEventArgs.cs" />
-    <Compile Include="Communication\Message\MessageHandler.cs" />
-    <Compile Include="Communication\Message\MessageTypes.cs" />
-    <Compile Include="Communication\Progress\ProgressChangedEventArgs.cs" />
-    <Compile Include="Communication\Progress\ProgressHandler.cs" />
-    <Compile Include="Communication\Progress\ProgressState.cs" />
-    <Compile Include="Communication\Request\RequestEventArgs.cs" />
-    <Compile Include="Communication\Request\RequestHandler.cs" />
-    <Compile Include="Communication\Request\RequestReply.cs" />
-    <Compile Include="Communication\Request\RequestType.cs" />
-    <Compile Include="Communication\RespondableEventArg.cs" />
-    <Compile Include="Communication\ResponseType.cs" />
     <Compile Include="Comparers\FileInfoComparer.cs" />
     <Compile Include="Comparers\ReversableComparer.cs" />
-    <Compile Include="Config\ConfigFileHandler.cs" />
-    <Compile Include="IniFileHandler.cs" />
     <Compile Include="Location\AScummVMLocationHandler.cs" />
     <Compile Include="Location\Holders\LocationScummVMHandler.cs" />
     <Compile Include="SubmitHandler.cs">
@@ -116,8 +95,6 @@
     <Compile Include="Location\IDs\ALocationID.cs" />
     <Compile Include="Location\ILocationsHandler.cs" />
     <Compile Include="Location\UserData.cs" />
-    <Compile Include="MException.cs" />
-    <Compile Include="Model.cs" />
     <Compile Include="OperatingSystem.cs" />
     <Compile Include="PermissionsHelper.cs" />
     <Compile Include="ProgramNames.cs" />
@@ -126,9 +103,6 @@
     <Compile Include="Registry\RegRoot.cs" />
     <Compile Include="Restore\RestoreResult.cs" />
     <Compile Include="Config\VersioningUnit.cs" />
-    <Compile Include="EmailHandler.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Game\GameCountry.cs" />
     <Compile Include="Game\GameHandler.cs" />
     <Compile Include="Game\GamesHandler.cs" />
@@ -148,7 +122,6 @@
     <Compile Include="Monitor\MonitorHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityHandler.cs" />
-    <Compile Include="StringID.cs" />
     <Compile Include="structs.cs" />
     <Compile Include="Task\DayOfWeek.cs" />
     <Compile Include="Task\Frequency.cs" />
@@ -156,6 +129,7 @@
     <Compile Include="Update\UpdateHandler.cs" />
     <Compile Include="Update\UpdatesHandler.cs" />
     <Compile Include="Update\UpdateVersion.cs" />
+    <Compile Include="IModelItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="masgau.snk" />
@@ -175,6 +149,40 @@
     <Content Include="masgau.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Collections\Collections.csproj">
+      <Project>{88E4E120-9C45-4EAC-887B-B77474B799B4}</Project>
+      <Name>Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communication.Translator\Communication.Translator.csproj">
+      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
+      <Name>Communication.Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communication\Communication.csproj">
+      <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Email\Email.csproj">
+      <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
+      <Name>Email</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{CD1B810F-38EC-41CE-974F-7B0EE5CD8B87}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVC\MVC.csproj">
+      <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

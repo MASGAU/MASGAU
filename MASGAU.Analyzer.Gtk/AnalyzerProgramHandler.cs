@@ -5,7 +5,7 @@ namespace MASGAU.Analyzer
 {
 	public class AnalyzerProgramHandler: AAnalyzerProgramHandler<Location.LocationsHandler>
 	{
-        public AnalyzerProgramHandler():base(MASGAU.Interface.WPF)  {
+        public AnalyzerProgramHandler():base(MASGAU.Interface.Gtk)  {
         }
 		
 

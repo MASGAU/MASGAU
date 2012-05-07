@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Xml;
 using MASGAU.Location.Holders;
-
+using MVC;
 namespace MASGAU.Location
 {
     public abstract class ALocationHandler: Model<StringID,UserData>

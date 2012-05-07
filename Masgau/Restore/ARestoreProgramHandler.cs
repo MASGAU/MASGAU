@@ -9,8 +9,10 @@ using MASGAU.Archive;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Game;
-using MASGAU.Communication.Progress;
-
+using Communication;
+using Communication.Progress;
+using Communication.Translator;
+using Translator;
 namespace MASGAU.Restore
 {
     public class ARestoreProgramHandler<L>: AProgramHandler<L> where L: ALocationsHandler
@@ -29,7 +31,8 @@ namespace MASGAU.Restore
         }
 
         public ARestoreProgramHandler(Interface new_interface, ArchiveHandler archive): base(new_interface) {
-            this._program_title.Append(" Is Restoring");
+            this._program_title = Strings.getGeneralString("IsRestoring",
+                this._program_title.ToString());
             this.archive = archive;
         }
 
@@ -58,7 +61,7 @@ namespace MASGAU.Restore
             path_candidates = new ObservableCollection<LocationPathHolder>();
             user_candidates = new ObservableCollection<string>();
 
-            ProgressHandler.progress_state = ProgressState.Indeterminate;
+            ProgressHandler.state = ProgressState.Indeterminate;
 
             if(archive==null) {
                 string[] args = Environment.GetCommandLineArgs();
@@ -71,20 +74,20 @@ namespace MASGAU.Restore
                 }
             }
 
-            if(archive==null)
-                throw new MException("Nothing To Do","No File Was Selected To Restore",false);
+            if (archive == null)
+                throw new TranslateableException("NoRestoreFileSelected");
 
-            ProgressHandler.progress_message = "Detecting game for restoration...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingGameForRestoration");
 
             if (!File.Exists(archive.file_name))
-                throw new MException("Not there","The specified backup doesn't exist:" + Environment.NewLine + archive.file_name,false);
+                throw new TranslateableException("FileDoesntExist",archive.file_name);
                 
             GameID selected_game = archive.id.game;
             string backup_owner = archive.id.owner;
             string archive_type = archive.id.type;
 
             if(!Core.games.all_games.containsId(selected_game))
-                throw new MException("Unknown","MASGAU doesn't have information for the game: " + selected_game.ToString(),true);
+                throw new TranslateableException("UnknownGame", selected_game.ToString());
 
             game_data = Core.games.all_games.get(selected_game);
             game_data.detect();
@@ -153,7 +156,7 @@ namespace MASGAU.Restore
             } else if(path_candidates.Count>1) {
                 multiple_paths = true;
             } else {
-                throw new MException("Can't Restore If We Can't Find It","No restore paths detected for " + this.archive.id.ToString(),false);
+                throw new TranslateableException("NoRestorePathsDetected",this.archive.id.ToString());
             }
         }
         public bool _user_needed = false;
@@ -248,7 +251,7 @@ namespace MASGAU.Restore
                         user_needed = false;
                         break;
                     default:
-                        throw new MException("User Error","The environment variable " + location.rel_root + " requires a user to restore to, but none was detected for it. Try creating a save with a game that you know uses the folder.",false);
+                        throw new TranslateableException("NoUsersForEV", location.rel_root.ToString() );
                 }
 
             }
@@ -299,7 +302,7 @@ namespace MASGAU.Restore
 
         void restore_worker_DoWork(object sender, DoWorkEventArgs e)
         {
-            ProgressHandler.progress_state = ProgressState.Normal;
+            ProgressHandler.state = ProgressState.Normal;
             archive.restore(new DirectoryInfo(restore_path),file_list);
         }
     }

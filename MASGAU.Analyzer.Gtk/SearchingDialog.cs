@@ -1,33 +1,31 @@
 using System;
 using System.ComponentModel;
 using Translations;
+using MASGAU.Gtk;
 namespace MASGAU.Analyzer
 {
-	public partial class SearchingDialog : MASGAU.ADialog
+	public partial class SearchingDialog : MASGAU.Gtk.ADialog
 	{
-		private string game_name,game_path,save_path;
 		private AnalyzerProgramHandler analyzer;
 		private bool cancelled;
 		public string output {get; protected set;}
-		public SearchingDialog (AnalyzerProgramHandler analyzer, string game_name, string game_path, string save_path, AWindow parent): base(parent)
+		public SearchingDialog (AnalyzerProgramHandler analyzer, AWindow parent): base(parent)
 		{
-			this.game_name = game_name;
-			this.game_path = game_path;
-			this.save_path = save_path;
             this.analyzer = analyzer;
 			this.Build ();
-			this.Title = Strings.get("SearchingWindowTitle");
-			cancelButton.Label = Strings.get("Cancel");
-			analyzer.runAnalyzer(HandleAnalyzerRunWorkerCompleted,game_name,game_path,save_path);
+			
+			GTKHelpers.translateWindow(this);
+			
+			analyzer.runAnalyzer(HandleAnalyzerRunWorkerCompleted);
 		}
 		
 		void HandleAnalyzerRunWorkerCompleted (object sender, RunWorkerCompletedEventArgs e)
 		{
 			output = analyzer.output.ToString();
             if(cancelled) {
-				this.Respond(Gtk.ResponseType.Cancel);
+				this.Respond(global::Gtk.ResponseType.Cancel);
 			} else {
-				this.Respond(Gtk.ResponseType.Ok);
+				this.Respond(global::Gtk.ResponseType.Ok);
 			}
 		}
 		
@@ -52,7 +50,7 @@ namespace MASGAU.Analyzer
 			cancel();
 		}
 		
-		protected void OnDestroyEvent (object o, Gtk.DestroyEventArgs args)
+		protected void OnDestroyEvent (object o, global::Gtk.DestroyEventArgs args)
 		{
 			cancel();
 		}

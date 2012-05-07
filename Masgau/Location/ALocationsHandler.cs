@@ -5,8 +5,9 @@ using System.Text;
 using System.IO;
 using System.ComponentModel;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Progress;
-
+using Communication;
+using Communication.Progress;
+using Communication.Translator;
 namespace MASGAU.Location
 {
     public abstract class ALocationsHandler: ILocationsHandler 
@@ -35,19 +36,19 @@ namespace MASGAU.Location
         protected ALocationsHandler() {
             handlers = new Dictionary<HandlerType,ALocationHandler>();
 
-            ProgressHandler.progress_message = "Detecting System Paths...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingSystemPaths");
             ASystemLocationHandler system_handler = this.setupSystemHandler();
             handlers.Add(HandlerType.System, system_handler);
 
-            ProgressHandler.progress_message = "Checking For Steam...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingSteam");
             ASteamLocationHandler steam_handler = this.setupSteamHandler();
             handlers.Add(HandlerType.Steam, steam_handler);
 
-            ProgressHandler.progress_message = "Detecting PlayStation Paths...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingPlayStation");
             APlaystationLocationHandler playstation_handler = this.setupPlaystationHandler();
             handlers.Add(HandlerType.PlayStation, playstation_handler);
 
-            ProgressHandler.progress_message = "Detecting ScummVM Paths...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingScummVM");
             AScummVMLocationHandler scummvm_handler = this.setupScummVMHandler();
             handlers.Add(HandlerType.ScummVM, scummvm_handler);
         }

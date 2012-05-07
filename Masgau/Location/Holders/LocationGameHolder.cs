@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using MASGAU.Game;
 using System.Xml;
+using MVC;
+
 namespace MASGAU.Location.Holders {
     public class LocationGameHolder : ALocationHolder {
         // Used when dealing with a game root

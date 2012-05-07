@@ -5,10 +5,10 @@ using System.Text;
 using System.ComponentModel;
 using System.Threading;
 using System.Diagnostics;
-using MASGAU.Communication;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
-using MASGAU.Communication.Request;
+using Communication;
+using Communication.Progress;
+using Communication.Message;
+using Communication.Request;
 using MASGAU.Backup;
 
 namespace MASGAU.Console {
@@ -252,7 +252,7 @@ namespace MASGAU.Console {
         }
 
 
-        private void currentProgressChanged(object sender, MASGAU.Communication.Progress.ProgressUpdatedEventArgs e) {
+        private void currentProgressChanged(object sender, Communication.Progress.ProgressUpdatedEventArgs e) {
             myLog.WriteEntry("File " + e.value + " of " + e.max, EventLogEntryType.Information);
             System.Console.WriteLine("File " + e.value + " of " + e.max);
         }
@@ -261,7 +261,7 @@ namespace MASGAU.Console {
 
 
         List<String> progress_messages = new List<string>();
-        public void updateProgress(MASGAU.Communication.Progress.ProgressUpdatedEventArgs e) {
+        public void updateProgress(Communication.Progress.ProgressUpdatedEventArgs e) {
             if (e.message != null) {
                 string message = e.message;
                 if (message.StartsWith("Detecting Games"))
@@ -309,7 +309,7 @@ namespace MASGAU.Console {
 
         private void checkExceptions(object sender, RunWorkerCompletedEventArgs e) {
             if (e.Error != null) {
-                MException ex = e.Error as MException;
+                CommunicatableException ex = e.Error as CommunicatableException;
                 string message = ex.Message;
                 if (debug) {
                     message = message + Environment.NewLine + Environment.NewLine + e.Error.StackTrace;

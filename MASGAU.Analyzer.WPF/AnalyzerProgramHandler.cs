@@ -8,17 +8,20 @@ using Microsoft.Win32;
 using MASGAU.Registry;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Progress;
-using Translations;
+using Communication.Progress;
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Analyzer {
     public class AnalyzerProgramHandler: AAnalyzerProgramHandler<Location.LocationsHandler> {
         public AnalyzerProgramHandler():base(MASGAU.Interface.WPF)  {
         }
 
         protected override void HandleAnalyzerDoWork(object sender, DoWorkEventArgs e) {
-            ProgressHandler.progress_max = 6;
-            if (game_path != null) {
+            ProgressHandler.max += 3;
+            if (gamePath != null)
+            {
                 try {
+                    ProgressHandler.value++;
                     searchRegistry();
                 }
                 catch (Exception ex) {
@@ -27,6 +30,7 @@ namespace MASGAU.Analyzer {
                 }
 
                 try {
+                    ProgressHandler.value++;
                     searchStartMenu();
                 }
                 catch (Exception ex) {
@@ -39,10 +43,7 @@ namespace MASGAU.Analyzer {
 
         protected override void parseInstallFolder() {
             base.parseInstallFolder();
-
-            
-            ProgressHandler.progress++;
-            ProgressHandler.progress_message = Strings.get("DumpingVirtualStoreFolder");
+            TranslatingProgressHandler.setTranslatedMessage("DumpingVirtualStoreFolder");
             if (Core.locations.uac_enabled) {
                 output.AppendLine(Environment.NewLine + "UAC Enabled" + Environment.NewLine);
                 output.AppendLine(Environment.NewLine + "VirtualStore Folders: ");
@@ -55,7 +56,7 @@ namespace MASGAU.Analyzer {
                     virtual_path = Path.Combine(Core.locations.getAbsoluteRoot(parse_me, user), "VirtualStore");
 
                     analyzer.ReportProgress(6, "VirtualStore for user " + user + ": " + virtual_path);
-                    virtual_path = Path.Combine(virtual_path, game_path.Substring(3));
+                    virtual_path = Path.Combine(virtual_path, gamePath.Substring(3));
                     if (Directory.Exists(virtual_path))
                         travelSaveFolder(virtual_path);
 
@@ -74,8 +75,7 @@ namespace MASGAU.Analyzer {
             if (analyzer.CancellationPending)
                 return;
 
-            ProgressHandler.progress++;
-            ProgressHandler.progress_message = Strings.get("ScanningLocalMachineRegistry");
+            TranslatingProgressHandler.setTranslatedMessage("ScanningLocalMachineRegistry");
             output.AppendLine("Local Machine Registry Entries: ");
             RegistryKey look_here = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE");
             registryTraveller(look_here);
@@ -83,8 +83,8 @@ namespace MASGAU.Analyzer {
             if (analyzer.CancellationPending)
                 return;
             output.AppendLine("Current User Registry Entries: ");
-            ProgressHandler.progress++;
-            ProgressHandler.progress_message = Strings.get("ScanningCurrentUserRegistry");
+            ProgressHandler.value++;
+            TranslatingProgressHandler.setTranslatedMessage("ScanningCurrentUserRegistry");
             look_here = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("Software");
             registryTraveller(look_here);
         }
@@ -98,7 +98,8 @@ namespace MASGAU.Analyzer {
                     value.value = check_me;
                     if (look_here.GetValue(check_me) != null) {
                         value.data = look_here.GetValue(check_me).ToString();
-                        if (value.data.Length >= game_path.Length && game_path.ToLower() == value.data.Substring(0, game_path.Length).ToLower()) {
+                        if (value.data.Length >= gamePath.Length && gamePath.ToLower() == value.data.Substring(0, gamePath.Length).ToLower())
+                        {
                             output.AppendLine(Environment.NewLine + "Key:" + value.key);
                             output.AppendLine("Value: " + value.value);
                             output.Append("Data: ");
@@ -127,8 +128,7 @@ namespace MASGAU.Analyzer {
 
             if (analyzer.CancellationPending)
                 return;
-            ProgressHandler.progress++;
-            ProgressHandler.progress_message = Strings.get("ScanningStartMenu");
+            TranslatingProgressHandler.setTranslatedMessage("ScanningStartMenu");
             output.AppendLine(Environment.NewLine + "Detected Start Menu Shortcuts: ");
 
             string start_menu = Environment.GetFolderPath(Environment.SpecialFolder.StartMenu);
@@ -155,7 +155,8 @@ namespace MASGAU.Analyzer {
                 foreach (FileInfo shortcut in new DirectoryInfo(look_here).GetFiles("*.lnk")) {
                     try {
                         link = (IWshRuntimeLibrary.IWshShortcut)shell.CreateShortcut(shortcut.FullName);
-                        if (link.TargetPath.Length >= game_path.Length && game_path.ToLower() == link.TargetPath.Substring(0, game_path.Length).ToLower()) {
+                        if (link.TargetPath.Length >= gamePath.Length && gamePath.ToLower() == link.TargetPath.Substring(0, gamePath.Length).ToLower())
+                        {
                             this.outputFile(shortcut.FullName);
                             this.outputFileSystemPath(link.TargetPath);
                         }

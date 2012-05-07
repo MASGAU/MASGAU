@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel;
-using MASGAU.Communication.Progress;
+using Communication.Progress;
 
 namespace MASGAU.Console
 {
@@ -37,8 +37,6 @@ namespace MASGAU.Console
 
             Core.games.detectGames();
 
-            string temp = ProgressHandler.progress_message;
-            ProgressHandler.progress_message = temp;
         }
 
 

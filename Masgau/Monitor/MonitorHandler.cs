@@ -1,7 +1,9 @@
 ﻿using System.IO;
 using System;
 using MASGAU.Registry;
-
+using MVC;
+using Communication;
+using Translator;
 namespace MASGAU.Monitor
 {
     public class MonitorHandler: AModelItem
@@ -48,7 +50,7 @@ namespace MASGAU.Monitor
                         reg.setValue("MASGAUMonitor", monitor_path);
                         monitor_enabled = true;
                     } else {
-                        throw new MException("This should NEVER HAPPEN","Monitor was attempted to enable when it was not found.",true);
+                        throw new TranslateableException("MonitorNotFound");
                     }
                 } else {
                     if (reg.getValue("MASGAUMonitor")!=null) {

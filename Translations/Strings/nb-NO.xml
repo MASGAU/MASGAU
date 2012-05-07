@@ -93,12 +93,10 @@
 
   <string name="RedetectGamesButton">_Gjenoppdag Spill</string>
   <string name="BackupNoGamesButton">Ingenting å sikkerhetskopiere</string>
-  <string name="BackupOneGameButton">_Sikkerhetskopier dette</string>
-  <string name="BackupMultipleGamesButtonPrefix">_Sikkerhetskopier disse</string>
-  <!-- A number will be inserted between these two-->
-  <string name="BackupMultipleGamesButtonSuffix">Opp</string>
+  <string name="BackupOneGameButton">_Sikkerhetskopier denne</string>
+  <string name="BackupMultipleGamesButton">_Sikkerhetskopier disse %1</string>
   <string name="BackupAllGamesButton">Sikkerhetskopier _Alt</string>
-  <string name="BackupOneGameMenu">Sikkerhetskopier dette</string>
+  <string name="BackupOneGameMenu">Sikkerhetskopier denne</string>
   <string name="BackupMultipleGamesMenu">Sikkerhetskopier disse</string>
 
   <string name="DetectedGames">Oppdagede Spill</string>
@@ -117,7 +115,7 @@
   <string name="ReloadArchivesButton">_Last inn Arkiv</string>
   <string name="RestoreOtherBackup">Gjenopprett Annet Arkiv</string>
   <string name="RestoreNoneButton">Ingenting å gjenopprette</string>
-  <string name="RestoreOneButton">_Gjenopprett dette</string>
+  <string name="RestoreOneButton">_Gjenopprett denne</string>
   <string name="RestoreMultipleButton">Gjenopprett _disse</string>
 
   <string name="NoArchivesFound">Ingen arkiv funnet i sikkerhetskopi mappen</string>
@@ -176,7 +174,7 @@
   <string name="CheckForUpdates">Se etter _oppdateringer</string>
   <string name="VersioningEnable">Lag _ekstra kopier</string>
   <string name="VersioningTime">Minst dette imellom kopier</string>
-  <string name="VersioningCount">På det meste så mange kopier</string>
+  <string name="VersioningCount">Antall kopier på det meste</string>
   <string name="AltPaths">Alternativ lagrings baner</string>
   <string name="AddAltPath">Legg til ny bane</string>
   <string name="RemoveNoAltPaths">Fjern Ingenting</string>
@@ -253,8 +251,7 @@
   <string name="MonitorNegativeGames">%MonitorTitle% er...HVA!??!</string>
   <string name="MonitorZeroGames">%MonitorTitle%  forfølger ingen spill</string>
   <string name="MonitorOneGame">%MonitorTitle% forfølger ett spill</string>
-  <string name="MonitorMultipleGamesPrefix">%MonitorTitle% forfølger"</string>
-  <string name="MonitorMultipleGamesSuffix">"spill"</string>
+  <string name="MonitorMultipleGames">%MonitorTitle% forfølger %1 spill</string>
 
   <!-- Analyzer-specific strings -->
   <string name="AnalyzerWindowTitle">Savegame Analyserer</string>

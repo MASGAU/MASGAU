@@ -8,7 +8,7 @@ using MASGAU.Location.Holders;
 using MASGAU.Game;
 using System.IO;
 using System.ComponentModel;
-using Translations;
+using Translator;
 namespace MASGAU.Main
 {
     /// <summary>

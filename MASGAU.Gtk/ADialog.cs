@@ -4,9 +4,11 @@ using MASGAU.Communication.Message;
 using MASGAU.Communication.Request;
 using MASGAU.Communication.Progress;
 using System.Threading;
-namespace MASGAU
+using Gtk;
+
+namespace MASGAU.Gtk
 {
-	public class ADialog: Gtk.Dialog, ICommunicationReceiver
+	public class ADialog: global::Gtk.Dialog, ICommunicationReceiver
 	{
 		
 		private SynchronizationContext _context;
@@ -22,7 +24,7 @@ namespace MASGAU
             }
         }
 		
-		public ADialog(Gtk.Window parent): this() {
+		public ADialog(global::Gtk.Window parent): this() {
 			this.Parent = parent;
 		}
 		private ADialog ()
@@ -44,7 +46,7 @@ namespace MASGAU
 			
 		}
 		
-		protected void OnResponse (object o, Gtk.ResponseArgs args)
+		protected void OnResponse (object o, global::Gtk.ResponseArgs args)
 		{
 			this.Destroy();
 		}

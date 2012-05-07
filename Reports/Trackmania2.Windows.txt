@@ -1,0 +1,123 @@
+Game Name: Trackmania 2 Canyon
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+Drive\ManiaPlanet
+
+Save Path: 
+UserDocuments\ManiaPlanet
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\maniaplanet\DefaultIcon
+Value: 
+Data: 18.10.2011 15:51:22 - Drive\ManiaPlanet\Gbx.ico - 410598
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ManiaPlanet.gbx\DefaultIcon
+Value: 
+Data: 18.10.2011 15:51:22 - Drive\ManiaPlanet\Gbx.ico - 410598
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1128035067-3103861418-3052853759-1000\{5675BC3D-F5DD-444E-B4A2-3D994C2D221E}
+Value: ConfigApplicationPath
+Data: Drive\ManiaPlanet
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1128035067-3103861418-3052853759-1000\{5675BC3D-F5DD-444E-B4A2-3D994C2D221E}
+Value: ConfigGDFBinaryPath
+Data: 18.10.2011 15:51:54 - Drive\ManiaPlanet\ManiaPlanetGdf.dll - 346624
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ManiaPlanet_is1
+Value: Inno Setup: App Path
+Data: Drive\ManiaPlanet
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ManiaPlanet_is1
+Value: InstallLocation
+Data: Drive\ManiaPlanet
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ManiaPlanet_is1
+Value: DisplayIcon
+Data: 27.09.2011 11:52:00 - Drive\ManiaPlanet\ManiaPlanetLauncher.exe - 2932736
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+10.04.2012 02:30:56 - AllUsersProfile\Microsoft\Windows\Start Menu\Programs\ManiaPlanet\Play ManiaPlanet.lnk - 597
+27.09.2011 11:52:00 - Drive\ManiaPlanet\ManiaPlanetLauncher.exe - 2932736
+
+Root Drive Information: 
+Drive Name: E:\
+Drive Root: E:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+10.04.2012 02:42:35 - UserDocuments\ManiaPlanet\Config\blacklist.txt - 120
+10.04.2012 02:42:35 - UserDocuments\ManiaPlanet\Config\checksum.txt - 39528
+10.04.2012 02:32:47 - UserDocuments\ManiaPlanet\Config\Default.SystemConfig.Gbx - 645
+10.04.2012 02:42:35 - UserDocuments\ManiaPlanet\Config\guestlist.txt - 119
+10.04.2012 02:42:35 - UserDocuments\ManiaPlanet\Config\kim.Profile.Gbx - 11000
+22.03.2012 18:23:17 - UserDocuments\ManiaPlanet\Config\kim.ScriptCache.Gbx - 53
+10.04.2012 02:32:55 - UserDocuments\ManiaPlanet\Config\updater_files.txt - 11201
+10.04.2012 02:42:33 - UserDocuments\ManiaPlanet\Config\User.FidCache.Gbx - 1446
+22.03.2012 18:49:52 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A01.Replay.gbx - 301395
+23.03.2012 09:21:43 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A02.Replay.gbx - 315365
+23.03.2012 09:24:10 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A03.Replay.gbx - 304070
+23.03.2012 09:25:32 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A04.Replay.gbx - 305183
+23.03.2012 09:27:42 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A05.Replay.gbx - 374442
+10.04.2012 02:35:07 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A06.Replay.gbx - 360190
+10.04.2012 02:36:32 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A07.Replay.gbx - 335866
+10.04.2012 02:37:42 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A08.Replay.gbx - 315789
+10.04.2012 02:39:06 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A09.Replay.gbx - 435672
+10.04.2012 02:42:02 - UserDocuments\ManiaPlanet\Replays\Autosaves\kim_A10.Replay.gbx - 437352
+
+Install Folder Dump: 
+21.10.2011 13:50:38 - Drive\ManiaPlanet\GameuxInstallHelper.dll - 90112
+18.10.2011 15:51:22 - Drive\ManiaPlanet\gbx.ico - 410598
+09.01.2012 16:49:00 - Drive\ManiaPlanet\ManiaPlanet.exe - 14709248
+18.10.2011 15:51:54 - Drive\ManiaPlanet\ManiaPlanetGdf.dll - 346624
+27.09.2011 11:52:00 - Drive\ManiaPlanet\ManiaPlanetLauncher.exe - 2932736
+10.04.2012 02:31:11 - Drive\ManiaPlanet\Nadeo.ini - 245
+25.08.2011 16:44:00 - Drive\ManiaPlanet\ogg.dll - 17408
+12.10.2011 15:16:00 - Drive\ManiaPlanet\OpenAL32.dll - 397312
+18.10.2011 15:51:58 - Drive\ManiaPlanet\ThumbGbx.tlb - 1696
+10.04.2012 02:30:56 - Drive\ManiaPlanet\unins000.dat - 34465
+10.04.2012 02:29:46 - Drive\ManiaPlanet\unins000.exe - 1456640
+10.04.2012 02:30:56 - Drive\ManiaPlanet\unins000.msg - 20903
+03.09.2011 01:11:00 - Drive\ManiaPlanet\Updater.exe - 254976
+25.08.2011 16:51:00 - Drive\ManiaPlanet\vorbis.dll - 1618432
+25.08.2011 16:52:00 - Drive\ManiaPlanet\vorbisfile.dll - 31744
+11.01.2012 16:58:08 - Drive\ManiaPlanet\GameData\GfxDevicePerfs.txt - 30314
+18.10.2011 15:51:52 - Drive\ManiaPlanet\GameData\NationsList.xml - 73358
+11.01.2012 16:47:48 - Drive\ManiaPlanet\GameData\updater_files.txt - 11201
+19.10.2011 15:39:28 - Drive\ManiaPlanet\GameData\Translations\cz\cz.mo - 210009
+19.10.2011 15:39:48 - Drive\ManiaPlanet\GameData\Translations\da\da.mo - 207021
+19.10.2011 15:39:54 - Drive\ManiaPlanet\GameData\Translations\de\de.mo - 211769
+19.10.2011 15:40:00 - Drive\ManiaPlanet\GameData\Translations\en\en.mo - 83035
+19.10.2011 15:40:10 - Drive\ManiaPlanet\GameData\Translations\es\es.mo - 216106
+19.10.2011 15:40:18 - Drive\ManiaPlanet\GameData\Translations\fi\fi.mo - 194425
+19.10.2011 15:40:26 - Drive\ManiaPlanet\GameData\Translations\fr\fr.mo - 213995
+19.10.2011 15:40:34 - Drive\ManiaPlanet\GameData\Translations\hu\hu.mo - 213642
+19.10.2011 15:40:46 - Drive\ManiaPlanet\GameData\Translations\it\it.mo - 211351
+19.10.2011 15:40:54 - Drive\ManiaPlanet\GameData\Translations\jp\jp.mo - 187095
+25.10.2011 17:53:44 - Drive\ManiaPlanet\GameData\Translations\kr\kr.mo - 173988
+19.10.2011 15:41:18 - Drive\ManiaPlanet\GameData\Translations\nb\nb.mo - 205606
+19.10.2011 15:41:26 - Drive\ManiaPlanet\GameData\Translations\nl\nl.mo - 210895
+19.10.2011 15:41:36 - Drive\ManiaPlanet\GameData\Translations\pl\pl.mo - 207602
+19.10.2011 15:41:48 - Drive\ManiaPlanet\GameData\Translations\pt\pt.mo - 208729
+19.10.2011 17:09:42 - Drive\ManiaPlanet\GameData\Translations\pt_BR\pt_BR.mo - 214758
+25.10.2011 17:54:14 - Drive\ManiaPlanet\GameData\Translations\ro\ro.mo - 205727
+19.10.2011 15:42:18 - Drive\ManiaPlanet\GameData\Translations\ru\ru.mo - 268161
+19.10.2011 15:42:28 - Drive\ManiaPlanet\GameData\Translations\sk\sk.mo - 211893
+19.10.2011 15:42:38 - Drive\ManiaPlanet\GameData\Translations\sv\sv.mo - 207873
+25.10.2011 17:54:44 - Drive\ManiaPlanet\GameData\Translations\tr\tr.mo - 206663
+25.10.2011 17:55:12 - Drive\ManiaPlanet\GameData\Translations\zh\zh.mo - 152213
+03.09.2011 17:34:00 - Drive\ManiaPlanet\Packs\ManiaPlanet.pak - 6718216
+01.09.2011 18:50:00 - Drive\ManiaPlanet\Packs\ManiaPlanet.zip - 28742806
+13.09.2011 17:24:00 - Drive\ManiaPlanet\Packs\ManiaPlanet_2011-09-01.pak - 2613512
+13.09.2011 16:06:00 - Drive\ManiaPlanet\Packs\ManiaPlanet_2011-09-01.zip - 3353807
+18.10.2011 15:51:56 - Drive\ManiaPlanet\Packs\Resource.pak - 164104
+
+UAC Enabled
+
+
+VirtualStore Folders: 

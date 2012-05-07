@@ -9,7 +9,7 @@
     <widget-library name="../../MASGAU.Gtk/bin/Debug/MASGAU.Gtk.dll" />
     <widget-library name="../bin/Debug/MASGAU.Main.Gtk.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MASGAU.Main.MainWindow" design-size="602 452">
+  <widget class="Gtk.Window" id="MASGAU.Main.MainWindow" design-size="614 391">
     <property name="MemberName" />
     <property name="Title" translatable="yes">MASGAU</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -63,7 +63,7 @@
                         <child>
                           <widget class="Gtk.Label" id="GtkLabel23">
                             <property name="MemberName" />
-                            <property name="LabelProp" translatable="yes">Detected Games</property>
+                            <property name="LabelProp" translatable="yes">DetectedGames</property>
                             <property name="UseMarkup">True</property>
                           </widget>
                           <packing>
@@ -87,7 +87,7 @@
                             <property name="CanFocus">True</property>
                             <property name="Type">TextAndIcon</property>
                             <property name="Icon">stock:gtk-refresh Menu</property>
-                            <property name="Label" translatable="yes">_Redetect Games</property>
+                            <property name="Label" translatable="yes">RedetectGamesButton</property>
                             <property name="UseUnderline">True</property>
                           </widget>
                           <packing>
@@ -101,7 +101,7 @@
                             <property name="CanFocus">True</property>
                             <property name="Type">TextAndIcon</property>
                             <property name="Icon">stock:gtk-save Menu</property>
-                            <property name="Label" translatable="yes">_Back Nothing Up</property>
+                            <property name="Label" translatable="yes">BackupNoGamesButton</property>
                             <property name="UseUnderline">True</property>
                           </widget>
                           <packing>
@@ -115,7 +115,7 @@
                             <property name="CanFocus">True</property>
                             <property name="Type">TextAndIcon</property>
                             <property name="Icon">stock:gtk-save Menu</property>
-                            <property name="Label" translatable="yes">Back _Everything Up</property>
+                            <property name="Label" translatable="yes">BackupAllGamesButton</property>
                             <property name="UseUnderline">True</property>
                           </widget>
                           <packing>
@@ -184,7 +184,7 @@
                         <child>
                           <widget class="Gtk.Label" id="GtkLabel24">
                             <property name="MemberName" />
-                            <property name="LabelProp" translatable="yes">Double-click a backup to restore it</property>
+                            <property name="LabelProp" translatable="yes">ArchiveListHeader</property>
                             <property name="UseMarkup">True</property>
                           </widget>
                           <packing>
@@ -208,7 +208,7 @@
                             <property name="CanFocus">True</property>
                             <property name="Type">TextAndIcon</property>
                             <property name="Icon">stock:gtk-refresh Menu</property>
-                            <property name="Label" translatable="yes">Reload Archives</property>
+                            <property name="Label" translatable="yes">ReloadArchivesButton</property>
                             <property name="UseUnderline">True</property>
                           </widget>
                           <packing>
@@ -222,7 +222,7 @@
                             <property name="CanFocus">True</property>
                             <property name="Type">TextAndIcon</property>
                             <property name="Icon">stock:gtk-revert-to-saved Menu</property>
-                            <property name="Label" translatable="yes">Restore Other Save(s)</property>
+                            <property name="Label" translatable="yes">RestoreOtherBackup</property>
                             <property name="UseUnderline">True</property>
                           </widget>
                           <packing>
@@ -274,7 +274,7 @@
                           <widget class="Gtk.CheckButton" id="ignoreDatesCheck">
                             <property name="MemberName" />
                             <property name="CanFocus">True</property>
-                            <property name="Label" translatable="yes">Ignore Dates During Backup</property>
+                            <property name="Label" translatable="yes">IgnoreDates</property>
                             <property name="DrawIndicator">True</property>
                             <property name="HasLabel">True</property>
                             <property name="UseUnderline">True</property>
@@ -288,7 +288,7 @@
                           <widget class="Gtk.CheckButton" id="startMonitorCheck">
                             <property name="MemberName" />
                             <property name="CanFocus">True</property>
-                            <property name="Label" translatable="yes">Start Monitor On Login</property>
+                            <property name="Label" translatable="yes">StartMonitorOnLogin</property>
                             <property name="DrawIndicator">True</property>
                             <property name="HasLabel">True</property>
                             <property name="UseUnderline">True</property>
@@ -315,7 +315,7 @@
                           <widget class="Gtk.CheckButton" id="autoUpdateCheck">
                             <property name="MemberName" />
                             <property name="CanFocus">True</property>
-                            <property name="Label" translatable="yes">Auto-Check For Updates</property>
+                            <property name="Label" translatable="yes">AutoUpdate</property>
                             <property name="DrawIndicator">True</property>
                             <property name="HasLabel">True</property>
                             <property name="UseUnderline">True</property>
@@ -331,7 +331,7 @@
                             <property name="CanFocus">True</property>
                             <property name="Type">TextAndIcon</property>
                             <property name="Icon">stock:gtk-goto-top Menu</property>
-                            <property name="Label" translatable="yes">Check For Updates</property>
+                            <property name="Label" translatable="yes">CheckForUpdates</property>
                             <property name="UseUnderline">True</property>
                           </widget>
                           <packing>
@@ -351,7 +351,7 @@
                       <widget class="Gtk.Frame" id="frame5">
                         <property name="MemberName" />
                         <child>
-                          <widget class="Gtk.Alignment" id="GtkAlignment5">
+                          <widget class="Gtk.Alignment" id="GtkAlignment7">
                             <property name="MemberName" />
                             <property name="Xalign">0</property>
                             <property name="Yalign">0</property>
@@ -381,7 +381,7 @@
                                     <property name="CanFocus">True</property>
                                     <property name="Type">TextAndIcon</property>
                                     <property name="Icon">stock:gtk-directory Menu</property>
-                                    <property name="Label" translatable="yes">Change</property>
+                                    <property name="Label" translatable="yes">ChangeButton</property>
                                     <property name="UseUnderline">True</property>
                                   </widget>
                                   <packing>
@@ -397,7 +397,7 @@
                                     <property name="CanFocus">True</property>
                                     <property name="Type">TextAndIcon</property>
                                     <property name="Icon">stock:gtk-open Menu</property>
-                                    <property name="Label" translatable="yes">Open</property>
+                                    <property name="Label" translatable="yes">OpenButton</property>
                                     <property name="UseUnderline">True</property>
                                   </widget>
                                   <packing>
@@ -414,7 +414,7 @@
                         <child>
                           <widget class="Gtk.Label" id="GtkLabel12">
                             <property name="MemberName" />
-                            <property name="LabelProp" translatable="yes">Backup Path</property>
+                            <property name="LabelProp" translatable="yes">BackupPath</property>
                             <property name="UseMarkup">True</property>
                           </widget>
                           <packing>
@@ -433,7 +433,7 @@
                       <widget class="Gtk.Frame" id="frame6">
                         <property name="MemberName" />
                         <child>
-                          <widget class="Gtk.Alignment" id="GtkAlignment8">
+                          <widget class="Gtk.Alignment" id="GtkAlignment11">
                             <property name="MemberName" />
                             <property name="Xalign">0</property>
                             <property name="Yalign">0</property>
@@ -463,7 +463,7 @@
                                     <property name="CanFocus">True</property>
                                     <property name="Type">TextAndIcon</property>
                                     <property name="Icon">stock:gtk-directory Menu</property>
-                                    <property name="Label" translatable="yes">Change</property>
+                                    <property name="Label" translatable="yes">ChangeButton</property>
                                     <property name="UseUnderline">True</property>
                                   </widget>
                                   <packing>
@@ -479,7 +479,7 @@
                                     <property name="CanFocus">True</property>
                                     <property name="Type">TextAndIcon</property>
                                     <property name="Icon">stock:gtk-revert-to-saved Menu</property>
-                                    <property name="Label" translatable="yes">Reset</property>
+                                    <property name="Label" translatable="yes">ResetButton</property>
                                     <property name="UseUnderline">True</property>
                                   </widget>
                                   <packing>
@@ -496,7 +496,7 @@
                         <child>
                           <widget class="Gtk.Label" id="GtkLabel15">
                             <property name="MemberName" />
-                            <property name="LabelProp" translatable="yes">Steam Path</property>
+                            <property name="LabelProp" translatable="yes">SteamPath</property>
                             <property name="UseMarkup">True</property>
                           </widget>
                           <packing>
@@ -537,7 +537,7 @@
                                         <property name="CanFocus">True</property>
                                         <property name="Type">TextAndIcon</property>
                                         <property name="Icon">stock:gtk-copy Menu</property>
-                                        <property name="Label" translatable="yes">Make Extra Backups</property>
+                                        <property name="Label" translatable="yes">VersioningEnable</property>
                                         <property name="UseUnderline">True</property>
                                       </widget>
                                       <packing>
@@ -598,7 +598,7 @@
                                         <child>
                                           <widget class="Gtk.Label" id="GtkLabel17">
                                             <property name="MemberName" />
-                                            <property name="LabelProp" translatable="yes">At Least This Long Between Copies</property>
+                                            <property name="LabelProp" translatable="yes">VersioningTime</property>
                                             <property name="UseMarkup">True</property>
                                           </widget>
                                           <packing>
@@ -640,7 +640,7 @@
                                         <child>
                                           <widget class="Gtk.Label" id="GtkLabel18">
                                             <property name="MemberName" />
-                                            <property name="LabelProp" translatable="yes">At Most This Many Copies</property>
+                                            <property name="LabelProp" translatable="yes">VersioningCount</property>
                                             <property name="UseMarkup">True</property>
                                           </widget>
                                           <packing>
@@ -718,7 +718,7 @@
                                             <property name="CanFocus">True</property>
                                             <property name="Type">TextAndIcon</property>
                                             <property name="Icon">stock:gtk-remove Menu</property>
-                                            <property name="Label" translatable="yes">Remove Nothing</property>
+                                            <property name="Label" translatable="yes">RemoveNoAltPaths</property>
                                             <property name="UseUnderline">True</property>
                                           </widget>
                                           <packing>
@@ -732,7 +732,7 @@
                                             <property name="CanFocus">True</property>
                                             <property name="Type">TextAndIcon</property>
                                             <property name="Icon">stock:gtk-add Menu</property>
-                                            <property name="Label" translatable="yes">Add New Path!</property>
+                                            <property name="Label" translatable="yes">AddAltPath</property>
                                             <property name="UseUnderline">True</property>
                                           </widget>
                                           <packing>
@@ -755,7 +755,7 @@
                             <child>
                               <widget class="Gtk.Label" id="GtkLabel32">
                                 <property name="MemberName" />
-                                <property name="LabelProp" translatable="yes">Alternate Install Paths</property>
+                                <property name="LabelProp" translatable="yes">AltPaths</property>
                                 <property name="UseMarkup">True</property>
                               </widget>
                               <packing>
@@ -805,7 +805,7 @@
                       <widget class="Gtk.Frame" id="frame12">
                         <property name="MemberName" />
                         <child>
-                          <widget class="Gtk.Alignment" id="GtkAlignment12">
+                          <widget class="Gtk.Alignment" id="GtkAlignment17">
                             <property name="MemberName" />
                             <property name="Xalign">0</property>
                             <property name="Yalign">0</property>
@@ -846,7 +846,7 @@ Monthly</property>
                       <widget class="Gtk.Frame" id="frame13">
                         <property name="MemberName" />
                         <child>
-                          <widget class="Gtk.Alignment" id="GtkAlignment13">
+                          <widget class="Gtk.Alignment" id="GtkAlignment22">
                             <property name="MemberName" />
                             <property name="Xalign">0</property>
                             <property name="Yalign">0</property>
@@ -869,7 +869,7 @@ Monthly</property>
                         <child>
                           <widget class="Gtk.Label" id="GtkLabel26">
                             <property name="MemberName" />
-                            <property name="LabelProp" translatable="yes">Time of Day</property>
+                            <property name="LabelProp" translatable="yes">TimeOfDay</property>
                             <property name="UseMarkup">True</property>
                           </widget>
                           <packing>
@@ -888,7 +888,7 @@ Monthly</property>
                       <widget class="Gtk.Frame" id="frame14">
                         <property name="MemberName" />
                         <child>
-                          <widget class="Gtk.Alignment" id="GtkAlignment14">
+                          <widget class="Gtk.Alignment" id="GtkAlignment23">
                             <property name="MemberName" />
                             <property name="Xalign">0</property>
                             <property name="Yalign">0</property>
@@ -914,7 +914,7 @@ Saturday</property>
                         <child>
                           <widget class="Gtk.Label" id="GtkLabel27">
                             <property name="MemberName" />
-                            <property name="LabelProp" translatable="yes">Day of the Week</property>
+                            <property name="LabelProp" translatable="yes">DayOfTheWeek</property>
                             <property name="UseMarkup">True</property>
                           </widget>
                           <packing>
@@ -933,7 +933,7 @@ Saturday</property>
                       <widget class="Gtk.Frame" id="frame16">
                         <property name="MemberName" />
                         <child>
-                          <widget class="Gtk.Alignment" id="GtkAlignment15">
+                          <widget class="Gtk.Alignment" id="GtkAlignment24">
                             <property name="MemberName" />
                             <property name="Xalign">0</property>
                             <property name="Yalign">0</property>
@@ -958,7 +958,7 @@ Saturday</property>
                         <child>
                           <widget class="Gtk.Label" id="GtkLabel31">
                             <property name="MemberName" />
-                            <property name="LabelProp" translatable="yes">Day of the Month</property>
+                            <property name="LabelProp" translatable="yes">DayOfTheMonth</property>
                             <property name="UseMarkup">True</property>
                           </widget>
                           <packing>
@@ -977,7 +977,7 @@ Saturday</property>
                       <widget class="Gtk.Frame" id="frame15">
                         <property name="MemberName" />
                         <child>
-                          <widget class="Gtk.Alignment" id="GtkAlignment16">
+                          <widget class="Gtk.Alignment" id="GtkAlignment25">
                             <property name="MemberName" />
                             <property name="Xalign">0</property>
                             <property name="Yalign">0</property>
@@ -1021,7 +1021,7 @@ Saturday</property>
                         <child>
                           <widget class="Gtk.Label" id="GtkLabel28">
                             <property name="MemberName" />
-                            <property name="LabelProp" translatable="yes">User And Password To Run Task As</property>
+                            <property name="LabelProp" translatable="yes">TaskCredentials</property>
                             <property name="UseMarkup">True</property>
                           </widget>
                           <packing>
@@ -1047,7 +1047,7 @@ Saturday</property>
                             <property name="CanFocus">True</property>
                             <property name="Type">TextAndIcon</property>
                             <property name="Icon">stock:gtk-delete Menu</property>
-                            <property name="Label" translatable="yes">Delete Task</property>
+                            <property name="Label" translatable="yes">DeleteTaskButton</property>
                             <property name="UseUnderline">True</property>
                           </widget>
                           <packing>
@@ -1061,7 +1061,7 @@ Saturday</property>
                             <property name="CanFocus">True</property>
                             <property name="Type">TextAndIcon</property>
                             <property name="Icon">stock:gtk-apply Menu</property>
-                            <property name="Label" translatable="yes">Apply</property>
+                            <property name="Label" translatable="yes">ApplyButton</property>
                             <property name="UseUnderline">True</property>
                           </widget>
                           <packing>
@@ -1110,13 +1110,13 @@ Saturday</property>
                       </widget>
                       <packing>
                         <property name="Position">0</property>
-                        <property name="AutoSize">True</property>
+                        <property name="AutoSize">False</property>
                         <property name="Expand">False</property>
                         <property name="Fill">False</property>
                       </packing>
                     </child>
                     <child>
-                      <widget class="Gtk.Label" id="label6">
+                      <widget class="Gtk.Label" id="versionLabel">
                         <property name="MemberName" />
                         <property name="LabelProp" translatable="yes">MASGAU</property>
                         <property name="UseMarkup">True</property>
@@ -1132,7 +1132,7 @@ Saturday</property>
                       <widget class="Gtk.Frame" id="frame17">
                         <property name="MemberName" />
                         <child>
-                          <widget class="Gtk.Alignment" id="GtkAlignment17">
+                          <widget class="Gtk.Alignment" id="GtkAlignment28">
                             <property name="MemberName" />
                             <property name="Xalign">0</property>
                             <property name="Yalign">0</property>
@@ -1144,7 +1144,7 @@ Saturday</property>
                                 <property name="MemberName" />
                                 <property name="ShadowType">In</property>
                                 <child>
-                                  <widget class="Gtk.TreeView" id="treeview2">
+                                  <widget class="Gtk.TreeView" id="contribTree">
                                     <property name="MemberName" />
                                     <property name="CanFocus">True</property>
                                     <property name="ShowScrollbars">True</property>
@@ -1213,6 +1213,7 @@ Saturday</property>
             <child>
               <widget class="Gtk.ProgressBar" id="progressbar1">
                 <property name="MemberName" />
+                <property name="Text" translatable="yes">It can have text?</property>
               </widget>
               <packing>
                 <property name="Position">1</property>

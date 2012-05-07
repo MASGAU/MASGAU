@@ -16,7 +16,7 @@ using MASGAU.Archive;
 using MASGAU.Game;
 using MASGAU.Communication.Progress;
 using MASGAU.Communication.Message;
-using Translations;
+using Translator;
 namespace MASGAU.Main
 {
     /// <summary>
@@ -157,7 +157,7 @@ namespace MASGAU.Main
                 if(selected_count==1) {
                     backupSelectedBtn.Content = Strings.get("BackupOneGameButton");
                 } else {
-                    backupSelectedBtn.Content = Strings.get("BackupMultipleGamesButtonPrefix") + " " + selected_count + " " + Strings.get("BackupMultipleGamesButtonSuffix");
+                    backupSelectedBtn.Content = Strings.get("BackupMultipleGamesButton", selected_count.ToString());
                 }
             } else {
                 backupSelectedBtn.IsEnabled = false;
