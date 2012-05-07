@@ -1,0 +1,66 @@
+Game Name: Cities in Motion
+Operating System: 
+Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Install Path: 
+SteamCommon\cities in motion
+
+Save Path: 
+UserDocuments\Cities In Motion
+
+Local Machine Registry Entries: 
+
+Key:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 73010
+Value: InstallLocation
+Data: SteamCommon\cities in motion
+Current User Registry Entries: 
+
+Detected Start Menu Shortcuts: 
+
+Root Drive Information: 
+Drive Name: E:\
+Drive Root: E:\
+Drive Format: NTFS
+Drive Type: Fixed
+Ready Status: True
+
+Save Folder Dump: 
+22.04.2012 20:24:17 - UserDocuments\Cities In Motion\controls.keys - 1300
+23.04.2012 18:19:50 - UserDocuments\Cities In Motion\log_metro.txt - 896
+23.04.2012 18:12:03 - UserDocuments\Cities In Motion\settings.script - 737
+23.04.2012 18:19:47 - UserDocuments\Cities In Motion\state.gs - 700
+23.04.2012 18:19:47 - UserDocuments\Cities In Motion\saves\Wormi Helsinki.gs - 1126088
+
+Install Folder Dump: 
+18.04.2012 20:18:45 - SteamCommon\cities in motion\Cities In Motion.exe - 49152
+18.04.2012 20:18:46 - SteamCommon\cities in motion\Config.exe - 515584
+18.04.2012 20:18:46 - SteamCommon\cities in motion\data.gs - 919256
+18.04.2012 20:18:46 - SteamCommon\cities in motion\fmodex.dll - 798720
+18.04.2012 20:18:37 - SteamCommon\cities in motion\germany.gs - 13482868
+18.04.2012 20:18:46 - SteamCommon\cities in motion\GSystem.dll - 1765376
+18.04.2012 20:18:46 - SteamCommon\cities in motion\ja.gs - 134600
+18.04.2012 20:18:47 - SteamCommon\cities in motion\location-data.gs - 18226284
+18.04.2012 20:18:48 - SteamCommon\cities in motion\manual-english.pdf - 12143107
+18.04.2012 20:18:48 - SteamCommon\cities in motion\manual-french.pdf - 12012211
+18.04.2012 20:18:49 - SteamCommon\cities in motion\manual-german.pdf - 13207129
+18.04.2012 20:18:49 - SteamCommon\cities in motion\manual-spanish.pdf - 12133945
+18.04.2012 20:18:50 - SteamCommon\cities in motion\mappack01.gs - 3784160
+18.04.2012 20:18:51 - SteamCommon\cities in motion\maps.gs - 28410584
+18.04.2012 20:18:52 - SteamCommon\cities in motion\metro.gs - 24856752
+18.04.2012 20:18:53 - SteamCommon\cities in motion\munich.gs - 9146412
+18.04.2012 20:18:59 - SteamCommon\cities in motion\music.gs - 116434884
+18.04.2012 20:19:07 - SteamCommon\cities in motion\objects.gs - 132517644
+18.04.2012 20:19:10 - SteamCommon\cities in motion\sounds.gs - 56245076
+18.04.2012 20:18:37 - SteamCommon\cities in motion\stationpack01.gs - 1565592
+18.04.2012 20:19:10 - SteamCommon\cities in motion\steam_api.dll - 124712
+18.04.2012 20:18:45 - SteamCommon\cities in motion\tokyo.gs - 150292484
+18.04.2012 20:18:45 - SteamCommon\cities in motion\vehiclepack01.gs - 856428
+18.04.2012 20:18:45 - SteamCommon\cities in motion\vehiclepack02.gs - 858900
+18.04.2012 20:18:45 - SteamCommon\cities in motion\vehiclepack03.gs - 1126728
+18.04.2012 20:19:10 - SteamCommon\cities in motion\vehiclepack04.gs - 883476
+18.04.2012 20:19:10 - SteamCommon\cities in motion\zlibwapi.dll - 74240
+
+UAC Enabled
+
+
+VirtualStore Folders: 
