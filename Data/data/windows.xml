@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-03-12T08:48:46">
   <!--This file contains game for Microsoft Windows-->
+  <game name="18WheelsOfSteelExtremeTrucker" platform="Windows">
+    <title>18 Wheels of Steel: Extreme Trucker</title>
+    <location_path environment_variable="userdocuments" path="18 WoS Extreme Trucker"/>
+    <save path="profile*"/>
+    <save filename="*" type="Settings"/>
+    <ignore filename="extremetrucker.log" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="25ToLife" platform="Windows">
     <title>25 to Life</title>
     <location_path environment_variable="userdocuments" path="25 to Life"/>
@@ -875,6 +883,14 @@
     <save/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="CitiesInMotion" platform="Windows">
+    <title>Cities in Motion</title>
+    <location_path environment_variable="userdocuments" path="Cities In Motion"/>
+    <save path="saves"/>
+    <save filename="*" type="Settings"/>
+    <ignore filename="*.txt" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="Civilization" platform="Windows">
     <title>Sid Meier's Civilization</title>
     <location_path environment_variable="installlocation" path="Sid Meier's Civilization Chronicles\Sid Meier's Civilization"/>
@@ -1048,7 +1064,7 @@
   </game>
   <game name="CSINYTheGame" platform="Windows">
     <title>CSI: NY The Game</title>
-    <location_path environment_variable="appdata" path="Ubisoft\Legacy"/>
+    <location_path environment_variable="appdata" path="Ubisoft\Legacy\CSI"/>
     <save filename="csiconfig.dat"/>
     <contributor>AdmiringWorm</contributor>
   </game>
@@ -3007,6 +3023,13 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="MUDTV" platform="Windows">
+    <title>M.U.D. TV</title>
+    <location_path environment_variable="appdata" path="MudTV"/>
+    <save path="savegames"/>
+    <save filename="config.cfg" type="Settings"/>
+    <contributor>AdmiringWorm</contributor>
+  </game>
   <game name="Myst3" platform="Windows">
     <title>Myst III: Exile</title>
     <location_path environment_variable="installlocation" path="Ubi Soft\Myst III Exile"/>
@@ -4160,13 +4183,19 @@
     <location_path environment_variable="userdocuments" path="EA Games\The Sims 2"/>
     <save path="LotCatalog"/>
     <save path="Neighborhoods"/>
+    <save path="Config" type="Settings"/>
     <contributor>Samuel Barbour</contributor>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="Sims3" platform="Windows">
     <title>The Sims 3</title>
     <location_path environment_variable="userdocuments" path="Electronic Arts\The Sims 3"/>
     <save path="Saves"/>
+    <save path="SavedSims" type="Characters"/>
+    <save path="SavedOutfits" type="Outfits"/>
+    <save filename="Options.ini" type="Settings"/>
     <contributor>Caleb Love</contributor>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="Sin" platform="Windows">
     <title>Sin</title>
@@ -4774,6 +4803,17 @@
     <save path="save_games"/>
     <save path="scripts" type="Settings"/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="Trackmania2" platform="Windows">
+    <title>Trackmania 2 Canyon</title>
+    <location_path environment_variable="userdocuments" path="ManiPlanet"/>
+    <save path="Config" filename="*.Gbx"/>
+    <save path="Config" filename="blacklist.txt" type="Settings"/>
+    <save path="Config" filename="Default.SystemConfig.Gbx" type="Settings"/>
+    <save path="Config" filename="guestlist.txt" type="Settings"/>
+    <save path="Replays" type="Replays"/>
+    <ignore path="Config" filename="Default.SystemConfig.Gbx"/>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="TrackManiaNationsForever" platform="Windows">
     <title>TrackMania Nations Forever</title>
