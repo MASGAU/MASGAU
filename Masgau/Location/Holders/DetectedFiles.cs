@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MASGAU.Collections;
+using Collections;
 
 namespace MASGAU.Location.Holders {
     public class DetectedFiles: DictionaryList<string,DetectedFile>{

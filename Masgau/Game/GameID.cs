@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MASGAU;
+using MVC;
 
 namespace MASGAU.Game {
     public class GameID : AIdentifier {
         public readonly String name;
         public readonly GamePlatform platform;
-        public readonly String country;
+        public readonly String region;
         public readonly bool deprecated;
 
-        public GameID(String name, GamePlatform platform, String country, bool deprecated): this(name,platform,country) {
+        public GameID(String name, GamePlatform platform, String region, bool deprecated)
+            : this(name, platform, region) {
             this.deprecated = deprecated;
         }
-        public GameID(String name, GamePlatform platform, String country) {
+        public GameID(String name, GamePlatform platform, String region) {
             this.name = name;
             this.platform = platform;
-            this.country = country;
+            this.region = region;
         }
 
         public static int Compare(GameID a, GameID b) {
@@ -25,7 +27,7 @@ namespace MASGAU.Game {
             if (result == 0)
                 result = compare(a.platform,b.platform);
             if (result == 0)
-                result = compare(a.country,b.country);
+                result = compare(a.region,b.region);
 
             return result;
         }
@@ -37,7 +39,7 @@ namespace MASGAU.Game {
         public static bool Equals(GameID a, GameID b) {
             if (a.name == b.name &&
                 a.platform == b.platform &&
-                a.country == b.country)
+                a.region == b.region)
                 return true;
             else
                 return false;
@@ -53,8 +55,8 @@ namespace MASGAU.Game {
 
                 return_me.Append("«" + id.platform.ToString());
             }
-            if (id.country != null) {
-                return_me.Append("«" + id.country);
+            if (id.region != null) {
+                return_me.Append("«" + id.region);
             }
             return return_me.ToString();
         }
@@ -67,16 +69,16 @@ namespace MASGAU.Game {
         public String[] string_array {
             get {
                 if (platform != GamePlatform.Multiple) {
-                    if (country != null) {
-                        return new string[] { "name", name, "platform", platform.ToString(), "country", country };
+                    if (region != null) {
+                        return new string[] { "name", name, "platform", platform.ToString(), "region", region };
                     }
                     else {
                         return new string[] { "name", name, "platform", platform.ToString() };
                     }
                 }
                 else {
-                    if (country != null) {
-                        return new string[] { "name", name, "country", country };
+                    if (region != null) {
+                        return new string[] { "name", name, "region", region };
                     }
                     else {
                         return new string[] { "name", name };

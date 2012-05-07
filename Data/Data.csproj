@@ -10,9 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Data</RootNamespace>
     <AssemblyName>Data</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <ReleaseVersion>0.9</ReleaseVersion>
+    <ReleaseVersion>0.10</ReleaseVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,76 +42,61 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\!test.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\!test.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\deprecated.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\!uploadtest.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\dos.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\deprecated.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\flash.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\dos.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\games.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\expansions.xml" />
+    <Content Include="data\flash.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\mods.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\games.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\ps1.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\mods.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\ps2.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\ps1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\ps3.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\ps2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\psp.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\ps3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
-    <Content Include="Data\scummvm.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\psp.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\steam.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\scummvm.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
-    <Content Include="Data\system.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\steam.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
-    <Content Include="Data\windows.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="data\system.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\windows.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\.svn\entries" />
-    <None Include="Data\.svn\text-base\!test.xml.svn-base" />
-    <None Include="Data\.svn\text-base\deprecated.xml.svn-base" />
-    <None Include="Data\.svn\text-base\dos.xml.svn-base" />
-    <None Include="Data\.svn\text-base\flash.xml.svn-base" />
-    <None Include="Data\.svn\text-base\games.xml.svn-base" />
-    <None Include="Data\.svn\text-base\games.xsd.svn-base" />
-    <None Include="Data\.svn\text-base\mods.xml.svn-base" />
-    <None Include="Data\.svn\text-base\ps1.xml.svn-base" />
-    <None Include="Data\.svn\text-base\ps2.xml.svn-base" />
-    <None Include="Data\.svn\text-base\ps3.xml.svn-base" />
-    <None Include="Data\.svn\text-base\psp.xml.svn-base" />
-    <None Include="Data\.svn\text-base\scummvm.xml.svn-base" />
-    <None Include="Data\.svn\text-base\steam.xml.svn-base" />
-    <None Include="Data\.svn\text-base\system.xml.svn-base" />
-    <None Include="Data\.svn\text-base\windows.xml.svn-base" />
-    <None Include="Data\games.xsd">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <None Include="data\games.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\.svn\prop-base\" />
-    <Folder Include="Data\.svn\props\" />
-    <Folder Include="Data\.svn\tmp\prop-base\" />
-    <Folder Include="Data\.svn\tmp\props\" />
-    <Folder Include="Data\.svn\tmp\text-base\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

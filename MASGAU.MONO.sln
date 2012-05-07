@@ -21,11 +21,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Analyzer.Gtk", "MASG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Gtk", "MASGAU.Gtk\MASGAU.Gtk.csproj", "{C2F897BF-9BAC-4CA3-B4D0-2F9E57E2A519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Linux", "MASGAU.Linux\MASGAU.Linux.csproj", "{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Mono", "MASGAU.Mono\MASGAU.Mono.csproj", "{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console", "MASGAU.Console\MASGAU.Console.csproj", "{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console.Linux", "MASGAU.Console.Linux\MASGAU.Console.Linux.csproj", "{EC344FB5-3AD4-48F4-8698-C154145DA731}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Console.Posix", "MASGAU.Console.Posix\MASGAU.Console.Posix.csproj", "{EC344FB5-3AD4-48F4-8698-C154145DA731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations", "Translations\Translations.csproj", "{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Monitor.Gtk", "MASGAU.Monitor.Gtk\MASGAU.Monitor.Gtk.csproj", "{2F98BD41-5165-4A0D-865B-C6AF154D52B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Restore.Gtk", "MASGAU.Restore.Gtk\MASGAU.Restore.Gtk.csproj", "{A5912FD5-AE33-4219-B30C-B782A4EBA5C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,10 @@ Global
 		{07E0B781-71EE-44E5-9248-1EEA161D9A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E0B781-71EE-44E5-9248-1EEA161D9A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07E0B781-71EE-44E5-9248-1EEA161D9A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200C1855-FBC7-4133-A5DD-0B1C32B75121}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +55,10 @@ Global
 		{2DCACDC2-8139-40AC-87C6-EB5AF73E7219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DCACDC2-8139-40AC-87C6-EB5AF73E7219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DCACDC2-8139-40AC-87C6-EB5AF73E7219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F98BD41-5165-4A0D-865B-C6AF154D52B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F98BD41-5165-4A0D-865B-C6AF154D52B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F98BD41-5165-4A0D-865B-C6AF154D52B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F98BD41-5165-4A0D-865B-C6AF154D52B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4232A9BF-FEB6-43CE-B1DA-FD9738179197}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,6 +75,10 @@ Global
 		{589E0815-04F6-4DE2-9CAE-F330D66FFE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{589E0815-04F6-4DE2-9CAE-F330D66FFE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{589E0815-04F6-4DE2-9CAE-F330D66FFE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5912FD5-AE33-4219-B30C-B782A4EBA5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5912FD5-AE33-4219-B30C-B782A4EBA5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5912FD5-AE33-4219-B30C-B782A4EBA5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5912FD5-AE33-4219-B30C-B782A4EBA5C4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B01BFC57-F093-40C5-AE96-BF81B89176C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B01BFC57-F093-40C5-AE96-BF81B89176C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01BFC57-F093-40C5-AE96-BF81B89176C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,7 +105,7 @@ Global
 		{EC344FB5-3AD4-48F4-8698-C154145DA731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MASGAU.Console.Linux\MASGAU.Console.Linux.csproj
+		StartupItem = MASGAU.Analyzer.Gtk\MASGAU.Analyzer.Gtk.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = null
@@ -96,7 +114,7 @@ Global
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
-		version = 0.9
+		version = 0.10
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

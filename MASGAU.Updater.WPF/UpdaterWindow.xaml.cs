@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
 using MASGAU.Update;
-
+using Translator;
 namespace MASGAU.Updater
 {
     /// <summary>
@@ -25,12 +25,14 @@ namespace MASGAU.Updater
         Color up_to_date = Color.FromArgb(255,115,210,22);
         Color out_of_date = Color.FromArgb(255,239,41,41);
         Color updating = Color.FromArgb(255,252,233,79);
-
+        
         private UpdateProgramHandler updater;
 
         public UpdaterWindow(): base(null)
         {
             InitializeComponent();
+            WPFHelpers.translateWindow(this);
+            this.Loaded +=new RoutedEventHandler(Window_Loaded);
             //updateLst.ItemsSource = UpdateCollection;
         }
 
@@ -62,7 +64,7 @@ namespace MASGAU.Updater
             this.tabControl1.SelectedIndex = 1;
             updateLst.ItemsSource = updater.updater;
 
-            groupBox1.Header = "There Are Updates Available";
+            groupBox1.Header = Strings.get("UpdatesAvailable");
             okBtn.IsEnabled = true;
             cancelBtn.IsEnabled = true;
         }

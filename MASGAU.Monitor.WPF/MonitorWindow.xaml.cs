@@ -3,12 +3,13 @@ using System.Windows;
 using System.ComponentModel;
 using System.Collections.Generic;
 using MASGAU.Communication.Progress;
+using Translator;
 namespace MASGAU.Monitor
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MonitorWindow : AWindow
+    public partial class MonitorWindow : AProgramWindow
     {
         #region Notify icon stuff
             private System.Windows.Forms.NotifyIcon monitorNotifier;
@@ -25,8 +26,56 @@ namespace MASGAU.Monitor
         public MonitorWindow(): base(null)
         {
             InitializeComponent();
+            WPFHelpers.translateWindow(this);
             setUpNotifier();
             default_progress_color = progressBar1.Foreground;
+        }
+
+        protected override void WindowLoaded(object sender, RoutedEventArgs e)
+        {
+            progressBar1.Value = progressBar1.Minimum;
+            setUpProgramHandler();
+            base.WindowLoaded(sender, e);
+        }
+
+
+        protected override void setUpProgramHandler() {
+            disableInterface();
+            if(program_handler!=null) {
+                monitor = (MonitorProgramHandler)program_handler;
+                monitor.CancelAsync();
+                monitor.stop();
+                if(monitor.monitor_thread!=null) {
+                    while(monitor.monitor_thread.IsAlive)
+                        System.Threading.Thread.Sleep(100);
+                }
+                monitor.Dispose();
+                monitor = null;
+            }
+            monitor = new MonitorProgramHandler();
+            program_handler = monitor;
+            base.setUpProgramHandler();
+            this.Title = Strings.get("MonitorSettingUp");
+        }
+
+        protected override void setup(object sender, RunWorkerCompletedEventArgs e)
+        {
+            base.setup(sender, e);
+
+            Core.settings.PropertyChanged += new PropertyChangedEventHandler(settings_PropertyChanged);
+
+            
+            Core.redetect_archives = false;
+            Core.redetect_games = false;
+
+            // This performs a full backup on startup, to ensure consistency
+            if(Core.settings.monitor_startup_backup) {
+                beginBackup(null);
+            } else {
+                enableInterface(null,null);
+                setNotifyToolTip();
+            }
+
         }
 
         public override void disableInterface()
@@ -45,50 +94,6 @@ namespace MASGAU.Monitor
             this.Visibility = System.Windows.Visibility.Hidden;
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            this.Title = "MASGAU Monitor Is Setting Up...";
-            progressBar1.Value = progressBar1.Minimum;
-            setUp();
-        }
-
-        private void setUp() {
-            disableInterface();
-            if(monitor!=null) {
-                monitor.CancelAsync();
-                monitor.stop();
-                while(monitor.monitor_thread.IsAlive)
-                    System.Threading.Thread.Sleep(100);
-                monitor.Dispose();
-                monitor = null;
-            }
-            monitor = new MonitorProgramHandler(setupDone);
-            monitorNotifier.Visible = false;
-            monitor.RunWorkerAsync();
-        }
-
-        private void setupDone(object sender, RunWorkerCompletedEventArgs e) {
-            if(e.Error!=null||e.Cancelled) {
-                this.enableInterface();
-                this.Close();
-                return;
-            }
-
-            Core.settings.PropertyChanged += new PropertyChangedEventHandler(settings_PropertyChanged);
-
-            
-            Core.redetect_archives = false;
-            Core.redetect_games = false;
-
-            // This performs a full backup on startup, to ensure consistency
-            if(Core.settings.monitor_startup_backup) {
-                beginBackup(null);
-            } else {
-                enableInterface(null,null);
-                setNotifyToolTip();
-            }
-
-        }
 
         void settings_PropertyChanged(object sender, PropertyChangedEventArgs e)
         {
@@ -124,7 +129,7 @@ namespace MASGAU.Monitor
             // 
             this.monitorNotifier.ContextMenuStrip = this.notifierMenu;
             this.monitorNotifier.Icon =new System.Drawing.Icon("masgau.ico");
-            this.monitorNotifier.Text = "MASGAU Monitor";
+            this.monitorNotifier.Text = Strings.get("MonitorTitle");
             this.monitorNotifier.Visible = false;
             // 
             // notifierMenu
@@ -142,7 +147,7 @@ namespace MASGAU.Monitor
             // 
             this.rescanGamesToolStripMenuItem.Name = "rescanGamesToolStripMenuItem";
             this.rescanGamesToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.rescanGamesToolStripMenuItem.Text = "Rescan Games";
+            this.rescanGamesToolStripMenuItem.Text = Strings.get("MonitorMenuRescanGames");
             this.rescanGamesToolStripMenuItem.Click += new System.EventHandler(this.rescanGamesToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
@@ -151,7 +156,7 @@ namespace MASGAU.Monitor
             this.settingsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.settingsToolStripMenuItem.Text = "Settings...";
+            this.settingsToolStripMenuItem.Text = Strings.get("MonitorMenuSettings");
             this.settingsToolStripMenuItem.Click += new EventHandler(settingsToolStripMenuItem_Click);
 
             // 
@@ -159,7 +164,7 @@ namespace MASGAU.Monitor
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Text = Strings.get("MonitorMenuAbout");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
@@ -167,14 +172,14 @@ namespace MASGAU.Monitor
             this.exitToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Text = Strings.get("MonitorMenuExit");
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // exitMonitorToolStripMenuItem
             // 
             this.exitMonitorToolStripMenuItem.Name = "exitMonitorToolStripMenuItem";
             this.exitMonitorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.exitMonitorToolStripMenuItem.Text = "Exit";
+            this.exitMonitorToolStripMenuItem.Text = Strings.get("MonitorMenuExit");
 
             this.monitorNotifier.DoubleClick += new EventHandler(monitorNotifier_DoubleClick);
 
@@ -195,7 +200,7 @@ namespace MASGAU.Monitor
             this.Visibility = System.Windows.Visibility.Hidden;
             MonitorSettingsWindow settings_window = new MonitorSettingsWindow();
             settings_window.ShowDialog();
-                setUp();
+                setUpProgramHandler();
 
             if(Core.redetect_games||Core.rebuild_sync||Core.redetect_archives||(!old_backup&&Core.settings.monitor_startup_backup)) {
                 //setUp();
@@ -208,28 +213,28 @@ namespace MASGAU.Monitor
         {
             monitor.sync_watcher.EnableRaisingEvents = false;
             if(changeSyncPath())
-                setUp();
+                setUpProgramHandler();
             else
                 monitor.sync_watcher.EnableRaisingEvents = true;
         }
 
         private void setNotifyToolTip() {
             int count = Core.games.Count; //monitor.countMonitoredGames();
-            if(count<0)
-                monitorNotifier.Text = "MASGAU Monitor is...WHAT!??!";
-            if(count==0) 
-                monitorNotifier.Text = "MASGAU Monitor isn't stalking any games";
+            if (count < 0)
+                monitorNotifier.Text = Strings.get("MonitorNegativeGames");
+            if(count==0)
+                monitorNotifier.Text = Strings.get("MonitorZeroGames");
             else if(count==1)
-                monitorNotifier.Text = "MASGAU Monitor is stalking a single game";
+                monitorNotifier.Text = Strings.get("MonitorOneGame");
             else
-                monitorNotifier.Text = "MASGAU Monitor is stalking " + count + " games";
+                monitorNotifier.Text = Strings.get("MonitorMultipleGames",count.ToString());
         }
 
         #region Notify icon event handlers
 
         private void rescanGamesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            setUp();
+            setUpProgramHandler();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

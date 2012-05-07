@@ -9,8 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>MASGAU.Gtk</RootNamespace>
     <AssemblyName>MASGAU.Gtk</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <ReleaseVersion>0.9</ReleaseVersion>
+    <ReleaseVersion>0.10</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,23 +30,40 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System">
-    </Reference>
-    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
-      <Package>gtk-sharp-2.0</Package>
-    </Reference>
+    <Reference Include="System" />
+    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <Reference Include="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <Package>gtk-sharp-2.0</Package>
     </Reference>
     <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <Package>glib-sharp-2.0</Package>
     </Reference>
+    <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="Mono.Posix" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Window.cs" />
+    <Compile Include="gtk-gui\generated.cs" />
+    <Compile Include="AWindow.cs" />
+    <Compile Include="ADialog.cs" />
+    <Compile Include="GTKHelpers.cs" />
+    <Compile Include="MessageBox.cs" />
+    <Compile Include="EmailDialog.cs" />
+    <Compile Include="AProgramWindow.cs" />
+    <Compile Include="SettingsWidget.cs" />
+    <Compile Include="WrappedWidget.cs" />
+    <Compile Include="gtk-gui\MASGAU.Gtk.WrappedWidget.cs" />
+    <Compile Include="gtk-gui\MASGAU.Gtk.SettingsWidget.cs" />
+    <Compile Include="gtk-gui\MASGAU.Gtk.MessageBox.cs" />
+    <Compile Include="gtk-gui\MASGAU.Gtk.EmailDialog.cs" />
+    <Compile Include="WrappedEntry.cs" />
+    <Compile Include="gtk-gui\MASGAU.Gtk.WrappedEntry.cs" />
+    <Compile Include="WrappedButton.cs" />
+    <Compile Include="gtk-gui\MASGAU.Gtk.WrappedButton.cs" />
+    <Compile Include="WrappedNodeView.cs" />
+    <Compile Include="gtk-gui\MASGAU.Gtk.WrappedNodeView.cs" />
+    <Compile Include="WrapperFileChooserButton.cs" />
+    <Compile Include="gtk-gui\MASGAU.Gtk.WrapperFileChooserButton.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -55,5 +71,21 @@
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MASGAU.Mono\MASGAU.Mono.csproj">
+      <Project>{4582E103-1A6E-4D0D-89E0-CD5CC3D9C605}</Project>
+      <Name>MASGAU.Mono</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="gtk-gui\gui.stetic">
+      <LogicalName>gui.stetic</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WrappedWidgets\" />
   </ItemGroup>
 </Project>

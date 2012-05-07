@@ -5,13 +5,28 @@ using System.Text;
 using System.IO;
 using System.ComponentModel;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Progress;
-
+using Communication;
+using Communication.Progress;
+using Communication.Translator;
 namespace MASGAU.Location
 {
     public abstract class ALocationsHandler: ILocationsHandler 
     {
         
+        public ALocationHandler getHandler(HandlerType type) {
+            return handlers[type];
+        }
+
+        public string getFolder(EnvironmentVariable ev, string path){
+            LocationPathHolder parse_me = new LocationPathHolder();
+            parse_me.path = path;
+            parse_me.rel_root = ev;
+            foreach(string user in this.getUsers(ev)) {
+                return this.getAbsoluteRoot(parse_me,user);
+            }
+            return this.getAbsoluteRoot(parse_me,null);
+        }	
+		
         protected Dictionary<HandlerType,ALocationHandler> handlers;
 
         public List<EnvironmentVariable> these_always_require_user_selection = 
@@ -21,22 +36,27 @@ namespace MASGAU.Location
         protected ALocationsHandler() {
             handlers = new Dictionary<HandlerType,ALocationHandler>();
 
-            ProgressHandler.progress_message = "Detecting System Paths...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingSystemPaths");
             ASystemLocationHandler system_handler = this.setupSystemHandler();
             handlers.Add(HandlerType.System, system_handler);
 
-            ProgressHandler.progress_message = "Checking For Steam...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingSteam");
             ASteamLocationHandler steam_handler = this.setupSteamHandler();
             handlers.Add(HandlerType.Steam, steam_handler);
 
-            ProgressHandler.progress_message = "Detecting PlayStation Paths...";
+            TranslatingProgressHandler.setTranslatedMessage("DetectingPlayStation");
             APlaystationLocationHandler playstation_handler = this.setupPlaystationHandler();
             handlers.Add(HandlerType.PlayStation, playstation_handler);
+
+            TranslatingProgressHandler.setTranslatedMessage("DetectingScummVM");
+            AScummVMLocationHandler scummvm_handler = this.setupScummVMHandler();
+            handlers.Add(HandlerType.ScummVM, scummvm_handler);
         }
 
         protected abstract APlaystationLocationHandler setupPlaystationHandler();
         protected abstract ASteamLocationHandler setupSteamHandler();
         protected abstract ASystemLocationHandler setupSystemHandler();
+        protected abstract AScummVMLocationHandler setupScummVMHandler();
 
         protected void addNewHandler(ALocationHandler handler) {
             handlers.Add(handler.type, handler);
@@ -45,6 +65,7 @@ namespace MASGAU.Location
 
         public void resetHandler(HandlerType type) {
             Type originalType = handlers[type].GetType();
+            handlers.Remove(type);
             handlers.Add(type, (ALocationHandler)Activator.CreateInstance(originalType));
         }
 
@@ -102,6 +123,14 @@ namespace MASGAU.Location
 
         public string getAbsolutePath(LocationPathHolder parse_me, string user) 
         {
+            if(parse_me.rel_root== EnvironmentVariable.AltSavePaths) {
+                List<DetectedLocationPathHolder> locs = interpretPath(parse_me.ToString());
+                if(locs.Count>0)
+                    parse_me = locs[0];
+                else
+                    return null;
+            }
+
             foreach(KeyValuePair<HandlerType,ALocationHandler>  handler in handlers) {
                 string result = handler.Value.getAbsolutePath(parse_me, user);
                 if(result!=null)
@@ -123,7 +152,7 @@ namespace MASGAU.Location
         }
 
         protected static string correctPath(string correct_me) {
-            string[] sections = correct_me.Split(Path.DirectorySeparatorChar);
+            string[] sections = correct_me.TrimEnd(Path.DirectorySeparatorChar).Split(Path.DirectorySeparatorChar);
             DirectoryInfo dir = new DirectoryInfo(sections[0] + Path.DirectorySeparatorChar);
             for(int i = 1;i<sections.Length;i++) {
                 DirectoryInfo[] sub_dir = dir.GetDirectories(sections[i]);

@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd" lang="en">
+  <!--  For some of these, there are pairs of strings that have the same name,
+        but one will have Title at the end, and the other Message.
+        These are for dialog boxes that are entirely translated, and should be
+        translated with the thought that they will be displayed together.
+        I tend to put random things, sometimes jokes, as the dialog titles,
+        and if I can I like to give the message an insulting tone.
+        Feel free to be clever and use your sense of humor!-->
+  
+  
+  <!-- Probably shouldn't translate this one -->
+  <string name="MASGAU">MASGAU</string>
+  <string name="MASGAUFull" type="title">MASGAU Automatic Save Game Archive Utility</string>
+  <string name="MASGAUPortable">%MASGAU% %Portable%</string>
+  <string name="MASGAUPlural">%MASGAU%'s</string>
+  
+  <!-- Common strings-->
+  <string name="Loading">Loading</string>
+  <string name="Ready">Ready</string>
+  <string name="Progress">Progress</string>
+
+  <string name="Portable">Portable</string>
+  <string name="MainProgram">Main Program</string>
+  <string name="AllUsersMode">All Users Mode</string>
+  <string name="SingleUserMode">Single User Mode</string>
+
+  <string name="File">File</string>
+  <string name="Stop">Stop</string>
+  <string name="Stopping">Stopping...</string>
+  <string name="Finished">All done</string>
+  <string name="Backup">Backup</string>
+  <string name="Open">Open</string>
+  <string name="Game">Game</string>
+  <string name="Games">Games</string>
+
+  <string name="About">About</string>
+  <string name="Other">Other</string>
+  
+  <!-- Button stuff (the underlines are for key combos, so choose letters wisely) -->
+  <string name="SelectButton">_Select</string>
+  <string name="ApplyButton">_Apply</string>
+  <string name="SubmitButton">_Submit</string>
+  <string name="StopButton">_Stop</string>
+  <string name="SaveButton">_Save</string>
+  <string name="UploadButton">_Upload</string>
+  <string name="OKButton">_OK</string>
+  <string name="CancelButton">_Cancel</string>
+  <string name="YesButton">_Yes</string>
+  <string name="NoButton">_No</string>
+  <string name="MaybeButton">_Maybe</string>
+  <string name="CloseButton">_Close</string>
+  <string name="ChangeButton">_Change</string>
+  <string name="OpenButton">_Open</string>
+  <string name="ResetButton">_Reset</string>
+  <string name="SelectAllButton">Select _All</string>
+  <string name="SelectNoneButton">Select _None</string>
+  <string name="RestoreButton">_Restore</string>
+  <string name="SelectFilesButton">_Select Files</string>
+  <string name="OtherLocationButton">Other _Location...</string>
+  <string name="OtherUserButton">Other _User...</string>
+
+  <string name="ChoiceTitle">You Must Make A Choice</string>
+  <string name="ComboTitle">Choose One</string>
+  <!-- Platform names -->	
+  <string name="Linux">Linux</string>
+  <string name="Windows">Windows</string>
+  <string name="PlayStation">PlayStation</string>
+  <string name="Steam">Steam</string>
+  
+  <!-- Location names - Most of these will NOT need to be translated, but are here to accomodate the auto-translate system -->
+  <string name="MyComputer">My Computer</string>
+  <string name="ProgramFiles">Program Files</string>
+  <string name="ProgramFilesX86">Program Files (x86)</string>
+  <string name="MyDocuments">My Documents</string>
+  <string name="SavedGames">Saved Games</string>
+  <string name="VirtualStore">VirtualStore</string>
+
+  <string name="LocalAppData">Local AppData</string>
+  <string name="AppData">(Roaming) AppData</string>
+  <string name="Steamapps">Steamapps</string>
+  <string name="PublicUser">Public User</string>
+  <string name="AllUsers">All Users/ProgramData</string>
+  
+  <!-- MessageBox strings-->
+  <string name="Label">Label</string>
+  <string name="MessageBox">Message Box</string>
+	<string name="ExceptionInformation">Exception Information</string>
+	
+  <!-- Main Window strings-->
+  <string name="MainWindow">Main Window</string>
+  
+  <!-- Backup tab -->
+  <string name="NoGamesDetected">No Games Detected</string>
+  <string name="GameDetected">1 Game Detected</string>
+  <string name="GamesDetected">%0 Games Detected</string>
+
+  <string name="GameNameColumn">Secret Name (Don't Tell Anyone!)</string>
+  <string name="GameTitleColumn">Game</string>
+  <string name="GamePlatformColumn">Platform</string>
+  <string name="GameBackupColumn">Backup</string>
+
+  
+  <string name="RedetectGamesButton">_Redetect Games</string>
+  <string name="BackupNoGamesButton">Back Nothing Up</string>
+  <string name="BackupOneGameButton">_Back This Up</string>
+  <string name="BackupMultipleGamesButton">_Back These %0 Up</string> <!-- This is an example of a string that will have a variable inserted 
+                                                                            They take the form of %0, %1, %2, etc.-->
+  <string name="BackupAllGamesButton">Back _Everything Up</string>
+  <string name="BackupOneGameMenu">Back This Up</string>
+  <string name="BackupMultipleGamesMenu">Back These Up</string>
+
+  <string name="DetectedGames">Detected Games</string>
+
+  <string name="BackupContextCreateCustomArchive">Create Custom Archive</string>
+  <string name="BackupContextBackupNoGames">Back Nothing Up</string>
+  <string name="BackupContextPurge">Purge</string>
+  <string name="BackupContextEnableBackup">Enable Backup</string>
+
+  
+  <!-- Backup process -->
+  <string name="GamesToBeBackedUpCount">%0 Games To Be Backed Up</string>
+  <string name="BackingUpSingleGame">Backing Up %0</string>
+  <!--  %0: The name of the current game being processed
+        %1: The nth game being processed
+        %2: The total games being processed -->
+  <string name="BackingUpMultipleGames">(%1/%2) Backing Up %0...</string>
+
+  <!-- Manual Archive -->
+  <string name="ManualArchiveTitle">Create Custom Archive</string>
+  <string name="ManualArchiveSource">Where Do You Want To Get Saves From?</string>
+  <string name="ManualArchiveFiles">Which Files Will Go Into The Backup?</string>
+  
+  <!-- Restore tab -->
+  <string name="ArchiveListHeader">Double-click a backup to restore it</string>
+
+  <string name="ArchiveNameColumn">Game</string>
+  <string name="ArchiveTypeColumn">Type</string>
+  <string name="ArchiveOwnerColumn">Owner</string>
+  <string name="ArchiveDateColumn">Date</string>
+  
+  <string name="ReloadArchivesButton">_Reload Archives</string>
+  <string name="RestoreOtherBackup">Restore _Other Archive(s)</string>
+  <string name="RestoreNoneButton">Restore Nothing</string>
+  <string name="RestoreOneButton">Restore _This</string>
+  <string name="RestoreMultipleButton">Restore _These</string>
+
+  <string name="NoArchivesFound">No Archives Found In Backup Folder</string>
+
+  <string name="BackupFolderNotSet">Backup Folder Has Not Been Set\nYou Can Set It From The Settings Tab</string>
+  
+  <string name="SelectArchive">Select Archive(s) To Restore</string>
+  
+
+  <!-- Task tab-->
+  <string name="Schedule">Schedule</string>
+  <string name="EnterTaskCredentials" type="title">Pander To Me</string>
+  <string name="EnterTaskCredentials" type="message">You must enter a password for the user the task will be running as,\nwhich is shown in the little text box right there.</string>
+  <string name="UnableToCreateTask" type="title">What Did I Just Tell You</string>
+  <string name="UnableToCreateTask" type="message">Unable to create task. The task has been deleted.</string>
+
+  <string name="DeleteTaskButton">_Delete Task</string>
+
+  <string name="Frequency">Frequency</string>
+  <string name="TimeOfDay">Time Of Day</string>
+  <string name="DayOfTheWeek">Day Of The Week</string>
+  <string name="DayOfTheMonth">Day Of The Month</string>
+
+  <string name="TaskCredentials">User And Password To Run Task As</string>
+  
+  <!-- About tab-->
+  <string name="Contributors">Contributors</string>
+  <string name="Contributor">Contributor</string>
+  <string name="Count">Count</string>
+  
+  <!-- Custom tab -->
+  <string name="Custom">Custom</string>
+  
+  <!-- Custom archive strings-->
+  <string name="WhereSaveArchive">And where would you like to put this backup?</string>
+  
+  <!-- Email Button strings -->
+	<string name="CheckingConnection">Checking Connection...</string>
+	<string name="SendReport">_Send Report</string>
+	<string name="CantSendReport">Can't Send Report</string>
+	<string name="SendingReport">Sending Report...</string>
+	<string name="SendFailed">Send Failed</string>
+	<string name="ReportSent">Report Sent</string>
+	
+	<!-- Email prompt strings -->
+	<string name="EmailRequest">Please Enter Your E-Mail Address In Case I Need To Contact You For More Info</string>
+	<string name="ChangeLaterInSettings">You Can Change It Later In Settings</string>
+	
+	<!-- Settings -->	
+  <string name="Settings">Settings</string>
+  <string name="EmailAddress">E-Mail Address</string>
+  <string name="AutoUpdate">_Auto-Check For Updates</string>
+  <string name="IgnoreDates">_Ignore Dates During Backup</string>
+  <string name="BackupPath">Backup Path</string>
+  <string name="SteamPath">Steam Path</string>
+  <string name="CheckForUpdates">Check For _Updates</string>
+  <string name="VersioningEnable">Make _Extra Copies</string>
+  <string name="VersioningTime">At Least This Long Between Copies</string>
+  <string name="VersioningCount">At Most This Many Extra Copies</string>
+  <string name="AltPaths">Alternate Save Paths</string>
+  <string name="AddAltPath">Add New Path</string>
+  <string name="RemoveNoAltPaths">Remove Nothing</string>
+  <string name="RemoveAltPaths">Remove Paths</string>
+  <string name="RemoveAltPath">Remove Path</string>
+  
+  <!-- Path choosing strings (the read/write errors here use ReadWriteErrorTitle for their titles) -->
+  <string name="SelectBackupPath">Choose where the backups will be saved</string>
+  <string name="SelectBackupPathReadError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="SelectBackupPathReadError" type="message">%ReadPermissionError% the selected backup folder</string>
+  <string name="SelectBackupPathWriteError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="SelectBackupPathWriteError" type="message">%WritePermissionError% the selected backup folder</string>
+
+  <string name="SelectSyncPath">Choose where the saves will be synced</string>
+  <string name="SelectSyncPathReadError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="SelectSyncPathReadError" type="message">%ReadPermissionError% the selected sync folder</string>
+  <string name="SelectSyncPathWriteError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="SelectSyncPathWriteError" type="message">%WritePermissionError% the selected sync folder</string>
+  
+  <string name="SelectAltPath">Choose a new Alternative Install Path</string>
+  <string name="SelectAltPathReadError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="SelectAltPathReadError" type="message">Due to permissions or something, MASGAU can't read the folder you selected</string>
+  <string name="SelectAltPathDuplicate" type="title">Duplication</string>
+  <string name="SelectAltPathDuplicate" type="message">The path you selected has already been added</string>
+  
+  <string name="SelectSteamPath">Choose where Steam is located</string>
+  <string name="SelectSteamPathRejected" type="title">No Go</string>
+  <string name="SelectSteamPathRejected" type="message">The selected folder does not contain Steam.exe, so it's probably not a Steam folder</string>
+
+  <!-- Restore process -->
+  <string name="RestoreTitle">%MASGAU% Is Restoring %0</string>
+  <string name="Restore">Restore</string>
+  <string name="Restoring">Restoring</string>
+  <string name="RestoringFile">%Restoring% %0</string>
+  <string name="Detecting">Detecting</string>
+  <string name="Choosing">Choosing</string>
+  <string name="Done">Done</string>
+  <string name="Files">Files</string>
+  <string name="SelectFiles">Select Files</string>
+
+  <string name="RestoreNoCandidatesFound">No Restore Candidates Found</string>
+  <string name="RestoreNoLocationFound">No locations found</string>
+
+  <string name="RestoreRemovableDriveChoice">Choose the removable drive to restore to</string>
+  <string name="RestoreRemovableDrive">This removable drive will be used</string>
+
+  <string name="RestoreConfirmPath">Confirm Restore Location</string>
+  <string name="RestoreLocationChoice">Choose the location to restore to</string>
+  <string name="RestoreLocation">This location will be used</string>
+  <string name="RestoreUserChoice">Choose the user to restore to</string>
+  <string name="RestoreUser">This user will be used</string>
+  <string name="RestoreSelectFiles">Select Files To Restore</string>
+
+  <string name="RestoreNoFiles" type="title">Restore Nothing? That's Stupid.</string>
+  <string name="RestoreNoFiles" type="message">You haven't selected any files to restore.\nThink about it.</string>
+
+  <string name="RestoreComplete">Restore Complete</string>
+  <string name="RestoreMultipleArchives" type="title">Convenience?</string>
+  <string name="RestoreMultipleArchives" type="message">You're restoring more than one archive,\nwould you like MASGAU to not prompt you for input unless absolutely necessary?</string>
+  
+  <string name="RestoreSomeFailed">Some archives did not restore</string>
+
+  <string name="RestoreCompleteWithComment">Other than that, the restore is done!</string>
+  
+  <!-- Windows 7 Jump List -->
+  <string name="JumpMainProgram">%MainProgram%</string>
+  <string name="JumpMainProgramDescription">%Open% %MASGAUPlural% %MainProgram%</string>
+  <string name="JumpMainProgramAllUsers">%JumpMainProgram% (%AllUsersMode%)</string>
+  <string name="JumpMainProgramAllUsersDescription">Open %MASGAUPlural% %MainProgram% In %AllUsersMode%</string>
+  <string name="JumpAnalyzer">%AnalyzerWindowTitle%</string>
+  <string name="JumpAnalyzerDescription">%Open% %MASGAUPlural% %AnalyzerWindowTitle%</string>
+  <string name="JumpMonitor">%MonitorTitle%</string>
+  <string name="JumpMonitorDescription">%Open% %MASGAUPlural% %MonitorTitle%</string>
+
+  <!-- Monitor-specific strings -->
+  <string name="Monitor">Monitor</string>
+  <string name="MonitorTitle">%MASGAU% %Monitor%</string>
+  <string name="MonitorSettingUp">%MonitorTitle% is setting up...</string>
+  <string name="MonitorMenuRescanGames">Rescan Games</string>
+  <string name="MonitorMenuAbout">About</string>
+  <string name="MonitorMenuSettings">Settings...</string>
+  <string name="MonitorMenuExit">Exit</string>
+  <string name="MonitorNegativeGames">%MonitorTitle% is...WHAT!??!</string>
+  <string name="MonitorZeroGames">%MonitorTitle% isn't stalking any games</string>
+  <string name="MonitorOneGame">%MonitorTitle% is stalking a single game</string>
+  <string name="MonitorMultipleGames">%MonitorTitle% is stalking %0 games</string>
+
+  <!-- Monitor settings window-->
+  <string name="MonitorSettingsTitle">%MASGAU% %Monitor% %Settings%</string>
+  <string name="SyncPath">Sync Path</string>
+  <string name="GameSyncColumn">Sync</string>
+  <string name="GameSyncLocationColumn">Sync Location</string>
+
+  <string name="StartMonitorOnLogin">Start Monitor On Login</string>
+  <string name="FullBackupOnMonitorStartup">Full Backup On Monitor Startup</string>
+
+  <string name="AboutWindowCloseButton">Um...Okay. _Thanks For That.</string>
+
+  <string name="EnableBackup">Enable Backup</string>
+  <string name="EnableSync">Enable Sync</string>
+  
+  
+  <!-- Analyzer-specific strings -->
+  <string name="AnalyzerWindowTitle">Save Game Analyzer</string>
+  <string name="GameNameQuestion">What Is The Game's Name?</string>
+  <string name="GameInstallQuestion">Where Is The Game Installed?</string>
+  <string name="GameSavesQuestion">Where Does The Game Keep Its Saves?</string>
+  <string name="ScanButton">_Scan And Generate Report</string>
+  <string name="InstallFolder">Install Folder</string>
+  <!-- Folder browser titles -->
+  <string name="GameInstallPrompt">Select Install Folder</string>
+  <string name="GameSavesPrompt">Select Save Location</string>
+	<!-- Playstation tab -->
+	<string name="PlayStationScanButton">Scan And Generate Report</string>
+	<string name="PlayStationCodeQuestion">What Is The Game's Code?</string>
+  <string name="PlayStationLocationQuestion">Where Are The PlayStation Saves?</string>
+  <string name="PlayStationLocationPrompt">Select PlayStation Saves Folder</string>
+	<!-- Searching window -->
+	<string name="SearchingWindowTitle">Seaching For Game Information...</string>
+  <string name="SearchingHeader">Where To Look First...</string>
+  <string name="DumpingSaveFolder">Dumping Save Folder...</string>
+  <string name="DumpingInstallFolder">Dumping Install Folder...</string>
+  <string name="DumpingVirtualStoreFolder">Dumping VirtualStore Folders...</string>
+  <string name="ScanningLocalMachineRegistry">Scanning Local Machine Registry...</string>
+  <string name="ScanningCurrentUserRegistry">Scanning Current User Registry...</string>
+  <string name="ScanningStartMenu">Scanning Start Menu...</string>
+  <!-- Analyzer report -->
+	<string name="ReportWindowTitle">Here's The Report (Feel Free To Edit It)</string>
+	<string name="SaveReportQuestion">"Where Do You Want To Save The Report?"</string>
+  <string name="AnalyzerDisclaimer">Submitted reports are published to a public server. No one involved with MASGAU can be held liable for any repurcusions from the publishing of sensitive information through these reports, so please carefully look over and edit the report for any information that you do not want to be made public. By submitting a report you are agreeing that it is free for public dispersal.</string>
+	
+	<!-- File types -->
+  <string name="Gb7FileDescription">MASGAU Save Archive</string>
+  <string name="Gb7FileDescriptionPlural">MASGAU Save Archives</string>
+  <string name="TxtFileDescription">Text file</string>
+	<string name="TxtFileDescriptionPlural">Text files</string>
+	<string name="AllFileDescription">All file</string>
+	<string name="AllFileDescriptionPlural">All files</string>
+	
+	<!-- Error messages -->
+  <string name="Error">Error</string>
+  <string name="ReadWriteErrorTitle">Literacy %Error%</string>
+  <string name="UserLoadError">User Load %Error%</string>
+  <!-- Permission errors -->
+  <string name="ReadPermissionError">You don't have permission to read from</string>
+  <string name="WritePermissionError">You don't have permission to write to</string>
+  <string name="ProcessRestorePermissionError" type="title">%UserLoadError%</string>
+  <string name="ProcessRestorePermissionError" type="message">Error while trying to change process restore permission for reading other users\nError code %0</string>
+  <string name="ProcessBackupPermissionError" type="title">%UserLoadError%</string>
+  <string name="ProcessBackupPermissionError" type="message">Error while trying to change process backup permission for reading other users\nError code %0</string>
+  <string name="PermissionChangeError" type="title">I'm a program, not a red shirt</string>
+  <string name="PermissionChangeError" type="message">An error occcured while trying to change the permissions on %0</string>
+
+  <!-- Write errors-->
+  <string name="WriteError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="WriteError" type="message">Error while trying to write %0</string>
+  <string name="WriteErrorPrompt">Pick somewhere else</string>
+  <string name="WriteDenied" type="title">%ReadWriteErrorTitle%</string>
+  <string name="WriteDenied" type="message">Unable to write to %0</string>
+  <string name="CreateError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="CreateError" type="message">An error occured while trying to create %0</string>
+  <string name="CopyError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="CopyError" type="message">An error occured while trying to copy %0 to %1</string>
+
+
+  <string name="FileToCopyNotFound" type="title">This May Or May Not Be Important</string>
+  <string name="FileToCopyNotFound" type="message">A file that was supposed to be copied, namely %0 could not be found</string>
+  <string name="FileCopiedNotFound" type="title">This May Or May Not Be Important</string>
+  <string name="FileCopiedNotFound" type="message">Okay so we copied a file to somewhere else and nothing went wrong,\nbut the file isn't where we copied it to :/\nThe file came from %0\nand was being copied to %1</string>
+
+  <!-- Read errors -->
+  <string name="ReadError" type="title">%ReadWriteErrorTitle%</string>
+  <string name="ReadError" type="message">Error while reading %0</string>
+
+
+  <!-- Settings errors-->
+  <string name="SettingsLoadError" type="title">%Error%</string>
+  <string name="SettingsLoadError" type="message">Something Went Wrong While Loading Settings.\nI Have No Idea What</string>
+  <!-- Registry Errors -->
+  <string name="ResgistryError">Registry Error</string>
+  <string name="RegistryKeyLoadError" type="title">%ResgistryError%</string>
+  <string name="RegistryKeyLoadError" type="message">Error While Loading Registry Key</string>
+
+  <string name="UserRegistryLoadError" type="title">%UserLoadError%</string>
+  <string name="UserRegistryLoadError" type="message">Error while trying to load the registry file for user %0\nError code: %1</string>
+
+  <string name="NoFilesFound">No Files Found</string>
+  
+  <!-- Updater strings -->
+  <string name="UpdaterWindowTitle">%MASGAU% Feels Inferior</string>
+  <string name="CheckingForUpdates">Checking for updates...</string>
+  <string name="UpdatesAvailable">There Are Updates Available</string>
+  <string name="UpdateButton">_Update Them</string>
+  <string name="DontUpdateButton">_Don't Update Them</string>
+  <string name="UpdateCompleteButton">Update Complete! Click Here to Close!</string>
+  <string name="UpdateComplete">Update Complete!</string>
+  <string name="Updates">Updates</string>
+  <string name="Update">Update</string>
+  <string name="Current">Current</string>
+  <string name="Latest">Latest</string>
+
+  <!-- More general error messages -->
+  <string name="DeleteError" type="title">Cleanup</string>
+  <string name="DeleteError" type="message">An error occured while trying to delete %0</string>
+  <string name="FolderPrepError" type="title">Look Out!</string>
+  <string name="FolderPrepError" type="message">An error occured while trying to prep %0</string>
+  <string name="FileDoesntExist" type="title">Not there</string>
+  <string name="FileDoesntExist" type="message">The specified backup doesn't exist:/n/n%0</string>
+  <string name="UnknownGame" type="title">Unknown</string>
+  <string name="UnknownGame" type="message">MASGAU doesn't have information for the game %0</string>
+
+  <!-- Inner core message strings -->
+  <string name="DetectingSystemPaths">Detecting System Paths...</string>
+  <string name="DetectingSteam">Detecting Steam...</string>
+  <string name="DetectingPlayStation">Detecting PlayStation Paths...</string>
+  <string name="DetectingScummVM">Detecting ScummVM Paths...</string>
+
+  <!-- Program Handler -->
+  <string name="ValidatingBackupPath">Validating Backup Path...</string>
+  <string name="LoadingSettings">Loading Settings...</string>
+
+  <!-- Archive Handler -->
+  <!-- %0 = the previously dispalyed status text -->
+  <string name="ArchiveInUseWaiting">%0 - Archive In Use, Waiting (%1/%2)</string>
+  <string name="ArchiveInUseTimeout" type="title">Tired of waiting!</string>
+  <string name="ArchiveInUseTimeout" type="message">The archive %0 has been unaccessible for %1 seconds, it will be skipped</string>
+  <string name="SevenZipNotFound" type="title">Archiver Error</string>
+  <string name="SevenZipNotFound" type="message">7z.exe Not Found In Install Folder\nYou Will Probably Need To Reinstall MASGAU</string>
+  <string name="SevenZipRunError" type="title">Running is for wimps</string>
+  <string name="SevenZipRunError" type="message">An error occured while trying to run 7-zip with the arguments:\n%0</string>
+  <string name="RestoreProgramNotFound" type="title">People people people get up get up</string>
+  <string name="RestoreProgramNotFound" type="message">%0 can't be found.\nYou probably need to reinstall MASGAU</string>
+  <string name="UnableToCreateOutputFolder">Unable to create output folder:/n/n%0</string>
+  <string name="UnableToCreateOutputFolder" type="title">And that's how it is</string>
+  <string name="UnableToCreateOutputFolder" type="message">%UnableToCreateOutputFolder%</string>
+  <string name="UnableToCreateOutputFolderAdmin" type="title">Nutbunnies</string>
+  <string name="UnableToCreateOutputFolderAdmin" type="message">%UnableToCreateOutputFolder%/nMASGAU is already trying in admin mode, so that means that your user is specifically denied access to this folder. Sorry.</string>
+  <string name="UnableToCreateOutputFolderRequest" type="title">Cheese and Crackers</string>
+  <string name="UnableToCreateOutputFolderRequest" type="message">%UnableToCreateOutputFolder%/nWould you like to try again as admin?</string>
+  <string name="RevisionCopyError" type="title">Versioning is for wusses anyway</string>
+  <string name="RevisionCopyError" type="message">An error occured while trying to make a revision copy of %0</string>
+
+  <string name="ArchiveMissingData" type="title">Lack Of Data Is Bad</string>
+  <string name="ArchiveMissingData" type="message">The file %0 doesn't contain any MASGAU data\nThis probably means it's a corrupted archive, or not an archive at all\nPlease move it out of the backup folder or delete it</string>
+
+  <string name="ScanningBackups">Scanning Backups (%0/%1)</string>
+  <string name="CheckingDestination">Checking Destination...</string>
+  <string name="ExtractingArchive">Extracting Archive...</string>
+  <string name="CopyingFilesToDestination">Copying Files To Destination...</string>
+
+  <!-- Backup Handler -->
+  <string name="NothingToBackup" type="title">It feels like there's</string>
+  <string name="NothingToBackup" type="message">Nothing at all to back up</string>
+  <string name="BackupPathNotSet" type="title">Can't continue</string>
+  <string name="BackupPathNotSet" type="message">Backup path not set, please set it from the main program</string>
+
+  <!-- Config handler -->
+  <string name="ConfigFileError">Config File Error</string>
+  <string name="ConfigOpenError" type="title">%ConfigFileError%</string>
+  <string name="ConfigOpenError" type="message">Unable to open config file for writing</string>
+  <string name="ConfigXMLError" type="title">%ConfigFileError%</string>
+  <string name="ConfigXMLError" type="message">XML Error while reading config file</string>
+  <string name="ConfigWatcherError" type="title">%ConfigFileError%</string>
+  <string name="ConfigWatcherError" type="message">Error while auto-updating settings</string>
+  <string name="ConfigPurgeError" type="title">%ConfigFileError%</string>
+  <string name="ConfigPurgeError" type="message">Error while trying to purge config file</string>
+
+  <!-- SettingsHandler -->
+  <string name="CouldNotDetermineConfigFilePath" type="title">%ConfigFileError%</string>
+  <string name="CouldNotDetermineConfigFilePath" type="message">Could not determine an acceptable path for the config file</string>
+  <string name="ErrorRefreshingAltPaths" type="title">Error</string>
+  <string name="ErrorRefreshingAltPaths" type="message">Error while auto-refreshing alt paths</string>
+  <string name="CriticalSettingsFailure" type="title">Show Stopper</string>
+  <string name="CriticalSettingsFailure" type="message">Something went horribly wrong while loading the settings</string>
+
+  <!-- Monitor Handler -->
+  <string name="MonitorNotFound" type="title">This should NEVER HAPPEN</string>
+  <string name="MonitorNotFound" type="message">Monitor was attempted to enable when it was not found</string>
+  
+  <!-- Restore Handler -->
+  <string name="IsRestoring">%0 Is Restoring</string>
+  <string name="NoRestoreFileSelected" type="title">Nothing To Do</string>
+  <string name="NoRestoreFileSelected" type="message">No File Was Selected To Restore</string>
+  <string name="FileNotArchive" type="title">File not archive</string>
+  <string name="FileNotArchive" type="message">This file is not a properly formatted MASGAU archive</string>
+
+  <string name="NoRestorePathsDetected" type="title">Can't Restore If We Can't Find It</string>
+  <string name="NoRestorePathsDetected" type="message">No restore paths detected for %0</string>
+  <string name="NoUsersForEV" type="title">User Error</string>
+  <string name="NoUsersForEV" type="message">The environment variable %0 requires a user to restore to, but none was detected for it/nTry creating a save with a game that you know uses the folder</string>
+
+  <string name="DetectingGameForRestoration">Detecting game for restoration...</string>
+
+  <!-- Update handler -->
+  <string name="UpdatesXmlError">Update File XML Error</string>
+  <string name="UpdatesXmlNotFound" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNotFound" type="message">The updates.xml file couldn't be found\nYou probably need to re-install</string>
+  <string name="UpdatesXmlFormatError" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlFormatError" type="message">XML Error while reading updates.xml</string>
+  <string name="UpdatesXmlNoUpdatesTag" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNoUpdatesTag" type="message">Couldn't find the updates tag in updates.xml</string>
+  <string name="UpdatesXmlNoFilesTag" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNoFilesTag" type="message">Couldn't find the files tag in the fileversions.xml downloaded from %0</string>
+  <string name="UpdatesXmlNoNameAttribute" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNoNameAttribute" type="message">name attribute missing from the file tag in fileversions.xml downloaded from %0</string>
+  <string name="UpdatesXmlNoUrlAttribute" type="title">%UpdatesXmlError%</string>
+  <string name="UpdatesXmlNoUrlAttribute" type="message">url attribute missing in %0</string>
+
+  <string name="UpdateExecutableMissing" type="title">How could you let this happen?</string>
+  <string name="UpdateExecutableMissing" type="message">The updater executable is missing\nYou'll probably have to reinstall MASGAU before updating will work again</string>
+
+  <string name="ProgramUpdateAvailable" type="title">There is a program update for MASGAU</string>
+  <string name="ProgramUpdateAvailable" type="message">Would you like to download it from this address?\n%0</string>
+
+  <string name="CheckingForUpdates">Checking for updates...</string>
+  <string name="NoUpdatesFound" type="title">Not A Thing</string>
+  <string name="NoUpdatesFound" type="message">No Updates Found</string>
+  <string name="DataUpdatesAvailable" type="title">MASGAU wishes to evolve</string>
+  <string name="DataUpdatesAvailable" type="message">There are data updates available\nWould you like to update?</string>
+
+  <string name="BadUpdateData" type="title">Error Downloading</string>
+  <string name="BadUpdateData" type="message">%0 is producing bad data\nYou really should click Send Report so I can fix it</string>
+  <string name="UpdateDownloadFailure" type="title">Getting Old</string>
+  <string name="UpdateDownloadFailure" type="message">% 0 fialed to download from\n%1</string>
+
+  <!-- Games XML Handler-->
+  <string name="LoadingGameXmls">Loading Game XMLs</string>
+
+  <string name="CouldNotFindGameProfilesFolder" type="title">Trashy Talk, Yes?</string>
+  <string name="CouldNotFindGameProfilesFolder" type="message">Could not find game profiles folder</string>
+  <string name="NoXmlFilesInDataFolder" type="title">What the heck?</string>
+  <string name="NoXmlFilesInDataFolder" type="message">There are no XML files in the Data folder</string>
+
+  <string name="GameXmlError">Game XML Error</string>
+  <string name="GameXmlNoGamesTag" type="title">%GameXmlError%</string>
+  <string name="GameXmlNoGamesTag" type="message">Couldn't find the games tag in %0</string>
+  <string name="SpaceInGameName" type="title">%GameXmlError%</string>
+  <string name="SpaceInGameName" type="message">There's a space in the game name %0</string>
+  <string name="GameXmlParseError" type="title">%GameXmlError%</string>
+  <string name="GameXmlParseError" type="message">An error occured while parsing the game XML %0</string>
+
+  <!-- Games Handler -->
+  <string name="DetectingGames">Detecting Games</string>
+  <string name="DetectingGamesProgress">Detecting Games (%0/%1)</string>
+  <string name="LoadingGamesData">Loading Games Data...</string>
+  <string name="DuplicateGame" type="title">Duplicate Game Data Entry</string>
+  <string name="DuplicateGame" type="message">There are two games labelled as %0</string>
+  <string name="PurgeError" type="title">Purge Root Error</string>
+  <string name="PurgeError" type="message">There was an error while attempting to purge %0</string>
+  <string name="PurgeConfirmation" type="title">This could hurt</string>
+  <string name="PurgeConfirmation" type="message">Purging erases all detected save paths for the specified game\nAre you sure you want to continue?</string>
+
+  <!-- Game Handler -->
+  <string name="ImproperPsCodeUse" type="title">%GameXmlError%</string>
+  <string name="ImproperPsCodeUse" type="message">ps_code tag used for game (%0) that isn't on a PlayStation platform</string>
+  <string name="PurgeRootChoice" type="title">Multiple Roots Detected</string>
+  <string name="PurgeRootChoice" type="message">Choose The Root To Purge</string>
+  <string name="FileGatherError" type="title">Unanticipated error!</string>
+  <string name="FileGatherError" type="message">An error occured while trying to gather save files using the path %0</string>
+  <string name="ParentGameDoesntExist" type="title">Wasting my gorramn time</string>
+  <string name="ParentGameDoesntExist" type="message">The specified parent game %0 is not present in the profiles xml\nYou either spelled it wrong, or this is a chain effect from another error</string>
+
+  
+  
+  <!-- Monitor handler -->
+  <string name="OnlyOneMonitorAtATime" type="title">Silly Wicket</string>
+  <string name="OnlyOneMonitorAtATime" type="message">Only one instance of Monitor can be run at a time</string>
+  <string name="MonitorBackupPathNotSet" type="title">Not Acceptable</string>
+  <string name="MonitorBackupPathNotSet" type="message">Monitor cannot function without a backup path</string>
+
+  <string name="MonitorDetectingSavePaths">MASGAU Monitor Is Detecting Save Paths...</string>
+  <string name="MonitorSynchronizingSaves">Synchronizing Saves...</string>
+
+  <string name="CouldNotCreateSyncFolder" type="title">Sync Error</string>
+  <string name="CouldNotCreateSyncFolder" type="message">Could not create folder for snycing to %0\n\nThis game's sync will be disabled</string>
+  <string name="OnlySyncPathNotWritable" type="title">Not Gonna Do It</string>
+  <string name="OnlySyncPathNotWritable" type="message">The only detected path for %0 isn't writable, which means sync won't work\nSync will be disabled for this game\n%1</string>
+  <string name="SyncPathNotWritableAnymore" type="title">Right Before, Wrong Now</string>
+  <string name="SyncPathNotWritableAnymore" type="message">The previously selected sync path for %0 isn't writable,\nwhich means sync won't work. Would you like to choose another path? Choosing no will disable sync for this game</string>
+  <string name="ChooseSyncPath" type="title">Multiple Game Locations Detected</string>
+  <string name="ChooseSyncPath" type="message">Choose The Path To Sync %0 Saves To</string>
+  <string name="SyncPathNotWritable" type="title">Unacceptable</string>
+  <string name="SyncPathNotWritable" type="message">The chosen sync path is not writable, which is prevents syncing\nWould you like to select another directory? Clicking "No" will disable sync for this game</string>
+
+</strings>

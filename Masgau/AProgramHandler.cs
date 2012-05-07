@@ -1,33 +1,47 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Text;
 using MASGAU.Location;
-using MASGAU.Communication.Progress;
+using Communication.Progress;
 using MASGAU.Config;
 using MASGAU.Monitor;
 using MASGAU.Game;
-using MASGAU.Communication.Message;
-
+using Communication;
+using Communication.Message;
+using Communication.Translator;
+using Translator;
 namespace MASGAU {
-    public abstract class AProgramHandler<L> : Core where L : ALocationsHandler {
-        public AProgramHandler(RunWorkerCompletedEventHandler when_done, Interface new_interface)
+    public abstract class AProgramHandler<L> : Core, INotifyPropertyChanged where L : ALocationsHandler {
+
+        // The title of the program's window
+        public String program_title {
+            get {
+                return _program_title.ToString();
+            }
+        }
+
+        protected string _program_title = "MASGAU";
+        
+        public AProgramHandler(Interface new_interface)
             : base(new_interface) {
+            if(Core.portable_mode)
+                _program_title = Strings.getGeneralString("MASGAUPortable");
+
+
             this.DoWork += new DoWorkEventHandler(doWork);
             this.RunWorkerCompleted += new RunWorkerCompletedEventHandler(workCompleted);
-            if (when_done != null) {
-                this.RunWorkerCompleted += when_done;
-            }
         }
 
         protected virtual void workCompleted(object sender, RunWorkerCompletedEventArgs e) { }
 
         protected virtual void doWork(object sender, DoWorkEventArgs e) {
-            ProgressHandler.progress_state = ProgressState.Indeterminate;
+            ProgressHandler.state = ProgressState.Indeterminate;
             if (!initialized) {
-                ProgressHandler.progress_message = "Loading Settings...";
+                TranslatingProgressHandler.setTranslatedMessage("LoadingSettings");
 
                 if (!settings.IsReady) {
                     initialized = false;
-                    MessageHandler.SendError("Show Stopper", "");
+                    TranslatingMessageHandler.SendError("CriticalSettingsFailure");
                     return;
                 }
 
@@ -39,7 +53,7 @@ namespace MASGAU {
 
                 archives = new Archive.ArchivesHandler();
 
-                ProgressHandler.progress_message = "Validating Backup Path...";
+                TranslatingProgressHandler.setTranslatedMessage("ValidatingBackupPath");
                 if (settings.backup_path_set && (!PermissionsHelper.isReadable(settings.backup_path) || !PermissionsHelper.isWritable(settings.backup_path)))
                     settings.clearBackupPath();
 

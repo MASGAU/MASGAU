@@ -10,14 +10,16 @@ using System.ComponentModel;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Archive;
-using MASGAU.Communication;
-using MASGAU.Communication.Request;
-using MASGAU.Communication.Message;
+using Communication;
+using Communication.Request;
+using Communication.Message;
 using MASGAU.Registry;
 using System.Collections.ObjectModel;
 using System.Globalization;
-using MASGAU.Collections;
-
+using Collections;
+using MVC;
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Game {
     public class GameHandler: AModelItem<GameID>
     {
@@ -69,60 +71,8 @@ namespace MASGAU.Game {
                     throw new NotImplementedException("Specified Archive Type " + parse_me.ToString() + " Is Not Supported");
             }
         }
-        private static EnvironmentVariable parseEnvironmentVariable(string parse_me) {
-            switch(parse_me.ToLower()) {
-                case "allusersprofile":
-                    return EnvironmentVariable.AllUsersProfile;
-                case "altsavepaths":
-                    return EnvironmentVariable.AltSavePaths;
-                case "appdata":
-                    return EnvironmentVariable.AppData;
-                case "drive":
-                    return EnvironmentVariable.Drive;
-                case "installlocation":
-                    return EnvironmentVariable.InstallLocation;
-                case "localappdata":
-                    return EnvironmentVariable.LocalAppData;
-                case "public":
-                    return EnvironmentVariable.Public;
-                case "savedgames":
-                    return EnvironmentVariable.SavedGames;
-                case "steamuser":
-                    return EnvironmentVariable.SteamUser;
-                case "steamcommon":
-                    return EnvironmentVariable.SteamCommon;
-                case "steamsourcemods":
-                    return EnvironmentVariable.SteamSourceMods;
-                case "steamuserdata":
-                    return EnvironmentVariable.SteamUserData;
-                case "userprofile":
-                    return EnvironmentVariable.UserProfile;
-                case "userdocuments":
-                    return EnvironmentVariable.UserDocuments;
-                case "flashshared":
-                    return EnvironmentVariable.FlashShared;
-            }
-            throw new NotImplementedException("Unrecognized environment variable: " + parse_me);
-        }
-        private RegRoot parseRegRoot(string parse_me) {
-				switch(parse_me.ToLower()) {
-                    case "classes_root":
-                        return RegRoot.classes_root;
-                    case "current_user":
-						return RegRoot.current_user;
-                    case "current_config":
-						return RegRoot.current_config;
-                    case "dyn_data":
-						return RegRoot.dyn_data;
-                    case "local_machine":
-						return RegRoot.local_machine;
-                    case "performance_data":
-						return RegRoot.performace_data;
-                    case "users":
-						return RegRoot.users;
-				} 
-            throw new NotImplementedException("The specified key root in " + parse_me + " is not recognized. You either spelled it wrong or something.");
-        }
+ 
+
         #endregion
 
 
@@ -250,7 +200,13 @@ namespace MASGAU.Game {
         public bool override_virtualstore = false, detection_required = false, detection_completed = false;
         
         // Thse are the location datas loaded from the xml profile
-        private List<ALocationHolder>            locations = new List<ALocationHolder>();
+        private List<ALocationHolder> locations {
+            get {
+                return _locations;
+            }
+        }
+
+        private List<ALocationHolder> _locations = new List<ALocationHolder>();
         public List<LocationPathHolder>         location_paths {
             get {
                 List<LocationPathHolder> return_me = new List<LocationPathHolder>();
@@ -316,50 +272,28 @@ namespace MASGAU.Game {
                     case "restore_comment":
                         restore_comment = element.InnerText;
                         break;
-                    case "contributer":
+                    case "contributor":
                         contributors.Add(element.InnerText);
                         break;
 					case "require_detection":
 						detection_required = true;
 						break;
                         // Location loaders
+                    case "location_scummvm":
+                        location = new ScummVMName(element);
+                        break;
                     case "location_registry":
                         // Blanking out the new registry location
-                        LocationRegistryHolder new_registry_location = new LocationRegistryHolder();
-                        new_registry_location.root = parseRegRoot(element.GetAttribute("root"));
-                        new_registry_location.key = element.GetAttribute("key");
-                        if(element.HasAttribute("value"))
-                            new_registry_location.value = element.GetAttribute("value");
-                        else
-                            new_registry_location.value = null;
-                        location = new_registry_location;
+                        location = new LocationRegistryHolder(element);
                         break;
                     case "location_shortcut":
-                        LocationShortcutHolder new_shortcut_location = new LocationShortcutHolder();
-                        new_shortcut_location.shortcut = element.GetAttribute("shortcut");
-                        location = new_shortcut_location;
+                        location = new LocationShortcutHolder(element);
                         break;
                     case "location_game":
-                        LocationGameHolder new_game_location = new LocationGameHolder();
-                        String new_game_name = element.GetAttribute("name");
-                        GamePlatform new_game_platform;
-                        String new_game_country;
-                        if(element.HasAttribute("platform"))
-                            new_game_platform = parseGamePlatform(element.GetAttribute("platform"));
-                        else
-                            new_game_platform = GamePlatform.Multiple;
-                        if(element.HasAttribute("country"))
-                            new_game_country = element.GetAttribute("country");
-                        else
-                            new_game_country = null;
-                        new_game_location.game = new GameID(new_game_name,new_game_platform,new_game_country);
-                        location = new_game_location;
+                        location  = new LocationGameHolder(element);
                         break;
                     case "location_path":
-                        LocationPathHolder new_path_location = new LocationPathHolder();
-                        new_path_location.rel_root = parseEnvironmentVariable(element.GetAttribute("environment_variable"));
-                        new_path_location.path = element.GetAttribute("path");
-                        location = new_path_location;
+                        location = new LocationPathHolder(element);
                         break;
                     case "save":
                         holder = new SaveHolder();
@@ -373,23 +307,23 @@ namespace MASGAU.Game {
                     case "ps_code":
                         switch(id.platform) {
                             case GamePlatform.PS1:
-                                ps_id = new PlayStation1ID();
+                                ps_id = new PlayStation1ID(element);
                                 break;
                             case GamePlatform.PS2:
-                                ps_id = new PlayStation2ID();
+                                ps_id = new PlayStation2ID(element);
                                 break;
                             case GamePlatform.PS3:
-                                ps_id = new PlayStation3ID();
+                                ps_id = new PlayStation3ID(element);
                                 break;
                             case GamePlatform.PSP:
-                                ps_id = new PlayStationPortableID();
+                                ps_id = new PlayStationPortableID(element);
                                 break;
                             default:
-                                throw new MException("XML Error","ps_code tag used for game that isn't on a PlayStation platform",false);
+                                throw new TranslateableException("ImproperPsCodeUse", this.id.ToString());
                         }
                         break;
                     case "virtualstore":
-                        if(element.HasAttribute("override")&&element.GetAttribute("override")=="yes")
+                        if(element.HasAttribute("override")&&element.GetAttribute("override")=="true")
                             override_virtualstore = true;
                         else
                             override_virtualstore = false;
@@ -397,24 +331,23 @@ namespace MASGAU.Game {
                 }
                 // Clever casting trickery to reduce code redundancy
                 if(ps_id!=null) {
-                    ps_id.prefix = element.GetAttribute("prefix");
-                    ps_id.suffix = element.GetAttribute("suffix");
                     SaveHolder save = new SaveHolder();
 
                     if(ps_id.GetType()==typeof(PlayStationPortableID)||
                         ps_id.GetType()==typeof(PlayStation3ID)) {
-                        save.path = ps_id.prefix + ps_id.suffix + "*";
+                        save.path = ps_id.ToString();
                         save.name = null;
                     }
                     
                     if(ps_id.GetType()==typeof(PlayStation2ID)||ps_id.GetType()==typeof(PlayStation1ID)) {
                         save.path = null;
-                        save.name = "BA" + ps_id.prefix + "-" + ps_id.suffix + "*";
+                        save.name = ps_id.ToString();
                         saves.Add(save);
-                        save = new SaveHolder();
-                        save.path = null;
-                        save.name = "BA" + ps_id.prefix + "P" + ps_id.suffix + "*";                        
                     }
+
+                    if(ps_id.type!=null)
+                        save.type = ps_id.type;
+
                     saves.Add(save);
 
                     locations.Add(ps_id);
@@ -450,31 +383,6 @@ namespace MASGAU.Game {
                         identifier = holder as IdentifierHolder;
                 }
                 if(location!=null) {
-                    if(element.HasAttribute("append"))
-                        location.append_path = element.GetAttribute("append");
-                    else
-                        location.append_path = null;
-
-                    if(element.HasAttribute("read_only"))
-                        location.read_only = true;
-                    else
-                        location.read_only = false;
-
-                    if(element.HasAttribute("detract"))
-                        location.detract_path = element.GetAttribute("detract");
-                    else
-                        location.detract_path = null;
-
-                    if(element.HasAttribute("platform_version"))
-                        location.platform_version = (PlatformVersion)Enum.Parse(typeof(PlatformVersion),element.GetAttribute("platform_version"),true);
-                    else
-                        location.platform_version = PlatformVersion.All;
-
-                    if(element.HasAttribute("language"))
-                        location.language = element.GetAttribute("language");
-                    else 
-                        location.language = null;
-
                     locations.Add(location);
                 }
 
@@ -487,35 +395,45 @@ namespace MASGAU.Game {
             GameHandler parent_game;
 
             string path = null;
+            lock (locations)
+            {
 
+                foreach (ALocationHolder location in locations)
+                {
+                    // This skips if a location is marked as only being for a specific version of an OS
+                    if (location.platform_version != Core.locations.platform_version && location.platform_version != PlatformVersion.All)
+                        continue;
 
-            foreach(ALocationHolder location in locations) {
-                // This skips if a location is marked as only being for a specific version of an OS
-                if(location.platform_version!=Core.locations.platform_version&&location.platform_version!= PlatformVersion.All)
-                    continue;
-
-                if(location.GetType()==typeof(LocationGameHolder)) {
-                    // This checks all the locations that are based on other games
-                    LocationGameHolder game = location as LocationGameHolder;
-                    if(Core.games.all_games.containsId(game.game)) {
-					    parent_game = Core.games.all_games.get(game.game);
-                        // If the game hasn't been processed in the GamesHandler yetm it won't yield useful information, so we force it to process here
-                        if(!parent_game.detection_completed)
-                            parent_game.detect();
-						foreach(KeyValuePair<string,DetectedLocationPathHolder> check_me in parent_game.detected_locations) {
-							path = location.modifyPath(check_me.Value.full_dir_path);
-							interim.AddRange(Core.locations.interpretPath(path));
-						}
-                    } else {
-                        MessageHandler.SendError("Wasting my gorramn time","The specified parent game " + game.game.name + " for " + game.game.platform + " for " + title + " is not present in the profiles xml. You either spelled it wrong, or this is a chain effect from another error.");
+                    if (location.GetType() == typeof(LocationGameHolder))
+                    {
+                        // This checks all the locations that are based on other games
+                        LocationGameHolder game = location as LocationGameHolder;
+                        if (Core.games.all_games.containsId(game.game))
+                        {
+                            parent_game = Core.games.all_games.get(game.game);
+                            // If the game hasn't been processed in the GamesHandler yetm it won't yield useful information, so we force it to process here
+                            if (!parent_game.detection_completed)
+                                parent_game.detect();
+                            foreach (KeyValuePair<string, DetectedLocationPathHolder> check_me in parent_game.detected_locations)
+                            {
+                                path = location.modifyPath(check_me.Value.full_dir_path);
+                                interim.AddRange(Core.locations.interpretPath(path));
+                            }
+                        }
+                        else
+                        {
+                            TranslatingMessageHandler.SendError("ParentGameDoesntExist", game.game.ToString());
+                        }
                     }
-                } else {
-                    // This checks all the registry locations
-                    // This checks all the shortcuts
-                    // This parses each location supplied by the XML file
-                    //if(title.StartsWith("Postal 2"))
-                    //if(id.platform== GamePlatform.PS1)
+                    else
+                    {
+                        // This checks all the registry locations
+                        // This checks all the shortcuts
+                        // This parses each location supplied by the XML file
+                        //if(title.StartsWith("Postal 2"))
+                        //if(id.platform== GamePlatform.PS1)
                         interim.AddRange(Core.locations.getPaths(location));
+                    }
                 }
             }
 
@@ -572,7 +490,7 @@ namespace MASGAU.Game {
                     }
                 }
             } catch (Exception e) {
-                MessageHandler.SendError("Read Error","Can't read the designated folder " + root, e);
+                TranslatingMessageHandler.SendError("ReadError",e, root);
             }
             return return_me;
         }
@@ -589,7 +507,7 @@ namespace MASGAU.Game {
             } catch (UnauthorizedAccessException e) {
                 throw e;
             } catch (Exception e) {
-                MessageHandler.SendError("Unanticipated error!","An error occured while trying to gather save files",e);
+                TranslatingMessageHandler.SendError("FileGatherError", e, root);
             }
             return return_me;
         }
@@ -697,7 +615,7 @@ namespace MASGAU.Game {
             }
 
             if(options.Count>2) {
-                RequestReply info =  RequestHandler.Request(RequestType.Choice,"Multiple Roots Detected","Choose The Root To Purge",options,options[0]);
+                RequestReply info = TranslatingRequestHandler.Request(RequestType.Choice, "PurgeRootChoice", options[0], options);
                 if(info.cancelled) {
                     return false;
                 } 

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd" lang="fr">
+  <!-- Common strings-->
+
+  <string name="Loading">Chargement</string>
+  
+  <!-- Decision stuff -->
+  <string name="Submit">_Soumettre</string>
+  <string name="Save">_Sauver</string>
+  <string name="Upload">_Envoyer</string>
+  <string name="OK">_OK</string>
+  <string name="Cancel">_Annuler</string>
+  <string name="Yes">_Oui</string>
+  <string name="No">_Non</string>
+  <string name="Maybe">_Peut-être</string>
+
+	<!-- Platform names -->	
+  <string name="Linux">Linux</string>
+  <string name="Windows">Windows</string>
+  <string name="PlayStation">PlayStation</string>
+
+	<!-- MessageBox strings-->	
+	<string name="ExceptionInformation">Informations d'exception</string>
+	
+	<!-- Email Button strings -->
+	<string name="CheckingConnection">Vérification de connexion...</string>
+	<string name="SendReport">Envoyer le rapport</string>
+	<string name="CantSendReport">Impossible d'envoyer le rapport</string>
+	<string name="SendingReport">Envoi du rapport...</string>
+	<string name="SendFailed">L'envoi a échoué</string>
+	<string name="ReportSent">Rapport envoyé</string>
+	
+	<!-- Email prompt strings -->
+	<string name="EmailRequest">S'il vous plaît, indiquez votre courriel au cas où j'ai besoin de vous contacter pour plus d'informations.</string>
+	<string name="ChangeLaterInSettings">Vous pourrez le changer plus tard dans les paramètres.</string>
+	
+	<!-- Settings -->	
+  <string name="Settings">Paramètres</string>
+  <string name="EmailAddress">Courriel</string>
+
+  <!-- Analyzer-specific strings -->
+  <string name="AnalyzerWindowTitle">Analyseur de sauvegardes de jeux</string>
+  <string name="GameNameQuestion">Quel est le nom du jeu ?</string>
+  <string name="GameInstallQuestion">Où est installé le jeu ?</string>
+  <string name="GameSavesQuestion">Où sont stockées les sauvegardes du jeu ?</string>
+  <string name="ScanButton">_Scanner et générer un rapport</string>
+  <!-- Folder browser titles -->
+  <string name="GameInstallPrompt">Sélectionnez le dossier d'installation</string>
+  <string name="GameSavesPrompt">Sélectionnez le dossier des sauvegardes</string>
+	<!-- Playstation tab -->
+	<string name="PlayStationScanButton">Scanner et générer un rapport</string>
+	<string name="PlayStationCodeQuestion">Quel est le code du jeu ?</string>
+  <string name="PlayStationLocationQuestion">Où sont les sauvegardes PlayStation ?</string>
+  <string name="PlayStationLocationPrompt">Sélectionner le dossier de sauvegarde PlayStation</string>
+	<!-- Searching window -->
+	<string name="SearchingWindowTitle">Recherche des informations du jeu...</string>
+  <string name="DumpingSaveFolder">Listage du dossier de sauvegarde...</string>
+  <string name="DumpingInstallFolder">Listage du dossier d'installation...</string>
+  <string name="DumpingVirtualStoreFolder">Listage des dossiers du VirtualStore...</string>
+  <string name="ScanningLocalMachineRegistry">Scan du registre HKLM...</string>
+  <string name="ScanningCurrentUserRegistry">Scan du registre HKCU...</string>
+  <string name="ScanningStartMenu">Scan du menu Démarrer...</string>
+  <!-- Analyzer report -->
+	<string name="ReportWindowTitle">Voici le rapport (vous pouvez l'éditer)</string>
+	<string name="SaveReportQuestion">"Où voulez-vous sauver le rapport ?"</string>
+  <string name="AnalyzerDisclaimer">Les rapports envoyés sont publiés sur un serveur public. Aucune personne impliquée dans MASGAU ne pourra être tenue responsable des éventuelles conséquences de la publication d'informations personnelles à travers ces rapports. S'il-vous-plaît, regardez attentivement ce rapport et éditez toute information que vous ne voudriez pas voir rendue publique. En envoyant ce rapport vous acceptez qu'il soit librement diffusé.</string>
+	
+	<!-- File types -->
+	<string name="TxtFileDescription">Fichier texte</string>
+	<string name="TxtFileDescriptionPlural">Fichiers texte</string>
+	<string name="AllFileDescription">Tout fichier</string>
+	<string name="AllFileDescriptionPlural">Tous fichiers</string>
+	
+	<!-- Errors messages -->
+	<string name="WriteError">Erreur pendant l'écriture</string>
+	<string name="WriteErrorPrompt">Choisissez un autre endroit</string>
+	
+	
+</strings>

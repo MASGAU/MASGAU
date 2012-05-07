@@ -7,13 +7,17 @@ using System.IO;
 using MASGAU.Game;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using MASGAU.Communication.Message;
+using Communication.Message;
 using System.ComponentModel;
+using Email;
+using MVC;
+using Translator;
+using Communication.Translator;
 namespace MASGAU.Config
 
 {
 
-    public class SettingsHandler: ConfigFileHandler
+    public class SettingsHandler: AEmailConfig
     {
         // This file contains methods for getting and manipulating all of MASGAU's settings
         // It acts as a worker layer between the program and the config file
@@ -21,8 +25,15 @@ namespace MASGAU.Config
         public SettingsHandler(): base(null,"config.xml",Core.mutex) {
             // Checks if there is a config folder in the same folder as the program
             // This is for the portable version
-            if (File.Exists(Path.Combine(Core.app_path,file_name))){
-                file_path = Core.app_path;
+            if(Core.config_location!=null) {
+                file_path = Core.config_location;
+            } else if (Core.portable_mode) {
+                DirectoryInfo dir = new DirectoryInfo(Path.Combine("..","..","Data"));
+                if (!dir.Exists) {
+                    dir.Create();
+                    dir.Refresh();
+                }
+                file_path = dir.FullName;
             } else {
                 // Checks what OS is being used, as each one will store the config file somewhere different
                 // Checks what mode MASGAU is running in so the appropriate config file can be loaded
@@ -37,11 +48,10 @@ namespace MASGAU.Config
                 // Load the settings from the XML file
                 loadSettings();
             } else {
-                throw new MException("Config File Error","Could not determine an acceptable path for the config file.",false);
+                throw new TranslateableException("CouldNotDetermineConfigFilePath");
             }
 
 
-            shared_settings.Add("email");
             shared_settings.Add("backup_path");
             shared_settings.Add("backup_path_set");
             shared_settings.Add("steam_path");
@@ -66,8 +76,39 @@ namespace MASGAU.Config
                     alt_paths.refresh();
                     NotifyPropertyChanged("alt_paths");
                 } catch (Exception e) {
-                    MessageHandler.SendError("Error","Error while auto-refreshing alt paths",e);
+                    TranslatingMessageHandler.SendError("ErrorRefreshingAltPaths");
                 }
+            }
+
+            if(Core.portable_mode) {
+                if(backup_path_set&&
+                    this.backup_path!=adjustPortablePath(this.backup_path)) {
+                    this.backup_path = adjustPortablePath(this.backup_path);
+                }
+                if(steam_override!=null&&
+                    this.steam_override!=adjustPortablePath(this.steam_override)) {
+                    this.steam_override = adjustPortablePath(this.steam_override);
+                }
+
+                if(sync_path_set&&
+                    this.sync_path!=adjustPortablePath(this.sync_path)) {
+                    this.sync_path = adjustPortablePath(this.sync_path);
+                }
+
+                bool updated = false;
+                for(int i=0;i<alt_paths.Count;i++) {
+                    AltPathHolder path = alt_paths[i];
+                    if(path.path!=adjustPortablePath(path.path)) {
+                        alt_paths.RemoveAt(i);
+                        alt_paths.Insert(i,new AltPathHolder(adjustPortablePath(path.path)));
+                        updated = true;
+                    }
+                }
+                if(updated)
+                    saveAltPaths();
+
+                if(last_drive!=current_drive)
+                    updateLastDrive();
             }
 
             if(Core.games!=null)
@@ -86,21 +127,34 @@ namespace MASGAU.Config
             }
         }
 
-        public string email {
+        #region Portable-related settings/methods
+        public string current_drive {
             get {
-                return getNodeAttribute("address","email");
-            }
-            set {
-                if(value!=null&&value.Contains("@")) {
-                    int loc = value.IndexOf('@');
-                    if(value.Substring(loc+1).Contains("."))
-                        setNodeAttribute("address",value,"email");
-                }
-                NotifyPropertyChanged("email");
+                DirectoryInfo dir = new DirectoryInfo("./");
+                return dir.Root.Name;
             }
         }
-
-
+        public string last_drive {
+            get {
+                string value = getNodeAttribute("last_drive","portable_settings");
+                if(value==null) {
+                    updateLastDrive();
+                    return current_drive;
+                }
+                return value;
+            }
+        }
+        public void updateLastDrive() {
+            setNodeAttribute("last_drive",current_drive,"portable_settings");
+        }
+        private string adjustPortablePath(string old_path) {
+            if(last_drive!=current_drive&&old_path.StartsWith(last_drive)) {
+                string value = old_path.Replace(last_drive,current_drive);
+                return value;
+            } 
+            return old_path;
+        }
+        #endregion
 
         #region Methods for getting and setting the saved window size
         public int window_width {

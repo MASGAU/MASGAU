@@ -7,43 +7,31 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shell;
 using System.ComponentModel;
 using MASGAU.Location.Holders;
-using MASGAU.Communication;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Message;
-using MASGAU.Communication.Request;
+using Communication;
+using Communication.Progress;
+using Communication.Message;
+using Communication.Request;
+using Communication.WPF;
 using MASGAU.Archive;
 using MASGAU.Game;
 using System.Threading;
 using System.Windows.Threading;
 using System.IO;
 using MASGAU.Backup;
-
+using Translator;
+using Translator.WPF;
 namespace MASGAU
 {
 
-    public abstract class AWindow: System.Windows.Window, ICommunicationReceiver
+    public abstract class AWindow: ACommunicationWindow
     {
-        protected Brush default_progress_color;
         protected ProgressBar overall_progress;
         
-        protected bool _available = true;
-        public bool available {
-            get {
-                return _available;
-            }
-        }
-
-        private SynchronizationContext _context;
-        public SynchronizationContext context {
-            get {
-                return _context;
-            }
-        }
 
         public AWindow(): this(null) {
         }
 
-        public AWindow(AWindow owner): base() {
+        public AWindow(AWindow owner): base(owner) {
             TabItem from_me = new TabItem();
             from_me.BeginInit();
             from_me.EndInit();
@@ -54,14 +42,16 @@ namespace MASGAU
             // Taskbar progress setup
             TaskbarItemInfo = new TaskbarItemInfo();
             var uriSource = new Uri(System.IO.Path.Combine(Core.app_path,"masgau.ico"), UriKind.Relative);
+            
             this.Icon = new BitmapImage(uriSource);
+
             if(owner!=null) {
                 this.Owner = owner;
                 this.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterOwner;
             } else {
                 this.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             }
-
+            #region Jumplist stuff
             // Jumplist setup
             JumpList masgau_jump_list = JumpList.GetJumpList(Application.Current);
             if(masgau_jump_list==null) {
@@ -78,8 +68,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Main.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = "Main Program";
-            masgau_jump.Description = "Open MASGAU's Main Window";
+            masgau_jump.Title = Strings.getGeneralString("JumpMainProgram");
+            masgau_jump.Description = Strings.getGeneralString("JumpMainProgramDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
 
@@ -87,8 +77,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Main.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = "Main Program (All Users Mode)";
-            masgau_jump.Description = "Open MASGAU's Main Window In All Users Mode";
+            masgau_jump.Title = Strings.getGeneralString("JumpMainProgramAllUsers");
+            masgau_jump.Description = Strings.getGeneralString("JumpMainProgramAllUsersDescription");
             masgau_jump.Arguments = "-allusers";
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
@@ -97,8 +87,8 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Analyzer.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = "Analyzer";
-            masgau_jump.Description = "Open MASGAU's Save Game Analyzer";
+            masgau_jump.Title = Strings.getGeneralString("JumpAnalyzer");
+            masgau_jump.Description = Strings.getGeneralString("JumpAnalyzerDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
             
@@ -106,58 +96,18 @@ namespace MASGAU
             masgau_jump.ApplicationPath = Path.Combine(Core.app_path,"MASGAU.Monitor.WPF.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path,"masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
-            masgau_jump.Title = "Monitor";
-            masgau_jump.Description = "Open MASGAU's Monitor";
+            masgau_jump.Title = Strings.getGeneralString("JumpMonitor");
+            masgau_jump.Description = Strings.getGeneralString("JumpMonitorDescription");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
 
             masgau_jump_list.Apply();
-
-            //These intitialize the contexts of the CommunicationHandlers
-            if(SynchronizationContext.Current == null)
-                SynchronizationContext.SetSynchronizationContext(new DispatcherSynchronizationContext(this.Dispatcher));
-            _context = SynchronizationContext.Current;
-
-            CommunicationHandler.addReceiver(this);
-
-            this.Closing += new CancelEventHandler(Window_Closing);
-        }
-
-        void Window_Closing(object sender, CancelEventArgs e)
-        {
-            _available = false;
-        }
-
-        protected Boolean disable_close = false;
-        public virtual void disableInterface() {
-            disable_close = true;
-        }
-        public virtual void enableInterface() {
-            disable_close = false;
-        }
-        protected void enableInterface(object sender, RunWorkerCompletedEventArgs e) {
-            this.enableInterface();
-        }
-        public void closeInterface() {
-            this.Close();
-        }
-
-        protected override void OnClosing(CancelEventArgs e)
-        {
-            if(disable_close) {
-                e.Cancel = true;
-            } else {
-                base.OnClosing(e);
-            }
+            #endregion
 
         }
 
-        public void hideInterface() {
-            this.Visibility = System.Windows.Visibility.Hidden;
-        }
-        public void showInterface() {
-            this.Visibility = System.Windows.Visibility.Visible;
-        }
+
+
 
         // Stuff to purge games
         protected void purgeGames(System.Collections.IEnumerable games) {
@@ -212,7 +162,7 @@ namespace MASGAU
             this.suppress_message = suppress_message;
             BackgroundWorker update = new BackgroundWorker();
             Core.updater = new Update.UpdatesHandler();
-            old_progress = ProgressHandler.progress_message;
+            ProgressHandler.saveMessage();
             update.DoWork += new DoWorkEventHandler(update_DoWork);
             update.RunWorkerCompleted += new RunWorkerCompletedEventHandler(update_RunWorkerCompleted);
             update.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
@@ -220,7 +170,11 @@ namespace MASGAU
             disableInterface();
             update.RunWorkerAsync();
         }
-
+        void resetStatus(object sender, RunWorkerCompletedEventArgs e)
+        {
+            ProgressHandler.value = 0;
+            ProgressHandler.restoreMessage();
+        }
         protected virtual void update_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             if(Core.updater.shutdown_required) {
@@ -244,7 +198,7 @@ namespace MASGAU
         protected void beginRestore(List<ArchiveHandler> archives) {
             this.Visibility = System.Windows.Visibility.Hidden;
 
-            if(archives.Count>1&&this.askQuestion("Convenience?","You're restoring more than one archive,\nwould you like MASGAU to not prompt you for input unless absolutely necessary?")) {
+            if(archives.Count>1&&TranslationHelpers.askTranslatedQuestion(this,"RestoreMultipleArchives")) {
                 Restore.RestoreProgramHandler.use_defaults = true;
             }
 
@@ -264,7 +218,7 @@ namespace MASGAU
                 foreach(string failed in Restore.RestoreProgramHandler.unsuccesfull_restores) {
                     fail_list.AppendLine(failed);
                 }
-                this.showError("Some archives did not restore",fail_list.ToString());
+                this.showError(Strings.getGeneralString("RestoreSomeFailed"),fail_list.ToString());
             }
             this.Visibility = System.Windows.Visibility.Visible;
 
@@ -272,7 +226,7 @@ namespace MASGAU
 
         protected void redetectArchives() {
             disableInterface();
-            old_progress = ProgressHandler.progress_message;
+            ProgressHandler.saveMessage();
             BackgroundWorker redetect = new BackgroundWorker();
             redetect.DoWork += new DoWorkEventHandler(redetectArchives);
             redetect.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
@@ -306,7 +260,6 @@ namespace MASGAU
         }
 
         private BackupProgramHandler backup;
-        private string old_progress;
         protected void cancelBackup() {
             if(backup!=null&&backup.IsBusy)
                 backup.CancelAsync();
@@ -324,27 +277,12 @@ namespace MASGAU
             startBackup(when_done);
         }
         private void startBackup(RunWorkerCompletedEventHandler when_done) {
-            old_progress = ProgressHandler.progress_message;
+            ProgressHandler.saveMessage();
             backup.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(resetStatus);
             backup.RunWorkerCompleted +=new RunWorkerCompletedEventHandler(enableInterface);
             disableInterface();
             backup.RunWorkerAsync();
         }
-
-        void resetStatus(object sender, RunWorkerCompletedEventArgs e)
-        {
-            ProgressHandler.progress = 0;
-            ProgressHandler.progress_message = old_progress ;
-        }
-
-
-
-
-
-
-
-
-
 
 
         private void ApplyEffect(AWindow win) 
@@ -363,63 +301,18 @@ namespace MASGAU
             win.Effect = null; 
         }
 
-        #region MessageBox showing things
-        protected bool askQuestion(string title, string message) {
-            MessageBox box = new MessageBox(title,message, RequestType.Question, this);
-            return (bool)box.ShowDialog();
-        }
-        protected bool showError(string title, string message) {
-            return showError(title,message,null);
-        }
-        protected bool showError(string title, string message, Exception e) {
-            return displayMessage(title,message, MessageTypes.Error, e);
-        }
-        protected bool showWarning(string title, string message) {
-            return displayMessage(title,message, MessageTypes.Warning,null);
-        }
-        protected bool showInfo(string title, string message) {
-            return displayMessage(title,message, MessageTypes.Info,null);
-        }
-        protected bool displayMessage(string title, string message, MessageTypes type, Exception e) {
-            MessageBox box = new MessageBox(title,message, e,type, this);
-            return (bool)box.ShowDialog();
-        }
-        #endregion
 
-        #region Progress stuff
-        public virtual void updateProgress(ProgressUpdatedEventArgs e) {
-        }
-        protected void applyProgress(ProgressBar progress, ProgressUpdatedEventArgs e) {
-            progress.IsEnabled = e.state!= ProgressState.None;
-            progress.IsIndeterminate = e.state== ProgressState.Indeterminate;
-            switch(e.state) {
-                case ProgressState.Normal:
-                    progress.Foreground = default_progress_color;
-                    break;
-                case ProgressState.Error:
-                    progress.Foreground = Brushes.Red;
-                    break;
-                case ProgressState.Wait:
-                    progress.Foreground = Brushes.Yellow;
-                    break;
-            }
 
-            progress.Visibility = System.Windows.Visibility.Visible;
-            if(e.max==0)
-                progress.Value = 0;
-            else {
-                progress.Maximum = e.max;
-                progress.Value = e.value;
-            }
-        }
-        #endregion
+
+
+
 
         #region Path choosing stuff
         public bool overrideSteamPath() {
             string old_path = Core.settings.steam_path;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = false;
-            folderBrowser.Description = "Choose where Steam is located.";
+            folderBrowser.Description = Strings.getGeneralString("SelectSteamPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -428,7 +321,7 @@ namespace MASGAU
                     if(Core.settings.steam_path==folderBrowser.SelectedPath||Core.settings.steam_path!=old_path)
                         return true;
                     else 
-                        showWarning("No Go","The selected folder does not contain Steam.exe, so it's probably not a Steam folder");
+                        TranslationHelpers.showTranslatedWarning(this,"SelectSteamPathRejected");
                 } else {
                     try_again = false;
                 }
@@ -441,7 +334,7 @@ namespace MASGAU
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = "Choose where the backups will be saved.";
+            folderBrowser.Description = Strings.getGeneralString("SelectBackupPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -452,11 +345,11 @@ namespace MASGAU
                             Core.settings.backup_path = new_path;
                             return new_path!=old_path;
                         } else {
-                            showError("Config File Error","You don't have permission to write to the selected backup folder:" + Environment.NewLine + new_path);
+                            TranslationHelpers.showTranslatedError(this, "SelectBackupPathWriteError");
                             try_again = true;
                         }
                     } else {
-                        showError("Config File Error","You don't have permission to read from the selected backup folder:" + Environment.NewLine + new_path);
+                        TranslationHelpers.showTranslatedError(this, "SelectBackupPathReadError");
                         try_again = true;
                     }
                 } else {
@@ -470,7 +363,7 @@ namespace MASGAU
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = "Choose where the saves will be synced.";
+            folderBrowser.Description = Strings.getGeneralString("SelectSyncPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
@@ -483,11 +376,11 @@ namespace MASGAU
                                 Core.rebuild_sync = true;
                             return new_path!=old_path;
                         } else {
-                            showError("Config File Error","You don't have permission to write to the selected sync folder:" + Environment.NewLine + new_path);
+                            TranslationHelpers.showTranslatedError(this,"SelectSyncPathWriteError");
                             try_again = true;
                         }
                     } else {
-                        showError("Config File Error","You don't have permission to read from the selected sync folder:" + Environment.NewLine + new_path);
+                            TranslationHelpers.showTranslatedError(this,"SelectSyncPathReadError");
                         try_again = true;
                     }
                 } else {
@@ -496,35 +389,11 @@ namespace MASGAU
             } while(try_again);
             return false;
         }
-
 
         protected bool addAltPath() {
-            string new_path;
-            System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
-            folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = "Choose a new Alternative Install Path.";
-            bool try_again = false;
-            do {
-                if(folderBrowser.ShowDialog(this.GetIWin32Window())== System.Windows.Forms.DialogResult.OK) {
-                    new_path = folderBrowser.SelectedPath;
-                    if(PermissionsHelper.isReadable(new_path)) {
-                        if(Core.settings.addAltPath(new_path)){
-                            try_again = false;
-                            return true;
-                        }else {
-                            showError("Duplication","The path you selected has already been added.");
-                            try_again = true;
-                        }
-                    } else {
-                        showError("Can't Read Selected Folder","Due to permissions or something, MASGAU can't read the folder you selected.");
-                        try_again = true;
-                    }
-                } else {
-                    try_again = false;
-                }
-            } while(try_again);
-            return false;
+            return WPFHelpers.addAltPath(this);
         }
+
         protected string promptForPath(string description) {
             string new_path;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
@@ -587,21 +456,6 @@ namespace MASGAU
             }
         }
         
-        public void sendMessage(MessageEventArgs e) {
-            bool response = false;
-            switch(e.type) {
-                case MessageTypes.Error:
-                    response = showError(e.title,e.message,e.exception);
-                    break;
-                case MessageTypes.Info:
-                    response = showInfo(e.title,e.message);
-                    break;
-                case MessageTypes.Warning:
-                    response = showWarning(e.title,e.message);
-                    break;
-            }
-            e.response = ResponseType.OK;
-        }
 
 
         protected void openHyperlink(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
@@ -610,28 +464,8 @@ namespace MASGAU
             e.Handled = true;
         }
         
-        public void requestInformation(RequestEventArgs e) {
+        public override void requestInformation(RequestEventArgs e) {
             switch(e.info_type) {
-                case RequestType.Question:
-                    if(askQuestion(e.title,e.message)) {
-                        e.result.selected_option = "Yes";
-                        e.result.selected_index = 1;
-                        e.response = ResponseType.OK;
-                    } else {
-                        e.response = ResponseType.Cancel;
-                    }
-                    return;
-                case RequestType.Choice:
-                    ChoiceWindow choice = new ChoiceWindow(e.title,e.message,e.options,e.default_option, this);
-                    if((bool)choice.ShowDialog()) {
-                        choice.Close();
-                        e.result.selected_index = choice.selected_index;
-                        e.result.selected_option = choice.selected_item;
-                        e.response = ResponseType.OK;
-                    } else {
-                        e.response = ResponseType.Cancel;
-                    }
-                    return;
                 case RequestType.BackupFolder:
                     if(changeBackupPath()) {
                         e.result.cancelled = false;
@@ -651,36 +485,12 @@ namespace MASGAU
                     }
                     return;
                 default:
-                    throw new NotImplementedException("The specified request type " + e.info_type.ToString() + " is not supported in this GUI toolkit.");
+                    base.requestInformation(e);
+                    return;
             }
         }
         #endregion
 
-        #region stuff for interacting with windows.forms controls
-        // Ruthlessly stolen from http://stackoverflow.com/questions/315164/how-to-use-a-folderbrowserdialog-from-a-wpf-application
-        public System.Windows.Forms.IWin32Window GetIWin32Window()
-        {
-            var source = System.Windows.PresentationSource.FromVisual(this) as System.Windows.Interop.HwndSource;
-            System.Windows.Forms.IWin32Window win = new OldWindow(source.Handle);
-            return win;
-        }
-
-        private class OldWindow : System.Windows.Forms.IWin32Window
-        {
-            private readonly System.IntPtr _handle;
-            public OldWindow(System.IntPtr handle)
-            {
-                _handle = handle;
-            }
-
-            #region IWin32Window Members
-            System.IntPtr System.Windows.Forms.IWin32Window.Handle
-            {
-                get { return _handle; }
-            }
-            #endregion
-        }
-        #endregion
         protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e)
         {
             TextBox txt_box = (TextBox)sender;

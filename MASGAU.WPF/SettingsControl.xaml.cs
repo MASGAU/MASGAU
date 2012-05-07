@@ -11,9 +11,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MASGAU.Communication.Message;
+using Communication.Message;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
+using Translator;
 
 namespace MASGAU
 {
@@ -74,15 +75,15 @@ namespace MASGAU
         {
             if (altPathLst.SelectedItems.Count> 1){
                 removeAltPathBtn.IsEnabled = true;
-                removeAltPathBtn.Content = "Remove Paths";
+                removeAltPathBtn.Content = Strings.get("RemoveAltPaths");
             }
             else if (altPathLst.SelectedItems.Count > 0){
                 removeAltPathBtn.IsEnabled = true;
-                removeAltPathBtn.Content = "Remove Path";
+                removeAltPathBtn.Content = Strings.get("RemoveAltPath");
             }
             else{
                 removeAltPathBtn.IsEnabled = false;
-                removeAltPathBtn.Content = "Remove Nothing";
+                removeAltPathBtn.Content = Strings.get("RemoveNoAltPaths");
             }
         }
 
@@ -123,31 +124,7 @@ namespace MASGAU
         }
 
         protected bool addAltPath() {
-            string new_path;
-            System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
-            folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = "Choose a new Alternative Install Path.";
-            bool try_again = false;
-            do {
-                if(folderBrowser.ShowDialog(getWindow().GetIWin32Window())== System.Windows.Forms.DialogResult.OK) {
-                    new_path = folderBrowser.SelectedPath;
-                    if(PermissionsHelper.isReadable(new_path)) {
-                        if(Core.settings.addAltPath(new_path)){
-                            try_again = false;
-                            return true;
-                        }else {
-                            MessageHandler.SendError("Duplication","The path you selected has already been added.");
-                            try_again = true;
-                        }
-                    } else {
-                        MessageHandler.SendError("Can't Read Selected Folder","Due to permissions or something, MASGAU can't read the folder you selected.");
-                        try_again = true;
-                    }
-                } else {
-                    try_again = false;
-                }
-            } while(try_again);
-            return false;
+            return WPFHelpers.addAltPath(getWindow());
         }
 
         private AWindow getWindow() {

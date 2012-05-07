@@ -13,6 +13,7 @@ namespace MASGAU.Registry {
             SafeRegistryHandle safeRegistryHandle = new SafeRegistryHandle(new IntPtr(hKey), true);
             root_key = RegistryKey.FromHandle(safeRegistryHandle);
         }
+
         public RegistryHandler(RegRoot look_here, string register_me, bool writable) {
             key_found = false;
             switch(look_here) {
@@ -72,7 +73,11 @@ namespace MASGAU.Registry {
             if(root_key!=null)
                 root_key.Close();
         }
-    
+
+        public Boolean hasValue(string value_name)
+        {
+            return getValue(value_name) != null;
+        }
     
         public string getValue(string get_me) {
             if (the_key!=null) {

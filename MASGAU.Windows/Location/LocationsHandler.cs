@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MASGAU.Communication.Progress;
 
 namespace MASGAU.Location {
     public class LocationsHandler: ALocationsHandler   {
@@ -17,6 +16,11 @@ namespace MASGAU.Location {
 
         protected override ASystemLocationHandler setupSystemHandler() {
             return new SystemLocationHandler();
+        }
+
+        protected override AScummVMLocationHandler setupScummVMHandler()
+        {
+            return new ScummVMLocationHandler();
         }
     }
 }

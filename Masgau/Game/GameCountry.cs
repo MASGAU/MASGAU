@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace MASGAU.Game {
-    public enum GameCountry {
+    public enum GameRegion {
         ALL,
         USA,
         EUR

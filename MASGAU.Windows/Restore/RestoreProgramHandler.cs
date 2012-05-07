@@ -8,6 +8,6 @@ using MASGAU.Archive;
 
 namespace MASGAU.Restore {
     public class RestoreProgramHandler: ARestoreProgramHandler<LocationsHandler> {
-        public RestoreProgramHandler(RunWorkerCompletedEventHandler when_done, ArchiveHandler archive): base(when_done, Interface.WPF, archive) {}
+        public RestoreProgramHandler(ArchiveHandler archive): base(Interface.WPF, archive) {}
     }
 }

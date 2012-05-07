@@ -9,10 +9,8 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MASGAU.Main</RootNamespace>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <ReleaseVersion>0.9</ReleaseVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <ReleaseVersion>0.10</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,23 +39,15 @@
     <AssemblyName>Main.Common</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System">
-    </Reference>
-    <Reference Include="System.Core">
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-    </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
-    </Reference>
-    <Reference Include="Microsoft.CSharp">
-    </Reference>
-    <Reference Include="System.Data">
-    </Reference>
-    <Reference Include="System.Xml">
-    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContributerListItem.cs" />
     <Compile Include="CustomGameHandler.cs" />
     <Compile Include="CustomGamesHandler.cs" />
     <Compile Include="GameListItem.cs" />
@@ -67,9 +57,33 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Communication.Translator\Communication.Translator.csproj">
+      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
+      <Name>Communication.Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communication\Communication.csproj">
+      <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Email\Email.csproj">
+      <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
+      <Name>Email</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MASGAU\MASGAU.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVC\MVC.csproj">
+      <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

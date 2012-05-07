@@ -8,11 +8,12 @@ using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Archive;
 using MASGAU.Game;
-using MASGAU.Communication.Progress;
-using MASGAU.Communication.Request;
-using MASGAU.Communication.Message;
-using MASGAU.Collections;
-
+using Communication.Progress;
+using Communication.Request;
+using Communication.Message;
+using Collections;
+using Communication.Translator;
+using Translator;
 namespace MASGAU.Monitor
 {
 
@@ -40,7 +41,8 @@ namespace MASGAU.Monitor
 
         public FileSystemWatcher                       sync_watcher;
 
-        public AMonitorProgramHandler(RunWorkerCompletedEventHandler when_done, Interface new_iface): base(when_done, new_iface) {
+        public AMonitorProgramHandler(Interface new_iface): base(new_iface) {
+            this._program_title += " " +Strings.getGeneralString("Monitor");
         }
 
 
@@ -71,7 +73,7 @@ namespace MASGAU.Monitor
         protected override void doWork(object sender, DoWorkEventArgs e)
         {
             if (!mutex_acquired&&!monitor_mutex.WaitOne(100)) {
-                throw new MException("Silly Wicket", "Only one instance of Monitor can be run at a time.", false);
+                throw new TranslateableException("OnlyOneMonitorAtATime");
             }
             mutex_acquired = true;
 
@@ -85,7 +87,7 @@ namespace MASGAU.Monitor
             while(!Core.settings.backup_path_set) {
                 RequestReply reply = RequestHandler.Request(RequestType.BackupFolder);
                 if(reply.cancelled) {
-                    throw new MException("Not Acceptable","Monitor cannot function without a backup path.",false);
+                    throw new TranslateableException("MonitorBackupPathNotSet");
                 }
             }
 
@@ -105,11 +107,11 @@ namespace MASGAU.Monitor
                 }
             }
 
-            ProgressHandler.progress_message = "MASGAU Monitor Is Detecting Save Paths...";
+            TranslatingProgressHandler.setTranslatedMessage("MonitorDetectingSavePaths");
 
             Core.games.detectGames();
 
-            ProgressHandler.progress_message = "MASGAU Monitor Is Detecting Save Paths...";
+            TranslatingProgressHandler.setTranslatedMessage("MonitorDetectingSavePaths");
 
 		    lock(watchmen) {
                 foreach(KeyValuePair<string,FileSystemWatcher> dispose_me in watchmen) {
@@ -177,12 +179,12 @@ namespace MASGAU.Monitor
         }
 
         private void synchronize() {
-            ProgressHandler.progress_message = "Synchronizing Saves...";
+            TranslatingProgressHandler.setTranslatedMessage("MonitorSynchronizingSaves");
             DirectoryInfo dir = new DirectoryInfo(Core.settings.sync_path);
             DirectoryInfo[] dirs = dir.GetDirectories();
             int count = dirs.Length;
-            ProgressHandler.progress_max = Core.games.enabled_games_count + count;
-            ProgressHandler.progress = 0;
+            ProgressHandler.max = Core.games.enabled_games_count + count;
+            ProgressHandler.value = 0;
             foreach (GameHandler game in Core.games)
 			{
                 // Make sure this doesn't pick up PSP paths!
@@ -196,18 +198,18 @@ namespace MASGAU.Monitor
                 }
 
                 if(!sync.Exists) {
-                    MessageHandler.SendError("Sync Error", "Could not create folder for snycing to " + sync.FullName + "\n\nThis game's sync will be disabled.");
+                    TranslatingMessageHandler.SendError("CouldNotCreateSyncFolder", sync.FullName);
                     game.sync_enabled = false;
                     continue;
                 }
 
-                ProgressHandler.progress++;
+                ProgressHandler.value++;
                 foreach (DetectedFile save in game.getSaves().Flatten()) {
                     copyFile(save.abs_root, sync.FullName, Path.Combine(save.path, save.name));
                 }
             }
             foreach(DirectoryInfo sync_dir in new DirectoryInfo(Core.settings.sync_path).GetDirectories()) {
-                ProgressHandler.progress++;
+                ProgressHandler.value++;
                 GameHandler game = getGameHandler(sync_dir.FullName);
                 if(game==null||!game.backup_enabled||!sync_paths.ContainsKey(game.id))
                     continue;
@@ -249,8 +251,7 @@ namespace MASGAU.Monitor
                         if(ArchiveHandler.canWrite(new DirectoryInfo(game_root.Value.full_dir_path))) {
                             sync_paths.Add(game.id,game_root.Value.full_dir_path);
                         } else {
-                            MessageHandler.SendError("Not Gonna Do It",
-                                "The only detected path for " + game.title + " isn't writable,\nwhich means sync won't work. Sync will be disabled for this game.",
+                            TranslatingMessageHandler.SendError("OnlySyncPathNotWritable", game.title,
                                 game_root.Value.full_dir_path);
                             game.clearSyncPath();
                             game.sync_enabled = false;
@@ -266,8 +267,7 @@ namespace MASGAU.Monitor
                                     found = true;
                                     break;
                                 } else {
-                                    RequestReply response = RequestHandler.Request(RequestType.Question,"Right Before, Wrong Now",
-                                         "The previously selected sync path for " + game.title + " isn't writable,\nwhich means sync won't work. Would you like to choose another path? Choosing no will disable sync for this game.");
+                                    RequestReply response = TranslatingRequestHandler.Request(RequestType.Question,"SyncPathNotWritableAnymore", game.title);
                                     if (response.cancelled) {
                                         game.clearSyncPath();
                                         game.sync_enabled = false;
@@ -287,7 +287,7 @@ namespace MASGAU.Monitor
                     }
                     bool retry = true;
                     while(retry) {
-                        RequestReply reply = RequestHandler.Request(RequestType.Choice,"Multiple Game Locations Detected","Choose The Path To Sync " + game.title + " Saves To",options,options[0]);
+                        RequestReply reply = TranslatingRequestHandler.Request(RequestType.Choice,"ChooseSyncPath",options[0],options, game.title);
                         if(reply.cancelled) {
                             game.clearSyncPath();
                             game.sync_enabled = false;
@@ -298,7 +298,7 @@ namespace MASGAU.Monitor
                                 game.sync_location= reply.selected_option;
                                 retry = false;
                             } else {
-                                RequestReply response = RequestHandler.Request(RequestType.Question,"Unacceptable","The chosen sync path is not writable, which is prevents syncing.\nWould you like to select another directory? Clicking \"No\" will disable sync for this game.");
+                                RequestReply response = TranslatingRequestHandler.Request(RequestType.Question, "SyncPathNotWritable");
                                 if (response.cancelled) {
                                     game.clearSyncPath();
                                     game.sync_enabled = false;
@@ -472,7 +472,7 @@ namespace MASGAU.Monitor
                                         sync_folder.Refresh();
                                     }
                                     if(!sync_folder.Exists) {
-                                        MessageHandler.SendError("Sync Error", "Could not create folder for snycing to:",sync_folder.FullName + "\nThis game's sync will be disabled.");
+                                        TranslatingMessageHandler.SendError("CouldNotCreateSyncFolder",sync_folder.FullName);
                                         Core.games.all_games.get(game).sync_enabled = false;
                                         continue;
                                     }

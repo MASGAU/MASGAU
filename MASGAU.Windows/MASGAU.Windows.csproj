@@ -61,6 +61,7 @@
     <Compile Include="Location\FlashLocationHandler.cs" />
     <Compile Include="Location\LocationsHandler.cs" />
     <Compile Include="Location\PlaystationLocationHandler.cs" />
+    <Compile Include="Location\ScummVMLocationHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Location\SteamLocationHandler.cs" />
     <Compile Include="Location\SystemLocationHandler.cs" />
@@ -83,9 +84,33 @@
     <None Include="masgau.snk" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Collections\Collections.csproj">
+      <Project>{88E4E120-9C45-4EAC-887B-B77474B799B4}</Project>
+      <Name>Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communication.Translator\Communication.Translator.csproj">
+      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
+      <Name>Communication.Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Email\Email.csproj">
+      <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
+      <Name>Email</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MASGAU\MASGAU.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVC\MVC.csproj">
+      <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

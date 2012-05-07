@@ -16,29 +16,24 @@ using MASGAU.Archive;
 using MASGAU.Game;
 using MASGAU.Communication.Progress;
 using MASGAU.Communication.Message;
+using Translator;
 namespace MASGAU.Main
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : AWindow
+    public partial class MainWindow : AProgramWindow
     {
         private MainProgramHandler  main;
 
-        public MainWindow(): base(null)
+        public MainWindow(): base(new MainProgramHandler())
         {
+            main = (MainProgramHandler)program_handler;
             InitializeComponent();
+            WPFHelpers.translateWindow(this);
             //restoreTree.PreviewMouseDoubleClick += (sender, e) => e.Handled = true; 
             default_progress_color = progressBar.Foreground;
             overall_progress = progressBar;
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            main = new MainProgramHandler(setupDone);
-            this.Title = main.program_title;
-            disableInterface();
-            main.RunWorkerAsync();
         }
 
         private void hookupGameContexts()
@@ -71,7 +66,10 @@ namespace MASGAU.Main
             scheduleTab.DataContext = Core.task;
         }
 
-        private void setupDone(object sender, RunWorkerCompletedEventArgs e) {
+        protected override void setup(object sender, RunWorkerCompletedEventArgs e)
+        {
+            base.setup(sender, e);
+
             hookupGameContexts();
             hookupRestoreContexts();
             hookupTaskContexts();
@@ -81,7 +79,7 @@ namespace MASGAU.Main
 
             settingsControl.bindSettingsControls();
 
-            versionLabel.Content += Core.version;
+            versionLabel.Content += " v." + Core.version;
 
             userTxt.Text = Environment.UserName;
             
@@ -157,13 +155,13 @@ namespace MASGAU.Main
             if(selected_count>0) {
                 backupSelectedBtn.IsEnabled = true;
                 if(selected_count==1) {
-                    backupSelectedBtn.Content = "Back This Up";
+                    backupSelectedBtn.Content = Strings.get("BackupOneGameButton");
                 } else {
-                    backupSelectedBtn.Content = "Back These " + selected_count + " Up";
+                    backupSelectedBtn.Content = Strings.get("BackupMultipleGamesButton", selected_count.ToString());
                 }
             } else {
                 backupSelectedBtn.IsEnabled = false;
-                backupSelectedBtn.Content = "Back Nothing Up";
+                backupSelectedBtn.Content = Strings.get("BackupNoGamesButton");
             }
         }
 
@@ -252,13 +250,13 @@ namespace MASGAU.Main
                 else
                     enableBackupMenu.IsChecked = false;
 
-                backupMenuItem.Header = "Back These Up";
+                backupMenuItem.Header = Strings.get("BackupMultipleGamesMenu");
                 createCustomArchiveMenu.Visibility = System.Windows.Visibility.Collapsed;
             } else if (gamesLst.SelectedItems.Count==1) {
                 GameHandler game = gamesLst.SelectedItem as GameHandler;
                 enableBackupMenu.IsChecked = game.backup_enabled;
 
-                backupMenuItem.Header = "Back This Up";
+                backupMenuItem.Header = Strings.get("BackupOneGameMenu");
                 createCustomArchiveMenu.Visibility = System.Windows.Visibility.Visible;
             } 
 
@@ -302,12 +300,12 @@ namespace MASGAU.Main
                     initial_name.Append(Core.owner_seperator + right_now.ToString().Replace('/','-').Replace(':','-'));
 
                     Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
-                    save.Title = "And where would you like to put this backup?";
+                    save.Title = Strings.get("WhereSaveArchive");
                     save.AddExtension = true;
                     save.InitialDirectory = initial_directory;
                     save.FileName = initial_name.ToString(); ;
                     save.DefaultExt = "gb7";
-                    save.Filter = "MASGAU Save Archive (*.gb7)|*.gb7";
+                    save.Filter = Strings.get("Gb7FileDescription") + " (*.gb7)|*.gb7";
                     save.OverwritePrompt = true;
 
                     if((bool)save.ShowDialog(this)) {
@@ -389,10 +387,10 @@ namespace MASGAU.Main
                     deleteTaskBtn.IsEnabled = true;
                 } else {
                     deleteTaskBtn.IsEnabled = false;
-                    showError("What Did I Just Tell You","Unable to create task. Here's the excuse:" + Environment.NewLine + Core.task.output + Environment.NewLine + "The task has been deleted.");
+                    this.showTranslatedError("UnableToCreateTask", Core.task.output);
                 }
             } else {
-                showError("Pander To Me","You must enter a password for the user the task will be running as,\nwhich is shown in the little text box right there.");
+                this.showTranslatedError("EnterTaskCredentials");
             }
         }
         #endregion
@@ -465,13 +463,13 @@ namespace MASGAU.Main
             if(selected_count>0) {
                 restoreSaveBtn.IsEnabled = true;
                 if(selected_count==1) {
-                    restoreSaveBtn.Content = "Restore This";
+                    restoreSaveBtn.Content = Strings.get("RestoreOneButton");
                 } else {
-                    restoreSaveBtn.Content = "Restore These " + selected_count;
+                    restoreSaveBtn.Content = Strings.get("RestoreMultipleButton") + " " + selected_count;
                 }
             } else {
                 restoreSaveBtn.IsEnabled = false;
-                restoreSaveBtn.Content = "Restore Nothing";
+                restoreSaveBtn.Content = Strings.get("RestoreNoneButton");
             }
 
         }
@@ -493,9 +491,9 @@ namespace MASGAU.Main
             open.CheckFileExists = true;
             open.CheckPathExists = true;
             open.DefaultExt = "gb7";
-            open.Filter = "MASGAU Save Archive (*.gb7)|*.gb7";
+            open.Filter = Strings.get("Gb7FileDescription") + " (*.gb7)|*.gb7";
             open.Multiselect = true;
-            open.Title = "Select Backup(s) To Restore";
+            open.Title = Strings.get("SelectBackup");
             if(open.ShowDialog(this.GetIWin32Window())== System.Windows.Forms.DialogResult.OK) {
                 if(open.FileNames.Length>0) {
                     List<ArchiveHandler> archives = new List<ArchiveHandler>();
@@ -503,7 +501,7 @@ namespace MASGAU.Main
                         try{
                             archives.Add(new ArchiveHandler(new FileInfo(file)));
                         } catch (Exception ex) {
-                            MessageHandler.SendError("File not archive","The file " + file + " is not a properly formatted MASGAU archive.",ex);
+                            this.showTranslatedError("FileNotArchive", file, ex);
                         }
                     }
                     beginRestore(archives);

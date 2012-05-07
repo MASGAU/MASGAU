@@ -8,7 +8,7 @@ using MASGAU.Location.Holders;
 using MASGAU.Game;
 using System.IO;
 using System.ComponentModel;
-
+using Translator;
 namespace MASGAU.Main
 {
     /// <summary>
@@ -26,7 +26,7 @@ namespace MASGAU.Main
         public ManualArchiveWindow(GameHandler new_game, AWindow owner): base(owner)
         {
             InitializeComponent();
-
+            WPFHelpers.translateWindow(this);
 			game = new_game;
             
             rootCombo.Items.Clear();
@@ -94,7 +94,7 @@ namespace MASGAU.Main
 
             if(file_tree.Children.Count==0) {
                 CheckedTreeViewItem nofiles = new CheckedTreeViewItem(null);
-                nofiles.Name="No Files Found";
+                nofiles.Name=Strings.get("NoFilesFound");
                 file_tree.Children.Add(nofiles);
                 fileTree.IsEnabled = false;
                 saveButton.IsEnabled = false;

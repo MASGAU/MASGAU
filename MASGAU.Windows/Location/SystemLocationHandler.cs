@@ -9,7 +9,7 @@ using System.Security.Principal;
 using System.Text;
 using MASGAU.Registry;
 using MASGAU.Location.Holders;
-
+using Translator;
 using Microsoft.Win32;
 
 namespace MASGAU.Location {
@@ -102,6 +102,8 @@ namespace MASGAU.Location {
 	        else
                 platform_version = PlatformVersion.Vista;
 
+            global.setEvFolder(EnvironmentVariable.StartMenu, Environment.GetFolderPath(Environment.SpecialFolder.CommonStartMenu));
+
             // Not really used
             //common_program_files = Environment.GetEnvironmentVariable("COMMONPROGRAMFILES");
 
@@ -164,7 +166,7 @@ namespace MASGAU.Location {
 			    TP.Privileges.luid = RestoreLuid;
 			    retval = AdjustTokenPrivileges(token, 0, ref TP, TP.Size(),ref oldPriveleges,ref return_length);
                 if(retval==0)
-                    throw new MException("User Load Error","Error while trying to change process restore permission for reading other users", "Error code " + retval, true);
+                    throw new TranslateableException("ProcessRestorePermissionError",retval.ToString());
 
 			    retval = LookupPrivilegeValue(null, SE_BACKUP_NAME, ref BackupLuid);
 			    TP2.PrivilegeCount = 1;
@@ -172,7 +174,7 @@ namespace MASGAU.Location {
 			    TP2.Privileges.luid = BackupLuid;
 			    retval = AdjustTokenPrivileges(token, 0, ref TP2, TP2.Size(),ref oldPriveleges,ref return_length);
                 if(retval==0)
-                    throw new MException("User Load Error","Error while trying to change process backup permission for reading other users","Error code " + retval, true);
+                    throw new TranslateableException("ProcessBackupPermissionError", retval.ToString());
 			
 			
                 Console.WriteLine(retval);
@@ -197,7 +199,7 @@ namespace MASGAU.Location {
                         continue;
 
                     if(h!=0)
-                        throw new MException("User Load Error","Error while trying to load the registry file for user " + user_folder.Name,"Error code " + h, true);
+                        throw new TranslateableException("UserRegistryLoadError", user_folder.Name, h.ToString());
 
                     //sub_key = new RegistryHandler(hKey);
                     //sub_key = new RegistryHandler(RegRoot.users,user_folder.Name,false);
@@ -227,7 +229,10 @@ namespace MASGAU.Location {
 
                 add_me.setEvFolder(EnvironmentVariable.AppData,user_key.getValue("AppData"));
 
-                DirectoryInfo flash_share = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.AppData),@"Macromedia\Flash Player\#SharedObjects"));
+                add_me.setEvFolder(EnvironmentVariable.Desktop, user_key.getValue("Desktop"));
+                add_me.setEvFolder(EnvironmentVariable.StartMenu, user_key.getValue("Start Menu"));
+
+                DirectoryInfo flash_share = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.AppData), @"Macromedia\Flash Player\#SharedObjects"));
                 if(flash_share.Exists) {
                     DirectoryInfo[] flash_users = flash_share.GetDirectories();
                     switch(flash_users.Length) {
@@ -310,6 +315,17 @@ namespace MASGAU.Location {
             }
         }
 
+        public static LocationPathHolder translateToVirtualStore(string path)
+        {
+            LocationPathHolder virtualstore_info = new LocationPathHolder();
+            virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
+
+
+            virtualstore_info.path = Path.Combine("VirtualStore", path.Substring(2).Trim(Path.DirectorySeparatorChar));
+
+            return virtualstore_info;
+        }
+
         protected override List<DetectedLocationPathHolder> getPaths(LocationPathHolder get_me) {
             //if(get_me.rel_root!= EnvironmentVariable.Public)
                // return new List<DetectedLocationPathHolder>();
@@ -337,8 +353,8 @@ namespace MASGAU.Location {
                     // that may or may not use the VirtualStore
                     if(!get_me.override_virtual_store&&platform_version== PlatformVersion.Vista) {
                         LocationPathHolder virtualstore_info = new LocationPathHolder(get_me);
-
                         virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
+
                         if(x64) {
                             virtualstore_info.path = Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFilesX86).Substring(3), virtualstore_info.path);
                             return_me.AddRange(getPaths(virtualstore_info));
@@ -411,7 +427,7 @@ namespace MASGAU.Location {
                             }
 						}
 					} catch (Exception e) {
-                        throw new MException("Error While Loading Registry Key", e.Message, e, false);
+                        throw new TranslateableException("RegistryKeyLoadError", e);
 					}
 				}
 			}
@@ -429,17 +445,22 @@ namespace MASGAU.Location {
         protected override List<DetectedLocationPathHolder> getPaths(LocationShortcutHolder get_me) {
             FileInfo the_shortcut;
             //StringBuilder start_menu;
-            String path;
 			List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
-		    the_shortcut = new FileInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu),get_me.shortcut));
-		    if(!the_shortcut.Exists) {
-			    //start_menu = new StringBuilder(260);
-			    //SHGetSpecialFolderPath(IntPtr.Zero,start_menu,CSIDL_COMMON_STARTMENU,false);
-			    the_shortcut = new FileInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonStartMenu),get_me.shortcut));
-		    }
-	
-		    
-            if(the_shortcut.Exists) {
+            String path;
+
+            List<string> paths = this.getPaths(get_me.ev);
+            the_shortcut = null;
+
+            foreach (string check_me in paths)
+            {
+                the_shortcut = new FileInfo(Path.Combine(check_me, get_me.path));
+                if (the_shortcut.Exists)
+                    break;
+            }
+
+            
+
+            if(the_shortcut!=null && the_shortcut.Exists) {
 			    IWshRuntimeLibrary.WshShell shell = new IWshRuntimeLibrary.WshShell();
 			    IWshRuntimeLibrary.IWshShortcut link = (IWshRuntimeLibrary.IWshShortcut)shell.CreateShortcut(the_shortcut.FullName);
 	

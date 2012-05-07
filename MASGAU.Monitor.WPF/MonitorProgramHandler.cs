@@ -6,8 +6,8 @@ using System.Text;
 
 namespace MASGAU.Monitor {
     class MonitorProgramHandler: AMonitorProgramHandler<Location.LocationsHandler> {
-        public MonitorProgramHandler(RunWorkerCompletedEventHandler when_done)
-            : base(when_done, Interface.WPF) {
+        public MonitorProgramHandler()
+            : base(Interface.WPF) {
         }
     }
 }

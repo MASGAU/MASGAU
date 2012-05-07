@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Text;
 using MASGAU.Game;
-
+using MVC;
 namespace MASGAU.Archive {
     public class ArchiveID : AIdentifier {
         public readonly String owner;
         public readonly GameID game;
         public readonly String type;
+        public readonly String original_path = null;
 
         public ArchiveID(GameID game, String owner, String type) {
             this.game = game;

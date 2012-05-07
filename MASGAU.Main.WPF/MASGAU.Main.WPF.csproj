@@ -124,13 +124,13 @@
       <Project>{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}</Project>
       <Name>Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Analyzer.WPF\MASGAU.Analyzer.WPF.csproj">
-      <Project>{35EC52BF-5C17-44ED-A3F7-D5D999EF8C41}</Project>
-      <Name>MASGAU.Analyzer.WPF</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MASGAU.Console.Windows\MASGAU.Console.Windows.csproj">
       <Project>{F5F22856-EF47-48E9-9A1D-2FACE3033CA8}</Project>
       <Name>MASGAU.Console.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MASGAU.Console\MASGAU.Console.csproj">
+      <Project>{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}</Project>
+      <Name>MASGAU.Console</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.Main\MASGAU.Main.csproj">
       <Project>{200C1855-FBC7-4133-A5DD-0B1C32B75121}</Project>
@@ -139,10 +139,6 @@
     <ProjectReference Include="..\MASGAU.Monitor.WPF\MASGAU.Monitor.WPF.csproj">
       <Project>{D2C4B8CB-CC0C-4215-8E3B-66717A0D080F}</Project>
       <Name>MASGAU.Monitor.WPF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Restore.WPF\MASGAU.Restore.WPF.csproj">
-      <Project>{9CD9FC1E-56D9-4ABE-B65C-9874CDD54D5E}</Project>
-      <Name>MASGAU.Restore.WPF</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.Updater.WPF\MASGAU.Updater.WPF.csproj">
       <Project>{FAB69D6D-5810-486A-998B-42B2296C0CF4}</Project>
@@ -164,20 +160,10 @@
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="..\Dependencies\7-Zip\7z.exe">
-      <Link>7z.exe</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <None Include="..\MASGAU\masgau.ico">
-      <Link>masgau.ico</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <Content Include="..\Dependencies\7-Zip\7z.dll">
-      <Link>7z.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

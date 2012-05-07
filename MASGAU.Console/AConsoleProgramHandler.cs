@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel;
-using MASGAU.Communication.Progress;
+using Communication.Progress;
 
 namespace MASGAU.Console
 {
     class AConsoleProgramHandler<L>: AProgramHandler<L> where L: Location.ALocationsHandler
     {
-        public AConsoleProgramHandler(RunWorkerCompletedEventHandler when_done): base(when_done, Interface.Console) {}
+        public AConsoleProgramHandler(): base(Interface.Console) {}
 
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
@@ -37,8 +37,6 @@ namespace MASGAU.Console
 
             Core.games.detectGames();
 
-            string temp = ProgressHandler.progress_message;
-            ProgressHandler.progress_message = temp;
         }
 
 
