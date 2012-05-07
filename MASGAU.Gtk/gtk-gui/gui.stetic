@@ -7,7 +7,7 @@
   <import>
     <widget-library name="../bin/Debug/MASGAU.Gtk.dll" internal="true" />
   </import>
-  <widget class="Gtk.Bin" id="MASGAU.Entry" design-size="300 300">
+  <widget class="Gtk.Bin" id="MASGAU.Gtk.WrappedWidget" design-size="300 300">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>
@@ -19,7 +19,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Dialog" id="MASGAU.MessageBox" design-size="400 300">
+  <widget class="Gtk.Dialog" id="MASGAU.Gtk.MessageBox" design-size="400 300">
     <property name="MemberName" />
     <property name="WindowPosition">CenterOnParent</property>
     <property name="Buttons">3</property>
@@ -161,7 +161,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Dialog" id="MASGAU.EmailDialog" design-size="400 300">
+  <widget class="Gtk.Dialog" id="MASGAU.Gtk.EmailDialog" design-size="400 300">
     <property name="MemberName" />
     <property name="Title" translatable="yes">EmailRequest</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -256,11 +256,65 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="MASGAU.SettingsWidget" design-size="300 300">
+  <widget class="Gtk.Bin" id="MASGAU.Gtk.SettingsWidget" design-size="300 300">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>
       <placeholder />
+    </child>
+  </widget>
+  <widget class="Gtk.Bin" id="MASGAU.Gtk.WrappedEntry" design-size="300 300">
+    <property name="MemberName" />
+    <property name="Visible">False</property>
+    <child>
+      <widget class="Gtk.Entry" id="entry1">
+        <property name="MemberName" />
+        <property name="CanFocus">True</property>
+        <property name="IsEditable">True</property>
+        <property name="InvisibleChar">●</property>
+        <signal name="Changed" handler="HandleEntry1Changed" />
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Bin" id="MASGAU.Gtk.WrappedButton" design-size="300 300">
+    <property name="MemberName" />
+    <property name="Visible">False</property>
+    <child>
+      <widget class="Gtk.Button" id="button29">
+        <property name="MemberName" />
+        <property name="CanFocus">True</property>
+        <property name="Type">TextOnly</property>
+        <property name="Label" translatable="yes">GtkButton</property>
+        <property name="UseUnderline">True</property>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Bin" id="MASGAU.Gtk.WrappedNodeView" design-size="300 300">
+    <property name="MemberName" />
+    <property name="Visible">False</property>
+    <child>
+      <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+        <property name="MemberName" />
+        <property name="ShadowType">In</property>
+        <child>
+          <widget class="Gtk.NodeView" id="nodeview1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="ShowScrollbars">True</property>
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Bin" id="MASGAU.Gtk.WrapperFileChooserButton" design-size="300 300">
+    <property name="MemberName" />
+    <property name="Visible">False</property>
+    <child>
+      <widget class="Gtk.FileChooserButton" id="filechooserbutton1">
+        <property name="MemberName" />
+        <property name="Action">SelectFolder</property>
+        <signal name="SelectionChanged" handler="OnFilechooserbutton1SelectionChanged" />
+      </widget>
     </child>
   </widget>
 </stetic-interface>

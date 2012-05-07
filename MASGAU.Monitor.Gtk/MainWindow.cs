@@ -2,12 +2,12 @@ using System;
 using Gtk;
 using Gdk;
 
-public partial class MainWindow: MASGAU.AProgramWindow
+public partial class MainWindow: MASGAU.Gtk.AProgramWindow
 {	
 	private StatusIcon status;
 	private Menu status_menu;
 	
-	public MainWindow (): base (Gtk.WindowType.Toplevel)
+	public MainWindow (): base (Gtk.WindowType.Toplevel, null)
 	{
 		Build ();
 		status = new StatusIcon(new Pixbuf ("masgau.ico"));

@@ -2,6 +2,14 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <xs:attribute name="name" type="xs:string"/>
+  <xs:attribute name="type">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="title"/>
+        <xs:enumeration value="message"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
 
   <!--complex elements-->
   <xs:element name="string">
@@ -9,6 +17,7 @@
       <xs:simpleContent>
         <xs:extension base="xs:string">
           <xs:attribute ref="name" />
+          <xs:attribute ref="type" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>

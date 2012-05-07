@@ -167,11 +167,11 @@ var
   dotNetNeeded: boolean;
   memoDependenciesNeeded: string;
 
-procedure isxdl_AddFile(URL, Filename: PChar);
+procedure isxdl_AddFile(URL, Filename: PAnsiChar);
 external 'isxdl_AddFile@files:isxdl.dll stdcall';
 function isxdl_DownloadFiles(hWnd: Integer): Integer;
 external 'isxdl_DownloadFiles@files:isxdl.dll stdcall';
-function isxdl_SetOption(Option, Value: PChar): Integer;
+function isxdl_SetOption(Option, Value: PAnsiChar): Integer;
 external 'isxdl_SetOption@files:isxdl.dll stdcall';
 
 
@@ -215,6 +215,7 @@ function NextButtonClick(CurPage: Integer): Boolean;
 var
   hWnd: Integer;
   ResultCode: Integer;
+  Pars: String;
 
 begin
   Result := true;
@@ -231,7 +232,9 @@ begin
       if isxdl_DownloadFiles(hWnd) = 0 then Result := false;
     end;
     if (Result = true) and (dotNetNeeded = true) then begin
-      if Exec(ExpandConstant(dotnetRedistPath), '', '', SW_SHOW, ewWaitUntilTerminated, ResultCode) then begin
+      Pars := '';
+        if WizardSilent then Pars := '/passive';
+      if Exec(ExpandConstant(dotnetRedistPath), Pars, '', SW_SHOW, ewWaitUntilTerminated, ResultCode) then begin
          // handle success if necessary; ResultCode contains the exit code
          if not (ResultCode = 0) then begin
            Result := false;

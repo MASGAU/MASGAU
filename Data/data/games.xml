@@ -7,10 +7,17 @@
     <save path="config" type="Settings"/>
     <contributor>AvvA</contributor>
   </game>
+	<game name="BattleForWesnoth">
+		<title>Battle For Wesnoth</title>
+		<location_path environment_variable="userprofile" path=".wesnoth" />
+		<save />
+		<contributor>SanMadJack</contributor>
+	</game>
   <game name="DontTakeItPersonallyBabeItJustAintYourStory">
     <title>don't take it personally, babe, it just ain't your story</title>
     <location_path environment_variable="appdata" path="RenPy\digital2-1298756237"/>
     <save/>
+		<contributor>SanMadJack</contributor>
   </game>
   <game name="fs2_open">
     <title>fs2_open</title>

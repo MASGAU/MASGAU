@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System;
 using System.Xml;
+using MVC;
 namespace MASGAU.Location.Holders {
     public abstract class ALocationHolder: AModelItem<StringID> {
         // Used to add or remove path elements
@@ -85,7 +86,7 @@ namespace MASGAU.Location.Holders {
             }
             if (holder.append_path != null)
                 path = Path.Combine(path,holder.append_path);
-            return path.Trim(Path.DirectorySeparatorChar);
+            return path.TrimEnd(Path.DirectorySeparatorChar);
         }
 
         public string modifyPath(string path) {

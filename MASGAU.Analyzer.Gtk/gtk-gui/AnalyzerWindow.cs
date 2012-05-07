@@ -6,38 +6,38 @@ public partial class AnalyzerWindow
 	private global::Gtk.VBox vbox1;
 	private global::Gtk.Frame frame2;
 	private global::Gtk.Alignment GtkAlignment;
-	private global::Gtk.Entry nameEntry;
+	private global::MASGAU.Gtk.WrappedEntry nameEntry;
 	private global::Gtk.Label gameNameLbl;
 	private global::Gtk.Notebook notebook1;
 	private global::Gtk.VBox vbox3;
 	private global::Gtk.Frame frame3;
 	private global::Gtk.Alignment GtkAlignment1;
-	private global::Gtk.FileChooserButton installLocation;
+	private global::MASGAU.Gtk.WrapperFileChooserButton installLocation;
 	private global::Gtk.Label gameLocationLbl;
 	private global::Gtk.Frame frame4;
 	private global::Gtk.Alignment GtkAlignment2;
-	private global::Gtk.FileChooserButton saveLocation;
+	private global::MASGAU.Gtk.WrapperFileChooserButton saveLocation;
 	private global::Gtk.Label saveLocationLbl;
-	private global::Gtk.Button scanBtn;
+	private global::MASGAU.Gtk.WrappedButton scanBtn;
 	private global::Gtk.Label linuxLabel;
 	private global::Gtk.VBox vbox2;
 	private global::Gtk.Frame frame1;
 	private global::Gtk.Alignment GtkAlignment4;
 	private global::Gtk.HBox hbox1;
-	private global::Gtk.Entry prefixEntry;
+	private global::MASGAU.Gtk.WrappedEntry prefixEntry;
 	private global::Gtk.Label label4;
-	private global::Gtk.Entry suffixEntry;
+	private global::MASGAU.Gtk.WrappedEntry suffixEntry;
 	private global::Gtk.Label codeLabel;
 	private global::Gtk.Frame frame5;
 	private global::Gtk.Alignment GtkAlignment5;
-	private global::Gtk.FileChooserButton psLocation;
+	private global::MASGAU.Gtk.WrapperFileChooserButton psLocation;
 	private global::Gtk.Label psLocationLabel;
-	private global::Gtk.Button psScanBtn;
+	private global::MASGAU.Gtk.WrappedButton psScanBtn;
 	private global::Gtk.Label psLabel;
 	private global::Gtk.VBox vbox6;
 	private global::Gtk.Frame frame6;
 	private global::Gtk.Alignment GtkAlignment7;
-	private global::MASGAU.Entry emailEntry;
+	private global::MASGAU.Gtk.WrappedEntry emailEntry;
 	private global::Gtk.Label emailLabel;
 	private global::Gtk.Label settingsLabel;
 	
@@ -63,11 +63,9 @@ public partial class AnalyzerWindow
 		this.GtkAlignment.Name = "GtkAlignment";
 		this.GtkAlignment.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment.Gtk.Container+ContainerChild
-		this.nameEntry = new global::Gtk.Entry ();
-		this.nameEntry.CanFocus = true;
+		this.nameEntry = new global::MASGAU.Gtk.WrappedEntry ();
+		this.nameEntry.Events = ((global::Gdk.EventMask)(256));
 		this.nameEntry.Name = "nameEntry";
-		this.nameEntry.IsEditable = true;
-		this.nameEntry.InvisibleChar = '●';
 		this.GtkAlignment.Add (this.nameEntry);
 		this.frame2.Add (this.GtkAlignment);
 		this.gameNameLbl = new global::Gtk.Label ();
@@ -98,10 +96,9 @@ public partial class AnalyzerWindow
 		this.GtkAlignment1.Name = "GtkAlignment1";
 		this.GtkAlignment1.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment1.Gtk.Container+ContainerChild
-		this.installLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select A File"), ((global::Gtk.FileChooserAction)(2)));
+		this.installLocation = new global::MASGAU.Gtk.WrapperFileChooserButton ();
+		this.installLocation.Events = ((global::Gdk.EventMask)(256));
 		this.installLocation.Name = "installLocation";
-		this.installLocation.LocalOnly = false;
-		this.installLocation.ShowHidden = true;
 		this.GtkAlignment1.Add (this.installLocation);
 		this.frame3.Add (this.GtkAlignment1);
 		this.gameLocationLbl = new global::Gtk.Label ();
@@ -123,10 +120,9 @@ public partial class AnalyzerWindow
 		this.GtkAlignment2.Name = "GtkAlignment2";
 		this.GtkAlignment2.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment2.Gtk.Container+ContainerChild
-		this.saveLocation = new global::Gtk.FileChooserButton ("", ((global::Gtk.FileChooserAction)(2)));
+		this.saveLocation = new global::MASGAU.Gtk.WrapperFileChooserButton ();
+		this.saveLocation.Events = ((global::Gdk.EventMask)(256));
 		this.saveLocation.Name = "saveLocation";
-		this.saveLocation.LocalOnly = false;
-		this.saveLocation.ShowHidden = true;
 		this.GtkAlignment2.Add (this.saveLocation);
 		this.frame4.Add (this.GtkAlignment2);
 		this.saveLocationLbl = new global::Gtk.Label ();
@@ -140,32 +136,15 @@ public partial class AnalyzerWindow
 		w9.Expand = false;
 		w9.Fill = false;
 		// Container child vbox3.Gtk.Box+BoxChild
-		this.scanBtn = new global::Gtk.Button ();
-		this.scanBtn.Sensitive = false;
-		this.scanBtn.CanFocus = true;
+		this.scanBtn = new global::MASGAU.Gtk.WrappedButton ();
+		this.scanBtn.Events = ((global::Gdk.EventMask)(256));
 		this.scanBtn.Name = "scanBtn";
-		this.scanBtn.UseUnderline = true;
-		// Container child scanBtn.Gtk.Container+ContainerChild
-		global::Gtk.Alignment w10 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
-		// Container child GtkAlignment.Gtk.Container+ContainerChild
-		global::Gtk.HBox w11 = new global::Gtk.HBox ();
-		w11.Spacing = 2;
-		// Container child GtkHBox.Gtk.Container+ContainerChild
-		global::Gtk.Image w12 = new global::Gtk.Image ();
-		w12.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-execute", global::Gtk.IconSize.Menu);
-		w11.Add (w12);
-		// Container child GtkHBox.Gtk.Container+ContainerChild
-		global::Gtk.Label w14 = new global::Gtk.Label ();
-		w14.LabelProp = global::Mono.Unix.Catalog.GetString ("ScanButton");
-		w14.UseUnderline = true;
-		w11.Add (w14);
-		w10.Add (w11);
-		this.scanBtn.Add (w10);
+		this.scanBtn.Label = "ScanButton";
 		this.vbox3.Add (this.scanBtn);
-		global::Gtk.Box.BoxChild w18 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.scanBtn]));
-		w18.Position = 2;
-		w18.Expand = false;
-		w18.Fill = false;
+		global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.scanBtn]));
+		w10.Position = 2;
+		w10.Expand = false;
+		w10.Fill = false;
 		this.notebook1.Add (this.vbox3);
 		// Notebook tab
 		this.linuxLabel = new global::Gtk.Label ();
@@ -190,34 +169,28 @@ public partial class AnalyzerWindow
 		this.hbox1.Name = "hbox1";
 		this.hbox1.Spacing = 6;
 		// Container child hbox1.Gtk.Box+BoxChild
-		this.prefixEntry = new global::Gtk.Entry ();
-		this.prefixEntry.CanFocus = true;
+		this.prefixEntry = new global::MASGAU.Gtk.WrappedEntry ();
+		this.prefixEntry.Events = ((global::Gdk.EventMask)(256));
 		this.prefixEntry.Name = "prefixEntry";
-		this.prefixEntry.IsEditable = true;
-		this.prefixEntry.MaxLength = 4;
-		this.prefixEntry.InvisibleChar = '●';
 		this.hbox1.Add (this.prefixEntry);
-		global::Gtk.Box.BoxChild w20 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.prefixEntry]));
-		w20.Position = 0;
+		global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.prefixEntry]));
+		w12.Position = 0;
 		// Container child hbox1.Gtk.Box+BoxChild
 		this.label4 = new global::Gtk.Label ();
 		this.label4.Name = "label4";
 		this.label4.LabelProp = global::Mono.Unix.Catalog.GetString ("-");
 		this.hbox1.Add (this.label4);
-		global::Gtk.Box.BoxChild w21 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.label4]));
-		w21.Position = 1;
-		w21.Expand = false;
-		w21.Fill = false;
+		global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.label4]));
+		w13.Position = 1;
+		w13.Expand = false;
+		w13.Fill = false;
 		// Container child hbox1.Gtk.Box+BoxChild
-		this.suffixEntry = new global::Gtk.Entry ();
-		this.suffixEntry.CanFocus = true;
+		this.suffixEntry = new global::MASGAU.Gtk.WrappedEntry ();
+		this.suffixEntry.Events = ((global::Gdk.EventMask)(256));
 		this.suffixEntry.Name = "suffixEntry";
-		this.suffixEntry.IsEditable = true;
-		this.suffixEntry.MaxLength = 5;
-		this.suffixEntry.InvisibleChar = '●';
 		this.hbox1.Add (this.suffixEntry);
-		global::Gtk.Box.BoxChild w22 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.suffixEntry]));
-		w22.Position = 2;
+		global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.suffixEntry]));
+		w14.Position = 2;
 		this.GtkAlignment4.Add (this.hbox1);
 		this.frame1.Add (this.GtkAlignment4);
 		this.codeLabel = new global::Gtk.Label ();
@@ -226,10 +199,10 @@ public partial class AnalyzerWindow
 		this.codeLabel.UseMarkup = true;
 		this.frame1.LabelWidget = this.codeLabel;
 		this.vbox2.Add (this.frame1);
-		global::Gtk.Box.BoxChild w25 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.frame1]));
-		w25.Position = 0;
-		w25.Expand = false;
-		w25.Fill = false;
+		global::Gtk.Box.BoxChild w17 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.frame1]));
+		w17.Position = 0;
+		w17.Expand = false;
+		w17.Fill = false;
 		// Container child vbox2.Gtk.Box+BoxChild
 		this.frame5 = new global::Gtk.Frame ();
 		this.frame5.Name = "frame5";
@@ -239,10 +212,9 @@ public partial class AnalyzerWindow
 		this.GtkAlignment5.Name = "GtkAlignment5";
 		this.GtkAlignment5.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment5.Gtk.Container+ContainerChild
-		this.psLocation = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select A File"), ((global::Gtk.FileChooserAction)(2)));
+		this.psLocation = new global::MASGAU.Gtk.WrapperFileChooserButton ();
+		this.psLocation.Events = ((global::Gdk.EventMask)(256));
 		this.psLocation.Name = "psLocation";
-		this.psLocation.LocalOnly = false;
-		this.psLocation.ShowHidden = true;
 		this.GtkAlignment5.Add (this.psLocation);
 		this.frame5.Add (this.GtkAlignment5);
 		this.psLocationLabel = new global::Gtk.Label ();
@@ -251,40 +223,23 @@ public partial class AnalyzerWindow
 		this.psLocationLabel.UseMarkup = true;
 		this.frame5.LabelWidget = this.psLocationLabel;
 		this.vbox2.Add (this.frame5);
-		global::Gtk.Box.BoxChild w28 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.frame5]));
-		w28.Position = 1;
-		w28.Expand = false;
-		w28.Fill = false;
+		global::Gtk.Box.BoxChild w20 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.frame5]));
+		w20.Position = 1;
+		w20.Expand = false;
+		w20.Fill = false;
 		// Container child vbox2.Gtk.Box+BoxChild
-		this.psScanBtn = new global::Gtk.Button ();
-		this.psScanBtn.Sensitive = false;
-		this.psScanBtn.CanFocus = true;
+		this.psScanBtn = new global::MASGAU.Gtk.WrappedButton ();
+		this.psScanBtn.Events = ((global::Gdk.EventMask)(256));
 		this.psScanBtn.Name = "psScanBtn";
-		this.psScanBtn.UseUnderline = true;
-		// Container child psScanBtn.Gtk.Container+ContainerChild
-		global::Gtk.Alignment w29 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
-		// Container child GtkAlignment.Gtk.Container+ContainerChild
-		global::Gtk.HBox w30 = new global::Gtk.HBox ();
-		w30.Spacing = 2;
-		// Container child GtkHBox.Gtk.Container+ContainerChild
-		global::Gtk.Image w31 = new global::Gtk.Image ();
-		w31.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-execute", global::Gtk.IconSize.Menu);
-		w30.Add (w31);
-		// Container child GtkHBox.Gtk.Container+ContainerChild
-		global::Gtk.Label w33 = new global::Gtk.Label ();
-		w33.LabelProp = global::Mono.Unix.Catalog.GetString ("PlayStationScanButton");
-		w33.UseUnderline = true;
-		w30.Add (w33);
-		w29.Add (w30);
-		this.psScanBtn.Add (w29);
+		this.psScanBtn.Label = "PlayStationScanButton";
 		this.vbox2.Add (this.psScanBtn);
-		global::Gtk.Box.BoxChild w37 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.psScanBtn]));
-		w37.Position = 2;
-		w37.Expand = false;
-		w37.Fill = false;
+		global::Gtk.Box.BoxChild w21 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.psScanBtn]));
+		w21.Position = 2;
+		w21.Expand = false;
+		w21.Fill = false;
 		this.notebook1.Add (this.vbox2);
-		global::Gtk.Notebook.NotebookChild w38 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1 [this.vbox2]));
-		w38.Position = 1;
+		global::Gtk.Notebook.NotebookChild w22 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1 [this.vbox2]));
+		w22.Position = 1;
 		// Notebook tab
 		this.psLabel = new global::Gtk.Label ();
 		this.psLabel.Name = "psLabel";
@@ -304,7 +259,7 @@ public partial class AnalyzerWindow
 		this.GtkAlignment7.Name = "GtkAlignment7";
 		this.GtkAlignment7.LeftPadding = ((uint)(12));
 		// Container child GtkAlignment7.Gtk.Container+ContainerChild
-		this.emailEntry = new global::MASGAU.Entry ();
+		this.emailEntry = new global::MASGAU.Gtk.WrappedEntry ();
 		this.emailEntry.Events = ((global::Gdk.EventMask)(256));
 		this.emailEntry.Name = "emailEntry";
 		this.GtkAlignment7.Add (this.emailEntry);
@@ -315,13 +270,13 @@ public partial class AnalyzerWindow
 		this.emailLabel.UseMarkup = true;
 		this.frame6.LabelWidget = this.emailLabel;
 		this.vbox6.Add (this.frame6);
-		global::Gtk.Box.BoxChild w41 = ((global::Gtk.Box.BoxChild)(this.vbox6 [this.frame6]));
-		w41.Position = 0;
-		w41.Expand = false;
-		w41.Fill = false;
+		global::Gtk.Box.BoxChild w25 = ((global::Gtk.Box.BoxChild)(this.vbox6 [this.frame6]));
+		w25.Position = 0;
+		w25.Expand = false;
+		w25.Fill = false;
 		this.notebook1.Add (this.vbox6);
-		global::Gtk.Notebook.NotebookChild w42 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1 [this.vbox6]));
-		w42.Position = 2;
+		global::Gtk.Notebook.NotebookChild w26 = ((global::Gtk.Notebook.NotebookChild)(this.notebook1 [this.vbox6]));
+		w26.Position = 2;
 		// Notebook tab
 		this.settingsLabel = new global::Gtk.Label ();
 		this.settingsLabel.Name = "settingsLabel";
@@ -329,8 +284,8 @@ public partial class AnalyzerWindow
 		this.notebook1.SetTabLabel (this.vbox6, this.settingsLabel);
 		this.settingsLabel.ShowAll ();
 		this.vbox1.Add (this.notebook1);
-		global::Gtk.Box.BoxChild w43 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.notebook1]));
-		w43.Position = 1;
+		global::Gtk.Box.BoxChild w27 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.notebook1]));
+		w27.Position = 1;
 		this.Add (this.vbox1);
 		if ((this.Child != null)) {
 			this.Child.ShowAll ();
@@ -338,9 +293,5 @@ public partial class AnalyzerWindow
 		this.DefaultWidth = 645;
 		this.DefaultHeight = 315;
 		this.Show ();
-		this.nameEntry.Changed += new global::System.EventHandler (this.EntryChanged);
-		this.scanBtn.Clicked += new global::System.EventHandler (this.OnScanBtnClicked);
-		this.prefixEntry.Changed += new global::System.EventHandler (this.EntryChanged);
-		this.suffixEntry.Changed += new global::System.EventHandler (this.EntryChanged);
 	}
 }

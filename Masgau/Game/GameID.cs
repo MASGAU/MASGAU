@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MASGAU;
+using MVC;
 
 namespace MASGAU.Game {
     public class GameID : AIdentifier {

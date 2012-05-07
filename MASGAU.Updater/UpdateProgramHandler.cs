@@ -5,7 +5,6 @@ using System.Text;
 using System.ComponentModel;
 using System.Net;
 using System.IO;
-using MASGAU.Communication.Message;
 
 namespace MASGAU.Update
 {

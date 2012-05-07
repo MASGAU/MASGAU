@@ -5,7 +5,7 @@ using MASGAU.Communication.Message;
 using MASGAU.Communication.Request;
 using MASGAU.Communication;
 
-namespace MASGAU
+namespace MASGAU.Gtk
 {
 	public partial class MessageBox : ADialog
 	{
@@ -34,7 +34,7 @@ namespace MASGAU
 				
 				exceptionExpander.Destroy();
             } else {
-				this.Respond(Gtk.ResponseType.Cancel);
+				this.Respond(global::Gtk.ResponseType.Cancel);
                 throw new NotImplementedException();
             }
         }

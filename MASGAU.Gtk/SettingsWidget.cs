@@ -1,9 +1,9 @@
 using System;
 
-namespace MASGAU
+namespace MASGAU.Gtk
 {
 	[System.ComponentModel.ToolboxItem(true)]
-	public partial class SettingsWidget : Gtk.Bin
+	public partial class SettingsWidget : global::Gtk.Bin
 	{
 		public SettingsWidget ()
 		{
