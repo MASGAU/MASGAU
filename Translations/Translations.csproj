@@ -64,9 +64,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Translator\Strings\strings.xsd">
+    <None Include="..\Libs\Translator\Strings\strings.xsd">
       <Link>Strings\strings.xsd</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="masgau.snk" />
   </ItemGroup>
