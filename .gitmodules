@@ -32,3 +32,12 @@
 [submodule "Libs/Translator"]
 	path = Libs/Translator
 	url = https://github.com/sanmadjack/Translator.CSharp.git
+[submodule "Libs/Communication.Translator"]
+	path = Libs/Communication.Translator
+	url = https://github.com/sanmadjack/Communication.Translator.CSharp.git
+[submodule "Libs/Email.WPF"]
+	path = Libs/Email.WPF
+	url = https://github.com/sanmadjack/Email.WPF.CSharp.git
+[submodule "Libs/Translator.WPF"]
+	path = Libs/Translator.WPF
+	url = https://github.com/sanmadjack/Translator.WPF.CSharp.git
