@@ -1,1 +1,7 @@
 
+[submodule "Translations/Strings"]
+	path = Translations/Strings
+	url = https://github.com/MASGAU/Strings.git
+[submodule "Data/Data"]
+	path = Data/Data
+	url = https://github.com/GameSaveInfo/Data.git
