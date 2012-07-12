@@ -16,10 +16,10 @@
         </Grid.RowDefinitions>
         <StatusBar Grid.Row="3" Name="statusBar1" HorizontalContentAlignment="Right" FlowDirection="RightToLeft">
             <StatusBarItem Padding="0">
-                <Button Content="$CancelButton" Grid.Column="1" Grid.Row="2" Height="23" Name="cancelBtn" Width="75" Margin="1" Click="cancelBtn_Click" />
+                <Button Content="$Cancel" Grid.Column="1" Grid.Row="2" Height="23" Name="cancelBtn" Width="75" Margin="1" Click="cancelBtn_Click" />
             </StatusBarItem>
             <StatusBarItem Padding="0">
-                <Button Content="$SaveButton" Grid.Row="2" Height="23" Name="saveButton" Width="75" HorizontalAlignment="Right" Margin="1" IsEnabled="False" Click="saveButton_Click" />
+                <Button Content="$Save" Grid.Row="2" Height="23" Name="saveButton" Width="75" HorizontalAlignment="Right" Margin="1" IsEnabled="False" Click="saveButton_Click" />
             </StatusBarItem>
         </StatusBar>
         <GroupBox Grid.ColumnSpan="2" Header="$ManualArchiveSource" Name="groupBox1" Margin="5">

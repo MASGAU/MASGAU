@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using MVC;
 namespace MASGAU.Location {
     public class UserData : AModelItem<StringID> {
-        public string name { 
+        public string name {
             get {
                 return id.ToString();
             }
@@ -13,7 +10,8 @@ namespace MASGAU.Location {
         //, user_dir, user_documents, app_data, local_app_data, start_menu, virtual_store, saved_games;
         public Dictionary<EnvironmentVariable, string> folders = new Dictionary<EnvironmentVariable, string>();
 
-        public UserData(string name): base(new StringID(name)) {
+        public UserData(string name)
+            : base(new StringID(name)) {
         }
 
         public string getFolder(EnvironmentVariable ev) {

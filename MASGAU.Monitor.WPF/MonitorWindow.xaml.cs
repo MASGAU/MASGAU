@@ -1,38 +1,35 @@
 ﻿using System;
-using System.Windows;
 using System.ComponentModel;
-using System.Collections.Generic;
-using MASGAU.Communication.Progress;
+using System.Windows;
+using Communication;
 using Translator;
-namespace MASGAU.Monitor
-{
+using Translator.WPF;
+namespace MASGAU.Monitor {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MonitorWindow : AProgramWindow
-    {
+    public partial class MonitorWindow : AProgramWindow {
         #region Notify icon stuff
-            private System.Windows.Forms.NotifyIcon monitorNotifier;
-            private System.Windows.Forms.ContextMenuStrip notifierMenu;
-            private System.Windows.Forms.ToolStripMenuItem exitMonitorToolStripMenuItem;
-            private System.Windows.Forms.ToolStripMenuItem rescanGamesToolStripMenuItem;
-            private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-            private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
-            private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.NotifyIcon monitorNotifier;
+        private System.Windows.Forms.ContextMenuStrip notifierMenu;
+        private System.Windows.Forms.ToolStripMenuItem exitMonitorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rescanGamesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         #endregion
-        
+
         private MonitorProgramHandler monitor;
 
-        public MonitorWindow(): base(null)
-        {
+        public MonitorWindow()
+            : base(null) {
             InitializeComponent();
-            WPFHelpers.translateWindow(this);
+            TranslationHelpers.translateWindow(this);
             setUpNotifier();
             default_progress_color = progressBar1.Foreground;
         }
 
-        protected override void WindowLoaded(object sender, RoutedEventArgs e)
-        {
+        protected override void WindowLoaded(object sender, RoutedEventArgs e) {
             progressBar1.Value = progressBar1.Minimum;
             setUpProgramHandler();
             base.WindowLoaded(sender, e);
@@ -41,12 +38,12 @@ namespace MASGAU.Monitor
 
         protected override void setUpProgramHandler() {
             disableInterface();
-            if(program_handler!=null) {
+            if (program_handler != null) {
                 monitor = (MonitorProgramHandler)program_handler;
                 monitor.CancelAsync();
                 monitor.stop();
-                if(monitor.monitor_thread!=null) {
-                    while(monitor.monitor_thread.IsAlive)
+                if (monitor.monitor_thread != null) {
+                    while (monitor.monitor_thread.IsAlive)
                         System.Threading.Thread.Sleep(100);
                 }
                 monitor.Dispose();
@@ -55,39 +52,36 @@ namespace MASGAU.Monitor
             monitor = new MonitorProgramHandler();
             program_handler = monitor;
             base.setUpProgramHandler();
-            this.Title = Strings.get("MonitorSettingUp");
+            this.setTranslatedTitle("MonitorSettingUp");
         }
 
-        protected override void setup(object sender, RunWorkerCompletedEventArgs e)
-        {
+        protected override void setup(object sender, RunWorkerCompletedEventArgs e) {
             base.setup(sender, e);
 
             Core.settings.PropertyChanged += new PropertyChangedEventHandler(settings_PropertyChanged);
 
-            
+
             Core.redetect_archives = false;
             Core.redetect_games = false;
 
             // This performs a full backup on startup, to ensure consistency
-            if(Core.settings.monitor_startup_backup) {
-                beginBackup(null);
-            } else {
-                enableInterface(null,null);
+//            if (Core.settings.monitor_startup_backup) {
+                //beginBackup(null);
+  //          } else {
+                enableInterface(null, null);
                 setNotifyToolTip();
-            }
+    //        }
 
         }
 
-        public override void disableInterface()
-        {
+        public override void disableInterface() {
             base.disableInterface();
             monitorNotifier.Visible = false;
             this.Visibility = System.Windows.Visibility.Visible;
         }
-        public override void enableInterface()
-        {
+        public override void enableInterface() {
             base.enableInterface();
-            if(monitorNotifier!=null) {
+            if (monitorNotifier != null) {
                 monitorNotifier.Visible = true;
                 setNotifyToolTip();
             }
@@ -95,8 +89,7 @@ namespace MASGAU.Monitor
         }
 
 
-        void settings_PropertyChanged(object sender, PropertyChangedEventArgs e)
-        {
+        void settings_PropertyChanged(object sender, PropertyChangedEventArgs e) {
             setNotifyToolTip();
         }
 
@@ -104,11 +97,11 @@ namespace MASGAU.Monitor
 
         #region Monitor Event Handlers
         public override void updateProgress(ProgressUpdatedEventArgs e) {
-            if(e.message!=null)
+            if (e.message != null)
                 this.Title = e.message;
-            applyProgress(progressBar1,e);
+            applyProgress(progressBar1, e);
         }
-                #endregion
+        #endregion
 
         private void setUpNotifier() {
             //this.components = new System.ComponentModel.Container();
@@ -128,8 +121,8 @@ namespace MASGAU.Monitor
             // monitorNotifier
             // 
             this.monitorNotifier.ContextMenuStrip = this.notifierMenu;
-            this.monitorNotifier.Icon =new System.Drawing.Icon("masgau.ico");
-            this.monitorNotifier.Text = Strings.get("MonitorTitle");
+            this.monitorNotifier.Icon = new System.Drawing.Icon("masgau.ico");
+            this.monitorNotifier.Text = Strings.GetLabelString("MonitorTitle");
             this.monitorNotifier.Visible = false;
             // 
             // notifierMenu
@@ -147,7 +140,7 @@ namespace MASGAU.Monitor
             // 
             this.rescanGamesToolStripMenuItem.Name = "rescanGamesToolStripMenuItem";
             this.rescanGamesToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.rescanGamesToolStripMenuItem.Text = Strings.get("MonitorMenuRescanGames");
+            this.rescanGamesToolStripMenuItem.Text = Strings.GetLabelString("MonitorMenuRescanGames");
             this.rescanGamesToolStripMenuItem.Click += new System.EventHandler(this.rescanGamesToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
@@ -156,7 +149,7 @@ namespace MASGAU.Monitor
             this.settingsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.settingsToolStripMenuItem.Text = Strings.get("MonitorMenuSettings");
+            this.settingsToolStripMenuItem.Text = Strings.GetLabelString("MonitorMenuSettings");
             this.settingsToolStripMenuItem.Click += new EventHandler(settingsToolStripMenuItem_Click);
 
             // 
@@ -164,7 +157,7 @@ namespace MASGAU.Monitor
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.aboutToolStripMenuItem.Text = Strings.get("MonitorMenuAbout");
+            this.aboutToolStripMenuItem.Text = Strings.GetLabelString("MonitorMenuAbout");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
@@ -172,118 +165,105 @@ namespace MASGAU.Monitor
             this.exitToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.exitToolStripMenuItem.Text = Strings.get("MonitorMenuExit");
+            this.exitToolStripMenuItem.Text = Strings.GetLabelString("MonitorMenuExit");
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // exitMonitorToolStripMenuItem
             // 
             this.exitMonitorToolStripMenuItem.Name = "exitMonitorToolStripMenuItem";
             this.exitMonitorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.exitMonitorToolStripMenuItem.Text = Strings.get("MonitorMenuExit");
+            this.exitMonitorToolStripMenuItem.Text = Strings.GetLabelString("MonitorMenuExit");
 
             this.monitorNotifier.DoubleClick += new EventHandler(monitorNotifier_DoubleClick);
 
             this.notifierMenu.ResumeLayout(false);
-        
+
         }
 
-        void monitorNotifier_DoubleClick(object sender, EventArgs e)
-        {
+        void monitorNotifier_DoubleClick(object sender, EventArgs e) {
             Core.openBackupPath();
         }
 
-        void settingsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            bool old_backup = Core.settings.monitor_startup_backup;
+        void settingsToolStripMenuItem_Click(object sender, EventArgs e) {
+            //bool old_backup = Core.settings.monitor_startup_backup;
 
             this.disableInterface();
             this.Visibility = System.Windows.Visibility.Hidden;
             MonitorSettingsWindow settings_window = new MonitorSettingsWindow();
             settings_window.ShowDialog();
-                setUpProgramHandler();
+            setUpProgramHandler();
 
-            if(Core.redetect_games||Core.rebuild_sync||Core.redetect_archives||(!old_backup&&Core.settings.monitor_startup_backup)) {
+            //if (Core.redetect_games || Core.rebuild_sync || Core.redetect_archives || (!old_backup && Core.settings.monitor_startup_backup)) {
                 //setUp();
-            } else {
-                //this.enableInterface(null,null);
-            }
+            //} else {
+                this.enableInterface(null,null);
+//            }
         }
 
-        void changeSyncPathMenuItem_Click(object sender, EventArgs e)
-        {
+        void changeSyncPathMenuItem_Click(object sender, EventArgs e) {
             monitor.sync_watcher.EnableRaisingEvents = false;
-            if(changeSyncPath())
-                setUpProgramHandler();
-            else
-                monitor.sync_watcher.EnableRaisingEvents = true;
+            //            if(changeSyncPath())
+            //              setUpProgramHandler();
+            //        else
+            //          monitor.sync_watcher.EnableRaisingEvents = true;
         }
 
         private void setNotifyToolTip() {
-            int count = Core.games.Count; //monitor.countMonitoredGames();
+            int count = Games.monitored_games_count;
             if (count < 0)
-                monitorNotifier.Text = Strings.get("MonitorNegativeGames");
-            if(count==0)
-                monitorNotifier.Text = Strings.get("MonitorZeroGames");
-            else if(count==1)
-                monitorNotifier.Text = Strings.get("MonitorOneGame");
+                monitorNotifier.Text = Strings.GetLabelString("MonitorNegativeGames");
+            if (count == 0)
+                monitorNotifier.Text = Strings.GetLabelString("MonitorZeroGames");
+            else if (count == 1)
+                monitorNotifier.Text = Strings.GetLabelString("MonitorOneGame");
             else
-                monitorNotifier.Text = Strings.get("MonitorMultipleGames",count.ToString());
+                monitorNotifier.Text = Strings.GetLabelString("MonitorMultipleGames", count.ToString());
         }
 
         #region Notify icon event handlers
 
-        private void rescanGamesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        private void rescanGamesToolStripMenuItem_Click(object sender, EventArgs e) {
             setUpProgramHandler();
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e) {
             this.Close();
         }
 
-        private void Window_Closing(object sender, CancelEventArgs e)
-        {
-            cancelBackup();
-            monitorNotifier.Visible =false;
+        private void Window_Closing(object sender, CancelEventArgs e) {
+            monitorNotifier.Visible = false;
             monitorNotifier.Dispose();
             monitor.CancelAsync();
             monitor.Dispose();
         }
 
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e) {
             monitorNotifier.Visible = false;
             new About(this).ShowDialog();
             monitorNotifier.Visible = true;
         }
 
-        private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e) {
             monitorNotifier.Visible = false;
             this.Visibility = System.Windows.Visibility.Visible;
-            checkUpdates(false,false);
         }
-        void updater_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
-        {
-            if(Core.updater.shutdown_required){
+        void updater_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
+            if (Core.updater.shutdown_required) {
                 this.Close();
                 return;
             }
-            if(!Core.updater.redetect_required) {
+            if (!Core.updater.redetect_required) {
                 monitorNotifier.Visible = true;
                 this.Visibility = System.Windows.Visibility.Hidden;
 
             }
-            
+
         }
 
 
         #endregion
 
-        private void updateBtn_Click(object sender, RoutedEventArgs e)
-        {
-            checkUpdates(false,false);
+        private void updateBtn_Click(object sender, RoutedEventArgs e) {
         }
 
 

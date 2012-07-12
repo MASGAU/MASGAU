@@ -1,9 +1,12 @@
-﻿using System.IO;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Xml;
 using MVC;
 namespace MASGAU.Location.Holders {
-    public abstract class ALocationHolder: AModelItem<StringID> {
+    public abstract class ALocationHolder : AModelItem<StringID> {
+        public static readonly List<string> attributes = new List<string> {"append", "detract", "only_for","deprecated"};
+
         // Used to add or remove path elements
         private string _append_path = null, _detract_path = null;
         public string append_path {
@@ -37,36 +40,29 @@ namespace MASGAU.Location.Holders {
 
 
         public bool override_virtual_store = false;
-        public PlatformVersion platform_version = PlatformVersion.All;
 
-        protected ALocationHolder(): base(new StringID(null)) { }
+        public string OnlyFor { get; protected set; }
 
-        protected ALocationHolder(XmlElement element): this() {
-            if (element.HasAttribute("append"))
-                this.append_path = element.GetAttribute("append");
-            else
-                this.append_path = null;
+        protected ALocationHolder() : base(new StringID(null)) { }
 
-            if (element.HasAttribute("deprecated"))
-                this.deprecated = true;
-            else
-                this.deprecated = false;
-
-            if (element.HasAttribute("detract"))
-                this.detract_path = element.GetAttribute("detract");
-            else
-                this.detract_path = null;
-
-            if (element.HasAttribute("platform_version"))
-                this.platform_version = (PlatformVersion)Enum.Parse(typeof(PlatformVersion), element.GetAttribute("platform_version"), true);
-            else
-                this.platform_version = PlatformVersion.All;
-
-            if (element.HasAttribute("language"))
-                this.language = element.GetAttribute("language");
-            else
-                this.language = null;
-
+        protected ALocationHolder(XmlElement element)
+            : this() {
+            foreach (XmlAttribute attrib in element.Attributes) {
+                switch (attrib.Name) {
+                    case "append":
+                        this.append_path = attrib.Value;
+                        break;
+                    case "detract":
+                        this.detract_path = attrib.Value;
+                        break;
+                    case "deprecated":
+                        this.deprecated = Boolean.Parse(attrib.Value);
+                        break;
+                    case "only_for":
+                        this.OnlyFor = attrib.Value;
+                        break;
+                }
+            }
         }
 
         public ALocationHolder(ALocationHolder copy_me)
@@ -74,29 +70,27 @@ namespace MASGAU.Location.Holders {
             append_path = copy_me._append_path;
             detract_path = copy_me._detract_path;
             language = copy_me.language;
-            platform_version = copy_me.platform_version;
+            OnlyFor = copy_me.OnlyFor;
         }
-        
+
         // This receives a path and modifies it based on the object's append and detract settings
         public static string modifyPath(string path, ALocationHolder holder) {
             path = path.TrimEnd(Path.DirectorySeparatorChar);
-            if (holder.detract_path!= null) {
-                if(path.EndsWith(holder.detract_path))
-                    path = path.Substring(0,path.Length-holder.detract_path.Length);
+            if (holder.detract_path != null) {
+                if (path.EndsWith(holder.detract_path))
+                    path = path.Substring(0, path.Length - holder.detract_path.Length);
             }
             if (holder.append_path != null)
-                path = Path.Combine(path,holder.append_path);
+                path = Path.Combine(path, holder.append_path);
             return path.TrimEnd(Path.DirectorySeparatorChar);
         }
 
         public string modifyPath(string path) {
-            return modifyPath(path,this);
+            return modifyPath(path, this);
         }
 
-        public static EnvironmentVariable parseEnvironmentVariable(string parse_me)
-        {
-            switch (parse_me.ToLower())
-            {
+        public static EnvironmentVariable parseEnvironmentVariable(string parse_me) {
+            switch (parse_me.ToLower()) {
                 case "allusersprofile":
                     return EnvironmentVariable.AllUsersProfile;
                 case "altsavepaths":

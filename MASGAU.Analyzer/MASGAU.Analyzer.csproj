@@ -11,6 +11,9 @@
     <RootNamespace>MASGAU.Analyzer</RootNamespace>
     <FileAlignment>512</FileAlignment>
     <ReleaseVersion>0.10</ReleaseVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +41,12 @@
     <WarningLevel>4</WarningLevel>
     <AssemblyName>Analyzer.Common</AssemblyName>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>masgau.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,11 +58,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AAnalyzerProgramHandler.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="AAnalyzer.cs" />
+    <Compile Include="APCAnalyzer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AnalyzerWindowController.cs" />
+    <Compile Include="PSAnalyzer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Communication.Translator\Communication.Translator.csproj">
@@ -76,6 +84,9 @@
       <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
       <Name>Translator</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="masgau.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

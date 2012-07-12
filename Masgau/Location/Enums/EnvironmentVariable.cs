@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 namespace MASGAU.Location {
 
     public enum EnvironmentVariable {
@@ -31,7 +27,7 @@ namespace MASGAU.Location {
 
         VirtualStore,
 
-        // In the anlyzer we prefer the real program files path over the virtualstore one, so we give them higher priority
+        // In the analyzer we prefer the real program files path over the virtualstore one, so we give them higher priority
         ProgramFiles,
         ProgramFilesX86,
 

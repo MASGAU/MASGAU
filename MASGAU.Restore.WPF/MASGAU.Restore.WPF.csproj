@@ -11,7 +11,8 @@
     <RootNamespace>MASGAU.Restore</RootNamespace>
     <AssemblyName>MASGAU.Restore.WPF</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -74,6 +75,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,21 +83,33 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data\Data.csproj">
-      <Project>{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}</Project>
-      <Name>Data</Name>
+    <ProjectReference Include="..\Common\Communication.Translator\Communication.Translator.csproj">
+      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
+      <Name>Communication.Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Communication\Communication.csproj">
+      <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communication.WPF\Communication.WPF.csproj">
+      <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
+      <Name>Communication.WPF</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.WPF\MASGAU.WPF.csproj">
       <Project>{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}</Project>
       <Name>MASGAU.WPF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU\MASGAU.csproj">
+    <ProjectReference Include="..\Common\Masgau\MASGAU.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Translations\Translations.csproj">
-      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
-      <Name>Translations</Name>
+    <ProjectReference Include="..\Translator.WPF\Translator.WPF.csproj">
+      <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
+      <Name>Translator.WPF</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

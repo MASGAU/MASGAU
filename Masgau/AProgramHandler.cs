@@ -1,14 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Text;
-using MASGAU.Location;
-using Communication.Progress;
-using MASGAU.Config;
-using MASGAU.Monitor;
-using MASGAU.Game;
 using Communication;
-using Communication.Message;
 using Communication.Translator;
+using MASGAU.Location;
+using MASGAU.Monitor;
 using Translator;
 namespace MASGAU {
     public abstract class AProgramHandler<L> : Core, INotifyPropertyChanged where L : ALocationsHandler {
@@ -21,11 +16,11 @@ namespace MASGAU {
         }
 
         protected string _program_title = "MASGAU";
-        
+
         public AProgramHandler(Interface new_interface)
             : base(new_interface) {
-            if(Core.portable_mode)
-                _program_title = Strings.getGeneralString("MASGAUPortable");
+            if (Core.portable_mode)
+                _program_title = Strings.GetLabelString("PortableMode", _program_title);
 
 
             this.DoWork += new DoWorkEventHandler(doWork);
@@ -51,10 +46,8 @@ namespace MASGAU {
 
                 updater = new Update.UpdatesHandler();
 
-                archives = new Archive.ArchivesHandler();
-
                 TranslatingProgressHandler.setTranslatedMessage("ValidatingBackupPath");
-                if (settings.backup_path_set && (!PermissionsHelper.isReadable(settings.backup_path) || !PermissionsHelper.isWritable(settings.backup_path)))
+                if (settings.IsBackupPathSet && (!PermissionsHelper.isReadable(settings.backup_path) || !PermissionsHelper.isWritable(settings.backup_path)))
                     settings.clearBackupPath();
 
                 locations = (ALocationsHandler)Activator.CreateInstance(typeof(L));
@@ -62,9 +55,7 @@ namespace MASGAU {
                 if (!locations.ready)
                     return;
 
-                games = new GamesHandler();
-
-                task = new Task.TaskHandler();
+                //task = new Task.TaskHandler();
 
                 initialized = true;
             }

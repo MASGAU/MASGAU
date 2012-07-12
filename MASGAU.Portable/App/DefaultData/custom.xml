@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../App/MASGAU/Data/games.xsd" majorVersion="1" minorVersion="1" date="9999-12-31T23:59:59">
-  <!-- This file is for custom XML profiles that you don't want to be auto-updated,
-		or replaced when you upgrade MASGAU -->
-</games>

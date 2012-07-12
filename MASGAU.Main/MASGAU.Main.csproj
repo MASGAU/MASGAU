@@ -11,6 +11,9 @@
     <RootNamespace>MASGAU.Main</RootNamespace>
     <FileAlignment>512</FileAlignment>
     <ReleaseVersion>0.10</ReleaseVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,9 +54,7 @@
     <Compile Include="CustomGameHandler.cs" />
     <Compile Include="CustomGamesHandler.cs" />
     <Compile Include="GameListItem.cs" />
-    <Compile Include="AMainProgramHandler.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="AMainProgramHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,10 +69,6 @@
     <ProjectReference Include="..\Config\Config.csproj">
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Email\Email.csproj">
-      <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
-      <Name>Email</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU\MASGAU.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>

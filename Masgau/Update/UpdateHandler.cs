@@ -1,26 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Xml;
-using System.Xml.Schema;
 using System.IO;
 using System.Net;
-using System.ComponentModel;
-using Communication.Message;
-using MVC;
-using System.Diagnostics;
+using System.Xml;
 using Communication.Translator;
-namespace MASGAU.Update
-{
-    public class UpdateHandler: AModelItem {
+using MVC;
+using XmlData;
+namespace MASGAU.Update {
+    public class UpdateHandler : AModelItem {
 
-        public string name { get; set;}
+        public string name { get; set; }
 
         // This restricts what file versions can be used by the program
         // It is very important that this gets updated for new versions
         private string current_version_path;
         private UpdateVersion current_version;
         public string current_version_string {
-            get{
+            get {
                 return current_version.ToString();
             }
         }
@@ -45,27 +41,30 @@ namespace MASGAU.Update
         public List<string> latest_version_urls;
         private UpdateVersion latest_version;
         public string latest_version_string {
-            get{
+            get {
                 return latest_version.ToString();
             }
         }
-        
-        protected UpdateHandler(String name): base(name) {
+
+        protected UpdateHandler(String name)
+            : base(name) {
             this.name = name;
             latest_version = new UpdateVersion(0, 0, 0);
         }
 
-        protected UpdateHandler(string name, string path): this(name)
-        {
+        protected UpdateHandler(string name, string path)
+            : this(name) {
             this.current_version_path = path;
         }
 
-        public UpdateHandler(UpdateVersion current_version, string name, string path): this(name,path) {
+        public UpdateHandler(UpdateVersion current_version, string name, string path)
+            : this(name, path) {
             this.current_version = current_version;
         }
 
         // This is the constructor for when reading the current data files
-        public UpdateHandler(XmlElement element, string name, string path): this(name,path) {
+        public UpdateHandler(XmlElement element, string name, string path)
+            : this(name, path) {
             current_version = UpdateVersion.getVersionFromXml(element);
         }
 
@@ -73,15 +72,15 @@ namespace MASGAU.Update
         public void setLatestVersion(XmlElement element) {
             UpdateVersion test = UpdateVersion.getVersionFromXml(element);
 
-            if(latest_version.CompareTo(test)>0)
+            if (latest_version.CompareTo(test) > 0)
                 return;
 
 
             string latest_version_url;
-            if(element.HasAttribute("url")) {
+            if (element.HasAttribute("url")) {
                 latest_version_url = element.GetAttribute("url");
             } else {
-                throw new Translator.TranslateableException("UpdatesXmlNoUrlAttribute", name);
+                throw new Translator.TranslateableException("XMLErrorMissingAttribute","url","file", name);
             }
 
             if (latest_version.CompareTo(test) < 0) {
@@ -100,22 +99,22 @@ namespace MASGAU.Update
         }
         private bool? _updating = false;
         public bool? updating {
-            get { 
-                if(needs_update) {
+            get {
+                if (needs_update) {
                     return _updating;
                 } else {
                     return null;
                 }
             }
-            set { 
+            set {
                 _updating = value;
                 NotifyPropertyChanged("updating");
             }
         }
-        
+
 
         public void update() {
-            string tmp_name = current_version_path.Substring(0,current_version_path.Length-3) + "TMP";
+            string tmp_name = current_version_path.Substring(0, current_version_path.Length - 3) + "TMP";
             WebClient Client;
             Stream new_file;
             FileStream writer;
@@ -123,25 +122,25 @@ namespace MASGAU.Update
 
             updating = true;
 
-            foreach(string latest_version_url in latest_version_urls) {
+            foreach (string latest_version_url in latest_version_urls) {
                 try {
                     new_file = Client.OpenRead(latest_version_url);
-                    writer = new FileStream(tmp_name,FileMode.Create,FileAccess.Write);
+                    writer = new FileStream(tmp_name, FileMode.Create, FileAccess.Write);
 
                     int Length = 256;
-                    Byte [] buffer = new Byte[Length];
-                    int bytesRead = new_file.Read(buffer,0,Length);
-                    while( bytesRead > 0 ) {
-                        writer.Write(buffer,0,bytesRead);
-                        bytesRead = new_file.Read(buffer,0,Length);
+                    Byte[] buffer = new Byte[Length];
+                    int bytesRead = new_file.Read(buffer, 0, Length);
+                    while (bytesRead > 0) {
+                        writer.Write(buffer, 0, bytesRead);
+                        bytesRead = new_file.Read(buffer, 0, Length);
                     }
 
                     writer.Close();
                     new_file.Close();
 
-                    XmlDocument game_config;
+                    XmlFile game_config;
                     try {
-                        game_config = Core.readXmlFile(tmp_name);
+                        game_config = new XmlFile(new FileInfo(tmp_name));
                     } catch (InvalidOperationException ex) {
                         TranslatingMessageHandler.SendError("BadUpdateData", ex, latest_version_url);
                         File.Delete(tmp_name);
@@ -153,15 +152,15 @@ namespace MASGAU.Update
                     }
 
 
-                    if(File.Exists(current_version_path))
+                    if (File.Exists(current_version_path))
                         File.Delete(current_version_path);
-                    File.Move(tmp_name,current_version_path);
+                    File.Move(tmp_name, current_version_path);
                     NotifyPropertyChanged("needs_update");
                     current_version = latest_version;
                     break;
-                } catch(WebException exception)  {
+                } catch (WebException exception) {
                     File.Delete(tmp_name);
-                    TranslatingMessageHandler.SendError("UpdateDownloadFailure",exception,name,latest_version_url);
+                    TranslatingMessageHandler.SendError("DownloadFailure", exception, latest_version_url);
                 }
             }
             updating = false;

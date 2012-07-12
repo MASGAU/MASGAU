@@ -1,9 +1,13 @@
-=0.10 - Beta in body=
-* All e-mails sent from in-program
+=1.0 - Back to Alpha=
+* All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)
 * Added environment_variable attribute to location_shortcut tag so that shortcuts in other locations can be specified
 * Added new append attribute to ps_code tag to allow dividing up collections that share the same ps code
 * Added new type attribute to ps_code tag to allow sorting playstation saves into types
 * Added new location_scummvm tag to detect games based on ScummVM's ini file
+* Added new android platform for saves that are detected on attached android devices
+* Changed backup behavior so that files from different roots go in different archives. These seperate archives are identified by a hash of the original file's root path.
+* Changed XML format to conform with the GameSave.Info 2.0 spec
+* Re-wrote interface. Again.
 
 =0.9.2 - Portable Evolution=
 * Fixed a bug when restoring to a game in an Alt. Install Path

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 
 namespace MASGAU.Location.Holders {
@@ -14,8 +11,8 @@ namespace MASGAU.Location.Holders {
             this.IsExpanded = path.IsExpanded;
             this.IsSelected = path.IsSelected;
             this.language = path.language;
-            this.platform_version = path.platform_version;
-            this.path = path.path;
+            this.OnlyFor = path.OnlyFor;
+            this.Path = path.Path;
             this.deprecated = path.deprecated;
             this.rel_root = path.rel_root;
         }
@@ -23,18 +20,23 @@ namespace MASGAU.Location.Holders {
         protected DetectedLocationPathHolder() {
         }
 
+        public QuickHash RootHash {
+            get {
+                return new QuickHash(AbsoluteRoot);
+            }
+        }
+
         // Holds the actual, interpreted root location
-        public string abs_root;
+        public string AbsoluteRoot;
         // Holds the associated user for this folder
         public string owner;
 
         public string full_relative_dir_path {
             get {
-                if (path == null || path == "") {
+                if (Path == null || Path == "") {
                     return rel_root.ToString();
-                }
-                else {
-                    return Path.Combine(rel_root.ToString(), path);
+                } else {
+                    return System.IO.Path.Combine(rel_root.ToString(), Path);
                 }
             }
         }
@@ -42,15 +44,13 @@ namespace MASGAU.Location.Holders {
         // Gets the full absolute path of the folfer
         public string full_dir_path {
             get {
-                if (abs_root != null && abs_root != "") {
-                    if (path == null || path == "") {
-                        return abs_root;
+                if (AbsoluteRoot != null && AbsoluteRoot != "") {
+                    if (Path == null || Path == "") {
+                        return AbsoluteRoot;
+                    } else {
+                        return System.IO.Path.Combine(AbsoluteRoot, Path);
                     }
-                    else {
-                        return Path.Combine(abs_root, path);
-                    }
-                }
-                else {
+                } else {
                     return null;
                 }
             }
@@ -73,12 +73,12 @@ namespace MASGAU.Location.Holders {
                 rel_root == EnvironmentVariable.Public ||
                 rel_root == EnvironmentVariable.SteamCommon ||
                 rel_root == EnvironmentVariable.SteamSourceMods)
-                return_me = abs_root;
+                return_me = AbsoluteRoot;
             else
                 return_me = rel_root.ToString();
 
-            if (path != null)
-                return_me = Path.Combine(return_me, path);
+            if (Path != null)
+                return_me = System.IO.Path.Combine(return_me, Path);
 
             return return_me;
         }
@@ -90,8 +90,7 @@ namespace MASGAU.Location.Holders {
                     info.Attributes = FileAttributes.Normal;
                     info.Delete(true);
                 }
-            }
-            catch (Exception e) {
+            } catch (Exception e) {
                 throw new Translator.TranslateableException("DeleteError", e, full_dir_path);
             }
         }

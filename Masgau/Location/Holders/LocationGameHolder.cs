@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using MASGAU.Game;
 using System.Xml;
 using MVC;
 
@@ -12,20 +8,19 @@ namespace MASGAU.Location.Holders {
 
         public GameID game;
 
-        public LocationGameHolder(XmlElement element): base(element)
-        {
-            String new_game_name = element.GetAttribute("name");
-            GamePlatform new_game_platform;
-            String new_game_region;
-            if (element.HasAttribute("platform"))
-                new_game_platform = GameHandler.parseGamePlatform(element.GetAttribute("platform"));
-            else
-                new_game_platform = GamePlatform.Multiple;
-            if (element.HasAttribute("region"))
-                new_game_region = element.GetAttribute("region");
-            else
-                new_game_region = null;
-            this.game = new GameID(new_game_name, new_game_platform, new_game_region);
+        public LocationGameHolder(XmlElement element)
+            : base(element) {
+            this.game = new GameID(element.GetAttribute("name"), element);
+            foreach (XmlAttribute attrib in element.Attributes) {
+                if (attributes.Contains(attrib.Name)||GameID.attributes.Contains(attrib.Name))
+                    continue;
+                switch (attrib.Name) {
+                    case "name":
+                        break;
+                    default:
+                        throw new NotSupportedException(attrib.Name);
+                }
+            }
 
         }
 

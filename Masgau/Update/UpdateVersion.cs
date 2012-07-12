@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 
-namespace MASGAU.Update
-{
-    public class UpdateVersion: IComparable<UpdateVersion>
-    {
+namespace MASGAU.Update {
+    public class UpdateVersion : IComparable<UpdateVersion> {
         public int major {
             get;
             protected set;
@@ -25,7 +20,8 @@ namespace MASGAU.Update
             protected set;
         }
 
-        public UpdateVersion(int major, int minor, int revision): this() {
+        public UpdateVersion(int major, int minor, int revision)
+            : this() {
             this.major = major;
             this.minor = minor;
             this.revision = revision;
@@ -36,15 +32,15 @@ namespace MASGAU.Update
 
         public static UpdateVersion getVersionFromXml(XmlElement element) {
             UpdateVersion return_me = new UpdateVersion();
-            if(element.HasAttribute("majorVersion"))
+            if (element.HasAttribute("majorVersion"))
                 return_me.major = Int32.Parse(element.GetAttribute("majorVersion"));
             //else
-              //  throw new MException("Version Read Error","Could not find majorVersion attribute",true);
+            //  throw new MException("Version Read Error","Could not find majorVersion attribute",true);
 
-            if(element.HasAttribute("minorVersion"))
+            if (element.HasAttribute("minorVersion"))
                 return_me.minor = Int32.Parse(element.GetAttribute("minorVersion"));
             //else
-              //  throw new MException("Version Read Error","Could not find minorVersion attribute", true);
+            //  throw new MException("Version Read Error","Could not find minorVersion attribute", true);
 
             if (element.HasAttribute("revision"))
                 return_me.revision = Int32.Parse(element.GetAttribute("revision"));
@@ -63,33 +59,32 @@ namespace MASGAU.Update
 
 
         public int CompareTo(UpdateVersion version) {
-                int result = major.CompareTo(version.major);
+            int result = major.CompareTo(version.major);
 
-                if (result == 0)
-                    result = minor.CompareTo(version.minor);
+            if (result == 0)
+                result = minor.CompareTo(version.minor);
 
-                if (result == 0)
-                    result = revision.CompareTo(version.revision);
+            if (result == 0)
+                result = revision.CompareTo(version.revision);
 
-                if (major==0&&minor==0&&revision==0)
-                    result = this.date.CompareTo(version.date);
+            if (major == 0 && minor == 0 && revision == 0)
+                result = this.date.CompareTo(version.date);
 
-                return result;
+            return result;
         }
 
         public bool compatibleWith(UpdateVersion version) {
-            return this.major==version.major&&this.minor==version.minor;
+            return this.major == version.major && this.minor == version.minor;
         }
 
-        public override string ToString()
-        {
+        public override string ToString() {
             if (this.date.CompareTo(new DateTime(1955, 11, 5)) == 0)
                 return "Not Present";
             else
                 return this.date.ToString();
         }
 
-       
+
     }
 
 }

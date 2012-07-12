@@ -11,7 +11,8 @@
     <RootNamespace>MASGAU.Main</RootNamespace>
     <AssemblyName>MASGAU.Main.WPF</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -50,7 +51,18 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
   </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Windows.Forms" />
@@ -71,6 +83,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainWindowAnalyzer.cs" />
+    <Compile Include="AboutControl.xaml.cs">
+      <DependentUpon>AboutControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowBackup.cs" />
+    <Compile Include="MainWindowEnableDisable.cs" />
+    <Compile Include="MainWindowGameList.cs" />
+    <Compile Include="MainWindowRestore.cs" />
+    <Compile Include="MainWindowRibbon.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -87,12 +108,28 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MainWindowNew.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ManualArchiveWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AboutControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainWindowCommunication.cs" />
+    <Compile Include="MainWindowJumpList.cs" />
+    <Compile Include="MainWindowNew.xaml.cs">
+      <DependentUpon>MainWindowNew.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowPreferences.cs" />
+    <Compile Include="MainWindowTranslate.cs" />
+    <Compile Include="MainWindowUpdate.cs" />
     <Compile Include="ManualArchiveWindow.xaml.cs">
       <DependentUpon>ManualArchiveWindow.xaml</DependentUpon>
     </Compile>
@@ -113,6 +150,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -120,31 +159,63 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data\Data.csproj">
+    <ProjectReference Include="..\Common\Collections\Collections.csproj">
+      <Project>{88E4E120-9C45-4EAC-887B-B77474B799B4}</Project>
+      <Name>Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Communication.Translator\Communication.Translator.csproj">
+      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
+      <Name>Communication.Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Communication\Communication.csproj">
+      <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Data\Data.csproj">
       <Project>{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}</Project>
       <Name>Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Console.Windows\MASGAU.Console.Windows.csproj">
-      <Project>{F5F22856-EF47-48E9-9A1D-2FACE3033CA8}</Project>
-      <Name>MASGAU.Console.Windows</Name>
+    <ProjectReference Include="..\Common\Email\Email.csproj">
+      <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
+      <Name>Email</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Console\MASGAU.Console.csproj">
-      <Project>{C6B94E9A-53EF-4878-801C-0AB5D657F9AB}</Project>
-      <Name>MASGAU.Console</Name>
+    <ProjectReference Include="..\Common\MASGAU.Analyzer\MASGAU.Analyzer.csproj">
+      <Project>{B01BFC57-F093-40C5-AE96-BF81B89176C2}</Project>
+      <Name>MASGAU.Analyzer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Main\MASGAU.Main.csproj">
+    <ProjectReference Include="..\Common\MVC\MVC.csproj">
+      <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Translations\Translations.csproj">
+      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\XmlData\XmlData.csproj">
+      <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
+      <Name>XmlData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communication.WPF\Communication.WPF.csproj">
+      <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
+      <Name>Communication.WPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\MASGAU.Main\MASGAU.Main.csproj">
       <Project>{200C1855-FBC7-4133-A5DD-0B1C32B75121}</Project>
       <Name>MASGAU.Main</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Monitor.WPF\MASGAU.Monitor.WPF.csproj">
-      <Project>{D2C4B8CB-CC0C-4215-8E3B-66717A0D080F}</Project>
-      <Name>MASGAU.Monitor.WPF</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.Updater.WPF\MASGAU.Updater.WPF.csproj">
       <Project>{FAB69D6D-5810-486A-998B-42B2296C0CF4}</Project>
       <Name>MASGAU.Updater.WPF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Updater\MASGAU.Updater.csproj">
+    <ProjectReference Include="..\Common\MASGAU.Updater\MASGAU.Updater.csproj">
       <Project>{589E0815-04F6-4DE2-9CAE-F330D66FFE81}</Project>
       <Name>MASGAU.Updater</Name>
     </ProjectReference>
@@ -156,13 +227,13 @@
       <Project>{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}</Project>
       <Name>MASGAU.WPF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU\MASGAU.csproj">
+    <ProjectReference Include="..\Common\Masgau\MASGAU.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Translations\Translations.csproj">
-      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
-      <Name>Translations</Name>
+    <ProjectReference Include="..\Translator.WPF\Translator.WPF.csproj">
+      <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
+      <Name>Translator.WPF</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -188,7 +259,81 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Resource Include="Images\view-refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\package-x-generic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\help-browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document-save-as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\edit-delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\system-software-update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\preferences-system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\preferences-desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\process-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\software-update-available.png" />
+    <Resource Include="Images\software-update-urgent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\system-log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\document-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\system-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mail-forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\process-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\document-save-as.png" />
+    <Resource Include="Images\16px\document-save.png" />
+    <Resource Include="Images\16px\edit-delete.png" />
+    <Resource Include="Images\16px\mail-forward.png" />
+    <Resource Include="Images\16px\system-log-out.png" />
+    <Resource Include="Images\16px\system-search.png" />
+    <Resource Include="Images\16px\view-refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\software-update-available.png" />
+    <Resource Include="Images\16px\software-update-urgent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\system-software-update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\help-browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\preferences-system.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -62,13 +62,13 @@
                     </GroupBox>
                     <StatusBar Grid.Row="1" Name="statusBar1" HorizontalContentAlignment="Right" FlowDirection="RightToLeft" BorderBrush="{StaticResource {x:Static SystemColors.AppWorkspaceBrushKey}}" BorderThickness="0,1,0,0">
                         <StatusBarItem Padding="0">
-                            <Button Content="$DontUpdateButton" Grid.Column="1" Grid.Row="1" Height="23" Name="cancelBtn" Margin="1" Click="cancelBtn_Click" TabIndex="2" HorizontalAlignment="Right" />
+                            <Button Content="$DontUpdate" Grid.Column="1" Grid.Row="1" Height="23" Name="cancelBtn" Margin="1" Click="cancelBtn_Click" TabIndex="2" HorizontalAlignment="Right" />
                         </StatusBarItem>
                         <StatusBarItem Padding="0">
-                            <Button Content="$UpdateButton" Grid.Row="1" Height="23" Name="okBtn" Margin="1" Click="okBtn_Click" TabIndex="1" HorizontalAlignment="Right" />
+                            <Button Content="$Update" Grid.Row="1" Height="23" Name="okBtn" Margin="1" Click="okBtn_Click" TabIndex="1" HorizontalAlignment="Right" />
                         </StatusBarItem>
                         <StatusBarItem Padding="0">
-                            <Button Content="$UpdateCompleteButton" Grid.Row="1" Height="23" Name="donBtn" Margin="1" TabIndex="1" HorizontalAlignment="Right" Click="donBtn_Click" Visibility="Collapsed" />
+                            <Button Content="$UpdateComplete" Grid.Row="1" Height="23" Name="donBtn" Margin="1" TabIndex="1" HorizontalAlignment="Right" Click="donBtn_Click" Visibility="Collapsed" />
                         </StatusBarItem>
                     </StatusBar>
                 </Grid>
@@ -87,7 +87,7 @@
                         </Grid.RowDefinitions>
                         <StatusBar BorderBrush="{StaticResource {x:Static SystemColors.AppWorkspaceBrushKey}}" BorderThickness="0,1,0,0" FlowDirection="RightToLeft" Grid.Row="1" HorizontalContentAlignment="Right" Name="statusBar2">
                             <StatusBarItem Padding="0">
-                                <Button Click="cancelBtn_Click" Content="$CloseButton" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Right" Margin="1" Name="closeButton" TabIndex="2" />
+                                <Button Click="cancelBtn_Click" Content="$Close" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Right" Margin="1" Name="closeButton" TabIndex="2" />
                             </StatusBarItem>
                             <StatusBarItem Padding="0"></StatusBarItem>
                         </StatusBar>

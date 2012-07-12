@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace MASGAU.Location
-{
-    public abstract class ASteamLocationHandler: ALocationHandler
-    {
+﻿
+namespace MASGAU.Location {
+    public abstract class ASteamLocationHandler : ALocationHandler {
         // The paths
-        protected string     path, userdata_path, steam_apps_path;
+        public string path { get; protected set; }
+        public string userdata_path { get; protected set; }
+        public string steam_apps_path { get; protected set; }
 
-        public ASteamLocationHandler(): base(HandlerType.Steam) {
+        public ASteamLocationHandler()
+            : base(HandlerType.Steam) {
             resetSteamPath();
         }
 
@@ -18,7 +15,7 @@ namespace MASGAU.Location
 
         public bool found {
             get {
-                if(steam_path!=null)
+                if (steam_path != null)
                     return true;
                 else
                     return false;
@@ -33,7 +30,7 @@ namespace MASGAU.Location
 
         public override bool ready {
             get {
-                if(path==null) {
+                if (path == null) {
                     return false;
                 } else {
                     return true;

@@ -13,7 +13,8 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ReleaseVersion>0.9</ReleaseVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,14 +51,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="PresentationCore">
     </Reference>
     <Reference Include="PresentationFramework">
     </Reference>
+    <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System">
     </Reference>
     <Reference Include="System.Core">
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms">
     </Reference>
     <Reference Include="System.Xaml">
@@ -78,6 +82,8 @@
   <ItemGroup>
     <Compile Include="Application.cs" />
     <Compile Include="AProgramWindow.cs" />
+    <Compile Include="ControlFlipper.cs" />
+    <Compile Include="IWPFWindow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -110,10 +116,7 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\dialog-error.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Communication.Translator\Communication.Translator.csproj">
+    <ProjectReference Include="..\Common\Communication.Translator\Communication.Translator.csproj">
       <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
       <Name>Communication.Translator</Name>
     </ProjectReference>
@@ -121,23 +124,23 @@
       <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
       <Name>Communication.WPF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Communication\Communication.csproj">
+    <ProjectReference Include="..\Common\Communication\Communication.csproj">
       <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
       <Name>Communication</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Config\Config.csproj">
+    <ProjectReference Include="..\Common\Config\Config.csproj">
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Email\Email.csproj">
+    <ProjectReference Include="..\Common\Email\Email.csproj">
       <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
       <Name>Email</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Main\MASGAU.Main.csproj">
+    <ProjectReference Include="..\Common\MASGAU.Main\MASGAU.Main.csproj">
       <Project>{200C1855-FBC7-4133-A5DD-0B1C32B75121}</Project>
       <Name>MASGAU.Main</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Updater\MASGAU.Updater.csproj">
+    <ProjectReference Include="..\Common\MASGAU.Updater\MASGAU.Updater.csproj">
       <Project>{589E0815-04F6-4DE2-9CAE-F330D66FFE81}</Project>
       <Name>MASGAU.Updater</Name>
     </ProjectReference>
@@ -145,11 +148,11 @@
       <Project>{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}</Project>
       <Name>MASGAU.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MASGAU\MASGAU.csproj">
+    <ProjectReference Include="..\Common\Masgau\MASGAU.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MVC\MVC.csproj">
+    <ProjectReference Include="..\Common\MVC\MVC.csproj">
       <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
       <Name>MVC</Name>
     </ProjectReference>
@@ -157,20 +160,10 @@
       <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
       <Name>Translator.WPF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Translator\Translator.csproj">
+    <ProjectReference Include="..\Common\Translator\Translator.csproj">
       <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
       <Name>Translator</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\dialog-information.png" />
-    <Resource Include="Images\dialog-warning.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\help-browser.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\image-missing.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

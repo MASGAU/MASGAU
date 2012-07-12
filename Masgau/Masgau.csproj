@@ -12,6 +12,9 @@
     <AssemblyName>MASGAU</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ReleaseVersion>0.10</ReleaseVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,6 +50,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
@@ -54,24 +58,29 @@
     <Compile Include="AProgramHandler.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Archive\ArchiveHandler.cs" />
+    <Compile Include="Archive\Archive.cs" />
     <Compile Include="Archive\ArchiveID.cs" />
-    <Compile Include="Archive\ArchivesHandler.cs" />
+    <Compile Include="Archive\Archives.cs" />
     <Compile Include="Archive\ArchiveType.cs" />
     <Compile Include="BackgroundWorker.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Comparers\FileInfoComparer.cs" />
     <Compile Include="Comparers\ReversableComparer.cs" />
+    <Compile Include="Game\GameType.cs" />
+    <Compile Include="Game\GameVersion.cs" />
+    <Compile Include="Game\GameXmlFile.cs" />
+    <Compile Include="IWindow.cs" />
     <Compile Include="Location\AScummVMLocationHandler.cs" />
-    <Compile Include="Location\Holders\LocationScummVMHandler.cs" />
+    <Compile Include="Location\Holders\FileTypeHolder.cs" />
+    <Compile Include="Location\Holders\ScummVMHolder.cs" />
+    <Compile Include="QuickHash.cs" />
     <Compile Include="SubmitHandler.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Enums\Interface.cs" />
     <Compile Include="Game\ContributerHandler.cs" />
     <Compile Include="Game\GameID.cs" />
-    <Compile Include="Game\GamePlatform.cs" />
     <Compile Include="Location\AFlashLocationHandler.cs" />
     <Compile Include="Location\ALocationHandler.cs" />
     <Compile Include="Location\APlaystationLocationHandler.cs" />
@@ -102,12 +111,11 @@
     <Compile Include="Registry\RegistryKeyValue.cs" />
     <Compile Include="Registry\RegRoot.cs" />
     <Compile Include="Restore\RestoreResult.cs" />
-    <Compile Include="Config\VersioningUnit.cs" />
-    <Compile Include="Game\GameCountry.cs" />
-    <Compile Include="Game\GameHandler.cs" />
-    <Compile Include="Game\GamesHandler.cs" />
-    <Compile Include="Game\GamesXMLHandler.cs" />
-    <Compile Include="Game\GameXMLHolder.cs" />
+    <Compile Include="Settings\VersioningUnit.cs" />
+    <None Include="Game\OldGame.cs" />
+    <Compile Include="Game\Games.cs" />
+    <Compile Include="Game\GameXmlFiles.cs" />
+    <Compile Include="Game\Game.cs" />
     <Compile Include="Location\ALocationsHandler.cs" />
     <Compile Include="Core.cs">
       <SubType>Component</SubType>
@@ -115,7 +123,7 @@
     <Compile Include="Restore\ARestoreProgramHandler.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Config\SettingsHandler.cs" />
+    <Compile Include="Settings\Settings.cs" />
     <Compile Include="Backup\ABackupProgramHandler.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -123,9 +131,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="structs.cs" />
-    <Compile Include="Task\DayOfWeek.cs" />
-    <Compile Include="Task\Frequency.cs" />
-    <Compile Include="Task\TaskHandler.cs" />
+    <None Include="Task\DayOfWeek.cs" />
+    <None Include="Task\Frequency.cs" />
+    <None Include="Task\TaskHandler.cs" />
+    <Compile Include="Update\UpdateAvailability.cs" />
     <Compile Include="Update\UpdateHandler.cs" />
     <Compile Include="Update\UpdatesHandler.cs" />
     <Compile Include="Update\UpdateVersion.cs" />
@@ -138,14 +147,6 @@
     <Resource Include="Images\flag.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\Dependencies\7-Zip\7z.dll">
-      <Link>7z.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Dependencies\7-Zip\7z.exe">
-      <Link>7z.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="masgau.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -183,6 +184,13 @@
       <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
       <Name>Translator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XmlData\XmlData.csproj">
+      <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
+      <Name>XmlData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Game\enums\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -10,9 +10,9 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Button Content="$AboutWindowCloseButton" Grid.Row="3" Height="23" Name="button1" Margin="1" Click="button1_Click" />
+        <Button Content="$AboutWindowClose" Grid.Row="3" Height="23" Name="button1" Margin="1" Click="button1_Click" />
         <TextBlock HorizontalAlignment="Center" Grid.Row="2" Margin="5">
-            <Hyperlink NavigateUri="http://masgau.org/" Name="siteLink" RequestNavigate="openHyperlink">
+            <Hyperlink NavigateUri="http://masgau.org/" Name="siteLink">
                 http://masgau.org/
             </Hyperlink>
         </TextBlock>

@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.IO;
-using System.ComponentModel;
+﻿using System.Collections.Generic;
 using MASGAU.Location.Holders;
 
-namespace MASGAU.Location
-{
-    public interface ILocationsHandler
-    {
+namespace MASGAU.Location {
+    public interface ILocationsHandler {
         void resetSteam();
 
         List<DetectedLocationPathHolder> getPaths(ALocationHolder get_me);
@@ -21,5 +14,5 @@ namespace MASGAU.Location
 
         List<DetectedLocationPathHolder> interpretPath(string interpret_me);
 
-   }
+    }
 }

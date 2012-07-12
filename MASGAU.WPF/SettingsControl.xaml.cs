@@ -1,32 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Communication.Message;
-using MASGAU.Location;
 using MASGAU.Location.Holders;
-using Translator;
-
-namespace MASGAU
-{
+using Translator.WPF;
+namespace MASGAU {
     /// <summary>
     /// Interaction logic for SettingsControl.xaml
     /// </summary>
-    public partial class SettingsControl : UserControl
-    {
-        public SettingsControl()
-        {
+    public partial class SettingsControl : UserControl {
+        public SettingsControl() {
             InitializeComponent();
         }
+
+
 
         public void bindSettingsControls() {
             autoUpdateChk.DataContext = Core.settings;
@@ -39,82 +26,65 @@ namespace MASGAU
             versioningCountTxt.DataContext = Core.settings;
             versioningMaxTxt.DataContext = Core.settings;
             versioningUnitCombo.DataContext = Core.settings;
-            
+
             emailTxt.DataContext = Core.settings;
 
-            altPathLst.DataContext = Core.settings.alt_paths;
+            altPathLst.DataContext = Core.settings.save_paths;
         }
 
 
-        private void emailTxt_LostFocus(object sender, RoutedEventArgs e)
-        {
+        private void emailTxt_LostFocus(object sender, RoutedEventArgs e) {
             Core.settings.email = emailTxt.Text;
 
         }
-        private void addAltPathBtn_Click(object sender, RoutedEventArgs e)
-        {
-            if(addAltPath()) {
+        private void addAltPathBtn_Click(object sender, RoutedEventArgs e) {
+            if (addAltPath()) {
                 Core.redetect_games = true;
             }
         }
 
-        private void removeAltPathBtn_Click(object sender, RoutedEventArgs e)
-        {
+        private void removeAltPathBtn_Click(object sender, RoutedEventArgs e) {
             List<AltPathHolder> paths = new List<AltPathHolder>();
-            foreach(AltPathHolder remove_me in altPathLst.SelectedItems) {
+            foreach (AltPathHolder remove_me in altPathLst.SelectedItems) {
                 paths.Add(remove_me);
             }
 
-            foreach(AltPathHolder remove_me in paths) {
-                Core.settings.removeAltPath(remove_me.path);
+            foreach (AltPathHolder remove_me in paths) {
+                Core.settings.removeSavePath(remove_me.path);
             }
             Core.redetect_games = true;
         }
 
-        private void altPathLst_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if (altPathLst.SelectedItems.Count> 1){
+        private void altPathLst_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+            if (altPathLst.SelectedItems.Count > 1) {
                 removeAltPathBtn.IsEnabled = true;
-                removeAltPathBtn.Content = Strings.get("RemoveAltPaths");
-            }
-            else if (altPathLst.SelectedItems.Count > 0){
+                TranslationHelpers.translate(removeAltPathBtn,"RemoveAltPaths");
+            } else if (altPathLst.SelectedItems.Count > 0) {
                 removeAltPathBtn.IsEnabled = true;
-                removeAltPathBtn.Content = Strings.get("RemoveAltPath");
-            }
-            else{
+                TranslationHelpers.translate(removeAltPathBtn,"RemoveAltPath");
+            } else {
                 removeAltPathBtn.IsEnabled = false;
-                removeAltPathBtn.Content = Strings.get("RemoveNoAltPaths");
+                TranslationHelpers.translate(removeAltPathBtn,"RemoveNoAltPaths");
             }
         }
 
-        private void openBackupPathBtn_Click(object sender, RoutedEventArgs e)
-        {
+        private void openBackupPathBtn_Click(object sender, RoutedEventArgs e) {
             Core.openBackupPath();
         }
 
-        private void resetSteamPathBtn_Click(object sender, RoutedEventArgs e)
-        {
+        private void resetSteamPathBtn_Click(object sender, RoutedEventArgs e) {
             Core.locations.resetSteam();
         }
 
-        private void changeBackupPathBtn_Click(object sender, RoutedEventArgs e)
-        {
-            getWindow().changeBackupPath();
+        private void changeBackupPathBtn_Click(object sender, RoutedEventArgs e) {
         }
 
-        private void changeSteamPathBtn_Click(object sender, RoutedEventArgs e)
-        {
-            if(getWindow().overrideSteamPath()) {
-                Core.redetect_games = true;
-            }
+        private void changeSteamPathBtn_Click(object sender, RoutedEventArgs e) {
         }
-        private void updateBtn_Click(object sender, RoutedEventArgs e)
-        {
-            getWindow().checkUpdates(false,false);
+        private void updateBtn_Click(object sender, RoutedEventArgs e) {
         }
-    
-        protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e)
-        {
+
+        protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e) {
             TextBox txt_box = (TextBox)sender;
             int cursor = txt_box.SelectionStart;
             string new_text = Core.makeNumbersOnly(txt_box.Text);
@@ -124,7 +94,7 @@ namespace MASGAU
         }
 
         protected bool addAltPath() {
-            return WPFHelpers.addAltPath(getWindow());
+            return WPFHelpers.addSavePath(getWindow());
         }
 
         private AWindow getWindow() {

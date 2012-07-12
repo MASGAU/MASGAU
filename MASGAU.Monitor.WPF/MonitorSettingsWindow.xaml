@@ -109,8 +109,8 @@
                                 <ColumnDefinition Width="50" />
                                 <ColumnDefinition Width="40" />
                             </Grid.ColumnDefinitions>
-                            <Button Content="$ChangeButton" Grid.Column="1" Height="23" Margin="1" Name="changeSyncPathButton" TabIndex="8" Click="changeSyncPathButton_Click" />
-                            <Button Content="$OpenButton" Grid.Column="2" Height="23" IsEnabled="{Binding sync_path_set}" Margin="1" Name="openSyncPathButton" TabIndex="9" Click="openSyncPathButton_Click" />
+                            <Button Content="$Change" Grid.Column="1" Height="23" Margin="1" Name="changeSyncPathButton" TabIndex="8" Click="changeSyncPathButton_Click" />
+                            <Button Content="$Open" Grid.Column="2" Height="23" IsEnabled="{Binding sync_path_set}" Margin="1" Name="openSyncPathButton" TabIndex="9"  />
                             <TextBox Height="23" IsReadOnly="True" Margin="1" MaxLines="7" Name="syncPathText" Text="{Binding sync_path, Converter={StaticResource pathValueConverter}}" />
                         </Grid>
                     </GroupBox>
@@ -124,7 +124,7 @@
         </TabControl>
         <StatusBar Grid.ColumnSpan="2" Grid.Row="2" Name="statusBar1" HorizontalContentAlignment="Right" FlowDirection="RightToLeft">
             <StatusBarItem Padding="0">
-                <Button Content="$CloseButton" Grid.Row="2" Height="23" Name="okButton" Width="75" Grid.Column="2" Margin="3" Click="okButton_Click" />
+                <Button Content="$Close" Grid.Row="2" Height="23" Name="okButton" Width="75" Grid.Column="2" Margin="3" Click="okButton_Click" />
             </StatusBarItem>
             <StatusBarItem x:Name="progressStatus" Grid.Column="1" HorizontalContentAlignment="Stretch" Visibility="Collapsed">
                 <Grid>

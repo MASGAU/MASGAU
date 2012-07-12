@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
-        xmlns:arc="clr-namespace:MASGAU.Archive;assembly=MASGAU"
+        xmlns:arc="clr-namespace:MASGAU;assembly=MASGAU"
         Title="$MainWindow" MinWidth="450" MinHeight="415" Width="450" Height="415" Closing="Window_Closing">
     <Window.Resources>
         <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
@@ -30,9 +30,9 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Button Content="$RedetectGamesButton" Grid.Row="1" Height="23" Name="redetectGamesBtn" Margin="1" Click="redetectGamesBtn_Click" TabIndex="4" />
-                    <Button Content="$BackupNoGamesButton" Grid.Column="1" Grid.Row="1" Height="23" Name="backupSelectedBtn" Margin="1" Click="backupSelectedBtn_Click" TabIndex="5" IsEnabled="False" />
-                    <Button Content="$BackupAllGamesButton" Grid.Column="2" Grid.Row="1" Height="23" Name="backupEverythingBtn" Margin="1" Click="backupEverythingBtn_Click" TabIndex="6" IsEnabled="{Binding games_detected}" />
+                    <Button Content="$RedetectGames" Grid.Row="1" Height="23" Name="redetectGamesBtn" Margin="1" Click="redetectGamesBtn_Click" TabIndex="4" />
+                    <Button Content="$BackupGames" Grid.Column="1" Grid.Row="1" Height="23" Name="backupSelectedBtn" Margin="1" TabIndex="5" IsEnabled="False" />
+                    <Button Content="$BackupAllGames" Grid.Column="2" Grid.Row="1" Height="23" Name="backupEverythingBtn" Margin="1" TabIndex="6" IsEnabled="{Binding games_detected}" />
                     <GroupBox Grid.ColumnSpan="3" Header="$DetectedGames" Name="groupBox1">
                         <ListView Name="gamesLst" ItemsSource="{Binding}" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SizeChanged="gamesLst_SizeChanged" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding games_detected}">
                             <ListView.ContextMenu>
@@ -98,7 +98,7 @@
                             </ListView.ItemTemplate>
                         </ListView>
                     </GroupBox>
-                    <Label Content="$NoGamesDetected" Name="noGamesDetectedLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Visibility="{Binding no_games_detected, Converter={StaticResource visibleConverter}}" />
+                    <Label Content="$GamesAreDetecting" Name="noGamesDetectedLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Visibility="{Binding no_games_detected, Converter={StaticResource visibleConverter}}" />
                 </Grid>
             </TabItem>
             <TabItem Header="$Restore" Name="restoreTab" TabIndex="2" Padding="6,2">
@@ -112,9 +112,9 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Button Content="$ReloadArchivesButton" Grid.Row="1" Height="23" Name="reloadArchivesBtn" Margin="1" Click="reloadArchivesBtn_Click" TabIndex="4"  IsEnabled="{Binding backup_path_set}" />
+                    <Button Content="$ReloadArchives" Grid.Row="1" Height="23" Name="reloadArchivesBtn" Margin="1" Click="reloadArchivesBtn_Click" TabIndex="4"  IsEnabled="{Binding backup_path_set}" />
                     <Button Content="$RestoreOtherBackup" Grid.Column="2" Grid.Row="1" Height="23" Name="restoreOtherBtn" Margin="1" Click="restoreOtherBtn_Click" TabIndex="6" />
-                    <Button Content="$RestoreNoneButton" Grid.Column="1" Grid.Row="1" Height="23" Name="restoreSaveBtn" Margin="1" TabIndex="5" Click="restoreSaveBtn_Click" IsEnabled="False" />
+                    <Button Content="$RestoreNone" Grid.Column="1" Grid.Row="1" Height="23" Name="restoreSaveBtn" Margin="1" TabIndex="5" Click="restoreSaveBtn_Click" IsEnabled="False" />
                     <GroupBox Grid.ColumnSpan="3" Header="$SelectArchive" Name="groupBox2">
                         <ListView ItemsSource="{Binding}" Name="restoreLst" ScrollViewer.HorizontalScrollBarVisibility="Disabled" TabIndex="3" SelectionChanged="restoreLst_SelectionChanged" SizeChanged="restoreLst_SizeChanged">
                             <ListView.ItemContainerStyle>
@@ -162,7 +162,7 @@
                             </ListView.View>
                         </ListView>
                     </GroupBox>
-                    <Label Content="$NoArchivesFound" Grid.ColumnSpan="3" Name="noArchivesLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="{Binding no_archives_detected, Converter={StaticResource visibleConverter}}" />
+                    <Label Content="$ArchivesAreScanning" Grid.ColumnSpan="3" Name="noArchivesLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="{Binding no_archives_detected, Converter={StaticResource visibleConverter}}" />
                     <Label Grid.ColumnSpan="3" Name="backupPathNotSetLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Visibility="{Binding backup_path_not_set, Converter={StaticResource visibleConverter}}">
                         <TextBlock TextAlignment="Center">$BackupFolderNotSet</TextBlock>
                     </Label>
@@ -181,8 +181,8 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Button IsEnabled="{Binding exists}" Content="$DeleteTaskButton" Grid.Row="4" Height="23" Name="deleteTaskBtn" Click="deleteTaskBtn_Click" TabIndex="10" Margin="1" />
-                    <Button Content="$ApplyButton" Grid.Column="1" Grid.Row="4" Height="23" Name="applyTaskBtn" TabIndex="11" Click="applyTaskBtn_Click" Margin="1" />
+                    <Button IsEnabled="{Binding exists}" Content="$DeleteTask" Grid.Row="4" Height="23" Name="deleteTaskBtn" Click="deleteTaskBtn_Click" TabIndex="10" Margin="1" />
+                    <Button Content="$Apply" Grid.Column="1" Grid.Row="4" Height="23" Name="applyTaskBtn" TabIndex="11" Click="applyTaskBtn_Click" Margin="1" />
                     <GroupBox Header="$Frequency" Margin="1">
                         <ComboBox ItemsSource="{Binding frequencies}" SelectedItem="{Binding frequency, Mode=TwoWay}" Height="23" Name="frequencyCombo" TabIndex="3" SelectionChanged="frequencyCombo_SelectionChanged" />
                     </GroupBox>
@@ -242,7 +242,7 @@
                         </TabItem>
                     </TabControl>
                     <ComboBox Name="customGamesCombo" Height="23" Grid.ColumnSpan="2" />
-                    <Button Content="$SaveButton" Grid.Column="2" Height="23" Name="button1" Width="75" />
+                    <Button Content="$Save" Grid.Column="2" Height="23" Name="button1" Width="75" />
                 </Grid>
             </TabItem>
             <TabItem Header="$About" Name="aboutTab" TabIndex="2" Padding="6,2">
@@ -262,9 +262,9 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <Label Content="$MASGAUFullTitle" Grid.Row="1" Name="versionLabel" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" />
+                    <Label Content="$MASGAUFull" Grid.Row="1" Name="versionLabel" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" />
                     <TextBlock HorizontalAlignment="Center" Grid.Row="3" Margin="5">
-                        <Hyperlink NavigateUri="http://masgau.org/" Name="siteLink" RequestNavigate="openHyperlink">
+                        <Hyperlink NavigateUri="http://masgau.org/" Name="siteLink">
                             http://masgau.org/
                         </Hyperlink>
                     </TextBlock>
@@ -292,7 +292,7 @@
                 </Grid>
             </StatusBarItem>
             <StatusBarItem Grid.Column="2" HorizontalContentAlignment="Stretch">
-                <Button Width="50" Height="23" Content="$StopButton" Visibility="Collapsed" Name="stopButton" Click="stopButton_Click" />
+                <Button Width="50" Height="23" Content="$Stop" Visibility="Collapsed" Name="stopButton" Click="stopButton_Click" />
             </StatusBarItem>
         </StatusBar>
     </Grid>

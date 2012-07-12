@@ -1,9 +1,6 @@
-using System;
 
-namespace MASGAU
-{
-	public interface IModelItem
-	{
-	}
+namespace MASGAU {
+    public interface IModelItem {
+    }
 }
 

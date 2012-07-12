@@ -40,8 +40,8 @@
                         <ColumnDefinition Width="50" />
                         <ColumnDefinition Width="40" />
                     </Grid.ColumnDefinitions>
-                    <Button Click="changeBackupPathBtn_Click" Content="$ChangeButton" Grid.Column="1" Height="23" Margin="1" Name="changeBackupPathBtn" TabIndex="8" />
-                    <Button Click="openBackupPathBtn_Click" Content="$OpenButton" Grid.Column="2" Height="23" IsEnabled="{Binding backup_path_set}" Margin="1" Name="openBackupPathBtn" TabIndex="9" />
+                    <Button Click="changeBackupPathBtn_Click" Content="$Change" Grid.Column="1" Height="23" Margin="1" Name="changeBackupPathBtn" TabIndex="8" />
+                    <Button Click="openBackupPathBtn_Click" Content="$Open" Grid.Column="2" Height="23" IsEnabled="{Binding backup_path_set}" Margin="1" Name="openBackupPathBtn" TabIndex="9" />
                     <TextBox Height="23" IsReadOnly="True" Margin="1" MaxLines="7" Name="backupPathTxt" Text="{Binding backup_path, Converter={StaticResource pathValueConverter}}" />
                 </Grid>
             </GroupBox>
@@ -53,8 +53,8 @@
                         <ColumnDefinition Width="50" />
                         <ColumnDefinition Width="40" />
                     </Grid.ColumnDefinitions>
-                    <Button Click="changeSteamPathBtn_Click" Content="$ChangeButton" Grid.Column="1" Height="23" Margin="1" Name="changeSteamPathBtn" TabIndex="11" />
-                    <Button Click="resetSteamPathBtn_Click" Content="$ResetButton" Grid.Column="2" Height="23" Margin="1" Name="resetSteamPathBtn" TabIndex="12" ToolTip="Forces MASGAU to get the current Steam folder from the registry" />
+                    <Button Click="changeSteamPathBtn_Click" Content="$Change" Grid.Column="1" Height="23" Margin="1" Name="changeSteamPathBtn" TabIndex="11" />
+                    <Button Click="resetSteamPathBtn_Click" Content="$Reset" Grid.Column="2" Height="23" Margin="1" Name="resetSteamPathBtn" TabIndex="12" ToolTip="Forces MASGAU to get the current Steam folder from the registry" />
                     <TextBox Height="23" IsReadOnly="True" Margin="1" MaxLines="10" Name="steamPathTxt" Text="{Binding steam_path, Converter={StaticResource pathValueConverter}}" />
                 </Grid>
             </GroupBox>

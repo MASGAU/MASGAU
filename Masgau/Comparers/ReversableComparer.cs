@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace MASGAU.Comparers
-{
-    public abstract class ReversableComparer<T>: IComparer<T>
-    {
+namespace MASGAU.Comparers {
+    public abstract class ReversableComparer<T> : IComparer<T> {
         protected Boolean reverse;
         protected ReversableComparer(Boolean reverse) {
             this.reverse = reverse;
@@ -15,7 +11,7 @@ namespace MASGAU.Comparers
         public abstract int Compare(T one, T two);
 
         protected int ReversableCompare(IComparable one, IComparable two) {
-            if(reverse)
+            if (reverse)
                 return two.CompareTo(one);
             else
                 return one.CompareTo(two);

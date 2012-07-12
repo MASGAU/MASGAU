@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using MASGAU.Registry;
 using MVC;
@@ -9,37 +6,46 @@ using MVC;
 namespace MASGAU.Location.Holders {
     public class LocationRegistryHolder : ALocationHolder {
         // Used when delaing with a registry key
-        public RegRoot root = RegRoot.local_machine;
-        public string key, value = null;
+        public string Root { get; protected set; }
+        public string Key { get; protected set; }
+        public string Value { get; protected set; }
 
 
-        public LocationRegistryHolder(XmlElement element): base(element)
-        {
-
-            this.root = parseRegRoot(element.GetAttribute("root"));
-            this.key = element.GetAttribute("key");
-            if (element.HasAttribute("value"))
-                this.value = element.GetAttribute("value");
-            else
-                this.value = null;
-
-
+        public LocationRegistryHolder(XmlElement element)
+            : base(element) {
+            foreach (XmlAttribute attrib in element.Attributes) {
+                switch (attrib.Name) {
+                    case "root":
+                        Root = attrib.Value;
+                        break;
+                    case "key":
+                        Key = attrib.Value;
+                        break;
+                    case "value":
+                        Value = attrib.Value;
+                        break;
+                    case "only_for":
+                    case "detract":
+                    case "append":
+                        break;
+                    default:
+                        throw new NotSupportedException(attrib.Name);
+                }
+            }
         }
         public override int CompareTo(AModelItem<StringID> comparable) {
             LocationRegistryHolder location = (LocationRegistryHolder)comparable;
-            int result = compare(root, location.root);
+            int result = compare(Root, location.Root);
             if (result == 0)
-                result = compare(key, location.key);
+                result = compare(Key, location.Key);
             if (result == 0)
-                result = compare(value, location.value);
+                result = compare(Value, location.Value);
 
             return result;
         }
 
-        public RegRoot parseRegRoot(string parse_me)
-        {
-            switch (parse_me.ToLower())
-            {
+        public RegRoot parseRegRoot(string parse_me) {
+            switch (parse_me.ToLower()) {
                 case "classes_root":
                     return RegRoot.classes_root;
                 case "current_user":

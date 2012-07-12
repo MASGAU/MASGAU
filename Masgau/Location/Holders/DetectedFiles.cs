@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Collections;
 
 namespace MASGAU.Location.Holders {
-    public class DetectedFiles: DictionaryList<string,DetectedFile>{
-        public KeyCollection Keys {
+    public class DetectedFiles : DictionaryList<string, DetectedFile> {
+        public new KeyCollection Keys {
             get {
                 throw new NotImplementedException("NO KEYS FOR YOU");
             }
@@ -52,9 +50,9 @@ namespace MASGAU.Location.Holders {
 
         public void Remove(DetectedFile file) {
             List<DetectedFile> files;
-            if(file.type==null) {
+            if (file.type == null) {
                 files = null_type;
-            } else if(this.ContainsKey(file.type)) {
+            } else if (this.ContainsKey(file.type)) {
                 files = this[file.type];
             } else {
                 return;

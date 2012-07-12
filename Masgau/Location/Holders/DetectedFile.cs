@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 
 namespace MASGAU.Location.Holders {
@@ -12,7 +9,7 @@ namespace MASGAU.Location.Holders {
 
         public DetectedFile(DetectedLocationPathHolder location, string type)
             : base(location) {
-            abs_root = location.full_dir_path;
+            AbsoluteRoot = location.full_dir_path;
             owner = location.owner;
             this.type = type;
         }
@@ -27,7 +24,7 @@ namespace MASGAU.Location.Holders {
         public string type;
 
         public override string ToString() {
-            return Path.Combine(base.ToString(), name);
+            return System.IO.Path.Combine(base.ToString(), name);
         }
 
         // Gets the full path, including file name
@@ -35,13 +32,11 @@ namespace MASGAU.Location.Holders {
             get {
                 if (full_dir_path != null) {
                     if (name != null && name != "") {
-                        return Path.Combine(full_dir_path, name);
-                    }
-                    else {
+                        return System.IO.Path.Combine(full_dir_path, name);
+                    } else {
                         return full_dir_path;
                     }
-                }
-                else {
+                } else {
                     return null;
                 }
             }
@@ -54,8 +49,7 @@ namespace MASGAU.Location.Holders {
         public new void delete() {
             try {
                 Directory.Delete(full_file_path, true);
-            }
-            catch (Exception e) {
+            } catch (Exception e) {
                 throw new Translator.TranslateableException("DeleteError", e, full_file_path);
             }
         }

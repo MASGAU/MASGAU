@@ -1,19 +1,15 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using System.Text;
 using System.Xml;
-using MASGAU.Location;
-using MASGAU.Archive;
-using MASGAU.Config;
-using MASGAU.Monitor;
-using MASGAU.Update;
-using MASGAU.Game;
-using MASGAU.Task;
 using System.Xml.Schema;
+using MASGAU.Config;
+using MASGAU.Location;
+using MASGAU.Monitor;
+//using MASGAU.Task;
+using MASGAU.Update;
 
-namespace MASGAU
-{
+namespace MASGAU {
     // This basically sets up all the static classes that are used all over MASGAU
     // I'd like to consolidate as much function into this class as possible,
     // but I don't want it to unnecessarily become a convoluted highway of 
@@ -28,16 +24,17 @@ namespace MASGAU
         public const string seperator = "«";
         public const string owner_seperator = "@";
         public const string version = "0.10";
-        public const string site_url = "http://masgau.org/";
-        public const string submission_email = "submissions@masgau.org";
+        public const string masgau_url = "http://masgau.org/";
+        public const string gamesaveinfo_url = "http://gamesave.info/";
+        public const string submission_email = "submissions@gamesave.info";
 
         // Portable-related settings
-        public static bool portable_mode {get; protected set;}
-        public static string config_location {get; protected set;}
+        public static bool portable_mode { get; protected set; }
+        public static string config_location { get; protected set; }
 
         public static UpdateVersion program_version = new UpdateVersion(0, 10, 0);
 
-        public static UpdateVersion update_compatibility = new UpdateVersion(1, 1, 0);
+        public static UpdateVersion update_compatibility = new UpdateVersion(2, 0, 0);
 
         // This stores the names of the various programs in masgau
         public static ProgramNames programs = new ProgramNames();
@@ -49,12 +46,10 @@ namespace MASGAU
         private static OperatingSystem os = OperatingSystem.Windows;
 
         // Shared super-objects
-        public static GamesHandler games;
         public static ALocationsHandler locations;
-        public static SettingsHandler settings;
-        public static ArchivesHandler archives;
+        public static Settings.Settings settings;
         public static UpdatesHandler updater;
-        public static TaskHandler task;
+        //public static TaskHandler task;
         public static MonitorHandler monitor;
 
         // Indicates wether we're running in all users mode
@@ -93,6 +88,7 @@ namespace MASGAU
 
         #endregion
 
+        public static Email.EmailHandler email { get; protected set; }
 
         static Core() {
             portable_mode = false;
@@ -101,7 +97,7 @@ namespace MASGAU
             // Checks if the command line indicates we should be running in all users mode
             string[] args = Environment.GetCommandLineArgs();
             for (int i = 0; i < args.Length; i++) {
-                switch(args[i]) {
+                switch (args[i]) {
                     case "-allusers":
                         all_users_mode = true;
                         break;
@@ -110,7 +106,7 @@ namespace MASGAU
                         break;
                     case "-config":
                         i++;
-                        if(args.Length>i)
+                        if (args.Length > i)
                             config_location = args[i];
                         break;
                 }
@@ -120,18 +116,21 @@ namespace MASGAU
 
             app_path = Path.GetDirectoryName(temp.Location);
 
-            xml_settings.ConformanceLevel = ConformanceLevel.Auto;
-            xml_settings.IgnoreWhitespace = true;
-            xml_settings.IgnoreComments = true;
-            xml_settings.IgnoreProcessingInstructions = false;
-            xml_settings.DtdProcessing = DtdProcessing.Parse;
-            //xml_settings.ProhibitDtd = false;
-            xml_settings.ValidationType = ValidationType.Schema;
-            xml_settings.ValidationFlags |= XmlSchemaValidationFlags.ProcessIdentityConstraints;
-            xml_settings.ValidationFlags |= XmlSchemaValidationFlags.ProcessSchemaLocation;
-            xml_settings.ValidationEventHandler += new ValidationEventHandler(validationHandler);
 
-            settings = new SettingsHandler();
+            global::Config.ConfigMode mode;
+            if(portable_mode) {
+                mode = global::Config.ConfigMode.PortableApps;
+            } else  {
+                if(all_users_mode) {
+                    mode = global::Config.ConfigMode.AllUsers;
+                } else {
+                    mode = global::Config.ConfigMode.SingleUser;
+                }
+            }
+            settings = new Settings.Settings(mode);
+
+            email = new Email.EmailHandler(Core.settings.email, Core.submission_email);
+
         }
 
         protected Core(Interface new_interface) {
@@ -141,12 +140,9 @@ namespace MASGAU
 
         private static void prepareProgramNames(Interface iface) {
             string bin_root = app_path;
-            programs.analyzer = Path.Combine(bin_root, "MASGAU.Analyzer." + iface + ".exe");
             programs.main = Path.Combine(bin_root, "MASGAU.Main." + iface + ".exe");
-            programs.monitor = Path.Combine(bin_root, "MASGAU.Monitor." + iface + ".exe");
             programs.updater = Path.Combine(bin_root, "MASGAU.Updater." + iface + ".exe");
             programs.restore = Path.Combine(bin_root, "MASGAU.Restore." + iface + ".exe");
-            programs.backup = Path.Combine(bin_root, "MASGAU.Console." + os + ".exe");
         }
 
         public static string makeNumbersOnly(string remove) {
@@ -155,8 +151,7 @@ namespace MASGAU
             for (int i = 0; i < remove.Length; i++) {
                 try {
                     Int64.Parse(remove.Substring(i, 1));
-                }
-                catch {
+                } catch {
                     remove = remove.Remove(i, 1);
                     i--;
                 }
@@ -173,32 +168,10 @@ namespace MASGAU
         public static void openSteamPath() {
             openPath(Core.settings.steam_path);
         }
-        public static void openSyncPath() {
-            openPath(Core.settings.sync_path);
-        }
+        //public static void openSyncPath() {
+        //    openPath(Core.settings.sync_path);
+        //}
         #endregion
-		
-
-        // Event handler to take care of XML errors while reading game configs
-        private static void validationHandler(object sender, ValidationEventArgs args){
-            throw new XmlException(args.Message);
-        }
-
-        private static XmlReaderSettings xml_settings = new XmlReaderSettings();
-        public static XmlDocument readXmlFile(string name) {
-            XmlDocument game_config = new XmlDocument();
-            XmlReader parse_me = XmlReader.Create(name, xml_settings);
-            try {
-                game_config.Load(parse_me);
-                return game_config;
-            } catch (XmlException ex) {
-                IXmlLineInfo info = parse_me as IXmlLineInfo;
-                throw new XmlException("The file " + name + " has produced this error:" + Environment.NewLine + ex.Message + Environment.NewLine + "The error is on or near line " + info.LineNumber + ", possibly at column " + info.LinePosition + "." + Environment.NewLine + "Go fix it.");
-            } finally {
-                parse_me.Close();
-            }
-        }
-
 
 
     }

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using MVC;
+﻿using MVC;
 
-namespace MASGAU.Game {
+namespace MASGAU {
     public class ContributorHandler : AModelItem {
         private string _name;
         public string name {
@@ -23,12 +19,13 @@ namespace MASGAU.Game {
             }
         }
 
-        public ContributorHandler(string name, int count): base(name) {
+        public ContributorHandler(string name, int count)
+            : base(name) {
             this.name = name;
             this.count = count;
         }
 
-        
+
         public static int Compare(ContributorHandler a, ContributorHandler b) {
             // This goes a little weird due to sorting by count first
             int result = compare(b.count, a.count);

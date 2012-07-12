@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 using System.Xml;
 namespace MASGAU.Location.Holders {
     public abstract class PlayStationID : LocationPathHolder {
         public string prefix, suffix, append = null, type = null;
-        protected PlayStationID(XmlElement element)
-        {
+        protected PlayStationID(XmlElement element) {
             this.prefix = element.GetAttribute("prefix");
             this.suffix = element.GetAttribute("suffix");
 
@@ -18,12 +14,11 @@ namespace MASGAU.Location.Holders {
         }
 
 
-        protected string SavePattern()
-        {
+        protected string SavePattern() {
             StringBuilder pattern = new StringBuilder();
             pattern.Append(prefix);
             pattern.Append(suffix);
-            if(append!=null) {
+            if (append != null) {
                 pattern.Append(append);
             }
             pattern.Append("*");
@@ -35,7 +30,7 @@ namespace MASGAU.Location.Holders {
             pattern.Append(prefix);
             pattern.Append("?");
             pattern.Append(suffix);
-            if(append!=null) {
+            if (append != null) {
                 pattern.Append(append);
             }
             pattern.Append("*");
@@ -48,29 +43,25 @@ namespace MASGAU.Location.Holders {
 
     public class PlayStation1ID : PlayStationID {
         public PlayStation1ID(XmlElement element) : base(element) { }
-        public override string ToString()
-        {
+        public override string ToString() {
             return ExportPattern();
         }
     }
     public class PlayStation2ID : PlayStationID {
         public PlayStation2ID(XmlElement element) : base(element) { }
-        public override string ToString()
-        {
+        public override string ToString() {
             return ExportPattern();
         }
     }
     public class PlayStation3ID : PlayStationID {
         public PlayStation3ID(XmlElement element) : base(element) { }
-        public override string ToString()
-        {
+        public override string ToString() {
             return SavePattern();
         }
     }
     public class PlayStationPortableID : PlayStationID {
         public PlayStationPortableID(XmlElement element) : base(element) { }
-        public override string ToString()
-        {
+        public override string ToString() {
             return SavePattern();
         }
     }
