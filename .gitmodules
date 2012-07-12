@@ -5,3 +5,30 @@
 [submodule "Data/Data"]
 	path = Data/Data
 	url = https://github.com/GameSaveInfo/Data.git
+[submodule "Libs/Collections"]
+	path = Libs/Collections
+	url = https://github.com/sanmadjack/Collections.CSharp.git
+[submodule "Libs/Communication"]
+	path = Libs/Communication
+	url = https://github.com/sanmadjack/Communication.CSharp.git
+[submodule "Libs/Communication.WPF"]
+	path = Libs/Communication.WPF
+	url = https://github.com/sanmadjack/Communication.WPF.CSharp
+[submodule "Libs/Config"]
+	path = Libs/Config
+	url = https://github.com/sanmadjack/Config.CSharp.git
+[submodule "Libs/Email"]
+	path = Libs/Email
+	url = https://github.com/sanmadjack/Email.CSharp
+[submodule "Libs/Exceptions"]
+	path = Libs/Exceptions
+	url = https://github.com/sanmadjack/Exceptions.CSharp.git
+[submodule "Libs/Logger"]
+	path = Libs/Logger
+	url = https://github.com/sanmadjack/Logger.CSharp.git
+[submodule "Libs/MVC"]
+	path = Libs/MVC
+	url = https://github.com/sanmadjack/MVC.CSharp.git
+[submodule "Libs/Translator"]
+	path = Libs/Translator
+	url = https://github.com/sanmadjack/Translator.CSharp.git
