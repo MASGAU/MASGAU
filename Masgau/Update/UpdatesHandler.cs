@@ -142,7 +142,8 @@ namespace MASGAU.Update {
                 foreach (XmlElement element in files_node.ChildNodes) {
                     switch (element.Name) {
                         case "program":
-                            program.setLatestVersion(element);
+                            if(element.Attributes["stable"].Value==Core.stable)
+                                program.setLatestVersion(element);
                             break;
                         case "file":
                             string name;
