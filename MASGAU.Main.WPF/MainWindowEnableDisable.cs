@@ -28,7 +28,7 @@ namespace MASGAU.Main {
 
         void  cancellable_item_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
-            BackgroundWorker worker = (BackgroundWorker)sender;
+            System.ComponentModel.BackgroundWorker worker = (System.ComponentModel.BackgroundWorker)sender;
             worker.RunWorkerCompleted -=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
             cancellables.Remove(worker); 	        
         }

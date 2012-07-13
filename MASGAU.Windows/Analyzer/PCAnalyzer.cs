@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.IO;
 using Communication;
+using Communication.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Registry;
@@ -17,6 +18,7 @@ namespace MASGAU.Analyzer {
             base.analyzerWork();
 
             if (Core.locations.uac_enabled) {
+                TranslatingProgressHandler.setTranslatedMessage("DumpingVirtualStore");
                 outputLine(Environment.NewLine + "UAC Enabled" + Environment.NewLine);
                 outputLine(Environment.NewLine + "VirtualStore Folders: ");
                 string virtual_path;
@@ -37,6 +39,7 @@ namespace MASGAU.Analyzer {
             }
 
             try {
+                TranslatingProgressHandler.setTranslatedMessage("AnalyzingRegistry");
                 ProgressHandler.value++;
                 searchRegistry();
             } catch (Exception ex) {
@@ -45,6 +48,7 @@ namespace MASGAU.Analyzer {
             }
 
             try {
+                TranslatingProgressHandler.setTranslatedMessage("AnalyzingStartMenu");
                 ProgressHandler.value++;
                 searchStartMenu();
             } catch (Exception ex) {
@@ -59,12 +63,15 @@ namespace MASGAU.Analyzer {
             if (worker.CancellationPending)
                 return;
 
+            TranslatingProgressHandler.setTranslatedMessage("AnalyzingLocalMachineRegistry");
             outputLine("Local Machine Registry Entries: ");
             RegistryKey look_here = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE");
             registryTraveller(look_here);
 
             if (worker.CancellationPending)
                 return;
+
+            TranslatingProgressHandler.setTranslatedMessage("AnalyzingCurrentUserRegistry");
             outputLine("Current User Registry Entries: ");
             ProgressHandler.value++;
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using Communication;
+using Communication.Translator;
 namespace MASGAU.Analyzer {
     public class PSAnalyzer : AAnalyzer {
 
@@ -19,6 +20,7 @@ namespace MASGAU.Analyzer {
 
         private void outputPsFolder(Location.EnvironmentVariable ev, string name) {
             List<string> paths = Core.locations.getPaths(ev);
+            TranslatingProgressHandler.setTranslatedMessage("AnalyzingPlayStationSaves");
             ProgressHandler.value++;
             outputLine(Environment.NewLine + "Dumping Detected " + name + " Folders: ");
             foreach (string path in paths) {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using Communication;
+using Communication.Translator;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {
         protected string title, install_path, save_path;
@@ -28,6 +29,7 @@ namespace MASGAU.Analyzer {
             outputPath(save_path);
             outputLine();
             try {
+                TranslatingProgressHandler.setTranslatedMessage("AnalyzingScummVM");
                 ProgressHandler.value++;
                 outputLine(Environment.NewLine + "ScummVM Path Entries: ");
                 scanForScumm(save_path);
@@ -36,6 +38,7 @@ namespace MASGAU.Analyzer {
                 recordException(ex);
             }
             try {
+                TranslatingProgressHandler.setTranslatedMessage("DumpingSaveFolder");
                 ProgressHandler.value++;
                 outputLine(Environment.NewLine + "Save Folder Dump: ");
                 travelFolder(save_path);
@@ -45,6 +48,7 @@ namespace MASGAU.Analyzer {
             }
 
             try {
+                TranslatingProgressHandler.setTranslatedMessage("DumpingInstallFolder");
                 ProgressHandler.value++;
                 outputLine(Environment.NewLine + "Install Folder Dump: ");
                 travelFolder(install_path);
