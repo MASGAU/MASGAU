@@ -179,6 +179,10 @@
       <Project>{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}</Project>
       <Name>Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Libs\Email.WPF\Email.WPF.csproj">
+      <Project>{BE36FFC8-73AA-4234-BF12-342BF3223D00}</Project>
+      <Name>Email.WPF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Libs\Email\Email.csproj">
       <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
       <Name>Email</Name>

@@ -150,6 +150,8 @@ namespace MASGAU.Main {
         #endregion
 
         #region button check
+
+
         private void buttonCheck(object sender, TextChangedEventArgs e) {
             buttonCheck();
         }
@@ -245,12 +247,18 @@ namespace MASGAU.Main {
             }
         }
         private void ReportEmailButton_Click(object sender, RoutedEventArgs e) {
+            if(Core.settings.email==null) {
+                Email.WPF.EmailWPFHelper.getEmail(this, Core.settings);
+                if(Core.settings.email==null)
+                    return;
+            }
+            Email.EmailHandler email = new Email.EmailHandler(Core.settings.email, Core.submission_email);
             StringBuilder body = new StringBuilder();
             body.AppendLine(analyzer.report);
 
             ReportEmailButton.IsEnabled = false;
             TranslationHelpers.translate(ReportEmailButton,"SendingReport");
-            Core.email.sendEmail("MASGAU - " + AnalyzerTitle, body.ToString(), sendEmailDone);
+            email.sendEmail("Game Data - " + AnalyzerTitle, body.ToString(), sendEmailDone);
         }
 
         private void sendEmailDone(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e) {
@@ -258,7 +266,14 @@ namespace MASGAU.Main {
                 TranslationHelpers.translate(ReportEmailButton,"CantSendReport");
                 displayError("Error time", e.Error.Message);
             } else {
-                TranslationHelpers.translate(ReportEmailButton,"ReportSent");
+                switch ((Email.EmailResponse)e.Result) {
+                    case Email.EmailResponse.EmailSent:
+                        TranslationHelpers.translate(ReportEmailButton, "ReportSent");
+                        break;
+                    default:
+                        TranslationHelpers.translate(ReportEmailButton, "CantSendReport");
+                        break;
+                }
             }
             ReportEmailButton.IsEnabled = false;
         }
