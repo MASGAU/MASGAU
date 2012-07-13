@@ -23,16 +23,19 @@ namespace MASGAU {
         public const string extension = ".gb7";
         public const string seperator = "«";
         public const string owner_seperator = "@";
-        public const string version = "0.10";
+        public const string version = "1.0";
         public const string masgau_url = "http://masgau.org/";
         public const string gamesaveinfo_url = "http://gamesave.info/";
         public const string submission_email = "submissions@gamesave.info";
+
+        public const string stable = "false";
+
 
         // Portable-related settings
         public static bool portable_mode { get; protected set; }
         public static string config_location { get; protected set; }
 
-        public static UpdateVersion program_version = new UpdateVersion(0, 10, 0);
+        public static UpdateVersion program_version = new UpdateVersion(1, 0, 0);
 
         public static UpdateVersion update_compatibility = new UpdateVersion(2, 0, 0);
 
