@@ -105,9 +105,9 @@
                     <r:RibbonButton Label="$PlayStationDetection" IsEnabled="False" />
                 </r:RibbonGroup>
                 <r:RibbonGroup Name="AnalyzerGameTitleGroup" Header="$AnalyzerGameTitle">
-                    <r:RibbonTextBox Name="AnalyzerGameTitle"  IsReadOnly="False" />
+                    <r:RibbonTextBox Name="AnalyzerGameTitle"  IsReadOnly="False" TextChanged="buttonCheck" />
                 </r:RibbonGroup>
-                <r:RibbonGroup x:Name="WindowsPathGroup" Header="$Paths">
+                <r:RibbonGroup x:Name="WindowsPathGroup" Header="$AnalyzerPaths">
                     <r:RibbonControlGroup Margin="0,3,0,0">
                         <r:RibbonTextBox Name="InstallPath" TextBoxWidth="200" IsReadOnly="True" TextChanged="buttonCheck" />
                         <r:RibbonMenuButton Label="$SelectInstallLocation" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-open.png" >
@@ -134,7 +134,7 @@
                 <r:RibbonGroup>
                     <r:RibbonButton Name="AnalyzeButton" Label="$Analyze" IsEnabled="False" LargeImageSource="/MASGAU.Main.WPF;component/Images/system-search.png" Click="AnalyzeButton_Click" />
                 </r:RibbonGroup>
-                <r:RibbonGroup Name="AnalyzerReportGroup" Header="$Report" Visibility="Collapsed">
+                <r:RibbonGroup Name="AnalyzerReportGroup" Visibility="Collapsed">
                     <r:RibbonButton Name="ReportSaveButton" Label="$SaveReport" LargeImageSource="/MASGAU.Main.WPF;component/Images/document-save.png" Click="ReportSaveButton_Click" />
                     <r:RibbonButton Name="ReportEmailButton" Label="$EmailReport" LargeImageSource="/MASGAU.Main.WPF;component/Images/mail-forward.png" Click="ReportEmailButton_Click" />
                 </r:RibbonGroup>
