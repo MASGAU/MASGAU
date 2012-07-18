@@ -225,19 +225,15 @@ namespace MASGAU.Location {
                 add_me.setEvFolder(EnvironmentVariable.Desktop, user_key.getValue("Desktop"));
                 add_me.setEvFolder(EnvironmentVariable.StartMenu, user_key.getValue("Start Menu"));
 
+                DirectoryInfo ubisoft_save = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.LocalAppData), @"Ubisoft Game Launcher\savegame_storage"));
+                if (ubisoft_save.Exists) {
+                    add_me.setEvFolder(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save);
+                }
+
+
                 DirectoryInfo flash_share = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.AppData), @"Macromedia\Flash Player\#SharedObjects"));
                 if (flash_share.Exists) {
-                    DirectoryInfo[] flash_users = flash_share.GetDirectories();
-                    switch (flash_users.Length) {
-                        case 0:
-                            break;
-                        case 1:
-                            add_me.setEvFolder(EnvironmentVariable.FlashShared, flash_users[0].FullName);
-                            break;
-                        default:
-                            add_me.setEvFolder(EnvironmentVariable.FlashShared, flash_users[0].FullName);
-                            break;
-                    }
+                    add_me.setEvFolder(EnvironmentVariable.FlashShared, flash_share);
                 }
 
                 add_me.setEvFolder(EnvironmentVariable.LocalAppData, user_key.getValue("Local AppData"));

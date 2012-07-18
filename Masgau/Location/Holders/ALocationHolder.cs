@@ -125,6 +125,8 @@ namespace MASGAU.Location.Holders {
                     return EnvironmentVariable.StartMenu;
                 case "desktop":
                     return EnvironmentVariable.Desktop;
+                case "ubisoftsavestorage":
+                    return EnvironmentVariable.UbisoftSaveStorage;
             }
             throw new NotImplementedException("Unrecognized environment variable: " + parse_me);
         }

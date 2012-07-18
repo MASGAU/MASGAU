@@ -24,6 +24,7 @@ namespace MASGAU.Location {
         StartMenu,
 
         FlashShared,
+        UbisoftSaveStorage,
 
         VirtualStore,
 

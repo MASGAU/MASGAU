@@ -72,6 +72,7 @@
     <Compile Include="Game\GameXmlFile.cs" />
     <Compile Include="IWindow.cs" />
     <Compile Include="Location\AScummVMLocationHandler.cs" />
+    <Compile Include="Location\EvFolder.cs" />
     <Compile Include="Location\Holders\FileTypeHolder.cs" />
     <Compile Include="Location\Holders\ScummVMHolder.cs" />
     <Compile Include="QuickHash.cs" />

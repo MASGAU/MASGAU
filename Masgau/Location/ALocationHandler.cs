@@ -162,26 +162,26 @@ namespace MASGAU.Location {
             LocationPathHolder new_location;
             if (ready) {
                 // this needs to be able to interpret user paths too!
-                foreach (KeyValuePair<EnvironmentVariable, string> variable in global.folders) {
-                    if (variable.Value != null && matches(variable.Value, interpret_me)) {
+                foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in global.folders) {
+                    if (variable.Value != null && matches(variable.Value.getFolder(), interpret_me)) {
                         new_location = new LocationPathHolder();
                         new_location.rel_root = variable.Key;
-                        if (interpret_me.Length == variable.Value.Length)
+                        if (interpret_me.Length == variable.Value.getFolder().Length)
                             new_location.Path = "";
                         else
-                            new_location.Path = interpret_me.Substring(variable.Value.Length + 1);
+                            new_location.Path = interpret_me.Substring(variable.Value.getFolder().Length + 1);
                         return_me.AddRange(getPaths(new_location));
                     }
                 }
                 foreach (UserData user in this) {
-                    foreach (KeyValuePair<EnvironmentVariable, string> variable in user.folders) {
-                        if (variable.Value != null && matches(variable.Value, interpret_me)) {
+                    foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in user.folders) {
+                        if (variable.Value != null && matches(variable.Value.getFolder(), interpret_me)) {
                             new_location = new LocationPathHolder();
                             new_location.rel_root = variable.Key;
-                            if (interpret_me.Length == variable.Value.Length)
+                            if (interpret_me.Length == variable.Value.getFolder().Length)
                                 new_location.Path = "";
                             else
-                                new_location.Path = interpret_me.Substring(variable.Value.Length + 1);
+                                new_location.Path = interpret_me.Substring(variable.Value.getFolder().Length + 1);
                             return_me.AddRange(getPaths(new_location));
                         }
                     }
