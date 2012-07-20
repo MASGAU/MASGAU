@@ -14,7 +14,7 @@ namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
     /// </summary>
-    public partial class MainWindowNew : RibbonWindow, IWindow {
+    public partial class MainWindowNew : Window, IWindow {
         MainProgramHandler masgau;
         public MainWindowNew() {
             InitializeComponent();
@@ -33,6 +33,8 @@ namespace MASGAU.Main {
             WPFCommunicationHelpers.default_progress_color = progress.Foreground;
 
             // Insert code required on object creation below this point.
+
+            appMenu.SmallImageSource = this.Icon;
 
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);
             this.Closing += new CancelEventHandler(Window_Closing);
@@ -157,6 +159,34 @@ namespace MASGAU.Main {
         private void ChangeBackupFolder_Click(object sender, RoutedEventArgs e) {
             this.changeBackupPath();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void LayoutRoot_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
+            DragMove();
+        }
+
+        private void minimizeButton_Click(object sender, RoutedEventArgs e) {
+            if (this.WindowState == System.Windows.WindowState.Minimized)
+                this.WindowState = System.Windows.WindowState.Normal;
+            else
+                this.WindowState = System.Windows.WindowState.Minimized;
+
+        }
+
+        private void maximizeButton_Click(object sender, RoutedEventArgs e) {
+            if(this.WindowState == System.Windows.WindowState.Maximized)
+                this.WindowState = System.Windows.WindowState.Normal;
+            else
+                this.WindowState = System.Windows.WindowState.Maximized;
+        }
+
+        private void closeButton_Click(object sender, RoutedEventArgs e) {
+            this.Close();
+        }
+
 
 
     }

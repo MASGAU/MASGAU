@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows;
 
 namespace MASGAU {
     public class Application : System.Windows.Application {
@@ -20,8 +21,8 @@ namespace MASGAU {
                 }
             } else {
             }
-
             Environment.CurrentDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
         }
+
     }
 }

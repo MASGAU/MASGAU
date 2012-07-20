@@ -21,7 +21,7 @@ namespace MASGAU.Main {
         public void disableInterface(System.ComponentModel.BackgroundWorker cancellable_item) {
             cancellables.Add(cancellable_item);
             cancellable_item.RunWorkerCompleted +=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
-            Translator.WPF.TranslationHelpers.translate(CancelText, "Stop");
+            Translator.WPF.TranslationHelpers.translate(CancelButton.Label, "Stop");
             setInterfaceEnabledness(false);
             Communication.ProgressHandler.saveMessage();
         }
@@ -59,7 +59,7 @@ namespace MASGAU.Main {
                 blur.Radius = 10;
             }
 
-            progress.Effect = blur;
+            //progress.Effect = blur;
 
             //ribbon.Effect = blur;
             //subGrid.Effect = blur;
@@ -74,7 +74,7 @@ namespace MASGAU.Main {
 
         private void cancelWorkers() {
             CancelButton.IsEnabled = false;
-            Translator.WPF.TranslationHelpers.translate(CancelText, "Stopping");
+            Translator.WPF.TranslationHelpers.translate(CancelButton.Label, "Stopping");
             foreach (BackgroundWorker worker in cancellables) {
                 worker.CancelAsync();
             }

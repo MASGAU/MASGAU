@@ -4,6 +4,10 @@
             xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
              StartupUri="MainWindowNew.xaml">
     <Application.Resources>
-         
-    </Application.Resources>
+            <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="/PresentationFramework.Aero;component\themes/aero.normalcolor.xaml" />
+                </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+        </Application.Resources>
 </src:Application>

@@ -13,6 +13,8 @@ namespace MASGAU.Main {
         }
 
         private void UpdateAvailableButton_Click(object sender, RoutedEventArgs e) {
+            this.WindowStyle = System.Windows.WindowStyle.None;
+
             if (result == UpdateAvailability.None)
                 return;
 
