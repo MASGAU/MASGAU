@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Media.Effects;
-
+using MASGAU.Effects;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         private bool disabled;
@@ -39,25 +39,33 @@ namespace MASGAU.Main {
             statusBarLabel.Content = Communication.ProgressHandler.message;
         }
 
+        double timing = 5.0;
 
         private void setInterfaceEnabledness(bool status) {
             BlurEffect blur;
             disabled = !status;
             CancelButton.IsEnabled = !status;
+            ribbon.IsEnabled = status;
+            GameGrid.IsEnabled = status;
+            ArchiveGrid.IsEnabled = status;
 
             System.Windows.Visibility a, b;
+            FadeEffect fade;
             if (status) {
                 // this is when enabled
+                fade = new FadeOutEffect(timing);
                 a = System.Windows.Visibility.Collapsed;
                 b = System.Windows.Visibility.Visible;
                 blur = null;
             } else {
+                fade = new FadeInEffect(timing);
                 // this is when disabled
                 a = System.Windows.Visibility.Visible;
                 b = System.Windows.Visibility.Collapsed;
                 blur = new BlurEffect();
                 blur.Radius = 10;
             }
+            fade.Start(DisablerGrid);
 
             //progress.Effect = blur;
 
@@ -65,7 +73,7 @@ namespace MASGAU.Main {
             //subGrid.Effect = blur;
 
             CancelButton.Visibility = a;
-            DisablerGrid.Visibility = a;
+//            DisablerGrid.Visibility = a;
         }
 
         private void CancelButton_Click_1(object sender, RoutedEventArgs e) {

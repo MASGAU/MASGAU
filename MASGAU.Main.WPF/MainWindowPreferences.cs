@@ -5,13 +5,14 @@ using System.Windows.Documents;
 using MASGAU.Location.Holders;
 using Translator;
 using Translator.WPF;
+using Microsoft.Windows.Controls.Ribbon;
 
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         public void bindSettingsControls() {
             //ignoreDatesChk.DataContext = Core.settings;
             //backupPathTxt.DataContext = Core.settings;
-            //openBackupPathBtn.DataContext = Core.settings;
+            //openBackupPathBtn.DataCont Core.settings;
             //steamPathTxt.DataContext = Core.settings;
 
             //extraBackupsTgl.DataContext = Core.settings;
@@ -22,6 +23,36 @@ namespace MASGAU.Main {
             //emailTxt.DataContext = Core.settings;
 
             //altPathLst.DataContext = Core.settings.save_paths;
+        }
+
+        private void populateAltPaths() {
+            AltSaveButton.Items.Clear();
+            AltSaveButton.Items.Add(AddAltSaveFolder);
+            foreach (AltPathHolder alt in Core.settings.save_paths) {
+                RibbonMenuItem item = new RibbonMenuItem();
+                item.Header = Strings.GetLabelString("RemoteAltSavePath", alt.path);
+                item.Click += new RoutedEventHandler(item_Click);
+                AltSaveButton.Items.Add(item);
+            }
+        }
+
+        void item_Click(object sender, RoutedEventArgs e) {
+
+            throw new System.NotImplementedException();
+        }
+
+        private void OverrideSteamButton_Click(object sender, RoutedEventArgs e) {
+            overrideSteamPath();
+            setupSteamButton();
+        }
+        protected void setupSteamButton() {
+            if (Core.locations.steam_detected) {
+                OverrideSteamButton.ToolTip = Strings.GetToolTipString("SteamFound", Core.locations.steam_path);
+                SteamImage.Opacity = 1.0;
+            } else {
+                OverrideSteamButton.ToolTip = Strings.GetToolTipString("SteamNotFound");
+                SteamImage.Opacity = 0.5;
+            }
         }
 
         #region Path choosing stuff
@@ -187,6 +218,19 @@ namespace MASGAU.Main {
             if (this.overrideSteamPath()) {
                 Core.redetect_games = true;
             }
+        }
+
+        private void ChangeSyncFolder_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void OpenSyncFolder_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void AddAltSaveFolder_Click(object sender, RoutedEventArgs e) {
+            addAltPath();
+            populateAltPaths();
         }
         protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e) {
             TextBox txt_box = (TextBox)sender;

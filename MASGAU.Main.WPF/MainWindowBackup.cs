@@ -104,6 +104,7 @@ namespace MASGAU.Main {
 
         void backup_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
             endOfOperations();
+            updateArchiveList();
         }
 
 

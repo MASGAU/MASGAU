@@ -26,7 +26,7 @@ namespace MASGAU {
 
 
         public AWindow(IWindow owner)
-            : base(owner) {
+            : base(owner, Core.settings) {
             TabItem from_me = new TabItem();
             from_me.BeginInit();
             from_me.EndInit();

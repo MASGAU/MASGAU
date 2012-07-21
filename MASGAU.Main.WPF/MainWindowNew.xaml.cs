@@ -14,7 +14,7 @@ namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
     /// </summary>
-    public partial class MainWindowNew : Window, IWindow {
+    public partial class MainWindowNew : NewWindow, IWindow {
         MainProgramHandler masgau;
         public MainWindowNew() {
             InitializeComponent();
@@ -43,22 +43,6 @@ namespace MASGAU.Main {
             setupJumpList();
         }
 
-        #region redetect games
-        protected void redetectGames() {
-            BackgroundWorker redetect = new BackgroundWorker();
-            redetect.DoWork += new DoWorkEventHandler(redetectGames);
-            redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
-            disableInterface();
-            redetect.RunWorkerAsync();
-        }
-
-        private void redetectGames(object sender, DoWorkEventArgs e) {
-            Games.Clear();
-            Games.detectGames();
-            Core.redetect_games = false;
-        }
-        #endregion
-
         #region Window event handlers
         void Window_Closing(object sender, CancelEventArgs e) {
             _available = false;
@@ -80,6 +64,7 @@ namespace MASGAU.Main {
 
 
         }
+
         protected virtual void setup(object sender, RunWorkerCompletedEventArgs e) {
             this.enableInterface();
             if (e.Error != null) {
@@ -87,6 +72,10 @@ namespace MASGAU.Main {
             }
 
             OpenBackupFolder.DataContext = Core.settings;
+            OpenBackupFolderTwo.DataContext = Core.settings;
+
+            setupSteamButton();
+            populateAltPaths();
 
             if (!Core.initialized) {
                 Communication.Translator.TranslatingMessageHandler.SendException(new TranslateableException("CriticalSettingsFailure"));
@@ -96,22 +85,6 @@ namespace MASGAU.Main {
             setupAnalyzer();
             this.checkUpdates();
         }
-        #endregion
-
-        #region Window enable/disables
-
-        public void hideInterface() {
-            this.Visibility = System.Windows.Visibility.Hidden;
-        }
-
-        public void showInterface() {
-            this.Visibility = System.Windows.Visibility.Visible;
-
-        }
-        public void closeInterface() {
-            this.Close();
-        }
-
         #endregion
 
         #region About stuff
@@ -147,11 +120,6 @@ namespace MASGAU.Main {
         }
 
 
-
-        protected System.Windows.Forms.IWin32Window GetIWin32Window() {
-            return WPFHelpers.GetIWin32Window(this);
-        }
-
         private void OpenBackupFolder_Click(object sender, RoutedEventArgs e) {
             Core.openBackupPath();
         }
@@ -186,6 +154,9 @@ namespace MASGAU.Main {
         private void closeButton_Click(object sender, RoutedEventArgs e) {
             this.Close();
         }
+
+
+
 
 
 

@@ -134,7 +134,6 @@
       <DependentUpon>MainWindowNew.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindowPreferences.cs" />
-    <Compile Include="MainWindowTranslate.cs" />
     <Compile Include="MainWindowUpdate.cs" />
     <Compile Include="ManualArchiveWindow.xaml.cs">
       <DependentUpon>ManualArchiveWindow.xaml</DependentUpon>
@@ -353,6 +352,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\masgau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\steam.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

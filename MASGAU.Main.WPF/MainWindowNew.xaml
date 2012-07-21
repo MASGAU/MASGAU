@@ -1,4 +1,4 @@
-﻿<Window x:Class="MASGAU.Main.MainWindowNew"
+﻿<mwpf:NewWindow x:Class="MASGAU.Main.MainWindowNew"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:r="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"
@@ -7,7 +7,7 @@
         xmlns:mwpf="clr-namespace:MASGAU;assembly=MASGAU.WPF"
         Title="$MainWindow" 
         x:Name="Window"
-        Width="800" Height="500" WindowStyle="None"  MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="700" MinHeight="400">
+        Width="921" Height="500" WindowStyle="None"  MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="750" MinHeight="400">
     <Window.Resources>
         <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
             <Setter Property="Visibility" Value="Collapsed" />
@@ -23,12 +23,12 @@
             </Style>
         </ResourceDictionary>
     </Window.Resources>
-    <Grid x:Name="LayoutRoot" Margin="0,-25,0,0" MouseLeftButtonDown="LayoutRoot_MouseLeftButtonDown">
+    <Grid x:Name="LayoutRoot" Margin="0,-22,0,0" MouseLeftButtonDown="LayoutRoot_MouseLeftButtonDown">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="1" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
             <r:Ribbon.HelpPaneContent>
                 <Grid Margin="0,1,0,0">
                     <Grid.ColumnDefinitions>
@@ -37,7 +37,7 @@
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
                     <r:RibbonButton Grid.Column="0" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-refresh.png" Name="minimizeButton" Click="minimizeButton_Click" Label="$Minimize" />
-                    <r:RibbonButton Grid.Column="1" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-refresh.png" Name="maximizeButton" Click="maximizeButton_Click" Label="$Fullscreen" />
+                    <r:RibbonButton Grid.Column="1" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="Toggle fullscreen" />
                     <r:RibbonButton Grid.Column="2" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-refresh.png" Name="closeButton" Click="closeButton_Click" Label="$Close" />
                 </Grid>
             </r:Ribbon.HelpPaneContent>
@@ -110,10 +110,42 @@
                                     Click="UpdateAvailableButton_Click" />
                 </r:RibbonGroup>
             </r:RibbonTab>
-            <r:RibbonTab x:Name="MonitorTab" Header="$Monitoring">
-                <r:RibbonGroup Header="$Startup">
-                    <r:RibbonCheckBox Label="$MonitorStartupOnLogin" />
-                    <r:RibbonCheckBox Label="$FullBackupOnMonitorStartup" />
+            <r:RibbonTab x:Name="SettingsTab" Header="$Settings">
+                <r:RibbonGroup Header="$Paths">
+                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png">
+                        <r:RibbonMenuItem Name="ChangeBackupFolderTwo" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
+                        <r:RibbonMenuItem Name="OpenBackupFolderTwo" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
+                    </r:RibbonMenuButton>
+                    <r:RibbonMenuButton Visibility="Collapsed" Label="$SyncFolder"  SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png">
+                        <r:RibbonMenuItem Name="ChangeSyncFolder" Header="$ChangeSyncFolder" Click="ChangeSyncFolder_Click" />
+                        <r:RibbonMenuItem Name="OpenSyncFolder" Visibility="{Binding IsSyncPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenSyncFolder" Click="OpenSyncFolder_Click"/>
+                    </r:RibbonMenuButton>
+                    <r:RibbonMenuButton Label="$AltSavePath" Name="AltSaveButton" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png">
+                        <r:RibbonMenuItem Name="AddAltSaveFolder" Header="$AddAltSavePath" Click="AddAltSaveFolder_Click" />
+                    </r:RibbonMenuButton>
+                </r:RibbonGroup>
+                <r:RibbonGroup Header="$Versioning">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                    <r:RibbonToggleButton Grid.Row="0" Grid.ColumnSpan="2" Label="$VersioningEnable" />
+                        <r:RibbonTextBox Grid.Row="1" Grid.Column="0" Label="$VersioningTiming" />
+                        <r:RibbonComboBox  Grid.Row="1" Grid.Column="1"/>
+                        <r:RibbonTextBox Grid.Row="2" Grid.ColumnSpan="2" Label="$VersioningMaxCopies" HorizontalAlignment="Left" />
+                    </Grid>
+                </r:RibbonGroup>
+                <r:RibbonGroup Header="$Other">
+                    <r:RibbonTextBox Label="E-Mail" />
+                    <r:RibbonCheckBox Label="$IgnoreDates" />
+                    <r:RibbonCheckBox Label="$AutoStart" />
+                    <r:RibbonCheckBox Label="$AutoStartBackup" />
                 </r:RibbonGroup>
             </r:RibbonTab>
             <r:RibbonTab Header="$Analyzer" Name="AnalyzerTab">
@@ -239,7 +271,7 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Label Margin="0,3,0,0" Grid.Row="0" Grid.Column="0" Padding="5,0,5,5">
+                    <Label Margin="0,3,0,0" Grid.Row="0" Grid.Column="0" Padding="5,0,5,5" HorizontalAlignment="Center">
                         <TextBlock TextWrapping="Wrap" Name="ArchiveCount" TextAlignment="Center">
                         $GameCount
                         </TextBlock>
@@ -290,14 +322,21 @@
 
                 <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" UseLayoutRounding="False">
                     <StatusBarItem>
-                        <Label Name="statusBarLabel" Content="$Ready" />
+                        <Label Name="statusBarLabel" />
+                    </StatusBarItem>
+                    <StatusBarItem HorizontalAlignment="Right">
+                        <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click">
+                            <Button.Content>
+                                <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU.Main.WPF;component/Images/16px/steam.png" Height="16" />
+                            </Button.Content>
+                        </Button>
                     </StatusBarItem>
                 </StatusBar>
             </Grid>
 
         </Grid>
 
-        <Grid Grid.Row="0" Grid.RowSpan="2" Name="DisablerGrid" Visibility="Visible" Margin="0,25,0,0">
+        <Grid Grid.Row="0" Grid.RowSpan="2" Name="DisablerGrid" Visibility="Visible" Margin="0,25,0,0" Opacity="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
@@ -312,7 +351,7 @@
             <mwpf:IconButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU.Main.WPF;component/Images/process-stop.png" Text="$Stop"  />
         </Grid>
 
-        <Grid Grid.Row="0" Grid.RowSpan="2" Name="AddGameGrid" Margin="0,25,0,0" Visibility="Collapsed">
+        <Grid Grid.Row="0" Grid.RowSpan="2" Name="AddGameGrid" Margin="0,25,0,0" Visibility="Collapsed" Opacity="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
@@ -329,7 +368,7 @@
                 <ColumnDefinition Width="25*" />
                 <ColumnDefinition Width="25*" />
             </Grid.ColumnDefinitions>
-            <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="4" Fill="#B3FFFFFF" Grid.Row="0" />
+            <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="4" Fill="#D7FCFDFF" Grid.Row="0" />
             <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="$AddGameHeader" HorizontalAlignment="Center" FontSize="16" />
 
             <mwpf:GroupBoxInput Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" />
@@ -342,4 +381,4 @@
         </Grid>
 
     </Grid>
-</Window>
+</mwpf:NewWindow>

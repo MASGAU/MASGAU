@@ -67,6 +67,7 @@
     </Compile>
     <Compile Include="Comparers\FileInfoComparer.cs" />
     <Compile Include="Comparers\ReversableComparer.cs" />
+    <Compile Include="Enums\MASGAURequestTypes.cs" />
     <Compile Include="Game\GameType.cs" />
     <Compile Include="Game\GameVersion.cs" />
     <Compile Include="Game\GameXmlFile.cs" />

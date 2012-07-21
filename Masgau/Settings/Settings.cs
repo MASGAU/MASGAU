@@ -20,10 +20,16 @@ namespace MASGAU.Settings {
         protected override SettingsCollection createSettings(SettingsCollection settings) {
             settings = base.createSettings(settings);
 
-            Setting new_setting = new Setting("backup_path", null, "paths","backup");
+            Setting new_setting = new Setting("backup_path", null, "paths", "backup");
             new_setting.addAdditionalNotification("IsBackupPathSet");
             new_setting.addAdditionalNotification("backup_path_not_set");
             settings.Add(new_setting);
+
+            new_setting = new Setting("sync_path", null, "paths", "sync");
+            new_setting.addAdditionalNotification("any_sync_enabled");
+            new_setting.addAdditionalNotification("sync_path_set");
+            settings.Add(new_setting);
+
 
             new_setting = new Setting("steam_override", null, "paths", "steam_override");
             new_setting.addAdditionalNotification("steam_path");
@@ -60,14 +66,15 @@ namespace MASGAU.Settings {
                     this.steam_override = adjustPortablePath(this.steam_override);
                 }
 
-                //if (sync_path_set &&
-                //    this.sync_path != adjustPortablePath(this.sync_path)) {
-                //    this.sync_path = adjustPortablePath(this.sync_path);
-                //}
+                if (sync_path_set &&
+                    this.sync_path != adjustPortablePath(this.sync_path)) {
+                    this.sync_path = adjustPortablePath(this.sync_path);
+                }
 
                 // This adjusts any alt. save locations that are set relative to the portable drive
-                for (int i = 0; i < _save_paths.Count; i++) {
-                    AltPathHolder path = _save_paths[i];
+                Model<AltPathHolder> tmp = new Model<AltPathHolder>();
+                tmp.AddRange(save_paths);
+                foreach(AltPathHolder path in tmp) {
                     if (path.path != adjustPortablePath(path.path)) {
                         removeSavePath(path.path);
                         addSavePath(adjustPortablePath(path.path));
@@ -139,24 +146,20 @@ namespace MASGAU.Settings {
         #endregion
 
         #region Methods to handle alternate paths
-        private Model<AltPathHolder> _save_paths = new Model<AltPathHolder>();
         public Model<AltPathHolder> save_paths {
             get {
+                Model<AltPathHolder> _save_paths = new Model<AltPathHolder>();
+                foreach (string alt_path in getSavePaths()) {
+                    AltPathHolder add_me = new AltPathHolder(alt_path);
+                    _save_paths.Add(add_me);
+                }
                 return _save_paths;
-            }
-        }
-
-        private void refreshSavePaths() {
-            _save_paths.Clear();
-            foreach (string alt_path in getSavePaths()) {
-                AltPathHolder add_me = new AltPathHolder(alt_path);
-                _save_paths.Add(add_me);
             }
         }
 
         public int save_path_count {
             get {
-                return getSavePaths().Count;
+                return save_paths.Count;
             }
         }
 
@@ -167,9 +170,6 @@ namespace MASGAU.Settings {
 
         public bool addSavePath(string add_me) {
             bool result = this.addUnique("save_paths", add_me);
-            if (result) {
-                refreshSavePaths();
-            }
             return result;
         }
 
@@ -186,7 +186,6 @@ namespace MASGAU.Settings {
                 } else {
                     erase("save_paths");
                 }
-                refreshSavePaths();
                 return true;
             }
             return false;
@@ -337,37 +336,27 @@ namespace MASGAU.Settings {
         #endregion
 
         #region The upcoming maybe sync support
-        //public bool any_sync_enabled {
-        //    get {
-        //        return getSpecificNode("game", false, "sync", true.ToString()) != null;
-        //    }
-        //}
-        //public bool sync_path_set {
-        //    get {
-        //        return sync_path != null;
-        //    }
-        //}
-        //public string sync_path {
-        //    get {
-        //        return getNodeValue("sync_path");
-        //    }
-        //    set {
-        //        setNodeValue(value, "sync_path");
-        //        NotifyPropertyChanged("sync_path");
-        //    }
-        //}
-        //public void clearSyncPath() {
-        //    erase("sync_path");
-        //}
-        //public string getDefaultGamePath(GameID game) {
-        //    return getSpecificNodeAttribute("game", "default_path", game.string_array);
-        //}
-        //public bool clearDefaultGamePath(GameID game) {
-        //    return clearSpecificNodeAttribute("game", "default_path", game.string_array);
-        //}
-        //public bool setDefaultGamePath(GameID game, string path) {
-        //    return setSpecificNodeAttrib("game", "default_path", path, game.string_array);
-        //}
+        public bool any_sync_enabled {
+            get {
+                return false;// getSpecificNode("game", false, "sync", true.ToString()) != null;
+            }
+        }
+        public bool sync_path_set {
+            get {
+                return sync_path != null;
+            }
+        }
+        public string sync_path {
+            get {
+                return getLast("sync_path");
+            }
+            set {
+                set("sync_path", value);
+            }
+        }
+        public void clearSyncPath() {
+            erase("sync_path");
+        }
         #endregion
 
         #region Enabling and disabling games

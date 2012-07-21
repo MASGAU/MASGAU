@@ -131,6 +131,29 @@ namespace MASGAU.Location {
                 }
             }
 
+
+            // Global ubisoft save location
+            DirectoryInfo ubisoft_save = null;
+            RegistryHandler ubi_reg = new RegistryHandler("local_machine", @"SOFTWARE\Ubisoft\Launcher", false);
+            if (!ubi_reg.key_found) {
+                ubi_reg = new RegistryHandler("local_machine", @"SOFTWARE\Wow6432Node\Ubisoft\Launcher", false);
+            }
+
+            if (ubi_reg.getValue("InstallDir") != null && Directory.Exists(Path.Combine(ubi_reg.getValue("InstallDir"),"savegames"))) {
+                uac_enabled = true;
+                ubisoft_save = new DirectoryInfo(Path.Combine(ubi_reg.getValue("InstallDir"),"savegames"));
+            } else if(Directory.Exists(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"),"Ubisoft","Ubisoft Game Launcher"))) {
+                ubisoft_save = new DirectoryInfo(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"),"Ubisoft","Ubisoft Game Launcher","savegames"));
+            } else if (Directory.Exists(Path.Combine(Environment.GetEnvironmentVariable("PROGRAMFILES"), "Ubisoft", "Ubisoft Game Launcher"))) {
+                ubisoft_save = new DirectoryInfo(Path.Combine(Environment.GetEnvironmentVariable("PROGRAMFILES"), "Ubisoft", "Ubisoft Game Launcher","savegames"));            
+            }
+
+
+            if (ubisoft_save!=null&&ubisoft_save.Exists) {
+                global.setEvFolder(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save);
+            }
+
+
             //Per-user variables
             loadUsersData("current_user", null);
 

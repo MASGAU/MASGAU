@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using MVC;
-using Translator.WPF;
+﻿using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
+using Communication;
+using MVC;
+using Translator.WPF;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         #region Methods For The Games List
@@ -13,9 +11,27 @@ namespace MASGAU.Main {
             redetectGames();
         }
 
-        private void gamesLst_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+
+        #region redetect games
+        protected void redetectGames() {
+            BackgroundWorker redetect = new BackgroundWorker();
+            redetect.DoWork += new DoWorkEventHandler(redetectGames);
+            redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
+            ProgressHandler.clearMessage();
+            disableInterface();
+            redetect.RunWorkerAsync();
+        }
+
+        private void redetectGames(object sender, DoWorkEventArgs e) {
+            Games.Clear();
+            Games.detectGames();
+            Core.redetect_games = false;
+        }
+        #endregion
+
+        protected void updateArchiveList() {
             int selected_count = gamesLst.SelectedItems.Count;
-            TranslationHelpers.translate(BackupSelectedGames, "BackupGames",selected_count.ToString());
+            TranslationHelpers.translate(BackupSelectedGames, "BackupGames", selected_count.ToString());
 
             if (selected_count > 0) {
                 BackupSelectedGames.IsEnabled = true;
@@ -39,7 +55,7 @@ namespace MASGAU.Main {
             }
             if (ArchiveList.DataContext != null) {
                 foreach (Archive archive in (Model<ArchiveID, Archive>)ArchiveList.DataContext) {
-                    if(!archives.containsId(archive.id))
+                    if (!archives.containsId(archive.id))
                         archive.IsSelected = false;
                 }
             }
@@ -47,11 +63,14 @@ namespace MASGAU.Main {
             ArchiveList.ItemsSource = archives;
             if (archives.Count > 0) {
                 ArchiveGrid.Visibility = System.Windows.Visibility.Visible;
-                TranslationHelpers.translate(ArchiveCount, "NumberOfArchives",archives.Count.ToString(),gamesLst.SelectedItems.Count.ToString());
+                TranslationHelpers.translate(ArchiveCount, "NumberOfArchives", archives.Count.ToString(), gamesLst.SelectedItems.Count.ToString());
             } else {
                 ArchiveGrid.Visibility = System.Windows.Visibility.Collapsed;
             }
+        }
 
+        private void gamesLst_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+            updateArchiveList();
         }
 
 
