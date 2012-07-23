@@ -150,7 +150,7 @@ namespace MASGAU {
             extract(xml_file, false);
 
             if (File.Exists(Path.Combine(temp_folder, "masgau.xml"))) {
-                XmlFile file = new XmlFile(new FileInfo(Path.Combine(temp_folder, "masgau.xml")));
+                XmlFile file = new XmlFile(new FileInfo(Path.Combine(temp_folder, "masgau.xml")),false);
                 XmlElement root = file.ChildNodes[1] as XmlElement;
 
 

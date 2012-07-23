@@ -82,7 +82,7 @@ namespace MASGAU.Main {
                 this.Close();
             }
             this.Title = masgau.program_title;
-            setupAnalyzer();
+            addGameSetup();
             this.checkUpdates();
         }
         #endregion
@@ -154,6 +154,10 @@ namespace MASGAU.Main {
         private void closeButton_Click(object sender, RoutedEventArgs e) {
             this.Close();
         }
+
+
+
+
 
 
 

@@ -29,7 +29,10 @@ namespace MASGAU {
 
             return re;
         }
-
+        public GameID(string name, string release) {
+            this.Name = name;
+            this.Release = release;
+        }
         public GameID(string name, XmlElement element): this(element) {
             this.Name = name;
         }
@@ -66,7 +69,8 @@ namespace MASGAU {
             }
         }
 
-        public XmlElement AddAttributes(XmlDocument doc, XmlElement element) {
+        public XmlElement AddAttributes(XmlElement element) {
+            XmlDocument doc = element.OwnerDocument;
             XmlAttribute attribute;
             if (!element.HasAttribute("name")) {
                 attribute = doc.CreateAttribute("name");

@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Xml;
 namespace XmlData {
-    public abstract class AXmlDataFileCollection<T> : List<T> where  T : AXmlDataFile<IXmlDataEntry> {
+    public abstract class AXmlDataFileCollection<F,E> : List<F> where  F : AXmlDataFile<E> where E: AXmlDataEntry {
         private DirectoryInfo path;
         private List<FileInfo> files;
         private string file_pattern;
@@ -29,7 +29,7 @@ namespace XmlData {
 
 
             foreach (FileInfo file in files) {
-                T data_file;
+                F data_file;
                 data_file = ReadFile(file);
                 this.Add(data_file);
             }
@@ -37,12 +37,12 @@ namespace XmlData {
 
         }
 
-        protected abstract T ReadFile(FileInfo path);
+        protected abstract F ReadFile(FileInfo path);
 
-        public List<IXmlDataEntry> Entries {
+        public List<E> Entries {
             get {
-                List<IXmlDataEntry> return_me = new List<IXmlDataEntry>();
-                foreach(AXmlDataFile<IXmlDataEntry> file in this) {
+                List<E> return_me = new List<E>();
+                foreach(F file in this) {
                     return_me.AddRange(file.entries);
                 }
                 return return_me;

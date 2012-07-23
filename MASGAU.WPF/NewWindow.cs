@@ -13,6 +13,30 @@ namespace MASGAU {
         public NewWindow() {
 
         }
+
+        protected string getPath(Environment.SpecialFolder root, string description, string path) {
+
+            System.Windows.Forms.FolderBrowserDialog pathBrowser = new System.Windows.Forms.FolderBrowserDialog();
+            if(path!=null)
+                pathBrowser.SelectedPath = path;
+
+            if (root == null)
+                pathBrowser.RootFolder = Environment.SpecialFolder.MyComputer;
+            else
+                pathBrowser.RootFolder = root;
+
+            if (description != null)
+                pathBrowser.Description = description;
+
+            if (pathBrowser.ShowDialog(WPFHelpers.GetIWin32Window(this)) != System.Windows.Forms.DialogResult.Cancel) {
+                return pathBrowser.SelectedPath;
+            } else {
+                return null;
+            }
+        }
+
+
+
         public bool changeSyncPath() {
             string old_path = Core.settings.sync_path;
             string new_path = null;

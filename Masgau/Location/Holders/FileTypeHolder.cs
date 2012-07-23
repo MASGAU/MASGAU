@@ -15,7 +15,10 @@ namespace MASGAU.Location.Holders {
         public FileTypeHolder(string name) {
             this.Type = name;
         }
+        XmlElement xml = null;
+
         public FileTypeHolder(XmlElement element) {
+            xml = element;
             foreach (XmlAttribute attr in element.Attributes) {
                 switch (attr.Name) {
                     case "type":
@@ -45,6 +48,20 @@ namespace MASGAU.Location.Holders {
             return files;
 
         }
+
+        public XmlElement createXml(Game parent) {
+            if (this.xml != null)
+                return this.xml;
+
+            this.xml = parent.createElement("files");
+            parent.addAtribute(this.xml, "type", Type);
+            foreach (SaveHolder save in this) {
+                this.xml.AppendChild(save.createXml(parent));
+            }
+
+            return this.xml;
+        }
+
 
     }
 }

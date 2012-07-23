@@ -55,7 +55,7 @@ namespace MASGAU {
             XmlAttribute attribute;
 
             node = doc.CreateElement("game");
-            node = Game.AddAttributes(doc, node);
+            node = Game.AddAttributes(node);
 
             doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
 

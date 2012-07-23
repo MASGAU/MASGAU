@@ -11,7 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using MASGAU.WPF;
 namespace MASGAU {
     /// <summary>
     /// Interaction logic for GroupBoxInput.xaml
@@ -21,12 +21,12 @@ namespace MASGAU {
             InitializeComponent();
         }
 
-        public string ButtonText {
+        public bool IsReadOnly {
             get {
-                return button.Text;
+                return input.IsReadOnly;
             }
             set {
-                button.Text = value;
+                input.IsReadOnly = value;
             }
         }
 
@@ -41,6 +41,36 @@ namespace MASGAU {
                     button.Visibility = System.Windows.Visibility.Collapsed;
 
                 }
+            }
+        }
+
+        public SuperButton Button {
+            get {
+                return button;
+            }
+        }
+        public string ButtonText {
+            get {
+                return button.Text;
+            }
+            set {
+                button.Text = value;
+            }
+        }
+        public ImageSource ButtonImageSource {
+            get {
+                return button.ImageSource;
+            }
+            set {
+                button.ImageSource = value;
+            }
+        }
+        public Thickness ButtonImageMargin {
+            get {
+                return button.ImageMargin;
+            }
+            set {
+                button.ImageMargin = value;
             }
         }
 

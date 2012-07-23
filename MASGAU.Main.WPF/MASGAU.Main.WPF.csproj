@@ -359,6 +359,9 @@
   <ItemGroup>
     <Resource Include="Images\16px\steam.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\go-bottom.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

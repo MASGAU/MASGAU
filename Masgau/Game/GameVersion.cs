@@ -9,6 +9,7 @@ using MVC;
 using MASGAU.Location.Holders;
 using Communication;
 using Communication.Translator;
+using XmlData;
 namespace MASGAU {
     public struct Locations {
         public List<LocationPathHolder> Paths;
@@ -34,7 +35,7 @@ namespace MASGAU {
     public class GameVersion : AModelItem<GameID> {
 
         private Game parent;
-        private string _title = null;
+        protected string _title = null;
         public string Title {
             get {
                 if (_title == null)
@@ -75,7 +76,7 @@ namespace MASGAU {
         }
 
 
-        private Dictionary<string,FileTypeHolder> FileTypes = new  Dictionary<string,FileTypeHolder>();
+        protected Dictionary<string,FileTypeHolder> FileTypes = new  Dictionary<string,FileTypeHolder>();
 
         public Locations Locations;
 
@@ -94,7 +95,7 @@ namespace MASGAU {
         public bool DetectionAttempted { get; protected set; }
         public bool IsDetected {
             get {
-                if (parent.IsDeprecated||this.IsDeprecated)
+                if ((parent!=null&&parent.IsDeprecated)||this.IsDeprecated)
                     return false;
                 if (DetectedLocations != null) {
                     if (DetectedLocations.Count > 0) {
@@ -140,17 +141,63 @@ namespace MASGAU {
             }
         }
 
-
-        public GameVersion(Game parent, XmlElement element) {
+        protected GameVersion(Game parent) {
             this.parent = parent;
-            DetectionAttempted = false;
-            DetectionRequired = false;
             Locations.Paths = new List<LocationPathHolder>();
             Locations.Registries = new List<LocationRegistryHolder>();
             Locations.Shortcuts = new List<LocationShortcutHolder>();
             Locations.Games = new List<LocationGameHolder>();
             Locations.PlayStationIDs = new List<PlayStationID>();
             Locations.ScummVMs = new List<ScummVMHolder>();
+        }
+
+        public XmlElement createXml() {
+            // This outputs little more than what's necessary to create a custom game entry
+            // Once in the file, the xml wil not need to be re-generated, so it won't need to be outputted again
+            // This way manual updates to the xml file won't be lost ;)
+            if (xml != null)
+                return xml;
+
+
+            xml = parent.createElement("version");
+
+            id.AddAttributes(xml);
+            if(xml.HasAttribute("name"))
+                xml.RemoveAttribute("name");
+
+            XmlElement locations = parent.createElement("locations");
+
+            foreach(LocationPathHolder path in Locations.Paths) {
+                XmlElement xp = path.createXml(parent);
+                locations.AppendChild(xp);
+            }
+            xml.AppendChild(locations);
+
+            foreach(FileTypeHolder type in FileTypes.Values) {
+                XmlElement ft = type.createXml(parent);
+                this.xml.AppendChild(ft);
+            }
+
+            foreach (string con in Contributors) {
+                this.xml.AppendChild(parent.createElement("contributor", con));
+            }
+
+            if(Comment!=null)
+                this.xml.AppendChild(parent.createElement("comment", Comment));
+            if(RestoreComment!=null)
+                this.xml.AppendChild(parent.createElement("restore_comment", RestoreComment));
+
+
+            string output = this.xml.OuterXml;
+
+            return xml;
+        }
+
+        protected XmlElement xml = null;
+        public GameVersion(Game parent, XmlElement element): this(parent) {
+            xml = element;
+            DetectionAttempted = false;
+            DetectionRequired = false;
 
             this.id = new GameID(parent.Name, element);
 

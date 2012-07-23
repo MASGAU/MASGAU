@@ -95,8 +95,8 @@ namespace MASGAU.Location {
             }
         }
 
-        public List<DetectedLocationPathHolder> getPaths(ALocationHolder get_me) {
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+        public DetectedLocations getPaths(ALocationHolder get_me) {
+            DetectedLocations return_me = new DetectedLocations();
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
                 return_me.AddRange(handler.Value.getPaths(get_me));
             }
@@ -144,15 +144,18 @@ namespace MASGAU.Location {
             return null;
         }
 
-        public List<DetectedLocationPathHolder> interpretPath(string interpret_me) {
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+        public DetectedLocations interpretPath(string interpret_me) {
+            interpret_me = interpret_me.TrimEnd(Path.DirectorySeparatorChar);
+            DetectedLocations return_me = new DetectedLocations();
             interpret_me = correctPath(interpret_me);
             if (interpret_me == null) {
                 return return_me;
             }
+
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
                 return_me.AddRange(handler.Value.interpretPath(interpret_me));
             }
+
             return return_me;
         }
 

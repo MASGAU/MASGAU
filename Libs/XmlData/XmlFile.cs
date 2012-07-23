@@ -20,19 +20,30 @@ namespace XmlData {
             xml_settings.ValidationFlags |= XmlSchemaValidationFlags.ProcessSchemaLocation;
             xml_settings.ValidationEventHandler += new ValidationEventHandler(validationHandler);
         }
-        public XmlFile(FileInfo file) {
+        FileInfo file;
+
+        public XmlFile(FileInfo file, bool create) {
+            if (!file.Exists && create) {
+                XmlTextWriter write_here = new XmlTextWriter(file.FullName, System.Text.Encoding.UTF8);
+                write_here.Formatting = Formatting.Indented;
+                write_here.WriteProcessingInstruction("xml", "version='1.0' encoding='UTF-8'");
+                write_here.Close();
+            }
+            this.file = file;
             XmlReader parse_me = XmlReader.Create(file.FullName, xml_settings);
             try {
                 this.Load(parse_me);
             } catch (XmlException ex) {
                 IXmlLineInfo info = parse_me as IXmlLineInfo;
-                throw new XmlException(file.FullName + Environment.NewLine + Environment.NewLine + "Line: " + info.LineNumber + " Column: " + info.LinePosition,ex);
+                throw new XmlException(file.FullName + Environment.NewLine + Environment.NewLine + "Line: " + info.LineNumber + " Column: " + info.LinePosition, ex);
             } finally {
                 parse_me.Close();
             }
-
         }
 
+        public void Save() {
+            this.Save(file.FullName);
+        }
 
         // Event handler to take care of XML errors while reading game configs
         private static void validationHandler(object sender, ValidationEventArgs args) {

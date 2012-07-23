@@ -15,7 +15,7 @@
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
                     <TextBox Grid.Column="0" Name="input" />
-                    <m:IconButton Grid.Column="1" x:Name="button" Visibility="Collapsed" Margin="5,0,0,0" />
+                    <m:SuperButton Grid.Column="1" x:Name="button" Visibility="Collapsed" Margin="5,0,0,0" />
                 </Grid>
             </GroupBox.Content>
         </GroupBox>

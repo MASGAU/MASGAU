@@ -5,6 +5,8 @@ using System.Xml;
 using MVC;
 namespace MASGAU.Location.Holders {
     public abstract class ALocationHolder : AModelItem<StringID> {
+        protected XmlElement xml = null;
+
         public static readonly List<string> attributes = new List<string> {"append", "detract", "only_for","deprecated"};
 
         // Used to add or remove path elements
@@ -47,6 +49,7 @@ namespace MASGAU.Location.Holders {
 
         protected ALocationHolder(XmlElement element)
             : this() {
+                this.xml = element;
             foreach (XmlAttribute attrib in element.Attributes) {
                 switch (attrib.Name) {
                     case "append":
@@ -105,6 +108,10 @@ namespace MASGAU.Location.Holders {
                     return EnvironmentVariable.LocalAppData;
                 case "public":
                     return EnvironmentVariable.Public;
+                case "programfiles":
+                    return EnvironmentVariable.ProgramFiles;
+                case "programfilesx86":
+                    return EnvironmentVariable.ProgramFilesX86;
                 case "savedgames":
                     return EnvironmentVariable.SavedGames;
                 case "steamuser":

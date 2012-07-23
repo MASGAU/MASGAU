@@ -6,17 +6,18 @@ using System.Xml;
 using System.Xml.Schema;
 using System.IO;
 namespace XmlData {
-    public abstract class AXmlDataFile<T> : XmlFile where T : IXmlDataEntry {
+    public abstract class AXmlDataFile<T> : XmlFile where T : AXmlDataEntry {
 
         public XmlElement RootNode;
-        protected AXmlDataFile(FileInfo file, string root_element_name): base(file) {
+        protected AXmlDataFile(FileInfo file, string root_element_name, bool create): base(file, create) {
+
+
             RootNode = LoadRootNode(root_element_name);
 
             entries.Clear();
             foreach (XmlElement element in RootNode.ChildNodes) {
 //                try {
-                    T entry = CreateDataEntry();
-                    entry.LoadData(element);
+                    T entry = CreateDataEntry(element);
                     entries.Add(entry);
   //              } catch (Exception e) {
     //                continue;
@@ -33,11 +34,20 @@ namespace XmlData {
                     return (XmlElement)node;
                 }
             }
-            throw new XmlException("Missing root: " + name);
+
+            return (XmlElement)this.AppendChild(this.CreateElement(name));
+//            throw new XmlException("Missing root: " + name);
         }
 
-        protected abstract T CreateDataEntry();
+        protected abstract T CreateDataEntry(XmlElement element);
 
+        public void Add(T entry) {
+            XmlElement ele = entry.exportXml();
+            if (ele != null) {
+                RootNode.AppendChild(ele);
+                entries.Add(entry);
+            }
+        }
 
     }
 }

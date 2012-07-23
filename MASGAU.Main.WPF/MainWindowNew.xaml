@@ -36,9 +36,9 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <r:RibbonButton Grid.Column="0" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-refresh.png" Name="minimizeButton" Click="minimizeButton_Click" Label="$Minimize" />
+                    <r:RibbonButton Grid.Column="0" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/go-bottom.png" Name="minimizeButton" Click="minimizeButton_Click" ToolTip="Send To Task Bar" />
                     <r:RibbonButton Grid.Column="1" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="Toggle fullscreen" />
-                    <r:RibbonButton Grid.Column="2" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-refresh.png" Name="closeButton" Click="closeButton_Click" Label="$Close" />
+                    <r:RibbonButton Grid.Column="2" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/system-log-out.png" Name="closeButton" Click="closeButton_Click" ToolTip="Exit MASGAU" Margin="0,0,3,0" />
                 </Grid>
             </r:Ribbon.HelpPaneContent>
                 <r:Ribbon.ApplicationMenu>
@@ -146,49 +146,6 @@
                     <r:RibbonCheckBox Label="$IgnoreDates" />
                     <r:RibbonCheckBox Label="$AutoStart" />
                     <r:RibbonCheckBox Label="$AutoStartBackup" />
-                </r:RibbonGroup>
-            </r:RibbonTab>
-            <r:RibbonTab Header="$Analyzer" Name="AnalyzerTab">
-                <r:RibbonGroup Name="AnalyzerPlatformGroup" Header="$Platform">
-                    <r:RibbonRadioButton Label="$Windows" Name="WindowsRadioButton" IsChecked="True" Checked="AnalyzerPlatformChange" />
-                    <r:RibbonRadioButton Label="$PlayStation" Name="PlayStationRadioButton" Checked="AnalyzerPlatformChange"  />
-                </r:RibbonGroup>
-                <r:RibbonGroup Name="AnalyzerPlayStationGroup" Visibility="Collapsed">
-                    <r:RibbonButton Label="$PlayStationDetection" IsEnabled="False" />
-                </r:RibbonGroup>
-                <r:RibbonGroup Name="AnalyzerGameTitleGroup" Header="$AnalyzerGameTitle">
-                    <r:RibbonTextBox Name="AnalyzerGameTitle"  IsReadOnly="False" TextChanged="buttonCheck" />
-                </r:RibbonGroup>
-                <r:RibbonGroup x:Name="WindowsPathGroup" Header="$AnalyzerPaths">
-                    <r:RibbonControlGroup Margin="0,3,0,0">
-                        <r:RibbonTextBox Name="InstallPath" TextBoxWidth="200" IsReadOnly="True" TextChanged="buttonCheck" />
-                        <r:RibbonMenuButton Label="$SelectInstallLocation" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-open.png" >
-                            <r:RibbonMenuItem Name="MyComputerBrowse" Header="$MyComputer" Click="MyComputerBrowse_Click" />
-                            <r:RibbonMenuItem Name="ProgramFilesBrowse" Header="$ProgramFiles" Click="ProgramFilesBrowse_Click" />
-                            <r:RibbonMenuItem Name="ProgramFilesX86Browse" Header="$ProgramFilesX86" Click="ProgramFilesX86Browse_Click" />
-                            <r:RibbonMenuItem Name="SteamappsBrowse" Header="$Steamapps" Click="SteamappsBrowse_Click" />
-                        </r:RibbonMenuButton>
-                    </r:RibbonControlGroup>
-                    <r:RibbonControlGroup Margin="0,3,0,0">
-                        <r:RibbonTextBox  Name="SavePath" IsReadOnly="True" TextBoxWidth="200" TextChanged="buttonCheck" />
-                        <r:RibbonMenuButton Label="$SelectSaveLocation"  SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-open.png">
-                            <r:RibbonMenuItem Name="InstallFolderBrowse" Visibility="Collapsed" Header="$InstallFolder" Click="InstallFolderBrowse_Click" />
-                            <r:RibbonMenuItem Name="MyDocumentsBrowse" Header="$MyDocuments" Click="MyDocumentsBrowse_Click" />
-                            <r:RibbonMenuItem Name="SavedGamesBrowse" Header="$SavedGames" Click="SavedGamesBrowse_Click" />
-                            <r:RibbonMenuItem Name="VirtualStoreBrowse" Header="$VirtualStore" Click="VirtualStoreBrowse_Click" />
-                            <r:RibbonMenuItem Name="LocalAppDataBrowse" Header="$LocalAppData" Click="LocalAppDataBrowse_Click" />
-                            <r:RibbonMenuItem Name="AppData" Header="$RoamingAppData" Click="AppData_Click" />
-                            <r:RibbonMenuItem Name="PublicUserBrowse" Header="$PublicUser" Click="PublicUserBrowse_Click" />
-                            <r:RibbonMenuItem Name="AllUsersBrowse" Header="$AllUsers" Click="AllUsersBrowse_Click" />
-                        </r:RibbonMenuButton>
-                    </r:RibbonControlGroup>
-                </r:RibbonGroup>
-                <r:RibbonGroup>
-                    <r:RibbonButton Name="AnalyzeButton" Label="$Analyze" IsEnabled="False" LargeImageSource="/MASGAU.Main.WPF;component/Images/system-search.png" Click="AnalyzeButton_Click" />
-                </r:RibbonGroup>
-                <r:RibbonGroup Name="AnalyzerReportGroup" Visibility="Collapsed">
-                    <r:RibbonButton Name="ReportSaveButton" Label="$SaveReport" LargeImageSource="/MASGAU.Main.WPF;component/Images/document-save.png" Click="ReportSaveButton_Click" />
-                    <r:RibbonButton Name="ReportEmailButton" Label="$EmailReport" LargeImageSource="/MASGAU.Main.WPF;component/Images/mail-forward.png" Click="ReportEmailButton_Click" />
                 </r:RibbonGroup>
             </r:RibbonTab>
         </r:Ribbon>
@@ -348,7 +305,7 @@
             <ProgressBar Margin="25" Height="35" Name="progress" Grid.Row="1" IsTabStop="False" Value="0" />
             <Label Content="$Ready" Grid.Row="1" HorizontalAlignment="Center" Name="progressLabel" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
 
-            <mwpf:IconButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU.Main.WPF;component/Images/process-stop.png" Text="$Stop"  />
+            <mwpf:SuperButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU.Main.WPF;component/Images/process-stop.png" Text="$Stop"  />
         </Grid>
 
         <Grid Grid.Row="0" Grid.RowSpan="2" Name="AddGameGrid" Margin="0,25,0,0" Visibility="Collapsed" Opacity="0">
@@ -371,13 +328,13 @@
             <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="4" Fill="#D7FCFDFF" Grid.Row="0" />
             <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="$AddGameHeader" HorizontalAlignment="Center" FontSize="16" />
 
-            <mwpf:GroupBoxInput Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" />
-            <mwpf:GroupBoxInput Header="$AddGameLocation" HasButton="True" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" />
-            <mwpf:GroupBoxInput Header="$AddGameSaves" HasButton="False" ButtonText="$Browse" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" />
-            <mwpf:GroupBoxInput Header="$AddGameExclusions" HasButton="False" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" />
+            <mwpf:GroupBoxInput Name="AddGameTitle" Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" TextChanged="addGameButtonCheck" />
+            <mwpf:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png" ButtonImageMargin="0,0,3,0" />
+            <mwpf:GroupBoxInput Name="AddGameSaves" Value="*" Header="$AddGameSaves" HasButton="False" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck"  />
+            <mwpf:GroupBoxInput Name="AddGameExclusions" Header="$AddGameExclusions" HasButton="False" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck" />
 
-            <mwpf:IconButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU.Main.WPF;component/Images/list-add.png" Text="$Add" Name="AddGameButton" />
-            <mwpf:IconButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/MASGAU.Main.WPF;component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
+            <mwpf:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU.Main.WPF;component/Images/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
+            <mwpf:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/MASGAU.Main.WPF;component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
         </Grid>
 
     </Grid>

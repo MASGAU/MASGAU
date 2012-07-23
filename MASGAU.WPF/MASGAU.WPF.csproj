@@ -109,9 +109,10 @@
     <Compile Include="SettingsControl.xaml.cs">
       <DependentUpon>SettingsControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="IconButton.xaml.cs">
-      <DependentUpon>IconButton.xaml</DependentUpon>
+    <Compile Include="SuperButton.xaml.cs">
+      <DependentUpon>SuperButton.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SuperButtonEventArgs.cs" />
     <Compile Include="ValueConverters.cs" />
     <Compile Include="AWindow.cs" />
     <Compile Include="WPFHelpers.cs" />
@@ -133,7 +134,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="IconButton.xaml">
+    <Page Include="SuperButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

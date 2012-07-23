@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using Communication;
 using Communication.Translator;
 using MVC;
 namespace MASGAU {
-
-
     public class Games : StaticModel<GameID, GameVersion> {
         public static GameXmlFiles xml;
+        protected static CustomGameXmlFile custom;
+
         public static bool XmlLoaded {
             get {
                 return xml != null;
@@ -76,6 +77,30 @@ namespace MASGAU {
             //throw new NotImplementedException();
         }
 
+        public static void addCustomGame(string title, DirectoryInfo location, string saves, string ignores) {
+            Game game = custom.createCustomGame(title, location, saves, ignores);
+            foreach (GameVersion ver in game.Versions) {
+                ver.Detect();
+                addGame(ver);
+            }
+            custom.Add(game);
+            custom.Save();
+            _DetectedGames.Refresh();
+        }
+
+        private static void addGame(GameVersion game) {
+            if (model.containsId(game.id)) {
+                throw new Translator.TranslateableException("DuplicateGame", game.id.ToString());
+            }
+            if (game.id.OS == "PS1") {
+                //                        GameVersion psp_game = 
+                //                    GameXML psp_game = game_profile;
+                //                      psp_game = new GameXML(new GameID(psp_game.id.name, "PSP", psp_game.id.region), psp_game.xml);
+                //                  createGameObject(psp_game);
+            }
+            model.AddWithSort(game);
+        }
+
         public static void loadXml() {
             xml = new GameXmlFiles();
             model.Clear();
@@ -84,21 +109,33 @@ namespace MASGAU {
                 TranslatingProgressHandler.setTranslatedMessage("LoadingGamesData");
                 foreach (Game game in xml.Entries) {
                     foreach (GameVersion version in game.Versions) {
-                        if (model.containsId(version.id)) {
-                            throw new Translator.TranslateableException("DuplicateGame", version.id.ToString());
-                        }
-                        if (version.id.OS == "PS1") {
-                            //                        GameVersion psp_game = 
-                            //                    GameXML psp_game = game_profile;
-                            //                      psp_game = new GameXML(new GameID(psp_game.id.name, "PSP", psp_game.id.region), psp_game.xml);
-                            //                  createGameObject(psp_game);
-                        }
-                        model.AddWithSort(version);
+                        addGame(version);
                     }
                 }
             }
+            DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
+            if(!common.Exists)
+                common.Create();
 
+            if(!File.Exists(Path.Combine(common.FullName,"games.xsd"))) {
+                FileInfo schema = new FileInfo(Path.Combine(Core.app_path, "data","games.xsd"));
+                if(!schema.Exists)
+                    throw new Exception("Schema file not found at data/games.xsd! Please Re-install");
+                schema.CopyTo(Path.Combine(common.FullName,"games.xsd"),true);
+            }
+
+            FileInfo custom_xml = new FileInfo(Path.Combine(common.FullName,"custom.xml"));
+            custom = new CustomGameXmlFile(custom_xml);
+
+            if (custom.entries.Count > 0) {
+                foreach (CustomGame game in custom.entries) {
+                    foreach (CustomGameVersion version in game.Versions) {
+                        addGame(version);
+                    }
+                }
+            }
         }
+
 
         public static void redetectGames(object sender, DoWorkEventArgs e) {
             detectGames(null, true);
@@ -141,12 +178,12 @@ namespace MASGAU {
                 if (!game.DetectionAttempted)
                     game.Detect();
 
-                foreach (string contrib in game.Contributors) {
-                    if (contribs.ContainsKey(contrib))
-                        contribs[contrib]++;
-                    else
-                        contribs.Add(contrib, 1);
-                }
+                //foreach (string contrib in game.Contributors) {
+                //    if (contribs.ContainsKey(contrib))
+                //        contribs[contrib]++;
+                //    else
+                //        contribs.Add(contrib, 1);
+                //}
 
 
                 //if (!force_redetect && game.IsDetected && !game.id.deprecated)

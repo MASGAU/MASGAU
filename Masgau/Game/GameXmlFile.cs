@@ -5,16 +5,16 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using XmlData;
+
 namespace MASGAU {
+    public class GameXmlFile: AXmlDataFile<Game> {
 
-    public class GameXmlFile: AXmlDataFile<IXmlDataEntry> {
-
-        public GameXmlFile(FileInfo file): base(file,"programs") {
+        public GameXmlFile(FileInfo file): base(file,"programs",true) {
 
         }
 
-        protected override IXmlDataEntry CreateDataEntry() {
-            return new Game();
+        protected override Game CreateDataEntry(System.Xml.XmlElement element) {
+            return new Game(element);
         }
     }
 }

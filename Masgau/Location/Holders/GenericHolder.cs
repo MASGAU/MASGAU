@@ -12,9 +12,14 @@ namespace MASGAU.Location.Holders {
         public string OnlyFor { get; protected set; }
         public DateTime ModifiedAfter { get; protected set; }
 
+        protected string tag = null;
+        
         protected AGenericHolder() { }
 
+        protected XmlElement xml = null;
+
         public AGenericHolder(XmlElement element) {
+            xml = element;
             foreach(XmlAttribute attr in element.Attributes) {
                 switch (attr.Name) {
                     case "path":
@@ -34,6 +39,27 @@ namespace MASGAU.Location.Holders {
                 }
             }
         }
+
+        public XmlElement createXml(Game parent) {
+            if (this.xml != null)
+                return this.xml;
+
+            this.xml = parent.createElement(this.tag);
+
+            if (Path != null)
+                parent.addAtribute(this.xml, "path", Path);
+            if (Name != null)
+                parent.addAtribute(this.xml, "filename", Name);
+
+            if (ModifiedAfter != new DateTime())
+                throw new Exception("Don't know ho to write modified after!");
+
+            if (OnlyFor != null)
+                parent.addAtribute(this.xml, "only_for", Path);
+
+            return this.xml;
+        }
+
 
         public virtual List<DetectedFile> FindMatching(DetectedLocationPathHolder location) {
             List<DirectoryInfo> directories = new List<DirectoryInfo>();
@@ -143,15 +169,15 @@ namespace MASGAU.Location.Holders {
 
     // This holds the save detection information loaded straight from the XML file
     public class SaveHolder : ExceptHolder {
-        private List<ExceptHolder> Excepts = new List<ExceptHolder>();
+        public List<ExceptHolder> Excepts = new List<ExceptHolder>();
 
-        public SaveHolder(string name, string path, string type) {
-            Name = name;
-            Path = path;
-            Type = type;
+        public SaveHolder(string name, string path, string type)
+            : base(name, path, type) {
+                tag = "save";
         }
 
         public SaveHolder(XmlElement element, string type): base(element, type) {
+            tag = "save";
             foreach (XmlElement child in element.ChildNodes) {
                 switch (child.Name) {
                     case "except":
@@ -167,13 +193,35 @@ namespace MASGAU.Location.Holders {
         public override List<DetectedFile> FindMatching(DetectedLocationPathHolder location) {
             return base.FindMatching(location);
         }
+        public XmlElement createXml(Game parent) {
+            if (this.xml != null)
+                return this.xml;
+
+            this.xml = base.createXml(parent);
+
+            foreach (ExceptHolder ex in Excepts) {
+                this.xml.AppendChild(ex.createXml(parent));
+            }
+
+            return this.xml;
+        }
+
     }
     // This holds the ignore information loaded straight from the XML file
     public class ExceptHolder : AGenericHolder {
         protected ExceptHolder() { }
+        public ExceptHolder(string name, string path, string type) {
+            tag = "except";
+            Name = name;
+            Path = path;
+            Type = type;
+        }
         public ExceptHolder(XmlElement element, string type): base(element) {
+            tag = "except";
             this.Type = type;   
         }
+
+
     }
 
     // This holds the information for an identifier

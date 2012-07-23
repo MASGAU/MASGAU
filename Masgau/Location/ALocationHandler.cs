@@ -46,7 +46,7 @@ namespace MASGAU.Location {
         // Return location holders based on various kinds of input
         public virtual List<DetectedLocationPathHolder> getPaths(ALocationHolder get_me) {
             Type check = get_me.GetType();
-            if (check.Equals(typeof(LocationPathHolder))) {
+            if (check.Equals(typeof(LocationPathHolder))||check.IsSubclassOf(typeof(LocationPathHolder))) {
                 return getPaths(get_me as LocationPathHolder);
             } else if (check.Equals(typeof(LocationRegistryHolder))) {
                 return getPaths(get_me as LocationRegistryHolder);

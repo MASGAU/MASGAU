@@ -2,7 +2,7 @@
 using System;
 using System.Xml;
 using MVC;
-
+using XmlData;
 namespace MASGAU.Location.Holders {
     public class LocationPathHolder : ALocationHolder {
         // Used when dealing with a path
@@ -53,6 +53,16 @@ namespace MASGAU.Location.Holders {
             return System.IO.Path.Combine(rel_root.ToString(), Path);
         }
 
+        public XmlElement createXml(Game parent) {
+            if(this.xml!=null)
+                return this.xml;
+
+            xml = parent.createElement("path");
+            parent.addAtribute(xml, "ev", this.rel_root.ToString().ToLower());
+            parent.addAtribute(xml, "path", this.Path);
+
+            return this.xml;
+        }
 
     }
 }

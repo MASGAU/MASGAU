@@ -28,13 +28,13 @@ namespace MASGAU.Main {
                 if (!this.IsLoaded || e.AddedItems.Count == 0)
                     return;
 
-                if (e.AddedItems[0] == AnalyzerTab) {
-                    GameGrid.Visibility = System.Windows.Visibility.Collapsed;
-                    AnalyzerReportGrid.Visibility = System.Windows.Visibility.Visible;
-                } else {
-                    GameGrid.Visibility = System.Windows.Visibility.Visible;
-                    AnalyzerReportGrid.Visibility = System.Windows.Visibility.Collapsed;
-                }
+                //if (e.AddedItems[0] == AnalyzerTab) {
+                //    GameGrid.Visibility = System.Windows.Visibility.Collapsed;
+                //    AnalyzerReportGrid.Visibility = System.Windows.Visibility.Visible;
+                //} else {
+                //    GameGrid.Visibility = System.Windows.Visibility.Visible;
+                //    AnalyzerReportGrid.Visibility = System.Windows.Visibility.Collapsed;
+                //}
             }
 
         }

@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using Communication;
 using MASGAU.Location.Holders;
+using MASGAU.Location;
 using MVC;
 namespace MASGAU.Analyzer {
     public abstract class AAnalyzer : AWorker {
@@ -143,16 +144,11 @@ namespace MASGAU.Analyzer {
             return true;
         }
         protected string censorDirectory(DirectoryInfo dir) {
-            List<DetectedLocationPathHolder> paths = Core.locations.interpretPath(dir.FullName.TrimEnd(Path.DirectorySeparatorChar));
+            DetectedLocations paths = Core.locations.interpretPath(dir.FullName.TrimEnd(Path.DirectorySeparatorChar));
             if (paths.Count == 0)
                 return dir.FullName;
-
-            DetectedLocationPathHolder candidate = null;
-            foreach (DetectedLocationPathHolder path in paths) {
-                if (candidate == null || candidate.rel_root < path.rel_root)
-                    candidate = path;
-            }
-            return candidate.full_relative_dir_path;
+            else
+                return paths.getMostAccurateLocation().full_relative_dir_path;
         }
         #endregion
 

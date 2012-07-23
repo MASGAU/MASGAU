@@ -140,7 +140,7 @@ namespace MASGAU.Update {
 
                     XmlFile game_config;
                     try {
-                        game_config = new XmlFile(new FileInfo(tmp_name));
+                        game_config = new XmlFile(new FileInfo(tmp_name),false);
                     } catch (InvalidOperationException ex) {
                         TranslatingMessageHandler.SendError("BadUpdateData", ex, latest_version_url);
                         File.Delete(tmp_name);

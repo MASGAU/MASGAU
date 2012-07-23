@@ -7,7 +7,7 @@ using MASGAU.Update;
 using Translator;
 using XmlData;
 namespace MASGAU {
-    public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile> {
+    public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,Game> {
 
         public List<UpdateHandler> xml_file_versions;
 
