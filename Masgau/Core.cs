@@ -8,14 +8,16 @@ using MASGAU.Location;
 using MASGAU.Monitor;
 //using MASGAU.Task;
 using MASGAU.Update;
-
-namespace MASGAU {
+using Translator;
+namespace MASGAU
+{
     // This basically sets up all the static classes that are used all over MASGAU
     // I'd like to consolidate as much function into this class as possible,
     // but I don't want it to unnecessarily become a convoluted highway of 
     // method forwarding.
 
-    public abstract class Core : BackgroundWorker {
+    public abstract class Core : BackgroundWorker
+    {
         // This allows us to lock the config file across platforms
         public static System.Threading.Mutex mutex = new System.Threading.Mutex(false, "MASGAU");
 
@@ -53,7 +55,7 @@ namespace MASGAU {
         public static Settings.Settings settings;
         public static UpdatesHandler updater;
         //public static TaskHandler task;
-        public static MonitorHandler monitor;
+        public static Monitor.Monitor monitor;
 
         // Indicates wether we're running in all users mode
         public static bool all_users_mode = false;
@@ -66,22 +68,28 @@ namespace MASGAU {
         #region Redetection indicators
         // Indicates wether the games need to be re-detected
         private static bool _redetect_games = false;
-        public static bool redetect_games {
-            get {
+        public static bool redetect_games
+        {
+            get
+            {
                 return _redetect_games;
             }
-            set {
+            set
+            {
                 _redetect_games = value;
             }
         }
 
         // Indicates wether the archvies need to be re-detected
         private static bool _redetect_archives = true;
-        public static bool redetect_archives {
-            get {
+        public static bool redetect_archives
+        {
+            get
+            {
                 return _redetect_archives;
             }
-            set {
+            set
+            {
                 _redetect_archives = value;
             }
         }
@@ -92,15 +100,24 @@ namespace MASGAU {
         #endregion
 
         public static Email.EmailHandler email { get; protected set; }
+        private static bool mutex_acquired = false;
+        static Core()
+        {
+            if (!mutex_acquired && !mutex.WaitOne(100))
+            {
+                throw new TranslateableException("NoMultipleInstances");
+            }
 
-        static Core() {
+
             portable_mode = false;
             config_location = null;
 
             // Checks if the command line indicates we should be running in all users mode
             string[] args = Environment.GetCommandLineArgs();
-            for (int i = 0; i < args.Length; i++) {
-                switch (args[i]) {
+            for (int i = 0; i < args.Length; i++)
+            {
+                switch (args[i])
+                {
                     case "-allusers":
                         all_users_mode = true;
                         break;
@@ -121,12 +138,18 @@ namespace MASGAU {
 
 
             global::Config.ConfigMode mode;
-            if(portable_mode) {
+            if (portable_mode)
+            {
                 mode = global::Config.ConfigMode.PortableApps;
-            } else  {
-                if(all_users_mode) {
+            }
+            else
+            {
+                if (all_users_mode)
+                {
                     mode = global::Config.ConfigMode.AllUsers;
-                } else {
+                }
+                else
+                {
                     mode = global::Config.ConfigMode.SingleUser;
                 }
             }
@@ -136,25 +159,32 @@ namespace MASGAU {
 
         }
 
-        protected Core(Interface new_interface) {
+        protected Core(Interface new_interface)
+        {
             prepareProgramNames(new_interface);
             interface_library = new_interface;
         }
 
-        private static void prepareProgramNames(Interface iface) {
+        private static void prepareProgramNames(Interface iface)
+        {
             string bin_root = app_path;
             programs.main = Path.Combine(bin_root, "MASGAU.Main." + iface + ".exe");
             programs.updater = Path.Combine(bin_root, "MASGAU.Updater." + iface + ".exe");
             programs.restore = Path.Combine(bin_root, "MASGAU.Restore." + iface + ".exe");
         }
 
-        public static string makeNumbersOnly(string remove) {
+        public static string makeNumbersOnly(string remove)
+        {
             if (remove.Length > 18)
                 remove = remove.Substring(0, 18);
-            for (int i = 0; i < remove.Length; i++) {
-                try {
+            for (int i = 0; i < remove.Length; i++)
+            {
+                try
+                {
                     Int64.Parse(remove.Substring(i, 1));
-                } catch {
+                }
+                catch
+                {
                     remove = remove.Remove(i, 1);
                     i--;
                 }
@@ -162,13 +192,16 @@ namespace MASGAU {
             return remove;
         }
         #region Opening Paths
-        public static void openPath(string path) {
+        public static void openPath(string path)
+        {
             System.Diagnostics.Process.Start(path);
         }
-        public static void openBackupPath() {
+        public static void openBackupPath()
+        {
             openPath(Core.settings.backup_path);
         }
-        public static void openSteamPath() {
+        public static void openSteamPath()
+        {
             openPath(Core.settings.steam_path);
         }
         //public static void openSyncPath() {

@@ -6,6 +6,7 @@ using System.Text;
 using System.Xml;
 using System.IO;
 using MVC;
+using MASGAU.Monitor;
 using MASGAU.Location.Holders;
 using Communication;
 using Communication.Translator;
@@ -106,10 +107,15 @@ namespace MASGAU {
             }
         }
 
+        public bool CanBeMonitored {
+            get {
+                return !id.OS.StartsWith("PS")&&id.OS!="Android";
+            }
+        }
 
         public bool IsMonitored {
             get {
-                return MonitorEnabled && IsDetected;
+                return MonitorEnabled && IsDetected && CanBeMonitored;
             }
         }
         public bool MonitorEnabled {
@@ -117,8 +123,15 @@ namespace MASGAU {
                 return Core.settings.isGameMonitored(id);
             }
             set {
+                if (!CanBeMonitored)
+                    return;
+
                 Core.settings.setGameMonitored(this.id, value);
                 NotifyPropertyChanged("MonitorEnabled");
+                if(value)
+                    startMonitoring();
+                else
+                    stopMonitoring();
             }
         }
 
@@ -403,7 +416,31 @@ namespace MASGAU {
 
 
 
+        #region monitoring methods
+        private Stack<MonitorPath> monitors = new Stack<MonitorPath>();
+        public void startMonitoring() {
+            if (monitors.Count > 0)
+                stopMonitoring();
 
+            if (!IsMonitored)
+                return;
+
+
+            foreach (DetectedLocationPathHolder path in this.DetectedLocations.Values) {
+                MonitorPath mon = new MonitorPath(this, path);
+                monitors.Push(mon);
+                mon.start();
+            }
+        }
+
+        public void stopMonitoring() {
+            while(monitors.Count>0) {
+                MonitorPath  path = monitors.Pop();
+                path.stop();
+                path.Dispose();
+            }
+        }
+        #endregion
 
 
         #region Purging Methods

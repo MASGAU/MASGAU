@@ -42,7 +42,7 @@ namespace MASGAU {
 
                 settings.PropertyChanged += new PropertyChangedEventHandler(settings_PropertyChanged);
 
-                monitor = new MonitorHandler();
+                monitor = new Monitor.Monitor();
 
                 updater = new Update.UpdatesHandler();
 

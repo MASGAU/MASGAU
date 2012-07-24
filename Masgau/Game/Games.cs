@@ -147,6 +147,8 @@ namespace MASGAU {
         public static void detectGames(List<GameID> these_games, bool force_redetect) {
             ProgressHandler.state = ProgressState.Normal;
 
+            Core.monitor.stop();
+
             if (model.Count == 0) {
                 loadXml();
             }
@@ -178,6 +180,9 @@ namespace MASGAU {
                 if (!game.DetectionAttempted)
                     game.Detect();
 
+                if (game.IsMonitored) {
+                    game.startMonitoring();
+                }
                 //foreach (string contrib in game.Contributors) {
                 //    if (contribs.ContainsKey(contrib))
                 //        contribs[contrib]++;
@@ -203,7 +208,6 @@ namespace MASGAU {
 
             Archives.DetectBackups();
 
-            
             model.IsEnabled = true;
             if (game_count > 1) {
                 TranslatingProgressHandler.setTranslatedMessage("GamesDetected", detected_games_count.ToString());
@@ -215,6 +219,9 @@ namespace MASGAU {
                 //no_games.title = Strings.getGeneralString("NoGamesDetected");
                 model.IsEnabled = false;
             }
+            Monitor.Monitor.flushQueue();
+            Core.monitor.start();
+
             StaticNotifyPropertyChanged("GamesDetected");
         }
 

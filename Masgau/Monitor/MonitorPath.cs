@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using MASGAU.Location;
+using MASGAU.Location.Holders;
+using Communication;
+using Communication.Translator;
+namespace MASGAU.Monitor
+{
+    public class MonitorPath: FileSystemWatcher
+    {
+        public DetectedLocationPathHolder Path { get; protected set; }
+        public GameVersion Game{ get; protected set; }
+        public MonitorPath(GameVersion game, DetectedLocationPathHolder path): base(path.full_dir_path,"*") {
+            this.Path = path;
+            this.Game = game;
+
+            this.IncludeSubdirectories = true;
+            this.Created += new FileSystemEventHandler(changed);
+            this.Changed += new FileSystemEventHandler(changed);
+            this.Deleted += new FileSystemEventHandler(changed);
+            this.Renamed += new RenamedEventHandler(changed);
+        }
+
+
+        private void changed(Object sender, FileSystemEventArgs e) {
+            MonitorFile add_me = new MonitorFile(this);
+            add_me.root = (sender as FileSystemWatcher).Path;
+            add_me.path = e.Name;
+            add_me.change_type = e.ChangeType;
+            add_me.origin = Origin.Game;
+            if (e.ChangeType == WatcherChangeTypes.Renamed) {
+                try {
+                    add_me.old_path = ((RenamedEventArgs)e).OldName;
+                } catch {
+                    add_me.old_path = null;
+                }
+            } else {
+                add_me.old_path = null;
+            }
+            Monitor.EnqueueFile(add_me);
+        }
+
+        private static bool backuppathwarned = false;
+
+
+        public void start() {
+            while (!Core.settings.IsBackupPathSet&&!backuppathwarned) {
+                RequestReply reply = RequestHandler.Request(RequestType.BackupFolder);
+                if (reply.cancelled) {
+                    TranslatingMessageHandler.SendWarning("MonitorNeedsBackupPath");
+                    backuppathwarned = true;
+                    //throw new TranslateableException("BackupPathNotSet");
+                }
+            }
+            this.EnableRaisingEvents = true;
+        }
+
+        public void stop() {
+            this.EnableRaisingEvents = false;
+
+        }
+
+        ~MonitorPath() {
+            stop();
+        }
+    }
+}
