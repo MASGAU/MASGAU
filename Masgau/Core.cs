@@ -3,12 +3,13 @@ using System.IO;
 using System.Reflection;
 using System.Xml;
 using System.Xml.Schema;
-using MASGAU.Config;
 using MASGAU.Location;
 using MASGAU.Monitor;
 //using MASGAU.Task;
 using MASGAU.Update;
 using Translator;
+using MVC;
+using System.ComponentModel;
 namespace MASGAU
 {
     // This basically sets up all the static classes that are used all over MASGAU
@@ -16,7 +17,7 @@ namespace MASGAU
     // but I don't want it to unnecessarily become a convoluted highway of 
     // method forwarding.
 
-    public abstract class Core : BackgroundWorker
+    public abstract class Core : ANotifyingObject
     {
         // This allows us to lock the config file across platforms
         public static System.Threading.Mutex mutex = new System.Threading.Mutex(false, "MASGAU");
@@ -45,7 +46,7 @@ namespace MASGAU
         public static ProgramNames programs = new ProgramNames();
 
         // This stores whether we're using wpf or gtk
-        public static Interface interface_library = Interface.WPF;
+//        public static Interface interface_library = Interface.WPF;
 
         // This stores what OS we're on
         private static OperatingSystem os = OperatingSystem.Windows;
@@ -57,6 +58,8 @@ namespace MASGAU
         //public static TaskHandler task;
         public static Monitor.Monitor monitor;
 
+        public static StartupHelper startup;
+
         // Indicates wether we're running in all users mode
         public static bool all_users_mode = false;
 
@@ -65,6 +68,29 @@ namespace MASGAU
 
         public static bool initialized = false;
 
+        public BackgroundWorker worker = new BackgroundWorker();
+
+
+        public bool IsBusy {
+            get {
+                return worker.IsBusy;
+            }
+        }
+        public void CancelAsync() {
+            worker.CancelAsync();
+        }
+        public void RunWorkerAsync() {
+            worker.RunWorkerAsync();
+        }
+        public event RunWorkerCompletedEventHandler RunWorkerCompleted {
+            add { worker.RunWorkerCompleted += value; }
+            remove { worker.RunWorkerCompleted -= value; }
+        }
+        protected bool CancellationPending {
+            get {
+                return worker.CancellationPending;
+            }
+        }
         #region Redetection indicators
         // Indicates wether the games need to be re-detected
         private static bool _redetect_games = false;
@@ -154,23 +180,22 @@ namespace MASGAU
                 }
             }
             settings = new Settings.Settings(mode);
+            prepareProgramNames();
 
             email = new Email.EmailHandler(Core.settings.email, Core.submission_email);
-
+            startup = new StartupHelper("MASGAU", Core.programs.main);
         }
 
-        protected Core(Interface new_interface)
+        protected Core()
         {
-            prepareProgramNames(new_interface);
-            interface_library = new_interface;
         }
 
-        private static void prepareProgramNames(Interface iface)
+        private static void prepareProgramNames()
         {
             string bin_root = app_path;
-            programs.main = Path.Combine(bin_root, "MASGAU.Main." + iface + ".exe");
-            programs.updater = Path.Combine(bin_root, "MASGAU.Updater." + iface + ".exe");
-            programs.restore = Path.Combine(bin_root, "MASGAU.Restore." + iface + ".exe");
+            programs.main = Path.Combine(bin_root, "MASGAU.exe");
+            programs.updater = Path.Combine(bin_root, "MASGAU.Updater.exe");
+            programs.restore = Path.Combine(bin_root, "MASGAU.Restore.exe");
         }
 
         public static string makeNumbersOnly(string remove)

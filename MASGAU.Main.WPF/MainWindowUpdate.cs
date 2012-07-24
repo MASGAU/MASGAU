@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows;
-using Communication;
+using MVC.Communication;
 using MASGAU.Update;
 using Translator.WPF;
 namespace MASGAU.Main {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.IO;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;

@@ -6,7 +6,7 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading;
 using System.Xml;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 using MASGAU.Location.Holders;
 using MVC;
@@ -229,7 +229,7 @@ namespace MASGAU {
 
                 DateTime file_write_time = File.GetLastWriteTime(from_here);
                 int time_comparison = DateTime.Compare(LastModified, file_write_time);
-                if (Core.settings.ignore_date_check || time_comparison <= 0) {
+                if (Core.settings.IgnoreDateCheck || time_comparison <= 0) {
                     try {
                         if (!Directory.Exists(Path.GetDirectoryName(to_here)))
                             Directory.CreateDirectory(Path.GetDirectoryName(to_here));
@@ -347,7 +347,7 @@ namespace MASGAU {
                     return false;
                 }
 
-                Communication.Interface.InterfaceHandler.disableInterface();
+                MVC.Communication.Interface.InterfaceHandler.disableInterface();
                 if (!TranslatingRequestHandler.Request(RequestType.Question, "UnableToCreateOutputFolderRequest", destination).cancelled) {
                     try {
                         SecurityHandler.elevation(Core.programs.restore, "\"" + FileName + "\"");
@@ -359,8 +359,8 @@ namespace MASGAU {
                     return false;
                 }
             } finally {
-                Communication.Interface.InterfaceHandler.enableInterface();
-                Communication.Interface.InterfaceHandler.closeInterface();
+                MVC.Communication.Interface.InterfaceHandler.enableInterface();
+                MVC.Communication.Interface.InterfaceHandler.closeInterface();
             }
         }
 

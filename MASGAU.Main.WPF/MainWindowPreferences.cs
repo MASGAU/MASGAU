@@ -3,26 +3,32 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
 using MASGAU.Location.Holders;
+using System;
 using Translator;
 using Translator.WPF;
 using Microsoft.Windows.Controls.Ribbon;
-
+using MASGAU.Settings;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
+
+
         public void bindSettingsControls() {
-            //ignoreDatesChk.DataContext = Core.settings;
-            //backupPathTxt.DataContext = Core.settings;
-            //openBackupPathBtn.DataCont Core.settings;
-            //steamPathTxt.DataContext = Core.settings;
+            versioningTimingUnit.Items.Clear();
+            foreach (VersioningUnit suit in Enum.GetValues(typeof(VersioningUnit))) {
+                versioningTimingUnit.Items.Add(suit.ToString());
+            }
 
-            //extraBackupsTgl.DataContext = Core.settings;
-            //versioningCountTxt.DataContext = Core.settings;
-            //versioningMaxTxt.DataContext = Core.settings;
-            //versioningUnitCombo.DataContext = Core.settings;
 
-            //emailTxt.DataContext = Core.settings;
+            //versioningTimingUnit.SelectionBoxItem = Core.settings.VersioningUnit;
 
-            //altPathLst.DataContext = Core.settings.save_paths;
+            versioningButton.DataContext = Core.settings;
+            versioningMax.DataContext = Core.settings;
+            versioningTiming.DataContext = Core.settings;
+            versioningTimingUnit.DataContext = Core.settings;
+
+            ignoreDates.DataContext = Core.settings;
+            autoStart.DataContext = Core.startup;
+            emailText.DataContext = Core.settings;
         }
 
         private void populateAltPaths() {
@@ -37,7 +43,6 @@ namespace MASGAU.Main {
         }
 
         void item_Click(object sender, RoutedEventArgs e) {
-
             throw new System.NotImplementedException();
         }
 
@@ -240,8 +245,6 @@ namespace MASGAU.Main {
             txt_box.Text = Core.makeNumbersOnly(txt_box.Text);
             txt_box.SelectionStart = cursor;
         }
-
-
 
     }
 }

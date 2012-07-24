@@ -5,8 +5,10 @@ using Communication.Translator;
 using MASGAU.Location;
 using MASGAU.Monitor;
 using Translator;
+using MVC.Communication;
+
 namespace MASGAU {
-    public abstract class AProgramHandler<L> : Core, INotifyPropertyChanged where L : ALocationsHandler {
+    public abstract class AProgramHandler: Core, INotifyPropertyChanged {
 
         // The title of the program's window
         public String program_title {
@@ -17,14 +19,15 @@ namespace MASGAU {
 
         protected string _program_title = "MASGAU";
 
-        public AProgramHandler(Interface new_interface)
-            : base(new_interface) {
+        public AProgramHandler(ALocationsHandler locations)
+            : base() {
             if (Core.portable_mode)
                 _program_title = Strings.GetLabelString("PortableMode", _program_title);
 
+            Core.locations = locations;
 
-            this.DoWork += new DoWorkEventHandler(doWork);
-            this.RunWorkerCompleted += new RunWorkerCompletedEventHandler(workCompleted);
+            worker.DoWork += new DoWorkEventHandler(doWork);
+            worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(workCompleted);
         }
 
         protected virtual void workCompleted(object sender, RunWorkerCompletedEventArgs e) { }
@@ -40,6 +43,8 @@ namespace MASGAU {
                     return;
                 }
 
+                Core.locations.setup();
+
                 settings.PropertyChanged += new PropertyChangedEventHandler(settings_PropertyChanged);
 
                 monitor = new Monitor.Monitor();
@@ -49,8 +54,6 @@ namespace MASGAU {
                 TranslatingProgressHandler.setTranslatedMessage("ValidatingBackupPath");
                 if (settings.IsBackupPathSet && (!PermissionsHelper.isReadable(settings.backup_path) || !PermissionsHelper.isWritable(settings.backup_path)))
                     settings.clearBackupPath();
-
-                locations = (ALocationsHandler)Activator.CreateInstance(typeof(L));
 
                 if (!locations.ready)
                     return;

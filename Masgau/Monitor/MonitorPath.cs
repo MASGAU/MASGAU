@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 namespace MASGAU.Monitor
 {

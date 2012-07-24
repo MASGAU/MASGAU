@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {

@@ -90,6 +90,7 @@
     <Compile Include="Effects\FadeOutEffect.cs" />
     <Compile Include="Effects\FadeEffect.cs" />
     <Compile Include="Effects\FadeInEffect.cs" />
+    <Compile Include="FixedRibbonTextBox.cs" />
     <Compile Include="GlassHelper.cs" />
     <Compile Include="GroupBoxInput.xaml.cs">
       <DependentUpon>GroupBoxInput.xaml</DependentUpon>
@@ -105,6 +106,8 @@
     <Compile Include="RestoreWindow.xaml.cs">
       <DependentUpon>RestoreWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RibbonComboItem.cs" />
+    <Compile Include="RibbonComboSource.cs" />
     <Compile Include="SelectFile.cs" />
     <Compile Include="SettingsControl.xaml.cs">
       <DependentUpon>SettingsControl.xaml</DependentUpon>
@@ -152,10 +155,6 @@
       <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
       <Name>Communication.WPF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\Communication\Communication.csproj">
-      <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
-      <Name>Communication</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libs\Config\Config.csproj">
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
@@ -163,10 +162,6 @@
     <ProjectReference Include="..\Libs\Email\Email.csproj">
       <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
       <Name>Email</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Main\MASGAU.Main.csproj">
-      <Project>{200C1855-FBC7-4133-A5DD-0B1C32B75121}</Project>
-      <Name>MASGAU.Main</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.Updater\MASGAU.Updater.csproj">
       <Project>{589E0815-04F6-4DE2-9CAE-F330D66FFE81}</Project>

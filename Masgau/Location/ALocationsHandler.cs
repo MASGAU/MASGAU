@@ -30,6 +30,9 @@ namespace MASGAU.Location {
                                                 EnvironmentVariable.SteamUserData };
 
         protected ALocationsHandler() {
+        }
+        private bool already_setup = false;
+        public void setup() {
             handlers = new Dictionary<HandlerType, ALocationHandler>();
 
             TranslatingProgressHandler.setTranslatedMessage("DetectingSystemPaths");

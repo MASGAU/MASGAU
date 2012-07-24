@@ -14,6 +14,18 @@ namespace MASGAU {
 
         }
 
+        protected bool toggleMinimize() {
+            if (this.WindowState == System.Windows.WindowState.Minimized) {
+                this.WindowState = System.Windows.WindowState.Normal;
+                return false;
+            } else {
+                this.WindowState = System.Windows.WindowState.Minimized;
+                return true;
+            }
+        }
+
+
+
         protected string getPath(Environment.SpecialFolder root, string description, string path) {
 
             System.Windows.Forms.FolderBrowserDialog pathBrowser = new System.Windows.Forms.FolderBrowserDialog();

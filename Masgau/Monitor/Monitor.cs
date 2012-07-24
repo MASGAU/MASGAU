@@ -6,7 +6,7 @@ using System.IO;
 using System.Threading;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 using Translator;
 using MVC;
@@ -24,8 +24,11 @@ namespace MASGAU.Monitor {
         private string _status = null;
         public string Status {
             get {
-                if (Core.settings.backup_path_not_set)
-                    return Strings.GetMessageString("MonitoreNeedsBackupPath");
+                if(!worker.IsBusy)
+                    return Strings.GetMessageString("MonitorNotRunning");
+
+                if (MonitoredCount > 0 && Core.settings.backup_path_not_set)
+                    return Strings.GetMessageString("MonitorNeedsBackupPath");
 
                 if (_status != null)
                     return _status;
@@ -36,9 +39,10 @@ namespace MASGAU.Monitor {
 
         public bool Active {
             get {
-                return MonitoredCount > 0;
+                return worker.IsBusy&&MonitoredCount > 0;
             }
         }
+
         public void stop() {
             if(worker.IsBusy)
                 worker.CancelAsync();
@@ -73,6 +77,8 @@ namespace MASGAU.Monitor {
                 TranslatingMessageHandler.SendException(e.Error);
                 worker.RunWorkerAsync();
             }
+            NotifyPropertyChanged("Status");
+            NotifyPropertyChanged("Active");
 
         }
 
@@ -95,10 +101,12 @@ namespace MASGAU.Monitor {
         void worker_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e) {
             MonitorFile file;
             while (!worker.CancellationPending) {
+                NotifyPropertyChanged("Active");
+                NotifyPropertyChanged("Status");
                 if (QueueCount == 0) {
                     // No new files? Take a nap.
                     try {
-                        Thread.Sleep(1000);
+                        Thread.Sleep(100);
                     } catch (Exception ex) {
                         TranslatingMessageHandler.SendException(ex);
                     }
@@ -142,7 +150,7 @@ namespace MASGAU.Monitor {
                                     Archives.Add(archive);
                                 }
                                 //monitorNotifier.ShowBalloonTip(10, "Safety Will Robinson", "Trying to archive " + file.path, ToolTipIcon.Info);
-                                Communication.MessageHandler.suppress_messages = true;
+                                MessageHandler.suppress_messages = true;
                                 List<DetectedFile> temp_list = new List<DetectedFile>();
                                 temp_list.Add(this_file);
                                 archive.backup(temp_list, false);
@@ -154,7 +162,7 @@ namespace MASGAU.Monitor {
                                     FileQueue.Enqueue(file);
                                 }
                             } finally {
-                                Communication.MessageHandler.suppress_messages = false;
+                                MessageHandler.suppress_messages = false;
                             }
                         }
                         break;
@@ -163,8 +171,9 @@ namespace MASGAU.Monitor {
                     e.Cancel = true;
 
                 _status = null;
-                NotifyPropertyChanged("Status");
             }
+            NotifyPropertyChanged("Status");
+            NotifyPropertyChanged("Active");
         }
     }
 }

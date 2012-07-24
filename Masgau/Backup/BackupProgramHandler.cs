@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using Collections;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 namespace MASGAU.Backup {
-    public class ABackupProgramHandler<L> : AProgramHandler<L> where L : ALocationsHandler {
+    public class BackupProgramHandler : AProgramHandler {
         public string archive_name_override = null;
 
         private List<GameVersion> back_these_up = null;
         private List<DetectedFile> only_these_files = new List<DetectedFile>();
 
-        public ABackupProgramHandler(List<GameVersion> backup_list, Interface new_iface)
-            : this(new_iface) {
+        public BackupProgramHandler(List<GameVersion> backup_list, ALocationsHandler loc)
+            : this(loc) {
             back_these_up = backup_list;
         }
-        public ABackupProgramHandler(GameVersion this_game, List<DetectedFile> only_these, string archive_name, Interface new_iface)
-            : this(new_iface) {
+        public BackupProgramHandler(GameVersion this_game, List<DetectedFile> only_these, string archive_name, ALocationsHandler loc)
+            : this(loc) {
             back_these_up = new List<GameVersion>();
             back_these_up.Add(this_game);
 
@@ -28,11 +28,10 @@ namespace MASGAU.Backup {
             }
             archive_name_override = archive_name;
         }
-
-        public ABackupProgramHandler(Interface new_iface)
-            : base(new_iface) {
-            this.DoWork += new DoWorkEventHandler(BackupProgramHandler_DoWork);
-            this.RunWorkerCompleted += new RunWorkerCompletedEventHandler(BackupProgramHandler_RunWorkerCompleted);
+        public BackupProgramHandler(ALocationsHandler loc)
+            : base(loc) {
+            worker.DoWork += new DoWorkEventHandler(BackupProgramHandler_DoWork);
+            worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(BackupProgramHandler_RunWorkerCompleted);
         }
 
         void BackupProgramHandler_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {

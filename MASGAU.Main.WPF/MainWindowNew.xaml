@@ -7,7 +7,7 @@
         xmlns:mwpf="clr-namespace:MASGAU;assembly=MASGAU.WPF"
         Title="$MainWindow" 
         x:Name="Window"
-        Width="921" Height="500" WindowStyle="None"  MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="750" MinHeight="400">
+        Width="{Binding WindowW, Mode=TwoWay}" Height="{Binding WindowH, Mode=TwoWay}" Left="{Binding WindowX, Mode=TwoWay}" Top="{Binding WindowY, Mode=TwoWay}" WindowStyle="None"  MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="750" MinHeight="400">
     <Window.Resources>
         <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
             <Setter Property="Visibility" Value="Collapsed" />
@@ -28,7 +28,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="1" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
             <r:Ribbon.HelpPaneContent>
                 <Grid Margin="0,1,0,0">
                     <Grid.ColumnDefinitions>
@@ -36,91 +36,97 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <r:RibbonButton Grid.Column="0" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/go-bottom.png" Name="minimizeButton" Click="minimizeButton_Click" ToolTip="Send To Task Bar" />
-                    <r:RibbonButton Grid.Column="1" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="Toggle fullscreen" />
-                    <r:RibbonButton Grid.Column="2" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/system-log-out.png" Name="closeButton" Click="closeButton_Click" ToolTip="Exit MASGAU" Margin="0,0,3,0" />
+                    <r:RibbonButton Grid.Column="0" SmallImageSource="/MASGAU;component/Images/16px/go-bottom.png" Name="minimizeButton" Click="minimizeButton_Click" ToolTip="Send To Task Bar" />
+                    <r:RibbonButton Grid.Column="1" SmallImageSource="/MASGAU;component/Images/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="Toggle fullscreen" />
+                    <r:RibbonButton Grid.Column="2" SmallImageSource="/MASGAU;component/Images/16px/system-log-out.png" Name="closeButton" Click="closeButton_Click" ToolTip="Exit MASGAU" Margin="0,0,3,0" />
                 </Grid>
             </r:Ribbon.HelpPaneContent>
                 <r:Ribbon.ApplicationMenu>
                 <r:RibbonApplicationMenu KeyTip="M" Label="MASGAU" ToolTip="MASGAU"  Name="appMenu"
-                    LargeImageSource="/MASGAU.Main.WPF;component/Images/16px/view-refresh.png">
+                    LargeImageSource="/MASGAU;component/Images/16px/view-refresh.png">
 
-                    <r:RibbonApplicationMenuItem Header="About" ImageSource="/MASGAU.Main.WPF;component/Images/help-browser.png" Name="AboutButton" Click="AboutButton_Click">
+                    <r:RibbonApplicationMenuItem Header="About" ImageSource="/MASGAU;component/Images/help-browser.png" Name="AboutButton" Click="AboutButton_Click">
                     </r:RibbonApplicationMenuItem>
-                    <r:RibbonApplicationMenuItem Header="Exit" ImageSource="/MASGAU.Main.WPF;component/Images/system-log-out.png" Name="ExitButton" Click="ExitButton_Click">
+                    <r:RibbonApplicationMenuItem Header="Exit" ImageSource="/MASGAU;component/Images/system-log-out.png" Name="ExitButton" Click="ExitButton_Click">
                     </r:RibbonApplicationMenuItem>
                 </r:RibbonApplicationMenu>
             </r:Ribbon.ApplicationMenu>
             <r:RibbonTab x:Name="gamesTab"
                               Header="$BackupRestore" GroupSizeReductionOrder="backupGroup,toolsGroup,restoreGroup" >
                 <r:RibbonGroup x:Name="gamesGroup"  Header="$Games"
-                               SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-refresh.png"
-                               LargeImageSource="/MASGAU.Main.WPF;component/Images/view-refresh.png">
+                               SmallImageSource="/MASGAU;component/Images/16px/view-refresh.png"
+                               LargeImageSource="/MASGAU;component/Images/view-refresh.png">
                     <r:RibbonButton Label="$RefreshGames" 
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/view-refresh.png" 
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/view-refresh.png" 
+                                    LargeImageSource="/MASGAU;component/Images/view-refresh.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/view-refresh.png" 
                                     Click="RibbonButton_Click" Name="refreshGames" />
                     <r:RibbonButton Label="$AddGame" 
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/list-add.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/list-add.png" 
                                     Click="addGame_Click"  Name="addGame" />
+                    <r:RibbonButton Label="$EditGame" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/edit-find-replace.png" 
+                                     Name="editGame" IsEnabled="False" />
+                    <r:RibbonButton Label="$DeleteGame" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/edit-delete.png" 
+                                     Name="deleteGame" IsEnabled="False" />
                 </r:RibbonGroup>
                 <r:RibbonGroup Header="$Backup" 
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/document-save.png" 
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-save.png" Name="backupGroup">
+                                    LargeImageSource="/MASGAU;component/Images/document-save.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/document-save.png" Name="backupGroup">
                     <r:RibbonButton Name="BackupAllGames" Label="$BackupAllGames" 
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/document-save.png" 
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-save.png" 
+                                    LargeImageSource="/MASGAU;component/Images/document-save.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/document-save.png" 
                                     Click="BackupAllGames_Click" />
                     <r:RibbonButton Name="BackupSelectedGames" Label="$BackupGames"  IsEnabled="False"
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-save.png" Click="BackupSelectedGames_Click" />
+                                    SmallImageSource="/MASGAU;component/Images/16px/document-save.png" Click="BackupSelectedGames_Click" />
                     <r:RibbonButton Name="CustomBackup" Label="$CreateCustomBackup" IsEnabled="False"
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-save-as.png" Click="CustomBackup_Click" />
+                                    SmallImageSource="/MASGAU;component/Images/16px/document-save-as.png" Click="CustomBackup_Click" />
 
-                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png">
+                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/MASGAU;component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="ChangeBackupFolder" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
                         <r:RibbonMenuItem Name="OpenBackupFolder" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
                     </r:RibbonMenuButton>
                 </r:RibbonGroup>
                 <r:RibbonGroup Header="$Restore" 
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/document-open.png" 
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-open.png" Name="restoreGroup">
+                                    LargeImageSource="/MASGAU;component/Images/document-open.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/document-open.png" Name="restoreGroup">
                     <r:RibbonButton Name="RestoreSelected" Label="$RestoreGames" IsEnabled="False"
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/document-open.png" 
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-open.png" 
+                                    LargeImageSource="/MASGAU;component/Images/document-open.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/document-open.png" 
                                     Click="RestoreSelected_Click"/>
                     <r:RibbonButton Name="RestoreOther" Label="$RestoreOther" IsEnabled="true"
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/document-open.png" Click="RestoreOther_Click" />
+                                    SmallImageSource="/MASGAU;component/Images/16px/document-open.png" Click="RestoreOther_Click" />
                 </r:RibbonGroup>
                 <r:RibbonGroup
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/preferences-system.png" 
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/preferences-system.png" Name="gameOtherGroup">
+                                    LargeImageSource="/MASGAU;component/Images/preferences-system.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/preferences-system.png" Name="gameOtherGroup">
                     <r:RibbonMenuButton  Label="$Purge" IsEnabled="False" Name="PurgeButton"
-                                     SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/edit-delete.png"
-                                     LargeImageSource="/MASGAU.Main.WPF;component/Images/edit-delete.png">
+                                     SmallImageSource="/MASGAU;component/Images/16px/edit-delete.png"
+                                     LargeImageSource="/MASGAU;component/Images/edit-delete.png">
                         <r:RibbonMenuItem Header="$PurgeJustGame"/>
                         <r:RibbonMenuItem Header="$PurgeGameAndArchives" />
                     </r:RibbonMenuButton>
                     <r:RibbonButton Name="UpdateButton" Label="$CheckForUpdates" IsEnabled="False" 
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/system-software-update.png" 
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/system-software-update.png" 
+                                    LargeImageSource="/MASGAU;component/Images/system-software-update.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/system-software-update.png" 
                                     Click="UpdateButton_Click" />
                     <r:RibbonButton Name="UpdateAvailableButton" Label="$UpdateAvailable" Visibility="Collapsed" 
-                                    LargeImageSource="/MASGAU.Main.WPF;component/Images/software-update-available.png" 
-                                    SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/software-update-available.png" 
+                                    LargeImageSource="/MASGAU;component/Images/software-update-available.png" 
+                                    SmallImageSource="/MASGAU;component/Images/16px/software-update-available.png" 
                                     Click="UpdateAvailableButton_Click" />
                 </r:RibbonGroup>
             </r:RibbonTab>
             <r:RibbonTab x:Name="SettingsTab" Header="$Settings">
                 <r:RibbonGroup Header="$Paths">
-                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png">
+                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/MASGAU;component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="ChangeBackupFolderTwo" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
                         <r:RibbonMenuItem Name="OpenBackupFolderTwo" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
                     </r:RibbonMenuButton>
-                    <r:RibbonMenuButton Visibility="Collapsed" Label="$SyncFolder"  SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png">
+                    <r:RibbonMenuButton Visibility="Collapsed" Label="$SyncFolder"  SmallImageSource="/MASGAU;component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="ChangeSyncFolder" Header="$ChangeSyncFolder" Click="ChangeSyncFolder_Click" />
                         <r:RibbonMenuItem Name="OpenSyncFolder" Visibility="{Binding IsSyncPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenSyncFolder" Click="OpenSyncFolder_Click"/>
                     </r:RibbonMenuButton>
-                    <r:RibbonMenuButton Label="$AltSavePath" Name="AltSaveButton" SmallImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png">
+                    <r:RibbonMenuButton Label="$AltSavePath" Name="AltSaveButton" SmallImageSource="/MASGAU;component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="AddAltSaveFolder" Header="$AddAltSavePath" Click="AddAltSaveFolder_Click" />
                     </r:RibbonMenuButton>
                 </r:RibbonGroup>
@@ -135,17 +141,17 @@
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
-                    <r:RibbonToggleButton Grid.Row="0" Grid.ColumnSpan="2" Label="$VersioningEnable" />
-                        <r:RibbonTextBox Grid.Row="1" Grid.Column="0" Label="$VersioningTiming" />
-                        <r:RibbonComboBox  Grid.Row="1" Grid.Column="1"/>
-                        <r:RibbonTextBox Grid.Row="2" Grid.ColumnSpan="2" Label="$VersioningMaxCopies" HorizontalAlignment="Left" />
+                        <r:RibbonToggleButton Grid.Row="0" Grid.ColumnSpan="2" Label="$VersioningEnable" IsChecked="{Binding VersioningEnabled, Mode=TwoWay}" Name="versioningButton" />
+                        <mwpf:FixedRibbonTextBox  Grid.Row="1" Grid.Column="0" Label="$VersioningTiming" IsEnabled="{Binding VersioningEnabled}" Name="versioningTiming" Text="{Binding VersioningFrequency}" />
+                        <r:RibbonComboBox IsEditable="False" Grid.Row="1" Grid.Column="1" IsEnabled="{Binding VersioningEnabled}" Name="versioningTimingUnit">
+                        </r:RibbonComboBox>
+                        <mwpf:FixedRibbonTextBox  Grid.Row="2" Grid.ColumnSpan="2" Label="$VersioningMaxCopies" HorizontalAlignment="Left" IsEnabled="{Binding VersioningEnabled}" Name="versioningMax" Text="{Binding VersioningMax}" />
                     </Grid>
                 </r:RibbonGroup>
                 <r:RibbonGroup Header="$Other">
-                    <r:RibbonTextBox Label="E-Mail" />
-                    <r:RibbonCheckBox Label="$IgnoreDates" />
-                    <r:RibbonCheckBox Label="$AutoStart" />
-                    <r:RibbonCheckBox Label="$AutoStartBackup" />
+                    <mwpf:FixedRibbonTextBox Label="E-Mail" Text="{Binding email, Mode=TwoWay}" Name="emailText" Width="200"/>
+                    <r:RibbonCheckBox Label="$IgnoreDates" Name="ignoreDates" IsChecked="{Binding IgnoreDateCheck, Mode=TwoWay}" />
+                    <r:RibbonCheckBox Label="$AutoStart" Name="autoStart" IsChecked="{Binding IsEnabled, Mode=TwoWay}"/>
                 </r:RibbonGroup>
             </r:RibbonTab>
         </r:Ribbon>
@@ -193,7 +199,7 @@
                         </Style>
                     </ListView.ItemContainerStyle>
                     <ListView.View>
-                        <GridView AllowsColumnReorder="False" ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
+                        <GridView AllowsColumnReorder="False">
                             <GridViewColumn Width="0" x:Name="gameNameColumn">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
@@ -201,7 +207,7 @@
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                            <GridViewColumn Width="100" x:Name="gameTitleColumn">
+                            <GridViewColumn Width="100" x:Name="gameTitleColumn" Header="$Game">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <Grid Margin="0,3,0,3">
@@ -212,6 +218,13 @@
                                             <TextBlock Grid.Column="0" Text="{Binding Title}"/>
                                             <TextBlock Text="{Binding TitleAddendum}" Grid.Column="1" HorizontalAlignment="Right" />
                                         </Grid>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="50" x:Name="gameMonitorColumn" Header="$Monitor">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding IsMonitored, Mode=TwoWay}" IsEnabled="{Binding CanBeMonitored}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
@@ -281,10 +294,16 @@
                     <StatusBarItem>
                         <Label Name="statusBarLabel" />
                     </StatusBarItem>
-                    <StatusBarItem HorizontalAlignment="Right">
-                        <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click">
+                    <StatusBarItem HorizontalAlignment="Stretch">
+                        <Label />
+                    </StatusBarItem>
+                    <StatusBarItem HorizontalAlignment="Right" Width="Auto">
+                        <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" />
+                    </StatusBarItem>
+                    <StatusBarItem HorizontalAlignment="Right" Width="Auto">
+                        <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto">
                             <Button.Content>
-                                <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU.Main.WPF;component/Images/16px/steam.png" Height="16" />
+                                <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;component/Images/16px/steam.png" Height="16" />
                             </Button.Content>
                         </Button>
                     </StatusBarItem>
@@ -305,7 +324,7 @@
             <ProgressBar Margin="25" Height="35" Name="progress" Grid.Row="1" IsTabStop="False" Value="0" />
             <Label Content="$Ready" Grid.Row="1" HorizontalAlignment="Center" Name="progressLabel" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
 
-            <mwpf:SuperButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU.Main.WPF;component/Images/process-stop.png" Text="$Stop"  />
+            <mwpf:SuperButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU;component/Images/process-stop.png" Text="$Stop"  />
         </Grid>
 
         <Grid Grid.Row="0" Grid.RowSpan="2" Name="AddGameGrid" Margin="0,25,0,0" Visibility="Collapsed" Opacity="0">
@@ -329,12 +348,12 @@
             <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="$AddGameHeader" HorizontalAlignment="Center" FontSize="16" />
 
             <mwpf:GroupBoxInput Name="AddGameTitle" Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" TextChanged="addGameButtonCheck" />
-            <mwpf:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/MASGAU.Main.WPF;component/Images/16px/folder.png" ButtonImageMargin="0,0,3,0" />
+            <mwpf:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/MASGAU;component/Images/16px/folder.png" ButtonImageMargin="0,0,3,0" />
             <mwpf:GroupBoxInput Name="AddGameSaves" Value="*" Header="$AddGameSaves" HasButton="False" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck"  />
             <mwpf:GroupBoxInput Name="AddGameExclusions" Header="$AddGameExclusions" HasButton="False" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck" />
 
-            <mwpf:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU.Main.WPF;component/Images/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
-            <mwpf:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/MASGAU.Main.WPF;component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
+            <mwpf:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU;component/Images/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
+            <mwpf:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/MASGAU;component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
         </Grid>
 
     </Grid>

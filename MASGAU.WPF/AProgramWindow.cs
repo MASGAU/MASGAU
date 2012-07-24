@@ -2,18 +2,18 @@
 using Translator;
 namespace MASGAU {
     public abstract class AProgramWindow : AWindow {
-        protected AProgramHandler<Location.LocationsHandler> program_handler;
+        protected AProgramHandler program_handler;
 
         public AProgramWindow() { }
 
-        protected AProgramWindow(AProgramHandler<Location.LocationsHandler> program_handler, IWindow parent)
+        protected AProgramWindow(AProgramHandler program_handler, IWindow parent)
             : base(parent) {
             this.program_handler = program_handler;
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);
             if (program_handler != null)
                 this.Title = program_handler.program_title;
         }
-        protected AProgramWindow(AProgramHandler<Location.LocationsHandler> program_handler) : this(program_handler, null) { }
+        protected AProgramWindow(AProgramHandler program_handler) : this(program_handler, null) { }
 
         protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
             setUpProgramHandler();

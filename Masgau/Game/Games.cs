@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 using MVC;
 namespace MASGAU {
@@ -167,6 +167,11 @@ namespace MASGAU {
 
             Dictionary<string, int> contribs = new Dictionary<string, int>();
 
+            string string_to_use= "DetectingGamesProgress";
+            if(Core.settings.MonitoredGames.Count>0)
+                    string_to_use = "DetectingMonitoringGamesProgress";
+
+
             foreach (GameVersion game in model) {
                 //if (_cancelling)
                 //    break;
@@ -174,15 +179,22 @@ namespace MASGAU {
                 if (these_games != null && !these_games.Contains(game.id))
                     continue;
 
-                TranslatingProgressHandler.setTranslatedMessage("DetectingGamesProgress", ProgressHandler.value.ToString(), ProgressHandler.max.ToString());
+
+
+                TranslatingProgressHandler.setTranslatedMessage(string_to_use, ProgressHandler.value.ToString(), model.Count.ToString());
+
+                ProgressHandler.suppress_communication = true;
 
                 // If a game has a game root and thus forced a game to detect early, then this will skip re-detecting
                 if (!game.DetectionAttempted)
                     game.Detect();
 
                 if (game.IsMonitored) {
-                    game.startMonitoring();
+                    game.startMonitoring(null,null);
                 }
+                ProgressHandler.suppress_communication = false;
+
+
                 //foreach (string contrib in game.Contributors) {
                 //    if (contribs.ContainsKey(contrib))
                 //        contribs[contrib]++;

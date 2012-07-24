@@ -1,5 +1,5 @@
 ﻿
-namespace MASGAU.Config {
+namespace MASGAU.Settings {
     public enum VersioningUnit {
         Seconds,
         Minutes,

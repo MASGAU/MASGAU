@@ -5,19 +5,35 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
-using Communication;
+using MVC.Communication;
 using Communication.WPF;
 using Microsoft.Windows.Controls.Ribbon;
 using Translator;
 using Translator.WPF;
+using System.Windows.Forms;
 namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
     /// </summary>
     public partial class MainWindowNew : NewWindow, IWindow {
         MainProgramHandler masgau;
+        NotifyIcon notifyIcon = new NotifyIcon();
+
         public MainWindowNew() {
             InitializeComponent();
+            notifyIcon.Icon = new System.Drawing.Icon("masgau.ico");
+            notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu();
+            MenuItem exit = new MenuItem();
+            exit.Text = "Exit MASGAU";
+            exit.Click += new EventHandler(exit_Click);
+            notifyIcon.ContextMenu.MenuItems.Add(exit);
+            notifyIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(notifyIcon_MouseClick);
+            notifyIcon.Visible = true;
+
+
+            this.DataContext = Core.settings;
+            bindSettingsControls();
+
             var uriSource = new Uri(System.IO.Path.Combine(Core.app_path, "masgau.ico"), UriKind.Relative);
 
             this.Icon = new BitmapImage(uriSource);
@@ -39,7 +55,7 @@ namespace MASGAU.Main {
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);
             this.Closing += new CancelEventHandler(Window_Closing);
 
-            masgau = new MainProgramHandler();
+            masgau = new MainProgramHandler(new Location.LocationsHandler());
             setupJumpList();
         }
 
@@ -51,6 +67,16 @@ namespace MASGAU.Main {
 
         #region Program handler setup
         protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
+            switch (Core.settings.WindowState) {
+                case global::Config.WindowState.Maximized:
+                    this.WindowState = System.Windows.WindowState.Maximized;
+                    break;
+                case global::Config.WindowState.Iconified:
+                    this.ShowInTaskbar = false;
+                    this.Visibility = System.Windows.Visibility.Hidden;
+                    break;
+            }
+
             setUpProgramHandler();
         }
         protected virtual void setUpProgramHandler() {
@@ -59,10 +85,13 @@ namespace MASGAU.Main {
             gamesLst.DataContext = Games.DetectedGames;
             gamesLst.ItemsSource = Games.DetectedGames;
 
+            
+            ArchiveList.DataContext = null;
+
+
+
             masgau.RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
             masgau.RunWorkerAsync();
-
-
         }
 
         protected virtual void setup(object sender, RunWorkerCompletedEventArgs e) {
@@ -73,9 +102,11 @@ namespace MASGAU.Main {
 
             OpenBackupFolder.DataContext = Core.settings;
             OpenBackupFolderTwo.DataContext = Core.settings;
+            monitorStatusLabel.DataContext = Core.monitor;
 
             setupSteamButton();
             populateAltPaths();
+            setupMonitorIcon();
 
             if (!Core.initialized) {
                 Communication.Translator.TranslatingMessageHandler.SendException(new TranslateableException("CriticalSettingsFailure"));
@@ -108,7 +139,10 @@ namespace MASGAU.Main {
         }
 
         private void Window_Closing_1(object sender, CancelEventArgs e) {
+
             cancelWorkers();
+            notifyIcon.Visible = false;
+            notifyIcon.Dispose();
         }
 
 
@@ -136,12 +170,25 @@ namespace MASGAU.Main {
             DragMove();
         }
 
-        private void minimizeButton_Click(object sender, RoutedEventArgs e) {
-            if (this.WindowState == System.Windows.WindowState.Minimized)
-                this.WindowState = System.Windows.WindowState.Normal;
-            else
-                this.WindowState = System.Windows.WindowState.Minimized;
+        protected void updateWindowState() {
+            switch(this.WindowState) {
+                case System.Windows.WindowState.Normal:
+                    Core.settings.WindowState = global::Config.WindowState.Normal;
+                    break;
+                case System.Windows.WindowState.Maximized:
+                    Core.settings.WindowState = global::Config.WindowState.Maximized;
+                    break;
+                case System.Windows.WindowState.Minimized:
+                    Core.settings.WindowState = global::Config.WindowState.Minimized;
+                    break;
+            }
+            if(!this.ShowInTaskbar)
+                Core.settings.WindowState = global::Config.WindowState.Iconified;
+        }
 
+        private void minimizeButton_Click(object sender, RoutedEventArgs e) {
+            toggleMinimize();
+            updateWindowState();
         }
 
         private void maximizeButton_Click(object sender, RoutedEventArgs e) {
@@ -149,11 +196,18 @@ namespace MASGAU.Main {
                 this.WindowState = System.Windows.WindowState.Normal;
             else
                 this.WindowState = System.Windows.WindowState.Maximized;
+            updateWindowState();
+
         }
 
         private void closeButton_Click(object sender, RoutedEventArgs e) {
             this.Close();
         }
+
+
+
+
+
 
 
 

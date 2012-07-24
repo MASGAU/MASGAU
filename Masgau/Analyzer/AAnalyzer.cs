@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Text;
-using Communication;
+using MVC.Communication;
 using MASGAU.Location.Holders;
 using MASGAU.Location;
 using MVC;

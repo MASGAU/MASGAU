@@ -3,11 +3,11 @@ using Communication.Translator;
 using MASGAU.Location;
 using Translator;
 namespace MASGAU.Main {
-    public class AMainProgramHandler<L> : AProgramHandler<L> where L : ALocationsHandler {
+    public class MainProgramHandler : AProgramHandler {
         public bool disable_resize = false;
 
-        public AMainProgramHandler(Interface new_iface)
-            : base(new_iface) {
+        public MainProgramHandler(ALocationsHandler loc)
+            : base(loc) {
 
             string mode;
 
@@ -59,12 +59,6 @@ namespace MASGAU.Main {
 
         #endregion
 
-        #region methods for dealing with custom game data
-
-        public CustomGamesHandler custom_games = new CustomGamesHandler();
-
-
-        #endregion
 
     }
 }

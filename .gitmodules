@@ -8,9 +8,6 @@
 [submodule "Libs/Collections"]
 	path = Libs/Collections
 	url = https://github.com/sanmadjack/Collections.CSharp.git
-[submodule "Libs/Communication"]
-	path = Libs/Communication
-	url = https://github.com/sanmadjack/Communication.CSharp.git
 [submodule "Libs/Communication.WPF"]
 	path = Libs/Communication.WPF
 	url = https://github.com/sanmadjack/Communication.WPF.CSharp

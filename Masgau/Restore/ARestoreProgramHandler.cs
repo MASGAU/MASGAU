@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using Translator;
 namespace MASGAU.Restore {
-    public class ARestoreProgramHandler<L> : AProgramHandler<L> where L : ALocationsHandler {
+    public class RestoreProgramHandler : AProgramHandler {
 
         public static Boolean use_defaults = false;
         public static List<string> unsuccesfull_restores = new List<string>();
@@ -24,8 +24,8 @@ namespace MASGAU.Restore {
             protected set;
         }
 
-        public ARestoreProgramHandler(Interface new_interface, Archive archive)
-            : base(new_interface) {
+        public RestoreProgramHandler(Archive archive, ALocationsHandler loc)
+            : base(loc) {
             this._program_title = Strings.GetLabelString("IsRestoring",
                 this._program_title.ToString());
             this.archive = archive;

@@ -39,16 +39,14 @@ namespace MASGAU.Settings {
             settings.Add(new_setting);
 
 
-            settings.Add(new Setting("ignore_date_check", false, "ignore_date_check"));
-            settings.Add(new Setting("automatic_startup", false, "startup", "automatic"));
-            settings.Add(new Setting("automatic_backup", false, "startup", "automatic_backup"));
+            settings.Add(new Setting("IgnoreDateCheck", false, "date_check","ignore"));
 
-            settings.Add(new Setting("monitored_games",null,"games","monitor"));
+            settings.Add(new Setting("MonitoredGames",null,"games","monitor"));
 
-            //shared_settings.Add("versioning");
-            //shared_settings.Add("versioning_frequency");
-            //shared_settings.Add("versioning_unit");
-            //shared_settings.Add("versioning_max");
+            settings.Add(new Setting("VersioningEnabled", false, "versioning", "enabled"));
+            settings.Add(new Setting("VersioningUnit", VersioningUnit.Hours, "versioning", "unit"));
+            settings.Add(new Setting("VersioningFrequency", 5, "versioning", "frequency"));
+            settings.Add(new Setting("VersioningMax", 100, "versioning", "max"));
 
             return settings;
         }
@@ -193,134 +191,79 @@ namespace MASGAU.Settings {
         #endregion
 
         #region Methods to handle the date check
-        public bool ignore_date_check {
+        public bool IgnoreDateCheck {
             get {
-                return getLastBoolean("ignore_date_check");
+                return getLastBoolean("IgnoreDateCheck");
             }
             set {
 //                if (value)
   //                  versioning = false;
-                set("ignore_date_check", value);
+                set("IgnoreDateCheck", value);
             }
         }
         #endregion
 
         #region Methods to handle the versioning settings
-        //public List<VersioningUnit> versioning_units {
-        //    get {
-        //        List<VersioningUnit> return_me = new List<VersioningUnit>();
-        //        foreach (VersioningUnit value in Enum.GetValues(typeof(VersioningUnit))) {
-        //            return_me.Add(value);
-        //        }
-        //        return return_me;
-        //    }
-        //}
-        //public bool versioning {
-        //    get {
-        //        return (getNodeAttribute("enabled", "versioning") == "True");
-        //    }
-        //    set {
-        //        if (value) {
-        //            ignore_date_check = false;
-        //        }
-
-        //        setNodeAttribute("enabled", value.ToString(), "versioning");
-        //        NotifyPropertyChanged("versioning");
-        //    }
-        //}
-        //public long versioning_frequency {
-        //    get {
-        //        string node = getNodeAttribute("frequency", "versioning");
-        //        if (node != null)
-        //            return Int64.Parse(node);
-        //        else
-        //            return 1;
-        //    }
-        //    set {
-        //        setNodeAttribute("frequency", value.ToString(), "versioning");
-        //        NotifyPropertyChanged("versioning_frequency");
-        //    }
-        //}
-        //public VersioningUnit versioning_unit {
-        //    get {
-        //        if (getNodeAttribute("frequency_unit", "versioning") != null && getNodeAttribute("frequency_unit", "versioning") != "") {
-        //            return parseVersioningUnit(getNodeAttribute("frequency_unit", "versioning"));
-        //        } else
-        //            return VersioningUnit.Hours;
-        //    }
-        //    set {
-        //        setNodeAttribute("frequency_unit", value.ToString(), "versioning");
-        //        NotifyPropertyChanged("versioning_unit");
-        //    }
-        //}
-        //public static VersioningUnit parseVersioningUnit(string parse_me) {
-        //    switch (parse_me) {
-        //        case "Seconds":
-        //            return VersioningUnit.Seconds;
-        //        case "Minutes":
-        //            return VersioningUnit.Minutes;
-        //        case "Hours":
-        //            return VersioningUnit.Hours;
-        //        case "Days":
-        //            return VersioningUnit.Days;
-        //        case "Weeks":
-        //            return VersioningUnit.Weeks;
-        //        case "Months":
-        //            return VersioningUnit.Months;
-        //        case "Years":
-        //            return VersioningUnit.Years;
-        //        case "Decades":
-        //            return VersioningUnit.Decades;
-        //        case "Centuries":
-        //            return VersioningUnit.Centuries;
-        //        case "Millenia":
-        //            return VersioningUnit.Millenia;
-        //        default:
-        //            return VersioningUnit.Hours;
-        //    }
-        //}
-
-        //public long versioning_max {
-        //    get {
-        //        string node = getNodeAttribute("max", "versioning");
-        //        if (node != null)
-        //            return Int64.Parse(node);
-        //        else
-        //            return 1;
-        //    }
-        //    set {
-        //        setNodeAttribute("max", value.ToString(), "versioning");
-        //        NotifyPropertyChanged("versioning_max");
-        //    }
-        //}
-        //public long versioning_ticks {
-        //    get {
-        //        switch (versioning_unit) {
-        //            case VersioningUnit.Seconds:
-        //                return versioning_frequency * 10000000;
-        //            case VersioningUnit.Minutes:
-        //                return versioning_frequency * 10000000 * 60;
-        //            case VersioningUnit.Hours:
-        //                return versioning_frequency * 10000000 * 60 * 60;
-        //            case VersioningUnit.Days:
-        //                return versioning_frequency * 10000000 * 60 * 60 * 24;
-        //            case VersioningUnit.Weeks:
-        //                return versioning_frequency * 10000000 * 60 * 60 * 24 * 7;
-        //            case VersioningUnit.Months:
-        //                return versioning_frequency * 10000000 * 60 * 60 * 24 * 7 * 4;
-        //            case VersioningUnit.Years:
-        //                return versioning_frequency * 10000000 * 60 * 60 * 24 * 365;
-        //            case VersioningUnit.Decades:
-        //                return versioning_frequency * 10000000 * 60 * 60 * 24 * 365 * 10;
-        //            case VersioningUnit.Centuries:
-        //                return versioning_frequency * 10000000 * 60 * 60 * 24 * 365 * 100;
-        //            case VersioningUnit.Millenia:
-        //                return versioning_frequency * 10000000 * 60 * 60 * 24 * 365 * 1000;
-        //            default:
-        //                return versioning_frequency * 10000000 * 60 * 60;
-        //        }
-        //    }
-        //}
+        public int VersioningFrequency {
+            get {
+                return getLastInteger("VersioningFrequency");
+            }
+            set {
+                set("VersioningFrequency", value);
+            }
+        }
+        public int VersioningMax {
+            get {
+                return getLastInteger("VersioningMax");
+            }
+            set {
+                set("VersioningMax", value);
+            }
+        }
+        public VersioningUnit VersioningUnit {
+            get {
+                return (VersioningUnit)Enum.Parse(typeof(VersioningUnit), getLast("VersioningUnit"));
+            }
+            set {
+                set("VersioningUnit", value);
+            }
+        }
+        public bool VersioningEnabled {
+            get {
+                return getLastBoolean("VersioningEnabled");
+            }
+            set {
+                set("VersioningEnabled", value);
+            }
+        }
+        public long VersioningTicks {
+            get {
+                switch (VersioningUnit) {
+                    case VersioningUnit.Seconds:
+                        return VersioningFrequency * 10000000;
+                    case VersioningUnit.Minutes:
+                        return VersioningFrequency * 10000000 * 60;
+                    case VersioningUnit.Hours:
+                        return VersioningFrequency * 10000000 * 60 * 60;
+                    case VersioningUnit.Days:
+                        return VersioningFrequency * 10000000 * 60 * 60 * 24;
+                    case VersioningUnit.Weeks:
+                        return VersioningFrequency * 10000000 * 60 * 60 * 24 * 7;
+                    case VersioningUnit.Months:
+                        return VersioningFrequency * 10000000 * 60 * 60 * 24 * 7 * 4;
+                    case VersioningUnit.Years:
+                        return VersioningFrequency * 10000000 * 60 * 60 * 24 * 365;
+                    case VersioningUnit.Decades:
+                        return VersioningFrequency * 10000000 * 60 * 60 * 24 * 365 * 10;
+                    case VersioningUnit.Centuries:
+                        return VersioningFrequency * 10000000 * 60 * 60 * 24 * 365 * 100;
+                    case VersioningUnit.Millenia:
+                        return VersioningFrequency * 10000000 * 60 * 60 * 24 * 365 * 1000;
+                    default:
+                        return VersioningFrequency * 10000000 * 60 * 60;
+                }
+            }
+        }
         #endregion
 
         #region Monitor settings
@@ -360,15 +303,21 @@ namespace MASGAU.Settings {
         #endregion
 
         #region Enabling and disabling games
+        public List<string> MonitoredGames {
+            get {
+                return this.get("MonitoredGames");
+            }
+        }
+
         public bool setGameMonitored(GameID set_me, bool to_me) {
             if(to_me) {
-                return addUnique("monitored_games",set_me.ToString());
+                return addUnique("MonitoredGames", set_me.ToString());
             } else {
-                return this.remove("monitored_games",set_me.ToString());
+                return this.remove("MonitoredGames", set_me.ToString());
             }
         }
         public bool isGameMonitored(GameID check_me) {
-            return get("monitored_games").Contains(check_me.ToString());
+            return get("MonitoredGames").Contains(check_me.ToString());
         }
 
         //public bool setGameSyncEnabled(GameID set_me, bool to_me) {

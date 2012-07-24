@@ -24,7 +24,7 @@ namespace MASGAU.Updater {
             //updateLst.ItemsSource = UpdateCollection;
         }
 
-        public override void updateProgress(Communication.ProgressUpdatedEventArgs e) {
+        public override void updateProgress(MVC.Communication.ProgressUpdatedEventArgs e) {
             if (e.message != null)
                 this.progressBox.Header = e.message;
             applyProgress(this.progressBar1, e);

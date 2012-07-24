@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
-using Communication;
+using MVC.Communication;
 using MASGAU.Location.Holders;
 using Translator;
 using Translator.WPF;
@@ -19,7 +19,7 @@ namespace MASGAU.Main {
         private MainProgramHandler main;
 
         public MainWindow()
-            : base(new MainProgramHandler()) {
+            : base(new MainProgramHandler(new Location.LocationsHandler())) {
             main = (MainProgramHandler)program_handler;
             InitializeComponent();
             TranslationHelpers.translateWindow(this);
@@ -64,7 +64,6 @@ namespace MASGAU.Main {
 
             userTxt.Text = Environment.UserName;
 
-            customGamesCombo.ItemsSource = main.custom_games;
 
             enableInterface(null, null);
         }

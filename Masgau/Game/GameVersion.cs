@@ -5,10 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using System.IO;
+using System.Threading;
 using MVC;
 using MASGAU.Monitor;
 using MASGAU.Location.Holders;
-using Communication;
+using MASGAU.Backup;
+using MVC.Communication;
 using Communication.Translator;
 using XmlData;
 namespace MASGAU {
@@ -109,7 +111,7 @@ namespace MASGAU {
 
         public bool CanBeMonitored {
             get {
-                return !id.OS.StartsWith("PS")&&id.OS!="Android";
+                return id.OS==null||(!id.OS.StartsWith("PS")&&id.OS!="Android");
             }
         }
 
@@ -117,7 +119,11 @@ namespace MASGAU {
             get {
                 return MonitorEnabled && IsDetected && CanBeMonitored;
             }
+            set {
+                MonitorEnabled = value;
+            }
         }
+
         public bool MonitorEnabled {
             get {
                 return Core.settings.isGameMonitored(id);
@@ -418,12 +424,41 @@ namespace MASGAU {
 
         #region monitoring methods
         private Stack<MonitorPath> monitors = new Stack<MonitorPath>();
+        BackgroundWorker monitor_setup;
         public void startMonitoring() {
+            MVC.Communication.Interface.InterfaceHandler.disableInterface();
+            monitor_setup = new BackgroundWorker();
+            monitor_setup.DoWork += new System.ComponentModel.DoWorkEventHandler(startMonitoring);
+            monitor_setup.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(monitor_setup_RunWorkerCompleted);
+            monitor_setup.RunWorkerAsync();
+        }
+
+        void monitor_setup_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e) {
+            MVC.Communication.Interface.InterfaceHandler.enableInterface();
+        }
+
+        public void startMonitoring(object sender, System.ComponentModel.DoWorkEventArgs e) {
             if (monitors.Count > 0)
                 stopMonitoring();
 
             if (!IsMonitored)
                 return;
+
+
+            TranslatingProgressHandler.setTranslatedMessage("BackupUpForMonitor", this.Title);
+
+            ProgressHandler.suppress_communication = true;
+
+            BackupProgramHandler backup = new BackupProgramHandler(this,null,null,Core.locations);
+            backup.RunWorkerAsync();
+            while (backup.IsBusy) {
+                Thread.Sleep(100);
+            }
+
+
+            TranslatingProgressHandler.setTranslatedMessage("SettingUpMonitorFor", this.Title);
+
+            ProgressHandler.suppress_communication = false;
 
 
             foreach (DetectedLocationPathHolder path in this.DetectedLocations.Values) {
@@ -432,6 +467,7 @@ namespace MASGAU {
                 mon.start();
             }
         }
+
 
         public void stopMonitoring() {
             while(monitors.Count>0) {

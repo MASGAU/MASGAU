@@ -18,7 +18,7 @@ namespace MASGAU.Main {
             }
 
             JumpTask masgau_jump = new JumpTask();
-            masgau_jump.ApplicationPath = Path.Combine(Core.app_path, "MASGAU.Main.WPF.exe");
+            masgau_jump.ApplicationPath = Path.Combine(Core.app_path, "MASGAU.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path, "masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
             masgau_jump.Title = Strings.GetLabelString("JumpMainProgram");
@@ -27,7 +27,7 @@ namespace MASGAU.Main {
             masgau_jump_list.JumpItems.Add(masgau_jump);
 
             masgau_jump = new JumpTask();
-            masgau_jump.ApplicationPath = Path.Combine(Core.app_path, "MASGAU.Main.WPF.exe");
+            masgau_jump.ApplicationPath = Path.Combine(Core.app_path, "MASGAU.exe");
             masgau_jump.IconResourcePath = Path.Combine(Core.app_path, "masgau.ico");
             masgau_jump.WorkingDirectory = Core.app_path;
             masgau_jump.Title = Strings.GetLabelString("JumpMainProgramAllUsers");

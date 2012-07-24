@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
-using Communication;
+using MVC.Communication;
 using MVC;
 using Translator.WPF;
 namespace MASGAU.Main {
@@ -81,7 +81,7 @@ namespace MASGAU.Main {
             resizeGameColumns();
         }
         private void resizeGameColumns() {
-            double new_width = gamesLst.ActualWidth - gameNameColumn.Width -  20;
+            double new_width = gamesLst.ActualWidth - gameNameColumn.Width - gameMonitorColumn.Width - 20;
             if (new_width > 0) {
                 gameTitleColumn.Width = new_width;
             } else {

@@ -7,7 +7,7 @@ using MASGAU.Backup;
 using MASGAU.Location.Holders;
 using MASGAU.WPF;
 using System.ComponentModel;
-using Communication;
+using MVC.Communication;
 using Communication.WPF;
 using Communication.Translator;
 using Translator;
@@ -83,22 +83,22 @@ namespace MASGAU.Main {
                 backup.CancelAsync();
         }
         protected void beginBackup(RunWorkerCompletedEventHandler when_done) {
-            backup = new BackupProgramHandler();
+            backup = new BackupProgramHandler(Core.locations);
             startBackup(when_done);
         }
         protected void beginBackup(List<GameVersion> backup_list, RunWorkerCompletedEventHandler when_done) {
-            backup = new BackupProgramHandler(backup_list);
+            backup = new BackupProgramHandler(backup_list,Core.locations);
             startBackup(when_done);
         }
         protected void beginBackup(GameVersion game, List<DetectedFile> files, string archive_name, RunWorkerCompletedEventHandler when_done) {
-            backup = new BackupProgramHandler(game, files, archive_name);
+            backup = new BackupProgramHandler(game, files, archive_name,Core.locations);
             startBackup(when_done);
         }
 
         private void startBackup(RunWorkerCompletedEventHandler when_done) {
             ProgressHandler.saveMessage();
             backup.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backup_RunWorkerCompleted);
-            disableInterface(backup);
+            disableInterface(backup.worker);
             backup.RunWorkerAsync();
         }
 

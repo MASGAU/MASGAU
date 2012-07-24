@@ -5,25 +5,27 @@ using System.Text;
 using System.Windows;
 using System.Windows.Media.Effects;
 using MASGAU.Effects;
+using MVC.Communication;
+
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         private bool disabled;
         List<System.ComponentModel.BackgroundWorker> cancellables = new List<System.ComponentModel.BackgroundWorker>();
 
-        public void disableInterface() {
+        public override void disableInterface() {
             setInterfaceEnabledness(false);
 
             CancelButton.IsEnabled = false;
             CancelButton.Visibility = System.Windows.Visibility.Collapsed;
-            Communication.ProgressHandler.saveMessage();
+            ProgressHandler.saveMessage();
         }
 
-        public void disableInterface(System.ComponentModel.BackgroundWorker cancellable_item) {
+        public void disableInterface( System.ComponentModel.BackgroundWorker cancellable_item) {
             cancellables.Add(cancellable_item);
             cancellable_item.RunWorkerCompleted +=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
             Translator.WPF.TranslationHelpers.translate(CancelButton.Label, "Stop");
             setInterfaceEnabledness(false);
-            Communication.ProgressHandler.saveMessage();
+            ProgressHandler.saveMessage();
         }
 
         void  cancellable_item_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
@@ -35,8 +37,8 @@ namespace MASGAU.Main {
 
         public void enableInterface() {
             setInterfaceEnabledness(true);
-            Communication.ProgressHandler.restoreMessage();
-            statusBarLabel.Content = Communication.ProgressHandler.message;
+            ProgressHandler.restoreMessage();
+            statusBarLabel.Content = ProgressHandler.message;
         }
 
         double timing = 5.0;

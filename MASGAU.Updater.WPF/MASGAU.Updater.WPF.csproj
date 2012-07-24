@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MASGAU.Updater</RootNamespace>
-    <AssemblyName>MASGAU.Updater.WPF</AssemblyName>
+    <AssemblyName>MASGAU.Updater</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -108,10 +108,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Libs\Communication\Communication.csproj">
-      <Project>{23E0FE77-1F5E-4B67-8F42-52F46989C4D1}</Project>
-      <Name>Communication</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MASGAU.Updater\MASGAU.Updater.csproj">
       <Project>{589E0815-04F6-4DE2-9CAE-F330D66FFE81}</Project>
       <Name>MASGAU.Updater</Name>

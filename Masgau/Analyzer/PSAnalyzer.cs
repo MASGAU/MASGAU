@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using Communication;
 using Communication.Translator;
+using MVC.Communication;
+
 namespace MASGAU.Analyzer {
     public class PSAnalyzer : AAnalyzer {
 

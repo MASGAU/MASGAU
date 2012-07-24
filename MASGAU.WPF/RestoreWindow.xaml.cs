@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
 using System.Collections.Generic;
-using Communication;
+using MVC.Communication;
 using Communication.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
@@ -26,7 +26,7 @@ namespace MASGAU.Restore {
         public RestoreWindow() : this(null) { }
 
         public RestoreWindow(Archive archive, IWindow owner)
-            : base(new RestoreProgramHandler(archive), owner) {
+            : base(new RestoreProgramHandler(archive, new Location.LocationsHandler()), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
 
@@ -35,7 +35,7 @@ namespace MASGAU.Restore {
         }
 
         public RestoreWindow(IWindow owner)
-            : base(new RestoreProgramHandler(null), owner) {
+            : base(new RestoreProgramHandler(null, new Location.LocationsHandler()), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
             default_progress_color = restoreProgress.Foreground;
@@ -115,7 +115,7 @@ namespace MASGAU.Restore {
             parent.showInterface();
         }
 
-        public override void updateProgress(Communication.ProgressUpdatedEventArgs e) {
+        public override void updateProgress(MVC.Communication.ProgressUpdatedEventArgs e) {
             if (e.message != null)
                 ProgressBox.Header = e.message;
             applyProgress(restoreProgress, e);
