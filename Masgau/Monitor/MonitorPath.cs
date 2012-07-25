@@ -48,7 +48,7 @@ namespace MASGAU.Monitor
 
         public void start() {
             while (!Core.settings.IsBackupPathSet&&!backuppathwarned) {
-                RequestReply reply = RequestHandler.Request(RequestType.BackupFolder);
+                RequestReply reply = RequestHandler.Request(RequestType.BackupFolder,false);
                 if (reply.cancelled) {
                     TranslatingMessageHandler.SendWarning("MonitorNeedsBackupPath");
                     backuppathwarned = true;

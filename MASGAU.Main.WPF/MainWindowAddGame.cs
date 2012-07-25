@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.ComponentModel;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.IO;
+using Communication.Translator;
 using MASGAU.Effects;
 using MASGAU.Location;
+using MVC.Communication;
 using Translator;
+using MASGAU.Analyzer;
+using System.ComponentModel;
+using System.Threading;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         private enum game_locations {
@@ -91,7 +93,7 @@ namespace MASGAU.Main {
                 folder = Environment.SpecialFolder.MyComputer;
             }
 
-            AddGameLocation.Value = this.getPath(folder, Strings.GetLabelString("SelectSaveFolder"), default_folder);
+            AddGameLocation.Value = this.promptForPath(Strings.GetLabelString("SelectSaveFolder"), folder, default_folder);
         }
 
         private void AddGameLocation_ButtonClick(object sender, RoutedEventArgs e) {
@@ -114,6 +116,12 @@ namespace MASGAU.Main {
             GameGrid.IsEnabled = true;
             ArchiveGrid.IsEnabled = true;
 
+            if (reset) {
+                AddGameTitle.Value = "";
+                AddGameLocation.Value = "";
+                AddGameSaves.Value = "";
+                AddGameExclusions.Value = "";
+            }
         }
 
         private void AddGameCancelButton_Click(object sender, RoutedEventArgs e) {
@@ -121,18 +129,58 @@ namespace MASGAU.Main {
         }
 
         private void addGameButtonCheck(object sender, System.Windows.Controls.TextChangedEventArgs e) {
+            string name = CustomGame.prepareGameName(AddGameTitle.Value);
+            GameID id = new GameID(name,"Custom");
+            if(Games.Get(id)!=null) {
+                AddGameTitle.Header = Strings.GetLabelString("AddGameTitleNotUnique");
+                AddGameTitle.Foreground = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 0, 0));
+                AddGameButton.IsEnabled = false;
+                return;
+            } else {
+                AddGameTitle.Header = Strings.GetLabelString("AddGameTitle");
+                AddGameTitle.Foreground = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(0,0,0));
+            }
+                
             if(AddGameButton!=null)
-                AddGameButton.IsEnabled = AddGameTitle.Value!=""&&AddGameLocation.Value!=""&&AddGameSaves.Value!="";
+                AddGameButton.IsEnabled = AddGameTitle.Value!=""&&AddGameLocation.Value!="";
         }
 
 
         private void AddGameButton_Click(object sender, RoutedEventArgs e) {
-            Games.addCustomGame(AddGameTitle.Value, new System.IO.DirectoryInfo(AddGameLocation.Value), AddGameSaves.Value, AddGameExclusions.Value);
+            CustomGame game = Games.addCustomGame(AddGameTitle.Value, new System.IO.DirectoryInfo(AddGameLocation.Value), AddGameSaves.Value, AddGameExclusions.Value);
+            if(!Core.settings.SuppressSubmitRequests) {
+                RequestReply reply = TranslatingRequestHandler.Request(RequestType.Question, "PleaseSubmitGame", true);
+                if (!reply.cancelled) {
+                    createGameSubmission(game);
+                } else {
+                    if (reply.suppress)
+                        Core.settings.SuppressSubmitRequests = true;
+                }
+            }
             closeAddGame(true);
         }
 
 
+        private void deleteGame_Click(object sender, RoutedEventArgs e) {
+            List<GameVersion> games = new List<GameVersion>();
+            foreach (GameVersion game in gamesLst.SelectedItems) {
+                games.Add(game);
+            }
+            foreach (GameVersion game in games) {
+                Games.deleteCustomGame(game);
+            }
+        }
 
+        protected void createGameSubmission(CustomGame game) {
+            PCAnalyzer analyzer = new PCAnalyzer(game, gameSubmissionDone);
+            disableInterface(analyzer);
+
+
+        }
+
+        protected void gameSubmissionDone(object sender, RunWorkerCompletedEventArgs e) {
+            this.enableInterface();
+        }
 
     }
 }

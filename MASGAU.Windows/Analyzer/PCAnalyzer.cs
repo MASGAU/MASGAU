@@ -9,8 +9,8 @@ using MASGAU.Registry;
 using Microsoft.Win32;
 namespace MASGAU.Analyzer {
     public class PCAnalyzer : APCAnalyzer {
-        public PCAnalyzer(string title, string install_path, string save_path, RunWorkerCompletedEventHandler when_done)
-            : base(title, install_path, save_path, when_done) { }
+        public PCAnalyzer(CustomGame game, RunWorkerCompletedEventHandler when_done)
+            : base(game, when_done) { }
 
 
         protected override void analyzerWork() {
@@ -29,7 +29,7 @@ namespace MASGAU.Analyzer {
                     parse_me.rel_root = EnvironmentVariable.LocalAppData;
                     virtual_path = Path.Combine(Core.locations.getAbsoluteRoot(parse_me, user), "VirtualStore");
 
-                    virtual_path = Path.Combine(virtual_path, install_path.Substring(3));
+                    virtual_path = Path.Combine(virtual_path, path.full_dir_path.Substring(3));
                     if (Directory.Exists(virtual_path))
                         travelFolder(virtual_path);
 
@@ -88,7 +88,7 @@ namespace MASGAU.Analyzer {
                     value.value = check_me;
                     if (look_here.GetValue(check_me) != null) {
                         value.data = look_here.GetValue(check_me).ToString();
-                        if (value.data.Length >= install_path.Length && install_path.ToLower() == value.data.Substring(0, install_path.Length).ToLower()) {
+                        if (value.data.Length >= path.full_dir_path.Length && path.full_dir_path.ToLower() == value.data.Substring(0, path.full_dir_path.Length).ToLower()) {
                             outputLine(Environment.NewLine + "Key:" + value.key);
                             outputLine("Value: " + value.value);
                             output("Data: ");
@@ -141,7 +141,7 @@ namespace MASGAU.Analyzer {
                 foreach (FileInfo shortcut in new DirectoryInfo(look_here).GetFiles("*.lnk")) {
                     try {
                         link = (IWshRuntimeLibrary.IWshShortcut)shell.CreateShortcut(shortcut.FullName);
-                        if (link.TargetPath.Length >= install_path.Length && install_path.ToLower() == link.TargetPath.Substring(0, install_path.Length).ToLower()) {
+                        if (link.TargetPath.Length >= path.full_dir_path.Length && path.full_dir_path.ToLower() == link.TargetPath.Substring(0, path.full_dir_path.Length).ToLower()) {
                             this.outputPath(shortcut.FullName);
                             this.outputPath(link.TargetPath);
                         }

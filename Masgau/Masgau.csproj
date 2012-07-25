@@ -58,7 +58,7 @@
     <Compile Include="AMainProgramHandler.cs" />
     <Compile Include="Analyzer\AAnalyzer.cs" />
     <Compile Include="Analyzer\APCAnalyzer.cs" />
-    <Compile Include="Analyzer\PSAnalyzer.cs" />
+    <None Include="Analyzer\PSAnalyzer.cs" />
     <Compile Include="AProgramHandler.cs" />
     <Compile Include="Archive\Archive.cs" />
     <Compile Include="Archive\ArchiveID.cs" />
@@ -73,6 +73,7 @@
     <Compile Include="Game\Custom\CustomGame.cs" />
     <Compile Include="Game\Custom\CustomGameVersion.cs" />
     <Compile Include="Game\Custom\CustomGameXmlFile.cs" />
+    <Compile Include="Game\GameLink.cs" />
     <Compile Include="Game\GameType.cs" />
     <Compile Include="Game\GameVersion.cs" />
     <Compile Include="Game\GameXmlFile.cs" />

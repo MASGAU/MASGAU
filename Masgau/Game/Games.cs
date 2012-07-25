@@ -77,13 +77,21 @@ namespace MASGAU {
             //throw new NotImplementedException();
         }
 
-        public static void addCustomGame(string title, DirectoryInfo location, string saves, string ignores) {
-            Game game = custom.createCustomGame(title, location, saves, ignores);
+        public static CustomGame addCustomGame(string title, DirectoryInfo location, string saves, string ignores) {
+            CustomGame game = custom.createCustomGame(title, location, saves, ignores);
             foreach (GameVersion ver in game.Versions) {
                 ver.Detect();
                 addGame(ver);
             }
             custom.Add(game);
+            custom.Save();
+            _DetectedGames.Refresh();
+            return game;
+        }
+        public static void deleteCustomGame(GameVersion version) {
+            model.Remove(version);
+            Game game = custom.getGame(version.id.Name);
+            custom.removeEntry(game);
             custom.Save();
             _DetectedGames.Refresh();
         }

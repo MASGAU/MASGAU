@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel;
 using Communication.Translator;
+using MVC;
 namespace MASGAU {
-    public class BackgroundWorker : System.ComponentModel.BackgroundWorker, INotifyPropertyChanged {
+    public class BackgroundWorker : System.ComponentModel.BackgroundWorker, INotifyPropertyChanged, ICancellable {
 
         public BackgroundWorker()
             : base() {
@@ -15,6 +16,19 @@ namespace MASGAU {
                 TranslatingMessageHandler.SendException(e.Error);
             }
         }
+
+
+
+        public event RunWorkerCompletedEventHandler Completed {
+            add { this.RunWorkerCompleted += value; }
+            remove { this.RunWorkerCompleted -= value; }
+        }
+
+
+        public void Cancel() {
+                this.CancelAsync();
+        }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void NotifyPropertyChanged(string prop) {

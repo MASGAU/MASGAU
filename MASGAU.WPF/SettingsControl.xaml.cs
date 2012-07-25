@@ -94,7 +94,8 @@ namespace MASGAU {
         }
 
         protected bool addAltPath() {
-            return WPFHelpers.addSavePath(getWindow());
+            return false;
+//            addSavePath();
         }
 
         private AWindow getWindow() {

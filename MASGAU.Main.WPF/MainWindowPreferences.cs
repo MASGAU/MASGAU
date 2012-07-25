@@ -11,15 +11,16 @@ using MASGAU.Settings;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
 
+        private void versioningTimingUnit_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) {
+            Core.settings.VersioningUnit = (VersioningUnit)versioningTimingUnit.SelectedIndex;
+        }
 
         public void bindSettingsControls() {
             versioningTimingUnit.Items.Clear();
             foreach (VersioningUnit suit in Enum.GetValues(typeof(VersioningUnit))) {
-                versioningTimingUnit.Items.Add(suit.ToString());
+                versioningTimingUnit.Items.Add(Strings.GetLabelString(suit.ToString()));
             }
-
-
-            //versioningTimingUnit.SelectionBoxItem = Core.settings.VersioningUnit;
+            versioningTimingUnit.SelectedIndex = (int)Core.settings.VersioningUnit;
 
             versioningButton.DataContext = Core.settings;
             versioningMax.DataContext = Core.settings;
@@ -69,12 +70,12 @@ namespace MASGAU.Main {
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
-                if (folderBrowser.ShowDialog(WPFHelpers.GetIWin32Window(this)) == System.Windows.Forms.DialogResult.OK) {
+                if (folderBrowser.ShowDialog(GetIWin32Window()) == System.Windows.Forms.DialogResult.OK) {
                     Core.settings.steam_path = folderBrowser.SelectedPath;
                     if (Core.settings.steam_path == folderBrowser.SelectedPath || Core.settings.steam_path != old_path)
                         return true;
                     else
-                        TranslationHelpers.showTranslatedWarning(this, "SelectSteamPathRejected");
+                        this.showTranslatedWarning("SelectSteamPathRejected");
                 } else {
                     try_again = false;
                 }
@@ -91,18 +92,19 @@ namespace MASGAU.Main {
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {
-                if (folderBrowser.ShowDialog(WPFHelpers.GetIWin32Window(this)) == System.Windows.Forms.DialogResult.OK) {
+                if (folderBrowser.ShowDialog(GetIWin32Window()) == System.Windows.Forms.DialogResult.OK) {
                     new_path = folderBrowser.SelectedPath;
                     if (PermissionsHelper.isReadable(new_path)) {
                         if (PermissionsHelper.isWritable(new_path)) {
                             Core.settings.backup_path = new_path;
                             return new_path != old_path;
                         } else {
-                            TranslationHelpers.showTranslatedError(this, "SelectBackupPathWriteError");
+
+                            this.showTranslatedError("SelectBackupPathWriteError");
                             try_again = true;
                         }
                     } else {
-                        TranslationHelpers.showTranslatedError(this, "SelectBackupPathReadError");
+                        this.showTranslatedError("SelectBackupPathReadError");
                         try_again = true;
                     }
                 } else {
@@ -157,11 +159,11 @@ namespace MASGAU.Main {
                             try_again = false;
                             return true;
                         } else {
-                            TranslationHelpers.showTranslatedError(this, "SelectAltPathDuplicate");
+                            this.showTranslatedError("SelectAltPathDuplicate");
                             try_again = true;
                         }
                     } else {
-                        TranslationHelpers.showTranslatedError(this, "SelectAltPathDuplicate");
+                        this.showTranslatedError("SelectAltPathDuplicate");
                         try_again = true;
                     }
                 } else {

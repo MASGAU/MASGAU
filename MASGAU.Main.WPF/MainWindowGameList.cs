@@ -38,7 +38,6 @@ namespace MASGAU.Main {
                 PurgeButton.IsEnabled = true;
                 if (selected_count == 1) {
                     CustomBackup.IsEnabled = true;
-
                 } else {
                     CustomBackup.IsEnabled = false;
                 }
@@ -47,10 +46,15 @@ namespace MASGAU.Main {
                 CustomBackup.IsEnabled = false;
                 BackupSelectedGames.IsEnabled = false;
                 RestoreSelected.IsEnabled = false;
+                deleteGame.IsEnabled = false;
+                return;
             }
 
             Model<ArchiveID, Archive> archives = new Model<ArchiveID, Archive>();
+            deleteGame.IsEnabled = true;
             foreach (GameVersion game in gamesLst.SelectedItems) {
+                if (game.id.Release != "Custom")
+                    deleteGame.IsEnabled = false;
                 archives.AddRange(game.Archives);
             }
             if (ArchiveList.DataContext != null) {
@@ -81,7 +85,7 @@ namespace MASGAU.Main {
             resizeGameColumns();
         }
         private void resizeGameColumns() {
-            double new_width = gamesLst.ActualWidth - gameNameColumn.Width - gameMonitorColumn.Width - 20;
+            double new_width = gamesLst.ActualWidth - gameNameColumn.Width - gameMonitorColumn.Width - gameLinkColumn.Width - 20;
             if (new_width > 0) {
                 gameTitleColumn.Width = new_width;
             } else {

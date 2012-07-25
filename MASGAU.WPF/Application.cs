@@ -6,6 +6,7 @@ namespace MASGAU {
         string[] args = Environment.GetCommandLineArgs();
         bool all_users_mode = false;
         public Application() {
+            Logger.Logger.AppName = "masgau";
             for (int i = 0; i < args.Length; i++) {
                 if (args[i] == "-allusers") {
                     all_users_mode = true;

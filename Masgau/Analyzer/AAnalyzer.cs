@@ -9,6 +9,9 @@ using MASGAU.Location;
 using MVC;
 namespace MASGAU.Analyzer {
     public abstract class AAnalyzer : AWorker {
+        public static string LastSavePath = null;
+        public CustomGame game { get; protected set; }
+
         public string report {
             get {
                 string return_me;
@@ -21,8 +24,9 @@ namespace MASGAU.Analyzer {
 
         private StringBuilder _builder = new StringBuilder();
 
-        protected AAnalyzer(RunWorkerCompletedEventHandler when_done)
+        protected AAnalyzer(CustomGame game, RunWorkerCompletedEventHandler when_done)
             : base(when_done) {
+                this.game = game;
         }
 
         protected void outputLine() { outputLine(""); }
@@ -47,6 +51,9 @@ namespace MASGAU.Analyzer {
             ProgressHandler.saveMessage();
             ProgressHandler.value = 0;
             ProgressHandler.max = 0;
+
+
+
             analyzerWork();
             ProgressHandler.value = 0;
             ProgressHandler.restoreMessage();

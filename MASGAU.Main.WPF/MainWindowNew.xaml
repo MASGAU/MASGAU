@@ -28,7 +28,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="1" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
             <r:Ribbon.HelpPaneContent>
                 <Grid Margin="0,1,0,0">
                     <Grid.ColumnDefinitions>
@@ -63,12 +63,12 @@
                     <r:RibbonButton Label="$AddGame" 
                                     SmallImageSource="/MASGAU;component/Images/16px/list-add.png" 
                                     Click="addGame_Click"  Name="addGame" />
-                    <r:RibbonButton Label="$EditGame" 
+<!--                    <r:RibbonButton Label="$EditGame" 
                                     SmallImageSource="/MASGAU;component/Images/16px/edit-find-replace.png" 
-                                     Name="editGame" IsEnabled="False" />
+                                     Name="editGame" IsEnabled="False" />-->
                     <r:RibbonButton Label="$DeleteGame" 
                                     SmallImageSource="/MASGAU;component/Images/16px/edit-delete.png" 
-                                     Name="deleteGame" IsEnabled="False" />
+                                     Name="deleteGame" IsEnabled="False" Click="deleteGame_Click" />
                 </r:RibbonGroup>
                 <r:RibbonGroup Header="$Backup" 
                                     LargeImageSource="/MASGAU;component/Images/document-save.png" 
@@ -142,15 +142,16 @@
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
                         <r:RibbonToggleButton Grid.Row="0" Grid.ColumnSpan="2" Label="$VersioningEnable" IsChecked="{Binding VersioningEnabled, Mode=TwoWay}" Name="versioningButton" />
-                        <mwpf:FixedRibbonTextBox  Grid.Row="1" Grid.Column="0" Label="$VersioningTiming" IsEnabled="{Binding VersioningEnabled}" Name="versioningTiming" Text="{Binding VersioningFrequency}" />
-                        <r:RibbonComboBox IsEditable="False" Grid.Row="1" Grid.Column="1" IsEnabled="{Binding VersioningEnabled}" Name="versioningTimingUnit">
-                        </r:RibbonComboBox>
-                        <mwpf:FixedRibbonTextBox  Grid.Row="2" Grid.ColumnSpan="2" Label="$VersioningMaxCopies" HorizontalAlignment="Left" IsEnabled="{Binding VersioningEnabled}" Name="versioningMax" Text="{Binding VersioningMax}" />
+                        <mwpf:RibbonSpinner  Grid.Row="1" TextBoxWidth="30" Grid.Column="0" Label="$VersioningTiming" IsEnabled="{Binding VersioningEnabled}" Name="versioningTiming" Value="{Binding VersioningFrequency, Mode=TwoWay}" />
+                        <ComboBox IsEditable="False" Grid.Row="1" Grid.Column="1" IsEnabled="{Binding VersioningEnabled}" Name="versioningTimingUnit" SelectionChanged="versioningTimingUnit_SelectionChanged">
+                            
+                        </ComboBox>
+                        <mwpf:RibbonSpinner  Grid.Row="2" TextBoxWidth="30" Grid.ColumnSpan="2" Label="$VersioningMaxCopies" HorizontalAlignment="Left" IsEnabled="{Binding VersioningEnabled}" Name="versioningMax" Value="{Binding VersioningMax, Mode=TwoWay}" />
                     </Grid>
                 </r:RibbonGroup>
                 <r:RibbonGroup Header="$Other">
-                    <mwpf:FixedRibbonTextBox Label="E-Mail" Text="{Binding email, Mode=TwoWay}" Name="emailText" Width="200"/>
-                    <r:RibbonCheckBox Label="$IgnoreDates" Name="ignoreDates" IsChecked="{Binding IgnoreDateCheck, Mode=TwoWay}" />
+                    <mwpf:FixedRibbonTextBox Label="E-Mail" Text="{Binding email, Mode=TwoWay}" Name="emailText" TextBoxWidth="150"  />
+                    <r:RibbonCheckBox Label="$IgnoreDates" Name="ignoreDates" IsChecked="{Binding IgnoreDateCheck, Mode=TwoWay}" Height="20"  />
                     <r:RibbonCheckBox Label="$AutoStart" Name="autoStart" IsChecked="{Binding IsEnabled, Mode=TwoWay}"/>
                 </r:RibbonGroup>
             </r:RibbonTab>
@@ -224,7 +225,14 @@
                             <GridViewColumn Width="50" x:Name="gameMonitorColumn" Header="$Monitor">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <CheckBox IsChecked="{Binding IsMonitored, Mode=TwoWay}" IsEnabled="{Binding CanBeMonitored}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                        <CheckBox IsChecked="{Binding IsMonitored, Mode=TwoWay}" IsEnabled="{Binding CanBeMonitored}" ToolTip="{Binding MonitorToolTip}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="50" x:Name="gameLinkColumn" Header="$Link">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding IsLinked, Mode=TwoWay}" IsEnabled="{Binding Linkable}" ToolTip="{Binding LinkToolTip}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
@@ -342,15 +350,19 @@
                 <ColumnDefinition Width="25*" />
                 <ColumnDefinition Width="25*" />
                 <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="25*" />
             </Grid.ColumnDefinitions>
-            <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="4" Fill="#D7FCFDFF" Grid.Row="0" />
+            <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="5" Fill="#D7FCFDFF" Grid.Row="0" />
             <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="$AddGameHeader" HorizontalAlignment="Center" FontSize="16" />
 
             <mwpf:GroupBoxInput Name="AddGameTitle" Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" TextChanged="addGameButtonCheck" />
             <mwpf:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/MASGAU;component/Images/16px/folder.png" ButtonImageMargin="0,0,3,0" />
-            <mwpf:GroupBoxInput Name="AddGameSaves" Value="*" Header="$AddGameSaves" HasButton="False" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck"  />
+            <mwpf:GroupBoxInput Name="AddGameSaves" Header="$AddGameSaves" HasButton="False" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck"  />
             <mwpf:GroupBoxInput Name="AddGameExclusions" Header="$AddGameExclusions" HasButton="False" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck" />
+
+            <mwpf:HelpToolTip TranslatedToolTip="AddGameSaves" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Left" />
+            <mwpf:HelpToolTip TranslatedToolTip="AddGameSaves" Grid.Row="5" Grid.Column="4" HorizontalAlignment="Left" />
 
             <mwpf:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/MASGAU;component/Images/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
             <mwpf:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/MASGAU;component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />

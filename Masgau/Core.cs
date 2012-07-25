@@ -172,7 +172,7 @@ namespace MASGAU
             {
                 if (all_users_mode)
                 {
-                    mode = global::Config.ConfigMode.AllUsers;
+                    mode = global::Config.ConfigMode.SingleUser;
                 }
                 else
                 {

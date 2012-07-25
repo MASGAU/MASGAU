@@ -358,9 +358,6 @@ namespace MASGAU.Main {
 
         }
 
-        protected override void redetectArchivesComplete(object sender, RunWorkerCompletedEventArgs e) {
-            TranslationHelpers.translate(noArchivesLabel,"NoArchivesFound");
-        }
         #endregion
 
         private void contributersLst_SizeChanged(object sender, SizeChangedEventArgs e) {

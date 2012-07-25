@@ -16,5 +16,13 @@ namespace MASGAU {
         protected override Game CreateDataEntry(System.Xml.XmlElement element) {
             return new Game(element);
         }
+
+        public Game getGame(string name) {
+            foreach (Game game in this.entries) {
+                if (game.Name == name)
+                    return game;
+            }
+            return null;
+        }
     }
 }

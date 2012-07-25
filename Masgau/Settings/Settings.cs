@@ -48,6 +48,8 @@ namespace MASGAU.Settings {
             settings.Add(new Setting("VersioningFrequency", 5, "versioning", "frequency"));
             settings.Add(new Setting("VersioningMax", 100, "versioning", "max"));
 
+            settings.Add(new Setting("SuppressSubmitRequests", false, "submit", "suprress"));
+
             return settings;
         }
 
@@ -87,7 +89,14 @@ namespace MASGAU.Settings {
             Games.Refresh();
         }
 
-
+        public bool SuppressSubmitRequests {
+            get {
+                return getLastBoolean("SuppressSubmitRequests");
+            }
+            set {
+                set("SuppressSubmitRequests", value);
+            }
+        }
 
 
         #region Methods for the Backup Path

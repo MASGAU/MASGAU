@@ -13,6 +13,7 @@ using MASGAU.Backup;
 using MVC.Communication;
 using Communication.Translator;
 using XmlData;
+using Translator;
 namespace MASGAU {
     public struct Locations {
         public List<LocationPathHolder> Paths;
@@ -36,6 +37,45 @@ namespace MASGAU {
         }
     }
     public class GameVersion : AModelItem<GameID> {
+        private List<GameLink> links = new List<GameLink>();
+        public bool Linkable {
+            get {
+                if (Core.locations.platform_version == "WindowsXP")
+                    return false;
+                return links.Count > 0;
+            }
+        }
+        public bool? IsLinked {
+            get {
+                if (links.Count == 0)
+                    return false;
+
+                foreach (GameLink link in links) {
+                    if (!link.Linked)
+                        return false;
+                }
+                return true;
+            }
+            set {
+                foreach (GameLink link in links) {
+                    link.Linked = value==true;
+                }
+                NotifyPropertyChanged("LinkToolTip");
+            }
+        }
+        public string LinkToolTip {
+            get {
+                switch (IsLinked) {
+                    case true:
+                        return Strings.GetToolTipString("IsLinked",DetectedLocations.Count.ToString());
+                    case false:
+                        return Strings.GetToolTipString("ClickToLink");
+                    case null:
+                        return Strings.GetToolTipString("PartiallyLinked", "3", DetectedLocations.Count.ToString());
+                }
+                return "";
+            }
+        }
 
         private Game parent;
         protected string _title = null;
@@ -239,7 +279,7 @@ namespace MASGAU {
                         throw new NotSupportedException(attrib.Name);
                 }
             }
-
+            links.Clear();
             foreach (XmlElement sub in element.ChildNodes) {
                 switch (sub.Name) {
                     case "title":
@@ -269,6 +309,10 @@ namespace MASGAU {
                         break;
                     case "scummvm":
                         LoadScummVM(sub);
+                        break;
+                    case "linkable":
+                        GameLink link = new GameLink(this, sub);
+                        links.Add(link);
                         break;
                     default:
                         throw new NotSupportedException(sub.Name);

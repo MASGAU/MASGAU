@@ -96,19 +96,22 @@
     <Compile Include="MainWindowMonitor.cs" />
     <Compile Include="MainWindowRestore.cs" />
     <Compile Include="MainWindowRibbon.cs" />
-    <Page Include="MainWindow.xaml">
+    <Compile Include="ReportWindow.xaml.cs">
+      <DependentUpon>ReportWindow.xaml</DependentUpon>
+    </Compile>
+    <None Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
+    </None>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FileTreeViewItem.cs" />
-    <Compile Include="MainWindow.xaml.cs">
+    <None Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
+    </None>
     <Page Include="MainWindowNew.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -122,6 +125,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MASGAU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReportWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -82,6 +82,7 @@
   <ItemGroup>
     <Compile Include="Application.cs" />
     <Compile Include="AProgramWindow.cs" />
+    <Compile Include="BetterRibbonComboBox.cs" />
     <Compile Include="ChromeButton.xaml.cs">
       <DependentUpon>ChromeButton.xaml</DependentUpon>
     </Compile>
@@ -94,6 +95,9 @@
     <Compile Include="GlassHelper.cs" />
     <Compile Include="GroupBoxInput.xaml.cs">
       <DependentUpon>GroupBoxInput.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HelpToolTip.xaml.cs">
+      <DependentUpon>HelpToolTip.xaml</DependentUpon>
     </Compile>
     <Compile Include="IWPFWindow.cs" />
     <Compile Include="NewWindow.cs" />
@@ -108,6 +112,9 @@
     </Compile>
     <Compile Include="RibbonComboItem.cs" />
     <Compile Include="RibbonComboSource.cs" />
+    <Compile Include="RibbonSpinner.xaml.cs">
+      <DependentUpon>RibbonSpinner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SelectFile.cs" />
     <Compile Include="SettingsControl.xaml.cs">
       <DependentUpon>SettingsControl.xaml</DependentUpon>
@@ -129,9 +136,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="HelpToolTip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RestoreWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RibbonSpinner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SettingsControl.xaml">
       <SubType>Designer</SubType>
@@ -162,6 +177,10 @@
     <ProjectReference Include="..\Libs\Email\Email.csproj">
       <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
       <Name>Email</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Logger\Logger.csproj">
+      <Project>{CD1B810F-38EC-41CE-974F-7B0EE5CD8B87}</Project>
+      <Name>Logger</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.Updater\MASGAU.Updater.csproj">
       <Project>{589E0815-04F6-4DE2-9CAE-F330D66FFE81}</Project>
@@ -194,6 +213,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\help-browser.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

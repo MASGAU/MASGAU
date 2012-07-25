@@ -25,6 +25,12 @@ namespace XmlData {
             }
         }
 
+        public void removeEntry(T entry) {
+            XmlElement ele = entry.exportXml();
+            this.RootNode.RemoveChild(ele);
+            this.entries.Remove(entry);
+        }
+
         public List<T> entries = new List<T>();
 
         protected virtual XmlElement LoadRootNode(string name) {

@@ -42,14 +42,14 @@ namespace MASGAU.Main {
             open.Filter = Strings.GetLabelString("Gb7FileDescription") + " (*.gb7)|*.gb7";
             open.Multiselect = true;
             open.Title = Strings.GetLabelString("SelectBackup");
-            if (open.ShowDialog(WPFHelpers.GetIWin32Window(this)) == System.Windows.Forms.DialogResult.OK) {
+            if (open.ShowDialog(GetIWin32Window()) == System.Windows.Forms.DialogResult.OK) {
                 if (open.FileNames.Length > 0) {
                     List<Archive> archives = new List<Archive>();
                     foreach (string file in open.FileNames) {
                         try {
                             archives.Add(new Archive(new FileInfo(file)));
                         } catch (Exception ex) {
-                            TranslationHelpers.showTranslatedError(this, "FileNotArchive", ex, file);
+                            showTranslatedError("FileNotArchive", ex, file);
                         }
                     }
                     Restore.RestoreWindow.beginRestore(this, archives);

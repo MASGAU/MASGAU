@@ -6,11 +6,11 @@ using System.Windows;
 using System.Windows.Media.Effects;
 using MASGAU.Effects;
 using MVC.Communication;
-
+using MVC;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         private bool disabled;
-        List<System.ComponentModel.BackgroundWorker> cancellables = new List<System.ComponentModel.BackgroundWorker>();
+        List<ICancellable> cancellables = new List<ICancellable>();
 
         public override void disableInterface() {
             setInterfaceEnabledness(false);
@@ -20,9 +20,9 @@ namespace MASGAU.Main {
             ProgressHandler.saveMessage();
         }
 
-        public void disableInterface( System.ComponentModel.BackgroundWorker cancellable_item) {
+        public void disableInterface(ICancellable cancellable_item) {
             cancellables.Add(cancellable_item);
-            cancellable_item.RunWorkerCompleted +=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
+            cancellable_item.Completed +=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
             Translator.WPF.TranslationHelpers.translate(CancelButton.Label, "Stop");
             setInterfaceEnabledness(false);
             ProgressHandler.saveMessage();
@@ -30,8 +30,8 @@ namespace MASGAU.Main {
 
         void  cancellable_item_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
-            System.ComponentModel.BackgroundWorker worker = (System.ComponentModel.BackgroundWorker)sender;
-            worker.RunWorkerCompleted -=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
+            ICancellable worker = (ICancellable)sender;
+            worker.Completed -=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
             cancellables.Remove(worker); 	        
         }
 

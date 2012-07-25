@@ -439,48 +439,48 @@ namespace MASGAU {
 
             // This here's the versioning stuff. Since it's here, it's universal.
             // This handles versioning copies
-            //if (!disable_versioning && Core.settings.versioning) {
-            //    if (Core.settings.versioning_max != 0) {
-            //        DateTime right_now = DateTime.Now;
-            //        FileInfo original_file = new FileInfo(file_name);
-            //        if (original_file.Exists) {
-            //            if (right_now.Ticks - original_file.CreationTime.Ticks > Core.settings.versioning_ticks) {
-            //                string new_path = Path.Combine(original_file.DirectoryName, Path.GetFileNameWithoutExtension(original_file.FullName) + "@" + right_now.ToString().Replace('/', '-').Replace(':', '-') + Path.GetExtension(original_file.FullName));
-            //                try {
-            //                    File.Move(file_name, new_path);
-            //                    //File.SetCreationTime(temp_file_name,right_now);
-            //                } catch (Exception ex) {
-            //                    throw new TranslateableException("RevisionCopyError", ex, original_file.FullName);
-            //                }
-            //            } else {
-            //                // This is if it hasn't been long enough for a new file
-            //            }
-            //        } else {
-            //            // This shouldn't really be an error, as it just means that it's a new archive
-            //            //MessageHandler.SendError("Where'd That Come From?","The file " + file_name + " can't be found.");
-            //        }
-            //    } else {
-            //        //this is if the Settings for versioning are fucked up
-            //    }
+            if (!disable_versioning && Core.settings.VersioningEnabled) {
+                if (Core.settings.VersioningMax != 0) {
+                    DateTime right_now = DateTime.Now;
+                    FileInfo original_file = new FileInfo(file);
+                    if (original_file.Exists) {
+                        if (right_now.Ticks - original_file.CreationTime.Ticks > Core.settings.VersioningTicks) {
+                            string new_path = Path.Combine(original_file.DirectoryName, Path.GetFileNameWithoutExtension(original_file.FullName) + "@" + right_now.ToString().Replace('/', '-').Replace(':', '-') + Path.GetExtension(original_file.FullName));
+                            try {
+                                File.Move(file, new_path);
+                                //File.SetCreationTime(temp_file_name,right_now);
+                            } catch (Exception ex) {
+                                throw new TranslateableException("RevisionCopyError", ex, original_file.FullName);
+                            }
+                        } else {
+                            // This is if it hasn't been long enough for a new file
+                        }
+                    } else {
+                        // This shouldn't really be an error, as it just means that it's a new archive
+                        //MessageHandler.SendError("Where'd That Come From?","The file " + file_name + " can't be found.");
+                    }
+                } else {
+                    //this is if the Settings for versioning are fucked up
+                }
 
-            //    FileInfo[] count_us = new DirectoryInfo(Path.GetDirectoryName(file_name)).GetFiles(
-            //        Path.GetFileNameWithoutExtension(file_name) + "@*");
+                FileInfo[] count_us = new DirectoryInfo(Path.GetDirectoryName(file)).GetFiles(
+                    Path.GetFileNameWithoutExtension(file) + "@*");
 
 
-            //    if (count_us.Length > Core.settings.versioning_max) {
-            //        Array.Sort(count_us, new MASGAU.Comparers.FileInfoComparer(true));
-            //        for (long i = Core.settings.versioning_max; i < count_us.Length; i++) {
-            //            try {
-            //                (count_us[i] as FileInfo).Delete();
-            //            } catch (Exception ex) {
-            //                TranslatingMessageHandler.SendError("DeleteError", ex, (count_us[i] as FileInfo).Name);
-            //            }
-            //        }
-            //    }
-            //} else {
-            //    // This is if versioning is disabled, or something
+                if (count_us.Length > Core.settings.VersioningMax) {
+                    Array.Sort(count_us, new MASGAU.Comparers.FileInfoComparer(true));
+                    for (long i = Core.settings.VersioningMax; i < count_us.Length; i++) {
+                        try {
+                            (count_us[i] as FileInfo).Delete();
+                        } catch (Exception ex) {
+                            TranslatingMessageHandler.SendError("DeleteError", ex, (count_us[i] as FileInfo).Name);
+                        }
+                    }
+                }
+            } else {
+                // This is if versioning is disabled, or something
 
-            //}
+            }
 
             if (File.Exists(FileName))
                 File.Delete(FileName);

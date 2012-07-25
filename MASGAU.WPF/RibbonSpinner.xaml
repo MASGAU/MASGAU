@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="MASGAU.RibbonSpinner"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+                xmlns:r="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"
+        xmlns:mwpf="clr-namespace:MASGAU"
+             >
+    <Grid>
+        <mwpf:FixedRibbonTextBox x:Name="input" TextChanged="input_TextChanged">
+            
+            </mwpf:FixedRibbonTextBox>
+    </Grid>
+</UserControl>

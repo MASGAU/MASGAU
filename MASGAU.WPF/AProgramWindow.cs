@@ -1,12 +1,14 @@
 ﻿using System.ComponentModel;
 using Translator;
+using MVC;
+using Communication.WPF;
 namespace MASGAU {
-    public abstract class AProgramWindow : AWindow {
+    public abstract class AProgramWindow : NewWindow {
         protected AProgramHandler program_handler;
 
         public AProgramWindow() { }
 
-        protected AProgramWindow(AProgramHandler program_handler, IWindow parent)
+        protected AProgramWindow(AProgramHandler program_handler, ACommunicationWindow parent)
             : base(parent) {
             this.program_handler = program_handler;
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);

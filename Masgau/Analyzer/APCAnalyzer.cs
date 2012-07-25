@@ -2,19 +2,20 @@
 using System.ComponentModel;
 using MVC.Communication;
 using Communication.Translator;
+using MASGAU.Location.Holders;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {
-        protected string title, install_path, save_path;
-
-        protected APCAnalyzer(string title, string install_path, string save_path, RunWorkerCompletedEventHandler when_done)
-            : base(when_done) {
-            this.title = title;
-            this.install_path = install_path;
-            this.save_path = save_path;
+        protected DetectedLocationPathHolder path;
+        protected APCAnalyzer(CustomGame game, RunWorkerCompletedEventHandler when_done)
+            : base(game,when_done) {
         }
 
         protected override void analyzerWork() {
-            outputLine("Game Name: " + title);
+            outputLine("Game Name: " + game.Title);
+            foreach(DetectedLocationPathHolder tmppath in game.Versions[0].DetectedLocations.Values) {
+                this.path = tmppath;
+                break;
+            }
 
             outputLine("Operating System: ");
             outputLine(Environment.OSVersion.VersionString);
@@ -22,38 +23,25 @@ namespace MASGAU.Analyzer {
 
             ProgressHandler.max += 4;
             outputLine();
-            outputLine("Install Path: ");
-            outputPath(install_path);
-            outputLine();
-            outputLine("Save Path: ");
-            outputPath(save_path);
+            outputLine("Path: ");
+            outputPath(path.full_dir_path);
             outputLine();
             try {
                 TranslatingProgressHandler.setTranslatedMessage("AnalyzingScummVM");
                 ProgressHandler.value++;
                 outputLine(Environment.NewLine + "ScummVM Path Entries: ");
-                scanForScumm(save_path);
+                scanForScumm(path.full_dir_path);
             } catch (Exception ex) {
                 outputLine("Error while attempting to cehck for ScummVM path entries:");
                 recordException(ex);
             }
             try {
-                TranslatingProgressHandler.setTranslatedMessage("DumpingSaveFolder");
+                TranslatingProgressHandler.setTranslatedMessage("DumpingFolder");
                 ProgressHandler.value++;
-                outputLine(Environment.NewLine + "Save Folder Dump: ");
-                travelFolder(save_path);
+                outputLine(Environment.NewLine + "Folder Dump: ");
+                travelFolder(path.full_dir_path);
             } catch (Exception ex) {
                 outputLine("Error while attempting to search the save folder:");
-                recordException(ex);
-            }
-
-            try {
-                TranslatingProgressHandler.setTranslatedMessage("DumpingInstallFolder");
-                ProgressHandler.value++;
-                outputLine(Environment.NewLine + "Install Folder Dump: ");
-                travelFolder(install_path);
-            } catch (Exception ex) {
-                outputLine("Error while attempting to search the install folder:");
                 recordException(ex);
             }
 

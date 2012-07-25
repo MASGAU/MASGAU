@@ -12,6 +12,7 @@ using MVC;
 using Translator.WPF;
 using Translator;
 using System.Text;
+using Communication.WPF;
 namespace MASGAU.Restore {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,7 +26,7 @@ namespace MASGAU.Restore {
 
         public RestoreWindow() : this(null) { }
 
-        public RestoreWindow(Archive archive, IWindow owner)
+        public RestoreWindow(Archive archive, ACommunicationWindow owner)
             : base(new RestoreProgramHandler(archive, new Location.LocationsHandler()), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
@@ -34,7 +35,7 @@ namespace MASGAU.Restore {
             this.archive = archive;
         }
 
-        public RestoreWindow(IWindow owner)
+        public RestoreWindow(ACommunicationWindow owner)
             : base(new RestoreProgramHandler(null, new Location.LocationsHandler()), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
@@ -87,7 +88,7 @@ namespace MASGAU.Restore {
         }
 
 
-        public static void beginRestore(IWindow parent, List<Archive> archives) {
+        public static void beginRestore(ACommunicationWindow parent, List<Archive> archives) {
             parent.hideInterface();
 
             if (archives.Count > 1 && !TranslatingRequestHandler.Request(RequestType.Question,"RestoreMultipleArchives").cancelled ) {
@@ -99,7 +100,7 @@ namespace MASGAU.Restore {
                     break;
                 }
                 Restore.RestoreWindow restore = new Restore.RestoreWindow(archive, parent);
-                if (restore.ShowDialog())
+                if (restore.ShowDialog()==true)
                     Core.redetect_games = true;
             }
             Restore.RestoreProgramHandler.use_defaults = false;
@@ -285,7 +286,7 @@ namespace MASGAU.Restore {
 
         private void choosePathButton_Click(object sender, RoutedEventArgs e) {
             string target = null;
-            target = WPFHelpers.promptForPath(this, Strings.GetLabelString("RestoreLocationChoice"));
+            target = this.promptForPath(Strings.GetLabelString("RestoreLocationChoice"), Environment.SpecialFolder.MyComputer, null);
             if (target != null) {
                 restore.addPathCandidate(new ManualLocationPathHolder(target));
                 refreshPaths();

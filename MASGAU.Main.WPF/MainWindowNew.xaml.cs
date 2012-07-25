@@ -67,6 +67,7 @@ namespace MASGAU.Main {
 
         #region Program handler setup
         protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
+
             switch (Core.settings.WindowState) {
                 case global::Config.WindowState.Maximized:
                     this.WindowState = System.Windows.WindowState.Maximized;
@@ -99,6 +100,7 @@ namespace MASGAU.Main {
             if (e.Error != null) {
                 this.Close();
             }
+
 
             OpenBackupFolder.DataContext = Core.settings;
             OpenBackupFolderTwo.DataContext = Core.settings;
@@ -203,20 +205,6 @@ namespace MASGAU.Main {
         private void closeButton_Click(object sender, RoutedEventArgs e) {
             this.Close();
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
