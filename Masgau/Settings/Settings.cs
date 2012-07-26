@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using Communication.Translator;
+using MVC.Translator;
 using Email;
 using MASGAU.Location.Holders;
 using MVC;
@@ -9,7 +9,7 @@ using Translator;
 using Config;
 namespace MASGAU.Settings {
 
-    public class Settings : ASettings {
+    public class Settings : ASettings, IEmailSource {
         // This file contains methods for getting and manipulating all of MASGAU's settings
         // It acts as a worker layer between the program and the config file
 
@@ -87,6 +87,14 @@ namespace MASGAU.Settings {
             }
 
             Games.Refresh();
+        }
+
+        public string EmailRecipent {
+            get {
+                return Core.submission_email;
+            }
+            set {
+            }
         }
 
         public bool SuppressSubmitRequests {

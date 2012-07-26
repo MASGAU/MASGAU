@@ -7,7 +7,7 @@ using System.Threading;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 using Translator;
 using MVC;
 namespace MASGAU.Monitor {

@@ -174,10 +174,6 @@
       <Project>{88E4E120-9C45-4EAC-887B-B77474B799B4}</Project>
       <Name>Collections</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\Communication.Translator\Communication.Translator.csproj">
-      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
-      <Name>Communication.Translator</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libs\Config\Config.csproj">
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
@@ -198,6 +194,14 @@
       <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
       <Name>MVC</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC.Translator\MVC.Translator.csproj">
+      <Project>{A0502934-F0B8-40ED-9849-E4392CE37AF4}</Project>
+      <Name>MVC.Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC.WPF\MVC.WPF.csproj">
+      <Project>{521A7BAC-6485-4736-9EB4-77F6BB3EE2BF}</Project>
+      <Name>MVC.WPF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Translations\Translations.csproj">
       <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
       <Name>Translations</Name>
@@ -209,10 +213,6 @@
     <ProjectReference Include="..\Libs\XmlData\XmlData.csproj">
       <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
       <Name>XmlData</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libs\Communication.WPF\Communication.WPF.csproj">
-      <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
-      <Name>Communication.WPF</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.Updater.WPF\MASGAU.Updater.WPF.csproj">
       <Project>{FAB69D6D-5810-486A-998B-42B2296C0CF4}</Project>
@@ -238,6 +238,10 @@
       <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
       <Name>Translator.WPF</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Libs\WPF\WPF.csproj">
+      <Project>{870BDF17-18DA-4023-AF23-378A72941B66}</Project>
+      <Name>WPF</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -260,106 +264,6 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\view-refresh.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\package-x-generic.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\help-browser.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\document-save-as.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\document-save.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\document-open.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\edit-delete.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\system-software-update.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\preferences-system.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\preferences-desktop.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\process-stop.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\software-update-available.png" />
-    <Resource Include="Images\software-update-urgent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\system-log-out.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\document-open.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\system-search.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\mail-forward.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\process-stop.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\folder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\document-save-as.png" />
-    <Resource Include="Images\16px\document-save.png" />
-    <Resource Include="Images\16px\edit-delete.png" />
-    <Resource Include="Images\16px\mail-forward.png" />
-    <Resource Include="Images\16px\system-log-out.png" />
-    <Resource Include="Images\16px\system-search.png" />
-    <Resource Include="Images\16px\view-refresh.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\software-update-available.png" />
-    <Resource Include="Images\16px\software-update-urgent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\system-software-update.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\help-browser.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\preferences-system.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\list-add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\view-fullscreen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\masgau.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\folder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\steam.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\go-bottom.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\16px\edit-copy.png" />
-    <Resource Include="Images\16px\edit-find-replace.png" />
-    <Resource Include="Images\16px\list-add.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

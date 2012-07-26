@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using Collections;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 namespace MASGAU.Backup {

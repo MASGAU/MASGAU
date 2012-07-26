@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 using MVC.Communication;
-using Communication.WPF;
+using MVC.WPF;
 namespace MASGAU.Main {
     public partial class MainWindowNew : ICommunicationReceiver {
 
@@ -11,19 +11,19 @@ namespace MASGAU.Main {
             switch (e.info_type) {
                 case RequestType.BackupFolder:
                     if (changeBackupPath()) {
-                        e.result.cancelled = false;
+                        e.result.Cancelled = false;
                         e.response = ResponseType.OK;
                     } else {
-                        e.result.cancelled = true;
+                        e.result.Cancelled = true;
                         e.response = ResponseType.Cancel;
                     }
                     return;
                 case RequestType.SyncFolder:
                     if (changeSyncPath()) {
-                        e.result.cancelled = false;
+                        e.result.Cancelled = false;
                         e.response = ResponseType.OK;
                     } else {
-                        e.result.cancelled = true;
+                        e.result.Cancelled = true;
                         e.response = ResponseType.Cancel;
                     }
                     return;

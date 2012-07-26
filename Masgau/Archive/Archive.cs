@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Xml;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Location.Holders;
 using MVC;
 using XmlData;
@@ -348,7 +348,7 @@ namespace MASGAU {
                 }
 
                 MVC.Communication.Interface.InterfaceHandler.disableInterface();
-                if (!TranslatingRequestHandler.Request(RequestType.Question, "UnableToCreateOutputFolderRequest", destination).cancelled) {
+                if (!TranslatingRequestHandler.Request(RequestType.Question, "UnableToCreateOutputFolderRequest", destination).Cancelled) {
                     try {
                         SecurityHandler.elevation(Core.programs.restore, "\"" + FileName + "\"");
                         return true;

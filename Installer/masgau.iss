@@ -46,8 +46,8 @@ Source: ..\MASGAU\masgau.ico; DestDir: {app};  Components: MASGAU\Core;
 // General libraries
 Source: ..\Libs\Collections\bin\Release\Collections.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Libs\Collections\bin\Release\Collections.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
-Source: ..\Libs\Communication.Translator\bin\Release\Communication.Translator.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
-Source: ..\Libs\Communication.Translator\bin\Release\Communication.Translator.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\Libs\MVC.Translator\bin\Release\MVC.Translator.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\Libs\MVC.Translator\bin\Release\MVC.Translator.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Libs\Config\bin\Release\Config.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Libs\Config\bin\Release\Config.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Libs\Exceptions\bin\Release\Exceptions.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
@@ -77,8 +77,10 @@ Source: ..\Libs\Email\bin\Release\ActiveUp.Net.Common.dll; DestDir: {app}; Compo
 Source: ..\Libs\Email\bin\Release\ActiveUp.Net.Dns.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Libs\Email\bin\Release\ActiveUp.Net.Smtp.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 // Windows-specific general libaries
-Source: ..\Libs\Communication.WPF\bin\Release\Communication.WPF.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
-Source: ..\Libs\Communication.WPF\bin\Release\Communication.WPF.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\Libs\WPF\bin\Release\WPF.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\Libs\WPF\bin\Release\WPF.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\Libs\MVC.WPF\bin\Release\MVC.WPF.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\Libs\MVC.WPF\bin\Release\MVC.WPF.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Libs\Email.WPF\bin\Release\Email.WPF.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Libs\Email.WPF\bin\Release\Email.WPF.pdb; DestDir: {app}; Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Libs\Translator.WPF\bin\Release\Translator.WPF.dll; DestDir: {app}; Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 

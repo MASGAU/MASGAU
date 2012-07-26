@@ -182,7 +182,7 @@ namespace MASGAU
             settings = new Settings.Settings(mode);
             prepareProgramNames();
 
-            email = new Email.EmailHandler(Core.settings.email, Core.submission_email);
+            email = new Email.EmailHandler(Core.settings.EmailSender, Core.submission_email);
             startup = new StartupHelper("MASGAU", Core.programs.main);
         }
 

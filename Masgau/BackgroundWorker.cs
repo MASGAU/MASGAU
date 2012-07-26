@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel;
-using Communication.Translator;
+using MVC.Translator;
 using MVC;
 namespace MASGAU {
     public class BackgroundWorker : System.ComponentModel.BackgroundWorker, INotifyPropertyChanged, ICancellable {

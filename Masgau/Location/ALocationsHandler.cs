@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Location.Holders;
 namespace MASGAU.Location {
     public abstract class ALocationsHandler : ILocationsHandler {

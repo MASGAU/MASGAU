@@ -120,10 +120,6 @@
       <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
       <Name>Translator</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\Communication.WPF\Communication.WPF.csproj">
-      <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
-      <Name>Communication.WPF</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MASGAU.WPF\MASGAU.WPF.csproj">
       <Project>{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}</Project>
       <Name>MASGAU.WPF</Name>
@@ -135,6 +131,14 @@
     <ProjectReference Include="..\Libs\Translator.WPF\Translator.WPF.csproj">
       <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
       <Name>Translator.WPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC.Translator\MVC.Translator.csproj">
+      <Project>{A0502934-F0B8-40ED-9849-E4392CE37AF4}</Project>
+      <Name>MVC.Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC.WPF\MVC.WPF.csproj">
+      <Project>{521A7BAC-6485-4736-9EB4-77F6BB3EE2BF}</Project>
+      <Name>MVC.WPF</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -27,8 +27,8 @@ namespace MASGAU {
             type.Add(save);
             this.FileTypes.Add("Custom",type);
 
-            if (Core.settings.email != null)
-                this.Contributors.Add(Core.settings.email);
+            if (Core.settings.EmailSender != null)
+                this.Contributors.Add(Core.settings.EmailSender);
             else
                 this.Contributors.Add("Anonymous");
 

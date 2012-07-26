@@ -1,4 +1,3 @@
-
 [submodule "Translations/Strings"]
 	path = Translations/Strings
 	url = https://github.com/MASGAU/Strings.git
@@ -8,9 +7,6 @@
 [submodule "Libs/Collections"]
 	path = Libs/Collections
 	url = https://github.com/sanmadjack/Collections.CSharp.git
-[submodule "Libs/Communication.WPF"]
-	path = Libs/Communication.WPF
-	url = https://github.com/sanmadjack/Communication.WPF.CSharp
 [submodule "Libs/Config"]
 	path = Libs/Config
 	url = https://github.com/sanmadjack/Config.CSharp.git
@@ -29,9 +25,6 @@
 [submodule "Libs/Translator"]
 	path = Libs/Translator
 	url = https://github.com/sanmadjack/Translator.CSharp.git
-[submodule "Libs/Communication.Translator"]
-	path = Libs/Communication.Translator
-	url = https://github.com/sanmadjack/Communication.Translator.CSharp.git
 [submodule "Libs/Email.WPF"]
 	path = Libs/Email.WPF
 	url = https://github.com/sanmadjack/Email.WPF.CSharp.git

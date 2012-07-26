@@ -6,15 +6,15 @@ using System.Windows;
 using System.Windows.Media.Animation;
 using System.Windows.Controls;
 using System.Reflection;
-using Communication.WPF;
+using MVC.WPF;
 using Translator;
 namespace MASGAU {
     public class NewWindow: ACommunicationWindow {
 
-        public NewWindow() {
+        public NewWindow(): base(null, Core.settings) {
 
         }
-        public NewWindow(ACommunicationWindow owner) {
+        public NewWindow(ACommunicationWindow owner): base(owner,Core.settings) {
             this.Owner = owner;
         }
 

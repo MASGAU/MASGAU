@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
-using Communication;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Location;
 using MASGAU.Monitor;
 using Translator;

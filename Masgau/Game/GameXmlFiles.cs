@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Xml;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Update;
 using Translator;
 using XmlData;

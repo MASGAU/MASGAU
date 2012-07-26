@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Location.Holders;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {

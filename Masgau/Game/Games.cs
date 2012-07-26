@@ -3,12 +3,35 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 using MVC;
 namespace MASGAU {
     public class Games : StaticModel<GameID, GameVersion> {
         public static GameXmlFiles xml;
         protected static CustomGameXmlFile custom;
+        public static void saveCustomGames() {
+            custom.Save();
+        }
+
+        public static bool HasUnsubmittedGames {
+            get {
+                foreach (CustomGame game in custom.entries) {
+                    if (!game.Submitted)
+                        return true;
+                }
+                return false;
+            }
+        }
+        public static Queue<CustomGame> UnsubmittedGames {
+            get {
+                Queue<CustomGame> games = new Queue<CustomGame>();
+                foreach (CustomGame game in custom.entries) {
+                    if (!game.Submitted)
+                        games.Enqueue(game);
+                }
+                return games;
+            }
+        }
 
         public static bool XmlLoaded {
             get {
@@ -144,6 +167,17 @@ namespace MASGAU {
             }
         }
 
+        public static bool IsNameUsed(string name) {
+            foreach (Game game in xml.Entries) {
+                if (game.Name == name)
+                    return true;
+            }
+            foreach (Game game in custom.entries) {
+                if (game.Name == name)
+                    return true;
+            }
+            return false;
+        }
 
         public static void redetectGames(object sender, DoWorkEventArgs e) {
             detectGames(null, true);
@@ -253,7 +287,7 @@ namespace MASGAU {
         }
 
         private static void purgeRoots(object sender, DoWorkEventArgs e) {
-            if (TranslatingRequestHandler.Request(RequestType.Question, "PurgeConfirmation").cancelled) {
+            if (TranslatingRequestHandler.Request(RequestType.Question, "PurgeConfirmation").Cancelled) {
                 e.Cancel = true;
                 return;
             }

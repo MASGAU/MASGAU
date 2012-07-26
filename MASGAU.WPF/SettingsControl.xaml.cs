@@ -34,7 +34,7 @@ namespace MASGAU {
 
 
         private void emailTxt_LostFocus(object sender, RoutedEventArgs e) {
-            Core.settings.email = emailTxt.Text;
+            Core.settings.EmailSender = emailTxt.Text;
 
         }
         private void addAltPathBtn_Click(object sender, RoutedEventArgs e) {

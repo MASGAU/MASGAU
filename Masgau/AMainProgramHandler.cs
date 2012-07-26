@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Location;
 using Translator;
 namespace MASGAU.Main {

@@ -53,7 +53,9 @@ namespace MASGAU.Main {
             Model<ArchiveID, Archive> archives = new Model<ArchiveID, Archive>();
             deleteGame.IsEnabled = true;
             foreach (GameVersion game in gamesLst.SelectedItems) {
-                if (game.id.Release != "Custom")
+                if (game is CustomGameVersion) {
+                    CustomGame custom = game.Game as CustomGame;
+                }  else
                     deleteGame.IsEnabled = false;
                 archives.AddRange(game.Archives);
             }

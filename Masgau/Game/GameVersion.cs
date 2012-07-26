@@ -11,7 +11,7 @@ using MASGAU.Monitor;
 using MASGAU.Location.Holders;
 using MASGAU.Backup;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 using XmlData;
 using Translator;
 namespace MASGAU {
@@ -37,6 +37,8 @@ namespace MASGAU {
         }
     }
     public class GameVersion : AModelItem<GameID> {
+        public Game Game { get; protected set; }
+
         private List<GameLink> links = new List<GameLink>();
         public bool Linkable {
             get {
@@ -77,12 +79,11 @@ namespace MASGAU {
             }
         }
 
-        private Game parent;
         protected string _title = null;
         public string Title {
             get {
                 if (_title == null)
-                    return parent.Title;
+                    return Game.Title;
                 return _title;
             }
         }
@@ -138,7 +139,7 @@ namespace MASGAU {
         public bool DetectionAttempted { get; protected set; }
         public bool IsDetected {
             get {
-                if ((parent!=null&&parent.IsDeprecated)||this.IsDeprecated)
+                if ((Game!=null&&Game.IsDeprecated)||this.IsDeprecated)
                     return false;
                 if (DetectedLocations != null) {
                     if (DetectedLocations.Count > 0) {
@@ -201,7 +202,7 @@ namespace MASGAU {
         }
 
         protected GameVersion(Game parent) {
-            this.parent = parent;
+            this.Game = parent;
             Locations.Paths = new List<LocationPathHolder>();
             Locations.Registries = new List<LocationRegistryHolder>();
             Locations.Shortcuts = new List<LocationShortcutHolder>();
@@ -218,33 +219,33 @@ namespace MASGAU {
                 return xml;
 
 
-            xml = parent.createElement("version");
+            xml = Game.createElement("version");
 
             id.AddAttributes(xml);
             if(xml.HasAttribute("name"))
                 xml.RemoveAttribute("name");
 
-            XmlElement locations = parent.createElement("locations");
+            XmlElement locations = Game.createElement("locations");
 
             foreach(LocationPathHolder path in Locations.Paths) {
-                XmlElement xp = path.createXml(parent);
+                XmlElement xp = path.createXml(Game);
                 locations.AppendChild(xp);
             }
             xml.AppendChild(locations);
 
             foreach(FileTypeHolder type in FileTypes.Values) {
-                XmlElement ft = type.createXml(parent);
+                XmlElement ft = type.createXml(Game);
                 this.xml.AppendChild(ft);
             }
 
             foreach (string con in Contributors) {
-                this.xml.AppendChild(parent.createElement("contributor", con));
+                this.xml.AppendChild(Game.createElement("contributor", con));
             }
 
             if(Comment!=null)
-                this.xml.AppendChild(parent.createElement("comment", Comment));
+                this.xml.AppendChild(Game.createElement("comment", Comment));
             if(RestoreComment!=null)
-                this.xml.AppendChild(parent.createElement("restore_comment", RestoreComment));
+                this.xml.AppendChild(Game.createElement("restore_comment", RestoreComment));
 
 
             string output = this.xml.OuterXml;
@@ -534,15 +535,15 @@ namespace MASGAU {
 
             if (options.Count > 2) {
                 RequestReply info = TranslatingRequestHandler.Request(RequestType.Choice, "PurgeRootChoice", options[0], options);
-                if (info.cancelled) {
+                if (info.Cancelled) {
                     return false;
                 }
-                if (info.selected_index == 0) {
+                if (info.SelectedIndex == 0) {
                     foreach (KeyValuePair<string, DetectedLocationPathHolder> delete_me in DetectedLocations) {
                         delete_me.Value.delete();
                     }
                 } else {
-                    DetectedLocations[info.selected_option].delete();
+                    DetectedLocations[info.SelectedOption].delete();
                 }
             } else {
                 DetectedLocations[options[1]].delete();

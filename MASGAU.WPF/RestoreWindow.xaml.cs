@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Collections.Generic;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.WPF;
@@ -12,7 +12,7 @@ using MVC;
 using Translator.WPF;
 using Translator;
 using System.Text;
-using Communication.WPF;
+using MVC.WPF;
 namespace MASGAU.Restore {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -91,7 +91,7 @@ namespace MASGAU.Restore {
         public static void beginRestore(ACommunicationWindow parent, List<Archive> archives) {
             parent.hideInterface();
 
-            if (archives.Count > 1 && !TranslatingRequestHandler.Request(RequestType.Question,"RestoreMultipleArchives").cancelled ) {
+            if (archives.Count > 1 && !TranslatingRequestHandler.Request(RequestType.Question,"RestoreMultipleArchives").Cancelled ) {
                 Restore.RestoreProgramHandler.use_defaults = true;
             }
 

@@ -8,8 +8,8 @@ using MASGAU.Location.Holders;
 using MASGAU.WPF;
 using System.ComponentModel;
 using MVC.Communication;
-using Communication.WPF;
-using Communication.Translator;
+using MVC.WPF;
+using MVC.Translator;
 using Translator;
 using System.IO;
 namespace MASGAU.Main {

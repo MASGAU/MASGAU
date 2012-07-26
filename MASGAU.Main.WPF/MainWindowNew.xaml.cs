@@ -6,7 +6,7 @@ using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using MVC.Communication;
-using Communication.WPF;
+using MVC.WPF;
 using Microsoft.Windows.Controls.Ribbon;
 using Translator;
 using Translator.WPF;
@@ -111,7 +111,7 @@ namespace MASGAU.Main {
             setupMonitorIcon();
 
             if (!Core.initialized) {
-                Communication.Translator.TranslatingMessageHandler.SendException(new TranslateableException("CriticalSettingsFailure"));
+                MVC.Translator.TranslatingMessageHandler.SendException(new TranslateableException("CriticalSettingsFailure"));
                 this.Close();
             }
             this.Title = masgau.program_title;
@@ -205,6 +205,7 @@ namespace MASGAU.Main {
         private void closeButton_Click(object sender, RoutedEventArgs e) {
             this.Close();
         }
+
 
     }
 }

@@ -6,7 +6,7 @@ using System.IO;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 namespace MASGAU.Monitor
 {
     public class MonitorPath: FileSystemWatcher
@@ -49,7 +49,7 @@ namespace MASGAU.Monitor
         public void start() {
             while (!Core.settings.IsBackupPathSet&&!backuppathwarned) {
                 RequestReply reply = RequestHandler.Request(RequestType.BackupFolder,false);
-                if (reply.cancelled) {
+                if (reply.Cancelled) {
                     TranslatingMessageHandler.SendWarning("MonitorNeedsBackupPath");
                     backuppathwarned = true;
                     //throw new TranslateableException("BackupPathNotSet");

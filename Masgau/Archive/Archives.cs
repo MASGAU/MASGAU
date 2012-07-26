@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using MVC.Communication;
-using Communication.Translator;
+using MVC.Translator;
 using MVC;
 namespace MASGAU {
     public class Archives : StaticModel<ArchiveID, Archive> {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Xml;
-using Communication.Translator;
+using MVC.Translator;
 using MVC;
 using XmlData;
 namespace MASGAU.Update {

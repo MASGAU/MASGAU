@@ -2,7 +2,7 @@
 using System.Xml;
 using System.IO;
 using System.Collections.Generic;
-using Communication.Translator;
+using MVC.Translator;
 namespace MASGAU.Location.Holders {
     // This lets me abstract out the loading logic for those below :D
     public abstract class AGenericHolder {

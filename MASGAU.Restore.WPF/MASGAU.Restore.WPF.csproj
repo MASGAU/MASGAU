@@ -83,10 +83,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Libs\Communication.Translator\Communication.Translator.csproj">
-      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
-      <Name>Communication.Translator</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libs\MVC\MVC.csproj">
       <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
       <Name>MVC</Name>
@@ -94,10 +90,6 @@
     <ProjectReference Include="..\Libs\Translator\Translator.csproj">
       <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
       <Name>Translator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libs\Communication.WPF\Communication.WPF.csproj">
-      <Project>{3F9A5444-ACD7-41C8-A133-8EF0280CB41B}</Project>
-      <Name>Communication.WPF</Name>
     </ProjectReference>
     <ProjectReference Include="..\MASGAU.WPF\MASGAU.WPF.csproj">
       <Project>{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}</Project>
@@ -110,6 +102,10 @@
     <ProjectReference Include="..\Libs\Translator.WPF\Translator.WPF.csproj">
       <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
       <Name>Translator.WPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC.WPF\MVC.WPF.csproj">
+      <Project>{521A7BAC-6485-4736-9EB4-77F6BB3EE2BF}</Project>
+      <Name>MVC.WPF</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

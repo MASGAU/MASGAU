@@ -8,7 +8,22 @@ using System.Text.RegularExpressions;
 
 namespace MASGAU {
     public class CustomGame: Game {
-        public bool Submitted { get; protected set; }
+        private bool _submitted = false;
+        public bool Submitted {
+            get {
+                return _submitted;
+            }
+            set {
+                if (this.xml == null)
+                    this.xml = exportXml();
+
+                if (this.xml.HasAttribute("submitted"))
+                    this.xml.Attributes["submitted"].Value = value.ToString();
+                else
+                    this.addAtribute(xml, "submitted", value.ToString());
+                _submitted = value;
+            }
+        }
         public CustomGame(XmlElement element)
             : base(element) {
         }
@@ -27,8 +42,8 @@ namespace MASGAU {
         }
 
         protected override void LoadData(XmlElement element) {
-            if (element.HasAttribute("submitted")&&Boolean.Parse(element.Attributes["submitted"].Value)) {
-                Submitted = true;
+            if (element.HasAttribute("submitted")) {
+                _submitted = Boolean.Parse(element.Attributes["submitted"].Value);
             }
             base.LoadData(element);
         }
@@ -40,9 +55,9 @@ namespace MASGAU {
         public override XmlElement exportXml() {
             this.xml = base.exportXml();
             if (this.xml.HasAttribute("submitted"))
-                this.xml.Attributes["submitted"].Value = Submitted.ToString();
+                this.xml.Attributes["submitted"].Value = _submitted.ToString();
             else
-                this.addAtribute(xml, "submitted", Submitted.ToString());
+                this.addAtribute(xml, "submitted", _submitted.ToString());
             return this.xml;
         }
     }

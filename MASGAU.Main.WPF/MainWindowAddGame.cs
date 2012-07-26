@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using Communication.Translator;
+using MVC.Translator;
 using MASGAU.Effects;
 using MASGAU.Location;
 using MVC.Communication;
@@ -11,6 +11,7 @@ using Translator;
 using MASGAU.Analyzer;
 using System.ComponentModel;
 using System.Threading;
+using SMJ.WPF;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         private enum game_locations {
@@ -43,8 +44,11 @@ namespace MASGAU.Main {
                 ComboBoxItem item = new ComboBoxItem();
                 item.Content = Strings.GetLabelString(val.ToString());
                 item.Tag = val;
+                helpone.ToolTip = Strings.GetToolTipString("AddGameSaves");
+                helptwo.ToolTip = Strings.GetToolTipString("AddGameSaves");
                 AddGameLocation.Button.addOption(item, new EventHandler(folderChoice));
             }
+            submitGame.IsEnabled = Games.HasUnsubmittedGames;
         }
 
 
@@ -130,8 +134,7 @@ namespace MASGAU.Main {
 
         private void addGameButtonCheck(object sender, System.Windows.Controls.TextChangedEventArgs e) {
             string name = CustomGame.prepareGameName(AddGameTitle.Value);
-            GameID id = new GameID(name,"Custom");
-            if(Games.Get(id)!=null) {
+            if (Games.IsNameUsed(name)) {
                 AddGameTitle.Header = Strings.GetLabelString("AddGameTitleNotUnique");
                 AddGameTitle.Foreground = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 0, 0));
                 AddGameButton.IsEnabled = false;
@@ -150,10 +153,10 @@ namespace MASGAU.Main {
             CustomGame game = Games.addCustomGame(AddGameTitle.Value, new System.IO.DirectoryInfo(AddGameLocation.Value), AddGameSaves.Value, AddGameExclusions.Value);
             if(!Core.settings.SuppressSubmitRequests) {
                 RequestReply reply = TranslatingRequestHandler.Request(RequestType.Question, "PleaseSubmitGame", true);
-                if (!reply.cancelled) {
+                if (!reply.Cancelled) {
                     createGameSubmission(game);
                 } else {
-                    if (reply.suppress)
+                    if (reply.Suppressed)
                         Core.settings.SuppressSubmitRequests = true;
                 }
             }
@@ -162,6 +165,9 @@ namespace MASGAU.Main {
 
 
         private void deleteGame_Click(object sender, RoutedEventArgs e) {
+            if (TranslatingRequestHandler.Request(RequestType.Question, "DeleteGameConfirm", gamesLst.SelectedItems.Count.ToString()).Cancelled)
+                return;
+
             List<GameVersion> games = new List<GameVersion>();
             foreach (GameVersion game in gamesLst.SelectedItems) {
                 games.Add(game);
@@ -171,14 +177,70 @@ namespace MASGAU.Main {
             }
         }
 
+        Queue<CustomGame> submitting_games = new Queue<CustomGame>();
+
+        private void submitGame_Click(object sender, RoutedEventArgs e) {
+            submitting_games.Clear();
+            submitting_games = Games.UnsubmittedGames;
+
+            submitPromptSuppress = false;
+
+            askAboutGame();
+        }
+
         protected void createGameSubmission(CustomGame game) {
-            PCAnalyzer analyzer = new PCAnalyzer(game, gameSubmissionDone);
+            analyzer = new PCAnalyzer(game, gameSubmissionDone);
             disableInterface(analyzer);
+            analyzer.analyze();
+        }
 
+        private bool submitPromptSuppress = false;
 
+        private bool askAboutGame() {
+            if (!submitPromptSuppress) {
+                while (submitting_games.Count > 0) {
+                    CustomGame game = submitting_games.Peek();
+                    RequestReply reply = TranslatingRequestHandler.Request(RequestType.Question, "AskSubmitGame", true, game.Title);
+                    submitPromptSuppress = reply.Suppressed;
+                    if (reply.Cancelled) {
+                        if (reply.Suppressed) {
+                            submitting_games.Clear();
+                            return false;
+                        } else {
+                            submitting_games.Dequeue();
+                        }
+                    } else {
+                        createGameSubmission(submitting_games.Dequeue());
+                        return true;
+                    }
+                }
+            }
+
+            if (submitting_games.Count > 0) {
+                createGameSubmission(submitting_games.Dequeue());
+                return true;
+            }
+
+            return false;
         }
 
         protected void gameSubmissionDone(object sender, RunWorkerCompletedEventArgs e) {
+            if (e.Cancelled) {
+                this.enableInterface();
+                return;
+            }
+
+            ReportWindow report = new ReportWindow(analyzer, this);
+            report.ShowDialog();
+            if (report.SentOrSaved) {
+                analyzer.game.Submitted = true;
+                Games.saveCustomGames();
+            }
+            if(askAboutGame())
+                return;
+
+            submitGame.IsEnabled = Games.HasUnsubmittedGames;
+
             this.enableInterface();
         }
 

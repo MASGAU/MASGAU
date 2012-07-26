@@ -168,10 +168,6 @@
       <Project>{88E4E120-9C45-4EAC-887B-B77474B799B4}</Project>
       <Name>Collections</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\Communication.Translator\Communication.Translator.csproj">
-      <Project>{DAEA22A4-5568-4132-8BA8-89D1B50A2C10}</Project>
-      <Name>Communication.Translator</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libs\Config\Config.csproj">
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
@@ -195,6 +191,10 @@
     <ProjectReference Include="..\Libs\XmlData\XmlData.csproj">
       <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
       <Name>XmlData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC.Translator\MVC.Translator.csproj">
+      <Project>{A0502934-F0B8-40ED-9849-E4392CE37AF4}</Project>
+      <Name>MVC.Translator</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

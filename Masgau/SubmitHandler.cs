@@ -49,7 +49,7 @@ namespace MASGAU {
             mail.To.Add(to);
             mail.Subject = title;
             mail.Body = body + Environment.NewLine + Environment.NewLine + "Sent from version " + Core.version;
-            mail.ReplyToList.Add(new MailAddress(Core.settings.email));
+            mail.ReplyToList.Add(new MailAddress(Core.settings.EmailSender));
 
             //AlternateView planview = AlternateView.CreateAlternateViewFromString("This is my plain text content, viewable tby those clients that don't support html");
             //AlternateView htmlview = AlternateView.CreateAlternateViewFromString("<b>This is bold text and viewable by those mail clients that support html<b>");

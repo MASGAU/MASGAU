@@ -85,8 +85,8 @@ namespace MASGAU.Main {
         private void cancelWorkers() {
             CancelButton.IsEnabled = false;
             Translator.WPF.TranslationHelpers.translate(CancelButton.Label, "Stopping");
-            foreach (BackgroundWorker worker in cancellables) {
-                worker.CancelAsync();
+            foreach (ICancellable worker in cancellables) {
+                worker.Cancel();
             }
         }
     }
