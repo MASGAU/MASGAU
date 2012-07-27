@@ -133,9 +133,10 @@ namespace MASGAU {
         }
 
         public static void loadXml() {
+            TranslatingProgressHandler.setTranslatedMessage("LoadingGameXmls");
+
             xml = new GameXmlFiles();
             model.Clear();
-
             if (xml.Entries.Count > 0) {
                 TranslatingProgressHandler.setTranslatedMessage("LoadingGamesData");
                 foreach (Game game in xml.Entries) {
@@ -144,20 +145,9 @@ namespace MASGAU {
                     }
                 }
             }
-            DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
-            if(!common.Exists)
-                common.Create();
 
-            if(!File.Exists(Path.Combine(common.FullName,"games.xsd"))) {
-                FileInfo schema = new FileInfo(Path.Combine(Core.app_path, "data","games.xsd"));
-                if(!schema.Exists)
-                    throw new Exception("Schema file not found at data/games.xsd! Please Re-install");
-                schema.CopyTo(Path.Combine(common.FullName,"games.xsd"),true);
-            }
-
-            FileInfo custom_xml = new FileInfo(Path.Combine(common.FullName,"custom.xml"));
+            FileInfo custom_xml = new FileInfo(Path.Combine(xml.common.FullName,"custom.xml"));
             custom = new CustomGameXmlFile(custom_xml);
-
             if (custom.entries.Count > 0) {
                 foreach (CustomGame game in custom.entries) {
                     foreach (CustomGameVersion version in game.Versions) {

@@ -52,8 +52,7 @@ namespace MASGAU.Update {
                 return_me.date = DateTime.Parse(element.GetAttribute("date"));
             else if (element.HasAttribute("last_updated"))
                 return_me.date = DateTime.Parse(element.GetAttribute("last_updated"));
-            else
-                throw new Exception("Could not find date attribute");
+
             return return_me;
         }
 

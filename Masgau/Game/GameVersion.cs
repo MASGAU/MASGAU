@@ -437,6 +437,7 @@ namespace MASGAU {
             foreach (DetectedLocationPathHolder location in DetectedLocations) {
                 _detected_paths_string.AppendLine(location.full_dir_path);
             }
+
             NotifyPropertyChanged("IsDetected");
             NotifyPropertyChanged("IsMonitored");
             DetectionAttempted = true;

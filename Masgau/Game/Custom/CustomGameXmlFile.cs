@@ -9,6 +9,8 @@ namespace MASGAU {
         public CustomGameXmlFile(FileInfo file)
             : base(file) {
 
+
+
         }
 
         protected override Game CreateDataEntry(System.Xml.XmlElement element) {

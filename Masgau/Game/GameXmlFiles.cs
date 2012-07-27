@@ -11,27 +11,48 @@ namespace MASGAU {
 
         public List<UpdateHandler> xml_file_versions;
 
+        public DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "MASGAU"));
+        protected DirectoryInfo source = new DirectoryInfo(Path.Combine(Core.app_path, "data"));
+        FileInfo common_schema;
+        FileInfo master_schema;
+
         public GameXmlFiles() {
-            TranslatingProgressHandler.setTranslatedMessage("LoadingGameXmls");
+            if (!common.Exists)
+                common.Create();
+
+            master_schema = new FileInfo(Path.Combine(Core.app_path, "data", "games.xsd"));
+            if (!master_schema.Exists)
+                throw new TranslateableException("SchemaNotFound",master_schema.FullName);
+
+            common_schema = new FileInfo(Path.Combine(common.FullName, "games.xsd"));
+            if (!common_schema.Exists||common_schema.LastWriteTime<master_schema.LastWriteTime) {
+                master_schema.CopyTo(common_schema.FullName, true);
+            }
+
+            List<FileInfo> files = prepareDataFiles();
+
             xml_file_versions = new List<UpdateHandler>();
 
-            string game_configs = Path.Combine(Core.app_path, "data");
-
             try {
-                this.LoadXml(game_configs, "*.xml");
+                this.LoadXml(files);
             } catch (DirectoryNotFoundException e) {
                 throw new TranslateableException("CouldNotFindGameProfilesFolder",e);
             } catch (FileNotFoundException e) {
                 throw new TranslateableException("NoXmlFilesInDataFolder",e);
             }
+        }
 
-            if (Core.portable_mode) {
-                FileInfo custom_xml = new FileInfo(Path.Combine("..", "..", "Data", "custom.xml"));
-                if (custom_xml.Exists)
-                    this.addFile(custom_xml);
+        protected virtual List<FileInfo> prepareDataFiles() {
+            List<FileInfo> files = new List<FileInfo>();
+            foreach (FileInfo original in source.GetFiles("*.xml")) {
+                FileInfo file = new FileInfo(Path.Combine(common.FullName, original.Name));
+                if (!file.Exists || original.LastWriteTime>file.LastWriteTime) {
+                    original.CopyTo(file.FullName, true);
+                }
+                files.Add(file);
             }
 
-
+            return files;
         }
 
         protected override GameXmlFile ReadFile(FileInfo path) {

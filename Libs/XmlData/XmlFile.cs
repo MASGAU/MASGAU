@@ -23,6 +23,7 @@ namespace XmlData {
         FileInfo file;
 
         public XmlFile(FileInfo file, bool create) {
+            file.Refresh();
             if (!file.Exists && create) {
                 XmlTextWriter write_here = new XmlTextWriter(file.FullName, System.Text.Encoding.UTF8);
                 write_here.Formatting = Formatting.Indented;

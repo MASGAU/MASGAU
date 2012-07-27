@@ -11,12 +11,6 @@ namespace XmlData {
         private string file_pattern;
 
         protected AXmlDataFileCollection(string path, string file_pattern) {
-            LoadXml(path, file_pattern);
-        }
-        protected AXmlDataFileCollection() { }
-
-        protected void LoadXml(string path, string file_pattern) {
-            this.Clear();
 
             if (!Directory.Exists(path))
                 throw new DirectoryNotFoundException(path);
@@ -28,13 +22,22 @@ namespace XmlData {
                 throw new FileNotFoundException(Path.Combine(path, file_pattern));
 
 
+            LoadXml(files);
+        }
+        protected AXmlDataFileCollection() { }
+
+        protected AXmlDataFileCollection(IEnumerable<FileInfo> files) {
+            LoadXml(files);
+        }
+
+        protected void LoadXml(IEnumerable<FileInfo> files) {
+            this.Clear();
+
             foreach (FileInfo file in files) {
                 F data_file;
                 data_file = ReadFile(file);
                 this.Add(data_file);
             }
-
-
         }
 
         protected abstract F ReadFile(FileInfo path);

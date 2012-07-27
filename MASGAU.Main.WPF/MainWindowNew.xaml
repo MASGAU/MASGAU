@@ -28,7 +28,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="1" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
             <r:Ribbon.HelpPaneContent>
                 <Grid Margin="0,1,0,0">
                     <Grid.ColumnDefinitions>

@@ -29,9 +29,7 @@ namespace MASGAU.Main {
             //    TranslatingProgressHandler.setTranslatedMessage("CheckingForUpdates");
             //    Core.updater.checkUpdates(false, true);
             //}
-            if (Core.updater.redetect_required) {
-                Games.loadXml();
-            }
+            Games.loadXml();
             if (Core.updater.shutdown_required) {
                 //this.Close();
                 return;
