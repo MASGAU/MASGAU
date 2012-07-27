@@ -29,12 +29,12 @@ namespace MASGAU.Main {
 
             rootCombo.Items.Clear();
 
-            foreach (KeyValuePair<string, DetectedLocationPathHolder> file in game.DetectedLocations) {
+            foreach (DetectedLocationPathHolder file in game.DetectedLocations) {
                 //if(file.Value.owner!=null)
                 //    rootCombo.Items.Add(file.Value.owner);
                 //else
                 //    rootCombo.Items.Add("Global");
-                rootCombo.Items.Add(file.Key);
+                rootCombo.Items.Add(file.full_dir_path);
             }
             if (rootCombo.Items.Contains(Environment.UserName))
                 rootCombo.SelectedIndex = rootCombo.Items.IndexOf(Environment.UserName);

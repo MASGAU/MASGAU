@@ -44,7 +44,7 @@ namespace MASGAU.Location {
         }
 
         // Return location holders based on various kinds of input
-        public virtual List<DetectedLocationPathHolder> getPaths(ALocationHolder get_me) {
+        public virtual DetectedLocations getPaths(ALocationHolder get_me) {
             Type check = get_me.GetType();
             if (check.Equals(typeof(LocationPathHolder))||check.IsSubclassOf(typeof(LocationPathHolder))) {
                 return getPaths(get_me as LocationPathHolder);
@@ -61,11 +61,11 @@ namespace MASGAU.Location {
                 check.Equals(typeof(PlayStationPortableID))) {
                 return getPaths(get_me as PlayStationID);
             }
-            return new List<DetectedLocationPathHolder>();
+            return new DetectedLocations();
         }
 
-        protected virtual List<DetectedLocationPathHolder> getPaths(LocationPathHolder get_me) {
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+        protected virtual DetectedLocations getPaths(LocationPathHolder get_me) {
+            DetectedLocations return_me = new DetectedLocations();
             if (!ready)
                 return return_me;
 
@@ -90,20 +90,20 @@ namespace MASGAU.Location {
             return return_me;
         }
 
-        protected virtual List<DetectedLocationPathHolder> getPaths(LocationRegistryHolder get_me) {
-            return new List<DetectedLocationPathHolder>();
+        protected virtual DetectedLocations getPaths(LocationRegistryHolder get_me) {
+            return new DetectedLocations();
         }
 
-        protected virtual List<DetectedLocationPathHolder> getPaths(LocationShortcutHolder get_me) {
-            return new List<DetectedLocationPathHolder>();
+        protected virtual DetectedLocations getPaths(LocationShortcutHolder get_me) {
+            return new DetectedLocations();
         }
 
-        protected virtual List<DetectedLocationPathHolder> getPaths(PlayStationID get_me) {
-            return new List<DetectedLocationPathHolder>();
+        protected virtual DetectedLocations getPaths(PlayStationID get_me) {
+            return new DetectedLocations();
         }
 
-        protected virtual List<DetectedLocationPathHolder> getPaths(ScummVMHolder get_me) {
-            return new List<DetectedLocationPathHolder>();
+        protected virtual DetectedLocations getPaths(ScummVMHolder get_me) {
+            return new DetectedLocations();
         }
         public List<string> getPaths(EnvironmentVariable for_me) {
             List<string> return_me = new List<string>();

@@ -132,9 +132,9 @@ namespace MASGAU.Location {
 
         public string getAbsolutePath(LocationPathHolder parse_me, string user) {
             if (parse_me.rel_root == EnvironmentVariable.AltSavePaths) {
-                List<DetectedLocationPathHolder> locs = interpretPath(parse_me.ToString());
+                DetectedLocations locs = interpretPath(parse_me.ToString());
                 if (locs.Count > 0)
-                    parse_me = locs[0];
+                    parse_me = locs.getMostAccurateLocation();
                 else
                     return null;
             }

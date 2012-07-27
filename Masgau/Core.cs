@@ -91,40 +91,10 @@ namespace MASGAU
                 return worker.CancellationPending;
             }
         }
-        #region Redetection indicators
-        // Indicates wether the games need to be re-detected
-        private static bool _redetect_games = false;
-        public static bool redetect_games
-        {
-            get
-            {
-                return _redetect_games;
-            }
-            set
-            {
-                _redetect_games = value;
-            }
-        }
-
-        // Indicates wether the archvies need to be re-detected
-        private static bool _redetect_archives = true;
-        public static bool redetect_archives
-        {
-            get
-            {
-                return _redetect_archives;
-            }
-            set
-            {
-                _redetect_archives = value;
-            }
-        }
 
         // This indicates wether the sync folder needs re-populated
         public static bool rebuild_sync = false;
-
-        #endregion
-
+        public static bool redetect_games = false;
         public static Email.EmailHandler email { get; protected set; }
         private static bool mutex_acquired = false;
         static Core()

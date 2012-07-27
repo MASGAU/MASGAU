@@ -40,9 +40,9 @@ namespace MASGAU.Location {
             install_path = findInstallPath();
         }
 
-        protected override List<DetectedLocationPathHolder> getPaths(ScummVMHolder get_me) {
+        protected override DetectedLocations getPaths(ScummVMHolder get_me) {
 
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+            DetectedLocations return_me = new DetectedLocations();
             if (locations == null) {
                 setup();
             }
@@ -62,24 +62,22 @@ namespace MASGAU.Location {
             return return_me;
         }
 
-        protected List<DetectedLocationPathHolder> loadLocations(String path, ScummVMHolder scumm, string user) {
-            List<DetectedLocationPathHolder> locs = Core.locations.interpretPath(path);
+        protected DetectedLocations loadLocations(String path, ScummVMHolder scumm, string user) {
+            DetectedLocations locs = Core.locations.interpretPath(path);
 
             locs = filterLocations(locs, scumm, user);
 
             return locs;
         }
 
-        protected List<DetectedLocationPathHolder> filterLocations(List<DetectedLocationPathHolder> locs, ScummVMHolder scumm, string user) {
-            for (int i = 0; i < locs.Count; i++) {
+        protected DetectedLocations filterLocations(DetectedLocations locs, ScummVMHolder scumm, string user) {
+            List<string> keys = new List<string>(locs.Keys);
 
-                if (!filterLocation(locs[i], scumm, user)) {
-                    locs.RemoveAt(i);
-                    i--;
+            foreach (string key in keys) {
+                if (!filterLocation(locs[key], scumm, user)) {
+                    locs.Remove(key);
                 }
-
             }
-
             return locs;
         }
 

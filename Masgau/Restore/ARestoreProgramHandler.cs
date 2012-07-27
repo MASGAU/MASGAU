@@ -121,24 +121,24 @@ namespace MASGAU.Restore {
             }
 
             // This add already found locations
-            foreach (KeyValuePair<string, DetectedLocationPathHolder> location in game_data.DetectedLocations) {
-                location.Value.IsSelected = true;
-                switch (location.Value.rel_root) {
+            foreach (DetectedLocationPathHolder location in game_data.DetectedLocations) {
+                location.IsSelected = true;
+                switch (location.rel_root) {
                     case EnvironmentVariable.ProgramFiles:
                     case EnvironmentVariable.ProgramFilesX86:
                         // This adds a fake VirtualStore folder, just in case
                         if (Core.locations.uac_enabled) {
-                            DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location.Value);
+                            DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location);
                             temp.AbsoluteRoot = null;
-                            temp.owner = location.Value.owner;
-                            temp.Path = Path.Combine("VirtualStore", location.Value.full_dir_path.Substring(3));
+                            temp.owner = location.owner;
+                            temp.Path = Path.Combine("VirtualStore", location.full_dir_path.Substring(3));
                             temp.rel_root = EnvironmentVariable.LocalAppData;
                             addPathCandidate(temp);
                         }
-                        addPathCandidate(location.Value);
+                        addPathCandidate(location);
                         break;
                     default:
-                        addPathCandidate(location.Value);
+                        addPathCandidate(location);
                         break;
                 }
             }

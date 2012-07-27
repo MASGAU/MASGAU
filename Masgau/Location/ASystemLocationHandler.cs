@@ -39,8 +39,8 @@ namespace MASGAU.Location {
 
 
 
-        protected override List<DetectedLocationPathHolder> getPaths(LocationPathHolder get_me) {
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+        protected override DetectedLocations getPaths(LocationPathHolder get_me) {
+            DetectedLocations return_me = new DetectedLocations();
             DirectoryInfo test;
             DetectedLocationPathHolder add_me;
             switch (get_me.rel_root) {

@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Windows;
 using MVC.Communication;
 using MASGAU.Update;
+using Translator;
 using Translator.WPF;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
@@ -58,9 +59,13 @@ namespace MASGAU.Main {
             switch (result) {
                 case UpdateAvailability.Data:
                     TranslationHelpers.translate(UpdateAvailableButton, "DataUpdateAvailable");
+                    if (this.Visibility != System.Windows.Visibility.Visible)
+                        sendBalloon(Strings.GetLabelString("DataUpdateAvailable"));
                     break;
                 case UpdateAvailability.Program:
                     TranslationHelpers.translate(UpdateAvailableButton, "ProgramUpdateAvailable");
+                    if (this.Visibility != System.Windows.Visibility.Visible)
+                        sendBalloon(Strings.GetLabelString("ProgramUpdateAvailable"));
                     break;
             }
             TranslationHelpers.translate(UpdateButton, "CheckForUpdates");

@@ -69,7 +69,6 @@ namespace MASGAU.Main {
                     if ((bool)save.ShowDialog(this)) {
                         string file = save.FileName;
                         beginBackup(game, selected_files, file, null);
-                        Core.redetect_archives = true;
                         last_archive_create = Path.GetDirectoryName(file);
                     }
                 }

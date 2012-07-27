@@ -189,7 +189,6 @@
                 </Grid.ColumnDefinitions>
                 <ListView Grid.Row="0"  Grid.Column="0"  Name="gamesLst" ItemsSource="{Binding}" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SizeChanged="gamesLst_SizeChanged" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding GamesDetected}">
                     <ListView.ItemContainerStyle>
-
                         <Style TargetType="ListViewItem">
                             <Style.Triggers>
                                 <Trigger Property="IsSelected" Value="false">
@@ -301,22 +300,24 @@
                     </ListView>
                 </Grid>
 
-                <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" UseLayoutRounding="False">
-                    <StatusBarItem>
-                        <Label Name="statusBarLabel" />
-                    </StatusBarItem>
-                    <StatusBarItem HorizontalAlignment="Stretch">
-                        <Label />
-                    </StatusBarItem>
-                    <StatusBarItem HorizontalAlignment="Right" Width="Auto">
-                        <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" />
-                    </StatusBarItem>
-                    <StatusBarItem HorizontalAlignment="Right" Width="Auto">
-                        <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto">
-                            <Button.Content>
-                                <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;component/Images/16px/steam.png" Height="16" />
-                            </Button.Content>
-                        </Button>
+                <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                    <StatusBarItem HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Label Name="statusBarLabel" Grid.Column="0" />
+                            <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="2" />
+                            <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Grid.Column="3">
+                                <Button.Content>
+                                    <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Icons/steam.png" Height="16" />
+                                </Button.Content>
+                            </Button>
+
+                        </Grid>
                     </StatusBarItem>
                 </StatusBar>
             </Grid>

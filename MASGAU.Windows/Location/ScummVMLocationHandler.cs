@@ -38,18 +38,16 @@ namespace MASGAU.Location {
             return null;
         }
 
-        protected override List<DetectedLocationPathHolder> getPaths(ScummVMHolder get_me) {
-            List<DetectedLocationPathHolder> locs = base.getPaths(get_me);
+        protected override DetectedLocations getPaths(ScummVMHolder get_me) {
+            DetectedLocations locs = base.getPaths(get_me);
 
             if (install_path != null) {
                 LocationPathHolder loc = SystemLocationHandler.translateToVirtualStore(install_path);
-                List<DetectedLocationPathHolder> vlocs = Core.locations.getPaths(loc);
-
-                for (int i = 0; i < vlocs.Count; i++) {
-
-                    if (!filterLocation(vlocs[i], get_me, vlocs[i].owner)&&locs.Count>i) {
-                        locs.RemoveAt(i);
-                        i--;
+                DetectedLocations vlocs = Core.locations.getPaths(loc);
+                List<string> keys = new List<string>(vlocs.Keys);
+                foreach(string key in keys) {
+                    if (!filterLocation(vlocs[key], get_me, vlocs[key].owner)) {
+                        locs.Remove(key);
                     }
 
                 }

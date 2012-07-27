@@ -125,10 +125,10 @@ namespace MASGAU {
         }
 
         private void redetectArchives(object sender, DoWorkEventArgs e) {
-            if (Core.redetect_games) {
-                redetectGames(sender, e);
-            }
-            Core.redetect_archives = false;
+            //if (Core.redetect_games) {
+            //    redetectGames(sender, e);
+            //}
+            //Core.redetect_archives = false;
         }
 
         protected void redetectGames() {
@@ -142,7 +142,7 @@ namespace MASGAU {
         private void redetectGames(object sender, DoWorkEventArgs e) {
             Games.Clear();
             Games.detectGames();
-            Core.redetect_games = false;
+//            Core.redetect_games = false;
         }
 
 

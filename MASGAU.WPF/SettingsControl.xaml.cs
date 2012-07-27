@@ -39,7 +39,7 @@ namespace MASGAU {
         }
         private void addAltPathBtn_Click(object sender, RoutedEventArgs e) {
             if (addAltPath()) {
-                Core.redetect_games = true;
+                //Core.redetect_games = true;
             }
         }
 
@@ -52,7 +52,7 @@ namespace MASGAU {
             foreach (AltPathHolder remove_me in paths) {
                 Core.settings.removeSavePath(remove_me.path);
             }
-            Core.redetect_games = true;
+            //Core.redetect_games = true;
         }
 
         private void altPathLst_SelectionChanged(object sender, SelectionChangedEventArgs e) {

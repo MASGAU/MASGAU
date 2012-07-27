@@ -13,6 +13,16 @@ namespace MASGAU.Main {
 
 
         #region redetect games
+
+        private void askRefreshGames(string str) {
+            if (str == null)
+                str = "AskRefreshGames";
+
+            if (this.askTranslatedQuestion(str, false)) {
+                this.redetectGames();
+            }
+        }
+
         protected void redetectGames() {
             BackgroundWorker redetect = new BackgroundWorker();
             redetect.DoWork += new DoWorkEventHandler(redetectGames);
@@ -25,7 +35,6 @@ namespace MASGAU.Main {
         private void redetectGames(object sender, DoWorkEventArgs e) {
             Games.Clear();
             Games.detectGames();
-            Core.redetect_games = false;
         }
         #endregion
 

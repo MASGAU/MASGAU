@@ -8,6 +8,8 @@ using Translator;
 using Translator.WPF;
 using Microsoft.Windows.Controls.Ribbon;
 using MASGAU.Settings;
+using MVC.WPF;
+using MVC.Communication;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
 
@@ -38,17 +40,24 @@ namespace MASGAU.Main {
             foreach (AltPathHolder alt in Core.settings.save_paths) {
                 RibbonMenuItem item = new RibbonMenuItem();
                 item.Header = Strings.GetLabelString("RemoteAltSavePath", alt.path);
+                item.ToolTip = alt.path;
                 item.Click += new RoutedEventHandler(item_Click);
                 AltSaveButton.Items.Add(item);
             }
         }
 
         void item_Click(object sender, RoutedEventArgs e) {
-            throw new System.NotImplementedException();
+            RibbonMenuItem item = sender as RibbonMenuItem;
+            string name = item.ToolTip.ToString();
+            Core.settings.removeSavePath(name);
+            populateAltPaths();
+            askRefreshGames("RefreshForRemovedSavePath");
         }
 
+
         private void OverrideSteamButton_Click(object sender, RoutedEventArgs e) {
-            overrideSteamPath();
+            if (overrideSteamPath())
+                askRefreshGames("RefreshForNewSteamPath");
             setupSteamButton();
         }
         protected void setupSteamButton() {
@@ -72,8 +81,8 @@ namespace MASGAU.Main {
             do {
                 if (folderBrowser.ShowDialog(GetIWin32Window()) == System.Windows.Forms.DialogResult.OK) {
                     Core.settings.steam_path = folderBrowser.SelectedPath;
-                    if (Core.settings.steam_path == folderBrowser.SelectedPath || Core.settings.steam_path != old_path)
-                        return true;
+                    if (Core.settings.steam_path == folderBrowser.SelectedPath)
+                        return Core.settings.steam_path != old_path;
                     else
                         this.showTranslatedWarning("SelectSteamPathRejected");
                 } else {
@@ -180,33 +189,8 @@ namespace MASGAU.Main {
         }
         private void addAltPathBtn_Click(object sender, RoutedEventArgs e) {
             if (addAltPath()) {
-                Core.redetect_games = true;
+                askRefreshGames("");
             }
-        }
-
-        private void removeAltPathBtn_Click(object sender, RoutedEventArgs e) {
-            List<AltPathHolder> paths = new List<AltPathHolder>();
-            //foreach (AltPathHolder remove_me in altPathLst.SelectedItems) {
-            //    paths.Add(remove_me);
-            //}
-
-            foreach (AltPathHolder remove_me in paths) {
-                Core.settings.removeSavePath(remove_me.path);
-            }
-            Core.redetect_games = true;
-        }
-
-        private void altPathLst_SelectionChanged(object sender, SelectionChangedEventArgs e) {
-            //if (altPathLst.SelectedItems.Count > 1) {
-            //    removeAltPathBtn.IsEnabled = true;
-            //    TranslationHelpers.translate(removeAltPathBtn,"RemoveAltPaths");
-            //} else if (altPathLst.SelectedItems.Count > 0) {
-            //    removeAltPathBtn.IsEnabled = true;
-            //    TranslationHelpers.translate(removeAltPathBtn,"RemoveAltPath");
-            //} else {
-            //    removeAltPathBtn.IsEnabled = false;
-            //    TranslationHelpers.translate(removeAltPathBtn,"RemoveNoAltPaths");
-            //}
         }
 
         private void openBackupPathBtn_Click(object sender, RoutedEventArgs e) {
@@ -221,12 +205,6 @@ namespace MASGAU.Main {
             this.changeBackupPath();
         }
 
-        private void changeSteamPathBtn_Click(object sender, RoutedEventArgs e) {
-            if (this.overrideSteamPath()) {
-                Core.redetect_games = true;
-            }
-        }
-
         private void ChangeSyncFolder_Click(object sender, RoutedEventArgs e) {
 
         }
@@ -236,8 +214,10 @@ namespace MASGAU.Main {
         }
 
         private void AddAltSaveFolder_Click(object sender, RoutedEventArgs e) {
-            addAltPath();
-            populateAltPaths();
+            if (addAltPath()) {
+                populateAltPaths();
+                askRefreshGames("RefreshForNewSavePath");
+            }
         }
         protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e) {
             TextBox txt_box = (TextBox)sender;

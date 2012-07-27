@@ -202,7 +202,19 @@ namespace MVC.WPF {
         #region TranslatedMessageBoxes
         public bool askTranslatedQuestion(String string_name, bool suppressable, params string[] variables) {
             StringCollection mes = Strings.getStrings(string_name);
-            RequestEventArgs e = new RequestEventArgs(RequestType.Question,mes[StringType.Title].interpret(variables),mes[StringType.Message].interpret(variables),null,null, new RequestReply(),suppressable);
+            string title, message;
+
+            if (mes.ContainsKey(StringType.Title))
+                title = mes[StringType.Title].interpret(variables);
+            else
+                title = string_name;
+
+            if (mes.ContainsKey(StringType.Message))
+                message = mes[StringType.Message].interpret(variables);
+            else
+                message = string_name;
+
+            RequestEventArgs e = new RequestEventArgs(RequestType.Question,title,mes[StringType.Message].interpret(variables),null,null, new RequestReply(),suppressable);
             return displayQuestion(e);
         }
         public bool showTranslatedWarning(String string_name, params string[] variables) {

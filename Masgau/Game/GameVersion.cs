@@ -129,7 +129,7 @@ namespace MASGAU {
         public string RestoreComment { get; protected set; }
 
         // These are the locations that have been found
-        public Dictionary<string, DetectedLocationPathHolder> DetectedLocations;
+        public MASGAU.Location.DetectedLocations DetectedLocations;
 
         public bool IgnoreVirtualStore { get; protected set; }
 
@@ -194,8 +194,8 @@ namespace MASGAU {
         public ObservableCollection<string> detected_location_list {
             get {
                 ObservableCollection<string> return_me = new ObservableCollection<string>();
-                foreach (KeyValuePair<string, DetectedLocationPathHolder> add_me in DetectedLocations) {
-                    return_me.Add(add_me.Key);
+                foreach (DetectedLocationPathHolder add_me in DetectedLocations) {
+                    return_me.Add(add_me.full_dir_path);
                 }
                 return return_me;
             }
@@ -401,8 +401,8 @@ namespace MASGAU {
                         // If the game hasn't been processed in the GamesHandler yetm it won't yield useful information, so we force it to process here
                         if (!parent_game.DetectionAttempted)
                             parent_game.Detect();
-                        foreach (KeyValuePair<string, DetectedLocationPathHolder> check_me in parent_game.DetectedLocations) {
-                            string path = location.modifyPath(check_me.Value.full_dir_path);
+                        foreach (DetectedLocationPathHolder check_me in parent_game.DetectedLocations) {
+                            string path = location.modifyPath(check_me.full_dir_path);
                             interim.AddRange(Core.locations.interpretPath(path));
                         }
                     } else {
@@ -419,25 +419,23 @@ namespace MASGAU {
             }
 
 
-            DetectedLocations = new Dictionary<string, DetectedLocationPathHolder>();
+            DetectedLocations = new Location.DetectedLocations();
             foreach (DetectedLocationPathHolder check_me in interim) {
-                if (!DetectedLocations.ContainsKey(check_me.full_dir_path)) {
-                    if (Identifiers.Count == 0) {
-                        DetectedLocations.Add(check_me.full_dir_path, check_me);
-                        continue;
-                    }
-                    foreach (IdentifierHolder identifier in Identifiers) {
-                        if (identifier.FindMatching(check_me).Count > 0) {
-                            DetectedLocations.Add(check_me.full_dir_path, check_me);
-                            break;
-                        }
+                if (Identifiers.Count == 0) {
+                    DetectedLocations.Add(check_me);
+                    continue;
+                }
+                foreach (IdentifierHolder identifier in Identifiers) {
+                    if (identifier.FindMatching(check_me).Count > 0) {
+                        DetectedLocations.Add(check_me);
+                        break;
                     }
                 }
             }
             _detected_paths_string = new StringBuilder();
 
-            foreach (KeyValuePair<string, DetectedLocationPathHolder> location in DetectedLocations) {
-                _detected_paths_string.AppendLine(location.Key);
+            foreach (DetectedLocationPathHolder location in DetectedLocations) {
+                _detected_paths_string.AppendLine(location.full_dir_path);
             }
             NotifyPropertyChanged("IsDetected");
             NotifyPropertyChanged("IsMonitored");
@@ -450,9 +448,9 @@ namespace MASGAU {
         public DetectedFiles Saves {
             get {
                 DetectedFiles files = new DetectedFiles();
-                foreach (KeyValuePair<string, DetectedLocationPathHolder> location in DetectedLocations) {
+                foreach (DetectedLocationPathHolder location in DetectedLocations) {
                     foreach (FileTypeHolder save in FileTypes.Values) {
-                        files.AddRange(save.FindMatching(location.Value));
+                        files.AddRange(save.FindMatching(location));
                     }
                 }
                 return files;
@@ -528,9 +526,9 @@ namespace MASGAU {
         public bool purgeRoot() {
             List<string> options = new List<string>();
             options.Add("Purge All Detected Roots");
-            foreach (KeyValuePair<string, DetectedLocationPathHolder> root in DetectedLocations) {
-                if (!options.Contains((Path.Combine(root.Value.AbsoluteRoot, root.Value.Path))))
-                    options.Add(Path.Combine(root.Value.AbsoluteRoot, root.Value.Path));
+            foreach (DetectedLocationPathHolder root in DetectedLocations) {
+                if (!options.Contains((Path.Combine(root.AbsoluteRoot, root.Path))))
+                    options.Add(Path.Combine(root.AbsoluteRoot, root.Path));
             }
 
             if (options.Count > 2) {
@@ -539,8 +537,8 @@ namespace MASGAU {
                     return false;
                 }
                 if (info.SelectedIndex == 0) {
-                    foreach (KeyValuePair<string, DetectedLocationPathHolder> delete_me in DetectedLocations) {
-                        delete_me.Value.delete();
+                    foreach (DetectedLocationPathHolder delete_me in DetectedLocations) {
+                        delete_me.delete();
                     }
                 } else {
                     DetectedLocations[info.SelectedOption].delete();

@@ -12,10 +12,10 @@ namespace MASGAU.Analyzer {
 
         protected override void analyzerWork() {
             outputLine("Game Name: " + game.Title);
-            foreach(DetectedLocationPathHolder tmppath in game.Versions[0].DetectedLocations.Values) {
-                this.path = tmppath;
-                break;
-            }
+
+            this.path = game.Versions[0].DetectedLocations.getMostAccurateLocation();
+
+
 
             outputLine("Operating System: ");
             outputLine(Environment.OSVersion.VersionString);

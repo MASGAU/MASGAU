@@ -337,10 +337,10 @@ namespace MASGAU.Location {
             return virtualstore_info;
         }
 
-        protected override List<DetectedLocationPathHolder> getPaths(LocationPathHolder get_me) {
+        protected override DetectedLocations getPaths(LocationPathHolder get_me) {
             //if(get_me.rel_root!= EnvironmentVariable.Public)
             // return new List<DetectedLocationPathHolder>();
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+            DetectedLocations return_me = new DetectedLocations();
             DetectedLocationPathHolder add_me;
             DirectoryInfo test;
             switch (get_me.rel_root) {
@@ -405,8 +405,8 @@ namespace MASGAU.Location {
         }
 
 
-        protected override List<DetectedLocationPathHolder> getPaths(LocationRegistryHolder get_me) {
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+        protected override DetectedLocations getPaths(LocationRegistryHolder get_me) {
+            DetectedLocations return_me = new DetectedLocations();
 
             RegistryHandler reg;
 
@@ -453,10 +453,10 @@ namespace MASGAU.Location {
         IntPtr hwndOwner, [Out] StringBuilder lpszPath, int nFolder, bool fCreate);
 
 
-        protected override List<DetectedLocationPathHolder> getPaths(LocationShortcutHolder get_me) {
+        protected override DetectedLocations getPaths(LocationShortcutHolder get_me) {
             FileInfo the_shortcut;
             //StringBuilder start_menu;
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+            DetectedLocations return_me = new DetectedLocations();
             String path;
 
             List<string> paths = this.getPaths(get_me.ev);

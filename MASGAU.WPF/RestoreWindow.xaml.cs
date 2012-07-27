@@ -100,8 +100,9 @@ namespace MASGAU.Restore {
                     break;
                 }
                 Restore.RestoreWindow restore = new Restore.RestoreWindow(archive, parent);
-                if (restore.ShowDialog()==true)
+                if (restore.ShowDialog() == true) {
                     Core.redetect_games = true;
+                }
             }
             Restore.RestoreProgramHandler.use_defaults = false;
             Restore.RestoreProgramHandler.overall_stop = false;
