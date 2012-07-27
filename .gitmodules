@@ -31,3 +31,9 @@
 [submodule "Libs/Translator.WPF"]
 	path = Libs/Translator.WPF
 	url = https://github.com/sanmadjack/Translator.WPF.CSharp.git
+[submodule "Libs/MVC.Translator"]
+	path = Libs/MVC.Translator
+	url = https://github.com/sanmadjack/MVC.Translator.CSharp.git
+[submodule "Libs/MVC.WPF"]
+	path = Libs/MVC.WPF
+	url = https://github.com/sanmadjack/MVC.WPF.CSharp.git
