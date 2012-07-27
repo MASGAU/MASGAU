@@ -37,3 +37,6 @@
 [submodule "Libs/MVC.WPF"]
 	path = Libs/MVC.WPF
 	url = https://github.com/sanmadjack/MVC.WPF.CSharp.git
+[submodule "Libs/WPF"]
+	path = Libs/WPF
+	url = https://github.com/sanmadjack/WPF.CSharp.git
