@@ -103,6 +103,8 @@ Source: ..\MASGAU.Restore.WPF\bin\Release\MASGAU.Restore.pdb; DestDir: {app};  C
 Source: ..\MASGAU.Updater.WPF\bin\Release\MASGAU.Updater.exe; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion;
 Source: ..\MASGAU.Updater.WPF\bin\Release\MASGAU.Updater.pdb; DestDir: {app};  Components: MASGAU\Debug; Flags: IgnoreVersion overwritereadonly replacesameversion;
 
+// Edit warning
+Source: ..\Docs\DO_NOT_EDIT_INSTRUCTIONS_INSIDE.txt; DestDir: {app}\Data; Components: DataFiles; 
 // Games schema
 Source: ..\Data\Data\games.xsd; DestDir: {app}\Data; Components: DataFiles; 
 // Android data component
