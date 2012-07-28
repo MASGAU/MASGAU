@@ -20,9 +20,9 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <w:SuperButton Text="$Save" Click="saveBtn_Click" ImageHeight="16" ImageSource="/WPF;component/Icons/16px/document-save.png" Grid.Column="0" Margin="3" />
+                    <w:SuperButton Text="$Save" Click="saveBtn_Click" ImageHeight="16" ImageSource="/WPF;Component/Images/16px/document-save.png" Grid.Column="0" Margin="3" />
                     <e:EmailButton Name="uploadBtn" Grid.Column="1" Margin="3"/>
-                    <w:SuperButton Text="$Close" Name="closeBtn" Click="closeBtn_Click" ImageHeight="16" Grid.Column="2" ImageSource="/WPF;component/Icons/20px/window-close.png" Margin="3"/>
+                    <w:SuperButton Text="$Close" Name="closeBtn" Click="closeBtn_Click" ImageHeight="16" Grid.Column="2" ImageSource="/WPF;Component/Images/20px/window-close.png" Margin="3"/>
                 </Grid>
             </StatusBarItem>
         </StatusBar>

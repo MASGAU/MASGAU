@@ -36,100 +36,100 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <r:RibbonButton Grid.Column="0" SmallImageSource="/WPF;Component/Icons/16px/go-bottom.png" Name="minimizeButton" Click="minimizeButton_Click" ToolTip="Send To Task Bar" />
-                    <r:RibbonButton Grid.Column="1" SmallImageSource="/WPF;Component/Icons/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="Toggle fullscreen" />
-                    <r:RibbonButton Grid.Column="2" SmallImageSource="/WPF;Component/Icons/16px/window-close.png" Name="closeButton" Click="closeButton_Click" ToolTip="Exit MASGAU" Margin="0,0,3,0" />
+                    <r:RibbonButton Grid.Column="0" SmallImageSource="/WPF;Component/Images/16px/go-bottom.png" Name="minimizeButton" Click="minimizeButton_Click" ToolTip="Send To Task Bar" />
+                    <r:RibbonButton Grid.Column="1" SmallImageSource="/WPF;Component/Images/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="Toggle fullscreen" />
+                    <r:RibbonButton Grid.Column="2" SmallImageSource="/WPF;Component/Images/16px/window-close.png" Name="closeButton" Click="closeButton_Click" ToolTip="Exit MASGAU" Margin="0,0,3,0" />
                 </Grid>
             </r:Ribbon.HelpPaneContent>
                 <r:Ribbon.ApplicationMenu>
                 <r:RibbonApplicationMenu KeyTip="M" Label="MASGAU" ToolTip="MASGAU"  Name="appMenu"
-                    LargeImageSource="/WPF;Component/Icons/16px/view-refresh.png">
+                    LargeImageSource="/WPF;Component/Images/16px/view-refresh.png">
 
-                    <r:RibbonApplicationMenuItem Header="About" ImageSource="/WPF;Component/Icons/help-browser.png" Name="AboutButton" Click="AboutButton_Click">
+                    <r:RibbonApplicationMenuItem Header="About" ImageSource="/WPF;Component/Images/help-browser.png" Name="AboutButton" Click="AboutButton_Click">
                     </r:RibbonApplicationMenuItem>
-                    <r:RibbonApplicationMenuItem Header="Exit" ImageSource="/WPF;Component/Icons/system-log-out.png" Name="ExitButton" Click="ExitButton_Click">
+                    <r:RibbonApplicationMenuItem Header="Exit" ImageSource="/WPF;Component/Images/system-log-out.png" Name="ExitButton" Click="ExitButton_Click">
                     </r:RibbonApplicationMenuItem>
                 </r:RibbonApplicationMenu>
             </r:Ribbon.ApplicationMenu>
             <r:RibbonTab x:Name="gamesTab"
                               Header="$BackupRestore" GroupSizeReductionOrder="backupGroup,toolsGroup,restoreGroup" >
                 <r:RibbonGroup x:Name="gamesGroup"  Header="$Games"
-                               SmallImageSource="/WPF;Component/Icons/16px/view-refresh.png"
-                               LargeImageSource="/WPF;Component/Icons/view-refresh.png">
+                               SmallImageSource="/WPF;Component/Images/16px/view-refresh.png"
+                               LargeImageSource="/WPF;Component/Images/view-refresh.png">
                     <r:RibbonButton Label="$RefreshGames" 
-                                    LargeImageSource="/WPF;Component/Icons/view-refresh.png" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/view-refresh.png" 
+                                    LargeImageSource="/WPF;Component/Images/view-refresh.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/view-refresh.png" 
                                     Click="RibbonButton_Click" Name="refreshGames" />
                     <r:RibbonButton Label="$AddGame" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/list-add.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/list-add.png" 
                                     Click="addGame_Click"  Name="addGame" />
 <!--                    <r:RibbonButton Label="$EditGame" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/edit-find-replace.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/edit-find-replace.png" 
                                      Name="editGame" IsEnabled="False" />-->
                     <r:RibbonButton Label="$DeleteGame" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/edit-delete.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/edit-delete.png" 
                                      Name="deleteGame" IsEnabled="False" Click="deleteGame_Click" />
                     <r:RibbonButton Label="$SubmitGame" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/mail-forward.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/mail-forward.png" 
                                      Name="submitGame" IsEnabled="False" Click="submitGame_Click" />
                 </r:RibbonGroup>
                 <r:RibbonGroup Header="$Backup" 
-                                    LargeImageSource="/WPF;Component/Icons/document-save.png" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/document-save.png" Name="backupGroup">
+                                    LargeImageSource="/WPF;Component/Images/document-save.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/document-save.png" Name="backupGroup">
                     <r:RibbonButton Name="BackupAllGames" Label="$BackupAllGames" 
-                                    LargeImageSource="/WPF;Component/Icons/document-save.png" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/document-save.png" 
+                                    LargeImageSource="/WPF;Component/Images/document-save.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/document-save.png" 
                                     Click="BackupAllGames_Click" />
                     <r:RibbonButton Name="BackupSelectedGames" Label="$BackupGames"  IsEnabled="False"
-                                    SmallImageSource="/WPF;Component/Icons/16px/document-save.png" Click="BackupSelectedGames_Click" />
+                                    SmallImageSource="/WPF;Component/Images/16px/document-save.png" Click="BackupSelectedGames_Click" />
                     <r:RibbonButton Name="CustomBackup" Label="$CreateCustomBackup" IsEnabled="False"
-                                    SmallImageSource="/WPF;Component/Icons/16px/document-save-as.png" Click="CustomBackup_Click" />
+                                    SmallImageSource="/WPF;Component/Images/16px/document-save-as.png" Click="CustomBackup_Click" />
 
-                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/WPF;Component/Icons/16px/folder.png">
+                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/WPF;Component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="ChangeBackupFolder" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
                         <r:RibbonMenuItem Name="OpenBackupFolder" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
                     </r:RibbonMenuButton>
                 </r:RibbonGroup>
                 <r:RibbonGroup Header="$Restore" 
-                                    LargeImageSource="/WPF;Component/Icons/document-open.png" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/document-open.png" Name="restoreGroup">
+                                    LargeImageSource="/WPF;Component/Images/document-open.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/document-open.png" Name="restoreGroup">
                     <r:RibbonButton Name="RestoreSelected" Label="$RestoreGames" IsEnabled="False"
-                                    LargeImageSource="/WPF;Component/Icons/document-open.png" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/document-open.png" 
+                                    LargeImageSource="/WPF;Component/Images/document-open.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/document-open.png" 
                                     Click="RestoreSelected_Click"/>
                     <r:RibbonButton Name="RestoreOther" Label="$RestoreOther" IsEnabled="true"
-                                    SmallImageSource="/WPF;Component/Icons/16px/document-open.png" Click="RestoreOther_Click" />
+                                    SmallImageSource="/WPF;Component/Images/16px/document-open.png" Click="RestoreOther_Click" />
                 </r:RibbonGroup>
                 <r:RibbonGroup
-                                    LargeImageSource="/WPF;Component/Icons/preferences-system.png" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/preferences-system.png" Name="gameOtherGroup">
+                                    LargeImageSource="/WPF;Component/Images/preferences-system.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/preferences-system.png" Name="gameOtherGroup">
                     <r:RibbonMenuButton  Label="$Purge" IsEnabled="False" Name="PurgeButton"
-                                     SmallImageSource="/WPF;Component/Icons/16px/edit-delete.png"
-                                     LargeImageSource="/WPF;Component/Icons/edit-delete.png">
+                                     SmallImageSource="/WPF;Component/Images/16px/edit-delete.png"
+                                     LargeImageSource="/WPF;Component/Images/edit-delete.png">
                         <r:RibbonMenuItem Header="$PurgeJustGame"/>
                         <r:RibbonMenuItem Header="$PurgeGameAndArchives" />
                     </r:RibbonMenuButton>
                     <r:RibbonButton Name="UpdateButton" Label="$CheckForUpdates" IsEnabled="False" 
-                                    LargeImageSource="/WPF;Component/Icons/system-software-update.png" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/system-software-update.png" 
+                                    LargeImageSource="/WPF;Component/Images/system-software-update.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/system-software-update.png" 
                                     Click="UpdateButton_Click" />
                     <r:RibbonButton Name="UpdateAvailableButton" Label="$UpdateAvailable" Visibility="Collapsed" 
-                                    LargeImageSource="/WPF;Component/Icons/software-update-available.png" 
-                                    SmallImageSource="/WPF;Component/Icons/16px/software-update-available.png" 
+                                    LargeImageSource="/WPF;Component/Images/software-update-available.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/software-update-available.png" 
                                     Click="UpdateAvailableButton_Click" />
                 </r:RibbonGroup>
             </r:RibbonTab>
             <r:RibbonTab x:Name="SettingsTab" Header="$Settings">
                 <r:RibbonGroup Header="$Paths">
-                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/WPF;Component/Icons/16px/folder.png">
+                    <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/WPF;Component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="ChangeBackupFolderTwo" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
                         <r:RibbonMenuItem Name="OpenBackupFolderTwo" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
                     </r:RibbonMenuButton>
-                    <r:RibbonMenuButton Visibility="Collapsed" Label="$SyncFolder"  SmallImageSource="/WPF;Component/Icons/16px/folder.png">
+                    <r:RibbonMenuButton Visibility="Collapsed" Label="$SyncFolder"  SmallImageSource="/WPF;Component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="ChangeSyncFolder" Header="$ChangeSyncFolder" Click="ChangeSyncFolder_Click" />
                         <r:RibbonMenuItem Name="OpenSyncFolder" Visibility="{Binding IsSyncPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenSyncFolder" Click="OpenSyncFolder_Click"/>
                     </r:RibbonMenuButton>
-                    <r:RibbonMenuButton Label="$AltSavePath" Name="AltSaveButton" SmallImageSource="/WPF;Component/Icons/16px/folder.png">
+                    <r:RibbonMenuButton Label="$AltSavePath" Name="AltSaveButton" SmallImageSource="/WPF;Component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="AddAltSaveFolder" Header="$AddAltSavePath" Click="AddAltSaveFolder_Click" />
                     </r:RibbonMenuButton>
                 </r:RibbonGroup>
@@ -313,7 +313,7 @@
                             <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="2" />
                             <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Grid.Column="3">
                                 <Button.Content>
-                                    <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Icons/steam.png" Height="16" />
+                                    <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Images/16px/steam.png" Height="16" />
                                 </Button.Content>
                             </Button>
 
@@ -336,7 +336,7 @@
             <ProgressBar Margin="25" Height="35" Name="progress" Grid.Row="1" IsTabStop="False" Value="0" />
             <Label Content="$Ready" Grid.Row="1" HorizontalAlignment="Center" Name="progressLabel" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
 
-            <w:SuperButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/WPF;Component/Icons/process-stop.png" Text="$Stop"  />
+            <w:SuperButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" ImageHeight="32" IsEnabled="False" ImageSource="/WPF;Component/Images/process-stop.png" Text="$Stop"  />
         </Grid>
 
         <Grid Grid.Row="0" Grid.RowSpan="2" Name="AddGameGrid" Margin="0,25,0,0" Visibility="Collapsed" Opacity="0">
@@ -361,15 +361,15 @@
             <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="$AddGameHeader" HorizontalAlignment="Center" FontSize="16" />
 
             <w:GroupBoxInput Name="AddGameTitle" Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" TextChanged="addGameButtonCheck" />
-            <w:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/WPF;Component/Icons/16px/folder.png" ButtonImageMargin="0,0,3,0" />
+            <w:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/WPF;Component/Images/16px/folder.png" ButtonImageMargin="0,0,3,0" />
             <w:GroupBoxInput Name="AddGameSaves" Header="$AddGameSaves" HasButton="False" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck"  />
             <w:GroupBoxInput Name="AddGameExclusions" Header="$AddGameExclusions" HasButton="False" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck" />
 
             <w:HelpToolTip Name="helpone" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Left" />
             <w:HelpToolTip Name="helptwo" Grid.Row="5" Grid.Column="4" HorizontalAlignment="Left" />
 
-            <w:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/WPF;Component/Icons/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
-            <w:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/WPF;Component/Icons/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
+            <w:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/WPF;Component/Images/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
+            <w:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/WPF;Component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
         </Grid>
 
     </Grid>

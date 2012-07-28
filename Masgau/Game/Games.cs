@@ -106,7 +106,6 @@ namespace MASGAU {
                 ver.Detect();
                 addGame(ver);
             }
-            custom.Add(game);
             custom.Save();
             _DetectedGames.Refresh();
             return game;

@@ -265,8 +265,9 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Resource Include="Icons\steam.png" />
+    <Resource Include="Images\16px\steam.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

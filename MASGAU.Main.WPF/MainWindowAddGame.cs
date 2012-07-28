@@ -161,6 +161,7 @@ namespace MASGAU.Main {
                 }
             }
             closeAddGame(true);
+            submitGame.IsEnabled = Games.HasUnsubmittedGames;
         }
 
 
@@ -175,6 +176,8 @@ namespace MASGAU.Main {
             foreach (GameVersion game in games) {
                 Games.deleteCustomGame(game);
             }
+
+            submitGame.IsEnabled = Games.HasUnsubmittedGames;
         }
 
         Queue<CustomGame> submitting_games = new Queue<CustomGame>();
