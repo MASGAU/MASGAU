@@ -87,7 +87,7 @@ namespace MASGAU {
         public static string temp_folder;
         static Archive() {
             zipper = new Process();
-            temp_folder = Path.Combine(Environment.GetEnvironmentVariable("TEMP"), "MASGAU");
+            temp_folder = Path.Combine(Environment.GetEnvironmentVariable("TEMP"), "masgau");
 
             string path = Path.Combine(Core.app_path, "7z.exe");
             if (File.Exists(path)) {

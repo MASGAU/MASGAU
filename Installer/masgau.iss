@@ -128,7 +128,7 @@ Source: ..\Translations\Strings\fr.xml; DestDir: {app}\Strings; Components: Lang
 Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}Archive; Flags:  UninsDeleteKey ; 
 Root: HKCR; SubKey: {#MyAppName}Archive; ValueType: string; ValueData: "{#MyAppName} Save Archive"; Flags: UninsDeleteKey  ; 
 Root: HKCR; SubKey: {#MyAppName}Archive\DefaultIcon; ValueType: string; ValueData: {app}\masgau.ico,0; Flags:  UninsDeleteKey ; 
-Root: HKCR; SubKey: {#MyAppName}Archive\shell\open\command; ValueType: string; ValueData: "{app}\MASGAU.Restore.WPF.exe"" ""%1"; Flags:  UninsDeleteKey ; 
+Root: HKCR; SubKey: {#MyAppName}Archive\shell\open\command; ValueType: string; ValueData: "{app}\MASGAU.Restore.exe"" ""%1"; Flags:  UninsDeleteKey ; 
 // Installation folder key
 Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueName: InstallPath; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteValue; 
 Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteKey  ; 
@@ -138,8 +138,8 @@ Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueName: Version
 WinVersionTooLowError={#MyAppName} requires %1 version %2 or later.
 
 [Icons]
-Name: {group}\{cm:singleUser,{#MyAppName}}; Filename: {app}\MASGAU.Main.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Core; 
-Name: {group}\{cm:allUser,{#MyAppName}}; Filename: {app}\MASGAU.Main.WPF.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Parameters: -allusers; Components: MASGAU\Core; 
+Name: {group}\{cm:singleUser,{#MyAppName}}; Filename: {app}\MASGAU.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Core; 
+Name: {group}\{cm:allUser,{#MyAppName}}; Filename: {app}\MASGAU.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Parameters: -allusers; Components: MASGAU\Core; 
 Name: {group}\{cm:uninstall,{#MyAppName}}; Filename: {uninstallexe}; Components: MASGAU\Core; 
 Name: {group}\GPL v2; Filename: {app}\gpl-2.0.txt; Components: MASGAU\Core; 
 Name: {group}\{cm:changelog}; Filename: {app}\changelog.txt; Components: MASGAU\Core; 

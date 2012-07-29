@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Logger;
 namespace Main.WPF {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -8,5 +8,6 @@ namespace Main.WPF {
         public App() {
             Console.WriteLine("woah");
         }
+
     }
 }

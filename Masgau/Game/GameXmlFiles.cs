@@ -11,7 +11,7 @@ namespace MASGAU {
 
         public List<UpdateHandler> xml_file_versions;
 
-        public DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "MASGAU"));
+        public DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
         protected DirectoryInfo source = new DirectoryInfo(Path.Combine(Core.app_path, "data"));
         FileInfo common_schema;
         FileInfo master_schema;

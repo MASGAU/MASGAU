@@ -14,7 +14,7 @@ namespace MASGAU.Settings {
         // It acts as a worker layer between the program and the config file
 
         public Settings(ConfigMode mode)
-            : base(new XmlSettingsFile("masgau", mode)) {
+            : base(new XmlSettingsFile("MASGAU", mode)) {
         }
 
         protected override SettingsCollection createSettings(SettingsCollection settings) {
