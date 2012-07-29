@@ -11,6 +11,7 @@ namespace MASGAU.Location {
 
         AllUsersProfile,
         Public,
+        CommonApplicationData,
 
         //The point of the ordering is so that certain relative roots can take precedence
         // For instance, user profile is the most general

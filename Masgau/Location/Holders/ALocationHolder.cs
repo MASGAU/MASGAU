@@ -134,6 +134,10 @@ namespace MASGAU.Location.Holders {
                     return EnvironmentVariable.Desktop;
                 case "ubisoftsavestorage":
                     return EnvironmentVariable.UbisoftSaveStorage;
+                case "virtualstore":
+                    return EnvironmentVariable.VirtualStore;
+                case "commonapplicationdata":
+                    return EnvironmentVariable.CommonApplicationData;
             }
             throw new NotImplementedException("Unrecognized environment variable: " + parse_me);
         }

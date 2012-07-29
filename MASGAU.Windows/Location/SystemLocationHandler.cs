@@ -109,8 +109,11 @@ namespace MASGAU.Location {
 
             //host_name = Environment.GetEnvironmentVariable("COMPUTERNAME");
             global.setEvFolder(EnvironmentVariable.AllUsersProfile, Environment.GetEnvironmentVariable("ALLUSERSPROFILE"));
+
             if (platform_version == "WindowsVista")
                 global.setEvFolder(EnvironmentVariable.Public, Environment.GetEnvironmentVariable("PUBLIC"));
+            
+            global.setEvFolder(EnvironmentVariable.CommonApplicationData, Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData));
 
             if (!xp) {
                 RegistryHandler uac_status = new RegistryHandler("local_machine", @"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System", false);
