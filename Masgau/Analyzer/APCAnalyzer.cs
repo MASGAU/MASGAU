@@ -1,7 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.ComponentModel;
 using MVC.Communication;
 using MVC.Translator;
+using MASGAU.Location;
 using MASGAU.Location.Holders;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {
@@ -15,6 +17,16 @@ namespace MASGAU.Analyzer {
 
             this.path = game.Versions[0].DetectedLocations.getMostAccurateLocation();
 
+
+
+            if (path.rel_root == Location.EnvironmentVariable.VirtualStore) {
+                string drive = Path.GetPathRoot(path.full_dir_path);
+                string new_path = Path.Combine(drive, path.Path);
+                this.path = Core.locations.interpretPath(new_path).getMostAccurateLocation();
+            }
+
+            string[] folders = this.path.Path.Split(System.IO.Path.DirectorySeparatorChar);
+            path.Path = folders[0];
 
 
             outputLine("Operating System: ");

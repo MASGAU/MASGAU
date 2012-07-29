@@ -14,9 +14,24 @@ namespace MASGAU {
         public CustomGameVersion(Game parent, DirectoryInfo location, string saves, string ignores): base(parent) {
             this.id = new GameID(parent.Name,"Custom");
 
-            DetectedLocations loc = Core.locations.interpretPath(location.FullName);
+            DetectedLocations locs = Core.locations.interpretPath(location.FullName);
+            DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
 
-            this.Locations.Paths.Add(loc.getMostAccurateLocation());
+            if (loc.rel_root == Location.EnvironmentVariable.VirtualStore) {
+                string drive = Path.GetPathRoot(loc.full_dir_path);
+                string new_path = Path.Combine(drive, loc.Path);
+                loc = Core.locations.interpretPath(new_path).getMostAccurateLocation();
+            }
+
+            switch (loc.rel_root) {
+                case EnvironmentVariable.ProgramFiles:
+                case EnvironmentVariable.ProgramFilesX86:
+                case EnvironmentVariable.Drive:
+                    loc.rel_root = EnvironmentVariable.InstallLocation;
+                    break;
+            }
+
+            this.Locations.Paths.Add(loc);
 
             FileTypeHolder type = new FileTypeHolder("Custom");
             SaveHolder save = new SaveHolder(saves, null, "Custom");
