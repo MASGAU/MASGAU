@@ -4,7 +4,7 @@
         xmlns:w="clr-namespace:SMJ.WPF;assembly=WPF"
         xmlns:e="clr-namespace:Email.WPF;assembly=Email.WPF"
         xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
-        Title="Here's The Report (Feel Free To Edit It)" ResizeMode="CanResize" WindowStartupLocation="CenterOwner" SizeToContent="Manual" Width="550" Height="400">
+        Title="Here's The Report (Feel Free To Edit It)" ResizeMode="CanResize" WindowStartupLocation="CenterOwner" SizeToContent="Manual" Width="700   " Height="500   ">
 
     <Grid>
         <Grid.RowDefinitions>
