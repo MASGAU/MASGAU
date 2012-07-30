@@ -8,7 +8,7 @@ namespace XmlData {
     public abstract class AXmlDataFileCollection<F,E> : List<F> where  F : AXmlDataFile<E> where E: AXmlDataEntry {
         private DirectoryInfo path;
         private List<FileInfo> files;
-        private string file_pattern;
+        //private string file_pattern;
 
         protected AXmlDataFileCollection(string path, string file_pattern) {
 

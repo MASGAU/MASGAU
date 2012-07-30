@@ -84,7 +84,6 @@
     <Compile Include="Location\Holders\FileTypeHolder.cs" />
     <Compile Include="Location\Holders\ScummVMHolder.cs" />
     <Compile Include="Monitor\Monitor.cs" />
-    <Compile Include="Monitor\MonitorDir.cs" />
     <Compile Include="Monitor\MonitorFile.cs" />
     <Compile Include="Monitor\MonitorPath.cs">
       <SubType>Component</SubType>

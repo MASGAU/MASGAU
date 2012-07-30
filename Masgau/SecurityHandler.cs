@@ -60,7 +60,7 @@ public class SecurityHandler {
             if (p.ExitCode != 0) {
                 return false;
             }
-        } catch (Exception e) {
+        } catch (Exception) {
             return false;
         }
         return true;

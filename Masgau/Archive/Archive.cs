@@ -612,7 +612,7 @@ namespace MASGAU {
                 FileStream close_me = file.Open(FileMode.Open, FileAccess.Read);
                 close_me.Close();
                 return true;
-            } catch (Exception e) {
+            } catch (Exception) {
                 return false;
             }
         }
@@ -621,7 +621,7 @@ namespace MASGAU {
                 try {
                     //createPath(path); WTF was I thinking? This shall remain here out of shame.
                     path.Create();
-                } catch (Exception e) {
+                } catch (Exception) {
                     return false;
                 }
             }
@@ -634,14 +634,14 @@ namespace MASGAU {
                 try {
                     FileStream delete_me = test_file.Create();
                     delete_me.Close();
-                } catch (Exception e) {
+                } catch (Exception) {
                     return false;
                 }
                 for (int i = 0; i <= 5; i++) {
                     try {
                         test_file.Delete();
                         return true;
-                    } catch (Exception e) {
+                    } catch (Exception) {
                         Thread.Sleep(5000);
                     }
                 }
@@ -659,7 +659,7 @@ namespace MASGAU {
                     file.Delete();
                 }
                 return true;
-            } catch (Exception e) {
+            } catch (Exception) {
                 return false;
             }
         }

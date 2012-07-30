@@ -49,7 +49,7 @@ namespace MASGAU
 //        public static Interface interface_library = Interface.WPF;
 
         // This stores what OS we're on
-        private static OperatingSystem os = OperatingSystem.Windows;
+        //private static OperatingSystem os = OperatingSystem.Windows;
 
         // Shared super-objects
         public static ALocationsHandler locations;

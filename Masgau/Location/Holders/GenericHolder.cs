@@ -40,7 +40,7 @@ namespace MASGAU.Location.Holders {
             }
         }
 
-        public XmlElement createXml(Game parent) {
+        public virtual XmlElement createXml(Game parent) {
             if (this.xml != null)
                 return this.xml;
 
@@ -193,7 +193,7 @@ namespace MASGAU.Location.Holders {
         public override List<DetectedFile> FindMatching(DetectedLocationPathHolder location) {
             return base.FindMatching(location);
         }
-        public XmlElement createXml(Game parent) {
+        public override  XmlElement createXml(Game parent) {
             if (this.xml != null)
                 return this.xml;
 

@@ -307,7 +307,7 @@ namespace MASGAU.Location {
                 }
                 this.Add(add_me);
                 user_key.close();
-            } catch (Exception e) {
+            } catch (Exception) {
                 return;
             }
         }

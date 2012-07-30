@@ -106,7 +106,7 @@ namespace MASGAU {
         }
 
 
-        public string ToolTip {
+        public new string ToolTip {
             get {
                 StringBuilder tooltip = new StringBuilder();
                 if (Comment != null) {

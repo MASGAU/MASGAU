@@ -39,7 +39,7 @@ namespace MASGAU.Location {
 
         }
 
-        public IEnumerator<DetectedLocationPathHolder> GetEnumerator() {
+        public new IEnumerator<DetectedLocationPathHolder> GetEnumerator() {
             return this.Values.GetEnumerator();
         }
     }

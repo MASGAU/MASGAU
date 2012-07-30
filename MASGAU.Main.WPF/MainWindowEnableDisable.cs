@@ -35,7 +35,7 @@ namespace MASGAU.Main {
             cancellables.Remove(worker); 	        
         }
 
-        public void enableInterface() {
+        public override void enableInterface() {
             setInterfaceEnabledness(true);
             ProgressHandler.restoreMessage();
             statusBarLabel.Content = ProgressHandler.message;

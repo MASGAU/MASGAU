@@ -149,8 +149,8 @@ namespace MASGAU.Analyzer {
                         outputLine(e.Message);
                     }
                 }
-            } catch (FileNotFoundException e) {
-            } catch (UnauthorizedAccessException e) {
+            } catch (FileNotFoundException) {
+            } catch (UnauthorizedAccessException) {
             } catch (Exception e) {
                 outputLine(e.Message);
             }
