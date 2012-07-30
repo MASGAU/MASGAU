@@ -5,7 +5,7 @@
         xmlns:rPre="clr-namespace:Microsoft.Windows.Controls.Ribbon.Primitives;assembly=RibbonControlsLibrary"
         xmlns:w="clr-namespace:SMJ.WPF;assembly=WPF"
         xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
-        Title="$MainWindow" 
+        Title="MASGAU" 
         x:Name="Window"
         Width="{Binding WindowW, Mode=TwoWay}" Height="{Binding WindowH, Mode=TwoWay}" Left="{Binding WindowX, Mode=TwoWay}" Top="{Binding WindowY, Mode=TwoWay}" WindowStyle="None"  MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="750" MinHeight="400">
     <Window.Resources>
@@ -113,7 +113,7 @@
                                     LargeImageSource="/WPF;Component/Images/system-software-update.png" 
                                     SmallImageSource="/WPF;Component/Images/16px/system-software-update.png" 
                                     Click="UpdateButton_Click" />
-                    <r:RibbonButton Name="UpdateAvailableButton" Label="$UpdateAvailable" Visibility="Collapsed" 
+                    <r:RibbonButton Name="UpdateAvailableButton" Visibility="Collapsed" 
                                     LargeImageSource="/WPF;Component/Images/software-update-available.png" 
                                     SmallImageSource="/WPF;Component/Images/16px/software-update-available.png" 
                                     Click="UpdateAvailableButton_Click" />
@@ -124,10 +124,6 @@
                     <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/WPF;Component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="ChangeBackupFolderTwo" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
                         <r:RibbonMenuItem Name="OpenBackupFolderTwo" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
-                    </r:RibbonMenuButton>
-                    <r:RibbonMenuButton Visibility="Collapsed" Label="$SyncFolder"  SmallImageSource="/WPF;Component/Images/16px/folder.png">
-                        <r:RibbonMenuItem Name="ChangeSyncFolder" Header="$ChangeSyncFolder" Click="ChangeSyncFolder_Click" />
-                        <r:RibbonMenuItem Name="OpenSyncFolder" Visibility="{Binding IsSyncPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenSyncFolder" Click="OpenSyncFolder_Click"/>
                     </r:RibbonMenuButton>
                     <r:RibbonMenuButton Label="$AltSavePath" Name="AltSaveButton" SmallImageSource="/WPF;Component/Images/16px/folder.png">
                         <r:RibbonMenuItem Name="AddAltSaveFolder" Header="$AddAltSavePath" Click="AddAltSaveFolder_Click" />
@@ -253,7 +249,6 @@
                     </Grid.RowDefinitions>
                     <Label Margin="0,3,0,0" Grid.Row="0" Grid.Column="0" Padding="5,0,5,5" HorizontalAlignment="Center">
                         <TextBlock TextWrapping="Wrap" Name="ArchiveCount" TextAlignment="Center">
-                        $GameCount
                         </TextBlock>
                     </Label>
 

@@ -30,7 +30,10 @@ namespace MASGAU.Location {
                                                 EnvironmentVariable.SteamUserData };
 
         protected ALocationsHandler() {
+            Console.Out.Write("");
         }
+
+
         private bool already_setup = false;
         public void setup() {
             handlers = new Dictionary<HandlerType, ALocationHandler>();

@@ -23,6 +23,10 @@ namespace MASGAU {
                 }
             } else {
             }
+            Uri uri = new Uri("PresentationFramework.Aero;V3.0.0.0;31bf3856ad364e35;component\\themes/aero.normalcolor.xaml", UriKind.Relative);
+
+            Resources.MergedDictionaries.Add(Application.LoadComponent(uri) as ResourceDictionary);
+
             Environment.CurrentDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
         }
 

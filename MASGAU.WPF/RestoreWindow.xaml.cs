@@ -30,9 +30,9 @@ namespace MASGAU.Restore {
             : base(new RestoreProgramHandler(archive, new Location.LocationsHandler()), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
-
             default_progress_color = restoreProgress.Foreground;
             this.archive = archive;
+            this.Icon = owner.Icon;
         }
 
         public RestoreWindow(ACommunicationWindow owner)
@@ -40,6 +40,7 @@ namespace MASGAU.Restore {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
             default_progress_color = restoreProgress.Foreground;
+            this.Icon = owner.Icon;
         }
 
         protected override void WindowLoaded(object sender, RoutedEventArgs e) {

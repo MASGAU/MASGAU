@@ -23,7 +23,9 @@ namespace MASGAU {
             if (Core.portable_mode)
                 _program_title = Strings.GetLabelString("PortableMode", _program_title);
 
-            Core.locations = locations;
+            if (Core.locations == null) {
+                Core.locations = locations;
+            }
 
             worker.DoWork += new DoWorkEventHandler(doWork);
             worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(workCompleted);

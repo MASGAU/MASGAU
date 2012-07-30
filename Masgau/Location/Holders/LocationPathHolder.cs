@@ -50,7 +50,10 @@ namespace MASGAU.Location.Holders {
 
 
         public override string ToString() {
-            return System.IO.Path.Combine(rel_root.ToString(), Path);
+            if (Path == null)
+                return rel_root.ToString();
+            else
+                return System.IO.Path.Combine(rel_root.ToString(), Path);
         }
 
         public XmlElement createXml(Game parent) {

@@ -21,7 +21,11 @@ namespace MASGAU.Main {
         public MainWindow()
             : base(new MainProgramHandler(new Location.LocationsHandler())) {
             main = (MainProgramHandler)program_handler;
-            InitializeComponent();
+            try {
+                InitializeComponent();
+            } catch (Exception e) {
+                Logger.log(e);
+            }
             TranslationHelpers.translateWindow(this);
             //restoreTree.PreviewMouseDoubleClick += (sender, e) => e.Handled = true; 
             default_progress_color = progressBar.Foreground;
