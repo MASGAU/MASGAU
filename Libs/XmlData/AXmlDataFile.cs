@@ -10,8 +10,6 @@ namespace XmlData {
 
         public XmlElement RootNode;
         protected AXmlDataFile(FileInfo file, string root_element_name, bool create): base(file, create) {
-
-
             RootNode = LoadRootNode(root_element_name);
 
             entries.Clear();
@@ -41,8 +39,11 @@ namespace XmlData {
                 }
             }
 
-            return (XmlElement)this.AppendChild(this.CreateElement(name));
+            return (XmlElement)this.AppendChild(this.CreatRootNode(name));
 //            throw new XmlException("Missing root: " + name);
+        }
+        protected virtual XmlElement CreatRootNode(string name) {
+            return this.CreateElement(name);
         }
 
         protected abstract T CreateDataEntry(XmlElement element);

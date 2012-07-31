@@ -113,7 +113,7 @@
                                     LargeImageSource="/WPF;Component/Images/system-software-update.png" 
                                     SmallImageSource="/WPF;Component/Images/16px/system-software-update.png" 
                                     Click="UpdateButton_Click" />
-                    <r:RibbonButton Name="UpdateAvailableButton" Visibility="Collapsed" 
+                    <r:RibbonButton Label="Waiting For Updates" Name="UpdateAvailableButton" Visibility="Collapsed" 
                                     LargeImageSource="/WPF;Component/Images/software-update-available.png" 
                                     SmallImageSource="/WPF;Component/Images/16px/software-update-available.png" 
                                     Click="UpdateAvailableButton_Click" />

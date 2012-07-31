@@ -9,10 +9,9 @@ using XmlData;
 namespace MASGAU {
     public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,Game> {
 
-        public List<UpdateHandler> xml_file_versions;
-
         public DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
         protected DirectoryInfo source = new DirectoryInfo(Path.Combine(Core.app_path, "data"));
+
         FileInfo common_schema;
         FileInfo master_schema;
 
@@ -31,8 +30,6 @@ namespace MASGAU {
 
             List<FileInfo> files = prepareDataFiles();
 
-            xml_file_versions = new List<UpdateHandler>();
-
             try {
                 this.LoadXml(files);
             } catch (DirectoryNotFoundException e) {
@@ -40,6 +37,13 @@ namespace MASGAU {
             } catch (FileNotFoundException e) {
                 throw new TranslateableException("NoXmlFilesInDataFolder",e);
             }
+        }
+        public GameXmlFile getFile(string name) {
+            foreach(GameXmlFile file in this) {
+                if (file.File.Name == name)
+                    return file;
+            }
+            return null;
         }
 
         protected virtual List<FileInfo> prepareDataFiles() {
@@ -58,8 +62,6 @@ namespace MASGAU {
         protected override GameXmlFile ReadFile(FileInfo path) {
             try {
                 GameXmlFile file = new GameXmlFile(path);
-                UpdateHandler new_update = new UpdateHandler(file.RootNode, Path.Combine("data",path.Name), path.FullName);
-                xml_file_versions.Add(new_update);
                 return file;
             } catch (XmlException ex) {
                 TranslatingMessageHandler.SendError("XMLFormatError", ex, path.FullName);

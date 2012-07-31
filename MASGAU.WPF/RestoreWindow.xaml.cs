@@ -4,6 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Collections.Generic;
 using MVC.Communication;
+using System.IO;
 using MVC.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
@@ -278,6 +279,11 @@ namespace MASGAU.Restore {
 
 
         private void otherUserButton_Click(object sender, RoutedEventArgs e) {
+            if (!File.Exists(Core.programs.restore)) {
+                this.showTranslatedError("FileNotFoundCritical", Core.programs.restore);
+                return;
+            }
+
             this.Visibility = System.Windows.Visibility.Collapsed;
             if (SecurityHandler.elevation(Core.programs.restore, "-allusers \"" + restore.archive.FileName + "\""))
                 this.Close();

@@ -25,15 +25,7 @@ namespace MASGAU.Main {
             if (!initialized)
                 return;
 
-            //if (Core.settings.auto_update && !Core.settings.already_updated) {
-            //    TranslatingProgressHandler.setTranslatedMessage("CheckingForUpdates");
-            //    Core.updater.checkUpdates(false, true);
-            //}
             Games.loadXml();
-            if (Core.updater.shutdown_required) {
-                //this.Close();
-                return;
-            }
 
             if (!Core.initialized) {
                 //this.Close();

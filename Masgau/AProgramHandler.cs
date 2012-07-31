@@ -50,7 +50,7 @@ namespace MASGAU {
 
                 monitor = new Monitor.Monitor();
 
-                updater = new Update.UpdatesHandler();
+                updater = new Update.Updater();
 
                 TranslatingProgressHandler.setTranslatedMessage("ValidatingBackupPath");
                 if (settings.IsBackupPathSet && (!PermissionsHelper.isReadable(settings.backup_path) || !PermissionsHelper.isWritable(settings.backup_path)))

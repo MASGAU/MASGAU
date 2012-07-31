@@ -145,10 +145,14 @@
     <None Include="Task\TaskHandler.cs" />
     <Compile Include="Sync\SyncHandler.cs" />
     <None Include="Sync\Synchronizer.cs" />
+    <Compile Include="Update\DataUpdate.cs" />
+    <Compile Include="Update\DataUpdates.cs" />
+    <Compile Include="Update\ProgramUpdate.cs" />
+    <Compile Include="Update\ProgramUpdates.cs" />
     <Compile Include="Update\UpdateAvailability.cs" />
-    <Compile Include="Update\UpdateHandler.cs" />
-    <Compile Include="Update\UpdatesHandler.cs" />
-    <Compile Include="Update\UpdateVersion.cs" />
+    <Compile Include="Update\AUpdate.cs" />
+    <Compile Include="Update\Updater.cs" />
+    <Compile Include="Update\AUpdates.cs" />
     <Compile Include="IModelItem.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +164,10 @@
   <ItemGroup>
     <Content Include="masgau.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="updates.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
