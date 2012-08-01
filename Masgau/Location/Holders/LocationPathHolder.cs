@@ -27,6 +27,8 @@ namespace MASGAU.Location.Holders {
                     case "path":
                         this.Path = attrib.Value;
                         break;
+                    case "gsm_id":
+                        break;
                     default:
                         throw new NotSupportedException(attrib.Name);
                 }

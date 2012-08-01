@@ -22,6 +22,10 @@ namespace XmlData {
         }
         public FileInfo File { get; private set; }
 
+        protected XmlFile(string xml) {
+            this.LoadXml(xml);
+        }
+
         public XmlFile(FileInfo file, bool create) {
             this.File = file;
             file.Refresh();

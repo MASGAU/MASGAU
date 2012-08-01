@@ -27,6 +27,7 @@ namespace MASGAU.Location.Holders {
                     case "only_for":
                     case "detract":
                     case "append":
+                    case "gsm_id":
                         break;
                     default:
                         throw new NotSupportedException(attrib.Name);

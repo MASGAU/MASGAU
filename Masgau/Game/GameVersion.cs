@@ -276,6 +276,8 @@ namespace MASGAU {
                     case "deprecated":
                         IsDeprecated = Boolean.Parse(attrib.Value);
                         break;
+                    case "gsm_id":
+                        break;
                     default:
                         throw new NotSupportedException(attrib.Name);
                 }

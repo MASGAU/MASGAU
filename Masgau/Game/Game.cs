@@ -16,6 +16,15 @@ namespace MASGAU {
 
         protected Game(XmlDocument doc): base(doc) { }
 
+
+        public Game(string name, string title, string comment, bool deprecated, GameType type, XmlDocument doc): this(doc) {
+            this.Name = name;
+            this.Title = title;
+            this.Comment = comment;
+            this.IsDeprecated = deprecated;
+            this.Type = type;
+        }
+
         public Game(XmlElement element)
             : base(element) {
         }
