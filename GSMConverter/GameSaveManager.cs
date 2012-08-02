@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using MASGAU;
+using MASGAU.Location.Holders;
 namespace GSMConverter {
     class GameSaveManager: AConverter {
 
@@ -27,7 +28,7 @@ namespace GSMConverter {
                 }
             }
             string title = null, backupwarning, restorewarning;
-            XmlElement dirs;
+            XmlElement dirs = null;
             XmlElement registry;
             foreach (XmlElement ele in entry.ChildNodes) {
                 switch (ele.Name) {
@@ -58,6 +59,53 @@ namespace GSMConverter {
                 output.Add(game);
             }
 
+            loadDirectories(dirs,game);
+        }
+        private void loadDirectories(XmlElement dirs, Game game) {
+            foreach (XmlElement dir in dirs.ChildNodes) {
+                switch (dir.Name) {
+                    case "dir":
+                        loadDirectory(dir, game);
+                        break;
+                    default:
+                        throw new NotSupportedException(dir.Name);
+                }
+            }
+        }
+        private struct reg {
+            MASGAU.Registry.RegRoot hive;
+            string path;
+            string value;
+        }
+
+        private void loadDirectory(XmlElement dir, Game game) {
+            XmlElement path = null;
+            string include = null, exclude = null;
+            foreach (XmlElement ele in dir.ChildNodes) {
+                switch (ele.Name) {
+                    case "path":
+                        path = ele;
+                        break;
+                    case "include":
+                        include = ele.InnerText;
+                        break;
+                    case "exclude":
+                        exclude = ele.InnerText;
+                        break;
+                    default:
+                        throw new NotSupportedException(dir.Name);
+                }
+            }
+            string specialpath = path.Attributes["specialpath"].Value;
+
+            ALocation loc = null;
+            switch (specialpath) {
+                case "%APPDATA%":
+                    loc = new LocationPathHolder(
+                    break;
+                default:
+                    throw new NotSupportedException(specialpath);
+            }
 
 
         }

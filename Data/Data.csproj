@@ -55,7 +55,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="data\new.xml" />
+    <Content Include="data\new.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="data\system.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
