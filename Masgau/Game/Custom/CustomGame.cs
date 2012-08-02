@@ -5,22 +5,19 @@ using System.Text;
 using System.Xml;
 using System.IO;
 using System.Text.RegularExpressions;
-
+using GameSaveInfo;
 namespace MASGAU {
-    public class CustomGame: Game {
+    public class CustomGame: GameSaveInfo.Game {
         private bool _submitted = false;
         public bool Submitted {
             get {
                 return _submitted;
             }
             set {
-                if (this.xml == null)
-                    this.xml = exportXml();
-
-                if (this.xml.HasAttribute("submitted"))
-                    this.xml.Attributes["submitted"].Value = value.ToString();
+                if (this.XML.HasAttribute("submitted"))
+                    this.XML.Attributes["submitted"].Value = value.ToString();
                 else
-                    this.addAtribute(xml, "submitted", value.ToString());
+                    this.addAtribute(this.XML, "submitted", value.ToString());
                 _submitted = value;
             }
         }
@@ -48,17 +45,17 @@ namespace MASGAU {
             base.LoadData(element);
         }
 
-        protected override GameVersion createVersion(Game parent, XmlElement element) {
+        protected override GameVersion createVersion(GameSaveInfo.Game parent, XmlElement element) {
             return new CustomGameVersion(parent, element);
         }
 
-        public override XmlElement exportXml() {
-            this.xml = base.exportXml();
-            if (this.xml.HasAttribute("submitted"))
-                this.xml.Attributes["submitted"].Value = _submitted.ToString();
+        protected override XmlElement WriteData(XmlElement element) {
+            element = base.WriteData(element);
+            if (element.HasAttribute("submitted"))
+                element.Attributes["submitted"].Value = _submitted.ToString();
             else
-                this.addAtribute(xml, "submitted", _submitted.ToString());
-            return this.xml;
+                this.addAtribute(element, "submitted", _submitted.ToString());
+            return element;
         }
     }
 }

@@ -56,7 +56,7 @@ namespace MASGAU.Monitor {
         public int MonitoredCount {
             get {
                 int count = 0;
-                foreach(GameVersion game in Games.DetectedGames) {
+                foreach(GameEntry game in Games.DetectedGames) {
                     if (game.IsMonitored)
                         count++;
                 }
@@ -139,14 +139,14 @@ namespace MASGAU.Monitor {
                                 continue;
                             QuickHash hash = this_file.RootHash;
 
-                            Archive archive = Archives.GetArchive(game, this_file.owner, this_file.type, hash);
+                            Archive archive = Archives.GetArchive(game, this_file.owner, this_file.Type, hash);
 
                             try {
                                 if (archive == null) {
                                     if (this_file.owner == null)
-                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, null, this_file.type, hash));
+                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, null, this_file.Type, hash));
                                     else
-                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file.owner, this_file.type, hash));
+                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file.owner, this_file.Type, hash));
                                     Archives.Add(archive);
                                 }
                                 //monitorNotifier.ShowBalloonTip(10, "Safety Will Robinson", "Trying to archive " + file.path, ToolTipIcon.Info);

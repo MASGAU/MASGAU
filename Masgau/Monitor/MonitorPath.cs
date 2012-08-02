@@ -12,8 +12,8 @@ namespace MASGAU.Monitor
     public class MonitorPath: FileSystemWatcher
     {
         public new DetectedLocationPathHolder Path { get; protected set; }
-        public GameVersion Game{ get; protected set; }
-        public MonitorPath(GameVersion game, DetectedLocationPathHolder path): base(path.full_dir_path,"*") {
+        public GameEntry Game{ get; protected set; }
+        public MonitorPath(GameEntry game, DetectedLocationPathHolder path): base(path.full_dir_path,"*") {
             this.Path = path;
             this.Game = game;
 

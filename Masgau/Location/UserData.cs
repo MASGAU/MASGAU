@@ -2,6 +2,7 @@
 using System.IO;
 using System.Collections.Generic;
 using MVC;
+using GameSaveInfo;
 namespace MASGAU.Location {
     public class UserData : AModelItem<StringID> {
         public string name {

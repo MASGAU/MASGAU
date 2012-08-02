@@ -96,6 +96,10 @@
       <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
       <Name>Email</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Libs\GameSave.Info\GameSave.Info.csproj">
+      <Project>{937CDE2B-963A-4624-A460-C95676260D35}</Project>
+      <Name>GameSave.Info</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Masgau\MASGAU.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU</Name>

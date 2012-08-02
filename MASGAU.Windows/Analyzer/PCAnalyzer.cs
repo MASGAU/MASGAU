@@ -7,9 +7,10 @@ using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MASGAU.Registry;
 using Microsoft.Win32;
+using GameSaveInfo;
 namespace MASGAU.Analyzer {
     public class PCAnalyzer : APCAnalyzer {
-        public PCAnalyzer(CustomGame game, RunWorkerCompletedEventHandler when_done)
+        public PCAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
             : base(game, when_done) { }
 
 
@@ -24,7 +25,7 @@ namespace MASGAU.Analyzer {
                 string virtual_path;
 
                 foreach (string user in Core.locations.getUsers(EnvironmentVariable.LocalAppData)) {
-                    LocationPathHolder parse_me = new LocationPathHolder();
+                    LocationPath parse_me = new LocationPath();
                     parse_me.Path = "VirtualStore";
                     parse_me.rel_root = EnvironmentVariable.LocalAppData;
                     virtual_path = Path.Combine(Core.locations.getAbsoluteRoot(parse_me, user), "VirtualStore");

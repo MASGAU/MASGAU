@@ -1,15 +1,21 @@
 ﻿using System.Xml;
-using MVC;
 using System;
-namespace MASGAU.Location.Holders {
-    public class LocationShortcutHolder : ALocationHolder {
+namespace GameSaveInfo {
+    public class LocationShortcut : ALocation {
 
         // Used when dealing with a shortcut
         public EnvironmentVariable ev;
         public string path;
 
-        public LocationShortcutHolder(XmlElement element)
+        public override string ElementName {
+            get { return "shortcut"; }
+        }
+
+        public LocationShortcut(XmlElement element)
             : base(element) {
+        }
+
+        protected override void LoadMoreData(XmlElement element) {
             foreach (XmlAttribute attrib in element.Attributes) {
                 if (attributes.Contains(attrib.Name))
                     continue;
@@ -27,8 +33,14 @@ namespace MASGAU.Location.Holders {
             }
         }
 
-        public override int CompareTo(AModelItem<StringID> comparable) {
-            LocationShortcutHolder location = (LocationShortcutHolder)comparable;
+        protected override XmlElement WriteMoreData(XmlElement element) {
+            addAtribute(element, "ev", ev.ToString().ToLower());
+            addAtribute(element, "path", path);
+            return element;
+        }
+
+        public override int CompareTo(ALocation comparable) {
+            LocationShortcut location = (LocationShortcut)comparable;
             int result = ev.CompareTo(location.ev);
             if (result == 0)
                 result = path.CompareTo(location.path);

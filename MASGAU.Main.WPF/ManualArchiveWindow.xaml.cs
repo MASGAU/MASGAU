@@ -16,12 +16,12 @@ namespace MASGAU.Main {
     /// 
 
     public partial class ManualArchiveWindow : AWindow {
-        private GameVersion game;
+        private GameEntry game;
 
 
         private FileTreeViewItem file_tree;
 
-        public ManualArchiveWindow(GameVersion new_game, IWindow owner)
+        public ManualArchiveWindow(GameEntry new_game, IWindow owner)
             : base(owner) {
             InitializeComponent();
             TranslationHelpers.translateWindow(this);
@@ -81,7 +81,7 @@ namespace MASGAU.Main {
             foreach (DetectedFile save in saves) {
                 // This tests if the save is from the currently selected root folder
                 if (save.AbsoluteRoot == game.DetectedLocations[rootCombo.SelectedItem.ToString()].full_dir_path) {
-                    string path = Path.Combine(save.Path, save.name);
+                    string path = Path.Combine(save.Path, save.Name);
                     file_tree.addFile(new List<string>(path.Split(Path.DirectorySeparatorChar)), save);
                     // Splits the path into folders
                 }

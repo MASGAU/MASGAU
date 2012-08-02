@@ -17,7 +17,7 @@ namespace MASGAU {
         #region Archive identification stuff
         public string Title {
             get {
-                GameVersion game = Games.Get(this.id.Game);
+                GameEntry game = Games.Get(this.id.Game);
                 if (game == null) {
                     return id.Game.Formatted;
                 } else {
@@ -216,15 +216,15 @@ namespace MASGAU {
             foreach (DetectedFile file in files) {
                 // Copies the particular file to a relative path inside the temp folder
                 string from_here, in_here, to_here;
-                if (file.Path == "") {
+                if (file.Path == ""||file.Path==null) {
                     from_here = file.AbsoluteRoot;
-                    in_here = file.name;
+                    in_here = file.Name;
                 } else {
                     from_here = Path.Combine(file.AbsoluteRoot, file.Path);
-                    in_here = Path.Combine(file.Path, file.name);
+                    in_here = Path.Combine(file.Path, file.Name);
                 }
 
-                from_here = Path.Combine(from_here, file.name);
+                from_here = Path.Combine(from_here, file.Name);
                 to_here = Path.Combine(temp_folder, in_here);
 
                 DateTime file_write_time = File.GetLastWriteTime(from_here);

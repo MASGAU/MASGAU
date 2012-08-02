@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using XmlData;
+using GameSaveInfo;
 namespace MASGAU {
     public class CustomGameXmlFile: GameXmlFile {
         public CustomGameXmlFile(FileInfo file)
@@ -13,7 +14,7 @@ namespace MASGAU {
 
         }
 
-        protected override Game CreateDataEntry(System.Xml.XmlElement element) {
+        protected override GameSaveInfo.Game CreateDataEntry(System.Xml.XmlElement element) {
             return new CustomGame(element);
         }
 

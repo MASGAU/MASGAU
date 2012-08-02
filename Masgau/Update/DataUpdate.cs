@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using System.Web;
+using GameSaveInfo;
 namespace MASGAU.Update {
     class DataUpdate: AUpdate {
         public string Name { get; protected set; }

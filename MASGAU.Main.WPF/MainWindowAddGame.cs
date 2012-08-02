@@ -12,6 +12,7 @@ using MASGAU.Analyzer;
 using System.ComponentModel;
 using System.Threading;
 using SMJ.WPF;
+using GameSaveInfo;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         private enum game_locations {
@@ -150,7 +151,7 @@ namespace MASGAU.Main {
 
 
         private void AddGameButton_Click(object sender, RoutedEventArgs e) {
-            CustomGame game = Games.addCustomGame(AddGameTitle.Value, new System.IO.DirectoryInfo(AddGameLocation.Value), AddGameSaves.Value, AddGameExclusions.Value);
+            CustomGameEntry game = Games.addCustomGame(AddGameTitle.Value, new System.IO.DirectoryInfo(AddGameLocation.Value), AddGameSaves.Value, AddGameExclusions.Value);
             if(!Core.settings.SuppressSubmitRequests) {
                 RequestReply reply = TranslatingRequestHandler.Request(RequestType.Question, "PleaseSubmitGame", true);
                 if (!reply.Cancelled) {
@@ -169,18 +170,18 @@ namespace MASGAU.Main {
             if (TranslatingRequestHandler.Request(RequestType.Question, "DeleteGameConfirm", gamesLst.SelectedItems.Count.ToString()).Cancelled)
                 return;
 
-            List<GameVersion> games = new List<GameVersion>();
-            foreach (GameVersion game in gamesLst.SelectedItems) {
+            List<GameEntry> games = new List<GameEntry>();
+            foreach (GameEntry game in gamesLst.SelectedItems) {
                 games.Add(game);
             }
-            foreach (GameVersion game in games) {
+            foreach (GameEntry game in games) {
                 Games.deleteCustomGame(game);
             }
 
             submitGame.IsEnabled = Games.HasUnsubmittedGames;
         }
 
-        Queue<CustomGame> submitting_games = new Queue<CustomGame>();
+        Queue<CustomGameEntry> submitting_games = new Queue<CustomGameEntry>();
 
         private void submitGame_Click(object sender, RoutedEventArgs e) {
             submitting_games.Clear();
@@ -191,7 +192,7 @@ namespace MASGAU.Main {
             askAboutGame();
         }
 
-        protected void createGameSubmission(CustomGame game) {
+        protected void createGameSubmission(CustomGameEntry game) {
             analyzer = new PCAnalyzer(game, gameSubmissionDone);
             disableInterface(analyzer);
             analyzer.analyze();
@@ -202,7 +203,7 @@ namespace MASGAU.Main {
         private bool askAboutGame() {
             if (!submitPromptSuppress) {
                 while (submitting_games.Count > 0) {
-                    CustomGame game = submitting_games.Peek();
+                    CustomGameEntry game = submitting_games.Peek();
                     RequestReply reply = TranslatingRequestHandler.Request(RequestType.Question, "AskSubmitGame", true, game.Title);
                     submitPromptSuppress = reply.Suppressed;
                     if (reply.Cancelled) {

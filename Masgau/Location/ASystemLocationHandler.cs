@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using MASGAU.Location.Holders;
-
+using GameSaveInfo;
 namespace MASGAU.Location {
     public abstract class ASystemLocationHandler : ALocationHandler {
         public bool uac_enabled;
@@ -17,13 +17,13 @@ namespace MASGAU.Location {
 
         public override List<DetectedLocationPathHolder> interpretPath(string interpret_me) {
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
-            LocationPathHolder new_location;
+            LocationPath new_location;
             if (ready) {
                 return_me.AddRange(base.interpretPath(interpret_me));
                 if (return_me.Count == 0) {
                     foreach (string drive in drives) {
                         if (interpret_me.StartsWith(drive)) {
-                            new_location = new LocationPathHolder();
+                            new_location = new LocationPath();
                             new_location.rel_root = EnvironmentVariable.Drive;
                             if (interpret_me.Length == drive.Length)
                                 new_location.Path = "";
@@ -39,13 +39,13 @@ namespace MASGAU.Location {
 
 
 
-        protected override DetectedLocations getPaths(LocationPathHolder get_me) {
+        protected override DetectedLocations getPaths(LocationPath get_me) {
             DetectedLocations return_me = new DetectedLocations();
             DirectoryInfo test;
             DetectedLocationPathHolder add_me;
             switch (get_me.rel_root) {
                 case EnvironmentVariable.InstallLocation:
-                    LocationPathHolder temp = new LocationPathHolder(get_me);
+                    LocationPath temp = new LocationPath(get_me);
                     string[] chopped = temp.Path.Split(Path.DirectorySeparatorChar);
                     for (int i = 0; i < chopped.Length; i++) {
                         temp.Path = chopped[i];
@@ -92,7 +92,7 @@ namespace MASGAU.Location {
             return return_me;
         }
 
-        public override string getAbsoluteRoot(LocationPathHolder parse_me, string user) {
+        public override string getAbsoluteRoot(LocationPath parse_me, string user) {
             switch (parse_me.rel_root) {
                 case EnvironmentVariable.Drive:
                     DetectedLocationPathHolder holder = (DetectedLocationPathHolder)parse_me;

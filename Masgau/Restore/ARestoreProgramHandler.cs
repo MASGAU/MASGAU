@@ -8,6 +8,7 @@ using MVC.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
 using Translator;
+using GameSaveInfo;
 namespace MASGAU.Restore {
     public class RestoreProgramHandler : AProgramHandler {
 
@@ -15,11 +16,11 @@ namespace MASGAU.Restore {
         public static List<string> unsuccesfull_restores = new List<string>();
         public static Boolean overall_stop = false;
 
-        public ObservableCollection<LocationPathHolder> path_candidates;
+        public ObservableCollection<LocationPath> path_candidates;
         public ObservableCollection<string> user_candidates;
         public Archive archive;
 
-        public MASGAU.GameVersion game_data {
+        public MASGAU.GameEntry game_data {
             get;
             protected set;
         }
@@ -31,8 +32,8 @@ namespace MASGAU.Restore {
             this.archive = archive;
         }
 
-        public void addPathCandidate(LocationPathHolder location) {
-            foreach (LocationPathHolder path in path_candidates) {
+        public void addPathCandidate(LocationPath location) {
+            foreach (LocationPath path in path_candidates) {
                 if (location.GetType() == typeof(ManualLocationPathHolder)) {
                     if (path.GetType() == typeof(ManualLocationPathHolder)) {
                         path_candidates.Remove(path);
@@ -52,7 +53,7 @@ namespace MASGAU.Restore {
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e) {
             base.doWork(sender, e);
 
-            path_candidates = new ObservableCollection<LocationPathHolder>();
+            path_candidates = new ObservableCollection<LocationPath>();
             user_candidates = new ObservableCollection<string>();
 
             ProgressHandler.state = ProgressState.Indeterminate;
@@ -87,7 +88,7 @@ namespace MASGAU.Restore {
             game_data.Detect();
 
             // This adds hypothetical locations
-            foreach (LocationPathHolder location in game_data.Locations.Paths) {
+            foreach (LocationPath location in game_data.Locations.Paths) {
                 if (game_data.DetectionRequired)
                     break;
 
@@ -190,7 +191,7 @@ namespace MASGAU.Restore {
                 NotifyPropertyChanged("single_path");
             }
         }
-        public LocationPathHolder only_path {
+        public LocationPath only_path {
             get {
                 if (path_candidates.Count > 0)
                     return path_candidates[0];
@@ -199,10 +200,10 @@ namespace MASGAU.Restore {
             }
         }
         // Make this a more robust suggestion engine
-        public LocationPathHolder recommended_path {
+        public LocationPath recommended_path {
             get {
-                LocationPathHolder candidate = null;
-                foreach (LocationPathHolder path in path_candidates) {
+                LocationPath candidate = null;
+                foreach (LocationPath path in path_candidates) {
                     if (path.GetType() == typeof(ManualLocationPathHolder)) {
                         return path;
                     }
@@ -220,7 +221,7 @@ namespace MASGAU.Restore {
                     return path_candidates[0];
             }
         }
-        public void populateUsers(LocationPathHolder location) {
+        public void populateUsers(LocationPath location) {
             user_candidates.Clear();
             List<string> users = Core.locations.getUsers(location.rel_root);
             if (users.Count > 0) {
@@ -280,7 +281,7 @@ namespace MASGAU.Restore {
         public BackgroundWorker restore_worker;
 
         private string restore_path;
-        public void restoreBackup(LocationPathHolder path, string user, RunWorkerCompletedEventHandler when_done) {
+        public void restoreBackup(LocationPath path, string user, RunWorkerCompletedEventHandler when_done) {
             string target;
             if (path.GetType() == typeof(ManualLocationPathHolder)) {
                 target = path.ToString();

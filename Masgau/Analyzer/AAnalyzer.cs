@@ -10,7 +10,7 @@ using MVC;
 namespace MASGAU.Analyzer {
     public abstract class AAnalyzer : AWorker {
         public static string LastSavePath = null;
-        public CustomGame game { get; protected set; }
+        public CustomGameEntry game { get; protected set; }
 
         public string report {
             get {
@@ -24,7 +24,7 @@ namespace MASGAU.Analyzer {
 
         private StringBuilder _builder = new StringBuilder();
 
-        protected AAnalyzer(CustomGame game, RunWorkerCompletedEventHandler when_done)
+        protected AAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
             : base(when_done) {
                 this.game = game;
         }

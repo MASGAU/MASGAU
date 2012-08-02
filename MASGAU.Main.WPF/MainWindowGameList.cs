@@ -61,8 +61,8 @@ namespace MASGAU.Main {
 
             Model<ArchiveID, Archive> archives = new Model<ArchiveID, Archive>();
             deleteGame.IsEnabled = true;
-            foreach (GameVersion game in gamesLst.SelectedItems) {
-                if (game is CustomGameVersion) {
+            foreach (GameEntry game in gamesLst.SelectedItems) {
+                if (game is CustomGameEntry) {
                     CustomGame custom = game.Game as CustomGame;
                 }  else
                     deleteGame.IsEnabled = false;

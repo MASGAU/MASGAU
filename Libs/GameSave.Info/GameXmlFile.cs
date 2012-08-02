@@ -7,20 +7,22 @@ using System.IO;
 using System.Xml;
 using XmlData;
 
-namespace MASGAU {
+namespace GameSaveInfo {
     public class GameXmlFile: AXmlDataFile<Game> {
+        public static Version data_format_version = new Version(2, 0);
+
         public DateTime date;
         public Version Version { get; protected set; }
 
-        public GameXmlFile(FileInfo file): base(file,"programs",true) {
-            if (RootNode.HasAttribute("date"))
-                date = DateTime.Parse(RootNode.Attributes["date"].Value);
+        public GameXmlFile(FileInfo file): base(file,true) {
+            if (DocumentElement.HasAttribute("date"))
+                date = DateTime.Parse(DocumentElement.Attributes["date"].Value);
             else
                 date = DateTime.Parse("November 5, 1955");
 
 
-            if (RootNode.HasAttribute("majorVersion") && RootNode.HasAttribute("minorVersion"))
-                Version = new Version(Int32.Parse(RootNode.Attributes["majorVersion"].Value), Int32.Parse(RootNode.Attributes["minorVersion"].Value));
+            if (DocumentElement.HasAttribute("majorVersion") && DocumentElement.HasAttribute("minorVersion"))
+                Version = new Version(Int32.Parse(DocumentElement.Attributes["majorVersion"].Value), Int32.Parse(DocumentElement.Attributes["minorVersion"].Value));
         }
 
 
@@ -36,14 +38,15 @@ namespace MASGAU {
             return null;
         }
 
-        protected virtual XmlElement CreatRootNode(string name) {
-            XmlElement ele = base.CreatRootNode(name);
+        protected override XmlElement CreatRootNode() {
+            XmlElement ele = this.CreateElement("programs");
+
             XmlAttribute attr = this.CreateAttribute("majorVersion");
-            attr.Value = Core.data_format_version.Major.ToString();
+            attr.Value = data_format_version.Major.ToString();
             ele.Attributes.Append(attr);
 
             attr = this.CreateAttribute("minorVersion");
-            attr.Value = Core.data_format_version.Minor.ToString();
+            attr.Value = data_format_version.Minor.ToString();
             ele.Attributes.Append(attr);
 
             attr = this.CreateAttribute("xmlns:xsi");

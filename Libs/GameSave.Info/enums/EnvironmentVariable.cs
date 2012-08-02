@@ -1,5 +1,5 @@
 ﻿
-namespace MASGAU.Location {
+namespace GameSaveInfo {
 
     public enum EnvironmentVariable {
         // These are ordered according to priority, do NOT reorganize

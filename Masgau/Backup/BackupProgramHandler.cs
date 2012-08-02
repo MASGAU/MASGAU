@@ -11,16 +11,16 @@ namespace MASGAU.Backup {
     public class BackupProgramHandler : AProgramHandler {
         public string archive_name_override = null;
 
-        private List<GameVersion> back_these_up = null;
+        private List<GameEntry> back_these_up = null;
         private List<DetectedFile> only_these_files = new List<DetectedFile>();
 
-        public BackupProgramHandler(List<GameVersion> backup_list, ALocationsHandler loc)
+        public BackupProgramHandler(List<GameEntry> backup_list, ALocationsHandler loc)
             : this(loc) {
             back_these_up = backup_list;
         }
-        public BackupProgramHandler(GameVersion this_game, List<DetectedFile> only_these, string archive_name, ALocationsHandler loc)
+        public BackupProgramHandler(GameEntry this_game, List<DetectedFile> only_these, string archive_name, ALocationsHandler loc)
             : this(loc) {
-            back_these_up = new List<GameVersion>();
+            back_these_up = new List<GameEntry>();
             back_these_up.Add(this_game);
 
             if (only_these != null) {
@@ -57,7 +57,7 @@ namespace MASGAU.Backup {
                     output_path = Core.settings.backup_path;
 
 
-                IList<GameVersion> games;
+                IList<GameEntry> games;
 
                 if (back_these_up != null && back_these_up.Count > 0) {
                     games = back_these_up;
@@ -73,7 +73,7 @@ namespace MASGAU.Backup {
                     TranslatingProgressHandler.setTranslatedMessage("GamesToBeBackedUpCount", games.Count.ToString());
 
 
-                    foreach (GameVersion game in games) {
+                    foreach (GameEntry game in games) {
                         if (CancellationPending)
                             return;
 
@@ -107,7 +107,7 @@ namespace MASGAU.Backup {
 
                                 QuickHash hash = file.RootHash;
 
-                                archive_id = new ArchiveID(game.id, file.owner, file.type, hash);
+                                archive_id = new ArchiveID(game.id, file.owner, file.Type, hash);
 
                                 if (archive_name_override != null) {
                                     if (override_archive == null)
@@ -116,9 +116,9 @@ namespace MASGAU.Backup {
                                 } else {
                                     if (Archives.Get(archive_id) == null) {
                                         if (file.owner != null) {
-                                            Archives.Add(new Archive(output_path, new ArchiveID(game.id, file.owner, file.type, hash)));
+                                            Archives.Add(new Archive(output_path, new ArchiveID(game.id, file.owner, file.Type, hash)));
                                         } else {
-                                            Archives.Add(new Archive(output_path, new ArchiveID(game.id, null, file.type, hash)));
+                                            Archives.Add(new Archive(output_path, new ArchiveID(game.id, null, file.Type, hash)));
                                         }
                                     }
                                     archive = Archives.Get(archive_id);

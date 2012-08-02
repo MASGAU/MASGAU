@@ -2,89 +2,75 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Xml;
-using MVC;
-namespace MASGAU.Location.Holders {
-    public abstract class ALocationHolder : AModelItem<StringID> {
-        protected XmlElement xml = null;
+using XmlData;
+namespace GameSaveInfo {
+    public abstract class ALocation: AXmlDataEntry, IComparable<ALocation> {
+        public static readonly List<string> attributes = new List<string> {"append", "detract", "only_for","deprecated","gsm_id"};
+        public abstract int CompareTo(ALocation comparable);
 
-        public static readonly List<string> attributes = new List<string> {"append", "detract", "only_for","deprecated"};
+        protected ALocation(ALocation loc): base() {
+            this.Append = loc.Append;
+            this.Detract = loc.Detract;
+            this.OnlyFor = loc.OnlyFor;
+            this.IsDeprecated = loc.IsDeprecated;
+
+        }
+
 
         // Used to add or remove path elements
-        private string _append_path = null, _detract_path = null;
-        public string append_path {
-            set {
-                _append_path = value;
-            }
-            get {
-                return _append_path;
-            }
-        }
-        public string detract_path {
-            set {
-                _detract_path = value;
-            }
-            get {
-                return _detract_path;
-            }
-        }
-        private bool _deprecated = false;
-        public bool deprecated {
-            set {
-                _deprecated = value;
-            }
-            get {
-                return _deprecated;
-            }
-        }
+        public string Append { get; protected set; }
+        public string Detract { get; protected set; }
+        public bool IsDeprecated { get; protected set; }
+        public string OnlyFor { get; protected set; }
 
         // Used to filter user locations by windows versions and language
         public string language = null;
-
-
         public bool override_virtual_store = false;
 
-        public string OnlyFor { get; protected set; }
+        protected ALocation(XmlElement element)
+            : base(element) {
+        }
+        protected ALocation() : base() { }
 
-        protected ALocationHolder() : base(new StringID(null)) { }
-
-        protected ALocationHolder(XmlElement element)
-            : this() {
-                this.xml = element;
+        protected override void LoadData(XmlElement element) {
             foreach (XmlAttribute attrib in element.Attributes) {
                 switch (attrib.Name) {
                     case "append":
-                        this.append_path = attrib.Value;
+                        this.Append = attrib.Value;
                         break;
                     case "detract":
-                        this.detract_path = attrib.Value;
+                        this.Detract = attrib.Value;
                         break;
                     case "deprecated":
-                        this.deprecated = Boolean.Parse(attrib.Value);
+                        this.IsDeprecated = Boolean.Parse(attrib.Value);
                         break;
                     case "only_for":
                         this.OnlyFor = attrib.Value;
                         break;
                 }
             }
+            LoadMoreData(element);
         }
+        protected abstract void LoadMoreData(XmlElement element);
 
-        public ALocationHolder(ALocationHolder copy_me)
-            : base(new StringID(copy_me.ToString())) {
-            append_path = copy_me._append_path;
-            detract_path = copy_me._detract_path;
-            language = copy_me.language;
-            OnlyFor = copy_me.OnlyFor;
+        protected override XmlElement WriteData(XmlElement element) {
+            addAtribute(element,"append",Append);
+            addAtribute(element,"detract",Detract);
+            addAtribute(element,"deprecated",IsDeprecated.ToString());
+            addAtribute(element,"only_for",OnlyFor);
+            return WriteMoreData(element);
         }
+        protected abstract XmlElement WriteMoreData(XmlElement element);
 
         // This receives a path and modifies it based on the object's append and detract settings
-        public static string modifyPath(string path, ALocationHolder holder) {
+        public static string modifyPath(string path, ALocation holder) {
             path = path.TrimEnd(Path.DirectorySeparatorChar);
-            if (holder.detract_path != null) {
-                if (path.EndsWith(holder.detract_path))
-                    path = path.Substring(0, path.Length - holder.detract_path.Length);
+            if (holder.Detract != null) {
+                if (path.EndsWith(holder.Detract))
+                    path = path.Substring(0, path.Length - holder.Detract.Length);
             }
-            if (holder.append_path != null)
-                path = Path.Combine(path, holder.append_path);
+            if (holder.Append != null)
+                path = Path.Combine(path, holder.Append);
             return path.TrimEnd(Path.DirectorySeparatorChar);
         }
 
@@ -140,6 +126,18 @@ namespace MASGAU.Location.Holders {
                     return EnvironmentVariable.CommonApplicationData;
             }
             throw new NotImplementedException("Unrecognized environment variable: " + parse_me);
+        }
+
+
+        protected static int compare(IComparable a, IComparable b) {
+            if (a == null) {
+                if (b == null)
+                    return 0;
+                else
+                    return -1;
+            } else {
+                return a.CompareTo(b);
+            }
         }
 
     }

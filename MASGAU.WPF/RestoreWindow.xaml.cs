@@ -14,6 +14,7 @@ using Translator.WPF;
 using Translator;
 using System.Text;
 using MVC.WPF;
+using GameSaveInfo;
 namespace MASGAU.Restore {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -163,7 +164,7 @@ namespace MASGAU.Restore {
 
         private void pathCombo_SelectionChanged(object sender, SelectionChangedEventArgs e) {
             otherUserButton.Visibility = System.Windows.Visibility.Collapsed;
-            restore.populateUsers(pathCombo.SelectedItem as LocationPathHolder);
+            restore.populateUsers(pathCombo.SelectedItem as LocationPath);
             if (restore.user_candidates.Count == 0) {
                 userBox.Visibility = System.Windows.Visibility.Collapsed;
                 singleUserBox.Visibility = System.Windows.Visibility.Collapsed;
@@ -182,9 +183,9 @@ namespace MASGAU.Restore {
                     else
                         userCombo.SelectedIndex = 0;
                 }
-                if (!Core.all_users_mode && restore.recommended_path.rel_root != MASGAU.Location.EnvironmentVariable.PS3Export &&
-                    restore.recommended_path.rel_root != MASGAU.Location.EnvironmentVariable.PS3Save &&
-                    restore.recommended_path.rel_root != MASGAU.Location.EnvironmentVariable.PSPSave)
+                if (!Core.all_users_mode && restore.recommended_path.rel_root != EnvironmentVariable.PS3Export &&
+                    restore.recommended_path.rel_root != EnvironmentVariable.PS3Save &&
+                    restore.recommended_path.rel_root != EnvironmentVariable.PSPSave)
                     otherUserButton.Visibility = System.Windows.Visibility.Visible;
             }
         }
@@ -264,7 +265,7 @@ namespace MASGAU.Restore {
                     }
                 }
             }
-            restore.restoreBackup((LocationPathHolder)pathCombo.SelectedItem, (string)userCombo.SelectedItem, restoreComplete);
+            restore.restoreBackup((LocationPath)pathCombo.SelectedItem, (string)userCombo.SelectedItem, restoreComplete);
         }
 
 

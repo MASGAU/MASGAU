@@ -51,6 +51,7 @@
     <Compile Include="AXmlDataEntry.cs" />
     <Compile Include="AXmlDataFile.cs" />
     <Compile Include="AXmlDataFileCollection.cs" />
+    <Compile Include="AXmlDataSubEntry.cs" />
     <Compile Include="XmlFile.cs" />
     <Compile Include="IXmlDataEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -7,13 +7,14 @@ using System.Xml.Schema;
 using System.IO;
 namespace XmlData {
     public abstract class AXmlDataFile<T> : XmlFile where T : AXmlDataEntry {
-
-        public XmlElement RootNode;
-        protected AXmlDataFile(FileInfo file, string root_element_name, bool create): base(file, create) {
-            RootNode = LoadRootNode(root_element_name);
-
+        protected AXmlDataFile(FileInfo file, bool create): base(file, create) {
             entries.Clear();
-            foreach (XmlElement element in RootNode.ChildNodes) {
+            if (DocumentElement == null) {
+                this.AppendChild(CreatRootNode());
+            }
+
+
+            foreach (XmlElement element in DocumentElement.ChildNodes) {
 //                try {
                     T entry = CreateDataEntry(element);
                     entries.Add(entry);
@@ -24,34 +25,32 @@ namespace XmlData {
         }
 
         public void removeEntry(T entry) {
-            XmlElement ele = entry.exportXml();
-            this.RootNode.RemoveChild(ele);
+            this.DocumentElement.RemoveChild(entry.XML);
             this.entries.Remove(entry);
         }
 
         public List<T> entries = new List<T>();
 
-        protected virtual XmlElement LoadRootNode(string name) {
-            foreach (XmlNode node in this.ChildNodes) {
+//        protected virtual XmlElement LoadRootNode(string name) {
+//            foreach (XmlNode node in this.ChildNodes) {
 
-                if (node.Name == name) {
-                    return (XmlElement)node;
-                }
-            }
+//                if (node.Name == name) {
+//                    return (XmlElement)node;
+//                }
+//            }
 
-            return (XmlElement)this.AppendChild(this.CreatRootNode(name));
-//            throw new XmlException("Missing root: " + name);
-        }
-        protected virtual XmlElement CreatRootNode(string name) {
-            return this.CreateElement(name);
-        }
+//            return (XmlElement)this.AppendChild(this.CreatRootNode(name));
+////            throw new XmlException("Missing root: " + name);
+//        }
+
+        protected abstract XmlElement CreatRootNode();
 
         protected abstract T CreateDataEntry(XmlElement element);
 
         public void Add(T entry) {
-            XmlElement ele = entry.exportXml();
+            XmlElement ele = entry.XML;
             if (ele != null) {
-                RootNode.AppendChild(ele);
+                DocumentElement.AppendChild(ele);
                 entries.Add(entry);
             }
         }

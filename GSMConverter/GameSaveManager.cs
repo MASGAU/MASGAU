@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using MASGAU;
-using MASGAU.Location.Holders;
+using GameSave.Info;
 namespace GSMConverter {
     class GameSaveManager: AConverter {
 
@@ -101,7 +101,7 @@ namespace GSMConverter {
             ALocation loc = null;
             switch (specialpath) {
                 case "%APPDATA%":
-                    loc = new LocationPathHolder(
+                  
                     break;
                 default:
                     throw new NotSupportedException(specialpath);

@@ -6,8 +6,9 @@ using MVC.Translator;
 using MASGAU.Update;
 using Translator;
 using XmlData;
-namespace MASGAU {
-    public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,Game> {
+using GameSaveInfo;
+namespace MASGAU.Game {
+    public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,GameSaveInfo.Game> {
 
         public DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
         protected DirectoryInfo source = new DirectoryInfo(Path.Combine(Core.app_path, "data"));

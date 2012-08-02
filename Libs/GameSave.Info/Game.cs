@@ -2,12 +2,11 @@
 using System.Xml;
 using System.Collections.Generic;
 using XmlData;
-using MVC;
-using Translator;
-namespace MASGAU {
+namespace GameSaveInfo {
     public class Game : AXmlDataEntry {
         public string Name { get; protected set; }
         public string Title { get; protected set; }
+        private XmlElement TitleElement;
         public string Comment { get; protected set; }
         public bool IsDeprecated { get; protected set; }
         public GameType Type { get; protected set; }
@@ -33,35 +32,34 @@ namespace MASGAU {
             return new GameVersion(parent, element);
         }
 
-        public override XmlElement exportXml() {
+        public override string ElementName {
+            get { return Type.ToString().ToLower(); }
+        }
+
+        protected override XmlElement WriteData(XmlElement element) {
             // This outputs little more than what's necessary to create a custom game entry
             // Once in the file, the xml wil not need to be re-generated, so it won't need to be outputted again
             // This way manual updates to the xml file won't be lost ;)
-            if (this.xml != null)
-                return this.xml;
 
-            this.xml = createElement(Type.ToString());
-            addAtribute(this.xml,"name",Name);
-            if(IsDeprecated)
-                addAtribute(this.xml,"deprecated","true");
-
-            this.xml.AppendChild(createElement("title",Title));
+            addAtribute(element, "name", Name);
+            if (IsDeprecated)
+                addAtribute(element, "deprecated", "true");
 
 
+            element.AppendChild(createElement("title", Title));
 
-
-            if(Comment!=null)
-                this.xml.AppendChild(createElement("comment", Comment));
+            if (Comment != null)
+                element.AppendChild(createElement("comment", Comment));
 
             foreach (GameVersion ver in Versions) {
-                XmlElement ele = ver.createXml();
+                XmlElement ele = ver.XML;
                 if (ele != null)
-                    this.xml.AppendChild(ele);
+                    element.AppendChild(ele);
             }
 
-            string output = this.xml.OuterXml;
-            return this.xml;
+            return element;
         }
+
 
         protected override void LoadData(XmlElement element) {
             switch (element.Name) {
@@ -102,6 +100,7 @@ namespace MASGAU {
                 switch (sub.Name) {
                     case "title":
                         Title = sub.InnerText;
+                        TitleElement = sub;
                         break;
                     case "version":
                         GameVersion version = createVersion(this, sub);
@@ -114,7 +113,6 @@ namespace MASGAU {
                         throw new NotSupportedException(sub.Name);
                 }
             }
-
         }
     }
 }

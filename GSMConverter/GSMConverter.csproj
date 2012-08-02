@@ -97,6 +97,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Libs\GameSave.Info\GameSave.Info.csproj">
+      <Project>{937CDE2B-963A-4624-A460-C95676260D35}</Project>
+      <Name>GameSave.Info</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Libs\MVC.WPF\MVC.WPF.csproj">
       <Project>{521A7BAC-6485-4736-9EB4-77F6BB3EE2BF}</Project>
       <Name>MVC.WPF</Name>

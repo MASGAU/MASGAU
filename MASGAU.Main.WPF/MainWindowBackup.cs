@@ -24,9 +24,9 @@ namespace MASGAU.Main {
         }
         private void BackupSelectedGames_Click(object sender, RoutedEventArgs e) {
             if (Core.settings.IsBackupPathSet || changeBackupPath()) {
-                List<GameVersion> these = new List<GameVersion>();
+                List<GameEntry> these = new List<GameEntry>();
 
-                foreach (GameVersion game in gamesLst.SelectedItems) {
+                foreach (GameEntry game in gamesLst.SelectedItems) {
                     these.Add(game);
                 }
                 beginBackup(these, null);
@@ -36,7 +36,7 @@ namespace MASGAU.Main {
 
         private string last_archive_create = null;
         private void CustomBackup_Click(object sender, RoutedEventArgs e) {
-            GameVersion game = gamesLst.SelectedItem as GameVersion;
+            GameEntry game = gamesLst.SelectedItem as GameEntry;
             ManualArchiveWindow manual = new ManualArchiveWindow(game, this);
             if ((bool)manual.ShowDialog()) {
 
@@ -85,11 +85,11 @@ namespace MASGAU.Main {
             backup = new BackupProgramHandler(Core.locations);
             startBackup(when_done);
         }
-        protected void beginBackup(List<GameVersion> backup_list, RunWorkerCompletedEventHandler when_done) {
+        protected void beginBackup(List<GameEntry> backup_list, RunWorkerCompletedEventHandler when_done) {
             backup = new BackupProgramHandler(backup_list,Core.locations);
             startBackup(when_done);
         }
-        protected void beginBackup(GameVersion game, List<DetectedFile> files, string archive_name, RunWorkerCompletedEventHandler when_done) {
+        protected void beginBackup(GameEntry game, List<DetectedFile> files, string archive_name, RunWorkerCompletedEventHandler when_done) {
             backup = new BackupProgramHandler(game, files, archive_name,Core.locations);
             startBackup(when_done);
         }

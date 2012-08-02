@@ -1,5 +1,5 @@
 using System.IO;
-
+using GameSaveInfo;
 namespace MASGAU.Location {
     public class PlaystationLocationHandler : APlaystationLocationHandler {
         public PlaystationLocationHandler()

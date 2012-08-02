@@ -1,20 +1,12 @@
 ﻿using System;
 using System.IO;
-
+using GameSaveInfo;
 namespace MASGAU.Location.Holders {
     // This holds locations that have been found
-    public class DetectedLocationPathHolder : LocationPathHolder {
-        public DetectedLocationPathHolder(LocationPathHolder path) {
-            this.append_path = path.append_path;
-            this.detract_path = path.detract_path;
-            this.IsEnabled = path.IsEnabled;
-            this.IsExpanded = path.IsExpanded;
-            this.IsSelected = path.IsSelected;
+    public class DetectedLocationPathHolder : LocationPath {
+
+        public DetectedLocationPathHolder(LocationPath path): base(path) {
             this.language = path.language;
-            this.OnlyFor = path.OnlyFor;
-            this.Path = path.Path;
-            this.deprecated = path.deprecated;
-            this.rel_root = path.rel_root;
         }
 
         protected DetectedLocationPathHolder() {

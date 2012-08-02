@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using MVC.Translator;
 using MASGAU.Location.Holders;
+using GameSaveInfo;
 namespace MASGAU.Location {
     public abstract class ALocationsHandler : ILocationsHandler {
 
@@ -14,7 +15,7 @@ namespace MASGAU.Location {
         }
 
         public string getFolder(EnvironmentVariable ev, string path) {
-            LocationPathHolder parse_me = new LocationPathHolder();
+            LocationPath parse_me = new LocationPath();
             parse_me.Path = path;
             parse_me.rel_root = ev;
             foreach (string user in this.getUsers(ev)) {
@@ -101,7 +102,7 @@ namespace MASGAU.Location {
             }
         }
 
-        public DetectedLocations getPaths(ALocationHolder get_me) {
+        public DetectedLocations getPaths(ALocation get_me) {
             DetectedLocations return_me = new DetectedLocations();
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
                 return_me.AddRange(handler.Value.getPaths(get_me));
@@ -124,7 +125,7 @@ namespace MASGAU.Location {
             return return_me;
         }
 
-        public string getAbsoluteRoot(LocationPathHolder parse_me, string user) {
+        public string getAbsoluteRoot(LocationPath parse_me, string user) {
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
                 string result = handler.Value.getAbsoluteRoot(parse_me, user);
                 if (result != null)
@@ -133,7 +134,7 @@ namespace MASGAU.Location {
             return null;
         }
 
-        public string getAbsolutePath(LocationPathHolder parse_me, string user) {
+        public string getAbsolutePath(LocationPath parse_me, string user) {
             if (parse_me.rel_root == EnvironmentVariable.AltSavePaths) {
                 DetectedLocations locs = interpretPath(parse_me.ToString());
                 if (locs.Count > 0)

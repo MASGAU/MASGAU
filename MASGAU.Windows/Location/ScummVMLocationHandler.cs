@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using MASGAU.Location.Holders;
+using GameSaveInfo;
 namespace MASGAU.Location {
     public class ScummVMLocationHandler : AScummVMLocationHandler {
 
@@ -38,11 +39,11 @@ namespace MASGAU.Location {
             return null;
         }
 
-        protected override DetectedLocations getPaths(ScummVMHolder get_me) {
+        protected override DetectedLocations getPaths(ScummVM get_me) {
             DetectedLocations locs = base.getPaths(get_me);
 
             if (install_path != null) {
-                LocationPathHolder loc = SystemLocationHandler.translateToVirtualStore(install_path);
+                LocationPath loc = SystemLocationHandler.translateToVirtualStore(install_path);
                 DetectedLocations vlocs = Core.locations.getPaths(loc);
                 List<string> keys = new List<string>(vlocs.Keys);
                 foreach(string key in keys) {

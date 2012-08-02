@@ -14,52 +14,67 @@ using MVC.Communication;
 using MVC.Translator;
 using XmlData;
 using Translator;
+using GameSaveInfo;
 namespace MASGAU {
-    public struct Locations {
-        public List<LocationPathHolder> Paths;
-        public List<LocationRegistryHolder> Registries;
-        public List<LocationShortcutHolder> Shortcuts;
-        public List<LocationGameHolder> Games;
-        public List<PlayStationID> PlayStationIDs;
-        public List<ScummVMHolder> ScummVMs;
-
-        public List<ALocationHolder> All {
+    public class GameEntry : AModelItem<GameID> {
+        public GameSaveInfo.Game Game {
             get {
-                List<ALocationHolder> return_me = new List<ALocationHolder>();
-                return_me.AddRange(Paths);
-                return_me.AddRange(Registries);
-                return_me.AddRange(Shortcuts);
-                return_me.AddRange(Games);
-                return_me.AddRange(PlayStationIDs);
-                return_me.AddRange(ScummVMs);
-                return return_me;
+                return version.Game;
             }
         }
-    }
-    public class GameVersion : AModelItem<GameID> {
-        public Game Game { get; protected set; }
+        protected GameVersion version;
 
-        private List<GameLink> links = new List<GameLink>();
+        public Locations Locations {
+            get {
+                return version.Locations;
+            }
+        }
+        public bool DetectionRequired {
+            get {
+                return version.DetectionRequired;
+            }
+        }
+        public string Comment {
+            get {
+                return version.Comment;
+            }
+        }
+        public string RestoreComment {
+            get {
+                return version.RestoreComment;
+            }
+        }
+        public string Name {
+            get {
+                return version.ID.Name;
+            }
+        }
+        public string Title {
+            get {
+                return version.Title;
+            }
+        }
+
         public bool Linkable {
             get {
                 if (Core.locations.platform_version == "WindowsXP")
                     return false;
-                return links.Count > 0;
+                return version.Links.Count > 0;
             }
         }
         public bool? IsLinked {
             get {
-                if (links.Count == 0)
+                if (version.Links.Count == 0)
                     return false;
 
-                foreach (GameLink link in links) {
+                foreach (Link link in version.Links) {
                     if (!link.Linked)
                         return false;
                 }
                 return true;
             }
             set {
-                foreach (GameLink link in links) {
+                foreach (Link link in version.Links) {
                     link.Linked = value==true;
                 }
                 NotifyPropertyChanged("LinkToolTip");
@@ -79,14 +94,6 @@ namespace MASGAU {
             }
         }
 
-        protected string _title = null;
-        public string Title {
-            get {
-                if (_title == null)
-                    return Game.Title;
-                return _title;
-            }
-        }
         public string TitleAddendum {
             get {
                 return id.Formatted;
@@ -109,8 +116,8 @@ namespace MASGAU {
         public new string ToolTip {
             get {
                 StringBuilder tooltip = new StringBuilder();
-                if (Comment != null) {
-                    tooltip.AppendLine(Comment);
+                if (version.Comment != null) {
+                    tooltip.AppendLine(version.Comment);
                     tooltip.AppendLine();
                 }
                 tooltip.AppendLine("Detected Locations:");
@@ -120,27 +127,34 @@ namespace MASGAU {
         }
 
 
-        protected Dictionary<string,FileTypeHolder> FileTypes = new  Dictionary<string,FileTypeHolder>();
+        private List<ALocation> AllLocations {
+            get {
+                List<ALocation> locs = new List<ALocation>();
+                locs.AddRange(version.AllLocations);
+                locs.AddRange(version.PlayStationIDs);
+                locs.AddRange(version.ScummVMs);
+                return locs;
+            }
+        }
 
-        public Locations Locations;
 
-        public List<string> Contributors = new List<string>();
-        public string Comment { get; protected set; }
-        public string RestoreComment { get; protected set; }
 
         // These are the locations that have been found
         public MASGAU.Location.DetectedLocations DetectedLocations;
 
-        public bool IgnoreVirtualStore { get; protected set; }
 
+        public bool IsDeprecated {
+            get {
+                return version.IsDeprecated;
+            }
+        }
 
-        public bool IsDeprecated { get; protected set; }
-        public bool DetectionRequired { get; protected set; }
         public bool DetectionAttempted { get; protected set; }
         public bool IsDetected {
             get {
-                if ((Game!=null&&Game.IsDeprecated)||this.IsDeprecated)
+                if (IsDeprecated)
                     return false;
+
                 if (DetectedLocations != null) {
                     if (DetectedLocations.Count > 0) {
                         return true;
@@ -182,7 +196,6 @@ namespace MASGAU {
             }
         }
 
-        private List<IdentifierHolder> Identifiers = new List<IdentifierHolder>();
 
         private StringBuilder _detected_paths_string;
         public string detected_paths_string {
@@ -201,205 +214,27 @@ namespace MASGAU {
             }
         }
 
-        protected GameVersion(Game parent) {
-            this.Game = parent;
-            Locations.Paths = new List<LocationPathHolder>();
-            Locations.Registries = new List<LocationRegistryHolder>();
-            Locations.Shortcuts = new List<LocationShortcutHolder>();
-            Locations.Games = new List<LocationGameHolder>();
-            Locations.PlayStationIDs = new List<PlayStationID>();
-            Locations.ScummVMs = new List<ScummVMHolder>();
-        }
-
-        public XmlElement createXml() {
-            // This outputs little more than what's necessary to create a custom game entry
-            // Once in the file, the xml wil not need to be re-generated, so it won't need to be outputted again
-            // This way manual updates to the xml file won't be lost ;)
-            if (xml != null)
-                return xml;
-
-
-            xml = Game.createElement("version");
-
-            id.AddAttributes(xml);
-            if(xml.HasAttribute("name"))
-                xml.RemoveAttribute("name");
-
-            XmlElement locations = Game.createElement("locations");
-
-            foreach(LocationPathHolder path in Locations.Paths) {
-                XmlElement xp = path.createXml(Game);
-                locations.AppendChild(xp);
-            }
-            xml.AppendChild(locations);
-
-            foreach(FileTypeHolder type in FileTypes.Values) {
-                XmlElement ft = type.createXml(Game);
-                this.xml.AppendChild(ft);
-            }
-
-            foreach (string con in Contributors) {
-                this.xml.AppendChild(Game.createElement("contributor", con));
-            }
-
-            if(Comment!=null)
-                this.xml.AppendChild(Game.createElement("comment", Comment));
-            if(RestoreComment!=null)
-                this.xml.AppendChild(Game.createElement("restore_comment", RestoreComment));
-
-
-            string output = this.xml.OuterXml;
-
-            return xml;
-        }
-
-        protected XmlElement xml = null;
-        public GameVersion(Game parent, XmlElement element): this(parent) {
-            xml = element;
+        public GameEntry(GameVersion version) {
+            this.version = version;
+            this.id = new GameID(version.ID);
             DetectionAttempted = false;
-            DetectionRequired = false;
-
-            this.id = new GameID(parent.Name, element);
-
-            foreach (XmlAttribute attrib in element.Attributes) {
-                if (GameID.attributes.Contains(attrib.Name))
-                    continue;
-                switch (attrib.Name) {
-                    case "virtualstore":
-                        if (attrib.Value == "ignore")
-                            IgnoreVirtualStore = true;
-                        break;
-                    case "detect":
-                        if (attrib.Value == "required")
-                            DetectionRequired = true;
-                        break;
-                    case "deprecated":
-                        IsDeprecated = Boolean.Parse(attrib.Value);
-                        break;
-                    case "gsm_id":
-                        break;
-                    default:
-                        throw new NotSupportedException(attrib.Name);
-                }
-            }
-            links.Clear();
-            foreach (XmlElement sub in element.ChildNodes) {
-                switch (sub.Name) {
-                    case "title":
-                        _title = sub.InnerText;
-                        break;
-                    case "locations":
-                        LoadLocations(sub);
-                        break;
-                    case "files":
-                        FileTypeHolder type = new FileTypeHolder(sub);
-                        FileTypes.Add(type.Type,type);
-                        break;
-                    case "ps_code":
-                        LoadPlayStation(sub);
-                        break;
-                    case "contributor":
-                        Contributors.Add(sub.InnerText);
-                        break;
-                    case "comment":
-                        Comment = sub.InnerText;
-                        break;
-                    case "restore_comment":
-                        RestoreComment = sub.InnerText;
-                        break;
-                    case "identifier":
-                        Identifiers.Add(new IdentifierHolder(sub));
-                        break;
-                    case "scummvm":
-                        LoadScummVM(sub);
-                        break;
-                    case "linkable":
-                        GameLink link = new GameLink(this, sub);
-                        links.Add(link);
-                        break;
-                    default:
-                        throw new NotSupportedException(sub.Name);
-                }
-            }
         }
 
-        private void LoadScummVM(XmlElement element) {
-            Locations.ScummVMs.Add(new ScummVMHolder(element));
-        }
-
-        private void LoadPlayStation(XmlElement element) {
-            PlayStationID id;
-            switch (this.id.OS) {
-                case "PS1":
-                    id = new PlayStation1ID(element);
-                    break;
-                case "PS2":
-                    id = new PlayStation2ID(element);
-                    break;
-                case "PS3":
-                    id = new PlayStation3ID(element);
-                    break;
-                case "PSP":
-                    id = new PlayStationPortableID(element);
-                    break;
-                default:
-                    throw new NotSupportedException(this.id.OS);
-            }
-
-            SaveHolder save;
-
-            if (id.GetType() == typeof(PlayStationPortableID) ||
-                id.GetType() == typeof(PlayStation3ID)) {
-                    save = new SaveHolder(id.ToString(), null,id.type);
-            } else if (id.GetType() == typeof(PlayStation2ID) || id.GetType() == typeof(PlayStation1ID)) {
-                save = new SaveHolder(null, id.ToString(), id.type);
-            } else {
-                throw new NotSupportedException(id.GetType().ToString());
-            }
-
-            if(!FileTypes.ContainsKey(id.type)) {
-                FileTypes.Add(id.type, new FileTypeHolder(id.type));
-            }
-            FileTypes[id.type].Add(save);
-
-            Locations.PlayStationIDs.Add(id);
-        }
-
-        private void LoadLocations(XmlElement element) {
-            foreach (XmlElement sub in element.ChildNodes) {
-                switch (sub.Name) {
-                    case "path":
-                        Locations.Paths.Add(new LocationPathHolder(sub));
-                        break;
-                    case "registry":
-                        Locations.Registries.Add(new LocationRegistryHolder(sub));
-                        break;
-                    case "shortcut":
-                        Locations.Shortcuts.Add(new LocationShortcutHolder(sub));
-                        break;
-                    case "parent":
-                        Locations.Games.Add(new LocationGameHolder(sub));
-                        break;
-                    default:
-                        throw new NotSupportedException(sub.Name);
-                }
-            }
-        }
 
         public bool Detect() {
             List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
-            List<ALocationHolder> locations = Locations.All;
+            List<ALocation> locations = AllLocations;
 
-            foreach (ALocationHolder location in locations) {
+            foreach (ALocation location in locations) {
                 // This skips if a location is marked as only being for a specific version of an OS
                 if (location.OnlyFor != Core.locations.platform_version && location.OnlyFor != null)
                     continue;
 
-                if (location.GetType() == typeof(LocationGameHolder)) {
+                if (location.GetType() == typeof(LocationParent)) {
                     // This checks all the locations that are based on other games
-                    LocationGameHolder game = location as LocationGameHolder;
+                    LocationParent game = location as LocationParent;
                     if (Games.Contains(game.game)) {
-                        GameVersion parent_game = Games.Get(game.game);
+                        GameEntry parent_game = Games.Get(game.game);
                         // If the game hasn't been processed in the GamesHandler yetm it won't yield useful information, so we force it to process here
                         if (!parent_game.DetectionAttempted)
                             parent_game.Detect();
@@ -423,12 +258,12 @@ namespace MASGAU {
 
             DetectedLocations = new Location.DetectedLocations();
             foreach (DetectedLocationPathHolder check_me in interim) {
-                if (Identifiers.Count == 0) {
+                if (version.Identifiers.Count == 0) {
                     DetectedLocations.Add(check_me);
                     continue;
                 }
-                foreach (IdentifierHolder identifier in Identifiers) {
-                    if (identifier.FindMatching(check_me).Count > 0) {
+                foreach (Identifier identifier in version.Identifiers) {
+                    if (identifier.FindMatching(check_me.full_dir_path).Count > 0) {
                         DetectedLocations.Add(check_me);
                         break;
                     }
@@ -447,25 +282,31 @@ namespace MASGAU {
             return IsDetected;
         }
 
-
         public DetectedFiles Saves {
             get {
                 DetectedFiles files = new DetectedFiles();
                 foreach (DetectedLocationPathHolder location in DetectedLocations) {
-                    foreach (FileTypeHolder save in FileTypes.Values) {
-                        files.AddRange(save.FindMatching(location));
+                    foreach (FileType type in version.FileTypes.Values) {
+                        files.AddFiles(type, location);
+                    }
+                    foreach (APlayStationID id in version.PlayStationIDs) {
+                        SaveFile save = id.convertToSaveFile();
+                        files.AddFiles(save, location);
                     }
                 }
                 return files;
             }
         }
+
+
         public IList<Archive> Archives {
             get {
                 return MASGAU.Archives.GetArchives(this.id);
             }
         }
 
-
+        #region File collection methods
+        #endregion
 
 
         #region monitoring methods

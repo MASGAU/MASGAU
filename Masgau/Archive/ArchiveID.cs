@@ -2,6 +2,7 @@
 using System.Text;
 using System.Xml;
 using MVC;
+using GameSaveInfo;
 namespace MASGAU {
     public class ArchiveID : AIdentifier {
         public readonly String Owner;
@@ -17,7 +18,7 @@ namespace MASGAU {
                     case "game":
                         Game = new GameID(element);
                         foreach (XmlAttribute attr in element.Attributes) {
-                            if (GameID.attributes.Contains(attr.Name) || attr.Name == "name")
+                            if (GameIdentifier.attributes.Contains(attr.Name) || attr.Name == "name")
                                 continue;
 
                             throw new NotSupportedException(attr.Name);

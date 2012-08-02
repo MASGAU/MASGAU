@@ -71,18 +71,15 @@
     <Compile Include="Comparers\ReversableComparer.cs" />
     <Compile Include="Enums\MASGAURequestTypes.cs" />
     <Compile Include="Game\Custom\CustomGame.cs" />
+    <Compile Include="Game\Custom\CustomGameEntry.cs" />
     <Compile Include="Game\Custom\CustomGameVersion.cs" />
     <Compile Include="Game\Custom\CustomGameXmlFile.cs" />
-    <Compile Include="Game\GameLink.cs" />
-    <Compile Include="Game\GameType.cs" />
-    <Compile Include="Game\GameVersion.cs" />
-    <Compile Include="Game\GameXmlFile.cs" />
+    <Compile Include="Game\GameEntry.cs" />
+    <Compile Include="Game\GameXmlFiles.cs" />
     <Compile Include="IWindow.cs" />
     <Compile Include="Location\AScummVMLocationHandler.cs" />
     <Compile Include="Location\DetectedLocations.cs" />
     <Compile Include="Location\EvFolder.cs" />
-    <Compile Include="Location\Holders\FileTypeHolder.cs" />
-    <Compile Include="Location\Holders\ScummVMHolder.cs" />
     <Compile Include="Monitor\Monitor.cs" />
     <Compile Include="Monitor\MonitorFile.cs" />
     <Compile Include="Monitor\MonitorPath.cs">
@@ -95,28 +92,19 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Enums\Interface.cs" />
-    <Compile Include="Game\ContributerHandler.cs" />
     <Compile Include="Game\GameID.cs" />
     <Compile Include="Location\AFlashLocationHandler.cs" />
     <Compile Include="Location\ALocationHandler.cs" />
     <Compile Include="Location\APlaystationLocationHandler.cs" />
     <Compile Include="Location\ASteamLocationHandler.cs" />
     <Compile Include="Location\ASystemLocationHandler.cs" />
-    <Compile Include="Location\Enums\EnvironmentVariable.cs" />
     <Compile Include="Location\Enums\PlatformVersion.cs" />
     <Compile Include="Location\Enums\HandlerType.cs" />
-    <Compile Include="Location\Holders\ALocationHolder.cs" />
     <Compile Include="Location\Holders\AltPathHolder.cs" />
     <Compile Include="Location\Holders\DetectedFile.cs" />
     <Compile Include="Location\Holders\DetectedFiles.cs" />
     <Compile Include="Location\Holders\DetectedLocationPathHolder.cs" />
-    <Compile Include="Location\Holders\GenericHolder.cs" />
-    <Compile Include="Location\Holders\LocationGameHolder.cs" />
-    <Compile Include="Location\Holders\LocationPathHolder.cs" />
-    <Compile Include="Location\Holders\LocationRegistryHolder.cs" />
-    <Compile Include="Location\Holders\LocationShortcutHolder.cs" />
     <Compile Include="Location\Holders\ManualLocationPathHolder.cs" />
-    <Compile Include="Location\Holders\PlayStationID.cs" />
     <Compile Include="Location\IDs\ALocationID.cs" />
     <Compile Include="Location\ILocationsHandler.cs" />
     <Compile Include="Location\UserData.cs" />
@@ -125,13 +113,9 @@
     <Compile Include="ProgramNames.cs" />
     <Compile Include="Registry\RegistryHandler.cs" />
     <Compile Include="Registry\RegistryKeyValue.cs" />
-    <Compile Include="Registry\RegRoot.cs" />
     <Compile Include="Restore\RestoreResult.cs" />
     <Compile Include="Settings\VersioningUnit.cs" />
-    <None Include="Game\OldGame.cs" />
     <Compile Include="Game\Games.cs" />
-    <Compile Include="Game\GameXmlFiles.cs" />
-    <Compile Include="Game\Game.cs" />
     <Compile Include="Location\ALocationsHandler.cs" />
     <Compile Include="Core.cs" />
     <Compile Include="Restore\ARestoreProgramHandler.cs" />
@@ -208,9 +192,7 @@
       <Name>MVC.Translator</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Game\enums\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

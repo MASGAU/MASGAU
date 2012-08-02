@@ -5,8 +5,10 @@ using System.IO;
 using MVC.Communication;
 using MVC.Translator;
 using MVC;
+using MASGAU.Game;
+using GameSaveInfo;
 namespace MASGAU {
-    public class Games : StaticModel<GameID, GameVersion> {
+    public class Games : StaticModel<GameID, GameEntry> {
         public static GameXmlFiles xml;
         protected static CustomGameXmlFile custom;
         public static void saveCustomGames() {
@@ -15,6 +17,9 @@ namespace MASGAU {
 
         public static bool HasUnsubmittedGames {
             get {
+                if (custom == null)
+                    return false;
+
                 foreach (CustomGame game in custom.entries) {
                     if (!game.Submitted)
                         return true;
@@ -22,12 +27,16 @@ namespace MASGAU {
                 return false;
             }
         }
-        public static Queue<CustomGame> UnsubmittedGames {
+        public static Queue<CustomGameEntry> UnsubmittedGames {
             get {
-                Queue<CustomGame> games = new Queue<CustomGame>();
+                Queue<CustomGameEntry> games = new Queue<CustomGameEntry>();
                 foreach (CustomGame game in custom.entries) {
-                    if (!game.Submitted)
-                        games.Enqueue(game);
+                    foreach (CustomGameVersion version in game.Versions) {
+                        CustomGameEntry entry = Games.Get(version.ID) as CustomGameEntry;
+                        if (entry!=null&&!entry.Submitted)
+                            games.Enqueue(entry);
+
+                    }
                 }
                 return games;
             }
@@ -40,8 +49,8 @@ namespace MASGAU {
         }
 
 
-        private static FilteredModel<GameID, GameVersion> _DetectedGames;
-        public static Model<GameID,GameVersion> DetectedGames {
+        private static FilteredModel<GameID, GameEntry> _DetectedGames;
+        public static Model<GameID,GameEntry> DetectedGames {
             get {
                 return _DetectedGames;
             }
@@ -63,7 +72,7 @@ namespace MASGAU {
         public static int detected_games_count {
             get {
                 int i = 0;
-                foreach (GameVersion game in model) {
+                foreach (GameEntry game in model) {
                     if (game.IsDetected)
                         i++;
                 }
@@ -73,7 +82,7 @@ namespace MASGAU {
         public static int monitored_games_count {
             get {
                 int i = 0;
-                foreach (GameVersion game in model) {
+                foreach (GameEntry game in model) {
                     if (game.IsMonitored)
                         i++;
                 }
@@ -87,9 +96,19 @@ namespace MASGAU {
             model.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(GamesHandler_CollectionChanged);
 
 
-            _DetectedGames = new FilteredModel<GameID,GameVersion>(model);
+            _DetectedGames = new FilteredModel<GameID,GameEntry>(model);
             _DetectedGames.AddFilter("IsDetected", true);
         }
+
+        public static bool Contains(GameIdentifier game) {
+            GameID id = new GameID(game);
+            return model.containsId(id);
+        }
+        public static GameEntry Get(GameIdentifier game) {
+            GameID id = new GameID(game);
+            return model.get(id);
+        }
+
 
         static void GamesHandler_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e) {
 
@@ -100,25 +119,25 @@ namespace MASGAU {
             //throw new NotImplementedException();
         }
 
-        public static CustomGame addCustomGame(string title, DirectoryInfo location, string saves, string ignores) {
+        public static CustomGameEntry addCustomGame(string title, DirectoryInfo location, string saves, string ignores) {
             CustomGame game = custom.createCustomGame(title, location, saves, ignores);
-            foreach (GameVersion ver in game.Versions) {
-                ver.Detect();
-                addGame(ver);
-            }
+            CustomGameEntry entry = new CustomGameEntry(game.Versions[0] as CustomGameVersion);
+            entry.Detect();
+            addGame(entry);
+
             custom.Save();
             _DetectedGames.Refresh();
-            return game;
+            return entry;
         }
-        public static void deleteCustomGame(GameVersion version) {
+        public static void deleteCustomGame(GameEntry version) {
             model.Remove(version);
-            Game game = custom.getGame(version.id.Name);
+            GameSaveInfo.Game game = custom.getGame(version.id.Name);
             custom.removeEntry(game);
             custom.Save();
             _DetectedGames.Refresh();
         }
 
-        private static void addGame(GameVersion game) {
+        private static void addGame(GameEntry game) {
             if (model.containsId(game.id)) {
                 throw new Translator.TranslateableException("DuplicateGame", game.id.ToString());
             }
@@ -138,9 +157,14 @@ namespace MASGAU {
             model.Clear();
             if (xml.Entries.Count > 0) {
                 TranslatingProgressHandler.setTranslatedMessage("LoadingGamesData");
-                foreach (Game game in xml.Entries) {
+                foreach (GameSaveInfo.Game game in xml.Entries) {
                     foreach (GameVersion version in game.Versions) {
-                        addGame(version);
+                        try {
+                            GameEntry entry = new GameEntry(version);
+                            addGame(entry);
+                        } catch (Exception e) {
+                            TranslatingMessageHandler.SendException(e);
+                        }
                     }
                 }
             }
@@ -150,18 +174,19 @@ namespace MASGAU {
             if (custom.entries.Count > 0) {
                 foreach (CustomGame game in custom.entries) {
                     foreach (CustomGameVersion version in game.Versions) {
-                        addGame(version);
+                        GameEntry entry = new GameEntry(version);
+                        addGame(entry);
                     }
                 }
             }
         }
 
         public static bool IsNameUsed(string name) {
-            foreach (Game game in xml.Entries) {
+            foreach (GameSaveInfo.Game game in xml.Entries) {
                 if (game.Name == name)
                     return true;
             }
-            foreach (Game game in custom.entries) {
+            foreach (GameSaveInfo.Game game in custom.entries) {
                 if (game.Name == name)
                     return true;
             }
@@ -203,7 +228,7 @@ namespace MASGAU {
                     string_to_use = "DetectingMonitoringGamesProgress";
 
 
-            foreach (GameVersion game in model) {
+            foreach (GameEntry game in model) {
                 //if (_cancelling)
                 //    break;
 
@@ -282,7 +307,7 @@ namespace MASGAU {
             }
 
             e.Result = e.Argument;
-            foreach (GameVersion game in (System.Collections.IEnumerable)e.Argument) {
+            foreach (GameEntry game in (System.Collections.IEnumerable)e.Argument) {
                 try {
                     if (!game.purgeRoot())
                         break;
@@ -292,7 +317,6 @@ namespace MASGAU {
             }
         }
 
-        public Model<ContributorHandler> contributors = new Model<ContributorHandler>();
 
     }
 

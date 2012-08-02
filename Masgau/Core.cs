@@ -41,7 +41,6 @@ namespace MASGAU
 
         public static Version program_version = new Version(0, 9, 9);
 
-        public static Version data_format_version = new Version(2, 0);
 
         // This stores the names of the various programs in masgau
         public static ProgramNames programs = new ProgramNames();

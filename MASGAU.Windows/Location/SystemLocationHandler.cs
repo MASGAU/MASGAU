@@ -6,7 +6,7 @@ using System.Text;
 using MASGAU.Location.Holders;
 using MASGAU.Registry;
 using Translator;
-
+using GameSaveInfo;
 namespace MASGAU.Location {
     public class SystemLocationHandler : ASystemLocationHandler {
         //public string user_root, host_name, program_files, program_files_x86, common_program_files, all_users_profile, public_profile;
@@ -330,8 +330,8 @@ namespace MASGAU.Location {
             }
         }
 
-        public static LocationPathHolder translateToVirtualStore(string path) {
-            LocationPathHolder virtualstore_info = new LocationPathHolder();
+        public static LocationPath translateToVirtualStore(string path) {
+            LocationPath virtualstore_info = new LocationPath();
             virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
 
 
@@ -340,7 +340,7 @@ namespace MASGAU.Location {
             return virtualstore_info;
         }
 
-        protected override DetectedLocations getPaths(LocationPathHolder get_me) {
+        protected override DetectedLocations getPaths(LocationPath get_me) {
             //if(get_me.rel_root!= EnvironmentVariable.Public)
             // return new List<DetectedLocationPathHolder>();
             DetectedLocations return_me = new DetectedLocations();
@@ -348,7 +348,7 @@ namespace MASGAU.Location {
             DirectoryInfo test;
             switch (get_me.rel_root) {
                 case EnvironmentVariable.InstallLocation:
-                    LocationPathHolder temp = new LocationPathHolder(get_me);
+                    LocationPath temp = new LocationPath(get_me);
                     string[] chopped = temp.Path.Split(Path.DirectorySeparatorChar);
                     for (int i = 0; i < chopped.Length; i++) {
                         temp.Path = chopped[i];
@@ -366,13 +366,13 @@ namespace MASGAU.Location {
                     // to make sure nothing is missed, especially in the case of old games
                     // that may or may not use the VirtualStore
                     if (!get_me.override_virtual_store && platform_version == "WindowsVista") {
-                        LocationPathHolder virtualstore_info = new LocationPathHolder(get_me);
+                        LocationPath virtualstore_info = new LocationPath(get_me);
                         virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
 
                         if (x64) {
                             virtualstore_info.Path = Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFilesX86).Substring(3), virtualstore_info.Path);
                             return_me.AddRange(getPaths(virtualstore_info));
-                            virtualstore_info = new LocationPathHolder(get_me);
+                            virtualstore_info = new LocationPath(get_me);
                             virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
                         }
                         virtualstore_info.Path = Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFiles).Substring(3), virtualstore_info.Path);
@@ -408,7 +408,7 @@ namespace MASGAU.Location {
         }
 
 
-        protected override DetectedLocations getPaths(LocationRegistryHolder get_me) {
+        protected override DetectedLocations getPaths(LocationRegistry get_me) {
             DetectedLocations return_me = new DetectedLocations();
 
             RegistryHandler reg;
@@ -456,7 +456,7 @@ namespace MASGAU.Location {
         IntPtr hwndOwner, [Out] StringBuilder lpszPath, int nFolder, bool fCreate);
 
 
-        protected override DetectedLocations getPaths(LocationShortcutHolder get_me) {
+        protected override DetectedLocations getPaths(LocationShortcut get_me) {
             FileInfo the_shortcut;
             //StringBuilder start_menu;
             DetectedLocations return_me = new DetectedLocations();

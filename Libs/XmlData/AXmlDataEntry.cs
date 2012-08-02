@@ -6,7 +6,24 @@ using System.Xml;
 namespace XmlData {
     public abstract class AXmlDataEntry {
         protected XmlDocument doc = null;
+
+        public abstract string ElementName { get; }
+
+        public XmlElement XML {
+            get {
+                if (this.xml == null) {
+                    this.xml = createXml();
+                }
+                return this.xml;
+            }
+            protected set {
+                XML = value;
+            }
+        }
+
         protected XmlElement xml = null;
+        protected AXmlDataEntry() { }
+
         public AXmlDataEntry(XmlDocument document) {
             this.doc = document;
         }
@@ -17,6 +34,9 @@ namespace XmlData {
         }
 
         public XmlElement addAtribute(XmlElement ele, string name, string contents) {
+            if (contents == null)
+                return ele;
+
             XmlAttribute att= this.doc.CreateAttribute(name);
             att.Value = contents;
             ele.Attributes.Append(att);
@@ -32,7 +52,12 @@ namespace XmlData {
             return this.doc.CreateElement(name);
         }
 
+        private XmlElement createXml() {
+            XmlElement ele = this.createElement(this.ElementName);
+            WriteData(ele);
+            return ele;
+        }
         protected abstract void LoadData(XmlElement element);
-        public abstract XmlElement exportXml();
+        protected abstract XmlElement WriteData(XmlElement element);
     }
 }

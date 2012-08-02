@@ -1,5 +1,5 @@
 ﻿
-namespace MASGAU.Registry {
+namespace GameSaveInfo {
     public enum RegRoot {
         classes_root,
         current_user,

@@ -1,7 +1,9 @@
-﻿
+﻿using GameSaveInfo;
 namespace MASGAU.Location.Holders {
-    public class ManualLocationPathHolder : LocationPathHolder {
+    public class ManualLocationPathHolder : LocationPath {
         string manual_path;
+
+
         public ManualLocationPathHolder(string manual_path) {
             this.manual_path = manual_path;
             this.override_virtual_store = true;

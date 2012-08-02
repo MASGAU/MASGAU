@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using Collections;
-
+using GameSaveInfo;
 namespace MASGAU.Location.Holders {
     public class DetectedFiles : DictionaryList<string, DetectedFile> {
         public new KeyCollection Keys {
@@ -18,7 +19,23 @@ namespace MASGAU.Location.Holders {
 
         List<DetectedFile> null_type = new List<DetectedFile>();
 
-        public void AddRange(List<DetectedFile> files) {
+        public void AddFiles(FileType type, DetectedLocationPathHolder location) {
+            foreach (SaveFile file in type.Saves) {
+                AddFiles(file, location);
+            }
+        }
+        public void AddFiles(SaveFile save, DetectedLocationPathHolder location) {
+            foreach (string file in save.FindMatching(location.full_dir_path)) {
+
+                string name = Path.GetFileName(file);
+                string path = file.Substring(0, file.Length - name.Length).Trim(Path.DirectorySeparatorChar);
+
+                DetectedFile detected = new DetectedFile(location, path, name, save.Type);
+                this.Add(detected);
+            }
+        }
+
+        public void AddRange(IEnumerable<DetectedFile> files) {
             foreach (DetectedFile file in files) {
                 Add(file);
             }
@@ -26,10 +43,10 @@ namespace MASGAU.Location.Holders {
 
         public void Add(DetectedFile file) {
             List<DetectedFile> add_here;
-            if (file.type == null) {
+            if (file.Type == null) {
                 add_here = null_type;
             } else {
-                add_here = this.GetList(file.type);
+                add_here = this.GetList(file.Type);
             }
 
             int index = add_here.IndexOf(file);
@@ -50,17 +67,17 @@ namespace MASGAU.Location.Holders {
 
         public void Remove(DetectedFile file) {
             List<DetectedFile> files;
-            if (file.type == null) {
+            if (file.Type == null) {
                 files = null_type;
-            } else if (this.ContainsKey(file.type)) {
-                files = this[file.type];
+            } else if (this.ContainsKey(file.Type)) {
+                files = this[file.Type];
             } else {
                 return;
             }
 
             for (int i = 0; i < files.Count; i++) {
                 DetectedFile check_me = files[i];
-                if (file.type == check_me.type &&
+                if (file.Type == check_me.Type &&
                     file.full_file_path == check_me.full_file_path) {
                     files.RemoveAt(i);
                     i--;

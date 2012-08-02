@@ -4,6 +4,7 @@ using System.IO;
 using Collections;
 using Config;
 using MASGAU.Location.Holders;
+using GameSaveInfo;
 namespace MASGAU.Location {
 
     public abstract class AScummVMLocationHandler : ALocationHandler {
@@ -40,7 +41,7 @@ namespace MASGAU.Location {
             install_path = findInstallPath();
         }
 
-        protected override DetectedLocations getPaths(ScummVMHolder get_me) {
+        protected override DetectedLocations getPaths(ScummVM get_me) {
 
             DetectedLocations return_me = new DetectedLocations();
             if (locations == null) {
@@ -62,7 +63,7 @@ namespace MASGAU.Location {
             return return_me;
         }
 
-        protected DetectedLocations loadLocations(String path, ScummVMHolder scumm, string user) {
+        protected DetectedLocations loadLocations(String path, ScummVM scumm, string user) {
             DetectedLocations locs = Core.locations.interpretPath(path);
 
             locs = filterLocations(locs, scumm, user);
@@ -70,7 +71,7 @@ namespace MASGAU.Location {
             return locs;
         }
 
-        protected DetectedLocations filterLocations(DetectedLocations locs, ScummVMHolder scumm, string user) {
+        protected DetectedLocations filterLocations(DetectedLocations locs, ScummVM scumm, string user) {
             List<string> keys = new List<string>(locs.Keys);
 
             foreach (string key in keys) {
@@ -81,7 +82,7 @@ namespace MASGAU.Location {
             return locs;
         }
 
-        protected bool filterLocation(DetectedLocationPathHolder loc, ScummVMHolder scumm, string user) {
+        protected bool filterLocation(DetectedLocationPathHolder loc, ScummVM scumm, string user) {
             DirectoryInfo dir = new DirectoryInfo(loc.full_dir_path);
             string pattern = scumm.Name + "*";
             if (dir.GetFiles(pattern).Length > 0) {

@@ -1,19 +1,25 @@
 ﻿using System;
 using System.Xml;
-using MASGAU.Registry;
-using MVC;
 
-namespace MASGAU.Location.Holders {
-    public class LocationRegistryHolder : ALocationHolder {
+namespace GameSaveInfo {
+    public class LocationRegistry : ALocation {
         // Used when delaing with a registry key
         public string Root { get; protected set; }
         public string Key { get; protected set; }
         public string Value { get; protected set; }
 
+        public override string ElementName {
+            get { return "registry"; }
+        }
 
-        public LocationRegistryHolder(XmlElement element)
+        public LocationRegistry(XmlElement element)
             : base(element) {
+        }
+        protected override void LoadMoreData(XmlElement element) {
             foreach (XmlAttribute attrib in element.Attributes) {
+                if (attributes.Contains(attrib.Name))
+                    continue;
+
                 switch (attrib.Name) {
                     case "root":
                         Root = attrib.Value;
@@ -24,18 +30,21 @@ namespace MASGAU.Location.Holders {
                     case "value":
                         Value = attrib.Value;
                         break;
-                    case "only_for":
-                    case "detract":
-                    case "append":
-                    case "gsm_id":
-                        break;
                     default:
                         throw new NotSupportedException(attrib.Name);
                 }
             }
         }
-        public override int CompareTo(AModelItem<StringID> comparable) {
-            LocationRegistryHolder location = (LocationRegistryHolder)comparable;
+
+        protected override XmlElement WriteMoreData(XmlElement element) {
+            addAtribute(element, "root", Root);
+            addAtribute(element, "key", Key);
+            addAtribute(element, "value", Value);
+            return element;
+        }
+
+        public override int CompareTo(ALocation comparable) {
+            LocationRegistry location = (LocationRegistry)comparable;
             int result = compare(Root, location.Root);
             if (result == 0)
                 result = compare(Key, location.Key);

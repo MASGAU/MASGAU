@@ -8,7 +8,7 @@
     <ProjectGuid>{937CDE2B-963A-4624-A460-C95676260D35}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GameSave.Info</RootNamespace>
+    <RootNamespace>GameSaveInfo</RootNamespace>
     <AssemblyName>GameSave.Info</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -30,6 +30,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>GameSave.Info.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -40,7 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="enums\GameType.cs" />
+    <Compile Include="enums\RegRoot.cs" />
+    <Compile Include="Files\AFile.cs" />
+    <Compile Include="Files\ExceptFile.cs" />
+    <Compile Include="Files\FileType.cs" />
+    <Compile Include="Files\Identifier.cs" />
+    <Compile Include="Files\SaveFile.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameIdentifier.cs" />
+    <Compile Include="GameVersion.cs" />
+    <Compile Include="GameXmlFile.cs" />
+    <Compile Include="Links.cs" />
+    <Compile Include="Locations\ALocation.cs" />
+    <Compile Include="enums\EnvironmentVariable.cs" />
+    <Compile Include="Locations\LocationParent.cs" />
+    <Compile Include="Locations\LocationPath.cs" />
+    <Compile Include="Locations\LocationRegistry.cs" />
+    <Compile Include="Locations\Locations.cs" />
+    <Compile Include="Locations\LocationShortcut.cs" />
+    <Compile Include="PlayStation\PlayStation1ID.cs" />
+    <Compile Include="PlayStation\PlayStation2ID.cs" />
+    <Compile Include="PlayStation\PlayStation3ID.cs" />
+    <Compile Include="PlayStation\APlayStationID.cs" />
+    <Compile Include="PlayStation\PlayStationPortableID.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScummVM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XmlData\XmlData.csproj">
+      <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
+      <Name>XmlData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="structs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameSave.Info.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

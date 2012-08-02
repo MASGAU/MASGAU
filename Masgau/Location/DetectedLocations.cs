@@ -32,6 +32,7 @@ namespace MASGAU.Location {
             throw new NotImplementedException("Use single-value add instead");
         }
 
+
         public void AddRange(IEnumerable<DetectedLocationPathHolder> items) {
             foreach (DetectedLocationPathHolder item in items) {
                 this.Add(item);

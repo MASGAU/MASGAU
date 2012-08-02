@@ -5,21 +5,22 @@ using MVC.Communication;
 using MVC.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
+using GameSaveInfo;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {
         protected DetectedLocationPathHolder path;
-        protected APCAnalyzer(CustomGame game, RunWorkerCompletedEventHandler when_done)
+        protected APCAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
             : base(game,when_done) {
         }
 
         protected override void analyzerWork() {
             outputLine("Game Name: " + game.Title);
 
-            this.path = game.Versions[0].DetectedLocations.getMostAccurateLocation();
+            this.path = game.DetectedLocations.getMostAccurateLocation();
 
 
 
-            if (path.rel_root == Location.EnvironmentVariable.VirtualStore) {
+            if (path.rel_root == EnvironmentVariable.VirtualStore) {
                 string drive = Path.GetPathRoot(path.full_dir_path);
                 string new_path = Path.Combine(drive, path.Path);
                 this.path = Core.locations.interpretPath(new_path).getMostAccurateLocation();

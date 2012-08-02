@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using MASGAU.Location.Holders;
 using MVC;
+using GameSaveInfo;
 namespace MASGAU.Location {
     public abstract class ALocationHandler : Model<StringID, UserData> {
         public HandlerType type {
@@ -44,27 +45,25 @@ namespace MASGAU.Location {
         }
 
         // Return location holders based on various kinds of input
-        public virtual DetectedLocations getPaths(ALocationHolder get_me) {
+        public virtual DetectedLocations getPaths(ALocation get_me) {
             Type check = get_me.GetType();
-            if (check.Equals(typeof(LocationPathHolder))||check.IsSubclassOf(typeof(LocationPathHolder))) {
-                return getPaths(get_me as LocationPathHolder);
-            } else if (check.Equals(typeof(LocationRegistryHolder))) {
-                return getPaths(get_me as LocationRegistryHolder);
-            } else if (check.Equals(typeof(LocationShortcutHolder))) {
-                return getPaths(get_me as LocationShortcutHolder);
-            } else if (check.Equals(typeof(ScummVMHolder))) {
-                return getPaths(get_me as ScummVMHolder);
-            } else if (check.Equals(typeof(PlayStationID)) ||
-                check.Equals(typeof(PlayStation1ID)) ||
-                check.Equals(typeof(PlayStation2ID)) ||
-                check.Equals(typeof(PlayStation3ID)) ||
-                check.Equals(typeof(PlayStationPortableID))) {
-                return getPaths(get_me as PlayStationID);
+            if (check.Equals(typeof(LocationPath))||check.IsSubclassOf(typeof(LocationPath))) {
+                return getPaths(get_me as LocationPath);
+            } else if (check.Equals(typeof(LocationRegistry))) {
+                return getPaths(get_me as LocationRegistry);
+            } else if (check.Equals(typeof(LocationShortcut))) {
+                return getPaths(get_me as LocationShortcut);
+            } else if (check.Equals(typeof(ScummVM))) {
+                return getPaths(get_me as ScummVM);
+            } else if (check.IsSubclassOf(typeof(APlayStationID))) {
+                return getPaths(get_me as APlayStationID);
+            } else {
+                throw new NotSupportedException(get_me.GetType().ToString());
             }
             return new DetectedLocations();
         }
 
-        protected virtual DetectedLocations getPaths(LocationPathHolder get_me) {
+        protected virtual DetectedLocations getPaths(LocationPath get_me) {
             DetectedLocations return_me = new DetectedLocations();
             if (!ready)
                 return return_me;
@@ -90,19 +89,19 @@ namespace MASGAU.Location {
             return return_me;
         }
 
-        protected virtual DetectedLocations getPaths(LocationRegistryHolder get_me) {
+        protected virtual DetectedLocations getPaths(LocationRegistry get_me) {
             return new DetectedLocations();
         }
 
-        protected virtual DetectedLocations getPaths(LocationShortcutHolder get_me) {
+        protected virtual DetectedLocations getPaths(LocationShortcut get_me) {
             return new DetectedLocations();
         }
 
-        protected virtual DetectedLocations getPaths(PlayStationID get_me) {
+        protected virtual DetectedLocations getPaths(APlayStationID get_me) {
             return new DetectedLocations();
         }
 
-        protected virtual DetectedLocations getPaths(ScummVMHolder get_me) {
+        protected virtual DetectedLocations getPaths(ScummVM get_me) {
             return new DetectedLocations();
         }
         public List<string> getPaths(EnvironmentVariable for_me) {
@@ -130,7 +129,7 @@ namespace MASGAU.Location {
         }
 
         // Gets the absolute root of the provided location
-        public virtual string getAbsolutePath(LocationPathHolder parse_me, string user) {
+        public virtual string getAbsolutePath(LocationPath parse_me, string user) {
             string return_me = getAbsoluteRoot(parse_me, user);
 
             if (return_me != null && parse_me.Path != null && parse_me.Path != "")
@@ -140,7 +139,7 @@ namespace MASGAU.Location {
         }
 
 
-        public virtual string getAbsoluteRoot(LocationPathHolder parse_me, string user) {
+        public virtual string getAbsoluteRoot(LocationPath parse_me, string user) {
             if (user == null) {
                 if (global.hasFolderFor(parse_me.rel_root)) {
                     return global.getFolder(parse_me.rel_root);
@@ -159,12 +158,12 @@ namespace MASGAU.Location {
         // Returns a DetectedLocation that represents the chosen string
         public virtual List<DetectedLocationPathHolder> interpretPath(string interpret_me) {
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
-            LocationPathHolder new_location;
+            LocationPath new_location;
             if (ready) {
                 // this needs to be able to interpret user paths too!
                 foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in global.folders) {
                     if (variable.Value != null && matches(variable.Value.getFolder(), interpret_me)) {
-                        new_location = new LocationPathHolder();
+                        new_location = new LocationPath();
                         new_location.rel_root = variable.Key;
                         if (interpret_me.Length == variable.Value.getFolder().Length)
                             new_location.Path = "";
@@ -176,7 +175,7 @@ namespace MASGAU.Location {
                 foreach (UserData user in this) {
                     foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in user.folders) {
                         if (variable.Value != null && matches(variable.Value.getFolder(), interpret_me)) {
-                            new_location = new LocationPathHolder();
+                            new_location = new LocationPath();
                             new_location.rel_root = variable.Key;
                             if (interpret_me.Length == variable.Value.getFolder().Length)
                                 new_location.Path = "";
