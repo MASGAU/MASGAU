@@ -40,3 +40,6 @@
 [submodule "Libs/WPF"]
 	path = Libs/WPF
 	url = https://github.com/sanmadjack/WPF.CSharp.git
+[submodule "Libs/GameSave.Info"]
+	path = Libs/GameSave.Info
+	url = https://github.com/GameSaveInfo/Lib.CSharp.git
