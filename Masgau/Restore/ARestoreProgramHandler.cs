@@ -97,12 +97,12 @@ namespace MASGAU.Restore {
                 if (location.OnlyFor != null && location.OnlyFor != Core.locations.platform_version)
                     continue;
 
-                if (location.rel_root == EnvironmentVariable.InstallLocation ||
-                    location.rel_root == EnvironmentVariable.SteamCommon)
+                if (location.EV == EnvironmentVariable.InstallLocation ||
+                    location.EV == EnvironmentVariable.SteamCommon)
                     continue;
 
                 // Adds user-friendly menu entries to the root selector
-                switch (location.rel_root) {
+                switch (location.EV) {
                     case EnvironmentVariable.SteamSourceMods:
                         if (Core.locations.steam_detected)
                             addPathCandidate(location);
@@ -124,7 +124,7 @@ namespace MASGAU.Restore {
             // This add already found locations
             foreach (DetectedLocationPathHolder location in game_data.DetectedLocations) {
                 location.IsSelected = true;
-                switch (location.rel_root) {
+                switch (location.EV) {
                     case EnvironmentVariable.ProgramFiles:
                     case EnvironmentVariable.ProgramFilesX86:
                         // This adds a fake VirtualStore folder, just in case
@@ -133,7 +133,7 @@ namespace MASGAU.Restore {
                             temp.AbsoluteRoot = null;
                             temp.owner = location.owner;
                             temp.Path = Path.Combine("VirtualStore", location.full_dir_path.Substring(3));
-                            temp.rel_root = EnvironmentVariable.LocalAppData;
+                            temp.EV = EnvironmentVariable.LocalAppData;
                             addPathCandidate(temp);
                         }
                         addPathCandidate(location);
@@ -223,7 +223,7 @@ namespace MASGAU.Restore {
         }
         public void populateUsers(LocationPath location) {
             user_candidates.Clear();
-            List<string> users = Core.locations.getUsers(location.rel_root);
+            List<string> users = Core.locations.getUsers(location.EV);
             if (users.Count > 0) {
                 user_needed = true;
                 if (users.Count > 1) {
@@ -233,7 +233,7 @@ namespace MASGAU.Restore {
                     NotifyPropertyChanged("only_user");
                 }
             } else {
-                switch (location.rel_root) {
+                switch (location.EV) {
                     case EnvironmentVariable.AllUsersProfile:
                     case EnvironmentVariable.AltSavePaths:
                     case EnvironmentVariable.Drive:
@@ -250,7 +250,7 @@ namespace MASGAU.Restore {
                         user_needed = false;
                         break;
                     default:
-                        throw new TranslateableException("NoUsersForEV", location.rel_root.ToString());
+                        throw new TranslateableException("NoUsersForEV", location.EV.ToString());
                 }
 
             }

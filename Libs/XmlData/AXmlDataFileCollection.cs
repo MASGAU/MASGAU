@@ -46,7 +46,7 @@ namespace XmlData {
             get {
                 List<E> return_me = new List<E>();
                 foreach(F file in this) {
-                    return_me.AddRange(file.entries);
+                    return_me.AddRange(file.Entries);
                 }
                 return return_me;
             }

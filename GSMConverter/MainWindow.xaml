@@ -6,6 +6,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -23,6 +24,11 @@
                 <TextBox Name="output" TextWrapping="Wrap" IsReadOnly="True"  HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" />
             </Grid>
         </GroupBox>
-        <Button Content="Go" Grid.Row="2" Name="GoButton" Click="GoButton_Click" />
+        <GroupBox Header="Game Names"  Grid.Row="2">
+            <Grid>
+                <TextBox Name="names" TextWrapping="Wrap" IsReadOnly="True"  HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" />
+            </Grid>
+        </GroupBox>
+        <Button Content="Go" Grid.Row="3" Name="GoButton" Click="GoButton_Click" />
     </Grid>
 </Window>

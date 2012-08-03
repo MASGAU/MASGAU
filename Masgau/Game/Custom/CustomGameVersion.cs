@@ -10,32 +10,33 @@ using MASGAU.Location.Holders;
 using GameSaveInfo;
 namespace MASGAU {
     public class CustomGameVersion: GameVersion {
-        public CustomGameVersion(GameSaveInfo.Game parent, DirectoryInfo location, string saves, string ignores): base(parent) {
-            this.ID = new GameIdentifier(parent.Name, "Custom");
+        public CustomGameVersion(GameSaveInfo.Game parent, DirectoryInfo location, string saves, string ignores): base(parent, "Windows", "Custom") {
 
             DetectedLocations locs = Core.locations.interpretPath(location.FullName);
             DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
 
-            if (loc.rel_root == EnvironmentVariable.VirtualStore) {
+            if (loc.EV == EnvironmentVariable.VirtualStore) {
                 string drive = Path.GetPathRoot(loc.full_dir_path);
                 string new_path = Path.Combine(drive, loc.Path);
                 loc = Core.locations.interpretPath(new_path).getMostAccurateLocation();
             }
 
-            switch (loc.rel_root) {
+            switch (loc.EV) {
                 case EnvironmentVariable.ProgramFiles:
                 case EnvironmentVariable.ProgramFilesX86:
                 case EnvironmentVariable.Drive:
-                    loc.rel_root = EnvironmentVariable.InstallLocation;
+                    loc.EV = EnvironmentVariable.InstallLocation;
                     break;
             }
 
             this.Locations.Paths.Add(loc);
 
-            FileType type = new FileType("Custom",this.doc);
-            SaveFile save = new SaveFile(saves, null, "Custom",this.doc);
+
+            FileType type = this.addFileType("Custom");
+
+            SaveFile save = type.addSave(saves, null);
             if (ignores != null && ignores != "") {
-                ExceptFile except = new ExceptFile(ignores, null, "Custom", this.doc);
+                ExceptFile except = save.addException(ignores, null);
                 save.Excepts.Add(except);
             }
             type.Add(save);

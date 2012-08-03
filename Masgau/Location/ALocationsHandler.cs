@@ -15,9 +15,7 @@ namespace MASGAU.Location {
         }
 
         public string getFolder(EnvironmentVariable ev, string path) {
-            LocationPath parse_me = new LocationPath();
-            parse_me.Path = path;
-            parse_me.rel_root = ev;
+            LocationPath parse_me = new LocationPath(ev,path);
             foreach (string user in this.getUsers(ev)) {
                 return this.getAbsoluteRoot(parse_me, user);
             }
@@ -35,7 +33,7 @@ namespace MASGAU.Location {
         }
 
 
-        private bool already_setup = false;
+        //private bool already_setup = false;
         public void setup() {
             handlers = new Dictionary<HandlerType, ALocationHandler>();
 
@@ -135,7 +133,7 @@ namespace MASGAU.Location {
         }
 
         public string getAbsolutePath(LocationPath parse_me, string user) {
-            if (parse_me.rel_root == EnvironmentVariable.AltSavePaths) {
+            if (parse_me.EV == EnvironmentVariable.AltSavePaths) {
                 DetectedLocations locs = interpretPath(parse_me.ToString());
                 if (locs.Count > 0)
                     parse_me = locs.getMostAccurateLocation();

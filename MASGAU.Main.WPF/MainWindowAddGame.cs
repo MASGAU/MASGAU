@@ -4,7 +4,7 @@ using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using MVC.Translator;
-using MASGAU.Effects;
+using SMJ.WPF.Effects;
 using MASGAU.Location;
 using MVC.Communication;
 using Translator;

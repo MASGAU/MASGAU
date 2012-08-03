@@ -8,7 +8,7 @@ using System.IO;
 namespace XmlData {
     public abstract class AXmlDataFile<T> : XmlFile where T : AXmlDataEntry {
         protected AXmlDataFile(FileInfo file, bool create): base(file, create) {
-            entries.Clear();
+            Entries.Clear();
             if (DocumentElement == null) {
                 this.AppendChild(CreatRootNode());
             }
@@ -17,7 +17,7 @@ namespace XmlData {
             foreach (XmlElement element in DocumentElement.ChildNodes) {
 //                try {
                     T entry = CreateDataEntry(element);
-                    entries.Add(entry);
+                    Entries.Add(entry);
   //              } catch (Exception e) {
     //                continue;
       //          }
@@ -26,11 +26,13 @@ namespace XmlData {
 
         public void removeEntry(T entry) {
             this.DocumentElement.RemoveChild(entry.XML);
-            this.entries.Remove(entry);
+            this.Entries.Remove(entry);
         }
 
-        public List<T> entries = new List<T>();
-
+        public List<T> Entries = new List<T>();
+        public void sortEntries() {
+            Entries.Sort();
+        }
 //        protected virtual XmlElement LoadRootNode(string name) {
 //            foreach (XmlNode node in this.ChildNodes) {
 
@@ -51,7 +53,7 @@ namespace XmlData {
             XmlElement ele = entry.XML;
             if (ele != null) {
                 DocumentElement.AppendChild(ele);
-                entries.Add(entry);
+                Entries.Add(entry);
             }
         }
 

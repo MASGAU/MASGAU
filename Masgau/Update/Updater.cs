@@ -40,7 +40,7 @@ namespace MASGAU.Update {
             try {
                 document.Load(reader);
             } catch (XmlException e) {
-                throw new TranslateableException("FileCorruptedCritical", updates_file);
+                throw new TranslateableException("FileCorruptedCritical", e, updates_file);
             } finally {
                 reader.Close();
                 stream.Close();

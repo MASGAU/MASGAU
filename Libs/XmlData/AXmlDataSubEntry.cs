@@ -8,12 +8,12 @@ namespace XmlData {
 
         protected AXmlDataEntry Parent = null;
 
-        protected AXmlDataSubEntry(AXmlDataEntry parent): base() {
+        protected AXmlDataSubEntry() : base() { }
+
+        protected AXmlDataSubEntry(AXmlDataEntry parent): base(parent.Doc) {
             this.Parent = parent;
         }
-        public AXmlDataSubEntry(AXmlDataEntry parent, XmlDocument document): base(document) {
-            this.Parent = parent;
-        }
+
         public AXmlDataSubEntry(AXmlDataEntry parent, XmlElement element)
             : base(element.OwnerDocument) {
                 this.Parent = parent;

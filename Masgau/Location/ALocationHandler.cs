@@ -60,7 +60,7 @@ namespace MASGAU.Location {
             } else {
                 throw new NotSupportedException(get_me.GetType().ToString());
             }
-            return new DetectedLocations();
+//            return new DetectedLocations();
         }
 
         protected virtual DetectedLocations getPaths(LocationPath get_me) {
@@ -70,19 +70,19 @@ namespace MASGAU.Location {
 
             DetectedLocationPathHolder add_me;
             foreach (UserData user in this) {
-                if (!user.hasFolderFor(get_me.rel_root))
+                if (!user.hasFolderFor(get_me.EV))
                     continue;
                 add_me = new DetectedLocationPathHolder(get_me);
                 add_me.owner = user.name;
-                add_me.AbsoluteRoot = user.getFolder(get_me.rel_root);
+                add_me.AbsoluteRoot = user.getFolder(get_me.EV);
                 if (add_me.exists) {
                     return_me.Add(add_me);
                 }
             }
-            if (global.hasFolderFor(get_me.rel_root)) {
+            if (global.hasFolderFor(get_me.EV)) {
                 add_me = new DetectedLocationPathHolder(get_me);
                 add_me.owner = null;
-                add_me.AbsoluteRoot = global.getFolder(get_me.rel_root);
+                add_me.AbsoluteRoot = global.getFolder(get_me.EV);
                 if (add_me.exists)
                     return_me.Add(add_me);
             }
@@ -141,13 +141,13 @@ namespace MASGAU.Location {
 
         public virtual string getAbsoluteRoot(LocationPath parse_me, string user) {
             if (user == null) {
-                if (global.hasFolderFor(parse_me.rel_root)) {
-                    return global.getFolder(parse_me.rel_root);
+                if (global.hasFolderFor(parse_me.EV)) {
+                    return global.getFolder(parse_me.EV);
                 }
             } else {
                 foreach (UserData user_data in this) {
-                    if (user_data.name == user && user_data.hasFolderFor(parse_me.rel_root)) {
-                        return user_data.getFolder(parse_me.rel_root);
+                    if (user_data.name == user && user_data.hasFolderFor(parse_me.EV)) {
+                        return user_data.getFolder(parse_me.EV);
                     }
                 }
             }
@@ -163,24 +163,26 @@ namespace MASGAU.Location {
                 // this needs to be able to interpret user paths too!
                 foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in global.folders) {
                     if (variable.Value != null && matches(variable.Value.getFolder(), interpret_me)) {
-                        new_location = new LocationPath();
-                        new_location.rel_root = variable.Key;
+                        string path;
                         if (interpret_me.Length == variable.Value.getFolder().Length)
-                            new_location.Path = "";
+                            path = "";
                         else
-                            new_location.Path = interpret_me.Substring(variable.Value.getFolder().Length + 1);
+                            path = interpret_me.Substring(variable.Value.getFolder().Length + 1);
+
+
+                        new_location = new LocationPath(variable.Key,path);
                         return_me.AddRange(getPaths(new_location));
                     }
                 }
                 foreach (UserData user in this) {
                     foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in user.folders) {
                         if (variable.Value != null && matches(variable.Value.getFolder(), interpret_me)) {
-                            new_location = new LocationPath();
-                            new_location.rel_root = variable.Key;
+                            string path;
                             if (interpret_me.Length == variable.Value.getFolder().Length)
-                                new_location.Path = "";
+                                path = "";
                             else
-                                new_location.Path = interpret_me.Substring(variable.Value.getFolder().Length + 1);
+                                path = interpret_me.Substring(variable.Value.getFolder().Length + 1);
+                            new_location = new LocationPath(variable.Key,path);
                             return_me.AddRange(getPaths(new_location));
                         }
                     }

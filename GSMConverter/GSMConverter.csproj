@@ -113,10 +113,6 @@
       <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
       <Name>XmlData</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Masgau\MASGAU.csproj">
-      <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
-      <Name>MASGAU</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

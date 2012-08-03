@@ -26,9 +26,9 @@ namespace MASGAU.Location.Holders {
         public string full_relative_dir_path {
             get {
                 if (Path == null || Path == "") {
-                    return rel_root.ToString();
+                    return EV.ToString();
                 } else {
-                    return System.IO.Path.Combine(rel_root.ToString(), Path);
+                    return System.IO.Path.Combine(EV.ToString(), Path);
                 }
             }
         }
@@ -56,18 +56,18 @@ namespace MASGAU.Location.Holders {
 
         public override string ToString() {
             string return_me;
-            if (rel_root == EnvironmentVariable.AllUsersProfile ||
-                rel_root == EnvironmentVariable.AltSavePaths ||
-                rel_root == EnvironmentVariable.Drive ||
-                rel_root == EnvironmentVariable.InstallLocation ||
-                rel_root == EnvironmentVariable.ProgramFiles ||
-                rel_root == EnvironmentVariable.ProgramFilesX86 ||
-                rel_root == EnvironmentVariable.Public ||
-                rel_root == EnvironmentVariable.SteamCommon ||
-                rel_root == EnvironmentVariable.SteamSourceMods)
+            if (EV == EnvironmentVariable.AllUsersProfile ||
+                EV == EnvironmentVariable.AltSavePaths ||
+                EV == EnvironmentVariable.Drive ||
+                EV == EnvironmentVariable.InstallLocation ||
+                EV == EnvironmentVariable.ProgramFiles ||
+                EV == EnvironmentVariable.ProgramFilesX86 ||
+                EV == EnvironmentVariable.Public ||
+                EV == EnvironmentVariable.SteamCommon ||
+                EV == EnvironmentVariable.SteamSourceMods)
                 return_me = AbsoluteRoot;
             else
-                return_me = rel_root.ToString();
+                return_me = EV.ToString();
 
             if (Path != null)
                 return_me = System.IO.Path.Combine(return_me, Path);

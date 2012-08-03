@@ -135,9 +135,9 @@ namespace MASGAU.Restore {
                 Restore.RestoreProgramHandler.unsuccesfull_restores.Add(archive.FileName + " - " + Strings.GetLabelString("RestoreNoLocationFound"));
                 this.Close();
             } else if (restore.path_candidates.Count == 1) {
-                if (restore.recommended_path.rel_root == EnvironmentVariable.PS3Export ||
-                    restore.recommended_path.rel_root == EnvironmentVariable.PS3Save ||
-                    restore.recommended_path.rel_root == EnvironmentVariable.PSPSave) {
+                if (restore.recommended_path.EV == EnvironmentVariable.PS3Export ||
+                    restore.recommended_path.EV == EnvironmentVariable.PS3Save ||
+                    restore.recommended_path.EV == EnvironmentVariable.PSPSave) {
                     TranslationHelpers.translate(userBox, "RestoreRemovableDriveChoice");
                     TranslationHelpers.translate(singleUserBox,"RestoreRemovableDrive");
                     singlePathBox.Visibility = System.Windows.Visibility.Collapsed;
@@ -183,9 +183,9 @@ namespace MASGAU.Restore {
                     else
                         userCombo.SelectedIndex = 0;
                 }
-                if (!Core.all_users_mode && restore.recommended_path.rel_root != EnvironmentVariable.PS3Export &&
-                    restore.recommended_path.rel_root != EnvironmentVariable.PS3Save &&
-                    restore.recommended_path.rel_root != EnvironmentVariable.PSPSave)
+                if (!Core.all_users_mode && restore.recommended_path.EV != EnvironmentVariable.PS3Export &&
+                    restore.recommended_path.EV != EnvironmentVariable.PS3Save &&
+                    restore.recommended_path.EV != EnvironmentVariable.PSPSave)
                     otherUserButton.Visibility = System.Windows.Visibility.Visible;
             }
         }

@@ -5,14 +5,15 @@ using System.Text;
 using System.Xml;
 using System.IO;
 using XmlData;
+using GameSaveInfo;
 namespace GSMConverter {
 
     abstract class AConverter: XmlFile {
-        protected MASGAU.GameXmlFile output;
+        public  GameXmlFile output;
 
         protected AConverter(string xml): base(xml) {
             FileInfo file = new FileInfo(Path.GetTempFileName());
-            output = new MASGAU.GameXmlFile(file);
+            output = new GameXmlFile(file);
         }
 
         public XmlDocument export() {
@@ -20,7 +21,7 @@ namespace GSMConverter {
         }
 
         protected string generateName(string input) {
-            return MASGAU.CustomGame.prepareGameName(input);
+            return Game.prepareGameName(input);
         }
 
         private void example(XmlElement entry) {

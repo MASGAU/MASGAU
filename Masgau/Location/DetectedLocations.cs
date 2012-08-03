@@ -10,7 +10,7 @@ namespace MASGAU.Location {
         public DetectedLocationPathHolder getMostAccurateLocation() {
             DetectedLocationPathHolder candidate = null;
             foreach (DetectedLocationPathHolder path in this.Values) {
-                if (candidate == null || candidate.rel_root < path.rel_root)
+                if (candidate == null || candidate.EV < path.EV)
                     candidate = path;
             }
             return candidate;
@@ -21,7 +21,7 @@ namespace MASGAU.Location {
             string key = path.full_dir_path;
             if (this.ContainsKey(key)) {
                 DetectedLocationPathHolder other = this[key];
-                if (path.rel_root > other.rel_root)
+                if (path.EV > other.EV)
                     this[key] = path;
             } else {
                 base.Add(key, path);

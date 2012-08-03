@@ -20,7 +20,7 @@ namespace MASGAU {
                 if (custom == null)
                     return false;
 
-                foreach (CustomGame game in custom.entries) {
+                foreach (CustomGame game in custom.Entries) {
                     if (!game.Submitted)
                         return true;
                 }
@@ -30,7 +30,7 @@ namespace MASGAU {
         public static Queue<CustomGameEntry> UnsubmittedGames {
             get {
                 Queue<CustomGameEntry> games = new Queue<CustomGameEntry>();
-                foreach (CustomGame game in custom.entries) {
+                foreach (CustomGame game in custom.Entries) {
                     foreach (CustomGameVersion version in game.Versions) {
                         CustomGameEntry entry = Games.Get(version.ID) as CustomGameEntry;
                         if (entry!=null&&!entry.Submitted)
@@ -171,8 +171,8 @@ namespace MASGAU {
 
             FileInfo custom_xml = new FileInfo(Path.Combine(xml.common.FullName,"custom.xml"));
             custom = new CustomGameXmlFile(custom_xml);
-            if (custom.entries.Count > 0) {
-                foreach (CustomGame game in custom.entries) {
+            if (custom.Entries.Count > 0) {
+                foreach (CustomGame game in custom.Entries) {
                     foreach (CustomGameVersion version in game.Versions) {
                         GameEntry entry = new GameEntry(version);
                         addGame(entry);
@@ -186,7 +186,7 @@ namespace MASGAU {
                 if (game.Name == name)
                     return true;
             }
-            foreach (GameSaveInfo.Game game in custom.entries) {
+            foreach (GameSaveInfo.Game game in custom.Entries) {
                 if (game.Name == name)
                     return true;
             }

@@ -331,11 +331,7 @@ namespace MASGAU.Location {
         }
 
         public static LocationPath translateToVirtualStore(string path) {
-            LocationPath virtualstore_info = new LocationPath();
-            virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
-
-
-            virtualstore_info.Path = Path.Combine("VirtualStore", path.Substring(2).Trim(Path.DirectorySeparatorChar));
+            LocationPath virtualstore_info = new LocationPath(EnvironmentVariable.LocalAppData,Path.Combine("VirtualStore", path.Substring(2).Trim(Path.DirectorySeparatorChar)));
 
             return virtualstore_info;
         }
@@ -346,7 +342,7 @@ namespace MASGAU.Location {
             DetectedLocations return_me = new DetectedLocations();
             DetectedLocationPathHolder add_me;
             DirectoryInfo test;
-            switch (get_me.rel_root) {
+            switch (get_me.EV) {
                 case EnvironmentVariable.InstallLocation:
                     LocationPath temp = new LocationPath(get_me);
                     string[] chopped = temp.Path.Split(Path.DirectorySeparatorChar);
@@ -355,7 +351,7 @@ namespace MASGAU.Location {
                         for (int j = i + 1; j < chopped.Length; j++) {
                             temp.Path = Path.Combine(temp.Path, chopped[j]);
                         }
-                        temp.rel_root = EnvironmentVariable.ProgramFiles;
+                        temp.EV = EnvironmentVariable.ProgramFiles;
                         return_me.AddRange(getPaths(temp));
                     }
                     return_me.AddRange(base.getPaths(get_me));
@@ -367,13 +363,13 @@ namespace MASGAU.Location {
                     // that may or may not use the VirtualStore
                     if (!get_me.override_virtual_store && platform_version == "WindowsVista") {
                         LocationPath virtualstore_info = new LocationPath(get_me);
-                        virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
+                        virtualstore_info.EV = EnvironmentVariable.LocalAppData;
 
                         if (x64) {
                             virtualstore_info.Path = Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFilesX86).Substring(3), virtualstore_info.Path);
                             return_me.AddRange(getPaths(virtualstore_info));
                             virtualstore_info = new LocationPath(get_me);
-                            virtualstore_info.rel_root = EnvironmentVariable.LocalAppData;
+                            virtualstore_info.EV = EnvironmentVariable.LocalAppData;
                         }
                         virtualstore_info.Path = Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFiles).Substring(3), virtualstore_info.Path);
                         return_me.AddRange(getPaths(virtualstore_info));

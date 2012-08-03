@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Media.Effects;
-using MASGAU.Effects;
+using SMJ.WPF.Effects;
 using MVC.Communication;
 using MVC;
 namespace MASGAU.Main {
@@ -51,19 +51,19 @@ namespace MASGAU.Main {
             GameGrid.IsEnabled = status;
             ArchiveGrid.IsEnabled = status;
 
-            System.Windows.Visibility a, b;
+            System.Windows.Visibility a;
             FadeEffect fade;
             if (status) {
                 // this is when enabled
                 fade = new FadeOutEffect(timing);
                 a = System.Windows.Visibility.Collapsed;
-                b = System.Windows.Visibility.Visible;
+//                b = System.Windows.Visibility.Visible;
                 blur = null;
             } else {
                 fade = new FadeInEffect(timing);
                 // this is when disabled
                 a = System.Windows.Visibility.Visible;
-                b = System.Windows.Visibility.Collapsed;
+  //              b = System.Windows.Visibility.Collapsed;
                 blur = new BlurEffect();
                 blur.Radius = 10;
             }

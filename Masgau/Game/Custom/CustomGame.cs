@@ -25,10 +25,6 @@ namespace MASGAU {
             : base(element) {
         }
 
-        public static string prepareGameName(string title) {
-            string name = Regex.Replace(title, @"[^A-Za-z0-9]+", "");
-            return name;
-        }
 
         public CustomGame(string title, DirectoryInfo location, string saves, string ignores, XmlDocument doc): base(doc){
             this.Title = title;

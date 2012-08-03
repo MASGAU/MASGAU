@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml;
 namespace XmlData {
     public abstract class AXmlDataEntry {
-        protected XmlDocument doc = null;
+        public XmlDocument Doc { get; protected set; }
 
         public abstract string ElementName { get; }
 
@@ -25,7 +25,7 @@ namespace XmlData {
         protected AXmlDataEntry() { }
 
         public AXmlDataEntry(XmlDocument document) {
-            this.doc = document;
+            this.Doc = document;
         }
 
         public AXmlDataEntry(XmlElement element): this(element.OwnerDocument) {
@@ -37,7 +37,7 @@ namespace XmlData {
             if (contents == null)
                 return ele;
 
-            XmlAttribute att= this.doc.CreateAttribute(name);
+            XmlAttribute att= this.Doc.CreateAttribute(name);
             att.Value = contents;
             ele.Attributes.Append(att);
             return ele;
@@ -49,7 +49,7 @@ namespace XmlData {
             return ele;
         }
         public XmlElement createElement(string name) {
-            return this.doc.CreateElement(name);
+            return this.Doc.CreateElement(name);
         }
 
         private XmlElement createXml() {

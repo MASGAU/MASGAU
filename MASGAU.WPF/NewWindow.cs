@@ -67,10 +67,7 @@ namespace MASGAU {
                 folderBrowser.SelectedPath = path;
 
 
-            if (root == null)
-                folderBrowser.RootFolder = Environment.SpecialFolder.MyComputer;
-            else
-                folderBrowser.RootFolder = root;
+            folderBrowser.RootFolder = root;
 
 
             bool try_again = false;

@@ -47,7 +47,7 @@ namespace MASGAU.Location {
 
         private List<DetectedLocationPathHolder> detectPSGame(APlayStationID id, EnvironmentVariable ev) {
             id.Path = null;
-            id.rel_root = ev;
+            id.EV = ev;
             DetectedLocations interim = getPaths(id as LocationPath);
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
             foreach (DetectedLocationPathHolder path in interim) {
@@ -64,7 +64,7 @@ namespace MASGAU.Location {
 
         private List<DetectedLocationPathHolder> detectPS3Export(APlayStationID id) {
             id.Path = null;
-            id.rel_root = EnvironmentVariable.PS3Export;
+            id.EV = EnvironmentVariable.PS3Export;
             DetectedLocations interim = getPaths(id as LocationPath);
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
             foreach (DetectedLocationPathHolder path in interim) {

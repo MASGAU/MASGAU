@@ -54,7 +54,7 @@ namespace MASGAU.Location.Holders {
                 add_here.Add(file);
             } else {
                 DetectedFile existing = add_here[index];
-                if (file.rel_root > existing.rel_root)
+                if (file.EV > existing.EV)
                     add_here[index] = file;
             }
         }

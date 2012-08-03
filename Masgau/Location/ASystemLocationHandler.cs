@@ -23,12 +23,12 @@ namespace MASGAU.Location {
                 if (return_me.Count == 0) {
                     foreach (string drive in drives) {
                         if (interpret_me.StartsWith(drive)) {
-                            new_location = new LocationPath();
-                            new_location.rel_root = EnvironmentVariable.Drive;
+                            string path;
                             if (interpret_me.Length == drive.Length)
-                                new_location.Path = "";
+                                path = "";
                             else
-                                new_location.Path = interpret_me.Substring(drive.Length);
+                                path = interpret_me.Substring(drive.Length);
+                            new_location = new LocationPath(EnvironmentVariable.Drive, path);
                             return_me.AddRange(getPaths(new_location));
                         }
                     }
@@ -43,7 +43,7 @@ namespace MASGAU.Location {
             DetectedLocations return_me = new DetectedLocations();
             DirectoryInfo test;
             DetectedLocationPathHolder add_me;
-            switch (get_me.rel_root) {
+            switch (get_me.EV) {
                 case EnvironmentVariable.InstallLocation:
                     LocationPath temp = new LocationPath(get_me);
                     string[] chopped = temp.Path.Split(Path.DirectorySeparatorChar);
@@ -52,9 +52,9 @@ namespace MASGAU.Location {
                         for (int j = i + 1; j < chopped.Length; j++) {
                             temp.Path = Path.Combine(temp.Path, chopped[j]);
                         }
-                        temp.rel_root = EnvironmentVariable.Drive;
+                        temp.EV = EnvironmentVariable.Drive;
                         return_me.AddRange(getPaths(temp));
-                        temp.rel_root = EnvironmentVariable.AltSavePaths;
+                        temp.EV = EnvironmentVariable.AltSavePaths;
                         return_me.AddRange(getPaths(temp));
                     }
                     break;
@@ -93,7 +93,7 @@ namespace MASGAU.Location {
         }
 
         public override string getAbsoluteRoot(LocationPath parse_me, string user) {
-            switch (parse_me.rel_root) {
+            switch (parse_me.EV) {
                 case EnvironmentVariable.Drive:
                     DetectedLocationPathHolder holder = (DetectedLocationPathHolder)parse_me;
                     return holder.AbsoluteRoot;

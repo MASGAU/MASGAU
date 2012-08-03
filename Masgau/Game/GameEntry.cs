@@ -57,8 +57,6 @@ namespace MASGAU {
 
         public bool Linkable {
             get {
-                if (Core.locations.platform_version == "WindowsXP")
-                    return false;
                 return version.Links.Count > 0;
             }
         }

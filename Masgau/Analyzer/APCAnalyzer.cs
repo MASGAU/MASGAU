@@ -20,7 +20,7 @@ namespace MASGAU.Analyzer {
 
 
 
-            if (path.rel_root == EnvironmentVariable.VirtualStore) {
+            if (path.EV == EnvironmentVariable.VirtualStore) {
                 string drive = Path.GetPathRoot(path.full_dir_path);
                 string new_path = Path.Combine(drive, path.Path);
                 this.path = Core.locations.interpretPath(new_path).getMostAccurateLocation();

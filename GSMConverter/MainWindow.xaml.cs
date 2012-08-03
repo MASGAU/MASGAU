@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
+using GameSaveInfo;
 namespace GSMConverter {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,7 +26,22 @@ namespace GSMConverter {
         private void GoButton_Click(object sender, RoutedEventArgs e) {
 //            try {
                 gsm = new GameSaveManager(input.Text);
-                output.Text = gsm.export().OuterXml;
+
+                StringBuilder entries = new StringBuilder();
+                StringBuilder namesses = new StringBuilder();
+                List<string> game_names = new List<string>();
+
+                gsm.output.sortEntries();
+
+
+                foreach (Game game in gsm.output.Entries) {
+                    entries.AppendLine(game.XML.OuterXml);
+                    namesses.AppendLine("* " + game.Title);
+                }
+
+                output.Text = entries.ToString();
+                names.Text = namesses.ToString();
+
   //         } catch (Exception ex) {
    //             MessageBox.Show(ex.Message + Environment.NewLine + ex.StackTrace);
      //       }

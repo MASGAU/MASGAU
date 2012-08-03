@@ -25,9 +25,7 @@ namespace MASGAU.Analyzer {
                 string virtual_path;
 
                 foreach (string user in Core.locations.getUsers(EnvironmentVariable.LocalAppData)) {
-                    LocationPath parse_me = new LocationPath();
-                    parse_me.Path = "VirtualStore";
-                    parse_me.rel_root = EnvironmentVariable.LocalAppData;
+                    LocationPath parse_me = new LocationPath(EnvironmentVariable.LocalAppData,"VirtualStore");
                     virtual_path = Path.Combine(Core.locations.getAbsoluteRoot(parse_me, user), "VirtualStore");
 
                     virtual_path = Path.Combine(virtual_path, path.full_dir_path.Substring(3));
