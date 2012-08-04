@@ -20,11 +20,11 @@ namespace MASGAU.Location.Holders {
         List<DetectedFile> null_type = new List<DetectedFile>();
 
         public void AddFiles(FileType type, DetectedLocationPathHolder location) {
-            foreach (SaveFile file in type.Saves) {
+            foreach (Include file in type.Inclusions) {
                 AddFiles(file, location);
             }
         }
-        public void AddFiles(SaveFile save, DetectedLocationPathHolder location) {
+        public void AddFiles(Include save, DetectedLocationPathHolder location) {
             foreach (string file in save.FindMatching(location.full_dir_path)) {
 
                 string name = Path.GetFileName(file);

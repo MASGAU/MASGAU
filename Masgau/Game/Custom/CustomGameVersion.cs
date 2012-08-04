@@ -34,10 +34,10 @@ namespace MASGAU {
 
             FileType type = this.addFileType("Custom");
 
-            SaveFile save = type.addSave(saves, null);
+            Include save = type.addSave(saves, null);
             if (ignores != null && ignores != "") {
-                ExceptFile except = save.addException(ignores, null);
-                save.Excepts.Add(except);
+                Exclude except = save.addExclusion(ignores, null);
+                save.Exclusions.Add(except);
             }
             type.Add(save);
             this.FileTypes.Add("Custom",type);

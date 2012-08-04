@@ -288,7 +288,7 @@ namespace MASGAU {
                         files.AddFiles(type, location);
                     }
                     foreach (APlayStationID id in version.PlayStationIDs) {
-                        SaveFile save = id.convertToSaveFile();
+                        Include save = id.convertToSaveFile();
                         files.AddFiles(save, location);
                     }
                 }

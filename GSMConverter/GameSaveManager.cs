@@ -198,7 +198,7 @@ namespace GSMConverter {
             FileType type = version.addFileType("Saves");
 
             foreach (string inc in include.Split('|')) {
-                SaveFile save;
+                Include save;
                 if (inc == "*.*"||inc=="*") {
                     save = type.addSave(null, null);
                 } else {
@@ -206,7 +206,7 @@ namespace GSMConverter {
                 }
                 foreach (string exc in exclude.Split('|')) {
                     if(exc!="")
-                        save.addException(null, exc);
+                        save.addExclusion(null, exc);
                 }
 
             }

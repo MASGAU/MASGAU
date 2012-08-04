@@ -32,29 +32,42 @@ namespace MASGAU.Update {
         public abstract string getName();
         public abstract bool Update();
 
-        protected bool downloadHelper(string target) {
-            string tmp_name = target.Substring(0, target.Length - 3) + "TMP";
 
-            WebClient Client;
-            Stream new_file;
-            FileStream writer;
-            Client = new WebClient();
+        protected string downloadFile(Uri url) {
+            HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
+            webRequest.Method = WebRequestMethods.Http.Get;
+            webRequest.KeepAlive = true;
+            webRequest.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate | DecompressionMethods.None;
+
+            HttpWebResponse response = (HttpWebResponse)webRequest.GetResponse();
+            Stream remote_file = response.GetResponseStream();
+            remote_file.ReadTimeout = 10000;
+
+            string tmp_name = System.IO.Path.GetTempFileName();
+
+            FileStream local_file = new FileStream(tmp_name, FileMode.Create, FileAccess.Write);
+
+            int Length = 256;
+            Byte[] buffer = new Byte[Length];
+            int bytesRead = remote_file.Read(buffer, 0, Length);
+            while (bytesRead > 0) {
+                local_file.Write(buffer, 0, bytesRead);
+                bytesRead = remote_file.Read(buffer, 0, Length);
+            }
+
+            local_file.Close();
+            remote_file.Close();
+
+            return tmp_name;
+        }
+
+        protected bool downloadHelper(string target) {
+            string tmp_name = null;
             foreach (Uri url in URLs) {
                 try {
-                    new_file = Client.OpenRead(url);
-                    writer = new FileStream(tmp_name, FileMode.Create, FileAccess.Write);
+                    tmp_name = downloadFile(url);
 
-                    int Length = 256;
-                    Byte[] buffer = new Byte[Length];
-                    int bytesRead = new_file.Read(buffer, 0, Length);
-                    while (bytesRead > 0) {
-                        writer.Write(buffer, 0, bytesRead);
-                        bytesRead = new_file.Read(buffer, 0, Length);
-                    }
-
-                    writer.Close();
-                    new_file.Close();
-
+                    
                     XmlFile game_config;
                     try {
                         game_config = new XmlFile(new FileInfo(tmp_name), false);
@@ -73,7 +86,8 @@ namespace MASGAU.Update {
                     break;
                 } catch (Exception exception) {
                     Logger.Logger.log(exception);
-                    File.Delete(tmp_name);
+                    if(File.Exists(tmp_name))
+                        File.Delete(tmp_name);
                     return false;
                 }
             }

@@ -89,11 +89,12 @@ namespace MASGAU.Settings {
             Games.Refresh();
         }
 
-        public string EmailRecipent {
+        public override string EmailRecipient {
             get {
                 return Core.submission_email;
             }
             set {
+                base.EmailRecipient = value;
             }
         }
 
