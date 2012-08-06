@@ -168,10 +168,16 @@ namespace MASGAU {
                     }
                 }
             }
-
-            FileInfo custom_xml = new FileInfo(Path.Combine(xml.common.FullName,"custom.xml"));
-            custom = new CustomGameXmlFile(custom_xml);
-            if (custom.Entries.Count > 0) {
+            FileInfo custom_xml = new FileInfo(Path.Combine(xml.common.FullName, "custom.xml"));
+            try {
+                custom = new CustomGameXmlFile(custom_xml);
+            } catch (Exception e) {
+                if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataCorruptedDelete", custom_xml.Name).Cancelled) {
+                    custom_xml.Delete();
+                    custom = new CustomGameXmlFile(custom_xml);
+                }
+            }
+            if (custom!=null&&custom.Entries.Count > 0) {
                 foreach (CustomGame game in custom.Entries) {
                     foreach (CustomGameVersion version in game.Versions) {
                         GameEntry entry = new GameEntry(version);

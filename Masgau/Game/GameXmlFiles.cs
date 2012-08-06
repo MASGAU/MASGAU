@@ -16,15 +16,18 @@ namespace MASGAU.Game {
         FileInfo common_schema;
         FileInfo master_schema;
 
+        public const string SchemaName = "GameSaveInfo20.xsd";
+
         public GameXmlFiles() {
             if (!common.Exists)
                 common.Create();
 
-            master_schema = new FileInfo(Path.Combine(Core.app_path, "data", "GameSaveInfo20.xsd"));
+            master_schema = new FileInfo(Path.Combine(Core.app_path, "data", SchemaName));
             if (!master_schema.Exists)
                 throw new TranslateableException("SchemaNotFound",master_schema.FullName);
 
-            common_schema = new FileInfo(Path.Combine(common.FullName, "games.xsd"));
+            common_schema = new FileInfo(Path.Combine(common.FullName, SchemaName));
+
             if (!common_schema.Exists||common_schema.LastWriteTime<master_schema.LastWriteTime) {
                 master_schema.CopyTo(common_schema.FullName, true);
             }
@@ -63,6 +66,7 @@ namespace MASGAU.Game {
             FileInfo original = new FileInfo(Path.Combine(source.FullName,file.Name));
             return original.Exists;
         }
+
 
         protected override GameXmlFile ReadFile(FileInfo path) {
             bool keep_trying = true;

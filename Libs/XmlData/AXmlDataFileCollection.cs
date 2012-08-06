@@ -36,7 +36,8 @@ namespace XmlData {
             foreach (FileInfo file in files) {
                 F data_file;
                 data_file = ReadFile(file);
-                this.Add(data_file);
+                if(data_file!=null)
+                    this.Add(data_file);
             }
         }
 

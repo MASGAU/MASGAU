@@ -38,7 +38,7 @@ namespace XmlData {
             XmlReader parse_me = XmlReader.Create(file.FullName, xml_settings);
             try {
                 this.Load(parse_me);
-            } catch (XmlException ex) {
+            } catch (Exception ex) {
                 IXmlLineInfo info = parse_me as IXmlLineInfo;
                 throw new XmlException(file.FullName + Environment.NewLine + Environment.NewLine + "Line: " + info.LineNumber + " Column: " + info.LinePosition, ex);
             } finally {
