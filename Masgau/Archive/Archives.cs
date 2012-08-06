@@ -27,8 +27,8 @@ namespace MASGAU {
             return archives;
         }
 
-        public static Archive GetArchive(GameID id, String owner, String type, QuickHash hash) {
-            ArchiveID find_me = new ArchiveID(id, owner, type, hash);
+        public static Archive GetArchive(GameID id, String owner, String type, String absolute_root) {
+            ArchiveID find_me = new ArchiveID(id, owner, type, absolute_root);
             return model.get(find_me);
         }
 

@@ -132,7 +132,7 @@ namespace MASGAU.Restore {
                 singlePathBox.Visibility = System.Windows.Visibility.Visible;
                 restoreButton.IsEnabled = false;
                 TranslationHelpers.translate(pathLabel, "RestoreNoCandidatesFound");
-                Restore.RestoreProgramHandler.unsuccesfull_restores.Add(archive.FileName + " - " + Strings.GetLabelString("RestoreNoLocationFound"));
+                Restore.RestoreProgramHandler.unsuccesfull_restores.Add(archive.ArchivePath + " - " + Strings.GetLabelString("RestoreNoLocationFound"));
                 this.Close();
             } else if (restore.path_candidates.Count == 1) {
                 if (restore.recommended_path.EV == EnvironmentVariable.PS3Export ||
@@ -286,7 +286,7 @@ namespace MASGAU.Restore {
             }
 
             this.Visibility = System.Windows.Visibility.Collapsed;
-            if (SecurityHandler.elevation(Core.programs.restore, "-allusers \"" + restore.archive.FileName + "\""))
+            if (SecurityHandler.elevation(Core.programs.restore, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\""))
                 this.Close();
             else
                 this.Visibility = System.Windows.Visibility.Visible;

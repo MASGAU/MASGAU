@@ -20,7 +20,7 @@ namespace MASGAU.Game {
             if (!common.Exists)
                 common.Create();
 
-            master_schema = new FileInfo(Path.Combine(Core.app_path, "data", "games.xsd"));
+            master_schema = new FileInfo(Path.Combine(Core.app_path, "data", "GameSaveInfo20.xsd"));
             if (!master_schema.Exists)
                 throw new TranslateableException("SchemaNotFound",master_schema.FullName);
 
@@ -56,16 +56,36 @@ namespace MASGAU.Game {
                 }
                 files.Add(file);
             }
-
             return files;
         }
 
+        private bool IsRestorable(FileInfo file) {
+            FileInfo original = new FileInfo(Path.Combine(source.FullName,file.Name));
+            return original.Exists;
+        }
+
         protected override GameXmlFile ReadFile(FileInfo path) {
-            try {
-                GameXmlFile file = new GameXmlFile(path);
-                return file;
-            } catch (XmlException ex) {
-                TranslatingMessageHandler.SendError("XMLFormatError", ex, path.FullName);
+            bool keep_trying = true;
+            while (keep_trying) {
+                try {
+                    GameXmlFile file = new GameXmlFile(path);
+                    return file;
+                } catch (XmlException ex) {
+                    TranslatingMessageHandler.SendError("XMLFormatError", ex, path.FullName);
+                    if (IsRestorable(path)) {
+                        if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataCorruptedRestore", path.Name).Cancelled) {
+                            path.Delete();
+                            prepareDataFiles();
+                        } else {
+                            keep_trying = false;
+                        }
+                    } else {
+                        if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataCorruptedDelete", path.Name).Cancelled) {
+                            path.Delete();
+                        }
+                        keep_trying = false;
+                    }
+                }
             }
             return null;
         }

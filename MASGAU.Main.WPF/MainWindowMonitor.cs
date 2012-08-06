@@ -33,7 +33,10 @@ namespace MASGAU.Main {
                     //notifyIcon.Visible = Core.monitor.Active;
                     break;
                 case "Status":
-                    notifyIcon.Text = Core.monitor.Status;
+                    if(Core.monitor.Status.Length>63)
+                        notifyIcon.Text = Core.monitor.Status.Substring(0,63);
+                    else
+                        notifyIcon.Text = Core.monitor.Status;
                     break;
             }
         }

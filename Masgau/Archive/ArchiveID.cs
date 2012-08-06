@@ -8,7 +8,14 @@ namespace MASGAU {
         public readonly String Owner;
         public readonly GameID Game;
         public readonly String Type;
-        public readonly QuickHash OriginalPathHash = null;
+        public QuickHash OriginalPathHash {
+            get {
+                if (OriginalPath == null)
+                    return null;
+                return new QuickHash(OriginalPath);
+            }
+        }
+        public readonly String OriginalPath;
         // Pre-0.10 MASGAU didn't embed a path hash
 
 
@@ -35,14 +42,16 @@ namespace MASGAU {
                             }
                         }
                         break;
-                    case "original_path_hash":
-                        OriginalPathHash = new QuickHash(element.InnerText);
+                    case "original_path":
+                        OriginalPath = element.InnerText;
                         break;
                     case "owner":
                         if (!element.HasAttribute("name"))
                             throw new Exception("NAME MISSING FROM ARCHIVES");
 
                         Owner = element.GetAttribute("name");
+                        break;
+                    case "original_path_hash":
                         break;
                     default:
                         throw new NotSupportedException(element.Name);
@@ -81,15 +90,20 @@ namespace MASGAU {
                 node.InnerText = OriginalPathHash.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
+            if (OriginalPath != null) {
+                node = doc.CreateElement("original_path");
+                node.InnerText = OriginalPath.ToString();
+                doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
+            }
 
             return doc;
         }
 
-        public ArchiveID(GameID game, String owner, String type, QuickHash original_path_hash) {
+        public ArchiveID(GameID game, String owner, String type, String original_path) {
             this.Game = game;
             this.Owner = owner;
             this.Type = type;
-            this.OriginalPathHash = original_path_hash;
+            OriginalPath = original_path;
         }
 
         public override int GetHashCode() {

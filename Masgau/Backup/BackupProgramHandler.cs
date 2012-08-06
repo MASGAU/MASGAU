@@ -105,20 +105,18 @@ namespace MASGAU.Backup {
                                 if (CancellationPending)
                                     return;
 
-                                QuickHash hash = file.RootHash;
-
-                                archive_id = new ArchiveID(game.id, file.owner, file.Type, hash);
+                                archive_id = new ArchiveID(game.id, file.owner, file.Type, file.AbsoluteRoot);
 
                                 if (archive_name_override != null) {
                                     if (override_archive == null)
-                                        override_archive = new Archive(new FileInfo(archive_name_override), new ArchiveID(game.id, file.owner, null, hash));
+                                        override_archive = new Archive(new FileInfo(archive_name_override), new ArchiveID(game.id, file.owner, null, file.AbsoluteRoot));
                                     archive = override_archive;
                                 } else {
                                     if (Archives.Get(archive_id) == null) {
                                         if (file.owner != null) {
-                                            Archives.Add(new Archive(output_path, new ArchiveID(game.id, file.owner, file.Type, hash)));
+                                            Archives.Add(new Archive(output_path, new ArchiveID(game.id, file.owner, file.Type, file.AbsoluteRoot)));
                                         } else {
-                                            Archives.Add(new Archive(output_path, new ArchiveID(game.id, null, file.Type, hash)));
+                                            Archives.Add(new Archive(output_path, new ArchiveID(game.id, null, file.Type, file.AbsoluteRoot)));
                                         }
                                     }
                                     archive = Archives.Get(archive_id);
@@ -131,9 +129,9 @@ namespace MASGAU.Backup {
 
                             foreach (KeyValuePair<Archive, List<DetectedFile>> backup_file in backup_files) {
                                 if (override_archive == null)
-                                    backup_file.Key.backup(backup_file.Value, false);
+                                    backup_file.Key.backup(backup_file.Value, false,false);
                                 else
-                                    backup_file.Key.backup(backup_file.Value, true);
+                                    backup_file.Key.backup(backup_file.Value, true, false);
                             }
 
                         } catch (Exception ex) {

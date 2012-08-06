@@ -57,6 +57,7 @@
     </Content>
     <Content Include="data\new.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="data\system.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -65,7 +66,7 @@
     <None Include="data\GSM\gsm.xsd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\games.xsd">
+    <Content Include="data\GameSaveInfo20.xsd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

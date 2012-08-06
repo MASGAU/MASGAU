@@ -11,6 +11,7 @@ namespace MASGAU.Location.Holders {
             : base(location) {
             AbsoluteRoot = location.full_dir_path;
             owner = location.owner;
+            this.Path = path;
             this.Name = name;
             this.Type = type;
         }

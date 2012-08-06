@@ -55,6 +55,7 @@
     <Compile Include="XmlFile.cs" />
     <Compile Include="IXmlDataEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlFormatObsoleteException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="xmldata.snk" />

@@ -74,8 +74,8 @@ namespace MASGAU.Restore {
 
             TranslatingProgressHandler.setTranslatedMessage("DetectingGameForRestoration");
 
-            if (!File.Exists(archive.FileName))
-                throw new TranslateableException("FileNotFound", archive.FileName);
+            if (!archive.Exists)
+                throw new TranslateableException("FileNotFound", archive.ArchivePath);
 
             GameID selected_game = archive.id.Game;
             string backup_owner = archive.id.Owner;

@@ -84,6 +84,11 @@ namespace MASGAU.Monitor {
 
         public static void EnqueueFile(MonitorFile file) {
             lock (FileQueue) {
+                if (FileQueue.Count > 0) {
+                    MonitorFile top = FileQueue.Peek();
+                    if (top != null && top.full_path == file.full_path)
+                        return;
+                }
                 FileQueue.Enqueue(file);
             }
         }
@@ -132,28 +137,27 @@ namespace MASGAU.Monitor {
                         if (these_files.Count == 0)
                             continue;
                         foreach (DetectedFile this_file in these_files) {
-                            _status = "BLAH VLAH" + this_file.full_file_path;
+                            _status = game.Name + " updating " + Path.Combine(this_file.Path, this_file.Name);
                             NotifyPropertyChanged("Status");                        
 
                             if (this_file.full_dir_path == null)
                                 continue;
-                            QuickHash hash = this_file.RootHash;
 
-                            Archive archive = Archives.GetArchive(game, this_file.owner, this_file.Type, hash);
+                            Archive archive = Archives.GetArchive(game, this_file.owner, this_file.Type, this_file.AbsoluteRoot);
 
                             try {
                                 if (archive == null) {
                                     if (this_file.owner == null)
-                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, null, this_file.Type, hash));
+                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, null, this_file.Type, this_file.AbsoluteRoot));
                                     else
-                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file.owner, this_file.Type, hash));
+                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file.owner, this_file.Type, this_file.AbsoluteRoot));
                                     Archives.Add(archive);
                                 }
                                 //monitorNotifier.ShowBalloonTip(10, "Safety Will Robinson", "Trying to archive " + file.path, ToolTipIcon.Info);
                                 MessageHandler.suppress_messages = true;
                                 List<DetectedFile> temp_list = new List<DetectedFile>();
                                 temp_list.Add(this_file);
-                                archive.backup(temp_list, false);
+                                archive.backup(temp_list, false, true);
                             } catch {
                                 //monitorNotifier.ShowBalloonTip(10,"Danger Will Robinson","Error while trying to archive " + file.path,ToolTipIcon.Error);
                                 // If something goes wrong during backup, it's probable the file copy.
