@@ -9,8 +9,20 @@ using XmlData;
 using GameSaveInfo;
 namespace MASGAU.Game {
     public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,GameSaveInfo.Game> {
-
-        public DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
+        public CustomGameXmlFile custom { get; protected set;  }
+        public DirectoryInfo DataSource {
+            get {
+                switch (Core.settings.mode) {
+                    case Config.ConfigMode.Portable:
+                        return source;
+                    case Config.ConfigMode.AllUsers:
+                    case Config.ConfigMode.SingleUser:
+                        return common;
+                }
+                return null;
+            }
+        }
+        protected DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
         protected DirectoryInfo source = new DirectoryInfo(Path.Combine(Core.app_path, "data"));
 
         FileInfo common_schema;
@@ -22,6 +34,8 @@ namespace MASGAU.Game {
             if (!common.Exists)
                 common.Create();
 
+
+
             master_schema = new FileInfo(Path.Combine(Core.app_path, "data", SchemaName));
             if (!master_schema.Exists)
                 throw new TranslateableException("SchemaNotFound",master_schema.FullName);
@@ -32,7 +46,18 @@ namespace MASGAU.Game {
                 master_schema.CopyTo(common_schema.FullName, true);
             }
 
-            List<FileInfo> files = prepareDataFiles();
+
+            List<FileInfo> files = new List<FileInfo>();
+            switch(Core.settings.mode) {
+                case Config.ConfigMode.Portable:
+                    files.AddRange(source.GetFiles("*.xml"));
+                    break;
+                case Config.ConfigMode.AllUsers:
+                case Config.ConfigMode.SingleUser:
+                    prepareDataFiles();
+                    files.AddRange(common.GetFiles("*.xml"));
+                    break;
+            }
 
             try {
                 this.LoadXml(files);
@@ -72,8 +97,13 @@ namespace MASGAU.Game {
             bool keep_trying = true;
             while (keep_trying) {
                 try {
-                    GameXmlFile file = new GameXmlFile(path);
-                    return file;
+                    if (path.Name == "custom.xml") {
+                        this.custom = new CustomGameXmlFile(path);
+                        return this.custom;
+                    } else {
+                        GameXmlFile file = new GameXmlFile(path);
+                        return file;
+                    }
                 } catch (XmlException ex) {
                     TranslatingMessageHandler.SendError("XMLFormatError", ex, path.FullName);
                     if (IsRestorable(path)) {

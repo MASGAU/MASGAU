@@ -20,7 +20,7 @@ namespace MASGAU {
 
         public AProgramHandler(ALocationsHandler locations)
             : base() {
-            if (Core.portable_mode)
+            if (Core.Mode>= Config.ConfigMode.Portable)
                 _program_title = Strings.GetLabelString("PortableMode", _program_title);
 
             if (Core.locations == null) {

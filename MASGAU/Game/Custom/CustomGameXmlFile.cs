@@ -21,7 +21,7 @@ namespace MASGAU {
 
         public CustomGame createCustomGame(string title, DirectoryInfo location, string saves, string ignores) {
             CustomGame game = new CustomGame(title, location, saves, ignores, this);
-            
+            game.SourceFile = this;
             this.Add(game);
             return game;
         }

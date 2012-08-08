@@ -5,18 +5,9 @@ using System.Text;
 using System.Xml;
 namespace MASGAU.Update {
     class ProgramUpdate: AUpdate {
-        private bool Portable {
-            get {
-                return Edition == "portable";
-            }
-        }
-
         public override bool UpdateAvailable {
             get {
                 if (OS != "windows")
-                    return false;
-
-                if(Portable!=Core.portable_mode)
                     return false;
 
                 if (Stable != Core.Stable)
@@ -36,14 +27,13 @@ namespace MASGAU.Update {
 
         public override string getName() {
             if (Stable)
-                return OS + Edition + "stable";
+                return OS  + "stable";
             else
-                return OS + Edition + "unstable";
+                return OS  + "unstable";
         }
 
         public Version Version { get; protected set; }
 
-        public string Edition { get; protected set; }
         public string OS { get; protected set; }
         public bool Stable { get; protected set; }
 
@@ -53,7 +43,6 @@ namespace MASGAU.Update {
 
             this.Version = new Version(Int32.Parse(xml.Attributes["majorVersion"].Value),Int32.Parse(xml.Attributes["minorVersion"].Value),Int32.Parse(xml.Attributes["revision"].Value));
 
-            this.Edition = xml.Attributes["edition"].Value;
             this.OS = xml.Attributes["os"].Value;
             this.Stable = Boolean.Parse(xml.Attributes["stable"].Value);
 

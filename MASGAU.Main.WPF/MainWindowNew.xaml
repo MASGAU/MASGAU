@@ -28,7 +28,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-            <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+        <r:Ribbon x:Name="ribbon" WindowIconVisibility="Visible"  SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
             <r:Ribbon.HelpPaneContent>
                 <Grid Margin="0,1,0,0">
                     <Grid.ColumnDefinitions>
@@ -41,7 +41,7 @@
                     <r:RibbonButton Grid.Column="2" SmallImageSource="/WPF;Component/Images/16px/window-close.png" Name="closeButton" Click="closeButton_Click" ToolTip="Exit MASGAU" Margin="0,0,3,0" />
                 </Grid>
             </r:Ribbon.HelpPaneContent>
-                <r:Ribbon.ApplicationMenu>
+            <r:Ribbon.ApplicationMenu>
                 <r:RibbonApplicationMenu KeyTip="M" Label="MASGAU" ToolTip="MASGAU"  Name="appMenu"
                     LargeImageSource="/WPF;Component/Images/16px/view-refresh.png">
 
@@ -63,7 +63,7 @@
                     <r:RibbonButton Label="$AddGame" 
                                     SmallImageSource="/WPF;Component/Images/16px/list-add.png" 
                                     Click="addGame_Click"  Name="addGame" />
-<!--                    <r:RibbonButton Label="$EditGame" 
+                    <!--                    <r:RibbonButton Label="$EditGame" 
                                     SmallImageSource="/WPF;Component/Images/16px/edit-find-replace.png" 
                                      Name="editGame" IsEnabled="False" />-->
                     <r:RibbonButton Label="$DeleteGame" 
@@ -143,7 +143,7 @@
                         <r:RibbonToggleButton Grid.Row="0" Grid.ColumnSpan="2" Label="$VersioningEnable" IsChecked="{Binding VersioningEnabled, Mode=TwoWay}" Name="versioningButton" />
                         <src:RibbonSpinner  Grid.Row="1" TextBoxWidth="30" Grid.Column="0" Label="$VersioningTiming" IsEnabled="{Binding VersioningEnabled}" Name="versioningTiming" Value="{Binding VersioningFrequency, Mode=TwoWay}" />
                         <ComboBox IsEditable="False" Grid.Row="1" Grid.Column="1" IsEnabled="{Binding VersioningEnabled}" Name="versioningTimingUnit" SelectionChanged="versioningTimingUnit_SelectionChanged">
-                            
+
                         </ComboBox>
                         <src:RibbonSpinner  Grid.Row="2" TextBoxWidth="30" Grid.ColumnSpan="2" Label="$VersioningMaxCopies" HorizontalAlignment="Left" IsEnabled="{Binding VersioningEnabled}" Name="versioningMax" Value="{Binding VersioningMax, Mode=TwoWay}" />
                     </Grid>
@@ -156,57 +156,109 @@
             </r:RibbonTab>
         </r:Ribbon>
 
-        <Grid x:Name="subGrid" Grid.Row="1">
+
+        <Grid Name="GameGrid" Grid.Row="1" >
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <Grid Grid.Row="0" Name="AnalyzerReportGrid" Visibility="Collapsed" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Content="$Game" HorizontalAlignment="Center" />
+            <Label Grid.Row="0" Grid.Column="1" Content="$Monitor" HorizontalAlignment="Center"/>
+            <Label Grid.Row="0" Grid.Column="2" Content="$Link" HorizontalAlignment="Center"/>
+            <ListView Grid.Row="1"  Grid.Column="0" Grid.ColumnSpan="4"  Name="gamesLst" ItemsSource="{Binding}" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" SizeChanged="gamesLst_SizeChanged" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding GamesDetected}">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="false">
+                                <Setter Property="Background" Value="{Binding BackgroundColor, Converter={StaticResource ColorConverter}}" />
+                            </Trigger>
+                        </Style.Triggers>
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        <Setter Property="Foreground" Value="{Binding IsDisabled, Converter={StaticResource colorConverter}}"/>
+                        <Setter Property="ToolTip" Value="{Binding ToolTip}"/>
+                        <Setter Property="IsSelected" Value="{Binding IsSelected}" />
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView AllowsColumnReorder="False" ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
+                        <GridViewColumn Width="0" x:Name="gameNameColumn">
+                            <GridViewColumnHeader IsEnabled="False" />
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Name}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="100" x:Name="gameTitleColumn">
+                            <GridViewColumnHeader Content="$Game"  IsEnabled="False" />
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="0,3,0,3">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Grid.Column="0" Text="{Binding Title}"/>
+                                        <TextBlock Text="{Binding TitleAddendum}" Grid.Column="1" HorizontalAlignment="Right" />
+                                    </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="50" x:Name="gameMonitorColumn">
+                            <GridViewColumnHeader Content="$Monitor"  IsEnabled="False" />
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox IsChecked="{Binding IsMonitored, Mode=TwoWay}" IsEnabled="{Binding CanBeMonitored}" ToolTip="{Binding MonitorToolTip}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="50" x:Name="gameLinkColumn">
+                            <GridViewColumnHeader Content="$Link"  IsEnabled="False" />
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox IsChecked="{Binding IsLinked, Mode=TwoWay}" IsEnabled="{Binding Linkable}" ToolTip="{Binding LinkToolTip}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <TextBlock Text="{Binding Name}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid Name="ArchiveGrid" Grid.Row="0" Grid.Column="5" Grid.RowSpan="2" Visibility="Collapsed" Width="202" >
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="131*" />
-                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                <TextBox Grid.Row="0" Name="AnalyzerReportTextBox" Text="{Binding Path=report, Mode=OneWay}" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" />
-                <Label Margin="0,3,0,0" Grid.Row="1" Name="disclaimerLabel" FontWeight="Bold" Foreground="Red" Padding="5,0,5,5">
-                    <TextBlock TextWrapping="Wrap" Name="disclaimerText">
-                        $AnalyzerDisclaimer
+                <Label Margin="0,3,0,0" Grid.Row="0" Grid.Column="0" Padding="5,0,5,5" HorizontalAlignment="Center">
+                    <TextBlock TextWrapping="Wrap" Name="ArchiveCount" TextAlignment="Center">
                     </TextBlock>
                 </Label>
-            </Grid>
 
-
-            <Grid Name="GameGrid" Grid.Row="0" >
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="Auto"/>
-                </Grid.ColumnDefinitions>
-                <ListView Grid.Row="0"  Grid.Column="0"  Name="gamesLst" ItemsSource="{Binding}" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SizeChanged="gamesLst_SizeChanged" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding GamesDetected}">
+                <ListView Grid.Row="1" Grid.Column="0" Name="ArchiveList"  BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ArchiveList_SelectionChanged">
                     <ListView.ItemContainerStyle>
                         <Style TargetType="ListViewItem">
-                            <Style.Triggers>
-                                <Trigger Property="IsSelected" Value="false">
-                                    <Setter Property="Background" Value="{Binding BackgroundColor, Converter={StaticResource ColorConverter}}" />
-                                </Trigger>
-                            </Style.Triggers>
                             <Setter Property="HorizontalContentAlignment" Value="Stretch" />
                             <Setter Property="Foreground" Value="{Binding IsDisabled, Converter={StaticResource colorConverter}}"/>
                             <Setter Property="ToolTip" Value="{Binding ToolTip}"/>
                             <Setter Property="IsSelected" Value="{Binding IsSelected}" />
+                            <Setter Property="Background" Value="{Binding BackgroundColor, Converter={StaticResource ColorConverter}}" />
                         </Style>
                     </ListView.ItemContainerStyle>
                     <ListView.View>
-                        <GridView AllowsColumnReorder="False">
-                            <GridViewColumn Width="0" x:Name="gameNameColumn">
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Name}"/>
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                            <GridViewColumn Width="100" x:Name="gameTitleColumn" Header="$Game">
+                        <GridView AllowsColumnReorder="False" ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
+                            <GridViewColumn Width="200">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <Grid Margin="0,3,0,3">
@@ -214,23 +266,16 @@
                                                 <ColumnDefinition Width="Auto" />
                                                 <ColumnDefinition Width="*" />
                                             </Grid.ColumnDefinitions>
-                                            <TextBlock Grid.Column="0" Text="{Binding Title}"/>
-                                            <TextBlock Text="{Binding TitleAddendum}" Grid.Column="1" HorizontalAlignment="Right" />
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+                                            <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Text="{Binding Title}" />
+                                            <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding LastModified}"/>
+                                            <TextBlock Text="{Binding Type}" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" TextAlignment="Left" />
+                                            <TextBlock Text="{Binding Owner}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" TextAlignment="Right" />
                                         </Grid>
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                            <GridViewColumn Width="50" x:Name="gameMonitorColumn" Header="$Monitor">
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <CheckBox IsChecked="{Binding IsMonitored, Mode=TwoWay}" IsEnabled="{Binding CanBeMonitored}" ToolTip="{Binding MonitorToolTip}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                            <GridViewColumn Width="50" x:Name="gameLinkColumn" Header="$Link">
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <CheckBox IsChecked="{Binding IsLinked, Mode=TwoWay}" IsEnabled="{Binding Linkable}" ToolTip="{Binding LinkToolTip}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
@@ -238,84 +283,45 @@
                     </ListView.View>
                     <ListView.ItemTemplate>
                         <DataTemplate >
-                            <TextBlock Text="{Binding Name}"/>
+                            <TextBlock Text="{Binding Title}"/>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <Grid Name="ArchiveGrid" Grid.Row="0" Grid.Column="1" Visibility="Collapsed" Width="202" >
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <Label Margin="0,3,0,0" Grid.Row="0" Grid.Column="0" Padding="5,0,5,5" HorizontalAlignment="Center">
-                        <TextBlock TextWrapping="Wrap" Name="ArchiveCount" TextAlignment="Center">
-                        </TextBlock>
-                    </Label>
-
-                    <ListView Grid.Row="1" Grid.Column="0" Name="ArchiveList"  BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ArchiveList_SelectionChanged">
-                        <ListView.ItemContainerStyle>
-                            <Style TargetType="ListViewItem">
-                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
-                                <Setter Property="Foreground" Value="{Binding IsDisabled, Converter={StaticResource colorConverter}}"/>
-                                <Setter Property="ToolTip" Value="{Binding ToolTip}"/>
-                                <Setter Property="IsSelected" Value="{Binding IsSelected}" />
-                                <Setter Property="Background" Value="{Binding BackgroundColor, Converter={StaticResource ColorConverter}}" />
-                            </Style>
-                        </ListView.ItemContainerStyle>
-                        <ListView.View>
-                            <GridView AllowsColumnReorder="False" ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
-                                <GridViewColumn Width="200">
-                                    <GridViewColumn.CellTemplate>
-                                        <DataTemplate>
-                                            <Grid Margin="0,3,0,3">
-                                                <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="Auto" />
-                                                    <ColumnDefinition Width="*" />
-                                                </Grid.ColumnDefinitions>
-                                                <Grid.RowDefinitions>
-                                                    <RowDefinition Height="Auto" />
-                                                    <RowDefinition Height="Auto" />
-                                                    <RowDefinition Height="Auto" />
-                                                </Grid.RowDefinitions>
-                                                <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Text="{Binding Title}" />
-                                                <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding LastModified}"/>
-                                                <TextBlock Text="{Binding Type}" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" TextAlignment="Left" />
-                                                <TextBlock Text="{Binding Owner}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" TextAlignment="Right" />
-                                            </Grid>
-                                        </DataTemplate>
-                                    </GridViewColumn.CellTemplate>
-                                </GridViewColumn>
-                            </GridView>
-                        </ListView.View>
-                        <ListView.ItemTemplate>
-                            <DataTemplate >
-                                <TextBlock Text="{Binding Title}"/>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </Grid>
-
-                <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
-                    <StatusBarItem HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="Auto" />
-                            </Grid.ColumnDefinitions>
-                            <Label Name="statusBarLabel" Grid.Column="0" />
-                            <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="2" />
-                            <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Grid.Column="3">
-                                <Button.Content>
-                                    <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Images/16px/steam.png" Height="16" />
-                                </Button.Content>
-                            </Button>
-
-                        </Grid>
-                    </StatusBarItem>
-                </StatusBar>
             </Grid>
+
+            <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Name="statusBar">
+                <StatusBarItem HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Button Visibility="{Binding SingleUserMode, Converter={StaticResource visibleConverter}}" Name="SingleUserModeButton" Click="SingleUserModeButton_Click" Width="Auto" Grid.Column="0">
+                            <Button.Content>
+                                <Image Source="/WPF;Component/Images/16px/system-user.png" Height="16" />
+                            </Button.Content>
+                        </Button>
+                        <Button Visibility="{Binding AllUsersMode, Converter={StaticResource visibleConverter}}" Name="AllUsersModeButton" Click="AllUsersModeButton_Click" Width="Auto" Grid.Column="0">
+                            <Button.Content>
+                                <Image Source="/WPF;Component/Images/16px/system-users.png" Height="16" />
+                            </Button.Content>
+                        </Button>
+
+
+                        <Label Name="statusBarLabel" Grid.Column="1" />
+                        <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="3" />
+                        <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Grid.Column="4">
+                            <Button.Content>
+                                <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Images/16px/steam.png" Height="16" />
+                            </Button.Content>
+                        </Button>
+
+                    </Grid>
+                </StatusBarItem>
+            </StatusBar>
 
         </Grid>
 

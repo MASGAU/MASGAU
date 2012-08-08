@@ -7,6 +7,8 @@ namespace XmlData {
     public abstract class AXmlDataEntry {
         public XmlDocument Doc { get; protected set; }
 
+        public virtual XmlFile SourceFile { get; set; }
+
         public abstract string ElementName { get; }
 
         public XmlElement XML {

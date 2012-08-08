@@ -6,6 +6,14 @@ using System.Xml;
 namespace XmlData {
     public abstract class AXmlDataSubEntry: AXmlDataEntry {
 
+        public override XmlFile SourceFile {
+            get {
+                if (Parent == null)
+                    return null;
+                return Parent.SourceFile;
+            }
+        }
+
         protected AXmlDataEntry Parent = null;
 
         protected AXmlDataSubEntry() : base() { }

@@ -110,6 +110,11 @@ namespace MASGAU {
             }
         }
 
+        public string SourceFile {
+            get {
+                return this.version.SourceFile.File.Name;
+            }
+        }
 
         public new string ToolTip {
             get {

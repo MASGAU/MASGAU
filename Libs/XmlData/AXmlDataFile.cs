@@ -17,6 +17,7 @@ namespace XmlData {
             foreach (XmlElement element in DocumentElement.ChildNodes) {
 //                try {
                     T entry = CreateDataEntry(element);
+                    entry.SourceFile = this;
                     Entries.Add(entry);
   //              } catch (Exception e) {
     //                continue;
@@ -51,6 +52,7 @@ namespace XmlData {
 
         public void Add(T entry) {
             XmlElement ele = entry.XML;
+            entry.SourceFile = this;
             if (ele != null) {
                 DocumentElement.AppendChild(ele);
                 Entries.Add(entry);

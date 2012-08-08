@@ -10,17 +10,16 @@ using GameSaveInfo;
 namespace MASGAU {
     public class Games : StaticModel<GameID, GameEntry> {
         public static GameXmlFiles xml;
-        protected static CustomGameXmlFile custom;
         public static void saveCustomGames() {
-            custom.Save();
+            xml.custom.Save();
         }
 
         public static bool HasUnsubmittedGames {
             get {
-                if (custom == null)
+                if (xml.custom == null)
                     return false;
 
-                foreach (CustomGame game in custom.Entries) {
+                foreach (CustomGame game in xml.custom.Entries) {
                     if (!game.Submitted)
                         return true;
                 }
@@ -30,7 +29,7 @@ namespace MASGAU {
         public static Queue<CustomGameEntry> UnsubmittedGames {
             get {
                 Queue<CustomGameEntry> games = new Queue<CustomGameEntry>();
-                foreach (CustomGame game in custom.Entries) {
+                foreach (CustomGame game in xml.custom.Entries) {
                     foreach (CustomGameVersion version in game.Versions) {
                         CustomGameEntry entry = Games.Get(version.ID) as CustomGameEntry;
                         if (entry!=null&&!entry.Submitted)
@@ -90,6 +89,13 @@ namespace MASGAU {
             }
         }
 
+        public static string GameDataFolder {
+            get {
+                string path = xml.DataSource.FullName;
+
+                return path;
+            }
+        }
 
         static Games() {
             model.PropertyChanged += new PropertyChangedEventHandler(GamesHandler_PropertyChanged);
@@ -120,26 +126,26 @@ namespace MASGAU {
         }
 
         public static CustomGameEntry addCustomGame(string title, DirectoryInfo location, string saves, string ignores) {
-            CustomGame game = custom.createCustomGame(title, location, saves, ignores);
+            CustomGame game = xml.custom.createCustomGame(title, location, saves, ignores);
             CustomGameEntry entry = new CustomGameEntry(game.Versions[0] as CustomGameVersion);
             entry.Detect();
             addGame(entry);
 
-            custom.Save();
+            xml.custom.Save();
             _DetectedGames.Refresh();
             return entry;
         }
         public static void deleteCustomGame(GameEntry version) {
             model.Remove(version);
-            GameSaveInfo.Game game = custom.getGame(version.id.Name);
-            custom.removeEntry(game);
-            custom.Save();
+            GameSaveInfo.Game game = xml.custom.getGame(version.id.Name);
+            xml.custom.removeEntry(game);
+            xml.custom.Save();
             _DetectedGames.Refresh();
         }
 
         private static void addGame(GameEntry game) {
             if (model.containsId(game.id)) {
-                throw new Translator.TranslateableException("DuplicateGame", game.id.ToString());
+                throw new Translator.TranslateableException("DuplicateGame", game.id.ToString(),game.SourceFile,model.get(game.id).SourceFile);
             }
             if (game.id.OS == "PS1") {
                 //                        GameVersion psp_game = 
@@ -168,23 +174,6 @@ namespace MASGAU {
                     }
                 }
             }
-            FileInfo custom_xml = new FileInfo(Path.Combine(xml.common.FullName, "custom.xml"));
-            try {
-                custom = new CustomGameXmlFile(custom_xml);
-            } catch (Exception e) {
-                if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataCorruptedDelete", custom_xml.Name).Cancelled) {
-                    custom_xml.Delete();
-                    custom = new CustomGameXmlFile(custom_xml);
-                }
-            }
-            if (custom!=null&&custom.Entries.Count > 0) {
-                foreach (CustomGame game in custom.Entries) {
-                    foreach (CustomGameVersion version in game.Versions) {
-                        GameEntry entry = new GameEntry(version);
-                        addGame(entry);
-                    }
-                }
-            }
         }
 
         public static bool IsNameUsed(string name) {
@@ -192,7 +181,7 @@ namespace MASGAU {
                 if (game.Name == name)
                     return true;
             }
-            foreach (GameSaveInfo.Game game in custom.Entries) {
+            foreach (GameSaveInfo.Game game in xml.custom.Entries) {
                 if (game.Name == name)
                     return true;
             }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using System.Web;
+using System.IO;
 using GameSaveInfo;
 namespace MASGAU.Update {
     class DataUpdate: AUpdate {
@@ -15,8 +16,8 @@ namespace MASGAU.Update {
         }
 
         public override bool Update() {
-            GameXmlFile file = Games.xml.getFile(this.Name);
-            return this.downloadHelper(file.File.FullName);
+//            GameXmlFile file = Games.xml.getFile(this.Name);
+            return this.downloadHelper(Path.Combine(Games.GameDataFolder,this.Name));
         }
 
         public override int CompareTo(AUpdate update) {
@@ -31,7 +32,7 @@ namespace MASGAU.Update {
             get {
                 GameXmlFile file = Games.xml.getFile(this.Name);
                 if (file == null)
-                    return false;
+                    return true;
 
                 return this.Date > file.date;                    
             }

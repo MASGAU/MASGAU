@@ -11,7 +11,7 @@ namespace MASGAU.Main {
 
             string mode;
 
-            if (all_users_mode)
+            if (AllUsersMode)
                 mode = Strings.GetSourceString("AllUsersMode");
             else
                 mode = Strings.GetSourceString("SingleUserMode");

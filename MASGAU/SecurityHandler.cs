@@ -24,6 +24,24 @@ public class SecurityHandler {
     //}
 
     public static bool elevation(string app_name, string new_args) {
+        StringBuilder arg_string = new StringBuilder();
+        if (new_args != null)
+            arg_string.Append(new_args);
+        string[] args = Environment.GetCommandLineArgs();
+
+        for (int j = 1; j < args.Length; j++) {
+            if (args[j].Contains(" ")) {
+                arg_string.Append(" \"" + args[j] + "\"");
+            } else {
+                arg_string.Append(" " + args[j]);
+            }
+        }
+        return runExe(app_name, arg_string.ToString(), true);
+
+    }
+
+    public static bool runExe(string app_name, string arg_string, bool super) {
+
         ProcessStartInfo superMode = new ProcessStartInfo();
         superMode.UseShellExecute = true;
         superMode.WorkingDirectory = Environment.CurrentDirectory;
@@ -34,25 +52,10 @@ public class SecurityHandler {
             superMode.FileName = app_name;
 
 
-        string[] args = Environment.GetCommandLineArgs();
+        superMode.Arguments = arg_string;
 
-
-        StringBuilder arg_string = new StringBuilder();
-        if (new_args != null)
-            arg_string.Append(new_args);
-
-        for (int j = 1; j < args.Length; j++) {
-            if (args[j].Contains(" ")) {
-                arg_string.Append(" \"" + args[j] + "\"");
-            } else {
-                arg_string.Append(" " + args[j]);
-            }
-        }
-
-        superMode.Arguments = arg_string.ToString();
-
-        //if(!amAdmin())
-        superMode.Verb = "runas";
+        if (super)
+            superMode.Verb = "runas";
 
         try {
             Process p = Process.Start(superMode);

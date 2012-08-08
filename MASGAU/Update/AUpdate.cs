@@ -41,7 +41,7 @@ namespace MASGAU.Update {
 
             HttpWebResponse response = (HttpWebResponse)webRequest.GetResponse();
             Stream remote_file = response.GetResponseStream();
-            remote_file.ReadTimeout = 10000;
+            //remote_file.ReadTimeout = 10000;
 
             string tmp_name = System.IO.Path.GetTempFileName();
 

@@ -160,7 +160,7 @@ namespace MASGAU.Location {
             //Per-user variables
             loadUsersData("current_user", null);
 
-            if (Core.all_users_mode) {
+            if (Core.StaticAllUsersMode) {
                 // All this crap lets me get data from other user's registries
                 IntPtr token = new IntPtr(0);
                 int retval = 0;

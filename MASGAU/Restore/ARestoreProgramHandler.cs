@@ -62,7 +62,7 @@ namespace MASGAU.Restore {
                 string[] args = Environment.GetCommandLineArgs();
                 if (args.Length > 0) {
                     foreach (string arg in args) {
-                        if (!arg.StartsWith("-") && (arg.EndsWith(Core.extension) || arg.EndsWith(Core.extension + "\""))) {
+                        if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
                             archive = new Archive(new FileInfo(arg.Trim('\"')));
                         }
                     }

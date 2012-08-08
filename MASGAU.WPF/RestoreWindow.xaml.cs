@@ -183,7 +183,7 @@ namespace MASGAU.Restore {
                     else
                         userCombo.SelectedIndex = 0;
                 }
-                if (!Core.all_users_mode && restore.recommended_path.EV != EnvironmentVariable.PS3Export &&
+                if (!Core.StaticAllUsersMode && restore.recommended_path.EV != EnvironmentVariable.PS3Export &&
                     restore.recommended_path.EV != EnvironmentVariable.PS3Save &&
                     restore.recommended_path.EV != EnvironmentVariable.PSPSave)
                     otherUserButton.Visibility = System.Windows.Visibility.Visible;

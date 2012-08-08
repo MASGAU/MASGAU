@@ -134,7 +134,7 @@ namespace MASGAU {
 
         #region Constructor
         public Archive(string folder, ArchiveID new_id) :
-            this(new FileInfo(Path.Combine(folder, new_id.ToString()) + Core.extension), new_id) {
+            this(new FileInfo(Path.Combine(folder, new_id.ToString()) + Core.Extension), new_id) {
         }
 
         public Archive(FileInfo archive, ArchiveID new_id) :

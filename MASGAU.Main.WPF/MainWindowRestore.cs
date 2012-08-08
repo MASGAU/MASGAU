@@ -31,6 +31,27 @@ namespace MASGAU.Main {
 
         }
 
+        void MainWindowNew_Drop(object sender, System.Windows.DragEventArgs e) {
+            if (!disabled) {
+                string[] files = (string[])e.Data.GetData(System.Windows.DataFormats.FileDrop);
+                if (files.Length == 0)
+                    return;
+
+                List<Archive> archives = new List<Archive>();
+                foreach (string file in files) {
+                    FileInfo info = new FileInfo(file);
+                    if (info.Extension != Core.Extension)
+                        break;
+                    try {
+                        archives.Add(new Archive(new FileInfo(file)));
+                    } catch (Exception ex) {
+                        showTranslatedError("FileNotArchive", ex, file);
+                    }
+                }
+                Restore.RestoreWindow.beginRestore(this, archives);
+            }
+        }
+
 
 
         private void RestoreOther_Click(object sender, RoutedEventArgs e) {

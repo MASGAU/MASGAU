@@ -23,7 +23,7 @@ namespace MASGAU
         public static System.Threading.Mutex mutex = new System.Threading.Mutex(false, "MASGAU");
 
         // These are values used througout the program
-        public const string extension = ".gb7";
+        public const string Extension = ".gb7";
         public const string seperator = "«";
         public const string owner_seperator = "@";
         public const string version = "1.0";
@@ -31,11 +31,6 @@ namespace MASGAU
         public const string gamesaveinfo_url = "http://gamesave.info/";
         public const string submission_email = "submissions@gamesave.info";
 
-
-
-        // Portable-related settings
-        public static bool portable_mode { get; protected set; }
-        public static string config_location { get; protected set; }
 
         public const bool Stable = true;
 
@@ -61,7 +56,17 @@ namespace MASGAU
         public static StartupHelper startup;
 
         // Indicates wether we're running in all users mode
-        public static bool all_users_mode = false;
+        public static bool StaticAllUsersMode = false;
+        public bool AllUsersMode {
+            get {
+                return StaticAllUsersMode;
+            }
+        }
+        public bool SingleUserMode {
+            get {
+                return !this.AllUsersMode;
+            }
+        }
 
         // Lots of parts of the program would like to know where the exe is
         public static string app_path;
@@ -70,6 +75,11 @@ namespace MASGAU
 
         public BackgroundWorker worker = new BackgroundWorker();
 
+        public static Config.ConfigMode Mode {
+            get {
+                return settings.mode;
+            }
+        }
 
         public bool IsBusy {
             get {
@@ -105,8 +115,6 @@ namespace MASGAU
             }
 
 
-            portable_mode = false;
-            config_location = null;
 
             // Checks if the command line indicates we should be running in all users mode
             string[] args = Environment.GetCommandLineArgs();
@@ -115,15 +123,7 @@ namespace MASGAU
                 switch (args[i])
                 {
                     case "-allusers":
-                        all_users_mode = true;
-                        break;
-                    case "-portable":
-                        portable_mode = true;
-                        break;
-                    case "-config":
-                        i++;
-                        if (args.Length > i)
-                            config_location = args[i];
+                        StaticAllUsersMode = true;
                         break;
                 }
             }
@@ -133,23 +133,7 @@ namespace MASGAU
             app_path = Path.GetDirectoryName(temp.Location);
 
 
-            global::Config.ConfigMode mode;
-            if (portable_mode)
-            {
-                mode = global::Config.ConfigMode.PortableApps;
-            }
-            else
-            {
-                if (all_users_mode)
-                {
-                    mode = global::Config.ConfigMode.SingleUser;
-                }
-                else
-                {
-                    mode = global::Config.ConfigMode.SingleUser;
-                }
-            }
-            settings = new Settings.Settings(mode);
+            settings = new Settings.Settings();
             prepareProgramNames();
 
             email = new Email.EmailHandler(Core.settings.EmailSender, Core.submission_email);

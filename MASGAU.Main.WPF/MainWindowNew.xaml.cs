@@ -11,6 +11,7 @@ using Microsoft.Windows.Controls.Ribbon;
 using Translator;
 using Translator.WPF;
 using System.Windows.Forms;
+using System.IO;
 namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
@@ -23,13 +24,18 @@ namespace MASGAU.Main {
             InitializeComponent();
             notifyIcon.Icon = new System.Drawing.Icon("masgau.ico");
             notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu();
+
+            this.AllowDrop = true;
+            this.Drop += new System.Windows.DragEventHandler(MainWindowNew_Drop);
+
             MenuItem exit = new MenuItem();
-            exit.Text = "Exit MASGAU";
+            exit.Text = Strings.GetLabelString("ExitMASGAU");
             exit.Click += new EventHandler(exit_Click);
             notifyIcon.ContextMenu.MenuItems.Add(exit);
             notifyIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(notifyIcon_MouseClick);
             notifyIcon.Visible = true;
 
+            GameGrid.Background = statusBar.Background;
 
             this.DataContext = Core.settings;
             bindSettingsControls();
@@ -54,6 +60,9 @@ namespace MASGAU.Main {
 
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);
             this.Closing += new CancelEventHandler(Window_Closing);
+
+            AllUsersModeButton.ToolTip = Strings.GetToolTipString("AllUserModeButton");
+            SingleUserModeButton.ToolTip = Strings.GetToolTipString("SingleUserModeButton");
 
             masgau = new MainProgramHandler(new Location.LocationsHandler());
             setupJumpList();
@@ -85,6 +94,8 @@ namespace MASGAU.Main {
             disableInterface();
             gamesLst.DataContext = Games.DetectedGames;
             gamesLst.ItemsSource = Games.DetectedGames;
+
+            AllUsersModeButton.DataContext = masgau;
 
             
             ArchiveList.DataContext = null;
@@ -161,7 +172,8 @@ namespace MASGAU.Main {
         }
 
         private void ChangeBackupFolder_Click(object sender, RoutedEventArgs e) {
-            this.changeBackupPath();
+            if (this.changeBackupPath())
+                askRefreshGames("RefreshForChangedBackupPath");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
@@ -204,6 +216,33 @@ namespace MASGAU.Main {
 
         private void closeButton_Click(object sender, RoutedEventArgs e) {
             this.Close();
+        }
+
+        private void SingleUserModeButton_Click(object sender, RoutedEventArgs e) {
+            if (!System.IO.File.Exists(Core.programs.main)) {
+                this.showTranslatedError("FileNotFoundCritical", Core.programs.main);
+                return;
+            }
+
+            this.Visibility = System.Windows.Visibility.Collapsed;
+            if (SecurityHandler.elevation(Core.programs.main, "-allusers"))
+                this.Close();
+            else
+                this.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void AllUsersModeButton_Click(object sender, RoutedEventArgs e) {
+            if (!System.IO.File.Exists(Core.programs.main)) {
+                this.showTranslatedError("FileNotFoundCritical", Core.programs.main);
+                return;
+            }
+
+            this.Visibility = System.Windows.Visibility.Collapsed;
+            if (SecurityHandler.runExe(Core.programs.main, "", false))
+                this.Close();
+            else
+                this.Visibility = System.Windows.Visibility.Visible;
+
         }
 
 
