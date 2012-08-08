@@ -1,9 +1,3 @@
-[submodule "Translations/Strings"]
-	path = Translations/Strings
-	url = https://github.com/MASGAU/Strings.git
-[submodule "Data/Data"]
-	path = Data/Data
-	url = https://github.com/GameSaveInfo/Data.git
 [submodule "Libs/Collections"]
 	path = Libs/Collections
 	url = https://github.com/sanmadjack/Collections.CSharp.git

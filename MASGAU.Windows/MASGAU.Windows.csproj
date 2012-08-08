@@ -88,10 +88,6 @@
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Data\Data.csproj">
-      <Project>{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}</Project>
-      <Name>Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libs\Email\Email.csproj">
       <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
       <Name>Email</Name>
@@ -111,10 +107,6 @@
     <ProjectReference Include="..\Libs\MVC.Translator\MVC.Translator.csproj">
       <Project>{A0502934-F0B8-40ED-9849-E4392CE37AF4}</Project>
       <Name>MVC.Translator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Translations\Translations.csproj">
-      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
-      <Name>Translations</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libs\Translator\Translator.csproj">
       <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>

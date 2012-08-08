@@ -182,10 +182,6 @@
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Data\Data.csproj">
-      <Project>{BE8FCB2E-AACA-446F-AF9A-F201BE2989C0}</Project>
-      <Name>Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libs\Email.WPF\Email.WPF.csproj">
       <Project>{BE36FFC8-73AA-4234-BF12-342BF3223D00}</Project>
       <Name>Email.WPF</Name>
@@ -213,10 +209,6 @@
     <ProjectReference Include="..\Libs\MVC.WPF\MVC.WPF.csproj">
       <Project>{521A7BAC-6485-4736-9EB4-77F6BB3EE2BF}</Project>
       <Name>MVC.WPF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Translations\Translations.csproj">
-      <Project>{15E3EF1C-3EBB-4263-BABB-03FEDEC6A41E}</Project>
-      <Name>Translations</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libs\Translator\Translator.csproj">
       <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
