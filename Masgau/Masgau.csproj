@@ -124,7 +124,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="structs.cs" />
-    <None Include="Data\GameSaveInfo20.xsd" />
     <None Include="Task\DayOfWeek.cs" />
     <None Include="Task\Frequency.cs" />
     <None Include="Task\TaskHandler.cs" />
@@ -147,19 +146,9 @@
     <Resource Include="Images\flag.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\!test.xml" />
-    <Content Include="Data\changelog.txt" />
-    <Content Include="Data\deprecated.xml" />
-    <Content Include="Data\games.xml" />
-    <Content Include="Data\new.xml" />
-    <Content Include="Data\system.xml" />
     <Content Include="masgau.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Strings\en.xml" />
-    <Content Include="Strings\fr.xml" />
-    <Content Include="Strings\nb-NO.xml" />
-    <Content Include="Strings\olden.xml" />
     <Content Include="updates.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
