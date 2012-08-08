@@ -37,3 +37,9 @@
 [submodule "Libs/GameSave.Info"]
 	path = Libs/GameSave.Info
 	url = https://github.com/GameSaveInfo/Lib.CSharp.git
+[submodule "MASGAU/Data"]
+	path = MASGAU/Data
+	url = https://github.com/GameSaveInfo/Data.git
+[submodule "MASGAU/Strings"]
+	path = MASGAU/Strings
+	url = https://github.com/MASGAU/Strings.git
