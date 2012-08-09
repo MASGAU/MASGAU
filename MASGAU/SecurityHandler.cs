@@ -23,7 +23,7 @@ public class SecurityHandler {
     //    SendMessage(button.Handle, BCM_SETSHIELD, 0, 0xFFFFFFFF);
     //}
 
-    public static bool elevation(string app_name, string new_args) {
+    public static bool elevation(string app_name, string new_args, bool wait_for_exit) {
         StringBuilder arg_string = new StringBuilder();
         if (new_args != null)
             arg_string.Append(new_args);
@@ -36,11 +36,11 @@ public class SecurityHandler {
                 arg_string.Append(" " + args[j]);
             }
         }
-        return runExe(app_name, arg_string.ToString(), true);
+        return runExe(app_name, arg_string.ToString(), true, wait_for_exit);
 
     }
 
-    public static bool runExe(string app_name, string arg_string, bool super) {
+    public static bool runExe(string app_name, string arg_string, bool super, bool wait_for_exit) {
 
         ProcessStartInfo superMode = new ProcessStartInfo();
         superMode.UseShellExecute = true;
@@ -58,9 +58,11 @@ public class SecurityHandler {
 
         try {
             Process p = Process.Start(superMode);
-            p.WaitForExit();
-            if (p.ExitCode != 0) {
-                return false;
+            if (wait_for_exit) {
+                p.WaitForExit();
+                if (p.ExitCode != 0) {
+                    return false;
+                }
             }
         } catch (Exception) {
             return false;

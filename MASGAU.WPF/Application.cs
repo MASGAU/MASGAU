@@ -17,7 +17,7 @@ namespace MASGAU {
 
             if (all_users_mode) {
                 if (!admin_status) {
-                    SecurityHandler.elevation(Core.programs.main, null);
+                    SecurityHandler.elevation(Core.programs.main, null,false);
                     Environment.Exit(0);
                 } else {
                 }

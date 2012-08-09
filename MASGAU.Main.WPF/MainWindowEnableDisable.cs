@@ -41,7 +41,6 @@ namespace MASGAU.Main {
             statusBarLabel.Content = ProgressHandler.message;
         }
 
-        double timing = 5.0;
 
         private void setInterfaceEnabledness(bool status) {
             BlurEffect blur;
