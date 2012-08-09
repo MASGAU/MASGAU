@@ -181,10 +181,6 @@ namespace MASGAU {
                 if (game.Name == name)
                     return true;
             }
-            foreach (GameSaveInfo.Game game in xml.custom.Entries) {
-                if (game.Name == name)
-                    return true;
-            }
             return false;
         }
 
@@ -296,20 +292,24 @@ namespace MASGAU {
         }
 
         private static void purgeRoots(object sender, DoWorkEventArgs e) {
-            if (TranslatingRequestHandler.Request(RequestType.Question, "PurgeConfirmation").Cancelled) {
-                e.Cancel = true;
-                return;
-            }
-
-            e.Result = e.Argument;
+//            if (TranslatingRequestHandler.Request(RequestType.Question, "PurgeConfirmation").Cancelled) {
+  //              e.Cancel = true;
+    //            return;
+      //      }
+            ProgressHandler.saveMessage();            
+            e.Result = false;
             foreach (GameEntry game in (System.Collections.IEnumerable)e.Argument) {
+                TranslatingProgressHandler.setTranslatedMessage("Purging", game.Title);
                 try {
-                    if (!game.purgeRoot())
+                    if (game.purge(false))
+                        e.Result = true;
+                    else
                         break;
                 } catch (Exception ex) {
                     TranslatingMessageHandler.SendError("PurgeError", ex);
                 }
             }
+            ProgressHandler.restoreMessage();
         }
 
 

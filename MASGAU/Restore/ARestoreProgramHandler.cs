@@ -16,7 +16,10 @@ namespace MASGAU.Restore {
         public static List<string> unsuccesfull_restores = new List<string>();
         public static Boolean overall_stop = false;
 
+
         public ObservableCollection<LocationPath> path_candidates;
+        
+        
         public ObservableCollection<string> user_candidates;
         public Archive archive;
 
@@ -39,7 +42,7 @@ namespace MASGAU.Restore {
                         path_candidates.Remove(path);
                         break;
                     }
-                } else if (path.ToString().Equals(location.ToString())) {
+                } else if (path.full_relative_dir_path.Equals(location.full_relative_dir_path)) {
                     if (location.GetType() == typeof(DetectedLocationPathHolder)) {
                         path_candidates.Remove(path);
                         path_candidates.Add(location);
@@ -207,7 +210,7 @@ namespace MASGAU.Restore {
                     if (path.GetType() == typeof(ManualLocationPathHolder)) {
                         return path;
                     }
-                    if (candidate != null && path.GetType() == typeof(DetectedLocationPathHolder)) {
+                    if (candidate == null && path.GetType() == typeof(DetectedLocationPathHolder)) {
                         DetectedLocationPathHolder det_path = path as DetectedLocationPathHolder;
                         if (det_path.RootHash == archive.id.OriginalPathHash) {
                             return det_path;

@@ -99,6 +99,7 @@
     <Compile Include="MainWindowMonitor.cs" />
     <Compile Include="MainWindowRestore.cs" />
     <Compile Include="MainWindowRibbon.cs" />
+    <Compile Include="NotifierIcon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ReportWindow.xaml.cs">
       <DependentUpon>ReportWindow.xaml</DependentUpon>

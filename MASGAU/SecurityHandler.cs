@@ -51,7 +51,6 @@ public class SecurityHandler {
         else
             superMode.FileName = app_name;
 
-
         superMode.Arguments = arg_string;
 
         if (super)

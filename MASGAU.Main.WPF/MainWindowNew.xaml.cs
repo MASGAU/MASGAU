@@ -5,36 +5,31 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
+using System.Diagnostics;
 using MVC.Communication;
+using MVC.Translator;
 using MVC.WPF;
 using Microsoft.Windows.Controls.Ribbon;
 using Translator;
 using Translator.WPF;
 using System.Windows.Forms;
 using System.IO;
+using SMJ.WPF.Effects;
 namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
     /// </summary>
     public partial class MainWindowNew : NewWindow, IWindow {
         MainProgramHandler masgau;
-        NotifyIcon notifyIcon = new NotifyIcon();
+        NotifierIcon notifier;
 
         public MainWindowNew() {
             InitializeComponent();
-            notifyIcon.Icon = new System.Drawing.Icon("masgau.ico");
-            notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu();
-
+            notifier = new NotifierIcon(this);
             this.AllowDrop = true;
             this.Drop += new System.Windows.DragEventHandler(MainWindowNew_Drop);
 
-            MenuItem exit = new MenuItem();
-            exit.Text = Strings.GetLabelString("ExitMASGAU");
-            exit.Click += new EventHandler(exit_Click);
-            notifyIcon.ContextMenu.MenuItems.Add(exit);
-            notifyIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(notifyIcon_MouseClick);
-            notifyIcon.Visible = true;
-
+            VersionLabel.Content = Strings.GetLabelString("MASGAUAboutVersion",Core.program_version.ToString());
             GameGrid.Background = statusBar.Background;
 
             this.DataContext = Core.settings;
@@ -132,9 +127,6 @@ namespace MASGAU.Main {
         #endregion
 
         #region About stuff
-        private void AboutButton_Click(object sender, RoutedEventArgs e) {
-
-        }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e) {
         }
@@ -154,8 +146,8 @@ namespace MASGAU.Main {
         private void Window_Closing_1(object sender, CancelEventArgs e) {
 
             cancelWorkers();
-            notifyIcon.Visible = false;
-            notifyIcon.Dispose();
+            notifier.Visible = false;
+            notifier.Dispose();
         }
 
 
@@ -184,7 +176,7 @@ namespace MASGAU.Main {
             DragMove();
         }
 
-        protected void updateWindowState() {
+        public void updateWindowState() {
             switch(this.WindowState) {
                 case System.Windows.WindowState.Normal:
                     Core.settings.WindowState = global::Config.WindowState.Normal;
@@ -242,6 +234,56 @@ namespace MASGAU.Main {
                 this.Close();
             else
                 this.Visibility = System.Windows.Visibility.Visible;
+
+        }
+
+        private void gameSaveLink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e) {
+            Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));
+            e.Handled = true;
+        }
+
+        protected void openSubWindow(System.Windows.Controls.Grid grid) {
+            ribbon.IsEnabled = false;
+            GameGrid.IsEnabled = false;
+            ArchiveGrid.IsEnabled = false;
+            FadeEffect fade = new FadeInEffect(timing);
+            fade.Start(grid);
+
+        }
+        protected void closeSubWindow(System.Windows.Controls.Grid grid) {
+            FadeEffect fade = new FadeOutEffect(timing);
+            fade.Start(grid);
+            ribbon.IsEnabled = true;
+            GameGrid.IsEnabled = true;
+            ArchiveGrid.IsEnabled = true;
+
+        }
+
+        private void AboutButton_Click(object sender, RoutedEventArgs e) {
+            openSubWindow(AboutGrid);
+
+        }
+
+        private void AboutCloseButton_Click(object sender, RoutedEventArgs e) {
+            closeSubWindow(AboutGrid);
+
+        }
+
+        private void RibbonMenuItem_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void PurgeGameButton_Click(object sender, RoutedEventArgs e) {
+            Games.purgeGames(gamesLst.SelectedItems, purgeDone);
+        }
+        protected virtual void purgeDone(object sender, RunWorkerCompletedEventArgs e) {
+            if (((bool)e.Result) == true) {
+                this.askRefreshGames("");
+
+            }
+        }
+
+        private void PurgeGameArchivesButton_Click(object sender, RoutedEventArgs e) {
 
         }
 

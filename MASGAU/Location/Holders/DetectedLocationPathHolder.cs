@@ -23,15 +23,6 @@ namespace MASGAU.Location.Holders {
         // Holds the associated user for this folder
         public string owner;
 
-        public string full_relative_dir_path {
-            get {
-                if (Path == null || Path == "") {
-                    return EV.ToString();
-                } else {
-                    return System.IO.Path.Combine(EV.ToString(), Path);
-                }
-            }
-        }
 
         // Gets the full absolute path of the folfer
         public string full_dir_path {

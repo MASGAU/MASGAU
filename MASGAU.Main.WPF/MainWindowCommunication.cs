@@ -43,7 +43,7 @@ namespace MASGAU.Main {
             if (e.message != null) {
                 progressLabel.Content = e.message;
                 if (this.Visibility != System.Windows.Visibility.Visible)
-                    sendBalloon(e.message);
+                    notifier.sendBalloon(e.message);
             }
 
             WPFCommunicationHelpers.ApplyProgress(progress, e);

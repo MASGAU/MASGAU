@@ -370,28 +370,31 @@ namespace MASGAU {
 
 
         #region Purging Methods
-        public bool purgeRoot() {
+        public bool purge(bool include_archives) {
             List<string> options = new List<string>();
-            options.Add("Purge All Detected Roots");
+            string all_option = Strings.GetLabelString("PurgeAllRoots");
+            string question;
+            if (include_archives)
+                question = "PurgeGameAndArchivesQuestion";
+            else
+                question = "PurgeJustGameQuestion";
+
+            options.Add(all_option);
             foreach (DetectedLocationPathHolder root in DetectedLocations) {
                 if (!options.Contains((Path.Combine(root.AbsoluteRoot, root.Path))))
                     options.Add(Path.Combine(root.AbsoluteRoot, root.Path));
             }
 
-            if (options.Count > 2) {
-                RequestReply info = TranslatingRequestHandler.Request(RequestType.Choice, "PurgeRootChoice", options[0], options);
-                if (info.Cancelled) {
-                    return false;
-                }
-                if (info.SelectedIndex == 0) {
-                    foreach (DetectedLocationPathHolder delete_me in DetectedLocations) {
-                        delete_me.delete();
-                    }
-                } else {
-                    DetectedLocations[info.SelectedOption].delete();
+            RequestReply info = TranslatingRequestHandler.Request(RequestType.Choice, question, options, options[0]);
+            if (info.Cancelled) {
+                return false;
+            }
+            if (info.SelectedIndex == 0) {
+                foreach (DetectedLocationPathHolder delete_me in DetectedLocations) {
+                    delete_me.delete();
                 }
             } else {
-                DetectedLocations[options[1]].delete();
+                DetectedLocations[info.SelectedOption].delete();
             }
             return true;
         }

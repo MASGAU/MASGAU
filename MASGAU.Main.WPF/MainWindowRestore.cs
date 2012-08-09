@@ -7,9 +7,16 @@ using System.Windows;
 using Translator;
 using Translator.WPF;
 using System.IO;
+using MVC.Communication;
 using MASGAU.WPF;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
+
+        protected void beginRestore(List<Archive> archives) {
+            Restore.RestoreWindow.beginRestore(this, archives);
+
+        }
+
 
         private void RestoreSelected_Click(object sender, RoutedEventArgs e) {
             int selected_count = ArchiveList.SelectedItems.Count;
@@ -18,7 +25,7 @@ namespace MASGAU.Main {
                 foreach (Archive archive in ArchiveList.SelectedItems) {
                     archives.Add(archive);
                 }
-                Restore.RestoreWindow.beginRestore(this, archives);
+                beginRestore(archives);
             }
         }
 
@@ -48,7 +55,7 @@ namespace MASGAU.Main {
                         showTranslatedError("FileNotArchive", ex, file);
                     }
                 }
-                Restore.RestoreWindow.beginRestore(this, archives);
+                beginRestore(archives);
             }
         }
 
@@ -73,7 +80,7 @@ namespace MASGAU.Main {
                             showTranslatedError("FileNotArchive", ex, file);
                         }
                     }
-                    Restore.RestoreWindow.beginRestore(this, archives);
+                    beginRestore(archives);
                 }
             }
         }

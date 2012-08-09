@@ -29,7 +29,10 @@ namespace MASGAU {
                     break;
             }
 
-            this.Locations.Paths.Add(loc);
+
+            LocationPath locpath = new LocationPath(this.Locations, loc.EV, loc.Path);
+
+            this.Locations.Paths.Add(locpath);
 
 
             FileType type = this.addFileType("Custom");
@@ -37,10 +40,7 @@ namespace MASGAU {
             Include save = type.addSave(saves, null);
             if (ignores != null && ignores != "") {
                 Exclude except = save.addExclusion(ignores, null);
-                save.Exclusions.Add(except);
             }
-            type.Add(save);
-            this.FileTypes.Add("Custom",type);
 
             if (Core.settings.EmailSender != null)
                 this.Contributors.Add(Core.settings.EmailSender);

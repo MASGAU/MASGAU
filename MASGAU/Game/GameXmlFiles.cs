@@ -61,6 +61,8 @@ namespace MASGAU.Game {
 
             try {
                 this.LoadXml(files);
+                if (this.custom == null)
+                    this.custom = new CustomGameXmlFile(new FileInfo(Path.Combine(DataSource.FullName, "custom.xml")));
             } catch (DirectoryNotFoundException e) {
                 throw new TranslateableException("CouldNotFindGameProfilesFolder",e);
             } catch (FileNotFoundException e) {

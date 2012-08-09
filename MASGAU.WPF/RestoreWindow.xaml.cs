@@ -92,8 +92,8 @@ namespace MASGAU.Restore {
 
 
         public static void beginRestore(ACommunicationWindow parent, List<Archive> archives) {
+            ProgressHandler.saveMessage();
             parent.hideInterface();
-
             if (archives.Count > 1 && !TranslatingRequestHandler.Request(RequestType.Question,"RestoreMultipleArchives").Cancelled ) {
                 Restore.RestoreProgramHandler.use_defaults = true;
             }
@@ -118,6 +118,7 @@ namespace MASGAU.Restore {
                 TranslatingMessageHandler.SendError("RestoreSomeFailed", fail_list.ToString());
             }
             parent.showInterface();
+            ProgressHandler.restoreMessage();
         }
 
         public override void updateProgress(MVC.Communication.ProgressUpdatedEventArgs e) {
@@ -200,6 +201,7 @@ namespace MASGAU.Restore {
 
             cancelButton.IsEnabled = false;
             close_when_done = true;
+
 
             if (restore.restore_worker == null || !restore.restore_worker.IsBusy) {
                 try {

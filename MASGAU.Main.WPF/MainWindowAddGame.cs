@@ -107,19 +107,11 @@ namespace MASGAU.Main {
 
 
         private void addGame_Click(object sender, RoutedEventArgs e) {
-            FadeEffect fade = new FadeInEffect(timing);
-            fade.Start(AddGameGrid);
-            ribbon.IsEnabled = false;
-            GameGrid.IsEnabled = false;
-            ArchiveGrid.IsEnabled = false;
+            openSubWindow(AddGameGrid);
         }
 
         private void closeAddGame(bool reset) {
-            FadeEffect fade = new FadeOutEffect(timing);
-            fade.Start(AddGameGrid);
-            ribbon.IsEnabled = true;
-            GameGrid.IsEnabled = true;
-            ArchiveGrid.IsEnabled = true;
+            closeSubWindow(AddGameGrid);
 
             if (reset) {
                 AddGameTitle.Value = "";
