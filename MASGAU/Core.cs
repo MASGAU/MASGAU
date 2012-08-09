@@ -109,10 +109,10 @@ namespace MASGAU
         private static bool mutex_acquired = false;
         static Core()
         {
-            if (!mutex_acquired && !mutex.WaitOne(100))
-            {
-                throw new TranslateableException("NoMultipleInstances");
-            }
+            //if (!mutex_acquired && !mutex.WaitOne(100))
+            //{
+              //  throw new TranslateableException("NoMultipleInstances");
+            //}
 
 
 

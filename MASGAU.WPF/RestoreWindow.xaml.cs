@@ -286,7 +286,7 @@ namespace MASGAU.Restore {
             }
 
             this.Visibility = System.Windows.Visibility.Collapsed;
-            if (SecurityHandler.elevation(Core.programs.restore, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\""))
+            if (SecurityHandler.elevation(Core.programs.restore, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"",true))
                 this.Close();
             else
                 this.Visibility = System.Windows.Visibility.Visible;

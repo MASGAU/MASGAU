@@ -66,6 +66,10 @@ namespace MASGAU.Game {
             } catch (FileNotFoundException e) {
                 throw new TranslateableException("NoXmlFilesInDataFolder",e);
             }
+
+            if (this.custom == null) {
+                this.custom = new CustomGameXmlFile(new FileInfo(Path.Combine(source.FullName, "custom.xml")));
+            }
         }
         public GameXmlFile getFile(string name) {
             foreach(GameXmlFile file in this) {

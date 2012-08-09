@@ -224,11 +224,11 @@ namespace MASGAU.Main {
                 return;
             }
 
-            this.Visibility = System.Windows.Visibility.Collapsed;
-            if (SecurityHandler.elevation(Core.programs.main, "-allusers"))
+            toggleVisibility();
+            if (SecurityHandler.elevation(Core.programs.main, "-allusers", false))
                 this.Close();
             else
-                this.Visibility = System.Windows.Visibility.Visible;
+                toggleVisibility();
         }
 
         private void AllUsersModeButton_Click(object sender, RoutedEventArgs e) {
@@ -237,11 +237,12 @@ namespace MASGAU.Main {
                 return;
             }
 
-            this.Visibility = System.Windows.Visibility.Collapsed;
-            if (SecurityHandler.runExe(Core.programs.main, "", false))
+
+            toggleVisibility();
+            if (SecurityHandler.runExe(Core.programs.main, "", false, false))
                 this.Close();
             else
-                this.Visibility = System.Windows.Visibility.Visible;
+                toggleVisibility();
 
         }
 

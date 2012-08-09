@@ -181,10 +181,6 @@ namespace MASGAU {
                 if (game.Name == name)
                     return true;
             }
-            foreach (GameSaveInfo.Game game in xml.custom.Entries) {
-                if (game.Name == name)
-                    return true;
-            }
             return false;
         }
 

@@ -359,7 +359,7 @@ namespace MASGAU {
                 MVC.Communication.Interface.InterfaceHandler.disableInterface();
                 if (!TranslatingRequestHandler.Request(RequestType.Question, "UnableToCreateOutputFolderRequest", destination).Cancelled) {
                     try {
-                        SecurityHandler.elevation(Core.programs.restore, "\"" + ArchiveFile.FullName + "\"");
+                        SecurityHandler.elevation(Core.programs.restore, "\"" + ArchiveFile.FullName + "\"",true);
                         return true;
                     } catch (Exception e) {
                         throw new TranslateableException("RestoreProgramNotFound", e, Core.programs.restore);
