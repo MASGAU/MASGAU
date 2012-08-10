@@ -172,9 +172,6 @@ namespace MASGAU.Main {
 
         }
 
-        private void LayoutRoot_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
-            DragMove();
-        }
 
         public void updateWindowState() {
             switch(this.WindowState) {
@@ -198,10 +195,13 @@ namespace MASGAU.Main {
         }
 
         private void maximizeButton_Click(object sender, RoutedEventArgs e) {
-            if(this.WindowState == System.Windows.WindowState.Maximized)
+            if (this.WindowState == System.Windows.WindowState.Maximized) {
+                AllBorder.BorderThickness = new Thickness(5);
                 this.WindowState = System.Windows.WindowState.Normal;
-            else
+            } else {
+                AllBorder.BorderThickness = new Thickness(0);
                 this.WindowState = System.Windows.WindowState.Maximized;
+            }
             updateWindowState();
 
         }
@@ -287,6 +287,7 @@ namespace MASGAU.Main {
         private void PurgeGameArchivesButton_Click(object sender, RoutedEventArgs e) {
 
         }
+
 
 
     }
