@@ -15,7 +15,7 @@
         <GroupBox Header="Input" Name="groupBox1" >
             <Grid>
                 <TextBox Name="input" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True"  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-              
+
                 </TextBox>
             </Grid>
         </GroupBox>

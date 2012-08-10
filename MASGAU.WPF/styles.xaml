@@ -10,7 +10,7 @@
     <Style TargetType="{x:Type Window}">
         <Setter Property="Background" Value="Red"></Setter>
     </Style>
-    
+
     <Style TargetType="Grid" x:Key="BodyStyle" >
         <Setter Property="BorderBrush" Value="{StaticResource {x:Static SystemColors.AppWorkspaceBrushKey}}" />
         <Setter Property="BorderWidth" Value="0,0,1,0" />

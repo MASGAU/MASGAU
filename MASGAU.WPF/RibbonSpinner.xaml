@@ -9,7 +9,7 @@
              >
     <Grid>
         <mwpf:FixedRibbonTextBox x:Name="input" TextChanged="input_TextChanged">
-            
-            </mwpf:FixedRibbonTextBox>
+
+        </mwpf:FixedRibbonTextBox>
     </Grid>
 </UserControl>
