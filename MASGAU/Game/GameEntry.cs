@@ -381,11 +381,16 @@ namespace MASGAU {
 
             options.Add(all_option);
             foreach (DetectedLocationPathHolder root in DetectedLocations) {
-                if (!options.Contains((Path.Combine(root.AbsoluteRoot, root.Path))))
-                    options.Add(Path.Combine(root.AbsoluteRoot, root.Path));
+                string path;
+                if (root.Path == null)
+                    path = root.AbsoluteRoot;
+                else
+                    path = Path.Combine(root.AbsoluteRoot, root.Path);
+                if (!options.Contains(path))
+                    options.Add(path);
             }
 
-            RequestReply info = TranslatingRequestHandler.Request(RequestType.Choice, question, options, options[0]);
+            RequestReply info = TranslatingRequestHandler.Request(RequestType.Choice, question, options[0], options, this.Name);
             if (info.Cancelled) {
                 return false;
             }

@@ -30,12 +30,13 @@ namespace MASGAU {
             get {
                 Queue<CustomGameEntry> games = new Queue<CustomGameEntry>();
                 foreach (CustomGame game in xml.custom.Entries) {
-                    foreach (CustomGameVersion version in game.Versions) {
-                        CustomGameEntry entry = Games.Get(version.ID) as CustomGameEntry;
-                        if (entry!=null&&!entry.Submitted)
-                            games.Enqueue(entry);
-
-                    }
+                    if (game.Submitted)
+                        continue;
+                        foreach (CustomGameVersion version in game.Versions) {
+                            CustomGameEntry entry = Games.Get(version.ID) as CustomGameEntry;
+                            if (entry!=null)
+                                games.Enqueue(entry);
+                        }
                 }
                 return games;
             }
@@ -166,7 +167,11 @@ namespace MASGAU {
                 foreach (GameSaveInfo.Game game in xml.Entries) {
                     foreach (GameVersion version in game.Versions) {
                         try {
-                            GameEntry entry = new GameEntry(version);
+                            GameEntry entry;
+                            if (version is CustomGameVersion)
+                                entry = new CustomGameEntry(version as CustomGameVersion);
+                            else
+                                entry = new GameEntry(version);
                             addGame(entry);
                         } catch (Exception e) {
                             TranslatingMessageHandler.SendException(e);
@@ -306,7 +311,7 @@ namespace MASGAU {
                     else
                         break;
                 } catch (Exception ex) {
-                    TranslatingMessageHandler.SendError("PurgeError", ex);
+                    TranslatingMessageHandler.SendError("PurgeError", ex, game.id.ToString());
                 }
             }
             ProgressHandler.restoreMessage();
