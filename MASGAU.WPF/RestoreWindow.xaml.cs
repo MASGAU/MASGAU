@@ -272,7 +272,7 @@ namespace MASGAU.Restore {
 
 
         void restoreComplete(object sender, RunWorkerCompletedEventArgs e) {
-            TranslationHelpers.translate(cancelButton,"Close");
+            cancelButton.Text = Strings.GetLabelString("Close");
             TranslationHelpers.translate(this,"Finished");
 
             flipper.SwitchControl(restoreDoneLabel);

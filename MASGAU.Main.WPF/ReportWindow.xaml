@@ -5,32 +5,36 @@
         xmlns:e="clr-namespace:Email.WPF;assembly=Email.WPF"
         xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
         Title="Here's The Report (Feel Free To Edit It)" ResizeMode="CanResize" WindowStartupLocation="CenterOwner" SizeToContent="Manual" Width="700   " Height="500   ">
+    <w:CustomWindowBorder >
+        <w:CustomWindowBorder.BorderContent>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="131*" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <StatusBar Grid.Row="2">
-            <StatusBarItem HorizontalAlignment="Right">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
-                    <w:SuperButton Text="$Save" Click="saveBtn_Click" ImageHeight="16" ImageSource="/WPF;Component/Images/16px/document-save.png" Grid.Column="0" Margin="3" />
-                    <e:EmailButton Name="uploadBtn" Grid.Column="1" Margin="3"/>
-                    <w:SuperButton Text="$Close" Name="closeBtn" Click="closeBtn_Click" ImageHeight="16" Grid.Column="2" ImageSource="/WPF;Component/Images/20px/window-close.png" Margin="3"/>
-                </Grid>
-            </StatusBarItem>
-        </StatusBar>
-        <TextBox Name="reportTxt" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" TabIndex="0" IsTabStop="False" IsUndoEnabled="False" Margin="5" AcceptsReturn="True" AcceptsTab="True" TextChanged="reportTxt_TextChanged" />
-        <Label Grid.Row="1" Name="disclaimerLabel" FontWeight="Bold" Foreground="Red" Padding="5,0,5,5">
-            <TextBlock TextWrapping="Wrap" Name="disclaimerText">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="131*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBox Name="reportTxt" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" TabIndex="0" IsTabStop="False" IsUndoEnabled="False" Margin="5" AcceptsReturn="True" AcceptsTab="True" TextChanged="reportTxt_TextChanged" />
+            </Grid>
+        </w:CustomWindowBorder.BorderContent>
+        <w:CustomWindowBorder.BottomGrid>
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Name="disclaimerLabel" FontWeight="Bold" Foreground="Red" Padding="5,0,5,5">
+                <TextBlock TextWrapping="Wrap" Name="disclaimerText">
                $AnalyzerDisclaimer
-            </TextBlock>
-        </Label>
-    </Grid>
+                </TextBlock>
+            </Label>
+                <w:SuperButton Grid.Column="1" Text="$Save" Click="saveBtn_Click" ImageHeight="16" ImageSource="/WPF;Component/Images/16px/document-save.png"  Margin="3" />
+                <e:EmailButton Grid.Column="2" Name="uploadBtn" Margin="3"/>
+                <w:SuperButton Grid.Column="3" Text="$Close" Name="closeBtn" Click="closeBtn_Click" ImageHeight="16" ImageSource="/WPF;Component/Images/20px/window-close.png" Margin="3"/>
+</Grid>
+        </w:CustomWindowBorder.BottomGrid>
+    </w:CustomWindowBorder>
+
 </src:NewWindow>

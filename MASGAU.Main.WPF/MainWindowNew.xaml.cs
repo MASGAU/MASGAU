@@ -30,7 +30,6 @@ namespace MASGAU.Main {
             this.Drop += new System.Windows.DragEventHandler(MainWindowNew_Drop);
 
             VersionLabel.Content = Strings.GetLabelString("MASGAUAboutVersion",Core.program_version.ToString());
-            GameGrid.Background = statusBar.Background;
 
             this.DataContext = Core.settings;
             bindSettingsControls();
@@ -196,10 +195,8 @@ namespace MASGAU.Main {
 
         private void maximizeButton_Click(object sender, RoutedEventArgs e) {
             if (this.WindowState == System.Windows.WindowState.Maximized) {
-                AllBorder.BorderThickness = new Thickness(5);
                 this.WindowState = System.Windows.WindowState.Normal;
             } else {
-                AllBorder.BorderThickness = new Thickness(0);
                 this.WindowState = System.Windows.WindowState.Maximized;
             }
             updateWindowState();

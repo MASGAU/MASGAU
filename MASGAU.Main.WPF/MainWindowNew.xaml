@@ -7,7 +7,7 @@
         xmlns:src="clr-namespace:MASGAU;assembly=MASGAU.WPF"
         Title="MASGAU" 
         x:Name="Window"
-        Width="{Binding WindowW, Mode=TwoWay}" Height="{Binding WindowH, Mode=TwoWay}" Left="{Binding WindowX, Mode=TwoWay}" WindowStyle="None" Background="Transparent"  Top="{Binding WindowY, Mode=TwoWay}"   MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="750" MinHeight="500" >
+        Width="{Binding WindowW, Mode=TwoWay}" Height="{Binding WindowH, Mode=TwoWay}" Left="{Binding WindowX, Mode=TwoWay}" WindowStyle="None" Background="Transparent"  Top="{Binding WindowY, Mode=TwoWay}" MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="750" MinHeight="500" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
             <Setter Property="Visibility" Value="Collapsed" />
@@ -23,7 +23,9 @@
             </Style>
         </ResourceDictionary>
     </Window.Resources>
-    <w:CustomWindowBorder>
+    <Grid>
+    <w:CustomWindowBorder x:Name="windowBorder" >
+        <w:CustomWindowBorder.BorderContent>
         <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ClipToBounds="True" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -32,7 +34,7 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <r:Ribbon Margin="-1,-26,-1,0" Name="ribbon" WindowIconVisibility="Visible" HorizontalAlignment="Stretch" SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+            <r:Ribbon Margin="-1,-22,-1,0" Name="ribbon" WindowIconVisibility="Visible" HorizontalAlignment="Stretch" SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
                 <r:Ribbon.HelpPaneContent>
                     <Grid Margin="0,1,0,0">
                         <Grid.ColumnDefinitions>
@@ -300,122 +302,127 @@
                     </ListView>
                 </Grid>
 
-                <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Name="statusBar">
-                    <StatusBarItem HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="Auto" />
-                            </Grid.ColumnDefinitions>
-                            <Button Visibility="{Binding SingleUserMode, Converter={StaticResource visibleConverter}}" Name="SingleUserModeButton" Click="SingleUserModeButton_Click" Width="Auto" Grid.Column="0">
-                                <Button.Content>
-                                    <Image Source="/WPF;Component/Images/16px/system-user.png" Height="16" />
-                                </Button.Content>
-                            </Button>
-                            <Button Visibility="{Binding AllUsersMode, Converter={StaticResource visibleConverter}}" Name="AllUsersModeButton" Click="AllUsersModeButton_Click" Width="Auto" Grid.Column="0">
-                                <Button.Content>
-                                    <Image Source="/WPF;Component/Images/16px/system-users.png" Height="16" />
-                                </Button.Content>
-                            </Button>
-
-
-                            <Label Name="statusBarLabel" Grid.Column="1" />
-                            <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="3" />
-                            <Button Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Grid.Column="4">
-                                <Button.Content>
-                                    <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Images/16px/steam.png" Height="16" />
-                                </Button.Content>
-                            </Button>
-
-                        </Grid>
-                    </StatusBarItem>
-                </StatusBar>
 
             </Grid>
 
-            <Grid Grid.Row="0" Grid.RowSpan="2" Name="DisablerGrid" Visibility="Visible" Margin="0,25,0,0" Opacity="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <Rectangle Grid.RowSpan="5" Fill="#6AFFFFFF" Grid.Row="0" />
-                <ProgressBar Margin="25" Height="35" Name="progress" Grid.Row="1" IsTabStop="False" Value="0" />
-                <Label Content="$Ready" Grid.Row="1" HorizontalAlignment="Center" Name="progressLabel" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
 
-                <w:SuperButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" ImageHeight="32" IsEnabled="False" ImageSource="/WPF;Component/Images/process-stop.png" Text="$Stop"  />
-            </Grid>
 
-            <Grid Grid.Row="0" Grid.RowSpan="2" Name="AddGameGrid" Margin="0,25,0,0" Visibility="Collapsed" Opacity="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
+
+        </Grid>
+        </w:CustomWindowBorder.BorderContent>
+        <w:CustomWindowBorder.BottomGrid>
+            <Grid HorizontalAlignment="Stretch">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="25*" />
-                    <ColumnDefinition Width="25*" />
-                    <ColumnDefinition Width="25*" />
                     <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="25*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-                <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="5" Fill="#D7FCFDFF" Grid.Row="0" />
-                <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="$AddGameHeader" HorizontalAlignment="Center" FontSize="16" />
+                    <Label Grid.Column="2" Width="5999" />
+                    <Button Margin="3" Visibility="{Binding SingleUserMode, Converter={StaticResource visibleConverter}}" Name="SingleUserModeButton" Click="SingleUserModeButton_Click" Width="Auto" Grid.Column="0">
+                    <Button.Content>
+                        <Image Source="/WPF;Component/Images/16px/system-user.png" Height="16" />
+                    </Button.Content>
+                </Button>
+                <Button Margin="3" Visibility="{Binding AllUsersMode, Converter={StaticResource visibleConverter}}" Name="AllUsersModeButton" Click="AllUsersModeButton_Click" Width="Auto" Grid.Column="0">
+                    <Button.Content>
+                        <Image Source="/WPF;Component/Images/16px/system-users.png" Height="16" />
+                    </Button.Content>
+                </Button>
+            
 
-                <w:GroupBoxInput Name="AddGameTitle" Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" TextChanged="addGameButtonCheck" />
-                <w:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/WPF;Component/Images/16px/folder.png" ButtonImageMargin="0,0,3,0" />
-                <w:GroupBoxInput Name="AddGameSaves" Header="$AddGameSaves" HasButton="False" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck"  />
-                <w:GroupBoxInput Name="AddGameExclusions" Header="$AddGameExclusions" HasButton="False" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck" />
+                <Label Name="statusBarLabel" Grid.Column="1" Foreground="White" />
+                <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="3" Foreground="White" />
+                <Button Margin="3" Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Height="Auto" Grid.Column="4">
+                    <Button.Content>
+                        <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Images/16px/steam.png" Height="16" />
+                    </Button.Content>
+                </Button>
 
-                <w:HelpToolTip Name="helpone" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Left" />
-                <w:HelpToolTip Name="helptwo" Grid.Row="5" Grid.Column="4" HorizontalAlignment="Left" />
-
-                <w:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/WPF;Component/Images/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
-                <w:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/WPF;Component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
             </Grid>
-            <Grid Grid.Row="0" Grid.RowSpan="2" Name="AboutGrid" Margin="0,25,0,0" Visibility="Collapsed" Opacity="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="1*" />
-                    <RowDefinition Height="4*" />
-                    <RowDefinition Height="1*" />
-                    <RowDefinition Height="1*" />
-                    <RowDefinition Height="1*" />
-                    <RowDefinition Height="1*" />
-                    <RowDefinition Height="1*" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*" />
-                    <ColumnDefinition Width="8*" />
-                    <ColumnDefinition Width="1*" />
-                </Grid.ColumnDefinitions>
-                <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="5" Fill="#D7FCFDFF" Grid.Row="0" />
-                <Image Source="/MASGAU.Common;Component/Images/flag.png" Grid.Row="1" Grid.Column="1" />
-                <Label Name="VersionLabel" Content="MASGAU Automatic Save Game Archive Utility v.9.9.9" Grid.Column="1" Grid.Row="2" FontSize="20" FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </w:CustomWindowBorder.BottomGrid>
+    </w:CustomWindowBorder>
+        <Grid Name="AboutGrid"  Visibility="Collapsed" Opacity="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="8*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="5" Fill="#D7FCFDFF" Grid.Row="0" RadiusX="3" RadiusY="3" />
+            <Image Source="/MASGAU.Common;Component/Images/flag.png" Grid.Row="1" Grid.Column="1" />
+            <Label Name="VersionLabel" Content="MASGAU Automatic Save Game Archive Utility v.9.9.9" Grid.Column="1" Grid.Row="2" FontSize="20" FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Center" VerticalAlignment="Center" />
 
-                <TextBlock HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="5" FontSize="20" VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="5" FontSize="20" VerticalAlignment="Center">
                 <Hyperlink NavigateUri="http://masgau.org/" Name="masgauLink" RequestNavigate="gameSaveLink_RequestNavigate">
                     http://masgau.org/
                 </Hyperlink>
-                </TextBlock>
+            </TextBlock>
 
-                <TextBlock HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="5" FontSize="20" FontWeight="Normal" VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="5" FontSize="20" FontWeight="Normal" VerticalAlignment="Center">
                 <Hyperlink NavigateUri="http://gamesave.info/" Name="gameSaveLink" RequestNavigate="gameSaveLink_RequestNavigate">
                     http://gamesave.info/
                 </Hyperlink>
-                </TextBlock>
-                <w:SuperButton FontSize="18"  Grid.Column="1" Grid.Row="5" Name="AboutCloseButton" ImageSource="/WPF;Component/Images/face-monkey.png" Text="$AboutClose" Click="AboutCloseButton_Click"/>
-            </Grid>
-
+            </TextBlock>
+            <w:SuperButton FontSize="18"  Grid.Column="1" Grid.Row="5" Name="AboutCloseButton" ImageSource="/WPF;Component/Images/face-monkey.png" Text="$AboutClose" Click="AboutCloseButton_Click"/>
         </Grid>
-    </w:CustomWindowBorder>
+
+        <Grid Name="AddGameGrid"  Visibility="Collapsed" Opacity="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="25*" />
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="5" Fill="#D7FCFDFF" Grid.Row="0" RadiusX="3" RadiusY="3" />
+            <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="$AddGameHeader" HorizontalAlignment="Center" FontSize="16" />
+
+            <w:GroupBoxInput Name="AddGameTitle" Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" TextChanged="addGameButtonCheck" />
+            <w:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/WPF;Component/Images/16px/folder.png" ButtonImageMargin="0,0,3,0" />
+            <w:GroupBoxInput Name="AddGameSaves" Header="$AddGameSaves" HasButton="False" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck"  />
+            <w:GroupBoxInput Name="AddGameExclusions" Header="$AddGameExclusions" HasButton="False" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck" />
+
+            <w:HelpToolTip Name="helpone" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Left" />
+            <w:HelpToolTip Name="helptwo" Grid.Row="5" Grid.Column="4" HorizontalAlignment="Left" />
+
+            <w:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/WPF;Component/Images/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
+            <w:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/WPF;Component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
+        </Grid>
+        <Grid  Name="DisablerGrid" Visibility="Visible" Opacity="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Rectangle Grid.RowSpan="5" Fill="#6AFFFFFF" Grid.Row="0" RadiusX="3" RadiusY="3" />
+            <ProgressBar Margin="25" Height="35" Name="progress" Grid.Row="1" IsTabStop="False" Value="0" />
+            <Label Content="$Ready" Grid.Row="1" HorizontalAlignment="Center" Name="progressLabel" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
+
+            <w:SuperButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" ImageHeight="32" IsEnabled="False" ImageSource="/WPF;Component/Images/process-stop.png" Text="$Stop"  />
+        </Grid>
+
+
+    </Grid>
 </src:NewWindow>

@@ -56,9 +56,11 @@ namespace MASGAU.Monitor {
         public int MonitoredCount {
             get {
                 int count = 0;
-                foreach(GameEntry game in Games.DetectedGames) {
-                    if (game.IsMonitored)
-                        count++;
+                lock (Games.DetectedGames) {
+                    foreach (GameEntry game in Games.DetectedGames) {
+                        if (game.IsMonitored)
+                            count++;
+                    }
                 }
                 return count;
             }
