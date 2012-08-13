@@ -41,12 +41,13 @@ namespace MASGAU.Main {
         #region Progress stuff
         public override void updateProgress(ProgressUpdatedEventArgs e) {
             if (e.message != null) {
-                progressLabel.Content = e.message;
                 if (this.Visibility != System.Windows.Visibility.Visible)
                     notifier.sendBalloon(e.message);
             }
 
-            WPFCommunicationHelpers.ApplyProgress(progress, e);
+            this.applyProgress(progress, e);
+
+//            WPFCommunicationHelpers.ApplyProgress(progress, e);
         }
 
         #endregion

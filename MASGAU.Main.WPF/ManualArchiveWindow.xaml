@@ -51,11 +51,12 @@
         <w:CustomWindowBorder.BottomGrid>
             <Grid>
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-            <w:SuperButton Grid.Column="0" ImageSource="/WPF;Component/Images/16px/document-save.png" ImageHeight="16" Text="$Save"  Name="saveButton" Width="75" HorizontalAlignment="Right" Margin="3" IsEnabled="False" Click="saveButton_Click" />
-            <w:SuperButton Grid.Column="1" ImageSource="/WPF;Component/Images/20px/gtk-cancel.png" ImageHeight="16" Text="$Cancel"  Name="cancelBtn" Width="75" Margin="3" Click="cancelBtn_Click" />
+            <w:SuperButton Grid.Column="1" ImageSource="/WPF;Component/Images/16px/document-save.png" ImageHeight="16" Text="$Save"  Name="saveButton" Width="75" HorizontalAlignment="Right" Margin="3" IsEnabled="False" Click="saveButton_Click" />
+            <w:SuperButton Grid.Column="2" ImageSource="/WPF;Component/Images/20px/gtk-cancel.png" ImageHeight="16" Text="$Cancel"  Name="cancelBtn" Width="75" Margin="3" Click="cancelBtn_Click" />
             </Grid>
         </w:CustomWindowBorder.BottomGrid>
     </w:CustomWindowBorder>

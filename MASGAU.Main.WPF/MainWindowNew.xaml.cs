@@ -204,7 +204,8 @@ namespace MASGAU.Main {
         }
 
         private void closeButton_Click(object sender, RoutedEventArgs e) {
-            this.Close();
+            this.toggleVisibility();
+            notifier.sendBalloon(Strings.GetMessageString("RunningInTray"));
         }
 
         private void SingleUserModeButton_Click(object sender, RoutedEventArgs e) {
@@ -276,7 +277,7 @@ namespace MASGAU.Main {
         }
         protected virtual void purgeDone(object sender, RunWorkerCompletedEventArgs e) {
             if (((bool)e.Result) == true) {
-                this.askRefreshGames("");
+                this.askRefreshGames("RefreshForPurge");
 
             }
         }

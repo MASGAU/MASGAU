@@ -23,23 +23,42 @@ namespace MASGAU.Main {
             icon.Dispose();
         }
 
+        public bool MenuEnabled {
+            get {
+                return icon.ContextMenu != null;
+            }
+            set {
+                if (value)
+                    icon.ContextMenu = Menu;
+                else
+                    icon.ContextMenu = null;
+            }
+        }
+        private System.Windows.Forms.ContextMenu Menu = new ContextMenu();
+        MenuItem exit = new MenuItem();
+
+
         public NotifierIcon(MainWindowNew parent) {
             this.parent = parent;
             icon = new NotifyIcon();
             icon.Icon = new System.Drawing.Icon("masgau.ico");
-            icon.ContextMenu = new System.Windows.Forms.ContextMenu();
-            MenuItem exit = new MenuItem();
             exit.Text = Strings.GetLabelString("ExitMASGAU");
             exit.Click += new EventHandler(exit_Click);
-            icon.ContextMenu.MenuItems.Add(exit);
+
+            Menu.MenuItems.Add(exit);
+            
             icon.MouseClick += new System.Windows.Forms.MouseEventHandler(notifyIcon_MouseClick);
             icon.Visible = true;
-
         }
 
 
+
+        private string last_message = null;
+
         public void sendBalloon(string message) {
-            icon.ShowBalloonTip(5, "MASGAU", message, ToolTipIcon.Info);
+            if(message!=last_message)
+                icon.ShowBalloonTip(5, "MASGAU", message, ToolTipIcon.Info);
+            message = last_message;
         }
 
 
@@ -62,9 +81,12 @@ namespace MASGAU.Main {
             parent.Close();
         }
         void notifyIcon_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e) {
-            if (e.Button == MouseButtons.Left) {
-                parent.ShowInTaskbar = parent.toggleVisibility();
-                parent.updateWindowState();
+            switch(e.Button) {
+                case MouseButtons.Middle:
+                case MouseButtons.Left:
+                    parent.ShowInTaskbar = parent.toggleVisibility();
+                    parent.updateWindowState();
+                    break;
             }
         }
 

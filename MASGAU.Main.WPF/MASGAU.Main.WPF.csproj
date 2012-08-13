@@ -219,6 +219,10 @@
       <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
       <Name>XmlData</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MASGAU.Restore.WPF\MASGAU.Restore.WPF.csproj">
+      <Project>{9CD9FC1E-56D9-4ABE-B65C-9874CDD54D5E}</Project>
+      <Name>MASGAU.Restore.WPF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MASGAU.Windows\MASGAU.Windows.csproj">
       <Project>{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}</Project>
       <Name>MASGAU.Windows</Name>

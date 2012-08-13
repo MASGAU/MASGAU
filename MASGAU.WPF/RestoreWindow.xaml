@@ -18,7 +18,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <GroupBox Grid.Row="0" Margin="5" Name="ProgressBox">
-            <ProgressBar Height="23" Name="restoreProgress" />
+            <w:SuperProgressBar Height="35" Name="restoreProgress" />
         </GroupBox>
         <Grid Margin="3" Grid.Row="1" Name="LocationGrid" Visibility="Collapsed">
             <Grid.ColumnDefinitions>
@@ -105,17 +105,18 @@
         <w:CustomWindowBorder.BottomGrid>
             <Grid>
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-                <w:SuperButton Grid.Column="0" ImageSource="/WPF;Component/Images/16px/system-users.png" ImageHeight="16" Text="$OtherUser" Name="otherUserButton" TabIndex="5" Click="otherUserButton_Click" Visibility="Collapsed" Margin="3" />
-                <w:SuperButton Grid.Column="1" ImageSource="/WPF;Component/Images/16px/folder.png" ImageHeight="16" Text="$OtherLocation"  Name="choosePathButton" TabIndex="5"  Click="choosePathButton_Click" Visibility="Collapsed" Margin="3"  />
-                <w:SuperButton Grid.Column="2" ImageSource="/WPF;Component/Images/16px/gtk-edit.png" ImageHeight="16" Text="$SelectFiles" Name="selectFilesButton" TabIndex="5"  Margin="3" Click="selectFilesButton_Click" />
-                <w:SuperButton Grid.Column="3" ImageSource="/WPF;Component/Images/20px/gtk-ok.png" ImageHeight="16"  Click="restoreButton_Click" Text="$Restore" Name="restoreButton" TabIndex="4" Visibility="Collapsed" Margin="3" />
-                <w:SuperButton Grid.Column="4" ImageSource="/WPF;Component/Images/20px/gtk-cancel.png" ImageHeight="16" Click="cancelButton_Click" Text="$Cancel" Name="cancelButton" TabIndex="5" Margin="3" />
+                <w:SuperButton Grid.Column="1" ImageSource="/WPF;Component/Images/16px/system-users.png" ImageHeight="16" Text="$OtherUser" Name="otherUserButton" TabIndex="5" Click="otherUserButton_Click" Visibility="Collapsed" Margin="3" />
+                <w:SuperButton Grid.Column="2" ImageSource="/WPF;Component/Images/16px/folder.png" ImageHeight="16" Text="$OtherLocation"  Name="choosePathButton" TabIndex="5"  Click="choosePathButton_Click" Visibility="Collapsed" Margin="3"  />
+                <w:SuperButton Grid.Column="3" ImageSource="/WPF;Component/Images/16px/gtk-edit.png" ImageHeight="16" Text="$SelectFiles" Name="selectFilesButton" TabIndex="5"  Margin="3" Click="selectFilesButton_Click" />
+                <w:SuperButton Grid.Column="4" ImageSource="/WPF;Component/Images/20px/gtk-ok.png" ImageHeight="16"  Click="restoreButton_Click" Text="$Restore" Name="restoreButton" TabIndex="4" Visibility="Collapsed" Margin="3" />
+                <w:SuperButton Grid.Column="5" ImageSource="/WPF;Component/Images/20px/gtk-cancel.png" ImageHeight="16" Click="cancelButton_Click" Text="$Cancel" Name="cancelButton" TabIndex="5" Margin="3" />
 </Grid>
         </w:CustomWindowBorder.BottomGrid>
     </w:CustomWindowBorder>

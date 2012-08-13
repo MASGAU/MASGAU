@@ -251,7 +251,7 @@ namespace MASGAU.Restore {
             choosePathButton.Visibility = System.Windows.Visibility.Collapsed;
             selectFilesButton.Visibility = System.Windows.Visibility.Collapsed;
             otherUserButton.Visibility = System.Windows.Visibility.Collapsed;
-            TranslationHelpers.translate(cancelButton,"Stop");
+            cancelButton.Text = Strings.GetLabelString("Stop");
 
             flipper.SwitchControl(ProgressBox);
 

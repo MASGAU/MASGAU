@@ -19,11 +19,7 @@ namespace MASGAU {
                 if (xml.custom == null)
                     return false;
 
-                foreach (CustomGame game in xml.custom.Entries) {
-                    if (!game.Submitted)
-                        return true;
-                }
-                return false;
+                return UnsubmittedGames.Count > 0;
             }
         }
         public static Queue<CustomGameEntry> UnsubmittedGames {
@@ -34,7 +30,7 @@ namespace MASGAU {
                         continue;
                         foreach (CustomGameVersion version in game.Versions) {
                             CustomGameEntry entry = Games.Get(version.ID) as CustomGameEntry;
-                            if (entry!=null)
+                            if (entry!=null&&entry.IsDetected)
                                 games.Enqueue(entry);
                         }
                 }
@@ -314,6 +310,7 @@ namespace MASGAU {
                     TranslatingMessageHandler.SendError("PurgeError", ex, game.id.ToString());
                 }
             }
+            StaticNotifyPropertyChanged("HasUnsubmittedGames");
             ProgressHandler.restoreMessage();
         }
 
