@@ -293,8 +293,14 @@ namespace MASGAU {
                         files.AddFiles(type, location);
                     }
                     foreach (APlayStationID id in version.PlayStationIDs) {
-                        Include save = id.convertToSaveFile();
+                        Include save = id.convertToInclude();
                         files.AddFiles(save, location);
+                    }
+                    foreach (ScummVM scumm in version.ScummVMs) {
+                        Include save = new Include(scumm.Name + "*.cfg",null,"Settings");
+                        files.AddFiles(save, location);
+                        save = new Include(scumm.Name + "*.???", null, null);
+                        files.AddFiles(save, location, new System.Text.RegularExpressions.Regex(".*[.][0-9]{3}$"));
                     }
                 }
                 return files;
@@ -307,9 +313,6 @@ namespace MASGAU {
                 return MASGAU.Archives.GetArchives(this.id);
             }
         }
-
-        #region File collection methods
-        #endregion
 
 
         #region monitoring methods

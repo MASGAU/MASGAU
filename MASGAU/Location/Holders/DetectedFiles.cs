@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 using Collections;
 using GameSaveInfo;
 namespace MASGAU.Location.Holders {
@@ -25,10 +26,17 @@ namespace MASGAU.Location.Holders {
             }
         }
         public void AddFiles(Include save, DetectedLocationPathHolder location) {
+            AddFiles(save,location,new Regex(".*"));
+        }
+        public void AddFiles(Include save, DetectedLocationPathHolder location, Regex reg) {
             foreach (string file in save.FindMatching(location.full_dir_path)) {
 
                 string name = Path.GetFileName(file);
                 string path = file.Substring(0, file.Length - name.Length).Trim(Path.DirectorySeparatorChar);
+
+                if (!reg.IsMatch(file)) {
+                    continue;
+                }
 
                 DetectedFile detected = new DetectedFile(location, path, name, save.Type);
                 this.Add(detected);

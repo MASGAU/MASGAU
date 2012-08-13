@@ -40,9 +40,6 @@ namespace MASGAU.Analyzer {
             outputPath(path.full_dir_path);
             outputLine();
             try {
-                TranslatingProgressHandler.setTranslatedMessage("AnalyzingScummVM");
-                ProgressHandler.value++;
-                outputLine(Environment.NewLine + "ScummVM Path Entries: ");
                 scanForScumm(path.full_dir_path);
             } catch (Exception ex) {
                 outputLine("Error while attempting to cehck for ScummVM path entries:");
@@ -61,7 +58,19 @@ namespace MASGAU.Analyzer {
         }
 
         protected void scanForScumm(string save_path) {
-            throw new NotImplementedException("Haven't configured for ScummVM yet");
+            TranslatingProgressHandler.setTranslatedMessage("AnalyzingScummVM");
+            ProgressHandler.value++;
+            outputLine(Environment.NewLine + "ScummVM Path Entries: ");
+            AScummVMLocationHandler scummvm = Core.locations.getHandler(HandlerType.ScummVM) as AScummVMLocationHandler;
+            foreach (string user in scummvm.Locations.Keys) {
+                foreach (string name in scummvm.Locations[user].Keys) {
+                    string path = scummvm.Locations[user][name];
+                    if (path.ToLower().Contains(save_path.ToLower())) {
+                        outputLine("Entry Name: " + name);
+                        outputLine("Entry Path: " + path);
+                    }
+                }
+            }
         }
 
     }

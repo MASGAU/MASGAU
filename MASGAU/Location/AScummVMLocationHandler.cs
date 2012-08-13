@@ -8,9 +8,10 @@ using GameSaveInfo;
 namespace MASGAU.Location {
 
     public abstract class AScummVMLocationHandler : ALocationHandler {
-        private TwoKeyDictionary<string, string, string> locations = null;
+        public TwoKeyDictionary<string, string, string> Locations = null;
         private Dictionary<String, FileInfo> config_files;
         protected string install_path = null;
+
 
         public override bool ready {
             get { return config_files != null && config_files.Count > 0; }
@@ -28,13 +29,13 @@ namespace MASGAU.Location {
         protected abstract string findInstallPath();
 
         private void setup() {
-            locations = new TwoKeyDictionary<string, string, string>();
+            Locations = new TwoKeyDictionary<string, string, string>();
             config_files = collectConfigFiles();
             foreach (String user in config_files.Keys) {
                 IniFileHandler ini = new IniFileHandler(config_files[user]);
                 foreach (string section in ini.Keys) {
                     if (ini[section].ContainsKey("savepath")) {
-                        locations.Add(user, section, ini[section]["savepath"]);
+                        Locations.Add(user, section, ini[section]["savepath"]);
                     }
                 }
             }
@@ -42,21 +43,33 @@ namespace MASGAU.Location {
         }
 
         protected override DetectedLocations getPaths(ScummVM get_me) {
+            if (get_me.Name == "scummvm")
+                Console.Out.Write("");
 
-            DetectedLocations return_me = new DetectedLocations();
-            if (locations == null) {
+            List<DetectedLocationPathHolder> paths = new List<DetectedLocationPathHolder>();
+            if (Locations == null) {
                 setup();
             }
             if (install_path != null) {
-                return_me.AddRange(loadLocations(install_path, get_me, null));
+                paths.AddRange(loadLocations(install_path, get_me, null));
             }
-            foreach (string user in locations.Keys) {
-                if (locations[user].ContainsKey("scummvm")) {
-                    return_me.AddRange(loadLocations(locations[user]["scummvm"], get_me, user));
+            foreach (string user in Locations.Keys) {
+                if (get_me.Name!="scummvm"&&Locations[user].ContainsKey("scummvm")) {
+                    paths.AddRange(loadLocations(Locations[user]["scummvm"], get_me, user));
                 }
-                if (locations[user].ContainsKey(get_me.Name)) {
-                    return_me.AddRange(loadLocations(locations[user][get_me.Name], get_me, user));
+                if (Locations[user].ContainsKey(get_me.Name)) {
+                    paths.AddRange(loadLocations(Locations[user][get_me.Name], get_me, user));
                 }
+            }
+
+
+            DetectedLocations return_me = new DetectedLocations();
+            foreach (DetectedLocationPathHolder path in paths) {
+                DirectoryInfo info = new DirectoryInfo(path.full_dir_path);
+                if(info.GetFiles(get_me.Name + "*").Length>0) {
+                    return_me.Add(path);
+                }
+
             }
 
 
