@@ -23,6 +23,8 @@ namespace MASGAU.Location.Holders {
             }
         }
 
+        public bool MatchesOriginalPath = false;
+
         // Holds the actual, interpreted root location
         public string AbsoluteRoot;
         // Holds the associated user for this folder
@@ -52,19 +54,40 @@ namespace MASGAU.Location.Holders {
 
         public override string ToString() {
             string return_me;
-            if (EV == EnvironmentVariable.AllUsersProfile ||
-                EV == EnvironmentVariable.AltSavePaths ||
-                EV == EnvironmentVariable.Drive ||
-                EV == EnvironmentVariable.InstallLocation ||
-                EV == EnvironmentVariable.ProgramFiles ||
-                EV == EnvironmentVariable.ProgramFilesX86 ||
-                EV == EnvironmentVariable.Public ||
-                EV == EnvironmentVariable.SteamCommon ||
-                EV == EnvironmentVariable.SteamSourceMods)
-                return_me = AbsoluteRoot;
-            else
-                return_me = EV.ToString();
-
+            switch(EV) {
+                case EnvironmentVariable.AllUsersProfile:
+                case EnvironmentVariable.AltSavePaths:
+                case EnvironmentVariable.Drive:
+                case EnvironmentVariable.InstallLocation:
+                case EnvironmentVariable.ProgramFiles:
+                case EnvironmentVariable.ProgramFilesX86:
+                case EnvironmentVariable.PS3Export:
+                case EnvironmentVariable.PS3Save:
+                case EnvironmentVariable.PSPSave:
+                case EnvironmentVariable.Public:
+                case EnvironmentVariable.SteamCommon:
+                case EnvironmentVariable.SteamSourceMods:
+                case EnvironmentVariable.UbisoftSaveStorage:
+                case EnvironmentVariable.CommonApplicationData:
+                case EnvironmentVariable.None:
+                case EnvironmentVariable.StartMenu:
+                    return_me = AbsoluteRoot;
+                    break;
+                case EnvironmentVariable.Desktop:
+                case EnvironmentVariable.AppData:
+                case EnvironmentVariable.FlashShared:
+                case EnvironmentVariable.LocalAppData:
+                case EnvironmentVariable.SavedGames:
+                case EnvironmentVariable.SteamUser:
+                case EnvironmentVariable.SteamUserData:
+                case EnvironmentVariable.UserDocuments:
+                case EnvironmentVariable.UserProfile:
+                case EnvironmentVariable.VirtualStore:
+                    return_me = EV.ToString();
+                    break;
+                default:
+                    throw new NotSupportedException(EV.ToString());
+            }   
             if (Path != null)
                 return_me = System.IO.Path.Combine(return_me, Path);
 

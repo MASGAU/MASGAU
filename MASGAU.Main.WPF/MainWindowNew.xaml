@@ -318,21 +318,21 @@
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-                    <Button Margin="3" Visibility="{Binding SingleUserMode, Converter={StaticResource visibleConverter}}" Name="SingleUserModeButton" Click="SingleUserModeButton_Click" Width="Auto" Grid.Column="0">
+                    <Button Margin="3" VerticalAlignment="Center" Visibility="{Binding SingleUserMode, Converter={StaticResource visibleConverter}}" Name="SingleUserModeButton" Click="SingleUserModeButton_Click" Width="Auto" Grid.Column="0">
                     <Button.Content>
                         <Image Source="/WPF;Component/Images/16px/system-user.png" Height="16" />
                     </Button.Content>
                 </Button>
-                <Button Margin="3" Visibility="{Binding AllUsersMode, Converter={StaticResource visibleConverter}}" Name="AllUsersModeButton" Click="AllUsersModeButton_Click" Width="Auto" Grid.Column="0">
+                <Button VerticalAlignment="Center" Margin="3" Visibility="{Binding AllUsersMode, Converter={StaticResource visibleConverter}}" Name="AllUsersModeButton" Click="AllUsersModeButton_Click" Width="Auto" Grid.Column="0">
                     <Button.Content>
                         <Image Source="/WPF;Component/Images/16px/system-users.png" Height="16" />
                     </Button.Content>
                 </Button>
             
 
-                <Label Name="statusBarLabel" Grid.Column="1" Foreground="White" />
-                <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="3" Foreground="White" />
-                <Button Margin="3" Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Height="Auto" Grid.Column="4">
+                <Label Name="statusBarLabel" Grid.Column="1" Foreground="White" VerticalAlignment="Center" />
+                <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="3" Foreground="White" VerticalAlignment="Center"  />
+                <Button Margin="3" Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Height="Auto" Grid.Column="4" VerticalAlignment="Center">
                     <Button.Content>
                         <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Images/16px/steam.png" Height="16" />
                     </Button.Content>

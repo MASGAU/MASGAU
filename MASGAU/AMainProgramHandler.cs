@@ -37,6 +37,7 @@ namespace MASGAU.Main {
 
         public void detectGames() {
             Games.detectGames();
+            Archives.DetectBackups();
             Monitor.Monitor.flushQueue();
             Core.monitor.start();
         }

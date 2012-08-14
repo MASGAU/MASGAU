@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Xml;
+using System.IO;
 using MVC;
 using GameSaveInfo;
 namespace MASGAU {
@@ -16,6 +17,13 @@ namespace MASGAU {
             }
         }
         public readonly String OriginalPath;
+        public String OriginalDrive {
+            get {
+                if (OriginalPath != null)
+                    return Path.GetPathRoot(OriginalPath);
+                return null;
+            }
+        }
         // Pre-0.10 MASGAU didn't embed a path hash
 
 
@@ -93,6 +101,11 @@ namespace MASGAU {
             if (OriginalPath != null) {
                 node = doc.CreateElement("original_path");
                 node.InnerText = OriginalPath.ToString();
+                doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
+            }
+            if (OriginalDrive != null) {
+                node = doc.CreateElement("original_drive");
+                node.InnerText = OriginalDrive.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
 

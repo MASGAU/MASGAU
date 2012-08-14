@@ -280,8 +280,6 @@ namespace MASGAU {
 
             game_count = detected_games_count;
 
-            Archives.DetectBackups();
-
             model.IsEnabled = true;
             if (game_count > 1) {
                 TranslatingProgressHandler.setTranslatedMessage("GamesDetected", detected_games_count.ToString());

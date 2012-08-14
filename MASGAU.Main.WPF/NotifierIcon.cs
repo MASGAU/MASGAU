@@ -84,7 +84,11 @@ namespace MASGAU.Main {
             switch(e.Button) {
                 case MouseButtons.Middle:
                 case MouseButtons.Left:
-                    parent.ShowInTaskbar = parent.toggleVisibility();
+                    if (!parent.IsActive) {
+                        parent.Activate();
+                    } else {
+                        parent.ShowInTaskbar = parent.toggleVisibility();
+                    }
                     parent.updateWindowState();
                     break;
             }
