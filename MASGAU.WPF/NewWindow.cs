@@ -6,16 +6,22 @@ using System.Windows;
 using System.Windows.Media.Animation;
 using System.Windows.Controls;
 using System.Reflection;
+using System.Windows.Media.Imaging;
 using MVC.WPF;
 using Translator;
+using Config;
+using MASGAU.Settings;
 namespace MASGAU {
     public class NewWindow: ACommunicationWindow {
 
-        public NewWindow(): base(null, Core.settings) {
+
+        public NewWindow(): this(null) {
 
         }
         public NewWindow(ACommunicationWindow owner): base(owner,Core.settings) {
             this.Owner = owner;
+            var uriSource = new Uri(System.IO.Path.Combine(Core.app_path, "masgau.ico"), UriKind.Relative);
+            this.Icon = new BitmapImage(uriSource);
         }
 
         protected bool toggleMinimize() {

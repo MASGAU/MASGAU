@@ -34,7 +34,6 @@ namespace MASGAU.Restore {
             Translator.WPF.TranslationHelpers.translateWindow(this);
             default_progress_color = restoreProgress.Foreground;
             this.archive = archive;
-            this.Icon = owner.Icon;
         }
 
         public RestoreWindow(ACommunicationWindow owner)
@@ -42,7 +41,6 @@ namespace MASGAU.Restore {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
             default_progress_color = restoreProgress.Foreground;
-            this.Icon = owner.Icon;
         }
 
         protected override void WindowLoaded(object sender, RoutedEventArgs e) {
@@ -50,6 +48,9 @@ namespace MASGAU.Restore {
             flipper.Add(selectFilesGroup);
             flipper.Add(LocationGrid);
             flipper.Add(restoreDoneLabel);
+
+            flipper.SwitchControl(ProgressBox);
+
 
             restoreProgress.IsIndeterminate = true;
             restore = (RestoreProgramHandler)program_handler;

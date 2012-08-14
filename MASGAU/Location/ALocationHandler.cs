@@ -47,16 +47,16 @@ namespace MASGAU.Location {
         // Return location holders based on various kinds of input
         public virtual DetectedLocations getPaths(ALocation get_me) {
             Type check = get_me.GetType();
-            if (check.Equals(typeof(LocationPath))||check.IsSubclassOf(typeof(LocationPath))) {
+            if (check.Equals(typeof(ScummVM))) {
+                return getPaths(get_me as ScummVM);
+            } else if (check.IsSubclassOf(typeof(APlayStationID))) {
+                return getPaths(get_me as APlayStationID);
+            } else if (check.Equals(typeof(LocationPath)) || check.IsSubclassOf(typeof(LocationPath))) {
                 return getPaths(get_me as LocationPath);
             } else if (check.Equals(typeof(LocationRegistry))) {
                 return getPaths(get_me as LocationRegistry);
             } else if (check.Equals(typeof(LocationShortcut))) {
                 return getPaths(get_me as LocationShortcut);
-            } else if (check.Equals(typeof(ScummVM))) {
-                return getPaths(get_me as ScummVM);
-            } else if (check.IsSubclassOf(typeof(APlayStationID))) {
-                return getPaths(get_me as APlayStationID);
             } else {
                 throw new NotSupportedException(get_me.GetType().ToString());
             }

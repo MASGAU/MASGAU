@@ -4,6 +4,9 @@ using System.Runtime.InteropServices;
 //using System.Windows.Forms;
 using System.Security.Principal;
 using System.Text;
+using MVC.Translator;
+using MVC.Communication;
+using MASGAU;
 public class SecurityHandler {
     [DllImport("user32")]
     public static extern UInt32 SendMessage
@@ -36,6 +39,20 @@ public class SecurityHandler {
                 arg_string.Append(" " + args[j]);
             }
         }
+        if (!Core.settings.SuppressElevationWarnings) {
+            ResponseType response = ResponseType.OK;
+            switch (MASGAU.Core.locations.platform_version) {
+                case "WindowsXP":
+                    response = TranslatingMessageHandler.SendWarning("ElevationXPWarning", true);
+                    break;
+                default:
+                    throw new NotSupportedException(MASGAU.Core.locations.platform_version);
+            }
+            if (response >= ResponseType.Suppressed)
+                Core.settings.SuppressElevationWarnings = true;
+
+        }
+
         return runExe(app_name, arg_string.ToString(), true, wait_for_exit);
 
     }

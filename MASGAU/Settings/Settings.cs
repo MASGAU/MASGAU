@@ -48,7 +48,8 @@ namespace MASGAU.Settings {
             settings.Add(new Setting("VersioningFrequency", 5, "versioning", "frequency"));
             settings.Add(new Setting("VersioningMax", 100, "versioning", "max"));
 
-            settings.Add(new Setting("SuppressSubmitRequests", false, "submit", "suprress"));
+            settings.Add(new Setting("SuppressSubmitRequests", false, "suppress", "submit_requests"));
+            settings.Add(new Setting("SuppressElevationWarnings", false, "suppress", "elevation_warnings"));
 
             return settings;
         }
@@ -97,13 +98,21 @@ namespace MASGAU.Settings {
                 base.EmailRecipient = value;
             }
         }
-
+        
         public bool SuppressSubmitRequests {
             get {
                 return getLastBoolean("SuppressSubmitRequests");
             }
             set {
                 set("SuppressSubmitRequests", value);
+            }
+        }
+        public bool SuppressElevationWarnings {
+            get {
+                return getLastBoolean("SuppressElevationWarnings");
+            }
+            set {
+                set("SuppressElevationWarnings", value);
             }
         }
 

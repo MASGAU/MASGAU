@@ -18,7 +18,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <GroupBox Grid.Row="0" Margin="5" Name="ProgressBox">
-            <w:SuperProgressBar Height="35" Name="restoreProgress" />
+                    <w:SuperProgressBar Height="25" Name="restoreProgress" StatusVisible="false" />
         </GroupBox>
         <Grid Margin="3" Grid.Row="1" Name="LocationGrid" Visibility="Collapsed">
             <Grid.ColumnDefinitions>

@@ -9,6 +9,11 @@ namespace MASGAU.Location.Holders {
             this.language = path.language;
         }
 
+        public DetectedLocationPathHolder(EnvironmentVariable ev, string absolute_root, string path)
+            : base(ev, path) {
+                this.AbsoluteRoot = absolute_root;
+        }
+
         protected DetectedLocationPathHolder() {
         }
 

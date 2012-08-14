@@ -5,6 +5,7 @@ using System.IO;
 using MVC.Communication;
 using MVC.Translator;
 using MVC;
+using Translator;
 using MASGAU.Game;
 using GameSaveInfo;
 namespace MASGAU {
@@ -185,16 +186,27 @@ namespace MASGAU {
             return false;
         }
 
-        public static void redetectGames(object sender, DoWorkEventArgs e) {
-            detectGames(null, true);
-        }
-
         public static void detectGames() {
-            detectGames(null, false);
+            detectGames(null);
         }
-        public static void detectGames(List<GameID> these_games, bool force_redetect) {
-            ProgressHandler.state = ProgressState.Normal;
 
+        public static GameEntry detectGame(GameID this_game) {
+            List<GameID> games = new List<GameID>();
+            games.Add(this_game);
+            List<GameEntry> detected = detectGames(games);
+            if (detected.Count==0) {
+                throw new TranslateableException("UnknownGame", this_game.ToString());
+            } else if (detected.Count > 1) {
+                throw new Exceptions.WTFException("TOO MANY GAMES THIS SHOULD NOT HAPPEN REPORT IMMEDIATELY\n" + this_game.ToString());
+            }
+
+
+            return detected[0];
+        }
+
+        public static List<GameEntry> detectGames(List<GameID> these_games) {
+            ProgressHandler.state = ProgressState.Normal;
+            List<GameEntry> detected_games = new List<GameEntry>();
             Core.monitor.stop();
 
             if (model.Count == 0) {
@@ -216,7 +228,8 @@ namespace MASGAU {
             Dictionary<string, int> contribs = new Dictionary<string, int>();
 
             string string_to_use= "DetectingGamesProgress";
-            if(Core.settings.MonitoredGames.Count>0)
+
+            if(Core.settings.MonitoredGames.Count>0&&Core.Program==Program.Main)
                     string_to_use = "DetectingMonitoringGamesProgress";
 
 
@@ -233,13 +246,12 @@ namespace MASGAU {
 
                 ProgressHandler.suppress_communication = true;
 
-                // If a game has a game root and thus forced a game to detect early, then this will skip re-detecting
-                if (!game.DetectionAttempted)
                     game.Detect();
 
-                if (game.IsMonitored) {
+                if (game.IsMonitored&&Core.Program== Program.Main) {
                     game.startMonitoring(null,null);
                 }
+
                 ProgressHandler.suppress_communication = false;
 
 
@@ -253,6 +265,8 @@ namespace MASGAU {
 
                 //if (!force_redetect && game.IsDetected && !game.id.deprecated)
                 //    model.AddWithSort(game);
+
+                detected_games.Add(game);
 
                 ProgressHandler.value++;
             }
@@ -279,10 +293,10 @@ namespace MASGAU {
                 //no_games.title = Strings.getGeneralString("NoGamesDetected");
                 model.IsEnabled = false;
             }
-            Monitor.Monitor.flushQueue();
-            Core.monitor.start();
-
             StaticNotifyPropertyChanged("GamesDetected");
+
+            return detected_games;
+
         }
 
         public static void purgeGames(System.Collections.IEnumerable games, RunWorkerCompletedEventHandler e) {

@@ -34,9 +34,6 @@ namespace MASGAU.Main {
             this.DataContext = Core.settings;
             bindSettingsControls();
 
-            var uriSource = new Uri(System.IO.Path.Combine(Core.app_path, "masgau.ico"), UriKind.Relative);
-
-            this.Icon = new BitmapImage(uriSource);
 
             TranslationHelpers.translateWindow(this);
 

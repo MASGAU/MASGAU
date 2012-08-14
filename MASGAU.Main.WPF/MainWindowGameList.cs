@@ -33,8 +33,7 @@ namespace MASGAU.Main {
         }
 
         private void redetectGames(object sender, DoWorkEventArgs e) {
-            Games.Clear();
-            Games.detectGames();
+            masgau.detectGames();
         }
         #endregion
 

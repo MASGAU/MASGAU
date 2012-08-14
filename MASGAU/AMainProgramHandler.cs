@@ -7,7 +7,7 @@ namespace MASGAU.Main {
         public bool disable_resize = false;
 
         public MainProgramHandler(ALocationsHandler loc)
-            : base(loc) {
+            : base(loc, MASGAU.Program.Main) {
 
             string mode;
 
@@ -31,10 +31,15 @@ namespace MASGAU.Main {
                 //this.Close();
                 return;
             }
+            detectGames();
 
-            Games.detectGames();
         }
 
+        public void detectGames() {
+            Games.detectGames();
+            Monitor.Monitor.flushQueue();
+            Core.monitor.start();
+        }
 
         #region Methods for preparing data about the games
 

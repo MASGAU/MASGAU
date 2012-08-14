@@ -109,6 +109,8 @@ namespace MASGAU
         private static bool mutex_acquired = false;
         static Core()
         {
+            Program = MASGAU.Program.Unknown;
+
             //if (!mutex_acquired && !mutex.WaitOne(100))
             //{
               //  throw new TranslateableException("NoMultipleInstances");
@@ -139,9 +141,11 @@ namespace MASGAU
             email = new Email.EmailHandler(Core.settings.EmailSender, Core.submission_email);
             startup = new StartupHelper("MASGAU", Core.programs.main);
         }
-
-        protected Core()
+        public static Program Program { get; protected set; }
+        protected Core(Program prog)
         {
+            if(Program== MASGAU.Program.Unknown)
+                Program = prog;
         }
 
         private static void prepareProgramNames()

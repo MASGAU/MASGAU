@@ -53,21 +53,6 @@ namespace MASGAU {
 
 
 
-
-        // Stuff to purge games
-        protected void purgeGames(System.Collections.IEnumerable games) {
-            this.disableInterface();
-            Games.purgeGames(games, purgeComplete);
-        }
-
-        private void purgeComplete(object sender, RunWorkerCompletedEventArgs e) {
-            if (!e.Cancelled) {
-                Games.detectGames();
-                redetectGames();
-            }
-            this.enableInterface(null, null);
-        }
-
         // Generic delegate and dispatcher stuff so other threads can retreive information
         private delegate object getPropertyDelegate(object from_me, String get_me);
         private delegate void setPropertyDelegate(object set_me);
@@ -91,80 +76,11 @@ namespace MASGAU {
             return return_me;
         }
 
-        public void blur() {
-            ApplyEffect(this);
-            this.ShowInTaskbar = false;
-        }
-        public void unBlur() {
-            ClearEffect(this);
-            this.ShowInTaskbar = true;
-        }
-
 
         void resetStatus(object sender, RunWorkerCompletedEventArgs e) {
             ProgressHandler.value = 0;
             ProgressHandler.restoreMessage();
         }
-
-
-
-
-        protected void redetectArchives() {
-            disableInterface();
-            ProgressHandler.saveMessage();
-            BackgroundWorker redetect = new BackgroundWorker();
-            redetect.DoWork += new DoWorkEventHandler(redetectArchives);
-            redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(enableInterface);
-            redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(resetStatus);
-            redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(redetectArchivesComplete);
-            redetect.RunWorkerAsync();
-        }
-
-        protected virtual void redetectArchivesComplete(object sender, RunWorkerCompletedEventArgs e) {
-            return;
-        }
-
-        private void redetectArchives(object sender, DoWorkEventArgs e) {
-            //if (Core.redetect_games) {
-            //    redetectGames(sender, e);
-            //}
-            //Core.redetect_archives = false;
-        }
-
-        protected void redetectGames() {
-            disableInterface();
-            BackgroundWorker redetect = new BackgroundWorker();
-            redetect.DoWork += new DoWorkEventHandler(redetectGames);
-            redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(enableInterface);
-            redetect.RunWorkerAsync();
-        }
-
-        private void redetectGames(object sender, DoWorkEventArgs e) {
-            Games.Clear();
-            Games.detectGames();
-//            Core.redetect_games = false;
-        }
-
-
-
-        private void ApplyEffect(AWindow win) {
-            System.Windows.Media.Effects.BlurEffect objBlur =
-           new System.Windows.Media.Effects.BlurEffect();
-            objBlur.Radius = 4;
-            win.Effect = objBlur;
-        }
-        /// <summary> 
-        /// Remove Blur Effects 
-        /// </summary> 
-        /// <param name=”win”></param> 
-        private void ClearEffect(AWindow win) {
-            win.Effect = null;
-        }
-
-
-
-
-
 
 
 

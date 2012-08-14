@@ -51,7 +51,8 @@ namespace MASGAU.Monitor {
                 Thread.Sleep(100);
         }
         public void start() {
-            worker.RunWorkerAsync();
+            if(!worker.IsBusy)
+                worker.RunWorkerAsync();
         }
         public int MonitoredCount {
             get {

@@ -130,7 +130,7 @@ namespace MASGAU {
         }
 
 
-        private List<ALocation> AllLocations {
+        public List<ALocation> AllLocations {
             get {
                 List<ALocation> locs = new List<ALocation>();
                 locs.AddRange(version.AllLocations);
@@ -227,6 +227,9 @@ namespace MASGAU {
         public bool Detect() {
             List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
             List<ALocation> locations = AllLocations;
+
+            if (this.id.OS!=null&&this.id.OS.StartsWith("PS"))
+                System.Console.Out.Write("");
 
             foreach (ALocation location in locations) {
                 // This skips if a location is marked as only being for a specific version of an OS

@@ -29,7 +29,7 @@ namespace MASGAU.Restore {
         }
 
         public RestoreProgramHandler(Archive archive, ALocationsHandler loc)
-            : base(loc) {
+            : base(loc, Program.Restore) {
             this._program_title = Strings.GetLabelString("IsRestoring",
                 this._program_title.ToString());
             this.archive = archive;
@@ -60,16 +60,20 @@ namespace MASGAU.Restore {
             user_candidates = new ObservableCollection<string>();
 
             ProgressHandler.state = ProgressState.Indeterminate;
-
-            if (archive == null) {
-                string[] args = Environment.GetCommandLineArgs();
-                if (args.Length > 0) {
-                    foreach (string arg in args) {
-                        if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
-                            archive = new Archive(new FileInfo(arg.Trim('\"')));
+            try {
+                if (archive == null) {
+                    string[] args = Environment.GetCommandLineArgs();
+                    if (args.Length > 0) {
+                        foreach (string arg in args) {
+                            if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
+                                archive = new Archive(new FileInfo(arg.Trim('\"')));
+                                break;
+                            }
                         }
                     }
                 }
+            } catch (Exception ex) {
+                TranslatingMessageHandler.SendException(ex);
             }
 
             if (archive == null)
@@ -84,11 +88,7 @@ namespace MASGAU.Restore {
             string backup_owner = archive.id.Owner;
             string archive_type = archive.id.Type;
 
-            if (!Games.Contains(selected_game))
-                throw new TranslateableException("UnknownGame", selected_game.ToString());
-
-            game_data = Games.Get(selected_game);
-            game_data.Detect();
+            game_data = Games.detectGame(selected_game);
 
             // This adds hypothetical locations
             foreach (LocationPath location in game_data.Locations.Paths) {
@@ -124,6 +124,7 @@ namespace MASGAU.Restore {
                 }
             }
 
+
             // This add already found locations
             foreach (DetectedLocationPathHolder location in game_data.DetectedLocations) {
                 location.IsSelected = true;
@@ -146,6 +147,14 @@ namespace MASGAU.Restore {
                         break;
                 }
             }
+
+            //if (archive.id.Game.OS!=null&&archive.id.Game.OS.StartsWith("PS")) {
+
+            //    foreach (string drive in Core.locations.ps.GetDriveCandidates()) {
+            //        DetectedLocationPathHolder loc = new DetectedLocationPathHolder(EnvironmentVariable.Drive, drive, null);
+            //            addPathCandidate(loc);
+            //    }
+            //}
 
 
             if (path_candidates.Count == 1) {
@@ -210,6 +219,8 @@ namespace MASGAU.Restore {
                     if (path.GetType() == typeof(ManualLocationPathHolder)) {
                         return path;
                     }
+                }
+                foreach (LocationPath path in path_candidates) {
                     if (candidate == null && path.GetType() == typeof(DetectedLocationPathHolder)) {
                         DetectedLocationPathHolder det_path = path as DetectedLocationPathHolder;
                         if (det_path.RootHash == archive.id.OriginalPathHash) {

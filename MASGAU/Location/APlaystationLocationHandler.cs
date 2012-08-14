@@ -10,6 +10,7 @@ namespace MASGAU.Location {
             : base(HandlerType.PlayStation) {
         }
 
+        public abstract List<string> GetDriveCandidates();
 
         protected bool psp_found {
             get {

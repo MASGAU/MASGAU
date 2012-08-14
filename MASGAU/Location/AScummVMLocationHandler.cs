@@ -53,23 +53,23 @@ namespace MASGAU.Location {
             if (install_path != null) {
                 paths.AddRange(loadLocations(install_path, get_me, null));
             }
-            foreach (string user in Locations.Keys) {
-                if (get_me.Name!="scummvm"&&Locations[user].ContainsKey("scummvm")) {
-                    paths.AddRange(loadLocations(Locations[user]["scummvm"], get_me, user));
-                }
-                if (Locations[user].ContainsKey(get_me.Name)) {
-                    paths.AddRange(loadLocations(Locations[user][get_me.Name], get_me, user));
-                }
-            }
-
 
             DetectedLocations return_me = new DetectedLocations();
-            foreach (DetectedLocationPathHolder path in paths) {
-                DirectoryInfo info = new DirectoryInfo(path.full_dir_path);
-                if(info.GetFiles(get_me.Name + "*").Length>0) {
-                    return_me.Add(path);
+
+            foreach (string user in Locations.Keys) {
+                if (get_me.Name!="scummvm"&&Locations[user].ContainsKey("scummvm")) {
+                    foreach (DetectedLocationPathHolder path in loadLocations(Locations[user]["scummvm"], get_me, user)) {
+                        DirectoryInfo info = new DirectoryInfo(path.full_dir_path);
+                        if (info.GetFiles(get_me.Name + "*").Length > 0) {
+                            return_me.Add(path);
+                        }
+                    }
                 }
 
+
+                if (Locations[user].ContainsKey(get_me.Name)) {
+                    return_me.AddRange(loadLocations(Locations[user][get_me.Name], get_me, user));
+                }
             }
 
 
@@ -78,22 +78,19 @@ namespace MASGAU.Location {
 
         protected DetectedLocations loadLocations(String path, ScummVM scumm, string user) {
             DetectedLocations locs = Core.locations.interpretPath(path);
-
-            locs = filterLocations(locs, scumm, user);
-
             return locs;
         }
 
-        protected DetectedLocations filterLocations(DetectedLocations locs, ScummVM scumm, string user) {
-            List<string> keys = new List<string>(locs.Keys);
+        //protected DetectedLocations filterLocations(DetectedLocations locs, ScummVM scumm, string user) {
+        //    List<string> keys = new List<string>(locs.Keys);
 
-            foreach (string key in keys) {
-                if (!filterLocation(locs[key], scumm, user)) {
-                    locs.Remove(key);
-                }
-            }
-            return locs;
-        }
+        //    foreach (string key in keys) {
+        //        if (!filterLocation(locs[key], scumm, user)) {
+        //            locs.Remove(key);
+        //        }
+        //    }
+        //    return locs;
+        //}
 
         protected bool filterLocation(DetectedLocationPathHolder loc, ScummVM scumm, string user) {
             DirectoryInfo dir = new DirectoryInfo(loc.full_dir_path);
