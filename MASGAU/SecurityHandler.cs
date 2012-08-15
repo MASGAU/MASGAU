@@ -45,6 +45,8 @@ public class SecurityHandler {
                 case "WindowsXP":
                     response = TranslatingMessageHandler.SendWarning("ElevationXPWarning", true);
                     break;
+                case "WindowsVista":
+                    break;
                 default:
                     throw new NotSupportedException(MASGAU.Core.locations.platform_version);
             }

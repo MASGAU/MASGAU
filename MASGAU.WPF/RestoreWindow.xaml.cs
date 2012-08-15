@@ -159,6 +159,9 @@ namespace MASGAU.Restore {
                 pathBox.Visibility = System.Windows.Visibility.Visible;
                 singlePathBox.Visibility = System.Windows.Visibility.Collapsed;
                 pathCombo.SelectedItem = restore.recommended_path;
+                if (Restore.RestoreProgramHandler.use_defaults) {
+                    close_when_done = true;
+                }
             }
         }
 

@@ -19,6 +19,8 @@ namespace MASGAU.Location.Holders {
 
         public QuickHash RootHash {
             get {
+                if (AbsoluteRoot == null)
+                    return null;
                 return new QuickHash(AbsoluteRoot);
             }
         }

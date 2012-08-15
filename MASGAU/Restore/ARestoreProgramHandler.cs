@@ -261,6 +261,8 @@ namespace MASGAU.Restore {
                     case EnvironmentVariable.Public:
                     case EnvironmentVariable.SteamCommon:
                     case EnvironmentVariable.SteamSourceMods:
+                    case EnvironmentVariable.CommonApplicationData:
+                    case EnvironmentVariable.UbisoftSaveStorage:
                         user_needed = false;
                         break;
                     default:
