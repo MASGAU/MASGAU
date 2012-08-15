@@ -253,13 +253,13 @@ namespace MASGAU.Location {
 
                 add_me.setEvFolder(EnvironmentVariable.LocalAppData, user_key.getValue("Local AppData"));
 
-                DirectoryInfo ubisoft_save = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.LocalAppData), @"Ubisoft Game Launcher\savegame_storage"));
-                if (ubisoft_save.Exists) {
-                    add_me.setEvFolder(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save);
-                }
+                //DirectoryInfo ubisoft_save = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.LocalAppData).BaseFolder, @"Ubisoft Game Launcher\savegame_storage"));
+                //if (ubisoft_save.Exists) {
+                //    add_me.setEvFolder(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save);
+                //}
 
 
-                DirectoryInfo flash_share = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.AppData), @"Macromedia\Flash Player\#SharedObjects"));
+                DirectoryInfo flash_share = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.AppData).BaseFolder, @"Macromedia\Flash Player\#SharedObjects"));
                 if (flash_share.Exists) {
                     add_me.setEvFolder(EnvironmentVariable.FlashShared, flash_share);
                 }
@@ -347,9 +347,9 @@ namespace MASGAU.Location {
                     LocationPath temp = new LocationPath(get_me);
                     string[] chopped = temp.Path.Split(Path.DirectorySeparatorChar);
                     for (int i = 0; i < chopped.Length; i++) {
-                        temp.Path = chopped[i];
+                        temp.ReplacePath(chopped[i]);
                         for (int j = i + 1; j < chopped.Length; j++) {
-                            temp.Path = Path.Combine(temp.Path, chopped[j]);
+                            temp.AppendPath(chopped[j]);
                         }
                         temp.EV = EnvironmentVariable.ProgramFiles;
                         return_me.AddRange(getPaths(temp));
@@ -366,34 +366,34 @@ namespace MASGAU.Location {
                         virtualstore_info.EV = EnvironmentVariable.LocalAppData;
 
                         if (x64) {
-                            virtualstore_info.Path = Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFilesX86).Substring(3), virtualstore_info.Path);
+                            virtualstore_info.ReplacePath(Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder.Substring(3), virtualstore_info.Path));
                             return_me.AddRange(getPaths(virtualstore_info));
                             virtualstore_info = new LocationPath(get_me);
                             virtualstore_info.EV = EnvironmentVariable.LocalAppData;
                         }
-                        virtualstore_info.Path = Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFiles).Substring(3), virtualstore_info.Path);
+                        virtualstore_info.ReplacePath(Path.Combine("VirtualStore", global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder.Substring(3), virtualstore_info.Path));
                         return_me.AddRange(getPaths(virtualstore_info));
                     }
 
                     add_me = new DetectedLocationPathHolder(get_me);
                     if (x64) {
                         if (get_me.Path != null && get_me.Path.Length > 0)
-                            test = new DirectoryInfo(Path.Combine(global.getFolder(EnvironmentVariable.ProgramFilesX86), get_me.Path));
+                            test = new DirectoryInfo(Path.Combine(global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder, get_me.Path));
                         else
-                            test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFilesX86));
+                            test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder);
                         if (test.Exists) {
-                            add_me.AbsoluteRoot = global.getFolder(EnvironmentVariable.ProgramFilesX86);
+                            add_me.AbsoluteRoot = global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder;
                             return_me.Add(add_me);
                         }
                     }
 
                     if (get_me.Path != null && get_me.Path.Length > 0)
-                        test = new DirectoryInfo(Path.Combine(global.getFolder(EnvironmentVariable.ProgramFiles), get_me.Path));
+                        test = new DirectoryInfo(Path.Combine(global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder, get_me.Path));
                     else
-                        test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFiles));
+                        test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder);
 
                     if (test.Exists) {
-                        add_me.AbsoluteRoot = global.getFolder(EnvironmentVariable.ProgramFiles);
+                        add_me.AbsoluteRoot = global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder;
                         return_me.Add(add_me);
                     }
                     break;

@@ -3,19 +3,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using MASGAU.Location.Holders;
+using GameSaveInfo;
 namespace MASGAU.Location {
     public class EvFolder: Dictionary<string,string> {
-
-        public string getFolder() {
-            if (this.Count > 1)
-                throw new Exception("too many paths!" + base_folder);
-
-            return base_folder;
+        public bool Matches(string path) {
+            foreach (string folder in this.Values) {
+                string[] split = path.Split(Path.DirectorySeparatorChar);
+                for (int i = 0; i < split.Length; i++) {
+                    string new_path = split[0] + Path.DirectorySeparatorChar;
+                    for (int j = 1; j <= i; j++) {
+                        new_path = Path.Combine(new_path, split[j]);
+                    }
+                    if (new_path.ToLower().Equals(folder.ToLower()))
+                        return true;
+                }
+            }
+            return false;
         }
 
-        public string base_folder { get; protected set; }
+
+
+        public IEnumerable<string> Folders {
+            get {
+                return this.Values;
+            }
+        }
+        protected IEnumerable<string> SubFolders {
+            get {
+                return this.Keys;
+            }
+        }
+
+        public string BaseFolder { get; protected set; }
+
         public EvFolder(string folder) {
-            base_folder = folder;
+            this.Add("", folder);
+            BaseFolder = folder;
         }
 
         public bool HasDirs {
@@ -31,15 +55,26 @@ namespace MASGAU.Location {
             }
         }
 
-        public EvFolder(DirectoryInfo parent)
-            : this(parent.FullName) {
+        public IEnumerable<DetectedLocationPathHolder> createDetectedLocations(LocationPath loc, string owner) {
+            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+            foreach (string folder in this.Keys) {
+                DetectedLocationPathHolder add_me = new DetectedLocationPathHolder(loc);
+                add_me.owner = owner;
+                add_me.AbsoluteRoot = this[folder];
+//                if (folder != "")
+  //                  add_me.PrependPath(folder);
+                return_me.Add(add_me);
+            }
+            return return_me;
+        }
+
+        public EvFolder(DirectoryInfo parent) {
+
+                BaseFolder = parent.FullName;
+
             DirectoryInfo[] subs = parent.GetDirectories();
-            if (subs.Length == 1) {
-                base_folder = subs[0].FullName;
-            } else {
-                foreach (DirectoryInfo dir in subs) {
-                    this.Add(dir.Name, dir.FullName);
-                }
+            foreach (DirectoryInfo dir in subs) {
+                this.Add(dir.Name, dir.FullName);
             }
         }
     }

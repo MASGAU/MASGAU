@@ -49,26 +49,78 @@ namespace MASGAU.Restore {
         public void addPathCandidate(LocationPath location) {
             if (location is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
-                if (archive.id.OriginalPathHash == loc.RootHash) {
+                if (archive.id.OriginalLocation == loc.full_dir_path) {
                     loc.MatchesOriginalPath = true;
                 }
             }
 
-            foreach (LocationPath path in path_candidates) {
+            for (int i = 0; i < path_candidates.Count; i++ ) {
+                LocationPath path = path_candidates[i];
                 if (location.GetType() == typeof(ManualLocationPathHolder)) {
                     if (path.GetType() == typeof(ManualLocationPathHolder)) {
                         path_candidates.Remove(path);
                         break;
                     }
                 } else if (path.full_relative_dir_path.Equals(location.full_relative_dir_path)) {
+
                     if (location.GetType() == typeof(DetectedLocationPathHolder)) {
-                        path_candidates.Remove(path);
-                        path_candidates.Add(location);
+                        DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
+                        if (path is DetectedLocationPathHolder) {
+                            DetectedLocationPathHolder pat = location as DetectedLocationPathHolder;
+                            if (pat.full_dir_path == loc.full_dir_path) {
+                                if (pat.EV < loc.EV) {
+                                    path_candidates.Remove(path);
+                                    path_candidates.Insert(i, location);
+                                }
+                                return;
+                            }
+                        } else {
+                            path_candidates.Remove(path);
+                            path_candidates.Insert(i, location);
+                            return;
+                        }
+                    } else if(path is DetectedLocationPathHolder) {
+                        return;
                     }
-                    return;
                 }
             }
             path_candidates.Add(location);
+        }
+
+        protected void filterPathCandidates(LocationPath location) {
+            //if(location.path==null)
+            //continue;
+            if (location.OnlyFor != null && location.OnlyFor != Core.locations.platform_version)
+                return;
+
+            if (location.EV == EnvironmentVariable.InstallLocation ||
+                location.EV == EnvironmentVariable.SteamCommon)
+                return;
+
+            // Adds user-friendly menu entries to the root selector
+            switch (location.EV) {
+                case EnvironmentVariable.SteamSourceMods:
+                    if (Core.locations.steam_detected)
+                        addPathCandidate(location);
+                    break;
+                case EnvironmentVariable.SteamUser:
+                case EnvironmentVariable.SteamUserData:
+                    if (Core.locations.steam_detected && Core.locations.getUsers(location.EV).Count > 0)
+                        addPathCandidate(location);
+                    break;
+                case EnvironmentVariable.UbisoftSaveStorage:
+                case EnvironmentVariable.FlashShared:
+                    IEnumerable<string> paths = Core.locations.getPaths(location.EV);
+                    foreach (string path in paths) {
+                        LocationPath loc = Core.locations.interpretPath(path).getMostAccurateLocation();
+                        loc.AppendPath(location.Path);
+                        addPathCandidate(loc);
+                    }
+                    break;
+                default:
+                    addPathCandidate(location);
+                    break;
+            }
         }
 
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e) {
@@ -122,33 +174,7 @@ namespace MASGAU.Restore {
                     if (game_data.DetectionRequired)
                         break;
 
-                    //if(location.path==null)
-                    //continue;
-                    if (location.OnlyFor != null && location.OnlyFor != Core.locations.platform_version)
-                        continue;
-
-                    if (location.EV == EnvironmentVariable.InstallLocation ||
-                        location.EV == EnvironmentVariable.SteamCommon)
-                        continue;
-
-                    // Adds user-friendly menu entries to the root selector
-                    switch (location.EV) {
-                        case EnvironmentVariable.SteamSourceMods:
-                            if (Core.locations.steam_detected)
-                                addPathCandidate(location);
-                            break;
-                        case EnvironmentVariable.SteamUser:
-                            if (Core.locations.steam_detected && Core.locations.getUsers(EnvironmentVariable.SteamUser).Count > 0)
-                                addPathCandidate(location);
-                            break;
-                        case EnvironmentVariable.SteamUserData:
-                            if (Core.locations.steam_detected && Core.locations.getUsers(EnvironmentVariable.SteamUserData).Count > 0)
-                                addPathCandidate(location);
-                            break;
-                        default:
-                            addPathCandidate(location);
-                            break;
-                    }
+                        filterPathCandidates(location);
                 }
 
 
@@ -163,7 +189,7 @@ namespace MASGAU.Restore {
                                 DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location);
                                 temp.AbsoluteRoot = null;
                                 temp.owner = location.owner;
-                                temp.Path = Path.Combine("VirtualStore", location.full_dir_path.Substring(3));
+                                temp.ReplacePath(Path.Combine("VirtualStore", location.full_dir_path.Substring(3)));
                                 temp.EV = EnvironmentVariable.LocalAppData;
                                 addPathCandidate(temp);
                             }
@@ -184,11 +210,19 @@ namespace MASGAU.Restore {
                 //}
             }
 
-            if (archive.id.OriginalPath != null) {
-                DetectedLocations locs = Core.locations.interpretPath(archive.id.OriginalPath);
+            if(archive.id.OriginalEV != EnvironmentVariable.None &&
+                archive.id.OriginalRelativePath!=null) {
+                    LocationPath path = new LocationPath(archive.id.OriginalEV, archive.id.OriginalRelativePath);
+                    filterPathCandidates(path);
+            }
+
+            if (archive.id.OriginalLocation != null) {
+                DetectedLocations locs = Core.locations.interpretPath(archive.id.OriginalLocation);
                 DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
-                loc.MatchesOriginalPath = true;
-                addPathCandidate(loc);
+                if (loc != null) {
+                    loc.MatchesOriginalPath = true;
+                    addPathCandidate(loc);
+                }
             }
 
 
@@ -256,12 +290,14 @@ namespace MASGAU.Restore {
                     }
                 }
                 foreach (LocationPath path in path_candidates) {
-                    if (candidate == null && path.GetType() == typeof(DetectedLocationPathHolder)) {
+                    if (path.GetType() == typeof(DetectedLocationPathHolder)) {
                         DetectedLocationPathHolder det_path = path as DetectedLocationPathHolder;
-                        if (det_path.MatchesOriginalPath&&det_path.Exists) {
-                            return det_path;
+                        if(candidate == null || (det_path.MatchesOriginalPath && det_path.Exists)) {
+                            if (det_path.MatchesOriginalPath&&det_path.Exists) {
+                                return det_path;
+                            }
+                            candidate = det_path;
                         }
-                        candidate = det_path;
                     }
                 }
                 if (candidate != null)
@@ -273,13 +309,16 @@ namespace MASGAU.Restore {
         public void populateUsers(LocationPath location) {
             user_candidates.Clear();
             List<string> users = Core.locations.getUsers(location.EV);
-            if (users.Count > 0) {
+            if (users.Count > 0 && location.EV != EnvironmentVariable.FlashShared) {
                 user_needed = true;
                 if (users.Count > 1) {
                     multiple_users = true;
                 } else {
                     multiple_users = false;
                     NotifyPropertyChanged("only_user");
+                }
+                foreach (string user in users) {
+                    user_candidates.Add(user);
                 }
             } else {
                 switch (location.EV) {
@@ -298,15 +337,13 @@ namespace MASGAU.Restore {
                     case EnvironmentVariable.SteamSourceMods:
                     case EnvironmentVariable.CommonApplicationData:
                     case EnvironmentVariable.UbisoftSaveStorage:
+                    case EnvironmentVariable.FlashShared:
                         user_needed = false;
                         break;
                     default:
                         throw new TranslateableException("NoUsersForEV", location.EV.ToString());
                 }
 
-            }
-            foreach (string user in users) {
-                user_candidates.Add(user);
             }
         }
 

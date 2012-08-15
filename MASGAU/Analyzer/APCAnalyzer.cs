@@ -27,7 +27,7 @@ namespace MASGAU.Analyzer {
             }
 
             string[] folders = this.path.Path.Split(System.IO.Path.DirectorySeparatorChar);
-            path.Path = folders[0];
+            path.ReplacePath(folders[0]);
 
 
             outputLine("Operating System: ");

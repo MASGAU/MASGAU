@@ -65,7 +65,6 @@ namespace MASGAU.Location {
             handlers.Add(handler.type, handler);
         }
 
-
         public void resetHandler(HandlerType type) {
             Type originalType = handlers[type].GetType();
             handlers.Remove(type);
@@ -107,6 +106,7 @@ namespace MASGAU.Location {
             }
             return return_me;
         }
+
         public List<string> getPaths(EnvironmentVariable ev) {
             List<string> return_me = new List<string>();
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
@@ -114,6 +114,8 @@ namespace MASGAU.Location {
             }
             return return_me;
         }
+
+
 
         public List<string> getUsers(EnvironmentVariable for_me) {
             List<string> return_me = new List<string>();

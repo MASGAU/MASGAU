@@ -6,9 +6,10 @@ namespace MASGAU.Location.Holders {
     public class DetectedFile : DetectedLocationPathHolder, IEquatable<DetectedFile> {
         // public DetectedFile(): base() {
         // }
-
+        public DetectedLocationPathHolder OriginalLocation { get; protected set; }
         public DetectedFile(DetectedLocationPathHolder location, string path, string name, string type)
             : base(location) {
+                OriginalLocation = location;
             AbsoluteRoot = location.full_dir_path;
             owner = location.owner;
             this.Path = path;
@@ -23,7 +24,7 @@ namespace MASGAU.Location.Holders {
         // This is the name of the file
         public string Name { get; protected set; }
 
-        public string Type { get; protected set; }
+        public string Type { get;  set; }
 
         public override string ToString() {
             return System.IO.Path.Combine(base.ToString(), Name);

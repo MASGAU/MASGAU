@@ -68,23 +68,23 @@ namespace MASGAU.Location {
             if (!ready)
                 return return_me;
 
-            DetectedLocationPathHolder add_me;
             foreach (UserData user in this) {
                 if (!user.hasFolderFor(get_me.EV))
                     continue;
-                add_me = new DetectedLocationPathHolder(get_me);
-                add_me.owner = user.name;
-                add_me.AbsoluteRoot = user.getFolder(get_me.EV);
-                if (add_me.Exists) {
-                    return_me.Add(add_me);
+
+                EvFolder evf = user.getFolder(get_me.EV);
+                foreach (DetectedLocationPathHolder add_me in evf.createDetectedLocations(get_me,user.name)) {
+                    if (add_me.Exists) {
+                        return_me.Add(add_me);
+                    }
                 }
             }
             if (global.hasFolderFor(get_me.EV)) {
-                add_me = new DetectedLocationPathHolder(get_me);
-                add_me.owner = null;
-                add_me.AbsoluteRoot = global.getFolder(get_me.EV);
-                if (add_me.Exists)
-                    return_me.Add(add_me);
+                foreach (DetectedLocationPathHolder add_me in global.getFolder(get_me.EV).createDetectedLocations(get_me, null)) {
+                    if (add_me.Exists) {
+                        return_me.Add(add_me);
+                    }
+                }
             }
             return return_me;
         }
@@ -104,15 +104,17 @@ namespace MASGAU.Location {
         protected virtual DetectedLocations getPaths(ScummVM get_me) {
             return new DetectedLocations();
         }
+
+
         public List<string> getPaths(EnvironmentVariable for_me) {
             List<string> return_me = new List<string>();
 
             if (global.hasFolderFor(for_me)) {
-                return_me.Add(global.getFolder(for_me));
+                return_me.AddRange(global.getFolder(for_me).Folders);
             }
             foreach (UserData user in this) {
                 if (user.hasFolderFor(for_me))
-                    return_me.Add(user.getFolder(for_me));
+                    return_me.AddRange(user.getFolder(for_me).Folders);
             }
 
             return return_me;
@@ -142,12 +144,12 @@ namespace MASGAU.Location {
         public virtual string getAbsoluteRoot(LocationPath parse_me, string user) {
             if (user == null) {
                 if (global.hasFolderFor(parse_me.EV)) {
-                    return global.getFolder(parse_me.EV);
+                    return global.getFolder(parse_me.EV).BaseFolder;
                 }
             } else {
                 foreach (UserData user_data in this) {
                     if (user_data.name == user && user_data.hasFolderFor(parse_me.EV)) {
-                        return user_data.getFolder(parse_me.EV);
+                        return user_data.getFolder(parse_me.EV).BaseFolder;
                     }
                 }
             }
@@ -162,28 +164,35 @@ namespace MASGAU.Location {
             if (ready) {
                 // this needs to be able to interpret user paths too!
                 foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in global.folders) {
-                    if (variable.Value != null && matches(variable.Value.getFolder(), interpret_me)) {
+                    if (variable.Value != null && variable.Value.Matches(interpret_me)) {
                         string path;
-                        if (interpret_me.Length == variable.Value.getFolder().Length)
-                            path = "";
-                        else
-                            path = interpret_me.Substring(variable.Value.getFolder().Length + 1);
+                        foreach(string folder in variable.Value.Folders) {
+                            if (interpret_me.Length == folder.Length)
+                                path = "";
+                            else
+                                path = interpret_me.Substring(folder.Length + 1);
 
+                            new_location = new LocationPath(variable.Key,path);
+                            return_me.AddRange(getPaths(new_location));
+                        }
 
-                        new_location = new LocationPath(variable.Key,path);
-                        return_me.AddRange(getPaths(new_location));
                     }
                 }
                 foreach (UserData user in this) {
                     foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in user.folders) {
-                        if (variable.Value != null && matches(variable.Value.getFolder(), interpret_me)) {
+                        if (variable.Value != null && variable.Value.Matches(interpret_me)) {
                             string path;
-                            if (interpret_me.Length == variable.Value.getFolder().Length)
-                                path = "";
-                            else
-                                path = interpret_me.Substring(variable.Value.getFolder().Length + 1);
-                            new_location = new LocationPath(variable.Key,path);
-                            return_me.AddRange(getPaths(new_location));
+                            foreach (string folder in variable.Value.Folders) {
+                                if (!interpret_me.StartsWith(folder))
+                                    continue;
+
+                                if (interpret_me.Length == folder.Length)
+                                    path = "";
+                                else
+                                    path = interpret_me.Substring(folder.Length + 1);
+                                new_location = new LocationPath(variable.Key, path);
+                                return_me.AddRange(getPaths(new_location));
+                            }
                         }
                     }
                 }
@@ -191,19 +200,5 @@ namespace MASGAU.Location {
             return return_me;
 
         }
-
-        protected static bool matches(string root, string path) {
-            string[] split = path.Split(Path.DirectorySeparatorChar);
-            for (int i = 0; i < split.Length; i++) {
-                string new_path = split[0] + Path.DirectorySeparatorChar;
-                for (int j = 1; j <= i; j++) {
-                    new_path = Path.Combine(new_path, split[j]);
-                }
-                if (new_path.ToLower().Equals(root.ToLower()))
-                    return true;
-            }
-            return false;
-        }
-
     }
 }

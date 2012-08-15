@@ -17,11 +17,10 @@ namespace MASGAU.Location {
             : base(new StringID(name)) {
         }
 
-        public string getFolder(EnvironmentVariable ev) {
+
+        public EvFolder getFolder(EnvironmentVariable ev) {
             if (folders.ContainsKey(ev)) {
-                if (folders[ev].HasMultipleDirs)
-                    throw new Exception("This folder has multiple candidates, and cannot be auto computed");
-                return folders[ev].base_folder;
+                return folders[ev];
             }  else
                 return null;
         }
@@ -42,7 +41,7 @@ namespace MASGAU.Location {
                 folders.Add(ev, folder);
         }
         public bool hasFolderFor(EnvironmentVariable ev) {
-            return getFolder(ev) != null;
+            return folders.ContainsKey(ev);
         }
     }
 }

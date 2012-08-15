@@ -50,7 +50,7 @@ namespace MASGAU.Main {
                     } else {
                         initial_directory = last_archive_create;
                     }
-                    ArchiveID archive = new ArchiveID(game.id, selected_files[0].owner, null, null);
+                    ArchiveID archive = new ArchiveID(game.id, selected_files[0]);
 
                     StringBuilder initial_name = new StringBuilder(archive.ToString());
 

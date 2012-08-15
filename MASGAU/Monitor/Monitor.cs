@@ -146,14 +146,14 @@ namespace MASGAU.Monitor {
                             if (this_file.full_dir_path == null)
                                 continue;
 
-                            Archive archive = Archives.GetArchive(game, this_file.owner, this_file.Type, this_file.AbsoluteRoot);
+                            Archive archive = Archives.GetArchive( game, this_file);
 
                             try {
                                 if (archive == null) {
                                     if (this_file.owner == null)
-                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, null, this_file.Type, this_file.AbsoluteRoot));
+                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file));
                                     else
-                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file.owner, this_file.Type, this_file.AbsoluteRoot));
+                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file));
                                     Archives.Add(archive);
                                 }
                                 //monitorNotifier.ShowBalloonTip(10, "Safety Will Robinson", "Trying to archive " + file.path, ToolTipIcon.Info);

@@ -48,9 +48,9 @@ namespace MASGAU.Location {
                     LocationPath temp = new LocationPath(get_me);
                     string[] chopped = temp.Path.Split(Path.DirectorySeparatorChar);
                     for (int i = 0; i < chopped.Length; i++) {
-                        temp.Path = chopped[i];
+                        temp.ReplacePath(chopped[i]);
                         for (int j = i + 1; j < chopped.Length; j++) {
-                            temp.Path = Path.Combine(temp.Path, chopped[j]);
+                            temp.AppendPath(chopped[j]);
                         }
                         temp.EV = EnvironmentVariable.Drive;
                         return_me.AddRange(getPaths(temp));

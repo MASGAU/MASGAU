@@ -4,23 +4,26 @@ using System.Xml;
 using System.IO;
 using MVC;
 using GameSaveInfo;
+using MASGAU.Location.Holders;
 namespace MASGAU {
     public class ArchiveID : AIdentifier {
         public readonly String Owner;
         public readonly GameID Game;
         public readonly String Type;
-        public QuickHash OriginalPathHash {
+        public QuickHash OriginalLocationhHash {
             get {
-                if (OriginalPath == null)
+                if (OriginalLocation == null)
                     return null;
-                return new QuickHash(OriginalPath);
+                return new QuickHash(OriginalLocation);
             }
         }
-        public readonly String OriginalPath;
+        public EnvironmentVariable OriginalEV { get; protected set; }
+        public readonly String OriginalLocation;
+        public readonly String OriginalRelativePath;
         public String OriginalDrive {
             get {
-                if (OriginalPath != null)
-                    return Path.GetPathRoot(OriginalPath);
+                if (OriginalLocation != null)
+                    return Path.GetPathRoot(OriginalLocation);
                 return null;
             }
         }
@@ -50,8 +53,14 @@ namespace MASGAU {
                             }
                         }
                         break;
-                    case "original_path":
-                        OriginalPath = element.InnerText;
+                    case "original_location":
+                        OriginalLocation = element.InnerText;
+                        break;
+                    case "original_relative_path":
+                        OriginalRelativePath = element.InnerText;
+                        break;
+                    case "original_ev":
+                        OriginalEV = ALocation.parseEnvironmentVariable(element.InnerText);
                         break;
                     case "owner":
                         if (!element.HasAttribute("name"))
@@ -59,7 +68,7 @@ namespace MASGAU {
 
                         Owner = element.GetAttribute("name");
                         break;
-                    case "original_path_hash":
+                    case "original_location_hash":
                     case "original_drive":
                         break;
                     default:
@@ -94,14 +103,14 @@ namespace MASGAU {
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
 
-            if (OriginalPathHash != null) {
-                node = doc.CreateElement("original_path_hash");
-                node.InnerText = OriginalPathHash.ToString();
+            if (OriginalLocationhHash != null) {
+                node = doc.CreateElement("original_location_hash");
+                node.InnerText = OriginalLocationhHash.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
-            if (OriginalPath != null) {
-                node = doc.CreateElement("original_path");
-                node.InnerText = OriginalPath.ToString();
+            if (OriginalLocation != null) {
+                node = doc.CreateElement("original_location");
+                node.InnerText = OriginalLocation.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
             if (OriginalDrive != null) {
@@ -109,22 +118,36 @@ namespace MASGAU {
                 node.InnerText = OriginalDrive.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
+            if (OriginalRelativePath != null) {
+                node = doc.CreateElement("original_relative_path");
+                node.InnerText = OriginalRelativePath.ToString();
+                doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
+            }
+
+            node = doc.CreateElement("original_ev");
+            node.InnerText = OriginalEV.ToString();
+            doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
 
             return doc;
         }
 
-        public ArchiveID(GameID game, String owner, String type, String original_path) {
+        public ArchiveID(GameID game, DetectedFile first_file) {
             this.Game = game;
-            this.Owner = owner;
-            this.Type = type;
-            OriginalPath = original_path;
+            this.Owner = first_file.owner;
+            this.Type = first_file.Type;
+            DetectedLocationPathHolder loc = first_file.OriginalLocation;
+
+
+            OriginalLocation = loc.full_dir_path ;
+            OriginalEV = loc.EV;
+            OriginalRelativePath = loc.Path;
         }
 
         public override int GetHashCode() {
             int value = Owner.GetHashCode() + Game.GetHashCode() + Type.GetHashCode();
 
-            if (OriginalPathHash != null)
-                value += OriginalPathHash.GetHashCode();
+            if (OriginalLocationhHash != null)
+                value += OriginalLocationhHash.GetHashCode();
             return value;
         }
 
@@ -132,14 +155,14 @@ namespace MASGAU {
             ArchiveID id = obj as ArchiveID;
 
             // Basically we're going to ignore old archives for backup purposes
-            if (this.OriginalPathHash == null) {
+            if (this.OriginalLocationhHash == null) {
                 return false;
             }
 
             return this.Owner == id.Owner &&
                 this.Game == id.Game &&
                 this.Type == id.Type &&
-                this.OriginalPathHash == id.OriginalPathHash;
+                this.OriginalLocationhHash == id.OriginalLocationhHash;
         }
 
         public override int CompareTo(object obj) {
@@ -150,7 +173,7 @@ namespace MASGAU {
             if (result == 0)
                 result = compare(Type, id.Type);
             if (result == 0)
-                result = compare(OriginalPathHash, id.OriginalPathHash);
+                result = compare(OriginalLocationhHash, id.OriginalLocationhHash);
 
             return result;
         }
@@ -163,8 +186,8 @@ namespace MASGAU {
             if (Type != null)
                 return_me.Append(Core.seperator + Type);
 
-            if (OriginalPathHash != null)
-                return_me.Append(Core.seperator + OriginalPathHash);
+            if (OriginalLocationhHash != null)
+                return_me.Append(Core.seperator + OriginalLocationhHash);
 
             return return_me.ToString();
         }

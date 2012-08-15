@@ -13,7 +13,7 @@ namespace MASGAU.Location {
             foreach (UserData user in handler) {
                 if (user.hasFolderFor(EnvironmentVariable.AppData)) {
                     FileInfo file = new FileInfo(
-                        Path.Combine(user.getFolder(EnvironmentVariable.AppData),
+                        Path.Combine(user.getFolder(EnvironmentVariable.AppData).BaseFolder,
                         Path.Combine("ScummVM", "scummvm.ini")));
                     if (file.Exists) {
                         files.Add(user.name, file);

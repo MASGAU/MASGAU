@@ -4,6 +4,7 @@ using System.IO;
 using MVC.Communication;
 using MVC.Translator;
 using MVC;
+using MASGAU.Location.Holders;
 namespace MASGAU {
     public class Archives : StaticModel<ArchiveID, Archive> {
         private Archives() { }
@@ -27,8 +28,8 @@ namespace MASGAU {
             return archives;
         }
 
-        public static Archive GetArchive(GameID id, String owner, String type, String absolute_root) {
-            ArchiveID find_me = new ArchiveID(id, owner, type, absolute_root);
+        public static Archive GetArchive(GameID id, DetectedFile file) {
+            ArchiveID find_me = new ArchiveID(id, file);
             return model.get(find_me);
         }
 
