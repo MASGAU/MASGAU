@@ -10,96 +10,99 @@
     <w:CustomWindowBorder>
         <w:CustomWindowBorder.BorderContent>
             <Grid Margin="0">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <GroupBox Grid.Row="0" Margin="5" Name="ProgressBox">
-                    <w:SuperProgressBar Height="25" Name="restoreProgress" StatusVisible="false" />
-        </GroupBox>
-        <Grid Margin="3" Grid.Row="1" Name="LocationGrid" Visibility="Collapsed">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
-            <GroupBox Grid.ColumnSpan="2" Header="$RestoreLocationChoice" Margin="3" Name="pathBox">
-                <ComboBox Height="23" Margin="1" Name="pathCombo" SelectionChanged="pathCombo_SelectionChanged" TabIndex="2" />
-            </GroupBox>
-            <GroupBox Grid.ColumnSpan="2" Grid.Row="2" Header="$RestoreUserChoice" Margin="3" Name="userBox">
-                <ComboBox Height="23" Margin="1" Name="userCombo" TabIndex="3" />
-            </GroupBox>
-            <GroupBox Grid.ColumnSpan="2" Grid.Row="1" Header="$RestoreLocation" Margin="3" Name="singlePathBox">
-                <Label Content="{Binding only_path}" Margin="1" Name="pathLabel" />
-            </GroupBox>
-            <GroupBox Grid.ColumnSpan="2" Grid.Row="3" Header="$RestoreUser" Margin="3" Name="singleUserBox">
-                <Label Content="{Binding only_user}" Margin="1" Name="userLabel" />
-            </GroupBox>
-        </Grid>
-        <GroupBox Header="$RestoreSelectFiles" Margin="5" Grid.Row="2" Name="selectFilesGroup" Visibility="Collapsed">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition />
-                </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <ListView Name="listView1" VerticalAlignment="Top" MinWidth="75" MinHeight="200" Margin="3" ItemsSource="{Binding}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" MaxHeight="500" Grid.ColumnSpan="3">
-                    <ListView.ItemContainerStyle>
-                        <Style TargetType="ListViewItem">
-                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
-                        </Style>
-                    </ListView.ItemContainerStyle>
-                    <ListView.Resources>
-                        <Style TargetType="{x:Type CheckBox}" x:Key="DataGridCheckBox">
-                            <Setter Property="HorizontalAlignment" Value="Center" />
-                            <Setter Property="HorizontalContentAlignment" Value="Center" />
-                            <Setter Property="Margin" Value="2" />
-                            <Setter Property="VerticalAlignment" Value="Center" />
-                            <Setter Property="VerticalContentAlignment" Value="Center" />
-                        </Style>
-                    </ListView.Resources>
-                    <ListView.View>
-                        <GridView AllowsColumnReorder="False">
-                            <GridViewColumn x:Name="restoreColumn" Header="$Restore" Width="50">
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <CheckBox HorizontalAlignment="Center" IsChecked="{Binding IsSelected, Mode=TwoWay}" Style="{StaticResource DataGridCheckBox}" />
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                            <GridViewColumn x:Name="fileColumn" Header="$File">
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding name}" />
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                        </GridView>
-                    </ListView.View>
-                </ListView>
-                <Button Content="$SelectAll" Grid.Row="1" Height="23" Name="selectAllBtn" Padding="3,0" Click="button1_Click" Margin="3" />
-                <Button Content="$SelectNone" Grid.Column="1" Grid.Row="1" Height="23" Name="selectNoneBtn" Padding="3,0" Click="button2_Click" Margin="3" />
-            </Grid>
-        </GroupBox>
+                <GroupBox Grid.Row="0" Margin="5" Name="ProgressBox">
+                    <w:SuperProgressBar Height="25" Name="restoreProgress" StatusVisible="false" />
+                </GroupBox>
+                <Grid Margin="3" Grid.Row="1" Name="LocationGrid" Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Name="noGameLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="1" Visibility="Collapsed">
+                        <TextBlock Name="noGameText" TextAlignment="Center">$ArchiveGameNotFound</TextBlock>
+                    </Label>
+                    <GroupBox Grid.Row="1" Grid.ColumnSpan="2" Header="$RestoreLocationChoice" Margin="3" Name="pathBox">
+                        <ComboBox Height="23" Margin="1" Name="pathCombo" SelectionChanged="pathCombo_SelectionChanged" TabIndex="2" />
+                    </GroupBox>
+                    <GroupBox Grid.ColumnSpan="2" Grid.Row="2" Header="$RestoreUserChoice" Margin="3" Name="userBox">
+                        <ComboBox Height="23" Margin="1" Name="userCombo" TabIndex="3" />
+                    </GroupBox>
+                    <GroupBox Grid.ColumnSpan="2" Grid.Row="3" Header="$RestoreLocation" Margin="3" Name="singlePathBox">
+                        <Label Content="{Binding only_path}" Margin="1" Name="pathLabel" />
+                    </GroupBox>
+                    <GroupBox Grid.ColumnSpan="2" Grid.Row="4" Header="$RestoreUser" Margin="3" Name="singleUserBox">
+                        <Label Content="{Binding only_user}" Margin="1" Name="userLabel" />
+                    </GroupBox>
+                </Grid>
+                <GroupBox Header="$RestoreSelectFiles" Margin="5" Grid.Row="2" Name="selectFilesGroup" Visibility="Collapsed">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <ListView Name="listView1" VerticalAlignment="Top" MinWidth="75" MinHeight="200" Margin="3" ItemsSource="{Binding}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" MaxHeight="500" Grid.ColumnSpan="3">
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="ListViewItem">
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                </Style>
+                            </ListView.ItemContainerStyle>
+                            <ListView.Resources>
+                                <Style TargetType="{x:Type CheckBox}" x:Key="DataGridCheckBox">
+                                    <Setter Property="HorizontalAlignment" Value="Center" />
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                    <Setter Property="Margin" Value="2" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                                </Style>
+                            </ListView.Resources>
+                            <ListView.View>
+                                <GridView AllowsColumnReorder="False">
+                                    <GridViewColumn x:Name="restoreColumn" Header="$Restore" Width="50">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox HorizontalAlignment="Center" IsChecked="{Binding IsSelected, Mode=TwoWay}" Style="{StaticResource DataGridCheckBox}" />
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                    <GridViewColumn x:Name="fileColumn" Header="$File">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding name}" />
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                        <Button Content="$SelectAll" Grid.Row="1" Height="23" Name="selectAllBtn" Padding="3,0" Click="button1_Click" Margin="3" />
+                        <Button Content="$SelectNone" Grid.Column="1" Grid.Row="1" Height="23" Name="selectNoneBtn" Padding="3,0" Click="button2_Click" Margin="3" />
+                    </Grid>
+                </GroupBox>
 
-        <Label Grid.Row="3" Name="restoreDoneLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="5" Visibility="Collapsed">
-            <TextBlock Name="restoreDoneText" TextAlignment="Center">$RestoreComplete</TextBlock>
-        </Label>
-    </Grid>
+                <Label Grid.Row="3" Name="restoreDoneLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="5" Visibility="Collapsed">
+                    <TextBlock Name="restoreDoneText" TextAlignment="Center">$RestoreComplete</TextBlock>
+                </Label>
+            </Grid>
         </w:CustomWindowBorder.BorderContent>
 
         <w:CustomWindowBorder.BottomGrid>
@@ -117,7 +120,7 @@
                 <w:SuperButton Grid.Column="3" ImageSource="/WPF;Component/Images/16px/gtk-edit.png" ImageHeight="16" Text="$SelectFiles" Name="selectFilesButton" TabIndex="5"  Margin="3" Click="selectFilesButton_Click" />
                 <w:SuperButton Grid.Column="4" ImageSource="/WPF;Component/Images/20px/gtk-ok.png" ImageHeight="16"  Click="restoreButton_Click" Text="$Restore" Name="restoreButton" TabIndex="4" Visibility="Collapsed" Margin="3" />
                 <w:SuperButton Grid.Column="5" ImageSource="/WPF;Component/Images/20px/gtk-cancel.png" ImageHeight="16" Click="cancelButton_Click" Text="$Cancel" Name="cancelButton" TabIndex="5" Margin="3" />
-</Grid>
+            </Grid>
         </w:CustomWindowBorder.BottomGrid>
     </w:CustomWindowBorder>
 </src:AProgramWindow>

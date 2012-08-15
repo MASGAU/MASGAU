@@ -60,6 +60,7 @@ namespace MASGAU {
                         Owner = element.GetAttribute("name");
                         break;
                     case "original_path_hash":
+                    case "original_drive":
                         break;
                     default:
                         throw new NotSupportedException(element.Name);

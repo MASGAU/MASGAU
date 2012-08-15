@@ -4,6 +4,6 @@
     <StartArguments>"C:\Documents and Settings\tkmayn9\My Documents\Downloads\Civilization5«Windows«Matthew@9-20-2011 11-47-25 PM.gb7"</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <StartArguments>"C:\Documents and Settings\support1\Desktop\Test\BeneathASteelSky«ScummVM«Settings«2BFFC0D7.gb7"</StartArguments>
+    <StartArguments>"Y:\Desktop\Projects\MASGAU\ObsoletePlatformText.gb7"</StartArguments>
   </PropertyGroup>
 </Project>

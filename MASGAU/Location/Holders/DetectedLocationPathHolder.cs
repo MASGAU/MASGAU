@@ -48,7 +48,7 @@ namespace MASGAU.Location.Holders {
             }
         }
 
-        public bool exists {
+        public bool Exists {
             get {
                 return Directory.Exists(full_dir_path);
             }
@@ -92,6 +92,9 @@ namespace MASGAU.Location.Holders {
             }   
             if (Path != null)
                 return_me = System.IO.Path.Combine(return_me, Path);
+
+            if (MatchesOriginalPath)
+                return_me += " (This Archive Originally Came From This Folder)";
 
             return return_me;
         }

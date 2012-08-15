@@ -11,11 +11,22 @@ using Translator;
 using GameSaveInfo;
 namespace MASGAU.Restore {
     public class RestoreProgramHandler : AProgramHandler {
-
+        public bool GameNotDetected {
+            get {
+                return game_data == null || !game_data.IsDetected;
+            }
+        }
         public static Boolean use_defaults = false;
         public static List<string> unsuccesfull_restores = new List<string>();
         public static Boolean overall_stop = false;
 
+        public string RestoreComment {
+            get {
+                if (game_data == null)
+                    return null;
+                return game_data.RestoreComment;
+            }
+        }
 
         public ObservableCollection<LocationPath> path_candidates;
         
@@ -23,9 +34,9 @@ namespace MASGAU.Restore {
         public ObservableCollection<string> user_candidates;
         public Archive archive;
 
-        public MASGAU.GameEntry game_data {
+        protected MASGAU.GameEntry game_data {
             get;
-            protected set;
+            set;
         }
 
         public RestoreProgramHandler(Archive archive, ALocationsHandler loc)
@@ -36,6 +47,13 @@ namespace MASGAU.Restore {
         }
 
         public void addPathCandidate(LocationPath location) {
+            if (location is DetectedLocationPathHolder) {
+                DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
+                if (archive.id.OriginalPathHash == loc.RootHash) {
+                    loc.MatchesOriginalPath = true;
+                }
+            }
+
             foreach (LocationPath path in path_candidates) {
                 if (location.GetType() == typeof(ManualLocationPathHolder)) {
                     if (path.GetType() == typeof(ManualLocationPathHolder)) {
@@ -88,73 +106,90 @@ namespace MASGAU.Restore {
             string backup_owner = archive.id.Owner;
             string archive_type = archive.id.Type;
 
-            game_data = Games.detectGame(selected_game);
 
-            // This adds hypothetical locations
-            foreach (LocationPath location in game_data.Locations.Paths) {
-                if (game_data.DetectionRequired)
-                    break;
-
-                //if(location.path==null)
-                //continue;
-                if (location.OnlyFor != null && location.OnlyFor != Core.locations.platform_version)
-                    continue;
-
-                if (location.EV == EnvironmentVariable.InstallLocation ||
-                    location.EV == EnvironmentVariable.SteamCommon)
-                    continue;
-
-                // Adds user-friendly menu entries to the root selector
-                switch (location.EV) {
-                    case EnvironmentVariable.SteamSourceMods:
-                        if (Core.locations.steam_detected)
-                            addPathCandidate(location);
-                        break;
-                    case EnvironmentVariable.SteamUser:
-                        if (Core.locations.steam_detected && Core.locations.getUsers(EnvironmentVariable.SteamUser).Count > 0)
-                            addPathCandidate(location);
-                        break;
-                    case EnvironmentVariable.SteamUserData:
-                        if (Core.locations.steam_detected && Core.locations.getUsers(EnvironmentVariable.SteamUserData).Count > 0)
-                            addPathCandidate(location);
-                        break;
-                    default:
-                        addPathCandidate(location);
-                        break;
-                }
+            try {
+                game_data = Games.detectGame(selected_game);
+            } catch (Exception ex) {
+                TranslatingMessageHandler.SendException(ex);
             }
 
+            NotifyPropertyChanged("GameNotDetected");
 
-            // This add already found locations
-            foreach (DetectedLocationPathHolder location in game_data.DetectedLocations) {
-                location.IsSelected = true;
-                switch (location.EV) {
-                    case EnvironmentVariable.ProgramFiles:
-                    case EnvironmentVariable.ProgramFilesX86:
-                        // This adds a fake VirtualStore folder, just in case
-                        if (Core.locations.uac_enabled) {
-                            DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location);
-                            temp.AbsoluteRoot = null;
-                            temp.owner = location.owner;
-                            temp.Path = Path.Combine("VirtualStore", location.full_dir_path.Substring(3));
-                            temp.EV = EnvironmentVariable.LocalAppData;
-                            addPathCandidate(temp);
-                        }
-                        addPathCandidate(location);
+
+            if (game_data != null) {
+                // This adds hypothetical locations
+                foreach (LocationPath location in game_data.Locations.Paths) {
+                    if (game_data.DetectionRequired)
                         break;
-                    default:
-                        addPathCandidate(location);
-                        break;
+
+                    //if(location.path==null)
+                    //continue;
+                    if (location.OnlyFor != null && location.OnlyFor != Core.locations.platform_version)
+                        continue;
+
+                    if (location.EV == EnvironmentVariable.InstallLocation ||
+                        location.EV == EnvironmentVariable.SteamCommon)
+                        continue;
+
+                    // Adds user-friendly menu entries to the root selector
+                    switch (location.EV) {
+                        case EnvironmentVariable.SteamSourceMods:
+                            if (Core.locations.steam_detected)
+                                addPathCandidate(location);
+                            break;
+                        case EnvironmentVariable.SteamUser:
+                            if (Core.locations.steam_detected && Core.locations.getUsers(EnvironmentVariable.SteamUser).Count > 0)
+                                addPathCandidate(location);
+                            break;
+                        case EnvironmentVariable.SteamUserData:
+                            if (Core.locations.steam_detected && Core.locations.getUsers(EnvironmentVariable.SteamUserData).Count > 0)
+                                addPathCandidate(location);
+                            break;
+                        default:
+                            addPathCandidate(location);
+                            break;
+                    }
                 }
+
+
+                // This add already found locations
+                foreach (DetectedLocationPathHolder location in game_data.DetectedLocations) {
+                    location.IsSelected = true;
+                    switch (location.EV) {
+                        case EnvironmentVariable.ProgramFiles:
+                        case EnvironmentVariable.ProgramFilesX86:
+                            // This adds a fake VirtualStore folder, just in case
+                            if (Core.locations.uac_enabled) {
+                                DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location);
+                                temp.AbsoluteRoot = null;
+                                temp.owner = location.owner;
+                                temp.Path = Path.Combine("VirtualStore", location.full_dir_path.Substring(3));
+                                temp.EV = EnvironmentVariable.LocalAppData;
+                                addPathCandidate(temp);
+                            }
+                            addPathCandidate(location);
+                            break;
+                        default:
+                            addPathCandidate(location);
+                            break;
+                    }
+                }
+
+                //if (archive.id.Game.OS!=null&&archive.id.Game.OS.StartsWith("PS")) {
+
+                //    foreach (string drive in Core.locations.ps.GetDriveCandidates()) {
+                //        DetectedLocationPathHolder loc = new DetectedLocationPathHolder(EnvironmentVariable.Drive, drive, null);
+                //            addPathCandidate(loc);
+                //    }
+                //}
             }
 
-            //if (archive.id.Game.OS!=null&&archive.id.Game.OS.StartsWith("PS")) {
-
-            //    foreach (string drive in Core.locations.ps.GetDriveCandidates()) {
-            //        DetectedLocationPathHolder loc = new DetectedLocationPathHolder(EnvironmentVariable.Drive, drive, null);
-            //            addPathCandidate(loc);
-            //    }
-            //}
+            if (archive.id.OriginalPath != null) {
+                DetectedLocations locs = Core.locations.interpretPath(archive.id.OriginalPath);
+                DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
+                loc.MatchesOriginalPath = true;
+                addPathCandidate(loc);
+            }
 
 
             if (path_candidates.Count == 1) {
@@ -223,7 +258,7 @@ namespace MASGAU.Restore {
                 foreach (LocationPath path in path_candidates) {
                     if (candidate == null && path.GetType() == typeof(DetectedLocationPathHolder)) {
                         DetectedLocationPathHolder det_path = path as DetectedLocationPathHolder;
-                        if (det_path.RootHash == archive.id.OriginalPathHash) {
+                        if (det_path.MatchesOriginalPath&&det_path.Exists) {
                             return det_path;
                         }
                         candidate = det_path;

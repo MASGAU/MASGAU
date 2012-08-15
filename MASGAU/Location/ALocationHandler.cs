@@ -75,7 +75,7 @@ namespace MASGAU.Location {
                 add_me = new DetectedLocationPathHolder(get_me);
                 add_me.owner = user.name;
                 add_me.AbsoluteRoot = user.getFolder(get_me.EV);
-                if (add_me.exists) {
+                if (add_me.Exists) {
                     return_me.Add(add_me);
                 }
             }
@@ -83,7 +83,7 @@ namespace MASGAU.Location {
                 add_me = new DetectedLocationPathHolder(get_me);
                 add_me.owner = null;
                 add_me.AbsoluteRoot = global.getFolder(get_me.EV);
-                if (add_me.exists)
+                if (add_me.Exists)
                     return_me.Add(add_me);
             }
             return return_me;

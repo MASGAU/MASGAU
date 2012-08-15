@@ -81,8 +81,8 @@ namespace MASGAU.Restore {
             restoreButton.Visibility = System.Windows.Visibility.Visible;
             choosePathButton.Visibility = System.Windows.Visibility.Visible;
 
-            if (restore.game_data.RestoreComment != null) {
-                restoreDoneText.Text = restore.game_data.RestoreComment + Environment.NewLine + Environment.NewLine + Strings.GetLabelString("RestoreCompleteWithComment");
+            if (restore.RestoreComment != null) {
+                restoreDoneText.Text = restore.RestoreComment + Environment.NewLine + Environment.NewLine + Strings.GetLabelString("RestoreCompleteWithComment");
             }
 
             refreshPaths();
@@ -129,6 +129,9 @@ namespace MASGAU.Restore {
         }
 
         private void refreshPaths() {
+            if (restore.GameNotDetected)
+                noGameLabel.Visibility = System.Windows.Visibility.Visible;
+
             if (restore.path_candidates.Count == 0) {
                 pathBox.Visibility = System.Windows.Visibility.Collapsed;
                 singlePathBox.Visibility = System.Windows.Visibility.Visible;
