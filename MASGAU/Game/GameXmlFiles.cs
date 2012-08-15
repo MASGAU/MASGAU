@@ -7,62 +7,43 @@ using MASGAU.Update;
 using Translator;
 using XmlData;
 using GameSaveInfo;
+using System.Reflection;
 namespace MASGAU.Game {
     public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,GameSaveInfo.Game> {
         public CustomGameXmlFile custom { get; protected set;  }
-        public DirectoryInfo DataSource {
+        public DirectoryInfo DataFolder {
             get {
                 switch (Core.settings.mode) {
                     case Config.ConfigMode.Portable:
-                        return source;
+                        return new DirectoryInfo(Path.Combine(Core.app_path, "data"));
                     case Config.ConfigMode.AllUsers:
                     case Config.ConfigMode.SingleUser:
-                        return common;
+                        return new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
                 }
                 return null;
             }
         }
-        protected DirectoryInfo common = new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));
-        protected DirectoryInfo source = new DirectoryInfo(Path.Combine(Core.app_path, "data"));
+        public FileInfo SchemaFile {
+            get {
+                return new FileInfo(Path.Combine(DataFolder.FullName, GameXmlFile.Schema));
+            }
+        }
 
-        FileInfo common_schema;
-        FileInfo master_schema;
-
-        public const string SchemaName = "GameSaveInfo20.xsd";
 
         public GameXmlFiles() {
-            if (!common.Exists)
-                common.Create();
+            if (!DataFolder.Exists)
+                DataFolder.Create();
 
-
-
-            master_schema = new FileInfo(Path.Combine(Core.app_path, "data", SchemaName));
-            if (!master_schema.Exists)
-                throw new TranslateableException("SchemaNotFound",master_schema.FullName);
-
-            common_schema = new FileInfo(Path.Combine(common.FullName, SchemaName));
-
-            if (!common_schema.Exists||common_schema.LastWriteTime<master_schema.LastWriteTime) {
-                master_schema.CopyTo(common_schema.FullName, true);
-            }
+            prepareDataFiles();
 
 
             List<FileInfo> files = new List<FileInfo>();
-            switch(Core.settings.mode) {
-                case Config.ConfigMode.Portable:
-                    files.AddRange(source.GetFiles("*.xml"));
-                    break;
-                case Config.ConfigMode.AllUsers:
-                case Config.ConfigMode.SingleUser:
-                    prepareDataFiles();
-                    files.AddRange(common.GetFiles("*.xml"));
-                    break;
-            }
+            files.AddRange(DataFolder.GetFiles("*.xml"));
 
             try {
                 this.LoadXml(files);
                 if (this.custom == null)
-                    this.custom = new CustomGameXmlFile(new FileInfo(Path.Combine(DataSource.FullName, "custom.xml")));
+                    this.custom = new CustomGameXmlFile(new FileInfo(Path.Combine(DataFolder.FullName, "custom.xml")));
             } catch (DirectoryNotFoundException e) {
                 throw new TranslateableException("CouldNotFindGameProfilesFolder",e);
             } catch (FileNotFoundException e) {
@@ -70,7 +51,7 @@ namespace MASGAU.Game {
             }
 
             if (this.custom == null) {
-                this.custom = new CustomGameXmlFile(new FileInfo(Path.Combine(source.FullName, "custom.xml")));
+                this.custom = new CustomGameXmlFile(new FileInfo(Path.Combine(DataFolder.FullName, "custom.xml")));
             }
         }
         public GameXmlFile getFile(string name) {
@@ -81,21 +62,42 @@ namespace MASGAU.Game {
             return null;
         }
 
+        protected FileInfo extractResourceFile(string name) {
+            FileInfo file = new FileInfo(Path.Combine(DataFolder.FullName,name.Substring(12)));
+            string assembly = Assembly.GetExecutingAssembly().Location;
+
+            ManifestResourceInfo info = Assembly.GetExecutingAssembly().GetManifestResourceInfo(name);
+
+            FileInfo assm = new FileInfo(assembly);
+            if (!file.Exists || assm.LastWriteTime > file.LastWriteTime) {
+                using (FileStream ResourceFile = new FileStream(file.FullName, FileMode.Create)) {
+                    Stream s = Assembly.GetExecutingAssembly().GetManifestResourceStream(name);
+
+                    byte[] b = new byte[s.Length + 1];
+                    s.Read(b, 0, Convert.ToInt32(s.Length));
+                    ResourceFile.Write(b, 0, Convert.ToInt32(b.Length - 1));
+                    ResourceFile.Flush();
+                    ResourceFile.Close();
+                }
+            }
+            file.Refresh();
+            return file;
+        }
+
         protected virtual List<FileInfo> prepareDataFiles() {
             List<FileInfo> files = new List<FileInfo>();
-            foreach (FileInfo original in source.GetFiles("*.xml")) {
-                FileInfo file = new FileInfo(Path.Combine(common.FullName, original.Name));
-                if (!file.Exists || original.LastWriteTime>file.LastWriteTime) {
-                    original.CopyTo(file.FullName, true);
-                }
-                files.Add(file);
+            string[] names = Assembly.GetExecutingAssembly().GetManifestResourceNames();
+            foreach (string name in names) {
+                if(name.StartsWith("MASGAU.Data"))
+                    extractResourceFile(name);
             }
             return files;
         }
 
         private bool IsRestorable(FileInfo file) {
-            FileInfo original = new FileInfo(Path.Combine(source.FullName,file.Name));
-            return original.Exists;
+//            FileInfo original = new FileInfo(Path.Combine(source.FullName,file.Name));
+            return false; 
+//            original.Exists;
         }
 
 
@@ -110,25 +112,39 @@ namespace MASGAU.Game {
                         GameXmlFile file = new GameXmlFile(path);
                         return file;
                     }
-                } catch (XmlException ex) {
-                    TranslatingMessageHandler.SendError("XMLFormatError", ex, path.FullName);
-                    if (IsRestorable(path)) {
-                        if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataCorruptedRestore", path.Name).Cancelled) {
-                            path.Delete();
-                            prepareDataFiles();
-                        } else {
-                            keep_trying = false;
-                        }
-                    } else {
-                        if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataCorruptedDelete", path.Name).Cancelled) {
+                } catch (VersionNotSupportedException ex) {
+                    if (!GameSaveInfo.Converters.AConverter.CanConvert(ex.FileVersion)) {
+                        if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataObsoleteDelete", path.Name, ex.FileVersion.ToString()).Cancelled) {
                             path.Delete();
                         }
                         keep_trying = false;
                     }
+                } catch (XmlException ex) {
+                    TranslatingMessageHandler.SendError("XMLFormatError", ex, path.FullName);
+                    keep_trying = handleCorruptedFile(path);
+                } catch (NotSupportedException ex) {
+                    TranslatingMessageHandler.SendError("XMLFormatError", ex, path.FullName);
+                    keep_trying = handleCorruptedFile(path);
                 }
             }
             return null;
         }
 
+        private bool handleCorruptedFile(FileInfo path) {
+            if (IsRestorable(path)) {
+                if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataCorruptedRestore", path.Name).Cancelled) {
+                    path.Delete();
+                    prepareDataFiles();
+                } else {
+                    return false;
+                }
+            } else {
+                if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataCorruptedDelete", path.Name).Cancelled) {
+                    path.Delete();
+                }
+                return false;
+            }
+            return true;
+        }
     }
 }

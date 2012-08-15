@@ -1,9 +1,0 @@
-﻿The files in this location are the protected original sources in case the user game data is corrupted.
-They are only updated by newer versions of MASGAU.
-
-MASGAU Keeps editable copies of game data at these locations:
-XP: C:\Documents and Settings\All Users\Application Data\MASGAU\
-VIsta, 7, 8: C:\ProgramData\MASGAU
-
-You should ONLY edit the custom.xml file in that location. 
-The other files will be overwritten regularly by the auto-update system.

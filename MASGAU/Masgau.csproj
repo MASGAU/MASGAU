@@ -125,9 +125,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="structs.cs" />
-    <None Include="Data\GameSaveInfo20.xsd">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <EmbeddedResource Include="Data\GameSaveInfo20.xsd" />
     <None Include="Task\DayOfWeek.cs" />
     <None Include="Task\Frequency.cs" />
     <None Include="Task\TaskHandler.cs" />
@@ -153,19 +151,11 @@
     <None Include="Data\!test.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Data\changelog.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Data\deprecated.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Data\games.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="Data\changelog.txt" />
+    <EmbeddedResource Include="Data\deprecated.xml" />
+    <EmbeddedResource Include="Data\games.xml" />
+    <EmbeddedResource Include="Data\system.xml" />
     <None Include="Data\new.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Data\system.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="masgau.ico">

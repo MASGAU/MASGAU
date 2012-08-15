@@ -55,14 +55,6 @@ Source: ..\Dependencies\7-Zip\7z32.exe; DestDir: {app}; DestName: 7z.exe; Check:
 Source: ..\Dependencies\7-Zip\7z64.exe; DestDir: {app}; DestName: 7z.exe; Check: SixtyFourCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Dependencies\7-Zip\7z32.dll; DestDir: {app}; DestName: 7z.dll; Check: ThirtyTwoCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion; 
 Source: ..\Dependencies\7-Zip\7z64.dll; DestDir: {app}; DestName: 7z.dll; Check: SixtyFourCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion; 
-// Edit warning
-Source: ..\Docs\DO_NOT_EDIT_INSTRUCTIONS_INSIDE.txt; DestDir: {app}\Data; Components: MASGAU\Core; 
-// Games schema
-Source: ..\MASGAU\Data\*.xsd; DestDir: {app}\Data; Components: MASGAU\Core; 
-//Source: ..\MASGAU\Data\!test.xml; DestDir: {app}\Data; Components: DataFiles\Test; 
-Source: ..\MASGAU\Data\deprecated.xml; DestDir: {app}\Data;  Components: MASGAU\Core;
-Source: ..\MASGAU\Data\games.xml; DestDir: {app}\Data;  Components: MASGAU\Core;
-Source: ..\MASGAU\Data\system.xml; DestDir: {app}\Data; Components: MASGAU\Core; 
 
 // Translations
 Source: ..\Libs\Translator\Strings\strings.xsd; DestDir: {app}\Strings; Components: Langs; 

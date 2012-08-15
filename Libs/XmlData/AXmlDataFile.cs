@@ -12,17 +12,21 @@ namespace XmlData {
             if (DocumentElement == null) {
                 this.AppendChild(CreatRootNode());
             }
+            loadXmlFile();
 
+        }
 
+        protected virtual void loadXmlFile() {
             foreach (XmlElement element in DocumentElement.ChildNodes) {
-//                try {
-                    T entry = CreateDataEntry(element);
-                    entry.SourceFile = this;
-                    Entries.Add(entry);
-  //              } catch (Exception e) {
-    //                continue;
-      //          }
+                //                try {
+                T entry = CreateDataEntry(element);
+                entry.SourceFile = this;
+                Entries.Add(entry);
+                //              } catch (Exception e) {
+                //                continue;
+                //          }
             }
+
         }
 
         public void removeEntry(T entry) {

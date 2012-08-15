@@ -89,8 +89,7 @@ namespace MASGAU {
 
         public static string GameDataFolder {
             get {
-                string path = xml.DataSource.FullName;
-
+                string path = xml.DataFolder.FullName;
                 return path;
             }
         }
