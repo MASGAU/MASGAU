@@ -78,13 +78,13 @@ namespace MASGAU.Main {
                 case UpdateAvailability.Data:
                     TranslationHelpers.translate(UpdateAvailableButton, "DataUpdateAvailable");
                     if (this.Visibility != System.Windows.Visibility.Visible)
-                        notifier.sendBalloon(Strings.GetLabelString("DataUpdateAvailable"));
+                        notifier.sendBalloon(Strings.GetMessageString("DataUpdateAvailable"));
                     break;
                 case UpdateAvailability.DataAndProgram:
                 case UpdateAvailability.Program:
                     TranslationHelpers.translate(UpdateAvailableButton, "ProgramUpdateAvailable");
                     if (this.Visibility != System.Windows.Visibility.Visible)
-                        notifier.sendBalloon(Strings.GetLabelString("ProgramUpdateAvailable"));
+                        notifier.sendBalloon(Strings.GetMessageString("ProgramUpdateAvailable"));
                     break;
             }
             TranslationHelpers.translate(UpdateButton, "CheckForUpdates");

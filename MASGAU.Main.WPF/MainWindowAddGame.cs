@@ -30,7 +30,8 @@ namespace MASGAU.Main {
         }
 
         private void addGameSetup() {
-            AddGameSaves.Button.clearOptions();
+
+            AddGameLocation.Button.clearOptions();
 //            AddGameLocation.ButtonText = Strings.GetLabelString(AddGameLocation.ButtonText);
             Array values = Enum.GetValues(typeof(game_locations));
             foreach (game_locations val in values) {
