@@ -113,8 +113,14 @@ namespace MASGAU.Game {
                         return file;
                     }
                 } catch (VersionNotSupportedException ex) {
-                    if (!GameSaveInfo.Converters.AConverter.CanConvert(ex.FileVersion)) {
-                        if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataObsoleteDelete", path.Name, ex.FileVersion.ToString()).Cancelled) {
+                    if (ex.FileVersion==null||!GameSaveInfo.Converters.AConverter.CanConvert(ex.FileVersion)) {
+                        string version_string;
+                        if (ex.FileVersion == null)
+                            version_string = Strings.GetLabelString("UnknownVersion");
+                        else
+                            version_string = ex.FileVersion.ToString();
+
+                        if (!TranslatingRequestHandler.Request(MVC.Communication.RequestType.Question, "GameDataObsoleteDelete", path.Name, version_string).Cancelled) {
                             path.Delete();
                         }
                         keep_trying = false;
