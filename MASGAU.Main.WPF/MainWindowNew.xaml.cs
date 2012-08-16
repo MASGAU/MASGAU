@@ -283,6 +283,11 @@ namespace MASGAU.Main {
 
         }
 
+        private void ReportButton_Click(object sender, RoutedEventArgs e) {
+            ReportProblemWindow prob = new ReportProblemWindow(this);
+            prob.ShowDialog();
+        }
+
 
 
     }

@@ -129,7 +129,10 @@
                                     LargeImageSource="/WPF;Component/Images/software-update-available.png" 
                                     SmallImageSource="/WPF;Component/Images/16px/software-update-available.png" 
                                     Click="UpdateAvailableButton_Click" />
-                    </r:RibbonGroup>
+                                <r:RibbonButton Name="ReportButton" Label="$ReportProblem" IsEnabled="True" 
+                                    LargeImageSource="/WPF;Component/Images/mail-forward.png"
+                                    Click="ReportButton_Click" />
+                            </r:RibbonGroup>
                 </r:RibbonTab>
                         <r:RibbonTab x:Name="SettingsTab" Header="$Settings"  Background="Transparent">
                     <r:RibbonGroup Header="$Paths">
@@ -177,14 +180,14 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="20"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" Content="$Game" HorizontalAlignment="Center" />
-                <Label Grid.Row="0" Grid.Column="1" Content="$Monitor" HorizontalAlignment="Center"/>
-                <Label Grid.Row="0" Grid.Column="2" Content="$Link" HorizontalAlignment="Center"/>
+                <Label Grid.Row="0" Grid.Column="1" Content="$Monitor" HorizontalAlignment="Center" Width="50"/>
+                <Label Grid.Row="0" Grid.Column="2" Content="$Link" HorizontalAlignment="Center" Visibility="Collapsed" Width="50"/>
                 <ListView Background="Transparent" Margin="-1,0,-1,0" Grid.Row="1"  Grid.Column="0" Grid.ColumnSpan="4"  Name="gamesLst" ItemsSource="{Binding}" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" SizeChanged="gamesLst_SizeChanged" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding GamesDetected}">
                     <ListView.ItemContainerStyle>
                         <Style TargetType="ListViewItem">
@@ -232,7 +235,7 @@
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                            <GridViewColumn Width="50" x:Name="gameLinkColumn">
+                            <GridViewColumn Width="0" x:Name="gameLinkColumn">
                                 <GridViewColumnHeader Content="$Link"  IsEnabled="False" />
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
