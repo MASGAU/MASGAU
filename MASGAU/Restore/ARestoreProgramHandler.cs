@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
+using MVC;
 using MVC.Communication;
 using MVC.Translator;
 using MASGAU.Location;
@@ -28,10 +29,10 @@ namespace MASGAU.Restore {
             }
         }
 
-        public ObservableCollection<LocationPath> path_candidates;
+        public SimpleModel<LocationPath> path_candidates;
         
         
-        public ObservableCollection<string> user_candidates;
+        public SimpleModel<string> user_candidates;
         public Archive archive;
 
         protected MASGAU.GameEntry game_data {
@@ -47,44 +48,83 @@ namespace MASGAU.Restore {
         }
 
         public void addPathCandidate(LocationPath location) {
+
+            // Checks if the provided path is the original archive path
             if (location is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
-                if (archive.id.OriginalLocation == loc.full_dir_path) {
+                if (archive.id.OriginalLocation.ToLower() == loc.full_dir_path.ToLower()) {
                     loc.MatchesOriginalPath = true;
                 }
             }
 
-            for (int i = 0; i < path_candidates.Count; i++ ) {
-                LocationPath path = path_candidates[i];
-                if (location.GetType() == typeof(ManualLocationPathHolder)) {
-                    if (path.GetType() == typeof(ManualLocationPathHolder)) {
-                        path_candidates.Remove(path);
-                        break;
+            // If path is a manuallly added path, we remove all other manual paths,
+            // Then we don't compare further, since it doesn't matter
+            if (location is ManualLocationPathHolder) {
+                for (int i = 0; i < path_candidates.Count; i++) {
+                    if (path_candidates[i] is ManualLocationPathHolder) {
+                        path_candidates.RemoveAt(i);
                     }
-                } else if (path.full_relative_dir_path.Equals(location.full_relative_dir_path)) {
+                }
+                path_candidates.Insert(0, location);
+                return;
+            }
 
-                    if (location.GetType() == typeof(DetectedLocationPathHolder)) {
-                        DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
-                        if (path is DetectedLocationPathHolder) {
-                            DetectedLocationPathHolder pat = location as DetectedLocationPathHolder;
-                            if (pat.full_dir_path == loc.full_dir_path) {
-                                if (pat.EV < loc.EV) {
-                                    path_candidates.Remove(path);
-                                    path_candidates.Insert(i, location);
-                                }
-                                return;
+
+            if (location is DetectedLocationPathHolder) {
+                // If the new path is a real, existant path
+                DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
+                for (int i = 0; i < path_candidates.Count; i++) {
+                    if (path_candidates[i] is DetectedLocationPathHolder) {
+                        // If the present path is a real, detected path
+                        DetectedLocationPathHolder path = path_candidates[i] as DetectedLocationPathHolder;
+                        // We compare the absolute paths
+                        if (path.full_dir_path.ToLower() == loc.full_dir_path.ToLower()) {
+                            // If it's two real, detected paths that are the same location, we compare EVs
+                            if (loc.EV > path.EV) {
+                                // If the new EV is better, then we replace the old one
+                                path_candidates.RemoveAt(i);
+                                path_candidates.AddWithSort(loc);
                             }
-                        } else {
-                            path_candidates.Remove(path);
-                            path_candidates.Insert(i, location);
                             return;
+                        } else {
+                            // If the paths don't match, then we do nothing                            
                         }
-                    } else if(path is DetectedLocationPathHolder) {
+                    } else {
+                        // If the existing path is an theoretical path path
+                        LocationPath path = path_candidates[i] ;
+                        if (loc.full_relative_dir_path.ToLower() == path.full_relative_dir_path.ToLower()) {
+                            // If both paths are based on the same EV/path combo
+                            // Then the real path supercedes the fake path
+                            path_candidates.RemoveAt(i);
+                            path_candidates.AddWithSort(loc);
+                            return;
+                        } else {
+                            // Otherwise we don't do anything
+                        }
+                    }
+                }                
+            } else {
+                // If the new path is only a theoretical path
+                for (int i = 0; i < path_candidates.Count; i++) {
+                    LocationPath path = path_candidates[i];
+                    if (path.full_relative_dir_path.ToLower() == location.full_relative_dir_path.ToLower()) {
+                        // If the relative paths match we compare the EVs for the more accurate one
+                        if (location.EV > path.EV) {
+                            // If the new path has a more accurate EV, we replace the old one
+                            path_candidates.RemoveAt(i);
+                            path_candidates.AddWithSort(location);
+                        }
                         return;
+                    } else {
+                        // If the relative paths don't match, then they have nothign to do with eachother
+                        // so we'll just let the test continue
                     }
                 }
             }
-            path_candidates.Add(location);
+            path_candidates.AddWithSort(location);
+            return;
+
+
         }
 
         protected void filterPathCandidates(LocationPath location) {
@@ -126,8 +166,8 @@ namespace MASGAU.Restore {
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e) {
             base.doWork(sender, e);
 
-            path_candidates = new ObservableCollection<LocationPath>();
-            user_candidates = new ObservableCollection<string>();
+            path_candidates = new SimpleModel<LocationPath>();
+            user_candidates = new SimpleModel<string>();
 
             ProgressHandler.state = ProgressState.Indeterminate;
             try {
@@ -220,7 +260,6 @@ namespace MASGAU.Restore {
                 DetectedLocations locs = Core.locations.interpretPath(archive.id.OriginalLocation);
                 DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
                 if (loc != null) {
-                    loc.MatchesOriginalPath = true;
                     addPathCandidate(loc);
                 }
             }
@@ -318,7 +357,7 @@ namespace MASGAU.Restore {
                     NotifyPropertyChanged("only_user");
                 }
                 foreach (string user in users) {
-                    user_candidates.Add(user);
+                    user_candidates.AddWithSort(user);
                 }
             } else {
                 switch (location.EV) {
@@ -371,8 +410,9 @@ namespace MASGAU.Restore {
         private string restore_path;
         public void restoreBackup(LocationPath path, string user, RunWorkerCompletedEventHandler when_done) {
             string target;
-            if (path.GetType() == typeof(ManualLocationPathHolder)) {
-                target = path.ToString();
+            if( path is DetectedLocationPathHolder) {
+                DetectedLocationPathHolder loc = path as DetectedLocationPathHolder;
+                target = loc.full_dir_path;
             } else {
                 target = Core.locations.getAbsolutePath(path, user);
             }

@@ -54,6 +54,10 @@ namespace MASGAU.Location.Holders {
             }
         }
 
+        public override int CompareTo(ALocation comparable) {
+            return this.ToString().CompareTo(comparable.ToString());
+        }
+
         public override string ToString() {
             string return_me;
             switch(EV) {
@@ -73,9 +77,9 @@ namespace MASGAU.Location.Holders {
                 case EnvironmentVariable.None:
                 case EnvironmentVariable.StartMenu:
                 case EnvironmentVariable.FlashShared:
+                case EnvironmentVariable.UbisoftSaveStorage:
                     return_me = AbsoluteRoot;
                     break;
-                case EnvironmentVariable.UbisoftSaveStorage:
                 case EnvironmentVariable.Desktop:
                 case EnvironmentVariable.AppData:
                 case EnvironmentVariable.LocalAppData:
