@@ -17,7 +17,7 @@ namespace MASGAU {
 
         public static bool HasUnsubmittedGames {
             get {
-                if (xml.custom == null)
+                if (xml==null||xml.custom == null)
                     return false;
 
                 return UnsubmittedGames.Count > 0;
