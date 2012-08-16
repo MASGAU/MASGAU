@@ -215,7 +215,7 @@ namespace MASGAU.Main {
             if (SecurityHandler.elevation(Core.programs.main, "-allusers", false))
                 this.Close();
             else
-                toggleVisibility();
+            toggleVisibility();
         }
 
         private void AllUsersModeButton_Click(object sender, RoutedEventArgs e) {

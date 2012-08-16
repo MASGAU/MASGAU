@@ -204,6 +204,7 @@ namespace MASGAU {
         }
 
         public static List<GameEntry> detectGames(List<GameID> these_games) {
+            ProgressHandler.clearMessage();
             ProgressHandler.state = ProgressState.Normal;
             List<GameEntry> detected_games = new List<GameEntry>();
             Core.monitor.stop();

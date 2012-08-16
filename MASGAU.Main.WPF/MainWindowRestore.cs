@@ -13,8 +13,11 @@ namespace MASGAU.Main {
     public partial class MainWindowNew {
 
         protected void beginRestore(List<Archive> archives) {
+            this.disableInterface();
+            notifier.OpenCloseEnabled = false;
             Restore.RestoreWindow.beginRestore(this, archives);
-
+            notifier.OpenCloseEnabled = true;
+            this.enableInterface();
         }
 
 

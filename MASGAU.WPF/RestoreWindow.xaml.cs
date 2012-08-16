@@ -93,6 +93,7 @@ namespace MASGAU.Restore {
 
 
         public static void beginRestore(ACommunicationWindow parent, List<Archive> archives) {
+            string extrasave = ProgressHandler.message;
             ProgressHandler.saveMessage();
             parent.hideInterface();
             if (archives.Count > 1 && !TranslatingRequestHandler.Request(RequestType.Question,"RestoreMultipleArchives").Cancelled ) {
@@ -119,7 +120,7 @@ namespace MASGAU.Restore {
                 TranslatingMessageHandler.SendError("RestoreSomeFailed", fail_list.ToString());
             }
             parent.showInterface();
-            ProgressHandler.restoreMessage();
+            ProgressHandler.message = extrasave;
         }
 
         public override void updateProgress(MVC.Communication.ProgressUpdatedEventArgs e) {
@@ -202,7 +203,6 @@ namespace MASGAU.Restore {
 
         private void shutDownWindow() {
             restore.cancel();
-            TranslatingProgressHandler.setTranslatedMessage("Stopping");
             if (!flipper.IsActiveControl(restoreDoneLabel))
                 Restore.RestoreProgramHandler.overall_stop = true;
 
@@ -222,6 +222,7 @@ namespace MASGAU.Restore {
         }
 
         private void cancelButton_Click(object sender, RoutedEventArgs e) {
+            TranslatingProgressHandler.setTranslatedMessage("Stopping");
             this.Close();
         }
 

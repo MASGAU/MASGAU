@@ -34,6 +34,7 @@ namespace MASGAU {
         }
 
         public static void DetectBackups() {
+            ProgressHandler.saveMessage();
             model.Clear();
             if (!Core.settings.IsBackupPathSet)
                 return;
@@ -63,6 +64,7 @@ namespace MASGAU {
 
             ProgressHandler.state = ProgressState.None;
             ProgressHandler.value = 0;
+            ProgressHandler.restoreMessage();
         }
 
 

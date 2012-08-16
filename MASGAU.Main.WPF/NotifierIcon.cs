@@ -80,17 +80,16 @@ namespace MASGAU.Main {
         void exit_Click(object sender, EventArgs e) {
             parent.Close();
         }
+        public bool OpenCloseEnabled = true;
+
         void notifyIcon_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e) {
             switch(e.Button) {
                 case MouseButtons.Middle:
                 case MouseButtons.Left:
 
-
-                    //if (parent.IsVisible && !parent.Topmost) {
-                      //  parent.Activate();
-                    //} else {
+                    if(OpenCloseEnabled)
                         parent.ShowInTaskbar = parent.toggleVisibility();
-                    //}
+
                     parent.updateWindowState();
                     break;
             }
