@@ -277,7 +277,9 @@ namespace MASGAU {
             }
             if (files_added)
                 add(temp_folder, disable_versioning);
-            Directory.Delete(temp_folder, true);
+
+            if(Directory.Exists(temp_folder))
+                Directory.Delete(temp_folder, true);
         }
 
         #endregion
