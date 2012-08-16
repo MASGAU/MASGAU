@@ -1,9 +1,9 @@
 #define MyAppName "MASGAU"
-#define MyAppVersion "0.10.0"
+#define MyAppVersion "0.99.0"
 #define MyAppPublisher "Matthew Barbour"
 #define MyAppURL "http://masgau.org/"
 #define Mode "Release"
-
+#define Stability "Beta"
 [Setup]
 AppMutex={#MyAppName}
 AppName={#MyAppName}
@@ -16,7 +16,7 @@ DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 Compression=lzma/Ultra64
 SolidCompression=true
-OutputBaseFilename={#MyAppName}-{#MyAppVersion}-Setup
+OutputBaseFilename={#MyAppName}-{#MyAppVersion}-{#Stability}-Setup
 AppCopyright=2012
 ChangesAssociations=true
 WizardImageFile=installer_logo.bmp
@@ -25,14 +25,21 @@ WizardImageStretch=true
 SetupIconFile=..\MASGAU\masgau.ico
 AllowRootDirectory=true
 DirExistsWarning=no
-VersionInfoVersion={#MyAppVersion}
 VersionInfoProductName={#MyAppName}
+VersionInfoCompany={#MyAppPublisher}
+VersionInfoCopyright=2012
+VersionInfoVersion={#MyAppVersion}
 VersionInfoProductVersion={#MyAppVersion}
 LicenseFile=..\Docs\gpl-2.0.txt
 InternalCompressLevel=Ultra64
 ArchitecturesInstallIn64BitMode=x64
 UninstallDisplayIcon={app}\masgau.ico
-VersionInfoCompany={#MyAppPublisher}
+
+
+[InstallDelete]
+Type: files; Name: "{app}\*.*";
+Type: files; Name: "{commonappdata}\masgau\config.xml";
+Type: filesandordirs; Name: "{group}"
 
 [Files]
 // This is just an installer library
@@ -58,6 +65,7 @@ Source: ..\Dependencies\7-Zip\7z64.dll; DestDir: {app}; DestName: 7z.dll; Check:
 
 // Translations
 Source: ..\Libs\Translator\Strings\strings.xsd; DestDir: {app}\Strings; Components: Langs; 
+Source: ..\MASGAU\Strings\TRANSLATOR README.txt; DestDir: {app}\Strings; Components: Langs; 
 Source: ..\MASGAU\Strings\*en.xml; DestDir: {app}\Strings; Components: Langs\EN; 
 Source: ..\MASGAU\Strings\*fr.xml; DestDir: {app}\Strings; Components: Langs\FR; 
 Source: ..\MASGAU\Strings\*no.xml; DestDir: {app}\Strings; Components: Langs\NO; 
