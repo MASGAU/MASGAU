@@ -95,6 +95,8 @@ namespace MASGAU.Main {
             resizeGameColumns();
         }
         private void resizeGameColumns() {
+            double monitor_width = monitorColumnLabel.ActualWidth;
+            gameMonitorColumn.Width = monitor_width;
             double new_width = gamesLst.ActualWidth - gameNameColumn.Width - gameMonitorColumn.Width - gameLinkColumn.Width - 20;
             if (new_width > 0) {
                 gameTitleColumn.Width = new_width;

@@ -10,9 +10,6 @@ namespace MASGAU.Update {
                 if (OS != "windows")
                     return false;
 
-                if (Stable != Core.Stable)
-                    return false;
-
                 if (Version <= Core.program_version)
                     return false;
 
@@ -26,16 +23,12 @@ namespace MASGAU.Update {
         }
 
         public override string getName() {
-            if (Stable)
-                return OS  + "stable";
-            else
-                return OS  + "unstable";
+            return OS;
         }
 
         public Version Version { get; protected set; }
 
         public string OS { get; protected set; }
-        public bool Stable { get; protected set; }
 
         public ProgramUpdate(XmlElement xml): base(xml) {
             this.Date = DateTime.Parse(xml.Attributes["date"].Value);
@@ -44,7 +37,7 @@ namespace MASGAU.Update {
             this.Version = new Version(Int32.Parse(xml.Attributes["majorVersion"].Value),Int32.Parse(xml.Attributes["minorVersion"].Value),Int32.Parse(xml.Attributes["revision"].Value));
 
             this.OS = xml.Attributes["os"].Value;
-            this.Stable = Boolean.Parse(xml.Attributes["stable"].Value);
+            //this.Stable = Boolean.Parse(xml.Attributes["stable"].Value);
 
         }
 

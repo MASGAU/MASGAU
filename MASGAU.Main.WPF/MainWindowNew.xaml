@@ -186,8 +186,8 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" Content="$Game" HorizontalAlignment="Center" />
-                <Label Grid.Row="0" Grid.Column="1" Content="$Monitor" HorizontalAlignment="Center" Width="50"/>
-                <Label Grid.Row="0" Grid.Column="2" Content="$Link" HorizontalAlignment="Center" Visibility="Collapsed" Width="50"/>
+                        <Label  Name="monitorColumnLabel" Grid.Row="0" Grid.Column="1" Content="$Monitor" HorizontalAlignment="Center" />
+                <Label Grid.Row="0" Grid.Column="2" Content="$Link" HorizontalAlignment="Center" Visibility="Collapsed"/>
                 <ListView Background="Transparent" Margin="-1,0,-1,0" Grid.Row="1"  Grid.Column="0" Grid.ColumnSpan="4"  Name="gamesLst" ItemsSource="{Binding}" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" SizeChanged="gamesLst_SizeChanged" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding GamesDetected}">
                     <ListView.ItemContainerStyle>
                         <Style TargetType="ListViewItem">
@@ -227,7 +227,7 @@
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                            <GridViewColumn Width="50" x:Name="gameMonitorColumn">
+                                    <GridViewColumn Width="50" x:Name="gameMonitorColumn">
                                 <GridViewColumnHeader Content="$Monitor"  IsEnabled="False" />
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>

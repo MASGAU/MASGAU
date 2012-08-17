@@ -55,6 +55,8 @@ namespace MASGAU.Main {
             AllUsersModeButton.ToolTip = Strings.GetToolTipString("AllUserModeButton");
             SingleUserModeButton.ToolTip = Strings.GetToolTipString("SingleUserModeButton");
 
+
+
             masgau = new MainProgramHandler(new Location.LocationsHandler());
             setupJumpList();
         }
