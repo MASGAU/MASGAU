@@ -43,3 +43,6 @@
 [submodule "MASGAU/Data"]
 	path = MASGAU/Data
 	url = https://github.com/GameSaveInfo/Data.git
+[submodule "Libs/XmlData"]
+	path = Libs/XmlData
+	url = https://github.com/sanmadjack/XmlData.CSharp.git
