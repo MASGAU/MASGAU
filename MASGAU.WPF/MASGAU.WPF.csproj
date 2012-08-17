@@ -2,143 +2,232 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D82CC8E8-A027-419F-A3BD-BE9C9D39E712}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{296B239E-C406-4722-9546-98CC86F9FA1B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MASGAU</RootNamespace>
-    <AssemblyName>MASGAU.WPF</AssemblyName>
+    <AssemblyName>MASGAU</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ReleaseVersion>0.9</ReleaseVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug GTK|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release GTK|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MASGAU.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\masgau.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="PresentationCore">
-    </Reference>
-    <Reference Include="PresentationFramework">
-    </Reference>
+    <Reference Include="Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework.Aero" />
     <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="System">
-    </Reference>
-    <Reference Include="System.Core">
-    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms">
-    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Xml.Linq">
-    </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
-    </Reference>
-    <Reference Include="Microsoft.CSharp">
-    </Reference>
-    <Reference Include="System.Data">
-    </Reference>
-    <Reference Include="System.Xml">
-    </Reference>
-    <Reference Include="WindowsBase">
-    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application.cs" />
-    <Compile Include="AProgramWindow.cs" />
-    <Compile Include="BetterRibbonComboBox.cs" />
-    <Compile Include="ChromeButton.xaml.cs">
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ReportProblemWindow.xaml.cs">
+      <DependentUpon>ReportProblemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowAddGame.cs" />
+    <Compile Include="MainWindowAnalyzer.cs" />
+    <Compile Include="AboutControl.xaml.cs">
+      <DependentUpon>AboutControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowBackup.cs" />
+    <Compile Include="MainWindowEnableDisable.cs" />
+    <Compile Include="MainWindowGameList.cs" />
+    <Compile Include="MainWindowMonitor.cs" />
+    <Compile Include="MainWindowRestore.cs" />
+    <Compile Include="MainWindowRibbon.cs" />
+    <Compile Include="NotifierIcon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ReportWindow.xaml.cs">
+      <DependentUpon>ReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileTreeViewItem.cs" />
+    <Compile Include="WPF\Application.cs" />
+    <Compile Include="WPF\AProgramWindow.cs" />
+    <Compile Include="WPF\AWindow.cs" />
+    <Compile Include="WPF\BetterRibbonComboBox.cs" />
+    <Compile Include="WPF\ChromeButton.xaml.cs">
       <DependentUpon>ChromeButton.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlFlipper.cs" />
-    <Compile Include="FixedRibbonTextBox.cs" />
-    <Compile Include="GlassHelper.cs" />
-    <Compile Include="IWPFWindow.cs" />
-    <Compile Include="NewWindow.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <Compile Include="WPF\ControlFlipper.cs" />
+    <Compile Include="WPF\FixedRibbonTextBox.cs" />
+    <Compile Include="WPF\GlassHelper.cs" />
+    <Compile Include="WPF\IWPFWindow.cs" />
+    <Compile Include="WPF\NewWindow.cs" />
     <Compile Include="RestoreWindow.xaml.cs">
       <DependentUpon>RestoreWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RibbonComboItem.cs" />
-    <Compile Include="RibbonComboSource.cs" />
-    <Compile Include="RibbonSpinner.xaml.cs">
+    <Compile Include="WPF\RibbonComboItem.cs" />
+    <Compile Include="WPF\RibbonComboSource.cs" />
+    <Compile Include="WPF\RibbonSpinner.xaml.cs">
       <DependentUpon>RibbonSpinner.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SelectFile.cs" />
-    <Compile Include="SettingsControl.xaml.cs">
-      <DependentUpon>SettingsControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ValueConverters.cs" />
-    <Compile Include="AWindow.cs" />
-    <Compile Include="WPFHelpers.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="ChromeButton.xaml">
+    <Compile Include="WPF\SelectFile.cs" />
+    <Compile Include="WPF\ValueConverters.cs" />
+    <Compile Include="WPF\WPFHelpers.cs" />
+    <Page Include="ReportProblemWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindowNew.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ManualArchiveWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AboutControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MASGAU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPF\ChromeButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="RestoreWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="RibbonSpinner.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="WPF\RibbonSpinner.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="SettingsControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Resource Include="styles.xaml">
+    <None Include="WPF\styles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Resource>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainWindowCommunication.cs" />
+    <Compile Include="MainWindowJumpList.cs" />
+    <Compile Include="MainWindowNew.xaml.cs">
+      <DependentUpon>MainWindowNew.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowPreferences.cs" />
+    <Compile Include="MainWindowUpdate.cs" />
+    <Compile Include="ManualArchiveWindow.xaml.cs">
+      <DependentUpon>ManualArchiveWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Libs\Collections\Collections.csproj">
+      <Project>{88E4E120-9C45-4EAC-887B-B77474B799B4}</Project>
+      <Name>Collections</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Libs\Config\Config.csproj">
       <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
       <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Email.WPF\Email.WPF.csproj">
+      <Project>{BE36FFC8-73AA-4234-BF12-342BF3223D00}</Project>
+      <Name>Email.WPF</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libs\Email\Email.csproj">
       <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
@@ -152,29 +241,9 @@
       <Project>{CD1B810F-38EC-41CE-974F-7B0EE5CD8B87}</Project>
       <Name>Logger</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\XmlData\XmlData.csproj">
-      <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
-      <Name>XmlData</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MASGAU.Windows\MASGAU.Windows.csproj">
-      <Project>{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}</Project>
-      <Name>MASGAU.Windows</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Masgau\MASGAU.csproj">
-      <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
-      <Name>MASGAU</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libs\MVC\MVC.csproj">
       <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
       <Name>MVC</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libs\Translator.WPF\Translator.WPF.csproj">
-      <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
-      <Name>Translator.WPF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libs\Translator\Translator.csproj">
-      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
-      <Name>Translator</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libs\MVC.Translator\MVC.Translator.csproj">
       <Project>{A0502934-F0B8-40ED-9849-E4392CE37AF4}</Project>
@@ -184,19 +253,64 @@
       <Project>{521A7BAC-6485-4736-9EB4-77F6BB3EE2BF}</Project>
       <Name>MVC.WPF</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Libs\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\XmlData\XmlData.csproj">
+      <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
+      <Name>XmlData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MASGAU.Windows\MASGAU.Windows.csproj">
+      <Project>{A6D1C254-0DD5-44FF-8DC6-2311897EE58D}</Project>
+      <Name>MASGAU.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MASGAU.Common\MASGAU.Common.csproj">
+      <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
+      <Name>MASGAU.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Translator.WPF\Translator.WPF.csproj">
+      <Project>{EBF7773B-81FB-4367-ADBD-7C75C62FFB60}</Project>
+      <Name>Translator.WPF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Libs\WPF\WPF.csproj">
       <Project>{870BDF17-18DA-4023-AF23-378A72941B66}</Project>
       <Name>WPF</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\16px\steam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masgau.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

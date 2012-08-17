@@ -96,9 +96,9 @@
       <Project>{937CDE2B-963A-4624-A460-C95676260D35}</Project>
       <Name>GameSave.Info</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Masgau\MASGAU.csproj">
+    <ProjectReference Include="..\MASGAU.Common\MASGAU.Common.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
-      <Name>MASGAU</Name>
+      <Name>MASGAU.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libs\MVC\MVC.csproj">
       <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>

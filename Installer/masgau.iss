@@ -22,7 +22,7 @@ ChangesAssociations=true
 WizardImageFile=installer_logo.bmp
 WizardSmallImageFile=installer_logo_small.bmp
 WizardImageStretch=true
-SetupIconFile=..\MASGAU\masgau.ico
+SetupIconFile=..\MASGAU.Common\masgau.ico
 AllowRootDirectory=true
 DirExistsWarning=no
 VersionInfoProductName={#MyAppName}
@@ -38,6 +38,7 @@ UninstallDisplayIcon={app}\masgau.ico
 
 [InstallDelete]
 Type: files; Name: "{app}\*.*";
+Type: files; Name: "{app}\libs\*.*";
 Type: files; Name: "{commonappdata}\masgau\config.xml";
 Type: filesandordirs; Name: "{group}"
 
@@ -45,18 +46,17 @@ Type: filesandordirs; Name: "{group}"
 // This is just an installer library
 Source: ..\Dependencies\isxdl.dll; Flags: dontcopy
 // Core component
-Source: ..\MASGAU\settings.xml; DestDir: {app};  Components: MASGAU\Portable;
+Source: ..\MASGAU.Common\settings.xml; DestDir: {app};  Components: MASGAU\Portable;
 // Updater XML
-Source: ..\MASGAU\updates.xml; DestDir: {app};  Components: MASGAU\Core;
+Source: ..\MASGAU.Common\updates.xml; DestDir: {app};  Components: MASGAU\Core;
 // Documentation
 Source: ..\Docs\gpl-2.0.txt; DestDir: {app}; Components: MASGAU\Core; 
 // Program icon
-Source: ..\MASGAU\masgau.ico; DestDir: {app};  Components: MASGAU\Core; 
+//Source: ..\MASGAU\masgau.ico; DestDir: {app};  Components: MASGAU\Core; 
 // MASGAU Files
-Source: ..\MASGAU.Main.WPF\bin\{#Mode}\MASGAU.exe; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
-Source: ..\MASGAU.Restore.WPF\bin\{#Mode}\MASGAU.Restore.exe; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
-Source: ..\MASGAU.Main.WPF\bin\{#Mode}\*.dll; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
-Source: ..\MASGAU.Main.WPF\bin\{#Mode}\*.pdb; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\MASGAU.WPF\bin\{#Mode}\MASGAU.exe; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\MASGAU.WPF\bin\{#Mode}\*.dll; DestDir: {app}\libs;  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\MASGAU.WPF\bin\{#Mode}\*.pdb; DestDir: {app}\libs;  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 // 7-zip DLLs
 Source: ..\Dependencies\7-Zip\7z32.exe; DestDir: {app}; DestName: 7z.exe; Check: ThirtyTwoCheck(); Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion;   
 Source: ..\Dependencies\7-Zip\7z64.exe; DestDir: {app}; DestName: 7z.exe; Check: SixtyFourCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion; 
@@ -64,19 +64,19 @@ Source: ..\Dependencies\7-Zip\7z32.dll; DestDir: {app}; DestName: 7z.dll; Check:
 Source: ..\Dependencies\7-Zip\7z64.dll; DestDir: {app}; DestName: 7z.dll; Check: SixtyFourCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion; 
 
 // Translations
-Source: ..\Libs\Translator\Strings\strings.xsd; DestDir: {app}\Strings; Components: Langs; 
-Source: ..\MASGAU\Strings\TRANSLATOR README.txt; DestDir: {app}\Strings; Components: Langs; 
-Source: ..\MASGAU\Strings\*en.xml; DestDir: {app}\Strings; Components: Langs\EN; 
-Source: ..\MASGAU\Strings\*fr.xml; DestDir: {app}\Strings; Components: Langs\FR; 
-Source: ..\MASGAU\Strings\*no.xml; DestDir: {app}\Strings; Components: Langs\NO; 
+Source: ..\Libs\Translator\Strings\strings.xsd; DestDir: {app}\strings; Components: Langs; 
+Source: ..\MASGAU.Common\Strings\TRANSLATOR README.txt; DestDir: {app}\strings; Components: Langs; 
+Source: ..\MASGAU.Common\Strings\*en.xml; DestDir: {app}\strings; Components: Langs\EN; 
+Source: ..\MASGAU.Common\Strings\*fr.xml; DestDir: {app}\strings; Components: Langs\FR; 
+Source: ..\MASGAU.Common\Strings\*no.xml; DestDir: {app}\strings; Components: Langs\NO; 
 
 
 [Registry]
 // File association
 Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}Archive; Flags: UninsDeleteKey; Components: MASGAU\FileAssociation; 
 Root: HKCR; SubKey: {#MyAppName}Archive; ValueType: string; ValueData: "{#MyAppName} Save Archive"; Flags: UninsDeleteKey  ; Components: MASGAU\FileAssociation; 
-Root: HKCR; SubKey: {#MyAppName}Archive\DefaultIcon; ValueType: string; ValueData: {app}\masgau.ico,0; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
-Root: HKCR; SubKey: {#MyAppName}Archive\shell\open\command; ValueType: string; ValueData: "{app}\MASGAU.Restore.exe"" ""%1"; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: {#MyAppName}Archive\DefaultIcon; ValueType: string; ValueData: {app}\MASGAU.exe,0; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: {#MyAppName}Archive\shell\open\command; ValueType: string; ValueData: "{app}\MASGAU.exe"" ""%1"; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
 // Installation folder key
 Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueName: InstallPath; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteValue; 
 Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteKey  ; 
@@ -86,9 +86,9 @@ Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueName: Version
 WinVersionTooLowError={#MyAppName} requires %1 version %2 or later.
 
 [Icons]
-Name: {group}\{cm:singleUser,{#MyAppName}}; Filename: {app}\MASGAU.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Components: MASGAU\Shortcuts; 
-Name: {group}\{cm:allUser,{#MyAppName}}; Filename: {app}\MASGAU.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Parameters: -allusers; Components: MASGAU\Shortcuts; 
-Name: {app}\{cm:allUser,{#MyAppName}}; Filename: {app}\MASGAU.exe; IconFilename: {app}\masgau.ico; Flags: CreateOnlyIfFileExists; Parameters: -allusers; Components: MASGAU\Shortcuts; 
+Name: {group}\{cm:singleUser,{#MyAppName}}; Filename: {app}\MASGAU.exe; Flags: CreateOnlyIfFileExists; Components: MASGAU\Shortcuts; 
+Name: {group}\{cm:allUser,{#MyAppName}}; Filename: {app}\MASGAU.exe; Flags: CreateOnlyIfFileExists; Parameters: -allusers; Components: MASGAU\Shortcuts; 
+Name: {app}\{cm:allUser,{#MyAppName}}; Filename: {app}\MASGAU.exe; Flags: CreateOnlyIfFileExists; Parameters: -allusers; Components: MASGAU\Shortcuts; 
 Name: {group}\{cm:uninstall,{#MyAppName}}; Filename: {uninstallexe}; Components: MASGAU\Shortcuts; 
 Name: {group}\GPL v2; Filename: {app}\gpl-2.0.txt; Components: MASGAU\Shortcuts; 
 Name: {group}\{cm:changelog}; Filename: {app}\changelog.txt; Components: MASGAU\Shortcuts; 

@@ -290,13 +290,13 @@ namespace MASGAU.Restore {
 
 
         private void otherUserButton_Click(object sender, RoutedEventArgs e) {
-            if (!File.Exists(Core.programs.restore)) {
-                this.showTranslatedError("FileNotFoundCritical", Core.programs.restore);
+            if (!File.Exists(Core.ExecutableName)) {
+                this.showTranslatedError("FileNotFoundCritical", Core.ExecutableName);
                 return;
             }
 
             this.Visibility = System.Windows.Visibility.Collapsed;
-            if (SecurityHandler.elevation(Core.programs.restore, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"",true))
+            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"", true))
                 this.Close();
             else
                 this.Visibility = System.Windows.Visibility.Visible;
