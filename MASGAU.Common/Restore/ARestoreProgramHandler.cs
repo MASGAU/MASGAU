@@ -41,7 +41,7 @@ namespace MASGAU.Restore {
         }
 
         public RestoreProgramHandler(Archive archive, ALocationsHandler loc)
-            : base(loc, Program.Restore) {
+            : base(loc) {
             this._program_title = Strings.GetLabelString("IsRestoring",
                 this._program_title.ToString());
             this.archive = archive;
@@ -163,6 +163,22 @@ namespace MASGAU.Restore {
             }
         }
 
+        public static Queue<string> ArgArchives {
+            get {
+                Queue<string> archives = new Queue<string>();
+                string[] args = Environment.GetCommandLineArgs();
+                if (args.Length > 0) {
+                    foreach (string arg in args) {
+                        if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
+                            archives.Enqueue(arg.Trim('\"'));
+                            break;
+                        }
+                    }
+                }
+                return archives;
+            }
+        }
+
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e) {
             base.doWork(sender, e);
 
@@ -172,15 +188,6 @@ namespace MASGAU.Restore {
             ProgressHandler.state = ProgressState.Indeterminate;
             try {
                 if (archive == null) {
-                    string[] args = Environment.GetCommandLineArgs();
-                    if (args.Length > 0) {
-                        foreach (string arg in args) {
-                            if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
-                                archive = new Archive(new FileInfo(arg.Trim('\"')));
-                                break;
-                            }
-                        }
-                    }
                 }
             } catch (Exception ex) {
                 TranslatingMessageHandler.SendException(ex);

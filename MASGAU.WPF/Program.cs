@@ -21,24 +21,18 @@ namespace MASGAU {
 
                 Window win;
 
-                bool restore_mode = false;
-
-                string[] args = Environment.GetCommandLineArgs();
-                if (args.Length > 0) {
-                    foreach (string arg in args) {
-                        if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
-                            restore_mode = true;
-                            break;
-                        }
-                    }
+                switch (Core.AppMode) {
+                    case AppMode.Main:
+                        win = new MainWindowNew();
+                        break;
+                    case AppMode.Restore:
+                        win = new MASGAU.Restore.RestoreWindow();
+                        break;
+                    default:
+                        throw new NotSupportedException(Core.AppMode.ToString());
                 }
 
-                if (restore_mode)
-                    win = new MASGAU.Restore.RestoreWindow();
-                else
-                    win = new MainWindowNew();
-
-                   app.Run(win);
+                app.Run(win);
 
             } catch (Exception e) {
                 Logger.Logger.log(e);

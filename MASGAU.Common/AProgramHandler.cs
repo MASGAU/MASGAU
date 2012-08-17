@@ -18,8 +18,12 @@ namespace MASGAU {
 
         protected string _program_title = "MASGAU";
 
-        public AProgramHandler(ALocationsHandler locations, Program program)
-            : base(program) {
+        public AProgramHandler(ALocationsHandler locations)
+            : base() {
+
+                if (!Core.Ready)
+                    return;
+
             if (Core.Mode>= Config.ConfigMode.Portable)
                 _program_title = Strings.GetLabelString("PortableMode", _program_title);
 

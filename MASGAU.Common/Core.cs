@@ -3,6 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Xml;
 using System.Xml.Schema;
+using System.Threading;
 using MASGAU.Location;
 using MASGAU.Monitor;
 //using MASGAU.Task;
@@ -19,8 +20,19 @@ namespace MASGAU
 
     public abstract class Core : ANotifyingObject
     {
-        // This allows us to lock the config file across platforms
-        public static System.Threading.Mutex mutex = new System.Threading.Mutex(false, "MASGAU");
+        public static AppMode AppMode {
+            get  {
+                string[] args = Environment.GetCommandLineArgs();
+                if (args.Length > 0) {
+                    foreach (string arg in args) {
+                        if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
+                            return MASGAU.AppMode.Restore;
+                        }
+                    }
+                }
+                return MASGAU.AppMode.Main;
+            }
+        }
 
         // These are values used througout the program
         public const string Extension = ".gb7";
@@ -34,7 +46,7 @@ namespace MASGAU
 
         public const bool Stable = true;
 
-        public static Version program_version = new Version(0, 99, 0);
+        public static Version ProgramVersion = new Version(0, 99, 0);
 
 
         // This stores the names of the various programs in masgau
@@ -66,7 +78,21 @@ namespace MASGAU
         public static StartupHelper startup;
 
         // Indicates wether we're running in all users mode
-        public static bool StaticAllUsersMode = false;
+        public static bool StaticAllUsersMode {
+            get {
+                // Checks if the command line indicates we should be running in all users mode
+                string[] args = Environment.GetCommandLineArgs();
+                for (int i = 0; i < args.Length; i++)
+                {
+                    switch (args[i])
+                    {
+                        case "-allusers":
+                            return true;
+                    }
+                }
+                return false;
+            }
+        }
         public bool AllUsersMode {
             get {
                 return StaticAllUsersMode;
@@ -115,44 +141,123 @@ namespace MASGAU
         public static bool rebuild_sync = false;
         public static bool redetect_games = false;
         public static Email.EmailHandler email { get; protected set; }
-        private static bool mutex_acquired = false;
+
+
+
+        private static System.Threading.Mutex mutex;
+        public static bool MutexAlreadyTaken {
+            get;
+            protected set;
+        }
+
+        private const string CommunicationMutexName = "MASGAUCommunicate";
+        private static Mutex CommunicationMutex;
+        private static FileSystemWatcher CommunicationWatcher;
+
+        private const string CommunicationFile = "comunicate.txt";
+        private static string CommunicationFileFull {
+            get {
+                return Path.Combine(Core.settings.SourcePath, CommunicationFile);
+            }
+        }
+        static void CommunicationWatcher_Changed(object sender, FileSystemEventArgs e) {
+            if (File.Exists(CommunicationFileFull)) {
+                Mutex mutex = new Mutex(false, CommunicationMutexName);
+                try {
+                    mutex.WaitOne(10000);
+                    CommunicationWatcher.EnableRaisingEvents = false;
+                    File.Delete(CommunicationFileFull);
+                } catch (Exception ex) {
+                    //handle exception
+                } finally {
+                    mutex.ReleaseMutex();
+                    CommunicationWatcher.EnableRaisingEvents = true;
+                }
+
+                MVC.Communication.Interface.InterfaceHandler.showInterface();
+            }
+        }
+        //static void SendArchivesToMainWindow() {
+        //    Mutex mutex = new Mutex(false, CommunicationMutexName);
+        //    try {
+        //        mutex.WaitOne(10000);
+        //        TextWriter writer = new StreamWriter(CommunicationFile);
+        //        File.Create(CommunicationFile);
+
+        //    } catch (Exception ex) {
+        //        //handle exception
+        //    } finally {
+        //        mutex.ReleaseMutex();
+        //    }
+        //}
+
+        static void OpenMainWindow() {
+            Mutex mutex = new Mutex(false, CommunicationMutexName);
+            try {
+                mutex.WaitOne(10000);
+
+                FileInfo file = new FileInfo(CommunicationFileFull);
+                if (file.Exists)
+                    file.Delete();
+                file.Create();
+            } catch (Exception ex) {
+                Logger.Logger.log(ex);
+            } finally {
+                mutex.ReleaseMutex();
+            }
+        }
+        public static bool Ready { get; protected set; }
         static Core()
         {
-            Program = MASGAU.Program.Unknown;
+            Ready = false;
+            mutex = new System.Threading.Mutex(false, "MASGAU");
+            settings = new Settings.Settings();
 
-            if (!mutex_acquired && !mutex.WaitOne(1000))
-            {
-                throw new TranslateableException("NoMultipleInstances");
-            }
-
-
-
-            // Checks if the command line indicates we should be running in all users mode
-            string[] args = Environment.GetCommandLineArgs();
-            for (int i = 0; i < args.Length; i++)
-            {
-                switch (args[i])
-                {
-                    case "-allusers":
-                        StaticAllUsersMode = true;
-                        break;
+            try {
+                if (!mutex.WaitOne(1000)) {
+//                    MVC.Translator.TranslatingMessageHandler.SendError("NoMultipleInstances");
+                    MutexAlreadyTaken = true;
+                    switch (AppMode) {
+                        case MASGAU.AppMode.Restore:
+                            //SendArchivesToMainWindow();
+                            break;
+                        case MASGAU.AppMode.Main:
+                            OpenMainWindow();
+                            System.Windows.Forms.Application.Exit();
+                            return;
+                        default:
+                            throw new NotImplementedException(AppMode.ToString());
+                    }
                 }
+            } catch (AbandonedMutexException ex) {
+                Console.Out.Write("Boo-hoo, I'm an abandoned mutex. Suck it up.");
+            } catch (Exception e) {
+                throw new TranslateableException("NoMultipleInstances");
+
             }
+
+
 
             Assembly temp = Assembly.GetEntryAssembly();
 
             ExecutableName = temp.Location;
 
-            settings = new Settings.Settings();
+
+            CommunicationWatcher = new FileSystemWatcher();
+            CommunicationWatcher.Path = Core.settings.SourcePath;
+            CommunicationWatcher.Changed += new FileSystemEventHandler(CommunicationWatcher_Changed);
+            CommunicationWatcher.Created += new FileSystemEventHandler(CommunicationWatcher_Changed);
+            CommunicationWatcher.EnableRaisingEvents = true;
+
 
             email = new Email.EmailHandler(Core.settings.EmailSender, Core.submission_email);
             startup = new StartupHelper("MASGAU", Core.ExecutableName);
+            Ready = true;
+
         }
-        public static Program Program { get; protected set; }
-        protected Core(Program prog)
+
+        protected Core()
         {
-            if(Program== MASGAU.Program.Unknown)
-                Program = prog;
         }
 
         public static string makeNumbersOnly(string remove)

@@ -10,7 +10,7 @@ namespace MASGAU.Update {
                 if (OS != "windows")
                     return false;
 
-                if (Version <= Core.program_version)
+                if (Version <= Core.ProgramVersion)
                     return false;
 
                 return true;

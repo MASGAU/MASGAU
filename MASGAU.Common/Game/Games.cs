@@ -228,7 +228,7 @@ namespace MASGAU {
 
             string string_to_use= "DetectingGames";
 
-            if(Core.settings.MonitoredGames.Count>0&&Core.Program==Program.Main)
+            if(Core.settings.MonitoredGames.Count>0&&Core.AppMode== AppMode.Main)
                     string_to_use = "DetectingMonitoringGames";
 
             TranslatingProgressHandler.setTranslatedMessage(string_to_use);
@@ -245,7 +245,7 @@ namespace MASGAU {
 
                     game.Detect();
 
-                if (game.IsMonitored&&Core.Program== Program.Main) {
+                if (game.IsMonitored&&Core.AppMode == AppMode.Main) {
                     game.startMonitoring(null,null);
                 }
 

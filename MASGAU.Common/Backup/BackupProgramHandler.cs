@@ -29,7 +29,7 @@ namespace MASGAU.Backup {
             archive_name_override = archive_name;
         }
         public BackupProgramHandler(ALocationsHandler loc)
-            : base(loc, Program.Main) {
+            : base(loc) {
             worker.DoWork += new DoWorkEventHandler(BackupProgramHandler_DoWork);
             worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(BackupProgramHandler_RunWorkerCompleted);
         }

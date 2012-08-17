@@ -7,7 +7,7 @@ namespace MASGAU.Main {
         public bool disable_resize = false;
 
         public MainProgramHandler(ALocationsHandler loc)
-            : base(loc, MASGAU.Program.Main) {
+            : base(loc) {
 
             string mode;
 

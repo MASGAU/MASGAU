@@ -55,8 +55,8 @@ Source: ..\Docs\gpl-2.0.txt; DestDir: {app}; Components: MASGAU\Core;
 //Source: ..\MASGAU\masgau.ico; DestDir: {app};  Components: MASGAU\Core; 
 // MASGAU Files
 Source: ..\MASGAU.WPF\bin\{#Mode}\MASGAU.exe; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
-Source: ..\MASGAU.WPF\bin\{#Mode}\*.dll; DestDir: {app}\libs;  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
-Source: ..\MASGAU.WPF\bin\{#Mode}\*.pdb; DestDir: {app}\libs;  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\MASGAU.WPF\bin\{#Mode}\*.dll; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
+Source: ..\MASGAU.WPF\bin\{#Mode}\*.pdb; DestDir: {app};  Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion; 
 // 7-zip DLLs
 Source: ..\Dependencies\7-Zip\7z32.exe; DestDir: {app}; DestName: 7z.exe; Check: ThirtyTwoCheck(); Components: MASGAU\Core; Flags: IgnoreVersion overwritereadonly replacesameversion;   
 Source: ..\Dependencies\7-Zip\7z64.exe; DestDir: {app}; DestName: 7z.exe; Check: SixtyFourCheck(); Components: MASGAU\Core;  Flags: IgnoreVersion overwritereadonly replacesameversion; 

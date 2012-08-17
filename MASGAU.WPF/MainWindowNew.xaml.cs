@@ -29,11 +29,10 @@ namespace MASGAU.Main {
             this.AllowDrop = true;
             this.Drop += new System.Windows.DragEventHandler(MainWindowNew_Drop);
 
-            VersionLabel.Content = Strings.GetLabelString("MASGAUAboutVersion",Core.program_version.ToString());
+            VersionLabel.Content = Strings.GetLabelString("MASGAUAboutVersion",Core.ProgramVersion.ToString());
 
-            this.DataContext = Core.settings;
-            bindSettingsControls();
-
+            if(Core.Ready)
+                this.DataContext = Core.settings;
 
             TranslationHelpers.translateWindow(this);
 
@@ -69,6 +68,10 @@ namespace MASGAU.Main {
 
         #region Program handler setup
         protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
+            if (!Core.Ready) {
+                this.Close();
+                return;
+            }
 
             switch (Core.settings.WindowState) {
                 case global::Config.WindowState.Maximized:
@@ -104,6 +107,9 @@ namespace MASGAU.Main {
             if (e.Error != null) {
                 this.Close();
             }
+
+
+            bindSettingsControls();
 
 
             OpenBackupFolder.DataContext = Core.settings;
