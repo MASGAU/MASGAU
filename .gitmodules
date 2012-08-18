@@ -37,12 +37,12 @@
 [submodule "Libs/GameSave.Info"]
 	path = Libs/GameSave.Info
 	url = https://github.com/GameSaveInfo/Lib.CSharp.git
-[submodule "MASGAU/Strings"]
-	path = MASGAU/Strings
-	url = https://github.com/MASGAU/Strings.git
-[submodule "MASGAU/Data"]
-	path = MASGAU/Data
-	url = https://github.com/GameSaveInfo/Data.git
 [submodule "Libs/XmlData"]
 	path = Libs/XmlData
 	url = https://github.com/sanmadjack/XmlData.CSharp.git
+[submodule "MASGAU.Common/Data"]
+	path = MASGAU.Common/Data
+	url = https://github.com/GameSaveInfo/Data.git
+[submodule "MASGAU.Common/Strings"]
+	path = MASGAU.Common/Strings
+	url = https://github.com/MASGAU/Strings.git
