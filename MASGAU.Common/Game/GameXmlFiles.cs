@@ -88,7 +88,7 @@ namespace MASGAU.Game {
             List<FileInfo> files = new List<FileInfo>();
             string[] names = Assembly.GetExecutingAssembly().GetManifestResourceNames();
             foreach (string name in names) {
-                if(name.StartsWith("MASGAU.Data"))
+                if(name.ToLower().StartsWith("MASGAU.Data".ToLower()))
                     extractResourceFile(name);
             }
             return files;

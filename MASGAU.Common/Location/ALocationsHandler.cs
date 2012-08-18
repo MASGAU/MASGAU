@@ -171,7 +171,8 @@ namespace MASGAU.Location {
 
             DetectedLocations return_me = new DetectedLocations();
             path = correctPath(path);
-            if (interpret_me == null) {
+            if (path == null)
+            {
                 return return_me;
             }
 
