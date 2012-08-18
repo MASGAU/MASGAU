@@ -66,9 +66,10 @@ namespace MASGAU.Location {
                             else
                                 test = new DirectoryInfo(alt_path.path);
                             if (test.Exists) {
-                                add_me = new DetectedLocationPathHolder(get_me);
-                                add_me.AbsoluteRoot = alt_path.path;
-                                return_me.Add(add_me);
+                                DetectedLocations locs = Core.locations.interpretPath(alt_path.path, get_me.Path);
+                                foreach (DetectedLocationPathHolder loc in locs) {
+                                    return_me.Add(loc);
+                                }
                             }
                         }
                     }
@@ -80,8 +81,7 @@ namespace MASGAU.Location {
                         else
                             test = new DirectoryInfo(drive);
                         if (test.Exists) {
-                            add_me = new DetectedLocationPathHolder(get_me);
-                            add_me.AbsoluteRoot = drive;
+                            add_me = new DetectedLocationPathHolder(get_me, drive, null);
                             return_me.Add(add_me);
                         }
                     }
@@ -95,8 +95,16 @@ namespace MASGAU.Location {
         public override string getAbsoluteRoot(LocationPath parse_me, string user) {
             switch (parse_me.EV) {
                 case EnvironmentVariable.Drive:
-                    DetectedLocationPathHolder holder = (DetectedLocationPathHolder)parse_me;
-                    return holder.AbsoluteRoot;
+                    if (parse_me is DetectedLocationPathHolder) {
+                        DetectedLocationPathHolder holder = (DetectedLocationPathHolder)parse_me;
+                        return holder.AbsoluteRoot;
+                    } else {
+                        foreach (string drive in drives) {
+                            if(Directory.Exists(Path.Combine(drive, parse_me.Path)))
+                                return Path.Combine(drive, parse_me.Path);
+                        }
+                        return null;
+                    }
                 default:
                     return base.getAbsoluteRoot(parse_me, user);
             }

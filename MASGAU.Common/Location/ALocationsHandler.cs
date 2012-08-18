@@ -14,13 +14,22 @@ namespace MASGAU.Location {
             return handlers[type];
         }
 
-        public string getFolder(EnvironmentVariable ev, string path) {
-            LocationPath parse_me = new LocationPath(ev,path);
-            foreach (string user in this.getUsers(ev)) {
+        public string getFolder(EnvironmentVariable ev, string user) {
+            LocationPath parse_me = new LocationPath(ev,null);
+            List<string> users = this.getUsers(ev);
+            if (user == null) {
+                foreach (string usr in users) {
+                    return this.getAbsoluteRoot(parse_me, usr);
+                }
+                return this.getAbsoluteRoot(parse_me, null);
+            }
+            if (users.Contains(user)) {
                 return this.getAbsoluteRoot(parse_me, user);
             }
-            return this.getAbsoluteRoot(parse_me, null);
+            throw new Exception("User " + user + " does not have a folder for EV " + ev.ToString());
+
         }
+
 
         protected Dictionary<HandlerType, ALocationHandler> handlers;
 
@@ -151,16 +160,23 @@ namespace MASGAU.Location {
             return null;
         }
 
-        public DetectedLocations interpretPath(string interpret_me) {
-            interpret_me = interpret_me.TrimEnd(Path.DirectorySeparatorChar);
+        public DetectedLocations interpretPath(params string[] interpret_me) {
+            if (interpret_me.Length == 0)
+                throw new Exception("Not enough paths!");
+
+            string path = interpret_me[0].TrimEnd(Path.DirectorySeparatorChar);
+            for (int i = 1; i < interpret_me.Length; i++) {
+                path = Path.Combine(path, interpret_me[i].TrimEnd(Path.DirectorySeparatorChar));
+            }
+
             DetectedLocations return_me = new DetectedLocations();
-            interpret_me = correctPath(interpret_me);
+            path = correctPath(path);
             if (interpret_me == null) {
                 return return_me;
             }
 
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
-                return_me.AddRange(handler.Value.interpretPath(interpret_me));
+                return_me.AddRange(handler.Value.interpretPath(path));
             }
 
             return return_me;
@@ -170,6 +186,15 @@ namespace MASGAU.Location {
             string[] sections = correct_me.TrimEnd(Path.DirectorySeparatorChar).Split(Path.DirectorySeparatorChar);
             DirectoryInfo dir = new DirectoryInfo(sections[0] + Path.DirectorySeparatorChar);
             for (int i = 1; i < sections.Length; i++) {
+                if(!PermissionsHelper.isReadable(dir.FullName)) {
+                    // If we can't access the subfolders, then we return the best path we can get
+                    string asfar = dir.FullName;
+                    while (i < sections.Length) {
+                        asfar = Path.Combine(asfar, sections[i]);
+                        i++;
+                    }
+                    return asfar;
+                }
                 DirectoryInfo[] sub_dir = dir.GetDirectories(sections[i]);
                 if (sub_dir.Length == 1) {
                     if (sub_dir[0].Exists) {

@@ -115,34 +115,27 @@ namespace MASGAU {
 
         private static bool ready;
         private static Process zipper;
-        public static string temp_folder;
-        static Archive() {
-            zipper = new Process();
-            temp_folder = Path.Combine(Path.GetTempPath(), "masgau");
 
-            if (ZipExecutablePresent) {
-                zipper.StartInfo.FileName = ZipExecutable;
-                ready = true;
-            } else {
-                ready = false;
-                throw new TranslateableException("FileNotFoundCritical",ZipExecutableName);
+        private string _tempfldr = null;
+        private string TempFolder {
+            get {
+                if (_tempfldr == null)
+                    _tempfldr = Path.Combine(Path.GetTempPath(), "masgau"+Path.GetFileNameWithoutExtension(Path.GetRandomFileName()));
+                return _tempfldr;
             }
-            zipper.StartInfo.UseShellExecute = false;
-            zipper.StartInfo.RedirectStandardOutput = true;
-            zipper.StartInfo.RedirectStandardError = true;
-            zipper.StartInfo.CreateNoWindow = true;
-            zipper.StartInfo.WorkingDirectory = temp_folder;
-
         }
-        private static void prepTemp() {
+
+
+
+        private void prepTemp() {
             try {
-                if (Directory.Exists(temp_folder)) {
-                    Directory.Delete(temp_folder, true);
+                if (Directory.Exists(TempFolder)) {
+                    Directory.Delete(TempFolder, true);
                     Thread.Sleep(10);
                 }
-                Directory.CreateDirectory(temp_folder);
+                Directory.CreateDirectory(TempFolder);
             } catch (Exception e) {
-                throw new TranslateableException("FolderPrepError", e, temp_folder);
+                throw new TranslateableException("FolderPrepError", e, TempFolder);
             }
         }
         #endregion
@@ -160,6 +153,22 @@ namespace MASGAU {
 
         public Archive(FileInfo archive)
             : base() {
+            zipper = new Process();
+
+            if (ZipExecutablePresent) {
+                zipper.StartInfo.FileName = ZipExecutable;
+                ready = true;
+            } else {
+                ready = false;
+                throw new TranslateableException("FileNotFoundCritical", ZipExecutableName);
+            }
+            zipper.StartInfo.UseShellExecute = false;
+            zipper.StartInfo.RedirectStandardOutput = true;
+            zipper.StartInfo.RedirectStandardError = true;
+            zipper.StartInfo.CreateNoWindow = true;
+            //zipper.StartInfo.WorkingDirectory = TempFolder;
+
+
             if (!ready)
                 throw new TranslateableException("FileNotFoundCritical",ZipExecutableName);
 
@@ -174,13 +183,13 @@ namespace MASGAU {
             xml_file.Add("masgau.xml");
             extract(xml_file, false);
 
-            if (File.Exists(Path.Combine(temp_folder, "masgau.xml"))) {
-                XmlFile file = new XmlFile(new FileInfo(Path.Combine(temp_folder, "masgau.xml")),false);
+            if (File.Exists(Path.Combine(TempFolder, "masgau.xml"))) {
+                XmlFile file = new XmlFile(new FileInfo(Path.Combine(TempFolder, "masgau.xml")),false);
                 XmlElement root = file.DocumentElement;
                 id = new ArchiveID(root);
 
 
-                File.Delete(Path.Combine(temp_folder, "masgau.xml"));
+                File.Delete(Path.Combine(TempFolder, "masgau.xml"));
             } else {
                 throw new TranslateableException("ArchiveMissingData", ArchiveFile.FullName);
                 // This is a fallback for really old ASGAU archives - One day I will be able to just delete this.
@@ -215,20 +224,20 @@ namespace MASGAU {
 
                 // If this is the first time writing to the archive, we create the identifying XML
                 XmlDocument write_me = new XmlDocument();
-                if (File.Exists(Path.Combine(temp_folder, "masgau.xml")))
-                    File.Delete(Path.Combine(temp_folder, "masgau.xml"));
+                if (File.Exists(Path.Combine(TempFolder, "masgau.xml")))
+                    File.Delete(Path.Combine(TempFolder, "masgau.xml"));
 
-                XmlTextWriter write_here = new XmlTextWriter(Path.Combine(temp_folder, "masgau.xml"), System.Text.Encoding.UTF8);
+                XmlTextWriter write_here = new XmlTextWriter(Path.Combine(TempFolder, "masgau.xml"), System.Text.Encoding.UTF8);
                 write_here.Formatting = Formatting.Indented;
                 write_here.WriteProcessingInstruction("xml", "version='1.0' encoding='UTF-8'");
                 write_here.WriteStartElement("masgau_archive");
                 write_here.Close();
-                write_me.Load(Path.Combine(temp_folder, "masgau.xml"));
+                write_me.Load(Path.Combine(TempFolder, "masgau.xml"));
                 //XmlNode root = write_me.DocumentElement;
 
                 id.AddElements(write_me);
 
-                FileStream this_file = new FileStream(Path.Combine(temp_folder, "masgau.xml"), FileMode.Truncate, FileAccess.Write, FileShare.ReadWrite);
+                FileStream this_file = new FileStream(Path.Combine(TempFolder, "masgau.xml"), FileMode.Truncate, FileAccess.Write, FileShare.ReadWrite);
 
                 write_me.Save(this_file);
                 write_here.Close();
@@ -241,10 +250,10 @@ namespace MASGAU {
                 FileInfo destination;
                 if (file.Path == ""||file.Path==null) {
                     source = new FileInfo(Path.Combine(file.AbsoluteRoot, file.Name));
-                    destination = new FileInfo(Path.Combine(temp_folder, file.Name));
+                    destination = new FileInfo(Path.Combine(TempFolder, file.Name));
                 } else {
                     source = new FileInfo(Path.Combine(file.AbsoluteRoot, file.Path, file.Name));
-                    destination = new FileInfo(Path.Combine(temp_folder, file.Path, file.Name));
+                    destination = new FileInfo(Path.Combine(TempFolder, file.Path, file.Name));
                 }
 
                 if (!source.Exists)
@@ -291,10 +300,10 @@ namespace MASGAU {
                 //file_date = new FileInfo(file_name).LastWriteTime;
             }
             if (files_added)
-                add(temp_folder, disable_versioning);
+                add(TempFolder, disable_versioning);
 
-            if(Directory.Exists(temp_folder))
-                Directory.Delete(temp_folder, true);
+            if(Directory.Exists(TempFolder))
+                Directory.Delete(TempFolder, true);
         }
 
         #endregion
@@ -305,7 +314,7 @@ namespace MASGAU {
             cancel_restore = false;
             TranslatingProgressHandler.setTranslatedMessage("CheckingDestination");
             // The files get extracted to the temp folder, so this sets up our ability to read them
-            DirectoryInfo from_here = new DirectoryInfo(temp_folder);
+            DirectoryInfo from_here = new DirectoryInfo(TempFolder);
 
             // If it's a destination that doesn't yet exist
             if (!destination.Exists) {
@@ -344,15 +353,15 @@ namespace MASGAU {
             ProgressHandler.state = ProgressState.Normal;
 
             // Clean up the masgau archive ID
-            if (File.Exists(Path.Combine(temp_folder, "masgau.xml")))
-                File.Delete(Path.Combine(temp_folder, "masgau.xml"));
+            if (File.Exists(Path.Combine(TempFolder, "masgau.xml")))
+                File.Delete(Path.Combine(TempFolder, "masgau.xml"));
 
             if (cancel_restore)
                 return;
 
             TranslatingProgressHandler.setTranslatedMessage("CopyingFilesToDestination");
             if (!canWrite(destination)) {
-                Directory.Delete(temp_folder, true);
+                Directory.Delete(TempFolder, true);
                 restoreElevation(destination.FullName);
                 cancel_restore = true;
             }
@@ -441,7 +450,7 @@ namespace MASGAU {
                     output = zipper.StandardOutput.ReadLine();
                 }
             } catch (Exception e) {
-                throw new TranslateableException("ExeRunError", e,ZipExecutableName, zipper.StartInfo.Arguments);
+                throw new TranslateableException("ExeRunError", e,ZipExecutableName, zipper.StartInfo.Arguments, zipper.StartInfo.WorkingDirectory);
             } finally {
                 try {
                     zipper.Close();
@@ -585,7 +594,7 @@ namespace MASGAU {
                 ProgressHandler.value = 0;
             }
             foreach (string file in files) {
-                zipper.StartInfo.Arguments = extract_switches + " \"" + ArchiveFile.FullName + "\" \"" + file + "\"";
+                zipper.StartInfo.Arguments = extract_switches + " \"" + ArchiveFile.FullName + "\" \"" + file + "\" -o\"" + TempFolder + "\"";
                 run7z(false);
                 if (send_progress)
                     ProgressHandler.value++;

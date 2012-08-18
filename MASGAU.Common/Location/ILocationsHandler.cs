@@ -13,7 +13,7 @@ namespace MASGAU.Location {
         string getAbsoluteRoot(LocationPath parse_me, string user);
         string getAbsolutePath(LocationPath parse_me, string user);
 
-        DetectedLocations interpretPath(string interpret_me);
+        DetectedLocations interpretPath(params string[] interpret_me);
 
     }
 }

@@ -41,14 +41,8 @@ public class SecurityHandler {
         }
         if (!Core.settings.SuppressElevationWarnings) {
             ResponseType response = ResponseType.OK;
-            switch (MASGAU.Core.locations.platform_version) {
-                case "WindowsXP":
+            if (Environment.OSVersion.Version<new Version(6,0)) {
                     response = TranslatingMessageHandler.SendWarning("ElevationXPWarning", true);
-                    break;
-                case "WindowsVista":
-                    break;
-                default:
-                    throw new NotSupportedException(MASGAU.Core.locations.platform_version);
             }
             if (response >= ResponseType.Suppressed)
                 Core.settings.SuppressElevationWarnings = true;

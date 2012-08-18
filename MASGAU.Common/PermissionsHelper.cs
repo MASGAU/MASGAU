@@ -8,8 +8,8 @@ namespace MASGAU {
                 if (read_me.Exists) {
                     FileInfo[] infos = read_me.GetFiles();
                     if (infos.Length > 0) {
-                        FileStream stream = infos[0].Open(FileMode.Open, FileAccess.Read);
-                        stream.Close();
+//                        FileStream stream = infos[0].Open(FileMode.Open, FileAccess.Read);
+  //                      stream.Close();
                     }
                     return true;
                 } else

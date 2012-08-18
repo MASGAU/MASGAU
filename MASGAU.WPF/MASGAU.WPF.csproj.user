@@ -14,7 +14,6 @@
     <StartArguments>-allusers</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <StartArguments>
-    </StartArguments>
+    <StartArguments>"C:\Users\Matthew\Desktop\Test\Descent2«Windows«Replays«AFA9AABE.gb7"</StartArguments>
   </PropertyGroup>
 </Project>

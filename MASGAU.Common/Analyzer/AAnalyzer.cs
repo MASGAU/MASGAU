@@ -155,7 +155,7 @@ namespace MASGAU.Analyzer {
             if (paths.Count == 0)
                 return dir.FullName;
             else
-                return paths.getMostAccurateLocation().full_relative_dir_path;
+                return paths.getMostAccurateLocation().FullRelativeDirPath;
         }
         #endregion
 

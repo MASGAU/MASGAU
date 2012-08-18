@@ -52,7 +52,7 @@ namespace MASGAU.Restore {
             // Checks if the provided path is the original archive path
             if (location is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
-                if (archive.id.OriginalLocation.ToLower() == loc.full_dir_path.ToLower()) {
+                if (archive.id.OriginalLocation!=null&&archive.id.OriginalLocation.ToLower() == loc.full_dir_path.ToLower()) {
                     loc.MatchesOriginalPath = true;
                 }
             }
@@ -87,12 +87,20 @@ namespace MASGAU.Restore {
                             }
                             return;
                         } else {
-                            // If the paths don't match, then we do nothing                            
+                            // If the paths don't match, then we compare Ev-relative paths
+                            if (path.FullRelativeDirPath.ToLower() == loc.FullRelativeDirPath.ToLower()) {
+                                //if they're the same, then we compare for matching
+                                if(loc.MatchesOriginalPath) {
+                                    path_candidates.RemoveAt(i);
+                                    path_candidates.AddWithSort(loc);
+                                }
+                                return;
+                            }
                         }
                     } else {
                         // If the existing path is an theoretical path path
                         LocationPath path = path_candidates[i] ;
-                        if (loc.full_relative_dir_path.ToLower() == path.full_relative_dir_path.ToLower()) {
+                        if (loc.FullRelativeDirPath.ToLower() == path.FullRelativeDirPath.ToLower()) {
                             // If both paths are based on the same EV/path combo
                             // Then the real path supercedes the fake path
                             path_candidates.RemoveAt(i);
@@ -104,10 +112,16 @@ namespace MASGAU.Restore {
                     }
                 }                
             } else {
+                switch(location.EV) {
+                    case EnvironmentVariable.Drive:
+                    case EnvironmentVariable.ProgramFiles:
+                    case EnvironmentVariable.ProgramFilesX86:                       
+                        return;
+                }
                 // If the new path is only a theoretical path
                 for (int i = 0; i < path_candidates.Count; i++) {
                     LocationPath path = path_candidates[i];
-                    if (path.full_relative_dir_path.ToLower() == location.full_relative_dir_path.ToLower()) {
+                    if (path.FullRelativeDirPath.ToLower() == location.FullRelativeDirPath.ToLower()) {
                         // If the relative paths match we compare the EVs for the more accurate one
                         if (location.EV > path.EV) {
                             // If the new path has a more accurate EV, we replace the old one
@@ -162,20 +176,23 @@ namespace MASGAU.Restore {
                     break;
             }
         }
-
+        private static Queue<string> _argchives;
         public static Queue<string> ArgArchives {
             get {
-                Queue<string> archives = new Queue<string>();
+                if(_argchives!=null)
+                    return _argchives;
+
+               _argchives = new Queue<string>();
                 string[] args = Environment.GetCommandLineArgs();
                 if (args.Length > 0) {
                     foreach (string arg in args) {
                         if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
-                            archives.Enqueue(arg.Trim('\"'));
+                            _argchives.Enqueue(arg.Trim('\"'));
                             break;
                         }
                     }
                 }
-                return archives;
+                return _argchives;
             }
         }
 
@@ -192,6 +209,10 @@ namespace MASGAU.Restore {
             } catch (Exception ex) {
                 TranslatingMessageHandler.SendException(ex);
             }
+
+
+            if (ArgArchives.Count > 0)
+                archive = new Archive(new FileInfo(ArgArchives.Dequeue()));
 
             if (archive == null)
                 throw new TranslateableException("NoRestoreFileSelected");
@@ -233,9 +254,7 @@ namespace MASGAU.Restore {
                         case EnvironmentVariable.ProgramFilesX86:
                             // This adds a fake VirtualStore folder, just in case
                             if (Core.locations.uac_enabled) {
-                                DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location);
-                                temp.AbsoluteRoot = null;
-                                temp.owner = location.owner;
+                                DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location, Core.locations.getFolder(EnvironmentVariable.LocalAppData, location.owner), location.owner);
                                 temp.ReplacePath(Path.Combine("VirtualStore", location.full_dir_path.Substring(3)));
                                 temp.EV = EnvironmentVariable.LocalAppData;
                                 addPathCandidate(temp);
@@ -397,7 +416,8 @@ namespace MASGAU.Restore {
             this.CancelAsync();
             if (restore_worker != null)
                 restore_worker.CancelAsync();
-            archive.cancel_restore = true;
+            if(archive!=null)
+                archive.cancel_restore = true;
         }
 
 

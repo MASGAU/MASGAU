@@ -8,10 +8,9 @@ namespace MASGAU.Location.Holders {
         // }
         public DetectedLocationPathHolder OriginalLocation { get; protected set; }
         public DetectedFile(DetectedLocationPathHolder location, string path, string name, string type)
-            : base(location) {
+            : base(location, location.full_dir_path, location.owner) {
                 OriginalLocation = location;
-            AbsoluteRoot = location.full_dir_path;
-            owner = location.owner;
+
             this.Path = path;
             this.Name = name;
             this.Type = type;

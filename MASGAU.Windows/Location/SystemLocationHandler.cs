@@ -375,14 +375,13 @@ namespace MASGAU.Location {
                         return_me.AddRange(getPaths(virtualstore_info));
                     }
 
-                    add_me = new DetectedLocationPathHolder(get_me);
                     if (x64) {
                         if (get_me.Path != null && get_me.Path.Length > 0)
                             test = new DirectoryInfo(Path.Combine(global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder, get_me.Path));
                         else
                             test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder);
                         if (test.Exists) {
-                            add_me.AbsoluteRoot = global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder;
+                            add_me = new DetectedLocationPathHolder(get_me,global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder,null);
                             return_me.Add(add_me);
                         }
                     }
@@ -393,7 +392,7 @@ namespace MASGAU.Location {
                         test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder);
 
                     if (test.Exists) {
-                        add_me.AbsoluteRoot = global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder;
+                        add_me = new DetectedLocationPathHolder(get_me, global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder, null);
                         return_me.Add(add_me);
                     }
                     break;

@@ -58,11 +58,7 @@ namespace MASGAU.Location {
         public IEnumerable<DetectedLocationPathHolder> createDetectedLocations(LocationPath loc, string owner) {
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
             foreach (string folder in this.Keys) {
-                DetectedLocationPathHolder add_me = new DetectedLocationPathHolder(loc);
-                add_me.owner = owner;
-                add_me.AbsoluteRoot = this[folder];
-//                if (folder != "")
-  //                  add_me.PrependPath(folder);
+                DetectedLocationPathHolder add_me = new DetectedLocationPathHolder(loc.EV,this[folder],loc.Path,owner);
                 return_me.Add(add_me);
             }
             return return_me;

@@ -35,12 +35,15 @@ InternalCompressLevel=Ultra64
 ArchitecturesInstallIn64BitMode=x64
 UninstallDisplayIcon={app}\masgau.ico
 
-
+// Wipes out old program files, data files are preservde
 [InstallDelete]
 Type: files; Name: "{app}\*.*";
 Type: files; Name: "{app}\libs\*.*";
 Type: files; Name: "{commonappdata}\masgau\config.xml";
 Type: filesandordirs; Name: "{group}"
+
+// Wipes out the original file association
+[Run]
 
 [Files]
 // This is just an installer library
@@ -74,9 +77,17 @@ Source: ..\MASGAU.Common\Strings\*no.xml; DestDir: {app}\strings; Components: La
 [Registry]
 // File association
 Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}Archive; Flags: UninsDeleteKey; Components: MASGAU\FileAssociation; 
+
+Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}Archive; Flags: UninsDeleteKey; Components: MASGAU\FileAssociation; 
 Root: HKCR; SubKey: {#MyAppName}Archive; ValueType: string; ValueData: "{#MyAppName} Save Archive"; Flags: UninsDeleteKey  ; Components: MASGAU\FileAssociation; 
-Root: HKCR; SubKey: {#MyAppName}Archive\DefaultIcon; ValueType: string; ValueData: {app}\MASGAU.exe,0; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
-Root: HKCR; SubKey: {#MyAppName}Archive\shell\open\command; ValueType: string; ValueData: "{app}\MASGAU.exe"" ""%1"; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: {#MyAppName}Archive\DefaultIcon; ValueType: string; ValueData: "{app}\MASGAU.exe,0"; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: {#MyAppName}Archive\shell\Restore\command; ValueType: string; ValueData: """{app}\MASGAU.exe"" ""%1"""; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: {#MyAppName}Archive\shell\Restore in All Users Mode\command; ValueType: string; ValueData: """{app}\MASGAU.exe"" ""-allusers"" ""%1"""; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+
+Root: HKCR; SubKey: Applications\MASGAU.exe; ValueType: string; ValueData: ""; Flags:  deletekey UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: Applications\MASGAU.exe\shell\Restore\command; ValueType: string; ValueData: """{app}\MASGAU.exe"" ""%1"""; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: Applications\MASGAU.exe\shell\Restore in All Users Mode\command; ValueType: string; ValueData: """{app}\MASGAU.exe"" ""-allusers"" ""%1"""; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
+
 // Installation folder key
 Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueName: InstallPath; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteValue; 
 Root: HKLM; SubKey: Software\{#MyAppName}; ValueType: string; ValueData: {app}; Components: MASGAU; Flags: UninsDeleteKey  ; 
