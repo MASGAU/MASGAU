@@ -1,9 +1,9 @@
 #define MyAppName "MASGAU"
-#define MyAppVersion "0.99.0"
+#define MyAppVersion "1.0.0"
 #define MyAppPublisher "Matthew Barbour"
 #define MyAppURL "http://masgau.org/"
 #define Mode "Release"
-#define Stability "Beta"
+#define Stability "Release"
 [Setup]
 AppMutex={#MyAppName}
 AppName={#MyAppName}
