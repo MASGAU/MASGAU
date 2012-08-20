@@ -76,10 +76,8 @@ Source: ..\MASGAU.Common\Strings\*no.xml; DestDir: {app}\strings; Components: La
 
 [Registry]
 // File association
-Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}Archive; Flags: UninsDeleteKey; Components: MASGAU\FileAssociation; 
-
-Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}Archive; Flags: UninsDeleteKey; Components: MASGAU\FileAssociation; 
-Root: HKCR; SubKey: {#MyAppName}Archive; ValueType: string; ValueData: "{#MyAppName} Save Archive"; Flags: UninsDeleteKey  ; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: .gb7; ValueType: string; ValueData: {#MyAppName}Archive; Flags: deletekey UninsDeleteKey; Components: MASGAU\FileAssociation; 
+Root: HKCR; SubKey: {#MyAppName}Archive; ValueType: string; ValueData: "{#MyAppName} Save Archive"; Flags: deletekey UninsDeleteKey  ; Components: MASGAU\FileAssociation; 
 Root: HKCR; SubKey: {#MyAppName}Archive\DefaultIcon; ValueType: string; ValueData: "{app}\MASGAU.exe,0"; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
 Root: HKCR; SubKey: {#MyAppName}Archive\shell\Restore\command; ValueType: string; ValueData: """{app}\MASGAU.exe"" ""%1"""; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 
 Root: HKCR; SubKey: {#MyAppName}Archive\shell\Restore in All Users Mode\command; ValueType: string; ValueData: """{app}\MASGAU.exe"" ""-allusers"" ""%1"""; Flags:  UninsDeleteKey ; Components: MASGAU\FileAssociation; 

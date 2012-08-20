@@ -80,13 +80,13 @@ namespace MASGAU.Location.Holders {
                     case EnvironmentVariable.Public:
                     case EnvironmentVariable.SteamCommon:
                     case EnvironmentVariable.SteamSourceMods:
-                    case EnvironmentVariable.CommonApplicationData:
                     case EnvironmentVariable.None:
                     case EnvironmentVariable.StartMenu:
                     case EnvironmentVariable.FlashShared:
                     case EnvironmentVariable.UbisoftSaveStorage:
                         return_me = AbsoluteRoot;
                         break;
+                    case EnvironmentVariable.CommonApplicationData:
                     case EnvironmentVariable.Desktop:
                     case EnvironmentVariable.AppData:
                     case EnvironmentVariable.LocalAppData:

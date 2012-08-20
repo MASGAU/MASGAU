@@ -7,7 +7,7 @@ using System.Threading;
 using MASGAU.Location;
 using MASGAU.Monitor;
 //using MASGAU.Task;
-using MASGAU.Update;
+using Updater;
 using Translator;
 using MVC;
 using System.ComponentModel;
@@ -43,7 +43,6 @@ namespace MASGAU
         public const string gamesaveinfo_url = "http://gamesave.info/";
         public const string submission_email = "submissions@gamesave.info";
 
-
         public const bool Stable = true;
 
         public static Version ProgramVersion = new Version(0, 99, 0);
@@ -71,7 +70,7 @@ namespace MASGAU
         // Shared super-objects
         public static ALocationsHandler locations;
         public static Settings.Settings settings;
-        public static Updater updater;
+        public static Updater.Updater updater;
         //public static TaskHandler task;
         public static Monitor.Monitor monitor;
 

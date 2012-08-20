@@ -131,14 +131,6 @@
     <None Include="Task\TaskHandler.cs" />
     <Compile Include="Sync\SyncHandler.cs" />
     <None Include="Sync\Synchronizer.cs" />
-    <Compile Include="Update\DataUpdate.cs" />
-    <Compile Include="Update\DataUpdates.cs" />
-    <Compile Include="Update\ProgramUpdate.cs" />
-    <Compile Include="Update\ProgramUpdates.cs" />
-    <Compile Include="Update\UpdateAvailability.cs" />
-    <Compile Include="Update\AUpdate.cs" />
-    <Compile Include="Update\Updater.cs" />
-    <Compile Include="Update\AUpdates.cs" />
     <Compile Include="IModelItem.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -211,6 +203,10 @@
     <ProjectReference Include="..\Libs\Translator\Translator.csproj">
       <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
       <Name>Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Updater\Updater.csproj">
+      <Project>{292010F1-B671-4E46-BB96-3F8574E3C7B2}</Project>
+      <Name>Updater</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libs\XmlData\XmlData.csproj">
       <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>

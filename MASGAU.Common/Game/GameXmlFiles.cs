@@ -3,13 +3,42 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 using MVC.Translator;
-using MASGAU.Update;
+using Updater;
 using Translator;
 using XmlData;
 using GameSaveInfo;
 using System.Reflection;
 namespace MASGAU.Game {
-    public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,GameSaveInfo.Game> {
+    public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,GameSaveInfo.Game>, IVersionSource {
+        public Version ProgramVersion {
+            get {
+                return Core.ProgramVersion;
+            }
+        }
+
+        public Version GetFileVersion(string name) {
+            return null;
+        }
+        public Nullable<DateTime> GetFileDate(string name) {
+            GameXmlFile file = getFile(name);
+            if (file == null)
+                return null;
+
+            return file.date;
+        }
+
+        public bool ValidateFile(FileInfo file, Uri url) {
+            XmlFile game_config;
+            try {
+                game_config = new XmlFile(file, false);
+                return true;
+            } catch (Exception e) {
+                Logger.Logger.log("Error while downloading " + url.ToString());
+                Logger.Logger.log(e);
+                return false;
+            }
+        }
+
         public CustomGameXmlFile custom { get; protected set;  }
         public DirectoryInfo DataFolder {
             get {
@@ -53,13 +82,6 @@ namespace MASGAU.Game {
             if (this.custom == null) {
                 this.custom = new CustomGameXmlFile(new FileInfo(Path.Combine(DataFolder.FullName, "custom.xml")));
             }
-        }
-        public GameXmlFile getFile(string name) {
-            foreach(GameXmlFile file in this) {
-                if (file.File.Name == name)
-                    return file;
-            }
-            return null;
         }
 
         protected FileInfo extractResourceFile(string name) {

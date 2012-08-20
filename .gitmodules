@@ -46,3 +46,6 @@
 [submodule "MASGAU.Common/Strings"]
 	path = MASGAU.Common/Strings
 	url = https://github.com/MASGAU/Strings.git
+[submodule "Libs/Updater"]
+	path = Libs/Updater
+	url = https://github.com/sanmadjack/Updater.CSharp.git

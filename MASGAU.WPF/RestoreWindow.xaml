@@ -39,11 +39,11 @@
                     <GroupBox Grid.Row="1" Grid.ColumnSpan="2" Header="$RestoreLocationChoice" Margin="3" Name="pathBox">
                         <ComboBox Height="23" Margin="1" Name="pathCombo" SelectionChanged="pathCombo_SelectionChanged" TabIndex="2" />
                     </GroupBox>
-                    <GroupBox Grid.ColumnSpan="2" Grid.Row="2" Header="$RestoreUserChoice" Margin="3" Name="userBox">
-                        <ComboBox Height="23" Margin="1" Name="userCombo" TabIndex="3" />
-                    </GroupBox>
-                    <GroupBox Grid.ColumnSpan="2" Grid.Row="3" Header="$RestoreLocation" Margin="3" Name="singlePathBox">
+                    <GroupBox Grid.ColumnSpan="2" Grid.Row="2" Header="$RestoreLocation" Margin="3" Name="singlePathBox">
                         <Label Content="{Binding only_path}" Margin="1" Name="pathLabel" />
+                    </GroupBox>
+                    <GroupBox Grid.ColumnSpan="2" Grid.Row="3" Header="$RestoreUserChoice" Margin="3" Name="userBox">
+                        <ComboBox Height="23" Margin="1" Name="userCombo" TabIndex="3" />
                     </GroupBox>
                     <GroupBox Grid.ColumnSpan="2" Grid.Row="4" Header="$RestoreUser" Margin="3" Name="singleUserBox">
                         <Label Content="{Binding only_user}" Margin="1" Name="userLabel" />

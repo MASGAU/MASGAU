@@ -437,7 +437,10 @@ namespace MASGAU.Restore {
         private string restore_path;
         public void restoreBackup(LocationPath path, string user, RunWorkerCompletedEventHandler when_done) {
             string target;
-            if( path is DetectedLocationPathHolder) {
+            if (path is ManualLocationPathHolder) {
+                ManualLocationPathHolder loc = path as ManualLocationPathHolder;
+                target = loc.ManualPath;
+            } else if( path is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = path as DetectedLocationPathHolder;
                 target = loc.full_dir_path;
             } else {
