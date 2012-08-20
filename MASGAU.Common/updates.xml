@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <updates majorVersion="1" minorVersion="1" date="2011-12-25T00:00:00">
   <!-- This is for debugging -->
-  <source>http://test.masgau.org/updates/GameSaveInfo20/</source>
+  <!--<source>http://test.masgau.org/updates/GameSaveInfo20/</source>-->
   <!-- This is the real one -->
   <source>http://masgau.org/updates/GameSaveInfo20</source>
 </updates>
