@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Windows;
 using MVC.Communication;
-using MASGAU.Update;
+using Updater;
 using Translator;
 using Translator.WPF;
 namespace MASGAU.Main {
@@ -25,7 +25,7 @@ namespace MASGAU.Main {
                 disableInterface();
                 updateWorker.RunWorkerAsync();
             } else {
-                Core.updater.downloadProgramUpdate();
+                masgau.downloadProgramUpdate();
             }
         }
 
@@ -39,7 +39,7 @@ namespace MASGAU.Main {
         }
 
         void updateWorker_DoWork(object sender, DoWorkEventArgs e) {
-            Core.updater.downloadDataUpdates();
+            masgau.downloadDataUpdates();
         }
 
 
@@ -48,7 +48,7 @@ namespace MASGAU.Main {
             UpdateButton.IsEnabled = false;
             TranslationHelpers.translate(UpdateButton, "CheckingForUpdates");
             BackgroundWorker update = new BackgroundWorker();
-            Core.updater = new Update.Updater();
+            Core.updater = new Updater.Updater(Games.xml, Games.GameDataFolder);
             ProgressHandler.saveMessage();
             update.DoWork += new DoWorkEventHandler(update_DoWork);
             update.RunWorkerCompleted += new RunWorkerCompletedEventHandler(update_RunWorkerCompleted);
