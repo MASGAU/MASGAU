@@ -58,6 +58,9 @@
     <Compile Include="AMainProgramHandler.cs" />
     <Compile Include="Analyzer\AAnalyzer.cs" />
     <Compile Include="Analyzer\APCAnalyzer.cs" />
+    <EmbeddedResource Include="..\Libs\GameSave.Info\GameSaveInfo20.xsd">
+      <Link>data\GameSaveInfo20.xsd</Link>
+    </EmbeddedResource>
     <None Include="Analyzer\PSAnalyzer.cs" />
     <Compile Include="AppMode.cs" />
     <Compile Include="AProgramHandler.cs" />
@@ -125,7 +128,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="structs.cs" />
-    <EmbeddedResource Include="data\GameSaveInfo20.xsd" />
     <None Include="Task\DayOfWeek.cs" />
     <None Include="Task\Frequency.cs" />
     <None Include="Task\TaskHandler.cs" />
@@ -145,11 +147,37 @@
     </None>
     <None Include="data\changelog.txt" />
     <EmbeddedResource Include="data\deprecated.xml" />
-    <EmbeddedResource Include="data\games.xml" />
     <EmbeddedResource Include="data\system.xml" />
     <None Include="data\new.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <EmbeddedResource Include="data\a.xml" />
+    <EmbeddedResource Include="data\b.xml" />
+    <EmbeddedResource Include="data\c.xml" />
+    <EmbeddedResource Include="data\d.xml" />
+    <EmbeddedResource Include="data\e.xml" />
+    <EmbeddedResource Include="data\f.xml" />
+    <EmbeddedResource Include="data\g.xml" />
+    <EmbeddedResource Include="data\h.xml" />
+    <EmbeddedResource Include="data\i.xml" />
+    <EmbeddedResource Include="data\j.xml" />
+    <EmbeddedResource Include="data\k.xml" />
+    <EmbeddedResource Include="data\l.xml" />
+    <EmbeddedResource Include="data\m.xml" />
+    <EmbeddedResource Include="data\n.xml" />
+    <EmbeddedResource Include="data\numeric.xml" />
+    <EmbeddedResource Include="data\o.xml" />
+    <EmbeddedResource Include="data\p.xml" />
+    <EmbeddedResource Include="data\q.xml" />
+    <EmbeddedResource Include="data\r.xml" />
+    <EmbeddedResource Include="data\s.xml" />
+    <EmbeddedResource Include="data\t.xml" />
+    <EmbeddedResource Include="data\u.xml" />
+    <EmbeddedResource Include="data\v.xml" />
+    <EmbeddedResource Include="data\w.xml" />
+    <EmbeddedResource Include="data\x.xml" />
+    <EmbeddedResource Include="data\y.xml" />
+    <EmbeddedResource Include="data\z.xml" />
     <Content Include="masgau.ico" />
     <None Include="strings\en.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -164,7 +192,9 @@
     <None Include="strings\olden.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="settings.xml" />
+    <None Include="settings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="strings\TRANSLATOR README.txt" />
     <Content Include="updates.xml">
       <SubType>Designer</SubType>
