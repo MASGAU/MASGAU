@@ -70,8 +70,8 @@ Source: ..\Dependencies\7-Zip\7z64.dll; DestDir: {app}; DestName: 7z.dll; Check:
 Source: ..\Libs\Translator\Strings\strings.xsd; DestDir: {app}\strings; Components: Langs; 
 Source: ..\MASGAU.Common\Strings\TRANSLATOR README.txt; DestDir: {app}\strings; Components: Langs; 
 Source: ..\MASGAU.Common\Strings\*en.xml; DestDir: {app}\strings; Components: Langs\EN; 
-Source: ..\MASGAU.Common\Strings\*fr.xml; DestDir: {app}\strings; Components: Langs\FR; 
-Source: ..\MASGAU.Common\Strings\*no.xml; DestDir: {app}\strings; Components: Langs\NO; 
+//Source: ..\MASGAU.Common\Strings\*fr.xml; DestDir: {app}\strings; Components: Langs\FR; 
+//Source: ..\MASGAU.Common\Strings\*no.xml; DestDir: {app}\strings; Components: Langs\NO; 
 
 
 [Registry]
@@ -273,8 +273,8 @@ Name: "MASGAU\Shortcuts"; Description: "{cm:shortcut}"; Types: full compact cust
 Name: "MASGAU\Portable"; Description: "{cm:portable}"; Types: custom
 Name: "Langs"; Description: "{cm:language}"; Types: full compact custom; Flags: fixed
 Name: "Langs\EN"; Description: "{cm:english}"; Types: full compact custom; Flags: fixed
-Name: "Langs\NO"; Description: "{cm:norwegian}"; Types: full custom
-Name: "Langs\FR"; Description: "{cm:french}"; Types: full custom
+//Name: "Langs\NO"; Description: "{cm:norwegian}"; Types: full custom
+//Name: "Langs\FR"; Description: "{cm:french}"; Types: full custom
 
 [Types]
 Name: full; Description: {cm:full};
