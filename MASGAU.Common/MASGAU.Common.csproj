@@ -148,6 +148,7 @@
     <EmbeddedResource Include="data\system.xml" />
     <None Include="data\new.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <EmbeddedResource Include="data\a.xml" />
     <EmbeddedResource Include="data\b.xml" />

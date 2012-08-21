@@ -33,8 +33,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.WPF", "Libs\MVC.WPF\MVC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Translator", "Libs\MVC.Translator\MVC.Translator.csproj", "{A0502934-F0B8-40ED-9849-E4392CE37AF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSMConverter", "GSMConverter\GSMConverter.csproj", "{90226426-E81C-4FC7-9928-E0FE9C4F908F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameSave.Info", "Libs\GameSave.Info\GameSave.Info.csproj", "{937CDE2B-963A-4624-A460-C95676260D35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "Libs\Updater\Updater.csproj", "{292010F1-B671-4E46-BB96-3F8574E3C7B2}"
@@ -209,16 +207,6 @@ Global
 		{A0502934-F0B8-40ED-9849-E4392CE37AF4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A0502934-F0B8-40ED-9849-E4392CE37AF4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A0502934-F0B8-40ED-9849-E4392CE37AF4}.Release|x86.ActiveCfg = Release|Any CPU
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Debug|x86.ActiveCfg = Debug|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Debug|x86.Build.0 = Debug|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Release|Any CPU.ActiveCfg = Release|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Release|Mixed Platforms.Build.0 = Release|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Release|x86.ActiveCfg = Release|x86
-		{90226426-E81C-4FC7-9928-E0FE9C4F908F}.Release|x86.Build.0 = Release|x86
 		{937CDE2B-963A-4624-A460-C95676260D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{937CDE2B-963A-4624-A460-C95676260D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{937CDE2B-963A-4624-A460-C95676260D35}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
