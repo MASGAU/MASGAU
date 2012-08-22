@@ -68,6 +68,7 @@ namespace MASGAU.Main {
             }
             fade.Start(DisablerGrid);
 
+            notifier.Animated = !status;
 
             notifier.MenuEnabled = status;
             //progress.Effect = blur;

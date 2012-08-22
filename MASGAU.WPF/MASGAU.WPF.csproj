@@ -310,6 +310,186 @@
   <ItemGroup>
     <None Include="Resources\masgau.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0001.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0002.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0003.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0004.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0005.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0006.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0007.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0008.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0009.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0010.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0011.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0012.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0013.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0014.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0015.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0016.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0017.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0018.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0019.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0020.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0021.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0022.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0023.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0024.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0025.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0026.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0027.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0028.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0029.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0030.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0031.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0032.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0033.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0034.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0035.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0036.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0037.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0038.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0039.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0040.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0041.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0042.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0043.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0044.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0045.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0046.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0047.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0048.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0049.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0050.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0051.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0052.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0053.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0054.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0055.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0056.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0057.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0058.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0059.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0060.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

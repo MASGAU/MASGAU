@@ -142,7 +142,14 @@ namespace MASGAU {
 
         private static void addGame(GameEntry game) {
             if (model.containsId(game.id)) {
-                throw new Translator.TranslateableException("DuplicateGame", game.id.ToString(),game.SourceFile,model.get(game.id).SourceFile);
+                    GameEntry current =  model.get(game.id);
+                if (game.SourceFile == "new.xml") {
+                    model.Remove(current);
+                } else if (current.SourceFile == "new.xml") {
+                    return;
+                } else {
+                    throw new Translator.TranslateableException("DuplicateGame", game.id.ToString(), game.SourceFile, model.get(game.id).SourceFile);
+                }
             }
             if (game.id.OS == "PS1") {
                 //                        GameVersion psp_game = 
