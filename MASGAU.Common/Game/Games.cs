@@ -216,9 +216,9 @@ namespace MASGAU {
             List<GameEntry> detected_games = new List<GameEntry>();
             Core.monitor.stop();
 
-            if (model.Count == 0) {
+//            if (model.Count == 0) {
                 loadXml();
-            }
+  //          }
 
             int game_count;
             game_count = model.Count;
