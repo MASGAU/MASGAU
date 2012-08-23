@@ -27,6 +27,32 @@ namespace MASGAU.Game {
             return file.date;
         }
 
+        public List<string> EmbeddedFiles {
+            get {
+                List<string> return_me = new List<string>();
+                string[] names = Assembly.GetExecutingAssembly().GetManifestResourceNames();
+                foreach (string name in names) {
+                    if (name.ToLower().StartsWith("MASGAU.Data".ToLower())&&
+                        name.ToLower().EndsWith(".xml")) {
+                        return_me.Add(name.Substring(12));
+                    }
+                }
+                return_me.Sort();
+                return return_me;
+            }
+        }
+
+
+        public List<string> ReadableXmlFiles {
+            get {
+                List<string> return_me = new List<string>();
+                return_me.AddRange(EmbeddedFiles);
+                return_me.Add("new.xml");
+                return_me.Add("custom.xml");
+                return_me.Sort();
+                return return_me;
+            }
+        }
         public bool ValidateFile(FileInfo file, Uri url) {
             XmlFile game_config;
             try {
@@ -67,7 +93,10 @@ namespace MASGAU.Game {
 
 
             List<FileInfo> files = new List<FileInfo>();
-            files.AddRange(DataFolder.GetFiles("*.xml"));
+            foreach (FileInfo info in DataFolder.GetFiles("*.xml")) {
+                if(ReadableXmlFiles.Contains(info.Name)) 
+                    files.Add(info);
+            }
 
             try {
                 this.LoadXml(files);
