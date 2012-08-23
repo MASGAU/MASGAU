@@ -68,7 +68,6 @@ namespace MASGAU.Location.Holders {
             get {
                 string return_me;
                 switch (EV) {
-                    case EnvironmentVariable.AllUsersProfile:
                     case EnvironmentVariable.AltSavePaths:
                     case EnvironmentVariable.Drive:
                     case EnvironmentVariable.InstallLocation:
@@ -77,7 +76,6 @@ namespace MASGAU.Location.Holders {
                     case EnvironmentVariable.PS3Export:
                     case EnvironmentVariable.PS3Save:
                     case EnvironmentVariable.PSPSave:
-                    case EnvironmentVariable.Public:
                     case EnvironmentVariable.SteamCommon:
                     case EnvironmentVariable.SteamSourceMods:
                     case EnvironmentVariable.None:
@@ -86,6 +84,8 @@ namespace MASGAU.Location.Holders {
                     case EnvironmentVariable.UbisoftSaveStorage:
                         return_me = AbsoluteRoot;
                         break;
+                    case EnvironmentVariable.Public:
+                    case EnvironmentVariable.AllUsersProfile:
                     case EnvironmentVariable.CommonApplicationData:
                     case EnvironmentVariable.Desktop:
                     case EnvironmentVariable.AppData:
