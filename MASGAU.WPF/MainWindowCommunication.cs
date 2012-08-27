@@ -39,8 +39,9 @@ namespace MASGAU.Main {
 
 
         #region Progress stuff
+
         public override void updateProgress(ProgressUpdatedEventArgs e) {
-            if (e.message != null) {
+            if (e.message != null && (last_message == null || last_message != e.message)) {
                 if (this.Visibility != System.Windows.Visibility.Visible)
                     notifier.sendBalloon(e.message);
             }

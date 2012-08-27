@@ -191,7 +191,9 @@
     <None Include="strings\olden.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="settings.xml" />
+    <None Include="settings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="strings\TRANSLATOR README.txt" />
     <Content Include="updates.xml">
       <SubType>Designer</SubType>

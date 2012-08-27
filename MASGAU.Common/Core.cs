@@ -45,7 +45,7 @@ namespace MASGAU
 
         public const bool Stable = true;
 
-        public static Version ProgramVersion = new Version(0, 99, 0);
+        public static Version ProgramVersion = new Version(1, 0, 0);
 
 
         // This stores the names of the various programs in masgau
