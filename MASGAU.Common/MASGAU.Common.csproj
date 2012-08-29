@@ -131,7 +131,6 @@
     <None Include="Task\TaskHandler.cs" />
     <Compile Include="Sync\SyncHandler.cs" />
     <None Include="Sync\Synchronizer.cs" />
-    <Compile Include="IModelItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="masgau.snk" />

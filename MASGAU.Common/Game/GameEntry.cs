@@ -152,9 +152,16 @@ namespace MASGAU {
             }
         }
 
+        private const int MaxDetect = 300;
+        private static int DetectCount = 0;
+        Random rnd = new Random();
+
         public bool DetectionAttempted { get; protected set; }
         public bool IsDetected {
             get {
+
+                //return rnd.Next(0, 5) == 0;
+
                 if (IsDeprecated)
                     return false;
 

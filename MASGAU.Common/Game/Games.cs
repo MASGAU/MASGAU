@@ -94,6 +94,35 @@ namespace MASGAU {
             }
         }
 
+        public static bool OnlyCustomGamesSelected {
+            get {
+                lock (model) {
+                    foreach(GameEntry game in model.Items) {
+                        if(game.IsSelected) {
+                            if (game is CustomGameEntry)
+                                continue;
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }
+        }
+
+        public static List<Archive> SelectedGamesArchives {
+            get {
+                List<Archive> archives = new List<Archive>();
+                lock (model) {
+                    foreach (GameEntry game in model.Items) {
+                        if (game.IsEnabled) {
+                            archives.AddRange(game.Archives);
+                        }
+                    }
+                }
+                return archives;
+            }
+        }
+
         static Games() {
             model.PropertyChanged += new PropertyChangedEventHandler(GamesHandler_PropertyChanged);
             model.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(GamesHandler_CollectionChanged);

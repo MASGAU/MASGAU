@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows;
+using System.Collections;
+using System.Collections.Generic;
 using System.Windows.Controls;
 using MVC.Communication;
 using MVC;
@@ -38,7 +40,8 @@ namespace MASGAU.Main {
         #endregion
 
         protected void updateArchiveList() {
-            int selected_count = gamesLst.SelectedItems.Count;
+            int selected_count = Games.SelectedItems.Count;
+
             TranslationHelpers.translate(BackupSelectedGames, "BackupGames", selected_count.ToString());
 
             if (selected_count > 0) {
@@ -59,20 +62,18 @@ namespace MASGAU.Main {
             }
 
             Model<ArchiveID, Archive> archives = new Model<ArchiveID, Archive>();
-            deleteGame.IsEnabled = true;
-            foreach (GameEntry game in gamesLst.SelectedItems) {
-                if (game is CustomGameEntry) {
-                    CustomGame custom = game.Game as CustomGame;
-                }  else
-                    deleteGame.IsEnabled = false;
-                archives.AddRange(game.Archives);
-            }
+            deleteGame.IsEnabled = Games.OnlyCustomGamesSelected;
+            archives.AddRange(Games.SelectedGamesArchives);
+
             if (ArchiveList.DataContext != null) {
-                foreach (Archive archive in (Model<ArchiveID, Archive>)ArchiveList.DataContext) {
-                    if (!archives.containsId(archive.id))
-                        archive.IsSelected = false;
+                    lock (ArchiveList.DataContext) {
+                    foreach (Archive archive in (Model<ArchiveID, Archive>)ArchiveList.DataContext) {
+                        if (!archives.containsId(archive.id))
+                            archive.IsSelected = false;
+                    }
                 }
             }
+
             ArchiveList.DataContext = archives;
             ArchiveList.ItemsSource = archives;
             if (archives.Count > 0) {

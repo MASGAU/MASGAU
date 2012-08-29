@@ -25,6 +25,8 @@ namespace MASGAU.Main {
 
         public MainWindowNew() {
             InitializeComponent();
+            gamesAndArchiveList.TemplateItem = new GameListViewItem();
+
             notifier = new NotifierIcon(this);
             this.AllowDrop = true;
             this.Drop += new System.Windows.DragEventHandler(MainWindowNew_Drop);
@@ -90,6 +92,8 @@ namespace MASGAU.Main {
             disableInterface();
             gamesLst.DataContext = Games.DetectedGames;
             gamesLst.ItemsSource = Games.DetectedGames;
+
+            gamesAndArchiveList.Model = Games.DetectedGames;
 
             AllUsersModeButton.DataContext = masgau;
 
