@@ -48,7 +48,7 @@ namespace MASGAU {
                 return id.Type;
             }
         }
-        public new string ToolTip {
+        public override string ToolTip {
             get {
                 return ArchiveFile.Name;
             }

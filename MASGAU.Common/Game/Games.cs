@@ -112,9 +112,9 @@ namespace MASGAU {
         public static List<Archive> SelectedGamesArchives {
             get {
                 List<Archive> archives = new List<Archive>();
-                lock (model) {
-                    foreach (GameEntry game in model.Items) {
-                        if (game.IsEnabled) {
+                lock (DetectedGames) {
+                    foreach (GameEntry game in DetectedGames.Items) {
+                        if (game.IsSelected) {
                             archives.AddRange(game.Archives);
                         }
                     }

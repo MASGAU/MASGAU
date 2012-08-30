@@ -32,13 +32,16 @@ namespace MASGAU.Main {
             }
         }
 
-        private void ArchiveList_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) {
+        protected void updateRestoreButton() {
             int selected_count = ArchiveList.SelectedItems.Count;
 
             TranslationHelpers.translate(RestoreSelected, "RestoreGames", selected_count.ToString());
 
             RestoreSelected.IsEnabled = selected_count > 0;
-
+        }
+        
+        private void ArchiveList_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) {
+            updateRestoreButton();
         }
 
         void MainWindowNew_Drop(object sender, System.Windows.DragEventArgs e) {

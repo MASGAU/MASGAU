@@ -116,7 +116,7 @@ namespace MASGAU {
             }
         }
 
-        public new string ToolTip {
+        public override string ToolTip {
             get {
                 StringBuilder tooltip = new StringBuilder();
                 if (version.Comment != null) {
@@ -156,11 +156,13 @@ namespace MASGAU {
         private static int DetectCount = 0;
         Random rnd = new Random();
 
+        private bool detect_override = false;
+
         public bool DetectionAttempted { get; protected set; }
         public bool IsDetected {
             get {
-
-                //return rnd.Next(0, 5) == 0;
+                if (detect_override)
+                    return true;
 
                 if (IsDeprecated)
                     return false;
@@ -196,6 +198,11 @@ namespace MASGAU {
             set {
                 if (!CanBeMonitored)
                     return;
+                if (value) {
+                    if (!CheckBackuptPathForMonitor()) {
+                        return;
+                    }
+                }
 
                 Core.settings.setGameMonitored(this.id, value);
                 NotifyPropertyChanged("MonitorEnabled");
@@ -206,6 +213,19 @@ namespace MASGAU {
             }
         }
 
+
+        public bool CheckBackuptPathForMonitor() {
+
+                    if (!Core.settings.IsBackupPathSet) {
+                        RequestReply reply = RequestHandler.Request(RequestType.BackupFolder, false);
+                        if (reply.Cancelled) {
+                            TranslatingMessageHandler.SendWarning("MonitorNeedsBackupPath");
+                            return false;
+                            //throw new TranslateableException("BackupPathNotSet");
+                        }
+                    }
+                    return true;
+        }
 
         private StringBuilder _detected_paths_string;
         public string detected_paths_string {
@@ -232,6 +252,9 @@ namespace MASGAU {
 
 
         public bool Detect() {
+//            detect_override =  rnd.Next(0, 2) == 0;
+
+
             List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
             List<ALocation> locations = AllLocations;
 
@@ -348,27 +371,31 @@ namespace MASGAU {
                 return;
 
 
-            TranslatingProgressHandler.setTranslatedMessage("BackupUpForMonitor", this.Title);
+            if (!CheckBackuptPathForMonitor())
+                return;
 
-            ProgressHandler.suppress_communication = true;
+                TranslatingProgressHandler.setTranslatedMessage("BackupUpForMonitor", this.Title);
 
-            BackupProgramHandler backup = new BackupProgramHandler(this,null,null,Core.locations);
-            backup.RunWorkerAsync();
-            while (backup.IsBusy) {
-                Thread.Sleep(100);
-            }
+                ProgressHandler.suppress_communication = true;
 
-
-            TranslatingProgressHandler.setTranslatedMessage("SettingUpMonitorFor", this.Title);
-
-            ProgressHandler.suppress_communication = false;
+                BackupProgramHandler backup = new BackupProgramHandler(this, null, null, Core.locations);
+                backup.RunWorkerAsync();
+                while (backup.IsBusy) {
+                    Thread.Sleep(100);
+                }
 
 
-            foreach (DetectedLocationPathHolder path in this.DetectedLocations.Values) {
-                MonitorPath mon = new MonitorPath(this, path);
-                monitors.Push(mon);
-                mon.start();
-            }
+                TranslatingProgressHandler.setTranslatedMessage("SettingUpMonitorFor", this.Title);
+
+                ProgressHandler.suppress_communication = false;
+
+
+                foreach (DetectedLocationPathHolder path in this.DetectedLocations.Values) {
+                    MonitorPath mon = new MonitorPath(this, path);
+                    monitors.Push(mon);
+                    mon.start();
+                }
+
         }
 
 

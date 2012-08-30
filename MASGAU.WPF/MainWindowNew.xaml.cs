@@ -25,7 +25,9 @@ namespace MASGAU.Main {
 
         public MainWindowNew() {
             InitializeComponent();
-            gamesAndArchiveList.TemplateItem = new GameListViewItem();
+            gamesLst.TemplateItem = new GameListViewItem();
+            ArchiveList.TemplateItem = new ArchiveListViewItem();
+
 
             notifier = new NotifierIcon(this);
             this.AllowDrop = true;
@@ -91,9 +93,7 @@ namespace MASGAU.Main {
             this.Title = masgau.program_title;
             disableInterface();
             gamesLst.DataContext = Games.DetectedGames;
-            gamesLst.ItemsSource = Games.DetectedGames;
-
-            gamesAndArchiveList.Model = Games.DetectedGames;
+            gamesLst.Model = Games.DetectedGames;
 
             AllUsersModeButton.DataContext = masgau;
 

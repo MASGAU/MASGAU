@@ -26,6 +26,9 @@ namespace MASGAU.Main {
         }
 
         protected void redetectGames() {
+            gamesLst.DeselectAll();
+            updateArchiveList();
+
             BackgroundWorker redetect = new BackgroundWorker();
             redetect.DoWork += new DoWorkEventHandler(redetectGames);
             redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
@@ -58,7 +61,6 @@ namespace MASGAU.Main {
                 BackupSelectedGames.IsEnabled = false;
                 RestoreSelected.IsEnabled = false;
                 deleteGame.IsEnabled = false;
-                return;
             }
 
             Model<ArchiveID, Archive> archives = new Model<ArchiveID, Archive>();
@@ -75,13 +77,17 @@ namespace MASGAU.Main {
             }
 
             ArchiveList.DataContext = archives;
-            ArchiveList.ItemsSource = archives;
+            ArchiveList.Model = archives;
+
             if (archives.Count > 0) {
                 ArchiveGrid.Visibility = System.Windows.Visibility.Visible;
                 TranslationHelpers.translate(ArchiveCount, "NumberOfArchives", archives.Count.ToString(), gamesLst.SelectedItems.Count.ToString());
             } else {
                 ArchiveGrid.Visibility = System.Windows.Visibility.Collapsed;
             }
+
+            ListSplitter.Visibility = ArchiveGrid.Visibility;
+            updateRestoreButton();
         }
 
         private void gamesLst_SelectionChanged(object sender, SelectionChangedEventArgs e) {
@@ -97,13 +103,13 @@ namespace MASGAU.Main {
         }
         private void resizeGameColumns() {
             double monitor_width = monitorColumnLabel.ActualWidth;
-            gameMonitorColumn.Width = monitor_width;
-            double new_width = gamesLst.ActualWidth - gameNameColumn.Width - gameMonitorColumn.Width - gameLinkColumn.Width - 20;
-            if (new_width > 0) {
-                gameTitleColumn.Width = new_width;
-            } else {
-                gameTitleColumn.Width = 0;
-            }
+//            gameMonitorColumn.Width = monitor_width;
+  //          double new_width = gamesLst.ActualWidth - gameNameColumn.Width - gameMonitorColumn.Width - gameLinkColumn.Width - 20;
+    //        if (new_width > 0) {
+      //          gameTitleColumn.Width = new_width;
+        //    } else {
+          //      gameTitleColumn.Width = 0;
+           // }
 
         }
         #endregion
