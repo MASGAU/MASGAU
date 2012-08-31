@@ -27,7 +27,7 @@ namespace MASGAU.Game {
             return file.date;
         }
 
-        public List<string> EmbeddedFiles {
+        public static List<string> EmbeddedFiles {
             get {
                 List<string> return_me = new List<string>();
                 string[] names = Assembly.GetExecutingAssembly().GetManifestResourceNames();
@@ -42,8 +42,7 @@ namespace MASGAU.Game {
             }
         }
 
-
-        public List<string> ReadableXmlFiles {
+        public static List<string> ReadableXmlFiles {
             get {
                 List<string> return_me = new List<string>();
                 return_me.AddRange(EmbeddedFiles);

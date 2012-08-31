@@ -14,7 +14,7 @@ namespace MASGAU {
         /// </summary>
         [STAThread]
         static void Main() {
-         // d   try {
+            try {
 
                 Application app = new MASGAU.Application();
 
@@ -34,10 +34,10 @@ namespace MASGAU {
 
                 app.Run(win);
 
-//            } catch (Exception e) {
-  //              Logger.Logger.log(e);
-    //            System.Windows.MessageBox.Show("Error while trying to startup:\n"+ e.Message + @"Check the log in LocalAppData\MASGAU\logs\");
-      //      }
+            } catch (Exception e) {
+                Logger.Logger.log(e);
+                System.Windows.MessageBox.Show("Error while trying to startup:\n"+ e.Message + @"Check the log in LocalAppData\MASGAU\logs\");
+            }
         }
 
 

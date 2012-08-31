@@ -171,14 +171,16 @@ namespace MASGAU {
 
         private static void addGame(GameEntry game) {
             if (model.containsId(game.id)) {
-                    GameEntry current =  model.get(game.id);
+                GameEntry current =  model.get(game.id);
+                string file_used = null;
                 if (game.SourceFile == "new.xml") {
+                    file_used = game.SourceFile;
                     model.Remove(current);
-                } else if (current.SourceFile == "new.xml") {
-                    return;
                 } else {
-                    throw new Translator.TranslateableException("DuplicateGame", game.id.ToString(), game.SourceFile, model.get(game.id).SourceFile);
+                    file_used = current.SourceFile;
+                    game = null;
                 }
+                TranslatingMessageHandler.SendWarning("DuplicateGame", game.id.ToString(), game.SourceFile, current.SourceFile, file_used);
             }
             if (game.id.OS == "PS1") {
                 //                        GameVersion psp_game = 
@@ -186,7 +188,9 @@ namespace MASGAU {
                 //                      psp_game = new GameXML(new GameID(psp_game.id.name, "PSP", psp_game.id.region), psp_game.xml);
                 //                  createGameObject(psp_game);
             }
-            model.AddWithSort(game);
+
+            if(game!=null)
+                model.AddWithSort(game);
         }
 
         public static void loadXml() {
