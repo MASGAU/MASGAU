@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MASGAU</RootNamespace>
+    <AssemblyName>MASGAU.Common</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ReleaseVersion>0.10</ReleaseVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>masgau.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>masgau.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'GTK|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\GTK</OutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AMainProgramHandler.cs" />
+    <Compile Include="Analyzer\AAnalyzer.cs" />
+    <Compile Include="Analyzer\APCAnalyzer.cs" />
+    <None Include="Analyzer\PSAnalyzer.cs" />
+    <Compile Include="AppMode.cs" />
+    <Compile Include="AProgramHandler.cs" />
+    <Compile Include="Archive\Archive.cs" />
+    <Compile Include="Archive\ArchiveID.cs" />
+    <Compile Include="Archive\Archives.cs" />
+    <Compile Include="Archive\ArchiveType.cs" />
+    <Compile Include="BackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comparers\FileInfoComparer.cs" />
+    <Compile Include="Comparers\ReversableComparer.cs" />
+    <Compile Include="Enums\MASGAURequestTypes.cs" />
+    <Compile Include="Enums\Program.cs" />
+    <Compile Include="Game\Custom\CustomGame.cs" />
+    <Compile Include="Game\Custom\CustomGameEntry.cs" />
+    <Compile Include="Game\Custom\CustomGameVersion.cs" />
+    <Compile Include="Game\Custom\CustomGameXmlFile.cs" />
+    <Compile Include="Game\GameEntry.cs" />
+    <Compile Include="Game\GameXmlFiles.cs" />
+    <Compile Include="IWindow.cs" />
+    <Compile Include="Location\AScummVMLocationHandler.cs" />
+    <Compile Include="Location\DetectedLocations.cs" />
+    <Compile Include="Location\EvFolder.cs" />
+    <Compile Include="Monitor\Monitor.cs" />
+    <Compile Include="Monitor\MonitorFile.cs" />
+    <Compile Include="Monitor\MonitorPath.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Monitor\Origin.cs" />
+    <Compile Include="QuickHash.cs" />
+    <Compile Include="StartupHelper.cs" />
+    <Compile Include="SubmitHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Enums\Interface.cs" />
+    <Compile Include="Game\GameID.cs" />
+    <Compile Include="Location\AFlashLocationHandler.cs" />
+    <Compile Include="Location\ALocationHandler.cs" />
+    <Compile Include="Location\APlaystationLocationHandler.cs" />
+    <Compile Include="Location\ASteamLocationHandler.cs" />
+    <Compile Include="Location\ASystemLocationHandler.cs" />
+    <Compile Include="Location\Enums\PlatformVersion.cs" />
+    <Compile Include="Location\Enums\HandlerType.cs" />
+    <Compile Include="Location\Holders\AltPathHolder.cs" />
+    <Compile Include="Location\Holders\DetectedFile.cs" />
+    <Compile Include="Location\Holders\DetectedFiles.cs" />
+    <Compile Include="Location\Holders\DetectedLocationPathHolder.cs" />
+    <Compile Include="Location\Holders\ManualLocationPathHolder.cs" />
+    <Compile Include="Location\IDs\ALocationID.cs" />
+    <Compile Include="Location\ILocationsHandler.cs" />
+    <Compile Include="Location\UserData.cs" />
+    <Compile Include="OperatingSystem.cs" />
+    <Compile Include="PermissionsHelper.cs" />
+    <Compile Include="Registry\RegistryHandler.cs" />
+    <Compile Include="Registry\RegistryKeyValue.cs" />
+    <Compile Include="Restore\RestoreResult.cs" />
+    <Compile Include="Settings\VersioningUnit.cs" />
+    <Compile Include="Game\Games.cs" />
+    <Compile Include="Location\ALocationsHandler.cs" />
+    <Compile Include="Core.cs" />
+    <Compile Include="Restore\ARestoreProgramHandler.cs" />
+    <Compile Include="Settings\Settings.cs" />
+    <Compile Include="Backup\BackupProgramHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityHandler.cs" />
+    <Compile Include="structs.cs" />
+    <EmbeddedResource Include="data\GameSaveInfo20.xsd" />
+    <None Include="Task\DayOfWeek.cs" />
+    <None Include="Task\Frequency.cs" />
+    <None Include="Task\TaskHandler.cs" />
+    <Compile Include="Sync\SyncHandler.cs" />
+    <None Include="Sync\Synchronizer.cs" />
+    <Compile Include="IModelItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="masgau.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\!test.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="data\changelog.txt" />
+    <EmbeddedResource Include="data\deprecated.xml" />
+    <EmbeddedResource Include="data\system.xml" />
+    <None Include="data\new.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="data\a.xml" />
+    <EmbeddedResource Include="data\b.xml" />
+    <EmbeddedResource Include="data\c.xml" />
+    <EmbeddedResource Include="data\d.xml" />
+    <EmbeddedResource Include="data\e.xml" />
+    <EmbeddedResource Include="data\f.xml" />
+    <EmbeddedResource Include="data\g.xml" />
+    <EmbeddedResource Include="data\h.xml" />
+    <EmbeddedResource Include="data\i.xml" />
+    <EmbeddedResource Include="data\j.xml" />
+    <EmbeddedResource Include="data\k.xml" />
+    <EmbeddedResource Include="data\l.xml" />
+    <EmbeddedResource Include="data\m.xml" />
+    <EmbeddedResource Include="data\n.xml" />
+    <EmbeddedResource Include="data\numeric.xml" />
+    <EmbeddedResource Include="data\o.xml" />
+    <EmbeddedResource Include="data\p.xml" />
+    <EmbeddedResource Include="data\q.xml" />
+    <EmbeddedResource Include="data\r.xml" />
+    <EmbeddedResource Include="data\s.xml" />
+    <EmbeddedResource Include="data\t.xml" />
+    <EmbeddedResource Include="data\u.xml" />
+    <EmbeddedResource Include="data\v.xml" />
+    <EmbeddedResource Include="data\w.xml" />
+    <EmbeddedResource Include="data\x.xml" />
+    <EmbeddedResource Include="data\y.xml" />
+    <EmbeddedResource Include="data\z.xml" />
+    <Content Include="masgau.ico" />
+    <None Include="strings\en.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="strings\fr.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="strings\nb-NO.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="strings\olden.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="settings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="strings\TRANSLATOR README.txt" />
+    <Content Include="updates.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Libs\Collections\Collections.csproj">
+      <Project>{88E4E120-9C45-4EAC-887B-B77474B799B4}</Project>
+      <Name>Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Email\Email.csproj">
+      <Project>{4B1E68FF-639F-4C26-98FC-59409D584BE2}</Project>
+      <Name>Email</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Exceptions\Exceptions.csproj">
+      <Project>{22450FF6-F8AB-4D85-BBC4-F3EC3822D1C5}</Project>
+      <Name>Exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\GameSave.Info\GameSave.Info.csproj">
+      <Project>{937CDE2B-963A-4624-A460-C95676260D35}</Project>
+      <Name>GameSave.Info</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Logger\Logger.csproj">
+      <Project>{CD1B810F-38EC-41CE-974F-7B0EE5CD8B87}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC\MVC.csproj">
+      <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Updater\Updater.csproj">
+      <Project>{292010F1-B671-4E46-BB96-3F8574E3C7B2}</Project>
+      <Name>Updater</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\XmlData\XmlData.csproj">
+      <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
+      <Name>XmlData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC.Translator\MVC.Translator.csproj">
+      <Project>{A0502934-F0B8-40ED-9849-E4392CE37AF4}</Project>
+      <Name>MVC.Translator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

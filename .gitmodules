@@ -1,0 +1,51 @@
+[submodule "Libs/Collections"]
+	path = Libs/Collections
+	url = https://github.com/sanmadjack/Collections.CSharp.git
+[submodule "Libs/Config"]
+	path = Libs/Config
+	url = https://github.com/sanmadjack/Config.CSharp.git
+[submodule "Libs/Email"]
+	path = Libs/Email
+	url = https://github.com/sanmadjack/Email.CSharp
+[submodule "Libs/Exceptions"]
+	path = Libs/Exceptions
+	url = https://github.com/sanmadjack/Exceptions.CSharp.git
+[submodule "Libs/Logger"]
+	path = Libs/Logger
+	url = https://github.com/sanmadjack/Logger.CSharp.git
+[submodule "Libs/MVC"]
+	path = Libs/MVC
+	url = https://github.com/sanmadjack/MVC.CSharp.git
+[submodule "Libs/Translator"]
+	path = Libs/Translator
+	url = https://github.com/sanmadjack/Translator.CSharp.git
+[submodule "Libs/Email.WPF"]
+	path = Libs/Email.WPF
+	url = https://github.com/sanmadjack/Email.WPF.CSharp.git
+[submodule "Libs/Translator.WPF"]
+	path = Libs/Translator.WPF
+	url = https://github.com/sanmadjack/Translator.WPF.CSharp.git
+[submodule "Libs/MVC.Translator"]
+	path = Libs/MVC.Translator
+	url = https://github.com/sanmadjack/MVC.Translator.CSharp.git
+[submodule "Libs/MVC.WPF"]
+	path = Libs/MVC.WPF
+	url = https://github.com/sanmadjack/MVC.WPF.CSharp.git
+[submodule "Libs/WPF"]
+	path = Libs/WPF
+	url = https://github.com/sanmadjack/WPF.CSharp.git
+[submodule "Libs/GameSave.Info"]
+	path = Libs/GameSave.Info
+	url = https://github.com/GameSaveInfo/Lib.CSharp.git
+[submodule "Libs/XmlData"]
+	path = Libs/XmlData
+	url = https://github.com/sanmadjack/XmlData.CSharp.git
+[submodule "MASGAU.Common/Data"]
+	path = MASGAU.Common/Data
+	url = https://github.com/GameSaveInfo/Data.git
+[submodule "MASGAU.Common/Strings"]
+	path = MASGAU.Common/Strings
+	url = https://github.com/MASGAU/Strings.git
+[submodule "Libs/Updater"]
+	path = Libs/Updater
+	url = https://github.com/sanmadjack/Updater.CSharp.git

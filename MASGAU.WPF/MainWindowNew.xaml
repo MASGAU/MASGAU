@@ -1,0 +1,427 @@
+﻿<src:NewWindow x:Class="MASGAU.Main.MainWindowNew"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:r="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"
+        xmlns:rPre="clr-namespace:Microsoft.Windows.Controls.Ribbon.Primitives;assembly=RibbonControlsLibrary"
+        xmlns:w="clr-namespace:SMJ.WPF;assembly=WPF"
+        xmlns:src="clr-namespace:MASGAU"
+        Title="MASGAU" 
+        x:Name="Window"
+        Width="{Binding WindowW, Mode=TwoWay}" Height="{Binding WindowH, Mode=TwoWay}" Left="{Binding WindowX, Mode=TwoWay}" WindowStyle="None" Background="Transparent"  Top="{Binding WindowY, Mode=TwoWay}" MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="800" MinHeight="500" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="Visibility" Value="Collapsed" />
+        </Style>
+        <src:GameColor x:Key="ColorConverter"/>
+        <src:DisabledToColor x:Key="colorConverter"/>
+        <src:VisibilityConverter x:Key="visibleConverter"/>
+        <src:PathValueConverter x:Key="pathValueConverter"/>
+        <src:IntStringConverter x:Key="intStringConverter"/>
+        <ResourceDictionary x:Key="ick">
+            <Style TargetType="{x:Type rPre:RibbonTitlePanel}">
+                <Setter Property="Visibility" Value="Hidden"/>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+    <w:CustomWindowBorder x:Name="windowBorder" >
+        <w:CustomWindowBorder.BorderContent>
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ClipToBounds="True" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+                    <r:Ribbon Background="White" Margin="-1,-22,-1,0" Name="ribbon" WindowIconVisibility="Visible" HorizontalAlignment="Stretch" SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+                        <r:Ribbon.HelpPaneContent >
+                    <Grid Margin="0,1,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <r:RibbonButton Grid.Column="0" SmallImageSource="/WPF;Component/Images/16px/go-bottom.png" Name="minimizeButton" Click="minimizeButton_Click" ToolTip="Send To Task Bar" />
+                        <r:RibbonButton Grid.Column="1" SmallImageSource="/WPF;Component/Images/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="Toggle fullscreen" />
+                        <r:RibbonButton Grid.Column="2" SmallImageSource="/WPF;Component/Images/16px/window-close.png" Name="closeButton" Click="closeButton_Click" ToolTip="Exit MASGAU" Margin="0,0,3,0" />
+                    </Grid>
+                </r:Ribbon.HelpPaneContent>
+                <r:Ribbon.ApplicationMenu>
+                    <r:RibbonApplicationMenu KeyTip="M" Label="MASGAU" ToolTip="MASGAU"  Name="appMenu"
+                    LargeImageSource="/WPF;Component/Images/16px/view-refresh.png">
+                        <r:RibbonApplicationMenuItem Header="About" ImageSource="/WPF;Component/Images/help-browser.png" Name="AboutButton" Click="AboutButton_Click">
+                        </r:RibbonApplicationMenuItem>
+                        <r:RibbonApplicationMenuItem Header="Exit" ImageSource="/WPF;Component/Images/system-log-out.png" Name="ExitButton" Click="ExitButton_Click">
+                        </r:RibbonApplicationMenuItem>
+                    </r:RibbonApplicationMenu>
+                </r:Ribbon.ApplicationMenu>
+                        <r:RibbonTab x:Name="gamesTab" Background="Transparent"
+                              Header="$BackupRestore" GroupSizeReductionOrder="backupGroup,toolsGroup,restoreGroup" >
+                    <r:RibbonGroup x:Name="gamesGroup"  Header="$Games"
+                               SmallImageSource="/WPF;Component/Images/16px/view-refresh.png"
+                               LargeImageSource="/WPF;Component/Images/view-refresh.png">
+                        <r:RibbonButton Label="$RefreshGames" 
+                                    LargeImageSource="/WPF;Component/Images/view-refresh.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/view-refresh.png" 
+                                    Click="RibbonButton_Click" Name="refreshGames" />
+                        <r:RibbonButton Label="$AddGame" 
+                                    SmallImageSource="/WPF;Component/Images/16px/list-add.png" 
+                                    Click="addGame_Click"  Name="addGame" />
+                        <!--                    <r:RibbonButton Label="$EditGame" 
+                                    SmallImageSource="/WPF;Component/Images/16px/edit-find-replace.png" 
+                                     Name="editGame" IsEnabled="False" />-->
+                        <r:RibbonButton Label="$DeleteGame" 
+                                    SmallImageSource="/WPF;Component/Images/16px/edit-delete.png" 
+                                     Name="deleteGame" IsEnabled="False" Click="deleteGame_Click" />
+                        <r:RibbonButton Label="$SubmitGame" 
+                                    SmallImageSource="/WPF;Component/Images/16px/mail-forward.png" 
+                                     Name="submitGame" IsEnabled="False" Click="submitGame_Click" />
+                    </r:RibbonGroup>
+                    <r:RibbonGroup Header="$Backup" 
+                                    LargeImageSource="/WPF;Component/Images/document-save.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/document-save.png" Name="backupGroup">
+                        <r:RibbonButton Name="BackupAllGames" Label="$BackupAllGames" 
+                                    LargeImageSource="/WPF;Component/Images/document-save.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/document-save.png" 
+                                    Click="BackupAllGames_Click" />
+                        <r:RibbonButton Name="BackupSelectedGames" Label="$BackupGames"  IsEnabled="False"
+                                    SmallImageSource="/WPF;Component/Images/16px/document-save.png" Click="BackupSelectedGames_Click" />
+                        <r:RibbonButton Name="CustomBackup" Label="$CreateCustomBackup" IsEnabled="False"
+                                    SmallImageSource="/WPF;Component/Images/16px/document-save-as.png" Click="CustomBackup_Click" />
+
+                        <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/WPF;Component/Images/16px/folder.png">
+                            <r:RibbonMenuItem Name="ChangeBackupFolder" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
+                            <r:RibbonMenuItem Name="OpenBackupFolder" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
+                        </r:RibbonMenuButton>
+                    </r:RibbonGroup>
+                    <r:RibbonGroup Header="$Restore" 
+                                    LargeImageSource="/WPF;Component/Images/document-open.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/document-open.png" Name="restoreGroup">
+                        <r:RibbonButton Name="RestoreSelected" Label="$RestoreGames" IsEnabled="False"
+                                    LargeImageSource="/WPF;Component/Images/document-open.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/document-open.png" 
+                                    Click="RestoreSelected_Click"/>
+                        <r:RibbonButton Name="RestoreOther" Label="$RestoreOther" IsEnabled="true"
+                                    SmallImageSource="/WPF;Component/Images/16px/document-open.png" Click="RestoreOther_Click" />
+                    </r:RibbonGroup>
+                    <r:RibbonGroup
+                                    LargeImageSource="/WPF;Component/Images/preferences-system.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/preferences-system.png" Name="gameOtherGroup">
+                        <!--                
+                    
+                    <r:RibbonMenuButton  Label="$Purge" IsEnabled="False" Name="PurgeButton"
+                                     SmallImageSource="/WPF;Component/Images/16px/edit-delete.png"
+                                     LargeImageSource="/WPF;Component/Images/edit-delete.png">
+                        <r:RibbonMenuItem Header="$PurgeJustGame" Name="PurgeGameButton" Click="PurgeGameButton_Click"/>
+                        <r:RibbonMenuItem Header="$PurgeGameAndArchives" Name="PurgeGameArchivesButton" Click="PurgeGameArchivesButton_Click" />
+                    
+                    </r:RibbonMenuButton>
+                    -->
+                        <r:RibbonButton Name="PurgeButton" Label="$Purge" IsEnabled="False" 
+                                    LargeImageSource="/WPF;Component/Images/edit-delete.png"
+                                    Click="PurgeGameButton_Click" />
+                        <r:RibbonButton Name="UpdateButton" Label="$CheckForUpdates" IsEnabled="False" 
+                                    LargeImageSource="/WPF;Component/Images/system-software-update.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/system-software-update.png" 
+                                    Click="UpdateButton_Click" />
+                        <r:RibbonButton Label="Waiting For Updates" Name="UpdateAvailableButton" Visibility="Collapsed" 
+                                    LargeImageSource="/WPF;Component/Images/software-update-available.png" 
+                                    SmallImageSource="/WPF;Component/Images/16px/software-update-available.png" 
+                                    Click="UpdateAvailableButton_Click" />
+                                <r:RibbonButton Name="ReportButton" Label="$ReportProblem" IsEnabled="True" 
+                                    LargeImageSource="/WPF;Component/Images/mail-forward.png"
+                                    Click="ReportButton_Click" />
+                            </r:RibbonGroup>
+                </r:RibbonTab>
+                        <r:RibbonTab x:Name="SettingsTab" Header="$Settings"  Background="Transparent">
+                    <r:RibbonGroup Header="$Paths">
+                        <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/WPF;Component/Images/16px/folder.png">
+                            <r:RibbonMenuItem Name="ChangeBackupFolderTwo" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
+                            <r:RibbonMenuItem Name="OpenBackupFolderTwo" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
+                        </r:RibbonMenuButton>
+                        <r:RibbonMenuButton Label="$AltSavePath" Name="AltSaveButton" SmallImageSource="/WPF;Component/Images/16px/folder.png">
+                            <r:RibbonMenuItem Name="AddAltSaveFolder" Header="$AddAltSavePath" Click="AddAltSaveFolder_Click" />
+                        </r:RibbonMenuButton>
+                    </r:RibbonGroup>
+                    <r:RibbonGroup Header="$Versioning">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <r:RibbonToggleButton Grid.Row="0" Grid.ColumnSpan="2" Label="$VersioningEnable" IsChecked="{Binding VersioningEnabled, Mode=TwoWay}" Name="versioningButton" />
+                            <src:RibbonSpinner  Grid.Row="1" TextBoxWidth="30" Grid.Column="0" Label="$VersioningTiming" IsEnabled="{Binding VersioningEnabled}" x:Name="versioningTiming" Value="{Binding VersioningFrequency, Mode=TwoWay}" />
+                            <ComboBox IsEditable="False" Grid.Row="1" Grid.Column="1" IsEnabled="{Binding VersioningEnabled}" Name="versioningTimingUnit" SelectionChanged="versioningTimingUnit_SelectionChanged">
+
+                            </ComboBox>
+                            <src:RibbonSpinner  Grid.Row="2" TextBoxWidth="30" Grid.ColumnSpan="2" Label="$VersioningMaxCopies" HorizontalAlignment="Left" IsEnabled="{Binding VersioningEnabled}" x:Name="versioningMax" Value="{Binding VersioningMax, Mode=TwoWay}" />
+                        </Grid>
+                    </r:RibbonGroup>
+                    <r:RibbonGroup Header="$Other">
+                        <src:FixedRibbonTextBox Label="E-Mail" Text="{Binding email, Mode=TwoWay}" x:Name="emailText" TextBoxWidth="150"  />
+                        <r:RibbonCheckBox Label="$IgnoreDates" Name="ignoreDates" IsChecked="{Binding IgnoreDateCheck, Mode=TwoWay}" Height="20"  />
+                        <r:RibbonCheckBox Label="$AutoStart" Name="autoStart" IsChecked="{Binding IsEnabled, Mode=TwoWay}"/>
+                    </r:RibbonGroup>
+                </r:RibbonTab>
+            </r:Ribbon>
+
+
+            <Grid Name="GameGrid" Grid.Row="1" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="$Game" HorizontalAlignment="Center" />
+                        <Label  Name="monitorColumnLabel" Grid.Row="0" Grid.Column="1" Content="$Monitor" HorizontalAlignment="Center" />
+                <Label Grid.Row="0" Grid.Column="2" Content="$Link" HorizontalAlignment="Center" Visibility="Collapsed"/>
+                <ListView Background="Transparent" Margin="-1,0,-1,0" Grid.Row="1"  Grid.Column="0" Grid.ColumnSpan="4"  Name="gamesLst" ItemsSource="{Binding}" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" SizeChanged="gamesLst_SizeChanged" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding GamesDetected}">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Style.Triggers>
+                                <Trigger Property="IsSelected" Value="false">
+                                    <Setter Property="Background" Value="{Binding BackgroundColor, Converter={StaticResource ColorConverter}}" />
+                                </Trigger>
+                            </Style.Triggers>
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="Foreground" Value="{Binding IsDisabled, Converter={StaticResource colorConverter}}"/>
+                            <Setter Property="ToolTip" Value="{Binding ToolTip}"/>
+                            <Setter Property="IsSelected" Value="{Binding IsSelected}" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.View>
+                        <GridView AllowsColumnReorder="False" ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
+                            <GridViewColumn Width="0" x:Name="gameNameColumn">
+                                <GridViewColumnHeader IsEnabled="False" />
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Name}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="100" x:Name="gameTitleColumn">
+                                <GridViewColumnHeader Content="$Game"  IsEnabled="False" />
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Grid Margin="0,3,0,3">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Grid.Column="0" Text="{Binding Title}"/>
+                                            <TextBlock Text="{Binding TitleAddendum}" Grid.Column="1" HorizontalAlignment="Right" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                                    <GridViewColumn Width="50" x:Name="gameMonitorColumn">
+                                <GridViewColumnHeader Content="$Monitor"  IsEnabled="False" />
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding IsMonitored, Mode=TwoWay}" IsEnabled="{Binding CanBeMonitored}" ToolTip="{Binding MonitorToolTip}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="0" x:Name="gameLinkColumn">
+                                <GridViewColumnHeader Content="$Link"  IsEnabled="False" />
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding IsLinked, Mode=TwoWay}" IsEnabled="{Binding Linkable}" ToolTip="{Binding LinkToolTip}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                    <ListView.ItemTemplate>
+                        <DataTemplate >
+                            <TextBlock Text="{Binding Name}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Grid Name="ArchiveGrid" Grid.Row="0" Grid.Column="5" Grid.RowSpan="2" Visibility="Collapsed" Width="202" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Label Margin="0,3,0,0" Grid.Row="0" Grid.Column="0" Padding="5,0,5,5" HorizontalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Name="ArchiveCount" TextAlignment="Center">
+                        </TextBlock>
+                    </Label>
+
+                    <ListView Background="Transparent" Grid.Row="1" Grid.Column="0" Name="ArchiveList"  BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ArchiveList_SelectionChanged">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                <Setter Property="Foreground" Value="{Binding IsDisabled, Converter={StaticResource colorConverter}}"/>
+                                <Setter Property="ToolTip" Value="{Binding ToolTip}"/>
+                                <Setter Property="IsSelected" Value="{Binding IsSelected}" />
+                                <Setter Property="Background" Value="{Binding BackgroundColor, Converter={StaticResource ColorConverter}}" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.View>
+                            <GridView AllowsColumnReorder="False" ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
+                                <GridViewColumn Width="200">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Grid Margin="0,3,0,3">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+                                                <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Text="{Binding Title}" />
+                                                <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding LastModified}"/>
+                                                <TextBlock Text="{Binding Type}" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" TextAlignment="Left" />
+                                                <TextBlock Text="{Binding Owner}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" TextAlignment="Right" />
+                                            </Grid>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                        <ListView.ItemTemplate>
+                            <DataTemplate >
+                                <TextBlock Text="{Binding Title}"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+
+
+            </Grid>
+
+
+
+
+        </Grid>
+        </w:CustomWindowBorder.BorderContent>
+        <w:CustomWindowBorder.BottomGrid>
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                    <Button Margin="3" VerticalAlignment="Center" Visibility="{Binding SingleUserMode, Converter={StaticResource visibleConverter}}" Name="SingleUserModeButton" Click="SingleUserModeButton_Click" Width="Auto" Grid.Column="0">
+                    <Button.Content>
+                        <Image Source="/WPF;Component/Images/16px/system-user.png" Height="16" />
+                    </Button.Content>
+                </Button>
+                <Button VerticalAlignment="Center" Margin="3" Visibility="{Binding AllUsersMode, Converter={StaticResource visibleConverter}}" Name="AllUsersModeButton" Click="AllUsersModeButton_Click" Width="Auto" Grid.Column="0">
+                    <Button.Content>
+                        <Image Source="/WPF;Component/Images/16px/system-users.png" Height="16" />
+                    </Button.Content>
+                </Button>
+            
+
+                <Label Name="statusBarLabel" Grid.Column="1" Foreground="White" VerticalAlignment="Center" />
+                <Label Name="monitorStatusLabel" Content="{Binding Status}" Width="Auto" Grid.Column="3" Foreground="White" VerticalAlignment="Center"  />
+                <Button Margin="3" Name="OverrideSteamButton" Click="OverrideSteamButton_Click" Width="Auto" Height="Auto" Grid.Column="4" VerticalAlignment="Center">
+                    <Button.Content>
+                        <Image Name="SteamImage" Opacity="0.5" Source="/MASGAU;Component/Images/16px/steam.png" Height="16" />
+                    </Button.Content>
+                </Button>
+
+            </Grid>
+        </w:CustomWindowBorder.BottomGrid>
+    </w:CustomWindowBorder>
+        <Grid Name="AboutGrid"  Visibility="Collapsed" Opacity="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="8*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="5" Fill="White" Opacity="0.75" Grid.Row="0" RadiusX="3" RadiusY="3" />
+            <Image Source="/MASGAU.Common;Component/Images/flag.png" Grid.Row="1" Grid.Column="1" />
+            <Label Name="VersionLabel" Content="MASGAU Automatic Save Game Archive Utility v.9.9.9" Grid.Column="1" Grid.Row="2" FontSize="20" FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+            <TextBlock HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="5" FontSize="20" VerticalAlignment="Center">
+                <Hyperlink NavigateUri="http://masgau.org/" Name="masgauLink" RequestNavigate="gameSaveLink_RequestNavigate">
+                    http://masgau.org/
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="5" FontSize="20" FontWeight="Normal" VerticalAlignment="Center">
+                <Hyperlink NavigateUri="http://gamesave.info/" Name="gameSaveLink" RequestNavigate="gameSaveLink_RequestNavigate">
+                    http://gamesave.info/
+                </Hyperlink>
+            </TextBlock>
+            <w:SuperButton FontSize="18"  Grid.Column="1" Grid.Row="5" Name="AboutCloseButton" ImageSource="/WPF;Component/Images/face-monkey.png" Text="$AboutClose" Click="AboutCloseButton_Click"/>
+        </Grid>
+
+        <Grid Name="AddGameGrid"  Visibility="Collapsed" Opacity="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="25*" />
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="5" Fill="White" Opacity="0.9" Grid.Row="0" RadiusX="3" RadiusY="3" />
+            <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="$AddGameHeader" HorizontalAlignment="Center" FontSize="16" />
+
+            <w:GroupBoxInput Name="AddGameTitle" Header="$AddGameTitle" HasButton="False" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" TextChanged="addGameButtonCheck" />
+            <w:GroupBoxInput Name="AddGameLocation" Header="$AddGameLocation" HasButton="True" ButtonText="$Browse"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" IsReadOnly="True" ButtonClick="AddGameLocation_ButtonClick" TextChanged="addGameButtonCheck" ButtonImageSource="/WPF;Component/Images/16px/folder.png" ButtonImageMargin="0,0,3,0" />
+            <w:GroupBoxInput Name="AddGameSaves" Header="$AddGameSaves" HasButton="False" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck"  />
+            <w:GroupBoxInput Name="AddGameExclusions" Header="$AddGameExclusions" HasButton="False" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="5"  TextChanged="addGameButtonCheck" />
+
+            <w:HelpToolTip Name="helpone" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Left" />
+            <w:HelpToolTip Name="helptwo" Grid.Row="5" Grid.Column="4" HorizontalAlignment="Left" />
+
+            <w:SuperButton  Grid.Row="6" Grid.Column="1" Margin="5" FontSize="18" IsEnabled="False" ImageSource="/WPF;Component/Images/list-add.png" Text="$Add" Name="AddGameButton" Click="AddGameButton_Click" />
+            <w:SuperButton  Grid.Row="6" Grid.Column="2" Margin="5" FontSize="18" ImageSource="/WPF;Component/Images/process-stop.png" Text="$Cancel" Click="AddGameCancelButton_Click" />
+        </Grid>
+        <Grid  Name="DisablerGrid" Visibility="Visible">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Rectangle Grid.RowSpan="5" Fill="White" Opacity="0.5" Grid.Row="0" RadiusX="3" RadiusY="3" />
+            <w:SuperProgressBar Margin="25" Height="35" Name="progress" Grid.Row="1" IsTabStop="False" Value="50" />
+            <w:SuperButton  Name="CancelButton" Grid.Row="3" HorizontalAlignment="Center" Click="CancelButton_Click_1" Margin="5" FontSize="18" ImageHeight="32" IsEnabled="False" ImageSource="/WPF;Component/Images/process-stop.png" Text="$Stop"  />
+        </Grid>
+
+
+    </Grid>
+</src:NewWindow>
