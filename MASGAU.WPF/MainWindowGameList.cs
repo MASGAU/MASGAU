@@ -80,10 +80,16 @@ namespace MASGAU.Main {
             ArchiveList.Model = archives;
 
             if (archives.Count > 0) {
+                ArchiveColumn.MinWidth = 300;
+                ArchiveColumn.Width = new GridLength(2, GridUnitType.Star);
                 ArchiveGrid.Visibility = System.Windows.Visibility.Visible;
+                SelectGameLabel.Visibility = System.Windows.Visibility.Collapsed;
                 TranslationHelpers.translate(ArchiveCount, "NumberOfArchives", archives.Count.ToString(), gamesLst.SelectedItems.Count.ToString());
             } else {
+                ArchiveColumn.MinWidth = 0;
+                ArchiveColumn.Width = new GridLength(0, GridUnitType.Pixel);
                 ArchiveGrid.Visibility = System.Windows.Visibility.Collapsed;
+                SelectGameLabel.Visibility = System.Windows.Visibility.Visible;
             }
 
             ListSplitter.Visibility = ArchiveGrid.Visibility;
