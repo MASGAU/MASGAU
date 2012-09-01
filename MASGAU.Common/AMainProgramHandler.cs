@@ -27,7 +27,7 @@ namespace MASGAU.Main {
             if (!initialized)
                 return;
 
-            Games.loadXml();
+            //Games.loadXml();
 
             if (!Core.initialized) {
                 //this.Close();
