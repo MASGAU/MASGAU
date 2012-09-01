@@ -43,9 +43,9 @@
                                     <ColumnDefinition Width="Auto" />
                                     <ColumnDefinition Width="Auto" />
                                 </Grid.ColumnDefinitions>
-                                <r:RibbonButton Grid.Column="0" SmallImageSource="/WPF;Component/Images/16px/go-bottom.png" Name="minimizeButton" Click="minimizeButton_Click" ToolTip="Send To Task Bar" />
-                                <r:RibbonButton Grid.Column="1" SmallImageSource="/WPF;Component/Images/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="Toggle fullscreen" />
-                                <r:RibbonButton Grid.Column="2" SmallImageSource="/WPF;Component/Images/16px/window-close.png" Name="closeButton" Click="closeButton_Click" ToolTip="Exit MASGAU" Margin="0,0,3,0" />
+                                <r:RibbonButton Grid.Column="0" SmallImageSource="/WPF;Component/Images/16px/go-bottom.png" Name="minimizeButton" Click="minimizeButton_Click" ToolTip="$SendToTaskBar" />
+                                <r:RibbonButton Grid.Column="1" SmallImageSource="/WPF;Component/Images/16px/view-fullscreen.png" Name="maximizeButton" Click="maximizeButton_Click" ToolTip="$ToggleFullscreen" />
+                                <r:RibbonButton Grid.Column="2" SmallImageSource="/WPF;Component/Images/16px/window-close.png" Name="closeButton" Click="closeButton_Click" ToolTip="$CloseWindow" Margin="0,0,3,0" />
                             </Grid>
                         </r:Ribbon.HelpPaneContent>
                         <r:Ribbon.ApplicationMenu>
