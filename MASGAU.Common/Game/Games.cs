@@ -170,6 +170,7 @@ namespace MASGAU {
         }
 
         private static void addGame(GameEntry game) {
+            bool dont_add = false;
             if (model.containsId(game.id)) {
                 GameEntry current =  model.get(game.id);
                 string file_used = null;
@@ -178,7 +179,7 @@ namespace MASGAU {
                     model.Remove(current);
                 } else {
                     file_used = current.SourceFile;
-                    game = null;
+                    dont_add = true;
                 }
                 TranslatingMessageHandler.SendWarning("DuplicateGame", game.id.ToString(), game.SourceFile, current.SourceFile, file_used);
             }
@@ -189,7 +190,7 @@ namespace MASGAU {
                 //                  createGameObject(psp_game);
             }
 
-            if(game!=null)
+            if(!dont_add)
                 model.AddWithSort(game);
         }
 
