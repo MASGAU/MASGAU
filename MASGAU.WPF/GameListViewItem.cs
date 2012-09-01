@@ -36,20 +36,25 @@ namespace MASGAU {
             monitorCheck.VerticalAlignment = System.Windows.VerticalAlignment.Center;
             monitorCheck.HorizontalAlignment = System.Windows.HorizontalAlignment.Center;
 
+            gameVersion.HorizontalAlignment = System.Windows.HorizontalAlignment.Stretch;
+            gameVersion.HorizontalContentAlignment = System.Windows.HorizontalAlignment.Right;
 
+            gameVersion.Padding = new System.Windows.Thickness(0);
+            gameTitle.Padding = new System.Windows.Thickness(0);
 
-//            gameVersion.BorderBrush = new SolidColorBrush(Colors.Black);
-  //          gameVersion.BorderThickness = new System.Windows.Thickness(1);
 
             gameGrid.HorizontalAlignment = System.Windows.HorizontalAlignment.Stretch;
             gameGrid.Margin = new System.Windows.Thickness(0);
+
+            gameTitle.Margin = new System.Windows.Thickness(0);
+            gameVersion.Margin = new System.Windows.Thickness(0);
 
             ColumnDefinition col = new ColumnDefinition();
             col.Width = new System.Windows.GridLength(1, System.Windows.GridUnitType.Star);
             gameGrid.ColumnDefinitions.Add(col);
 
             col = new ColumnDefinition();
-            col.Width = new System.Windows.GridLength(1, System.Windows.GridUnitType.Auto);
+            col.Width = new System.Windows.GridLength(1, System.Windows.GridUnitType.Star);
             gameGrid.ColumnDefinitions.Add(col);
 
             monitorColumn.Width = new System.Windows.GridLength(50, System.Windows.GridUnitType.Pixel);
@@ -68,7 +73,6 @@ namespace MASGAU {
             Grid.SetColumn(monitorCheck, 2);
             Grid.SetRow(monitorCheck, 0);
 
-            gameVersion.HorizontalAlignment = System.Windows.HorizontalAlignment.Right;
 
             gameGrid.Children.Add(gameTitle);
             gameGrid.Children.Add(gameVersion);

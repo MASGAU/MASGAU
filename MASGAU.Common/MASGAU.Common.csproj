@@ -176,6 +176,9 @@
     <EmbeddedResource Include="data\x.xml" />
     <EmbeddedResource Include="data\y.xml" />
     <EmbeddedResource Include="data\z.xml" />
+    <None Include="..\Docs\changelog.txt">
+      <Link>changelog.txt</Link>
+    </None>
     <Content Include="masgau.ico" />
     <None Include="strings\en.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

@@ -11,16 +11,32 @@ namespace MASGAU {
 
 
         public ArchiveListViewItem() {
+
+
+
             monitorCheck.Visibility = System.Windows.Visibility.Collapsed;
             monitorColumn.Width = new System.Windows.GridLength(0);
 
             dateLabel.HorizontalAlignment = System.Windows.HorizontalAlignment.Stretch;
             dateLabel.HorizontalContentAlignment = System.Windows.HorizontalAlignment.Right;
 
-            Grid.SetColumn(typeLabel, 0);
-            Grid.SetRow(typeLabel, 1);
+            typeLabel.HorizontalAlignment = System.Windows.HorizontalAlignment.Stretch;
+            typeLabel.HorizontalContentAlignment = System.Windows.HorizontalAlignment.Right;
+
+
+            dateLabel.Padding = new System.Windows.Thickness(0);
+            typeLabel.Padding = new System.Windows.Thickness(0);
+
+            gameVersion.HorizontalContentAlignment = System.Windows.HorizontalAlignment.Left;
+
+            Grid.SetColumn(typeLabel, 1);
+            Grid.SetRow(typeLabel, 0);
             Grid.SetColumn(dateLabel, 1);
             Grid.SetRow(dateLabel, 1);
+
+            Grid.SetColumn(gameVersion, 0);
+            Grid.SetRow(gameVersion, 1);
+
             gameGrid.Children.Add(typeLabel);
             gameGrid.Children.Add(dateLabel);
 
