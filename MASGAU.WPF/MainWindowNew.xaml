@@ -177,9 +177,7 @@
                         <Grid Name="GameGrid" Grid.Row="0" Grid.Column="0" >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*" />
-                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
@@ -192,7 +190,7 @@
                             <Label  Name="monitorColumnLabel" Grid.Row="0" Grid.Column="1" Content="$Monitor" HorizontalAlignment="Center" />
                             <Label Grid.Row="0" Grid.Column="2" Content="$Link" HorizontalAlignment="Center" Visibility="Collapsed"/>
 
-                            <mvcw:ModelListView Background="Transparent" Grid.Row="1"  Grid.Column="0" Grid.ColumnSpan="4"  Name="gamesLst" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding GamesDetected}">
+                            <mvcw:ModelListView Background="Transparent" Grid.Row="1"  Grid.Column="0" Grid.ColumnSpan="4"  Name="gamesLst" SelectionChanged="gamesLst_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" DragOver="gamesLst_DragOver" TabIndex="3" IsEnabled="{Binding GamesDetected}" VerticalAlignment="Stretch">
                             </mvcw:ModelListView>
                         </Grid>
 
