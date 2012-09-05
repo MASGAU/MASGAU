@@ -96,7 +96,7 @@
                                     <r:RibbonMenuItem Name="OpenBackupFolder" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
                                 </r:RibbonMenuButton>
                             </r:RibbonGroup>
-                            <r:RibbonGroup Header="$Restore" 
+                            <r:RibbonGroup Header="$RestoreArchives" 
                                     LargeImageSource="/WPF;Component/Images/document-open.png" 
                                     SmallImageSource="/WPF;Component/Images/16px/document-open.png" Name="restoreGroup">
                                 <r:RibbonButton Name="RestoreSelected" Label="$RestoreGames" IsEnabled="False"
@@ -105,6 +105,8 @@
                                     Click="RestoreSelected_Click"/>
                                 <r:RibbonButton Name="RestoreOther" Label="$RestoreOther" IsEnabled="true"
                                     SmallImageSource="/WPF;Component/Images/16px/document-open.png" Click="RestoreOther_Click" />
+                                <r:RibbonButton Name="DeleteArchives" Label="$DeleteSelectedArchives" IsEnabled="false"
+                                    SmallImageSource="/WPF;Component/Images/16px/edit-delete.png" Click="DeleteArchives_Click" />
                             </r:RibbonGroup>
                             <r:RibbonGroup
                                     LargeImageSource="/WPF;Component/Images/preferences-system.png" 

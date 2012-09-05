@@ -95,6 +95,12 @@ namespace MASGAU {
             }
         }
 
+        public void Delete() {
+            if (this.Exists) {
+                this.ArchiveFile.Delete();
+                Archives.Remove(this);
+            }
+        }
 
         #region static stuff
         private static string ZipExecutableName {
