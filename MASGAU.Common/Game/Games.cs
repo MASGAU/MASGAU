@@ -168,6 +168,7 @@ namespace MASGAU {
             xml.custom.Save();
             _DetectedGames.Refresh();
         }
+        private static bool supress_duplicate_game_warnings = false;
 
         private static void addGame(GameEntry game) {
             bool dont_add = false;
@@ -180,8 +181,11 @@ namespace MASGAU {
                 } else {
                     file_used = current.SourceFile;
                     dont_add = true;
+                    if (!supress_duplicate_game_warnings) {
+                        supress_duplicate_game_warnings =
+                        TranslatingMessageHandler.SendWarning("DuplicateGame", true, game.id.ToString(), game.SourceFile, current.SourceFile, file_used) >= ResponseType.Suppressed;
+                    }
                 }
-                TranslatingMessageHandler.SendWarning("DuplicateGame", game.id.ToString(), game.SourceFile, current.SourceFile, file_used);
             }
             if (game.id.OS == "PS1") {
                 //                        GameVersion psp_game = 
@@ -196,7 +200,7 @@ namespace MASGAU {
 
         public static void loadXml() {
             TranslatingProgressHandler.setTranslatedMessage("LoadingGameXmls");
-
+            supress_duplicate_game_warnings = false;
             xml = new GameXmlFiles();
             model.Clear();
             if (xml.Entries.Count > 0) {

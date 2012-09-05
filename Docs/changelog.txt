@@ -2,8 +2,10 @@
 * Implemented custom List view to overcome the limitations of the stock one
 * Added interface text to explain the restore process
 * Changed the detect processs to, instead of throwing an exception, choosing  a game when duplicates are found, and notifying the user of that choice
+* Made the duplicate game dialog suppressable for the duration of a refresh
 * Made archive and game lists resizeable
 * Fixed window controls not being translateable
+* Added a delete archive(s) button
 
 =1.0 - Back to Alpha=
 * All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)
