@@ -46,6 +46,7 @@ namespace MASGAU.Game {
             get {
                 List<string> return_me = new List<string>();
                 return_me.AddRange(EmbeddedFiles);
+                return_me.Add("!test.xml");
                 return_me.Add("new.xml");
                 return_me.Add("custom.xml");
                 return_me.Sort();
