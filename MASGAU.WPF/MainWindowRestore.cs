@@ -17,6 +17,7 @@ namespace MASGAU.Main {
             this.disableInterface();
             notifier.OpenCloseEnabled = false;
             Restore.RestoreWindow.beginRestore(this, archives);
+            Core.monitor.start();
             notifier.OpenCloseEnabled = true;
             this.enableInterface();
         }

@@ -6,6 +6,8 @@
 * Made archive and game lists resizeable
 * Fixed window controls not being translateable
 * Added a delete archive(s) button
+* Fixed games dissapearing from the game list after a restore
+* Fixed the monitor not restarting after a restore
 
 =1.0 - Back to Alpha=
 * All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)
