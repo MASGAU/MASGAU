@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="Comparers\FileInfoComparer.cs" />
     <Compile Include="Comparers\ReversableComparer.cs" />
+    <Compile Include="ElevationResult.cs" />
     <Compile Include="Enums\MASGAURequestTypes.cs" />
     <Compile Include="Enums\Program.cs" />
     <Compile Include="Game\Custom\CustomGame.cs" />

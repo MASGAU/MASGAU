@@ -459,7 +459,11 @@ namespace MASGAU.Restore {
 
         void restore_worker_DoWork(object sender, DoWorkEventArgs e) {
             ProgressHandler.state = ProgressState.Normal;
-            archive.restore(new DirectoryInfo(restore_path), file_list);
+            Result = archive.restore(new DirectoryInfo(restore_path), file_list);
+            e.Result = Result;
         }
+
+        public RestoreResult Result;
+
     }
 }

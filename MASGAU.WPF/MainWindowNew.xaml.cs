@@ -224,7 +224,7 @@ namespace MASGAU.Main {
             }
 
             toggleVisibility();
-            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers", false))
+            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers", false)== ElevationResult.Success)
                 this.Close();
             else
             toggleVisibility();
@@ -238,7 +238,7 @@ namespace MASGAU.Main {
 
 
             toggleVisibility();
-            if (SecurityHandler.runExe(Core.ExecutableName, "", false, false))
+            if (SecurityHandler.runExe(Core.ExecutableName, "", false, false) == ElevationResult.Success)
                 this.Close();
             else
                 toggleVisibility();
