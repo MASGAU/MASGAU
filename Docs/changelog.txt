@@ -8,6 +8,8 @@
 * Added a delete archive(s) button
 * Fixed games dissapearing from the game list after a restore
 * Fixed the monitor not restarting after a restore
+* Fixed the extract process sometimes using the install folder as a temp folder
+* Fixed a problem with files not being detected when adding custom games
 
 =1.0 - Back to Alpha=
 * All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)
