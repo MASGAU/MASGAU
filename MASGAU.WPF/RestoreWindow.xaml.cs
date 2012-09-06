@@ -104,9 +104,18 @@ namespace MASGAU.Restore {
                 if (Restore.RestoreProgramHandler.overall_stop) {
                     break;
                 }
+
                 Restore.RestoreWindow restore = new Restore.RestoreWindow(archive, parent);
-                if (restore.ShowDialog() == true) {
-                    Core.redetect_games = true;
+                restore.ShowDialog();
+
+                switch(restore.Result) {
+                    case RestoreResult.Success:
+                        Core.redetect_games = true;
+                        break;
+                    case RestoreResult.Cancel:
+                    case RestoreResult.Failed:
+                    case RestoreResult.ElevationFailed:
+                        break;
                 }
             }
             Restore.RestoreProgramHandler.use_defaults = false;
@@ -278,6 +287,11 @@ namespace MASGAU.Restore {
             restore.restoreBackup((LocationPath)pathCombo.SelectedItem, (string)userCombo.SelectedItem, restoreComplete);
         }
 
+        public RestoreResult Result {
+            get {
+                return restore.Result;
+            }
+        }
 
         void restoreComplete(object sender, RunWorkerCompletedEventArgs e) {
             cancelButton.Text = Strings.GetLabelString("Close");
@@ -296,7 +310,7 @@ namespace MASGAU.Restore {
             }
 
             this.Visibility = System.Windows.Visibility.Collapsed;
-            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"", true))
+            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"", true)== ElevationResult.Success)
                 this.Close();
             else
                 this.Visibility = System.Windows.Visibility.Visible;

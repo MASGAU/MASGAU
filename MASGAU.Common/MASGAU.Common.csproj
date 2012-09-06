@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="Comparers\FileInfoComparer.cs" />
     <Compile Include="Comparers\ReversableComparer.cs" />
+    <Compile Include="ElevationResult.cs" />
     <Compile Include="Enums\MASGAURequestTypes.cs" />
     <Compile Include="Enums\Program.cs" />
     <Compile Include="Game\Custom\CustomGame.cs" />
@@ -131,7 +132,6 @@
     <None Include="Task\TaskHandler.cs" />
     <Compile Include="Sync\SyncHandler.cs" />
     <None Include="Sync\Synchronizer.cs" />
-    <Compile Include="IModelItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="masgau.snk" />
@@ -177,6 +177,9 @@
     <EmbeddedResource Include="data\x.xml" />
     <EmbeddedResource Include="data\y.xml" />
     <EmbeddedResource Include="data\z.xml" />
+    <None Include="..\Docs\changelog.txt">
+      <Link>changelog.txt</Link>
+    </None>
     <Content Include="masgau.ico" />
     <None Include="strings\en.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

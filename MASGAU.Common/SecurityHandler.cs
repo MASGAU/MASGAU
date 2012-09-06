@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 //using System.Windows.Forms;
 using System.Security.Principal;
 using System.Text;
+using System.ComponentModel;
 using MVC.Translator;
 using MVC.Communication;
 using MASGAU;
@@ -26,7 +27,7 @@ public class SecurityHandler {
     //    SendMessage(button.Handle, BCM_SETSHIELD, 0, 0xFFFFFFFF);
     //}
 
-    public static bool elevation(string app_name, string new_args, bool wait_for_exit) {
+    public static ElevationResult elevation(string app_name, string new_args, bool wait_for_exit) {
         StringBuilder arg_string = new StringBuilder();
         if (new_args != null)
             arg_string.Append(new_args);
@@ -53,7 +54,7 @@ public class SecurityHandler {
 
     }
 
-    public static bool runExe(string app_name, string arg_string, bool super, bool wait_for_exit) {
+    public static ElevationResult runExe(string app_name, string arg_string, bool super, bool wait_for_exit) {
 
         ProcessStartInfo superMode = new ProcessStartInfo();
         superMode.UseShellExecute = true;
@@ -74,12 +75,19 @@ public class SecurityHandler {
             if (wait_for_exit) {
                 p.WaitForExit();
                 if (p.ExitCode != 0) {
-                    return false;
+                    return ElevationResult.Failed;
                 }
             }
-        } catch (Exception) {
-            return false;
+        } catch (Win32Exception e) {
+            switch (e.NativeErrorCode) {
+                case 1223:
+                    return ElevationResult.Cancelled;
+                default:
+                    return ElevationResult.Failed;
+            }
+        } catch (Exception e) {
+            return ElevationResult.Failed;
         }
-        return true;
+        return ElevationResult.Success;
     }
 }

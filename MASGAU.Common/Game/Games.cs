@@ -94,6 +94,35 @@ namespace MASGAU {
             }
         }
 
+        public static bool OnlyCustomGamesSelected {
+            get {
+                lock (model) {
+                    foreach(GameEntry game in model.Items) {
+                        if(game.IsSelected) {
+                            if (game is CustomGameEntry)
+                                continue;
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }
+        }
+
+        public static List<Archive> SelectedGamesArchives {
+            get {
+                List<Archive> archives = new List<Archive>();
+                lock (DetectedGames) {
+                    foreach (GameEntry game in DetectedGames.Items) {
+                        if (game.IsSelected) {
+                            archives.AddRange(game.Archives);
+                        }
+                    }
+                }
+                return archives;
+            }
+        }
+
         static Games() {
             model.PropertyChanged += new PropertyChangedEventHandler(GamesHandler_PropertyChanged);
             model.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(GamesHandler_CollectionChanged);
@@ -139,16 +168,23 @@ namespace MASGAU {
             xml.custom.Save();
             _DetectedGames.Refresh();
         }
+        private static bool supress_duplicate_game_warnings = false;
 
         private static void addGame(GameEntry game) {
+            bool dont_add = false;
             if (model.containsId(game.id)) {
-                    GameEntry current =  model.get(game.id);
+                GameEntry current =  model.get(game.id);
+                string file_used = null;
                 if (game.SourceFile == "new.xml") {
+                    file_used = game.SourceFile;
                     model.Remove(current);
-                } else if (current.SourceFile == "new.xml") {
-                    return;
                 } else {
-                    throw new Translator.TranslateableException("DuplicateGame", game.id.ToString(), game.SourceFile, model.get(game.id).SourceFile);
+                    file_used = current.SourceFile;
+                    dont_add = true;
+                    if (!supress_duplicate_game_warnings) {
+                        supress_duplicate_game_warnings =
+                        TranslatingMessageHandler.SendWarning("DuplicateGame", true, game.id.ToString(), game.SourceFile, current.SourceFile, file_used) >= ResponseType.Suppressed;
+                    }
                 }
             }
             if (game.id.OS == "PS1") {
@@ -157,12 +193,14 @@ namespace MASGAU {
                 //                      psp_game = new GameXML(new GameID(psp_game.id.name, "PSP", psp_game.id.region), psp_game.xml);
                 //                  createGameObject(psp_game);
             }
-            model.AddWithSort(game);
+
+            if(!dont_add)
+                model.AddWithSort(game);
         }
 
         public static void loadXml() {
             TranslatingProgressHandler.setTranslatedMessage("LoadingGameXmls");
-
+            supress_duplicate_game_warnings = false;
             xml = new GameXmlFiles();
             model.Clear();
             if (xml.Entries.Count > 0) {
@@ -217,7 +255,9 @@ namespace MASGAU {
             Core.monitor.stop();
 
 //            if (model.Count == 0) {
+            if ((these_games!=null && these_games.Count == 0 )|| model.Count == 0) {
                 loadXml();
+            }
   //          }
 
             int game_count;

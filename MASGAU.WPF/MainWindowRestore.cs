@@ -8,6 +8,7 @@ using Translator;
 using Translator.WPF;
 using System.IO;
 using MVC.Communication;
+using MVC.Translator;
 using MASGAU.WPF;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
@@ -16,6 +17,7 @@ namespace MASGAU.Main {
             this.disableInterface();
             notifier.OpenCloseEnabled = false;
             Restore.RestoreWindow.beginRestore(this, archives);
+            Core.monitor.start();
             notifier.OpenCloseEnabled = true;
             this.enableInterface();
         }
@@ -32,13 +34,19 @@ namespace MASGAU.Main {
             }
         }
 
-        private void ArchiveList_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) {
+        protected void updateRestoreButton() {
             int selected_count = ArchiveList.SelectedItems.Count;
-
+            
             TranslationHelpers.translate(RestoreSelected, "RestoreGames", selected_count.ToString());
+            TranslationHelpers.translate(DeleteArchives, "DeleteSelectedArchives", selected_count.ToString());
 
             RestoreSelected.IsEnabled = selected_count > 0;
+            DeleteArchives.IsEnabled = selected_count > 0;
 
+        }
+        
+        private void ArchiveList_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) {
+            updateRestoreButton();
         }
 
         void MainWindowNew_Drop(object sender, System.Windows.DragEventArgs e) {
@@ -85,6 +93,23 @@ namespace MASGAU.Main {
                     }
                     beginRestore(archives);
                 }
+            }
+        }
+
+
+        private void DeleteArchives_Click(object sender, RoutedEventArgs e) {
+            int selected_count = ArchiveList.SelectedItems.Count;
+            if (selected_count > 0) {
+                List<Archive> archives = new List<Archive>();
+                foreach (Archive archive in ArchiveList.SelectedItems) {
+                    archives.Add(archive);
+                }
+                foreach (Archive archive in archives) {
+                    if (!TranslatingRequestHandler.Request(RequestType.Question, "DeleteArchiveConfirm", archive.ArchiveFile.Name).Cancelled) {
+                        archive.Delete();
+                    }
+                }
+                updateArchiveList();
             }
         }
 

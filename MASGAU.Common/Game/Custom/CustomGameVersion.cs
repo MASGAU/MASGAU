@@ -37,9 +37,21 @@ namespace MASGAU {
 
             FileType type = this.addFileType("Custom");
 
-            Include save = type.addSave(saves, null);
+            string path, file;
+            Include save;
+
+            if (saves != null && ignores != "") {
+                path = Path.GetDirectoryName(saves);
+                file = Path.GetFileName(saves);
+                save = type.addSave(path, file);
+            } else {
+                save = type.addSave(null, null);
+            }
+
             if (ignores != null && ignores != "") {
-                Exclude except = save.addExclusion(ignores, null);
+                path = Path.GetDirectoryName(ignores);
+                file = Path.GetFileName(ignores);
+                Exclude except = save.addExclusion(path, file);
             }
 
             if (Core.settings.EmailSender != null)

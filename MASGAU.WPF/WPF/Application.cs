@@ -7,7 +7,9 @@ namespace MASGAU {
         bool all_users_mode = false;
         public Application() {
             Logger.Logger.AppName = "MASGAU";
+
             this.DispatcherUnhandledException += new System.Windows.Threading.DispatcherUnhandledExceptionEventHandler(Application_DispatcherUnhandledException);
+
             for (int i = 0; i < args.Length; i++) {
                 if (args[i] == "-allusers") {
                     all_users_mode = true;
@@ -33,7 +35,8 @@ namespace MASGAU {
         void Application_DispatcherUnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e) {
             Logger.Logger.log("Error on program startup");
             Logger.Logger.log(e.Exception);
-            MessageBox.Show(e.Exception.StackTrace);
+            MVC.Communication.MessageHandler.SendException(e.Exception);
+            e.Handled = true;
         }
 
         protected override void OnStartup(StartupEventArgs e) {

@@ -91,6 +91,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ArchiveListViewItem.cs" />
+    <Compile Include="GameListViewItem.cs" />
     <Compile Include="ReportProblemWindow.xaml.cs">
       <DependentUpon>ReportProblemWindow.xaml</DependentUpon>
     </Compile>

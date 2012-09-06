@@ -1,3 +1,16 @@
+=1.0.1=
+* Implemented custom List view to overcome the limitations of the stock one
+* Added interface text to explain the restore process
+* Changed the detect processs to, instead of throwing an exception, choosing  a game when duplicates are found, and notifying the user of that choice
+* Made the duplicate game dialog suppressable for the duration of a refresh
+* Made archive and game lists resizeable
+* Fixed window controls not being translateable
+* Added a delete archive(s) button
+* Fixed games dissapearing from the game list after a restore
+* Fixed the monitor not restarting after a restore
+* Fixed the extract process sometimes using the install folder as a temp folder
+* Fixed a problem with files not being detected when adding custom games
+
 =1.0 - Back to Alpha=
 * All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)
 * Changed XML format to conform with the GameSave.Info 2.0 spec, but here are dome format change highlights:
@@ -8,7 +21,6 @@
 * Added new android platform for saves that are detected on attached android devices
 * Added new linkable tag to denote what folders are and aren't linkable
 * Added new EV: CommonApplicationData
-
 * Changed backup behavior so that files from different roots go in different archives. These seperate archives are identified by a hash of the original file's root path.
 * Changed game data files to be in Common app data folder, so that you don't have to be admin to update/add games
 * Added the ability to add a manual custom game

@@ -50,6 +50,7 @@ namespace MASGAU.Backup {
 
         string output_path;
         void BackupProgramHandler_DoWork(object sender, DoWorkEventArgs e) {
+
             if (Core.settings.IsBackupPathSet || archive_name_override != null) {
                 if (archive_name_override != null)
                     output_path = Path.GetDirectoryName(archive_name_override);

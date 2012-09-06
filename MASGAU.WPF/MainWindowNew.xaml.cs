@@ -25,6 +25,10 @@ namespace MASGAU.Main {
 
         public MainWindowNew() {
             InitializeComponent();
+            gamesLst.TemplateItem = new GameListViewItem();
+            ArchiveList.TemplateItem = new ArchiveListViewItem();
+
+
             notifier = new NotifierIcon(this);
             this.AllowDrop = true;
             this.Drop += new System.Windows.DragEventHandler(MainWindowNew_Drop);
@@ -89,7 +93,7 @@ namespace MASGAU.Main {
             this.Title = masgau.program_title;
             disableInterface();
             gamesLst.DataContext = Games.DetectedGames;
-            gamesLst.ItemsSource = Games.DetectedGames;
+            gamesLst.Model = Games.DetectedGames;
 
             AllUsersModeButton.DataContext = masgau;
 
@@ -220,7 +224,7 @@ namespace MASGAU.Main {
             }
 
             toggleVisibility();
-            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers", false))
+            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers", false)== ElevationResult.Success)
                 this.Close();
             else
             toggleVisibility();
@@ -234,7 +238,7 @@ namespace MASGAU.Main {
 
 
             toggleVisibility();
-            if (SecurityHandler.runExe(Core.ExecutableName, "", false, false))
+            if (SecurityHandler.runExe(Core.ExecutableName, "", false, false) == ElevationResult.Success)
                 this.Close();
             else
                 toggleVisibility();
