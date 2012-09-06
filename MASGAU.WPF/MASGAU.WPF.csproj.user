@@ -14,7 +14,6 @@
     <StartArguments>-allusers</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <StartArguments>
-    </StartArguments>
+    <StartArguments>"C:\Documents and Settings\support1\Desktop\Test\0WindowsTest«03localappdata«Windows«support1«Test«267F604E.gb7"</StartArguments>
   </PropertyGroup>
 </Project>
