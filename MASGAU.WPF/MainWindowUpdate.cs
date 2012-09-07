@@ -2,9 +2,9 @@
 using System.ComponentModel;
 using System.Windows;
 using MVC.Communication;
-using Updater;
 using Translator;
 using Translator.WPF;
+using Updater;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
 

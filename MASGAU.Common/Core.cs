@@ -1,27 +1,20 @@
 ﻿using System;
+using System.ComponentModel;
 using System.IO;
 using System.Reflection;
-using System.Xml;
-using System.Xml.Schema;
 using System.Threading;
 using MASGAU.Location;
-using MASGAU.Monitor;
-//using MASGAU.Task;
-using Updater;
-using Translator;
 using MVC;
-using System.ComponentModel;
-namespace MASGAU
-{
+using Translator;
+namespace MASGAU {
     // This basically sets up all the static classes that are used all over MASGAU
     // I'd like to consolidate as much function into this class as possible,
     // but I don't want it to unnecessarily become a convoluted highway of 
     // method forwarding.
 
-    public abstract class Core : ANotifyingObject
-    {
+    public abstract class Core : ANotifyingObject {
         public static AppMode AppMode {
-            get  {
+            get {
                 string[] args = Environment.GetCommandLineArgs();
                 if (args.Length > 0) {
                     foreach (string arg in args) {
@@ -62,7 +55,7 @@ namespace MASGAU
         }
 
         // This stores whether we're using wpf or gtk
-//        public static Interface interface_library = Interface.WPF;
+        //        public static Interface interface_library = Interface.WPF;
 
         // This stores what OS we're on
         //private static OperatingSystem os = OperatingSystem.Windows;
@@ -81,10 +74,8 @@ namespace MASGAU
             get {
                 // Checks if the command line indicates we should be running in all users mode
                 string[] args = Environment.GetCommandLineArgs();
-                for (int i = 0; i < args.Length; i++)
-                {
-                    switch (args[i])
-                    {
+                for (int i = 0; i < args.Length; i++) {
+                    switch (args[i]) {
                         case "-allusers":
                             return true;
                     }
@@ -150,7 +141,7 @@ namespace MASGAU
         }
 
         private const string CommunicationMutexName = "MASGAUCommunicate";
-        private static Mutex CommunicationMutex;
+        //        private static Mutex CommunicationMutex;
         private static FileSystemWatcher CommunicationWatcher;
 
         private const string CommunicationFile = "comunicate.txt";
@@ -166,7 +157,7 @@ namespace MASGAU
                     mutex.WaitOne(10000);
                     CommunicationWatcher.EnableRaisingEvents = false;
                     File.Delete(CommunicationFileFull);
-                } catch (Exception ex) {
+                } catch (Exception) {
                     //handle exception
                 } finally {
                     mutex.ReleaseMutex();
@@ -206,15 +197,14 @@ namespace MASGAU
             }
         }
         public static bool Ready { get; protected set; }
-        static Core()
-        {
+        static Core() {
             Ready = false;
             mutex = new System.Threading.Mutex(false, "MASGAU");
             settings = new Settings.Settings();
 
             try {
                 if (!mutex.WaitOne(1000)) {
-//                    MVC.Translator.TranslatingMessageHandler.SendError("NoMultipleInstances");
+                    //                    MVC.Translator.TranslatingMessageHandler.SendError("NoMultipleInstances");
                     MutexAlreadyTaken = true;
                     switch (AppMode) {
                         case MASGAU.AppMode.Restore:
@@ -228,9 +218,9 @@ namespace MASGAU
                             throw new NotImplementedException(AppMode.ToString());
                     }
                 }
-            } catch (AbandonedMutexException ex) {
+            } catch (AbandonedMutexException) {
                 Console.Out.Write("Boo-hoo, I'm an abandoned mutex. Suck it up.");
-            } catch (Exception e) {
+            } catch (Exception) {
                 throw new TranslateableException("NoMultipleInstances");
 
             }
@@ -255,22 +245,16 @@ namespace MASGAU
 
         }
 
-        protected Core()
-        {
+        protected Core() {
         }
 
-        public static string makeNumbersOnly(string remove)
-        {
+        public static string makeNumbersOnly(string remove) {
             if (remove.Length > 18)
                 remove = remove.Substring(0, 18);
-            for (int i = 0; i < remove.Length; i++)
-            {
-                try
-                {
+            for (int i = 0; i < remove.Length; i++) {
+                try {
                     Int64.Parse(remove.Substring(i, 1));
-                }
-                catch
-                {
+                } catch {
                     remove = remove.Remove(i, 1);
                     i--;
                 }
@@ -278,16 +262,13 @@ namespace MASGAU
             return remove;
         }
         #region Opening Paths
-        public static void openPath(string path)
-        {
+        public static void openPath(string path) {
             System.Diagnostics.Process.Start(path);
         }
-        public static void openBackupPath()
-        {
+        public static void openBackupPath() {
             openPath(Core.settings.backup_path);
         }
-        public static void openSteamPath()
-        {
+        public static void openSteamPath() {
             openPath(Core.settings.steam_path);
         }
         //public static void openSyncPath() {

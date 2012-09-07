@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using MVC.Communication;
 using Translator;
-using MVC;
-using MVC.Communication;
 
 namespace MASGAU {
-    public interface IWindow: ITranslateableWindow, ICommunicationReceiver  {
+    public interface IWindow : ITranslateableWindow, ICommunicationReceiver {
 
 
     }

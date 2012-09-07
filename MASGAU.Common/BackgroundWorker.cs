@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
-using MVC.Translator;
 using MVC;
+using MVC.Translator;
 namespace MASGAU {
     public class BackgroundWorker : System.ComponentModel.BackgroundWorker, INotifyPropertyChanged, ICancellable {
 
@@ -26,7 +26,7 @@ namespace MASGAU {
 
 
         public void Cancel() {
-                this.CancelAsync();
+            this.CancelAsync();
         }
 
 

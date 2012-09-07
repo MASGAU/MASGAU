@@ -1,10 +1,8 @@
 ﻿using System.ComponentModel;
 using System.Windows;
-using System.Collections;
-using System.Collections.Generic;
 using System.Windows.Controls;
-using MVC.Communication;
 using MVC;
+using MVC.Communication;
 using Translator.WPF;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
@@ -68,7 +66,7 @@ namespace MASGAU.Main {
             archives.AddRange(Games.SelectedGamesArchives);
 
             if (ArchiveList.DataContext != null) {
-                    lock (ArchiveList.DataContext) {
+                lock (ArchiveList.DataContext) {
                     foreach (Archive archive in (Model<ArchiveID, Archive>)ArchiveList.DataContext) {
                         if (!archives.containsId(archive.id))
                             archive.IsSelected = false;
@@ -109,13 +107,13 @@ namespace MASGAU.Main {
         }
         private void resizeGameColumns() {
             double monitor_width = monitorColumnLabel.ActualWidth;
-//            gameMonitorColumn.Width = monitor_width;
-  //          double new_width = gamesLst.ActualWidth - gameNameColumn.Width - gameMonitorColumn.Width - gameLinkColumn.Width - 20;
-    //        if (new_width > 0) {
-      //          gameTitleColumn.Width = new_width;
-        //    } else {
-          //      gameTitleColumn.Width = 0;
-           // }
+            //            gameMonitorColumn.Width = monitor_width;
+            //          double new_width = gamesLst.ActualWidth - gameNameColumn.Width - gameMonitorColumn.Width - gameLinkColumn.Width - 20;
+            //        if (new_width > 0) {
+            //          gameTitleColumn.Width = new_width;
+            //    } else {
+            //      gameTitleColumn.Width = 0;
+            // }
 
         }
         #endregion

@@ -131,7 +131,6 @@
     <None Include="Task\Frequency.cs" />
     <None Include="Task\TaskHandler.cs" />
     <Compile Include="Sync\SyncHandler.cs" />
-    <None Include="Sync\Synchronizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="masgau.snk" />
@@ -155,7 +154,9 @@
     <EmbeddedResource Include="data\c.xml" />
     <EmbeddedResource Include="data\d.xml" />
     <EmbeddedResource Include="data\e.xml" />
-    <EmbeddedResource Include="data\f.xml" />
+    <EmbeddedResource Include="data\f.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\g.xml" />
     <EmbeddedResource Include="data\h.xml" />
     <EmbeddedResource Include="data\i.xml" />

@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
+using GameSaveInfo;
+using MASGAU.Location;
+using MASGAU.Location.Holders;
 using MVC;
 using MVC.Communication;
 using MVC.Translator;
-using MASGAU.Location;
-using MASGAU.Location.Holders;
 using Translator;
-using GameSaveInfo;
 namespace MASGAU.Restore {
     public class RestoreProgramHandler : AProgramHandler {
         public bool GameNotDetected {
@@ -30,8 +29,8 @@ namespace MASGAU.Restore {
         }
 
         public SimpleModel<LocationPath> path_candidates;
-        
-        
+
+
         public SimpleModel<string> user_candidates;
         public Archive archive;
 
@@ -52,7 +51,7 @@ namespace MASGAU.Restore {
             // Checks if the provided path is the original archive path
             if (location is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
-                if (archive.id.OriginalLocation!=null&&archive.id.OriginalLocation.ToLower() == loc.full_dir_path.ToLower()) {
+                if (archive.id.OriginalLocation != null && archive.id.OriginalLocation.ToLower() == loc.full_dir_path.ToLower()) {
                     loc.MatchesOriginalPath = true;
                 }
             }
@@ -90,7 +89,7 @@ namespace MASGAU.Restore {
                             // If the paths don't match, then we compare Ev-relative paths
                             if (path.FullRelativeDirPath.ToLower() == loc.FullRelativeDirPath.ToLower()) {
                                 //if they're the same, then we compare for matching
-                                if(loc.MatchesOriginalPath) {
+                                if (loc.MatchesOriginalPath) {
                                     path_candidates.RemoveAt(i);
                                     path_candidates.AddWithSort(loc);
                                 }
@@ -99,7 +98,7 @@ namespace MASGAU.Restore {
                         }
                     } else {
                         // If the existing path is an theoretical path path
-                        LocationPath path = path_candidates[i] ;
+                        LocationPath path = path_candidates[i];
                         if (loc.FullRelativeDirPath.ToLower() == path.FullRelativeDirPath.ToLower()) {
                             // If both paths are based on the same EV/path combo
                             // Then the real path supercedes the fake path
@@ -110,12 +109,12 @@ namespace MASGAU.Restore {
                             // Otherwise we don't do anything
                         }
                     }
-                }                
+                }
             } else {
-                switch(location.EV) {
+                switch (location.EV) {
                     case EnvironmentVariable.Drive:
                     case EnvironmentVariable.ProgramFiles:
-                    case EnvironmentVariable.ProgramFilesX86:                       
+                    case EnvironmentVariable.ProgramFilesX86:
                         return;
                 }
                 // If the new path is only a theoretical path
@@ -179,10 +178,10 @@ namespace MASGAU.Restore {
         private static Queue<string> _argchives;
         public static Queue<string> ArgArchives {
             get {
-                if(_argchives!=null)
+                if (_argchives != null)
                     return _argchives;
 
-               _argchives = new Queue<string>();
+                _argchives = new Queue<string>();
                 string[] args = Environment.GetCommandLineArgs();
                 if (args.Length > 0) {
                     foreach (string arg in args) {
@@ -242,7 +241,7 @@ namespace MASGAU.Restore {
                     if (game_data.DetectionRequired)
                         break;
 
-                        filterPathCandidates(location);
+                    filterPathCandidates(location);
                 }
 
 
@@ -276,10 +275,10 @@ namespace MASGAU.Restore {
                 //}
             }
 
-            if(archive.id.OriginalEV != EnvironmentVariable.None &&
-                archive.id.OriginalRelativePath!=null) {
-                    LocationPath path = new LocationPath(archive.id.OriginalEV, archive.id.OriginalRelativePath);
-                    filterPathCandidates(path);
+            if (archive.id.OriginalEV != EnvironmentVariable.None &&
+                archive.id.OriginalRelativePath != null) {
+                LocationPath path = new LocationPath(archive.id.OriginalEV, archive.id.OriginalRelativePath);
+                filterPathCandidates(path);
             }
 
             if (archive.id.OriginalLocation != null) {
@@ -357,8 +356,8 @@ namespace MASGAU.Restore {
                 foreach (LocationPath path in path_candidates) {
                     if (path.GetType() == typeof(DetectedLocationPathHolder)) {
                         DetectedLocationPathHolder det_path = path as DetectedLocationPathHolder;
-                        if(candidate == null || (det_path.MatchesOriginalPath && det_path.Exists)) {
-                            if (det_path.MatchesOriginalPath&&det_path.Exists) {
+                        if (candidate == null || (det_path.MatchesOriginalPath && det_path.Exists)) {
+                            if (det_path.MatchesOriginalPath && det_path.Exists) {
                                 return det_path;
                             }
                             candidate = det_path;
@@ -416,7 +415,7 @@ namespace MASGAU.Restore {
             this.CancelAsync();
             if (restore_worker != null)
                 restore_worker.CancelAsync();
-            if(archive!=null)
+            if (archive != null)
                 archive.cancel_restore = true;
         }
 
@@ -440,7 +439,7 @@ namespace MASGAU.Restore {
             if (path is ManualLocationPathHolder) {
                 ManualLocationPathHolder loc = path as ManualLocationPathHolder;
                 target = loc.ManualPath;
-            } else if( path is DetectedLocationPathHolder) {
+            } else if (path is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = path as DetectedLocationPathHolder;
                 target = loc.full_dir_path;
             } else {

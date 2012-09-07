@@ -1,20 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Xml;
 using System.IO;
+using System.Text;
 using System.Threading;
-using MVC;
-using MASGAU.Monitor;
-using MASGAU.Location.Holders;
+using GameSaveInfo;
 using MASGAU.Backup;
+using MASGAU.Location.Holders;
+using MASGAU.Monitor;
+using MVC;
 using MVC.Communication;
 using MVC.Translator;
-using XmlData;
 using Translator;
-using GameSaveInfo;
 namespace MASGAU {
     public class GameEntry : AModelItem<GameID> {
         public GameSaveInfo.Game Game {
@@ -73,7 +70,7 @@ namespace MASGAU {
             }
             set {
                 foreach (Link link in version.Links) {
-                    link.Linked = value==true;
+                    link.Linked = value == true;
                 }
                 NotifyPropertyChanged("LinkToolTip");
             }
@@ -82,7 +79,7 @@ namespace MASGAU {
             get {
                 switch (IsLinked) {
                     case true:
-                        return Strings.GetToolTipString("IsLinked",DetectedLocations.Count.ToString());
+                        return Strings.GetToolTipString("IsLinked", DetectedLocations.Count.ToString());
                     case false:
                         return Strings.GetToolTipString("ClickToLink");
                     case null:
@@ -98,13 +95,13 @@ namespace MASGAU {
             }
         }
 
-        public System.Drawing.Color BackgroundColor {
+        public override System.Drawing.Color BackgroundColor {
             get {
                 return id.BackgroundColor;
             }
         }
 
-        public System.Drawing.Color SelectedColor {
+        public override System.Drawing.Color SelectedColor {
             get {
                 return id.SelectedColor;
             }
@@ -153,7 +150,7 @@ namespace MASGAU {
         }
 
         private const int MaxDetect = 300;
-        private static int DetectCount = 0;
+        //        private static int DetectCount = 0;
         Random rnd = new Random();
 
         private bool detect_override = false;
@@ -178,7 +175,7 @@ namespace MASGAU {
 
         public bool CanBeMonitored {
             get {
-                return id.OS==null||(!id.OS.StartsWith("PS")&&id.OS!="Android");
+                return id.OS == null || (!id.OS.StartsWith("PS") && id.OS != "Android");
             }
         }
 
@@ -206,7 +203,7 @@ namespace MASGAU {
 
                 Core.settings.setGameMonitored(this.id, value);
                 NotifyPropertyChanged("MonitorEnabled");
-                if(value)
+                if (value)
                     startMonitoring();
                 else
                     stopMonitoring();
@@ -216,15 +213,15 @@ namespace MASGAU {
 
         public bool CheckBackuptPathForMonitor() {
 
-                    if (!Core.settings.IsBackupPathSet) {
-                        RequestReply reply = RequestHandler.Request(RequestType.BackupFolder, false);
-                        if (reply.Cancelled) {
-                            TranslatingMessageHandler.SendWarning("MonitorNeedsBackupPath");
-                            return false;
-                            //throw new TranslateableException("BackupPathNotSet");
-                        }
-                    }
-                    return true;
+            if (!Core.settings.IsBackupPathSet) {
+                RequestReply reply = RequestHandler.Request(RequestType.BackupFolder, false);
+                if (reply.Cancelled) {
+                    TranslatingMessageHandler.SendWarning("MonitorNeedsBackupPath");
+                    return false;
+                    //throw new TranslateableException("BackupPathNotSet");
+                }
+            }
+            return true;
         }
 
         private StringBuilder _detected_paths_string;
@@ -252,13 +249,13 @@ namespace MASGAU {
 
 
         public bool Detect() {
-//            detect_override =  rnd.Next(0, 2) == 0;
+            //            detect_override =  rnd.Next(0, 2) == 0;
 
 
             List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
             List<ALocation> locations = AllLocations;
 
-            if (this.id.OS!=null&&this.id.OS.StartsWith("PS"))
+            if (this.id.OS != null && this.id.OS.StartsWith("PS"))
                 System.Console.Out.Write("");
 
             foreach (ALocation location in locations) {
@@ -330,7 +327,7 @@ namespace MASGAU {
                         files.AddFiles(save, location);
                     }
                     foreach (ScummVM scumm in version.ScummVMs) {
-                        Include save = new Include(scumm.Name + "*.cfg",null,"Settings");
+                        Include save = new Include(scumm.Name + "*.cfg", null, "Settings");
                         files.AddFiles(save, location);
                         save = new Include(scumm.Name + "*.???", null, null);
                         files.AddFiles(save, location, new System.Text.RegularExpressions.Regex(".*[.][0-9]{3}$"));
@@ -374,34 +371,34 @@ namespace MASGAU {
             if (!CheckBackuptPathForMonitor())
                 return;
 
-                TranslatingProgressHandler.setTranslatedMessage("BackupUpForMonitor", this.Title);
+            TranslatingProgressHandler.setTranslatedMessage("BackupUpForMonitor", this.Title);
 
-                ProgressHandler.suppress_communication = true;
+            ProgressHandler.suppress_communication = true;
 
-                BackupProgramHandler backup = new BackupProgramHandler(this, null, null, Core.locations);
-                backup.RunWorkerAsync();
-                while (backup.IsBusy) {
-                    Thread.Sleep(100);
-                }
-
-
-                TranslatingProgressHandler.setTranslatedMessage("SettingUpMonitorFor", this.Title);
-
-                ProgressHandler.suppress_communication = false;
+            BackupProgramHandler backup = new BackupProgramHandler(this, null, null, Core.locations);
+            backup.RunWorkerAsync();
+            while (backup.IsBusy) {
+                Thread.Sleep(100);
+            }
 
 
-                foreach (DetectedLocationPathHolder path in this.DetectedLocations.Values) {
-                    MonitorPath mon = new MonitorPath(this, path);
-                    monitors.Push(mon);
-                    mon.start();
-                }
+            TranslatingProgressHandler.setTranslatedMessage("SettingUpMonitorFor", this.Title);
+
+            ProgressHandler.suppress_communication = false;
+
+
+            foreach (DetectedLocationPathHolder path in this.DetectedLocations.Values) {
+                MonitorPath mon = new MonitorPath(this, path);
+                monitors.Push(mon);
+                mon.start();
+            }
 
         }
 
 
         public void stopMonitoring() {
-            while(monitors.Count>0) {
-                MonitorPath  path = monitors.Pop();
+            while (monitors.Count > 0) {
+                MonitorPath path = monitors.Pop();
                 path.stop();
                 path.Dispose();
             }

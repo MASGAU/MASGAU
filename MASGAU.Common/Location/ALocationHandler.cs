@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using GameSaveInfo;
 using MASGAU.Location.Holders;
 using MVC;
-using GameSaveInfo;
 namespace MASGAU.Location {
     public abstract class ALocationHandler : Model<StringID, UserData> {
         public HandlerType type {
@@ -60,7 +60,7 @@ namespace MASGAU.Location {
             } else {
                 throw new NotSupportedException(get_me.GetType().ToString());
             }
-//            return new DetectedLocations();
+            //            return new DetectedLocations();
         }
 
         protected virtual DetectedLocations getPaths(LocationPath get_me) {
@@ -73,7 +73,7 @@ namespace MASGAU.Location {
                     continue;
 
                 EvFolder evf = user.getFolder(get_me.EV);
-                foreach (DetectedLocationPathHolder add_me in evf.createDetectedLocations(get_me,user.name)) {
+                foreach (DetectedLocationPathHolder add_me in evf.createDetectedLocations(get_me, user.name)) {
                     if (add_me.Exists) {
                         return_me.Add(add_me);
                     }
@@ -166,13 +166,13 @@ namespace MASGAU.Location {
                 foreach (KeyValuePair<EnvironmentVariable, EvFolder> variable in global.folders) {
                     if (variable.Value != null && variable.Value.Matches(interpret_me)) {
                         string path;
-                        foreach(string folder in variable.Value.Folders) {
+                        foreach (string folder in variable.Value.Folders) {
                             if (interpret_me.Length == folder.Length)
                                 path = "";
                             else
                                 path = interpret_me.Substring(folder.Length + 1);
 
-                            new_location = new LocationPath(variable.Key,path);
+                            new_location = new LocationPath(variable.Key, path);
                             return_me.AddRange(getPaths(new_location));
                         }
 

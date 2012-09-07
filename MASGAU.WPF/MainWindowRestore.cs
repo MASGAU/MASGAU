@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows.Controls;
-using System.Windows;
-using Translator;
-using Translator.WPF;
 using System.IO;
+using System.Windows;
 using MVC.Communication;
 using MVC.Translator;
-using MASGAU.WPF;
+using Translator;
+using Translator.WPF;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
 
@@ -36,7 +32,7 @@ namespace MASGAU.Main {
 
         protected void updateRestoreButton() {
             int selected_count = ArchiveList.SelectedItems.Count;
-            
+
             TranslationHelpers.translate(RestoreSelected, "RestoreGames", selected_count.ToString());
             TranslationHelpers.translate(DeleteArchives, "DeleteSelectedArchives", selected_count.ToString());
 
@@ -44,7 +40,7 @@ namespace MASGAU.Main {
             DeleteArchives.IsEnabled = selected_count > 0;
 
         }
-        
+
         private void ArchiveList_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) {
             updateRestoreButton();
         }

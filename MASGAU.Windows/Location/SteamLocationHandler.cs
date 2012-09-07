@@ -1,6 +1,6 @@
 using System.IO;
-using MASGAU.Registry;
 using GameSaveInfo;
+using MASGAU.Registry;
 namespace MASGAU.Location {
     public class SteamLocationHandler : ASteamLocationHandler {
         // Custom Methods

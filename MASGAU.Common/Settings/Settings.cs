@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using MVC.Translator;
+using Config;
 using Email;
 using MASGAU.Location.Holders;
 using MVC;
-using Translator;
-using Config;
 namespace MASGAU.Settings {
 
     public class Settings : ASettings, IEmailSource {
@@ -39,9 +36,9 @@ namespace MASGAU.Settings {
             settings.Add(new_setting);
 
 
-            settings.Add(new Setting("IgnoreDateCheck", false, "date_check","ignore"));
+            settings.Add(new Setting("IgnoreDateCheck", false, "date_check", "ignore"));
 
-            settings.Add(new Setting("MonitoredGames",null,"games","monitor"));
+            settings.Add(new Setting("MonitoredGames", null, "games", "monitor"));
 
             settings.Add(new Setting("VersioningEnabled", false, "versioning", "enabled"));
             settings.Add(new Setting("VersioningUnit", VersioningUnit.Hours, "versioning", "unit"));
@@ -56,7 +53,7 @@ namespace MASGAU.Settings {
 
 
         protected override void processSettings() {
-            if(mode == ConfigMode.PortableApps) {
+            if (mode == ConfigMode.PortableApps) {
                 if (IsBackupPathSet &&
                     this.backup_path != adjustPortablePath(this.backup_path)) {
                     this.backup_path = adjustPortablePath(this.backup_path);
@@ -75,7 +72,7 @@ namespace MASGAU.Settings {
                 // This adjusts any alt. save locations that are set relative to the portable drive
                 Model<AltPathHolder> tmp = new Model<AltPathHolder>();
                 tmp.AddRange(save_paths);
-                foreach(AltPathHolder path in tmp) {
+                foreach (AltPathHolder path in tmp) {
                     if (path.path != adjustPortablePath(path.path)) {
                         removeSavePath(path.path);
                         addSavePath(adjustPortablePath(path.path));
@@ -98,7 +95,7 @@ namespace MASGAU.Settings {
                 base.EmailRecipient = value;
             }
         }
-        
+
         public bool SuppressSubmitRequests {
             get {
                 return getLastBoolean("SuppressSubmitRequests");
@@ -161,7 +158,7 @@ namespace MASGAU.Settings {
                 return getLast("steam_override");
             }
             set {
-                set("steam_override",value);
+                set("steam_override", value);
                 Core.locations.resetSteam();
             }
         }
@@ -223,8 +220,8 @@ namespace MASGAU.Settings {
                 return getLastBoolean("IgnoreDateCheck");
             }
             set {
-//                if (value)
-  //                  versioning = false;
+                //                if (value)
+                //                  versioning = false;
                 set("IgnoreDateCheck", value);
             }
         }
@@ -337,7 +334,7 @@ namespace MASGAU.Settings {
         }
 
         public bool setGameMonitored(GameID set_me, bool to_me) {
-            if(to_me) {
+            if (to_me) {
                 return addUnique("MonitoredGames", set_me.ToString());
             } else {
                 return this.remove("MonitoredGames", set_me.ToString());

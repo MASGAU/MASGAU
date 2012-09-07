@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.IO;
 using System.Xml;
-using System.Text.RegularExpressions;
-using System.IO;
+using GameSaveInfo;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using GameSaveInfo;
 namespace MASGAU {
-    public class CustomGameVersion: GameVersion {
-        public CustomGameVersion(GameSaveInfo.Game parent, DirectoryInfo location, string saves, string ignores): base(parent, "Windows", "Custom") {
+    public class CustomGameVersion : GameVersion {
+        public CustomGameVersion(GameSaveInfo.Game parent, DirectoryInfo location, string saves, string ignores)
+            : base(parent, "Windows", "Custom") {
 
             DetectedLocations locs = Core.locations.interpretPath(location.FullName);
             DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
@@ -62,7 +58,8 @@ namespace MASGAU {
         }
 
 
-        public CustomGameVersion(GameSaveInfo.Game parent, XmlElement element): base(parent,element) {
+        public CustomGameVersion(GameSaveInfo.Game parent, XmlElement element)
+            : base(parent, element) {
 
         }
 

@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows.Data;
+using System.Windows.Media;
 using MVC.WPF;
-using MVC;
 using Translator;
 namespace MASGAU {
-    public class GameListViewItem: ModelListViewItem {
+    public class GameListViewItem : ModelListViewItem {
 
-        public new GameEntry GameDataSource {
+        public GameEntry GameDataSource {
             set {
                 base.DataSource = value;
             }
@@ -98,7 +94,7 @@ namespace MASGAU {
 
         protected override System.Windows.Media.Brush BackgroundColor {
             get {
-                
+
                 return new SolidColorBrush(convertColor(GameDataSource.BackgroundColor));
             }
         }

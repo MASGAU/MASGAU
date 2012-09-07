@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Windows;
 using System.IO;
 using System.Text;
+using System.Windows;
 using MASGAU.Analyzer;
-using MVC;
-using MVC.WPF;
 using MVC.Translator;
+using MVC.WPF;
 using Translator;
 using Translator.WPF;
-using SMJ.WPF;
-using Email;
-using Email.WPF;
 namespace MASGAU {
     /// <summary>
     /// Interaction logic for ReportWindow.xaml
@@ -46,7 +42,7 @@ namespace MASGAU {
         private void saveBtn_Click(object sender, RoutedEventArgs e) {
             System.Windows.Forms.SaveFileDialog save = new System.Windows.Forms.SaveFileDialog();
             save.DefaultExt = "txt";
-            save.Filter = Strings.GetLabelString("TxtFileDescriptionPlural")+"|*.txt|"+ Strings.GetLabelString("AllFileDescriptionPlural") +"|*";
+            save.Filter = Strings.GetLabelString("TxtFileDescriptionPlural") + "|*.txt|" + Strings.GetLabelString("AllFileDescriptionPlural") + "|*";
             save.Title = Strings.GetLabelString("SaveReportQuestion");
 
             if (AAnalyzer.LastSavePath == null)
@@ -62,7 +58,7 @@ namespace MASGAU {
                     writer.Write(prepareReport());
                     writer.Close();
                     saved = true;
-                } catch(Exception ex)  {
+                } catch (Exception ex) {
                     TranslatingMessageHandler.SendError("WriteError", ex, save.FileName);
                 }
             }

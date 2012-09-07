@@ -1,23 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.ComponentModel;
+using System.IO;
 using System.Text;
 using System.Windows;
 using MASGAU.Backup;
 using MASGAU.Location.Holders;
-using MASGAU.WPF;
-using System.ComponentModel;
 using MVC.Communication;
-using MVC.WPF;
 using MVC.Translator;
 using Translator;
-using System.IO;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
 
         private void BackupAllGames_Click(object sender, RoutedEventArgs e) {
-            if (Core.settings.IsBackupPathSet || changeBackupPath())
-            {
+            if (Core.settings.IsBackupPathSet || changeBackupPath()) {
                 beginBackup(null);
             }
 
@@ -86,11 +82,11 @@ namespace MASGAU.Main {
             startBackup(when_done);
         }
         protected void beginBackup(List<GameEntry> backup_list, RunWorkerCompletedEventHandler when_done) {
-            backup = new BackupProgramHandler(backup_list,Core.locations);
+            backup = new BackupProgramHandler(backup_list, Core.locations);
             startBackup(when_done);
         }
         protected void beginBackup(GameEntry game, List<DetectedFile> files, string archive_name, RunWorkerCompletedEventHandler when_done) {
-            backup = new BackupProgramHandler(game, files, archive_name,Core.locations);
+            backup = new BackupProgramHandler(game, files, archive_name, Core.locations);
             startBackup(when_done);
         }
 
@@ -107,6 +103,6 @@ namespace MASGAU.Main {
         }
 
 
-    
+
     }
 }

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Media.Effects;
-using SMJ.WPF.Effects;
-using MVC.Communication;
 using MVC;
+using MVC.Communication;
+using SMJ.WPF.Effects;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         private bool disabled;
@@ -22,17 +19,16 @@ namespace MASGAU.Main {
 
         public void disableInterface(ICancellable cancellable_item) {
             cancellables.Add(cancellable_item);
-            cancellable_item.Completed +=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
+            cancellable_item.Completed += new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
             Translator.WPF.TranslationHelpers.translate(CancelButton.Label, "Stop");
             setInterfaceEnabledness(false);
             ProgressHandler.saveMessage();
         }
 
-        void  cancellable_item_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
-        {
+        void cancellable_item_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e) {
             ICancellable worker = (ICancellable)sender;
-            worker.Completed -=new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
-            cancellables.Remove(worker); 	        
+            worker.Completed -= new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
+            cancellables.Remove(worker);
         }
 
         public override void enableInterface() {
@@ -56,13 +52,13 @@ namespace MASGAU.Main {
                 // this is when enabled
                 fade = new FadeOutEffect(timing);
                 a = System.Windows.Visibility.Collapsed;
-//                b = System.Windows.Visibility.Visible;
+                //                b = System.Windows.Visibility.Visible;
                 blur = null;
             } else {
                 fade = new FadeInEffect(timing);
                 // this is when disabled
                 a = System.Windows.Visibility.Visible;
-  //              b = System.Windows.Visibility.Collapsed;
+                //              b = System.Windows.Visibility.Collapsed;
                 blur = new BlurEffect();
                 blur.Radius = 10;
             }
@@ -77,7 +73,7 @@ namespace MASGAU.Main {
             //subGrid.Effect = blur;
 
             CancelButton.Visibility = a;
-//            DisablerGrid.Visibility = a;
+            //            DisablerGrid.Visibility = a;
         }
 
         private void CancelButton_Click_1(object sender, RoutedEventArgs e) {
