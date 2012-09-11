@@ -10,6 +10,7 @@
 * Fixed the monitor not restarting after a restore
 * Fixed the extract process sometimes using the install folder as a temp folder
 * Fixed a problem with files not being detected when adding custom games
+* Reduced the number of retained logs to 25
 
 =1.0 - Back to Alpha=
 * All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)

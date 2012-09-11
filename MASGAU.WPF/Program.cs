@@ -10,6 +10,8 @@ namespace MASGAU {
         [STAThread]
         static void Main() {
             try {
+                Logger.Logger.MaxFiles = 25;
+
 
                 Application app = new MASGAU.Application();
 
