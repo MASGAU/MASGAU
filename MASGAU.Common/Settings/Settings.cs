@@ -89,7 +89,7 @@ namespace MASGAU.Settings {
 
         public override string EmailRecipient {
             get {
-                return Core.submission_email;
+                return Common.SubmissionEmail;
             }
             set {
                 base.EmailRecipient = value;
@@ -147,7 +147,7 @@ namespace MASGAU.Settings {
         // Thing to make overriding Steam easier
         public string steam_path {
             get {
-                return Core.locations.steam_path;
+                return Common.Locations.steam_path;
             }
             set {
                 steam_override = value;
@@ -159,7 +159,7 @@ namespace MASGAU.Settings {
             }
             set {
                 set("steam_override", value);
-                Core.locations.resetSteam();
+                Common.Locations.resetSteam();
             }
         }
         public void clearSteamPath() {

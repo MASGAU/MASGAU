@@ -59,14 +59,14 @@ namespace MASGAU.Location {
                     }
                     break;
                 case EnvironmentVariable.AltSavePaths:
-                    foreach (AltPathHolder alt_path in Core.settings.save_paths) {
+                    foreach (AltPathHolder alt_path in Common.Settings.save_paths) {
                         if (PermissionsHelper.isReadable(alt_path.path)) {
                             if (get_me.Path != null && get_me.Path.Length > 0)
                                 test = new DirectoryInfo(Path.Combine(alt_path.path, get_me.Path));
                             else
                                 test = new DirectoryInfo(alt_path.path);
                             if (test.Exists) {
-                                DetectedLocations locs = Core.locations.interpretPath(alt_path.path, get_me.Path);
+                                DetectedLocations locs = Common.Locations.interpretPath(alt_path.path, get_me.Path);
                                 foreach (DetectedLocationPathHolder loc in locs) {
                                     return_me.Add(loc);
                                 }

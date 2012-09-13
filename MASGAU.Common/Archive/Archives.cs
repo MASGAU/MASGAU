@@ -11,7 +11,7 @@ namespace MASGAU {
 
         public static Boolean NoArchivesDetected {
             get {
-                if (Core.settings.IsBackupPathSet) {
+                if (Common.Settings.IsBackupPathSet) {
                     return model.Count == 0;
                 } else {
                     return false;
@@ -36,11 +36,11 @@ namespace MASGAU {
         public static void DetectBackups() {
             ProgressHandler.saveMessage();
             model.Clear();
-            if (!Core.settings.IsBackupPathSet)
+            if (!Common.Settings.IsBackupPathSet)
                 return;
             ProgressHandler.state = ProgressState.Normal;
             string path = null;
-            path = Core.settings.backup_path;
+            path = Common.Settings.backup_path;
             FileInfo[] read_us = new DirectoryInfo(path).GetFiles("*.gb7");
 
             ProgressHandler.value = 0;

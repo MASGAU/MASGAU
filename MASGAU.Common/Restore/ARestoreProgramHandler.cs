@@ -10,7 +10,7 @@ using MVC.Communication;
 using MVC.Translator;
 using Translator;
 namespace MASGAU.Restore {
-    public class RestoreProgramHandler : AProgramHandler {
+    public abstract class ARestoreProgramHandler : AProgramHandler {
         public bool GameNotDetected {
             get {
                 return game_data == null || !game_data.IsDetected;
@@ -39,10 +39,10 @@ namespace MASGAU.Restore {
             set;
         }
 
-        public RestoreProgramHandler(Archive archive, ALocationsHandler loc)
-            : base(loc) {
-            this._program_title = Strings.GetLabelString("IsRestoring",
-                this._program_title.ToString());
+        public ARestoreProgramHandler(Archive archive)
+            : base() {
+            this.ProgramTitle = Strings.GetLabelString("IsRestoring",
+                this.ProgramTitle);
             this.archive = archive;
         }
 
@@ -143,7 +143,7 @@ namespace MASGAU.Restore {
         protected void filterPathCandidates(LocationPath location) {
             //if(location.path==null)
             //continue;
-            if (location.OnlyFor != null && location.OnlyFor != Core.locations.platform_version)
+            if (location.OnlyFor != null && location.OnlyFor != Locations.platform_version)
                 return;
 
             if (location.EV == EnvironmentVariable.InstallLocation ||
@@ -153,19 +153,19 @@ namespace MASGAU.Restore {
             // Adds user-friendly menu entries to the root selector
             switch (location.EV) {
                 case EnvironmentVariable.SteamSourceMods:
-                    if (Core.locations.steam_detected)
+                    if (Locations.steam_detected)
                         addPathCandidate(location);
                     break;
                 case EnvironmentVariable.SteamUser:
                 case EnvironmentVariable.SteamUserData:
-                    if (Core.locations.steam_detected && Core.locations.getUsers(location.EV).Count > 0)
+                    if (Locations.steam_detected && Locations.getUsers(location.EV).Count > 0)
                         addPathCandidate(location);
                     break;
                 case EnvironmentVariable.UbisoftSaveStorage:
                 case EnvironmentVariable.FlashShared:
-                    IEnumerable<string> paths = Core.locations.getPaths(location.EV);
+                    IEnumerable<string> paths = Locations.getPaths(location.EV);
                     foreach (string path in paths) {
-                        LocationPath loc = Core.locations.interpretPath(path).getMostAccurateLocation();
+                        LocationPath loc = Locations.interpretPath(path).getMostAccurateLocation();
                         loc.AppendPath(location.Path);
                         addPathCandidate(loc);
                     }
@@ -185,7 +185,7 @@ namespace MASGAU.Restore {
                 string[] args = Environment.GetCommandLineArgs();
                 if (args.Length > 0) {
                     foreach (string arg in args) {
-                        if (!arg.StartsWith("-") && (arg.EndsWith(Core.Extension) || arg.EndsWith(Core.Extension + "\""))) {
+                        if (!arg.StartsWith("-") && (arg.EndsWith(Extension) || arg.EndsWith(Extension + "\""))) {
                             _argchives.Enqueue(arg.Trim('\"'));
                             break;
                         }
@@ -252,8 +252,8 @@ namespace MASGAU.Restore {
                         case EnvironmentVariable.ProgramFiles:
                         case EnvironmentVariable.ProgramFilesX86:
                             // This adds a fake VirtualStore folder, just in case
-                            if (Core.locations.uac_enabled) {
-                                DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location, Core.locations.getFolder(EnvironmentVariable.LocalAppData, location.owner), location.owner);
+                            if (Locations.uac_enabled) {
+                                DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location, Locations.getFolder(EnvironmentVariable.LocalAppData, location.owner), location.owner);
                                 temp.ReplacePath(Path.Combine("VirtualStore", location.full_dir_path.Substring(3)));
                                 temp.EV = EnvironmentVariable.LocalAppData;
                                 addPathCandidate(temp);
@@ -268,7 +268,7 @@ namespace MASGAU.Restore {
 
                 //if (archive.id.Game.OS!=null&&archive.id.Game.OS.StartsWith("PS")) {
 
-                //    foreach (string drive in Core.locations.ps.GetDriveCandidates()) {
+                //    foreach (string drive in Common.Locations.ps.GetDriveCandidates()) {
                 //        DetectedLocationPathHolder loc = new DetectedLocationPathHolder(EnvironmentVariable.Drive, drive, null);
                 //            addPathCandidate(loc);
                 //    }
@@ -282,7 +282,7 @@ namespace MASGAU.Restore {
             }
 
             if (archive.id.OriginalLocation != null) {
-                DetectedLocations locs = Core.locations.interpretPath(archive.id.OriginalLocation);
+                DetectedLocations locs = Locations.interpretPath(archive.id.OriginalLocation);
                 DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
                 if (loc != null) {
                     addPathCandidate(loc);
@@ -372,7 +372,7 @@ namespace MASGAU.Restore {
         }
         public void populateUsers(LocationPath location) {
             user_candidates.Clear();
-            List<string> users = Core.locations.getUsers(location.EV);
+            List<string> users = Locations.getUsers(location.EV);
             if (users.Count > 0 && location.EV != EnvironmentVariable.FlashShared) {
                 user_needed = true;
                 if (users.Count > 1) {
@@ -443,7 +443,7 @@ namespace MASGAU.Restore {
                 DetectedLocationPathHolder loc = path as DetectedLocationPathHolder;
                 target = loc.full_dir_path;
             } else {
-                target = Core.locations.getAbsolutePath(path, user);
+                target = Locations.getAbsolutePath(path, user);
             }
             restoreBackup(target, when_done);
         }

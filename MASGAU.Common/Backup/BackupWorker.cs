@@ -8,18 +8,20 @@ using MASGAU.Location.Holders;
 using MVC.Communication;
 using MVC.Translator;
 namespace MASGAU.Backup {
-    public class BackupProgramHandler : AProgramHandler {
+    public class BackupWorker {
+        public BackgroundWorker worker;
+
         public string archive_name_override = null;
 
         private List<GameEntry> back_these_up = null;
         private List<DetectedFile> only_these_files = new List<DetectedFile>();
 
-        public BackupProgramHandler(List<GameEntry> backup_list, ALocationsHandler loc)
-            : this(loc) {
+        public BackupWorker(List<GameEntry> backup_list)
+            : this() {
             back_these_up = backup_list;
         }
-        public BackupProgramHandler(GameEntry this_game, List<DetectedFile> only_these, string archive_name, ALocationsHandler loc)
-            : this(loc) {
+        public BackupWorker(GameEntry this_game, List<DetectedFile> only_these, string archive_name)
+            : this() {
             back_these_up = new List<GameEntry>();
             back_these_up.Add(this_game);
 
@@ -28,10 +30,12 @@ namespace MASGAU.Backup {
             }
             archive_name_override = archive_name;
         }
-        public BackupProgramHandler(ALocationsHandler loc)
-            : base(loc) {
-            worker.DoWork += new DoWorkEventHandler(BackupProgramHandler_DoWork);
-            worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(BackupProgramHandler_RunWorkerCompleted);
+
+
+        public BackupWorker()
+            : base() {
+                worker.DoWork += new DoWorkEventHandler(BackupProgramHandler_DoWork);
+                worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(BackupProgramHandler_RunWorkerCompleted);
         }
 
         void BackupProgramHandler_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
@@ -51,11 +55,11 @@ namespace MASGAU.Backup {
         string output_path;
         void BackupProgramHandler_DoWork(object sender, DoWorkEventArgs e) {
 
-            if (Core.settings.IsBackupPathSet || archive_name_override != null) {
+            if (Common.Settings.IsBackupPathSet || archive_name_override != null) {
                 if (archive_name_override != null)
                     output_path = Path.GetDirectoryName(archive_name_override);
                 else
-                    output_path = Core.settings.backup_path;
+                    output_path = Common.Settings.backup_path;
 
 
                 IList<GameEntry> games;
@@ -75,7 +79,7 @@ namespace MASGAU.Backup {
 
 
                     foreach (GameEntry game in games) {
-                        if (CancellationPending)
+                        if (worker.CancellationPending)
                             return;
 
                         //if(archive_name_override!=null)
@@ -103,7 +107,7 @@ namespace MASGAU.Backup {
                             foreach (DetectedFile file in files) {
                                 ArchiveID archive_id;
                                 Archive archive;
-                                if (CancellationPending)
+                                if (worker.CancellationPending)
                                     return;
 
                                 archive_id = new ArchiveID(game.id, file);
@@ -122,7 +126,7 @@ namespace MASGAU.Backup {
 
                                 backup_files.Add(archive, file);
                             }
-                            if (CancellationPending)
+                            if (worker.CancellationPending)
                                 return;
 
                             foreach (KeyValuePair<Archive, List<DetectedFile>> backup_file in backup_files) {

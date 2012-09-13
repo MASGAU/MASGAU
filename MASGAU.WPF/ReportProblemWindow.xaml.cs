@@ -12,9 +12,9 @@ namespace MASGAU {
             TranslationHelpers.translateWindow(this);
             this.Icon = owner.Icon;
 
-            uploadBtn.To = Core.submission_email;
+            uploadBtn.To = Common.SubmissionEmail;
             uploadBtn.Subject = "Problem Report";
-            uploadBtn.Source = Core.settings;
+            uploadBtn.Source = Common.Settings;
         }
 
         private void closeBtn_Click(object sender, RoutedEventArgs e) {

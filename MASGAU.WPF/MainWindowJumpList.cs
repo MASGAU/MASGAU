@@ -17,20 +17,20 @@ namespace MASGAU.Main {
             }
 
             JumpTask masgau_jump = new JumpTask();
-            masgau_jump.ApplicationPath = Core.ExecutableName;
-            masgau_jump.IconResourcePath = Core.ExecutableName;
+            masgau_jump.ApplicationPath = Common.ExecutablePath;
+            masgau_jump.IconResourcePath = Common.ExecutablePath;
             masgau_jump.IconResourceIndex = 0;
-            masgau_jump.WorkingDirectory = Core.ExecutablePath;
+            masgau_jump.WorkingDirectory = Common.ExecutableFolder;
             masgau_jump.Title = Strings.GetLabelString("JumpMainProgram");
             masgau_jump.Description = Strings.GetToolTipString("JumpMainProgram");
             masgau_jump.CustomCategory = "MASGAU";
             masgau_jump_list.JumpItems.Add(masgau_jump);
 
             masgau_jump = new JumpTask();
-            masgau_jump.ApplicationPath = Core.ExecutableName;
-            masgau_jump.IconResourcePath = Core.ExecutableName;
+            masgau_jump.ApplicationPath = Common.ExecutablePath;
+            masgau_jump.IconResourcePath = Common.ExecutablePath;
             masgau_jump.IconResourceIndex = 0;
-            masgau_jump.WorkingDirectory = Core.ExecutablePath;
+            masgau_jump.WorkingDirectory = Common.ExecutableFolder;
             masgau_jump.Title = Strings.GetLabelString("JumpMainProgramAllUsers");
             masgau_jump.Description = Strings.GetToolTipString("JumpMainProgramAllUsers");
             masgau_jump.Arguments = "-allusers";

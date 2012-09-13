@@ -21,7 +21,7 @@ namespace MASGAU {
 
 
         public AWindow(IWindow owner)
-            : base(owner, Core.settings) {
+            : base(owner, Common.Settings) {
             TabItem from_me = new TabItem();
             from_me.BeginInit();
             from_me.EndInit();
@@ -144,9 +144,9 @@ namespace MASGAU {
         protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e) {
             TextBox txt_box = (TextBox)sender;
             int cursor = txt_box.SelectionStart;
-            string new_text = Core.makeNumbersOnly(txt_box.Text);
+            string new_text = Common.makeNumbersOnly(txt_box.Text);
             cursor += new_text.Length - txt_box.Text.Length;
-            txt_box.Text = Core.makeNumbersOnly(txt_box.Text);
+            txt_box.Text = Common.makeNumbersOnly(txt_box.Text);
             txt_box.SelectionStart = cursor;
         }
     }

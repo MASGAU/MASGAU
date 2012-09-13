@@ -13,7 +13,7 @@ namespace MASGAU.Main {
             this.disableInterface();
             notifier.OpenCloseEnabled = false;
             Restore.RestoreWindow.beginRestore(this, archives);
-            Core.monitor.start();
+            Common.Monitor.start();
             notifier.OpenCloseEnabled = true;
             this.enableInterface();
         }
@@ -54,7 +54,7 @@ namespace MASGAU.Main {
                 List<Archive> archives = new List<Archive>();
                 foreach (string file in files) {
                     FileInfo info = new FileInfo(file);
-                    if (info.Extension != Core.Extension)
+                    if (info.Extension != Common.Extension)
                         break;
                     try {
                         archives.Add(new Archive(new FileInfo(file)));

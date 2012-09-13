@@ -65,9 +65,11 @@
     <Compile Include="Archive\ArchiveID.cs" />
     <Compile Include="Archive\Archives.cs" />
     <Compile Include="Archive\ArchiveType.cs" />
+    <Compile Include="ASymLinker.cs" />
     <Compile Include="BackgroundWorker.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Common.cs" />
     <Compile Include="Comparers\FileInfoComparer.cs" />
     <Compile Include="Comparers\ReversableComparer.cs" />
     <Compile Include="ElevationResult.cs" />
@@ -90,7 +92,7 @@
     </Compile>
     <Compile Include="Monitor\Origin.cs" />
     <Compile Include="QuickHash.cs" />
-    <Compile Include="StartupHelper.cs" />
+    <Compile Include="AStartupHelper.cs" />
     <Compile Include="SubmitHandler.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -119,10 +121,9 @@
     <Compile Include="Settings\VersioningUnit.cs" />
     <Compile Include="Game\Games.cs" />
     <Compile Include="Location\ALocationsHandler.cs" />
-    <Compile Include="Core.cs" />
     <Compile Include="Restore\ARestoreProgramHandler.cs" />
     <Compile Include="Settings\Settings.cs" />
-    <Compile Include="Backup\BackupProgramHandler.cs" />
+    <Compile Include="Backup\BackupWorker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="structs.cs" />

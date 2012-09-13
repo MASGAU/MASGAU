@@ -23,7 +23,7 @@ namespace MASGAU.Analyzer {
             if (path.EV == EnvironmentVariable.VirtualStore) {
                 string drive = Path.GetPathRoot(path.full_dir_path);
                 string new_path = Path.Combine(drive, path.Path);
-                this.path = Core.locations.interpretPath(new_path).getMostAccurateLocation();
+                this.path = Common.Locations.interpretPath(new_path).getMostAccurateLocation();
             }
 
             string[] folders = this.path.Path.Split(System.IO.Path.DirectorySeparatorChar);
@@ -61,7 +61,7 @@ namespace MASGAU.Analyzer {
             TranslatingProgressHandler.setTranslatedMessage("AnalyzingScummVM");
             ProgressHandler.value++;
             outputLine(Environment.NewLine + "ScummVM Path Entries: ");
-            AScummVMLocationHandler scummvm = Core.locations.getHandler(HandlerType.ScummVM) as AScummVMLocationHandler;
+            AScummVMLocationHandler scummvm = Common.Locations.getHandler(HandlerType.ScummVM) as AScummVMLocationHandler;
             foreach (string user in scummvm.Locations.Keys) {
                 foreach (string name in scummvm.Locations[user].Keys) {
                     string path = scummvm.Locations[user][name];

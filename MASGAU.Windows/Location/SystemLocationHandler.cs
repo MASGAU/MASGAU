@@ -160,7 +160,7 @@ namespace MASGAU.Location {
             //Per-user variables
             loadUsersData("current_user", null);
 
-            if (Core.StaticAllUsersMode) {
+            if (Common.AllUsersMode) {
                 // All this crap lets me get data from other user's registries
                 IntPtr token = new IntPtr(0);
                 int retval = 0;
@@ -432,7 +432,7 @@ namespace MASGAU.Location {
 
                             path = get_me.modifyPath(path);
                             if (Directory.Exists(path)) {
-                                return_me.AddRange(Core.locations.interpretPath(new DirectoryInfo(path).FullName));
+                                return_me.AddRange(Common.Locations.interpretPath(new DirectoryInfo(path).FullName));
                             }
                         }
                     } catch (Exception e) {
@@ -475,7 +475,7 @@ namespace MASGAU.Location {
                 try {
                     path = Path.GetDirectoryName(link.TargetPath);
                     path = get_me.modifyPath(path);
-                    return_me.AddRange(Core.locations.interpretPath(path));
+                    return_me.AddRange(Common.Locations.interpretPath(path));
                 } catch { }
             }
             return return_me;

@@ -39,13 +39,13 @@ public class SecurityHandler {
                 arg_string.Append(" " + args[j]);
             }
         }
-        if (!Core.settings.SuppressElevationWarnings) {
+        if (!Common.Settings.SuppressElevationWarnings) {
             ResponseType response = ResponseType.OK;
             if (Environment.OSVersion.Version < new Version(6, 0)) {
                 response = TranslatingMessageHandler.SendWarning("ElevationXPWarning", true);
             }
             if (response >= ResponseType.Suppressed)
-                Core.settings.SuppressElevationWarnings = true;
+                Common.Settings.SuppressElevationWarnings = true;
 
         }
 

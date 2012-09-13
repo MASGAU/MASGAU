@@ -148,10 +148,10 @@ namespace MASGAU.Main {
                     //notifyIcon.Visible = Core.monitor.Active;
                     break;
                 case "Status":
-                    if (Core.monitor.Status.Length > 63)
-                        icon.Text = Core.monitor.Status.Substring(0, 63);
+                    if (Common.Monitor.Status.Length > 63)
+                        icon.Text = Common.Monitor.Status.Substring(0, 63);
                     else
-                        icon.Text = Core.monitor.Status;
+                        icon.Text = Common.Monitor.Status;
                     break;
             }
         }

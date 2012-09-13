@@ -12,7 +12,7 @@ namespace MASGAU.Game {
     public class GameXmlFiles : AXmlDataFileCollection<GameXmlFile, GameSaveInfo.Game>, IVersionSource {
         public Version ProgramVersion {
             get {
-                return Core.ProgramVersion;
+                return Common.Version;
             }
         }
 
@@ -68,9 +68,9 @@ namespace MASGAU.Game {
         public CustomGameXmlFile custom { get; protected set; }
         public DirectoryInfo DataFolder {
             get {
-                switch (Core.settings.mode) {
+                switch (Common.Settings.mode) {
                     case Config.ConfigMode.Portable:
-                        return new DirectoryInfo(Path.Combine(Core.ExecutablePath, "data"));
+                        return new DirectoryInfo(Path.Combine(Common.ExecutableFolder, "data"));
                     case Config.ConfigMode.AllUsers:
                     case Config.ConfigMode.SingleUser:
                         return new DirectoryInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "masgau"));

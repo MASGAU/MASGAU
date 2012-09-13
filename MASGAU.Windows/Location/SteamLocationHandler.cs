@@ -21,7 +21,7 @@ namespace MASGAU.Location {
             string reg_path = null, set_path = null;
             RegistryHandler steam = new RegistryHandler("local_machine", "SOFTWARE\\Valve\\Steam", false);
             reg_path = isSteamPath(steam.getValue("InstallPath"));
-            set_path = isSteamPath(Core.settings.steam_override);
+            set_path = isSteamPath(Common.Settings.steam_override);
 
             if (set_path != null)
                 path = set_path;

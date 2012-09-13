@@ -33,15 +33,15 @@ namespace MASGAU {
             StringBuilder return_me = new StringBuilder(id.Name);
 
             if (id.Release != null)
-                return_me.Append(Core.seperator + id.Release);
+                return_me.Append(Common.Seperator + id.Release);
             if (id.OS != null)
-                return_me.Append(Core.seperator + id.OS);
+                return_me.Append(Common.Seperator + id.OS);
             if (id.Platform != null)
-                return_me.Append(Core.seperator + id.Platform);
+                return_me.Append(Common.Seperator + id.Platform);
             if (id.Region != null)
-                return_me.Append(Core.seperator + id.Region);
+                return_me.Append(Common.Seperator + id.Region);
             if (id.Media != null)
-                return_me.Append(Core.seperator + id.Media);
+                return_me.Append(Common.Seperator + id.Media);
 
             return return_me.ToString();
         }

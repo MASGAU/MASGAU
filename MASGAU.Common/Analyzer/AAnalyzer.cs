@@ -150,7 +150,7 @@ namespace MASGAU.Analyzer {
             return true;
         }
         protected string censorDirectory(DirectoryInfo dir) {
-            DetectedLocations paths = Core.locations.interpretPath(dir.FullName.TrimEnd(Path.DirectorySeparatorChar));
+            DetectedLocations paths = Common.Locations.interpretPath(dir.FullName.TrimEnd(Path.DirectorySeparatorChar));
             if (paths.Count == 0)
                 return dir.FullName;
             else

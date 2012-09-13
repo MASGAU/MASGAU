@@ -6,29 +6,25 @@ using MVC.Translator;
 using Translator;
 
 namespace MASGAU {
-    public abstract class AProgramHandler : Core, INotifyPropertyChanged {
+    public abstract class AProgramHandler : Common {
 
         // The title of the program's window
-        public String program_title {
-            get {
-                return _program_title.ToString();
-            }
+        public String ProgramTitle {
+            get;
+            protected set;
         }
 
-        protected string _program_title = "MASGAU";
-
-        public AProgramHandler(ALocationsHandler locations)
+        public AProgramHandler()
             : base() {
+                ProgramTitle = "MASGAU";
 
-            if (!Core.Ready)
+            if (!CoreReady)
                 return;
 
-            if (Core.Mode >= Config.ConfigMode.Portable)
-                _program_title = Strings.GetLabelString("PortableMode", _program_title);
+            if (Mode >= Config.ConfigMode.Portable)
+                ProgramTitle = Strings.GetLabelString("PortableMode", ProgramTitle);
 
-            if (Core.locations == null) {
-                Core.locations = locations;
-            }
+
 
             worker.DoWork += new DoWorkEventHandler(doWork);
             worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(workCompleted);
@@ -38,33 +34,31 @@ namespace MASGAU {
 
         protected virtual void doWork(object sender, DoWorkEventArgs e) {
             ProgressHandler.state = ProgressState.Indeterminate;
-            if (!initialized) {
+            if (!ProgramReady) {
                 TranslatingProgressHandler.setTranslatedMessage("LoadingSettings");
 
-                if (!settings.IsReady) {
-                    initialized = false;
+                if (!Settings.IsReady) {
+                    ProgramReady = false;
                     TranslatingMessageHandler.SendError("CriticalSettingsFailure");
                     return;
                 }
 
-                Core.locations.setup();
+                Locations.setup();
 
-                settings.PropertyChanged += new PropertyChangedEventHandler(settings_PropertyChanged);
+                Settings.PropertyChanged += new PropertyChangedEventHandler(settings_PropertyChanged);
 
-                monitor = new Monitor.Monitor();
+                Monitor = new Monitor.Monitor();
 
                 TranslatingProgressHandler.setTranslatedMessage("ValidatingBackupPath");
-                if (settings.IsBackupPathSet && (!PermissionsHelper.isReadable(settings.backup_path) || !PermissionsHelper.isWritable(settings.backup_path)))
-                    settings.clearBackupPath();
+                if (Settings.IsBackupPathSet && (!PermissionsHelper.isReadable(Settings.backup_path) || !PermissionsHelper.isWritable(Settings.backup_path)))
+                    Settings.clearBackupPath();
 
-                if (!locations.ready)
+                if (!Locations.ready)
                     return;
 
-                //task = new Task.TaskHandler();
 
-                initialized = true;
+                ProgramReady = true;
             }
-            //ProgressHandler.progress_state = ProgressState.Normal;
         }
 
         void settings_PropertyChanged(object sender, PropertyChangedEventArgs e) {
@@ -78,7 +72,29 @@ namespace MASGAU {
             }
         }
 
-
+        #region Background worker stuff
+        public BackgroundWorker worker = new BackgroundWorker();
+        public bool IsBusy {
+            get {
+                return worker.IsBusy;
+            }
+        }
+        public void CancelAsync() {
+            worker.CancelAsync();
+        }
+        public void RunWorkerAsync() {
+            worker.RunWorkerAsync();
+        }
+        public event RunWorkerCompletedEventHandler RunWorkerCompleted {
+            add { worker.RunWorkerCompleted += value; }
+            remove { worker.RunWorkerCompleted -= value; }
+        }
+        protected bool CancellationPending {
+            get {
+                return worker.CancellationPending;
+            }
+        }
+        #endregion
 
     }
 }

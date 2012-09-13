@@ -27,10 +27,10 @@ namespace MASGAU.Main {
             this.AllowDrop = true;
             this.Drop += new System.Windows.DragEventHandler(MainWindowNew_Drop);
 
-            VersionLabel.Content = Strings.GetLabelString("MASGAUAboutVersion", Core.ProgramVersion.ToString());
+            VersionLabel.Content = Strings.GetLabelString("MASGAUAboutVersion", Common.VersionString);
 
-            if (Core.Ready)
-                this.DataContext = Core.settings;
+            if (Common.CoreReady)
+                this.DataContext = Common.Settings;
 
             TranslationHelpers.translateWindow(this);
 
@@ -54,7 +54,7 @@ namespace MASGAU.Main {
 
 
 
-            masgau = new MainProgramHandler(new Location.LocationsHandler());
+            masgau = new MainProgramHandler();
             setupJumpList();
         }
 
@@ -66,12 +66,12 @@ namespace MASGAU.Main {
 
         #region Program handler setup
         protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
-            if (!Core.Ready) {
+            if (!Common.CoreReady) {
                 this.Close();
                 return;
             }
 
-            switch (Core.settings.WindowState) {
+            switch (Common.Settings.WindowState) {
                 case global::Config.WindowState.Maximized:
                     this.WindowState = System.Windows.WindowState.Maximized;
                     break;
@@ -84,7 +84,7 @@ namespace MASGAU.Main {
             setUpProgramHandler();
         }
         protected virtual void setUpProgramHandler() {
-            this.Title = masgau.program_title;
+            this.Title = masgau.ProgramTitle;
             disableInterface();
             gamesLst.DataContext = Games.DetectedGames;
             gamesLst.Model = Games.DetectedGames;
@@ -110,19 +110,19 @@ namespace MASGAU.Main {
             bindSettingsControls();
 
 
-            OpenBackupFolder.DataContext = Core.settings;
-            OpenBackupFolderTwo.DataContext = Core.settings;
-            monitorStatusLabel.DataContext = Core.monitor;
+            OpenBackupFolder.DataContext = Common.Settings;
+            OpenBackupFolderTwo.DataContext = Common.Settings;
+            monitorStatusLabel.DataContext = Common.Monitor;
 
             setupSteamButton();
             populateAltPaths();
             setupMonitorIcon();
 
-            if (!Core.initialized) {
+            if (!Common.ProgramReady) {
                 MVC.Translator.TranslatingMessageHandler.SendException(new TranslateableException("CriticalSettingsFailure"));
                 this.Close();
             }
-            this.Title = masgau.program_title;
+            this.Title = masgau.ProgramTitle;
             addGameSetup();
             this.checkUpdates();
         }
@@ -162,7 +162,7 @@ namespace MASGAU.Main {
 
 
         private void OpenBackupFolder_Click(object sender, RoutedEventArgs e) {
-            Core.openBackupPath();
+            Common.openBackupPath();
         }
 
         private void ChangeBackupFolder_Click(object sender, RoutedEventArgs e) {
@@ -178,17 +178,17 @@ namespace MASGAU.Main {
         public void updateWindowState() {
             switch (this.WindowState) {
                 case System.Windows.WindowState.Normal:
-                    Core.settings.WindowState = global::Config.WindowState.Normal;
+                    Common.Settings.WindowState = global::Config.WindowState.Normal;
                     break;
                 case System.Windows.WindowState.Maximized:
-                    Core.settings.WindowState = global::Config.WindowState.Maximized;
+                    Common.Settings.WindowState = global::Config.WindowState.Maximized;
                     break;
                 case System.Windows.WindowState.Minimized:
-                    Core.settings.WindowState = global::Config.WindowState.Minimized;
+                    Common.Settings.WindowState = global::Config.WindowState.Minimized;
                     break;
             }
             if (!this.ShowInTaskbar)
-                Core.settings.WindowState = global::Config.WindowState.Iconified;
+                Common.Settings.WindowState = global::Config.WindowState.Iconified;
         }
 
         private void minimizeButton_Click(object sender, RoutedEventArgs e) {
@@ -212,27 +212,27 @@ namespace MASGAU.Main {
         }
 
         private void SingleUserModeButton_Click(object sender, RoutedEventArgs e) {
-            if (!System.IO.File.Exists(Core.ExecutableName)) {
-                this.showTranslatedError("FileNotFoundCritical", Core.ExecutableName);
+            if (!System.IO.File.Exists(Common.ExecutablePath)) {
+                this.showTranslatedError("FileNotFoundCritical", Common.ExecutablePath);
                 return;
             }
 
             toggleVisibility();
-            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers", false) == ElevationResult.Success)
+            if (SecurityHandler.elevation(Common.ExecutablePath, "-allusers", false) == ElevationResult.Success)
                 this.Close();
             else
                 toggleVisibility();
         }
 
         private void AllUsersModeButton_Click(object sender, RoutedEventArgs e) {
-            if (!System.IO.File.Exists(Core.ExecutableName)) {
-                this.showTranslatedError("FileNotFoundCritical", Core.ExecutableName);
+            if (!System.IO.File.Exists(Common.ExecutablePath)) {
+                this.showTranslatedError("FileNotFoundCritical", Common.ExecutablePath);
                 return;
             }
 
 
             toggleVisibility();
-            if (SecurityHandler.runExe(Core.ExecutableName, "", false, false) == ElevationResult.Success)
+            if (SecurityHandler.runExe(Common.ExecutablePath, "", false, false) == ElevationResult.Success)
                 this.Close();
             else
                 toggleVisibility();

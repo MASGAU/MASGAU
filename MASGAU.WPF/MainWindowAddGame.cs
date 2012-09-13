@@ -32,12 +32,12 @@ namespace MASGAU.Main {
             //            AddGameLocation.ButtonText = Strings.GetLabelString(AddGameLocation.ButtonText);
             Array values = Enum.GetValues(typeof(game_locations));
             foreach (game_locations val in values) {
-                if (val == game_locations.Steamapps && !Core.locations.steam_detected)
+                if (val == game_locations.Steamapps && !Common.Locations.steam_detected)
                     continue;
-                else if (val == game_locations.ProgramFilesX86 && Core.locations.getFolder(EnvironmentVariable.ProgramFilesX86, null) == null)
+                else if (val == game_locations.ProgramFilesX86 && Common.Locations.getFolder(EnvironmentVariable.ProgramFilesX86, null) == null)
                     continue;
                 else if ((val == game_locations.PublicUser || val == game_locations.VirtualStore || val == game_locations.SavedGames) &&
-                    Core.locations.platform_version == "WindowsXP")
+                    Common.Locations.platform_version == "WindowsXP")
                     continue;
 
                 ComboBoxItem item = new ComboBoxItem();
@@ -66,18 +66,18 @@ namespace MASGAU.Main {
                         folder = Environment.SpecialFolder.ProgramFilesX86;
                         break;
                     case game_locations.Steamapps:
-                        default_folder = Path.Combine(Core.settings.steam_path, "steamapps");
+                        default_folder = Path.Combine(Common.Settings.steam_path, "steamapps");
                         break;
                     case game_locations.MyDocuments:
                         folder = Environment.SpecialFolder.MyDocuments;
                         break;
                     case game_locations.SavedGames:
                         folder = Environment.SpecialFolder.UserProfile;
-                        default_folder = Core.locations.getFolder(EnvironmentVariable.SavedGames, null);
+                        default_folder = Common.Locations.getFolder(EnvironmentVariable.SavedGames, null);
                         break;
                     case game_locations.VirtualStore:
                         folder = Environment.SpecialFolder.LocalApplicationData;
-                        default_folder = Path.Combine(Core.locations.getFolder(EnvironmentVariable.LocalAppData, null), "VirtualStore");
+                        default_folder = Path.Combine(Common.Locations.getFolder(EnvironmentVariable.LocalAppData, null), "VirtualStore");
                         break;
                     case game_locations.LocalAppData:
                         folder = Environment.SpecialFolder.LocalApplicationData;
@@ -86,10 +86,10 @@ namespace MASGAU.Main {
                         folder = Environment.SpecialFolder.ApplicationData;
                         break;
                     case game_locations.PublicUser:
-                        default_folder = Core.locations.getFolder(EnvironmentVariable.Public, null);
+                        default_folder = Common.Locations.getFolder(EnvironmentVariable.Public, null);
                         break;
                     case game_locations.AllUsers:
-                        default_folder = Core.locations.getFolder(EnvironmentVariable.AllUsersProfile, null);
+                        default_folder = Common.Locations.getFolder(EnvironmentVariable.AllUsersProfile, null);
                         break;
                 }
             } else {
@@ -142,13 +142,13 @@ namespace MASGAU.Main {
 
         private void AddGameButton_Click(object sender, RoutedEventArgs e) {
             CustomGameEntry game = Games.addCustomGame(AddGameTitle.Value, new System.IO.DirectoryInfo(AddGameLocation.Value), AddGameSaves.Value, AddGameExclusions.Value);
-            if (!Core.settings.SuppressSubmitRequests) {
+            if (!Common.Settings.SuppressSubmitRequests) {
                 RequestReply reply = TranslatingRequestHandler.Request(RequestType.Question, "PleaseSubmitGame", true);
                 if (!reply.Cancelled) {
                     createGameSubmission(game);
                 } else {
                     if (reply.Suppressed)
-                        Core.settings.SuppressSubmitRequests = true;
+                        Common.Settings.SuppressSubmitRequests = true;
                 }
             }
             closeAddGame(true);

@@ -48,8 +48,8 @@ namespace MASGAU {
 
             mail.To.Add(to);
             mail.Subject = title;
-            mail.Body = body + Environment.NewLine + Environment.NewLine + "Sent from version " + Core.version;
-            mail.ReplyToList.Add(new MailAddress(Core.settings.EmailSender));
+            mail.Body = body + Environment.NewLine + Environment.NewLine + "Sent from version " + Common.VersionString;
+            mail.ReplyToList.Add(new MailAddress(Common.Settings.EmailSender));
 
             //AlternateView planview = AlternateView.CreateAlternateViewFromString("This is my plain text content, viewable tby those clients that don't support html");
             //AlternateView htmlview = AlternateView.CreateAlternateViewFromString("<b>This is bold text and viewable by those mail clients that support html<b>");
@@ -58,7 +58,7 @@ namespace MASGAU {
 
             mail.IsBodyHtml = false;
             mail.Priority = MailPriority.High;
-            mail.Headers.Add("Disposition-Notification-To", "<" + Core.submission_email + ">");
+            mail.Headers.Add("Disposition-Notification-To", "<" + Common.SubmissionEmail + ">");
             // mail.Attachments.Add(Server.MapPath("/"));
             SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587) {
                 //Credentials = new System.Net.NetworkCredential(email_sender, email_password),

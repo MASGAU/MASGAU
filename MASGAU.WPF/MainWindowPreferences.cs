@@ -9,7 +9,7 @@ namespace MASGAU.Main {
     public partial class MainWindowNew {
 
         private void versioningTimingUnit_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) {
-            Core.settings.VersioningUnit = (VersioningUnit)versioningTimingUnit.SelectedIndex;
+            Common.Settings.VersioningUnit = (VersioningUnit)versioningTimingUnit.SelectedIndex;
         }
 
         public void bindSettingsControls() {
@@ -17,25 +17,25 @@ namespace MASGAU.Main {
             foreach (VersioningUnit suit in Enum.GetValues(typeof(VersioningUnit))) {
                 versioningTimingUnit.Items.Add(Strings.GetLabelString(suit.ToString()));
             }
-            versioningTimingUnit.SelectedIndex = (int)Core.settings.VersioningUnit;
+            versioningTimingUnit.SelectedIndex = (int)Common.Settings.VersioningUnit;
 
-            versioningButton.DataContext = Core.settings;
+            versioningButton.DataContext = Common.Settings;
 
-            versioningMax.DataContext = Core.settings;
-            versioningTiming.DataContext = Core.settings;
+            versioningMax.DataContext = Common.Settings;
+            versioningTiming.DataContext = Common.Settings;
 
-            versioningTimingUnit.DataContext = Core.settings;
+            versioningTimingUnit.DataContext = Common.Settings;
 
-            ignoreDates.DataContext = Core.settings;
-            autoStart.DataContext = Core.startup;
+            ignoreDates.DataContext = Common.Settings;
+            autoStart.DataContext = Common.Startup;
 
-            emailText.DataContext = Core.settings;
+            emailText.DataContext = Common.Settings;
         }
 
         private void populateAltPaths() {
             AltSaveButton.Items.Clear();
             AltSaveButton.Items.Add(AddAltSaveFolder);
-            foreach (AltPathHolder alt in Core.settings.save_paths) {
+            foreach (AltPathHolder alt in Common.Settings.save_paths) {
                 RibbonMenuItem item = new RibbonMenuItem();
                 item.Header = Strings.GetLabelString("RemoteAltSavePath", alt.path);
                 item.ToolTip = alt.path;
@@ -47,7 +47,7 @@ namespace MASGAU.Main {
         void item_Click(object sender, RoutedEventArgs e) {
             RibbonMenuItem item = sender as RibbonMenuItem;
             string name = item.ToolTip.ToString();
-            Core.settings.removeSavePath(name);
+            Common.Settings.removeSavePath(name);
             populateAltPaths();
             askRefreshGames("RefreshForRemovedSavePath");
         }
@@ -59,8 +59,8 @@ namespace MASGAU.Main {
             setupSteamButton();
         }
         protected void setupSteamButton() {
-            if (Core.locations.steam_detected) {
-                OverrideSteamButton.ToolTip = Strings.GetToolTipString("SteamFound", Core.locations.steam_path);
+            if (Common.Locations.steam_detected) {
+                OverrideSteamButton.ToolTip = Strings.GetToolTipString("SteamFound", Common.Locations.steam_path);
                 SteamImage.Opacity = 1.0;
             } else {
                 OverrideSteamButton.ToolTip = Strings.GetToolTipString("SteamNotFound");
@@ -70,7 +70,7 @@ namespace MASGAU.Main {
 
         #region Path choosing stuff
         public bool overrideSteamPath() {
-            string old_path = Core.settings.steam_path;
+            string old_path = Common.Settings.steam_path;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = false;
             folderBrowser.Description = Strings.GetLabelString("SelectSteamPath");
@@ -78,9 +78,9 @@ namespace MASGAU.Main {
             bool try_again = false;
             do {
                 if (folderBrowser.ShowDialog(GetIWin32Window()) == System.Windows.Forms.DialogResult.OK) {
-                    Core.settings.steam_path = folderBrowser.SelectedPath;
-                    if (Core.settings.steam_path == folderBrowser.SelectedPath)
-                        return Core.settings.steam_path != old_path;
+                    Common.Settings.steam_path = folderBrowser.SelectedPath;
+                    if (Common.Settings.steam_path == folderBrowser.SelectedPath)
+                        return Common.Settings.steam_path != old_path;
                     else
                         this.showTranslatedWarning("SelectSteamPathRejected");
                 } else {
@@ -91,7 +91,7 @@ namespace MASGAU.Main {
         }
 
         public bool changeBackupPath() {
-            string old_path = Core.settings.backup_path;
+            string old_path = Common.Settings.backup_path;
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
@@ -103,7 +103,7 @@ namespace MASGAU.Main {
                     new_path = folderBrowser.SelectedPath;
                     if (PermissionsHelper.isReadable(new_path)) {
                         if (PermissionsHelper.isWritable(new_path)) {
-                            Core.settings.backup_path = new_path;
+                            Common.Settings.backup_path = new_path;
                             return new_path != old_path;
                         } else {
 
@@ -121,7 +121,7 @@ namespace MASGAU.Main {
             return false;
         }
         //public bool changeSyncPath() {
-        //    string old_path = Core.settings.sync_path;
+        //    string old_path = Common.Settings.sync_path;
         //    string new_path = null;
         //    System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
         //    folderBrowser.ShowNewFolderButton = true;
@@ -133,7 +133,7 @@ namespace MASGAU.Main {
         //            new_path = folderBrowser.SelectedPath;
         //            if (PermissionsHelper.isReadable(new_path)) {
         //                if (PermissionsHelper.isWritable(new_path)) {
-        //                    Core.settings.sync_path = new_path;
+        //                    Common.Settings.sync_path = new_path;
         //                    if (new_path != old_path)
         //                        Core.rebuild_sync = true;
         //                    return new_path != old_path;
@@ -162,7 +162,7 @@ namespace MASGAU.Main {
                 if (folderBrowser.ShowDialog(this.GetIWin32Window()) == System.Windows.Forms.DialogResult.OK) {
                     new_path = folderBrowser.SelectedPath;
                     if (PermissionsHelper.isReadable(new_path)) {
-                        if (Core.settings.addSavePath(new_path)) {
+                        if (Common.Settings.addSavePath(new_path)) {
                             try_again = false;
                             return true;
                         } else {
@@ -182,7 +182,7 @@ namespace MASGAU.Main {
         #endregion
 
         private void emailTxt_LostFocus(object sender, RoutedEventArgs e) {
-            //Core.settings.email = emailTxt.Text;
+            //Common.Settings.email = emailTxt.Text;
 
         }
         private void addAltPathBtn_Click(object sender, RoutedEventArgs e) {
@@ -192,11 +192,11 @@ namespace MASGAU.Main {
         }
 
         private void openBackupPathBtn_Click(object sender, RoutedEventArgs e) {
-            Core.openBackupPath();
+            Common.openBackupPath();
         }
 
         private void resetSteamPathBtn_Click(object sender, RoutedEventArgs e) {
-            Core.locations.resetSteam();
+            Common.Locations.resetSteam();
         }
 
         private void changeBackupPathBtn_Click(object sender, RoutedEventArgs e) {
@@ -220,9 +220,9 @@ namespace MASGAU.Main {
         protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e) {
             TextBox txt_box = (TextBox)sender;
             int cursor = txt_box.SelectionStart;
-            string new_text = Core.makeNumbersOnly(txt_box.Text);
+            string new_text = Common.makeNumbersOnly(txt_box.Text);
             cursor += new_text.Length - txt_box.Text.Length;
-            txt_box.Text = Core.makeNumbersOnly(txt_box.Text);
+            txt_box.Text = Common.makeNumbersOnly(txt_box.Text);
             txt_box.SelectionStart = cursor;
         }
 

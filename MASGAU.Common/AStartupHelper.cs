@@ -1,11 +1,11 @@
 ﻿using MASGAU.Registry;
 using MVC;
 namespace MASGAU {
-    public class StartupHelper : ANotifyingObject {
+    public abstract class AStartupHelper : ANotifyingObject {
 
         RegistryHandler reg;
         private string name, program;
-        public StartupHelper(string name, string program) {
+        public AStartupHelper(string name, string program) {
             this.name = name;
             this.program = program;
             reg = new RegistryHandler("current_user", @"SOFTWARE\Microsoft\Windows\CurrentVersion\Run", true);

@@ -8,10 +8,10 @@ namespace MASGAU {
     public partial class AboutControl : UserControl {
         public AboutControl() {
             InitializeComponent();
-            versionLabel.Content += " v." + Core.version;
-            siteLink.NavigateUri = new Uri(Core.masgau_url);
+            versionLabel.Content += " v." + Common.VersionString;
+            siteLink.NavigateUri = new Uri(Common.MasgauUrl);
             siteLink.Inlines.Clear();
-            siteLink.Inlines.Add(Core.masgau_url);
+            siteLink.Inlines.Add(Common.MasgauUrl);
         }
 
 

@@ -7,7 +7,7 @@ namespace MASGAU.Location {
 
         protected override Dictionary<string, FileInfo> collectConfigFiles() {
             Dictionary<string, FileInfo> files = new Dictionary<string, FileInfo>();
-            ASystemLocationHandler handler = Core.locations.getHandler(HandlerType.System) as ASystemLocationHandler;
+            ASystemLocationHandler handler = Common.Locations.getHandler(HandlerType.System) as ASystemLocationHandler;
 
             foreach (UserData user in handler) {
                 if (user.hasFolderFor(EnvironmentVariable.AppData)) {
@@ -43,7 +43,7 @@ namespace MASGAU.Location {
 
             if (install_path != null) {
                 LocationPath loc = SystemLocationHandler.translateToVirtualStore(install_path);
-                DetectedLocations vlocs = Core.locations.getPaths(loc);
+                DetectedLocations vlocs = Common.Locations.getPaths(loc);
                 List<string> keys = new List<string>(vlocs.Keys);
                 foreach (string key in keys) {
                     if (!filterLocation(vlocs[key], get_me, vlocs[key].owner)) {

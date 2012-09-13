@@ -19,7 +19,7 @@ namespace MASGAU {
 
             if (all_users_mode) {
                 if (!admin_status) {
-                    SecurityHandler.elevation(Core.ExecutableName, null, false);
+                    SecurityHandler.elevation(Common.ExecutablePath, null, false);
                     Environment.Exit(0);
                 } else {
                 }

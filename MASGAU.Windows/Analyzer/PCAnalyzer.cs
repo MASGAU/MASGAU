@@ -16,15 +16,15 @@ namespace MASGAU.Analyzer {
             ProgressHandler.max += 3;
             base.analyzerWork();
 
-            if (Core.locations.uac_enabled) {
+            if (Common.Locations.uac_enabled) {
                 TranslatingProgressHandler.setTranslatedMessage("DumpingVirtualStore");
                 outputLine(Environment.NewLine + "UAC Enabled" + Environment.NewLine);
                 outputLine(Environment.NewLine + "VirtualStore Folders: ");
                 string virtual_path;
 
-                foreach (string user in Core.locations.getUsers(EnvironmentVariable.LocalAppData)) {
+                foreach (string user in Common.Locations.getUsers(EnvironmentVariable.LocalAppData)) {
                     LocationPath parse_me = new LocationPath(EnvironmentVariable.LocalAppData, "VirtualStore");
-                    virtual_path = Path.Combine(Core.locations.getAbsoluteRoot(parse_me, user), "VirtualStore");
+                    virtual_path = Path.Combine(Common.Locations.getAbsoluteRoot(parse_me, user), "VirtualStore");
 
                     virtual_path = Path.Combine(virtual_path, path.full_dir_path.Substring(3));
                     if (Directory.Exists(virtual_path))

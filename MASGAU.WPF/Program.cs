@@ -18,7 +18,7 @@ namespace MASGAU {
 
                 Window win;
 
-                switch (Core.AppMode) {
+                switch (Common.AppMode) {
                     case AppMode.Main:
                         win = new MainWindowNew();
                         break;
@@ -26,7 +26,7 @@ namespace MASGAU {
                         win = new MASGAU.Restore.RestoreWindow();
                         break;
                     default:
-                        throw new NotSupportedException(Core.AppMode.ToString());
+                        throw new NotSupportedException(Common.AppMode.ToString());
                 }
 
                 app.Run(win);

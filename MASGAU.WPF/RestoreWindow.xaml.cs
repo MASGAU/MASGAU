@@ -28,7 +28,7 @@ namespace MASGAU.Restore {
         public RestoreWindow() : this(null) { }
 
         public RestoreWindow(Archive archive, ACommunicationWindow owner)
-            : base(new RestoreProgramHandler(archive, new Location.LocationsHandler()), owner) {
+            : base(new RestoreProgramHandler(archive), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
             default_progress_color = restoreProgress.Foreground;
@@ -36,7 +36,7 @@ namespace MASGAU.Restore {
         }
 
         public RestoreWindow(ACommunicationWindow owner)
-            : base(new RestoreProgramHandler(null, new Location.LocationsHandler()), owner) {
+            : base(new RestoreProgramHandler(null), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
             default_progress_color = restoreProgress.Foreground;
@@ -109,7 +109,7 @@ namespace MASGAU.Restore {
 
                 switch (restore.Result) {
                     case RestoreResult.Success:
-                        Core.redetect_games = true;
+                        //Core.redetect_games = true;
                         break;
                     case RestoreResult.Cancel:
                     case RestoreResult.Failed:
@@ -200,7 +200,7 @@ namespace MASGAU.Restore {
                     else
                         userCombo.SelectedIndex = 0;
                 }
-                if (!Core.StaticAllUsersMode && restore.recommended_path.EV != EnvironmentVariable.PS3Export &&
+                if (!Common.AllUsersMode && restore.recommended_path.EV != EnvironmentVariable.PS3Export &&
                     restore.recommended_path.EV != EnvironmentVariable.PS3Save &&
                     restore.recommended_path.EV != EnvironmentVariable.PSPSave)
                     otherUserButton.Visibility = System.Windows.Visibility.Visible;
@@ -303,13 +303,13 @@ namespace MASGAU.Restore {
 
 
         private void otherUserButton_Click(object sender, RoutedEventArgs e) {
-            if (!File.Exists(Core.ExecutableName)) {
-                this.showTranslatedError("FileNotFoundCritical", Core.ExecutableName);
+            if (!File.Exists(Common.ExecutablePath)) {
+                this.showTranslatedError("FileNotFoundCritical", Common.ExecutablePath);
                 return;
             }
 
             this.Visibility = System.Windows.Visibility.Collapsed;
-            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"", true) == ElevationResult.Success)
+            if (SecurityHandler.elevation(Common.ExecutablePath, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"", true) == ElevationResult.Success)
                 this.Close();
             else
                 this.Visibility = System.Windows.Visibility.Visible;

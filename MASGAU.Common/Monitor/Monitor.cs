@@ -12,7 +12,7 @@ namespace MASGAU.Monitor {
         private static Queue<MonitorFile> FileQueue = new Queue<MonitorFile>();
         private BackgroundWorker worker = new BackgroundWorker();
 
-        public static void flushQueue() {
+        public void flushQueue() {
             lock (FileQueue) {
                 FileQueue.Clear();
             }
@@ -24,7 +24,7 @@ namespace MASGAU.Monitor {
                 if (!worker.IsBusy)
                     return Strings.GetMessageString("MonitorNotRunning");
 
-                if (MonitoredCount > 0 && Core.settings.backup_path_not_set)
+                if (MonitoredCount > 0 && Common.Settings.backup_path_not_set)
                     return Strings.GetMessageString("MonitorNeedsBackupPath");
 
                 if (_status != null)
@@ -148,9 +148,9 @@ namespace MASGAU.Monitor {
                             try {
                                 if (archive == null) {
                                     if (this_file.owner == null)
-                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file));
+                                        archive = new Archive(Common.Settings.backup_path, new ArchiveID(game, this_file));
                                     else
-                                        archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file));
+                                        archive = new Archive(Common.Settings.backup_path, new ArchiveID(game, this_file));
                                     Archives.Add(archive);
                                 }
                                 //monitorNotifier.ShowBalloonTip(10, "Safety Will Robinson", "Trying to archive " + file.path, ToolTipIcon.Info);

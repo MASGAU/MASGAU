@@ -111,7 +111,7 @@ namespace MASGAU {
         }
         private static string ZipExecutable {
             get {
-                return Path.Combine(Core.ExecutablePath, "7z.exe");
+                return Path.Combine(Common.ExecutableFolder, "7z.exe");
             }
         }
         private static bool ZipExecutablePresent {
@@ -166,7 +166,7 @@ namespace MASGAU {
 
         #region Constructor
         public Archive(string folder, ArchiveID new_id) :
-            this(new FileInfo(Path.Combine(folder, new_id.ToString()) + Core.Extension), new_id) {
+            this(new FileInfo(Path.Combine(folder, new_id.ToString()) + Common.Extension), new_id) {
         }
 
         public Archive(FileInfo archive, ArchiveID new_id) :
@@ -194,7 +194,7 @@ namespace MASGAU {
             zipper.StartInfo.RedirectStandardOutput = true;
             zipper.StartInfo.RedirectStandardError = true;
             zipper.StartInfo.CreateNoWindow = true;
-            zipper.StartInfo.WorkingDirectory = Core.ExecutablePath;
+            zipper.StartInfo.WorkingDirectory = Common.ExecutableFolder;
 
             if (!ready)
                 throw new TranslateableException("FileNotFoundCritical", ZipExecutable);
@@ -289,7 +289,7 @@ namespace MASGAU {
                 DateTime file_write_time = source.LastWriteTime;
                 int time_comparison = LastModified.CompareTo(source.LastWriteTime);
 
-                if (Core.settings.IgnoreDateCheck || disable_date_check || time_comparison <= 0) {
+                if (Common.Settings.IgnoreDateCheck || disable_date_check || time_comparison <= 0) {
                     try {
                         if (!destination.Directory.Exists)
                             destination.Directory.Create();
@@ -422,7 +422,7 @@ namespace MASGAU {
                 if (!TranslatingRequestHandler.Request(RequestType.Question, "UnableToCreateOutputFolderRequest", destination).Cancelled) {
                     try {
                         MVC.Communication.Interface.InterfaceHandler.disableInterface();
-                        ElevationResult res = SecurityHandler.elevation(Core.ExecutableName, "\"" + ArchiveFile.FullName + "\"", true);
+                        ElevationResult res = SecurityHandler.elevation(Common.ExecutablePath, "\"" + ArchiveFile.FullName + "\"", true);
                         switch (res) {
                             case ElevationResult.Success:
                                 return RestoreResult.Success;
@@ -434,7 +434,7 @@ namespace MASGAU {
                                 throw new NotSupportedException(res.ToString());
                         }
                     } catch (Exception e) {
-                        throw new TranslateableException("RestoreProgramNotFound", e, Core.ExecutableName);
+                        throw new TranslateableException("RestoreProgramNotFound", e, Common.ExecutablePath);
                     }
                 } else {
                     return RestoreResult.ElevationDenied;
@@ -523,12 +523,12 @@ namespace MASGAU {
 
             // This here's the versioning stuff. Since it's here, it's universal.
             // This handles versioning copies
-            if (!disable_versioning && Core.settings.VersioningEnabled) {
-                if (Core.settings.VersioningMax != 0) {
+            if (!disable_versioning && Common.Settings.VersioningEnabled) {
+                if (Common.Settings.VersioningMax != 0) {
                     DateTime right_now = DateTime.Now;
                     FileInfo original_file = new FileInfo(file);
                     if (original_file.Exists) {
-                        if (right_now.Ticks - original_file.CreationTime.Ticks > Core.settings.VersioningTicks) {
+                        if (right_now.Ticks - original_file.CreationTime.Ticks > Common.Settings.VersioningTicks) {
                             string new_path = Path.Combine(original_file.DirectoryName, Path.GetFileNameWithoutExtension(original_file.FullName) + "@" + right_now.ToString().Replace('/', '-').Replace(':', '-') + Path.GetExtension(original_file.FullName));
                             try {
                                 File.Move(file, new_path);
@@ -551,9 +551,9 @@ namespace MASGAU {
                     Path.GetFileNameWithoutExtension(file) + "@*");
 
 
-                if (count_us.Length > Core.settings.VersioningMax) {
+                if (count_us.Length > Common.Settings.VersioningMax) {
                     Array.Sort(count_us, new MASGAU.Comparers.FileInfoComparer(true));
-                    for (long i = Core.settings.VersioningMax; i < count_us.Length; i++) {
+                    for (long i = Common.Settings.VersioningMax; i < count_us.Length; i++) {
                         try {
                             (count_us[i] as FileInfo).Delete();
                         } catch (Exception ex) {

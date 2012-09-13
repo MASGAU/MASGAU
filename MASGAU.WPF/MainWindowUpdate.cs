@@ -48,7 +48,7 @@ namespace MASGAU.Main {
             UpdateButton.IsEnabled = false;
             TranslationHelpers.translate(UpdateButton, "CheckingForUpdates");
             BackgroundWorker update = new BackgroundWorker();
-            Core.updater = new Updater.Updater(Games.xml, Games.GameDataFolder);
+            Common.Updater = new Updater.Updater(Games.xml, Games.GameDataFolder);
             ProgressHandler.saveMessage();
             update.DoWork += new DoWorkEventHandler(update_DoWork);
             update.RunWorkerCompleted += new RunWorkerCompletedEventHandler(update_RunWorkerCompleted);
@@ -56,7 +56,7 @@ namespace MASGAU.Main {
         }
 
         void update_DoWork(Object sender, DoWorkEventArgs e) {
-            e.Result = Core.updater.checkUpdates();
+            e.Result = Common.Updater.checkUpdates();
         }
         UpdateAvailability result = UpdateAvailability.None;
         protected virtual void update_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {

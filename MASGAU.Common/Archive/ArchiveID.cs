@@ -181,13 +181,13 @@ namespace MASGAU {
         public override String ToString() {
             StringBuilder return_me = new StringBuilder(Game.ToString());
             if (Owner != null)
-                return_me.Append(Core.seperator + Owner);
+                return_me.Append(Common.Seperator + Owner);
 
             if (Type != null)
-                return_me.Append(Core.seperator + Type);
+                return_me.Append(Common.Seperator + Type);
 
             if (OriginalLocationhHash != null)
-                return_me.Append(Core.seperator + OriginalLocationhHash);
+                return_me.Append(Common.Seperator + OriginalLocationhHash);
 
             return return_me.ToString();
         }

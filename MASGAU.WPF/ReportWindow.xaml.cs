@@ -26,10 +26,10 @@ namespace MASGAU {
             this.analyzer = analyzer;
             reportTxt.Text = analyzer.report;
 
-            uploadBtn.To = Core.submission_email;
+            uploadBtn.To = Common.SubmissionEmail;
             uploadBtn.Subject = "Game Data - " + analyzer.game.Title;
             uploadBtn.Message = analyzer.report;
-            uploadBtn.Source = Core.settings;
+            uploadBtn.Source = Common.Settings;
         }
 
         private string prepareReport() {

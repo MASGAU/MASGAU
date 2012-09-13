@@ -252,7 +252,7 @@ namespace MASGAU {
             ProgressHandler.clearMessage();
             ProgressHandler.state = ProgressState.Normal;
             List<GameEntry> detected_games = new List<GameEntry>();
-            Core.monitor.stop();
+            Common.Monitor.stop();
 
             //            if (model.Count == 0) {
             if ((these_games != null && these_games.Count == 0) || model.Count == 0) {
@@ -275,7 +275,7 @@ namespace MASGAU {
 
             string string_to_use = "DetectingGames";
 
-            if (Core.settings.MonitoredGames.Count > 0 && Core.AppMode == AppMode.Main)
+            if (Common.Settings.MonitoredGames.Count > 0 && Common.AppMode == AppMode.Main)
                 string_to_use = "DetectingMonitoringGames";
 
             TranslatingProgressHandler.setTranslatedMessage(string_to_use);
@@ -292,7 +292,7 @@ namespace MASGAU {
 
                 game.Detect();
 
-                if (game.IsMonitored && Core.AppMode == AppMode.Main) {
+                if (game.IsMonitored && Common.AppMode == AppMode.Main) {
                     game.startMonitoring(null, null);
                 }
 

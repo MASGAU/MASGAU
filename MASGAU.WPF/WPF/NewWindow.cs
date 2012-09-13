@@ -12,7 +12,7 @@ namespace MASGAU {
 
         }
         public NewWindow(ACommunicationWindow owner)
-            : base(owner, Core.settings) {
+            : base(owner, Common.Settings) {
             this.Owner = owner;
             //            var uriSource = new Uri(System.IO.Path.Combine(Core.ExecutablePath, "masgau.ico"), UriKind.Relative);
             //          this.Icon = new BitmapImage(uriSource);
@@ -48,7 +48,7 @@ namespace MASGAU {
                 if (folderBrowser.ShowDialog(window.GetIWin32Window()) == System.Windows.Forms.DialogResult.OK) {
                     new_path = folderBrowser.SelectedPath;
                     if (PermissionsHelper.isReadable(new_path)) {
-                        if (Core.settings.addSavePath(new_path)) {
+                        if (Common.Settings.addSavePath(new_path)) {
                             try_again = false;
                             return true;
                         } else {
@@ -94,7 +94,7 @@ namespace MASGAU {
 
 
         public bool changeSyncPath() {
-            string old_path = Core.settings.sync_path;
+            string old_path = Common.Settings.sync_path;
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
@@ -106,9 +106,9 @@ namespace MASGAU {
                     new_path = folderBrowser.SelectedPath;
                     if (PermissionsHelper.isReadable(new_path)) {
                         if (PermissionsHelper.isWritable(new_path)) {
-                            Core.settings.sync_path = new_path;
-                            if (new_path != old_path)
-                                Core.rebuild_sync = true;
+                            Common.Settings.sync_path = new_path;
+                            //if (new_path != old_path)
+                              //  Core.rebuild_sync = true;
                             return new_path != old_path;
                         } else {
                             this.displayError("Config File Error", "You don't have permission to write to the selected sync folder:" + Environment.NewLine + new_path);

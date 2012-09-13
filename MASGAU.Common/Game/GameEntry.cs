@@ -190,7 +190,7 @@ namespace MASGAU {
 
         public bool MonitorEnabled {
             get {
-                return Core.settings.isGameMonitored(id);
+                return Common.Settings.isGameMonitored(id);
             }
             set {
                 if (!CanBeMonitored)
@@ -201,7 +201,7 @@ namespace MASGAU {
                     }
                 }
 
-                Core.settings.setGameMonitored(this.id, value);
+                Common.Settings.setGameMonitored(this.id, value);
                 NotifyPropertyChanged("MonitorEnabled");
                 if (value)
                     startMonitoring();
@@ -213,7 +213,7 @@ namespace MASGAU {
 
         public bool CheckBackuptPathForMonitor() {
 
-            if (!Core.settings.IsBackupPathSet) {
+            if (!Common.Settings.IsBackupPathSet) {
                 RequestReply reply = RequestHandler.Request(RequestType.BackupFolder, false);
                 if (reply.Cancelled) {
                     TranslatingMessageHandler.SendWarning("MonitorNeedsBackupPath");
@@ -260,7 +260,7 @@ namespace MASGAU {
 
             foreach (ALocation location in locations) {
                 // This skips if a location is marked as only being for a specific version of an OS
-                if (location.OnlyFor != Core.locations.platform_version && location.OnlyFor != null)
+                if (location.OnlyFor != Common.Locations.platform_version && location.OnlyFor != null)
                     continue;
 
                 if (location.GetType() == typeof(LocationParent)) {
@@ -273,7 +273,7 @@ namespace MASGAU {
                             parent_game.Detect();
                         foreach (DetectedLocationPathHolder check_me in parent_game.DetectedLocations) {
                             string path = location.modifyPath(check_me.full_dir_path);
-                            interim.AddRange(Core.locations.interpretPath(path));
+                            interim.AddRange(Common.Locations.interpretPath(path));
                         }
                     } else {
                         TranslatingMessageHandler.SendError("ParentGameDoesntExist", game.game.ToString());
@@ -284,7 +284,7 @@ namespace MASGAU {
                     // This parses each location supplied by the XML file
                     //if(title.StartsWith("Postal 2"))
                     //if(id.platform== GamePlatform.PS1)
-                    interim.AddRange(Core.locations.getPaths(location));
+                    interim.AddRange(Common.Locations.getPaths(location));
                 }
             }
 
@@ -375,9 +375,9 @@ namespace MASGAU {
 
             ProgressHandler.suppress_communication = true;
 
-            BackupProgramHandler backup = new BackupProgramHandler(this, null, null, Core.locations);
-            backup.RunWorkerAsync();
-            while (backup.IsBusy) {
+            BackupWorker backup =  new BackupWorker(this, null, null);
+            backup.worker.RunWorkerAsync();
+            while (backup.worker.IsBusy) {
                 Thread.Sleep(100);
             }
 
