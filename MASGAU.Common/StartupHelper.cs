@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using MASGAU.Registry;
+﻿using MASGAU.Registry;
 using MVC;
 namespace MASGAU {
-    public class StartupHelper: ANotifyingObject {
+    public class StartupHelper : ANotifyingObject {
 
         RegistryHandler reg;
         private string name, program;
@@ -21,7 +17,7 @@ namespace MASGAU {
             }
             set {
                 if (value) {
-                    if(!reg.setValue(name, program))
+                    if (!reg.setValue(name, program))
                         throw new Translator.TranslateableException("AutoStartEnableError");
                 } else {
                     if (reg.getValue(name) != null) {

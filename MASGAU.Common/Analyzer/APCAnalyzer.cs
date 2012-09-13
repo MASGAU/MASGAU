@@ -1,16 +1,16 @@
 ﻿using System;
-using System.IO;
 using System.ComponentModel;
-using MVC.Communication;
-using MVC.Translator;
+using System.IO;
+using GameSaveInfo;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using GameSaveInfo;
+using MVC.Communication;
+using MVC.Translator;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {
         protected DetectedLocationPathHolder path;
         protected APCAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
-            : base(game,when_done) {
+            : base(game, when_done) {
         }
 
         protected override void analyzerWork() {

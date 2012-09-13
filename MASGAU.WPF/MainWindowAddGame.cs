@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using MVC.Translator;
-using SMJ.WPF.Effects;
-using MASGAU.Location;
-using MVC.Communication;
-using Translator;
-using MASGAU.Analyzer;
-using System.ComponentModel;
-using System.Threading;
-using SMJ.WPF;
 using GameSaveInfo;
+using MASGAU.Analyzer;
+using MVC.Communication;
+using MVC.Translator;
+using SMJ.WPF;
+using Translator;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
         private enum game_locations {
@@ -32,7 +29,7 @@ namespace MASGAU.Main {
         private void addGameSetup() {
 
             AddGameLocation.Button.clearOptions();
-//            AddGameLocation.ButtonText = Strings.GetLabelString(AddGameLocation.ButtonText);
+            //            AddGameLocation.ButtonText = Strings.GetLabelString(AddGameLocation.ButtonText);
             Array values = Enum.GetValues(typeof(game_locations));
             foreach (game_locations val in values) {
                 if (val == game_locations.Steamapps && !Core.locations.steam_detected)
@@ -135,17 +132,17 @@ namespace MASGAU.Main {
                 return;
             } else {
                 AddGameTitle.Header = Strings.GetLabelString("AddGameTitle");
-                AddGameTitle.Foreground = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(0,0,0));
+                AddGameTitle.Foreground = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(0, 0, 0));
             }
-                
-            if(AddGameButton!=null)
-                AddGameButton.IsEnabled = AddGameTitle.Value!=""&&AddGameLocation.Value!="";
+
+            if (AddGameButton != null)
+                AddGameButton.IsEnabled = AddGameTitle.Value != "" && AddGameLocation.Value != "";
         }
 
 
         private void AddGameButton_Click(object sender, RoutedEventArgs e) {
             CustomGameEntry game = Games.addCustomGame(AddGameTitle.Value, new System.IO.DirectoryInfo(AddGameLocation.Value), AddGameSaves.Value, AddGameExclusions.Value);
-            if(!Core.settings.SuppressSubmitRequests) {
+            if (!Core.settings.SuppressSubmitRequests) {
                 RequestReply reply = TranslatingRequestHandler.Request(RequestType.Question, "PleaseSubmitGame", true);
                 if (!reply.Cancelled) {
                     createGameSubmission(game);
@@ -233,7 +230,7 @@ namespace MASGAU.Main {
                 analyzer.game.Submitted = true;
                 Games.saveCustomGames();
             }
-            if(askAboutGame())
+            if (askAboutGame())
                 return;
 
             submitGame.IsEnabled = Games.HasUnsubmittedGames;

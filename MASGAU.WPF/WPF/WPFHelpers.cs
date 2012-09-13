@@ -1,6 +1,4 @@
-﻿using Translator;
-using Translator.WPF;
-namespace MASGAU {
+﻿namespace MASGAU {
     public class WPFHelpers {
 
 

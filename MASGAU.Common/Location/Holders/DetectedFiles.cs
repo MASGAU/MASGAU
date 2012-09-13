@@ -26,7 +26,7 @@ namespace MASGAU.Location.Holders {
             }
         }
         public void AddFiles(Include save, DetectedLocationPathHolder location) {
-            AddFiles(save,location,new Regex(".*"));
+            AddFiles(save, location, new Regex(".*"));
         }
         public void AddFiles(Include save, DetectedLocationPathHolder location, Regex reg) {
             foreach (string file in save.FindMatching(location.full_dir_path)) {

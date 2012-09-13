@@ -1,20 +1,14 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using System.Diagnostics;
 using System.Threading;
 using System.Windows;
 using System.Windows.Input;
-using System.Windows.Media.Imaging;
 using System.Windows.Threading;
-using System.Diagnostics;
 using MVC.Communication;
-using MVC.Translator;
 using MVC.WPF;
-using Microsoft.Windows.Controls.Ribbon;
+using SMJ.WPF.Effects;
 using Translator;
 using Translator.WPF;
-using System.Windows.Forms;
-using System.IO;
-using SMJ.WPF.Effects;
 namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
@@ -33,9 +27,9 @@ namespace MASGAU.Main {
             this.AllowDrop = true;
             this.Drop += new System.Windows.DragEventHandler(MainWindowNew_Drop);
 
-            VersionLabel.Content = Strings.GetLabelString("MASGAUAboutVersion",Core.ProgramVersion.ToString());
+            VersionLabel.Content = Strings.GetLabelString("MASGAUAboutVersion", Core.ProgramVersion.ToString());
 
-            if(Core.Ready)
+            if (Core.Ready)
                 this.DataContext = Core.settings;
 
             TranslationHelpers.translateWindow(this);
@@ -97,7 +91,7 @@ namespace MASGAU.Main {
 
             AllUsersModeButton.DataContext = masgau;
 
-            
+
             ArchiveList.DataContext = null;
 
 
@@ -182,7 +176,7 @@ namespace MASGAU.Main {
 
 
         public void updateWindowState() {
-            switch(this.WindowState) {
+            switch (this.WindowState) {
                 case System.Windows.WindowState.Normal:
                     Core.settings.WindowState = global::Config.WindowState.Normal;
                     break;
@@ -193,7 +187,7 @@ namespace MASGAU.Main {
                     Core.settings.WindowState = global::Config.WindowState.Minimized;
                     break;
             }
-            if(!this.ShowInTaskbar)
+            if (!this.ShowInTaskbar)
                 Core.settings.WindowState = global::Config.WindowState.Iconified;
         }
 
@@ -224,10 +218,10 @@ namespace MASGAU.Main {
             }
 
             toggleVisibility();
-            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers", false)== ElevationResult.Success)
+            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers", false) == ElevationResult.Success)
                 this.Close();
             else
-            toggleVisibility();
+                toggleVisibility();
         }
 
         private void AllUsersModeButton_Click(object sender, RoutedEventArgs e) {

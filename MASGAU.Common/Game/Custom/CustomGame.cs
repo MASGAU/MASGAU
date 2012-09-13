@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml;
 using System.IO;
-using System.Text.RegularExpressions;
+using System.Xml;
 using GameSaveInfo;
 namespace MASGAU {
-    public class CustomGame: GameSaveInfo.Game {
+    public class CustomGame : GameSaveInfo.Game {
         private bool _submitted = false;
         public bool Submitted {
             get {
@@ -26,9 +22,10 @@ namespace MASGAU {
         }
 
 
-        public CustomGame(string title, DirectoryInfo location, string saves, string ignores, XmlDocument doc): base(doc){
+        public CustomGame(string title, DirectoryInfo location, string saves, string ignores, XmlDocument doc)
+            : base(doc) {
             this.Title = title;
-            Name =  prepareGameName(title);
+            Name = prepareGameName(title);
             this.Type = GameType.game;
             CustomGameVersion version = new CustomGameVersion(this, location, saves, ignores);
             this.Versions.Add(version);

@@ -6,13 +6,13 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading;
 using System.Xml;
-using MVC.Communication;
-using MVC.Translator;
 using MASGAU.Location.Holders;
 using MASGAU.Restore;
 using MVC;
-using XmlData;
+using MVC.Communication;
+using MVC.Translator;
 using Translator;
+using XmlData;
 namespace MASGAU {
     public class Archive : AModelItem<ArchiveID> {
         #region Archive identification stuff
@@ -28,12 +28,12 @@ namespace MASGAU {
         }
 
 
-        public System.Drawing.Color BackgroundColor {
+        public override System.Drawing.Color BackgroundColor {
             get {
                 return id.Game.BackgroundColor;
             }
         }
-        public System.Drawing.Color SelectedColor {
+        public override System.Drawing.Color SelectedColor {
             get {
                 return id.Game.SelectedColor;
             }
@@ -156,7 +156,7 @@ namespace MASGAU {
             try {
                 purgeTemp();
                 Directory.CreateDirectory(TempFolder);
-            } catch(TranslateableException e) {
+            } catch (TranslateableException e) {
                 throw e;
             } catch (Exception e) {
                 throw new TranslateableException("FolderPrepError", e, TempFolder);
@@ -197,7 +197,7 @@ namespace MASGAU {
             zipper.StartInfo.WorkingDirectory = Core.ExecutablePath;
 
             if (!ready)
-                throw new TranslateableException("FileNotFoundCritical",ZipExecutable);
+                throw new TranslateableException("FileNotFoundCritical", ZipExecutable);
 
 
             // If the archive is new, then the following won't apply
@@ -210,7 +210,7 @@ namespace MASGAU {
             extract(xml_file, false);
 
             if (File.Exists(Path.Combine(TempFolder, "masgau.xml"))) {
-                XmlFile file = new XmlFile(new FileInfo(Path.Combine(TempFolder, "masgau.xml")),false);
+                XmlFile file = new XmlFile(new FileInfo(Path.Combine(TempFolder, "masgau.xml")), false);
                 XmlElement root = file.DocumentElement;
                 id = new ArchiveID(root);
 
@@ -275,7 +275,7 @@ namespace MASGAU {
                 // Copies the particular file to a relative path inside the temp folder
                 FileInfo source;
                 FileInfo destination;
-                if (file.Path == ""||file.Path==null) {
+                if (file.Path == "" || file.Path == null) {
                     source = new FileInfo(Path.Combine(file.AbsoluteRoot, file.Name));
                     destination = new FileInfo(Path.Combine(TempFolder, file.Name));
                 } else {
@@ -357,7 +357,7 @@ namespace MASGAU {
                     if (!SecurityHandler.amAdmin()) {
                         // If we aren't we elevate ourselves
                         RestoreResult res = restoreElevation(destination.FullName);
-                        if(res!= RestoreResult.Success) {
+                        if (res != RestoreResult.Success) {
                             return res;
                         }
                     } else {
@@ -413,16 +413,16 @@ namespace MASGAU {
         }
         private RestoreResult restoreElevation(string destination) {
             try {
-             //   if (SecurityHandler.amAdmin()) {
-               //     TranslatingMessageHandler.SendError("UnableToCreateOutputFolderAdmin", destination);
-                 //   return false;
+                //   if (SecurityHandler.amAdmin()) {
+                //     TranslatingMessageHandler.SendError("UnableToCreateOutputFolderAdmin", destination);
+                //   return false;
                 //}
 
                 MVC.Communication.Interface.InterfaceHandler.disableInterface();
                 if (!TranslatingRequestHandler.Request(RequestType.Question, "UnableToCreateOutputFolderRequest", destination).Cancelled) {
                     try {
                         MVC.Communication.Interface.InterfaceHandler.disableInterface();
-                        ElevationResult res = SecurityHandler.elevation(Core.ExecutableName, "\"" + ArchiveFile.FullName + "\"",true);
+                        ElevationResult res = SecurityHandler.elevation(Core.ExecutableName, "\"" + ArchiveFile.FullName + "\"", true);
                         switch (res) {
                             case ElevationResult.Success:
                                 return RestoreResult.Success;

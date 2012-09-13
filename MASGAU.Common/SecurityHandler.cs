@@ -1,13 +1,12 @@
 using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-//using System.Windows.Forms;
 using System.Security.Principal;
 using System.Text;
-using System.ComponentModel;
-using MVC.Translator;
-using MVC.Communication;
 using MASGAU;
+using MVC.Communication;
+using MVC.Translator;
 public class SecurityHandler {
     [DllImport("user32")]
     public static extern UInt32 SendMessage
@@ -42,8 +41,8 @@ public class SecurityHandler {
         }
         if (!Core.settings.SuppressElevationWarnings) {
             ResponseType response = ResponseType.OK;
-            if (Environment.OSVersion.Version<new Version(6,0)) {
-                    response = TranslatingMessageHandler.SendWarning("ElevationXPWarning", true);
+            if (Environment.OSVersion.Version < new Version(6, 0)) {
+                response = TranslatingMessageHandler.SendWarning("ElevationXPWarning", true);
             }
             if (response >= ResponseType.Suppressed)
                 Core.settings.SuppressElevationWarnings = true;
@@ -85,7 +84,7 @@ public class SecurityHandler {
                 default:
                     return ElevationResult.Failed;
             }
-        } catch (Exception e) {
+        } catch (Exception) {
             return ElevationResult.Failed;
         }
         return ElevationResult.Success;

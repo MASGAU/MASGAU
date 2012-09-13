@@ -1,15 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
 using MASGAU.Location.Holders;
-using System;
-using Translator;
-using Translator.WPF;
-using Microsoft.Windows.Controls.Ribbon;
 using MASGAU.Settings;
-using MVC.WPF;
-using MVC.Communication;
+using Microsoft.Windows.Controls.Ribbon;
+using Translator;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
 
@@ -33,7 +28,7 @@ namespace MASGAU.Main {
 
             ignoreDates.DataContext = Core.settings;
             autoStart.DataContext = Core.startup;
-            
+
             emailText.DataContext = Core.settings;
         }
 

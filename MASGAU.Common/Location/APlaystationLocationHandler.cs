@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using MASGAU.Location.Holders;
 using GameSaveInfo;
+using MASGAU.Location.Holders;
 namespace MASGAU.Location {
 
     public abstract class APlaystationLocationHandler : ALocationHandler {

@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
-using MASGAU.Location;
 using MASGAU.Location.Holders;
 using MVC.Communication;
 using MVC.Translator;
-namespace MASGAU.Monitor
-{
-    public class MonitorPath: FileSystemWatcher
-    {
+namespace MASGAU.Monitor {
+    public class MonitorPath : FileSystemWatcher {
         public new DetectedLocationPathHolder Path { get; protected set; }
-        public GameEntry Game{ get; protected set; }
-        public MonitorPath(GameEntry game, DetectedLocationPathHolder path): base(path.full_dir_path,"*") {
+        public GameEntry Game { get; protected set; }
+        public MonitorPath(GameEntry game, DetectedLocationPathHolder path)
+            : base(path.full_dir_path, "*") {
             this.Path = path;
             this.Game = game;
 
@@ -47,8 +42,8 @@ namespace MASGAU.Monitor
 
 
         public void start() {
-            while (!Core.settings.IsBackupPathSet&&!backuppathwarned) {
-                RequestReply reply = RequestHandler.Request(RequestType.BackupFolder,false);
+            while (!Core.settings.IsBackupPathSet && !backuppathwarned) {
+                RequestReply reply = RequestHandler.Request(RequestType.BackupFolder, false);
                 if (reply.Cancelled) {
                     TranslatingMessageHandler.SendWarning("MonitorNeedsBackupPath");
                     backuppathwarned = true;

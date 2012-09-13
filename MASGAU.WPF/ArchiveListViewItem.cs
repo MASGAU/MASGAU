@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows.Media;
+﻿using System.Text;
 using System.Windows.Controls;
+using System.Windows.Media;
 namespace MASGAU {
-    public class ArchiveListViewItem: GameListViewItem {
+    public class ArchiveListViewItem : GameListViewItem {
         private Label typeLabel = new Label();
         private Label dateLabel = new Label();
 
@@ -42,7 +39,7 @@ namespace MASGAU {
 
         }
 
-        public new Archive ArchiveDataSource {
+        public Archive ArchiveDataSource {
             set {
                 this.DataSource = value;
             }

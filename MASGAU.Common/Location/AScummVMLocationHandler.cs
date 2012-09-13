@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using Collections;
 using Config;
-using MASGAU.Location.Holders;
 using GameSaveInfo;
+using MASGAU.Location.Holders;
 namespace MASGAU.Location {
 
     public abstract class AScummVMLocationHandler : ALocationHandler {
@@ -57,7 +57,7 @@ namespace MASGAU.Location {
             DetectedLocations return_me = new DetectedLocations();
 
             foreach (string user in Locations.Keys) {
-                if (get_me.Name!="scummvm"&&Locations[user].ContainsKey("scummvm")) {
+                if (get_me.Name != "scummvm" && Locations[user].ContainsKey("scummvm")) {
                     foreach (DetectedLocationPathHolder path in loadLocations(Locations[user]["scummvm"], get_me, user)) {
                         DirectoryInfo info = new DirectoryInfo(path.full_dir_path);
                         if (info.GetFiles(get_me.Name + "*").Length > 0) {

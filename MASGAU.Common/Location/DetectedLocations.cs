@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using MASGAU.Location.Holders;
 namespace MASGAU.Location {
-    public class DetectedLocations : Dictionary<string,DetectedLocationPathHolder>, IEnumerable<DetectedLocationPathHolder> {
+    public class DetectedLocations : Dictionary<string, DetectedLocationPathHolder>, IEnumerable<DetectedLocationPathHolder> {
 
         public DetectedLocationPathHolder getMostAccurateLocation() {
             DetectedLocationPathHolder candidate = null;

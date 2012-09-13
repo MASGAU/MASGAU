@@ -1,10 +1,10 @@
 ﻿using System;
+using System.IO;
 using System.Text;
 using System.Xml;
-using System.IO;
-using MVC;
 using GameSaveInfo;
 using MASGAU.Location.Holders;
+using MVC;
 namespace MASGAU {
     public class ArchiveID : AIdentifier {
         public readonly String Owner;
@@ -138,7 +138,7 @@ namespace MASGAU {
             DetectedLocationPathHolder loc = first_file.OriginalLocation;
 
 
-            OriginalLocation = loc.full_dir_path ;
+            OriginalLocation = loc.full_dir_path;
             OriginalEV = loc.EV;
             OriginalRelativePath = loc.Path;
         }

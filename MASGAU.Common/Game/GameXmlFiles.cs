@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Xml;
-using MVC.Translator;
-using Updater;
-using Translator;
-using XmlData;
-using GameSaveInfo;
 using System.Reflection;
+using System.Xml;
+using GameSaveInfo;
+using MVC.Translator;
+using Translator;
+using Updater;
+using XmlData;
 namespace MASGAU.Game {
-    public class GameXmlFiles: AXmlDataFileCollection<GameXmlFile,GameSaveInfo.Game>, IVersionSource {
+    public class GameXmlFiles : AXmlDataFileCollection<GameXmlFile, GameSaveInfo.Game>, IVersionSource {
         public Version ProgramVersion {
             get {
                 return Core.ProgramVersion;
@@ -32,7 +32,7 @@ namespace MASGAU.Game {
                 List<string> return_me = new List<string>();
                 string[] names = Assembly.GetExecutingAssembly().GetManifestResourceNames();
                 foreach (string name in names) {
-                    if (name.ToLower().StartsWith("MASGAU.Data".ToLower())&&
+                    if (name.ToLower().StartsWith("MASGAU.Data".ToLower()) &&
                         name.ToLower().EndsWith(".xml")) {
                         return_me.Add(name.Substring(12));
                     }
@@ -65,7 +65,7 @@ namespace MASGAU.Game {
             }
         }
 
-        public CustomGameXmlFile custom { get; protected set;  }
+        public CustomGameXmlFile custom { get; protected set; }
         public DirectoryInfo DataFolder {
             get {
                 switch (Core.settings.mode) {
@@ -94,7 +94,7 @@ namespace MASGAU.Game {
 
             List<FileInfo> files = new List<FileInfo>();
             foreach (FileInfo info in DataFolder.GetFiles("*.xml")) {
-                if(ReadableXmlFiles.Contains(info.Name)) 
+                if (ReadableXmlFiles.Contains(info.Name))
                     files.Add(info);
             }
 
@@ -103,9 +103,9 @@ namespace MASGAU.Game {
                 if (this.custom == null)
                     this.custom = new CustomGameXmlFile(new FileInfo(Path.Combine(DataFolder.FullName, "custom.xml")));
             } catch (DirectoryNotFoundException e) {
-                throw new TranslateableException("CouldNotFindGameProfilesFolder",e);
+                throw new TranslateableException("CouldNotFindGameProfilesFolder", e);
             } catch (FileNotFoundException e) {
-                throw new TranslateableException("NoXmlFilesInDataFolder",e);
+                throw new TranslateableException("NoXmlFilesInDataFolder", e);
             }
 
             if (this.custom == null) {
@@ -114,7 +114,7 @@ namespace MASGAU.Game {
         }
 
         protected FileInfo extractResourceFile(string name) {
-            FileInfo file = new FileInfo(Path.Combine(DataFolder.FullName,name.Substring(12)));
+            FileInfo file = new FileInfo(Path.Combine(DataFolder.FullName, name.Substring(12)));
             string assembly = Assembly.GetExecutingAssembly().Location;
 
             ManifestResourceInfo info = Assembly.GetExecutingAssembly().GetManifestResourceInfo(name);
@@ -139,16 +139,16 @@ namespace MASGAU.Game {
             List<FileInfo> files = new List<FileInfo>();
             string[] names = Assembly.GetExecutingAssembly().GetManifestResourceNames();
             foreach (string name in names) {
-                if(name.ToLower().StartsWith("MASGAU.Data".ToLower()))
+                if (name.ToLower().StartsWith("MASGAU.Data".ToLower()))
                     extractResourceFile(name);
             }
             return files;
         }
 
         private bool IsRestorable(FileInfo file) {
-//            FileInfo original = new FileInfo(Path.Combine(source.FullName,file.Name));
-            return false; 
-//            original.Exists;
+            //            FileInfo original = new FileInfo(Path.Combine(source.FullName,file.Name));
+            return false;
+            //            original.Exists;
         }
 
 
@@ -164,7 +164,7 @@ namespace MASGAU.Game {
                         return file;
                     }
                 } catch (VersionNotSupportedException ex) {
-                    if (ex.FileVersion==null||!GameSaveInfo.Converters.AConverter.CanConvert(ex.FileVersion)) {
+                    if (ex.FileVersion == null || !GameSaveInfo.Converters.AConverter.CanConvert(ex.FileVersion)) {
                         string version_string;
                         if (ex.FileVersion == null)
                             version_string = Strings.GetLabelString("UnknownVersion");

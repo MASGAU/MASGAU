@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using MVC.Translator;
 using MASGAU.Location;
-using Translator;
 using MVC.Communication;
+using MVC.Translator;
+using Translator;
 namespace MASGAU.Main {
     public class MainProgramHandler : AProgramHandler {
         public bool disable_resize = false;
@@ -18,7 +18,7 @@ namespace MASGAU.Main {
             else
                 mode = Strings.GetSourceString("SingleUserMode");
 
-            _program_title = Strings.GetLabelString("MASGAUWindowTitle",Core.version.ToString(),mode);
+            _program_title = Strings.GetLabelString("MASGAUWindowTitle", Core.version.ToString(), mode);
 
         }
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e) {
@@ -58,7 +58,7 @@ namespace MASGAU.Main {
 
         #endregion
 
-        #region Methods for downloading updates 
+        #region Methods for downloading updates
         public void downloadDataUpdates() {
             ProgressHandler.value = 0;
             ProgressHandler.max = Core.updater.Data.UpdateCount;

@@ -5,9 +5,9 @@ namespace MASGAU.Location {
         public PlaystationLocationHandler()
             : base() {
             foreach (string drive in GetDriveCandidates()) {
-                setUserEv(drive, EnvironmentVariable.PSPSave, Path.Combine(drive, "PSP","SAVEDATA"));
-                setUserEv(drive, EnvironmentVariable.PS3Export, Path.Combine(drive, "PS3","EXPORT","PSV"));
-                setUserEv(drive, EnvironmentVariable.PS3Save, Path.Combine(drive, "PS3","SAVEDATA"));
+                setUserEv(drive, EnvironmentVariable.PSPSave, Path.Combine(drive, "PSP", "SAVEDATA"));
+                setUserEv(drive, EnvironmentVariable.PS3Export, Path.Combine(drive, "PS3", "EXPORT", "PSV"));
+                setUserEv(drive, EnvironmentVariable.PS3Save, Path.Combine(drive, "PS3", "SAVEDATA"));
             }
         }
 
