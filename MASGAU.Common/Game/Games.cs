@@ -255,7 +255,7 @@ namespace MASGAU {
             Core.monitor.stop();
 
             //            if (model.Count == 0) {
-            if ((these_games != null && these_games.Count == 0) || model.Count == 0) {
+            if (these_games == null || these_games.Count == 0 || model.Count == 0) {
                 loadXml();
             }
             //          }
