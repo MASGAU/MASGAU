@@ -32,11 +32,6 @@ namespace MASGAU {
             uploadBtn.Source = Core.settings;
         }
 
-        private string prepareReport() {
-            StringBuilder return_me = new StringBuilder();
-            return return_me.ToString();
-        }
-
 
         private bool saved = false;
         private void saveBtn_Click(object sender, RoutedEventArgs e) {
@@ -55,7 +50,7 @@ namespace MASGAU {
                 AAnalyzer.LastSavePath = Path.GetDirectoryName(save.FileName);
                 try {
                     StreamWriter writer = File.CreateText(save.FileName);
-                    writer.Write(prepareReport());
+                    writer.Write(reportTxt.Text);
                     writer.Close();
                     saved = true;
                 } catch (Exception ex) {

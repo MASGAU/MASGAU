@@ -1,4 +1,4 @@
-=1.0.1=
+=1.0.2=
 * Implemented custom List view to overcome the limitations of the stock one
 * Added interface text to explain the restore process
 * Changed the detect processs to, instead of throwing an exception, choosing  a game when duplicates are found, and notifying the user of that choice
@@ -11,6 +11,8 @@
 * Fixed the extract process sometimes using the install folder as a temp folder
 * Fixed a problem with files not being detected when adding custom games
 * Reduced the number of retained logs to 25
+* Fixed the report window saving empty report files
+* Fixed MASGAU constantly thinking there are updates
 
 =1.0 - Back to Alpha=
 * All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)
