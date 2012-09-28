@@ -27,7 +27,24 @@ namespace MASGAU.Analyzer {
             }
 
             string[] folders = this.path.Path.Split(System.IO.Path.DirectorySeparatorChar);
-            path.ReplacePath(folders[0]);
+
+            for (int i = folders.Length - 1; i >= 0; i--) {
+                string temp_path = folders[0];
+                for(int j = 1; j <= i; j++) {
+                    temp_path = Path.Combine(temp_path,folders[j]);
+                }
+
+                if (i == 0) {
+                    path.ReplacePath(folders[0]);
+                    break;
+                } else {
+                    DirectoryInfo dir = new DirectoryInfo( Path.Combine(path.AbsoluteRoot,temp_path));
+                    if (dir.GetFiles("*.exe").Length>0) {
+                        path.ReplacePath(temp_path);
+                        break;
+                    }
+                }
+            }
 
 
             outputLine("Operating System: ");
