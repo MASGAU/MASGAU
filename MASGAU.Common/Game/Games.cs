@@ -178,6 +178,8 @@ namespace MASGAU {
                 if (game.SourceFile == "new.xml") {
                     file_used = game.SourceFile;
                     model.Remove(current);
+                } else if(current.SourceFile=="new.xml") {
+                    file_used = current.SourceFile;
                 } else {
                     file_used = current.SourceFile;
                     dont_add = true;
