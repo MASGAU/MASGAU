@@ -66,7 +66,7 @@ namespace MASGAU.Location {
                             else
                                 test = new DirectoryInfo(alt_path.path);
                             if (test.Exists) {
-                                DetectedLocations locs = Core.locations.interpretPath(alt_path.path, get_me.Path);
+                                DetectedLocations locs = Core.locations.interpretPath(test.FullName);
                                 foreach (DetectedLocationPathHolder loc in locs) {
                                     return_me.Add(loc);
                                 }
