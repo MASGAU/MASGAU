@@ -10,10 +10,17 @@ namespace MASGAU {
                 return _submitted;
             }
             set {
-                if (this.XML.HasAttribute("submitted"))
-                    this.XML.Attributes["submitted"].Value = value.ToString();
-                else
-                    this.addAtribute(this.XML, "submitted", value.ToString());
+                if (this.XML.HasAttribute("submitted")) {
+                    if(value)
+                        this.XML.Attributes["submitted"].Value = "true";
+                    else
+                        this.XML.Attributes["submitted"].Value = "false";
+                } else {
+                    if(value)
+                        this.addAtribute(this.XML, "submitted", "true");
+                    else
+                        this.addAtribute(this.XML, "submitted", "false");
+                }
                 _submitted = value;
             }
         }
