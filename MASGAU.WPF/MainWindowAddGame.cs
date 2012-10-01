@@ -22,6 +22,7 @@ namespace MASGAU.Main {
             RoamingAppData,
             SavedGames,
             Steamapps,
+            SteamUserData,
             VirtualStore,
             PublicUser
         }
@@ -32,7 +33,7 @@ namespace MASGAU.Main {
             //            AddGameLocation.ButtonText = Strings.GetLabelString(AddGameLocation.ButtonText);
             Array values = Enum.GetValues(typeof(game_locations));
             foreach (game_locations val in values) {
-                if (val == game_locations.Steamapps && !Core.locations.steam_detected)
+                if ((val == game_locations.Steamapps || val== game_locations.SteamUserData )&& !Core.locations.steam_detected)
                     continue;
                 else if (val == game_locations.ProgramFilesX86 && Core.locations.getFolder(EnvironmentVariable.ProgramFilesX86, null) == null)
                     continue;
@@ -67,6 +68,9 @@ namespace MASGAU.Main {
                         break;
                     case game_locations.Steamapps:
                         default_folder = Path.Combine(Core.settings.steam_path, "steamapps");
+                        break;
+                    case game_locations.SteamUserData:
+                        default_folder = Path.Combine(Core.settings.steam_path, "userdata");
                         break;
                     case game_locations.MyDocuments:
                         folder = Environment.SpecialFolder.MyDocuments;

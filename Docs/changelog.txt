@@ -16,6 +16,8 @@
 * Changed analyzer behavior sot hat it stops travelling up folders when it encounters an EXE
 * Added undo support to analyzer report window
 * Changed the load process so that if a game comes from new.xml, it's always used and the user isn't nagged.
+* Added SteamUserData option to the add game folder drop down.
+* Fixed a null exception when using alt save paths
 
 =1.0 - Back to Alpha=
 * All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)
