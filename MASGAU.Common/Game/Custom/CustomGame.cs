@@ -10,18 +10,8 @@ namespace MASGAU {
                 return _submitted;
             }
             set {
-                if (this.XML.HasAttribute("submitted")) {
-                    if(value)
-                        this.XML.Attributes["submitted"].Value = "true";
-                    else
-                        this.XML.Attributes["submitted"].Value = "false";
-                } else {
-                    if(value)
-                        this.addAtribute(this.XML, "submitted", "true");
-                    else
-                        this.addAtribute(this.XML, "submitted", "false");
-                }
                 _submitted = value;
+                WriteSubmittedValue(this.XML);
             }
         }
         public CustomGame(XmlElement element)
@@ -51,11 +41,24 @@ namespace MASGAU {
 
         protected override XmlElement WriteData(XmlElement element) {
             element = base.WriteData(element);
-            if (element.HasAttribute("submitted"))
-                element.Attributes["submitted"].Value = _submitted.ToString();
-            else
-                this.addAtribute(element, "submitted", _submitted.ToString());
+            WriteSubmittedValue(element);
             return element;
+        }
+
+
+        private void WriteSubmittedValue(XmlElement element) {
+            if (element.HasAttribute("submitted")) {
+                if (_submitted)
+                    element.Attributes["submitted"].Value = "true";
+                else
+                    element.Attributes["submitted"].Value = "false";
+            } else {
+                if (_submitted)
+                    this.addAtribute(element, "submitted", "true");
+                else
+                    this.addAtribute(element, "submitted", "false");
+            }
+
         }
     }
 }
