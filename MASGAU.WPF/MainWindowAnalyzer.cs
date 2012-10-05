@@ -1,12 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using MASGAU.Location;
-using Translator;
-using Translator.WPF;
-namespace MASGAU.Main {
+﻿namespace MASGAU.Main {
     public partial class MainWindowNew {
 
         private Analyzer.AAnalyzer analyzer;

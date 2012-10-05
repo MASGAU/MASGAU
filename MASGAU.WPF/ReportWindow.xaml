@@ -14,7 +14,7 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <TextBox Name="reportTxt" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" TabIndex="0" IsTabStop="False" IsUndoEnabled="False" Margin="5" AcceptsReturn="True" AcceptsTab="True" TextChanged="reportTxt_TextChanged" />
+                <TextBox Name="reportTxt" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" TabIndex="0" IsTabStop="False" IsUndoEnabled="True" Margin="5" AcceptsReturn="True" AcceptsTab="True" TextChanged="reportTxt_TextChanged" UndoLimit="100" />
             </Grid>
         </w:CustomWindowBorder.BorderContent>
         <w:CustomWindowBorder.BottomGrid>

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
+using GameSaveInfo;
+using MASGAU.Game;
+using MVC;
 using MVC.Communication;
 using MVC.Translator;
-using MVC;
 using Translator;
-using MASGAU.Game;
-using GameSaveInfo;
 namespace MASGAU {
     public class Games : StaticModel<GameID, GameEntry> {
         public static GameXmlFiles xml;
@@ -17,7 +17,7 @@ namespace MASGAU {
 
         public static bool HasUnsubmittedGames {
             get {
-                if (xml==null||xml.custom == null)
+                if (xml == null || xml.custom == null)
                     return false;
 
                 return UnsubmittedGames.Count > 0;
@@ -29,11 +29,11 @@ namespace MASGAU {
                 foreach (CustomGame game in xml.custom.Entries) {
                     if (game.Submitted)
                         continue;
-                        foreach (CustomGameVersion version in game.Versions) {
-                            CustomGameEntry entry = Games.Get(version.ID) as CustomGameEntry;
-                            if (entry!=null&&entry.IsDetected)
-                                games.Enqueue(entry);
-                        }
+                    foreach (CustomGameVersion version in game.Versions) {
+                        CustomGameEntry entry = Games.Get(version.ID) as CustomGameEntry;
+                        if (entry != null && entry.IsDetected)
+                            games.Enqueue(entry);
+                    }
                 }
                 return games;
             }
@@ -47,7 +47,7 @@ namespace MASGAU {
 
 
         private static FilteredModel<GameID, GameEntry> _DetectedGames;
-        public static Model<GameID,GameEntry> DetectedGames {
+        public static Model<GameID, GameEntry> DetectedGames {
             get {
                 return _DetectedGames;
             }
@@ -94,12 +94,41 @@ namespace MASGAU {
             }
         }
 
+        public static bool OnlyCustomGamesSelected {
+            get {
+                lock (model) {
+                    foreach (GameEntry game in model.Items) {
+                        if (game.IsSelected) {
+                            if (game is CustomGameEntry)
+                                continue;
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }
+        }
+
+        public static List<Archive> SelectedGamesArchives {
+            get {
+                List<Archive> archives = new List<Archive>();
+                lock (DetectedGames) {
+                    foreach (GameEntry game in DetectedGames.Items) {
+                        if (game.IsSelected) {
+                            archives.AddRange(game.Archives);
+                        }
+                    }
+                }
+                return archives;
+            }
+        }
+
         static Games() {
             model.PropertyChanged += new PropertyChangedEventHandler(GamesHandler_PropertyChanged);
             model.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(GamesHandler_CollectionChanged);
 
 
-            _DetectedGames = new FilteredModel<GameID,GameEntry>(model);
+            _DetectedGames = new FilteredModel<GameID, GameEntry>(model);
             _DetectedGames.AddFilter("IsDetected", true);
         }
 
@@ -139,16 +168,25 @@ namespace MASGAU {
             xml.custom.Save();
             _DetectedGames.Refresh();
         }
+        private static bool supress_duplicate_game_warnings = false;
 
         private static void addGame(GameEntry game) {
+            bool dont_add = false;
             if (model.containsId(game.id)) {
-                    GameEntry current =  model.get(game.id);
+                GameEntry current = model.get(game.id);
+                string file_used = null;
                 if (game.SourceFile == "new.xml") {
+                    file_used = game.SourceFile;
                     model.Remove(current);
-                } else if (current.SourceFile == "new.xml") {
-                    return;
+                } else if(current.SourceFile=="new.xml") {
+                    file_used = current.SourceFile;
                 } else {
-                    throw new Translator.TranslateableException("DuplicateGame", game.id.ToString(), game.SourceFile, model.get(game.id).SourceFile);
+                    file_used = current.SourceFile;
+                    dont_add = true;
+                    if (!supress_duplicate_game_warnings) {
+                        supress_duplicate_game_warnings =
+                        TranslatingMessageHandler.SendWarning("DuplicateGame", true, game.id.ToString(), game.SourceFile, current.SourceFile, file_used) >= ResponseType.Suppressed;
+                    }
                 }
             }
             if (game.id.OS == "PS1") {
@@ -157,12 +195,14 @@ namespace MASGAU {
                 //                      psp_game = new GameXML(new GameID(psp_game.id.name, "PSP", psp_game.id.region), psp_game.xml);
                 //                  createGameObject(psp_game);
             }
-            model.AddWithSort(game);
+
+            if (!dont_add)
+                model.AddWithSort(game);
         }
 
         public static void loadXml() {
             TranslatingProgressHandler.setTranslatedMessage("LoadingGameXmls");
-
+            supress_duplicate_game_warnings = false;
             xml = new GameXmlFiles();
             model.Clear();
             if (xml.Entries.Count > 0) {
@@ -200,7 +240,7 @@ namespace MASGAU {
             List<GameID> games = new List<GameID>();
             games.Add(this_game);
             List<GameEntry> detected = detectGames(games);
-            if (detected.Count==0) {
+            if (detected.Count == 0) {
                 throw new TranslateableException("UnknownGame", this_game.ToString());
             } else if (detected.Count > 1) {
                 throw new Exceptions.WTFException("TOO MANY GAMES THIS SHOULD NOT HAPPEN REPORT IMMEDIATELY\n" + this_game.ToString());
@@ -216,9 +256,11 @@ namespace MASGAU {
             List<GameEntry> detected_games = new List<GameEntry>();
             Core.monitor.stop();
 
-//            if (model.Count == 0) {
+            //            if (model.Count == 0) {
+            if (these_games == null || these_games.Count == 0 || model.Count == 0) {
                 loadXml();
-  //          }
+            }
+            //          }
 
             int game_count;
             game_count = model.Count;
@@ -233,10 +275,10 @@ namespace MASGAU {
 
             Dictionary<string, int> contribs = new Dictionary<string, int>();
 
-            string string_to_use= "DetectingGames";
+            string string_to_use = "DetectingGames";
 
-            if(Core.settings.MonitoredGames.Count>0&&Core.AppMode== AppMode.Main)
-                    string_to_use = "DetectingMonitoringGames";
+            if (Core.settings.MonitoredGames.Count > 0 && Core.AppMode == AppMode.Main)
+                string_to_use = "DetectingMonitoringGames";
 
             TranslatingProgressHandler.setTranslatedMessage(string_to_use);
 
@@ -250,10 +292,10 @@ namespace MASGAU {
 
                 ProgressHandler.suppress_communication = true;
 
-                    game.Detect();
+                game.Detect();
 
-                if (game.IsMonitored&&Core.AppMode == AppMode.Main) {
-                    game.startMonitoring(null,null);
+                if (game.IsMonitored && Core.AppMode == AppMode.Main) {
+                    game.startMonitoring(null, null);
                 }
 
                 ProgressHandler.suppress_communication = false;
@@ -309,11 +351,11 @@ namespace MASGAU {
         }
 
         private static void purgeRoots(object sender, DoWorkEventArgs e) {
-//            if (TranslatingRequestHandler.Request(RequestType.Question, "PurgeConfirmation").Cancelled) {
-  //              e.Cancel = true;
-    //            return;
-      //      }
-            ProgressHandler.saveMessage();            
+            //            if (TranslatingRequestHandler.Request(RequestType.Question, "PurgeConfirmation").Cancelled) {
+            //              e.Cancel = true;
+            //            return;
+            //      }
+            ProgressHandler.saveMessage();
             e.Result = false;
             foreach (GameEntry game in (System.Collections.IEnumerable)e.Argument) {
                 TranslatingProgressHandler.setTranslatedMessage("Purging", game.Title);

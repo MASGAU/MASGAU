@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Text;
-using MVC.Communication;
-using MASGAU.Location.Holders;
 using MASGAU.Location;
 using MVC;
+using MVC.Communication;
 namespace MASGAU.Analyzer {
     public abstract class AAnalyzer : AWorker {
         public static string LastSavePath = null;
@@ -26,7 +25,7 @@ namespace MASGAU.Analyzer {
 
         protected AAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
             : base(when_done) {
-                this.game = game;
+            this.game = game;
         }
 
         protected void outputLine() { outputLine(""); }
@@ -118,7 +117,7 @@ namespace MASGAU.Analyzer {
         }
 
         protected bool outputPath(String path) {
-            return outputFile(path)||outputDirectory(path);
+            return outputFile(path) || outputDirectory(path);
         }
 
         private bool outputFile(FileInfo file) {

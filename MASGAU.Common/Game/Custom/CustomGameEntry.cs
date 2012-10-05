@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 namespace MASGAU {
-    public class CustomGameEntry: GameEntry {
+    public class CustomGameEntry : GameEntry {
         public bool Submitted {
             get {
                 return ((CustomGame)Game).Submitted;
@@ -16,7 +12,7 @@ namespace MASGAU {
 
         public CustomGameEntry(CustomGameVersion ver)
             : base(ver) {
-                this.Detect();
+            this.Detect();
 
         }
     }

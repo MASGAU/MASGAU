@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.IO;
-using MASGAU.Location.Holders;
 using GameSaveInfo;
+using MASGAU.Location.Holders;
 namespace MASGAU.Location {
-    public class EvFolder: Dictionary<string,string> {
+    public class EvFolder : Dictionary<string, string> {
         public bool Matches(string path) {
             foreach (string folder in this.Values) {
                 string[] split = path.Split(Path.DirectorySeparatorChar);
@@ -51,14 +48,14 @@ namespace MASGAU.Location {
 
         public bool HasMultipleDirs {
             get {
-                return this.Count>1;
+                return this.Count > 1;
             }
         }
 
         public IEnumerable<DetectedLocationPathHolder> createDetectedLocations(LocationPath loc, string owner) {
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
             foreach (string folder in this.Keys) {
-                DetectedLocationPathHolder add_me = new DetectedLocationPathHolder(loc.EV,this[folder],loc.Path,owner);
+                DetectedLocationPathHolder add_me = new DetectedLocationPathHolder(loc.EV, this[folder], loc.Path, owner);
                 return_me.Add(add_me);
             }
             return return_me;
@@ -66,7 +63,7 @@ namespace MASGAU.Location {
 
         public EvFolder(DirectoryInfo parent) {
 
-                BaseFolder = parent.FullName;
+            BaseFolder = parent.FullName;
 
             DirectoryInfo[] subs = parent.GetDirectories();
             foreach (DirectoryInfo dir in subs) {

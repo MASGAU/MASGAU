@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.IO;
 using System.Xml;
-using System.Text.RegularExpressions;
-using System.IO;
+using GameSaveInfo;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using GameSaveInfo;
 namespace MASGAU {
-    public class CustomGameVersion: GameVersion {
-        public CustomGameVersion(GameSaveInfo.Game parent, DirectoryInfo location, string saves, string ignores): base(parent, "Windows", "Custom") {
+    public class CustomGameVersion : GameVersion {
+        public CustomGameVersion(GameSaveInfo.Game parent, DirectoryInfo location, string saves, string ignores)
+            : base(parent, "Windows", "Custom") {
 
             DetectedLocations locs = Core.locations.interpretPath(location.FullName);
             DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
@@ -37,9 +33,21 @@ namespace MASGAU {
 
             FileType type = this.addFileType("Custom");
 
-            Include save = type.addSave(saves, null);
+            string path, file;
+            Include save;
+
+            if (saves != null && ignores != "") {
+                path = Path.GetDirectoryName(saves);
+                file = Path.GetFileName(saves);
+                save = type.addSave(path, file);
+            } else {
+                save = type.addSave(null, null);
+            }
+
             if (ignores != null && ignores != "") {
-                Exclude except = save.addExclusion(ignores, null);
+                path = Path.GetDirectoryName(ignores);
+                file = Path.GetFileName(ignores);
+                Exclude except = save.addExclusion(path, file);
             }
 
             if (Core.settings.EmailSender != null)
@@ -50,7 +58,8 @@ namespace MASGAU {
         }
 
 
-        public CustomGameVersion(GameSaveInfo.Game parent, XmlElement element): base(parent,element) {
+        public CustomGameVersion(GameSaveInfo.Game parent, XmlElement element)
+            : base(parent, element) {
 
         }
 

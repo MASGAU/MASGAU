@@ -1,18 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Text.RegularExpressions;
-using System.Reflection;
 namespace MASGAU {
     /// <summary>
     /// Interaction logic for RibbonSpinner.xaml
@@ -68,9 +57,8 @@ namespace MASGAU {
             return data;
         }
 
-        private static void OnNumberChanged(DependencyObject source, 
-        DependencyPropertyChangedEventArgs e)
-        {
+        private static void OnNumberChanged(DependencyObject source,
+        DependencyPropertyChangedEventArgs e) {
             RibbonSpinner control = source as RibbonSpinner;
             control.input.Text = e.NewValue.ToString();
         }
@@ -87,7 +75,7 @@ namespace MASGAU {
                 input.Text = Regex.Replace(val, @"[^0-9]+", "");
                 input.Select(val.Length, position);
             } else {
-                if(Value!=var)
+                if (Value != var)
                     SetValue(ValueProperty, var);
             }
         }

@@ -1,16 +1,6 @@
-﻿using System;
-using System.Windows;
-using System.IO;
-using System.Text;
-using MASGAU.Analyzer;
-using MVC;
+﻿using System.Windows;
 using MVC.WPF;
-using MVC.Translator;
-using Translator;
 using Translator.WPF;
-using SMJ.WPF;
-using Email;
-using Email.WPF;
 namespace MASGAU {
     /// <summary>
     /// Interaction logic for ReportWindow.xaml

@@ -5,7 +5,8 @@ namespace MASGAU.Location.Holders {
     // This holds locations that have been found
     public class DetectedLocationPathHolder : LocationPath {
 
-        public DetectedLocationPathHolder(LocationPath path, string absolute_root, string owner): base(path) {
+        public DetectedLocationPathHolder(LocationPath path, string absolute_root, string owner)
+            : base(path) {
             this.language = path.language;
             this.AbsoluteRoot = absolute_root;
             this.owner = owner;
@@ -14,10 +15,10 @@ namespace MASGAU.Location.Holders {
 
         public DetectedLocationPathHolder(EnvironmentVariable ev, string absolute_root, string path, string owner)
             : base(ev, path) {
-                if (absolute_root == null)
-                    throw new Exception("ABSOLUTE ROOT MUST BE PROVIDED");
-                this.AbsoluteRoot = absolute_root;
-                this.owner = owner;
+            if (absolute_root == null)
+                throw new Exception("ABSOLUTE ROOT MUST BE PROVIDED");
+            this.AbsoluteRoot = absolute_root;
+            this.owner = owner;
         }
 
         protected DetectedLocationPathHolder() {
