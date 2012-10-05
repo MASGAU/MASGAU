@@ -1,7 +1,4 @@
-﻿using System;
-using System.Threading;
-using MVC.Communication;
-using MVC.WPF;
+﻿using MVC.Communication;
 namespace MASGAU.Main {
     public partial class MainWindowNew : ICommunicationReceiver {
 
@@ -48,7 +45,7 @@ namespace MASGAU.Main {
 
             this.applyProgress(progress, e);
 
-//            WPFCommunicationHelpers.ApplyProgress(progress, e);
+            //            WPFCommunicationHelpers.ApplyProgress(progress, e);
         }
 
         #endregion

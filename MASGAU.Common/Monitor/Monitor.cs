@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Threading;
-using MASGAU.Location;
 using MASGAU.Location.Holders;
+using MVC;
 using MVC.Communication;
 using MVC.Translator;
 using Translator;
-using MVC;
 namespace MASGAU.Monitor {
-    public class Monitor: ANotifyingObject {
+    public class Monitor : ANotifyingObject {
         private static Queue<MonitorFile> FileQueue = new Queue<MonitorFile>();
         private BackgroundWorker worker = new BackgroundWorker();
 
@@ -24,7 +21,7 @@ namespace MASGAU.Monitor {
         private string _status = null;
         public string Status {
             get {
-                if(!worker.IsBusy)
+                if (!worker.IsBusy)
                     return Strings.GetMessageString("MonitorNotRunning");
 
                 if (MonitoredCount > 0 && Core.settings.backup_path_not_set)
@@ -39,19 +36,19 @@ namespace MASGAU.Monitor {
 
         public bool Active {
             get {
-                return worker.IsBusy&&MonitoredCount > 0;
+                return worker.IsBusy && MonitoredCount > 0;
             }
         }
 
         public void stop() {
-            if(worker.IsBusy)
+            if (worker.IsBusy)
                 worker.CancelAsync();
 
             while (worker.IsBusy)
                 Thread.Sleep(100);
         }
         public void start() {
-            if(!worker.IsBusy)
+            if (!worker.IsBusy)
                 worker.RunWorkerAsync();
         }
         public int MonitoredCount {
@@ -99,7 +96,7 @@ namespace MASGAU.Monitor {
         private int QueueCount {
             get {
                 int count;
-                lock(FileQueue) {
+                lock (FileQueue) {
                     count = FileQueue.Count;
                 }
                 return count;
@@ -141,12 +138,12 @@ namespace MASGAU.Monitor {
                             continue;
                         foreach (DetectedFile this_file in these_files) {
                             _status = game.Name + " updating " + Path.Combine(this_file.Path, this_file.Name);
-                            NotifyPropertyChanged("Status");                        
+                            NotifyPropertyChanged("Status");
 
                             if (this_file.full_dir_path == null)
                                 continue;
 
-                            Archive archive = Archives.GetArchive( game, this_file);
+                            Archive archive = Archives.GetArchive(game, this_file);
 
                             try {
                                 if (archive == null) {

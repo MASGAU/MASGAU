@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using MASGAU.Location.Holders;
 using GameSaveInfo;
+using MASGAU.Location.Holders;
 namespace MASGAU.Location {
     public abstract class ASystemLocationHandler : ALocationHandler {
         public bool uac_enabled;
@@ -66,7 +66,7 @@ namespace MASGAU.Location {
                             else
                                 test = new DirectoryInfo(alt_path.path);
                             if (test.Exists) {
-                                DetectedLocations locs = Core.locations.interpretPath(alt_path.path, get_me.Path);
+                                DetectedLocations locs = Core.locations.interpretPath(test.FullName);
                                 foreach (DetectedLocationPathHolder loc in locs) {
                                     return_me.Add(loc);
                                 }
@@ -100,7 +100,7 @@ namespace MASGAU.Location {
                         return holder.AbsoluteRoot;
                     } else {
                         foreach (string drive in drives) {
-                            if(Directory.Exists(Path.Combine(drive, parse_me.Path)))
+                            if (Directory.Exists(Path.Combine(drive, parse_me.Path)))
                                 return Path.Combine(drive, parse_me.Path);
                         }
                         return null;

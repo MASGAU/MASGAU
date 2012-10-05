@@ -1,6 +1,6 @@
 using System.IO;
-using MASGAU.Registry;
 using GameSaveInfo;
+using MASGAU.Registry;
 namespace MASGAU.Location {
     public class SteamLocationHandler : ASteamLocationHandler {
         // Custom Methods
@@ -45,7 +45,7 @@ namespace MASGAU.Location {
                     if (common_folder.Exists)
                         global.setEvFolder(EnvironmentVariable.SteamCommon, common_folder.FullName);
 
-                    DirectoryInfo source_mods = new DirectoryInfo(Path.Combine(steam_apps_path, "SourceMods"));
+                    DirectoryInfo source_mods = new DirectoryInfo(Path.Combine(steam_apps_path, "sourcemods"));
                     if (source_mods.Exists)
                         global.setEvFolder(EnvironmentVariable.SteamSourceMods, source_mods.FullName);
                 }

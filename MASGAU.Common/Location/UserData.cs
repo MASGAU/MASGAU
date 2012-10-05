@@ -1,8 +1,7 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Collections.Generic;
-using MVC;
 using GameSaveInfo;
+using MVC;
 namespace MASGAU.Location {
     public class UserData : AModelItem<StringID> {
         public string name {
@@ -21,14 +20,14 @@ namespace MASGAU.Location {
         public EvFolder getFolder(EnvironmentVariable ev) {
             if (folders.ContainsKey(ev)) {
                 return folders[ev];
-            }  else
+            } else
                 return null;
         }
         public void setEvFolder(EnvironmentVariable ev, string folder) {
             this.setEvFolder(ev, new EvFolder(folder));
         }
         public void setEvFolder(EnvironmentVariable ev, DirectoryInfo folder) {
-            if (!folder.Exists||folder.GetDirectories().Length==0)
+            if (!folder.Exists || folder.GetDirectories().Length == 0)
                 return;
 
             this.setEvFolder(ev, new EvFolder(folder));

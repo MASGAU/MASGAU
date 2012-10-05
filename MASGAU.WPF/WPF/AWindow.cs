@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
@@ -10,10 +8,6 @@ using System.Windows.Threading;
 using MVC.Communication;
 using MVC.Translator;
 using MVC.WPF;
-using MASGAU.Backup;
-using MASGAU.Location.Holders;
-using Translator;
-using Translator.WPF;
 namespace MASGAU {
 
     public abstract class AWindow : ACommunicationWindow, IWindow {
@@ -37,7 +31,7 @@ namespace MASGAU {
 
             // Taskbar progress setup
             TaskbarItemInfo = new TaskbarItemInfo();
-//            var uriSource = new Uri(System.IO.Path.Combine(Core.ExecutablePath, "masgau.ico"), UriKind.Relative);
+            //            var uriSource = new Uri(System.IO.Path.Combine(Core.ExecutablePath, "masgau.ico"), UriKind.Relative);
 
 
             System.Drawing.Icon ico = Properties.Resources.MASGAUIcon;

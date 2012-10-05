@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using MASGAU.Location.Holders;
+using MVC;
 using MVC.Communication;
 using MVC.Translator;
-using MVC;
-using MASGAU.Location.Holders;
 namespace MASGAU {
     public class Archives : StaticModel<ArchiveID, Archive> {
         private Archives() { }

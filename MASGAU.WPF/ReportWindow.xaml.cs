@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Windows;
 using System.IO;
 using System.Text;
+using System.Windows;
 using MASGAU.Analyzer;
-using MVC;
-using MVC.WPF;
 using MVC.Translator;
+using MVC.WPF;
 using Translator;
 using Translator.WPF;
-using SMJ.WPF;
-using Email;
-using Email.WPF;
 namespace MASGAU {
     /// <summary>
     /// Interaction logic for ReportWindow.xaml
@@ -36,17 +32,12 @@ namespace MASGAU {
             uploadBtn.Source = Core.settings;
         }
 
-        private string prepareReport() {
-            StringBuilder return_me = new StringBuilder();
-            return return_me.ToString();
-        }
-
 
         private bool saved = false;
         private void saveBtn_Click(object sender, RoutedEventArgs e) {
             System.Windows.Forms.SaveFileDialog save = new System.Windows.Forms.SaveFileDialog();
             save.DefaultExt = "txt";
-            save.Filter = Strings.GetLabelString("TxtFileDescriptionPlural")+"|*.txt|"+ Strings.GetLabelString("AllFileDescriptionPlural") +"|*";
+            save.Filter = Strings.GetLabelString("TxtFileDescriptionPlural") + "|*.txt|" + Strings.GetLabelString("AllFileDescriptionPlural") + "|*";
             save.Title = Strings.GetLabelString("SaveReportQuestion");
 
             if (AAnalyzer.LastSavePath == null)
@@ -59,10 +50,10 @@ namespace MASGAU {
                 AAnalyzer.LastSavePath = Path.GetDirectoryName(save.FileName);
                 try {
                     StreamWriter writer = File.CreateText(save.FileName);
-                    writer.Write(prepareReport());
+                    writer.Write(reportTxt.Text);
                     writer.Close();
                     saved = true;
-                } catch(Exception ex)  {
+                } catch (Exception ex) {
                     TranslatingMessageHandler.SendError("WriteError", ex, save.FileName);
                 }
             }

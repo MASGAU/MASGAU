@@ -1,20 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Collections.Generic;
-using MVC.Communication;
-using System.IO;
-using MVC.Translator;
-using MASGAU.Location;
+using GameSaveInfo;
 using MASGAU.Location.Holders;
 using MASGAU.WPF;
 using MVC;
-using Translator.WPF;
-using Translator;
-using System.Text;
+using MVC.Communication;
+using MVC.Translator;
 using MVC.WPF;
-using GameSaveInfo;
+using Translator;
+using Translator.WPF;
 namespace MASGAU.Restore {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -96,7 +95,7 @@ namespace MASGAU.Restore {
             string extrasave = ProgressHandler.message;
             ProgressHandler.saveMessage();
             parent.hideInterface();
-            if (archives.Count > 1 && !TranslatingRequestHandler.Request(RequestType.Question,"RestoreMultipleArchives").Cancelled ) {
+            if (archives.Count > 1 && !TranslatingRequestHandler.Request(RequestType.Question, "RestoreMultipleArchives").Cancelled) {
                 Restore.RestoreProgramHandler.use_defaults = true;
             }
 
@@ -104,9 +103,18 @@ namespace MASGAU.Restore {
                 if (Restore.RestoreProgramHandler.overall_stop) {
                     break;
                 }
+
                 Restore.RestoreWindow restore = new Restore.RestoreWindow(archive, parent);
-                if (restore.ShowDialog() == true) {
-                    Core.redetect_games = true;
+                restore.ShowDialog();
+
+                switch (restore.Result) {
+                    case RestoreResult.Success:
+                        Core.redetect_games = true;
+                        break;
+                    case RestoreResult.Cancel:
+                    case RestoreResult.Failed:
+                    case RestoreResult.ElevationFailed:
+                        break;
                 }
             }
             Restore.RestoreProgramHandler.use_defaults = false;
@@ -145,7 +153,7 @@ namespace MASGAU.Restore {
                     restore.recommended_path.EV == EnvironmentVariable.PS3Save ||
                     restore.recommended_path.EV == EnvironmentVariable.PSPSave) {
                     TranslationHelpers.translate(userBox, "RestoreRemovableDriveChoice");
-                    TranslationHelpers.translate(singleUserBox,"RestoreRemovableDrive");
+                    TranslationHelpers.translate(singleUserBox, "RestoreRemovableDrive");
                     singlePathBox.Visibility = System.Windows.Visibility.Collapsed;
                 } else {
                     singlePathBox.Visibility = System.Windows.Visibility.Visible;
@@ -254,7 +262,7 @@ namespace MASGAU.Restore {
                 }
             }
 
-            TranslationHelpers.translate(this,"RestoringFile", restore.archive.id.ToString());
+            TranslationHelpers.translate(this, "RestoringFile", restore.archive.id.ToString());
             restoreButton.Visibility = System.Windows.Visibility.Collapsed;
             choosePathButton.Visibility = System.Windows.Visibility.Collapsed;
             selectFilesButton.Visibility = System.Windows.Visibility.Collapsed;
@@ -278,10 +286,15 @@ namespace MASGAU.Restore {
             restore.restoreBackup((LocationPath)pathCombo.SelectedItem, (string)userCombo.SelectedItem, restoreComplete);
         }
 
+        public RestoreResult Result {
+            get {
+                return restore.Result;
+            }
+        }
 
         void restoreComplete(object sender, RunWorkerCompletedEventArgs e) {
             cancelButton.Text = Strings.GetLabelString("Close");
-            TranslationHelpers.translate(this,"Finished");
+            TranslationHelpers.translate(this, "Finished");
 
             flipper.SwitchControl(restoreDoneLabel);
             if (close_when_done)
@@ -296,7 +309,7 @@ namespace MASGAU.Restore {
             }
 
             this.Visibility = System.Windows.Visibility.Collapsed;
-            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"", true))
+            if (SecurityHandler.elevation(Core.ExecutableName, "-allusers \"" + restore.archive.ArchiveFile.FullName + "\"", true) == ElevationResult.Success)
                 this.Close();
             else
                 this.Visibility = System.Windows.Visibility.Visible;

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.ComponentModel;
-using MVC.Translator;
 using MASGAU.Location;
-using MASGAU.Monitor;
-using Translator;
 using MVC.Communication;
+using MVC.Translator;
+using Translator;
 
 namespace MASGAU {
-    public abstract class AProgramHandler: Core, INotifyPropertyChanged {
+    public abstract class AProgramHandler : Core, INotifyPropertyChanged {
 
         // The title of the program's window
         public String program_title {
@@ -21,10 +20,10 @@ namespace MASGAU {
         public AProgramHandler(ALocationsHandler locations)
             : base() {
 
-                if (!Core.Ready)
-                    return;
+            if (!Core.Ready)
+                return;
 
-            if (Core.Mode>= Config.ConfigMode.Portable)
+            if (Core.Mode >= Config.ConfigMode.Portable)
                 _program_title = Strings.GetLabelString("PortableMode", _program_title);
 
             if (Core.locations == null) {

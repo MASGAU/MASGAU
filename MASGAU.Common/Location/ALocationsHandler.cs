@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using MVC.Translator;
-using MASGAU.Location.Holders;
 using GameSaveInfo;
+using MVC.Translator;
 namespace MASGAU.Location {
     public abstract class ALocationsHandler : ILocationsHandler {
 
@@ -15,7 +14,7 @@ namespace MASGAU.Location {
         }
 
         public string getFolder(EnvironmentVariable ev, string user) {
-            LocationPath parse_me = new LocationPath(ev,null);
+            LocationPath parse_me = new LocationPath(ev, null);
             List<string> users = this.getUsers(ev);
             if (user == null) {
                 foreach (string usr in users) {
@@ -171,8 +170,7 @@ namespace MASGAU.Location {
 
             DetectedLocations return_me = new DetectedLocations();
             path = correctPath(path);
-            if (path == null)
-            {
+            if (path == null) {
                 return return_me;
             }
 
@@ -187,7 +185,7 @@ namespace MASGAU.Location {
             string[] sections = correct_me.TrimEnd(Path.DirectorySeparatorChar).Split(Path.DirectorySeparatorChar);
             DirectoryInfo dir = new DirectoryInfo(sections[0] + Path.DirectorySeparatorChar);
             for (int i = 1; i < sections.Length; i++) {
-                if(!PermissionsHelper.isReadable(dir.FullName)) {
+                if (!PermissionsHelper.isReadable(dir.FullName)) {
                     // If we can't access the subfolders, then we return the best path we can get
                     string asfar = dir.FullName;
                     while (i < sections.Length) {

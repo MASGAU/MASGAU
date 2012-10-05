@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using MASGAU.Location.Holders;
-using MASGAU.Location;
 using GameSaveInfo;
 namespace MASGAU.Location {
     public interface ILocationsHandler {

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.IO;
+﻿using System.IO;
 using System.Xml;
-using XmlData;
 using GameSaveInfo;
 namespace MASGAU {
-    public class CustomGameXmlFile: GameXmlFile {
+    public class CustomGameXmlFile : GameXmlFile {
         public CustomGameXmlFile(FileInfo file)
             : base(file) {
 

@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
-using System.IO;
-using System.Windows.Forms;
 using System.Drawing;
 using System.Reflection;
+using System.Windows.Forms;
 using Translator;
 namespace MASGAU.Main {
-    class NotifierIcon  {
+    class NotifierIcon {
         NotifyIcon icon;
 
         MainWindowNew parent;
@@ -107,7 +103,7 @@ namespace MASGAU.Main {
             exit.Click += new EventHandler(exit_Click);
 
             Menu.MenuItems.Add(exit);
-            
+
             icon.MouseClick += new System.Windows.Forms.MouseEventHandler(notifyIcon_MouseClick);
             icon.Visible = true;
         }
@@ -128,7 +124,7 @@ namespace MASGAU.Main {
             if (frame >= icons.Count)
                 frame = 0;
             icon.Icon = icons[frame];
-//            System.Console.Out.Write(frame.ToString() + ".");
+            //            System.Console.Out.Write(frame.ToString() + ".");
             frame++;
         }
 
@@ -138,7 +134,7 @@ namespace MASGAU.Main {
         private string last_message = null;
 
         public void sendBalloon(string message) {
-            if(message!=last_message)
+            if (message != last_message)
                 icon.ShowBalloonTip(5, "MASGAU", message, ToolTipIcon.Info);
             message = last_message;
         }
@@ -165,11 +161,11 @@ namespace MASGAU.Main {
         public bool OpenCloseEnabled = true;
 
         void notifyIcon_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e) {
-            switch(e.Button) {
+            switch (e.Button) {
                 case MouseButtons.Middle:
                 case MouseButtons.Left:
 
-                    if(OpenCloseEnabled)
+                    if (OpenCloseEnabled)
                         parent.ShowInTaskbar = parent.toggleVisibility();
 
                     parent.updateWindowState();

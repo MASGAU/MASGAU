@@ -1,16 +1,16 @@
 ﻿using System;
-using System.IO;
 using System.ComponentModel;
-using MVC.Communication;
-using MVC.Translator;
+using System.IO;
+using GameSaveInfo;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
-using GameSaveInfo;
+using MVC.Communication;
+using MVC.Translator;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {
         protected DetectedLocationPathHolder path;
         protected APCAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
-            : base(game,when_done) {
+            : base(game, when_done) {
         }
 
         protected override void analyzerWork() {
@@ -27,7 +27,26 @@ namespace MASGAU.Analyzer {
             }
 
             string[] folders = this.path.Path.Split(System.IO.Path.DirectorySeparatorChar);
-            path.ReplacePath(folders[0]);
+
+
+            string found_path = null;
+            for (int i = folders.Length - 1; i >= 0; i--) {
+                string temp_path = folders[0];
+                for(int j = 1; j <= i; j++) {
+                    temp_path = Path.Combine(temp_path,folders[j]);
+                }
+
+                DirectoryInfo dir = new DirectoryInfo(Path.Combine(path.AbsoluteRoot, temp_path));
+                if (dir.GetFiles("*.exe").Length > 0) {
+                    found_path = temp_path;
+                    break;
+                }
+
+            }
+
+            if (found_path != null) {
+                path.ReplacePath(found_path);
+            }
 
 
             outputLine("Operating System: ");

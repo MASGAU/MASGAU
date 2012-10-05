@@ -6,12 +6,13 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading;
 using System.Xml;
+using MASGAU.Location.Holders;
+using MASGAU.Restore;
+using MVC;
 using MVC.Communication;
 using MVC.Translator;
-using MASGAU.Location.Holders;
-using MVC;
-using XmlData;
 using Translator;
+using XmlData;
 namespace MASGAU {
     public class Archive : AModelItem<ArchiveID> {
         #region Archive identification stuff
@@ -27,12 +28,12 @@ namespace MASGAU {
         }
 
 
-        public System.Drawing.Color BackgroundColor {
+        public override System.Drawing.Color BackgroundColor {
             get {
                 return id.Game.BackgroundColor;
             }
         }
-        public System.Drawing.Color SelectedColor {
+        public override System.Drawing.Color SelectedColor {
             get {
                 return id.Game.SelectedColor;
             }
@@ -48,7 +49,7 @@ namespace MASGAU {
                 return id.Type;
             }
         }
-        public new string ToolTip {
+        public override string ToolTip {
             get {
                 return ArchiveFile.Name;
             }
@@ -95,6 +96,12 @@ namespace MASGAU {
             }
         }
 
+        public void Delete() {
+            if (this.Exists) {
+                this.ArchiveFile.Delete();
+                Archives.Remove(this);
+            }
+        }
 
         #region static stuff
         private static string ZipExecutableName {
@@ -116,24 +123,41 @@ namespace MASGAU {
         private static bool ready;
         private static Process zipper;
 
+        public static DirectoryInfo MasterTemp {
+            get {
+                return new DirectoryInfo(Path.Combine(Path.GetTempPath(), "masgau"));
+            }
+        }
+
+
         private string _tempfldr = null;
         private string TempFolder {
             get {
-                if (_tempfldr == null)
-                    _tempfldr = Path.Combine(Path.GetTempPath(), "masgau"+Path.GetFileNameWithoutExtension(Path.GetRandomFileName()));
+                if (_tempfldr == null) {
+                    QuickHash hash = new QuickHash(this.ArchiveFile.FullName);
+                    _tempfldr = Path.Combine(MasterTemp.FullName, hash.ToString());
+                }
                 return _tempfldr;
             }
         }
 
 
-
-        private void prepTemp() {
+        private void purgeTemp() {
             try {
                 if (Directory.Exists(TempFolder)) {
                     Directory.Delete(TempFolder, true);
                     Thread.Sleep(10);
                 }
+            } catch (Exception e) {
+                throw new TranslateableException("FolderPrepError", e, TempFolder);
+            }
+        }
+        private void prepTemp() {
+            try {
+                purgeTemp();
                 Directory.CreateDirectory(TempFolder);
+            } catch (TranslateableException e) {
+                throw e;
             } catch (Exception e) {
                 throw new TranslateableException("FolderPrepError", e, TempFolder);
             }
@@ -153,26 +177,28 @@ namespace MASGAU {
 
         public Archive(FileInfo archive)
             : base() {
+            this.ArchiveFile = archive;
+
+
             zipper = new Process();
 
             if (ZipExecutablePresent) {
-                zipper.StartInfo.FileName = ZipExecutable;
+                zipper.StartInfo.FileName = ZipExecutableName;
                 ready = true;
             } else {
                 ready = false;
-                throw new TranslateableException("FileNotFoundCritical", ZipExecutableName);
+                throw new TranslateableException("FileNotFoundCritical", ZipExecutable);
             }
+
             zipper.StartInfo.UseShellExecute = false;
             zipper.StartInfo.RedirectStandardOutput = true;
             zipper.StartInfo.RedirectStandardError = true;
             zipper.StartInfo.CreateNoWindow = true;
-            //zipper.StartInfo.WorkingDirectory = TempFolder;
-
+            zipper.StartInfo.WorkingDirectory = Core.ExecutablePath;
 
             if (!ready)
-                throw new TranslateableException("FileNotFoundCritical",ZipExecutableName);
+                throw new TranslateableException("FileNotFoundCritical", ZipExecutable);
 
-            this.ArchiveFile = archive;
 
             // If the archive is new, then the following won't apply
             if (!Exists)
@@ -184,12 +210,13 @@ namespace MASGAU {
             extract(xml_file, false);
 
             if (File.Exists(Path.Combine(TempFolder, "masgau.xml"))) {
-                XmlFile file = new XmlFile(new FileInfo(Path.Combine(TempFolder, "masgau.xml")),false);
+                XmlFile file = new XmlFile(new FileInfo(Path.Combine(TempFolder, "masgau.xml")), false);
                 XmlElement root = file.DocumentElement;
                 id = new ArchiveID(root);
 
-
                 File.Delete(Path.Combine(TempFolder, "masgau.xml"));
+                purgeTemp();
+
             } else {
                 throw new TranslateableException("ArchiveMissingData", ArchiveFile.FullName);
                 // This is a fallback for really old ASGAU archives - One day I will be able to just delete this.
@@ -248,7 +275,7 @@ namespace MASGAU {
                 // Copies the particular file to a relative path inside the temp folder
                 FileInfo source;
                 FileInfo destination;
-                if (file.Path == ""||file.Path==null) {
+                if (file.Path == "" || file.Path == null) {
                     source = new FileInfo(Path.Combine(file.AbsoluteRoot, file.Name));
                     destination = new FileInfo(Path.Combine(TempFolder, file.Name));
                 } else {
@@ -302,15 +329,14 @@ namespace MASGAU {
             if (files_added)
                 add(TempFolder, disable_versioning);
 
-            if(Directory.Exists(TempFolder))
-                Directory.Delete(TempFolder, true);
+            purgeTemp();
         }
 
         #endregion
 
         #region Restore stuff
         public bool cancel_restore = false;
-        public void restore(DirectoryInfo destination, List<string> only_these) {
+        public RestoreResult restore(DirectoryInfo destination, List<string> only_these) {
             cancel_restore = false;
             TranslatingProgressHandler.setTranslatedMessage("CheckingDestination");
             // The files get extracted to the temp folder, so this sets up our ability to read them
@@ -330,15 +356,17 @@ namespace MASGAU {
                     // It means we have to run as admin, but we check here if we already are
                     if (!SecurityHandler.amAdmin()) {
                         // If we aren't we elevate ourselves
-                        restoreElevation(destination.FullName);
-                        cancel_restore = true;
+                        RestoreResult res = restoreElevation(destination.FullName);
+                        if (res != RestoreResult.Success) {
+                            return res;
+                        }
                     } else {
                         throw new TranslateableException("UnableToCreateOutputFolder", destination.FullName);
                     }
                 }
             }
             if (cancel_restore)
-                return;
+                return RestoreResult.Cancel;
 
             TranslatingProgressHandler.setTranslatedMessage("ExtractingArchive");
             ProgressHandler.state = ProgressState.Indeterminate;
@@ -357,43 +385,62 @@ namespace MASGAU {
                 File.Delete(Path.Combine(TempFolder, "masgau.xml"));
 
             if (cancel_restore)
-                return;
+                return RestoreResult.Cancel;
 
             TranslatingProgressHandler.setTranslatedMessage("CopyingFilesToDestination");
             if (!canWrite(destination)) {
                 Directory.Delete(TempFolder, true);
-                restoreElevation(destination.FullName);
+
+                RestoreResult res = restoreElevation(destination.FullName);
+                if (res != RestoreResult.Success) {
+                    return res;
+                }
                 cancel_restore = true;
             }
             if (cancel_restore)
-                return;
+                return RestoreResult.Cancel;
 
             copyFolders(from_here, destination, true);
 
             if (cancel_restore)
-                return;
+                return RestoreResult.Cancel;
+
+            purgeTemp();
 
             ProgressHandler.state = ProgressState.None;
+
+            return RestoreResult.Success;
         }
-        private bool restoreElevation(string destination) {
+        private RestoreResult restoreElevation(string destination) {
             try {
-                if (SecurityHandler.amAdmin()) {
-                    TranslatingMessageHandler.SendError("UnableToCreateOutputFolderAdmin", destination);
-                    return false;
-                }
+                //   if (SecurityHandler.amAdmin()) {
+                //     TranslatingMessageHandler.SendError("UnableToCreateOutputFolderAdmin", destination);
+                //   return false;
+                //}
 
                 MVC.Communication.Interface.InterfaceHandler.disableInterface();
                 if (!TranslatingRequestHandler.Request(RequestType.Question, "UnableToCreateOutputFolderRequest", destination).Cancelled) {
                     try {
-                        SecurityHandler.elevation(Core.ExecutableName, "\"" + ArchiveFile.FullName + "\"",true);
-                        return true;
+                        MVC.Communication.Interface.InterfaceHandler.disableInterface();
+                        ElevationResult res = SecurityHandler.elevation(Core.ExecutableName, "\"" + ArchiveFile.FullName + "\"", true);
+                        switch (res) {
+                            case ElevationResult.Success:
+                                return RestoreResult.Success;
+                            case ElevationResult.Cancelled:
+                                return RestoreResult.ElevationDenied;
+                            case ElevationResult.Failed:
+                                return RestoreResult.ElevationFailed;
+                            default:
+                                throw new NotSupportedException(res.ToString());
+                        }
                     } catch (Exception e) {
                         throw new TranslateableException("RestoreProgramNotFound", e, Core.ExecutableName);
                     }
                 } else {
-                    return false;
+                    return RestoreResult.ElevationDenied;
                 }
             } finally {
+                //MVC.Communication.Interface.InterfaceHandler.showInterface();
                 MVC.Communication.Interface.InterfaceHandler.enableInterface();
                 MVC.Communication.Interface.InterfaceHandler.closeInterface();
             }
@@ -450,7 +497,7 @@ namespace MASGAU {
                     output = zipper.StandardOutput.ReadLine();
                 }
             } catch (Exception e) {
-                throw new TranslateableException("ExeRunError", e,ZipExecutableName, zipper.StartInfo.Arguments, zipper.StartInfo.WorkingDirectory);
+                throw new TranslateableException("ExeRunError", e, ZipExecutable, zipper.StartInfo.Arguments, zipper.StartInfo.WorkingDirectory);
             } finally {
                 try {
                     zipper.Close();
@@ -564,8 +611,6 @@ namespace MASGAU {
         private List<string> getFileListing() {
             List<String> return_me = new List<string>();
             zipper.StartInfo.Arguments = list_switches + " \"" + ArchiveFile.FullName + "\"";
-            string old_dir = zipper.StartInfo.WorkingDirectory;
-            zipper.StartInfo.WorkingDirectory = "";
             zipper.Start();
 
             string output = zipper.StandardOutput.ReadLine();
@@ -576,17 +621,16 @@ namespace MASGAU {
 
             zipper.Close();
 
-            zipper.StartInfo.WorkingDirectory = old_dir;
-
             return return_me;
         }
 
-        private string extract_switches = "x";
+        private const string extract_switches = "x";
         private void extract(bool send_progress) {
             prepTemp();
-            zipper.StartInfo.Arguments = extract_switches + " \"" + ArchiveFile.FullName + "\"";
+            zipper.StartInfo.Arguments = extract_switches + " \"" + ArchiveFile.FullName + "\" -o\"" + TempFolder + "\"";
             run7z(send_progress);
         }
+
         private void extract(List<string> files, bool send_progress) {
             prepTemp();
             if (send_progress) {

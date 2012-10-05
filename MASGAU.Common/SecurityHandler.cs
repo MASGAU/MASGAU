@@ -1,12 +1,12 @@
 using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-//using System.Windows.Forms;
 using System.Security.Principal;
 using System.Text;
-using MVC.Translator;
-using MVC.Communication;
 using MASGAU;
+using MVC.Communication;
+using MVC.Translator;
 public class SecurityHandler {
     [DllImport("user32")]
     public static extern UInt32 SendMessage
@@ -26,7 +26,7 @@ public class SecurityHandler {
     //    SendMessage(button.Handle, BCM_SETSHIELD, 0, 0xFFFFFFFF);
     //}
 
-    public static bool elevation(string app_name, string new_args, bool wait_for_exit) {
+    public static ElevationResult elevation(string app_name, string new_args, bool wait_for_exit) {
         StringBuilder arg_string = new StringBuilder();
         if (new_args != null)
             arg_string.Append(new_args);
@@ -41,8 +41,8 @@ public class SecurityHandler {
         }
         if (!Core.settings.SuppressElevationWarnings) {
             ResponseType response = ResponseType.OK;
-            if (Environment.OSVersion.Version<new Version(6,0)) {
-                    response = TranslatingMessageHandler.SendWarning("ElevationXPWarning", true);
+            if (Environment.OSVersion.Version < new Version(6, 0)) {
+                response = TranslatingMessageHandler.SendWarning("ElevationXPWarning", true);
             }
             if (response >= ResponseType.Suppressed)
                 Core.settings.SuppressElevationWarnings = true;
@@ -53,7 +53,7 @@ public class SecurityHandler {
 
     }
 
-    public static bool runExe(string app_name, string arg_string, bool super, bool wait_for_exit) {
+    public static ElevationResult runExe(string app_name, string arg_string, bool super, bool wait_for_exit) {
 
         ProcessStartInfo superMode = new ProcessStartInfo();
         superMode.UseShellExecute = true;
@@ -74,12 +74,19 @@ public class SecurityHandler {
             if (wait_for_exit) {
                 p.WaitForExit();
                 if (p.ExitCode != 0) {
-                    return false;
+                    return ElevationResult.Failed;
                 }
             }
+        } catch (Win32Exception e) {
+            switch (e.NativeErrorCode) {
+                case 1223:
+                    return ElevationResult.Cancelled;
+                default:
+                    return ElevationResult.Failed;
+            }
         } catch (Exception) {
-            return false;
+            return ElevationResult.Failed;
         }
-        return true;
+        return ElevationResult.Success;
     }
 }
