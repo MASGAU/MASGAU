@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using Collections;
-using MVC.Communication;
-using MVC.Translator;
 using MASGAU.Location;
 using MASGAU.Location.Holders;
+using MVC.Communication;
+using MVC.Translator;
 namespace MASGAU.Backup {
     public class BackupProgramHandler : AProgramHandler {
         public string archive_name_override = null;
@@ -50,6 +50,7 @@ namespace MASGAU.Backup {
 
         string output_path;
         void BackupProgramHandler_DoWork(object sender, DoWorkEventArgs e) {
+
             if (Core.settings.IsBackupPathSet || archive_name_override != null) {
                 if (archive_name_override != null)
                     output_path = Path.GetDirectoryName(archive_name_override);
@@ -110,7 +111,7 @@ namespace MASGAU.Backup {
                                 if (archive_name_override != null) {
                                     if (override_archive == null)
                                         file.Type = null;
-                                        override_archive = new Archive(new FileInfo(archive_name_override), new ArchiveID(game.id, file));
+                                    override_archive = new Archive(new FileInfo(archive_name_override), new ArchiveID(game.id, file));
                                     archive = override_archive;
                                 } else {
                                     if (Archives.Get(archive_id) == null) {
@@ -126,7 +127,7 @@ namespace MASGAU.Backup {
 
                             foreach (KeyValuePair<Archive, List<DetectedFile>> backup_file in backup_files) {
                                 if (override_archive == null)
-                                    backup_file.Key.backup(backup_file.Value, false,false);
+                                    backup_file.Key.backup(backup_file.Value, false, false);
                                 else
                                     backup_file.Key.backup(backup_file.Value, true, false);
                             }

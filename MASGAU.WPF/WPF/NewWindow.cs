@@ -1,27 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows;
-using System.Windows.Media.Animation;
-using System.Windows.Controls;
-using System.Reflection;
 using System.Windows.Media.Imaging;
 using MVC.WPF;
 using Translator;
-using Config;
-using MASGAU.Settings;
 namespace MASGAU {
-    public class NewWindow: ACommunicationWindow {
+    public class NewWindow : ACommunicationWindow {
 
 
-        public NewWindow(): this(null) {
+        public NewWindow()
+            : this(null) {
 
         }
-        public NewWindow(ACommunicationWindow owner): base(owner,Core.settings) {
+        public NewWindow(ACommunicationWindow owner)
+            : base(owner, Core.settings) {
             this.Owner = owner;
-//            var uriSource = new Uri(System.IO.Path.Combine(Core.ExecutablePath, "masgau.ico"), UriKind.Relative);
-  //          this.Icon = new BitmapImage(uriSource);
+            //            var uriSource = new Uri(System.IO.Path.Combine(Core.ExecutablePath, "masgau.ico"), UriKind.Relative);
+            //          this.Icon = new BitmapImage(uriSource);
 
             System.Drawing.Icon ico = Properties.Resources.MASGAUIcon;
 

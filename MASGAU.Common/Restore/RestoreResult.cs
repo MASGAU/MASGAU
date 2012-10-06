@@ -4,6 +4,9 @@ namespace MASGAU.Restore {
         NoSteam,
         NoBackup,
         Success,
-        Cancel
+        Cancel,
+        Failed,
+        ElevationFailed,
+        ElevationDenied
     }
 }

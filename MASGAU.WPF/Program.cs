@@ -1,11 +1,6 @@
 
 using System;
 using System.Windows;
-using System.Windows.Controls;
-using System.Reflection;
-using System.IO;
-using MASGAU;
-using MASGAU.WPF;
 using MASGAU.Main;
 namespace MASGAU {
     static class Program {
@@ -15,6 +10,8 @@ namespace MASGAU {
         [STAThread]
         static void Main() {
             try {
+                Logger.Logger.MaxFiles = 25;
+
 
                 Application app = new MASGAU.Application();
 
@@ -36,7 +33,7 @@ namespace MASGAU {
 
             } catch (Exception e) {
                 Logger.Logger.log(e);
-                System.Windows.MessageBox.Show("Error while trying to startup:\n"+ e.Message + @"Check the log in LocalAppData\MASGAU\logs\");
+                System.Windows.MessageBox.Show("Error while trying to startup:\n" + e.Message + @"Check the log in LocalAppData\MASGAU\logs\");
             }
         }
 

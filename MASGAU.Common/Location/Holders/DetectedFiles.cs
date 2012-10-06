@@ -26,9 +26,30 @@ namespace MASGAU.Location.Holders {
             }
         }
         public void AddFiles(Include save, DetectedLocationPathHolder location) {
-            AddFiles(save,location,new Regex(".*"));
+            AddFiles(save, location, new Regex(".*"));
         }
         public void AddFiles(Include save, DetectedLocationPathHolder location, Regex reg) {
+            List<DetectedFile> files = new List<DetectedFile>();
+            foreach (DetectedFile file in GatherFiles(save, location, reg)) {
+                if(!files.Contains(file))
+                    files.Add(file);
+            }
+
+            foreach (Exclude exclude in save.Exclusions) {
+                foreach (DetectedFile file in GatherFiles(exclude, location, new Regex(".*"))) {
+                    if (files.Contains(file))
+                        files.Remove(file);
+                }
+            }
+
+            foreach (DetectedFile file in files) {
+                if(!this.Contains(file))
+                    this.AddRange(files);
+            }
+        }
+
+        private static List<DetectedFile> GatherFiles(Exclude save, DetectedLocationPathHolder location, Regex reg) {
+            List<DetectedFile> files = new List<DetectedFile>();
             foreach (string file in save.FindMatching(location.full_dir_path)) {
 
                 string name = Path.GetFileName(file);
@@ -39,14 +60,19 @@ namespace MASGAU.Location.Holders {
                 }
 
                 DetectedFile detected = new DetectedFile(location, path, name, save.Type);
-                this.Add(detected);
+                files.Add(detected);
             }
+            return files;
         }
 
         public void AddRange(IEnumerable<DetectedFile> files) {
             foreach (DetectedFile file in files) {
                 Add(file);
             }
+        }
+
+        public bool Contains(DetectedFile file) {
+            return this.Contains(file.Type, file);
         }
 
         public void Add(DetectedFile file) {

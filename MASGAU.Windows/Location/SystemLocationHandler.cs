@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
+using GameSaveInfo;
 using MASGAU.Location.Holders;
 using MASGAU.Registry;
 using Translator;
-using GameSaveInfo;
 namespace MASGAU.Location {
     public class SystemLocationHandler : ASystemLocationHandler {
         //public string user_root, host_name, program_files, program_files_x86, common_program_files, all_users_profile, public_profile;
@@ -112,7 +112,7 @@ namespace MASGAU.Location {
 
             if (platform_version == "WindowsVista")
                 global.setEvFolder(EnvironmentVariable.Public, Environment.GetEnvironmentVariable("PUBLIC"));
-            
+
             global.setEvFolder(EnvironmentVariable.CommonApplicationData, Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData));
 
             if (!xp) {
@@ -142,17 +142,17 @@ namespace MASGAU.Location {
                 ubi_reg = new RegistryHandler("local_machine", @"SOFTWARE\Wow6432Node\Ubisoft\Launcher", false);
             }
 
-            if (ubi_reg.getValue("InstallDir") != null && Directory.Exists(Path.Combine(ubi_reg.getValue("InstallDir"),"savegames"))) {
+            if (ubi_reg.getValue("InstallDir") != null && Directory.Exists(Path.Combine(ubi_reg.getValue("InstallDir"), "savegames"))) {
                 uac_enabled = true;
-                ubisoft_save = new DirectoryInfo(Path.Combine(ubi_reg.getValue("InstallDir"),"savegames"));
-            } else if(Environment.GetEnvironmentVariable("ProgramW6432")!=null&&Directory.Exists(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"),"Ubisoft","Ubisoft Game Launcher"))) {
-                ubisoft_save = new DirectoryInfo(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"),"Ubisoft","Ubisoft Game Launcher","savegames"));
+                ubisoft_save = new DirectoryInfo(Path.Combine(ubi_reg.getValue("InstallDir"), "savegames"));
+            } else if (Environment.GetEnvironmentVariable("ProgramW6432") != null && Directory.Exists(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"), "Ubisoft", "Ubisoft Game Launcher"))) {
+                ubisoft_save = new DirectoryInfo(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"), "Ubisoft", "Ubisoft Game Launcher", "savegames"));
             } else if (Directory.Exists(Path.Combine(Environment.GetEnvironmentVariable("PROGRAMFILES"), "Ubisoft", "Ubisoft Game Launcher"))) {
-                ubisoft_save = new DirectoryInfo(Path.Combine(Environment.GetEnvironmentVariable("PROGRAMFILES"), "Ubisoft", "Ubisoft Game Launcher","savegames"));            
+                ubisoft_save = new DirectoryInfo(Path.Combine(Environment.GetEnvironmentVariable("PROGRAMFILES"), "Ubisoft", "Ubisoft Game Launcher", "savegames"));
             }
 
 
-            if (ubisoft_save!=null&&ubisoft_save.Exists) {
+            if (ubisoft_save != null && ubisoft_save.Exists) {
                 global.setEvFolder(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save);
             }
 
@@ -331,7 +331,7 @@ namespace MASGAU.Location {
         }
 
         public static LocationPath translateToVirtualStore(string path) {
-            LocationPath virtualstore_info = new LocationPath(EnvironmentVariable.LocalAppData,Path.Combine("VirtualStore", path.Substring(2).Trim(Path.DirectorySeparatorChar)));
+            LocationPath virtualstore_info = new LocationPath(EnvironmentVariable.LocalAppData, Path.Combine("VirtualStore", path.Substring(2).Trim(Path.DirectorySeparatorChar)));
 
             return virtualstore_info;
         }
@@ -381,7 +381,7 @@ namespace MASGAU.Location {
                         else
                             test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder);
                         if (test.Exists) {
-                            add_me = new DetectedLocationPathHolder(get_me,global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder,null);
+                            add_me = new DetectedLocationPathHolder(get_me, global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder, null);
                             return_me.Add(add_me);
                         }
                     }

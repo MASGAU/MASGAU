@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Text;
-using System.Collections.Generic;
-using MVC;
 using System.Xml;
 using GameSaveInfo;
+using MVC;
 namespace MASGAU {
-    public class GameID : AIdentifier  {
-        private GameIdentifier game;
+    public class GameID : AIdentifier {
+        public GameIdentifier game { get; protected set; }
         public string Name { get { return game.Name; } }
         public string OS {
             get {
@@ -57,11 +56,12 @@ namespace MASGAU {
         }
         public System.Drawing.Color SelectedColor {
             get {
-                string hex = "FF" + this.GetHashCode().ToString("X").Substring(0, 6);
+                string hex = "55" + this.GetHashCode().ToString("X").Substring(0, 6);
                 int value = int.Parse(hex, System.Globalization.NumberStyles.HexNumber);
                 return System.Drawing.Color.FromArgb(value);
             }
         }
+
         public override int GetHashCode() {
             return game.GetHashCode();
         }

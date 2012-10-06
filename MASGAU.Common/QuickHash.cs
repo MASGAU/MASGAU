@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using MVC;
 namespace MASGAU {
-    public class QuickHash: AComparable {
+    public class QuickHash : AComparable {
         public readonly string Hash;
 
         public override int GetHashCode() {
@@ -19,7 +16,7 @@ namespace MASGAU {
         }
 
         public static QuickHash CreateFromExistingHash(string hash) {
-            QuickHash thing = new QuickHash(hash,true);
+            QuickHash thing = new QuickHash(hash, true);
             return thing;
         }
 

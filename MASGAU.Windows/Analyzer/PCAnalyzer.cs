@@ -1,13 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
 using System.IO;
-using MVC.Communication;
-using MVC.Translator;
-using MASGAU.Location;
-using MASGAU.Location.Holders;
+using GameSaveInfo;
 using MASGAU.Registry;
 using Microsoft.Win32;
-using GameSaveInfo;
+using MVC.Communication;
+using MVC.Translator;
 namespace MASGAU.Analyzer {
     public class PCAnalyzer : APCAnalyzer {
         public PCAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
@@ -25,7 +23,7 @@ namespace MASGAU.Analyzer {
                 string virtual_path;
 
                 foreach (string user in Core.locations.getUsers(EnvironmentVariable.LocalAppData)) {
-                    LocationPath parse_me = new LocationPath(EnvironmentVariable.LocalAppData,"VirtualStore");
+                    LocationPath parse_me = new LocationPath(EnvironmentVariable.LocalAppData, "VirtualStore");
                     virtual_path = Path.Combine(Core.locations.getAbsoluteRoot(parse_me, user), "VirtualStore");
 
                     virtual_path = Path.Combine(virtual_path, path.full_dir_path.Substring(3));

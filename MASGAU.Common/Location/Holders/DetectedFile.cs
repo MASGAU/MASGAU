@@ -9,7 +9,7 @@ namespace MASGAU.Location.Holders {
         public DetectedLocationPathHolder OriginalLocation { get; protected set; }
         public DetectedFile(DetectedLocationPathHolder location, string path, string name, string type)
             : base(location, location.full_dir_path, location.owner) {
-                OriginalLocation = location;
+            OriginalLocation = location;
 
             this.Path = path;
             this.Name = name;
@@ -23,7 +23,7 @@ namespace MASGAU.Location.Holders {
         // This is the name of the file
         public string Name { get; protected set; }
 
-        public string Type { get;  set; }
+        public string Type { get; set; }
 
         public override string ToString() {
             return System.IO.Path.Combine(base.ToString(), Name);
@@ -43,7 +43,7 @@ namespace MASGAU.Location.Holders {
                 }
             }
         }
-        public new bool exists {
+        public new bool Exists {
             get {
                 return File.Exists(full_file_path);
             }

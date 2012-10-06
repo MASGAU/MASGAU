@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System.Windows.Shell;
+﻿using System.Windows.Shell;
 using Translator;
 namespace MASGAU.Main {
     public partial class MainWindowNew {

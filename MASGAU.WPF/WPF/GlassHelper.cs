@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
 using System.Runtime.InteropServices;
+using System.Windows;
 using System.Windows.Interop;
 using System.Windows.Media;
 // Ruthlessly stolen from http://blogs.msdn.com/b/adam_nathan/archive/2006/05/04/589686.aspx

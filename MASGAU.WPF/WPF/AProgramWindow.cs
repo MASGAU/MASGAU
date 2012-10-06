@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel;
-using Translator;
-using MVC;
 using MVC.WPF;
+using Translator;
 namespace MASGAU {
     public abstract class AProgramWindow : NewWindow {
         protected AProgramHandler program_handler;
