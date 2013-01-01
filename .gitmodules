@@ -49,3 +49,6 @@
 [submodule "Libs/Updater"]
 	path = Libs/Updater
 	url = https://github.com/sanmadjack/Updater.CSharp.git
+[submodule "Libs/VDF"]
+	path = Libs/VDF
+	url = ../../sanmadjack/VDF.git

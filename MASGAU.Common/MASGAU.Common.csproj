@@ -149,9 +149,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </None>
-    <EmbeddedResource Include="data\a.xml" />
+    <EmbeddedResource Include="data\a.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\b.xml" />
-    <EmbeddedResource Include="data\c.xml" />
+    <EmbeddedResource Include="data\c.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\d.xml" />
     <EmbeddedResource Include="data\e.xml" />
     <EmbeddedResource Include="data\f.xml">
@@ -169,7 +173,9 @@
     <EmbeddedResource Include="data\o.xml" />
     <EmbeddedResource Include="data\p.xml" />
     <EmbeddedResource Include="data\q.xml" />
-    <EmbeddedResource Include="data\r.xml" />
+    <EmbeddedResource Include="data\r.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\s.xml" />
     <EmbeddedResource Include="data\t.xml">
       <SubType>Designer</SubType>
@@ -242,6 +248,10 @@
     <ProjectReference Include="..\Libs\Updater\Updater.csproj">
       <Project>{292010F1-B671-4E46-BB96-3F8574E3C7B2}</Project>
       <Name>Updater</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\VDF\VDF.csproj">
+      <Project>{8392B97A-0EA5-489B-92A3-BBE9CFCCB5A5}</Project>
+      <Name>VDF</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libs\XmlData\XmlData.csproj">
       <Project>{427B2AD4-31CC-4308-A9AB-5264D4A51A3B}</Project>
