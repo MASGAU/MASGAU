@@ -1,6 +1,7 @@
 using System.IO;
 using GameSaveInfo;
 using MASGAU.Registry;
+using VDF;
 namespace MASGAU.Location {
     public class SteamLocationHandler : ASteamLocationHandler {
         // Custom Methods
@@ -15,6 +16,28 @@ namespace MASGAU.Location {
                 }
             }
             return null;
+        }
+
+        protected void loadSteamPaths(DirectoryInfo read_me) {
+            DirectoryInfo[] read_us;
+            if (read_me.Exists) {
+                read_us = read_me.GetDirectories();
+                foreach (DirectoryInfo subDir in read_us) {
+                    if (subDir.Name.ToLower() != "common" && subDir.Name.ToLower() != "sourcemods" && subDir.Name.ToLower() != "media") {
+                        addUserEv(subDir.Name, EnvironmentVariable.SteamUser, subDir.FullName, subDir.FullName);
+                    }
+                }
+                steam_apps_path = read_me.FullName;
+                DirectoryInfo common_folder = new DirectoryInfo(Path.Combine(steam_apps_path, "common"));
+                if (common_folder.Exists)
+                    global.addEvFolder(EnvironmentVariable.SteamCommon, common_folder.FullName, common_folder.FullName);
+
+                DirectoryInfo source_mods = new DirectoryInfo(Path.Combine(steam_apps_path, "sourcemods"));
+                if (source_mods.Exists)
+                    global.addEvFolder(EnvironmentVariable.SteamSourceMods, common_folder.FullName, source_mods.FullName);
+            }
+
+
         }
 
         protected override void resetSteamPath() {
@@ -32,26 +55,24 @@ namespace MASGAU.Location {
 
             if (path != null) {
                 DirectoryInfo read_me = new DirectoryInfo(Path.Combine(path, "steamapps"));
-                DirectoryInfo[] read_us;
-                if (read_me.Exists) {
-                    read_us = read_me.GetDirectories();
-                    foreach (DirectoryInfo subDir in read_us) {
-                        if (subDir.Name.ToLower() != "common" && subDir.Name.ToLower() != "sourcemods" && subDir.Name.ToLower() != "media") {
-                            setUserEv(subDir.Name, EnvironmentVariable.SteamUser, subDir.FullName);
-                        }
-                    }
-                    steam_apps_path = read_me.FullName;
-                    DirectoryInfo common_folder = new DirectoryInfo(Path.Combine(steam_apps_path, "common"));
-                    if (common_folder.Exists)
-                        global.setEvFolder(EnvironmentVariable.SteamCommon, common_folder.FullName);
+                // Loads the steam isntall path folders
+                loadSteamPaths(read_me);
 
-                    DirectoryInfo source_mods = new DirectoryInfo(Path.Combine(steam_apps_path, "sourcemods"));
-                    if (source_mods.Exists)
-                        global.setEvFolder(EnvironmentVariable.SteamSourceMods, source_mods.FullName);
+                // Loads the alt steam library folders
+                if (File.Exists(Path.Combine(path, "config", "config.vdf"))) {
+                    config_file = new SteamConfigFile(Path.Combine(path, "config", "config.vdf"));
+                    foreach (string folder in config_file.BaseInstallFolders) {
+                        read_me = new DirectoryInfo(Path.Combine(folder, "SteamApps"));
+                        loadSteamPaths(read_me);
+                    }
                 }
 
+
+
+                // Loads the steam cloud folders
                 read_me = new DirectoryInfo(Path.Combine(path, "userdata"));
                 if (read_me.Exists) {
+                    DirectoryInfo[] read_us;
                     read_us = read_me.GetDirectories();
                     foreach (DirectoryInfo subDir in read_us) {
                         setUserEv(subDir.Name, EnvironmentVariable.SteamUserData, subDir.FullName);
