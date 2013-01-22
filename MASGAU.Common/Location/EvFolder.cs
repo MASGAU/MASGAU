@@ -4,6 +4,52 @@ using GameSaveInfo;
 using MASGAU.Location.Holders;
 namespace MASGAU.Location {
     public class EvFolder : Dictionary<string, string> {
+        public IEnumerable<string> Folders {
+            get {
+                return this.Values;
+            }
+        }
+
+        protected IEnumerable<string> FolderNames {
+            get {
+                return this.Keys;
+            }
+        }
+        public bool HasDirs {
+            get {
+                return this.Count > 0;
+            }
+
+        }
+
+        public bool HasMultipleDirs {
+            get {
+                return this.Count > 1;
+            }
+        }
+        public string BaseFolder { get; protected set; }
+
+        public EvFolder(string folder): this("",folder) { }
+
+        public EvFolder(string name, string folder) {
+            this.Add(name, folder);
+            BaseFolder = folder;
+        }
+
+        public EvFolder(DirectoryInfo parent, bool create_from_subfolders) {
+            if (create_from_subfolders) {
+                BaseFolder = parent.FullName;
+
+                DirectoryInfo[] subs = parent.GetDirectories();
+                foreach (DirectoryInfo dir in subs) {
+                    this.Add(dir.Name, dir.FullName);
+                }
+            } else {
+                this.Add("", parent.FullName);
+                BaseFolder = parent.FullName;
+            }
+        }
+
         public bool Matches(string path) {
             foreach (string folder in this.Values) {
                 string[] split = path.Split(Path.DirectorySeparatorChar);
@@ -19,39 +65,6 @@ namespace MASGAU.Location {
             return false;
         }
 
-
-
-        public IEnumerable<string> Folders {
-            get {
-                return this.Values;
-            }
-        }
-        protected IEnumerable<string> SubFolders {
-            get {
-                return this.Keys;
-            }
-        }
-
-        public string BaseFolder { get; protected set; }
-
-        public EvFolder(string folder) {
-            this.Add("", folder);
-            BaseFolder = folder;
-        }
-
-        public bool HasDirs {
-            get {
-                return this.Count > 0;
-            }
-
-        }
-
-        public bool HasMultipleDirs {
-            get {
-                return this.Count > 1;
-            }
-        }
-
         public IEnumerable<DetectedLocationPathHolder> createDetectedLocations(LocationPath loc, string owner) {
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
             foreach (string folder in this.Keys) {
@@ -61,14 +74,11 @@ namespace MASGAU.Location {
             return return_me;
         }
 
-        public EvFolder(DirectoryInfo parent) {
 
-            BaseFolder = parent.FullName;
 
-            DirectoryInfo[] subs = parent.GetDirectories();
-            foreach (DirectoryInfo dir in subs) {
-                this.Add(dir.Name, dir.FullName);
-            }
+        public void AddFolder(string name, string path) {
+            this.Add(name, path);
+
         }
     }
 }

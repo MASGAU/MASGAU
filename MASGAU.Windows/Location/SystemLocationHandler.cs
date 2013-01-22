@@ -153,7 +153,7 @@ namespace MASGAU.Location {
 
 
             if (ubisoft_save != null && ubisoft_save.Exists) {
-                global.setEvFolder(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save);
+                global.setEvFolder(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save, true);
             }
 
 
@@ -261,7 +261,7 @@ namespace MASGAU.Location {
 
                 DirectoryInfo flash_share = new DirectoryInfo(Path.Combine(add_me.getFolder(EnvironmentVariable.AppData).BaseFolder, @"Macromedia\Flash Player\#SharedObjects"));
                 if (flash_share.Exists) {
-                    add_me.setEvFolder(EnvironmentVariable.FlashShared, flash_share);
+                    add_me.setEvFolder(EnvironmentVariable.FlashShared, flash_share, true);
                 }
 
 

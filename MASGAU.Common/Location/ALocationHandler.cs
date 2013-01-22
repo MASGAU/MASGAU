@@ -21,6 +21,17 @@ namespace MASGAU.Location {
             this.type = type;
         }
 
+        protected void addUserEv(string user, EnvironmentVariable ev, string name, string folder) {
+            UserData user_data;
+            if (Contains(user))
+                user_data = getUser(user);
+            else {
+                user_data = new UserData(user);
+                this.AddWithSort(user_data);
+            }
+            user_data.addEvFolder(ev, name, folder);
+
+        }
         protected void setUserEv(string user, EnvironmentVariable ev, string folder) {
             UserData user_data;
             if (Contains(user))
