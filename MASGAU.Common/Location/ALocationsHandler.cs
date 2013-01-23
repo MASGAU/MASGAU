@@ -85,13 +85,19 @@ namespace MASGAU.Location {
 
         public bool steam_detected {
             get {
-                return (handlers[HandlerType.Steam] as ASteamLocationHandler).found;
+				if (handlers[HandlerType.Steam] != null)
+                	return (handlers[HandlerType.Steam] as ASteamLocationHandler).found;
+				else
+					return false;
             }
         }
 
         public string steam_path {
             get {
-                return (handlers[HandlerType.Steam] as ASteamLocationHandler).steam_path;
+				if (handlers[HandlerType.Steam] != null)
+					return (handlers[HandlerType.Steam] as ASteamLocationHandler).steam_path;
+				else
+					return null;
             }
         }
 
@@ -110,7 +116,8 @@ namespace MASGAU.Location {
         public DetectedLocations getPaths(ALocation get_me) {
             DetectedLocations return_me = new DetectedLocations();
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
-                return_me.AddRange(handler.Value.getPaths(get_me));
+				if(handler.Value != null) 
+                	return_me.AddRange(handler.Value.getPaths(get_me));
             }
             return return_me;
         }
@@ -118,7 +125,8 @@ namespace MASGAU.Location {
         public List<string> getPaths(EnvironmentVariable ev) {
             List<string> return_me = new List<string>();
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
-                return_me.AddRange(handler.Value.getPaths(ev));
+				if(handler.Value != null) 
+					return_me.AddRange(handler.Value.getPaths(ev));
             }
             return return_me;
         }
@@ -128,16 +136,19 @@ namespace MASGAU.Location {
         public List<string> getUsers(EnvironmentVariable for_me) {
             List<string> return_me = new List<string>();
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
-                return_me.AddRange(handler.Value.getUsers(for_me));
+				if(handler.Value != null) 
+					return_me.AddRange(handler.Value.getUsers(for_me));
             }
             return return_me;
         }
 
         public string getAbsoluteRoot(LocationPath parse_me, string user) {
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
-                string result = handler.Value.getAbsoluteRoot(parse_me, user);
-                if (result != null)
-                    return result;
+				if(handler.Value != null)  {
+					string result = handler.Value.getAbsoluteRoot(parse_me, user);
+                	if (result != null)
+	                    return result;
+				}
             }
             return null;
         }
@@ -152,9 +163,11 @@ namespace MASGAU.Location {
             }
 
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
-                string result = handler.Value.getAbsolutePath(parse_me, user);
-                if (result != null)
-                    return result;
+				if(handler.Value != null)  {
+					string result = handler.Value.getAbsolutePath(parse_me, user);
+                	if (result != null)
+	                    return result;
+				}
             }
             return null;
         }

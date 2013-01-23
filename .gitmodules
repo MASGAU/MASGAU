@@ -52,3 +52,6 @@
 [submodule "Libs/VDF"]
 	path = Libs/VDF
 	url = ../../sanmadjack/VDF.git
+[submodule "Libs/gtk-sharp-ribbon"]
+	path = Libs/gtk-sharp-ribbon
+	url = ../../mono/gtk-sharp-ribbon.git

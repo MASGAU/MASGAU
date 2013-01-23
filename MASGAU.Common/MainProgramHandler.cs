@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Collections.Generic;
 using MASGAU.Location;
 using MVC.Communication;
@@ -7,10 +8,10 @@ using Translator;
 namespace MASGAU.Main {
     public class MainProgramHandler : AProgramHandler {
         public bool disable_resize = false;
-
-        public MainProgramHandler(ALocationsHandler loc)
+		private IMainWindow win;
+		public MainProgramHandler(ALocationsHandler loc, IMainWindow win)
             : base(loc) {
-
+			this.win = win;
             string mode;
 
             if (AllUsersMode)
@@ -37,13 +38,66 @@ namespace MASGAU.Main {
 
         }
 
-        public void detectGames() {
-            Games.detectGames();
-            Archives.DetectBackups();
-            Monitor.Monitor.flushQueue();
-            updater = new Updater.Updater(Games.xml, Games.GameDataFolder);
-            Core.monitor.start();
+		public void setupMainProgram () {
+			if (!Core.Ready) {
+				win.closeInterface();
+				return;
+			}
+
+
+			win.Title = this.program_title;
+			win.disableInterface();
+			win.StartupState = Core.settings.WindowState;
+			win.unHookData();
+
+			RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
+			RunWorkerAsync();
+		}
+
+		#region Game Detection routines
+		public void detectGamesAsync() {
+			BackgroundWorker redetect = new BackgroundWorker();
+			redetect.DoWork += new DoWorkEventHandler(detectGames);
+			redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
+			ProgressHandler.clearMessage();
+			win.disableInterface();
+			win.unHookData();
+			redetect.RunWorkerAsync();
+		}
+
+		private void detectGames(object sender, DoWorkEventArgs e) {
+			detectGames();
         }
+		private void detectGames () {
+			Games.detectGames ();
+			Archives.DetectBackups ();
+			Monitor.Monitor.flushQueue ();
+			updater = new Updater.Updater (Games.xml, Games.GameDataFolder);
+			Core.monitor.start ();
+		}
+		#endregion
+
+		#region Archive detection routines
+
+
+
+		#endregion
+
+		protected virtual void setup(object sender, RunWorkerCompletedEventArgs e) {
+			win.enableInterface();
+			if (e.Error != null) {
+				win.closeInterface();
+			}
+			win.hookData();
+			
+
+
+			if (!Core.initialized) {
+				MVC.Translator.TranslatingMessageHandler.SendException(new TranslateableException("CriticalSettingsFailure"));
+				win.closeInterface ();
+			}
+			win.Title =  program_title;
+		}
 
         #region Methods for preparing data about the games
 

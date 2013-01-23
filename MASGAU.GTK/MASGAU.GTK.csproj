@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E67AE78-2811-4AA4-8347-72008E47D72B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MASGAU.GTK</RootNamespace>
+    <AssemblyName>MASGAU.GTK</AssemblyName>
+    <ReleaseVersion>1.1.0</ReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="pango-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="gtk-gui\gui.stetic">
+      <LogicalName>gui.stetic</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\MASGAU.WPF\Resources\masgau.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="gtk-gui\generated.cs" />
+    <Compile Include="MainWindow.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="MainWindowGames.cs" />
+    <Compile Include="gtk-gui\MainWindow.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\MASGAU.Common\MASGAU.Common.csproj">
+      <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
+      <Name>MASGAU.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC.GTK\MVC.GTK.csproj">
+      <Project>{BAD0F1D7-C5FA-4D20-BECC-776A9C44D5BF}</Project>
+      <Name>MVC.GTK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MVC\MVC.csproj">
+      <Project>{4670BE82-DDDF-4614-BE3B-FB5DE4226D93}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Translator\Translator.csproj">
+      <Project>{1B233D4E-7DF0-4608-A0D5-94D416B5B359}</Project>
+      <Name>Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MASGAU.POSIX\MASGAU.POSIX.csproj">
+      <Project>{020CA889-906F-4232-AB71-04CD902ACB3D}</Project>
+      <Name>MASGAU.POSIX</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Config\Config.csproj">
+      <Project>{8176F259-FA07-4CA5-943D-4AA31D5FB857}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

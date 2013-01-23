@@ -7,7 +7,7 @@ namespace MASGAU {
 
         public AProgramWindow() { }
 
-        protected AProgramWindow(AProgramHandler program_handler, ACommunicationWindow parent)
+        protected AProgramWindow(AProgramHandler program_handler, AViewWindow parent)
             : base(parent) {
             this.program_handler = program_handler;
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);

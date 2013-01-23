@@ -27,7 +27,7 @@ namespace MASGAU.Restore {
 
         public RestoreWindow() : this(null) { }
 
-        public RestoreWindow(Archive archive, ACommunicationWindow owner)
+        public RestoreWindow(Archive archive, AViewWindow owner)
             : base(new RestoreProgramHandler(archive, new Location.LocationsHandler()), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
@@ -35,7 +35,7 @@ namespace MASGAU.Restore {
             this.archive = archive;
         }
 
-        public RestoreWindow(ACommunicationWindow owner)
+        public RestoreWindow(AViewWindow owner)
             : base(new RestoreProgramHandler(null, new Location.LocationsHandler()), owner) {
             InitializeComponent();
             Translator.WPF.TranslationHelpers.translateWindow(this);
@@ -91,7 +91,7 @@ namespace MASGAU.Restore {
         }
 
 
-        public static void beginRestore(ACommunicationWindow parent, List<Archive> archives) {
+        public static void beginRestore(AViewWindow parent, List<Archive> archives) {
             string extrasave = ProgressHandler.message;
             ProgressHandler.saveMessage();
             parent.hideInterface();

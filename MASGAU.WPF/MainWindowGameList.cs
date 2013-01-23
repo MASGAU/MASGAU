@@ -26,18 +26,9 @@ namespace MASGAU.Main {
         protected void redetectGames() {
             gamesLst.DeselectAll();
             updateArchiveList();
-
-            BackgroundWorker redetect = new BackgroundWorker();
-            redetect.DoWork += new DoWorkEventHandler(redetectGames);
-            redetect.RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
-            ProgressHandler.clearMessage();
-            disableInterface();
-            redetect.RunWorkerAsync();
+            masgau.detectGamesAsync();
         }
 
-        private void redetectGames(object sender, DoWorkEventArgs e) {
-            masgau.detectGames();
-        }
         #endregion
 
         protected void updateArchiveList() {

@@ -4,14 +4,14 @@ using System.Windows.Media.Imaging;
 using MVC.WPF;
 using Translator;
 namespace MASGAU {
-    public class NewWindow : ACommunicationWindow {
+    public class NewWindow : AViewWindow {
 
 
         public NewWindow()
             : this(null) {
 
         }
-        public NewWindow(ACommunicationWindow owner)
+        public NewWindow(AViewWindow owner)
             : base(owner, Core.settings) {
             this.Owner = owner;
             //            var uriSource = new Uri(System.IO.Path.Combine(Core.ExecutablePath, "masgau.ico"), UriKind.Relative);

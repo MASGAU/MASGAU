@@ -13,8 +13,8 @@ namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
     /// </summary>
-    public partial class MainWindowNew : NewWindow, IWindow {
-        MainProgramHandler masgau;
+    public partial class MainWindowNew : NewWindow, IMainWindow {
+        public MainProgramHandler masgau { get; protected set; }
         NotifierIcon notifier;
 
         public MainWindowNew() {
@@ -34,11 +34,9 @@ namespace MASGAU.Main {
 
             TranslationHelpers.translateWindow(this);
 
-            if (SynchronizationContext.Current == null)
-                SynchronizationContext.SetSynchronizationContext(new DispatcherSynchronizationContext(this.Dispatcher));
-            _context = SynchronizationContext.Current;
 
-            CommunicationHandler.addReceiver(this);
+
+            //CommunicationHandler.addReceiver(this);
 
             WPFCommunicationHelpers.default_progress_color = progress.Foreground;
 
@@ -54,7 +52,7 @@ namespace MASGAU.Main {
 
 
 
-            masgau = new MainProgramHandler(new Location.LocationsHandler());
+            masgau = new MainProgramHandler(new Location.LocationsHandler(), this);
             setupJumpList();
         }
 
@@ -65,46 +63,33 @@ namespace MASGAU.Main {
         #endregion
 
         #region Program handler setup
-        protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
-            if (!Core.Ready) {
-                this.Close();
-                return;
-            }
+        public Config.WindowState StartupState {
+            set {
+                switch (value) {
+                    case global::Config.WindowState.Maximized:
+                        this.WindowState = System.Windows.WindowState.Maximized;
+                        break;
+                    case global::Config.WindowState.Iconified:
+                        this.ShowInTaskbar = false;
+                        this.Visibility = System.Windows.Visibility.Hidden;
+                        break;
+                }
 
-            switch (Core.settings.WindowState) {
-                case global::Config.WindowState.Maximized:
-                    this.WindowState = System.Windows.WindowState.Maximized;
-                    break;
-                case global::Config.WindowState.Iconified:
-                    this.ShowInTaskbar = false;
-                    this.Visibility = System.Windows.Visibility.Hidden;
-                    break;
             }
-
-            setUpProgramHandler();
         }
-        protected virtual void setUpProgramHandler() {
-            this.Title = masgau.program_title;
-            disableInterface();
+
+        protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
+            masgau.setupMainProgram();
+        }
+
+        public void unHookData() {
+            ArchiveList.DataContext = null;
+        }
+
+        public void hookData() {
             gamesLst.DataContext = Games.DetectedGames;
             gamesLst.Model = Games.DetectedGames;
-
             AllUsersModeButton.DataContext = masgau;
-
-
-            ArchiveList.DataContext = null;
-
-
-
-            masgau.RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
-            masgau.RunWorkerAsync();
-        }
-
-        protected virtual void setup(object sender, RunWorkerCompletedEventArgs e) {
-            this.enableInterface();
-            if (e.Error != null) {
-                this.Close();
-            }
 
 
             bindSettingsControls();
@@ -118,14 +103,12 @@ namespace MASGAU.Main {
             populateAltPaths();
             setupMonitorIcon();
 
-            if (!Core.initialized) {
-                MVC.Translator.TranslatingMessageHandler.SendException(new TranslateableException("CriticalSettingsFailure"));
-                this.Close();
-            }
-            this.Title = masgau.program_title;
             addGameSetup();
             this.checkUpdates();
         }
+
+
+
         #endregion
 
         #region About stuff
