@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.AccessControl;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
@@ -89,6 +90,13 @@ namespace MASGAU.Game {
             if (!DataFolder.Exists)
                 DataFolder.Create();
 
+
+
+            DirectorySecurity dSecurity = DataFolder.GetAccessControl();
+            dSecurity.AddAccessRule(new FileSystemAccessRule("everyone", 
+                FileSystemRights.FullControl, 
+                InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.InheritOnly, AccessControlType.Allow));
+            DataFolder.SetAccessControl(dSecurity);
             prepareDataFiles();
 
 
