@@ -9,7 +9,7 @@ namespace MASGAU.GTK
 		{
 			Application.Init ();
 			MainWindow win = new MainWindow();
-			win.Show ();
+				win.Show();
 			Application.Run ();
 		}
 	}

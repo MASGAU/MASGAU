@@ -40,20 +40,20 @@ namespace MVC.GTK {
 		//}
 
 		public MVC.Communication.ResponseType sendMessage (MessageEventArgs e) {
-			StringBuilder message = new StringBuilder (e.message);
-			if (e.exception != null) {
-				message.AppendLine();
-				message.AppendLine();
-				message.AppendLine(e.exception.Message);
-				message.AppendLine();
-				message.AppendLine();
-				message.AppendLine(e.exception.StackTrace);
-			}
-			return sendMessage (message.ToString ());
+				CommunicationDialog dialog = new CommunicationDialog(this,e);
+			dialog.Run();
+			dialog.Hide();
+			dialog.Dispose();
+			return dialog.Response;
 		}
-		public MVC.Communication.ResponseType sendMessage(string message) {
-			MessageDialog dialog  = new MessageDialog(this, DialogFlags.Modal,MessageType.Info,ButtonsType.Ok,message);
-			dialog.Show();
+		
+		public MVC.Communication.ResponseType sendMessage(string title, string message) {
+			MessageDialog dialog  = new MessageDialog(this, DialogFlags.Modal,
+			                                          MessageType.Info,ButtonsType.Ok,message);
+			
+			dialog.Run();
+			dialog.Hide();
+			dialog.Dispose();
 			return MVC.Communication.ResponseType.OK;
 		}
 

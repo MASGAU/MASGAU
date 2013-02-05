@@ -6,7 +6,7 @@ using MASGAU.Location.Holders;
 namespace MASGAU {
     public class CustomGameVersion : GameVersion {
         public CustomGameVersion(GameSaveInfo.Game parent, DirectoryInfo location, string saves, string ignores)
-            : base(parent, "Windows", "Custom") {
+            : base(parent, "Windows", null, "Custom") {
 
             DetectedLocations locs = Core.locations.interpretPath(location.FullName);
             DetectedLocationPathHolder loc = locs.getMostAccurateLocation();

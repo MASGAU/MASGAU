@@ -1,7 +1,10 @@
 using System;
-using MVC.Communication;
-using System.ComponentModel;
-	public partial class MainWindow {
 
-
+namespace MASGAU.GTK {
+	public class MainWindowGames {
+		public partial class MainWindow {
+			
+		}
 	}
+}
+

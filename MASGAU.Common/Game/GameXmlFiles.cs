@@ -56,7 +56,7 @@ namespace MASGAU.Game {
         public bool ValidateFile(FileInfo file, Uri url) {
             XmlFile game_config;
             try {
-                game_config = new XmlFile(file, false);
+                game_config = new XmlFile(file, false,GameXmlFile.RootElementName);
                 return true;
             } catch (Exception e) {
                 Logger.Logger.log("Error while downloading " + url.ToString());
