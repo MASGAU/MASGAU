@@ -52,3 +52,6 @@
 [submodule "Libs/gtk-sharp-ribbon"]
 	path = Libs/gtk-sharp-ribbon
 	url = ../../mono/gtk-sharp-ribbon.git
+[submodule "MASGAU.Common/data"]
+	path = MASGAU.Common/data
+	url = https://github.com/GameSaveInfo/Data.git
