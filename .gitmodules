@@ -40,8 +40,8 @@
 [submodule "Libs/XmlData"]
 	path = Libs/XmlData
 	url = https://github.com/sanmadjack/XmlData.CSharp.git
-[submodule "MASGAU.Common/Data"]
-	path = MASGAU.Common/Data
+[submodule "MASGAU.Common/data"]
+	path = MASGAU.Common/data
 	url = https://github.com/GameSaveInfo/Data.git
 [submodule "MASGAU.Common/Strings"]
 	path = MASGAU.Common/Strings
