@@ -25,11 +25,12 @@ namespace MVC.GTK {
 				return _available;
 			}
 		}
-
+		
+		
 		protected AViewWindow (Gtk.WindowType type): base(type) {
 			//this.Closing += new CancelEventHandler(Window_Closing);
 			//These intitialize the contexts of the CommunicationHandlers
-
+			GLib.ExceptionManager.UnhandledException +=	handleOtherExceptions;
 			CommunicationHandler.addReceiver(this);
 		}
 		//void Window_Closing(object sender, CancelEventArgs e) {
@@ -37,10 +38,19 @@ namespace MVC.GTK {
 		//	if (this.Visibility == System.Windows.Visibility.Visible)
 		//		toggleVisibility();
 			
+		
+		protected void handleOtherExceptions(GLib.UnhandledExceptionArgs e) {
+			
+			CommunicationDialog dialog = new CommunicationDialog(this,e.ExceptionObject as Exception);
+			dialog.Run();
+			dialog.Hide();
+			dialog.Dispose();
+			
+		}
 		//}
 
 		public MVC.Communication.ResponseType sendMessage (MessageEventArgs e) {
-				CommunicationDialog dialog = new CommunicationDialog(this,e);
+			CommunicationDialog dialog = new CommunicationDialog(this,e);
 			dialog.Run();
 			dialog.Hide();
 			dialog.Dispose();
@@ -58,16 +68,19 @@ namespace MVC.GTK {
 		}
 
 		public void requestInformation (RequestEventArgs e) {
-			throw new NotSupportedException (e.ToString());
+			CommunicationDialog dialog = new CommunicationDialog(this,e);
+			dialog.Run();
+			dialog.Hide();
+			dialog.Dispose();
 		}
 
 		public abstract void updateProgress(ProgressUpdatedEventArgs e);
 
 
-		public void disableInterface () {
+		public virtual void disableInterface () {
 			this.Sensitive = false;
 		}
-		public void enableInterface () {
+		public virtual void enableInterface () {
 			this.Sensitive = true;
 		}
 

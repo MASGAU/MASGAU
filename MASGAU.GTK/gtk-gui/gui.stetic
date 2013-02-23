@@ -6,11 +6,20 @@
   </configuration>
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
-    <widget-library name="../../Libs/MVC.GTK/bin/Release/MVC.GTK.dll" />
-    <widget-library name="../bin/Release/MASGAU.GTK.exe" internal="true" />
+    <widget-library name="../../Libs/MVC.GTK/bin/Debug/MVC.GTK.dll" />
+    <widget-library name="../bin/Debug/MASGAU.GTK.exe" internal="true" />
   </import>
   <widget class="Gtk.Window" id="MASGAU.GTK.MainWindow" design-size="707 451">
-    <action-group name="Default" />
+    <action-group name="Default">
+      <action id="refreshGamesBtn">
+        <property name="Type">Action</property>
+        <property name="IsImportant">True</property>
+        <property name="Label" translatable="yes">$RefreshGames</property>
+        <property name="ShortLabel" translatable="yes">$RefreshGames</property>
+        <property name="StockId">gtk-refresh</property>
+        <signal name="Activated" handler="OnRefreshGamesBtnActivated" />
+      </action>
+    </action-group>
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -19,10 +28,12 @@
         <property name="MemberName" />
         <property name="Spacing">6</property>
         <child>
-          <widget class="Gtk.Toolbar" id="toolbar1">
+          <widget class="Gtk.Toolbar" id="gamesToolbar">
             <property name="MemberName" />
             <property name="ShowArrow">False</property>
-            <node name="toolbar1" type="Toolbar" />
+            <node name="gamesToolbar" type="Toolbar">
+              <node type="Toolitem" action="refreshGamesBtn" />
+            </node>
           </widget>
           <packing>
             <property name="Position">0</property>
@@ -32,7 +43,44 @@
           </packing>
         </child>
         <child>
-          <placeholder />
+          <widget class="Gtk.HPaned" id="hpaned1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Position">497</property>
+            <child>
+              <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+                <property name="MemberName" />
+                <property name="ShadowType">In</property>
+                <child>
+                  <widget class="Gtk.TreeView" id="gameTreeView">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="ShowScrollbars">True</property>
+                  </widget>
+                </child>
+              </widget>
+              <packing>
+                <property name="Resize">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow1">
+                <property name="MemberName" />
+                <property name="ShadowType">In</property>
+                <child>
+                  <widget class="Gtk.TreeView" id="archiveTreeView">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="ShowScrollbars">True</property>
+                  </widget>
+                </child>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+          </packing>
         </child>
         <child>
           <widget class="Gtk.HBox" id="hbox1">

@@ -13,6 +13,28 @@ namespace MASGAU.GTK {
 		public MainWindow (): base (Gtk.WindowType.Toplevel)
 		{
 			Build ();
+			
+			TreeViewColumn col = new TreeViewColumn();
+			CellRenderer render = new CellRendererText();
+			col.Title = "Game Title";
+			col.PackStart(render,true);
+			col.AddAttribute(render,"text",0);
+			gameTreeView.AppendColumn(col);
+			
+			col = new TreeViewColumn();
+			col.Title = "Version";
+			col.PackStart(render,true);
+			col.AddAttribute(render,"text",1);
+			gameTreeView.AppendColumn(col);
+			
+			render = new CellRendererToggle();
+			col = new TreeViewColumn();
+			col.Title = "Monitor";
+			col.PackStart(render,true);
+			col.AddAttribute(render,"active",2);
+			gameTreeView.AppendColumn(col);
+			
+			
 			masgau = new MainProgramHandler(new MASGAU.Location.LocationsHandler(), this);
 			masgau.setupMainProgram ();
 		}
@@ -32,13 +54,29 @@ namespace MASGAU.GTK {
 			}
 		}
 	
-		public void unHookData() {}
+		public void unHookData() {
+			
+		}
+		
+		ListStore model = new ListStore(typeof(string),typeof (string),typeof(bool));
 		public void hookData () {
+			model.Clear();
+			gameTreeView.Model = model;
+			foreach (GameEntry game in Games.DetectedGames) {
+				model.AppendValues (game.Title, game.id.Formatted, game.IsMonitored);				
+			}
 		}
 	
 	
 	
-	
+		public override void disableInterface ()
+		{
+			
+		}	
+		public override void enableInterface ()
+		{
+			
+		}
 	
 	
 		protected void OnDeleteEvent (object sender, DeleteEventArgs a)
@@ -53,12 +91,16 @@ namespace MASGAU.GTK {
 			} else {
 				this.progressbar1.Fraction = e.value / e.max;
 			}
-			statusbar1.Push(1,e.message);
+			if(e.message!=null) {
+				statusbar1.Push(1,e.message);
+			}
 	
 		}
 		public void setTranslatedTitle(string name, params string[] vars) {
 			this.Title = name;
 		}
+
+
 	}
 }
 

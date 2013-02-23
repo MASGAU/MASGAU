@@ -57,6 +57,7 @@
     <Compile Include="gtk-gui\generated.cs" />
     <Compile Include="CommunicationDialog.cs" />
     <Compile Include="gtk-gui\MVC.GTK.CommunicationDialog.cs" />
+    <Compile Include="ObservableListStoreWrapper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

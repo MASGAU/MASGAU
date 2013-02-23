@@ -5,14 +5,19 @@ namespace MVC.GTK
 	public partial class CommunicationDialog
 	{
 		private global::Gtk.HBox hbox2;
-		private global::Gtk.Image image1;
+		private global::Gtk.Image errorImage;
+		private global::Gtk.Image infoImage;
+		private global::Gtk.Image questionImage;
+		private global::Gtk.Image warningImage;
 		private global::Gtk.Label messageLbl;
-		private global::Gtk.Expander expander1;
+		private global::Gtk.Expander exceptionExpander;
 		private global::Gtk.ScrolledWindow GtkScrolledWindow;
 		private global::Gtk.TextView exceptionText1;
 		private global::Gtk.Label GtkLabel2;
 		private global::Gtk.Button buttonCancel;
 		private global::Gtk.Button buttonOk;
+		private global::Gtk.Button buttonNo;
+		private global::Gtk.Button buttonYes;
 		
 		protected virtual void Build ()
 		{
@@ -29,34 +34,59 @@ namespace MVC.GTK
 			this.hbox2.Name = "hbox2";
 			this.hbox2.Spacing = 6;
 			// Container child hbox2.Gtk.Box+BoxChild
-			this.image1 = new global::Gtk.Image ();
-			this.image1.Name = "image1";
-			this.image1.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-dialog-error", global::Gtk.IconSize.Menu);
-			this.hbox2.Add (this.image1);
-			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.image1]));
+			this.errorImage = new global::Gtk.Image ();
+			this.errorImage.Name = "errorImage";
+			this.errorImage.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-dialog-error", global::Gtk.IconSize.Menu);
+			this.hbox2.Add (this.errorImage);
+			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.errorImage]));
 			w2.Position = 0;
 			w2.Expand = false;
-			w2.Fill = false;
+			// Container child hbox2.Gtk.Box+BoxChild
+			this.infoImage = new global::Gtk.Image ();
+			this.infoImage.Name = "infoImage";
+			this.infoImage.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-dialog-info", global::Gtk.IconSize.Menu);
+			this.hbox2.Add (this.infoImage);
+			global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.infoImage]));
+			w3.Position = 1;
+			w3.Expand = false;
+			w3.Fill = false;
+			// Container child hbox2.Gtk.Box+BoxChild
+			this.questionImage = new global::Gtk.Image ();
+			this.questionImage.Name = "questionImage";
+			this.questionImage.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-dialog-question", global::Gtk.IconSize.Menu);
+			this.hbox2.Add (this.questionImage);
+			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.questionImage]));
+			w4.Position = 2;
+			w4.Expand = false;
+			w4.Fill = false;
+			// Container child hbox2.Gtk.Box+BoxChild
+			this.warningImage = new global::Gtk.Image ();
+			this.warningImage.Name = "warningImage";
+			this.warningImage.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-dialog-warning", global::Gtk.IconSize.Menu);
+			this.hbox2.Add (this.warningImage);
+			global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.warningImage]));
+			w5.Position = 3;
+			w5.Expand = false;
+			w5.Fill = false;
 			// Container child hbox2.Gtk.Box+BoxChild
 			this.messageLbl = new global::Gtk.Label ();
 			this.messageLbl.Name = "messageLbl";
 			this.messageLbl.LabelProp = global::Mono.Unix.Catalog.GetString ("label1");
 			this.hbox2.Add (this.messageLbl);
-			global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.messageLbl]));
-			w3.Position = 2;
-			w3.Expand = false;
-			w3.Fill = false;
+			global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.messageLbl]));
+			w6.Position = 4;
+			w6.Expand = false;
+			w6.Fill = false;
 			w1.Add (this.hbox2);
-			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(w1 [this.hbox2]));
-			w4.Position = 0;
-			w4.Expand = false;
-			w4.Fill = false;
+			global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(w1 [this.hbox2]));
+			w7.Position = 0;
+			w7.Expand = false;
+			w7.Fill = false;
 			// Container child dialog1_VBox.Gtk.Box+BoxChild
-			this.expander1 = new global::Gtk.Expander (null);
-			this.expander1.CanFocus = true;
-			this.expander1.Name = "expander1";
-			this.expander1.Expanded = true;
-			// Container child expander1.Gtk.Container+ContainerChild
+			this.exceptionExpander = new global::Gtk.Expander (null);
+			this.exceptionExpander.CanFocus = true;
+			this.exceptionExpander.Name = "exceptionExpander";
+			// Container child exceptionExpander.Gtk.Container+ContainerChild
 			this.GtkScrolledWindow = new global::Gtk.ScrolledWindow ();
 			this.GtkScrolledWindow.Name = "GtkScrolledWindow";
 			this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
@@ -67,21 +97,21 @@ namespace MVC.GTK
 			this.exceptionText1.Editable = false;
 			this.exceptionText1.AcceptsTab = false;
 			this.GtkScrolledWindow.Add (this.exceptionText1);
-			this.expander1.Add (this.GtkScrolledWindow);
+			this.exceptionExpander.Add (this.GtkScrolledWindow);
 			this.GtkLabel2 = new global::Gtk.Label ();
 			this.GtkLabel2.Name = "GtkLabel2";
 			this.GtkLabel2.LabelProp = global::Mono.Unix.Catalog.GetString ("Exception Information");
 			this.GtkLabel2.UseUnderline = true;
-			this.expander1.LabelWidget = this.GtkLabel2;
-			w1.Add (this.expander1);
-			global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(w1 [this.expander1]));
-			w7.Position = 1;
+			this.exceptionExpander.LabelWidget = this.GtkLabel2;
+			w1.Add (this.exceptionExpander);
+			global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(w1 [this.exceptionExpander]));
+			w10.Position = 1;
 			// Internal child MVC.GTK.CommunicationDialog.ActionArea
-			global::Gtk.HButtonBox w8 = this.ActionArea;
-			w8.Name = "dialog1_ActionArea";
-			w8.Spacing = 10;
-			w8.BorderWidth = ((uint)(5));
-			w8.LayoutStyle = ((global::Gtk.ButtonBoxStyle)(4));
+			global::Gtk.HButtonBox w11 = this.ActionArea;
+			w11.Name = "dialog1_ActionArea";
+			w11.Spacing = 10;
+			w11.BorderWidth = ((uint)(5));
+			w11.LayoutStyle = ((global::Gtk.ButtonBoxStyle)(4));
 			// Container child dialog1_ActionArea.Gtk.ButtonBox+ButtonBoxChild
 			this.buttonCancel = new global::Gtk.Button ();
 			this.buttonCancel.CanDefault = true;
@@ -91,9 +121,9 @@ namespace MVC.GTK
 			this.buttonCancel.UseUnderline = true;
 			this.buttonCancel.Label = "gtk-cancel";
 			this.AddActionWidget (this.buttonCancel, -6);
-			global::Gtk.ButtonBox.ButtonBoxChild w9 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w8 [this.buttonCancel]));
-			w9.Expand = false;
-			w9.Fill = false;
+			global::Gtk.ButtonBox.ButtonBoxChild w12 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w11 [this.buttonCancel]));
+			w12.Expand = false;
+			w12.Fill = false;
 			// Container child dialog1_ActionArea.Gtk.ButtonBox+ButtonBoxChild
 			this.buttonOk = new global::Gtk.Button ();
 			this.buttonOk.CanDefault = true;
@@ -103,18 +133,53 @@ namespace MVC.GTK
 			this.buttonOk.UseUnderline = true;
 			this.buttonOk.Label = "gtk-ok";
 			this.AddActionWidget (this.buttonOk, -5);
-			global::Gtk.ButtonBox.ButtonBoxChild w10 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w8 [this.buttonOk]));
-			w10.Position = 1;
-			w10.Expand = false;
-			w10.Fill = false;
+			global::Gtk.ButtonBox.ButtonBoxChild w13 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w11 [this.buttonOk]));
+			w13.Position = 1;
+			w13.Expand = false;
+			w13.Fill = false;
+			// Container child dialog1_ActionArea.Gtk.ButtonBox+ButtonBoxChild
+			this.buttonNo = new global::Gtk.Button ();
+			this.buttonNo.CanFocus = true;
+			this.buttonNo.Name = "buttonNo";
+			this.buttonNo.UseStock = true;
+			this.buttonNo.UseUnderline = true;
+			this.buttonNo.Label = "gtk-no";
+			this.AddActionWidget (this.buttonNo, -9);
+			global::Gtk.ButtonBox.ButtonBoxChild w14 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w11 [this.buttonNo]));
+			w14.Position = 2;
+			w14.Expand = false;
+			w14.Fill = false;
+			// Container child dialog1_ActionArea.Gtk.ButtonBox+ButtonBoxChild
+			this.buttonYes = new global::Gtk.Button ();
+			this.buttonYes.CanFocus = true;
+			this.buttonYes.Name = "buttonYes";
+			this.buttonYes.UseStock = true;
+			this.buttonYes.UseUnderline = true;
+			this.buttonYes.Label = "gtk-yes";
+			this.AddActionWidget (this.buttonYes, -8);
+			global::Gtk.ButtonBox.ButtonBoxChild w15 = ((global::Gtk.ButtonBox.ButtonBoxChild)(w11 [this.buttonYes]));
+			w15.Position = 3;
+			w15.Expand = false;
+			w15.Fill = false;
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.DefaultWidth = 698;
-			this.DefaultHeight = 371;
+			this.DefaultWidth = 384;
+			this.DefaultHeight = 82;
+			this.errorImage.Hide ();
+			this.infoImage.Hide ();
+			this.questionImage.Hide ();
+			this.warningImage.Hide ();
+			this.exceptionExpander.Hide ();
+			this.buttonCancel.Hide ();
+			this.buttonOk.Hide ();
+			this.buttonNo.Hide ();
+			this.buttonYes.Hide ();
 			this.Show ();
 			this.buttonCancel.Clicked += new global::System.EventHandler (this.OnButtonCancelClicked);
 			this.buttonOk.Clicked += new global::System.EventHandler (this.OnButtonOkClicked);
+			this.buttonNo.Clicked += new global::System.EventHandler (this.OnButtonNoClicked);
+			this.buttonYes.Clicked += new global::System.EventHandler (this.OnButtonYesClicked);
 		}
 	}
 }

@@ -66,6 +66,7 @@
     <Compile Include="MainWindow.cs" />
     <Compile Include="gtk-gui\MASGAU.GTK.MainWindow.cs" />
     <Compile Include="MainWindowGames.cs" />
+    <Compile Include="ModelWrapper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

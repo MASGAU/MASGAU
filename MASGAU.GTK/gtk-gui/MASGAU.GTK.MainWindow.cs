@@ -5,8 +5,14 @@ namespace MASGAU.GTK
 	public partial class MainWindow
 	{
 		private global::Gtk.UIManager UIManager;
+		private global::Gtk.Action refreshGamesBtn;
 		private global::Gtk.VBox vbox1;
-		private global::Gtk.Toolbar toolbar1;
+		private global::Gtk.Toolbar gamesToolbar;
+		private global::Gtk.HPaned hpaned1;
+		private global::Gtk.ScrolledWindow GtkScrolledWindow;
+		private global::Gtk.TreeView gameTreeView;
+		private global::Gtk.ScrolledWindow GtkScrolledWindow1;
+		private global::Gtk.TreeView archiveTreeView;
 		private global::Gtk.HBox hbox1;
 		private global::Gtk.Statusbar statusbar1;
 		private global::Gtk.ProgressBar progressbar1;
@@ -17,6 +23,10 @@ namespace MASGAU.GTK
 			// Widget MASGAU.GTK.MainWindow
 			this.UIManager = new global::Gtk.UIManager ();
 			global::Gtk.ActionGroup w1 = new global::Gtk.ActionGroup ("Default");
+			this.refreshGamesBtn = new global::Gtk.Action ("refreshGamesBtn", global::Mono.Unix.Catalog.GetString ("$RefreshGames"), null, "gtk-refresh");
+			this.refreshGamesBtn.IsImportant = true;
+			this.refreshGamesBtn.ShortLabel = global::Mono.Unix.Catalog.GetString ("$RefreshGames");
+			w1.Add (this.refreshGamesBtn, null);
 			this.UIManager.InsertActionGroup (w1, 0);
 			this.AddAccelGroup (this.UIManager.AccelGroup);
 			this.Name = "MASGAU.GTK.MainWindow";
@@ -27,15 +37,45 @@ namespace MASGAU.GTK
 			this.vbox1.Name = "vbox1";
 			this.vbox1.Spacing = 6;
 			// Container child vbox1.Gtk.Box+BoxChild
-			this.UIManager.AddUiFromString ("<ui><toolbar name='toolbar1'/></ui>");
-			this.toolbar1 = ((global::Gtk.Toolbar)(this.UIManager.GetWidget ("/toolbar1")));
-			this.toolbar1.Name = "toolbar1";
-			this.toolbar1.ShowArrow = false;
-			this.vbox1.Add (this.toolbar1);
-			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.toolbar1]));
+			this.UIManager.AddUiFromString ("<ui><toolbar name='gamesToolbar'><toolitem name='refreshGamesBtn' action='refreshGamesBtn'/></toolbar></ui>");
+			this.gamesToolbar = ((global::Gtk.Toolbar)(this.UIManager.GetWidget ("/gamesToolbar")));
+			this.gamesToolbar.Name = "gamesToolbar";
+			this.gamesToolbar.ShowArrow = false;
+			this.vbox1.Add (this.gamesToolbar);
+			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.gamesToolbar]));
 			w2.Position = 0;
 			w2.Expand = false;
 			w2.Fill = false;
+			// Container child vbox1.Gtk.Box+BoxChild
+			this.hpaned1 = new global::Gtk.HPaned ();
+			this.hpaned1.CanFocus = true;
+			this.hpaned1.Name = "hpaned1";
+			this.hpaned1.Position = 497;
+			// Container child hpaned1.Gtk.Paned+PanedChild
+			this.GtkScrolledWindow = new global::Gtk.ScrolledWindow ();
+			this.GtkScrolledWindow.Name = "GtkScrolledWindow";
+			this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
+			// Container child GtkScrolledWindow.Gtk.Container+ContainerChild
+			this.gameTreeView = new global::Gtk.TreeView ();
+			this.gameTreeView.CanFocus = true;
+			this.gameTreeView.Name = "gameTreeView";
+			this.GtkScrolledWindow.Add (this.gameTreeView);
+			this.hpaned1.Add (this.GtkScrolledWindow);
+			global::Gtk.Paned.PanedChild w4 = ((global::Gtk.Paned.PanedChild)(this.hpaned1 [this.GtkScrolledWindow]));
+			w4.Resize = false;
+			// Container child hpaned1.Gtk.Paned+PanedChild
+			this.GtkScrolledWindow1 = new global::Gtk.ScrolledWindow ();
+			this.GtkScrolledWindow1.Name = "GtkScrolledWindow1";
+			this.GtkScrolledWindow1.ShadowType = ((global::Gtk.ShadowType)(1));
+			// Container child GtkScrolledWindow1.Gtk.Container+ContainerChild
+			this.archiveTreeView = new global::Gtk.TreeView ();
+			this.archiveTreeView.CanFocus = true;
+			this.archiveTreeView.Name = "archiveTreeView";
+			this.GtkScrolledWindow1.Add (this.archiveTreeView);
+			this.hpaned1.Add (this.GtkScrolledWindow1);
+			this.vbox1.Add (this.hpaned1);
+			global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hpaned1]));
+			w7.Position = 1;
 			// Container child vbox1.Gtk.Box+BoxChild
 			this.hbox1 = new global::Gtk.HBox ();
 			this.hbox1.Name = "hbox1";
@@ -48,16 +88,16 @@ namespace MASGAU.GTK
 			this.progressbar1 = new global::Gtk.ProgressBar ();
 			this.progressbar1.Name = "progressbar1";
 			this.statusbar1.Add (this.progressbar1);
-			global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.statusbar1 [this.progressbar1]));
-			w3.Position = 1;
+			global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.statusbar1 [this.progressbar1]));
+			w8.Position = 1;
 			this.hbox1.Add (this.statusbar1);
-			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.statusbar1]));
-			w4.Position = 1;
+			global::Gtk.Box.BoxChild w9 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.statusbar1]));
+			w9.Position = 1;
 			this.vbox1.Add (this.hbox1);
-			global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
-			w5.Position = 2;
-			w5.Expand = false;
-			w5.Fill = false;
+			global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
+			w10.Position = 2;
+			w10.Expand = false;
+			w10.Fill = false;
 			this.Add (this.vbox1);
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
@@ -65,6 +105,7 @@ namespace MASGAU.GTK
 			this.DefaultWidth = 707;
 			this.DefaultHeight = 451;
 			this.Show ();
+			this.refreshGamesBtn.Activated += new global::System.EventHandler (this.OnRefreshGamesBtnActivated);
 		}
 	}
 }

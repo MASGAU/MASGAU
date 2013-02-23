@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.Common/Game/Games.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MASGAU.GTK/MainWindow.cs">
     <Files>
-      <File FileName="MASGAU.Common/MainProgramHandler.cs" Line="37" Column="1" />
-      <File FileName="MASGAU.Common/Game/Games.cs" Line="301" Column="1" />
-      <File FileName="MASGAU.GTK/MainWindow.cs" Line="16" Column="82" />
-      <File FileName="MASGAU.Common/Game/GameXmlFiles.cs" Line="105" Column="39" />
+      <File FileName="MASGAU.Common/Game/Games.cs" Line="324" Column="1" />
+      <File FileName="MASGAU.GTK/MainWindow.cs" Line="41" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -13,9 +11,9 @@
       <Breakpoint file="C:\Users\Matthew\Desktop\MASGAU\MASGAU.GTK\MainWindow.cs" line="45" />
       <Breakpoint file="C:\Users\Matthew\Desktop\MASGAU\MASGAU.GTK\MainWindow.cs" line="48" />
       <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/Libs/XmlData/XmlFile.cs" line="49" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/Libs/MVC.GTK/AViewWindow.cs" line="61" />
       <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/MASGAU.Common/MainProgramHandler.cs" line="59" />
-      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/MASGAU.Common/Game/Games.cs" line="265" />
+      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/Libs/MVC.GTK/AViewWindow.cs" line="44" />
+      <Breakpoint file="/home/sanmadjack/Desktop/MASGAU/MASGAU.POSIX/Location/SystemLocationHandler.cs" line="14" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

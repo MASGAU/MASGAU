@@ -142,54 +142,54 @@
     <None Include="Strings\olden.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <EmbeddedResource Include="data\GameSaveInfo20.xsd" />
-    <None Include="data\changelog.txt" />
-    <EmbeddedResource Include="data\deprecated.xml" />
-    <EmbeddedResource Include="data\system.xml" />
-    <None Include="data\new.xml">
+    <None Include="Data\changelog.txt" />
+    <EmbeddedResource Include="Data\deprecated.xml" />
+    <EmbeddedResource Include="Data\system.xml" />
+    <None Include="Data\new.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <EmbeddedResource Include="data\a.xml">
+    <EmbeddedResource Include="Data\a.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\b.xml" />
-    <EmbeddedResource Include="data\c.xml">
+    <EmbeddedResource Include="Data\b.xml" />
+    <EmbeddedResource Include="Data\c.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\d.xml" />
-    <EmbeddedResource Include="data\e.xml" />
-    <EmbeddedResource Include="data\f.xml">
+    <EmbeddedResource Include="Data\d.xml" />
+    <EmbeddedResource Include="Data\e.xml" />
+    <EmbeddedResource Include="Data\f.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\g.xml" />
-    <EmbeddedResource Include="data\h.xml" />
-    <EmbeddedResource Include="data\i.xml" />
-    <EmbeddedResource Include="data\j.xml" />
-    <EmbeddedResource Include="data\k.xml" />
-    <EmbeddedResource Include="data\l.xml" />
-    <EmbeddedResource Include="data\m.xml" />
-    <EmbeddedResource Include="data\n.xml" />
-    <EmbeddedResource Include="data\numeric.xml" />
-    <EmbeddedResource Include="data\o.xml" />
-    <EmbeddedResource Include="data\p.xml" />
-    <EmbeddedResource Include="data\q.xml" />
-    <EmbeddedResource Include="data\r.xml">
+    <EmbeddedResource Include="Data\g.xml" />
+    <EmbeddedResource Include="Data\h.xml" />
+    <EmbeddedResource Include="Data\i.xml" />
+    <EmbeddedResource Include="Data\j.xml" />
+    <EmbeddedResource Include="Data\k.xml" />
+    <EmbeddedResource Include="Data\l.xml" />
+    <EmbeddedResource Include="Data\m.xml" />
+    <EmbeddedResource Include="Data\n.xml" />
+    <EmbeddedResource Include="Data\numeric.xml" />
+    <EmbeddedResource Include="Data\o.xml" />
+    <EmbeddedResource Include="Data\p.xml" />
+    <EmbeddedResource Include="Data\q.xml" />
+    <EmbeddedResource Include="Data\r.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\s.xml" />
-    <EmbeddedResource Include="data\t.xml">
+    <EmbeddedResource Include="Data\s.xml" />
+    <EmbeddedResource Include="Data\t.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\u.xml" />
-    <EmbeddedResource Include="data\v.xml" />
-    <EmbeddedResource Include="data\w.xml" />
-    <EmbeddedResource Include="data\x.xml" />
-    <EmbeddedResource Include="data\y.xml" />
-    <EmbeddedResource Include="data\z.xml" />
-    <None Include="data\!test.xml">
+    <EmbeddedResource Include="Data\u.xml" />
+    <EmbeddedResource Include="Data\v.xml" />
+    <EmbeddedResource Include="Data\w.xml" />
+    <EmbeddedResource Include="Data\x.xml" />
+    <EmbeddedResource Include="Data\y.xml" />
+    <EmbeddedResource Include="Data\z.xml" />
+    <None Include="Data\!test.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <EmbeddedResource Include="Data\GameSaveInfo22.xsd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="masgau.snk" />

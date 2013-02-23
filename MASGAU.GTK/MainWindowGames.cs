@@ -1,10 +1,12 @@
 using System;
 
 namespace MASGAU.GTK {
-	public class MainWindowGames {
-		public partial class MainWindow {
-			
+	public partial class MainWindow {
+		protected void OnRefreshGamesBtnActivated (object sender, System.EventArgs e)
+		{
+			masgau.detectGamesAsync();
 		}
+
 	}
 }
 

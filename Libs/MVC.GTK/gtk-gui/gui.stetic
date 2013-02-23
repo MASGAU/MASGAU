@@ -7,10 +7,10 @@
   <import>
     <widget-library name="../bin/Debug/MVC.GTK.dll" internal="true" />
   </import>
-  <widget class="Gtk.Dialog" id="MVC.GTK.CommunicationDialog" design-size="698 371">
+  <widget class="Gtk.Dialog" id="MVC.GTK.CommunicationDialog" design-size="384 82">
     <property name="MemberName" />
     <property name="WindowPosition">CenterOnParent</property>
-    <property name="Buttons">2</property>
+    <property name="Buttons">4</property>
     <property name="HelpButton">False</property>
     <child internal-child="VBox">
       <widget class="Gtk.VBox" id="dialog1_VBox">
@@ -21,19 +21,55 @@
             <property name="MemberName" />
             <property name="Spacing">6</property>
             <child>
-              <widget class="Gtk.Image" id="image1">
+              <widget class="Gtk.Image" id="errorImage">
                 <property name="MemberName" />
+                <property name="Visible">False</property>
                 <property name="Pixbuf">stock:gtk-dialog-error Menu</property>
               </widget>
               <packing>
                 <property name="Position">0</property>
+                <property name="AutoSize">False</property>
+                <property name="Expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Image" id="infoImage">
+                <property name="MemberName" />
+                <property name="Visible">False</property>
+                <property name="Pixbuf">stock:gtk-dialog-info Menu</property>
+              </widget>
+              <packing>
+                <property name="Position">1</property>
                 <property name="AutoSize">True</property>
                 <property name="Expand">False</property>
                 <property name="Fill">False</property>
               </packing>
             </child>
             <child>
-              <placeholder />
+              <widget class="Gtk.Image" id="questionImage">
+                <property name="MemberName" />
+                <property name="Visible">False</property>
+                <property name="Pixbuf">stock:gtk-dialog-question Menu</property>
+              </widget>
+              <packing>
+                <property name="Position">2</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Image" id="warningImage">
+                <property name="MemberName" />
+                <property name="Visible">False</property>
+                <property name="Pixbuf">stock:gtk-dialog-warning Menu</property>
+              </widget>
+              <packing>
+                <property name="Position">3</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
             </child>
             <child>
               <widget class="Gtk.Label" id="messageLbl">
@@ -41,7 +77,7 @@
                 <property name="LabelProp" translatable="yes">label1</property>
               </widget>
               <packing>
-                <property name="Position">2</property>
+                <property name="Position">4</property>
                 <property name="AutoSize">True</property>
                 <property name="Expand">False</property>
                 <property name="Fill">False</property>
@@ -56,10 +92,10 @@
           </packing>
         </child>
         <child>
-          <widget class="Gtk.Expander" id="expander1">
+          <widget class="Gtk.Expander" id="exceptionExpander">
             <property name="MemberName" />
+            <property name="Visible">False</property>
             <property name="CanFocus">True</property>
-            <property name="Expanded">True</property>
             <child>
               <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
                 <property name="MemberName" />
@@ -99,11 +135,12 @@
         <property name="MemberName" />
         <property name="Spacing">10</property>
         <property name="BorderWidth">5</property>
-        <property name="Size">2</property>
+        <property name="Size">4</property>
         <property name="LayoutStyle">End</property>
         <child>
           <widget class="Gtk.Button" id="buttonCancel">
             <property name="MemberName" />
+            <property name="Visible">False</property>
             <property name="CanDefault">True</property>
             <property name="CanFocus">True</property>
             <property name="UseStock">True</property>
@@ -121,6 +158,7 @@
         <child>
           <widget class="Gtk.Button" id="buttonOk">
             <property name="MemberName" />
+            <property name="Visible">False</property>
             <property name="CanDefault">True</property>
             <property name="CanFocus">True</property>
             <property name="UseStock">True</property>
@@ -132,6 +170,42 @@
           </widget>
           <packing>
             <property name="Position">1</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="buttonNo">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="CanFocus">True</property>
+            <property name="UseStock">True</property>
+            <property name="Type">StockItem</property>
+            <property name="StockId">gtk-no</property>
+            <property name="ResponseId">-9</property>
+            <signal name="Clicked" handler="OnButtonNoClicked" />
+            <property name="label">gtk-no</property>
+          </widget>
+          <packing>
+            <property name="Position">2</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="buttonYes">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="CanFocus">True</property>
+            <property name="UseStock">True</property>
+            <property name="Type">StockItem</property>
+            <property name="StockId">gtk-yes</property>
+            <property name="ResponseId">-8</property>
+            <signal name="Clicked" handler="OnButtonYesClicked" />
+            <property name="label">gtk-yes</property>
+          </widget>
+          <packing>
+            <property name="Position">3</property>
             <property name="Expand">False</property>
             <property name="Fill">False</property>
           </packing>
