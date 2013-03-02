@@ -1,5 +1,5 @@
 #define MyAppName "MASGAU"
-#define MyAppVersion "1.0.2"
+#define MyAppVersion "1.0.4"
 #define MyAppPublisher "Matthew Barbour"
 #define MyAppURL "http://masgau.org/"
 #define Mode "Release"
@@ -17,7 +17,7 @@ DefaultGroupName={#MyAppName}
 Compression=lzma/Ultra64
 SolidCompression=true
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-{#Stability}-Setup
-AppCopyright=2012
+AppCopyright=2013
 ChangesAssociations=true
 WizardImageFile=installer_logo.bmp
 WizardSmallImageFile=installer_logo_small.bmp

@@ -96,6 +96,10 @@
       <Project>{937CDE2B-963A-4624-A460-C95676260D35}</Project>
       <Name>GameSave.Info</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Libs\VDF\VDF.csproj">
+      <Project>{8392B97A-0EA5-489B-92A3-BBE9CFCCB5A5}</Project>
+      <Name>VDF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MASGAU.Common\MASGAU.Common.csproj">
       <Project>{E62FA937-9B38-4475-87D4-1A79EC4DD7E5}</Project>
       <Name>MASGAU.Common</Name>

@@ -1,3 +1,6 @@
+=1.0.4=
+* Can now detect Steam games that have been installed on ther drives through Steam's new feature that lets you do what I just said.
+
 =1.0.2=
 * Implemented custom List view to overcome the limitations of the stock one
 * Added interface text to explain the restore process
