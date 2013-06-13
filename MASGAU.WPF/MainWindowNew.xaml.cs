@@ -34,11 +34,11 @@ namespace MASGAU.Main {
 
             TranslationHelpers.translateWindow(this);
 
-            if (SynchronizationContext.Current == null)
-                SynchronizationContext.SetSynchronizationContext(new DispatcherSynchronizationContext(this.Dispatcher));
-            _context = SynchronizationContext.Current;
+            //if (SynchronizationContext.Current == null)
+            //    SynchronizationContext.SetSynchronizationContext(new DispatcherSynchronizationContext(this.Dispatcher));
+            //_context = SynchronizationContext.Current;
 
-            CommunicationHandler.addReceiver(this);
+            //CommunicationHandler.addReceiver(this);
 
             WPFCommunicationHelpers.default_progress_color = progress.Foreground;
 
