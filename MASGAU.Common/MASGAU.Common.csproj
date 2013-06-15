@@ -144,7 +144,9 @@
     </None>
     <None Include="data\changelog.txt" />
     <EmbeddedResource Include="data\deprecated.xml" />
-    <EmbeddedResource Include="data\system.xml" />
+    <EmbeddedResource Include="data\system.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <None Include="data\new.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
