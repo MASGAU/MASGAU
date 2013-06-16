@@ -235,7 +235,7 @@ namespace MASGAU {
             get {
                 ObservableCollection<string> return_me = new ObservableCollection<string>();
                 foreach (DetectedLocationPathHolder add_me in DetectedLocations) {
-                    return_me.Add(add_me.full_dir_path);
+                    return_me.Add(add_me.FullDirPath);
                 }
                 return return_me;
             }
@@ -251,11 +251,12 @@ namespace MASGAU {
         public bool Detect() {
             //            detect_override =  rnd.Next(0, 2) == 0;
 
-
-            List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
+			            List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
             List<ALocation> locations = AllLocations;
 
-            if (this.id.OS != null && this.id.OS.StartsWith("PS"))
+
+
+            if (this.id.Name == "HalfLife2Deathmatch")
                 System.Console.Out.Write("");
 
             foreach (ALocation location in locations) {
@@ -272,7 +273,7 @@ namespace MASGAU {
                         if (!parent_game.DetectionAttempted)
                             parent_game.Detect();
                         foreach (DetectedLocationPathHolder check_me in parent_game.DetectedLocations) {
-                            string path = location.modifyPath(check_me.full_dir_path);
+                            string path = location.modifyPath(check_me.FullDirPath);
                             interim.AddRange(Core.locations.interpretPath(path));
                         }
                     } else {
@@ -296,7 +297,7 @@ namespace MASGAU {
                     continue;
                 }
                 foreach (Identifier identifier in version.Identifiers) {
-                    if (identifier.FindMatching(check_me.full_dir_path).Count > 0) {
+                    if (identifier.FindMatching(check_me.FullDirPath).Count > 0) {
                         DetectedLocations.Add(check_me);
                         break;
                     }
@@ -305,7 +306,7 @@ namespace MASGAU {
             _detected_paths_string = new StringBuilder();
 
             foreach (DetectedLocationPathHolder location in DetectedLocations) {
-                _detected_paths_string.AppendLine(location.full_dir_path);
+                _detected_paths_string.AppendLine(location.FullDirPath);
             }
 
             NotifyPropertyChanged("IsDetected");

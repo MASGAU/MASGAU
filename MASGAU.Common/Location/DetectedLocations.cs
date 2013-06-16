@@ -15,7 +15,7 @@ namespace MASGAU.Location {
 
         public void Add(DetectedLocationPathHolder path) {
             // This compares the environment variables to ensure that the most accurate location gets used when the same path is entered twice
-            string key = path.full_dir_path;
+            string key = path.FullDirPath;
             if (this.ContainsKey(key)) {
                 DetectedLocationPathHolder other = this[key];
                 if (path.EV > other.EV)

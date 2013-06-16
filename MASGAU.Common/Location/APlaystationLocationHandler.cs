@@ -52,7 +52,7 @@ namespace MASGAU.Location {
             DetectedLocations interim = getPaths(id as LocationPath);
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
             foreach (DetectedLocationPathHolder path in interim) {
-                DirectoryInfo test = new DirectoryInfo(path.full_dir_path);
+                DirectoryInfo test = new DirectoryInfo(path.FullDirPath);
 
                 if (test.GetDirectories(id.ToString()).Length > 0) {
                     path.owner = null;
@@ -69,7 +69,7 @@ namespace MASGAU.Location {
             DetectedLocations interim = getPaths(id as LocationPath);
             List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
             foreach (DetectedLocationPathHolder path in interim) {
-                DirectoryInfo test = new DirectoryInfo(path.full_dir_path);
+                DirectoryInfo test = new DirectoryInfo(path.FullDirPath);
                 if (test.GetFiles(id.ToString()).Length > 0) {
                     path.owner = null;
                     return_me.Add(path);

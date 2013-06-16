@@ -41,7 +41,7 @@ namespace MASGAU.Location.Holders {
 
 
         // Gets the full absolute path of the folfer
-        public string full_dir_path {
+        public string FullDirPath {
             get {
                 if (AbsoluteRoot != null && AbsoluteRoot != "") {
                     if (Path == null || Path == "") {
@@ -57,7 +57,7 @@ namespace MASGAU.Location.Holders {
 
         public bool Exists {
             get {
-                return Directory.Exists(full_dir_path);
+                return Directory.Exists(FullDirPath);
             }
         }
 
@@ -120,13 +120,13 @@ namespace MASGAU.Location.Holders {
 
         public void delete() {
             try {
-                DirectoryInfo info = new DirectoryInfo(full_dir_path);
+                DirectoryInfo info = new DirectoryInfo(FullDirPath);
                 if (info.Exists) {
                     info.Attributes = FileAttributes.Normal;
                     info.Delete(true);
                 }
             } catch (Exception e) {
-                throw new Translator.TranslateableException("DeleteError", e, full_dir_path);
+                throw new Translator.TranslateableException("DeleteError", e, FullDirPath);
             }
         }
     }

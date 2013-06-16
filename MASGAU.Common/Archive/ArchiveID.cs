@@ -138,7 +138,7 @@ namespace MASGAU {
             DetectedLocationPathHolder loc = first_file.OriginalLocation;
 
 
-            OriginalLocation = loc.full_dir_path;
+            OriginalLocation = loc.FullDirPath;
             OriginalEV = loc.EV;
             OriginalRelativePath = loc.Path;
         }

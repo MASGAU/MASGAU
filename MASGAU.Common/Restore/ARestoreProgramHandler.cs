@@ -51,7 +51,7 @@ namespace MASGAU.Restore {
             // Checks if the provided path is the original archive path
             if (location is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
-                if (archive.id.OriginalLocation != null && archive.id.OriginalLocation.ToLower() == loc.full_dir_path.ToLower()) {
+                if (archive.id.OriginalLocation != null && archive.id.OriginalLocation.ToLower() == loc.FullDirPath.ToLower()) {
                     loc.MatchesOriginalPath = true;
                 }
             }
@@ -77,7 +77,7 @@ namespace MASGAU.Restore {
                         // If the present path is a real, detected path
                         DetectedLocationPathHolder path = path_candidates[i] as DetectedLocationPathHolder;
                         // We compare the absolute paths
-                        if (path.full_dir_path.ToLower() == loc.full_dir_path.ToLower()) {
+                        if (path.FullDirPath.ToLower() == loc.FullDirPath.ToLower()) {
                             // If it's two real, detected paths that are the same location, we compare EVs
                             if (loc.EV > path.EV) {
                                 // If the new EV is better, then we replace the old one
@@ -254,7 +254,7 @@ namespace MASGAU.Restore {
                             // This adds a fake VirtualStore folder, just in case
                             if (Core.locations.uac_enabled) {
                                 DetectedLocationPathHolder temp = new DetectedLocationPathHolder(location, Core.locations.getFolder(EnvironmentVariable.LocalAppData, location.owner), location.owner);
-                                temp.ReplacePath(Path.Combine("VirtualStore", location.full_dir_path.Substring(3)));
+                                temp.ReplacePath(Path.Combine("VirtualStore", location.FullDirPath.Substring(3)));
                                 temp.EV = EnvironmentVariable.LocalAppData;
                                 addPathCandidate(temp);
                             }
@@ -441,7 +441,7 @@ namespace MASGAU.Restore {
                 target = loc.ManualPath;
             } else if (path is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = path as DetectedLocationPathHolder;
-                target = loc.full_dir_path;
+                target = loc.FullDirPath;
             } else {
                 target = Core.locations.getAbsolutePath(path, user);
             }
