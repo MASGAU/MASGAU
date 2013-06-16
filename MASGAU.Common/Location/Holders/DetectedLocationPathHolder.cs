@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using GameSaveInfo;
+using Exceptions;
 namespace MASGAU.Location.Holders {
     // This holds locations that have been found
     public class DetectedLocationPathHolder : LocationPath {
@@ -17,8 +18,47 @@ namespace MASGAU.Location.Holders {
             : base(ev, path) {
             if (absolute_root == null)
                 throw new Exception("ABSOLUTE ROOT MUST BE PROVIDED");
-            this.AbsoluteRoot = absolute_root;
             this.owner = owner;
+			this.AbsoluteRoot = absolute_root;
+
+
+
+			if (this.Exists) {
+				string[] parts = this.FullDirPath.Split(System.IO.Path.DirectorySeparatorChar);
+				DirectoryInfo dir = new DirectoryInfo(parts[0] + System.IO.Path.DirectorySeparatorChar);
+				int i = 1;
+				bool found;
+				while (i < parts.Length) {
+					found = false;
+					foreach (DirectoryInfo folder in dir.GetDirectories()) {
+						if (folder.Name.ToLower() == parts[i].ToLower()) {
+							found = true;
+							dir = folder;
+							i++;
+							break;
+						}
+					}
+					if (!found) {
+						throw new Exceptions.WTFException("The folder " + parts[i] + " could not be found in " + dir.FullName);
+					}
+				}
+				string new_root = dir.FullName.Substring(0, absolute_root.Length).TrimEnd(System.IO.Path.DirectorySeparatorChar);
+				string new_path = dir.FullName.Substring(absolute_root.Length).Trim(System.IO.Path.DirectorySeparatorChar);
+				if(this.Path==null) {
+					if (this.Path == null && !String.IsNullOrEmpty(new_path) || this.AbsoluteRoot.ToLower() != new_root.ToLower()) {
+						throw new Exceptions.WTFException(String.Concat(this.Path,new_path,this.AbsoluteRoot,new_root));
+					} 
+
+				} else {
+					if (new_path.ToLower() !=  this.Path.ToLower() || this.AbsoluteRoot.ToLower() != new_root.ToLower()) {
+						throw new Exceptions.WTFException(String.Concat(this.Path, new_path, this.AbsoluteRoot, new_root));
+					}
+
+				}
+
+				this.AbsoluteRoot = new_root;
+				this.Path = new_path; 
+			}
         }
 
         protected DetectedLocationPathHolder() {

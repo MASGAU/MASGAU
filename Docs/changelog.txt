@@ -1,5 +1,13 @@
+=1.0.6=
+* Resolves a potential permissions issue with updated XML files in multi-user environments
+* Fixes a default versioning unit not showing up in settings
+* Fixes an error caused by new "other steam library" feature
+* Fixed e-mailing errors causing a WTF exception
+* Restored the "no archive data" error message, was showing a "string not found" exception in its place
+* Resolved an issue causing some steam games to be detected twice
+
 =1.0.4=
-* Can now detect Steam games that have been installed on ther drives through Steam's new feature that lets you do what I just said.
+* Can now detect Steam games that have been installed on other drives through Steam's new feature that lets you do what I just said.
 
 =1.0.2=
 * Implemented custom List view to overcome the limitations of the stock one

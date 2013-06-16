@@ -163,8 +163,12 @@
     <EmbeddedResource Include="data\f.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\g.xml" />
-    <EmbeddedResource Include="data\h.xml" />
+    <EmbeddedResource Include="data\g.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\h.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\i.xml" />
     <EmbeddedResource Include="data\j.xml" />
     <EmbeddedResource Include="data\k.xml" />
