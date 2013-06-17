@@ -319,18 +319,21 @@ namespace MASGAU {
         public DetectedFiles Saves {
             get {
                 DetectedFiles files = new DetectedFiles();
+                if (id.Name == "BeneathASteelSky") {
+                    Console.Out.WriteLine();
+                }
                 foreach (DetectedLocationPathHolder location in DetectedLocations) {
                     foreach (FileType type in version.FileTypes.Values) {
                         files.AddFiles(type, location);
                     }
-                    foreach (APlayStationID id in version.PlayStationIDs) {
-                        Include save = id.convertToInclude();
+                    foreach (APlayStationID pid in version.PlayStationIDs) {
+                        Include save = pid.convertToInclude();
                         files.AddFiles(save, location);
                     }
                     foreach (ScummVM scumm in version.ScummVMs) {
                         Include save = new Include(scumm.Name + "*.cfg", null, "Settings");
                         files.AddFiles(save, location);
-                        save = new Include(scumm.Name + "*.???", null, null);
+                        save = new Include(scumm.Name + "*.???", null, "");
                         files.AddFiles(save, location, new System.Text.RegularExpressions.Regex(".*[.][0-9]{3}$"));
                     }
                 }
