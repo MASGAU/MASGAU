@@ -13,7 +13,7 @@ namespace MASGAU.Restore {
     public class RestoreProgramHandler : AProgramHandler {
         public bool GameNotDetected {
             get {
-                return game_data == null || !game_data.IsDetected;
+                return game_data == null || !game_data.HasDetectedLocations;
             }
         }
         public static Boolean use_defaults = false;

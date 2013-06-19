@@ -32,16 +32,18 @@ namespace MASGAU {
         private static String ToString(GameIdentifier id) {
             StringBuilder return_me = new StringBuilder(id.Name);
 
-            if (id.Release != null)
+            if (!String.IsNullOrEmpty(id.Release))
                 return_me.Append(Core.seperator + id.Release);
-            if (id.OS != null)
+			if (!String.IsNullOrEmpty(id.OS))
                 return_me.Append(Core.seperator + id.OS);
-            if (id.Platform != null)
+            if (!String.IsNullOrEmpty(id.Platform))
                 return_me.Append(Core.seperator + id.Platform);
-            if (id.Region != null)
+            if (!String.IsNullOrEmpty(id.Region))
                 return_me.Append(Core.seperator + id.Region);
-            if (id.Media != null)
+            if (!String.IsNullOrEmpty(id.Media))
                 return_me.Append(Core.seperator + id.Media);
+			if(id.Revision != 0)
+				return_me.Append(Core.seperator + "rev" + id.Revision);
 
             return return_me.ToString();
         }
@@ -87,18 +89,29 @@ namespace MASGAU {
             return game.CompareTo(id.game);
         }
 
-        public static bool Equals(AComparable a, AComparable b) {
-            return Compare(a as GameID, b as GameID) == 0;
-        }
+		public static bool Equals(AComparable a, AComparable b) {
+			return Compare(a as GameID, b as GameID) == 0;
+		}
+		public static bool Equals(AComparable a, AComparable b, bool ignore_revision) {
+			return Compare(a as GameID, b as GameID, ignore_revision) == 0;
+		}
 
         public override Boolean Equals(AComparable to_me) {
             return Equals(this, to_me as GameID);
         }
 
+		public Boolean Equals(AComparable to_me, bool ignore_revision) {
+			return Equals(this, to_me as GameID,ignore_revision);
+		}
+
         public static int Compare(GameID a, GameID b) {
             return a.game.CompareTo(b.game);
-
         }
+
+		public static int Compare(GameID a, GameID b, bool ignore_revision) {
+			return a.game.CompareTo(b.game, ignore_revision);
+		}
+
 
         public override String ToString() {
             return ToString(game);

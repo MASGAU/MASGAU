@@ -180,10 +180,10 @@ namespace MASGAU {
 
         public override String ToString() {
             StringBuilder return_me = new StringBuilder(Game.ToString());
-            if (Owner != null)
+            if (!String.IsNullOrEmpty(Owner))
                 return_me.Append(Core.seperator + Owner);
 
-            if (Type != null)
+            if (!String.IsNullOrEmpty(Type))
                 return_me.Append(Core.seperator + Type);
 
             if (OriginalLocationhHash != null)

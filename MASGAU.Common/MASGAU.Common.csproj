@@ -126,7 +126,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="structs.cs" />
-    <EmbeddedResource Include="data\GameSaveInfo20.xsd" />
+    <None Include="data\GameSaveInfo202.xsd" />
     <None Include="Task\DayOfWeek.cs" />
     <None Include="Task\Frequency.cs" />
     <None Include="Task\TaskHandler.cs" />
@@ -154,7 +154,9 @@
     <EmbeddedResource Include="data\a.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\b.xml" />
+    <EmbeddedResource Include="data\b.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\c.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>

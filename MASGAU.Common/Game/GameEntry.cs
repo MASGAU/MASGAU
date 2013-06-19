@@ -162,16 +162,21 @@ namespace MASGAU {
                     return true;
 
                 if (IsDeprecated)
-                    return false;
+                   return false;
 
-                if (DetectedLocations != null) {
-                    if (DetectedLocations.Count > 0) {
-                        return true;
-                    }
-                }
-                return false;
+				return HasDetectedLocations;
             }
         }
+		public bool HasDetectedLocations {
+			get {
+				if (DetectedLocations != null) {
+					if (DetectedLocations.Count > 0) {
+						return true;
+					}
+				}
+				return false;
+			}
+		}
 
         public bool CanBeMonitored {
             get {
