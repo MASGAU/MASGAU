@@ -178,14 +178,17 @@ namespace MASGAU.Location {
                     if (variable.Value != null && variable.Value.Matches(interpret_me)) {
                         string path;
                         foreach (string folder in variable.Value.Folders) {
-                            if (interpret_me.Length == folder.Length)
-                                path = "";
-                            else
-                                path = interpret_me.Substring(folder.Length + 1);
+							if (interpret_me.ToLower().StartsWith(folder.ToLower())) {
+								if (interpret_me.Length == folder.Length) {
+									path = "";
+								} else {
+									path = interpret_me.Substring(folder.Length + 1);
+								}
 
-                            new_location = new LocationPath(variable.Key, path);
-                            return_me.AddRange(getPaths(new_location));
-                        }
+								new_location = new LocationPath(variable.Key, path);
+								return_me.AddRange(getPaths(new_location));
+							}
+						}
 
                     }
                 }
