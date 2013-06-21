@@ -141,9 +141,12 @@
   <ItemGroup>
     <None Include="data\!test.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <None Include="data\changelog.txt" />
-    <EmbeddedResource Include="data\deprecated.xml" />
+    <EmbeddedResource Include="data\deprecated.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\system.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -173,13 +176,19 @@
     </EmbeddedResource>
     <EmbeddedResource Include="data\i.xml" />
     <EmbeddedResource Include="data\j.xml" />
-    <EmbeddedResource Include="data\k.xml" />
+    <EmbeddedResource Include="data\k.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\l.xml" />
     <EmbeddedResource Include="data\m.xml" />
-    <EmbeddedResource Include="data\n.xml" />
+    <EmbeddedResource Include="data\n.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\numeric.xml" />
     <EmbeddedResource Include="data\o.xml" />
-    <EmbeddedResource Include="data\p.xml" />
+    <EmbeddedResource Include="data\p.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\q.xml" />
     <EmbeddedResource Include="data\r.xml">
       <SubType>Designer</SubType>
@@ -193,7 +202,9 @@
     <EmbeddedResource Include="data\w.xml" />
     <EmbeddedResource Include="data\x.xml" />
     <EmbeddedResource Include="data\y.xml" />
-    <EmbeddedResource Include="data\z.xml" />
+    <EmbeddedResource Include="data\z.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <None Include="..\Docs\changelog.txt">
       <Link>changelog.txt</Link>
     </None>
