@@ -1,8 +1,8 @@
 #define MyAppName "MASGAU"
-#define MyAppVersion "1.0.4"
+#define MyAppVersion "1.0.6"
 #define MyAppPublisher "Matthew Barbour"
 #define MyAppURL "http://masgau.org/"
-#define Mode "Release"
+#define Mode "Debug"
 #define Stability "Release"
 [Setup]
 AppMutex={#MyAppName}
@@ -27,7 +27,7 @@ AllowRootDirectory=true
 DirExistsWarning=no
 VersionInfoProductName={#MyAppName}
 VersionInfoCompany={#MyAppPublisher}
-VersionInfoCopyright=2012
+VersionInfoCopyright=2013
 VersionInfoVersion={#MyAppVersion}
 VersionInfoProductVersion={#MyAppVersion}
 LicenseFile=..\Docs\gpl-2.0.txt

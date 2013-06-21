@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.AccessControl;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
@@ -56,7 +57,7 @@ namespace MASGAU.Game {
         public bool ValidateFile(FileInfo file, Uri url) {
             XmlFile game_config;
             try {
-                game_config = new XmlFile(file, false);
+                game_config = new XmlFile(file, false, GameXmlFile.RootElementName);
                 return true;
             } catch (Exception e) {
                 Logger.Logger.log("Error while downloading " + url.ToString());
@@ -89,6 +90,13 @@ namespace MASGAU.Game {
             if (!DataFolder.Exists)
                 DataFolder.Create();
 
+
+
+            DirectorySecurity dSecurity = DataFolder.GetAccessControl();
+            dSecurity.AddAccessRule(new FileSystemAccessRule("everyone", 
+                FileSystemRights.FullControl, 
+                InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.InheritOnly, AccessControlType.Allow));
+            DataFolder.SetAccessControl(dSecurity);
             prepareDataFiles();
 
 

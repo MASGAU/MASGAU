@@ -210,7 +210,7 @@ namespace MASGAU {
             extract(xml_file, false);
 
             if (File.Exists(Path.Combine(TempFolder, "masgau.xml"))) {
-                XmlFile file = new XmlFile(new FileInfo(Path.Combine(TempFolder, "masgau.xml")), false);
+                XmlFile file = new XmlFile(new FileInfo(Path.Combine(TempFolder, "masgau.xml")), false, "masgau_archive");
                 XmlElement root = file.DocumentElement;
                 id = new ArchiveID(root);
 

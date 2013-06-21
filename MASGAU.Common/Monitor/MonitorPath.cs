@@ -8,7 +8,7 @@ namespace MASGAU.Monitor {
         public new DetectedLocationPathHolder Path { get; protected set; }
         public GameEntry Game { get; protected set; }
         public MonitorPath(GameEntry game, DetectedLocationPathHolder path)
-            : base(path.full_dir_path, "*") {
+            : base(path.FullDirPath, "*") {
             this.Path = path;
             this.Game = game;
 

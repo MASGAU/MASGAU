@@ -10,7 +10,7 @@ using MVC.Translator;
 using MVC.WPF;
 namespace MASGAU {
 
-    public abstract class AWindow : ACommunicationWindow, IWindow {
+	public abstract class AWindow : AViewWindow, IWindow {
         protected ProgressBar overall_progress;
 
 

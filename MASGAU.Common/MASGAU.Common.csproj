@@ -126,7 +126,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="structs.cs" />
-    <EmbeddedResource Include="data\GameSaveInfo20.xsd" />
+    <None Include="data\GameSaveInfo202.xsd" />
     <None Include="Task\DayOfWeek.cs" />
     <None Include="Task\Frequency.cs" />
     <None Include="Task\TaskHandler.cs" />
@@ -141,10 +141,15 @@
   <ItemGroup>
     <None Include="data\!test.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <None Include="data\changelog.txt" />
-    <EmbeddedResource Include="data\deprecated.xml" />
-    <EmbeddedResource Include="data\system.xml" />
+    <EmbeddedResource Include="data\deprecated.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\system.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <None Include="data\new.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
@@ -152,7 +157,9 @@
     <EmbeddedResource Include="data\a.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\b.xml" />
+    <EmbeddedResource Include="data\b.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\c.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -161,17 +168,27 @@
     <EmbeddedResource Include="data\f.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\g.xml" />
-    <EmbeddedResource Include="data\h.xml" />
+    <EmbeddedResource Include="data\g.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\h.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\i.xml" />
     <EmbeddedResource Include="data\j.xml" />
-    <EmbeddedResource Include="data\k.xml" />
+    <EmbeddedResource Include="data\k.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\l.xml" />
     <EmbeddedResource Include="data\m.xml" />
-    <EmbeddedResource Include="data\n.xml" />
+    <EmbeddedResource Include="data\n.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\numeric.xml" />
     <EmbeddedResource Include="data\o.xml" />
-    <EmbeddedResource Include="data\p.xml" />
+    <EmbeddedResource Include="data\p.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\q.xml" />
     <EmbeddedResource Include="data\r.xml">
       <SubType>Designer</SubType>
@@ -185,7 +202,9 @@
     <EmbeddedResource Include="data\w.xml" />
     <EmbeddedResource Include="data\x.xml" />
     <EmbeddedResource Include="data\y.xml" />
-    <EmbeddedResource Include="data\z.xml" />
+    <EmbeddedResource Include="data\z.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <None Include="..\Docs\changelog.txt">
       <Link>changelog.txt</Link>
     </None>
@@ -203,9 +222,7 @@
     <None Include="strings\olden.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="settings.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="settings.xml" />
     <Content Include="strings\TRANSLATOR README.txt" />
     <Content Include="updates.xml">
       <SubType>Designer</SubType>

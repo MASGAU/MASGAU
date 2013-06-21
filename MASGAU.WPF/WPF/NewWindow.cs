@@ -1,17 +1,19 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using System.Windows;
+using System.Windows.Interop;
 using System.Windows.Media.Imaging;
 using MVC.WPF;
 using Translator;
 namespace MASGAU {
-    public class NewWindow : ACommunicationWindow {
+    public class NewWindow : AViewWindow {
 
 
         public NewWindow()
             : this(null) {
 
         }
-        public NewWindow(ACommunicationWindow owner)
+		public NewWindow(AViewWindow owner)
             : base(owner, Core.settings) {
             this.Owner = owner;
             //            var uriSource = new Uri(System.IO.Path.Combine(Core.ExecutablePath, "masgau.ico"), UriKind.Relative);
@@ -124,5 +126,60 @@ namespace MASGAU {
             } while (try_again);
             return false;
         }
+
+
+
+		// Stuff for handling this full-screen taskbar hiding nonsense
+		// Gracefully stolen from http://blogs.msdn.com/b/llobo/archive/2006/08/01/maximizing-window-_2800_with-windowstyle_3d00_none_2900_-considering-taskbar.aspx
+
+		//[DllImport("user32")]
+		//internal static extern bool GetMonitorInfo(IntPtr hMonitor, MONITORINFO lpmi);
+		//[DllImport("User32")]
+		//internal static extern IntPtr MonitorFromWindow(IntPtr handle, int flags);
+
+
+		//public override void OnApplyTemplate() {
+		//	System.IntPtr handle = (new System.Windows.Interop.WindowInteropHelper(this)).Handle;
+		//	System.Windows.Interop.HwndSource.FromHwnd(handle).AddHook(new System.Windows.Interop.HwndSourceHook(WindowProc));
+		//}
+
+		//private static System.IntPtr WindowProc(
+		//	  System.IntPtr hwnd,
+		//	  int msg,
+		//	  System.IntPtr wParam,
+		//	  System.IntPtr lParam,
+		//	  ref bool handled) {
+		//	switch (msg) {
+		//		case 0x0024:/* WM_GETMINMAXINFO */
+		//			WmGetMinMaxInfo(hwnd, lParam);
+		//			handled = true;
+		//			break;
+		//	}
+			
+		//	return (System.IntPtr)0;
+		//}
+
+		//private static void WmGetMinMaxInfo(System.IntPtr hwnd, System.IntPtr lParam) {
+			
+		//	MINMAXINFO mmi = (MINMAXINFO)Marshal.PtrToStructure(lParam, typeof(MINMAXINFO));
+
+		//	// Adjust the maximized size and position to fit the work area of the correct monitor
+		//	int MONITOR_DEFAULTTONEAREST = 0x00000002;
+		//	System.IntPtr monitor = MonitorFromWindow(hwnd, MONITOR_DEFAULTTONEAREST);
+
+		//	if (monitor != System.IntPtr.Zero) {
+
+		//		MONITORINFO monitorInfo = new MONITORINFO();
+		//		GetMonitorInfo(monitor, monitorInfo);
+		//		Rect rcWorkArea = monitorInfo.rcWork;
+		//		Rect rcMonitorArea = monitorInfo.rcMonitor;
+		//		mmi.ptMaxPosition.x = Math.Abs(rcWorkArea.Left - rcMonitorArea.Left);
+		//		mmi.ptMaxPosition.y = Math.Abs(rcWorkArea.Top - rcMonitorArea.Top);
+		//		mmi.ptMaxSize.x = Math.Abs(rcWorkArea.Right - rcWorkArea.Left);
+		//		mmi.ptMaxSize.y = Math.Abs(rcWorkArea.Bottom - rcWorkArea.Top);
+		//	}
+
+		//	Marshal.StructureToPtr(mmi, lParam, true);
+		//}
     }
 }

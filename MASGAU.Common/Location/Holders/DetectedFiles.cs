@@ -50,7 +50,7 @@ namespace MASGAU.Location.Holders {
 
         private static List<DetectedFile> GatherFiles(Exclude save, DetectedLocationPathHolder location, Regex reg) {
             List<DetectedFile> files = new List<DetectedFile>();
-            foreach (string file in save.FindMatching(location.full_dir_path)) {
+            foreach (string file in save.FindMatching(location.FullDirPath)) {
 
                 string name = Path.GetFileName(file);
                 string path = file.Substring(0, file.Length - name.Length).Trim(Path.DirectorySeparatorChar);

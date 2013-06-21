@@ -34,7 +34,7 @@ namespace MASGAU.Main {
                 //    rootCombo.Items.Add(file.Value.owner);
                 //else
                 //    rootCombo.Items.Add("Global");
-                rootCombo.Items.Add(file.full_dir_path);
+                rootCombo.Items.Add(file.FullDirPath);
             }
             if (rootCombo.Items.Contains(Environment.UserName))
                 rootCombo.SelectedIndex = rootCombo.Items.IndexOf(Environment.UserName);
@@ -80,7 +80,7 @@ namespace MASGAU.Main {
             // This gets every detected save file
             foreach (DetectedFile save in saves) {
                 // This tests if the save is from the currently selected root folder
-                if (save.AbsoluteRoot == game.DetectedLocations[rootCombo.SelectedItem.ToString()].full_dir_path) {
+                if (save.AbsoluteRoot == game.DetectedLocations[rootCombo.SelectedItem.ToString()].FullDirPath) {
                     string path = Path.Combine(save.Path, save.Name);
                     file_tree.addFile(new List<string>(path.Split(Path.DirectorySeparatorChar)), save);
                     // Splits the path into folders
