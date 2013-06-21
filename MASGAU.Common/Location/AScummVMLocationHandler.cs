@@ -59,7 +59,7 @@ namespace MASGAU.Location {
             foreach (string user in Locations.Keys) {
                 if (get_me.Name != "scummvm" && Locations[user].ContainsKey("scummvm")) {
                     foreach (DetectedLocationPathHolder path in loadLocations(Locations[user]["scummvm"], get_me, user)) {
-                        DirectoryInfo info = new DirectoryInfo(path.full_dir_path);
+                        DirectoryInfo info = new DirectoryInfo(path.FullDirPath);
                         if (info.GetFiles(get_me.Name + "*").Length > 0) {
                             return_me.Add(path);
                         }
@@ -93,7 +93,7 @@ namespace MASGAU.Location {
         //}
 
         protected bool filterLocation(DetectedLocationPathHolder loc, ScummVM scumm, string user) {
-            DirectoryInfo dir = new DirectoryInfo(loc.full_dir_path);
+            DirectoryInfo dir = new DirectoryInfo(loc.FullDirPath);
             string pattern = scumm.Name + "*";
             if (dir.GetFiles(pattern).Length > 0) {
                 loc.owner = user;

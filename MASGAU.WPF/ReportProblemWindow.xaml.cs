@@ -6,7 +6,7 @@ namespace MASGAU {
     /// Interaction logic for ReportWindow.xaml
     /// </summary>
     public partial class ReportProblemWindow : NewWindow {
-        public ReportProblemWindow(ACommunicationWindow owner)
+		public ReportProblemWindow(AViewWindow owner)
             : base(owner) {
             InitializeComponent();
             TranslationHelpers.translateWindow(this);
