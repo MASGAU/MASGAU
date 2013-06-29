@@ -26,7 +26,7 @@ namespace MASGAU.Analyzer {
                     LocationPath parse_me = new LocationPath(EnvironmentVariable.LocalAppData, "VirtualStore");
                     virtual_path = Path.Combine(Core.locations.getAbsoluteRoot(parse_me, user), "VirtualStore");
 
-                    virtual_path = Path.Combine(virtual_path, path.full_dir_path.Substring(3));
+                    virtual_path = Path.Combine(virtual_path, path.FullDirPath.Substring(3));
                     if (Directory.Exists(virtual_path))
                         travelFolder(virtual_path);
 
@@ -85,7 +85,7 @@ namespace MASGAU.Analyzer {
                     value.value = check_me;
                     if (look_here.GetValue(check_me) != null) {
                         value.data = look_here.GetValue(check_me).ToString();
-                        if (value.data.Length >= path.full_dir_path.Length && path.full_dir_path.ToLower() == value.data.Substring(0, path.full_dir_path.Length).ToLower()) {
+                        if (value.data.Length >= path.FullDirPath.Length && path.FullDirPath.ToLower() == value.data.Substring(0, path.FullDirPath.Length).ToLower()) {
                             outputLine(Environment.NewLine + "Key:" + value.key);
                             outputLine("Value: " + value.value);
                             output("Data: ");
@@ -138,7 +138,7 @@ namespace MASGAU.Analyzer {
                 foreach (FileInfo shortcut in new DirectoryInfo(look_here).GetFiles("*.lnk")) {
                     try {
                         link = (IWshRuntimeLibrary.IWshShortcut)shell.CreateShortcut(shortcut.FullName);
-                        if (link.TargetPath.Length >= path.full_dir_path.Length && path.full_dir_path.ToLower() == link.TargetPath.Substring(0, path.full_dir_path.Length).ToLower()) {
+                        if (link.TargetPath.Length >= path.FullDirPath.Length && path.FullDirPath.ToLower() == link.TargetPath.Substring(0, path.FullDirPath.Length).ToLower()) {
                             this.outputPath(shortcut.FullName);
                             this.outputPath(link.TargetPath);
                         }

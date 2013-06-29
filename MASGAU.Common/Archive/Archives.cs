@@ -22,7 +22,7 @@ namespace MASGAU {
         public static IList<Archive> GetArchives(GameID id) {
             IList<Archive> archives = new List<Archive>();
             foreach (Archive archive in model.Items) {
-                if (archive.id.Game.Equals(id))
+                if (archive.id.Game.Equals(id,true))
                     archives.Add(archive);
             }
             return archives;
