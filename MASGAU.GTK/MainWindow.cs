@@ -14,24 +14,27 @@ namespace MASGAU.GTK {
 		{
 			Build ();
 			
+			gameTreeView.Selection.Mode = SelectionMode.Multiple;
+			
 			TreeViewColumn col = new TreeViewColumn();
-			CellRenderer render = new CellRendererText();
+			CellRendererText text = new CellRendererText();
 			col.Title = "Game Title";
-			col.PackStart(render,true);
-			col.AddAttribute(render,"text",0);
+			col.PackStart(text,true);
+			col.AddAttribute(text,"text",0);
 			gameTreeView.AppendColumn(col);
 			
 			col = new TreeViewColumn();
+			text = new CellRendererText();
 			col.Title = "Version";
-			col.PackStart(render,true);
-			col.AddAttribute(render,"text",1);
+			col.PackStart(text,true);
+			col.AddAttribute(text,"text",1);
 			gameTreeView.AppendColumn(col);
 			
-			render = new CellRendererToggle();
+			CellRendererToggle toggle = new CellRendererToggle();
 			col = new TreeViewColumn();
 			col.Title = "Monitor";
-			col.PackStart(render,true);
-			col.AddAttribute(render,"active",2);
+			col.PackStart(toggle,true);
+			col.AddAttribute(toggle,"active",2);
 			gameTreeView.AppendColumn(col);
 			
 			
@@ -55,16 +58,17 @@ namespace MASGAU.GTK {
 		}
 	
 		public void unHookData() {
-			
+			model.Clear();
+			gameTreeView.Model = null;
 		}
 		
 		ListStore model = new ListStore(typeof(string),typeof (string),typeof(bool));
 		public void hookData () {
 			model.Clear();
-			gameTreeView.Model = model;
 			foreach (GameEntry game in Games.DetectedGames) {
 				model.AppendValues (game.Title, game.id.Formatted, game.IsMonitored);				
 			}
+			gameTreeView.Model = model;
 		}
 	
 	

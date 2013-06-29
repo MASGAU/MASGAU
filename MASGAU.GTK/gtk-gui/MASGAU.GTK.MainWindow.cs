@@ -59,6 +59,7 @@ namespace MASGAU.GTK
 			this.gameTreeView = new global::Gtk.TreeView ();
 			this.gameTreeView.CanFocus = true;
 			this.gameTreeView.Name = "gameTreeView";
+			this.gameTreeView.EnableSearch = false;
 			this.GtkScrolledWindow.Add (this.gameTreeView);
 			this.hpaned1.Add (this.GtkScrolledWindow);
 			global::Gtk.Paned.PanedChild w4 = ((global::Gtk.Paned.PanedChild)(this.hpaned1 [this.GtkScrolledWindow]));
