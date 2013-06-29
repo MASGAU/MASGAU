@@ -21,7 +21,7 @@ namespace MASGAU.Analyzer {
 
 
             if (path.EV == EnvironmentVariable.VirtualStore) {
-                string drive = Path.GetPathRoot(path.full_dir_path);
+                string drive = Path.GetPathRoot(path.FullDirPath);
                 string new_path = Path.Combine(drive, path.Path);
                 this.path = Core.locations.interpretPath(new_path).getMostAccurateLocation();
             }
@@ -56,10 +56,10 @@ namespace MASGAU.Analyzer {
             ProgressHandler.max += 4;
             outputLine();
             outputLine("Path: ");
-            outputPath(path.full_dir_path);
+            outputPath(path.FullDirPath);
             outputLine();
             try {
-                scanForScumm(path.full_dir_path);
+                scanForScumm(path.FullDirPath);
             } catch (Exception ex) {
                 outputLine("Error while attempting to cehck for ScummVM path entries:");
                 recordException(ex);
@@ -68,7 +68,7 @@ namespace MASGAU.Analyzer {
                 TranslatingProgressHandler.setTranslatedMessage("DumpingFolder");
                 ProgressHandler.value++;
                 outputLine(Environment.NewLine + "Folder Dump: ");
-                travelFolder(path.full_dir_path);
+                travelFolder(path.FullDirPath);
             } catch (Exception ex) {
                 outputLine("Error while attempting to search the save folder:");
                 recordException(ex);

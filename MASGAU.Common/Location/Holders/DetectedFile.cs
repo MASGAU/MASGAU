@@ -8,7 +8,7 @@ namespace MASGAU.Location.Holders {
         // }
         public DetectedLocationPathHolder OriginalLocation { get; protected set; }
         public DetectedFile(DetectedLocationPathHolder location, string path, string name, string type)
-            : base(location, location.full_dir_path, location.owner) {
+            : base(location, location.FullDirPath, location.owner) {
             OriginalLocation = location;
 
             this.Path = path;
@@ -32,11 +32,11 @@ namespace MASGAU.Location.Holders {
         // Gets the full path, including file name
         public string full_file_path {
             get {
-                if (full_dir_path != null) {
+                if (FullDirPath != null) {
                     if (Name != null && Name != "") {
-                        return System.IO.Path.Combine(full_dir_path, Name);
+                        return System.IO.Path.Combine(FullDirPath, Name);
                     } else {
-                        return full_dir_path;
+                        return FullDirPath;
                     }
                 } else {
                     return null;
