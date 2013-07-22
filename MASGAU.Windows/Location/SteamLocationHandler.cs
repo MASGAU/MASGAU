@@ -2,6 +2,7 @@ using System.IO;
 using GameSaveInfo;
 using MASGAU.Registry;
 using VDF;
+using System.Collections.Generic;
 namespace MASGAU.Location {
     public class SteamLocationHandler : ASteamLocationHandler {
         // Custom Methods
@@ -18,12 +19,14 @@ namespace MASGAU.Location {
             return null;
         }
 
+		private List<string> non_user_folders = new List<string>() {"common", "sourcemods", "media", "downloading", "temp"};
+
         protected void loadSteamPaths(DirectoryInfo read_me) {
             DirectoryInfo[] read_us;
             if (read_me.Exists) {
                 read_us = read_me.GetDirectories();
                 foreach (DirectoryInfo subDir in read_us) {
-                    if (subDir.Name.ToLower() != "common" && subDir.Name.ToLower() != "sourcemods" && subDir.Name.ToLower() != "media") {
+                    if (!non_user_folders.Contains(subDir.Name.ToLower())) {
                         addUserEv(subDir.Name, EnvironmentVariable.SteamUser, subDir.FullName, subDir.FullName);
                     }
                 }

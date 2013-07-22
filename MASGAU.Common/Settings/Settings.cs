@@ -246,7 +246,11 @@ namespace MASGAU.Settings {
         }
         public VersioningUnit VersioningUnit {
             get {
-                return (VersioningUnit)Enum.Parse(typeof(VersioningUnit), getLast("VersioningUnit"));
+				VersioningUnit unit = (VersioningUnit)Enum.Parse(typeof(VersioningUnit), getLast("VersioningUnit"));
+				if (-1 == (int)unit) {
+					unit = MASGAU.Settings.VersioningUnit.Hours;
+				}
+                return unit;
             }
             set {
                 set("VersioningUnit", value);

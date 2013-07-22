@@ -18,7 +18,7 @@ namespace MASGAU {
                 return uploadBtn.Sent || saved;
             }
         }
-        public ReportWindow(AAnalyzer analyzer, ACommunicationWindow owner)
+		public ReportWindow(AAnalyzer analyzer, AViewWindow owner)
             : base(owner) {
             InitializeComponent();
             TranslationHelpers.translateWindow(this);
