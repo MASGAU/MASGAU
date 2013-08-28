@@ -2,6 +2,7 @@
 using System.IO;
 using System.Collections.Generic;
 using System.Security.AccessControl;
+using System.Security.Principal;
 using MASGAU.Location;
 using MVC.Communication;
 using MVC.Translator;
@@ -74,7 +75,9 @@ namespace MASGAU.Main {
 
                     FileInfo file = new FileInfo(file_path);
                     FileSecurity fSecurity = file.GetAccessControl();
-                    fSecurity.AddAccessRule(new FileSystemAccessRule(@"Everyone",
+                    // Aquires the Identity corresponding to 'Everyone' on the users computer
+                    SecurityIdentifier everyoneIdentifier = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
+                    fSecurity.AddAccessRule(new FileSystemAccessRule(everyoneIdentifier,
                         FileSystemRights.FullControl,
                         InheritanceFlags.None, PropagationFlags.InheritOnly, AccessControlType.Allow));
                     file.SetAccessControl(fSecurity);

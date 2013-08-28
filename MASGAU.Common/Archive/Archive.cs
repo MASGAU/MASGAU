@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Security.AccessControl;
+using System.Security.Principal;
 using System.Text;
 using System.Threading;
 using System.Xml;
@@ -348,8 +349,9 @@ namespace MASGAU {
                     destination.Create();
                     // This sets the permissions on the folder to be for everyone
                     DirectorySecurity everyone = destination.GetAccessControl();
-                    string everyones_name = @"Everyone";
-                    everyone.AddAccessRule(new FileSystemAccessRule(everyones_name, FileSystemRights.FullControl, InheritanceFlags.ContainerInherit | InheritanceFlags.ObjectInherit, PropagationFlags.None, AccessControlType.Allow));
+                    // Aquires the Identity corresponding to 'Everyone' on the users computer
+                    SecurityIdentifier everyoneIdentifier = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
+                    everyone.AddAccessRule(new FileSystemAccessRule(everyoneIdentifier, FileSystemRights.FullControl, InheritanceFlags.ContainerInherit | InheritanceFlags.ObjectInherit, PropagationFlags.None, AccessControlType.Allow));
                     destination.SetAccessControl(everyone);
                 } catch {
                     // This is if the folder creation fails
