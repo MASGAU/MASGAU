@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.AccessControl;
+using System.Security.Principal;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
@@ -93,7 +94,9 @@ namespace MASGAU.Game {
 
 
             DirectorySecurity dSecurity = DataFolder.GetAccessControl();
-            dSecurity.AddAccessRule(new FileSystemAccessRule("everyone", 
+            // Aquires the Identity corresponding to 'Everyone' on the users computer
+            SecurityIdentifier everyoneIdentifier = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
+            dSecurity.AddAccessRule(new FileSystemAccessRule(everyoneIdentifier, 
                 FileSystemRights.FullControl, 
                 InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.InheritOnly, AccessControlType.Allow));
             DataFolder.SetAccessControl(dSecurity);
