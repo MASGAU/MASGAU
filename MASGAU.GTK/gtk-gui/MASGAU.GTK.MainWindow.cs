@@ -16,7 +16,7 @@ namespace MASGAU.GTK
 		private global::Gtk.HBox hbox1;
 		private global::Gtk.Statusbar statusbar1;
 		private global::Gtk.ProgressBar progressbar1;
-		
+
 		protected virtual void Build ()
 		{
 			global::Stetic.Gui.Initialize (this);
@@ -31,13 +31,15 @@ namespace MASGAU.GTK
 			this.AddAccelGroup (this.UIManager.AccelGroup);
 			this.Name = "MASGAU.GTK.MainWindow";
 			this.Title = global::Mono.Unix.Catalog.GetString ("MainWindow");
+			this.Icon = global::Gdk.Pixbuf.LoadFromResource ("MASGAU.GTK.masgau.ico");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 			// Container child MASGAU.GTK.MainWindow.Gtk.Container+ContainerChild
 			this.vbox1 = new global::Gtk.VBox ();
 			this.vbox1.Name = "vbox1";
 			this.vbox1.Spacing = 6;
 			// Container child vbox1.Gtk.Box+BoxChild
-			this.UIManager.AddUiFromString ("<ui><toolbar name='gamesToolbar'><toolitem name='refreshGamesBtn' action='refreshGamesBtn'/></toolbar></ui>");
+			this.UIManager.AddUiFromString ("<ui><toolbar name=\'gamesToolbar\'><toolitem name=\'refreshGamesBtn\' action=\'refresh" +
+			"GamesBtn\'/></toolbar></ui>");
 			this.gamesToolbar = ((global::Gtk.Toolbar)(this.UIManager.GetWidget ("/gamesToolbar")));
 			this.gamesToolbar.Name = "gamesToolbar";
 			this.gamesToolbar.ShowArrow = false;
@@ -106,6 +108,7 @@ namespace MASGAU.GTK
 			this.DefaultWidth = 707;
 			this.DefaultHeight = 451;
 			this.Show ();
+			this.DestroyEvent += new global::Gtk.DestroyEventHandler (this.OnDestroyEvent);
 			this.refreshGamesBtn.Activated += new global::System.EventHandler (this.OnRefreshGamesBtnActivated);
 		}
 	}

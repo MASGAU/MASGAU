@@ -40,6 +40,8 @@ namespace MASGAU.GTK {
 			
 			masgau = new MainProgramHandler(new MASGAU.Location.LocationsHandler(), this);
 			masgau.setupMainProgram ();
+
+			this.Destroyed += new EventHandler (this.OnDestroyEvent);
 		}
 	
 	
@@ -82,11 +84,11 @@ namespace MASGAU.GTK {
 			
 		}
 	
-	
-		protected void OnDeleteEvent (object sender, DeleteEventArgs a)
+
+		protected void OnDestroyEvent (object sender, EventArgs a)
 		{
+			//a.RetVal = true;
 			Application.Quit ();
-			a.RetVal = true;
 		}
 	
 		public override void updateProgress (ProgressUpdatedEventArgs e) {

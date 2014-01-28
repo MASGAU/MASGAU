@@ -1,6 +1,6 @@
 ﻿
 namespace MASGAU {
-    enum OperatingSystem {
+	public enum OperatingSystem {
         Windows,
         OSX,
         Linux

@@ -12,7 +12,7 @@ namespace MASGAU {
             DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
 
             if (loc.EV == EnvironmentVariable.VirtualStore) {
-                string drive = Path.GetPathRoot(loc.full_dir_path);
+				string drive = Path.GetPathRoot(loc.FullDirPath);
                 string new_path = Path.Combine(drive, loc.Path);
                 loc = Core.locations.interpretPath(new_path).getMostAccurateLocation();
             }

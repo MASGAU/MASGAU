@@ -22,6 +22,11 @@ namespace MASGAU.Location {
         }
 
         protected void addUserEv(string user, EnvironmentVariable ev, string name, string folder) {
+			if (folder == null) {
+				// This means no folder was found for this EV, we won't even add this.
+				return;
+			}
+
             UserData user_data;
             if (Contains(user))
                 user_data = getUser(user);

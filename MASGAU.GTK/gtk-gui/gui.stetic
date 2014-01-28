@@ -22,7 +22,9 @@
     </action-group>
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
+    <property name="Icon">resource:MASGAU.GTK.masgau.ico</property>
     <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DestroyEvent" handler="OnDestroyEvent" />
     <child>
       <widget class="Gtk.VBox" id="vbox1">
         <property name="MemberName" />
@@ -46,7 +48,7 @@
           <widget class="Gtk.HPaned" id="hpaned1">
             <property name="MemberName" />
             <property name="CanFocus">True</property>
-            <property name="Position">497</property>
+            <property name="Position">1</property>
             <child>
               <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
                 <property name="MemberName" />

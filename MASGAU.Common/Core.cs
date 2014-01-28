@@ -60,6 +60,22 @@ namespace MASGAU {
         // This stores what OS we're on
         //private static OperatingSystem os = OperatingSystem.Windows;
 
+		public static OperatingSystem OS {
+			get {
+				// http://stackoverflow.com/questions/5116977/how-to-check-the-os-version-at-runtime-e-g-windows-or-linux-without-using-a-con
+				int p = (int) Environment.OSVersion.Platform;
+				switch (p) {
+				case 4:
+					return OperatingSystem.Linux;
+				case 6:
+					return OperatingSystem.OSX;
+				default:
+					return OperatingSystem.Windows;
+				}
+			}
+		}
+
+
         // Shared super-objects
         public static ALocationsHandler locations;
         public static Settings.Settings settings;

@@ -1,6 +1,8 @@
 ﻿using System;
+using System.IO;
 using System.ComponentModel;
 using System.Collections.Generic;
+using System.Security.AccessControl;
 using System.Security.Principal;
 using MASGAU.Location;
 using MVC.Communication;
@@ -21,6 +23,7 @@ namespace MASGAU.Main {
                 mode = Strings.GetSourceString("SingleUserMode");
 
             _program_title = Strings.GetLabelString("MASGAUWindowTitle", Core.version.ToString(), mode);
+
 
         }
         protected override void doWork(object sender, System.ComponentModel.DoWorkEventArgs e) {
@@ -122,6 +125,7 @@ namespace MASGAU.Main {
                 while (Core.updater.Data.UpdateAvailable) {
                     ProgressHandler.value++;
                     TranslatingProgressHandler.setTranslatedMessage("UpdatingFile", Core.updater.Data.NextUpdateName);
+					String file_path = Core.updater.Data.NextUpdatePath;
                     Core.updater.Data.DownloadNextUpdate();
 
                     FileInfo file = new FileInfo(file_path);

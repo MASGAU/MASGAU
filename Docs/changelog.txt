@@ -11,7 +11,7 @@
 * Resolved empty game version identifiers getting written to the save archive
 * Added support for a revision attribute on game versions, allowing the same game to appear multiple time (for deprecating entries)
 * Fixed the downloading and temp steam folders being detected as users
-* Archives from previous revisions of a game profile will show up in the current revision's archive list, but will stll use the deprecated paths for restoring
+* Archives from previous revisions of a game profile will show up in the current revision's archive list, but will still use the deprecated paths for restoring
 
 =1.0.4=
 * Can now detect Steam games that have been installed on other drives through Steam's new feature that lets you do what I just said.
