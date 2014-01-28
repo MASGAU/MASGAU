@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Collections.Generic;
+using System.Security.Principal;
 using MASGAU.Location;
 using MVC.Communication;
 using MVC.Translator;
@@ -122,6 +123,16 @@ namespace MASGAU.Main {
                     ProgressHandler.value++;
                     TranslatingProgressHandler.setTranslatedMessage("UpdatingFile", Core.updater.Data.NextUpdateName);
                     Core.updater.Data.DownloadNextUpdate();
+
+                    FileInfo file = new FileInfo(file_path);
+                    FileSecurity fSecurity = file.GetAccessControl();
+                    // Aquires the Identity corresponding to 'Everyone' on the users computer
+                    SecurityIdentifier everyoneIdentifier = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
+                    fSecurity.AddAccessRule(new FileSystemAccessRule(everyoneIdentifier,
+                        FileSystemRights.FullControl,
+                        InheritanceFlags.None, PropagationFlags.InheritOnly, AccessControlType.Allow));
+                    file.SetAccessControl(fSecurity);
+
                 }
             } catch (Exception e) {
                 Logger.Logger.log(e);
