@@ -1,3 +1,6 @@
+=1.0.8 (1/28/2014)=
+* Fix for the "Identity Not Mapped" exception - Thanks to AdmiringWorm for figuring this out!
+
 =1.0.6=
 * Resolves a potential permissions issue with updated XML files in multi-user environments
 * Fixes a default versioning unit not showing up in settings
