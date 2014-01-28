@@ -31,14 +31,14 @@ namespace MASGAU {
         public const string Extension = ".gb7";
         public const string seperator = "«";
         public const string owner_seperator = "@";
-        public const string version = "1.0.6";
+        public const string version = "1.0.8";
         public const string masgau_url = "http://masgau.org/";
         public const string gamesaveinfo_url = "http://gamesave.info/";
         public const string submission_email = "submissions@gamesave.info";
 
         public const bool Stable = true;
 
-        public static Version ProgramVersion = new Version(1, 0, 6);
+        public static Version ProgramVersion = new Version(1, 0, 8);
 
 
         // This stores the names of the various programs in masgau
