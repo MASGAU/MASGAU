@@ -17,7 +17,7 @@ namespace MASGAU.GTK {
 		public void disableInterface(ICancellable cancellable_item) {
 			cancellables.Add(cancellable_item);
 			cancellable_item.Completed += new System.ComponentModel.RunWorkerCompletedEventHandler(cancellable_item_RunWorkerCompleted);
-			Translator.WPF.TranslationHelpers.translate(btnCancel.Label, "Stop");
+			Translator.GTK.TranslationHelpers.translate(btnCancel, "Stop");
 			setInterfaceEnabledness(false);
 			ProgressHandler.saveMessage();
 		}
@@ -43,7 +43,7 @@ namespace MASGAU.GTK {
 
 		private void cancelWorkers() {
 			btnCancel.Sensitive = false;
-			Translator.WPF.TranslationHelpers.translate(btnCancel.Label, "Stopping");
+			Translator.GTK.TranslationHelpers.translate(btnCancel, "Stopping");
 			foreach (ICancellable worker in cancellables) {
 				worker.Cancel();
 			}

@@ -95,7 +95,7 @@ namespace MASGAU.Main {
             string new_path = null;
             System.Windows.Forms.FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             folderBrowser.ShowNewFolderButton = true;
-            folderBrowser.Description = Strings.GetLabelString("SelectBackupPath");
+            folderBrowser.Description = Strings.GetTitleString("SelectBackupPath");
             folderBrowser.SelectedPath = old_path;
             bool try_again = false;
             do {

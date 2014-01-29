@@ -53,6 +53,10 @@
     <Compile Include="CommunicationDialog.cs" />
     <Compile Include="gtk-gui\MVC.GTK.CommunicationDialog.cs" />
     <Compile Include="ObservableListStoreWrapper.cs" />
+    <Compile Include="MessageBox.cs" />
+    <Compile Include="gtk-gui\MVC.GTK.MessageBox.cs" />
+    <Compile Include="ErrorDialog.cs" />
+    <Compile Include="gtk-gui\MVC.GTK.ErrorDialog.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

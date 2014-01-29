@@ -7,6 +7,7 @@
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <widget-library name="../../Libs/MVC.GTK/bin/Debug/MVC.GTK.dll" />
+    <widget-library name="../../Translator.GTK/bin/Debug/Translator.GTK.dll" />
     <widget-library name="../bin/Debug/MASGAU.GTK.exe" internal="true" />
   </import>
   <widget class="Gtk.Window" id="MASGAU.GTK.MainWindow" design-size="786 451">
@@ -75,6 +76,8 @@
                     <child>
                       <widget class="Gtk.FileChooserButton" id="btnChooseBackupPath">
                         <property name="MemberName" />
+                        <property name="Title" translatable="yes">$SelectBackupPath</property>
+                        <property name="Action">SelectFolder</property>
                       </widget>
                     </child>
                   </widget>
@@ -98,7 +101,19 @@
               </packing>
             </child>
             <child>
-              <placeholder />
+              <widget class="Gtk.Button" id="button1">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">GtkButton</property>
+                <property name="UseUnderline">True</property>
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
             </child>
             <child>
               <placeholder />

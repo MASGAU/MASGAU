@@ -7,7 +7,7 @@ using MVC.GTK;
 using MVC.Communication;
 
 namespace MASGAU.GTK {
-	public partial class MainWindow : AWindow {
+	public partial class MainWindow : AWindow, IMainWindow {
 		public MainProgramHandler masgau { get; protected set; }
 	
 		public MainWindow (): base (Gtk.WindowType.Toplevel)
@@ -102,10 +102,6 @@ namespace MASGAU.GTK {
 			statusbar1.Push(1,text);
 		}
 
-		public void setTranslatedTitle(string name, params string[] vars) {
-			this.Title = name;
-		}
-
 		private void endOfOperations() {
 			ProgressHandler.restoreMessage();
 			ProgressHandler.value = 0;
@@ -113,6 +109,11 @@ namespace MASGAU.GTK {
 		}
 
 
+		protected void OnBtnChooseBackupPathCurrentFolderChanged (object sender, EventArgs e) {
+			Core.settings.backup_path = this.btnChooseBackupPath.CurrentFolder;
+
+			askRefreshGames("RefreshForChangedBackupPath");
+		}
 
 		protected void OnBtnBackupGamesActivated (object sender, EventArgs e) {
 			if (Core.settings.IsBackupPathSet || changeBackupPath()) {
@@ -120,9 +121,6 @@ namespace MASGAU.GTK {
 			}
 		}
 
-		protected void OnBtnChooseBackupPathCurrentFolderChanged (object sender, EventArgs e) {
-			askRefreshGames("RefreshForChangedBackupPath");
-		}
 	}
 }
 

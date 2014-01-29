@@ -10,6 +10,8 @@
     <RootNamespace>MASGAU.GTK</RootNamespace>
     <AssemblyName>MASGAU.GTK</AssemblyName>
     <ReleaseVersion>1.1.0</ReleaseVersion>
+    <ApplicationIcon>..\MASGAU.Common\masgau.ico</ApplicationIcon>
+    <CodePage>65001</CodePage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +60,8 @@
     <Compile Include="MainWindowBackup.cs" />
     <Compile Include="MainWindowEnableDisable.cs" />
     <Compile Include="GTK\AWindow.cs" />
+    <Compile Include="MainWindowRestore.cs" />
+    <Compile Include="MainWindowSettings.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -100,6 +104,10 @@
     <ProjectReference Include="..\Libs\MVC.Translator\MVC.Translator.csproj">
       <Project>{A0502934-F0B8-40ED-9849-E4392CE37AF4}</Project>
       <Name>MVC.Translator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translator.GTK\Translator.GTK.csproj">
+      <Project>{AE076881-9B30-4E1E-BA6A-F976BE31CD87}</Project>
+      <Name>Translator.GTK</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

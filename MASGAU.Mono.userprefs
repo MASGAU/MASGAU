@@ -1,14 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Libs\MVC.GTK\AViewWindow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="e:\GIT\MASGAU\MASGAU.GTK\Main.cs">
     <Files>
-      <File FileName="MASGAU.Common\MainProgramHandler.cs" Line="15" Column="18" />
-      <File FileName="MASGAU.GTK\MainWindow.cs" Line="11" Column="40" />
-      <File FileName="MASGAU.GTK\MainWindowGames.cs" Line="14" Column="4" />
-      <File FileName="MASGAU.GTK\MainWindowBackup.cs" Line="9" Column="22" />
-      <File FileName="MASGAU.GTK\MainWindowEnableDisable.cs" Line="20" Column="57" />
-      <File FileName="MASGAU.GTK\GTK\AWindow.cs" Line="8" Column="43" />
-      <File FileName="Libs\MVC.GTK\AViewWindow.cs" Line="13" Column="24" />
+      <File FileName="MASGAU.GTK\MainWindow.cs" Line="119" Column="47" />
+      <File FileName="e:\GIT\MASGAU\MASGAU.GTK\Main.cs" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

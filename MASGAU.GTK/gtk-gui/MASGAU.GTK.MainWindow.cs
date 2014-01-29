@@ -15,6 +15,7 @@ namespace MASGAU.GTK
 		private global::Gtk.Alignment GtkAlignment;
 		private global::Gtk.FileChooserButton btnChooseBackupPath;
 		private global::Gtk.Label GtkLabel2;
+		private global::Gtk.Button button1;
 		private global::Gtk.HPaned hpaned1;
 		private global::Gtk.ScrolledWindow GtkScrolledWindow;
 		private global::Gtk.TreeView gameTreeView;
@@ -76,7 +77,7 @@ namespace MASGAU.GTK
 			this.GtkAlignment.Name = "GtkAlignment";
 			this.GtkAlignment.LeftPadding = ((uint)(12));
 			// Container child GtkAlignment.Gtk.Container+ContainerChild
-			this.btnChooseBackupPath = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("Select a File"), ((global::Gtk.FileChooserAction)(0)));
+			this.btnChooseBackupPath = new global::Gtk.FileChooserButton (global::Mono.Unix.Catalog.GetString ("$SelectBackupPath"), ((global::Gtk.FileChooserAction)(2)));
 			this.btnChooseBackupPath.Name = "btnChooseBackupPath";
 			this.GtkAlignment.Add (this.btnChooseBackupPath);
 			this.frame1.Add (this.GtkAlignment);
@@ -90,9 +91,20 @@ namespace MASGAU.GTK
 			w5.Position = 0;
 			w5.Expand = false;
 			w5.Fill = false;
-			this.vbox1.Add (this.vbox2);
-			global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.vbox2]));
+			// Container child vbox2.Gtk.Box+BoxChild
+			this.button1 = new global::Gtk.Button ();
+			this.button1.CanFocus = true;
+			this.button1.Name = "button1";
+			this.button1.UseUnderline = true;
+			this.button1.Label = global::Mono.Unix.Catalog.GetString ("GtkButton");
+			this.vbox2.Add (this.button1);
+			global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.button1]));
 			w6.Position = 1;
+			w6.Expand = false;
+			w6.Fill = false;
+			this.vbox1.Add (this.vbox2);
+			global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.vbox2]));
+			w7.Position = 1;
 			// Container child vbox1.Gtk.Box+BoxChild
 			this.hpaned1 = new global::Gtk.HPaned ();
 			this.hpaned1.CanFocus = true;
@@ -109,8 +121,8 @@ namespace MASGAU.GTK
 			this.gameTreeView.EnableSearch = false;
 			this.GtkScrolledWindow.Add (this.gameTreeView);
 			this.hpaned1.Add (this.GtkScrolledWindow);
-			global::Gtk.Paned.PanedChild w8 = ((global::Gtk.Paned.PanedChild)(this.hpaned1 [this.GtkScrolledWindow]));
-			w8.Resize = false;
+			global::Gtk.Paned.PanedChild w9 = ((global::Gtk.Paned.PanedChild)(this.hpaned1 [this.GtkScrolledWindow]));
+			w9.Resize = false;
 			// Container child hpaned1.Gtk.Paned+PanedChild
 			this.GtkScrolledWindow1 = new global::Gtk.ScrolledWindow ();
 			this.GtkScrolledWindow1.Name = "GtkScrolledWindow1";
@@ -122,8 +134,8 @@ namespace MASGAU.GTK
 			this.GtkScrolledWindow1.Add (this.archiveTreeView);
 			this.hpaned1.Add (this.GtkScrolledWindow1);
 			this.vbox1.Add (this.hpaned1);
-			global::Gtk.Box.BoxChild w11 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hpaned1]));
-			w11.Position = 2;
+			global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hpaned1]));
+			w12.Position = 2;
 			// Container child vbox1.Gtk.Box+BoxChild
 			this.hbox1 = new global::Gtk.HBox ();
 			this.hbox1.Name = "hbox1";
@@ -136,30 +148,30 @@ namespace MASGAU.GTK
 			this.progressbar1 = new global::Gtk.ProgressBar ();
 			this.progressbar1.Name = "progressbar1";
 			this.statusbar1.Add (this.progressbar1);
-			global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.statusbar1 [this.progressbar1]));
-			w12.Position = 1;
+			global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.statusbar1 [this.progressbar1]));
+			w13.Position = 1;
 			// Container child statusbar1.Gtk.Box+BoxChild
 			this.btnCancel = new global::Gtk.Button ();
 			this.btnCancel.CanFocus = true;
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.UseUnderline = true;
 			this.btnCancel.Label = global::Mono.Unix.Catalog.GetString ("$Stop");
-			global::Gtk.Image w13 = new global::Gtk.Image ();
-			w13.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-cancel", global::Gtk.IconSize.Menu);
-			this.btnCancel.Image = w13;
+			global::Gtk.Image w14 = new global::Gtk.Image ();
+			w14.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-cancel", global::Gtk.IconSize.Menu);
+			this.btnCancel.Image = w14;
 			this.statusbar1.Add (this.btnCancel);
-			global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.statusbar1 [this.btnCancel]));
-			w14.Position = 2;
-			w14.Expand = false;
-			w14.Fill = false;
+			global::Gtk.Box.BoxChild w15 = ((global::Gtk.Box.BoxChild)(this.statusbar1 [this.btnCancel]));
+			w15.Position = 2;
+			w15.Expand = false;
+			w15.Fill = false;
 			this.hbox1.Add (this.statusbar1);
-			global::Gtk.Box.BoxChild w15 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.statusbar1]));
-			w15.Position = 1;
+			global::Gtk.Box.BoxChild w16 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.statusbar1]));
+			w16.Position = 1;
 			this.vbox1.Add (this.hbox1);
-			global::Gtk.Box.BoxChild w16 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
-			w16.Position = 3;
-			w16.Expand = false;
-			w16.Fill = false;
+			global::Gtk.Box.BoxChild w17 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
+			w17.Position = 3;
+			w17.Expand = false;
+			w17.Fill = false;
 			this.Add (this.vbox1);
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();

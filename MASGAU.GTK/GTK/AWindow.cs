@@ -8,11 +8,15 @@ namespace MASGAU {
 	public abstract class AWindow: MVC.GTK.AViewWindow, IWindow {
 
 		public AWindow ()
-			: this (null) {
+			: this (null, Gtk.WindowType.Toplevel) {
 		}
 
-		public AWindow (IWindow parent) : 
-			base (parent) {
+		public AWindow (Gtk.WindowType type)
+			: this (null, type) {
+		}
+
+		public AWindow (IWindow parent, Gtk.WindowType type) : 
+		base (type) {
 
 			if (parent != null) {
 				this.Parent = parent as Gtk.Widget;
