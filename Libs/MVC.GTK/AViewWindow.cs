@@ -8,9 +8,9 @@ using System.Diagnostics;
 //using System.Windows;
 //using System.Windows.Input;
 using System.Windows.Threading;
-//using Translator;
+using Translator;
 namespace MVC.GTK {
-	public abstract class AViewWindow: Gtk.Window, ICommunicationReceiver {
+	public abstract class AViewWindow: Gtk.Window, ICommunicationReceiver, ITranslateableWindow  {
 
 		private ThreadBridge _ThreadBridge = new MVC.GTK.ThreadBridge();
 		public IThreadBridge ThreadBridge {

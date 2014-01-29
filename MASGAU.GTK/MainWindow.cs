@@ -7,7 +7,7 @@ using MVC.GTK;
 using MVC.Communication;
 
 namespace MASGAU.GTK {
-	public partial class MainWindow : AViewWindow, IMainWindow {
+	public partial class MainWindow : AWindow {
 		public MainProgramHandler masgau { get; protected set; }
 	
 		public MainWindow (): base (Gtk.WindowType.Toplevel)
@@ -41,7 +41,13 @@ namespace MASGAU.GTK {
 			masgau = new MainProgramHandler(new MASGAU.Location.LocationsHandler(), this);
 			masgau.setupMainProgram ();
 
+
+			// Load up translations for etc strings
+
+
 			this.Destroyed += new EventHandler (this.OnDestroyEvent);
+
+
 		}
 	
 	
@@ -74,17 +80,6 @@ namespace MASGAU.GTK {
 		}
 	
 	
-	
-		public override void disableInterface ()
-		{
-			
-		}	
-		public override void enableInterface ()
-		{
-			
-		}
-	
-
 		protected void OnDestroyEvent (object sender, EventArgs a)
 		{
 			//a.RetVal = true;
@@ -98,15 +93,36 @@ namespace MASGAU.GTK {
 				this.progressbar1.Fraction = e.value / e.max;
 			}
 			if(e.message!=null) {
-				statusbar1.Push(1,e.message);
+				setStatusBarText(e.message);
 			}
 	
 		}
+
+		protected void setStatusBarText(string text) {
+			statusbar1.Push(1,text);
+		}
+
 		public void setTranslatedTitle(string name, params string[] vars) {
 			this.Title = name;
 		}
 
+		private void endOfOperations() {
+			ProgressHandler.restoreMessage();
+			ProgressHandler.value = 0;
+			enableInterface();
+		}
 
+
+
+		protected void OnBtnBackupGamesActivated (object sender, EventArgs e) {
+			if (Core.settings.IsBackupPathSet || changeBackupPath()) {
+				beginBackup(null);
+			}
+		}
+
+		protected void OnBtnChooseBackupPathCurrentFolderChanged (object sender, EventArgs e) {
+			askRefreshGames("RefreshForChangedBackupPath");
+		}
 	}
 }
 

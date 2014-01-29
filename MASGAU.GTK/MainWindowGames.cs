@@ -7,6 +7,14 @@ namespace MASGAU.GTK {
 			masgau.detectGamesAsync();
 		}
 
+		private void askRefreshGames(string str) {
+			if (str == null)
+				str = "AskRefreshGames";
+
+			if (this.askTranslatedQuestion(str, false)) {
+				masgau.detectGamesAsync ();
+			}
+		}
 	}
 }
 

@@ -9,15 +9,27 @@
     <widget-library name="../../Libs/MVC.GTK/bin/Debug/MVC.GTK.dll" />
     <widget-library name="../bin/Debug/MASGAU.GTK.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MASGAU.GTK.MainWindow" design-size="707 451">
+  <widget class="Gtk.Window" id="MASGAU.GTK.MainWindow" design-size="786 451">
     <action-group name="Default">
-      <action id="refreshGamesBtn">
+      <action id="btnRefreshGames">
         <property name="Type">Action</property>
         <property name="IsImportant">True</property>
         <property name="Label" translatable="yes">$RefreshGames</property>
         <property name="ShortLabel" translatable="yes">$RefreshGames</property>
         <property name="StockId">gtk-refresh</property>
         <signal name="Activated" handler="OnRefreshGamesBtnActivated" />
+      </action>
+      <action id="btnBackupGames">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">$BackupAllGames</property>
+        <property name="ShortLabel" translatable="yes">$BackupAllGames</property>
+        <property name="StockId">gtk-save</property>
+        <signal name="Activated" handler="OnBtnBackupGamesActivated" />
+      </action>
+      <action id="BackupAllGamesAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">$BackupAllGames</property>
+        <property name="ShortLabel" translatable="yes">$BackupAllGames</property>
       </action>
     </action-group>
     <property name="MemberName" />
@@ -34,7 +46,9 @@
             <property name="MemberName" />
             <property name="ShowArrow">False</property>
             <node name="gamesToolbar" type="Toolbar">
-              <node type="Toolitem" action="refreshGamesBtn" />
+              <node type="Toolitem" action="btnRefreshGames" />
+              <node type="Toolitem" action="btnBackupGames" />
+              <node type="Toolitem" action="BackupAllGamesAction" />
             </node>
           </widget>
           <packing>
@@ -42,6 +56,57 @@
             <property name="AutoSize">True</property>
             <property name="Expand">False</property>
             <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.VBox" id="vbox2">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.Frame" id="frame1">
+                <property name="MemberName" />
+                <property name="ShadowType">None</property>
+                <child>
+                  <widget class="Gtk.Alignment" id="GtkAlignment">
+                    <property name="MemberName" />
+                    <property name="Xalign">0</property>
+                    <property name="Yalign">0</property>
+                    <property name="LeftPadding">12</property>
+                    <child>
+                      <widget class="Gtk.FileChooserButton" id="btnChooseBackupPath">
+                        <property name="MemberName" />
+                      </widget>
+                    </child>
+                  </widget>
+                </child>
+                <child>
+                  <widget class="Gtk.Label" id="GtkLabel2">
+                    <property name="MemberName" />
+                    <property name="LabelProp" translatable="yes">&lt;b&gt;$BackupFolder&lt;/b&gt;</property>
+                    <property name="UseMarkup">True</property>
+                  </widget>
+                  <packing>
+                    <property name="type">label_item</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <placeholder />
+            </child>
+            <child>
+              <placeholder />
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
           </packing>
         </child>
         <child>
@@ -81,7 +146,7 @@
             </child>
           </widget>
           <packing>
-            <property name="Position">1</property>
+            <property name="Position">2</property>
             <property name="AutoSize">True</property>
           </packing>
         </child>
@@ -106,7 +171,20 @@
                   </packing>
                 </child>
                 <child>
-                  <placeholder />
+                  <widget class="Gtk.Button" id="btnCancel">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="Type">TextAndIcon</property>
+                    <property name="Icon">stock:gtk-cancel Menu</property>
+                    <property name="Label" translatable="yes">$Stop</property>
+                    <property name="UseUnderline">True</property>
+                  </widget>
+                  <packing>
+                    <property name="Position">2</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
                 </child>
               </widget>
               <packing>
@@ -116,7 +194,7 @@
             </child>
           </widget>
           <packing>
-            <property name="Position">2</property>
+            <property name="Position">3</property>
             <property name="AutoSize">True</property>
             <property name="Expand">False</property>
             <property name="Fill">False</property>
