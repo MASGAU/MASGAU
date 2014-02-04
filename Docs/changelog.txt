@@ -1,5 +1,7 @@
 =1.0.8 (1/28/2014)=
 * Fix for the "Identity Not Mapped" exception - Thanks to AdmiringWorm for figuring this out!
+* Added a debug setting that causes MASGAU to provide progress info that is less human-friendly, but more useful for diagnosing issues
+
 
 =1.0.6=
 * Resolves a potential permissions issue with updated XML files in multi-user environments

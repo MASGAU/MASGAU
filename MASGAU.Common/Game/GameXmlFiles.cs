@@ -112,6 +112,11 @@ namespace MASGAU.Game {
 
             List<FileInfo> files = new List<FileInfo>();
             foreach (FileInfo info in DataFolder.GetFiles("*.xml")) {
+                if(Core.settings.DebugEnabled)
+                    if (Core.settings.DebugEnabled)
+                        MVC.Communication.ProgressHandler.DebugMessage = info.Name;
+
+
                 if (ReadableXmlFiles.Contains(info.Name))
                     files.Add(info);
             }

@@ -19,6 +19,9 @@ namespace MASGAU.Main {
 
         public MainWindowNew() {
             InitializeComponent();
+
+            ribbon.SelectedIndex = 0;
+
             gamesLst.TemplateItem = new GameListViewItem();
             ArchiveList.TemplateItem = new ArchiveListViewItem();
 
@@ -51,7 +54,6 @@ namespace MASGAU.Main {
 
             AllUsersModeButton.ToolTip = Strings.GetToolTipString("AllUserModeButton");
             SingleUserModeButton.ToolTip = Strings.GetToolTipString("SingleUserModeButton");
-
 
 
             masgau = new MainProgramHandler(new Location.LocationsHandler());

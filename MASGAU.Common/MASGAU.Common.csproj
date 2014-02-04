@@ -127,6 +127,10 @@
     <Compile Include="SecurityHandler.cs" />
     <Compile Include="structs.cs" />
     <None Include="data\GameSaveInfo202.xsd" />
+    <None Include="strings\strings.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Task\DayOfWeek.cs" />
     <None Include="Task\Frequency.cs" />
     <None Include="Task\TaskHandler.cs" />

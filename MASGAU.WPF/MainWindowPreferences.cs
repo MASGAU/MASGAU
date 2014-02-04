@@ -30,6 +30,8 @@ namespace MASGAU.Main {
             autoStart.DataContext = Core.startup;
 
             emailText.DataContext = Core.settings;
+
+            enableDebug.DataContext = Core.settings;
         }
 
         private void populateAltPaths() {

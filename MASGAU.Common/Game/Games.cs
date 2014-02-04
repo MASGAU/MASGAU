@@ -208,6 +208,9 @@ namespace MASGAU {
             if (xml.Entries.Count > 0) {
                 TranslatingProgressHandler.setTranslatedMessage("LoadingGamesData");
                 foreach (GameSaveInfo.Game game in xml.Entries) {
+                    if (Core.settings.DebugEnabled)
+                        ProgressHandler.DebugMessage = game.Name;
+
                     foreach (GameVersion version in game.Versions) {
                         try {
                             GameEntry entry;
@@ -289,6 +292,11 @@ namespace MASGAU {
 
                 if (these_games != null && !these_games.Contains(game.id))
                     continue;
+
+                if(Core.settings.DebugEnabled)
+                    if (Core.settings.DebugEnabled)
+                        ProgressHandler.DebugMessage = game.Name;
+
 
                 ProgressHandler.suppress_communication = true;
 
