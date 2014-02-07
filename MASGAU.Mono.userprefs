@@ -2,8 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="e:\GIT\MASGAU\MASGAU.GTK\Main.cs">
     <Files>
-      <File FileName="MASGAU.GTK\MainWindow.cs" Line="119" Column="47" />
-      <File FileName="e:\GIT\MASGAU\MASGAU.GTK\Main.cs" Line="11" Column="1" />
+      <File FileName="MASGAU.GTK\MainWindow.cs" Line="115" Column="5" />
+      <File FileName="e:\GIT\MASGAU\MASGAU.GTK\Main.cs" Line="13" Column="1" />
+      <File FileName="MASGAU.GTK\MainWindowGames.cs" Line="8" Column="1" />
+      <File FileName="MASGAU.GTK\gtk-gui\MASGAU.GTK.MainWindow.cs" Line="492" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -19,6 +21,7 @@
       <Breakpoint file="E:\GIT\MASGAU\MASGAU.Common\Location\Holders\DetectedLocationPathHolder.cs" line="20" column="38" />
       <Breakpoint file="E:\GIT\MASGAU\MASGAU.Common\Core.cs" line="71" column="1" />
       <Breakpoint file="E:\GIT\MASGAU\MASGAU.Common\Core.cs" line="69" column="1" />
+      <Breakpoint file="E:\GIT\MASGAU\MASGAU.GTK\MainWindow.cs" line="119" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

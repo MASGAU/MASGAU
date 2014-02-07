@@ -5,11 +5,6 @@ using Translator.GTK;
 
 namespace MASGAU.GTK {
 	public partial class MainWindow {
-		protected void OnRefreshGamesBtnActivated (object sender, System.EventArgs e)
-		{
-			masgau.detectGamesAsync();
-		}
-
 		private void askRefreshGames(string str) {
 			if (str == null)
 				str = "AskRefreshGames";

@@ -109,18 +109,15 @@ namespace MASGAU.GTK {
 		}
 
 
-		protected void OnBtnChooseBackupPathCurrentFolderChanged (object sender, EventArgs e) {
-			Core.settings.backup_path = this.btnChooseBackupPath.CurrentFolder;
-
-			askRefreshGames("RefreshForChangedBackupPath");
-		}
-
 		protected void OnBtnBackupGamesActivated (object sender, EventArgs e) {
 			if (Core.settings.IsBackupPathSet || changeBackupPath()) {
 				beginBackup(null);
 			}
 		}
 
+		protected void OnBtnRefreshGamesActivated (object sender, EventArgs e) {
+			masgau.detectGamesAsync();
+		}
 	}
 }
 
