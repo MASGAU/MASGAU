@@ -99,7 +99,7 @@ namespace MASGAU.Game {
                 SecurityIdentifier everyoneIdentifier = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
                 dSecurity.AddAccessRule(new FileSystemAccessRule(everyoneIdentifier, 
                     FileSystemRights.FullControl, 
-                    InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.InheritOnly, AccessControlType.Allow));
+                    InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.None, AccessControlType.Allow));
                 DataFolder.SetAccessControl(dSecurity);
             } catch(Exception e) {
                 Logger.Logger.log("Error while attempting to reset xml folder permissions");
