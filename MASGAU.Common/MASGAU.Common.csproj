@@ -77,6 +77,7 @@
     <Compile Include="Game\Custom\CustomGameEntry.cs" />
     <Compile Include="Game\Custom\CustomGameVersion.cs" />
     <Compile Include="Game\Custom\CustomGameXmlFile.cs" />
+    <Compile Include="Game\DetectedGames.cs" />
     <Compile Include="Game\GameEntry.cs" />
     <Compile Include="Game\GameXmlFiles.cs" />
     <Compile Include="IWindow.cs" />
@@ -197,7 +198,9 @@
     <EmbeddedResource Include="data\r.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="data\s.xml" />
+    <EmbeddedResource Include="data\s.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="data\t.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>

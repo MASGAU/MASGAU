@@ -46,7 +46,7 @@ namespace MASGAU {
         }
 
 
-        private static FilteredModel<GameID, GameEntry> _DetectedGames;
+        private static DetectedGames _DetectedGames;
         public static Model<GameID, GameEntry> DetectedGames {
             get {
                 return _DetectedGames;
@@ -127,10 +127,19 @@ namespace MASGAU {
             model.PropertyChanged += new PropertyChangedEventHandler(GamesHandler_PropertyChanged);
             model.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(GamesHandler_CollectionChanged);
 
-
-            _DetectedGames = new FilteredModel<GameID, GameEntry>(model);
-            _DetectedGames.AddFilter("IsDetected", true);
+            _DetectedGames = new DetectedGames(model);
+            ShowUndetectedGames = Core.settings.ShowUndetectedGames;
         }
+
+        public static bool ShowUndetectedGames
+        {
+            set
+            {
+                Archives.IgnoreRevisionValue = !value;
+                _DetectedGames.ShowUndetectedGames = value;
+            }
+        }
+
 
         public static bool Contains(GameIdentifier game) {
             GameID id = new GameID(game);
@@ -366,6 +375,9 @@ namespace MASGAU {
             ProgressHandler.saveMessage();
             e.Result = false;
             foreach (GameEntry game in (System.Collections.IEnumerable)e.Argument) {
+                if (!game.IsDetected) {
+                    continue;
+                }
                 TranslatingProgressHandler.setTranslatedMessage("Purging", game.Title);
                 try {
                     if (game.purge(false))

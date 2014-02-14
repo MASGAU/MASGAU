@@ -40,6 +40,8 @@ namespace MASGAU.Settings {
 
             settings.Add(new Setting("EnableDebug", false, "debug", "enable"));
 
+            settings.Add(new Setting("ShowUndetectedGames", false, "games", "show_undetected"));
+
             settings.Add(new Setting("IgnoreDateCheck", false, "date_check", "ignore"));
 
             settings.Add(new Setting("MonitoredGames", null, "games", "monitor"));
@@ -127,6 +129,19 @@ namespace MASGAU.Settings {
             set
             {
                 set("EnableDebug", value);
+            }
+        }
+
+        public bool ShowUndetectedGames
+        {
+            get
+            {
+                return getLastBoolean("ShowUndetectedGames");
+            }
+            set
+            {
+                set("ShowUndetectedGames", value);
+                Games.ShowUndetectedGames = value;
             }
         }
 

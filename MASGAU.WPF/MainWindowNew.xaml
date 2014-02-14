@@ -159,9 +159,10 @@
                                 </Grid>
                             </r:RibbonGroup>
                             <r:RibbonGroup Header="$Other">
-                                <src:FixedRibbonTextBox Label="E-Mail" Text="{Binding email, Mode=TwoWay}" x:Name="emailText" TextBoxWidth="150"  />
                                 <r:RibbonCheckBox Label="$AutoStart" Name="autoStart" IsChecked="{Binding IsEnabled, Mode=TwoWay}" Height="20"/>
                                 <r:RibbonCheckBox Label="$EnableDebug" Name="enableDebug" IsChecked="{Binding DebugEnabled, Mode=TwoWay}" Height="20"/>
+                                <r:RibbonCheckBox Label="$ShowUndetected" Name="showUndetected" IsChecked="{Binding ShowUndetectedGames, Mode=TwoWay}" Height="20"/>
+                                <src:FixedRibbonTextBox Label="E-Mail" Text="{Binding email, Mode=TwoWay}" x:Name="emailText" TextBoxWidth="150"  />
                             </r:RibbonGroup>
                         </r:RibbonTab>
                     </r:Ribbon>

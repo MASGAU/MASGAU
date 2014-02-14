@@ -48,7 +48,21 @@ namespace MASGAU {
         }
         public string Title {
             get {
-                return version.Title;
+                StringBuilder title = new StringBuilder(version.Title);
+                if (version.IsDeprecated || Game.IsDeprecated)
+                {
+                    title.Append(" (");
+                    title.Append(Strings.GetLabelString("Deprecated"));
+                    title.Append(")");
+                }
+                if (!this.IsDetected)
+                {
+                    title.Append(" (");
+                    title.Append(Strings.GetLabelString("Undetected"));
+                    title.Append(")");
+                }
+
+                return title.ToString();
             }
         }
 
@@ -120,9 +134,15 @@ namespace MASGAU {
                     tooltip.AppendLine(version.Comment);
                     tooltip.AppendLine();
                 }
-                tooltip.AppendLine("Detected Locations:");
-                tooltip.Append(_detected_paths_string);
-                return tooltip.ToString().TrimEnd(Environment.NewLine.ToCharArray());
+                if (IsDetected) {
+                    tooltip.AppendLine("Detected Locations:");
+                    tooltip.Append(_detected_paths_string);
+                }
+                if (tooltip.Length == 0) {
+                    return null;
+                } else {
+                    return tooltip.ToString().TrimEnd(Environment.NewLine.ToCharArray());
+                }
             }
         }
 
@@ -180,7 +200,7 @@ namespace MASGAU {
 
         public bool CanBeMonitored {
             get {
-                return id.OS == null || (!id.OS.StartsWith("PS") && id.OS != "Android");
+                return this.IsDetected && ( id.OS == null || (!id.OS.StartsWith("PS") && id.OS != "Android"));
             }
         }
 
@@ -346,10 +366,25 @@ namespace MASGAU {
             }
         }
 
+        public bool HasArchives
+        {
+            get
+            {
+                return Archives.Count > 0;
+            }
+        }
 
         public IList<Archive> Archives {
             get {
                 return MASGAU.Archives.GetArchives(this.id);
+            }
+        }
+
+        public bool IsDetectedOrHasArchives
+        {
+            get
+            {
+                return IsDetected || HasArchives;
             }
         }
 
