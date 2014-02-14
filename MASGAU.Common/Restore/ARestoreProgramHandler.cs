@@ -307,7 +307,7 @@ namespace MASGAU.Restore {
             } else if (path_candidates.Count > 1) {
                 multiple_paths = true;
             } else {
-                throw new TranslateableException("NoRestorePathsDetected", this.archive.id.ToString());
+                //throw new TranslateableException("NoRestorePathsDetected", this.archive.id.ToString());
             }
         }
         public bool _user_needed = false;

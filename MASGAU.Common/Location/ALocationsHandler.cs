@@ -169,9 +169,12 @@ namespace MASGAU.Location {
             }
 
             DetectedLocations return_me = new DetectedLocations();
-            path = correctPath(path);
-            if (path == null) {
-                return return_me;
+            string tmp = correctPath(path);
+            
+            if (tmp== null) {
+                //return return_me;
+            } else {
+                path = tmp ;
             }
 
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
@@ -199,8 +202,9 @@ namespace MASGAU.Location {
                     if (sub_dir[0].Exists) {
                         dir = sub_dir[0];
                         continue;
-                    } else
+                    } else {
                         return null;
+                    }
                 } else if (sub_dir.Length > 1) {
                     return null;
                 } else {
