@@ -54,13 +54,13 @@ namespace MASGAU {
                     title.Append(" (");
                     title.Append(Strings.GetLabelString("Deprecated"));
                     title.Append(")");
-                }
-                if (!this.IsDetected)
-                {
-                    title.Append(" (");
-                    title.Append(Strings.GetLabelString("Undetected"));
-                    title.Append(")");
-                }
+				} else {
+					if (!this.IsDetected) {
+						title.Append(" (");
+						title.Append(Strings.GetLabelString("Undetected"));
+						title.Append(")");
+					}
+				}
 
                 return title.ToString();
             }
@@ -235,6 +235,10 @@ namespace MASGAU {
             }
         }
 
+		public void TriggerUpdate() {
+			NotifyPropertyChanged("IsDetected");
+			//NotifyPropertyChanged("IsDetectedOrHasArchives");
+		}
 
         public bool CheckBackuptPathForMonitor() {
 

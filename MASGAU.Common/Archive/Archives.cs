@@ -65,6 +65,11 @@ namespace MASGAU {
                         if (add_me != null) {
                             model.AddWithSort(add_me);
                         }
+						try {
+							GameEntry game = Games.Get(add_me.id.Game);
+							game.TriggerUpdate();
+						} catch { }
+
                     } catch (Exception e) {
                         TranslatingMessageHandler.SendException(e);
                     }
