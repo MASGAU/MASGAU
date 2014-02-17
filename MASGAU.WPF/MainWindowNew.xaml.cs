@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Threading;
 using System.Windows;
@@ -9,6 +10,7 @@ using MVC.WPF;
 using SMJ.WPF.Effects;
 using Translator;
 using Translator.WPF;
+using MASGAU.Helpers;
 namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
@@ -51,6 +53,7 @@ namespace MASGAU.Main {
 
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);
             this.Closing += new CancelEventHandler(Window_Closing);
+            this.SourceInitialized += new EventHandler(WindowSourceInitialized);
 
             AllUsersModeButton.ToolTip = Strings.GetToolTipString("AllUserModeButton");
             SingleUserModeButton.ToolTip = Strings.GetToolTipString("SingleUserModeButton");
@@ -84,6 +87,9 @@ namespace MASGAU.Main {
             }
 
             setUpProgramHandler();
+        }
+        protected virtual void WindowSourceInitialized(object sender, EventArgs e) {
+            WinMaximizeHelper.AttachHandler(this);
         }
         protected virtual void setUpProgramHandler() {
             this.Title = masgau.program_title;
