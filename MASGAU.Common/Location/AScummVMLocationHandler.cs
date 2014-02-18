@@ -77,7 +77,7 @@ namespace MASGAU.Location {
         }
 
         protected DetectedLocations loadLocations(String path, ScummVM scumm, string user) {
-            DetectedLocations locs = Core.locations.interpretPath(path);
+            DetectedLocations locs = new DetectedLocations(Core.locations.interpretPath(path));
             return locs;
         }
 

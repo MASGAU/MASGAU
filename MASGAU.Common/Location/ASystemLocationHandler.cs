@@ -15,11 +15,11 @@ namespace MASGAU.Location {
 
         }
 
-        public override List<DetectedLocationPathHolder> interpretPath(string interpret_me) {
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+        public override List<LocationPath> interpretPath(string interpret_me, bool must_exist) {
+            List<LocationPath> return_me = new List<LocationPath>();
             LocationPath new_location;
             if (ready) {
-                return_me.AddRange(base.interpretPath(interpret_me));
+                return_me.AddRange(base.interpretPath(interpret_me, must_exist));
                 if (return_me.Count == 0) {
                     foreach (string drive in drives) {
                         if (interpret_me.StartsWith(drive)) {
@@ -28,8 +28,18 @@ namespace MASGAU.Location {
                                 path = "";
                             else
                                 path = interpret_me.Substring(drive.Length);
+
+
+
                             new_location = new LocationPath(EnvironmentVariable.Drive, path);
-                            return_me.AddRange(getPaths(new_location));
+                            
+                                                        
+                            DetectedLocations detected = getPaths(new_location);
+                            if (detected.Count > 0) {
+                                return_me.AddRange(detected);
+                            } else if (!must_exist) {
+                                return_me.Add(new_location);
+                            }
                         }
                     }
                 }
@@ -66,7 +76,7 @@ namespace MASGAU.Location {
                             else
                                 test = new DirectoryInfo(alt_path.path);
                             if (test.Exists) {
-                                DetectedLocations locs = Core.locations.interpretPath(test.FullName);
+                                DetectedLocations locs = new DetectedLocations(Core.locations.interpretPath(test.FullName));
                                 foreach (DetectedLocationPathHolder loc in locs) {
                                     return_me.Add(loc);
                                 }

@@ -293,10 +293,12 @@ namespace MASGAU.Restore {
             }
 
             if (archive.id.OriginalLocation != null) {
-                DetectedLocations locs = Core.locations.interpretPath(archive.id.OriginalLocation);
-                DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
+                LocationsCollection locs = Core.locations.interpretPath(false,archive.id.OriginalLocation);
+                LocationPath loc = locs.getMostAccurateLocation();
                 if (loc != null) {
                     addPathCandidate(loc);
+                } else {
+                    addPathCandidate(new ManualLocationPathHolder(archive.id.OriginalLocation));
                 }
             }
 

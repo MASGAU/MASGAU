@@ -280,7 +280,7 @@ namespace MASGAU {
         public bool Detect() {
             //            detect_override =  rnd.Next(0, 2) == 0;
 
-			            List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
+			List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
             List<ALocation> locations = AllLocations;
 
 
@@ -298,12 +298,12 @@ namespace MASGAU {
                     LocationParent game = location as LocationParent;
                     if (Games.Contains(game.game)) {
                         GameEntry parent_game = Games.Get(game.game);
-                        // If the game hasn't been processed in the GamesHandler yetm it won't yield useful information, so we force it to process here
+                        // If the game hasn't been processed in the GamesHandler yet it won't yield useful information, so we force it to process here
                         if (!parent_game.DetectionAttempted)
                             parent_game.Detect();
                         foreach (DetectedLocationPathHolder check_me in parent_game.DetectedLocations) {
                             string path = location.modifyPath(check_me.FullDirPath);
-                            interim.AddRange(Core.locations.interpretPath(path));
+                            interim.AddRange(Core.locations.interpretPath(path).DetectedOnly);
                         }
                     } else {
                         TranslatingMessageHandler.SendError("ParentGameDoesntExist", game.game.ToString());

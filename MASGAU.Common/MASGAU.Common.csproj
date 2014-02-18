@@ -84,6 +84,7 @@
     <Compile Include="Location\AScummVMLocationHandler.cs" />
     <Compile Include="Location\DetectedLocations.cs" />
     <Compile Include="Location\EvFolder.cs" />
+    <Compile Include="Location\LocationsCollection.cs" />
     <Compile Include="Monitor\Monitor.cs" />
     <Compile Include="Monitor\MonitorFile.cs" />
     <Compile Include="Monitor\MonitorPath.cs">

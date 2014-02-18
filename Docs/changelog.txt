@@ -3,6 +3,8 @@
 * Added a debug setting that causes MASGAU to provide progress info that is less human-friendly, but more useful for diagnosing issues.
 * Added a setting to show undetected games that have archives in the backup folder, to make restoring easier for #98
 * Changed the monitor column to disable the monitor checkbox if the game is undetected, or if it otherwise cannot be monitored (like if it's an android game).
+* Resolved an issue with the restore system that would cause MASGAU to not make use of certain paths cached in archives for #102.
+
 
 =1.0.6=
 * Resolves a potential permissions issue with updated XML files in multi-user environments

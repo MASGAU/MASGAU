@@ -144,7 +144,7 @@ namespace MASGAU.Location {
 
         public string getAbsolutePath(LocationPath parse_me, string user) {
             if (parse_me.EV == EnvironmentVariable.AltSavePaths) {
-                DetectedLocations locs = interpretPath(parse_me.ToString());
+                LocationsCollection locs = interpretPath(parse_me.ToString());
                 if (locs.Count > 0)
                     parse_me = locs.getMostAccurateLocation();
                 else
@@ -159,7 +159,11 @@ namespace MASGAU.Location {
             return null;
         }
 
-        public DetectedLocations interpretPath(params string[] interpret_me) {
+        public LocationsCollection interpretPath(params string[] interpret_me) {
+            return interpretPath(true, interpret_me);
+        }
+
+        public LocationsCollection interpretPath(bool must_exist, params string[] interpret_me) {
             if (interpret_me.Length == 0)
                 throw new Exception("Not enough paths!");
 
@@ -168,23 +172,23 @@ namespace MASGAU.Location {
                 path = Path.Combine(path, interpret_me[i].TrimEnd(Path.DirectorySeparatorChar));
             }
 
-            DetectedLocations return_me = new DetectedLocations();
-            string tmp = correctPath(path);
+            LocationsCollection return_me = new LocationsCollection();
+            string tmp = correctPath(path, must_exist);
             
             if (tmp== null) {
-                //return return_me;
+                return return_me;
             } else {
                 path = tmp ;
             }
 
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
-                return_me.AddRange(handler.Value.interpretPath(path));
+                return_me.AddRange(handler.Value.interpretPath(path,must_exist));
             }
 
             return return_me;
         }
 
-        protected static string correctPath(string correct_me) {
+        protected static string correctPath(string correct_me, bool must_exist) {
             string[] sections = correct_me.TrimEnd(Path.DirectorySeparatorChar).Split(Path.DirectorySeparatorChar);
             DirectoryInfo dir = new DirectoryInfo(sections[0] + Path.DirectorySeparatorChar);
             for (int i = 1; i < sections.Length; i++) {
@@ -203,15 +207,32 @@ namespace MASGAU.Location {
                         dir = sub_dir[0];
                         continue;
                     } else {
-                        return null;
+                        break;
                     }
                 } else if (sub_dir.Length > 1) {
-                    return null;
+                    break;
                 } else {
-                    return null;
+                    break;
                 }
             }
-            return dir.FullName;
+            if (dir.FullName.Trim('/').Trim('\\').Length == correct_me.Trim('/').Trim('\\').Length) {
+                return dir.FullName;
+            } else if (!must_exist) {
+                // This correction process only corrects capitalization, so the length of the string should end up the same.
+                // If it is not, then that means it was unable to find the path, and in most cases we return nothing.
+                // If require_exists is set to false, then we take what was found and combine it with what wasn't found, 
+                // to give the most accurate path possible.
+                if (dir == null || dir.FullName.Length == 0) {
+                    return correct_me;
+                } else {
+                    string tmp1 = dir.FullName.TrimEnd(Path.DirectorySeparatorChar);
+                    string tmp2 = correct_me.Substring(dir.FullName.Length).Trim('/').Trim('\\');
+                    string output = Path.Combine(tmp1, tmp2);
+                    return output;
+                }
+            } else {
+                return null;
+            }
         }
 
         public bool ready {

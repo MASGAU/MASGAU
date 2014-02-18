@@ -8,13 +8,13 @@ namespace MASGAU {
         public CustomGameVersion(GameSaveInfo.Game parent, DirectoryInfo location, string saves, string ignores)
             : base(parent, "Windows", null, "Custom") {
 
-            DetectedLocations locs = Core.locations.interpretPath(location.FullName);
+            DetectedLocations locs = Core.locations.interpretPath(location.FullName).DetectedOnly;
             DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
 
             if (loc.EV == EnvironmentVariable.VirtualStore) {
                 string drive = Path.GetPathRoot(loc.FullDirPath);
                 string new_path = Path.Combine(drive, loc.Path);
-                loc = Core.locations.interpretPath(new_path).getMostAccurateLocation();
+                loc = Core.locations.interpretPath(new_path).DetectedOnly.getMostAccurateLocation();
             }
 
             switch (loc.EV) {
