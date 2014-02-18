@@ -77,9 +77,6 @@ namespace MASGAU.Main {
             }
 
             switch (Core.settings.WindowState) {
-                case global::Config.WindowState.Maximized:
-                    this.WindowState = System.Windows.WindowState.Maximized;
-                    break;
                 case global::Config.WindowState.Iconified:
                     this.ShowInTaskbar = false;
                     this.Visibility = System.Windows.Visibility.Hidden;
@@ -184,17 +181,6 @@ namespace MASGAU.Main {
 
 
         public void updateWindowState() {
-            switch (this.WindowState) {
-                case System.Windows.WindowState.Normal:
-                    Core.settings.WindowState = global::Config.WindowState.Normal;
-                    break;
-                case System.Windows.WindowState.Maximized:
-                    Core.settings.WindowState = global::Config.WindowState.Maximized;
-                    break;
-                case System.Windows.WindowState.Minimized:
-                    Core.settings.WindowState = global::Config.WindowState.Minimized;
-                    break;
-            }
             if (!this.ShowInTaskbar)
                 Core.settings.WindowState = global::Config.WindowState.Iconified;
         }
