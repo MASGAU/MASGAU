@@ -116,4 +116,35 @@ namespace MASGAU {
 
         #endregion
     }
+
+    public class WindowSateConverter : IValueConverter {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
+            var windowState = (Config.WindowState)value;
+
+            switch (windowState) {
+                case Config.WindowState.Maximized:
+                    return WindowState.Maximized;
+
+                case Config.WindowState.Minimized:
+                    return WindowState.Minimized;
+
+                default:
+                    return WindowState.Normal;
+            }
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
+            var windowState = (WindowState)value;
+
+            switch (windowState) {
+                case WindowState.Maximized:
+                    return Config.WindowState.Maximized;
+                    break;
+                case WindowState.Minimized:
+                    return Config.WindowState.Minimized;
+                default:
+                    return Config.WindowState.Normal;
+            }
+        }
+    }
 }

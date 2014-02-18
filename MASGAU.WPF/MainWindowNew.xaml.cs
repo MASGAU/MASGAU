@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Threading;
 using System.Windows;
@@ -9,6 +10,7 @@ using MVC.WPF;
 using SMJ.WPF.Effects;
 using Translator;
 using Translator.WPF;
+using MASGAU.Helpers;
 namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
@@ -51,6 +53,7 @@ namespace MASGAU.Main {
 
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);
             this.Closing += new CancelEventHandler(Window_Closing);
+            this.SourceInitialized += new EventHandler(WindowSourceInitialized);
 
             AllUsersModeButton.ToolTip = Strings.GetToolTipString("AllUserModeButton");
             SingleUserModeButton.ToolTip = Strings.GetToolTipString("SingleUserModeButton");
@@ -74,9 +77,6 @@ namespace MASGAU.Main {
             }
 
             switch (Core.settings.WindowState) {
-                case global::Config.WindowState.Maximized:
-                    this.WindowState = System.Windows.WindowState.Maximized;
-                    break;
                 case global::Config.WindowState.Iconified:
                     this.ShowInTaskbar = false;
                     this.Visibility = System.Windows.Visibility.Hidden;
@@ -84,6 +84,9 @@ namespace MASGAU.Main {
             }
 
             setUpProgramHandler();
+        }
+        protected virtual void WindowSourceInitialized(object sender, EventArgs e) {
+            WinMaximizeHelper.AttachHandler(this);
         }
         protected virtual void setUpProgramHandler() {
             this.Title = masgau.program_title;
@@ -178,17 +181,6 @@ namespace MASGAU.Main {
 
 
         public void updateWindowState() {
-            switch (this.WindowState) {
-                case System.Windows.WindowState.Normal:
-                    Core.settings.WindowState = global::Config.WindowState.Normal;
-                    break;
-                case System.Windows.WindowState.Maximized:
-                    Core.settings.WindowState = global::Config.WindowState.Maximized;
-                    break;
-                case System.Windows.WindowState.Minimized:
-                    Core.settings.WindowState = global::Config.WindowState.Minimized;
-                    break;
-            }
             if (!this.ShowInTaskbar)
                 Core.settings.WindowState = global::Config.WindowState.Iconified;
         }

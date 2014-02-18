@@ -18,12 +18,16 @@
         <src:VisibilityConverter x:Key="visibleConverter"/>
         <src:PathValueConverter x:Key="pathValueConverter"/>
         <src:IntStringConverter x:Key="intStringConverter"/>
+        <src:WindowSateConverter x:Key="windowStateConverter" />
         <ResourceDictionary x:Key="ick">
             <Style TargetType="{x:Type rPre:RibbonTitlePanel}">
                 <Setter Property="Visibility" Value="Hidden"/>
             </Style>
         </ResourceDictionary>
     </Window.Resources>
+    <src:NewWindow.WindowState>
+        <Binding Converter="{StaticResource windowStateConverter}" Mode="TwoWay" Path="WindowState"/>
+    </src:NewWindow.WindowState>
     <Grid>
         <w:CustomWindowBorder x:Name="windowBorder" >
             <w:CustomWindowBorder.BorderContent>
