@@ -16,9 +16,16 @@ namespace MASGAU.Helpers
         /// <param name="window">The window.</param>
         public static void AttachHandler(Window window)
         {
+            minWidth = (int)Math.Abs(window.MinWidth);
+            minHeight = (int)Math.Abs(window.MinHeight);
+
             IntPtr handle = (new WindowInteropHelper(window)).Handle;
             HwndSource.FromHwnd(handle).AddHook(new HwndSourceHook(windowProc));
         }
+
+        private static int minWidth;
+
+        private static int minHeight;
 
         private static IntPtr windowProc(
             IntPtr hwnd,
@@ -55,6 +62,8 @@ namespace MASGAU.Helpers
                 mmi.ptMaxPosition.y = Math.Abs(rcWorkArea.top - rcMonitorArea.top);
                 mmi.ptMaxSize.x = Math.Abs(rcWorkArea.right - rcWorkArea.left);
                 mmi.ptMaxSize.y = Math.Abs(rcWorkArea.bottom - rcWorkArea.top);
+                mmi.ptMinTrackSize.x = minWidth;
+                mmi.ptMinTrackSize.y = minHeight;
             }
 
             Marshal.StructureToPtr(mmi, lParam, true);
@@ -129,6 +138,14 @@ namespace MASGAU.Helpers
                 get
                 {
                     return Math.Abs(right - left); // Abs needed for BIDI OS
+                }
+            }
+
+            public int Height
+            {
+                get
+                {
+                    return Math.Abs(top - bottom);
                 }
             }
 
