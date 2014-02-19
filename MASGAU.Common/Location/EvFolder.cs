@@ -51,6 +51,9 @@ namespace MASGAU.Location {
         }
 
         public bool Matches(string path) {
+            if (path == null) {
+                return false;
+            }
             foreach (string folder in this.Values) {
                 string[] split = path.Split(Path.DirectorySeparatorChar);
                 for (int i = 0; i < split.Length; i++) {

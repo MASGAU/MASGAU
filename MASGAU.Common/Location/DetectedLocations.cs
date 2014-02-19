@@ -1,8 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using MASGAU.Location.Holders;
+using MASGAU.Location;
+using GameSaveInfo;
 namespace MASGAU.Location {
     public class DetectedLocations : Dictionary<string, DetectedLocationPathHolder>, IEnumerable<DetectedLocationPathHolder> {
+        public DetectedLocations() { }
+
+        public DetectedLocations(LocationsCollection col) {
+            this.AddRange(col);
+        }
 
         public DetectedLocationPathHolder getMostAccurateLocation() {
             DetectedLocationPathHolder candidate = null;
@@ -35,6 +42,14 @@ namespace MASGAU.Location {
                 this.Add(item);
             }
 
+        }
+
+        public void AddRange(LocationsCollection col) {
+            foreach(LocationPath loc in col.Values) {
+                if (loc is DetectedLocationPathHolder) {
+                    this.Add((DetectedLocationPathHolder)loc);
+                }
+            }
         }
 
         public new IEnumerator<DetectedLocationPathHolder> GetEnumerator() {

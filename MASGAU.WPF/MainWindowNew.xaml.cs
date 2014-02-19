@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Threading;
 using System.Windows;
@@ -9,16 +10,20 @@ using MVC.WPF;
 using SMJ.WPF.Effects;
 using Translator;
 using Translator.WPF;
+using MASGAU.Helpers;
 namespace MASGAU.Main {
     /// <summary>
     /// Interaction logic for MainWindowNew.xaml
     /// </summary>
-    public partial class MainWindowNew : NewWindow, IMainWindow {
-        public MainProgramHandler masgau { get; protected set; }
+    public partial class MainWindowNew : NewWindow, IWindow {
+        MainProgramHandler masgau;
         NotifierIcon notifier;
 
         public MainWindowNew() {
             InitializeComponent();
+
+            ribbon.SelectedIndex = 0;
+
             gamesLst.TemplateItem = new GameListViewItem();
             ArchiveList.TemplateItem = new ArchiveListViewItem();
 
@@ -34,7 +39,9 @@ namespace MASGAU.Main {
 
             TranslationHelpers.translateWindow(this);
 
-
+            //if (SynchronizationContext.Current == null)
+            //    SynchronizationContext.SetSynchronizationContext(new DispatcherSynchronizationContext(this.Dispatcher));
+            //_context = SynchronizationContext.Current;
 
             //CommunicationHandler.addReceiver(this);
 
@@ -46,13 +53,13 @@ namespace MASGAU.Main {
 
             this.Loaded += new System.Windows.RoutedEventHandler(WindowLoaded);
             this.Closing += new CancelEventHandler(Window_Closing);
+            this.SourceInitialized += new EventHandler(WindowSourceInitialized);
 
             AllUsersModeButton.ToolTip = Strings.GetToolTipString("AllUserModeButton");
             SingleUserModeButton.ToolTip = Strings.GetToolTipString("SingleUserModeButton");
 
 
-
-            masgau = new MainProgramHandler(new Location.LocationsHandler(), this);
+            masgau = new MainProgramHandler(new Location.LocationsHandler());
             setupJumpList();
         }
 
@@ -63,33 +70,46 @@ namespace MASGAU.Main {
         #endregion
 
         #region Program handler setup
-        public Config.WindowState StartupState {
-            set {
-                switch (value) {
-                    case global::Config.WindowState.Maximized:
-                        this.WindowState = System.Windows.WindowState.Maximized;
-                        break;
-                    case global::Config.WindowState.Iconified:
-                        this.ShowInTaskbar = false;
-                        this.Visibility = System.Windows.Visibility.Hidden;
-                        break;
-                }
-
-            }
-        }
-
         protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
-            masgau.setupMainProgram();
-        }
+            if (!Core.Ready) {
+                this.Close();
+                return;
+            }
 
-        public void unHookData() {
-            ArchiveList.DataContext = null;
-        }
+            switch (Core.settings.WindowState) {
+                case global::Config.WindowState.Iconified:
+                    this.ShowInTaskbar = false;
+                    this.Visibility = System.Windows.Visibility.Hidden;
+                    break;
+            }
 
-        public void hookData() {
+            setUpProgramHandler();
+        }
+        protected virtual void WindowSourceInitialized(object sender, EventArgs e) {
+            WinMaximizeHelper.AttachHandler(this);
+        }
+        protected virtual void setUpProgramHandler() {
+            this.Title = masgau.program_title;
+            disableInterface();
             gamesLst.DataContext = Games.DetectedGames;
             gamesLst.Model = Games.DetectedGames;
+
             AllUsersModeButton.DataContext = masgau;
+
+
+            ArchiveList.DataContext = null;
+
+
+
+            masgau.RunWorkerCompleted += new RunWorkerCompletedEventHandler(setup);
+            masgau.RunWorkerAsync();
+        }
+
+        protected virtual void setup(object sender, RunWorkerCompletedEventArgs e) {
+            this.enableInterface();
+            if (e.Error != null) {
+                this.Close();
+            }
 
 
             bindSettingsControls();
@@ -103,12 +123,14 @@ namespace MASGAU.Main {
             populateAltPaths();
             setupMonitorIcon();
 
+            if (!Core.initialized) {
+                MVC.Translator.TranslatingMessageHandler.SendException(new TranslateableException("CriticalSettingsFailure"));
+                this.Close();
+            }
+            this.Title = masgau.program_title;
             addGameSetup();
             this.checkUpdates();
         }
-
-
-
         #endregion
 
         #region About stuff
@@ -159,17 +181,6 @@ namespace MASGAU.Main {
 
 
         public void updateWindowState() {
-            switch (this.WindowState) {
-                case System.Windows.WindowState.Normal:
-                    Core.settings.WindowState = global::Config.WindowState.Normal;
-                    break;
-                case System.Windows.WindowState.Maximized:
-                    Core.settings.WindowState = global::Config.WindowState.Maximized;
-                    break;
-                case System.Windows.WindowState.Minimized:
-                    Core.settings.WindowState = global::Config.WindowState.Minimized;
-                    break;
-            }
             if (!this.ShowInTaskbar)
                 Core.settings.WindowState = global::Config.WindowState.Iconified;
         }

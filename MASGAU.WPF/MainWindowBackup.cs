@@ -23,7 +23,9 @@ namespace MASGAU.Main {
                 List<GameEntry> these = new List<GameEntry>();
 
                 foreach (GameEntry game in gamesLst.SelectedItems) {
-                    these.Add(game);
+                    if (game.IsDetected) {
+                        these.Add(game);
+                    }
                 }
                 beginBackup(these, null);
             }

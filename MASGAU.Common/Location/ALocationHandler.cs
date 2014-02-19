@@ -174,8 +174,8 @@ namespace MASGAU.Location {
 
 
         // Returns a DetectedLocation that represents the chosen string
-        public virtual List<DetectedLocationPathHolder> interpretPath(string interpret_me) {
-            List<DetectedLocationPathHolder> return_me = new List<DetectedLocationPathHolder>();
+        public virtual List<LocationPath> interpretPath(string interpret_me, bool must_exist) {
+            List<LocationPath> return_me = new List<LocationPath>();
             LocationPath new_location;
             if (ready) {
                 // this needs to be able to interpret user paths too!
@@ -191,7 +191,12 @@ namespace MASGAU.Location {
 								}
 
 								new_location = new LocationPath(variable.Key, path);
-								return_me.AddRange(getPaths(new_location));
+                                DetectedLocations detected = getPaths(new_location);
+                                if (detected.Count > 0) {
+                                    return_me.AddRange(detected);
+                                } else if (!must_exist) {
+                                    return_me.Add(new_location);
+                                }
 							}
 						}
 
@@ -210,7 +215,14 @@ namespace MASGAU.Location {
                                 else
                                     path = interpret_me.Substring(folder.Length + 1);
                                 new_location = new LocationPath(variable.Key, path);
-                                return_me.AddRange(getPaths(new_location));
+
+                                
+                                DetectedLocations detected = getPaths(new_location);
+                                if (detected.Count > 0) {
+                                    return_me.AddRange(detected);
+                                } else if (!must_exist) {
+                                    return_me.Add(new_location);
+                                }
                             }
                         }
                     }

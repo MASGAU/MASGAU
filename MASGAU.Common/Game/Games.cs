@@ -46,7 +46,7 @@ namespace MASGAU {
         }
 
 
-        private static FilteredModel<GameID, GameEntry> _DetectedGames;
+        private static DetectedGames _DetectedGames;
         public static Model<GameID, GameEntry> DetectedGames {
             get {
                 return _DetectedGames;
@@ -127,10 +127,19 @@ namespace MASGAU {
             model.PropertyChanged += new PropertyChangedEventHandler(GamesHandler_PropertyChanged);
             model.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(GamesHandler_CollectionChanged);
 
-
-            _DetectedGames = new FilteredModel<GameID, GameEntry>(model);
-            _DetectedGames.AddFilter("IsDetected", true);
+            _DetectedGames = new DetectedGames(model);
+            ShowUndetectedGames = Core.settings.ShowUndetectedGames;
         }
+
+        public static bool ShowUndetectedGames
+        {
+            set
+            {
+                Archives.IgnoreRevisionValue = !value;
+                _DetectedGames.ShowUndetectedGames = value;
+            }
+        }
+
 
         public static bool Contains(GameIdentifier game) {
             GameID id = new GameID(game);
@@ -208,6 +217,9 @@ namespace MASGAU {
             if (xml.Entries.Count > 0) {
                 TranslatingProgressHandler.setTranslatedMessage("LoadingGamesData");
                 foreach (GameSaveInfo.Game game in xml.Entries) {
+                    if (Core.settings.DebugEnabled)
+                        ProgressHandler.DebugMessage = game.Name;
+
                     foreach (GameVersion version in game.Versions) {
                         try {
                             GameEntry entry;
@@ -241,6 +253,24 @@ namespace MASGAU {
             games.Add(this_game);
             List<GameEntry> detected = detectGames(games);
             if (detected.Count == 0) {
+                
+                if (String.IsNullOrEmpty(this_game.game.OS)&& String.IsNullOrEmpty(this_game.game.Platform)) {
+                    // Long ago, there were no platform or OS attributes for games
+                    // platform was added first, and served to categorize by both technology platform (like steam) and OS
+                    // Eventually these were seperated out, which is where we are today (2/19/2014)
+                    // The oldest archives provide neither attribute,  which in the modern context means that it is a cross-platform game
+                    // but since the old archive most likely meant windows, we run a quick check if an attribute-less archive is encoutnered
+                    // to see if there is an equivalent windows platform game
+                    GameIdentifier test1 = new GameIdentifier(this_game.game.Name, "Windows", this_game.game.Platform, this_game.game.Region, this_game.game.Media, this_game.game.Release, this_game.game.Type, this_game.game.Revision);
+                    GameID test_id = new GameID(test1);
+                    games.Clear();
+                    games.Add(test_id);
+
+                    detected = detectGames(games);
+                    if (detected.Count > 0) {
+                        return detected[0];
+                    }
+                }
                 throw new TranslateableException("UnknownGame", this_game.ToString());
             } else if (detected.Count > 1) {
                 throw new Exceptions.WTFException("TOO MANY GAMES THIS SHOULD NOT HAPPEN REPORT IMMEDIATELY\n" + this_game.ToString());
@@ -289,6 +319,11 @@ namespace MASGAU {
 
                 if (these_games != null && !these_games.Contains(game.id))
                     continue;
+
+                if(Core.settings.DebugEnabled)
+                    if (Core.settings.DebugEnabled)
+                        ProgressHandler.DebugMessage = game.Name;
+
 
                 ProgressHandler.suppress_communication = true;
 
@@ -358,6 +393,9 @@ namespace MASGAU {
             ProgressHandler.saveMessage();
             e.Result = false;
             foreach (GameEntry game in (System.Collections.IEnumerable)e.Argument) {
+                if (!game.IsDetected) {
+                    continue;
+                }
                 TranslatingProgressHandler.setTranslatedMessage("Purging", game.Title);
                 try {
                     if (game.purge(false))
