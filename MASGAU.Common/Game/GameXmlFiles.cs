@@ -93,18 +93,30 @@ namespace MASGAU.Game {
 
 
 
-            DirectorySecurity dSecurity = DataFolder.GetAccessControl();
-            // Aquires the Identity corresponding to 'Everyone' on the users computer
-            SecurityIdentifier everyoneIdentifier = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
-            dSecurity.AddAccessRule(new FileSystemAccessRule(everyoneIdentifier, 
-                FileSystemRights.FullControl, 
-                InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.InheritOnly, AccessControlType.Allow));
-            DataFolder.SetAccessControl(dSecurity);
+            try {
+                DirectorySecurity dSecurity = DataFolder.GetAccessControl();
+                // Aquires the Identity corresponding to 'Everyone' on the users computer
+                SecurityIdentifier everyoneIdentifier = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
+                dSecurity.AddAccessRule(new FileSystemAccessRule(everyoneIdentifier, 
+                    FileSystemRights.FullControl, 
+                    InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.None, AccessControlType.Allow));
+                DataFolder.SetAccessControl(dSecurity);
+            } catch(Exception e) {
+                Logger.Logger.log("Error while attempting to reset xml folder permissions");
+                Logger.Logger.log(e);
+            }
+
+
             prepareDataFiles();
 
 
             List<FileInfo> files = new List<FileInfo>();
             foreach (FileInfo info in DataFolder.GetFiles("*.xml")) {
+                if(Core.settings.DebugEnabled)
+                    if (Core.settings.DebugEnabled)
+                        MVC.Communication.ProgressHandler.DebugMessage = info.Name;
+
+
                 if (ReadableXmlFiles.Contains(info.Name))
                     files.Add(info);
             }

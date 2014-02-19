@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using MVC;
@@ -32,14 +33,21 @@ namespace MASGAU.Main {
         #endregion
 
         protected void updateArchiveList() {
-            int selected_count = Games.SelectedItems.Count;
+            List<GameEntry> selected_games = Games.SelectedItems;
+            int selected_detected_count = 0;
+            foreach (GameEntry game in selected_games) {
+                if (game.IsDetected) {
+                    selected_detected_count++;
+                }
+            }
 
-            TranslationHelpers.translate(BackupSelectedGames, "BackupGames", selected_count.ToString());
 
-            if (selected_count > 0) {
+            TranslationHelpers.translate(BackupSelectedGames, "BackupGames", selected_detected_count.ToString());
+
+            if (selected_detected_count > 0) {
                 BackupSelectedGames.IsEnabled = true;
                 PurgeButton.IsEnabled = true;
-                if (selected_count == 1) {
+                if (selected_detected_count == 1) {
                     CustomBackup.IsEnabled = true;
                 } else {
                     CustomBackup.IsEnabled = false;
@@ -48,6 +56,10 @@ namespace MASGAU.Main {
                 PurgeButton.IsEnabled = false;
                 CustomBackup.IsEnabled = false;
                 BackupSelectedGames.IsEnabled = false;
+            }
+
+            if (selected_games.Count > 0) {
+            } else {
                 RestoreSelected.IsEnabled = false;
                 deleteGame.IsEnabled = false;
             }

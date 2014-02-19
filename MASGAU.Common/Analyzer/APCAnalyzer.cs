@@ -23,7 +23,7 @@ namespace MASGAU.Analyzer {
             if (path.EV == EnvironmentVariable.VirtualStore) {
                 string drive = Path.GetPathRoot(path.FullDirPath);
                 string new_path = Path.Combine(drive, path.Path);
-                this.path = Core.locations.interpretPath(new_path).getMostAccurateLocation();
+                this.path = Core.locations.interpretPath(new_path).DetectedOnly.getMostAccurateLocation();
             }
 
             string[] folders = this.path.Path.Split(System.IO.Path.DirectorySeparatorChar);

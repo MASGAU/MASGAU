@@ -47,6 +47,8 @@ namespace MASGAU.Restore {
         }
 
         public void addPathCandidate(LocationPath location) {
+			if (location.IsDeprecated)
+				return;
 
             // Checks if the provided path is the original archive path
             if (location is DetectedLocationPathHolder) {
@@ -143,8 +145,12 @@ namespace MASGAU.Restore {
         protected void filterPathCandidates(LocationPath location) {
             //if(location.path==null)
             //continue;
+			
             if (location.OnlyFor != null && location.OnlyFor != Core.locations.platform_version)
                 return;
+
+			if (location.IsDeprecated)
+				return;
 
             if (location.EV == EnvironmentVariable.InstallLocation ||
                 location.EV == EnvironmentVariable.SteamCommon)
@@ -238,6 +244,8 @@ namespace MASGAU.Restore {
             if (game_data != null) {
                 // This adds hypothetical locations
                 foreach (LocationPath location in game_data.Locations.Paths) {
+					if (location.IsDeprecated)
+						continue;
                     if (game_data.DetectionRequired)
                         break;
 
@@ -247,6 +255,9 @@ namespace MASGAU.Restore {
 
                 // This add already found locations
                 foreach (DetectedLocationPathHolder location in game_data.DetectedLocations) {
+					if (location.IsDeprecated)
+						continue;
+
                     location.IsSelected = true;
                     switch (location.EV) {
                         case EnvironmentVariable.ProgramFiles:
@@ -282,10 +293,12 @@ namespace MASGAU.Restore {
             }
 
             if (archive.id.OriginalLocation != null) {
-                DetectedLocations locs = Core.locations.interpretPath(archive.id.OriginalLocation);
-                DetectedLocationPathHolder loc = locs.getMostAccurateLocation();
+                LocationsCollection locs = Core.locations.interpretPath(false,archive.id.OriginalLocation);
+                LocationPath loc = locs.getMostAccurateLocation();
                 if (loc != null) {
                     addPathCandidate(loc);
+                } else {
+                    addPathCandidate(new ManualLocationPathHolder(archive.id.OriginalLocation));
                 }
             }
 
@@ -354,6 +367,8 @@ namespace MASGAU.Restore {
                     }
                 }
                 foreach (LocationPath path in path_candidates) {
+					if (path.IsDeprecated)
+						continue;
                     if (path.GetType() == typeof(DetectedLocationPathHolder)) {
                         DetectedLocationPathHolder det_path = path as DetectedLocationPathHolder;
                         if (candidate == null || (det_path.MatchesOriginalPath && det_path.Exists)) {

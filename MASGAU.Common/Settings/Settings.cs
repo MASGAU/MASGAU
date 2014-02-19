@@ -14,6 +14,9 @@ namespace MASGAU.Settings {
             : base(new XmlSettingsFile("MASGAU")) {
         }
 
+
+        // DO NOT ACCESS ANY SETTINGS WHILE INSIDE THIS FUNCTION, IT WILL NULL EXCEPTION
+        // USE PROCESS SETTINGS TO WORK WITH SETTINGS
         protected override SettingsCollection createSettings(SettingsCollection settings) {
             settings = base.createSettings(settings);
 
@@ -35,6 +38,9 @@ namespace MASGAU.Settings {
             new_setting = new Setting("save_paths", null, "paths", "saves");
             settings.Add(new_setting);
 
+            settings.Add(new Setting("EnableDebug", false, "debug", "enable"));
+
+            settings.Add(new Setting("ShowUndetectedGames", false, "games", "show_undetected"));
 
             settings.Add(new Setting("IgnoreDateCheck", false, "date_check", "ignore"));
 
@@ -53,6 +59,7 @@ namespace MASGAU.Settings {
 
 
         protected override void processSettings() {
+
             if (mode == ConfigMode.PortableApps) {
                 if (IsBackupPathSet &&
                     this.backup_path != adjustPortablePath(this.backup_path)) {
@@ -113,6 +120,30 @@ namespace MASGAU.Settings {
             }
         }
 
+        public bool DebugEnabled
+        {
+            get
+            {
+                return getLastBoolean("EnableDebug");
+            }
+            set
+            {
+                set("EnableDebug", value);
+            }
+        }
+
+        public bool ShowUndetectedGames
+        {
+            get
+            {
+                return getLastBoolean("ShowUndetectedGames");
+            }
+            set
+            {
+                set("ShowUndetectedGames", value);
+                Games.ShowUndetectedGames = value;
+            }
+        }
 
         #region Methods for the Backup Path
         public string backup_path {

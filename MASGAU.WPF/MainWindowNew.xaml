@@ -18,12 +18,16 @@
         <src:VisibilityConverter x:Key="visibleConverter"/>
         <src:PathValueConverter x:Key="pathValueConverter"/>
         <src:IntStringConverter x:Key="intStringConverter"/>
+        <src:WindowSateConverter x:Key="windowStateConverter" />
         <ResourceDictionary x:Key="ick">
             <Style TargetType="{x:Type rPre:RibbonTitlePanel}">
                 <Setter Property="Visibility" Value="Hidden"/>
             </Style>
         </ResourceDictionary>
     </Window.Resources>
+    <src:NewWindow.WindowState>
+        <Binding Converter="{StaticResource windowStateConverter}" Mode="TwoWay" Path="WindowState"/>
+    </src:NewWindow.WindowState>
     <Grid>
         <w:CustomWindowBorder x:Name="windowBorder" >
             <w:CustomWindowBorder.BorderContent>
@@ -35,7 +39,7 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <r:Ribbon Background="White" Margin="-1,-22,-1,0" Name="ribbon" WindowIconVisibility="Visible" HorizontalAlignment="Stretch" SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+                    <r:Ribbon Background="White" Margin="-1,-22,-1,0" Name="ribbon" WindowIconVisibility="Visible" HorizontalAlignment="Stretch" SelectedIndex="1" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
                         <r:Ribbon.HelpPaneContent >
                             <Grid Margin="0,1,0,0">
                                 <Grid.ColumnDefinitions>
@@ -128,8 +132,8 @@
                                     Click="ReportButton_Click" />
                             </r:RibbonGroup>
                         </r:RibbonTab>
-                        <r:RibbonTab x:Name="SettingsTab" Header="$Settings"  Background="Transparent">
-                            <r:RibbonGroup Header="$Paths">
+                        <r:RibbonTab x:Name="SettingsTab" Header="$Settings"  Background="Transparent" >
+                            <r:RibbonGroup Header="$Backup">
                                 <r:RibbonMenuButton Label="$BackupFolder"  SmallImageSource="/WPF;Component/Images/16px/folder.png">
                                     <r:RibbonMenuItem Name="ChangeBackupFolderTwo" Header="$ChangeBackupFolder" Click="ChangeBackupFolder_Click" />
                                     <r:RibbonMenuItem Name="OpenBackupFolderTwo" Visibility="{Binding IsBackupPathSet, Converter={StaticResource visibleConverter}}" Header="$OpenBackupFolder" Click="OpenBackupFolder_Click"/>
@@ -137,6 +141,7 @@
                                 <r:RibbonMenuButton Label="$AltSavePath" Name="AltSaveButton" SmallImageSource="/WPF;Component/Images/16px/folder.png">
                                     <r:RibbonMenuItem Name="AddAltSaveFolder" Header="$AddAltSavePath" Click="AddAltSaveFolder_Click" />
                                 </r:RibbonMenuButton>
+                                <r:RibbonCheckBox Label="$IgnoreDates" Name="ignoreDates" IsChecked="{Binding IgnoreDateCheck, Mode=TwoWay}" Height="20"  />
                             </r:RibbonGroup>
                             <r:RibbonGroup Header="$Versioning">
                                 <Grid>
@@ -158,9 +163,10 @@
                                 </Grid>
                             </r:RibbonGroup>
                             <r:RibbonGroup Header="$Other">
+                                <r:RibbonCheckBox Label="$AutoStart" Name="autoStart" IsChecked="{Binding IsEnabled, Mode=TwoWay}" Height="20"/>
+                                <r:RibbonCheckBox Label="$EnableDebug" Name="enableDebug" IsChecked="{Binding DebugEnabled, Mode=TwoWay}" Height="20"/>
+                                <r:RibbonCheckBox Label="$ShowUndetected" Name="showUndetected" IsChecked="{Binding ShowUndetectedGames, Mode=TwoWay}" Height="20"/>
                                 <src:FixedRibbonTextBox Label="E-Mail" Text="{Binding email, Mode=TwoWay}" x:Name="emailText" TextBoxWidth="150"  />
-                                <r:RibbonCheckBox Label="$IgnoreDates" Name="ignoreDates" IsChecked="{Binding IgnoreDateCheck, Mode=TwoWay}" Height="20"  />
-                                <r:RibbonCheckBox Label="$AutoStart" Name="autoStart" IsChecked="{Binding IsEnabled, Mode=TwoWay}"/>
                             </r:RibbonGroup>
                         </r:RibbonTab>
                     </r:Ribbon>

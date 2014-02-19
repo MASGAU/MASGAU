@@ -48,7 +48,21 @@ namespace MASGAU {
         }
         public string Title {
             get {
-                return version.Title;
+                StringBuilder title = new StringBuilder(version.Title);
+                if (version.IsDeprecated || Game.IsDeprecated)
+                {
+                    title.Append(" (");
+                    title.Append(Strings.GetLabelString("Deprecated"));
+                    title.Append(")");
+				} else {
+					if (!this.IsDetected) {
+						title.Append(" (");
+						title.Append(Strings.GetLabelString("Undetected"));
+						title.Append(")");
+					}
+				}
+
+                return title.ToString();
             }
         }
 
@@ -120,9 +134,15 @@ namespace MASGAU {
                     tooltip.AppendLine(version.Comment);
                     tooltip.AppendLine();
                 }
-                tooltip.AppendLine("Detected Locations:");
-                tooltip.Append(_detected_paths_string);
-                return tooltip.ToString().TrimEnd(Environment.NewLine.ToCharArray());
+                if (IsDetected) {
+                    tooltip.AppendLine("Detected Locations:");
+                    tooltip.Append(_detected_paths_string);
+                }
+                if (tooltip.Length == 0) {
+                    return null;
+                } else {
+                    return tooltip.ToString().TrimEnd(Environment.NewLine.ToCharArray());
+                }
             }
         }
 
@@ -180,7 +200,7 @@ namespace MASGAU {
 
         public bool CanBeMonitored {
             get {
-                return id.OS == null || (!id.OS.StartsWith("PS") && id.OS != "Android");
+                return this.IsDetected && ( id.OS == null || (!id.OS.StartsWith("PS") && id.OS != "Android"));
             }
         }
 
@@ -215,6 +235,10 @@ namespace MASGAU {
             }
         }
 
+		public void TriggerUpdate() {
+			NotifyPropertyChanged("IsDetected");
+			//NotifyPropertyChanged("IsDetectedOrHasArchives");
+		}
 
         public bool CheckBackuptPathForMonitor() {
 
@@ -256,7 +280,7 @@ namespace MASGAU {
         public bool Detect() {
             //            detect_override =  rnd.Next(0, 2) == 0;
 
-			            List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
+			List<DetectedLocationPathHolder> interim = new List<DetectedLocationPathHolder>();
             List<ALocation> locations = AllLocations;
 
 
@@ -274,12 +298,12 @@ namespace MASGAU {
                     LocationParent game = location as LocationParent;
                     if (Games.Contains(game.game)) {
                         GameEntry parent_game = Games.Get(game.game);
-                        // If the game hasn't been processed in the GamesHandler yetm it won't yield useful information, so we force it to process here
+                        // If the game hasn't been processed in the GamesHandler yet it won't yield useful information, so we force it to process here
                         if (!parent_game.DetectionAttempted)
                             parent_game.Detect();
                         foreach (DetectedLocationPathHolder check_me in parent_game.DetectedLocations) {
                             string path = location.modifyPath(check_me.FullDirPath);
-                            interim.AddRange(Core.locations.interpretPath(path));
+                            interim.AddRange(Core.locations.interpretPath(path).DetectedOnly);
                         }
                     } else {
                         TranslatingMessageHandler.SendError("ParentGameDoesntExist", game.game.ToString());
@@ -346,10 +370,25 @@ namespace MASGAU {
             }
         }
 
+        public bool HasArchives
+        {
+            get
+            {
+                return Archives.Count > 0;
+            }
+        }
 
         public IList<Archive> Archives {
             get {
                 return MASGAU.Archives.GetArchives(this.id);
+            }
+        }
+
+        public bool IsDetectedOrHasArchives
+        {
+            get
+            {
+                return IsDetected || HasArchives;
             }
         }
 

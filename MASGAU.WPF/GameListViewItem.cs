@@ -86,6 +86,11 @@ namespace MASGAU {
             bind.Mode = BindingMode.TwoWay;
             BindingOperations.SetBinding(monitorCheck, CheckBox.IsCheckedProperty, bind);
 
+            bind = new Binding("CanBeMonitored");
+            bind.Source = DataSource;
+            bind.Mode = BindingMode.OneWay;
+            BindingOperations.SetBinding(monitorCheck, CheckBox.IsEnabledProperty, bind);
+
         }
 
         void monitorCheck_Click(object sender, System.Windows.RoutedEventArgs e) {
