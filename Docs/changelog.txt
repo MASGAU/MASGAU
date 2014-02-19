@@ -1,10 +1,13 @@
 =1.0.8 (1/28/2014)=
-* Fix for the "Identity Not Mapped" exception - Thanks to AdmiringWorm for figuring this out!
+* AdmiringWorm fixed the "Identity Not Mapped" exception!
 * Added a debug setting that causes MASGAU to provide progress info that is less human-friendly, but more useful for diagnosing issues.
+* AdmiringWork resolved an issue with the XML file permission correction code introduced last version, fixing #96.
 * Added a setting to show undetected games that have archives in the backup folder, to make restoring easier for #98
 * Changed the monitor column to disable the monitor checkbox if the game is undetected, or if it otherwise cannot be monitored (like if it's an android game).
 * Resolved an issue with the restore system that would cause MASGAU to not make use of certain paths cached in archives for #102.
-
+* AdmiringWorm resolved the taskbar overlap issue, fixing #68.
+* AdmiringWorm resolved a window size memory issue that would cause closing MASGAU while maximized to result in it filling the screen next time it started.
+* Resolved an issue with restoring archives from very very old versions of MASGAU to fix #94.
 
 =1.0.6=
 * Resolves a potential permissions issue with updated XML files in multi-user environments
