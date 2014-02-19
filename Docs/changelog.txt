@@ -47,7 +47,7 @@
 
 =1.0 - Back to Alpha=
 * All e-mails sent via MailSystem.NET (http://mailsystem.codeplex.com/)
-* Changed XML format to conform with the GameSave.Info 2.0 spec, but here are dome format change highlights:
+* Changed XML format to conform with the GameSave.Info 2.0 spec, but here are some format change highlights:
 * Added environment_variable attribute to location_shortcut tag so that shortcuts in other locations can be specified
 * Added new append attribute to ps_code tag to allow dividing up collections that share the same ps code
 * Added new type attribute to ps_code tag to allow sorting playstation saves into types
@@ -59,7 +59,7 @@
 * Changed game data files to be in Common app data folder, so that you don't have to be admin to update/add games
 * Added the ability to add a manual custom game
 * Added the ability to symlink games (replaces old sync system)
-* Removed task scheduler. The monitor is being beefed up to take it's place.
+* Removed task scheduler. The monitor is being beefed up to take its place.
 * Changed analyzer to work in tandem with custom games
 * Single user and all user mode now share the same per-user config files
 * Re-wrote interface. Again.
