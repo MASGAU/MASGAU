@@ -8,6 +8,8 @@
 * AdmiringWorm resolved the taskbar overlap issue, fixing #68.
 * AdmiringWorm resolved a window size memory issue that would cause closing MASGAU while maximized to result in it filling the screen next time it started.
 * Resolved an issue with restoring archives from very very old versions of MASGAU to fix #94.
+* Resolved an issue with deleting multiple custom games
+* Resovled a potential issue when deleting archives via the GUI and then quickly clicking something
 
 =1.0.6=
 * Resolves a potential permissions issue with updated XML files in multi-user environments

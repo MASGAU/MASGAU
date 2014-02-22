@@ -171,15 +171,22 @@ namespace MASGAU {
             return entry;
         }
         public static void deleteCustomGame(GameEntry version) {
-            model.Remove(version);
-            GameSaveInfo.Game game = xml.custom.getGame(version.id.Name);
-            xml.custom.removeEntry(game);
-            xml.custom.Save();
-            _DetectedGames.Refresh();
+			lock (model) {
+				lock (DetectedGames) {
+					model.Remove(version);
+					GameSaveInfo.Game game = xml.custom.getGame(version.id.Name);
+					xml.custom.removeEntry(game);
+					xml.custom.Save();
+					_DetectedGames.Refresh();
+				}
+			}
         }
         private static bool supress_duplicate_game_warnings = false;
 
         private static void addGame(GameEntry game) {
+			if (game.Name == "FinalFantasy7") {
+				Console.Out.WriteLine();
+			}
             bool dont_add = false;
             if (model.containsId(game.id)) {
                 GameEntry current = model.get(game.id);
