@@ -82,9 +82,9 @@
                                 <r:RibbonMenuButton Label="$SubmitGame"  SmallImageSource="/WPF;Component/Images/16px/mail-forward.png">
                                     <r:RibbonMenuItem Name="SubmitCustomGames" Header="$SubmitCustomGames" Click="submitGame_Click" IsEnabled="False" />
                                     <r:RibbonMenuItem Name="SubmitSelectedGames" Header="$SubmitSelectedGames" Click="SubmitSelectedGames_Click" IsEnabled="False"/>
-                                    <r:RibbonMenuButton Name="SubmitOther" Label="$SubmitOther">
-                                        
-                                    </r:RibbonMenuButton>
+                                    <r:RibbonMenuItem Name="SubmitOther" Header="$SubmitOther">
+
+                                    </r:RibbonMenuItem>
                                 </r:RibbonMenuButton>
 
                             </r:RibbonGroup>
