@@ -45,7 +45,25 @@ namespace MASGAU {
             else
                 save.InitialDirectory = AAnalyzer.LastSavePath;
 
-            save.FileName = analyzer.game.Name + ".txt";
+            save.FileName = analyzer.game.Name;
+			if (!String.IsNullOrEmpty(analyzer.game.id.game.OS)) {
+				save.FileName += "." + analyzer.game.id.game.OS;
+			}
+			if (!String.IsNullOrEmpty(analyzer.game.id.game.Platform)) {
+				save.FileName += "." + analyzer.game.id.game.Platform;
+			}
+			if (!String.IsNullOrEmpty(analyzer.game.id.game.Media)) {
+				save.FileName += "." + analyzer.game.id.game.Media;
+			}
+			if (!String.IsNullOrEmpty(analyzer.game.id.game.Release)&&analyzer.game.id.game.Release!="Custom") {
+				save.FileName += "." + analyzer.game.id.game.Release;
+			}
+			if (!String.IsNullOrEmpty(analyzer.game.id.game.Region)) {
+				save.FileName += "." + analyzer.game.id.game.Region;
+			}
+			save.FileName += ".txt";
+
+
             if (save.ShowDialog(this.GetIWin32Window()) != System.Windows.Forms.DialogResult.Cancel) {
                 AAnalyzer.LastSavePath = Path.GetDirectoryName(save.FileName);
                 try {

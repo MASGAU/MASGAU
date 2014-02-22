@@ -51,15 +51,19 @@ namespace MASGAU.Main {
             string name = item.ToolTip.ToString();
             Core.settings.removeSavePath(name);
             populateAltPaths();
-            askRefreshGames("RefreshForRemovedSavePath");
+			addGameSetup();
+			askRefreshGames("RefreshForRemovedSavePath");
         }
 
 
         private void OverrideSteamButton_Click(object sender, RoutedEventArgs e) {
-            if (overrideSteamPath())
-                askRefreshGames("RefreshForNewSteamPath");
-            setupSteamButton();
-        }
+			if (overrideSteamPath()) {
+				setupSteamButton();
+				askRefreshGames("RefreshForNewSteamPath");
+			} else {
+				setupSteamButton();
+			}
+		}
         protected void setupSteamButton() {
             if (Core.locations.steam_detected) {
                 OverrideSteamButton.ToolTip = Strings.GetToolTipString("SteamFound", Core.locations.steam_path);
@@ -68,6 +72,7 @@ namespace MASGAU.Main {
                 OverrideSteamButton.ToolTip = Strings.GetToolTipString("SteamNotFound");
                 SteamImage.Opacity = 0.5;
             }
+			addGameSetup();
         }
 
         #region Path choosing stuff
@@ -216,7 +221,8 @@ namespace MASGAU.Main {
         private void AddAltSaveFolder_Click(object sender, RoutedEventArgs e) {
             if (addAltPath()) {
                 populateAltPaths();
-                askRefreshGames("RefreshForNewSavePath");
+				addGameSetup();
+				askRefreshGames("RefreshForNewSavePath");
             }
         }
         protected void keepTextNumbersEvent(object sender, TextChangedEventArgs e) {

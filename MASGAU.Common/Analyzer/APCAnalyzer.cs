@@ -9,7 +9,7 @@ using MVC.Translator;
 namespace MASGAU.Analyzer {
     public class APCAnalyzer : AAnalyzer {
         protected DetectedLocationPathHolder path;
-        protected APCAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
+        protected APCAnalyzer(GameEntry game, RunWorkerCompletedEventHandler when_done)
             : base(game, when_done) {
         }
 

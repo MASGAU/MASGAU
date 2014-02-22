@@ -9,7 +9,10 @@
 * AdmiringWorm resolved a window size memory issue that would cause closing MASGAU while maximized to result in it filling the screen next time it started.
 * Resolved an issue with restoring archives from very very old versions of MASGAU to fix #94.
 * Resolved an issue with deleting multiple custom games
-* Resovled a potential issue when deleting archives via the GUI and then quickly clicking something
+* Resolved a potential issue when deleting archives via the GUI and then quickly clicking something
+* Changed the add game screen so that hitting cancel in the folder browser doesn't clear out any already selected paths
+* Changed the submit button to also allow submitting reports of any selected game, and of any path the user cares to submit for #62
+* Added steam libraries and alt save paths to the folder select menus when adding games or submitting other paths
 
 =1.0.6=
 * Resolves a potential permissions issue with updated XML files in multi-user environments

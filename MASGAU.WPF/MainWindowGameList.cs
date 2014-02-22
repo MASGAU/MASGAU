@@ -54,6 +54,7 @@ namespace MASGAU.Main {
             TranslationHelpers.translate(BackupSelectedGames, "BackupGames", selected_detected_count.ToString());
 
             if (selected_detected_count > 0) {
+				SubmitSelectedGames.IsEnabled = true;
                 BackupSelectedGames.IsEnabled = true;
                 PurgeButton.IsEnabled = true;
                 if (selected_detected_count == 1) {
@@ -62,7 +63,8 @@ namespace MASGAU.Main {
                     CustomBackup.IsEnabled = false;
                 }
             } else {
-                PurgeButton.IsEnabled = false;
+				SubmitSelectedGames.IsEnabled = false;
+				PurgeButton.IsEnabled = false;
                 CustomBackup.IsEnabled = false;
                 BackupSelectedGames.IsEnabled = false;
             }

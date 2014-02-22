@@ -23,9 +23,9 @@ namespace MASGAU {
                 return UnsubmittedGames.Count > 0;
             }
         }
-        public static Queue<CustomGameEntry> UnsubmittedGames {
+        public static Queue<GameEntry> UnsubmittedGames {
             get {
-                Queue<CustomGameEntry> games = new Queue<CustomGameEntry>();
+                Queue<GameEntry> games = new Queue<GameEntry>();
                 foreach (CustomGame game in xml.custom.Entries) {
                     if (game.Submitted)
                         continue;

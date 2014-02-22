@@ -8,7 +8,7 @@ using MVC.Communication;
 using MVC.Translator;
 namespace MASGAU.Analyzer {
     public class PCAnalyzer : APCAnalyzer {
-        public PCAnalyzer(CustomGameEntry game, RunWorkerCompletedEventHandler when_done)
+        public PCAnalyzer(GameEntry game, RunWorkerCompletedEventHandler when_done)
             : base(game, when_done) { }
 
 

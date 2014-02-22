@@ -39,7 +39,7 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <r:Ribbon Background="White" Margin="-1,-22,-1,0" Name="ribbon" WindowIconVisibility="Visible" HorizontalAlignment="Stretch" SelectedIndex="1" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
+                    <r:Ribbon Background="White" Margin="-1,-22,-1,0" Name="ribbon" WindowIconVisibility="Visible" HorizontalAlignment="Stretch" SelectedIndex="0" Grid.ColumnSpan="2" SelectionChanged="ribbon_SelectionChanged">
                         <r:Ribbon.HelpPaneContent >
                             <Grid Margin="0,1,0,0">
                                 <Grid.ColumnDefinitions>
@@ -79,9 +79,14 @@
                                 <r:RibbonButton Label="$DeleteGame" 
                                     SmallImageSource="/WPF;Component/Images/16px/edit-delete.png" 
                                      Name="deleteGame" IsEnabled="False" Click="deleteGame_Click" />
-                                <r:RibbonButton Label="$SubmitGame" 
-                                    SmallImageSource="/WPF;Component/Images/16px/mail-forward.png" 
-                                     Name="submitGame" IsEnabled="False" Click="submitGame_Click" />
+                                <r:RibbonMenuButton Label="$SubmitGame"  SmallImageSource="/WPF;Component/Images/16px/mail-forward.png">
+                                    <r:RibbonMenuItem Name="SubmitCustomGames" Header="$SubmitCustomGames" Click="submitGame_Click" IsEnabled="False" />
+                                    <r:RibbonMenuItem Name="SubmitSelectedGames" Header="$SubmitSelectedGames" Click="SubmitSelectedGames_Click" IsEnabled="False"/>
+                                    <r:RibbonMenuButton Name="SubmitOther" Label="$SubmitOther">
+                                        
+                                    </r:RibbonMenuButton>
+                                </r:RibbonMenuButton>
+
                             </r:RibbonGroup>
                             <r:RibbonGroup Header="$Backup" 
                                     LargeImageSource="/WPF;Component/Images/document-save.png" 
