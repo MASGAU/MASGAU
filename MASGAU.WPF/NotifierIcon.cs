@@ -134,9 +134,11 @@ namespace MASGAU.Main {
         private string last_message = null;
 
         public void sendBalloon(string message) {
-            if (message != last_message)
-                icon.ShowBalloonTip(5, "MASGAU", message, ToolTipIcon.Info);
-            message = last_message;
+			if (!String.IsNullOrEmpty(message)) {
+				if (message != last_message)
+					icon.ShowBalloonTip(5, "MASGAU", message, ToolTipIcon.Info);
+				message = last_message;
+			}
         }
 
 
