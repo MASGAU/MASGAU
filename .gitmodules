@@ -24,7 +24,7 @@
 	url = ../../sanmadjack/Email.WPF.CSharp.git
 [submodule "Libs/Translator.WPF"]
 	path = Libs/Translator.WPF
-	url = ../..sanmadjack/Translator.WPF.CSharp.git
+	url = ../../sanmadjack/Translator.WPF.CSharp.git
 [submodule "Libs/MVC.Translator"]
 	path = Libs/MVC.Translator
 	url = ../../sanmadjack/MVC.Translator.CSharp.git
