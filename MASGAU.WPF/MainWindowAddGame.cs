@@ -6,6 +6,7 @@ using System.Windows;
 using System.Windows.Controls;
 using GameSaveInfo;
 using MASGAU.Analyzer;
+using MASGAU.Location;
 using MVC.Communication;
 using MVC.Translator;
 using SMJ.WPF;
@@ -13,82 +14,32 @@ using Translator;
 using Microsoft.Windows.Controls.Ribbon;
 namespace MASGAU.Main {
     public partial class MainWindowNew {
-        private enum game_locations {
-            AllUsers,
-            LocalAppData,
-            MyComputer,
-            MyDocuments,
-            ProgramFiles,
-            ProgramFilesX86,
-            RoamingAppData,
-            SavedGames,
-            Steamapps,
-            SteamUserData,
-            VirtualStore,
-            PublicUser
-        }
 
         private void addGameSetup() {
 
             AddGameLocation.Button.clearOptions();
 			SubmitOther.Items.Clear();
-            //            AddGameLocation.ButtonText = Strings.GetLabelString(AddGameLocation.ButtonText);
-            Array values = Enum.GetValues(typeof(game_locations));
-            foreach (game_locations val in values) {
-                if ((val == game_locations.Steamapps || val== game_locations.SteamUserData )&& !Core.locations.steam_detected)
-                    continue;
-                else if (val == game_locations.ProgramFilesX86 && Core.locations.getFolder(EnvironmentVariable.ProgramFilesX86, null) == null)
-                    continue;
-                else if ((val == game_locations.PublicUser || val == game_locations.VirtualStore || val == game_locations.SavedGames) &&
-                    Core.locations.platform_version == "WindowsXP")
-                    continue;
 
-				AddPathToButtons(val.ToString(),val);
+            foreach(QuickBrowsePath path in Core.locations.QuickBrowsePaths) {
+                ComboBoxItem item = new ComboBoxItem();
+                item.Content = path.Name;
+                item.Tag = path;
+                helpone.ToolTip = Strings.GetToolTipString("AddGameSaves");
+                helptwo.ToolTip = Strings.GetToolTipString("AddGameSaves");
+                AddGameLocation.Button.addOption(item, new EventHandler(folderChoice));
+
+                RibbonMenuItem menu_item = new RibbonMenuItem();
+                menu_item.Header = path.Name;
+                menu_item.Tag = path;
+                menu_item.Click += otherFolderClick;
+                SubmitOther.Items.Add(menu_item);
+
             }
-
-			// Adds alternative save paths
-			foreach (Location.Holders.AltPathHolder path in Core.settings.save_paths) {
-				AddPathToButtons(abbreviateString(path.path,50), path.path);
-			}
-
-	
-			// Adds alternative steam library paths
-			foreach (string  path in Core.locations.getPaths(EnvironmentVariable.SteamCommon)) {
-				if (!path.ToLower().StartsWith(Path.Combine(Core.settings.steam_path, "steamapps").ToLower())) {
-					AddPathToButtons(abbreviateString(path,50), path);
-				}
-			}
-
-
+            
 			SubmitCustomGames.IsEnabled = Games.HasUnsubmittedGames;
         }
 		
-		private string abbreviateString(string input, int max_length) {
-			if (input.Length <= max_length) {
-				return input;
-			}
-			int diff = input.Length - max_length;
-			double half_max_length = (max_length-3) / 2;
 
-			string pre = input.Substring(0, Convert.ToInt32(Math.Floor(half_max_length)));
-			string post = input.Substring(input.Length - Convert.ToInt32(Math.Ceiling(half_max_length)));
-			return String.Concat(pre, "...", post);
-		}
-
-		private void AddPathToButtons(string label, object val) {
-			ComboBoxItem item = new ComboBoxItem();
-			item.Content = Strings.GetLabelString(label);
-			item.Tag = val;
-			helpone.ToolTip = Strings.GetToolTipString("AddGameSaves");
-			helptwo.ToolTip = Strings.GetToolTipString("AddGameSaves");
-			AddGameLocation.Button.addOption(item, new EventHandler(folderChoice));
-
-			RibbonMenuItem menu_item = new RibbonMenuItem();
-			menu_item.Header = Strings.GetLabelString(label);
-			menu_item.Tag = val;
-			menu_item.Click += otherFolderClick;
-			SubmitOther.Items.Add(menu_item);
-		}
 
 
         private void folderChoice(object sender, EventArgs e) {
@@ -96,9 +47,9 @@ namespace MASGAU.Main {
             if (e != null) {
 				SuperButtonEventArgs ev = (SuperButtonEventArgs)e;
 				ComboBoxItem item = (ComboBoxItem)ev.SelectedItem;
-				AddGameLocation.Value = openFolderPicker(item.Tag);
+                AddGameLocation.Value = openFolderPicker(item.Tag, Strings.GetLabelString("SelectSaveFolder"));
 			} else {
-				AddGameLocation.Value = openFolderPicker(game_locations.MyComputer);
+                AddGameLocation.Value = openFolderPicker(null, Strings.GetLabelString("SelectSaveFolder"));
 			}
 			// The user could end up selecting a custom game, gotta mark that shit
 			SubmitCustomGames.IsEnabled = Games.HasUnsubmittedGames;
@@ -108,9 +59,9 @@ namespace MASGAU.Main {
 			string path = "";
 			if (e != null) {
 				RibbonMenuItem item = (RibbonMenuItem)sender;
-								path = openFolderPicker(item.Tag);
+                path = openFolderPicker(item.Tag, Strings.GetLabelString("SelectSaveFolder"));
 			} else {
-				path = openFolderPicker(game_locations.MyComputer);
+                path = openFolderPicker(null, Strings.GetLabelString("SelectSaveFolder"));
 			}
 
 			if (string.IsNullOrEmpty(path)) {
@@ -138,57 +89,7 @@ namespace MASGAU.Main {
 			askAboutGame(false);
 		}
 
-		private string openFolderPicker(object loc) {
-			Environment.SpecialFolder folder = Environment.SpecialFolder.MyComputer;
-			string default_folder = null;
 
-			if (loc is game_locations) {
-				switch ((game_locations)loc) {
-					case game_locations.MyComputer:
-						break;
-					case game_locations.ProgramFiles:
-						folder = Environment.SpecialFolder.ProgramFiles;
-						break;
-					case game_locations.ProgramFilesX86:
-						folder = Environment.SpecialFolder.ProgramFilesX86;
-						break;
-					case game_locations.Steamapps:
-						default_folder = Path.Combine(Core.settings.steam_path, "steamapps");
-						break;
-					case game_locations.SteamUserData:
-						default_folder = Path.Combine(Core.settings.steam_path, "userdata");
-						break;
-					case game_locations.MyDocuments:
-						folder = Environment.SpecialFolder.MyDocuments;
-						break;
-					case game_locations.SavedGames:
-						folder = Environment.SpecialFolder.UserProfile;
-						default_folder = Core.locations.getFolder(EnvironmentVariable.SavedGames, null);
-						break;
-					case game_locations.VirtualStore:
-						folder = Environment.SpecialFolder.LocalApplicationData;
-						default_folder = Path.Combine(Core.locations.getFolder(EnvironmentVariable.LocalAppData, null), "VirtualStore");
-						break;
-					case game_locations.LocalAppData:
-						folder = Environment.SpecialFolder.LocalApplicationData;
-						break;
-					case game_locations.RoamingAppData:
-						folder = Environment.SpecialFolder.ApplicationData;
-						break;
-					case game_locations.PublicUser:
-						default_folder = Core.locations.getFolder(EnvironmentVariable.Public, null);
-						break;
-					case game_locations.AllUsers:
-						default_folder = Core.locations.getFolder(EnvironmentVariable.AllUsersProfile, null);
-						break;
-					default:
-						throw new NotImplementedException("The requested folder is not known: " + loc.ToString());
-				}
-			} else {
-				default_folder = loc.ToString();
-			}
-            return this.promptForPath(Strings.GetLabelString("SelectSaveFolder"), folder, default_folder);
-        }
 
         private void AddGameLocation_ButtonClick(object sender, RoutedEventArgs e) {
             folderChoice(null, null);
@@ -227,7 +128,7 @@ namespace MASGAU.Main {
             }
 
             if (AddGameButton != null)
-                AddGameButton.IsEnabled = AddGameTitle.Value != "" && AddGameLocation.Value != "";
+                AddGameButton.IsEnabled = !String.IsNullOrEmpty(AddGameTitle.Value) && !String.IsNullOrEmpty(AddGameLocation.Value);
         }
 
 

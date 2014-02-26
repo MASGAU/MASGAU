@@ -28,7 +28,7 @@ namespace MASGAU.Location {
 
         protected override DetectedLocations getPaths(APlayStationID get_me) {
             DetectedLocations return_me = new DetectedLocations();
-            if (get_me.suffix == null || get_me.prefix == null)
+            if (String.IsNullOrEmpty(get_me.suffix)|| String.IsNullOrEmpty(get_me.prefix))
                 return return_me;
 
             Type check = get_me.GetType();

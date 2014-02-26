@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
@@ -16,7 +17,7 @@ namespace MASGAU.Main {
         #region redetect games
 
         private void askRefreshGames(string str) {
-            if (str == null)
+            if (String.IsNullOrEmpty(str))
                 str = "AskRefreshGames";
 
             if (this.askTranslatedQuestion(str, false)) {

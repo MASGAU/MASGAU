@@ -130,7 +130,7 @@ namespace MASGAU {
         public override string ToolTip {
             get {
                 StringBuilder tooltip = new StringBuilder();
-                if (version.Comment != null) {
+                if (!String.IsNullOrEmpty(version.Comment)) {
                     tooltip.AppendLine(version.Comment);
                     tooltip.AppendLine();
                 }
@@ -200,7 +200,7 @@ namespace MASGAU {
 
         public bool CanBeMonitored {
             get {
-                return this.IsDetected && ( id.OS == null || (!id.OS.StartsWith("PS") && id.OS != "Android"));
+                return this.IsDetected && ( String.IsNullOrEmpty(id.OS) || (!id.OS.StartsWith("PS") && id.OS != "Android"));
             }
         }
 
@@ -285,12 +285,12 @@ namespace MASGAU {
 
 
 
-            if (this.id.Name == "HalfLife2Deathmatch")
+            if (this.id.Name == "SupremeCommander2")
                 System.Console.Out.Write("");
 
             foreach (ALocation location in locations) {
                 // This skips if a location is marked as only being for a specific version of an OS
-                if (location.OnlyFor != Core.locations.platform_version && location.OnlyFor != null)
+                if (location.OnlyFor != Core.locations.platform_version && !String.IsNullOrEmpty(location.OnlyFor))
                     continue;
 
                 if (location.GetType() == typeof(LocationParent)) {
@@ -467,7 +467,7 @@ namespace MASGAU {
             options.Add(all_option);
             foreach (DetectedLocationPathHolder root in DetectedLocations) {
                 string path;
-                if (root.Path == null)
+                if (String.IsNullOrEmpty(root.Path))
                     path = root.AbsoluteRoot;
                 else
                     path = Path.Combine(root.AbsoluteRoot, root.Path);

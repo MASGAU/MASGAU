@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using GameSaveInfo;
 using MASGAU.Location.Holders;
@@ -51,7 +52,7 @@ namespace MASGAU.Location {
         }
 
         public bool Matches(string path) {
-            if (path == null) {
+            if (String.IsNullOrEmpty(path)) {
                 return false;
             }
             foreach (string folder in this.Values) {

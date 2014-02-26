@@ -145,7 +145,7 @@ namespace MASGAU.Location {
         public virtual string getAbsolutePath(LocationPath parse_me, string user) {
             string return_me = getAbsoluteRoot(parse_me, user);
 
-            if (return_me != null && parse_me.Path != null && parse_me.Path != "")
+            if (!String.IsNullOrEmpty(return_me) && !String.IsNullOrEmpty(parse_me.Path))
                 return_me = Path.Combine(return_me, parse_me.Path);
 
             return return_me;
@@ -153,7 +153,7 @@ namespace MASGAU.Location {
 
 
         public virtual string getAbsoluteRoot(LocationPath parse_me, string user) {
-            if (user == null) {
+            if (String.IsNullOrEmpty(user)) {
                 if (global.hasFolderFor(parse_me.EV)) {
                     return global.getFolder(parse_me.EV).BaseFolder;
                 }

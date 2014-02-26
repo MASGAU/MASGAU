@@ -32,7 +32,7 @@ namespace MASGAU.Registry {
                 case "local_machine":
                     root_key = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64);
                     break;
-                case "performace_data":
+                case "performance_data":
                     root_key = RegistryKey.OpenBaseKey(RegistryHive.PerformanceData, RegistryView.Registry64);
                     break;
                 case "users":
@@ -43,7 +43,7 @@ namespace MASGAU.Registry {
             }
             //root_key = RegistryKey.OpenRemoteBaseKey(look_here, RegistryView.Registry64);
 
-            if (register_me != null) {
+            if (!String.IsNullOrEmpty(register_me)) {
                 the_key = root_key.OpenSubKey(register_me, writable);
 
                 if (the_key == null) {
@@ -74,12 +74,12 @@ namespace MASGAU.Registry {
         }
 
         public Boolean hasValue(string value_name) {
-            return getValue(value_name) != null;
+            return !String.IsNullOrEmpty(getValue(value_name));
         }
 
         public string getValue(string get_me) {
             if (the_key != null) {
-                if (get_me == null && the_key.GetValue("") != null) {
+                if (String.IsNullOrEmpty(get_me) && the_key.GetValue("") != null) {
                     return the_key.GetValue("").ToString();
                 } else if (the_key.GetValue(get_me) != null) {
                     return the_key.GetValue(get_me).ToString();

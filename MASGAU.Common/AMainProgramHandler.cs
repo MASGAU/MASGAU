@@ -50,7 +50,7 @@ namespace MASGAU.Main {
 
         #region Methods for preparing data about the games
 
-        public Dictionary<string, int> contributions;
+        public Dictionary<string, int> contributions = new Dictionary<string,int>();
 
         private void addContribution(string contributor) {
             if (!contributions.ContainsKey(contributor))

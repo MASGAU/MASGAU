@@ -28,7 +28,7 @@ public class SecurityHandler {
 
     public static ElevationResult elevation(string app_name, string new_args, bool wait_for_exit) {
         StringBuilder arg_string = new StringBuilder();
-        if (new_args != null)
+        if (!String.IsNullOrEmpty(new_args))
             arg_string.Append(new_args);
         string[] args = Environment.GetCommandLineArgs();
 
@@ -59,7 +59,7 @@ public class SecurityHandler {
         superMode.UseShellExecute = true;
         superMode.WorkingDirectory = Environment.CurrentDirectory;
 
-        if (app_name == null)
+        if (String.IsNullOrEmpty(app_name))
             superMode.FileName = System.AppDomain.CurrentDomain.FriendlyName;
         else
             superMode.FileName = app_name;

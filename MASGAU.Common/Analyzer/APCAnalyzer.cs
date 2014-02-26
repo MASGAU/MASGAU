@@ -44,7 +44,7 @@ namespace MASGAU.Analyzer {
 
             }
 
-            if (found_path != null) {
+            if (!String.IsNullOrEmpty(found_path)) {
                 path.ReplacePath(found_path);
             }
 

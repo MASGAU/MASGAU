@@ -40,7 +40,7 @@ namespace MASGAU {
             save.Filter = Strings.GetLabelString("TxtFileDescriptionPlural") + "|*.txt|" + Strings.GetLabelString("AllFileDescriptionPlural") + "|*";
             save.Title = Strings.GetLabelString("SaveReportQuestion");
 
-            if (AAnalyzer.LastSavePath == null)
+            if (String.IsNullOrEmpty(AAnalyzer.LastSavePath))
                 save.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             else
                 save.InitialDirectory = AAnalyzer.LastSavePath;

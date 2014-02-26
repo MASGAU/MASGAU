@@ -157,7 +157,7 @@ namespace MASGAU.Task {
 
             // An important break, for some reason the schtasks takes forever on vista without
             // specifying a specific task to analyze
-            if (System.Environment.GetEnvironmentVariable("LOCALAPPDATA") != null)
+            if (!String.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("LOCALAPPDATA")))
                 taskmaster.StartInfo.Arguments = "/Query /TN " + task_name + " /FO LIST /V";
             else
                 taskmaster.StartInfo.Arguments = "/Query /FO LIST /V";
@@ -168,12 +168,12 @@ namespace MASGAU.Task {
             try {
                 taskmaster.Start();
                 string output = taskmaster.StandardOutput.ReadLine();
-                while (output != null && (!output.StartsWith("TaskName:") || !output.Contains(task_name)))
+                while (output !=null && (!output.StartsWith("TaskName:") || !output.Contains(task_name)))
                     output = taskmaster.StandardOutput.ReadLine();
 
                 output = taskmaster.StandardOutput.ReadLine();
 
-                while (output != null) {
+                while (output!=null) {
                     _exists = true;
                     if (output.StartsWith("Schedule Type:") || output.StartsWith("Scheduled Type:")) {
                         if (output.Contains("Daily")) {
@@ -277,7 +277,7 @@ namespace MASGAU.Task {
             arguments.Append("/ST " + hour.ToString("00") + ":" + minute.ToString("00") + ":00 ");
 
             // This is for Vista, makes sure it runs with maximum priveleges
-            if (System.Environment.GetEnvironmentVariable("LOCALAPPDATA") != null)
+            if (!String.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("LOCALAPPDATA")))
                 arguments.Append("/RL HIGHEST");
 
             taskmaster.StartInfo.RedirectStandardError = true;

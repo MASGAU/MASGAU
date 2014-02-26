@@ -32,8 +32,8 @@ namespace MASGAU.Location.Holders {
         // Gets the full path, including file name
         public string full_file_path {
             get {
-                if (FullDirPath != null) {
-                    if (Name != null && Name != "") {
+                if (!String.IsNullOrEmpty(FullDirPath)) {
+                    if (!String.IsNullOrEmpty(Name)) {
                         return System.IO.Path.Combine(FullDirPath, Name);
                     } else {
                         return FullDirPath;

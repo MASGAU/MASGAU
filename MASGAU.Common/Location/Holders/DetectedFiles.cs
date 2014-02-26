@@ -77,7 +77,7 @@ namespace MASGAU.Location.Holders {
 
         public void Add(DetectedFile file) {
             List<DetectedFile> add_here;
-            if (file.Type == null) {
+            if (String.IsNullOrEmpty(file.Type)) {
                 add_here = null_type;
             } else {
                 add_here = this.GetList(file.Type);
@@ -101,7 +101,7 @@ namespace MASGAU.Location.Holders {
 
         public void Remove(DetectedFile file) {
             List<DetectedFile> files;
-            if (file.Type == null) {
+            if (String.IsNullOrEmpty(file.Type)) {
                 files = null_type;
             } else if (this.ContainsKey(file.Type)) {
                 files = this[file.Type];

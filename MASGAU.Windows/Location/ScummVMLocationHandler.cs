@@ -41,7 +41,7 @@ namespace MASGAU.Location {
         protected override DetectedLocations getPaths(ScummVM get_me) {
             DetectedLocations locs = base.getPaths(get_me);
 
-            if (install_path != null) {
+            if (!String.IsNullOrEmpty(install_path)) {
                 LocationPath loc = SystemLocationHandler.translateToVirtualStore(install_path);
                 DetectedLocations vlocs = Core.locations.getPaths(loc);
                 List<string> keys = new List<string>(vlocs.Keys);

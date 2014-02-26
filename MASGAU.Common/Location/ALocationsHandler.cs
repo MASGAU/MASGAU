@@ -16,7 +16,7 @@ namespace MASGAU.Location {
         public string getFolder(EnvironmentVariable ev, string user) {
             LocationPath parse_me = new LocationPath(ev, null);
             List<string> users = this.getUsers(ev);
-            if (user == null) {
+            if (String.IsNullOrEmpty(user)) {
                 foreach (string usr in users) {
                     return this.getAbsoluteRoot(parse_me, usr);
                 }
@@ -136,7 +136,7 @@ namespace MASGAU.Location {
         public string getAbsoluteRoot(LocationPath parse_me, string user) {
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
                 string result = handler.Value.getAbsoluteRoot(parse_me, user);
-                if (result != null)
+                if (!String.IsNullOrEmpty(result))
                     return result;
             }
             return null;
@@ -153,7 +153,7 @@ namespace MASGAU.Location {
 
             foreach (KeyValuePair<HandlerType, ALocationHandler> handler in handlers) {
                 string result = handler.Value.getAbsolutePath(parse_me, user);
-                if (result != null)
+                if (!String.IsNullOrEmpty(result))
                     return result;
             }
             return null;
@@ -175,7 +175,7 @@ namespace MASGAU.Location {
             LocationsCollection return_me = new LocationsCollection();
             string tmp = correctPath(path, must_exist);
             
-            if (tmp== null) {
+            if (String.IsNullOrEmpty(tmp)) {
                 return return_me;
             } else {
                 path = tmp ;
@@ -239,6 +239,138 @@ namespace MASGAU.Location {
             get {
                 return true;
             }
+        }
+
+
+        #region Quick-browse button path sources
+
+        public List<QuickBrowsePath> QuickBrowsePaths {
+            get {
+                List<QuickBrowsePath> return_me = new List<QuickBrowsePath>();
+                QuickBrowsePath new_path;
+
+                Array values = Enum.GetValues(typeof(QuickBrowsePathEnum));
+                foreach (QuickBrowsePathEnum val in values) {
+                    if ((val == QuickBrowsePathEnum.Steamapps || val == QuickBrowsePathEnum.SteamUserData) && !Core.locations.steam_detected)
+                        continue;
+                    else if (val == QuickBrowsePathEnum.ProgramFilesX86 && String.IsNullOrEmpty(Core.locations.getFolder(EnvironmentVariable.ProgramFilesX86, null)))
+                        continue;
+                    else if ((val == QuickBrowsePathEnum.PublicUser || val == QuickBrowsePathEnum.VirtualStore || val == QuickBrowsePathEnum.SavedGames) &&
+                        Core.locations.platform_version == "WindowsXP")
+                        continue;
+
+                    new_path = new QuickBrowsePath();
+                    new_path.Name = Translator.Strings.GetLabelString(val.ToString());
+                    new_path.EV = val;
+
+                    switch (val) {
+                        case QuickBrowsePathEnum.MyComputer:
+                            new_path.Path = "/";
+                            break;
+                        case QuickBrowsePathEnum.AllUsers:
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.AllUsersProfile, null);
+                            break;
+                        case QuickBrowsePathEnum.LocalAppData:
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.LocalAppData, null);
+                            break;
+                        case QuickBrowsePathEnum.MyDocuments:
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.UserDocuments, null);
+                            break;
+                        case QuickBrowsePathEnum.ProgramFiles:
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.ProgramFiles, null);
+                            break;
+                        case QuickBrowsePathEnum.ProgramFilesX86:
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.ProgramFilesX86, null);
+                            break;
+                        case QuickBrowsePathEnum.PublicUser:
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.Public, null);
+                            break;
+                        case QuickBrowsePathEnum.RoamingAppData:
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.AppData, null);
+                            break;
+                        case QuickBrowsePathEnum.SavedGames:
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.SavedGames, null);
+                            break;
+                        case QuickBrowsePathEnum.Steamapps:
+                            new_path.Path = Path.Combine(Core.settings.steam_path, "steamapps");
+                            break;
+                        case QuickBrowsePathEnum.SteamUserData:
+                            new_path.Path = Path.Combine(Core.settings.steam_path, "userdata");
+                            break;
+                        case QuickBrowsePathEnum.VirtualStore:
+                            //Path.Combine(Core.locations.getFolder(EnvironmentVariable.LocalAppData, null), "VirtualStore");
+                            new_path.Path = Core.locations.getFolder(EnvironmentVariable.VirtualStore, null);
+                            break;
+                        default:
+                            throw new NotSupportedException(val.ToString() + " not supported");
+                    }
+
+                    if (string.IsNullOrEmpty(new_path.Path)) {
+                        continue;
+                    }
+                    
+                    return_me.Add(new_path);
+                }
+                                
+                // Adds alternative save paths
+                foreach (Location.Holders.AltPathHolder path in Core.settings.save_paths) {
+                    new_path = new QuickBrowsePath();
+                    new_path.Name = abbreviateString(path.path,50);
+                    new_path.Path = path.path;
+                    return_me.Add(new_path);
+                }
+
+
+                // Adds alternative steam library paths
+                foreach (string path in Core.locations.getPaths(EnvironmentVariable.SteamCommon)) {
+                    if (!path.ToLower().StartsWith(Path.Combine(Core.settings.steam_path, "steamapps").ToLower())) {
+                        new_path = new QuickBrowsePath();
+                        new_path.Name = abbreviateString(path,50);
+                        new_path.Path = path;
+                        return_me.Add(new_path);
+                    }
+                }
+
+                return return_me;
+            }
+        }
+
+        private static string abbreviateString(string input, int max_length) {
+            if (input.Length <= max_length) {
+                return input;
+            }
+            int diff = input.Length - max_length;
+            double half_max_length = (max_length - 3) / 2;
+
+            string pre = input.Substring(0, Convert.ToInt32(Math.Floor(half_max_length)));
+            string post = input.Substring(input.Length - Convert.ToInt32(Math.Ceiling(half_max_length)));
+            return String.Concat(pre, "...", post);
+        }
+        #endregion
+
+    }
+
+    public enum QuickBrowsePathEnum {
+        AllUsers,
+        LocalAppData,
+        MyComputer,
+        MyDocuments,
+        ProgramFiles,
+        ProgramFilesX86,
+        RoamingAppData,
+        SavedGames,
+        Steamapps,
+        SteamUserData,
+        VirtualStore,
+        PublicUser
+    }
+    public class QuickBrowsePath {
+        public string Name;
+        public string Path;
+        public QuickBrowsePathEnum EV;
+        public QuickBrowsePath() {
+            // TODO: Make this default multi-platform
+            EV = QuickBrowsePathEnum.MyComputer;
         }
 
     }

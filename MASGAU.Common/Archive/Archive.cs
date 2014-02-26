@@ -134,7 +134,7 @@ namespace MASGAU {
         private string _tempfldr = null;
         private string TempFolder {
             get {
-                if (_tempfldr == null) {
+                if (String.IsNullOrEmpty(_tempfldr)) {
                     QuickHash hash = new QuickHash(this.ArchiveFile.FullName);
                     _tempfldr = Path.Combine(MasterTemp.FullName, hash.ToString());
                 }
@@ -276,7 +276,7 @@ namespace MASGAU {
                 // Copies the particular file to a relative path inside the temp folder
                 FileInfo source;
                 FileInfo destination;
-                if (file.Path == "" || file.Path == null) {
+                if (String.IsNullOrEmpty(file.Path)) {
                     source = new FileInfo(Path.Combine(file.AbsoluteRoot, file.Name));
                     destination = new FileInfo(Path.Combine(TempFolder, file.Name));
                 } else {
@@ -581,6 +581,9 @@ namespace MASGAU {
             get {
                 List<string> lines = getFileListing();
 
+                if (lines.Count == 0) {
+                    return 0;
+                } 
                 string[] hold_this = lines[lines.Count - 1].Substring(53).Split(' ');
 
                 return Int32.Parse(hold_this[0]);

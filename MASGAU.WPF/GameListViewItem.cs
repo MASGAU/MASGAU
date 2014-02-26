@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Media;
@@ -117,7 +118,7 @@ namespace MASGAU {
 
 
         protected string processVersionIdentifier(string id) {
-            if (id == null)
+            if (String.IsNullOrEmpty(id))
                 return "";
 
             return Strings.GetLabelString(id) + " ";

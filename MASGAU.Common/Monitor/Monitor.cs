@@ -140,14 +140,14 @@ namespace MASGAU.Monitor {
                             _status = game.Name + " updating " + Path.Combine(this_file.Path, this_file.Name);
                             NotifyPropertyChanged("Status");
 
-                            if (this_file.FullDirPath == null)
+                            if (String.IsNullOrEmpty(this_file.FullDirPath))
                                 continue;
 
                             Archive archive = Archives.GetArchive(game, this_file);
 
                             try {
                                 if (archive == null) {
-                                    if (this_file.owner == null)
+                                    if (String.IsNullOrEmpty(this_file.owner))
                                         archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file));
                                     else
                                         archive = new Archive(Core.settings.backup_path, new ArchiveID(game, this_file));

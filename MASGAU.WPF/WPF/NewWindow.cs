@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Interop;
 using System.Windows.Media.Imaging;
+using MASGAU.Location;
 using MVC.WPF;
 using Translator;
 namespace MASGAU {
@@ -74,7 +75,7 @@ namespace MASGAU {
             folderBrowser.ShowNewFolderButton = true;
             folderBrowser.Description = description;
 
-            if (path != null)
+            if (!String.IsNullOrEmpty(path))
                 folderBrowser.SelectedPath = path;
 
 
@@ -94,6 +95,64 @@ namespace MASGAU {
             return null;
         }
 
+
+        protected string openFolderPicker(object loc, string message) {
+            Environment.SpecialFolder folder = Environment.SpecialFolder.MyComputer;
+            string default_folder = null;
+
+            if (loc != null) {
+                if (loc is QuickBrowsePath) {
+                    QuickBrowsePath path = (QuickBrowsePath)loc;
+                    switch (path.EV) {
+                        case QuickBrowsePathEnum.MyComputer:
+                            if (path.Path.Length > 1) {
+                                default_folder = path.Path;
+                            }
+                            break;
+                        case QuickBrowsePathEnum.ProgramFiles:
+                            folder = Environment.SpecialFolder.ProgramFiles;
+                            break;
+                        case QuickBrowsePathEnum.ProgramFilesX86:
+                            folder = Environment.SpecialFolder.ProgramFilesX86;
+                            break;
+                        case QuickBrowsePathEnum.Steamapps:
+                            default_folder = path.Path;
+                            break;
+                        case QuickBrowsePathEnum.SteamUserData:
+                            default_folder = path.Path;
+                            break;
+                        case QuickBrowsePathEnum.MyDocuments:
+                            folder = Environment.SpecialFolder.MyDocuments;
+                            break;
+                        case QuickBrowsePathEnum.SavedGames:
+                            folder = Environment.SpecialFolder.UserProfile;
+                            default_folder = path.Path;
+                            break;
+                        case QuickBrowsePathEnum.VirtualStore:
+                            folder = Environment.SpecialFolder.LocalApplicationData;
+                            default_folder = path.Path;
+                            break;
+                        case QuickBrowsePathEnum.LocalAppData:
+                            folder = Environment.SpecialFolder.LocalApplicationData;
+                            break;
+                        case QuickBrowsePathEnum.RoamingAppData:
+                            folder = Environment.SpecialFolder.ApplicationData;
+                            break;
+                        case QuickBrowsePathEnum.PublicUser:
+                            default_folder = path.Path;
+                            break;
+                        case QuickBrowsePathEnum.AllUsers:
+                            default_folder = path.Path;
+                            break;
+                        default:
+                            throw new NotImplementedException("The requested folder is not known: " + path.EV.ToString());
+                    }
+                } else {
+                    default_folder = loc.ToString();
+                }
+            }
+            return this.promptForPath(message, folder, default_folder);
+        }
 
         public bool changeSyncPath() {
             string old_path = Core.settings.sync_path;

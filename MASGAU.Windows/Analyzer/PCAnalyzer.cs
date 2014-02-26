@@ -115,13 +115,13 @@ namespace MASGAU.Analyzer {
             outputLine(Environment.NewLine + "Detected Start Menu Shortcuts: ");
 
             string start_menu = Environment.GetFolderPath(Environment.SpecialFolder.StartMenu);
-            if (start_menu != null && Directory.Exists(start_menu))
+            if (!String.IsNullOrEmpty(start_menu) && Directory.Exists(start_menu))
                 startMenuTraveller(start_menu);
             else
                 outputLine("Folder for Start Menu (" + start_menu + ") not found");
 
             start_menu = Environment.GetFolderPath(Environment.SpecialFolder.CommonStartMenu);
-            if (start_menu != null && Directory.Exists(start_menu))
+            if (!String.IsNullOrEmpty(start_menu) && Directory.Exists(start_menu))
                 startMenuTraveller(start_menu);
             else
                 outputLine("Folder for global Start Menu (" + start_menu + ") not found");

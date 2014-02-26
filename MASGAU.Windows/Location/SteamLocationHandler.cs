@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using GameSaveInfo;
 using MASGAU.Registry;
@@ -49,14 +50,14 @@ namespace MASGAU.Location {
             reg_path = isSteamPath(steam.getValue("InstallPath"));
             set_path = isSteamPath(Core.settings.steam_override);
 
-            if (set_path != null)
+            if (!String.IsNullOrEmpty(set_path))
                 path = set_path;
-            else if (reg_path != null)
+            else if (!String.IsNullOrEmpty(reg_path))
                 path = reg_path;
             else
                 path = null;
 
-            if (path != null) {
+            if (!String.IsNullOrEmpty(path)) {
                 DirectoryInfo read_me = new DirectoryInfo(Path.Combine(path, "steamapps"));
                 // Loads the steam isntall path folders
                 loadSteamPaths(read_me);

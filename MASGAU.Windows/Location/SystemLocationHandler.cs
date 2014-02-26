@@ -78,14 +78,14 @@ namespace MASGAU.Location {
         public SystemLocationHandler()
             : base() {
             // The global variables
-            if (Environment.GetEnvironmentVariable("ProgramW6432") != null) {
+            if (!String.IsNullOrEmpty(Environment.GetEnvironmentVariable("ProgramW6432"))) {
                 global.setEvFolder(EnvironmentVariable.ProgramFiles, Environment.GetEnvironmentVariable("ProgramW6432"));
                 global.setEvFolder(EnvironmentVariable.ProgramFilesX86, Environment.GetEnvironmentVariable("PROGRAMFILES(X86)"));
             } else {
                 global.setEvFolder(EnvironmentVariable.ProgramFiles, Environment.GetEnvironmentVariable("PROGRAMFILES"));
                 //global.setEvFolder(EnvironmentVariable.ProgramFilesX86,Environment.GetEnvironmentVariable("PROGRAMFILES"));
             }
-            if (Environment.GetEnvironmentVariable("LOCALAPPDATA") != null) {
+            if (!String.IsNullOrEmpty(Environment.GetEnvironmentVariable("LOCALAPPDATA"))) {
                 xp = false;
             } else {
                 xp = true;
@@ -142,10 +142,10 @@ namespace MASGAU.Location {
                 ubi_reg = new RegistryHandler("local_machine", @"SOFTWARE\Wow6432Node\Ubisoft\Launcher", false);
             }
 
-            if (ubi_reg.getValue("InstallDir") != null && Directory.Exists(Path.Combine(ubi_reg.getValue("InstallDir"), "savegames"))) {
+            if (!String.IsNullOrEmpty(ubi_reg.getValue("InstallDir")) && Directory.Exists(Path.Combine(ubi_reg.getValue("InstallDir"), "savegames"))) {
                 uac_enabled = true;
                 ubisoft_save = new DirectoryInfo(Path.Combine(ubi_reg.getValue("InstallDir"), "savegames"));
-            } else if (Environment.GetEnvironmentVariable("ProgramW6432") != null && Directory.Exists(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"), "Ubisoft", "Ubisoft Game Launcher"))) {
+            } else if (!String.IsNullOrEmpty(Environment.GetEnvironmentVariable("ProgramW6432")) && Directory.Exists(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"), "Ubisoft", "Ubisoft Game Launcher"))) {
                 ubisoft_save = new DirectoryInfo(Path.Combine(Environment.GetEnvironmentVariable("ProgramW6432"), "Ubisoft", "Ubisoft Game Launcher", "savegames"));
             } else if (Directory.Exists(Path.Combine(Environment.GetEnvironmentVariable("PROGRAMFILES"), "Ubisoft", "Ubisoft Game Launcher"))) {
                 ubisoft_save = new DirectoryInfo(Path.Combine(Environment.GetEnvironmentVariable("PROGRAMFILES"), "Ubisoft", "Ubisoft Game Launcher", "savegames"));
@@ -232,7 +232,7 @@ namespace MASGAU.Location {
 
         private void loadUsersData(string reg_root, string path) {
             RegistryHandler user_key;
-            if (path == null)
+            if (String.IsNullOrEmpty(path))
                 user_key = new RegistryHandler(reg_root, @"Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders", false);
             else
                 user_key = new RegistryHandler(reg_root, path + @"\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders", false);
@@ -289,13 +289,13 @@ namespace MASGAU.Location {
 
                 user_key.close();
 
-                if (path == null)
+                if (String.IsNullOrEmpty(path))
                     user_key = new RegistryHandler(reg_root, @"Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders", false);
                 else
                     user_key = new RegistryHandler(reg_root, path + @"\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders", false);
 
                 string saved_games = user_key.getValue("{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}");
-                if (saved_games != null) {
+                if (!String.IsNullOrEmpty(saved_games)) {
                     if (saved_games.StartsWith("%USERPROFILE%")) {
                         saved_games = Path.Combine(user_dir.ToString(), saved_games.Substring(14));
                     }
@@ -376,7 +376,7 @@ namespace MASGAU.Location {
                     }
 
                     if (x64) {
-                        if (get_me.Path != null && get_me.Path.Length > 0)
+                        if (!String.IsNullOrEmpty(get_me.Path))
                             test = new DirectoryInfo(Path.Combine(global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder, get_me.Path));
                         else
                             test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFilesX86).BaseFolder);
@@ -386,7 +386,7 @@ namespace MASGAU.Location {
                         }
                     }
 
-                    if (get_me.Path != null && get_me.Path.Length > 0)
+                    if (!String.IsNullOrEmpty(get_me.Path))
                         test = new DirectoryInfo(Path.Combine(global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder, get_me.Path));
                     else
                         test = new DirectoryInfo(global.getFolder(EnvironmentVariable.ProgramFiles).BaseFolder);
@@ -409,18 +409,18 @@ namespace MASGAU.Location {
             RegistryHandler reg;
 
             // This handles if the root is a registry key
-            if (get_me.Key != null) {
+            if (!String.IsNullOrEmpty(get_me.Key)) {
                 reg = new RegistryHandler(get_me.Root, get_me.Key, false);
 
                 if (reg.key_found) {
                     try {
                         string path;
-                        if (get_me.Value == null)
+                        if (String.IsNullOrEmpty(get_me.Value))
                             path = reg.getValue("");
                         else
                             path = reg.getValue(get_me.Value);
 
-                        if (path != null) {
+                        if (!String.IsNullOrEmpty(path)) {
                             if (path.Contains("/"))
                                 path = path.Split('/')[0].Trim();
 

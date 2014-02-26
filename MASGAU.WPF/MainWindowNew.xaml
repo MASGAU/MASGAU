@@ -8,7 +8,7 @@
         xmlns:src="clr-namespace:MASGAU"
         Title="MASGAU" 
         x:Name="Window"
-        Width="{Binding WindowW, Mode=TwoWay}" Height="{Binding WindowH, Mode=TwoWay}" Left="{Binding WindowX, Mode=TwoWay}" WindowStyle="None" Background="Transparent"  Top="{Binding WindowY, Mode=TwoWay}" MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="800" MinHeight="550" WindowStartupLocation="CenterScreen">
+        Width="{Binding WindowW, Mode=TwoWay}" Height="{Binding WindowH, Mode=TwoWay}" Left="{Binding WindowX, Mode=TwoWay}" WindowStyle="None" Background="Transparent"  Top="{Binding WindowY, Mode=TwoWay}" MouseDown="Window_MouseDown" Closing="Window_Closing_1" MinWidth="810" MinHeight="550" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
             <Setter Property="Visibility" Value="Collapsed" />
@@ -276,7 +276,7 @@
         </w:CustomWindowBorder>
 
 
-        <Grid Name="AboutGrid"  Visibility="Collapsed" Opacity="0">
+        <Grid Name="AboutGrid"  Visibility="Collapsed" Opacity="100">
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="4*" />
@@ -289,24 +289,28 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
                 <ColumnDefinition Width="8*" />
+                <ColumnDefinition Width="7*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
             <Rectangle Grid.RowSpan="8" Grid.ColumnSpan="5" Fill="White" Opacity="0.75" Grid.Row="0" RadiusX="3" RadiusY="3" />
             <Image Source="/MASGAU.Common;Component/Images/flag.png" Grid.Row="1" Grid.Column="1" />
-            <Label Name="VersionLabel" Content="MASGAU Automatic Save Game Archive Utility v.9.9.9" Grid.Column="1" Grid.Row="2" FontSize="20" FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <ScrollViewer Grid.Row="1" Grid.Column="2" >
+                <StackPanel Name="ContributorStacker"/>
+            </ScrollViewer>
+            <Label Name="VersionLabel" Content="MASGAU Automatic Save Game Archive Utility v.9.9.9" Grid.Column="1" Grid.Row="2" FontSize="20" FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" />
 
-            <TextBlock HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="5" FontSize="20" VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="5" FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2">
                 <Hyperlink NavigateUri="http://masgau.org/" Name="masgauLink" RequestNavigate="gameSaveLink_RequestNavigate">
                     http://masgau.org/
                 </Hyperlink>
             </TextBlock>
 
-            <TextBlock HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="5" FontSize="20" FontWeight="Normal" VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="5" FontSize="20" FontWeight="Normal" VerticalAlignment="Center" Grid.ColumnSpan="2">
                 <Hyperlink NavigateUri="http://gamesave.info/" Name="gameSaveLink" RequestNavigate="gameSaveLink_RequestNavigate">
                     http://gamesave.info/
                 </Hyperlink>
             </TextBlock>
-            <w:SuperButton FontSize="18"  Grid.Column="1" Grid.Row="5" Name="AboutCloseButton" ImageSource="/WPF;Component/Images/face-monkey.png" Text="$AboutClose" Click="AboutCloseButton_Click"/>
+            <w:SuperButton FontSize="18"  Grid.Column="1" Grid.Row="5" Name="AboutCloseButton" ImageSource="/WPF;Component/Images/face-monkey.png" Text="$AboutClose" Click="AboutCloseButton_Click" Grid.ColumnSpan="2"/>
         </Grid>
 
         <Grid Name="AddGameGrid"  Visibility="Collapsed" Opacity="0">

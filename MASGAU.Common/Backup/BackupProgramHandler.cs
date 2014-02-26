@@ -36,7 +36,7 @@ namespace MASGAU.Backup {
 
         void BackupProgramHandler_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
             // Make this check for things errors so it can clean up after itself
-            if (output_path == null)
+            if (String.IsNullOrEmpty(output_path))
                 return;
             foreach (FileInfo delete_me in new DirectoryInfo(output_path).GetFiles("~*.tmp")) {
                 try {
@@ -51,8 +51,8 @@ namespace MASGAU.Backup {
         string output_path;
         void BackupProgramHandler_DoWork(object sender, DoWorkEventArgs e) {
 
-            if (Core.settings.IsBackupPathSet || archive_name_override != null) {
-                if (archive_name_override != null)
+            if (Core.settings.IsBackupPathSet || !String.IsNullOrEmpty(archive_name_override)) {
+                if (!String.IsNullOrEmpty(archive_name_override))
                     output_path = Path.GetDirectoryName(archive_name_override);
                 else
                     output_path = Core.settings.backup_path;
@@ -108,7 +108,7 @@ namespace MASGAU.Backup {
 
                                 archive_id = new ArchiveID(game.id, file);
 
-                                if (archive_name_override != null) {
+                                if (!String.IsNullOrEmpty(archive_name_override)) {
                                     if (override_archive == null)
                                         file.Type = null;
                                     override_archive = new Archive(new FileInfo(archive_name_override), new ArchiveID(game.id, file));

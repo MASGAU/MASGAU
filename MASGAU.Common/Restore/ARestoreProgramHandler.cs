@@ -53,7 +53,7 @@ namespace MASGAU.Restore {
             // Checks if the provided path is the original archive path
             if (location is DetectedLocationPathHolder) {
                 DetectedLocationPathHolder loc = location as DetectedLocationPathHolder;
-                if (archive.id.OriginalLocation != null && archive.id.OriginalLocation.ToLower() == loc.FullDirPath.ToLower()) {
+                if (!String.IsNullOrEmpty(archive.id.OriginalLocation) && archive.id.OriginalLocation.ToLower() == loc.FullDirPath.ToLower()) {
                     loc.MatchesOriginalPath = true;
                 }
             }
@@ -146,7 +146,7 @@ namespace MASGAU.Restore {
             //if(location.path==null)
             //continue;
 			
-            if (location.OnlyFor != null && location.OnlyFor != Core.locations.platform_version)
+            if (!String.IsNullOrEmpty(location.OnlyFor) && location.OnlyFor != Core.locations.platform_version)
                 return;
 
 			if (location.IsDeprecated)
@@ -287,12 +287,12 @@ namespace MASGAU.Restore {
             }
 
             if (archive.id.OriginalEV != EnvironmentVariable.None &&
-                archive.id.OriginalRelativePath != null) {
+                !String.IsNullOrEmpty(archive.id.OriginalRelativePath)) {
                 LocationPath path = new LocationPath(archive.id.OriginalEV, archive.id.OriginalRelativePath);
                 filterPathCandidates(path);
             }
 
-            if (archive.id.OriginalLocation != null) {
+            if (!String.IsNullOrEmpty(archive.id.OriginalLocation)) {
                 LocationsCollection locs = Core.locations.interpretPath(false,archive.id.OriginalLocation);
                 LocationPath loc = locs.getMostAccurateLocation();
                 if (loc != null) {

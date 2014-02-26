@@ -16,14 +16,17 @@ namespace MASGAU.Location.Holders {
 
         public DetectedLocationPathHolder(EnvironmentVariable ev, string absolute_root, string path, string owner)
             : base(ev, path) {
-            if (absolute_root == null)
+            if (String.IsNullOrEmpty(absolute_root))
                 throw new Exception("ABSOLUTE ROOT MUST BE PROVIDED");
             this.owner = owner;
 			this.AbsoluteRoot = absolute_root;
 
+            if (this.Exists) {
+                // This was added as a fix to take care of paths that have extra spaces in them for #106
+                DirectoryInfo full_dir = new DirectoryInfo(this.FullDirPath);
+                string fix_path = full_dir.FullName.Substring(absolute_root.Length).Trim(System.IO.Path.DirectorySeparatorChar);
+                this.ReplacePath(fix_path);
 
-
-			if (this.Exists) {
 				string[] parts = this.FullDirPath.Split(System.IO.Path.DirectorySeparatorChar);
 				DirectoryInfo dir = new DirectoryInfo(parts[0] + System.IO.Path.DirectorySeparatorChar);
 				int i = 1;
@@ -44,8 +47,8 @@ namespace MASGAU.Location.Holders {
 				}
 				string new_root = dir.FullName.Substring(0, absolute_root.Length).TrimEnd(System.IO.Path.DirectorySeparatorChar);
 				string new_path = dir.FullName.Substring(absolute_root.Length).Trim(System.IO.Path.DirectorySeparatorChar);
-				if(this.Path==null) {
-					if (this.Path == null && !String.IsNullOrEmpty(new_path) || this.AbsoluteRoot.ToLower() != new_root.ToLower()) {
+				if(String.IsNullOrEmpty(this.Path)) {
+					if (String.IsNullOrEmpty(this.Path) && !String.IsNullOrEmpty(new_path) || this.AbsoluteRoot.ToLower() != new_root.ToLower()) {
 						throw new Exceptions.WTFException(String.Concat(this.Path,new_path,this.AbsoluteRoot,new_root));
 					} 
 
@@ -66,7 +69,7 @@ namespace MASGAU.Location.Holders {
 
         public QuickHash RootHash {
             get {
-                if (AbsoluteRoot == null)
+                if (String.IsNullOrEmpty(AbsoluteRoot))
                     return null;
                 return new QuickHash(AbsoluteRoot);
             }
@@ -80,11 +83,11 @@ namespace MASGAU.Location.Holders {
         public string owner;
 
 
-        // Gets the full absolute path of the folfer
+        // Gets the full absolute path of the folder
         public string FullDirPath {
             get {
-                if (AbsoluteRoot != null && AbsoluteRoot != "") {
-                    if (Path == null || Path == "") {
+                if (!String.IsNullOrEmpty(AbsoluteRoot)) {
+                    if (String.IsNullOrEmpty(Path)) {
                         return AbsoluteRoot;
                     } else {
                         return System.IO.Path.Combine(AbsoluteRoot, Path);
@@ -142,7 +145,7 @@ namespace MASGAU.Location.Holders {
                     default:
                         throw new NotSupportedException(EV.ToString());
                 }
-                if (Path != null)
+                if (!String.IsNullOrEmpty(Path))
                     return_me = System.IO.Path.Combine(return_me, Path);
 
                 return return_me;

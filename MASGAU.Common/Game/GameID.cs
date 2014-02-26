@@ -72,13 +72,13 @@ namespace MASGAU {
             get {
                 StringBuilder return_me = new StringBuilder();
 
-                if (game.OS != null)
+                if (!String.IsNullOrEmpty(game.OS))
                     return_me.Append(" " + game.OS);
-                if (game.Platform != null)
+                if (!String.IsNullOrEmpty(game.Platform))
                     return_me.Append(" " + game.Platform);
-                if (game.Region != null)
+                if (!String.IsNullOrEmpty(game.Region))
                     return_me.Append(" " + game.Region);
-                if (game.Media != null)
+                if (!String.IsNullOrEmpty(game.Media))
                     return_me.Append(" " + game.Media);
 
                 return return_me.ToString();

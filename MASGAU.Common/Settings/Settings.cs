@@ -66,7 +66,7 @@ namespace MASGAU.Settings {
                     this.backup_path = adjustPortablePath(this.backup_path);
                 }
 
-                if (steam_override != null &&
+                if (!String.IsNullOrEmpty(steam_override) &&
                     this.steam_override != adjustPortablePath(this.steam_override)) {
                     this.steam_override = adjustPortablePath(this.steam_override);
                 }
@@ -163,7 +163,7 @@ namespace MASGAU.Settings {
 
         public bool IsBackupPathSet {
             get {
-                if (backup_path != null)
+                if (!String.IsNullOrEmpty(backup_path))
                     return true;
                 else
                     return false;
@@ -345,7 +345,7 @@ namespace MASGAU.Settings {
         }
         public bool sync_path_set {
             get {
-                return sync_path != null;
+                return !String.IsNullOrEmpty(sync_path);
             }
         }
         public string sync_path {

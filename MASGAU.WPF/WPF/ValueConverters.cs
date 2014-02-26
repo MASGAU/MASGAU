@@ -77,7 +77,7 @@ namespace MASGAU {
             string path = (string)value;
             string retval;
 
-            if (path == null)
+            if (String.IsNullOrEmpty(path))
                 retval = "Not Set";
             else
                 retval = path;
@@ -102,7 +102,7 @@ namespace MASGAU {
             string original = (string)value;
             long return_me;
 
-            if (original == "") {
+            if (String.IsNullOrEmpty(original)) {
                 return_me = 0;
             } else {
                 try {

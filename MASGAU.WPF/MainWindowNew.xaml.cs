@@ -61,6 +61,7 @@ namespace MASGAU.Main {
 
             masgau = new MainProgramHandler(new Location.LocationsHandler());
             setupJumpList();
+            PopulateContributorList();
         }
 
         #region Window event handlers
@@ -70,6 +71,17 @@ namespace MASGAU.Main {
         #endregion
 
         #region Program handler setup
+        protected void PopulateContributorList() {
+            System.Windows.Controls.Label new_label;
+            ContributorStacker.Children.Clear();
+            foreach (string contributor in this.masgau.contributions.Keys) {
+                new_label = new System.Windows.Controls.Label();
+                new_label.Content = String.Concat(contributor, " - ", this.masgau.contributions[contributor]);
+
+                ContributorStacker.Children.Add(new_label);
+            }
+        }
+
         protected virtual void WindowLoaded(object sender, System.Windows.RoutedEventArgs e) {
             if (!Core.Ready) {
                 this.Close();

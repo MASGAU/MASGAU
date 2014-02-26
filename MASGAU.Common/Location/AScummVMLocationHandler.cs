@@ -50,7 +50,7 @@ namespace MASGAU.Location {
             if (Locations == null) {
                 setup();
             }
-            if (install_path != null) {
+            if (!String.IsNullOrEmpty(install_path)) {
                 paths.AddRange(loadLocations(install_path, get_me, null));
             }
 

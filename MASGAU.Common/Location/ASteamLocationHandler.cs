@@ -1,4 +1,5 @@
-﻿using VDF;
+﻿using System;
+using VDF;
 namespace MASGAU.Location {
     public abstract class ASteamLocationHandler : ALocationHandler {
         // The paths
@@ -17,7 +18,7 @@ namespace MASGAU.Location {
 
         public bool found {
             get {
-                if (steam_path != null)
+                if (!String.IsNullOrEmpty(steam_path))
                     return true;
                 else
                     return false;
@@ -32,7 +33,7 @@ namespace MASGAU.Location {
 
         public override bool ready {
             get {
-                if (path == null) {
+                if (String.IsNullOrEmpty(path)) {
                     return false;
                 } else {
                     return true;

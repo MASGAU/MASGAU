@@ -12,7 +12,7 @@ namespace MASGAU {
         public readonly String Type;
         public QuickHash OriginalLocationhHash {
             get {
-                if (OriginalLocation == null)
+                if (String.IsNullOrEmpty(OriginalLocation))
                     return null;
                 return new QuickHash(OriginalLocation);
             }
@@ -22,7 +22,7 @@ namespace MASGAU {
         public readonly String OriginalRelativePath;
         public String OriginalDrive {
             get {
-                if (OriginalLocation != null)
+                if (!String.IsNullOrEmpty(OriginalLocation))
                     return Path.GetPathRoot(OriginalLocation);
                 return null;
             }
@@ -87,7 +87,7 @@ namespace MASGAU {
 
             doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
 
-            if (Owner != null) {
+            if (!String.IsNullOrEmpty(Owner)) {
                 node = doc.CreateElement("owner");
                 attribute = doc.CreateAttribute("name");
                 attribute.Value = Owner;
@@ -95,7 +95,7 @@ namespace MASGAU {
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
 
-            if (Type != null) {
+            if (!String.IsNullOrEmpty(Type)) {
                 node = doc.CreateElement("archive");
                 attribute = doc.CreateAttribute("type");
                 attribute.Value = Type.ToString();
@@ -108,17 +108,17 @@ namespace MASGAU {
                 node.InnerText = OriginalLocationhHash.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
-            if (OriginalLocation != null) {
+            if (!String.IsNullOrEmpty(OriginalLocation)) {
                 node = doc.CreateElement("original_location");
                 node.InnerText = OriginalLocation.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
-            if (OriginalDrive != null) {
+            if (!String.IsNullOrEmpty(OriginalDrive)) {
                 node = doc.CreateElement("original_drive");
                 node.InnerText = OriginalDrive.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);
             }
-            if (OriginalRelativePath != null) {
+            if (!String.IsNullOrEmpty(OriginalRelativePath)) {
                 node = doc.CreateElement("original_relative_path");
                 node.InnerText = OriginalRelativePath.ToString();
                 doc.DocumentElement.InsertAfter(node, doc.DocumentElement.LastChild);

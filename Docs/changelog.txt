@@ -1,4 +1,4 @@
-=1.0.8 (1/28/2014)=
+=1.0.8 (2/26/2014)=
 * AdmiringWorm fixed the "Identity Not Mapped" exception!
 * Added a debug setting that causes MASGAU to provide progress info that is less human-friendly, but more useful for diagnosing issues.
 * AdmiringWork resolved an issue with the XML file permission correction code introduced last version, fixing #96.
@@ -13,6 +13,8 @@
 * Changed the add game screen so that hitting cancel in the folder browser doesn't clear out any already selected paths
 * Changed the submit button to also allow submitting reports of any selected game, and of any path the user cares to submit for #62
 * Added steam libraries and alt save paths to the folder select menus when adding games or submitting other paths
+* Added the same quick-folder drop down used on the add game screen to the restore windows "other location" button, to allow choosing that "other location" to be so much easier
+* Resolved an issue causing start-up errors when a game's path definition had an extra space at the end for #106
 
 =1.0.6=
 * Resolves a potential permissions issue with updated XML files in multi-user environments

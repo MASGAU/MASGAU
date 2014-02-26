@@ -14,6 +14,8 @@ using MVC.Translator;
 using MVC.WPF;
 using Translator;
 using Translator.WPF;
+using MASGAU.Location;
+using SMJ.WPF;
 namespace MASGAU.Restore {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -43,6 +45,17 @@ namespace MASGAU.Restore {
         }
 
         protected override void WindowLoaded(object sender, RoutedEventArgs e) {
+
+            choosePathButton.clearOptions();
+
+            foreach (QuickBrowsePath path in Core.locations.QuickBrowsePaths) {
+                ComboBoxItem item = new ComboBoxItem();
+                item.Content = path.Name;
+                item.Tag = path;
+                choosePathButton.addOption(item, new EventHandler(folderPick));
+            }
+
+
             flipper.Add(ProgressBox);
             flipper.Add(selectFilesGroup);
             flipper.Add(LocationGrid);
@@ -80,7 +93,7 @@ namespace MASGAU.Restore {
             restoreButton.Visibility = System.Windows.Visibility.Visible;
             choosePathButton.Visibility = System.Windows.Visibility.Visible;
 
-            if (restore.RestoreComment != null) {
+            if (!String.IsNullOrEmpty(restore.RestoreComment)) {
                 restoreDoneText.Text = restore.RestoreComment + Environment.NewLine + Environment.NewLine + Strings.GetLabelString("RestoreCompleteWithComment");
             }
 
@@ -316,10 +329,24 @@ namespace MASGAU.Restore {
 
         }
 
-        private void choosePathButton_Click(object sender, RoutedEventArgs e) {
+        private void choosePathButton_Click(object sender, EventArgs e) {
+            folderPick(null, null);
+        } 
+        private void folderPick(object sender, EventArgs e) {
             string target = null;
-            target = this.promptForPath(Strings.GetLabelString("RestoreLocationChoice"), Environment.SpecialFolder.MyComputer, null);
-            if (target != null) {
+
+            if (e != null) {
+                SuperButtonEventArgs ev = (SuperButtonEventArgs)e;
+                ComboBoxItem item = (ComboBoxItem)ev.SelectedItem;
+                target = openFolderPicker(item.Tag, Strings.GetLabelString("RestoreLocationChoice"));
+            } else {
+                target = openFolderPicker(null, Strings.GetLabelString("RestoreLocationChoice"));
+            }
+
+
+
+            //target = this.promptForPath(Strings.GetLabelString("RestoreLocationChoice"), Environment.SpecialFolder.MyComputer, null);
+            if (!String.IsNullOrEmpty(target)) {
                 restore.addPathCandidate(new ManualLocationPathHolder(target));
                 refreshPaths();
             }

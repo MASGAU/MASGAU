@@ -43,7 +43,7 @@ namespace MASGAU.Main {
 
                 if (selected_files.Count > 0) {
                     string initial_directory;
-                    if (last_archive_create == null) {
+                    if (String.IsNullOrEmpty(last_archive_create)) {
                         initial_directory = Core.settings.backup_path;
                     } else {
                         initial_directory = last_archive_create;

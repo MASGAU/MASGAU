@@ -1,4 +1,5 @@
-﻿using MASGAU.Registry;
+﻿using System;
+using MASGAU.Registry;
 using MVC;
 namespace MASGAU {
     public class StartupHelper : ANotifyingObject {
@@ -13,14 +14,14 @@ namespace MASGAU {
 
         public bool IsEnabled {
             get {
-                return reg.getValue(name) != null;
+                return !String.IsNullOrEmpty(reg.getValue(name));
             }
             set {
                 if (value) {
                     if (!reg.setValue(name, program))
                         throw new Translator.TranslateableException("AutoStartEnableError");
                 } else {
-                    if (reg.getValue(name) != null) {
+                    if (!String.IsNullOrEmpty(reg.getValue(name))) {
                         reg.deleteValue(name);
                     }
                 }

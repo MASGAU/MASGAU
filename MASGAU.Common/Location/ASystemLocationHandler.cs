@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using GameSaveInfo;
 using MASGAU.Location.Holders;
@@ -71,7 +72,7 @@ namespace MASGAU.Location {
                 case EnvironmentVariable.AltSavePaths:
                     foreach (AltPathHolder alt_path in Core.settings.save_paths) {
                         if (PermissionsHelper.isReadable(alt_path.path)) {
-                            if (get_me.Path != null && get_me.Path.Length > 0)
+                            if (!String.IsNullOrEmpty(get_me.Path))
                                 test = new DirectoryInfo(Path.Combine(alt_path.path, get_me.Path));
                             else
                                 test = new DirectoryInfo(alt_path.path);
@@ -86,7 +87,7 @@ namespace MASGAU.Location {
                     break;
                 case EnvironmentVariable.Drive:
                     foreach (string drive in drives) {
-                        if (get_me.Path != null && get_me.Path.Length > 0)
+                        if (!String.IsNullOrEmpty(get_me.Path))
                             test = new DirectoryInfo(Path.Combine(drive, get_me.Path));
                         else
                             test = new DirectoryInfo(drive);

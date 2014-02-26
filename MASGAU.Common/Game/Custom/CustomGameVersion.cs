@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Xml;
 using GameSaveInfo;
 using MASGAU.Location;
@@ -36,7 +37,7 @@ namespace MASGAU {
             string path, file;
             Include save;
 
-            if (saves != null && ignores != "") {
+            if (!String.IsNullOrEmpty(saves)) {
                 path = Path.GetDirectoryName(saves);
                 file = Path.GetFileName(saves);
                 save = type.addSave(path, file);
@@ -44,13 +45,13 @@ namespace MASGAU {
                 save = type.addSave(null, null);
             }
 
-            if (ignores != null && ignores != "") {
+            if (!String.IsNullOrEmpty(ignores)) {
                 path = Path.GetDirectoryName(ignores);
                 file = Path.GetFileName(ignores);
                 Exclude except = save.addExclusion(path, file);
             }
 
-            if (Core.settings.EmailSender != null)
+            if (!String.IsNullOrEmpty(Core.settings.EmailSender))
                 this.Contributors.Add(Core.settings.EmailSender);
             else
                 this.Contributors.Add("Anonymous");
