@@ -109,9 +109,11 @@ namespace MASGAU.Backup {
                                 archive_id = new ArchiveID(game.id, file);
 
                                 if (!String.IsNullOrEmpty(archive_name_override)) {
-                                    if (override_archive == null)
+                                    if (override_archive == null) {
                                         file.Type = null;
-                                    override_archive = new Archive(new FileInfo(archive_name_override), new ArchiveID(game.id, file));
+                                        override_archive = new Archive(new FileInfo(archive_name_override),
+										    new ArchiveID(game.id, file));
+									}
                                     archive = override_archive;
                                 } else {
                                     if (Archives.Get(archive_id) == null) {
