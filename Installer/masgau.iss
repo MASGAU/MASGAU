@@ -1,5 +1,5 @@
 #define MyAppName "MASGAU"
-#define MyAppVersion "1.0.7"
+#define MyAppVersion "1.0.8"
 #define MyAppPublisher "Matthew Barbour"
 #define MyAppURL "http://masgau.org/"
 #define Mode "Debug"
